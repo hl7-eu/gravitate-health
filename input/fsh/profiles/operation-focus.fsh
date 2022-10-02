@@ -1,14 +1,14 @@
-Instance: calculate
+Instance: focus
 InstanceOf: OperationDefinition
 Usage: #definition
-* url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/calculate"
-* name = "calculate"
-* title = "calculate"
+* url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/focus"
+* name = "focus"
+* title = "focus"
 * status = #active
 * kind = #operation
-* description = "This operation calculates an enhanced version of an ePI as well as "
+* description = "This operation calculates an enhanced version of an ePI as well as the separate extracts."
 * affectsState = false
-* code = #calculate
+* code = #focus
 * system = true
 * type = false
 * instance = false
