@@ -26,14 +26,14 @@ Usage: #definition
 * parameter[=].documentation = "ePI identifier Bundle"
 * parameter[=].type = #Bundle
 
-* parameter[+].name = #return
+* parameter[+].name = #returnEpi
 * parameter[=].use = #out
 * parameter[=].min = 1
 * parameter[=].max = "1"
 * parameter[=].documentation = "Enhanced epi Bundle"
 * parameter[=].type = #Bundle
 
-* parameter[+].name = #return
+* parameter[+].name = #returnEpiExtracts
 * parameter[=].use = #out
 * parameter[=].min = 1
 * parameter[=].max = "1"
