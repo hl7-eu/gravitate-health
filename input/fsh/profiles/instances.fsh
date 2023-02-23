@@ -17,8 +17,8 @@ Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"
 * extension.extension[0].valueString = "theConcept"
 * extension.extension[=].url = "elementClass"
-* extension.extension[+].valueCodeableConcept.coding[0] = http://hl7.org/fhir/sid/icd-10#E109
-* extension.extension[=].valueCodeableConcept.coding[+] = http://snomed.info/sct#46635009
+* extension.extension[+].valueCodeableReference.concept.coding[0] = http://hl7.org/fhir/sid/icd-10#E109
+* extension.extension[=].valueCodeableReference.concept.coding[+] = http://snomed.info/sct#46635009
 * extension.extension[=].url = "concept"
 * extension.url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/htmlElementLink"
 * identifier.system = "https://spor.ema.europa.eu/rmswi"
@@ -96,6 +96,8 @@ Usage: #example
 * entry[=].resource = e63f72b2-993f-48b1-b7cb-539b1ed71571-afterFocus
 * entry[+].fullUrl = "urn:uuid:d71bf884-90eb-47f9-81b7-fa81ecec7e75"
 * entry[=].resource = d71bf884-90eb-47f9-81b7-fa81ecec7e75
+* entry[+].fullUrl = "urn:uuid:800a51a2-d81d-49a4-a4eb-f2417d301837"
+* entry[=].resource = 800a51a2-d81d-49a4-a4eb-f2417d301837
 
 Instance: e63f72b2-993f-48b1-b7cb-539b1ed71571-afterFocus
 InstanceOf: Composition
@@ -103,12 +105,12 @@ Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"
 * extension.extension[0].valueString = "theConcept1"
 * extension.extension[=].url = "elementClass"
-* extension.extension[+].valueCodeableConcept.coding[0] = http://hl7.org/fhir/sid/icd-10#E109
-* extension.extension[=].valueCodeableConcept.coding[+] = http://snomed.info/sct#46635009
+* extension.extension[+].valueCodeableReference.concept.coding[0] = http://hl7.org/fhir/sid/icd-10#E109
+* extension.extension[=].valueCodeableReference.concept.coding[+] = http://snomed.info/sct#46635009
 * extension.extension[=].url = "concept"
 * extension.extension[1].valueString = "theConcept2"
 * extension.extension[=].url = "elementClass"
-* extension.extension[+].valueCodeableConcept.coding[0] = http://snomed.info/sct#190751001
+* extension.extension[+].valueCodeableReference.reference = Reference(MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837)
 * extension.extension[=].url = "concept"
 * extension.url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/htmlElementLink"
 * identifier.system = "https://spor.ema.europa.eu/rmswi"
@@ -190,3 +192,55 @@ Usage: #inline
 * contact.address.line = "60, rue La Boétie F-75008"
 * contact.address.city = "Lion"
 * contact.address.country = "FR"
+
+
+Instance: cava75mgblisterx28
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product cava 75 mg tablet in blister pack of 28 tablets"
+Description: "EU/1/97/049/001 cava 75 mg tablet blister x28"
+Usage: #example
+
+* id = "800a51a2-d81d-49a4-a4eb-f2417d301837"
+* identifier.system = $spor-prod
+* identifier.value = "4471bb15-7f52-4fcd-b615-8674ce6eb91e"
+
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct
+* type.text = "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human
+* domain.text = "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "Active"
+
+* legalStatusOfSupply = $spor-rms#100000072084
+* legalStatusOfSupply.text = "Medicinal product subject to medical prescription"
+
+* name
+  * productName = "cava 75 mg tablet blister x28"
+  * type = $spor-productNamePartType-cs#220000000001
+    * text = "Full name"
+  
+  * part[0]
+    * part = "cava"
+    * type = $spor-productNamePartType-cs#220000000002
+    * type.text = "Invented name part"
+  
+  * part[+]
+    * part = "irbesartan"
+    * type = $spor-productNamePartType-cs#220000000003
+    * type.text = "Scientific name part"
+  
+  * part[+]
+    * part = "75 mg"
+    * type = $spor-productNamePartType-cs#220000000004
+    * type.text = "Strength part"
+  
+  * part[+]
+    * part = "tablet"
+    * type = $spor-productNamePartType-cs#220000000005
+    * type.text = "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK
+    * jurisdiction = urn:iso:std:iso:3166#DK
+    * language = urn:ietf:bcp:47#en
