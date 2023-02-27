@@ -108,7 +108,7 @@ Usage: #inline
 * extension.extension[+].valueCodeableReference.concept.coding[0] = http://hl7.org/fhir/sid/icd-10#E109
 * extension.extension[=].valueCodeableReference.concept.coding[+] = http://snomed.info/sct#46635009
 * extension.extension[=].url = "concept"
-* extension.extension[1].valueString = "theConcept2"
+* extension.extension[2].valueString = "theConcept2"
 * extension.extension[=].url = "elementClass"
 * extension.extension[+].valueCodeableReference.reference = Reference(MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837)
 * extension.extension[=].url = "concept"
