@@ -98,6 +98,8 @@ Usage: #example
 * entry[=].resource = d71bf884-90eb-47f9-81b7-fa81ecec7e75
 * entry[+].fullUrl = "urn:uuid:800a51a2-d81d-49a4-a4eb-f2417d301837"
 * entry[=].resource = 800a51a2-d81d-49a4-a4eb-f2417d301837
+* entry[+].fullUrl = "urn:uuid:83f4a22f-9e5e-4941-9fdb-339a0f1f2055"
+* entry[=].resource = 83f4a22f-9e5e-4941-9fdb-339a0f1f2055
 
 Instance: e63f72b2-993f-48b1-b7cb-539b1ed71571-afterFocus
 InstanceOf: Composition
@@ -113,7 +115,7 @@ Usage: #inline
 * extension[=].extension[0].url = "elementClass"
 * extension[=].extension[=].valueString = "theConcept2"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.reference.reference = "MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837"
+* extension[=].extension[=].valueCodeableReference.reference.reference = "ClinicalUseDefinition/83f4a22f-9e5e-4941-9fdb-339a0f1f2055"
 * identifier.system = "https://spor.ema.europa.eu/rmswi"
 * identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4f"
 * status = #final
@@ -193,6 +195,25 @@ Usage: #inline
 * contact.address.line = "60, rue La Boétie F-75008"
 * contact.address.city = "Lion"
 * contact.address.country = "FR"
+
+Instance: contraindication
+InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
+Description: "Contraindication - Gastrointestinal disorders"
+Usage: #example
+
+* id = "83f4a22f-9e5e-4941-9fdb-339a0f1f2055"
+
+* identifier.system = "https://spor.ema.europa.eu/rmswi#"
+* identifier.value = "Gastrointestinal disorders"
+* identifier.use = #official
+
+* type = #contraindication
+
+// Reference to MedicinalProductDefinition: EU/1/97/049/001 cava 75 mg tablet blister x28
+* subject = Reference(cava75mgblisterx28)
+
+* contraindication
+  * diseaseSymptomProcedure.concept.coding = $meddra#10012601 "Diabetis Mellitus"
 
 
 Instance: cava75mgblisterx28
