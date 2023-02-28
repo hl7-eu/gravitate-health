@@ -15,11 +15,17 @@ Instance: e63f72b2-993f-48b1-b7cb-539b1ed71571-beforeFocus
 InstanceOf: Composition
 Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"
-* extension.extension[0].valueString = "theConcept"
-* extension.extension[=].url = "elementClass"
-* extension.extension[+].valueCodeableReference.concept.coding[0] = http://hl7.org/fhir/sid/icd-10#E109
-* extension.extension[=].valueCodeableReference.concept.coding[+] = http://snomed.info/sct#46635009
-* extension.extension[=].url = "concept"
+* extension[0].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/htmlElementLink"
+* extension[=].extension[0].url = "elementClass"
+* extension[=].extension[=].valueString = "theConcept1"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding[0] = http://hl7.org/fhir/sid/icd-10#E109
+* extension[=].extension[=].valueCodeableReference.concept.coding[+] = http://snomed.info/sct#46635009
+* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/htmlElementLink"
+* extension[=].extension[0].url = "elementClass"
+* extension[=].extension[=].valueString = "theConcept2"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.reference.reference = "ClinicalUseDefinition/83f4a22f-9e5e-4941-9fdb-339a0f1f2055"
 * extension.url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/htmlElementLink"
 * identifier.system = "https://spor.ema.europa.eu/rmswi"
 * identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4f"
