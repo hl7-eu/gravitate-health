@@ -31,9 +31,14 @@ services:
       - hapi.fhir.implementationguides.epi.name=hl7.fhir.uv.emedicinal-product-info
       - hapi.fhir.implementationguides.epi.version=1.0.0-ballot
       - hapi.fhir.implementationguides.epi.url=http://build.fhir.org/ig/HL7/emedicinal-product-info/package.tgz
-  ember:
+  ember-gh:
     image: jkiddo/ember:latest
     environment:
       - location=http://build.fhir.org/ig/hl7-eu/gravitate-health/package.tgz
-      - serverBase=http://fhir-server:8080/fhir%    
+      - serverBase=http://fhir-server:8080/fhir
+  ember-epi:
+    image: jkiddo/ember:latest
+    environment:
+      - location=http://build.fhir.org/ig/HL7/emedicinal-product-info/package.tgz
+      - serverBase=http://fhir-server:8080/fhir
 ```
