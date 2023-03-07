@@ -10,7 +10,7 @@ The intention of this IG is act as the link between the ePI data and the IPS dat
 
 A FHIR server can be set up using the `docker compose` setup below that installs the ePI IG and feeds it with the sample data from this IG.
 
-Existing IPS servers can be found at e.g. http://conman.clinfhir.com/?event=con32 (look for IPS servers). One such example can be invoked using the `$summary` operation (see example below). Be aware that while this IG and the ePI IG is FHIR version 5, IPS is currently FHIR version 4.
+Existing IPS servers can be found here (https://ips.health/) or at e.g. http://conman.clinfhir.com/?event=con32 (look for IPS servers). One such example can be invoked using the `$summary` operation (see example below). Be aware that while this IG and the ePI IG is FHIR version 5, IPS is currently FHIR version 4.
 
 ```
 curl -X POST 'https://gravitate-ips.gravitate.tcs.trifork.dev/fhir/Patient/$summary' -H 'Content-Type: application/json' -d '{"parameter":[{"name":"identifier","valueIdentifier":{"system":"urn:oid:1.2.208.176.1.2","value":"0101010101"}}],"resourceType":"Parameters"}'
