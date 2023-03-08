@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "53b5a470-60a1-4d37-9cf3-2ec026b47639",
+		"_postman_id": "bfbaf8cc-61a7-4008-87ae-44b575cbab9a",
 		"name": "IPS",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "23300009"
+		"_exporter_id": "4210861"
 	},
 	"item": [
 		{
@@ -21,19 +21,65 @@
 					}
 				},
 				"url": {
-					"raw": "https://gravitate-ips.gravitate.tcs.trifork.dev/fhir/Patient/$summary",
-					"protocol": "https",
+					"raw": "{{server}}/Patient/$summary",
 					"host": [
-						"gravitate-ips",
-						"gravitate",
-						"tcs",
-						"trifork",
-						"dev"
+						"{{server}}"
 					],
 					"path": [
-						"fhir",
 						"Patient",
 						"$summary"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Allergies",
+			"protocolProfileBehavior": {
+				"disableUrlEncoding": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/AllergyIntolerance?patient=urn%3Aoid%3A1.2.208.176.1.2%7C0101010101",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"AllergyIntolerance"
+					],
+					"query": [
+						{
+							"key": "patient",
+							"value": "urn%3Aoid%3A1.2.208.176.1.2%7C0101010101"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Medication Request",
+			"protocolProfileBehavior": {
+				"disableUrlEncoding": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/MedicationRequest?patient=urn%3Aoid%3A1.2.208.176.1.2%7C0101010101",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"MedicationRequest"
+					],
+					"query": [
+						{
+							"key": "patient",
+							"value": "urn%3Aoid%3A1.2.208.176.1.2%7C0101010101"
+						}
 					]
 				}
 			},

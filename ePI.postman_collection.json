@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "bbb9359f-ebc1-46a2-ae35-cd89aba916d0",
-		"name": "ePI interactions",
+		"_postman_id": "df99fc75-bd61-4e41-b2ca-c5e9d0fcf8ae",
+		"name": "ePI",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "23300009"
+		"_exporter_id": "4210861"
 	},
 	"item": [
 		{
@@ -12,14 +12,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/fhir/Bundle?identifier=https%3A%2F%2Fwww.gravitatehealth.eu%2Fsid%2Fdoc%7CEU%2F1%2F96%2F007%2F035",
-					"protocol": "http",
+					"raw": "{{server}}/Bundle?identifier=https%3A%2F%2Fwww.gravitatehealth.eu%2Fsid%2Fdoc%7CEU%2F1%2F96%2F007%2F035",
 					"host": [
-						"localhost"
+						"{{server}}"
 					],
-					"port": "8080",
 					"path": [
-						"fhir",
 						"Bundle"
 					],
 					"query": [
@@ -39,14 +36,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/fhir/Composition?identifier=https%3A%2F%2Fspor.ema.europa.eu%2Frmswi%7C0d69fdcb-33cf-407f-8209-a6529856ab4f",
-					"protocol": "http",
+					"raw": "{{server}}/Composition?identifier=https%3A%2F%2Fspor.ema.europa.eu%2Frmswi%7C0d69fdcb-33cf-407f-8209-a6529856ab4f",
 					"host": [
-						"localhost"
+						"{{server}}"
 					],
-					"port": "8080",
 					"path": [
-						"fhir",
 						"Composition"
 					],
 					"query": [
@@ -57,6 +51,33 @@
 					]
 				},
 				"description": "Run docker compose on the following\n\nversion: \"3.9\"services: fhir-server: image: hapiproject/hapi:v6.4.0 ports: - \"8080:8080\" environment: - hapi.fhir.install_transitive_ig_dependencies=false - hapi.fhir.fhir_version=R5 - hapi.fhir.implementationguides.epi.name=hl7.fhir.uv.emedicinal-product-info - hapi.fhir.implementationguides.epi.version=1.0.0-ballot - hapi.fhir.implementationguides.epi.url=http://build.fhir.org/ig/HL7/emedicinal-product-info/package.tgz ember: image: jkiddo/ember:latest environment: - location=http://build.fhir.org/ig/hl7-eu/gravitate-health/package.tgz - serverBase=http://fhir-server:8080/fhir"
+			},
+			"response": []
+		},
+		{
+			"name": "Find ContraIndication for a product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/ClinicalUseDefinition?subject=MedicinalProductDefinition/mpa2bd0171a7654dc24f7eb7e9338e1acc&type=contraindication",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"ClinicalUseDefinition"
+					],
+					"query": [
+						{
+							"key": "subject",
+							"value": "MedicinalProductDefinition/mpa2bd0171a7654dc24f7eb7e9338e1acc"
+						},
+						{
+							"key": "type",
+							"value": "contraindication"
+						}
+					]
+				}
 			},
 			"response": []
 		}
