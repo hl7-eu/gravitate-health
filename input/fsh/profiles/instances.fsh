@@ -1,3 +1,29 @@
+Instance: capabilityStatement
+InstanceOf: CapabilityStatement
+Usage: #definition
+* name = "FOSPS FHIR G-Lens service"
+* status = #active
+* date = "2023-03-26"
+* kind = #instance
+* experimental = true
+* description = "This capability statement documents and outlines the FHIR interfaces exposed by the Gravitate Health FOSPS service. See more on https://www.gravitatehealth.eu/"
+* software.name = "FOSPS FHIR Server"
+* software.version = "1.0.0"
+* fhirVersion = #5.0.0-snapshot2
+* format[0] = #application/fhir+xml
+* format[+] = #xml
+* format[+] = #application/fhir+json
+* format[+] = #json
+* format[+] = #html/json
+* format[+] = #html/xml
+* rest.mode = #server
+* rest.resource.type = #OperationDefinition
+* rest.resource.profile = "http://hl7.org/fhir/StructureDefinition/OperationDefinition"
+* rest.resource.interaction.code = #read
+* rest.resource.searchInclude = "*"
+* rest.operation.name = "focus"
+* rest.operation.definition = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/focus"
+
 Instance: bundlepackageleaflet75
 InstanceOf: Bundle
 Usage: #example
@@ -32,7 +58,7 @@ Usage: #inline
 * status = #final
 * type = https://spor.ema.europa.eu/rmswi#100000155538
 * type.text = "Package Leaflet"
-* subject = Reference(MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837)
+* subject = Reference(MedicinalProductDefinition/cava75mgblisterx28)
 * date = "2022-02-16T13:28:17Z"
 * author = Reference(d71bf884-90eb-47f9-81b7-fa81ecec7e75)
 * title = "TEST PURPOSES ONLY - cava (irbesartan) 75 mg tablets"
@@ -102,8 +128,8 @@ Usage: #example
 * entry[=].resource = e63f72b2-993f-48b1-b7cb-539b1ed71571-afterFocus
 * entry[+].fullUrl = "urn:uuid:d71bf884-90eb-47f9-81b7-fa81ecec7e75"
 * entry[=].resource = d71bf884-90eb-47f9-81b7-fa81ecec7e75
-* entry[+].fullUrl = "urn:uuid:800a51a2-d81d-49a4-a4eb-f2417d301837"
-* entry[=].resource = 800a51a2-d81d-49a4-a4eb-f2417d301837
+* entry[+].fullUrl = "urn:uuid:cava75mgblisterx28"
+* entry[=].resource = cava75mgblisterx28
 * entry[+].fullUrl = "urn:uuid:83f4a22f-9e5e-4941-9fdb-339a0f1f2055"
 * entry[=].resource = 83f4a22f-9e5e-4941-9fdb-339a0f1f2055
 
@@ -127,7 +153,7 @@ Usage: #inline
 * status = #final
 * type = https://spor.ema.europa.eu/rmswi#100000155538
 * type.text = "Package Leaflet"
-* subject = Reference(MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837)
+* subject = Reference(MedicinalProductDefinition/cava75mgblisterx28)
 * date = "2022-02-16T13:28:17Z"
 * author = Reference(d71bf884-90eb-47f9-81b7-fa81ecec7e75)
 * title = "TEST PURPOSES ONLY - cava (irbesartan) 75 mg tablets"
@@ -223,12 +249,11 @@ Usage: #example
 
 
 Instance: cava75mgblisterx28
-InstanceOf: MedicinalProductDefinitionUvEpi
+InstanceOf: MedicinalProductDefinition-uv-epi
 Title: "Medicinal Product cava 75 mg tablet in blister pack of 28 tablets"
 Description: "EU/1/97/049/001 cava 75 mg tablet blister x28"
 Usage: #example
 
-* id = "800a51a2-d81d-49a4-a4eb-f2417d301837"
 * identifier.system = $spor-prod
 * identifier.value = "4471bb15-7f52-4fcd-b615-8674ce6eb91e"
 

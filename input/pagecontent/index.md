@@ -45,7 +45,7 @@ All resources should be considered out of scope unless explicitly mentioned in t
 
 ### Relationships with Other Projects and Guidelines
 
-[Vulcan FHIR eProduct Info (ePI)](http://build.fhir.org/ig/HL7/vulcan-eproduct-info)
+[Vulcan FHIR eProduct Info (ePI)](http://build.fhir.org/ig/HL7/emedicinal-product-info)
 
 [Innovative Medicines Initiative (IMI) Gravitate-Health](https://www.imi.europa.eu/projects-results/project-factsheets/gravitate-health)
 
