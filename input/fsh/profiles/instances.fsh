@@ -1,7 +1,7 @@
 Instance: bundlepackageleaflet75
 InstanceOf: Bundle
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"
+* meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc"
 * identifier.value = "EU/1/96/007/035"
 * type = #document
@@ -14,19 +14,19 @@ Usage: #example
 Instance: e63f72b2-993f-48b1-b7cb-539b1ed71571-beforeFocus
 InstanceOf: Composition
 Usage: #inline
-* meta.profile = "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"
-* extension[0].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/htmlElementLink"
+* meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
+* extension[0].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[0].url = "elementClass"
 * extension[=].extension[=].valueString = "theConcept1"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding[0] = http://hl7.org/fhir/sid/icd-10#E109
 * extension[=].extension[=].valueCodeableReference.concept.coding[+] = http://snomed.info/sct#46635009
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/htmlElementLink"
+* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[0].url = "elementClass"
 * extension[=].extension[=].valueString = "theConcept2"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.reference.reference = "ClinicalUseDefinition/83f4a22f-9e5e-4941-9fdb-339a0f1f2055"
-* extension.url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/htmlElementLink"
+* extension.url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * identifier.system = "https://spor.ema.europa.eu/rmswi"
 * identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4f"
 * status = #final
@@ -93,7 +93,7 @@ Usage: #inline
 Instance: bundlepackageleaflet75af
 InstanceOf: Bundle
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"
+* meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc"
 * identifier.value = "EU/1/96/007/035"
 * type = #document
@@ -110,14 +110,14 @@ Usage: #example
 Instance: e63f72b2-993f-48b1-b7cb-539b1ed71571-afterFocus
 InstanceOf: Composition
 Usage: #inline
-* meta.profile = "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"
-* extension[0].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/htmlElementLink"
+* meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
+* extension[0].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[0].url = "elementClass"
 * extension[=].extension[=].valueString = "theConcept1"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding[0] = http://hl7.org/fhir/sid/icd-10#E109
 * extension[=].extension[=].valueCodeableReference.concept.coding[+] = http://snomed.info/sct#46635009
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/htmlElementLink"
+* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[0].url = "elementClass"
 * extension[=].extension[=].valueString = "theConcept2"
 * extension[=].extension[+].url = "concept"
@@ -187,7 +187,7 @@ Usage: #inline
 Instance: d71bf884-90eb-47f9-81b7-fa81ecec7e75
 InstanceOf: Organization
 Usage: #inline
-* meta.profile = "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"
+* meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"
 * identifier.use = #official
 * identifier.system = "https://spor.ema.europa.eu/omswi"
 * identifier.value = "ORG-100000789"
