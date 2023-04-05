@@ -31,10 +31,17 @@ Usage: #definition
 
 * parameter[+].name = #epi
 * parameter[=].use = #in
-* parameter[=].min = 1
+* parameter[=].min = 0
 * parameter[=].max = "1"
-* parameter[=].documentation = "ePI identifier Bundle"
+* parameter[=].documentation = "ePI Document Bundle"
 * parameter[=].type = #Bundle
+
+* parameter[+].name = #epi-identifier
+* parameter[=].use = #in
+* parameter[=].min = 0
+* parameter[=].max = "1"
+* parameter[=].documentation = "ePI Document Identifier"
+* parameter[=].type = #Identifier
 
 * parameter[+].name = #returnEpi
 * parameter[=].use = #out
