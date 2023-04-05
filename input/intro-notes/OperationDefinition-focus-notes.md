@@ -1,8 +1,10 @@
 The following section contains an example of an invocation using the ePI Bundle and Base64 encoded IPS.
-The example ePI content is copied from http://build.fhir.org/ig/hl7-eu/gravitate-health/Bundle-bundlepackageleaflet75.json.html.
-The example IPS content is copied from https://build.fhir.org/ig/hl7-eu/gravitate-health-ips/Bundle-gravitate-maria.json.html
 
-A Postman collection for example requests can be found at https://github.com/hl7-eu/gravitate-health/blob/master/Gravitate.postman_collection.json
+The example ePI content is copied from [here](Bundle-bundlepackageleaflet75.json.html).
+
+The example IPS content is copied from [here](Bundle-gravitate-maria.json.html)
+
+A Postman collection for example requests can be found [here](https://github.com/hl7-eu/gravitate-health/blob/master/Gravitate.postman_collection.json)
 
 ### Request
 ```
@@ -361,7 +363,9 @@ POST http://localhost:8080/fhir/$focus
 
 
 ### Response
-The example response ePI content is copied from http://build.fhir.org/ig/hl7-eu/gravitate-health/Bundle-bundlepackageleaflet75af.json.html.
+The example response ePI content is copied from [this example](Bundle-bundlepackageleaflet75af.html).
+
+
 ```
 {
     "resourceType": "Parameters",
