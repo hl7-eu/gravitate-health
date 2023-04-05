@@ -2,7 +2,7 @@ The following section contains an example of an invocation using the ePI Bundle 
 
 The example ePI content is copied from [here](Bundle-bundlepackageleaflet75.json.html).
 
-The example IPS content is copied from [here](Bundle-gravitate-maria.json.html)
+The example IPS content is copied from [here](https://build.fhir.org/ig/hl7-eu/gravitate-health-ips/Bundle-gravitate-maria.html)
 
 A Postman collection for example requests can be found [here](https://github.com/hl7-eu/gravitate-health/blob/master/Gravitate.postman_collection.json)
 
