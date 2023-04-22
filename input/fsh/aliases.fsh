@@ -17,6 +17,7 @@ Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-cli
 Alias: $list-order  = http://terminology.hl7.org/CodeSystem/list-order 
 Alias: $spor-productNamePartType-cs = https://spor.ema.europa.eu/rmswi/220000000000 // Medicinal Product Name Part Type
 Alias: $meddra = http://terminology.hl7.org/CodeSystem/mdr
+Alias: $snomed = http://snomed.info/sct
 
 Alias: $edqm = http://standardterms.edqm.eu
 
