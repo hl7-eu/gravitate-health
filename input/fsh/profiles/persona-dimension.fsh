@@ -1,5 +1,4 @@
-ValueSet: PDcategoryVS
-ValueSet: PDtypeVS
+
 
 
 Profile:     PersonaDimension
@@ -15,3 +14,13 @@ Description: "Persona Dimension Profile"
 * value[x] only CodeableConcept or boolean or Quantity
 * category from PDcategoryVS (required)
 * code from PDtypeVS (required)
+
+
+Profile:    PersonaDimensionCollection
+Id:        persona-collection
+Parent: Bundle
+Title:     "Persona Dimension Collection"
+Description: "Persona Dimension Collection"
+
+* type = #collection
+* entry.resource only PersonaDimension or QuestionnaireResponse

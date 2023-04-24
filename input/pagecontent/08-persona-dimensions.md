@@ -11,10 +11,21 @@ For G-lens purposes, we need 4 main aspects:
 
 These are the persona's dimensions. It is true that some could be inferred from IPS directly or indirectly. But only some take part in the mandatory sections of IPS as can be seen below. For the ones not possible to be inferred from IPS, there are at least two paths:
 
-1. Assuming a lot of data comes from validated questionnaires, we can represent it as a pair of Questionnaire/QuestionnaireResponse and then transform them into Observations/Conditions
+1. Assuming a lot of data comes from validated questionnaires, we can represent it as a pair of Questionnaire/QuestionnaireResponse 
+   1. Transform them into Observations/Conditions
+   2. Use them as is
 2. Third parties (Social Worker, phycologist, physician, nurse, etc) asserts the observations/Condition directly for all/part of the dimensions. 
    
 Then, in both cases, observation can be coupled together as a document or message to be transmitted along with IPS.
+
+check the diagram below:  
+
+<div>{% include dimension-source.svg %}</div>
+<br clear="all"/>
+
+
+<div>{% include dimension-observation.svg %}</div>
+<br clear="all"/>
 
 
 | Dimension              | IPS                                      | Terminology Examples                                                         | (validity) Questionnaire suggestion   |

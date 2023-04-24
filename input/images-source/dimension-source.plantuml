@@ -1,0 +1,15 @@
+@startuml 
+
+
+"EHR or PHR"->FHIRServer: Questionnaire request and answer
+
+
+FHIRServer->"FHIRServer": Transform to Observation/Condition
+
+
+FHIRServer->"ePIServer": Send Data
+
+note right of FHIRServer: The collection might be of \n questionnaire response and/or \nCondition/Observation
+
+@enduml
+
