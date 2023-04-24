@@ -18,11 +18,12 @@ These are the persona's dimensions. It is true that some could be inferred from 
    
 Then, in both cases, observation can be coupled together as a document or message to be transmitted along with IPS.
 
-check the diagram below:  
+check the diagram below for the alternative with questionnaire:  
 
 <div>{% include dimension-source.svg %}</div>
 <br clear="all"/>
 
+or the alternative without questionnaire:
 
 <div>{% include dimension-observation.svg %}</div>
 <br clear="all"/>
