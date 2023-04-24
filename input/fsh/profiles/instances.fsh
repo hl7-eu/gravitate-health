@@ -270,18 +270,15 @@ Usage: #example
 
 * name
   * productName = "cava 75 mg tablet blister x28"
-  * type = $spor-productNamePartType-cs#220000000001
-    * text = "Full name"
+  * type = $spor-productNamePartType-cs#220000000001  "Full name"
   
   * part[0]
     * part = "cava"
-    * type = $spor-productNamePartType-cs#220000000002
-    * type.text = "Invented name part"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
   
   * part[+]
     * part = "irbesartan"
-    * type = $spor-productNamePartType-cs#220000000003
-    * type.text = "Scientific name part"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
   
   * part[+]
     * part = "75 mg"

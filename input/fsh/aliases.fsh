@@ -15,7 +15,7 @@ Alias: $allergyintolerance-clinical = http://terminology.hl7.org/CodeSystem/alle
 Alias: $allergyintolerance-verification = http://terminology.hl7.org/CodeSystem/allergyintolerance-verification
 Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $list-order  = http://terminology.hl7.org/CodeSystem/list-order 
-Alias: $spor-productNamePartType-cs = https://spor.ema.europa.eu/rmswi/220000000000 // Medicinal Product Name Part Type
+Alias: $spor-productNamePartType-cs = https://spor.ema.europa.eu/lists/220000000000 // Medicinal Product Name Part Type
 Alias: $meddra = http://terminology.hl7.org/CodeSystem/mdr
 Alias: $snomed = http://snomed.info/sct
 
