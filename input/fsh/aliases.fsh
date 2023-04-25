@@ -36,8 +36,7 @@ Alias: $composition-attestation-mode = http://hl7.org/fhir/composition-attestati
 
 
 Alias: $medicinal-product-name-part-type = http://hl7.org/fhir/medicinal-product-name-part-type
-Alias: $medicationknowledge-characteristic = 
-http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic
+Alias: $medicationknowledge-characteristic = http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic
 
 
 Alias: $spor-prod = https://spor.ema.europa.eu/pmswi // invented to be updated

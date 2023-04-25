@@ -1,0 +1,41 @@
+{% assign compositionResource = bundle.entry | where: "resource.resourceType", "Composition" | first %}
+{% assign composition = compositionResource.resource %}
+
+
+<div>
+  {% if composition.category[0].coding[0].code == "F" %}
+    <link href="assets/css/lenses.css" rel="stylesheet" />
+
+  {% endif %}
+  <b>Composition category:</b>
+  {{ composition.category[0].coding[0].display }}
+  <br/>
+  {% if composition.status %}
+    <b>Composition status:</b>
+    {{ composition.status }}{% endif %}
+  <br/>
+  {% if composition.type.coding[0].display %}
+    <b>Composition type:</b>
+    {{ composition.type.coding[0].display }}{% endif %}
+  <br/>
+  <br/>
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  {% for sec in composition.section %}
+    <h3>{{ sec.title }}</h3>
+    <p>
+      {{ sec.text.div }}</p>
+    {% if sec.section %}
+      {% for sec2 in sec.section %}
+
+        <h4>{{ sec2.title }}</h4>
+        <p>
+          {{ sec2.text.div }}</p>
+
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+</div>

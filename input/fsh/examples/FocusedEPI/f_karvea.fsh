@@ -22,11 +22,13 @@ Usage: #example
 * date = "2022-02-16T13:28:17Z"
 * author = Reference(org-fe4fee458a4f24fccb770d311350f67c)
 
+* category = epicategory-cs#F "Focused"
+
 * title = "TEST PURPOSES ONLY - Karvea"
 
 * extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "pregancyCategory"
+* extension[=].extension[=].valueString = "pregnancyCategory"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#77386006 "Pregnancy"
 
@@ -69,6 +71,13 @@ Usage: #example
 * extension[=].extension[=].valueString = "contra-indication-diabetes-mellitus"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.reference = Reference(contraindication-diabetes-mellitus)
+
+* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "lactose"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#190751001 "Primary lactose intolerance"
+
 
 
 * extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/lenslibrary"
@@ -193,7 +202,8 @@ Usage: #example
             <b>Karvea with food and drink</b>
             <p>Karvea can be taken with or without food.</p>
             <b>Pregnancy and breast-feeding</b>
-            <span class="pregancyCategory"> <b>Pregnancy</b>
+            <span class="pregnancyCategory"> 
+            <b>Pregnancy</b>
             <p>You must tell your doctor if you think you are (or might become) pregnant. Your doctor will normally advise you to stop taking Karvea before you become pregnant or as soon as you know you are pregnant and will advise you to take another medicine instead of Karvea. Karvea is not recommended in early pregnancy, and must not be taken when more than 3 months pregnant, as it may cause serious harm to your baby if used after the third month of pregnancy.</p>
             </span>
             <span class="breastfeedingCategory">
@@ -204,9 +214,9 @@ Usage: #example
             <p>Karvea is unlikely to affect your ability to drive or use machines. However, occasionally dizziness or weariness may occur during treatment of high blood pressure. If you experience these, talk to your doctor before attempting to drive or use machines.
             </p>
             
-            <b>Karvea contains lactose.</b>
+            <span class="lactose"><b>Karvea contains lactose.</b>
             <p>If you have been told by your doctor that you have an intolerance to some sugars (e.g. lactose), contact your doctor before taking this medicinal product.</p>
-            
+           </span> 
             <b>Karvea contains sodium.</b>
             <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-free’.</p>            
         </div>         </div>"""              
@@ -542,3 +552,21 @@ for (var i = 0; i < elements.length; i++) {
   elements[i].classList.add("highlighted");
 }
 */
+
+Instance: focuseddbundlekarvea
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for Karvea 75 mg Package Leaflet - Focused"
+Description: "Bundle for Karvea 75 mg Package Leaflet ePI document - Focused"
+Usage: #example
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/97/049/001"
+* type = #document
+* timestamp = "2023-04-25T11:55:27Z"
+
+// Composition
+* entry[0].fullUrl = "Composition/Focused-compositionf4d45353edcb21af3718d3a0df94a4d8"
+* entry[0].resource = Focused-compositionf4d45353edcb21af3718d3a0df94a4d8
+
+ 
+ 
