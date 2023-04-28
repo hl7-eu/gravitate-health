@@ -79,7 +79,6 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. PACKAGE LEAFLET"
   * text.status = #additional
-  
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
@@ -90,7 +89,6 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-     
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div xmlns='http://www.w3.org/1999/xhtml'> 
             <p>Karvea 75 mg tablets</p>
             <p>irbesartan</p>
@@ -108,7 +106,6 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-     
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div xmlns='http://www.w3.org/1999/xhtml'> 
             <ul>
                 <li>What Karvea is and what it is used for</li>

@@ -54,6 +54,15 @@ Usage: #example
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = $ginas#XK4IUX8MNB "Hypericum perforatum L."
 
+* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "hepatitisB"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#66071002 "Viral hepatitis type B (disorder)"
+
+
+
+
 
 * section[+].
   * title = "B. Package Leaflet"
@@ -153,12 +162,12 @@ anxiety, or products that contain it.</span></li>
 <p><strong>Warnings and precautions</strong></p>
 <p><strong>Talk to your doctor before taking Biktarvy:</strong></p>
 <ul>
-<li><span class="liver">If you have liver problems</span> or a history of liver disease, including hepatitis. Patients with
+<li><span class="liver">If you have liver problems or a history of liver disease, including hepatitis. Patients with
 liver disease including chronic hepatitis B or C, who are treated with antiretrovirals, have a
 higher risk of severe and potentially fatal liver complications. If you have hepatitis B infection,
-your doctor will carefully consider the best treatment regimen for you.</li>
-<li><p>If you have hepatitis B infection. Liver problems may become worse after you stop taking
-Biktarvy.</p>
+your doctor will carefully consider the best treatment regimen for you.</span></li>
+<li><p><span class="hepatitisB">If you have hepatitis B infection. Liver problems may become worse after you stop taking
+Biktarvy</span></p>
 </li>
 <li><p>Do not stop taking Biktarvy if you have hepatitis B. Talk to your doctor first. For more details, see
 section 3, Do not stop taking Biktarvy.</p>

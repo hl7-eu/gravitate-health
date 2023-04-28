@@ -1,6 +1,6 @@
 Extension: Lenses
 Description: "adding lenses"
-* ^url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/lenslibrary"
+* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/lenslibrary"
 * value[x] only Reference(Library)
 
 Instance: Focused-compositionf4d45353edcb21af3718d3a0df94a4d8
@@ -81,7 +81,7 @@ Usage: #example
 
 
 * extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/lenslibrary"
-* extension[=].valueCodeableReference.reference = Reference(mock-lib)
+* extension[=].valueReference = Reference(mock-lib)
 
 
 * section[+].

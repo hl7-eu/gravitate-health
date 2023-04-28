@@ -60,10 +60,6 @@ Usage: #example
 
 
 
-
-
-Código
-
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -140,7 +136,7 @@ analogue reverse transcriptase inhibitors (NRTIs).</p>
 <span class="indication"> <p>Dovato is used to treat HIV in adults and adolescents over 12 years old who weigh at least 40 kg.</p>
 <p>Dovato does not cure HIV infection; it keeps the amount of virus in your body at a low level. This helps
 maintain the number of CD4 cells in your blood. CD4 cells are a type of white blood cells that are important
-in helping your body to fight infection.</p></span
+in helping your body to fight infection.</p></span>
 <p>Not everyone responds to treatment with Dovato in the same way. Your doctor will monitor the effectiveness
 of your treatment.</p>         </div>"""   
           
@@ -161,7 +157,7 @@ sclerosis).</li>
 Warnings and precautions
 Some people taking Dovato or other combination treatments for HIV are more at risk of serious side effects
 than others. You need to be aware of the extra risks:</li>
-<span class="liver"><li>if you have moderate or severe liver disease </span>
+<li><span class="liver">if you have moderate or severe liver disease </span>
 if you have ever had liver disease, including hepatitis B or C (if you have hepatitis B infection, don’t
 stop Dovato without your doctor’s advice, as your hepatitis may come back)
 • if you have a kidney problem.
@@ -207,8 +203,8 @@ lactitol or maltitol), if taken regularly</li>
 <li>rifampicin, to treat tuberculosis (TB) and other bacterial infections</li>
 <li>phenytoin and phenobarbital, to treat epilepsy</li>
 <li>oxcarbazepine and carbamazepine, to treat epilepsy or bipolar disorder</li>
-<span class="contra-indication-hypericum"><li><p>St. John’s wort (Hypericum perforatum), a herbal remedy to treat depression.</p></span>
-</li>
+<span class="contra-indication-hypericum"><li><p>St. John’s wort (Hypericum perforatum), a herbal remedy to treat depression.</p>
+</li></span>
 <li><p>Tell your doctor or pharmacist if you are taking any of these. Your doctor may decide to adjust
 your dose or that you need extra check ups.</p>
 </li>
