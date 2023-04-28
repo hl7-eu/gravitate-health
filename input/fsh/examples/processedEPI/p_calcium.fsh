@@ -41,6 +41,11 @@ Usage: #example
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#69840006 "Normal breast feeding (finding)"
 
+* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "liver"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = https://icpc2.icd.com/#D97 "Liver disease, other"
 
 * section[+].
   * title = "B. Package Leaflet"

@@ -42,6 +42,18 @@ Usage: #example
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#69840006 "Normal breast feeding (finding)"
 
+* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "liver"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = https://icpc2.icd.com/#D97 "Liver disease, other"
+
+* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "contra-indication-hypericum"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = $ginas#XK4IUX8MNB "Hypericum perforatum L."
+
 
 * section[+].
   * title = "B. Package Leaflet"
@@ -131,8 +143,8 @@ ingredients of this medicine (listed in section 6).</li>
 <li><p>If you are currently taking any of the following medicines:</p>
 <ul>
 <li>rifampicin used to treat some bacterial infections such as tuberculosis</li>
-<li>St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and
-anxiety, or products that contain it.</li>
+<li><span class="contra-indication-hypericum">St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and
+anxiety, or products that contain it.</span></li>
 </ul>
 </li>
 <li><p>If any of these apply to you, <strong>do not take Biktarvy and tell your doctor immediately.</strong></p>
@@ -141,7 +153,7 @@ anxiety, or products that contain it.</li>
 <p><strong>Warnings and precautions</strong></p>
 <p><strong>Talk to your doctor before taking Biktarvy:</strong></p>
 <ul>
-<li>If you have liver problems or a history of liver disease, including hepatitis. Patients with
+<li><span class="liver">If you have liver problems</span> or a history of liver disease, including hepatitis. Patients with
 liver disease including chronic hepatitis B or C, who are treated with antiretrovirals, have a
 higher risk of severe and potentially fatal liver complications. If you have hepatitis B infection,
 your doctor will carefully consider the best treatment regimen for you.</li>
