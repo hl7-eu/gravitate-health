@@ -9,10 +9,7 @@ Usage: #example
 * identifier.value = "xx"
 
 * status = #final
-
-
-
-* category = epicategory-cs#P "enhanced"
+* category = epicategory-cs#E "enhanced"
 
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -464,7 +461,7 @@ Not all pack sizes may be available in your c
 ountry</p>         </div>"""      
 
 
-Instance: compositione722f6782d3f34f86982e14386c8811d
+Instance: compositione722f6782d3f34f86982e14386c8811dgg
 InstanceOf: CompositionUvEpi
 Title: "Composition for Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet"
 Description:  "Composition for Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet"

@@ -1,15 +1,15 @@
 
-Instance: enhanced-composition02e928f15b7b861b4b44915d9f1330ec
+Instance: enhanced-composition02e928f15b7b861b4b44915d9f1330ecg
 InstanceOf: CompositionUvEpi
 Title: "Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet"
 Description:  "Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "cc"
 
 * status = #final
-* category = epicategory-cs#P "enhanced"
+* category = epicategory-cs#E "enhanced"
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"

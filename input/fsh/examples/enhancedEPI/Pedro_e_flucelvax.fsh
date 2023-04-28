@@ -1,16 +1,16 @@
 
-Instance: enhanced-composition056f32ee5cf49404607e368bd8d3f2af
+Instance: enhanced-composition056f32ee5cf49404607e368bd8d3f2afg
 InstanceOf: CompositionUvEpi
 Title: "Composition for asdad Package Leaflet"
 Description:  "Composition for asdad Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "asdas"
 * identifier.value = "asdasd"
 
 * status = #final
 
-* category = epicategory-cs#P "enhanced"
+* category = epicategory-cs#E "enhanced"
 
 
 

@@ -1,5 +1,5 @@
 
-Instance: enhanced-composition1846d2b12fecbbb0310cd8c196c98a58
+Instance: enhanced-composition1846d2b12fecbbb0310cd8c196c98a58g
 InstanceOf: CompositionUvEpi
 Title: "enhanced Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
 Description:  " enhanced Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
@@ -9,7 +9,7 @@ Usage: #example
 * identifier.value = "EU/1/18/1289/001"
 
 * status = #final
-* category = epicategory-cs#P "enhanced"
+* category = epicategory-cs#E "enhanced"
 
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538

@@ -3,7 +3,7 @@ Instance: enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8
 InstanceOf: CompositionUvEpi
 Title: "Composition for Karvea Package Leaflet - enhanced"
 Description:  "Composition for Karvea Package Leaflet - enhanced"
-Usage: #example
+Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
@@ -13,7 +13,7 @@ Usage: #example
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
-* category = epicategory-cs#P "enhanced"
+* category = epicategory-cs#E "enhanced"
 
 * subject = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
 * date = "2022-02-16T13:28:17Z"
@@ -522,58 +522,9 @@ Usage: #example
 
 
 
-Instance: contraindication-pregancy
-InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
-Description: "contraindication - pregancy"
-Usage: #example
-
-* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
-* identifier.value = "pregancy"
-* identifier.use = #official
-
-* type = #contraindication
-
-* subject = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
-
-* contraindication
-  * diseaseSymptomProcedure.concept.coding = $snomed#289908002 "Pregnancy, function (observable entity)"
-
-Instance: contraindication-diabetes-mellitus
-InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
-Description: "contraindication -    Diabetes mellitus (disorder)"
-Usage: #example
-
-* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
-* identifier.value = "diabetes-mellitus"
-* identifier.use = #official
-
-* type = #contraindication
-
-* subject = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
-
-* contraindication
-  * diseaseSymptomProcedure.concept.coding = $snomed#73211009 "Diabetes mellitus (disorder)"
 
 
-Instance: contraindication-kidney
-InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
-Description: "contraindication - kidney function"
-Usage: #example
-
-* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
-* identifier.value = "kidney function"
-* identifier.use = #official
-
-* type = #contraindication
-
-* subject = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
-
-* contraindication
-  * diseaseSymptomProcedure.concept.coding = $snomed#76114004 "Decreased renal function (finding)"
-
-
-
-Instance: enhancedbundlekarvea
+Instance: enhancedbundlekarvea-alicia
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Karvea 75 mg Package Leaflet - enhanced"
 Description: "Bundle for Karvea 75 mg Package Leaflet ePI document - enhanced"

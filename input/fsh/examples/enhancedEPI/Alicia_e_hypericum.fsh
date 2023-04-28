@@ -10,10 +10,7 @@ Usage: #example
 
 * status = #final
 
-* category = epicategory-cs#P "enhanced"
-
-
-
+* category = epicategory-cs#E "enhanced"
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
