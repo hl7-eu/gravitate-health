@@ -1,0 +1,19 @@
+@startuml 
+
+
+"Raw ePI"-> "p(ePI)": Adding annotation
+
+
+"p(ePI)"->"f(ePI)": injection of lenses
+
+"f(ePI)"->"f'(ePI)": Injection of personal data
+
+"f'(ePI)"->"e(ePI)": The personalized ePI is created
+
+note left of "Raw ePI": Annotation of content \nw/ standard terminologies\nAutomatic (NLP)\nSemi-automatic\nManual (ePI editor tool)
+
+note left of "f'(ePI)": User Profile\nIPS\nLambda Profile\nOr combination
+
+note left of "f(ePI)": JS\nCQL\nOther
+
+@enduml
