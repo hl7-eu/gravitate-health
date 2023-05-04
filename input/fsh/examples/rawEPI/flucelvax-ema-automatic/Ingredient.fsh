@@ -181,10 +181,6 @@ Usage: #example
 * substance.code.concept.coding = $ginas#451W47IQ8X "Sodium chloride"
 
 
-* substance.strength.presentationQuantity = 1.0 'mg'
-
-* substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#nan "nan"
-
 
 // Reference to products
 * for = Reference(mid-04c9bd6fb89d38b2d83eced2460c4dc1)
@@ -219,10 +215,6 @@ Usage: #example
 
 * substance.code.concept.coding = $ginas#660YQ98I10 "Potassium chloride"
 
-
-* substance.strength.presentationQuantity = 0.5 'mg'
-
-* substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#nan "nan"
 
 
 // Reference to products
@@ -259,10 +251,6 @@ Usage: #example
 * substance.code.concept.coding = $ginas#02F3473H9O "MAGNESIUM CHLORIDE"
 
 
-* substance.strength.presentationQuantity = 0.2 'mg'
-
-* substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#nan "nan"
-
 
 // Reference to products
 * for = Reference(mid-04c9bd6fb89d38b2d83eced2460c4dc1)
@@ -298,10 +286,6 @@ Usage: #example
 * substance.code.concept.coding = $ginas#94255I6E2T "SODIUM PHOSPHATE, DIBASIC, DIHYDRATE"
 
 
-* substance.strength.presentationQuantity = 0.2 'mg'
-
-* substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#nan "nan"
-
 
 // Reference to products
 * for = Reference(mid-04c9bd6fb89d38b2d83eced2460c4dc1)
@@ -336,13 +320,8 @@ Usage: #example
 
 * status = #active
 
-* substance.code.concept.coding = $ginas#4J9FJ0HL51 "Potassium dihydrogen phosphate
-"
+* substance.code.concept.coding = $ginas#4J9FJ0HL51 "Potassium dihydrogen phosphate"
 
-
-* substance.strength.presentationQuantity = 0.2 'mg'
-
-* substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#nan "nan"
 
 
 // Reference to products
@@ -378,10 +357,6 @@ Usage: #example
 
 * substance.code.concept.coding = $ginas#059QF0KO0R "Water for injections"
 
-
-* substance.strength.presentationQuantity = 0.01 'mg'
-
-* substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#nan "nan"
 
 
 // Reference to products

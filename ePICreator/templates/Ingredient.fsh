@@ -32,7 +32,7 @@ Usage: #example
 
 * status = #{{ row["status"]  }}
 
-* substance.code.concept.coding = $ginas#{{ row["identifier"]  }} "{{ row["name"]  }}"
+* substance.code.concept.coding = $ginas#{{ row["identifier"]  }} "{{ row["name"] | trim  }}"
 
 {% if row["StrengthBasis"]|string !="nan" %}
 
