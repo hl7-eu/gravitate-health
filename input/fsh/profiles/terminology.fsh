@@ -91,5 +91,5 @@ Description: ""
     "Processed"
 
 * #E
-    "ENHANCED"
-    "ENHANCED"
+    "Enhanced"
+    "Enhanced"

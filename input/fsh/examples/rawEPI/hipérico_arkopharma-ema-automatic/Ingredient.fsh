@@ -3,7 +3,7 @@
 
 
 
-Instance: ingredient-for-hipericoarkopharma-hypericumperforatuml
+Instance: ingredient-for-hipricoarkopharma-hypericumperforatuml
 
 
 InstanceOf: IngredientUvEpi
@@ -36,13 +36,13 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-e0c4304ad134de29cff6bfff6e3a9ad7)
+* manufacturer.manufacturer = Reference(org-c2a5378488511eaedce26dde272c2290)
 
 
 
 
 
-Instance: ingredient-for-hipericoarkopharma-microcrystallinecellulose
+Instance: ingredient-for-hipricoarkopharma-microcrystallinecellulose
 
 
 InstanceOf: IngredientUvEpi
@@ -61,10 +61,6 @@ Usage: #example
 * substance.code.concept.coding = $ginas#OP1R32D61U "microcrystalline cellulose"
 
 
-* substance.strength.presentationQuantity = 140.0 'mg'
-
-* substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#nan "nan"
-
 
 // Reference to products
 * for = Reference(mid-29436a85dac3ea374adb3fa64cfd2578)
@@ -75,13 +71,13 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-e0c4304ad134de29cff6bfff6e3a9ad7)
+* manufacturer.manufacturer = Reference(org-c2a5378488511eaedce26dde272c2290)
 
 
 
 
 
-Instance: ingredient-for-hipericoarkopharma-magnesiumstearate
+Instance: ingredient-for-hipricoarkopharma-magnesiumstearate
 
 
 InstanceOf: IngredientUvEpi
@@ -100,10 +96,6 @@ Usage: #example
 * substance.code.concept.coding = $ginas#70097M6I30 "magnesium stearate"
 
 
-* substance.strength.presentationQuantity = 3.3 'mg'
-
-* substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#nan "nan"
-
 
 // Reference to products
 * for = Reference(mid-29436a85dac3ea374adb3fa64cfd2578)
@@ -114,13 +106,13 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-e0c4304ad134de29cff6bfff6e3a9ad7)
+* manufacturer.manufacturer = Reference(org-c2a5378488511eaedce26dde272c2290)
 
 
 
 
 
-Instance: ingredient-for-hipericoarkopharma-colloidalhydrophobicsilica
+Instance: ingredient-for-hipricoarkopharma-colloidalhydrophobicsilica
 
 
 InstanceOf: IngredientUvEpi
@@ -139,10 +131,6 @@ Usage: #example
 * substance.code.concept.coding = $ginas#8MDF5V39QO "colloidal hydrophobic silica"
 
 
-* substance.strength.presentationQuantity = 2.0 'mg'
-
-* substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#nan "nan"
-
 
 // Reference to products
 * for = Reference(mid-29436a85dac3ea374adb3fa64cfd2578)
@@ -153,13 +141,13 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-e0c4304ad134de29cff6bfff6e3a9ad7)
+* manufacturer.manufacturer = Reference(org-c2a5378488511eaedce26dde272c2290)
 
 
 
 
 
-Instance: ingredient-for-hipericoarkopharma-maltodextrin
+Instance: ingredient-for-hipricoarkopharma-maltodextrin
 
 
 InstanceOf: IngredientUvEpi
@@ -178,10 +166,6 @@ Usage: #example
 * substance.code.concept.coding = $ginas#7CVR7L4A2D "maltodextrin"
 
 
-* substance.strength.presentationQuantity = 10.0 'mg'
-
-* substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#nan "nan"
-
 
 // Reference to products
 * for = Reference(mid-29436a85dac3ea374adb3fa64cfd2578)
@@ -192,4 +176,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-e0c4304ad134de29cff6bfff6e3a9ad7)
+* manufacturer.manufacturer = Reference(org-c2a5378488511eaedce26dde272c2290)

@@ -13,13 +13,13 @@ The definition of the several steps in the preprocessing pipeline:
 
 ## Example lenses
 
-**Pregancy:**
+**Pregancy:**  
 FOR ALL \<pregancy precautions\> IF patient is Pregnant THEN add Highlight CSS class
 
-**Diabetes**
+**Diabetes**  
 FOR ALL \<hiperglucemia\> IF patient’s IPS contains \<diabetes\>  THEN add Highlight CSS Class
 
-**Intake**
+**Intake**  
 1. FOR ALL \<injectable\> add multimedia video
 2. FOR ALL \<oral intake\> IF patient.literacy is not high THEN add hover overlay with oral intake advice
 3. FOR ALL \<injectable\> IF patient.literacy is low THEN add icon 
