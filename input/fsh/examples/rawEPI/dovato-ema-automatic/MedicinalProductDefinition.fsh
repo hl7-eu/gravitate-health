@@ -6,10 +6,10 @@ Description: "Dovato 50 mg/300 mg film-coated tablets"
 Usage: #example
 
  
-* identifier[+].system = "EU/1/19/1370/001"
-* identifier[=].value = "https://spor.ema.europa.eu/pmswi" 
-* identifier[+].system = "0x073AF2E5B92AE19E8B67635AFFB3D6CA"
-* identifier[=].value = "https://www.who-umc.org/phpid"
+* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
+* identifier[=].value = "EU/1/19/1370/001" 
+* identifier[+].system = "https://www.who-umc.org/phpid"
+* identifier[=].value = "0x073AF2E5B92AE19E8B67635AFFB3D6CA"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
 * domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
