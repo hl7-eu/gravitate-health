@@ -1,8 +1,8 @@
 
 Instance: enhanced-composition16598f252d07b4784b82ba43cf9e847e
 InstanceOf: CompositionUvEpi
-Title: "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
-Description:  "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
+Title: "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet - Enhanced"
+Description:  "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet - Enhanced"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"

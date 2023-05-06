@@ -4,7 +4,8 @@ Instance: fline-compositionf4d45353edcb21af3718d3a0df94a4d8
 InstanceOf: CompositionUvEpi
 Title: "Composition for Karvea Package Leaflet - F'"
 Description:  "Composition for Karvea Package Leaflet - F'"
-Usage: #example
+Usage: #inline
+
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
@@ -536,7 +537,7 @@ Instance: flinedbundlekarvea
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Karvea 75 mg Package Leaflet - F'"
 Description: "Bundle for Karvea 75 mg Package Leaflet ePI document - F'"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/97/049/001"

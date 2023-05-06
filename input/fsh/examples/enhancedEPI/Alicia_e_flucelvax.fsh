@@ -1,8 +1,8 @@
 
 Instance: enhanced-composition056f32ee5cf49404607e368bd8d3f2af
 InstanceOf: CompositionUvEpi
-Title: "Composition for asdad Package Leaflet"
-Description:  "Composition for asdad Package Leaflet"
+Title: "Composition for asdad Package Leaflet - Enhanced"
+Description:  "Composition for asdad Package Leaflet - Enhanced"
 Usage: #example
 
 * identifier.system = "asdas"

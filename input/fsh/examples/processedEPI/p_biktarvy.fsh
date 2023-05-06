@@ -1,8 +1,8 @@
 
 Instance: Processed-composition1846d2b12fecbbb0310cd8c196c98a58
 InstanceOf: CompositionUvEpi
-Title: "Processed Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
-Description:  " Processed Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
+Title: "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet - Preprocessed"
+Description:  "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet - Preprocessed"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
