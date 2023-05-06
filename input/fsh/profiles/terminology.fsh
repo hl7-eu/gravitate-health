@@ -67,7 +67,25 @@ Description: ""
 * #ENM
     "Employed non Manual"
 
+
+
+// Define a local code system
+CodeSystem: PDcategoryCS
+Id:         pd-category-cs
+Title:     ""
+Description: ""
+
+
+* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-category-cs
+
+* #EMP
+    "employment"
+
+
 ValueSet: PDcategoryVS
+
+// all from above
+
 ValueSet: PDtypeVS
 
 
@@ -93,3 +111,6 @@ Description: ""
 * #E
     "Enhanced"
     "Enhanced"
+* #FL
+    "F'"
+    "F'"

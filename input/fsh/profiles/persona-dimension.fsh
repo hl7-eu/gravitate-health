@@ -9,8 +9,7 @@ Description: "Persona Dimension Profile"
 
 
 * derivedFrom only Reference(QuestionnaireResponse)
-* specimen 0..0
-* bodySite 0..0
+
 * value[x] only CodeableConcept or boolean or Quantity
 * category from PDcategoryVS (required)
 * code from PDtypeVS (required)
@@ -23,4 +22,14 @@ Title:     "Persona Dimension Collection"
 Description: "Persona Dimension Collection"
 
 * type = #collection
-* entry.resource only PersonaDimension or QuestionnaireResponse
+* entry.resource only PersonaDimension or QuestionnaireResponse or Condition
+
+
+Profile:    bundled-personalized-epi
+Id:        bundled-personalized-epi
+Parent: Bundle
+Title:     "Collection of Personalized Epi data"
+Description: "Collection of Personalized Epi data"
+
+* type = #collection
+* entry.resource only Bundle
