@@ -1,6 +1,6 @@
 //with Karvea and lactose intollerance
 
-Instance: gravitate-ips-1
+Instance: gravitate-ips-1-r5
 InstanceOf: Bundle
 Title:   "IPS Example 1"
 Usage: #example
@@ -52,7 +52,7 @@ Title:   "[Composition] IPS Example 1 IPS"
 * date = "2018-07-10T15:22:00+02:00"
 * author = Reference(1ece89c5-fda3-4db9-ace6-decbe6c603d5) "Dr. Anna Karlsson"
 * title = "Patient Summary (Maria Gravitate)"
-* confidentiality = #N
+//* confidentiality = #N
 
 * section[0].title = "Allergies and Intolerances"
 * section[=].code = $loinc#48765-2 "Allergies and adverse reactions Document"
@@ -120,8 +120,8 @@ Usage: #inline
 * clinicalStatus = $allergyintolerance-clinical#active
 * verificationStatus = $allergyintolerance-verification#confirmed
 * code = $sct#256259004 "Pollen"
-* reaction.manifestation = $sct#21719001 "Allergic rhinitis caused by pollen"
-* reaction.manifestation.text = "Hay fever"
+* reaction.manifestation.concept = $sct#21719001 "Allergic rhinitis caused by pollen"
+* reaction.manifestation.concept.text = "Hay fever"
 * patient = Reference(c154158f-6a43-4ab7-8443-e7f4bf915dd6) "IPS 1"
 
 
@@ -141,9 +141,9 @@ Usage: #inline
 * onsetAge = 1 'a' "year"
 * recordedDate = "2009-10-09"
 * reaction.substance = http://snomed.info/sct#47703008 "lactose"
-* reaction.manifestation[0] = http://snomed.info/sct#21522001 "Abdominal pain"
-* reaction.manifestation[+] = http://snomed.info/sct#116289008 "Abdominal bloating"
-* reaction.manifestation[+] = http://snomed.info/sct#62315008 "Diarrhea"
+* reaction.manifestation.concept.coding[0] = http://snomed.info/sct#21522001 "Abdominal pain"
+* reaction.manifestation.concept.coding[+] = http://snomed.info/sct#116289008 "Abdominal bloating"
+* reaction.manifestation.concept.coding[+] = http://snomed.info/sct#62315008 "Diarrhea"
 
 
 
@@ -157,7 +157,7 @@ Usage: #inline
 * code.text = "Psoriasis"
 * subject = Reference(c154158f-6a43-4ab7-8443-e7f4bf915dd6) "Maria Gravitate"
 // * onsetDateTime = "2015-08-01"
-* asserter = Reference(1ece89c5-fda3-4db9-ace6-decbe6c603d5) "Dr. Anna Karlsson"
+* participant.actor =  Reference(1ece89c5-fda3-4db9-ace6-decbe6c603d5) "Dr. Anna Karlsson"
 
 // --- "Congestive heart failure"
 Instance: a4a9d90a-d1b0-4d60-82f0-c52343dc6255
@@ -172,7 +172,7 @@ Usage: #inline
 * code.text = "Congestive heart failure"
 * subject = Reference(c154158f-6a43-4ab7-8443-e7f4bf915dd6) "Maria Gravitate"
 * onsetDateTime = "2015"
-* asserter = Reference(1ece89c5-fda3-4db9-ace6-decbe6c603d5) "Dr. Anna Karlsson"
+* participant.actor =  Reference(1ece89c5-fda3-4db9-ace6-decbe6c603d5) "Dr. Anna Karlsson"
 
 Instance: f06b7cf8-c15c-4288-a0f9-45a1026e5135 
 InstanceOf: Condition
@@ -216,7 +216,7 @@ Usage: #inline
 	</table>
 </div>"
 * status = #active
-* medicationReference = Reference(b50ae644-e0b7-4007-809f-26f493cbe365) "Dimethyl fumarate 30 mg Tablet"
+* medication.reference = Reference(b50ae644-e0b7-4007-809f-26f493cbe365) "Dimethyl fumarate 30 mg Tablet"
 * subject = Reference(c154158f-6a43-4ab7-8443-e7f4bf915dd6) "Maria Gravitate"
 * dosage.route = $edqm#20053000 "Oral use"
 /*===
@@ -230,7 +230,7 @@ Instance: f6cb1218-f81c-4338-80d8-3c10910f78f5
 InstanceOf: MedicationStatement
 Usage: #inline
 * status = #active
-* medicationReference = Reference(de131e15-ed13-4b31-b38c-3204a84d99c5) "Irbesartan 75 mg Tablet"
+* medication.reference = Reference(de131e15-ed13-4b31-b38c-3204a84d99c5) "Irbesartan 75 mg Tablet"
 * subject = Reference(c154158f-6a43-4ab7-8443-e7f4bf915dd6) "Maria Gravitate"
 * dosage.route = $edqm#20053000 "Oral use"
 /*===
@@ -244,7 +244,7 @@ Instance: f26084c9-b1c8-46d9-acb2-1d400ade87b5
 InstanceOf: MedicationStatement
 Usage: #inline
 * status = #active
-* medicationReference = Reference(9ac3356c-4ea4-4814-84c3-235484f2ef15) "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
+* medication.reference = Reference(9ac3356c-4ea4-4814-84c3-235484f2ef15) "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
 * subject = Reference(c154158f-6a43-4ab7-8443-e7f4bf915dd6) "Maria Gravitate"
 * dosage.route = $edqm#20049000	"Nasal use"
 /*===
@@ -261,50 +261,50 @@ Usage: #inline
 * code.coding[0] = $spor-man#EU/1/17/1201/001 "Skilarence"
 * code.coding[+] = $phpid#0x9982CA8A825D4561506CE808982E3B9D "dimethyl fumarate, 30 mg/ 1 tablet, Gastro-resistant tablet"
 * code.coding[+] = $atc#L04AX07 "dimethyl fumarate"
-* form = $edqm#10225000 "Gastro-resistant tablet"
-* ingredient.itemCodeableConcept = $unii#FO2303MNI2 "dimethyl fumarate"
-* ingredient.itemCodeableConcept.text = "dimethyl fumarate"
-* ingredient.strength.numerator.value = 30
-* ingredient.strength.numerator.unit = "mg"
-* ingredient.strength.numerator.system = $ucum
-* ingredient.strength.numerator.code = #mg
-* ingredient.strength.denominator.value = 1
-* ingredient.strength.denominator.unit = "Tablet"
-* ingredient.strength.denominator.system = $ucum
-* ingredient.strength.denominator.code = #{tablet}
+* doseForm = $edqm#10225000 "Gastro-resistant tablet"
+* ingredient.item.concept = $unii#FO2303MNI2 "dimethyl fumarate"
+* ingredient.item.concept.text = "dimethyl fumarate"
+* ingredient.strengthRatio.numerator.value = 30
+* ingredient.strengthRatio.numerator.unit = "mg"
+* ingredient.strengthRatio.numerator.system = $ucum
+* ingredient.strengthRatio.numerator.code = #mg
+* ingredient.strengthRatio.denominator.value = 1
+* ingredient.strengthRatio.denominator.unit = "Tablet"
+* ingredient.strengthRatio.denominator.system = $ucum
+* ingredient.strengthRatio.denominator.code = #{tablet}
 Instance: de131e15-ed13-4b31-b38c-3204a84d99c5
 InstanceOf: Medication
 Usage: #inline
 * code.coding[0] = $spor-man#EMEA/H/C/000142 "Karvea"
 * code.coding[+] = $phpid#0x8DFB446EDB3B8AE508AE493827A704E4 "Irbesartan, 75 mg/ 1 tablet, Tablet"
 * code.coding[+] = $atc#C09DA04 "irbesartan and diuretics"
-* form = $edqm#10219000 "Tablet"
-* ingredient.itemCodeableConcept = $unii#J0E2756Z7N "irbesartan"
-* ingredient.itemCodeableConcept.text = "irbesartan"
-* ingredient.strength.numerator.value = 75
-* ingredient.strength.numerator.unit = "mg"
-* ingredient.strength.numerator.system = $ucum
-* ingredient.strength.numerator.code = #mg
-* ingredient.strength.denominator.value = 1
-* ingredient.strength.denominator.unit = "Tablet"
-* ingredient.strength.denominator.system = $ucum
-* ingredient.strength.denominator.code = #{tablet}
+* doseForm = $edqm#10219000 "Tablet"
+* ingredient.item.concept = $unii#J0E2756Z7N "irbesartan"
+* ingredient.item.concept.text = "irbesartan"
+* ingredient.strengthRatio.numerator.value = 75
+* ingredient.strengthRatio.numerator.unit = "mg"
+* ingredient.strengthRatio.numerator.system = $ucum
+* ingredient.strengthRatio.numerator.code = #mg
+* ingredient.strengthRatio.denominator.value = 1
+* ingredient.strengthRatio.denominator.unit = "Tablet"
+* ingredient.strengthRatio.denominator.system = $ucum
+* ingredient.strengthRatio.denominator.code = #{tablet}
 Instance: 9ac3356c-4ea4-4814-84c3-235484f2ef15
 InstanceOf: Medication
 Usage: #inline
 * code.coding[0] = $fake-man-sys#16028/0049 "Boots Decongestant 0.05% w/v Nasal spray"
 * code.coding[+] = $phpid#0xF79CABF272B6A7EEF104DDDA44E82716 "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"
 * code.coding[+] = $atc#R01AA05 "oxymetazoline"
-// * form = $edqm#10808000 "Nasal spray, solution"
-* form.text = "Nasal spray, solution"
-* ingredient.itemCodeableConcept = $unii#K89MJ0S5VY "oxymetazoline hydrochloride"
-* ingredient.itemCodeableConcept.text = "oxymetazoline hydrochloride"
-* ingredient.strength.numerator.value = 0.05
-* ingredient.strength.numerator.unit = "mg"
-* ingredient.strength.numerator.system = $ucum
-* ingredient.strength.numerator.code = #mg
-* ingredient.strength.denominator.value = 1
-* ingredient.strength.denominator.unit = "ml"
-* ingredient.strength.denominator.system = $ucum
-* ingredient.strength.denominator.code = #ml
+* doseForm = $edqm#10808000 "Nasal spray, solution"
+* doseForm.text = "Nasal spray, solution"
+* ingredient.item.concept = $unii#K89MJ0S5VY "oxymetazoline hydrochloride"
+* ingredient.item.concept.text = "oxymetazoline hydrochloride"
+* ingredient.strengthRatio.numerator.value = 0.05
+* ingredient.strengthRatio.numerator.unit = "mg"
+* ingredient.strengthRatio.numerator.system = $ucum
+* ingredient.strengthRatio.numerator.code = #mg
+* ingredient.strengthRatio.denominator.value = 1
+* ingredient.strengthRatio.denominator.unit = "ml"
+* ingredient.strengthRatio.denominator.system = $ucum
+* ingredient.strengthRatio.denominator.code = #ml
 

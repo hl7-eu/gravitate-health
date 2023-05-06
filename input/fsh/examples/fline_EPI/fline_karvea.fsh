@@ -627,7 +627,7 @@ Usage: #example
 * entry[=].resource = flinedbundlekarvea
 
 * entry[+].fullUrl = "Bundle/ips"
-* entry[=].resource = flinedbundlekarvea
+* entry[=].resource = gravitate-ips-1-r5
 
 * entry[+].fullUrl = "Bundle/persona"
 * entry[=].resource = persona-dimension-collection
