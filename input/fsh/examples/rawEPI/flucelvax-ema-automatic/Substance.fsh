@@ -2,7 +2,7 @@
 Instance: substance-influenzaavirusadelaware552019cvr45h1n1whole
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "INFLUENZA A VIRUS A/Delaware/55/2019 CVR-45 (H1N1) WHOLE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "9V4SVN4JQV"
@@ -29,7 +29,7 @@ Usage: #example
 Instance: substance-influenzaavirusadarwin112021h3n2whole
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "INFLUENZA A VIRUS A/Darwin/11/2021 (H3N2) WHOLE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "JS7E5ZZ3AC"
@@ -56,7 +56,7 @@ Usage: #example
 Instance: substance-influenzabvirusbsingaporewuh46182021whole
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "INFLUENZA B VIRUS B/Singapore/WUH4618/2021 WHOLE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "BFA4LSE5QQ"
@@ -83,7 +83,7 @@ Usage: #example
 Instance: substance-influenzabvirusbsingaporeinftt1606102016whole
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "INFLUENZA B VIRUS B/SINGAPORE/INFTT-16-0610/2016 WHOLE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "B3EV5T8SUF"

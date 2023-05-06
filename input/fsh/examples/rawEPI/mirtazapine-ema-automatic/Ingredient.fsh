@@ -9,7 +9,7 @@ Instance: ingredient-for-mirtazapine-magnesiumstearate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Magnesium stearate"
 Description: "Magnesium stearate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "70097M6I30"
@@ -44,7 +44,7 @@ Instance: ingredient-for-mirtazapine-lactosemonohydrate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient LACTOSE MONOHYDRATE"
 Description: "LACTOSE MONOHYDRATE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "EWQ57Q8I5X"
@@ -79,7 +79,7 @@ Instance: ingredient-for-mirtazapine-mirtazapine
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Mirtazapine"
 Description: "Mirtazapine"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "A051Q2099Q"
@@ -118,7 +118,7 @@ Instance: ingredient-for-mirtazapine-hydroxypropylcelluloseunspecified
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient HYDROXYPROPYL CELLULOSE, UNSPECIFIED"
 Description: "HYDROXYPROPYL CELLULOSE, UNSPECIFIED"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "9XZ8H6N6OH"
@@ -153,7 +153,7 @@ Instance: ingredient-for-mirtazapine-silicacolloidalanhydrous
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SILICA, COLLOIDAL ANHYDROUS"
 Description: "SILICA, COLLOIDAL ANHYDROUS"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "ETJ7Z6XBU4"
@@ -188,7 +188,7 @@ Instance: ingredient-for-mirtazapine-cornstarch
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient CORN STARCH"
 Description: "CORN STARCH"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "O8232NY3SJ"

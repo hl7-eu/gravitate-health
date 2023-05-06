@@ -5,7 +5,7 @@ Title: "Regulated Authorization for Flucelvax Tetra - suspension for injection i
 Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 Description: "Regulated Authorization for Flucelvax Tetra - suspension for injection in pre-filled syringe
 Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/18/1326/001

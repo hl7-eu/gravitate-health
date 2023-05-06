@@ -3,7 +3,7 @@ Instance: composition16598f252d07b4784b82ba43cf9e847e
 InstanceOf: CompositionUvEpi
 Title: "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
 Description:  "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "xx"
@@ -434,7 +434,7 @@ Instance: compositione722f6782d3f34f86982e14386c8811d
 InstanceOf: CompositionUvEpi
 Title: "Composition for Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet"
 Description:  "Composition for Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "yy"

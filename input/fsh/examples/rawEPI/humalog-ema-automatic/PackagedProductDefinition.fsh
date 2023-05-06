@@ -3,7 +3,7 @@ Instance: ppd-a38f06714db0c27b2ba704652e3f08c5
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill"
 Description: "Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/96/007/035"

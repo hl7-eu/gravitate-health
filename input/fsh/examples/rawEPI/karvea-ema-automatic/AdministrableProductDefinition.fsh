@@ -3,7 +3,7 @@ Instance: ap-dcaa4d32aa6658a8df831551503e52ee
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Karvea 75mg tablet"
 Description: "Karvea 75mg tablet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $phpid
 * identifier.value = "EU/1/97/049/001" 

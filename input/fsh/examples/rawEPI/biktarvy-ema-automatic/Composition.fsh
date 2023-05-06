@@ -3,7 +3,7 @@ Instance: composition1846d2b12fecbbb0310cd8c196c98a58
 InstanceOf: CompositionUvEpi
 Title: "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
 Description:  "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "EU/1/18/1289/001"

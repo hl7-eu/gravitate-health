@@ -3,7 +3,7 @@ Instance: authorization925dad38f0afbba36223a82b3a766438
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
 Description: "Regulated Authorization for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "68290"

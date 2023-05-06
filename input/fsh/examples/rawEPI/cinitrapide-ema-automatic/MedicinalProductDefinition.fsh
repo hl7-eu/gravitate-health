@@ -3,7 +3,7 @@ Instance: mp1453e0f16ff6c1d3106ed737a7857578
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product BLASTON 1 mg tablets"
 Description: "BLASTON 1 mg tablets"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https:://cima.aemps.es/ids"

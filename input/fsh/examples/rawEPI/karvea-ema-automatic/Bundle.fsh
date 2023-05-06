@@ -5,6 +5,7 @@ Title: "ePI document Bundle for Karvea 75 mg Package Leaflet"
 Description: "Bundle for Karvea 75 mg Package Leaflet ePI document"
 Usage: #example
 
+
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/97/049/001"
 * type = #document

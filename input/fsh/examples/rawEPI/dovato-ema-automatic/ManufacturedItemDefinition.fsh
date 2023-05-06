@@ -3,7 +3,7 @@ Instance: mid-49178f16170ee8a6bc2a4361c1748d5f
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Title: "Manufactured item Dovato 50 mg/300 mg film-coated tablets"
 Description: "Dovato 50 mg/300 mg film-coated tablets"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi/#/"
 * identifier.value = "EU/1/19/1370/001"

@@ -3,7 +3,7 @@ Instance: ppd-29436a85dac3ea374adb3fa64cfd2578
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "HIPÉRICO ARKOPHARMA cápsulas duras"
 Description: "HIPÉRICO ARKOPHARMA cápsulas duras"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "x"

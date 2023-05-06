@@ -2,7 +2,7 @@
 Instance: substance-cinitapride
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "CINITAPRIDE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "R8I97I2L24"

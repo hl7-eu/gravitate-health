@@ -3,7 +3,7 @@ Instance: authorizationdcaa4d32aa6658a8df831551503e52ee
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for karvea 75 mg tablet"
 Description: "Regulated Authorization for karvea 75 mg tablet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/97/049/001"

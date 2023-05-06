@@ -3,7 +3,7 @@ Instance: compositionf4d45353edcb21af3718d3a0df94a4d8
 InstanceOf: CompositionUvEpi
 Title: "Composition for Karvea Package Leaflet"
 Description:  "Composition for Karvea Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4f"

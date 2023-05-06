@@ -3,7 +3,7 @@ Instance: mpd4bcbbaec04bf6aceb2f71162205967e
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes"
 Description: "Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://cima.aemps.es/ids"
