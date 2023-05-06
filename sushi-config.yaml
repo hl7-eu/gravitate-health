@@ -34,10 +34,7 @@ dependencies:
   #hl7.fhir.uv.ips: current
 parameters:
   show-inherited-invariants: false
-  path-resource: !!seq
-  - input/resources/irbesartan
-  - input/resources/oxymetazoline-hydrochloride
-  - input/resources/dimethyl-fumarate
+
   autoload-resources: true
   produce-jekyll-data: true
 copyrightYear: 2021+
@@ -64,6 +61,8 @@ pages:
       title: Epi Processing
   10-semantic-annotation.md:
       title: Semantic Annotation
+  11-ips-considerations.md:
+      title: IPS Considerations
 
 			
 menu:
@@ -72,7 +71,10 @@ menu:
   ePI Processing: 
     Epi Processing: 09-epi-processing.html
     Semantic Annotation: 10-semantic-annotation.html
+    Persona Dimensions: 08-persona-dimensions.html
+    IPS Considerations: 11-ips-considerations.html
     Terminology: 03-terminology.html
+
   Capability: 05-capability.html
   Technical Requirements: 06-general-technical-conformance-requirements.html    
   Artifact Index: artifacts.html

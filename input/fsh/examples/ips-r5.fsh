@@ -215,7 +215,7 @@ Usage: #inline
 		</tbody>
 	</table>
 </div>"
-* status = #active
+* status = #recorded
 * medication.reference = Reference(b50ae644-e0b7-4007-809f-26f493cbe365) "Dimethyl fumarate 30 mg Tablet"
 * subject = Reference(c154158f-6a43-4ab7-8443-e7f4bf915dd6) "Maria Gravitate"
 * dosage.route = $edqm#20053000 "Oral use"
@@ -229,7 +229,7 @@ Usage: #inline
 Instance: f6cb1218-f81c-4338-80d8-3c10910f78f5
 InstanceOf: MedicationStatement
 Usage: #inline
-* status = #active
+* status = #recorded
 * medication.reference = Reference(de131e15-ed13-4b31-b38c-3204a84d99c5) "Irbesartan 75 mg Tablet"
 * subject = Reference(c154158f-6a43-4ab7-8443-e7f4bf915dd6) "Maria Gravitate"
 * dosage.route = $edqm#20053000 "Oral use"
@@ -243,7 +243,7 @@ Usage: #inline
 Instance: f26084c9-b1c8-46d9-acb2-1d400ade87b5
 InstanceOf: MedicationStatement
 Usage: #inline
-* status = #active
+* status = #recorded
 * medication.reference = Reference(9ac3356c-4ea4-4814-84c3-235484f2ef15) "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
 * subject = Reference(c154158f-6a43-4ab7-8443-e7f4bf915dd6) "Maria Gravitate"
 * dosage.route = $edqm#20049000	"Nasal use"
