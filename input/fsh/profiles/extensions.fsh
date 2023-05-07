@@ -1,5 +1,5 @@
 Extension: Lenses
-Description: "adding lenses"
+Description: "Conveying Lens Information in the FHIR format"
 * ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/lenslibrary"
 * value[x] only Reference(Library)
 
@@ -46,6 +46,7 @@ Extension: HtmlElementLinkV3
 * extension contains
     elementClass 1..1 and
     concept 1..1 
-* extension[concept] ^short = "Codes from different code systems"
+* extension[concept] ^short = "Reference for ClinicalUseDefinition"
 * extension[concept].value[x] only Reference(ClinicalUseDefinition)
 * extension[elementClass].value[x] only string
+* extension[elementClass] ^short = "Tag for adding in the HTML code"
