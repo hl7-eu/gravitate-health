@@ -1,6 +1,7 @@
-Instance: example
+Instance: Scenario-pipeline
 InstanceOf: ExampleScenario
-Usage: #definition
+Usage: #example
+
 * status = #draft
 //* purpose = "Purpose: this serves to demonstrate the performing of medication administration, by using remote / mobile devices to a) Get the planned medication administrations and b) Record the performing of these administrations without a permanent connection to the EHR."
 
@@ -10,7 +11,7 @@ Usage: #definition
 * actor[=].description = "The Nurse"
 
 * actor[+].key = "C"
-* actor[=].type = #C
+* actor[=].type = #system
 * actor[=].title = "Client / FrontEnd"
 
 
