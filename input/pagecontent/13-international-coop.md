@@ -36,8 +36,11 @@ There has been a work on the mapping between the 3:
 | Spell out abbreviations !                                                    |                                                              |                                                  |
 | WHY is there a mix of Capital letters and regular text                       |                                                              |                                                  |
 
-## US - SPL
+## USPI - FHIR SPL
 
 The data for the SPL related IG is present [here](http://build.fhir.org/ig/HL7/fhir-spl/branches/main/toc.html)
 
+So in terms of FHIR document, is also possible to create a mapping between sections in the Composition.
+
+So..
 
