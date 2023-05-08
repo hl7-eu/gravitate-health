@@ -612,22 +612,3 @@ Usage: #example
 
 
 
-Instance: flinedbundlekarvea-personalized
-InstanceOf: bundled-personalized-epi
-Title: "ePI document Bundle for Karvea 75 mg Package Leaflet - F' (Expanded)"
-Description: "Bundle for Karvea 75 mg Package Leaflet ePI document - F' (Expanded)"
-Usage: #example
-
-
-
-* type = #collection
-* timestamp = "2023-04-25T11:55:27Z"
-
-* entry[+].fullUrl = "Bundle/epi"
-* entry[=].resource = flinedbundlekarvea
-
-* entry[+].fullUrl = "Bundle/ips"
-* entry[=].resource = gravitate-ips-1-r5
-
-* entry[+].fullUrl = "Bundle/persona"
-* entry[=].resource = persona-dimension-collection

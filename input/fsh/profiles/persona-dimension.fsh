@@ -21,15 +21,9 @@ Parent: Bundle
 Title:     "Persona Dimension Collection"
 Description: "Persona Dimension Collection"
 
+* identifier 1..1
 * type = #collection
 * entry.resource only PersonaDimension or QuestionnaireResponse or Condition
 
 
-Profile:    bundled-personalized-epi
-Id:        bundled-personalized-epi
-Parent: Bundle
-Title:     "Collection of Personalized Epi data"
-Description: "Collection of Personalized Epi data"
 
-* type = #collection
-* entry.resource only Bundle
