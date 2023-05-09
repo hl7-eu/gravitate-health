@@ -1,6 +1,3 @@
-
-
-
 Profile:     PersonaDimension
 Id:          example-persona-profile
 Parent:      Observation
