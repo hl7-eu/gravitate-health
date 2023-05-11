@@ -1,5 +1,5 @@
 Instance: persona-dimension-1
-InstanceOf: PersonaDimension
+InstanceOf: Observation
 
 * status = #final
 * code = pd-type-cs#EMP
@@ -11,7 +11,7 @@ InstanceOf: PersonaDimension
 * valueCodeableConcept = http://example.org#currenly-employed "Currently employed"
 
 Instance: persona-dimension-2
-InstanceOf: PersonaDimension
+InstanceOf: Observation
 
 * status = #final
 * code = pd-type-cs#SHW
@@ -24,7 +24,7 @@ InstanceOf: PersonaDimension
 
 
 Instance: persona-dimension-3
-InstanceOf: PersonaDimension
+InstanceOf: Observation
 
 * status = #final
 * code = pd-type-cs#WKL
@@ -37,7 +37,7 @@ InstanceOf: PersonaDimension
 
 
 Instance: persona-dimension-4
-InstanceOf: PersonaDimension
+InstanceOf: Observation
 
 * status = #final
 * code = pd-type-cs#EVI

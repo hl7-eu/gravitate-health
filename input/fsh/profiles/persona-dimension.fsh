@@ -1,16 +1,3 @@
-Profile:     PersonaDimension
-Id:          example-persona-profile
-Parent:      Observation
-Title:       "Persona Dimension Profile"
-Description: "Persona Dimension Profile"
-
-
-* derivedFrom only Reference(QuestionnaireResponse)
-
-* category from PDcategoryVS (required)
-* code from PDtypeVS (required)
-
-
 Profile:    PersonaDimensionCollection
 Id:        persona-collection
 Parent: Bundle
@@ -19,7 +6,7 @@ Description: "Persona Dimension Collection"
 
 * identifier 1..1
 * type = #collection
-* entry.resource only PersonaDimension or QuestionnaireResponse or Condition
+* entry.resource only Observation or QuestionnaireResponse or Condition
 
 
 
