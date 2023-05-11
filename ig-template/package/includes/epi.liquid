@@ -2,10 +2,7 @@
 {% assign composition = compositionResource.resource %}
 
 
-{% if bundle.type != "document" %}
-  {% include {{[type]}}-{{[id]}}-html.xhtml %}
 
-  {% else %}
   <div>
     {% if composition.category[0].coding[0].code == "E" %}
       <link href="assets/css/lenses.css" rel="stylesheet" />
@@ -477,4 +474,3 @@
     </div>
   {% endif %}
 </div>
-{% endif %}
