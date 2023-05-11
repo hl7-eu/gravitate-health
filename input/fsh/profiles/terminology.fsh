@@ -79,6 +79,22 @@ Description:  "Persona Vector Dimensions categories"
 
 * ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-category-cs
 
+
+
+ValueSet: PDcategoryVS
+
+// for category
+
+// Define a local code system
+CodeSystem: PDtypeCS
+Id:         pd-type-cs
+Title:     "Persona Vector Dimensions Code"
+Description:  "Persona Vector Dimensions Code"
+
+
+
+* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs
+
 * #EMP
     "employment"
 
@@ -95,11 +111,10 @@ Description:  "Persona Vector Dimensions categories"
 * #EVI
     "Extrovert/introvert"
 
-ValueSet: PDcategoryVS
-
-// all from above
-
 ValueSet: PDtypeVS
+// for type
+
+* include codes from system http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs
 
 
 

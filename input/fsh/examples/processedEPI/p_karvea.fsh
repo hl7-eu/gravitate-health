@@ -26,20 +26,20 @@ Usage: #inline
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "pregancyCategory"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#77386006 "Pregnancy"
+* extension[=].extension[=].valueCodeableReference.concept = http://snomed.info/sct#77386006 "Pregnancy"
 
 * extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "breastfeedingCategory"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#69840006 "Normal breast feeding (finding)"
+* extension[=].extension[=].valueCodeableReference.concept = http://snomed.info/sct#69840006 "Normal breast feeding (finding)"
 
 
 * extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "indication"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.reference = Reference(indication-Hypertension)
+* extension[=].extension[=].valueCodeableReference.reference = Reference(cud-42659cd40ce761bcf6d15bd28423e45f)
 
 * extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
@@ -649,3 +649,12 @@ Usage: #example
 // ManufacturedItemDefinition
 * entry[+].fullUrl = "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
 * entry[=].resource = mid-dcaa4d32aa6658a8df831551503e52ee 
+
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
+* entry[=].resource = contraindication-kidney
+
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
+* entry[=].resource = contraindication-diabetes-mellitus
+
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
+* entry[=].resource = contraindication-pregancy

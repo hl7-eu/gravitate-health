@@ -2,7 +2,7 @@ Instance: persona-dimension-1
 InstanceOf: PersonaDimension
 
 * status = #final
-* code = pd-category-cs#EMP
+* code = pd-type-cs#EMP
 //* category = 
 * subject = Reference(Patient/Pedro-patient)
 
@@ -14,7 +14,7 @@ Instance: persona-dimension-2
 InstanceOf: PersonaDimension
 
 * status = #final
-* code = pd-category-cs#SHW
+* code = pd-type-cs#SHW
 //* category = 
 * subject = Reference(Patient/Pedro-patient)
 
@@ -27,7 +27,7 @@ Instance: persona-dimension-3
 InstanceOf: PersonaDimension
 
 * status = #final
-* code = pd-category-cs#WKL
+* code = pd-type-cs#WKL
 //* category = 
 * subject = Reference(Patient/Pedro-patient)
 
@@ -40,7 +40,7 @@ Instance: persona-dimension-4
 InstanceOf: PersonaDimension
 
 * status = #final
-* code = pd-category-cs#EVI
+* code = pd-type-cs#EVI
 //* category = 
 * subject = Reference(Patient/Pedro-patient)
 
