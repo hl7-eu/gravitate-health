@@ -2,8 +2,8 @@
 // Define a local code system
 CodeSystem: QuestionnaireDimensionCS
 Id:         questi-dimens-cs
-Title:     ""
-Description: ""
+Title:     "Questionnaire example Dimensions"
+Description:  "Questionnaire example Dimensions"
 
 
 * ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/questi-dimens-cs
@@ -72,8 +72,9 @@ Description: ""
 // Define a local code system
 CodeSystem: PDcategoryCS
 Id:         pd-category-cs
-Title:     ""
-Description: ""
+Title:     "Persona Vector Dimensions categories"
+Description:  "Persona Vector Dimensions categories"
+
 
 
 * ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-category-cs
@@ -81,6 +82,18 @@ Description: ""
 * #EMP
     "employment"
 
+
+* #SHW
+    "Share info Willingly"
+
+* #WKL
+    "WorkLife"
+
+* #ER
+    "Emotional/Rational"
+
+* #EVI
+    "Extrovert/introvert"
 
 ValueSet: PDcategoryVS
 
@@ -91,10 +104,10 @@ ValueSet: PDtypeVS
 
 
 // Define a local code system
-CodeSystem: epicategoryCS
+CodeSystem: EpicategoryCS
 Id:         epicategory-cs
-Title:     ""
-Description: ""
+Title:     "Category of EPI"
+Description: "Category of EPI"
 
 
 * ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs

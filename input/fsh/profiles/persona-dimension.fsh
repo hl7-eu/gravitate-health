@@ -7,7 +7,6 @@ Description: "Persona Dimension Profile"
 
 * derivedFrom only Reference(QuestionnaireResponse)
 
-* value[x] only CodeableConcept or boolean or Quantity
 * category from PDcategoryVS (required)
 * code from PDtypeVS (required)
 
