@@ -25,7 +25,7 @@ The idea of adding lenses to the epi in order to use the knowledge for later foc
 See [here](12-2-OperationDefinition-focus-notes.html)
 
 
-## Enhancing
+## Enhancement
 
 The idea of getting additional information in order to personalize data.
 - IN: Focused ePI
