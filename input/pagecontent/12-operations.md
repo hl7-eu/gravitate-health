@@ -14,14 +14,14 @@ The idea of adding semantic annotation to a epi. Through the extension, adding t
 
 See [here](12-1-OperationDefinition-annotation-notes.html)
 
-## Lensing
+## Focusing
 
 The idea of adding lenses to the epi in order to use the knowledge for later focusing.
 
 See [here](12-2-OperationDefinition-lensing-notes.html)
 
 
-## Focusing
+## Enhancing
 
 The idea of getting additional information in order to personalize data.
 

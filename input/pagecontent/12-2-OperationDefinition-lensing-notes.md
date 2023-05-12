@@ -1,4 +1,4 @@
-The following section contains an example of an invocation using the ePI Bundle and Base64 encoded IPS.
+The following section contains an example of an invocation using the ePI Bundle.
 
 The example ePI content is copied from [here](Bundle-focuseddbundlekarvea.html).
 
