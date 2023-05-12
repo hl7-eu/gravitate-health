@@ -5,8 +5,7 @@ The definition of the several steps in the preprocessing pipeline:
 1. Raw ePI: The ePI as is, without changes
 2. p(ePI): the preprocessed ePI, with semmnantic annotation
 3. f(ePI): the focused ePI with the lenses attached to the p(ePI)
-4. f'(ePI): the ePI with lenses and personal data
-5. e(ePI): the final ePI format, rendered with personalized data
+4. e(ePI): the final ePI format, rendered with personalized data
 
 <div>{% include e2e-focusing.svg %}</div>
 <br clear="all"/>

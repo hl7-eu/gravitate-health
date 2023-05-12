@@ -1,6 +1,6 @@
 The following section contains an example of an invocation using the ePI Bundle and Base64 encoded IPS.
 
-The example ePI content is copied from [here](Bundle-bundlepackageleaflet75.json.html).
+The example ePI content is copied from [here](Bundle-focuseddbundlekarvea.html).
 
 The example IPS content is copied from [here](https://build.fhir.org/ig/hl7-eu/gravitate-health-ips/Bundle-gravitate-maria.html)
 
