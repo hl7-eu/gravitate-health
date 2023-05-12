@@ -24,7 +24,7 @@ Usage: #inline
 
 * extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "pregancyCategory"
+* extension[=].extension[=].valueString = "pregnancyCategory"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#77386006 "Pregnancy"
 
@@ -190,7 +190,7 @@ Usage: #inline
             <b>Karvea with food and drink</b>
             <p>Karvea can be taken with or without food.</p>
             <b>Pregnancy and breast-feeding</b>
-            <span class="pregancyCategory"> 
+            <span class="pregnancyCategory"> 
             <b>Pregnancy</b>
             <p>You must tell your doctor if you think you are (or might become) pregnant. Your doctor will normally advise you to stop taking Karvea before you become pregnant or as soon as you know you are pregnant and will advise you to take another medicine instead of Karvea. Karvea is not recommended in early pregnancy, and must not be taken when more than 3 months pregnant, as it may cause serious harm to your baby if used after the third month of pregnancy.</p>
             </span>
