@@ -1,8 +1,8 @@
 
 Instance: enhanced-composition1846d2b12fecbbb0310cd8c196c98a58
 InstanceOf: CompositionUvEpi
-Title: "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet - Enhanced"
-Description:  "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet - Enhanced"
+Title: "[Enhanced-Alicia] Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
+Description:  "[Enhanced-Alicia] Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"

@@ -525,8 +525,8 @@ Usage: #inline
 
 Instance: enhancedbundlekarveaP
 InstanceOf: BundleUvEpi
-Title: "ePI document Enhanced for Pedro for Karvea 75 mg Package Leaflet"
-Description: "Bundle Enhanced for Pedro for Karvea 75 mg Package Leaflet ePI document"
+Title: "[Enhanced-Pedro] ePI document for Karvea 75 mg Package Leaflet"
+Description: "[Enhanced-Pedro] Bundle for Karvea 75 mg Package Leaflet ePI document"
 Usage: #example
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
