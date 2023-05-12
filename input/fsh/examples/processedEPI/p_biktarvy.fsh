@@ -464,8 +464,8 @@ The silica gel desiccant is contained in a separate sachet or canister and shoul
 
 Instance: processedbundlekarveabik
 InstanceOf: BundleUvEpi
-Title: "ePI document Enhanced for Pedro for Karvea 75 mg Package Leaflet"
-Description: "Bundle Enhanced for Pedro for Karvea 75 mg Package Leaflet ePI document"
+Title: "[Preprocessed] ePI document for Karvea 75 mg Package Leaflet"
+Description: "[Preprocessed] Bundle for Karvea 75 mg Package Leaflet ePI document"
 Usage: #example
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
@@ -474,7 +474,5 @@ Usage: #example
 * timestamp = "2023-04-25T11:55:27Z"
 
 // Composition
-* entry[0].fullUrl = "Composition/enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8"
-* entry[0].resource = enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8
-
- 
+* entry[0].fullUrl = "Composition/Processed-composition1846d2b12fecbbb0310cd8c196c98a58"
+* entry[0].resource = Processed-composition1846d2b12fecbbb0310cd8c196c98a58

@@ -2,8 +2,8 @@
 
 Instance: enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8
 InstanceOf: CompositionUvEpi
-Title: "Composition for Karvea Package Leaflet - Enhanced"
-Description:  "Composition for Karvea Package Leaflet - Enhanced"
+Title: "[Enhanced] Composition for Karvea Package Leaflet"
+Description:  "[Enhanced] Composition for Karvea Package Leaflet"
 Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
@@ -544,8 +544,8 @@ Usage: #example
 * timestamp = "2023-04-25T11:55:27Z"
 
 // Composition
-* entry[0].fullUrl = "Composition/Focused-compositionf4d45353edcb21af3718d3a0df94a4d8"
-* entry[0].resource = Focused-compositionf4d45353edcb21af3718d3a0df94a4d8
+* entry[0].fullUrl = "Composition/enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8"
+* entry[0].resource = enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8
 
 
 // ClinicalUseDefinition

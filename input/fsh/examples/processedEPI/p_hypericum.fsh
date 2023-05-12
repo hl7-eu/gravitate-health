@@ -3,7 +3,7 @@ Instance: processed-compositionaf8d2f6e4772c29a8ef9fbb165e80d28
 InstanceOf: CompositionUvEpi
 Title: "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet - Preprocessed"
 Description:  "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet - Preprocessed"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "cc"
@@ -359,3 +359,20 @@ Usage: #example
 </div>"""
 
 
+
+
+
+Instance: processedbundlehypericum
+InstanceOf: BundleUvEpi
+Title: "[Preprocessed] ePI document for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
+Description: "[Preprocessed] Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet ePI document"
+Usage: #example
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/97/049/001"
+* type = #document
+* timestamp = "2023-04-25T11:55:27Z"
+
+// Composition
+* entry[0].fullUrl = "Composition/processed-compositionaf8d2f6e4772c29a8ef9fbb165e80d28"
+* entry[0].resource =  processed-compositionaf8d2f6e4772c29a8ef9fbb165e80d28

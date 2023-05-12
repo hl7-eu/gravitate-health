@@ -5,6 +5,7 @@ InstanceOf: CompositionUvEpi
 Title: "Composition for Karvea Package Leaflet - Focused"
 Description:  "Composition for Karvea Package Leaflet- Focused"
 Usage: #inline
+
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
@@ -532,6 +533,9 @@ Usage: #inline
 
 Instance: mock-lib
 InstanceOf: Library
+Title: "Lens Example"
+Description: "Lens Example"
+Usage: #example
 
 * version = "0.1"
 * name = "mock lenses"
@@ -552,8 +556,8 @@ for (var i = 0; i < elements.length; i++) {
 
 Instance: focuseddbundlekarvea
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Karvea 75 mg Package Leaflet - Focused"
-Description: "Bundle for Karvea 75 mg Package Leaflet ePI document - Focused"
+Title: "[Focused] ePI document Bundle for Karvea 75 mg Package Leaflet"
+Description: "[Focused] Bundle for Karvea 75 mg Package Leaflet ePI document"
 Usage: #example
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 

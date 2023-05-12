@@ -64,6 +64,9 @@ Usage: #example
 
 Instance: persona-dimension-collection
 InstanceOf: PersonaDimensionCollection
+Title: "Persona Dimension - Collection"
+Description:  "Persona Dimension - Collection"
+Usage: #example
 
 * identifier.system = "https://example.org/persona-dimension-collection"
 * identifier.value = "pd-collection-1"

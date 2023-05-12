@@ -1,9 +1,9 @@
 
 Instance: processed-composition056f32ee5cf49404607e368bd8d3f2af
 InstanceOf: CompositionUvEpi
-Title: "Composition for asdad Package Leaflet - Preprocessed"
-Description:  "Composition for asdad Package Leaflet - Preprocessed"
-Usage: #example
+Title: "Composition for Flucelvax Package Leaflet - Preprocessed"
+Description:  "Composition for Flucelvax Package Leaflet - Preprocessed"
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "asdasd"
@@ -227,3 +227,20 @@ which the influenza virus is grown); </p>
 <p><strong>What Flucelvax Tetra looks like and contents of the pack</strong></p>
 <p>Flucelvax Tetra is a suspension for injection in a pre-filled syringe (ready to use syringe). Flucelvax Tetra is a clear to slightly opalescent suspension. A single syringe contains 0.5 ml of suspension for injection. Flucelvax Tetra is available in packs containing 1 pre-filled syringe with or without needle or 10 pre- filled syringes with or without needles. Not all pack sizes may be marketed.  </p>         </div>"""      
 
+
+
+
+Instance: processedbundleflucelvax
+InstanceOf: BundleUvEpi
+Title: "[Preprocessed] ePI document for Flucelvax Package Leaflet"
+Description: "[Preprocessed] Bundle for Flucelvax Package Leaflet ePI document"
+Usage: #example
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/97/049/001"
+* type = #document
+* timestamp = "2023-04-25T11:55:27Z"
+
+// Composition
+* entry[0].fullUrl = "Composition/processed-composition056f32ee5cf49404607e368bd8d3f2af"
+* entry[0].resource =  processed-composition056f32ee5cf49404607e368bd8d3f2af

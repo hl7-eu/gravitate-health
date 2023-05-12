@@ -3,7 +3,7 @@ Instance: processed-composition16598f252d07b4784b82ba43cf9e847e
 InstanceOf: CompositionUvEpi
 Title: "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet - Preprocessed"
 Description:  "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet - Preprocessed"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "xx"
@@ -468,7 +468,7 @@ Instance: compositione722f6782d3f34f86982e14386c8811dll
 InstanceOf: CompositionUvEpi
 Title: "Composition for Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet - Preprocessed"
 Description:  "Composition for Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet - Preprocessed"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "yy"
@@ -665,3 +665,33 @@ Usage: #example
 
       
 
+Instance: processedbundledovato
+InstanceOf: BundleUvEpi
+Title: "[Preprocessed] ePI document for Dovato 50 mg/300 mg comprimidos Package Leaflet"
+Description: "[Preprocessed] Bundle for Dovato 50 mg/300 mg comprimidos Package Leaflet ePI document"
+Usage: #example
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/97/049/001"
+* type = #document
+* timestamp = "2023-04-25T11:55:27Z"
+
+// Composition
+* entry[0].fullUrl = "Composition/compositione722f6782d3f34f86982e14386c8811dll"
+* entry[0].resource =  compositione722f6782d3f34f86982e14386c8811dll
+
+
+Instance: processedbundledovato-en
+InstanceOf: BundleUvEpi
+Title: "[Preprocessed] ePI document for Dovato 50 mg/300 mg tablets Package Leaflet"
+Description: "[Preprocessed] Bundle for Dovato 50 mg/300 mg tablets Package Leaflet ePI document"
+Usage: #example
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/97/049/001"
+* type = #document
+* timestamp = "2023-04-25T11:55:27Z"
+
+// Composition
+* entry[0].fullUrl = "Composition/processed-composition16598f252d07b4784b82ba43cf9e847e"
+* entry[0].resource =  processed-composition16598f252d07b4784b82ba43cf9e847e

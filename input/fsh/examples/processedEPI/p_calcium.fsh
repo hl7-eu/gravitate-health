@@ -3,7 +3,7 @@ Instance: processed-composition02e928f15b7b861b4b44915d9f1330ec
 InstanceOf: CompositionUvEpi
 Title: "Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet - Preprocessed"
 Description:  "Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet - Preprocessed"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "cc"
@@ -330,4 +330,20 @@ Usage: #example
         </div>"""
 
       
+
+Instance: processedbundlekarveacalcium
+InstanceOf: BundleUvEpi
+Title: "[Preprocessed] ePI document for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet"
+Description: "[Preprocessed] Bundle for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet ePI document"
+Usage: #example
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/97/049/001"
+* type = #document
+* timestamp = "2023-04-25T11:55:27Z"
+
+// Composition
+* entry[0].fullUrl = "Composition/processed-composition02e928f15b7b861b4b44915d9f1330ec"
+* entry[0].resource =  processed-composition02e928f15b7b861b4b44915d9f1330ec
+
 
