@@ -10,19 +10,27 @@ The first 3 could be understood as a FHIR operation with specific characteristic
 
 ## Annotating
 
-The idea of adding semantic annotation to a epi. Through the extension, adding the relationship between coded data (concept) and a tag to be added to the narrative text.
+The idea of adding semantic annotation to a epi. Through the [extension](http://build.fhir.org/ig/HL7/emedicinal-product-info/StructureDefinition-HtmlElementLink.html), adding the relationship between coded data (concept) and a tag to be added to the narrative text (elementClass).
+- IN: raw ePI
+- OUT annotated ePI
 
 See [here](12-1-OperationDefinition-annotation-notes.html)
 
 ## Focusing
 
 The idea of adding lenses to the epi in order to use the knowledge for later focusing.
-
-See [here](12-2-OperationDefinition-lensing-notes.html)
+- IN: annotated ePI
+- OUT: Focused ePI
+  
+See [here](12-2-OperationDefinition-focus-notes.html)
 
 
 ## Enhancing
 
 The idea of getting additional information in order to personalize data.
+- IN: Focused ePI
+- OUT: enhanced ePI
 
-See [here](12-3-OperationDefinition-focus-notes.html)
+See [here](12-3-OperationDefinition-enhancement-notes.html)
+
+Please check the postman collection for examples.

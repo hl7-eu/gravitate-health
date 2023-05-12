@@ -526,8 +526,8 @@ Usage: #inline
 
 Instance: enhancedbundlekarvea-alicia
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Karvea 75 mg Package Leaflet - enhanced"
-Description: "Bundle for Karvea 75 mg Package Leaflet ePI document - enhanced"
+Title: "ePI document Enhanced for Alicia for Karvea 75 mg Package Leaflet"
+Description: "Bundle Enhanced for Alicia for Karvea 75 mg Package Leaflet ePI document"
 Usage: #example
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
@@ -539,5 +539,3 @@ Usage: #example
 * entry[0].fullUrl = "Composition/enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8"
 * entry[0].resource = enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8
 
- 
- 

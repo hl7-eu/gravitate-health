@@ -1,14 +1,19 @@
 The following section contains an example of an invocation using the ePI Bundle and Base64 encoded IPS.
 
-The example ePI content is copied from [here](Bundle-focuseddbundlekarvea.html).
+The example *IN*  **annotated ePI** content is copied from [here](Bundle-Processedbundlekarvea.html).
 
-The example IPS content is copied from [here](https://build.fhir.org/ig/hl7-eu/gravitate-health-ips/Bundle-gravitate-maria.html)
+The example *IN* **IPS content** is copied from [here](https://build.fhir.org/ig/hl7-eu/gravitate-health-ips/Bundle-gravitate-maria.html)
+
+The example *IN* **Persona Dimension** is copied from [here](https://build.fhir.org/ig/hl7-eu/gravitate-health-ips/Bundle-gravitate-maria.html)
+
+The example *OUT* **Enhanced ePI** content is copied from [here](Bundle-enhancedddbundlekarvea.html).
+
 
 A Postman collection for example requests can be found [here](https://github.com/hl7-eu/gravitate-health/blob/master/Gravitate.postman_collection.json)
 
 ### Request
 ```
-POST http://localhost:8080/fhir/$focus
+POST http://localhost:8080/fhir/$enhancement
 
 {
     "resourceType": "Parameters",

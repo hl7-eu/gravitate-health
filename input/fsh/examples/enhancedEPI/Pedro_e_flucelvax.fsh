@@ -1,11 +1,11 @@
 
 Instance: enhanced-composition056f32ee5cf49404607e368bd8d3f2afg
 InstanceOf: CompositionUvEpi
-Title: "Composition for asdad Package Leaflet - Enhanced"
-Description:  "Composition for asdad Package Leaflet - Enhanced"
+Title: "Composition for Flucelvax Package Leaflet - Enhanced for Pedro"
+Description:  "Composition for Flucelvax Package Leaflet - Enhanced for Pedro"
 Usage: #inline
 
-* identifier.system = "asdas"
+* identifier.system = "http://example.org"
 * identifier.value = "asdasd"
 
 * status = #final

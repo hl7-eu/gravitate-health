@@ -1,8 +1,8 @@
 The following section contains an example of an invocation using the ePI Bundle.
 
-The example ePI content is copied from [here](Bundle-focuseddbundlekarvea.html).
+The example *IN*  **annotated ePI** content is copied from [here](Bundle-Processedbundlekarvea.html).
 
-The example IPS content is copied from [here](https://build.fhir.org/ig/hl7-eu/gravitate-health-ips/Bundle-gravitate-maria.html)
+The example *OUT* **Focused ePI** content is copied from [here](Bundle-focuseddbundlekarvea.html).
 
 A Postman collection for example requests can be found [here](https://github.com/hl7-eu/gravitate-health/blob/master/Gravitate.postman_collection.json)
 

@@ -576,8 +576,8 @@ Usage: #inline
 
 Instance: Processedbundlekarvea
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Karvea 75 mg Package Leaflet - Processed"
-Description: "Bundle for Karvea 75 mg Package Leaflet ePI document - Processed"
+Title: "ePI document Bundle Processed for Karvea 75 mg Package Leaflet"
+Description: "Bundle Processed for Karvea 75 mg Package Leaflet ePI document"
 Usage: #example
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 

@@ -1,7 +1,7 @@
-Instance: focus
+Instance: enhancement
 InstanceOf: OperationDefinition
 Usage: #definition
-* url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/focus"
+* url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/enhancement"
 * name = "focus"
 * title = "focus"
 * status = #active
@@ -12,6 +12,7 @@ If the IPS is delivered as a bundle it must be encoded using Base64 as it is FHI
 
 The ePI can be delivered either as a `Bundle` or by using an `Identifier` of the bundle. Whether the support of both `Identifier` and `Bundle` continues to be supported currently remains unknown.
 
+The persona dimension can be delivered either as a `Bundle` or by using an `Identifier` of the bundle. Whether the support of both `Identifier` and `Bundle` continues to be supported currently remains unknown.
 
 **Note: If the IPS is delivered as encoded Base64 content, there is a better opportunity for the submitting client to de-identify the Patient resource as the client can remove the Patient.identifier and mask out names and so on. While this may seem counter intuitive from an IPS point of view, the Patient identifiable components are not needed for the focusing mechanism to operate properly.**
 "
@@ -88,8 +89,11 @@ Usage: #definition
 * title = "annotation"
 * status = #active
 * kind = #operation
-* description = ""
+* description = "This operation calculates an annotated version of an ePI as well as the separate extracts. 
 
+The ePI can be delivered either as a `Bundle` or by using an `Identifier` of the bundle. Whether the support of both `Identifier` and `Bundle` continues to be supported currently remains unknown.
+
+"
 
 * affectsState = false
 * code = #focus
@@ -126,16 +130,19 @@ Usage: #definition
 * parameter[=].type = #Bundle
 
 
-Instance: lensing
+Instance: focusing
 InstanceOf: OperationDefinition
 Usage: #definition
-* url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/lensing"
-* name = "lensing"
-* title = "lensing"
+* url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/focus"
+* name = "focus"
+* title = "focus"
 * status = #active
 * kind = #operation
-* description = ""
+* description = "This operation calculates an focused version of an ePI as well as the separate extracts. 
 
+The ePI can be delivered either as a `Bundle` or by using an `Identifier` of the bundle. Whether the support of both `Identifier` and `Bundle` continues to be supported currently remains unknown.
+
+"
 
 * affectsState = false
 * code = #focus

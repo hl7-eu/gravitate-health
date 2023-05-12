@@ -1,8 +1,8 @@
 
 Instance: enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8g
 InstanceOf: CompositionUvEpi
-Title: "Composition for Karvea Package Leaflet - Enhanced"
-Description:  "Composition for Karvea Package Leaflet - Enhanced"
+Title: "Composition for Karvea Package Leaflet - Enhanced for Pedro"
+Description:  "Composition for Karvea Package Leaflet - Enhanced for Pedro"
 Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
@@ -525,8 +525,8 @@ Usage: #inline
 
 Instance: enhancedbundlekarveaP
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Karvea 75 mg Package Leaflet - enhanced"
-Description: "Bundle for Karvea 75 mg Package Leaflet ePI document - enhanced"
+Title: "ePI document Enhanced for Pedro for Karvea 75 mg Package Leaflet"
+Description: "Bundle Enhanced for Pedro for Karvea 75 mg Package Leaflet ePI document"
 Usage: #example
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 

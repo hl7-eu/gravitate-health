@@ -1,8 +1,8 @@
 
 Instance: enhanced-compositionaf8d2f6e4772c29a8ef9fbb165e80d28g
 InstanceOf: CompositionUvEpi
-Title: "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet - Enhanced"
-Description:  "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet - Enhanced"
+Title: "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet - Enhanced for Pedro"
+Description:  "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet - Enhanced for Pedro"
 Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"

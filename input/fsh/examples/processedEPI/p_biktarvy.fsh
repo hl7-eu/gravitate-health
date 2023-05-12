@@ -461,3 +461,20 @@ debossed with “BVY” on one side and a score line on the other side of the ta
 Each bottle contains a silica gel desiccant that must be kept in the bottle to help protect your tablets.
 The silica gel desiccant is contained in a separate sachet or canister and should not be swallowed.</p>             </div>"""      
 
+
+Instance: processedbundlekarveabik
+InstanceOf: BundleUvEpi
+Title: "ePI document Enhanced for Pedro for Karvea 75 mg Package Leaflet"
+Description: "Bundle Enhanced for Pedro for Karvea 75 mg Package Leaflet ePI document"
+Usage: #example
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/97/049/001"
+* type = #document
+* timestamp = "2023-04-25T11:55:27Z"
+
+// Composition
+* entry[0].fullUrl = "Composition/enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8"
+* entry[0].resource = enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8
+
+ 
