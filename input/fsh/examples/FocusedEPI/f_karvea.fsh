@@ -569,7 +569,18 @@ Usage: #example
 * entry[0].fullUrl = "Composition/Focused-compositionf4d45353edcb21af3718d3a0df94a4d8"
 * entry[0].resource = Focused-compositionf4d45353edcb21af3718d3a0df94a4d8
 
-
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/indication-Hypertension"
+* entry[=].resource = indication-Hypertension
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
+* entry[=].resource = contraindication-pregancy
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
+* entry[=].resource = contraindication-kidney
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
+* entry[=].resource = contraindication-diabetes-mellitus
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-a40c2367ed3c1c715eacd432105752a0"
 * entry[=].resource = cud-a40c2367ed3c1c715eacd432105752a0 
