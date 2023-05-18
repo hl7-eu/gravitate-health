@@ -603,8 +603,8 @@ Usage: #example
 * entry[=].resource = cud-42659cd40ce761bcf6d15bd28423e45f
 
 // ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/indication-Hypertension"
-* entry[=].resource = indication-Hypertension
+* entry[+].fullUrl = "ClinicalUseDefinition/cud-42659cd40ce761bcf6d15bd28423e45f"
+* entry[=].resource = cud-42659cd40ce761bcf6d15bd28423e45f
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
 * entry[=].resource = contraindication-pregancy

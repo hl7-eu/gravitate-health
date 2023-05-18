@@ -38,7 +38,7 @@ Usage: #inline
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "indication"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.reference = Reference(indication-Hypertension)
+* extension[=].extension[=].valueCodeableReference.reference = Reference(cud-42659cd40ce761bcf6d15bd28423e45f)
 
 * extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"

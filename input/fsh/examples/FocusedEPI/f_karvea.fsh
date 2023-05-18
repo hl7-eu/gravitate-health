@@ -41,7 +41,7 @@ Usage: #inline
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "indication"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.reference = Reference(indication-Hypertension)
+* extension[=].extension[=].valueCodeableReference.reference = Reference(cud-42659cd40ce761bcf6d15bd28423e45f)
 
 * extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
@@ -570,8 +570,8 @@ Usage: #example
 * entry[0].resource = Focused-compositionf4d45353edcb21af3718d3a0df94a4d8
 
 // ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/indication-Hypertension"
-* entry[=].resource = indication-Hypertension
+* entry[+].fullUrl = "ClinicalUseDefinition/cud-42659cd40ce761bcf6d15bd28423e45f"
+* entry[=].resource = cud-42659cd40ce761bcf6d15bd28423e45f
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
 * entry[=].resource = contraindication-pregancy
