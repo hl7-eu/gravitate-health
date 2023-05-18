@@ -34,7 +34,7 @@ Usage: #inline
  
 
 
-* manufacturer.manufacturer = Reference(org-3fdc76794516d7826890ab9f893e99c1)
+* manufacturer.manufacturer = Reference(org-6f4987de7be1bbfa4ee92c07de7e94d4)
 
 
 

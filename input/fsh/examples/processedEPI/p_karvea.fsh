@@ -598,6 +598,11 @@ Usage: #example
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8"
 * entry[=].resource = cud-4fce9d5258f70f7d605059f97c24efa8 
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/cud-42659cd40ce761bcf6d15bd28423e45f"
+* entry[=].resource = cud-42659cd40ce761bcf6d15bd28423e45f
+
+
 // Ingredient
 * entry[+].fullUrl = "Ingredient/ingredient-for-karvea-hypromellose"
 * entry[=].resource = ingredient-for-karvea-hypromellose 

@@ -1,10 +1,8 @@
 
 Instance: authorization04c9bd6fb89d38b2d83eced2460c4dc1
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for Flucelvax Tetra - suspension for injection in pre-filled syringe
-Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
-Description: "Regulated Authorization for Flucelvax Tetra - suspension for injection in pre-filled syringe
-Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
+Title: "Regulated Authorization for Flucelvax Tetra - suspension for injection in pre-filled syringe Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
+Description: "Regulated Authorization for Flucelvax Tetra - suspension for injection in pre-filled syringe Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 Usage: #inline
 
 * identifier.system = $spor-prod

@@ -5,7 +5,7 @@ Title: "[Enhanced-Pedro] Composition for Flucelvax Package Leaflet"
 Description:  "[Enhanced-Pedro] Composition for Flucelvax Package Leaflet"
 Usage: #inline
 
-* identifier.system = "http://example.org"
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "asdasd"
 
 * status = #final

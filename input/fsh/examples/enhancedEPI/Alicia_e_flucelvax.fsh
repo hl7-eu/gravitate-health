@@ -5,7 +5,7 @@ Title: "[Enhanced-Alicia] Composition for asdad Package Leaflet"
 Description:  "[Enhanced-Alicia] Composition for asdad Package Leaflet"
 Usage: #example
 
-* identifier.system = "asdas"
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "asdasd"
 
 * status = #final
@@ -20,7 +20,7 @@ Usage: #example
 * date = "2023-04-22T15:15:46Z"
 * author = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
 
-* title = "TEST PURPOSES ONLY - asdad"
+* title = "TEST PURPOSES ONLY - Flucelvax"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2023-04-22T15:15:46Z"
 * language = #en

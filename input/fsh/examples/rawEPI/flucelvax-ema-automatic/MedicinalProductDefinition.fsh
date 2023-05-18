@@ -1,15 +1,14 @@
 
 Instance: mpb6ced64d25ea2c8da6c6099386f14db1
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Flucelvax Tetra - suspension for injection in pre-filled syringe
-Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
-Description: "Flucelvax Tetra - suspension for injection in pre-filled syringe
-Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
+Title: "Medicinal Product Flucelvax Tetra - suspension for injection in pre-filled syringe Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
+Description: "Flucelvax Tetra - suspension for injection in pre-filled syringe Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 Usage: #inline
 
  
-* identifier[+].system = "hhtttp://asdsadad.com"
-* identifier[=].value = "x"
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
+* identifier.value = "asdasd"
+
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
 * domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
@@ -24,8 +23,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Flucelvax Tetra - suspension for injection in pre-filled syringe
-Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
+  * productName = "Flucelvax Tetra - suspension for injection in pre-filled syringe Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
   * type = $spor-productNamePartType-cs#220000000001
     * text = "Full name"
   
