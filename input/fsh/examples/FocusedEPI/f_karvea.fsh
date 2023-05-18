@@ -542,6 +542,7 @@ Usage: #example
 * experimental = true
 * type = http://terminology.hl7.org/CodeSystem/library-type#logic-library  "Logic Library"
 * content.data = "Ly8gR2V0IGFsbCBlbGVtZW50cyB3aXRoIHRoZSBjbGFzcyBuYW1lICJoaWdobGlnaHQiCnZhciBlbGVtZW50cyA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoImhpZ2hsaWdodCIpOwoKLy8gTG9vcCB0aHJvdWdoIGFsbCBlbGVtZW50cyBhbmQgYWRkIGEgQ1NTIGNsYXNzIHRvIGhpZ2hsaWdodCB0aGVtCmZvciAodmFyIGkgPSAwOyBpIDwgZWxlbWVudHMubGVuZ3RoOyBpKyspIHsKICBlbGVtZW50c1tpXS5jbGFzc0xpc3QuYWRkKCJoaWdobGlnaHRlZCIpOwp9" 
+* content.contentType = #text/javascript
 * status = #draft
 
 /*
