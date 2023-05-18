@@ -1,6 +1,6 @@
 Extension: Lenses
 Description: "Conveying Lens Information in the FHIR format"
-* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/lenslibrary"
+* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
 * value[x] only Reference(Library)
 * insert ExtensionContext(Composition)
 

@@ -33,7 +33,7 @@ Usage: #definition
 
 * instance[+].key = "4"
 * instance[=].title = "Enhanced ePI"
-* instance[=].content = Reference(enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8)
+* instance[=].content = Reference(enhancedddbundlekarvea)
 * instance[=].structureType = http://hl7.org/fhir/fhir-types#Bundle
 
 * process.title = "ePI Pipeline"
