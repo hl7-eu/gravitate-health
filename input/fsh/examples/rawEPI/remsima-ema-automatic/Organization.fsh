@@ -7,7 +7,7 @@ Instance: org-3c850a69e5187931f2198c5e63f933fe
 InstanceOf: OrganizationUvEpi
 Title: "Celltrion Healthcare Hungary Kft. as Marketing authorisation holder"
 Description: "Celltrion Healthcare Hungary Kft. as Marketing authorisation holder"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000826"

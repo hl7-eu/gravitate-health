@@ -3,7 +3,7 @@ Instance: mp367b9089c0743a2330f4c6e82b40ee41
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen"
 Description: "Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen"
-Usage: #inline
+Usage: #example
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi/#/"

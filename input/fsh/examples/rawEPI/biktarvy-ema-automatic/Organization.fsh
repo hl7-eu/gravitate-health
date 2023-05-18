@@ -7,7 +7,7 @@ Instance: org-715f8a161ed438d0584510e5b4512caa
 InstanceOf: OrganizationUvEpi
 Title: "Gilead Sciences Ireland UC as Marketing authorisation holder"
 Description: "Gilead Sciences Ireland UC as Marketing authorisation holder"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100008368"
