@@ -3,7 +3,7 @@ Instance: ppd-1fba151ccf2a68d419f373375e997036
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "DOLOCATIL 1 g tablets, 20 tablets"
 Description: "DOLOCATIL 1 g tablets, 20 tablets"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "672669"

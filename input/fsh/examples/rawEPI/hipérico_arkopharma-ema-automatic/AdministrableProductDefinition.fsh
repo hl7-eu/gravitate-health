@@ -3,7 +3,7 @@ Instance: ap-29436a85dac3ea374adb3fa64cfd2578
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product HIPÉRICO ARKOPHARMA cápsulas duras"
 Description: "HIPÉRICO ARKOPHARMA cápsulas duras"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $phpid
 * identifier.value = "xx" 

@@ -3,7 +3,7 @@ Instance: composition02e928f15b7b861b4b44915d9f1330ec
 InstanceOf: CompositionUvEpi
 Title: "Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet"
 Description:  "Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "cc"

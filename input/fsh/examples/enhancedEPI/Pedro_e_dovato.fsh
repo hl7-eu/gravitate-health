@@ -3,7 +3,7 @@ Instance: enhanced-composition16598f252d07b4784b82ba43cf9e847eg
 InstanceOf: CompositionUvEpi
 Title: "[Enhanced-Pedro] Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
 Description:  "[Enhanced-Pedro] Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "xx"

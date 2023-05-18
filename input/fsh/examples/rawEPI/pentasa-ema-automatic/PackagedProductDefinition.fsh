@@ -3,7 +3,7 @@ Instance: ppd-1a7318638ddbbeb084ef416e717b6fdb
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Pentasa Slow Release Tablets 1g"
 Description: "Pentasa Slow Release Tablets 1g"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "x"

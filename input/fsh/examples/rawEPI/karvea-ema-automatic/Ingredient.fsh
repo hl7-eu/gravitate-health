@@ -9,7 +9,7 @@ Instance: ingredient-for-karvea-hypromellose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Hypromellose"
 Description: "Hypromellose"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "3NXW29V3WO"
@@ -44,7 +44,7 @@ Instance: ingredient-for-karvea-macrogol3000
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Macrogol 3000"
 Description: "Macrogol 3000"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "SA1B764746"
@@ -79,7 +79,7 @@ Instance: ingredient-for-karvea-lactosemonohydrate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Lactose Monohydrate"
 Description: "Lactose Monohydrate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "EWQ57Q8I5X"
@@ -114,7 +114,7 @@ Instance: ingredient-for-karvea-silicondioxide
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Silicon dioxide"
 Description: "Silicon dioxide"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "ETJ7Z6XBU4"
@@ -149,7 +149,7 @@ Instance: ingredient-for-karvea-titaniumdioxide
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Titanium Dioxide"
 Description: "Titanium Dioxide"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "15FIX9V2JP"
@@ -184,7 +184,7 @@ Instance: ingredient-for-karvea-irbesartan
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active irbesartan"
 Description: "irbesartan"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "J0E2756Z7N"
@@ -223,7 +223,7 @@ Instance: ingredient-for-karvea-croscarmellosesodium
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Croscarmellose sodium"
 Description: "Croscarmellose sodium"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "M28OL1HH48"
@@ -258,7 +258,7 @@ Instance: ingredient-for-karvea-microcrystallinecellulose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Microcrystalline cellulose"
 Description: "Microcrystalline cellulose"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "OP1R32D61U"
@@ -293,7 +293,7 @@ Instance: ingredient-for-karvea-magnesiumstearate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Magnesium stearate"
 Description: "Magnesium stearate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "70097M6I30"
@@ -328,7 +328,7 @@ Instance: ingredient-for-karvea-carnaubawax
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Carnauba wax"
 Description: "Carnauba wax"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "R12CBM0EIZ"

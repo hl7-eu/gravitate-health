@@ -3,7 +3,7 @@ Instance: mp5fb1761a0a38bea0a9b49f146371c68b
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Remsima 100 Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
 Description: "Remsima 100 Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"

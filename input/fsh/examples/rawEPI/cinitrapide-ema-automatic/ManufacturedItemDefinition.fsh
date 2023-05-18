@@ -3,7 +3,7 @@ Instance: mid-af8224f8c853d17daf5ea6782cb5a097
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Title: "Manufactured item cinitrapide"
 Description: "cinitrapide"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi/#/"
 * identifier.value = "x"

@@ -3,7 +3,7 @@ Instance: authorizationda0fc2395ce219262dfd4f0c9a9f72e1
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for BLASTON 1 mg tablets"
 Description: "Regulated Authorization for BLASTON 1 mg tablets"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "59.032"

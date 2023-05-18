@@ -2,7 +2,7 @@
 Instance: substance-acmesub
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "acmesub"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "J0E2756Z7N"

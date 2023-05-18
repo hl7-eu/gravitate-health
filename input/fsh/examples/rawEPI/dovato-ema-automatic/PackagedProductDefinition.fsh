@@ -3,7 +3,7 @@ Instance: ppd-23f4e5c6d9ca952c3ffb3940859a26f8
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "50 mg/300 mg film-coated tablets"
 Description: "50 mg/300 mg film-coated tablets"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/19/1370/001"

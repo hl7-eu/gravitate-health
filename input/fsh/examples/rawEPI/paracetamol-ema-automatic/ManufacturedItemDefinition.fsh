@@ -3,7 +3,7 @@ Instance: mid-08ac066220d4d68a3933a9c94bef32ff
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Title: "Manufactured item DOLOCATIL 1 g tablets "
 Description: "DOLOCATIL 1 g tablets "
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi/#/"
 * identifier.value = "xx"

@@ -3,7 +3,7 @@ Instance: compositionaf8224f8c853d17daf5ea6782cb5a097
 InstanceOf: CompositionUvEpi
 Title: "Composition for cinitrapide Package Leaflet"
 Description:  "Composition for cinitrapide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "nan"

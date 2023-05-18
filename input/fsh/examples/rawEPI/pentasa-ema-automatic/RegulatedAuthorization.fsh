@@ -3,7 +3,7 @@ Instance: authorization4c6fd7bcbb34ab6e64e45a5035e4e5f4
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for PENTASA 1g Prolonged-release tablet"
 Description: "Regulated Authorization for PENTASA 1g Prolonged-release tablet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "77022"

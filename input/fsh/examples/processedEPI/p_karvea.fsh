@@ -3,7 +3,7 @@ Instance: Processedcompositionf4d45353edcb21af3718d3a0df94a4d8
 InstanceOf: CompositionUvEpi
 Title: "Composition for Karvea Package Leaflet - Preprocessed"
 Description:  "Composition for Karvea Package Leaflet - Preprocessed"
-Usage: #example
+Usage: #inline
 
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
@@ -526,7 +526,7 @@ Usage: #example
 Instance: contraindication-pregancy
 InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
 Description: "contraindication - pregancy"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
 * identifier.value = "pregancy"
@@ -542,7 +542,7 @@ Usage: #example
 Instance: contraindication-diabetes-mellitus
 InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
 Description: "contraindication -    Diabetes mellitus (disorder)"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
 * identifier.value = "diabetes-mellitus"
@@ -559,7 +559,7 @@ Usage: #example
 Instance: contraindication-kidney
 InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
 Description: "contraindication - kidney function"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
 * identifier.value = "kidney function"

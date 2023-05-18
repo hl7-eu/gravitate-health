@@ -9,7 +9,7 @@ Instance: ingredient-for-pentasa-mesalazine
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active mesalazine"
 Description: "mesalazine"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "4Q81I59GXC"
@@ -48,7 +48,7 @@ Instance: ingredient-for-pentasa-povidone
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Povidone"
 Description: "Povidone"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "FZ989GH94E"
@@ -83,7 +83,7 @@ Instance: ingredient-for-pentasa-ethylcellulose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Ethylcellulose"
 Description: "Ethylcellulose"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "7Z8S9VYZ4B"
@@ -118,7 +118,7 @@ Instance: ingredient-for-pentasa-magnesiumstearate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Magnesium stearate"
 Description: "Magnesium stearate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "70097M6I30"
@@ -153,7 +153,7 @@ Instance: ingredient-for-pentasa-talc
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Talc"
 Description: "Talc"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "7SEV7J4R1U"
@@ -188,7 +188,7 @@ Instance: ingredient-for-pentasa-microcrystallinecellulose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Microcrystalline cellulose"
 Description: "Microcrystalline cellulose"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "OP1R32D61U"

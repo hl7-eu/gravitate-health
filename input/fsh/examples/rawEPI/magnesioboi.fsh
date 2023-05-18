@@ -5,7 +5,7 @@
 Instance: cfsb1665505881364
 InstanceOf: MedicinalProductDefinition
 Description: "54347 MAGNESIOBOI 48,62 mg COMPRIMIDOS"
-Usage: #example
+Usage: #inline
  
 * identifier.system = $spor-prod
 * identifier.value = "498163"
@@ -42,7 +42,7 @@ Usage: #example
 Instance: cfsb1665507849181
 InstanceOf: AdministrableProductDefinition
 Description: "Magnesioboi 48,62 mg comprimidos"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $phpid
 * identifier.value = "123456" 
@@ -64,7 +64,7 @@ Usage: #example
 Instance: cfsb1666195249780
 InstanceOf: Ingredient
 Description: "MAGNESIUM LACTATE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "MT6QI8324A"
@@ -90,7 +90,7 @@ Usage: #example
 Instance: cfsb1666197203511
 InstanceOf: Ingredient
 Description: "Lactose monohydrate"
-Usage: #example
+Usage: #inline
  
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "EWQ57Q8I5X"
@@ -110,7 +110,7 @@ Usage: #example
 Instance: cfsb1666197552249
 InstanceOf: Ingredient
 Description: "MACROGOL 6000"
-Usage: #example
+Usage: #inline
  
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "30IQX730WE"
@@ -130,7 +130,7 @@ Usage: #example
 Instance: cfsb1666197990155
 InstanceOf: Ingredient
 Description: "MAGNESIUM STEARATE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "70097M6I30"
@@ -150,7 +150,7 @@ Usage: #example
 Instance: cfsb1666198119118
 InstanceOf: Ingredient
 Description: "Talc"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "7SEV7J4R1U"
@@ -171,13 +171,13 @@ Usage: #example
 //Instance: cfsb1667576602864
 //InstanceOf: ManufacturedItemDefinition
 //Description: "ManufacturedItemDefinition1"
-//Usage: #example
+//Usage: #inline
  
 
 Instance: cfsb1667576759979
 InstanceOf: ManufacturedItemDefinition
 Description: "Magnesioboi 48,62 mg comprimidos"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://AEMPS.ES"
 * identifier.value = "54347"
@@ -198,7 +198,7 @@ Usage: #example
 Instance: cfsb1667578264482
 InstanceOf: Organization
 Description: "Marketing Authorization Holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100004711"
@@ -220,7 +220,7 @@ Usage: #example
 Instance: cfsb1667579389819
 InstanceOf: Organization
 Description: "Marketing Authorization Holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100004711"
@@ -242,7 +242,7 @@ Usage: #example
 Instance: cfsb1667580056388
 InstanceOf: PackagedProductDefinition
 Description: "Packaging Blister x50 tablets"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://AEMPS.ES"
 * identifier.value = "54347"

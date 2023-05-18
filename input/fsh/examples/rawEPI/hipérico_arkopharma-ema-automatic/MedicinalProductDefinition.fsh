@@ -3,7 +3,7 @@ Instance: mpaf8d2f6e4772c29a8ef9fbb165e80d28
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product HIPÉRICO ARKOPHARMA cápsulas duras"
 Description: "HIPÉRICO ARKOPHARMA cápsulas duras"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://cima.aemps.es/ids"
