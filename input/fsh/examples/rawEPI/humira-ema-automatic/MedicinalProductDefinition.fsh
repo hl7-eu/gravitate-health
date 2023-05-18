@@ -3,7 +3,7 @@ Instance: mpf97db27e6330f77484eb8425ad2913cd
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)"
 Description: "Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)"
-Usage: #inline
+Usage: #example
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"

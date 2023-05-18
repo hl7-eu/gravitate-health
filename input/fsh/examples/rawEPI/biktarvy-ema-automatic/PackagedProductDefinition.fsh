@@ -3,7 +3,7 @@ Instance: ppd-bb925abf9dc1f2dd024210a50c0ee14b
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Biktarvy 50 mg/200 mg/25 mg film-coated tablets 90 (3 bottles of 30) film-coated tablets"
 Description: "Biktarvy 50 mg/200 mg/25 mg film-coated tablets 90 (3 bottles of 30) film-coated tablets"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/18/1289/001"

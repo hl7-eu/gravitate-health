@@ -3,7 +3,7 @@ Instance: mpb6ced64d25ea2c8da6c6099386f14db1
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Flucelvax Tetra - suspension for injection in pre-filled syringe Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 Description: "Flucelvax Tetra - suspension for injection in pre-filled syringe Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
-Usage: #inline
+Usage: #example
 
  
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"

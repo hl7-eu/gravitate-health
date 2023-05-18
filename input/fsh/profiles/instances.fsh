@@ -39,7 +39,7 @@ Usage: #example
 
 Instance: e63f72b2-993f-48b1-b7cb-539b1ed71571-beforeFocus
 InstanceOf: Composition
-Usage: #inline
+Usage: #example
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 * extension[0].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[0].url = "elementClass"
@@ -135,7 +135,7 @@ Usage: #example
 
 Instance: e63f72b2-993f-48b1-b7cb-539b1ed71571-afterFocus
 InstanceOf: Composition
-Usage: #inline
+Usage: #example
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 * extension[0].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[0].url = "elementClass"
@@ -212,7 +212,7 @@ Usage: #inline
 */
 Instance: d71bf884-90eb-47f9-81b7-fa81ecec7e75
 InstanceOf: Organization
-Usage: #inline
+Usage: #example
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"
 * identifier.use = #official
 * identifier.system = "https://spor.ema.europa.eu/omswi"

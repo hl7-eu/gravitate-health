@@ -3,7 +3,7 @@ Instance: processed-compositionaf8d2f6e4772c29a8ef9fbb165e80d28
 InstanceOf: CompositionUvEpi
 Title: "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet - Preprocessed"
 Description:  "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet - Preprocessed"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "cc"

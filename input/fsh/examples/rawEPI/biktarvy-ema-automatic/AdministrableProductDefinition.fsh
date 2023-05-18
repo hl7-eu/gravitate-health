@@ -3,7 +3,7 @@ Instance: ap-14ba4cb05b11f838919ef39edd3e0cdf
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
 Description: "Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $phpid
 * identifier.value = "EU/1/18/1289/001" 

@@ -3,7 +3,7 @@ Instance: processed-composition056f32ee5cf49404607e368bd8d3f2af
 InstanceOf: CompositionUvEpi
 Title: "Composition for Flucelvax Package Leaflet - Preprocessed"
 Description:  "Composition for Flucelvax Package Leaflet - Preprocessed"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "asdasd"

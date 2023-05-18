@@ -3,7 +3,7 @@ Instance: compositionb4adca48035e7857c0e645892ad2c66e
 InstanceOf: CompositionUvEpi
 Title: "Composition for Suliqua Package Leaflet"
 Description:  "Composition for Suliqua Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4f"

@@ -3,7 +3,7 @@ Instance: compositione8bd725f64067aeae7994e2b56cd79c9
 InstanceOf: CompositionUvEpi
 Title: "Composition for Flucelvax Package Leaflet"
 Description:  "Composition for Flucelvax Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "jkl"

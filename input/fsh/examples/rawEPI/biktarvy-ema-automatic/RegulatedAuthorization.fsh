@@ -3,7 +3,7 @@ Instance: authorization14ba4cb05b11f838919ef39edd3e0cdf
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
 Description: "Regulated Authorization for Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/18/1289/001"

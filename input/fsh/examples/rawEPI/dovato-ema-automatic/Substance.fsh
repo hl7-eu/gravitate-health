@@ -2,7 +2,7 @@
 Instance: substance-dolutegravirsodium
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "DOLUTEGRAVIR SODIUM"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "1Q1V9V5WYQ"
@@ -33,7 +33,7 @@ Usage: #inline
 Instance: substance-lamivudine
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "lamivudine"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "2T8Q726O95"

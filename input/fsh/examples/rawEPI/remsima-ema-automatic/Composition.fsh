@@ -3,7 +3,7 @@ Instance: compositionbe76bdf784deea6950583b234f789db2
 InstanceOf: CompositionUvEpi
 Title: "Composition for Remsima 100 mg powder for concentrate for solution for infusion Package Leaflet"
 Description:  "Composition for Remsima 100 mg powder for concentrate for solution for infusion Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "EU/1/13/853/001"

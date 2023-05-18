@@ -3,7 +3,7 @@ Instance: composition34060417eeae4622c4674a9c4100d2ed
 InstanceOf: CompositionUvEpi
 Title: "Composition for paracetamol Package Leaflet"
 Description:  "Composition for paracetamol Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "xx"

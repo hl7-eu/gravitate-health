@@ -7,7 +7,7 @@ Instance: org-3fdc76794516d7826890ab9f893e99c1
 InstanceOf: OrganizationUvEpi
 Title: "Eli Lilly Nederland B.V. as Marketing authorisation holder"
 Description: "Eli Lilly Nederland B.V. as Marketing authorisation holder"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000426"
@@ -36,7 +36,7 @@ Instance: org-6f4987de7be1bbfa4ee92c07de7e94d4
 InstanceOf: OrganizationUvEpi
 Title: "Eli Lilly and Company as Manufacturer API"
 Description: "Eli Lilly and Company as Manufacturer API"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000156"
@@ -65,7 +65,7 @@ Instance: org-e3ef26dd2c7a0847d92d3bb1a64855b9
 InstanceOf: OrganizationUvEpi
 Title: "Lilly S.A. as Manufacturer"
 Description: "Lilly S.A. as Manufacturer"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100003996"

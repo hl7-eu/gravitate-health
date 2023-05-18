@@ -3,7 +3,7 @@ Instance: authorization29436a85dac3ea374adb3fa64cfd2578
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for HIPÉRICO ARKOPHARMA cápsulas duras"
 Description: "Regulated Authorization for HIPÉRICO ARKOPHARMA cápsulas duras"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "79963"

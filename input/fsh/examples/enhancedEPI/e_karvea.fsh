@@ -4,7 +4,7 @@ Instance: enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8
 InstanceOf: CompositionUvEpi
 Title: "[Enhanced] Composition for Karvea Package Leaflet"
 Description:  "[Enhanced] Composition for Karvea Package Leaflet"
-Usage: #inline
+Usage: #example
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"

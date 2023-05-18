@@ -3,7 +3,7 @@ Instance: ap-49178f16170ee8a6bc2a4361c1748d5f
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Dovato 50 mg/300 mg film-coated tablets"
 Description: "Dovato 50 mg/300 mg film-coated tablets"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $phpid
 * identifier.value = "123456" 

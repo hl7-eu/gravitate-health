@@ -3,7 +3,7 @@ Instance: authorizatione3e5e78d4e002ed9e15b925cd546e20b
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Remsima 100 mg powder for concentrate for solution for infusion"
 Description: "Regulated Authorization for Remsima 100 mg powder for concentrate for solution for infusion"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/13/853/001"

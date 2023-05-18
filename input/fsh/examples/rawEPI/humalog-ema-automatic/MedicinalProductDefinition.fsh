@@ -3,7 +3,7 @@ Instance: mpd33868162d255ced115cecbbf188aab4
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill"
 Description: "Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill"
-Usage: #inline
+Usage: #example
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"

@@ -3,7 +3,7 @@ Instance: enhanced-composition056f32ee5cf49404607e368bd8d3f2afg
 InstanceOf: CompositionUvEpi
 Title: "[Enhanced-Pedro] Composition for Flucelvax Package Leaflet"
 Description:  "[Enhanced-Pedro] Composition for Flucelvax Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "asdasd"
