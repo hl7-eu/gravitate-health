@@ -2,6 +2,12 @@ Extension: Lenses
 Description: "Conveying Lens Information in the FHIR format"
 * ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/lenslibrary"
 * value[x] only Reference(Library)
+* insert ExtensionContext(Composition)
+
+// This rule set limits the application of an extension to the given path
+RuleSet: ExtensionContext(path)
+* ^context[+].type = #element
+* ^context[=].expression = "{path}"
 
 
 /*

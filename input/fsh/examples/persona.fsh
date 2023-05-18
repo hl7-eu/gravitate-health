@@ -7,7 +7,7 @@ Usage: #example
 * status = #final
 * code = pd-type-cs#EMP
 //* category = 
-* subject.reference = "Patient/Pedro-patient"
+* subject.display = "Pedro-patient"
 
 * effectiveDateTime = "2019-01-01T00:00:00Z"
 
@@ -22,7 +22,7 @@ Usage: #example
 * status = #final
 * code = pd-type-cs#SHW
 //* category = 
-* subject.reference = "Patient/Pedro-patient"
+* subject.display = "Pedro-patient"
 
 * effectiveDateTime = "2019-01-01T00:00:00Z"
 
@@ -39,7 +39,7 @@ Usage: #example
 * status = #final
 * code = pd-type-cs#WKL
 //* category = 
-* subject.reference = "Patient/Pedro-patient"
+* subject.display = "Pedro-patient"
 
 * effectiveDateTime = "2019-01-01T00:00:00Z"
 
@@ -55,7 +55,7 @@ Usage: #example
 * status = #final
 * code = pd-type-cs#EVI
 //* category = 
-* subject.reference = "Patient/Pedro-patient"
+* subject.display = "Pedro-patient"
 
 * effectiveDateTime = "2019-01-01T00:00:00Z"
 
@@ -68,7 +68,7 @@ Title: "Persona Dimension - Collection"
 Description:  "Persona Dimension - Collection"
 Usage: #example
 
-* identifier.system = "https://example.org/persona-dimension-collection"
+* identifier.system = "https://myserver.org/persona-dimension-collection"
 * identifier.value = "pd-collection-1"
 
 * entry[+].fullUrl = "Observation/pd1"

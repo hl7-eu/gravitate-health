@@ -90,9 +90,6 @@ CodeSystem: PDtypeCS
 Id:         pd-type-cs
 Title:     "Persona Vector Dimensions Code"
 Description:  "Persona Vector Dimensions Code"
-
-
-
 * ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs
 
 * #EMP
@@ -113,7 +110,6 @@ Description:  "Persona Vector Dimensions Code"
 
 ValueSet: PDtypeVS
 // for type
-
 * include codes from system http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs
 
 

@@ -286,7 +286,7 @@ Usage: #example
 <p></p>
 <p>No utilice este medicamento después de la fecha de caducidad que aparece en el envase después de CAD. La fecha de caducidad es el último día del mes que se indica.</p>
 <p></p>
-<p>Los medicamentos no se deben tirar por los desag&uuml;es ni a la basura. Deposite los envases y los medicamentos que no necesita en el Punto SIGRE  de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma, ayudar á a proteger el medio ambiente</p>
+<p>Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesita en el Punto SIGRE  de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma, ayudar á a proteger el medio ambiente</p>
         </div>"""
 
       

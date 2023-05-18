@@ -598,22 +598,11 @@ Usage: #example
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8"
 * entry[=].resource = cud-4fce9d5258f70f7d605059f97c24efa8 
-// ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/cud-42659cd40ce761bcf6d15bd28423e45f"
-* entry[=].resource = cud-42659cd40ce761bcf6d15bd28423e45f
+
 
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-42659cd40ce761bcf6d15bd28423e45f"
 * entry[=].resource = cud-42659cd40ce761bcf6d15bd28423e45f
-// ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
-* entry[=].resource = contraindication-pregancy
-// ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
-* entry[=].resource = contraindication-kidney
-// ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
-* entry[=].resource = contraindication-diabetes-mellitus
 
 // Ingredient
 * entry[+].fullUrl = "Ingredient/ingredient-for-karvea-hypromellose"
@@ -675,3 +664,4 @@ Usage: #example
 
 * entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
 * entry[=].resource = contraindication-pregancy
+
