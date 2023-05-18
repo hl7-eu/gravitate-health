@@ -41,7 +41,7 @@ Usage: #inline
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "indication"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.reference = Reference(cud-42659cd40ce761bcf6d15bd28423e45f)
+* extension[=].extension[=].valueCodeableReference.reference = Reference(cud-585e364c14debe29f6c6b564138aa400)
 
 * extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
@@ -584,9 +584,8 @@ Usage: #example
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-a40c2367ed3c1c715eacd432105752a0"
 * entry[=].resource = cud-a40c2367ed3c1c715eacd432105752a0 
-// ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400"
-* entry[=].resource = cud-585e364c14debe29f6c6b564138aa400 
+
+
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8"
 * entry[=].resource = cud-4fce9d5258f70f7d605059f97c24efa8 
