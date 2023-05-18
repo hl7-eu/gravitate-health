@@ -9,13 +9,14 @@ Usage: #definition
 * description = "This capability statement documents and outlines the FHIR interfaces exposed by the Gravitate Health FOSPS service. See more on https://www.gravitatehealth.eu/"
 * software.name = "FOSPS FHIR Server"
 * software.version = "1.0.0"
-* fhirVersion = #5.0.0-snapshot2
+* implementation.description = "Gravitate Health FOSPS service."
+* fhirVersion = #5.0.0
 * format[0] = #application/fhir+xml
 * format[+] = #xml
 * format[+] = #application/fhir+json
 * format[+] = #json
-* format[+] = #html/json
-* format[+] = #html/xml
+//* format[+] = #html/json
+//* format[+] = #html/xml
 * rest.mode = #server
 * rest.resource.type = #OperationDefinition
 * rest.resource.profile = "http://hl7.org/fhir/StructureDefinition/OperationDefinition"
