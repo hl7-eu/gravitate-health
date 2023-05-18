@@ -21,8 +21,8 @@ Description:  "Questionnaire example Dimensions"
     "Other Gender"
     "Other Gender"
 * #ND
-    "Non-disclosed gender"
-    "Non-disclosed gender"
+    "Non-disclosed Gender"
+    "Non-disclosed Gender"
     
 * #0
     "Non Smoker"
@@ -40,8 +40,10 @@ Description:  "Questionnaire example Dimensions"
     "single"
 
 * #SOME
-    "some"
+    "Some"
 
+* #SOME23
+    "Some (2-3)"
 * #MANY
     "Many"
 

@@ -1,7 +1,7 @@
 Instance: enhance
 InstanceOf: OperationDefinition
 Usage: #definition
-* url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/enhancement"
+* url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/enhance"
 * name = "enhance"
 * title = "enhance"
 * status = #active
@@ -84,7 +84,7 @@ The persona dimension can be delivered either as a `Bundle` or by using an `Iden
 Instance: annotate
 InstanceOf: OperationDefinition
 Usage: #definition
-* url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/annotation"
+* url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/annotate"
 * name = "annotate"
 * title = "annotate"
 * status = #active

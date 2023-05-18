@@ -3,7 +3,7 @@ Instance: authorization816b7da4abc60b3e9ae3b37146463f8a
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe"
 Description: "Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/03/256/022"

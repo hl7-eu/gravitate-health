@@ -3,7 +3,7 @@ Instance: authorization35570a7ffa4ad1ddf8a920b1728d4cd2
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Humalog "
 Description: "Regulated Authorization for Humalog "
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/96/007/035"
