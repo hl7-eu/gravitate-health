@@ -570,8 +570,8 @@ Usage: #example
 * entry[0].resource = Focused-compositionf4d45353edcb21af3718d3a0df94a4d8
 
 // ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/cud-42659cd40ce761bcf6d15bd28423e45f"
-* entry[=].resource = cud-42659cd40ce761bcf6d15bd28423e45f
+* entry[+].fullUrl = "ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400"
+* entry[=].resource = cud-585e364c14debe29f6c6b564138aa400
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
 * entry[=].resource = contraindication-pregancy

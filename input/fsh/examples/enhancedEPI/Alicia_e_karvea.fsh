@@ -550,8 +550,8 @@ Usage: #example
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8"
 * entry[=].resource = cud-4fce9d5258f70f7d605059f97c24efa8 
 // ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/cud-42659cd40ce761bcf6d15bd28423e45f"
-* entry[=].resource = cud-42659cd40ce761bcf6d15bd28423e45f
+* entry[+].fullUrl = "ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400"
+* entry[=].resource = cud-585e364c14debe29f6c6b564138aa400
 
 
 
