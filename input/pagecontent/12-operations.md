@@ -16,21 +16,15 @@ The idea of adding semantic annotation to a epi. Through the [extension](http://
 
 See [here](12-1-OperationDefinition-annotation-notes.html)
 
+
 ## Focusing
 
-The idea of adding lenses to the epi in order to use the knowledge for later focusing.
-- IN: annotated ePI
-- OUT: Focused ePI
-  
-See [here](12-2-OperationDefinition-focus-notes.html)
-
-
-## Enhancement
-
 The idea of getting additional information in order to personalize data.
-- IN: Focused ePI
-- OUT: enhanced ePI
+- IN: preprocessed ePI
+- IN: IPS
+- IN: persona vector
+- OUT: focused ePI
 
-See [here](12-3-OperationDefinition-enhancement-notes.html)
+See [here](12-3-OperationDefinition-focus-notes.html)
 
 Please check the postman collection for examples.

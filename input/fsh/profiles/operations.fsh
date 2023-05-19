@@ -1,4 +1,4 @@
-Instance: enhance
+Instance: focus
 InstanceOf: OperationDefinition
 Usage: #definition
 * url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/enhance"
@@ -127,55 +127,6 @@ The ePI can be delivered either as a `Bundle` or by using an `Identifier` of the
 * parameter[=].min = 1
 * parameter[=].max = "1"
 * parameter[=].documentation = "Preprocessed epi Bundle extracts"
-* parameter[=].type = #Bundle
-
-
-Instance: focus
-InstanceOf: OperationDefinition
-Usage: #definition
-* url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/focus"
-* name = "focus"
-* title = "focus"
-* status = #active
-* kind = #operation
-* description = "This operation calculates an focused version of an ePI as well as the separate extracts. 
-
-The ePI can be delivered either as a `Bundle` or by using an `Identifier` of the bundle. Whether the support of both `Identifier` and `Bundle` continues to be supported currently remains unknown.
-
-"
-
-* affectsState = false
-* code = #focus
-* system = true
-* type = false
-* instance = false
-
-* parameter[+].name = #epi
-* parameter[=].use = #in
-* parameter[=].min = 0
-* parameter[=].max = "1"
-* parameter[=].documentation = "ePI Document Bundle"
-* parameter[=].type = #Bundle
-
-* parameter[+].name = #epi-identifier
-* parameter[=].use = #in
-* parameter[=].min = 0
-* parameter[=].max = "1"
-* parameter[=].documentation = "ePI Document Identifier"
-* parameter[=].type = #Identifier
-
-* parameter[+].name = #returnEpi
-* parameter[=].use = #out
-* parameter[=].min = 1
-* parameter[=].max = "1"
-* parameter[=].documentation = "Focused epi Bundle"
-* parameter[=].type = #Bundle
-
-* parameter[+].name = #returnEpiExtracts
-* parameter[=].use = #out
-* parameter[=].min = 1
-* parameter[=].max = "1"
-* parameter[=].documentation = "Focused epi Bundle extracts"
 * parameter[=].type = #Bundle
 
 
