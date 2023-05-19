@@ -14,7 +14,7 @@ The idea of adding semantic annotation to a epi. Through the [extension](http://
 - IN: raw ePI
 - OUT annotated ePI
 
-See [here](12-1-OperationDefinition-annotation-notes.html)
+See [here](12-1-OperationDefinition-annotation-notes.html) for details.
 
 
 ## Focusing
@@ -25,6 +25,6 @@ The idea of getting additional information in order to personalize data.
 - IN: persona vector
 - OUT: focused ePI
 
-See [here](12-3-OperationDefinition-focus-notes.html)
+See [here](12-2-OperationDefinition-focus-notes.html) for details.
 
 Please check the postman collection for examples.
