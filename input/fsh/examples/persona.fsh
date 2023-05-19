@@ -7,7 +7,7 @@ Usage: #example
 * status = #final
 * code = pd-type-cs#EMP
 //* category = 
-* subject.display = "Pedro-patient"
+* subject.display = "IPS-4"
 
 * effectiveDateTime = "2019-01-01T00:00:00Z"
 
@@ -22,7 +22,7 @@ Usage: #example
 * status = #final
 * code = pd-type-cs#SHW
 //* category = 
-* subject.display = "Pedro-patient"
+* subject.display = "IPS-4"
 
 * effectiveDateTime = "2019-01-01T00:00:00Z"
 
@@ -39,7 +39,7 @@ Usage: #example
 * status = #final
 * code = pd-type-cs#WKL
 //* category = 
-* subject.display = "Pedro-patient"
+* subject.display = "IPS-4"
 
 * effectiveDateTime = "2019-01-01T00:00:00Z"
 
@@ -55,7 +55,7 @@ Usage: #example
 * status = #final
 * code = pd-type-cs#EVI
 //* category = 
-* subject.display = "Pedro-patient"
+* subject.display = "IPS-4"
 
 * effectiveDateTime = "2019-01-01T00:00:00Z"
 

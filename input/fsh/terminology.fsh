@@ -110,6 +110,17 @@ Description:  "Persona Vector Dimensions Code"
 * #EVI
     "Extrovert/introvert"
 
+* #DL
+    "Digital Literacy"
+
+
+* #HL
+    "Health Literacy"
+
+* #TSI
+    "Tool Support Interest"
+
+
 ValueSet: PDtypeVS
 // for type
 * include codes from system http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs
@@ -140,3 +151,84 @@ Description: "Category of EPI"
 * #FL
     "F'"
     "F'"
+
+
+// Define a local code system
+CodeSystem: ICPC2CS
+Id:         icpc-2-cs
+Title:     "Example ICPC2 CS"
+Description: "Example ICPC2 CS"
+
+* ^url =  http://gravitate.eu/CodeSystem/icpc-2
+// Spacing layout over three lines per term is optional, for clarity
+// The definition (second text string) is optional
+* #B90
+    "HIV-infection/AIDS"
+    "HIV-infection/AIDS"
+* #R80
+    "Influenza"
+    "Influenza"
+* #R81
+    "Pneumonia"
+    "Pneumonia"
+* #P74
+    "Anxiety disorder/anxiety state"
+    "Anxiety disorder/anxiety state"
+* #W78
+    "Pregnancy"
+    "Pregnancy"
+
+* #W27
+    "Fear of complications of pregnancy"
+    "Fear of complications of pregnancy"
+* #D07
+    "Dyspepsia/indigestion"
+    "Dyspepsia/indigestion"
+* #A84
+    "Poisoning by medical agent"
+    "Poisoning by medical agent"
+* #P19
+    "Drug abuse"
+    "Drug abuse"
+* #P18
+    "Medication abuse"
+    "Medication abuse"
+* #B99
+    "Blood/lymph/spleen disease other"
+    "Blood/lymph/spleen disease other"
+* #D97
+    "Liver disease NOS"
+    "Liver disease NOS"
+
+* #A13
+    "Concern/fear medical treatment"
+    "Concern/fear medical treatment"
+
+* #A78
+    "Infectious disease other/NOS "
+    "Infectious disease other/NOS "
+
+* #P03
+    "Feeling depressed"
+    "Feeling depressed"
+
+* #U72
+    "Urethritis"
+    "Urethritis"
+
+* #K86
+    "Hypertension uncomplicated"
+    "Hypertension uncomplicated"
+
+* #T89
+    "Diabetes insulin dependent"
+    "Diabetes insulin dependent"
+* #T90
+    "Diabetes non-insulin dependent"
+    "Diabetes non-insulin dependent"
+* #K22
+    "Risk factor cardiovascular disease"
+    "Risk factor cardiovascular disease"
+* #D93
+    "Irritable bowel syndrome"
+    "Irritable bowel syndrome"
