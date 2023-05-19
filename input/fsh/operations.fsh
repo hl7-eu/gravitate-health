@@ -1,9 +1,9 @@
 Instance: focus
 InstanceOf: OperationDefinition
 Usage: #definition
-* url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/enhance"
-* name = "enhance"
-* title = "enhance"
+* url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/focus"
+* name = "focus"
+* title = "focus"
 * status = #active
 * kind = #operation
 * description = "This operation calculates an enhanced version of an ePI as well as the separate extracts. The IPS can either be submitted as an IPS bundle or as an `Identifer` of the patient (using the `ips-identifier` parameter). If neither IPS Bundle or IPS identifier are passed as parameters it is expected that the `Identifier` of the patient is present as part of the security token. If the `Identifier` of the patient is submitted as an Identifier or as part of a security token it is up to the discression of the service implementing the `focus`-operation to fetch the IPS of the patient.
@@ -19,7 +19,7 @@ The persona dimension can be delivered either as a `Bundle` or by using an `Iden
 
 
 * affectsState = false
-* code = #enhance
+* code = #focus
 * system = true
 * type = false
 * instance = false
@@ -36,22 +36,6 @@ The persona dimension can be delivered either as a `Bundle` or by using an `Iden
 * parameter[=].max = "1"
 * parameter[=].documentation = "IPS Patient Identifier"
 * parameter[=].type = #Identifier
-
-
-* parameter[+].name = #pv
-* parameter[=].use = #in
-* parameter[=].min = 0
-* parameter[=].max = "1"
-* parameter[=].documentation = "Persona Vector"
-* parameter[=].type = #base64Binary
-
-* parameter[+].name = #pv-identifier
-* parameter[=].use = #in
-* parameter[=].min = 0
-* parameter[=].max = "1"
-* parameter[=].documentation = "Persona Vector Identifier"
-* parameter[=].type = #Identifier
-
 
 * parameter[+].name = #epi
 * parameter[=].use = #in
@@ -76,10 +60,25 @@ The persona dimension can be delivered either as a `Bundle` or by using an `Iden
 
 * parameter[+].name = #returnEpiExtracts
 * parameter[=].use = #out
-* parameter[=].min = 1
+* parameter[=].min = 0
 * parameter[=].max = "1"
 * parameter[=].documentation = "Enhanced epi Bundle extracts"
 * parameter[=].type = #Bundle
+
+* parameter[+].name = #pv
+* parameter[=].use = #in
+* parameter[=].min = 0
+* parameter[=].max = "1"
+* parameter[=].documentation = "Persona Vector"
+* parameter[=].type = #base64Binary
+
+* parameter[+].name = #pv-identifier
+* parameter[=].use = #in
+* parameter[=].min = 0
+* parameter[=].max = "1"
+* parameter[=].documentation = "Persona Vector Identifier"
+* parameter[=].type = #Identifier
+
 
 Instance: annotate
 InstanceOf: OperationDefinition
@@ -144,15 +143,13 @@ Usage: #definition
 * instance = false
 * parameter[0].name = #old
 * parameter[=].use = #in
-* parameter[=].min = 0
+* parameter[=].min = 1
 * parameter[=].max = "1"
 * parameter[=].type = #Resource
 * parameter[+].name = #new
 * parameter[=].use = #in
-* parameter[=].min = 0
+* parameter[=].min = 1
 * parameter[=].max = "1"
 * parameter[=].type = #Resource
 
-* description = "This operation calculates a diff between two FHIR resources - ie. a vanilla ePI FHIR bundle and a focused ePI FHIR bundle. The format follows the documentation on https://hapifhir.io/hapi-fhir/docs/server_jpa/diff.html
-
-"
+* description = "This operation calculates a diff between two FHIR resources - ie. a vanilla ePI FHIR bundle and a focused ePI FHIR bundle. The format follows the one defined at [HAPI](https://hapifhir.io/hapi-fhir/docs/server_jpa/diff.html)"
