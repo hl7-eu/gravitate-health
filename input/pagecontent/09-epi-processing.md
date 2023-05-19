@@ -1,15 +1,29 @@
 **Adapting information to the context and preferences of the end user for effective and optimal understanding of the information.**
 
 
-The definition of the several steps in the preprocessing pipeline:
+The definition of the several steps in the processing pipeline:
 1. Raw ePI: The ePI as is, without changes
 2. p(ePI): the preprocessed ePI, with semmnantic annotation
-3. f(ePI): the focused ePI with the lenses attached to the p(ePI)
-4. e(ePI): the final ePI format, rendered with personalized data
+3. f(ePI): the focused ePI format, rendered with personalized data
 
+<div>{% include e2e-pipeline.svg %}</div>
+<br clear="all"/>
+
+
+The focused mechanism is complex and can be understood as a multi-step process:
+1. first the lenses are attached
+2. the persona vector and IPS and consulted/consumed
+3. the necessary data elements are attached (CSS classes to certain DIVs)
+
+This will created a focused ePI that can be used to show personalized information to the user.
+
+Diagram:
 <div>{% include e2e-focusing.svg %}</div>
 <br clear="all"/>
 
+## Preprocessed
+
+It goes from the raw epi to the annoa
 ## Example lenses
 
 * **Pregancy:**  
