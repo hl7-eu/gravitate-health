@@ -177,3 +177,31 @@ The ePI can be delivered either as a `Bundle` or by using an `Identifier` of the
 * parameter[=].max = "1"
 * parameter[=].documentation = "Focused epi Bundle extracts"
 * parameter[=].type = #Bundle
+
+
+Instance: diff
+InstanceOf: OperationDefinition
+Usage: #definition
+* url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/diff"
+* name = "Diff"
+* status = #active
+* kind = #operation
+* affectsState = false
+* code = #diff
+* system = true
+* type = false
+* instance = false
+* parameter[0].name = #old
+* parameter[=].use = #in
+* parameter[=].min = 0
+* parameter[=].max = "1"
+* parameter[=].type = #Resource
+* parameter[+].name = #new
+* parameter[=].use = #in
+* parameter[=].min = 0
+* parameter[=].max = "1"
+* parameter[=].type = #Resource
+
+* description = "This operation calculates a diff between two FHIR resources - ie. a vanilla ePI FHIR bundle and a focused ePI FHIR bundle. The format follows the documentation on https://hapifhir.io/hapi-fhir/docs/server_jpa/diff.html
+
+"
