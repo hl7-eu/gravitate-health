@@ -17,7 +17,7 @@ Usage: #inline
 //* type = $spor-rms#100000072062
 //* type.text = "Marketing Authorisation"
 
-* region = urn:iso:std:iso:3166#eu "European Union"
+* region =  urn:iso:std:iso:3166#GBR "United Kingdom"
 
 
 * status = http://hl7.org/fhir/publication-status#active "Active"
@@ -30,7 +30,7 @@ Usage: #inline
  
 
 
-* holder = Reference(org-173fde4cb6b1018cb7ec8ab708d3961c)
+* holder = Reference(org-31ff1af739c7dcf77386a86f8dd83d29)
 
 
  

@@ -2,8 +2,8 @@
 // Define a local code system
 CodeSystem: QuestionnaireDimensionCS
 Id:         questi-dimens-cs
-Title:     ""
-Description: ""
+Title:     "Questionnaire example Dimensions"
+Description:  "Questionnaire example Dimensions"
 
 
 * ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/questi-dimens-cs
@@ -21,8 +21,8 @@ Description: ""
     "Other Gender"
     "Other Gender"
 * #ND
-    "Non-disclosed gender"
-    "Non-disclosed gender"
+    "Non-disclosed Gender"
+    "Non-disclosed Gender"
     
 * #0
     "Non Smoker"
@@ -40,8 +40,10 @@ Description: ""
     "single"
 
 * #SOME
-    "some"
+    "Some"
 
+* #SOME23
+    "Some (2-3)"
 * #MANY
     "Many"
 
@@ -72,29 +74,53 @@ Description: ""
 // Define a local code system
 CodeSystem: PDcategoryCS
 Id:         pd-category-cs
-Title:     ""
-Description: ""
+Title:     "Persona Vector Dimensions categories"
+Description:  "Persona Vector Dimensions categories"
+
 
 
 * ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-category-cs
+
+
+
+ValueSet: PDcategoryVS
+
+// for category
+
+// Define a local code system
+CodeSystem: PDtypeCS
+Id:         pd-type-cs
+Title:     "Persona Vector Dimensions Code"
+Description:  "Persona Vector Dimensions Code"
+* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs
 
 * #EMP
     "employment"
 
 
-ValueSet: PDcategoryVS
+* #SHW
+    "Share info Willingly"
 
-// all from above
+* #WKL
+    "WorkLife"
+
+* #ER
+    "Emotional/Rational"
+
+* #EVI
+    "Extrovert/introvert"
 
 ValueSet: PDtypeVS
+// for type
+* include codes from system http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs
 
 
 
 // Define a local code system
-CodeSystem: epicategoryCS
+CodeSystem: EpicategoryCS
 Id:         epicategory-cs
-Title:     ""
-Description: ""
+Title:     "Category of EPI"
+Description: "Category of EPI"
 
 
 * ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs

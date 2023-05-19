@@ -3,7 +3,7 @@ Instance: mp7a7ff0f4e1993c2fdabba6c8d9931a52
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product MIRTAZAPINA CINFA 30 mg Coated Tablet"
 Description: "MIRTAZAPINA CINFA 30 mg Coated Tablet"
-Usage: #inline
+Usage: #example
 
  
 * identifier[+].system = "https://cima.aemps.es/ids"

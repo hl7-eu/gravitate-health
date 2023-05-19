@@ -5,6 +5,7 @@ InstanceOf: CompositionUvEpi
 Title: "Composition for Karvea Package Leaflet - Focused"
 Description:  "Composition for Karvea Package Leaflet- Focused"
 Usage: #inline
+
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
@@ -40,7 +41,7 @@ Usage: #inline
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "indication"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.reference = Reference(indication-Hypertension)
+* extension[=].extension[=].valueCodeableReference.reference = Reference(cud-585e364c14debe29f6c6b564138aa400)
 
 * extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
@@ -532,12 +533,16 @@ Usage: #inline
 
 Instance: mock-lib
 InstanceOf: Library
+Title: "Lens Example"
+Description: "Lens Example"
+Usage: #example
 
 * version = "0.1"
 * name = "mock lenses"
 * experimental = true
 * type = http://terminology.hl7.org/CodeSystem/library-type#logic-library  "Logic Library"
 * content.data = "Ly8gR2V0IGFsbCBlbGVtZW50cyB3aXRoIHRoZSBjbGFzcyBuYW1lICJoaWdobGlnaHQiCnZhciBlbGVtZW50cyA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoImhpZ2hsaWdodCIpOwoKLy8gTG9vcCB0aHJvdWdoIGFsbCBlbGVtZW50cyBhbmQgYWRkIGEgQ1NTIGNsYXNzIHRvIGhpZ2hsaWdodCB0aGVtCmZvciAodmFyIGkgPSAwOyBpIDwgZWxlbWVudHMubGVuZ3RoOyBpKyspIHsKICBlbGVtZW50c1tpXS5jbGFzc0xpc3QuYWRkKCJoaWdobGlnaHRlZCIpOwp9" 
+* content.contentType = #text/javascript
 * status = #draft
 
 /*
@@ -552,8 +557,8 @@ for (var i = 0; i < elements.length; i++) {
 
 Instance: focuseddbundlekarvea
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Karvea 75 mg Package Leaflet - Focused"
-Description: "Bundle for Karvea 75 mg Package Leaflet ePI document - Focused"
+Title: "[Focused] ePI document Bundle for Karvea 75 mg Package Leaflet"
+Description: "[Focused] Bundle for Karvea 75 mg Package Leaflet ePI document"
 Usage: #example
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
@@ -565,13 +570,23 @@ Usage: #example
 * entry[0].fullUrl = "Composition/Focused-compositionf4d45353edcb21af3718d3a0df94a4d8"
 * entry[0].resource = Focused-compositionf4d45353edcb21af3718d3a0df94a4d8
 
-
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400"
+* entry[=].resource = cud-585e364c14debe29f6c6b564138aa400
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
+* entry[=].resource = contraindication-pregancy
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
+* entry[=].resource = contraindication-kidney
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
+* entry[=].resource = contraindication-diabetes-mellitus
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-a40c2367ed3c1c715eacd432105752a0"
 * entry[=].resource = cud-a40c2367ed3c1c715eacd432105752a0 
-// ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400"
-* entry[=].resource = cud-585e364c14debe29f6c6b564138aa400 
+
+
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8"
 * entry[=].resource = cud-4fce9d5258f70f7d605059f97c24efa8 

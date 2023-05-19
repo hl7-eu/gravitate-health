@@ -4,8 +4,6 @@
 
 
 Instance: ingredient-for-dovato-dolutegravirsodium
-
-
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active DOLUTEGRAVIR SODIUM"
 Description: "DOLUTEGRAVIR SODIUM"

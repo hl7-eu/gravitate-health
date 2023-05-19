@@ -1,8 +1,8 @@
 
 Instance: enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8g
 InstanceOf: CompositionUvEpi
-Title: "Composition for Karvea Package Leaflet - Enhanced"
-Description:  "Composition for Karvea Package Leaflet - Enhanced"
+Title: "Composition for Karvea Package Leaflet - Enhanced for Pedro"
+Description:  "Composition for Karvea Package Leaflet - Enhanced for Pedro"
 Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
@@ -38,7 +38,7 @@ Usage: #inline
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "indication"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.reference = Reference(indication-Hypertension)
+* extension[=].extension[=].valueCodeableReference.reference = Reference(cud-585e364c14debe29f6c6b564138aa400)
 
 * extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
@@ -525,8 +525,8 @@ Usage: #inline
 
 Instance: enhancedbundlekarveaP
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Karvea 75 mg Package Leaflet - enhanced"
-Description: "Bundle for Karvea 75 mg Package Leaflet ePI document - enhanced"
+Title: "[Enhanced-Pedro] ePI document for Karvea 75 mg Package Leaflet"
+Description: "[Enhanced-Pedro] Bundle for Karvea 75 mg Package Leaflet ePI document"
 Usage: #example
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
@@ -539,4 +539,77 @@ Usage: #example
 * entry[0].resource = enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8
 
  
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/cud-a40c2367ed3c1c715eacd432105752a0"
+* entry[=].resource = cud-a40c2367ed3c1c715eacd432105752a0 
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400"
+* entry[=].resource = cud-585e364c14debe29f6c6b564138aa400 
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8"
+* entry[=].resource = cud-4fce9d5258f70f7d605059f97c24efa8 
+
+
+// Ingredient
+* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-hypromellose"
+* entry[=].resource = ingredient-for-karvea-hypromellose 
+// Ingredient
+* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-macrogol3000"
+* entry[=].resource = ingredient-for-karvea-macrogol3000 
+// Ingredient
+* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-lactosemonohydrate"
+* entry[=].resource = ingredient-for-karvea-lactosemonohydrate 
+// Ingredient
+* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-silicondioxide"
+* entry[=].resource = ingredient-for-karvea-silicondioxide 
+// Ingredient
+* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-titaniumdioxide"
+* entry[=].resource = ingredient-for-karvea-titaniumdioxide 
+// Ingredient
+* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-irbesartan"
+* entry[=].resource = ingredient-for-karvea-irbesartan 
+// Ingredient
+* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-croscarmellosesodium"
+* entry[=].resource = ingredient-for-karvea-croscarmellosesodium 
+// Ingredient
+* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-microcrystallinecellulose"
+* entry[=].resource = ingredient-for-karvea-microcrystallinecellulose 
+// Ingredient
+* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-magnesiumstearate"
+* entry[=].resource = ingredient-for-karvea-magnesiumstearate 
+// Ingredient
+* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-carnaubawax"
+* entry[=].resource = ingredient-for-karvea-carnaubawax 
+// Substance
+* entry[+].fullUrl = "SubstanceDefinition/substance-irbesartan"
+* entry[=].resource = substance-irbesartan 
+// AdministrableProductDefinition
+* entry[+].fullUrl = "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+* entry[=].resource = ap-dcaa4d32aa6658a8df831551503e52ee 
+// RegulatedAuthorization
+* entry[+].fullUrl = "RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee"
+* entry[=].resource = authorizationdcaa4d32aa6658a8df831551503e52ee 
+// Organization
+* entry[+].fullUrl = "Organization/org-fe4fee458a4f24fccb770d311350f67c"
+* entry[=].resource = org-fe4fee458a4f24fccb770d311350f67c 
+// PackagedProductDefinition
+* entry[+].fullUrl = "PackagedProductDefinition/ppd-a223062bf3faf7acb3e6e80760fa4e91"
+* entry[=].resource = ppd-a223062bf3faf7acb3e6e80760fa4e91 
+// MedicinalProductDefinition
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa2bd0171a7654dc24f7eb7e9338e1acc"
+* entry[=].resource = mpa2bd0171a7654dc24f7eb7e9338e1acc 
+// ManufacturedItemDefinition
+* entry[+].fullUrl = "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+* entry[=].resource = mid-dcaa4d32aa6658a8df831551503e52ee 
+
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
+* entry[=].resource = contraindication-kidney
+
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
+* entry[=].resource = contraindication-diabetes-mellitus
+
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
+* entry[=].resource = contraindication-pregancy
+
+
  

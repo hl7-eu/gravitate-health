@@ -21,9 +21,7 @@ Usage: #inline
 
 * contact
   * address
-    * text = "Paasheuvelweg 28
- 1105BJ Amsterdam
- Netherlands"
+    * text = "Paasheuvelweg 28 1105BJ Amsterdam Netherlands"
     * use = #work
     * type = #physical
     * line = "Paasheuvelweg 28"

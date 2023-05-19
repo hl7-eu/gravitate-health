@@ -22,7 +22,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 * statusDate = "2019-01-01"
 
 
-* containedItemQuantity = 15 'mcg'
+* containedItemQuantity = 15 'ug'
 
 
 * copackagedIndicator = true

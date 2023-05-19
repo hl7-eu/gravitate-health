@@ -37,4 +37,4 @@ Usage: #inline
 //reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 * packageFor = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
  // Reference to Organization: MAH
-* manufacturer = Reference(org-16019cea3a857659d2c5a2018c2260df)
+* manufacturer = Reference(org-b9c6316075799071b2706c402f9fa388)

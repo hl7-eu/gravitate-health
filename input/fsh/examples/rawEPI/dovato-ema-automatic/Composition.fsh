@@ -19,7 +19,7 @@ Usage: #inline
 
 * subject = Reference(mp16598f252d07b4784b82ba43cf9e847e)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-173fde4cb6b1018cb7ec8ab708d3961c)
+* author = Reference(org-7c9b97127f73ff3605a10eb1c2cc24d1)
 
 * title = "TEST PURPOSES ONLY - Dovato 50 mg/300 mg film-coated tablets"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

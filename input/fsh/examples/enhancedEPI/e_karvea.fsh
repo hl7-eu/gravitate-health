@@ -2,8 +2,8 @@
 
 Instance: enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8
 InstanceOf: CompositionUvEpi
-Title: "Composition for Karvea Package Leaflet - Enhanced"
-Description:  "Composition for Karvea Package Leaflet - Enhanced"
+Title: "[Enhanced] Composition for Karvea Package Leaflet"
+Description:  "[Enhanced] Composition for Karvea Package Leaflet"
 Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
@@ -40,7 +40,7 @@ Usage: #inline
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "indication"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.reference = Reference(indication-Hypertension)
+* extension[=].extension[=].valueCodeableReference.reference = Reference(cud-585e364c14debe29f6c6b564138aa400)
 
 * extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
@@ -534,8 +534,8 @@ Usage: #inline
 
 Instance: enhancedddbundlekarvea
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Karvea 75 mg Package Leaflet - enhanced"
-Description: "Bundle for Karvea 75 mg Package Leaflet ePI document - enhanced"
+Title: "[Enhanced] ePI document Bundle for Karvea 75 mg Package Leaflet"
+Description: "[Enhanced] Bundle for Karvea 75 mg Package Leaflet ePI document"
 Usage: #example
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
@@ -544,10 +544,19 @@ Usage: #example
 * timestamp = "2023-04-25T11:55:27Z"
 
 // Composition
-* entry[0].fullUrl = "Composition/Focused-compositionf4d45353edcb21af3718d3a0df94a4d8"
-* entry[0].resource = Focused-compositionf4d45353edcb21af3718d3a0df94a4d8
+* entry[0].fullUrl = "Composition/enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8"
+* entry[0].resource = enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8
 
 
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
+* entry[=].resource = contraindication-pregancy
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
+* entry[=].resource = contraindication-kidney
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
+* entry[=].resource = contraindication-diabetes-mellitus
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-a40c2367ed3c1c715eacd432105752a0"
 * entry[=].resource = cud-a40c2367ed3c1c715eacd432105752a0 

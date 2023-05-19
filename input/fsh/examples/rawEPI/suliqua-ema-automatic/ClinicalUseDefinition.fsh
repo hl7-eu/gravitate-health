@@ -5,7 +5,7 @@ Instance: cud-42659cd40ce761bcf6d15bd28423e45f
 InstanceOf: ClinicalUseDefinition-indication-uv-epi
 Description: "indication - Hypertension"
 Usage: #inline
-
+* id = "cud-42659cd40ce761bcf6d15bd28423e45f"
 * identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
 * identifier.value = "Hypertension"
 * identifier.use = #official

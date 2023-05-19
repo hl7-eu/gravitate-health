@@ -1,19 +1,21 @@
 @startuml 
 
 
-"Raw ePI"-> "p(ePI)": Adding annotation
+"p(ePI)"-> "x(ePI)": adding lenses
 
 
-"p(ePI)"->"f(ePI)": injection of lenses
+"x(ePI)"->"x'(ePI)": data consumed and attached focusing elements
 
-"f(ePI)"->"f'(ePI)": Injection of personal data
 
-"f'(ePI)"->"e(ePI)": The personalized ePI is created
+"x'(ePI)"->"r(ePI)": Lenses executed
 
-note left of "f(ePI)": Annotation of content \nw/ standard terminologies\nAutomatic (NLP)\nSemi-automatic\nManual (ePI editor tool)
 
-note left of "f'(ePI)": User Profile\nIPS\nLambda Profile\nOr combination
 
-note left of "f(ePI)": JS\nCQL\nOther
+note right of "x(ePI)": Know and standard Terms\nKnow and standard Profile + IPS\nProduce Standard operations\nLanguage independent
+
+
+
+note left of "x'(ePI)": User Profile\nIPS\nOr combination
+
 
 @enduml

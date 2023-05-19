@@ -3,7 +3,7 @@ Instance: mpbe76bdf784deea6950583b234f789db2
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Remsima 100 mg powder for concentrate for solution for infusion"
 Description: "Remsima 100 mg powder for concentrate for solution for infusion"
-Usage: #inline
+Usage: #example
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"
@@ -49,6 +49,6 @@ Usage: #inline
     * type.text = "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#eu ""
-    * jurisdiction = urn:iso:std:iso:3166#eu ""
-    * language = urn:ietf:bcp:47#eu  "English"
+    * country = urn:iso:std:iso:3166#GBR "United Kingdom"
+    * jurisdiction = urn:iso:std:iso:3166#GBR "United Kingdom"
+    * language = urn:ietf:bcp:47#en  "English"
