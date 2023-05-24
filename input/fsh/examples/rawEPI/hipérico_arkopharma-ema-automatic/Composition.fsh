@@ -6,7 +6,7 @@ Description:  "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaf
 Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "cc"
+* identifier.value = "123456"
 
 * status = #final
 

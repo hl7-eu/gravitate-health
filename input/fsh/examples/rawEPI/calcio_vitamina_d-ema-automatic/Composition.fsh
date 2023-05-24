@@ -6,7 +6,7 @@ Description:  "Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDO
 Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "cc"
+* identifier.value = "68290"
 
 * status = #final
 

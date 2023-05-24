@@ -6,7 +6,7 @@ Description:  "Composition for Flucelvax Package Leaflet"
 Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "jkl"
+* identifier.value = "EU/1/18/1326/001"
 
 * status = #final
 
