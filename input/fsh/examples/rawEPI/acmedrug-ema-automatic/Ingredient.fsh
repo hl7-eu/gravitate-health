@@ -9,7 +9,7 @@ Instance: ingredient-for-acmedrug-acmedruging3
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient acmedrug-ing3"
 Description: "acmedrug-ing3"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $ginas
 * identifier.value = "ETJ7Z6XBU4"
@@ -44,7 +44,7 @@ Instance: ingredient-for-acmedrug-acmedruging2
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient acmedrug-ing2"
 Description: "acmedrug-ing2"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $ginas
 * identifier.value = "15FIX9V2JP"
@@ -79,7 +79,7 @@ Instance: ingredient-for-acmedrug-acmedruging1
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active acmedrug-ing1"
 Description: "acmedrug-ing1"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $ginas
 * identifier.value = "J0E2756Z7N"

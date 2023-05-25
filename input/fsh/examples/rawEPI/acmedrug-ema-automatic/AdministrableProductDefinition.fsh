@@ -3,7 +3,7 @@ Instance: ap-5aa8042f9b2bea12d814ccaf27f6d64e
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product acmedrug"
 Description: "acmedrug"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $phpid
 * identifier.value = "identifier" 
@@ -11,8 +11,8 @@ Usage: #inline
 * status = #active
 
 * formOf = Reference(mp534e209eb0a3ff60437639cb2015316f)
-* administrableDoseForm = $spor-rms#200000002152 "tablet"
-* unitOfPresentation = $spor-rms#200000002152 "tablet"
+* administrableDoseForm = $spor-rms#100000073664 "Tablet"
+* unitOfPresentation = $spor-rms#200000002152 "Tablet"
 
 //this is just manufactured with extra steps?
 

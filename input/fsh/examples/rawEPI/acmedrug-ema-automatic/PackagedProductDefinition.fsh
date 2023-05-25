@@ -3,7 +3,7 @@ Instance: ppd-8799ff87933460485b763ad9b52f8276
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "acme drug blister tabs"
 Description: "acme drug blister tabs"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/97/049/001"
@@ -11,7 +11,7 @@ Usage: #inline
 
 * name = "acme drug blister tabs"
 
-* type = $spor-rms#100000155527 "Chemical Medicinal Prodcut"
+* type = $spor-rms#100000155527 "Chemical Medicinal Product"
 //* type = $spor-rms#100000155527
 
 
