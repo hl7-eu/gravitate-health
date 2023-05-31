@@ -7,7 +7,7 @@ Usage: #example
 
  
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "asdasd"
+* identifier.value = "EU/1/18/1326/001"
 
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
