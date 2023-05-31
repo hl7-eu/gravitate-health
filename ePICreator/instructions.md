@@ -24,3 +24,12 @@ example code:
 
 for creating all at the same time:
 ```python createAll.py . templates/ ../input/fsh/examples/```
+
+
+### Composition
+The composition is where the narrative text is and requires a transformation to HTML.
+
+The best practice so far is:
+going to [here](https://pdf2md.morethan.io/) and upload pdf and get markdown data.
+
+From there, use it to convert to html in [here](https://markdowntohtml.com/)

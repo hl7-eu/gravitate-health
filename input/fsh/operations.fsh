@@ -51,6 +51,20 @@ The persona dimension can be delivered either as a `Bundle` or by using an `Iden
 * parameter[=].documentation = "ePI Document Identifier"
 * parameter[=].type = #Identifier
 
+* parameter[+].name = #pv
+* parameter[=].use = #in
+* parameter[=].min = 0
+* parameter[=].max = "1"
+* parameter[=].documentation = "Persona Vector"
+* parameter[=].type = #Bundle
+
+* parameter[+].name = #pv-identifier
+* parameter[=].use = #in
+* parameter[=].min = 0
+* parameter[=].max = "1"
+* parameter[=].documentation = "Persona Vector Identifier"
+* parameter[=].type = #Identifier
+
 * parameter[+].name = #returnEpi
 * parameter[=].use = #out
 * parameter[=].min = 1
@@ -65,19 +79,7 @@ The persona dimension can be delivered either as a `Bundle` or by using an `Iden
 * parameter[=].documentation = "Enhanced epi Bundle extracts"
 * parameter[=].type = #Bundle
 
-* parameter[+].name = #pv
-* parameter[=].use = #in
-* parameter[=].min = 0
-* parameter[=].max = "1"
-* parameter[=].documentation = "Persona Vector"
-* parameter[=].type = #base64Binary
 
-* parameter[+].name = #pv-identifier
-* parameter[=].use = #in
-* parameter[=].min = 0
-* parameter[=].max = "1"
-* parameter[=].documentation = "Persona Vector Identifier"
-* parameter[=].type = #Identifier
 
 
 Instance: annotate
