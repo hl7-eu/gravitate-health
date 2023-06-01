@@ -6,7 +6,7 @@ Description: "Flucelvax Tetra - suspension for injection in pre-filled syringe I
 Usage: #example
 
  
-* identifier.system = "https://spor.ema.europa.eu/rmswi/"
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/18/1326/001"
 
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"

@@ -6,7 +6,7 @@ Description: "Suliqua 100 units/ml + 50 micrograms/ml solution for injection in 
 Usage: #example
 
  
-* identifier[+].system = "https://spor.ema.europa.eu/pmswi/#/"
+* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
 * identifier[=].value = "EU/1/16/1157/002"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 

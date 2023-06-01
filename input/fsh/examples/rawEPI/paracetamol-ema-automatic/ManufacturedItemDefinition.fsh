@@ -5,7 +5,7 @@ Title: "Manufactured item DOLOCATIL 1 g tablets "
 Description: "DOLOCATIL 1 g tablets "
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/pmswi/#/"
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "xx"
 * identifier.use = #official
 

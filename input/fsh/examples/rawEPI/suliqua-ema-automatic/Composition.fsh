@@ -5,8 +5,8 @@ Title: "Composition for Suliqua Package Leaflet"
 Description:  "Composition for Suliqua Package Leaflet"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4f"
+* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
+* identifier[=].value = "EU/1/16/1157/002"
 
 * status = #final
 

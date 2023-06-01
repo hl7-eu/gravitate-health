@@ -5,8 +5,8 @@ Title: "Composition for Pentasa Slow Release Tablets 1g Package Leaflet"
 Description:  "Composition for Pentasa Slow Release Tablets 1g Package Leaflet"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "cc"
+* identifier[+].system = "https://cima.aemps.es/ids"
+* identifier[=].value = "77022" 
 
 * status = #final
 

@@ -5,7 +5,7 @@ Title: "Manufactured item Suliqua 100 units/ml + 33 micrograms/ml solution for i
 Description: "Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/pmswi/#/"
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/16/1157/003"
 * identifier.use = #official
 

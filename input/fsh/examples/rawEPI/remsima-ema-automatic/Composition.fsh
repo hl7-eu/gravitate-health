@@ -5,8 +5,8 @@ Title: "Composition for Remsima 100 mg powder for concentrate for solution for i
 Description:  "Composition for Remsima 100 mg powder for concentrate for solution for infusion Package Leaflet"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "EU/1/13/853/001"
+* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
+* identifier[=].value = "EU/1/13/853/001" 
 
 * status = #final
 

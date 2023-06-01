@@ -5,7 +5,7 @@ Title: "Manufactured item Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
 Description: "Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/pmswi/#/"
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/18/1289/001"
 * identifier.use = #official
 

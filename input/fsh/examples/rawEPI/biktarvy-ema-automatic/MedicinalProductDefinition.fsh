@@ -1,8 +1,8 @@
 
 Instance: mp5fb1761a0a38bea0a9b49f146371c68b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Remsima 100 Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
-Description: "Remsima 100 Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
+Title: "Medicinal Product Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+Description: "Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
 Usage: #example
 
  
@@ -24,7 +24,7 @@ Usage: #example
 
 
 * name
-  * productName = "Remsima 100 Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
+  * productName = "Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001
     * text = "Full name"
   

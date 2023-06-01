@@ -17,7 +17,7 @@ Usage: #example
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp9f19d491c9d50ad089f639dd538cc8e2)
+* subject = Reference(mp284ddecbce6fb138483090d5e55bafac)
 * date = "2022-02-16T13:28:17Z"
 * author = Reference(org-43da1186bd45a53209a5c5aa849ac823)
 

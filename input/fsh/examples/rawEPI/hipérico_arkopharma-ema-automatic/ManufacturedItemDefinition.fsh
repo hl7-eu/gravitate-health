@@ -5,7 +5,7 @@ Title: "Manufactured item HIPÉRICO ARKOPHARMA cápsulas duras"
 Description: "HIPÉRICO ARKOPHARMA cápsulas duras"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/pmswi/#/"
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "79963"
 * identifier.use = #official
 

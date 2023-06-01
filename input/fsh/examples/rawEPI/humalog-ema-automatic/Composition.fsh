@@ -5,8 +5,8 @@ Title: "Composition for Humalog Package Leaflet"
 Description:  "Composition for Humalog Package Leaflet"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4f"
+* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
+* identifier[=].value = "EU/1/96/007/035" 
 
 * status = #final
 

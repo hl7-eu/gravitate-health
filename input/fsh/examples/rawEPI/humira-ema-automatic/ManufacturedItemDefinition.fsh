@@ -5,7 +5,7 @@ Title: "Manufactured item Humira 40 mg Solution for injection Subcutaneous use p
 Description: "Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/pmswi/#/"
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/03/256/001"
 * identifier.use = #official
 

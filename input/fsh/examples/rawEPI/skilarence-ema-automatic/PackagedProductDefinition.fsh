@@ -1,15 +1,15 @@
 
-Instance: ppd-f5e39839f05500dc887abbae903c77f1
+Instance: ppd-6a3c9768548036f502739419bacb2482
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "Skilarence 30 mg gastro-resistant tablets"
-Description: "Skilarence 30 mg gastro-resistant tablets"
+Title: "Skilarence 120 mg gastro-resistant tablets"
+Description: "Skilarence 120 mg gastro-resistant tablets"
 Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/17/1201/002"
 * identifier.use = #official
 
-* name = "Skilarence 30 mg gastro-resistant tablets"
+* name = "Skilarence 120 mg gastro-resistant tablets"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Product"
 //* type = $spor-rms#100000155527
@@ -19,7 +19,7 @@ Usage: #example
 * statusDate = "2015-02-07T13:28:17Z"
 
 
-* containedItemQuantity = 30 'mg'
+* containedItemQuantity = 120 'mg'
 
 
 
@@ -35,6 +35,6 @@ Usage: #example
 
 
 //reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
-* packageFor = Reference(mp9f19d491c9d50ad089f639dd538cc8e2)
+* packageFor = Reference(mp284ddecbce6fb138483090d5e55bafac)
  // Reference to Organization: MAH
 * manufacturer = Reference(org-43da1186bd45a53209a5c5aa849ac823)

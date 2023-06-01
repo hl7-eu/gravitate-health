@@ -5,8 +5,8 @@ Title: "Composition for paracetamol Package Leaflet"
 Description:  "Composition for paracetamol Package Leaflet"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "xx"
+* identifier[+].system = "https://cima.aemps.es/ids"
+* identifier[=].value = "72.741" 
 
 * status = #final
 

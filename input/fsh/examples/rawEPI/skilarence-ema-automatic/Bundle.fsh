@@ -8,7 +8,7 @@ Usage: #example
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/17/1201/002"
 * type = #document
-* timestamp = "2023-05-31T12:46:17Z"
+* timestamp = "2023-06-01T10:41:50Z"
 
 // Composition
 * entry[0].fullUrl = "Composition/composition040bd687344f34655b854f4b67248074"
@@ -45,8 +45,8 @@ Usage: #example
 
 // AdministrableProductDefinition
 
-* entry[+].fullUrl = "AdministrableProductDefinition/ap-f5e39839f05500dc887abbae903c77f1"
-* entry[=].resource = ap-f5e39839f05500dc887abbae903c77f1 
+* entry[+].fullUrl = "AdministrableProductDefinition/ap-6a3c9768548036f502739419bacb2482"
+* entry[=].resource = ap-6a3c9768548036f502739419bacb2482 
  
 
 // RegulatedAuthorization
@@ -63,19 +63,19 @@ Usage: #example
 
 // PackagedProductDefinition
 
-* entry[+].fullUrl = "PackagedProductDefinition/ppd-f5e39839f05500dc887abbae903c77f1"
-* entry[=].resource = ppd-f5e39839f05500dc887abbae903c77f1 
+* entry[+].fullUrl = "PackagedProductDefinition/ppd-6a3c9768548036f502739419bacb2482"
+* entry[=].resource = ppd-6a3c9768548036f502739419bacb2482 
  
 
 // MedicinalProductDefinition
 
-* entry[+].fullUrl = "MedicinalProductDefinition/mp9f19d491c9d50ad089f639dd538cc8e2"
-* entry[=].resource = mp9f19d491c9d50ad089f639dd538cc8e2 
+* entry[+].fullUrl = "MedicinalProductDefinition/mp284ddecbce6fb138483090d5e55bafac"
+* entry[=].resource = mp284ddecbce6fb138483090d5e55bafac 
  
 
 // ManufacturedItemDefinition
 
-* entry[+].fullUrl = "ManufacturedItemDefinition/mid-f5e39839f05500dc887abbae903c77f1"
-* entry[=].resource = mid-f5e39839f05500dc887abbae903c77f1 
+* entry[+].fullUrl = "ManufacturedItemDefinition/mid-6a3c9768548036f502739419bacb2482"
+* entry[=].resource = mid-6a3c9768548036f502739419bacb2482 
  
 

@@ -5,7 +5,7 @@ Title: "Manufactured item Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension fo
 Description: "Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/pmswi/#/"
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/96/007/035"
 * identifier.use = #official
 

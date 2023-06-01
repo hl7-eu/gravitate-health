@@ -5,7 +5,7 @@ Title: "Manufactured item Tegretol 200 mg tablets"
 Description: "Tegretol 200 mg tablets"
 Usage: #example
 
-* identifier.system = "https://spor.ema.europa.eu/pmswi/#/"
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "39955"
 * identifier.use = #official
 

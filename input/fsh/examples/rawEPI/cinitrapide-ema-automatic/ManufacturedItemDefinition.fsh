@@ -5,7 +5,7 @@ Title: "Manufactured item cinitrapide"
 Description: "cinitrapide"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/pmswi/#/"
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "x"
 * identifier.use = #official
 

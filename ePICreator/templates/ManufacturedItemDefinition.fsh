@@ -7,7 +7,7 @@ Title: "Manufactured item {{ row["name"] }}"
 Description: "{{ row["name"] }}"
 Usage: #example
 
-* identifier.system = "https://spor.ema.europa.eu/pmswi/#/"
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "{{ row["identifier"] }}"
 * identifier.use = #official
 

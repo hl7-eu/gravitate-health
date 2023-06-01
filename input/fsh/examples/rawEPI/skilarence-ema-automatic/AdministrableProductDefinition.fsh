@@ -1,8 +1,8 @@
 
-Instance: ap-f5e39839f05500dc887abbae903c77f1
+Instance: ap-6a3c9768548036f502739419bacb2482
 InstanceOf: AdministrableProductDefinitionUvEpi
-Title: "Administrable product Skilarence 30 mg gastro-resistant tablets"
-Description: "Skilarence 30 mg gastro-resistant tablets"
+Title: "Administrable product Skilarence 120 mg gastro-resistant tablets"
+Description: "Skilarence 120 mg gastro-resistant tablets"
 Usage: #example
 
 * identifier.system = $phpid
@@ -10,7 +10,7 @@ Usage: #example
 
 * status = #active
 
-* formOf = Reference(mp9f19d491c9d50ad089f639dd538cc8e2)
+* formOf = Reference(mp284ddecbce6fb138483090d5e55bafac)
 * administrableDoseForm = $spor-rms#100000073664 "Tablet"
 * unitOfPresentation = $spor-rms#200000002152 "Tablet"
 
@@ -18,7 +18,7 @@ Usage: #example
 
 
 //reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
-* producedFrom = Reference(mid-f5e39839f05500dc887abbae903c77f1)
+* producedFrom = Reference(mid-6a3c9768548036f502739419bacb2482)
 
 
 * routeOfAdministration.code = $spor-rms#100000073619 "Oral use"

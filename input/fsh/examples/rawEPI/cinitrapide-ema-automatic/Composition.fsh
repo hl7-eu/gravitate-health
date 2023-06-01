@@ -5,8 +5,8 @@ Title: "Composition for cinitrapide Package Leaflet"
 Description:  "Composition for cinitrapide Package Leaflet"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "nan"
+* identifier[+].system = "https:://cima.aemps.es/ids"
+* identifier[=].value = "59.032" 
 
 * status = #final
 

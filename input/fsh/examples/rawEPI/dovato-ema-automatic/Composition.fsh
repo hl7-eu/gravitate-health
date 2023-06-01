@@ -5,8 +5,8 @@ Title: "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
 Description:  "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "xx"
+* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
+* identifier[=].value = "EU/1/19/1370/001" 
 
 * status = #final
 

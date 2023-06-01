@@ -5,8 +5,8 @@ Title: "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
 Description:  "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "123456"
+* identifier[+].system = "https://cima.aemps.es/ids"
+* identifier[=].value = "79963"
 
 * status = #final
 

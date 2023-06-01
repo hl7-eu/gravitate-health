@@ -24,9 +24,9 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-f5e39839f05500dc887abbae903c77f1)
-* for[+] = Reference(mp9f19d491c9d50ad089f639dd538cc8e2)
-* for[+] = Reference(ap-f5e39839f05500dc887abbae903c77f1)
+* for = Reference(mid-6a3c9768548036f502739419bacb2482)
+* for[+] = Reference(mp284ddecbce6fb138483090d5e55bafac)
+* for[+] = Reference(ap-6a3c9768548036f502739419bacb2482)
 // Reference to Organization:  Reference to MAH
 
  
@@ -59,9 +59,9 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-f5e39839f05500dc887abbae903c77f1)
-* for[+] = Reference(mp9f19d491c9d50ad089f639dd538cc8e2)
-* for[+] = Reference(ap-f5e39839f05500dc887abbae903c77f1)
+* for = Reference(mid-6a3c9768548036f502739419bacb2482)
+* for[+] = Reference(mp284ddecbce6fb138483090d5e55bafac)
+* for[+] = Reference(ap-6a3c9768548036f502739419bacb2482)
 // Reference to Organization:  Reference to MAH
 
  
@@ -92,15 +92,15 @@ Usage: #example
 * substance.code.concept.coding = $ginas#FO2303MNI2 "DIMETHYL FUMARATE"
 
 
-* substance.strength.presentationQuantity = 30.0 'mg'
+* substance.strength.presentationQuantity = 120.0 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
 
 // Reference to products
-* for = Reference(mid-f5e39839f05500dc887abbae903c77f1)
-* for[+] = Reference(mp9f19d491c9d50ad089f639dd538cc8e2)
-* for[+] = Reference(ap-f5e39839f05500dc887abbae903c77f1)
+* for = Reference(mid-6a3c9768548036f502739419bacb2482)
+* for[+] = Reference(mp284ddecbce6fb138483090d5e55bafac)
+* for[+] = Reference(ap-6a3c9768548036f502739419bacb2482)
 // Reference to Organization:  Reference to MAH
 
  

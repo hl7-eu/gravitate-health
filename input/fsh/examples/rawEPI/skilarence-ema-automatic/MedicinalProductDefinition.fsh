@@ -1,8 +1,8 @@
 
-Instance: mp9f19d491c9d50ad089f639dd538cc8e2
+Instance: mp284ddecbce6fb138483090d5e55bafac
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Skilarence 30 mg gastro-resistant tablets"
-Description: "Skilarence 30 mg gastro-resistant tablets"
+Title: "Medicinal Product Skilarence 120 mg gastro-resistant tablets"
+Description: "Skilarence 120 mg gastro-resistant tablets"
 Usage: #example
 
  
@@ -24,7 +24,7 @@ Usage: #example
 
 
 * name
-  * productName = "Skilarence 30 mg gastro-resistant tablets"
+  * productName = "Skilarence 120 mg gastro-resistant tablets"
   * type = $spor-productNamePartType-cs#220000000001
     * text = "Full name"
   
@@ -39,7 +39,7 @@ Usage: #example
     * type.text = "Scientific name part"
   
   * part[+]
-    * part = "30 mg"
+    * part = "120 mg"
     * type = $spor-productNamePartType-cs#220000000004
     * type.text = "Strength part"
   

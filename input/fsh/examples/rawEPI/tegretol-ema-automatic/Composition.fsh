@@ -5,8 +5,8 @@ Title: "Composition for Tegretol 200 mg tablets Package Leaflet"
 Description:  "Composition for Tegretol 200 mg tablets Package Leaflet"
 Usage: #example
 
-* identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "39.955"
+* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
+* identifier[=].value = "39.955" 
 
 * status = #final
 

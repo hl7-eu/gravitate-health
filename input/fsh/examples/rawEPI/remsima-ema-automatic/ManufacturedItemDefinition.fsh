@@ -5,7 +5,7 @@ Title: "Manufactured item Remsima 100 mg powder for concentrate for solution for
 Description: "Remsima 100 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/pmswi/#/"
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/13/853/001"
 * identifier.use = #official
 

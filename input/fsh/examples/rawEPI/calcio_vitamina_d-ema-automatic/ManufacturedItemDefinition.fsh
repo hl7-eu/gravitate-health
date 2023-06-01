@@ -5,7 +5,7 @@ Title: "Manufactured item Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efe
 Description: "Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes"
 Usage: #inline
 
-* identifier.system = "https://spor.ema.europa.eu/pmswi/#/"
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "68290"
 * identifier.use = #official
 

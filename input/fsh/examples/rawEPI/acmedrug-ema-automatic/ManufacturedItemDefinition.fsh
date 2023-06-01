@@ -5,7 +5,7 @@ Title: "Manufactured item acmedrugman"
 Description: "acmedrugman"
 Usage: #example
 
-* identifier.system = "https://spor.ema.europa.eu/pmswi/#/"
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/96/007/035"
 * identifier.use = #official
 
