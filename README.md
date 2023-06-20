@@ -43,3 +43,26 @@ services:
       - location=http://build.fhir.org/ig/HL7/emedicinal-product-info/package.tgz
       - serverBase=http://fhir-server:8080/fhir
 ```
+
+### Data
+
+| Nr|roduct                                                                                                                                          | Active Principle  |
+|-|-------------------------------------------------------------------------------------------------------------------------------------------------|---|
+| 1|Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)                                                                |  adalimumab |
+| 2|DOLOCATIL 1 g tablets                                                                                                                            | paracetamol  |
+| 3|Pentasa Slow Release Tablets   1g                                                                                                                | Mesalazine  |
+| 4|Skilarence 120 mg gastro-resistant tablets                                                                                                     |dimethyl fumarate|
+| 5|Karvea 75 mg tablet blister   x28                                                                                                                | irbesartan  |
+| 6|Dovato 50 mg/300 mg   film-coated tablets                                                                                                        |  Lamivudine + Dolutegravir |
+| 7|MIRTAZAPINA CINFA 30 mg Coated   Tablet                                                                                                          | mirtazapine  |
+| 8|Calcio/Vitamina D3 ROVI 1000   mg/880 UI comprimidos efervescentes                                                                               | calcium / vitamin D  |
+| 9|BLASTON 1 mg tablets                                                                                                                             | cinetrapide  |
+| 10|Remsima 100 mg powder for   concentrate for solution for infusion                                                                                |  Infliximab |
+| 11|Humalog Mix50 Insulin KwikPen,   100 U/ml, Suspension for injection 3ml pre-fill                                                                 |  insulin |
+| 12|Flucelvax Tetra - suspension   for injection in pre-filled syringe Influenza vaccine (surface antigen,   inactivated, prepared in cell cultures) | vaccine   |
+| 13|Biktarvy 50 mg/200 mg/25 mg   film-coated tablets                                                                                                |  bictegravir / emtricitabine / tenofovir alafenamide |
+| 14|Tegretol 200 mg tablets                                                                                                                          | Carbamazepine   |
+| 15|Xenical 120mg hard capsules                                                                                                                      | Orlistat  |
+| 16|Hyperikum Perforatum                                                                                                                             | Hypericum perforatum  |
+|17| Suliqua                                                                                                                                          | insulin  |
+|  18|                                                                                                                                                |   |
