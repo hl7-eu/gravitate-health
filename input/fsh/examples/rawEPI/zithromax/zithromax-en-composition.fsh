@@ -4,7 +4,7 @@ Title: "Composition for zithromax (azithromycin) 250 mg capsules - Jordanian Pac
 Description:  "Composition for zithromax (azithromycin) 250 mg capsules - Jordanian Package Leaflet"
 Usage: #inline
 
-* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
+* identifier[+].system = "https://www.jfda.jo"
 * identifier[=].value = "placeholder" 
 
 * status = #final
@@ -18,7 +18,7 @@ Usage: #inline
 
 * title = "TEST PURPOSES ONLY - Zithromax (azithromycin) 250 mg capsules"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
-* attester.time =  "2022-02-16T13:28:17Z"
+* attester.time =  "2023-06-20T13:28:17Z"
 * language = #en
 
 * section[+].
