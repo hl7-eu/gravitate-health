@@ -80,8 +80,8 @@ Zithromax capsules contain lactose, a type of sugar. If you have been told by yo
 
 Zithromax capsules contain sulfur dioxide, which may rarely cause severe allergic (hypersensitivity) reactions and wheezing (bronchospasm). 
 
-	Information on sodium content
-	Zithromax contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially ‘sodium free’.
+Information on sodium content
+Zithromax contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially ‘sodium free’.
 
 3. 	How to take Zithromax 
 Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if you are not sure. The capsules should be swallowed whole. 
@@ -181,7 +181,7 @@ Reporting of side effects
 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. You can also report side effects directly 
 	
-	By reporting side affects you can help provide more information on the safety of this medicine.
+By reporting side affects you can help provide more information on the safety of this medicine.
 
 5. 	How to store Zithromax 
 
