@@ -359,9 +359,9 @@ Usage: #inline
 				<li>Do not by yourself interrupt the period of treatment prescribed.</li>
 				<li>Do not repeat the same prescription without consulting your doctor.</li>
 			</ul>
-			<p>Keep all medicaments out of reach and sight of children</p>
-			<p>Council of Arab Health Ministers</p>
-			<p>Union of Arabic Pharmacists</p>
+			<p><b>Keep all medicaments out of reach and sight of children</b></p>
+			<p><b>Council of Arab Health Ministers</b></p>
+			<p><b>Union of Arabic Pharmacists</b></p>
 			</td>
 		</tr>
 	</tbody>
