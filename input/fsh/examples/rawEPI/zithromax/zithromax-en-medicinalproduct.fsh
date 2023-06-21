@@ -5,7 +5,7 @@ Title: "Medicinal Product zithromax (azithromycin) 250 mg capsules"
 Description: "zithromax (azithromycin) 250 mg capsules"
 Usage: #example
 
- * identifier[+].system = "https://jfda.jo"
+* identifier[+].system = "https://jfda.jo"
 * identifier[=].value = "placeholder" 
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 

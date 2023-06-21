@@ -4,12 +4,12 @@ Title: "Composition for zithromax (azithromycin) 250 mg capsules - Jordanian Pac
 Description:  "Composition for zithromax (azithromycin) 250 mg capsules - Jordanian Package Leaflet"
 Usage: #inline
 
-* identifier[+].system = "https://www.jfda.jo"
+* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
 * identifier[=].value = "placeholder" 
 
 * status = #final
 
-* type = https://https://www.jfda.jo/#100000155538
+* type = https://www.jfda.jo/#100000155538
 * type.text = "Package Leaflet"
 
 * subject = Reference(zi5fb1761a0a38bea0a9b49f146371c68b)
@@ -21,10 +21,9 @@ Usage: #inline
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en
 
-
 * section[+].
   * title = "B. Package Leaflet"
-  * code = https://https://www.jfda.jo/#100000155538
+  * code = https://www.jfda.jo/#100000155538
   * code.text = "B. PACKAGE LEAFLET"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  
@@ -37,7 +36,7 @@ Usage: #inline
       
 * section[=].section[+]
   * title = "Package leaflet: Information for the patient"
-  * code = https://https://www.jfda.jo/#100000155538
+  * code = https://www.jfda.jo/#100000155538
   * code.text = "Package leaflet: Information for the patient"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -57,7 +56,7 @@ Usage: #inline
 
 * section[=].section[+]
   * title = "What is in this leaflet"
-  * code = https://https://www.jfda.jo/#100000155538
+  * code = https://www.jfda.jo/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -73,7 +72,7 @@ Usage: #inline
           
 * section[=].section[+]
   * title = "1. What Zithromax is and what it is used for"
-  * code = https://https://www.jfda.jo/#100000155538
+  * code = https://www.jfda.jo/#100000155538
   * code.text = "1. What x is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -95,7 +94,7 @@ Usage: #inline
              
 * section[=].section[+]
   * title = "2. What you need to know before you take Zithromax"
-  * code = https://https://www.jfda.jo/#100000155538
+  * code = https://www.jfda.jo/#100000155538
   * code.text = "2. What you need to know before you take x"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -158,7 +157,7 @@ Usage: #inline
                     
 * section[=].section[+]
   * title = "3. How to take Zithromax"
-  * code = https://https://www.jfda.jo/#100000155538
+  * code = https://www.jfda.jo/#100000155538
   * code.text = "3. How to take x"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -193,7 +192,7 @@ Usage: #inline
     
 * section[=].section[+]
   * title = "4. Possible side effects"
-  * code = https://https://www.jfda.jo/#100000155538
+  * code = https://www.jfda.jo/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -301,7 +300,7 @@ Usage: #inline
         
 * section[=].section[+]
   * title = "5. How to store Zithromax"
-  * code = https://https://www.jfda.jo/#100000155538
+  * code = https://www.jfda.jo/#100000155538
   * code.text = "5. How to store x"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -316,7 +315,7 @@ Usage: #inline
                 
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
-  * code = https://https://www.jfda.jo/#100000155538
+  * code = https://www.jfda.jo/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
