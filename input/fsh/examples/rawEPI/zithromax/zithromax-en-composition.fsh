@@ -90,19 +90,18 @@ Usage: #inline
         <p> You must talk to a doctor if you do not feel better or if you feel worse.</p>  
   </div>"""   
           
-
-             
 * section[=].section[+]
   * title = "2. What you need to know before you take Zithromax"
   * code = https://www.jfda.jo/#100000155538
   * code.text = "2. What you need to know before you take x"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
-<p>Do not take Zithromax: </p>
+<p><b>Do not take Zithromax:</b></p>
         <p>• if you are allergic to azithromycin or any other macrolide antibiotic such as
             erythromycin or clarithromycin or any of the ingredients of this medicine (listed in
             section 6). An allergic reaction may cause skin rash or wheezing.</p>
-        <p>Warnings and precautions</p>
+        
+<p><b>Warnings and precautions</b></p>
         <p> Talk to your doctor or pharmacist before taking Zithromax if you have or have had any of
             the following conditions: </p>
         <ul>
@@ -120,7 +119,7 @@ Usage: #inline
         <p>If you develop diarrhoea or loose stools during or after treatment, tell your doctor at
             once. Do not take any medicine to treat your diarrhoea without first checking with your
             doctor. If your diarrhoea continues, please inform your doctor.</p>
-        <p>Other medicines and Zithromax </p>
+        <p><b>Other medicines and Zithromax</b></p>
         <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any
             other medicines.</p>
         <p>In particular, Zithromax may interact with the medicines listed below: </p>
@@ -134,22 +133,25 @@ Usage: #inline
             <li>colchicine (used for gout and familial Mediterranean fever)</li>
             <li>terfenadine (for hay fever or a skin allergy). </li>
         </ul>
-        <p>Zithromax with food and drink </p>
+        
+<p><b>Zithromax with food and drink</b></p>
         <p>You should take Zithromax either 1 hour before a meal or 2 hours after a meal. </p>
-        <p></p>
-        <p>Pregnancy, breast-feeding and fertility</p>
+        
+        <p><b>Pregnancy, breast-feeding and fertility</b></p>
         <p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have
             a baby, ask your doctor or pharmacist for advice before taking this medicine. </p>
-        <p></p>
-        <p>Driving and using machines </p>
+
+        <p><b>Driving and using machines</b></p>
         <p>Zithromax is not expected to affect your ability to drive or use machines. </p>
-        <p>Zithromax capsules contain lactose, a type of sugar. If you have been told by your doctor
+        
+<p><b>Zithromax capsules contain lactose</b>, a type of sugar. If you have been told by your doctor
             that you have an intolerance to some sugars contact your doctor before taking this
             medicine. </p>
-        <p>Zithromax capsules contain sulfur dioxide, which may rarely cause severe allergic
+
+<p><b>Zithromax capsules contain sulfur dioxide</b>, which may rarely cause severe allergic
             (hypersensitivity) reactions and wheezing (bronchospasm). </p>
-        <p></p>
-        <p>Information on sodium content</p>
+
+<p><b>Information on sodium content</b></p>
         <p>Zithromax contains less than 1 mmol sodium (23 mg) per capsule, that is to say
             essentially ‘sodium free’.</p>    
   
@@ -177,13 +179,16 @@ Usage: #inline
         <p>Always continue with the course even if you feel better. If your infection gets worse or
             you do not start to feel better within a few days or a new infection develops, go back
             and see your doctor. </p>
-        <p>If you take more Zithromax than you should </p>
+        
+<p><b>If you take more Zithromax than you should</b></p>
         <p>If you take too much Zithromax you may feel unwell. Tell your doctor or contact your
             nearest hospital casualty department immediately. </p>
-        <p>If you forget to take Zithromax </p>
+        
+<p><b>If you forget to take Zithromax</b></p>
         <p>If you forget to take Zithromax take it as soon as you can. Take your next dose at the
             right time. Do not take a double dose to make up for a forgotten dose. </p>
-        <p>If you stop taking Zithromax </p>
+
+<p><b>If you stop taking Zithromax</b></p>
         <p>If you stop taking Zithromax too soon, the infection may return. Take the capsules for
             the full time of treatment, even when you begin to feel better. </p>
         <p>If you have any further questions about the use of this medicine, ask your doctor or
@@ -198,8 +203,8 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
 <p>Like all medicines, this medicine can cause side effects although not everybody gets
             them. </p>
-        <p>Tell your doctor immediately if you experience any of the following symptoms after taking
-            this medicine as the symptoms can be severe. </p>
+        <p><b>Tell your doctor immediately if you experience any of the following symptoms after taking
+            this medicine as the symptoms can be severe.</b></p>
         <ul>
             <li>sudden wheeziness, difficulty in breathing, swelling of eyelids, face or lips, rash
                 or itching (especially affecting the whole body)</li>
@@ -230,11 +235,12 @@ Usage: #inline
         <p>The most common side effects that occur when taking Zithromax are listed below. These may
             go away during treatment as your body adjusts to the medicine. Tell your doctor if any
             of these side effects continue to bother you. </p>
-        <p>Very common: may affect more than 1 in 10 people</p>
+        
+<p><b>Very common:</b> may affect more than 1 in 10 people</p>
         <ul>
             <li>stomach cramps, feeling sick, diarrhoea, wind</li>
         </ul>
-        <p>Common: may affect up to 1 in 10 people </p>
+        <p><b>Common:</b> may affect up to 1 in 10 people </p>
         <ul>
             <li>dizziness, headache</li>
             <li>numbness or pins and needles</li>
@@ -248,7 +254,7 @@ Usage: #inline
             <li>low blood bicarbonate</li>
             <li>tiredness or weakness </li>
         </ul>
-        <p>Uncommon: may affect up to 1 in 100 people </p>
+        <p><b>Uncommon:</b> may affect up to 1 in 100 people </p>
         <ul>
             <li>yeast infections of the mouth and vagina (thrush) </li>
             <li>low numbers of leukocytes (a type of white blood cell), low number of neutrophils (a
@@ -267,13 +273,13 @@ Usage: #inline
             <li>general discomfort</li>
             <li>abnormal laboratory test values (e.g. blood or liver tests).</li>
         </ul>
-        <p>Rare: may affect up to 1 in 1,000 people </p>
+        <p><b>Rare:</b> may affect up to 1 in 1,000 people </p>
         <ul>
             <li>agitation</li>
             <li>vertigo</li>
             <li>changes in liver function</li>
         </ul>
-        <p>Not known: frequency cannot be estimated from the available data</p>
+        <p><b>Not known: frequency cannot be estimated from the available data</b></p>
         <ul>
             <li>fits or fainting</li>
             <li>aggression or anxiety</li>
@@ -289,7 +295,8 @@ Usage: #inline
             <li>reduction in red blood cells which can make the skin pale and cause weakness or
                 breathlessness.</li>
         </ul>
-        <p>Reporting of side effects</p>
+        
+<p><b>Reporting of side effects</b></p>
         <p>If you get any side effects, talk to your doctor or pharmacist. This includes any
             possible side effects not listed in this leaflet. You can also report side effects
             directly </p>
@@ -319,35 +326,44 @@ Usage: #inline
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
-<p>What Zithromax contains </p>
+<p><b>What Zithromax contains</b></p>
         <p>The active substance is azithromycin (250 mg). </p>
         <p>The other ingredients are lactose anhydrous (see section 2, Zithromax capsules contain
             lactose), magnesium stearate, maize starch, sodium lauryl sulfate, gelatin, iron oxide
             (black) E172, shellac, propylene glycol, sulfur dioxide (see section 2 Zithromax
             capsules contain sulfur dioxide) and titanium dioxide. </p>
-        <p>What Zithromax looks like and contents of the pack </p>
+        
+<p><b>What Zithromax looks like and contents of the pack</b></p>
         <p>Zithromax capsules are white hard gelatin capsules marked Pfizer and ZTM 250. They come
             in blister packs of 4 or 6. </p>
         <p>Not all pack sizes may be marketed.</p>
-        <p>MARKETING AUTHORISATION HOLDER</p>
+        
+<p><b>MARKETING AUTHORISATION HOLDER</b></p>
         <p>Pfizer Limited, Ramsgate Road, Sandwich, Kent, CT13 9NJ, United Kingdom. </p>
-        <p>MANUFACTURER, PACKAGER &amp; RELEASER</p>
+        
+<p><b>MANUFACTURER, PACKAGER &amp; RELEASER</b></p>
         <p>Haupt Pharma Latina S.r.l. S.S. 156, Km 47.600; Borgo San Michele, 04100 Latina,
             Italy</p>
-        <p>This leaflet was last revised in: November 2020 </p>
-        <p>THIS IS A MEDICAMENT</p>
-        <ul>
-            <li>Medicament is a product which affects your health and its consumption contrary to
-                instructions is dangerous for you.</li>
-            <li>Follow strictly the doctor’s prescription, the method of use and the instructions of
-                the Pharmacist who sold the medicament.</li>
-            <li>The doctor and the Pharmacist are experts in medicines, their benefits and
-                risks.</li>
-            <li>Do not by yourself interrupt the period of treatment prescribed.</li>
-            <li>Do not repeat the same prescription without consulting your doctor.</li>
-        </ul>
-        <p>Keep all medicaments out of reach and sight of children</p>
-        <p>Council of Arab Health Ministers</p>
-        <p>Union of Arabic Pharmacists</p>  
-  
+        <p>This leaflet was last revised in: <b>November 2020</b></p>
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td style="text-align:center"><strong>THIS IS A MEDICAMENT</strong></td>
+		</tr>
+		<tr>
+			<td>
+			<ul>
+				<li>Medicament is a product which affects your health and its consumption contrary to instructions is dangerous for you.</li>
+				<li>Follow strictly the doctor&rsquo;s prescription, the method of use and the instructions of the Pharmacist who sold the medicament.</li>
+				<li>The doctor and the Pharmacist are experts in medicines, their benefits and risks.</li>
+				<li>Do not by yourself interrupt the period of treatment prescribed.</li>
+				<li>Do not repeat the same prescription without consulting your doctor.</li>
+			</ul>
+			<p>Keep all medicaments out of reach and sight of children</p>
+			<p>Council of Arab Health Ministers</p>
+			<p>Union of Arabic Pharmacists</p>
+			</td>
+		</tr>
+	</tbody>
+</table>  
   </div>"""
