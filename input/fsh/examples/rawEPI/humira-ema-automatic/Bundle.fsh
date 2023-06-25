@@ -5,6 +5,7 @@ Title: "ePI document Bundle for humira Package Leaflet"
 Description: "Bundle for humira Package Leaflet ePI document"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "nan"
 * type = #document

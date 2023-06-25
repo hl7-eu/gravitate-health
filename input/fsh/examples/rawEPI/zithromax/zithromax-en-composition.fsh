@@ -12,9 +12,9 @@ Usage: #inline
 * type = https://www.jfda.jo/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(zi5fb1761a0a38bea0a9b49f146371c68b)
+* subject = Reference(zi5fb1761a0a38bea0a9b49f146371c68b) //Medicinal Product
 * date = "2023-06-20T13:28:17Z"
-* author = Reference(org-1134a7374c78f1d40f41885344f06a5a)
+* author = Reference(org-1134a7374c78f1d40f41885344f06a5a) //Organization
 
 * title = "TEST PURPOSES ONLY - Zithromax (azithromycin) 250 mg capsules"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

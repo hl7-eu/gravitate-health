@@ -5,6 +5,7 @@ Title: "ePI document Bundle for xenical Package Leaflet"
 Description: "Bundle for xenical Package Leaflet ePI document"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/98/071/004 "
 * type = #document

@@ -5,6 +5,7 @@ Title: "ePI document Bundle for zithromax (azithromycin) 250 mg capsules - Jorda
 Description: "Bundle for zithromax (azithromycin) 250 mg capsules - Jordanian Package Leaflet"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.jfda.jo" 
 * identifier.value = "placeholder"
 * type = #document

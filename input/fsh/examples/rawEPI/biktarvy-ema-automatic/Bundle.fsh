@@ -5,6 +5,7 @@ Title: "ePI document Bundle for biktarvy Package Leaflet"
 Description: "Bundle for biktarvy Package Leaflet ePI document"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/18/1289/001"
 * type = #document

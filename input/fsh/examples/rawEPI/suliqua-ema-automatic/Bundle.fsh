@@ -5,6 +5,7 @@ Title: "ePI document Bundle for Suliqua 100 units/ml + 50 micrograms/ml solution
 Description: "Bundle for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen Package Leaflet ePI document"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/16/1157/003"
 * type = #document

@@ -5,6 +5,7 @@ Title: "ePI document Bundle for acmedrug Package Leaflet"
 Description: "Bundle for acmedrug Package Leaflet ePI document"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "acmedrug-xx"
 * type = #document

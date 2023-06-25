@@ -5,6 +5,7 @@ Title: "ePI document Bundle for skilarence Package Leaflet"
 Description: "Bundle for skilarence Package Leaflet ePI document"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/17/1201/002"
 * type = #document
