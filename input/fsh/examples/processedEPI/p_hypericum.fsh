@@ -368,6 +368,7 @@ Title: "[Preprocessed] ePI document for HIPÉRICO ARKOPHARMA cápsulas duras Pac
 Description: "[Preprocessed] Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet ePI document"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/97/049/001"
 * type = #document

@@ -671,6 +671,7 @@ Title: "[Enhanced-Alicia] ePI document for Dovato 50 mg/300 mg tablets Package L
 Description: "[Enhanced-Alicia] Bundle for Dovato 50 mg/300 mg tablets Package Leaflet ePI document EN"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/97/049/001"
 * type = #document
@@ -779,6 +780,7 @@ Title: "[Enhanced-Alicia] ePI document for Dovato 50 mg/300 mg tablets Package L
 Description: "[Enhanced-Alicia] Bundle for Dovato 50 mg/300 mg tablets Package Leaflet ePI document ES"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/97/049/001"
 * type = #document

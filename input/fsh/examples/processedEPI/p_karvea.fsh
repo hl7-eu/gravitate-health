@@ -580,6 +580,7 @@ Title: "[Preprocessed] ePI document Bundle for Karvea 75 mg Package Leaflet"
 Description: "[Preprocessed] Bundle for Karvea 75 mg Package Leaflet ePI document"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/97/049/001"
 * type = #document

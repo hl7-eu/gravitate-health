@@ -6,6 +6,7 @@ Description:  "Composition for Karvea Package Leaflet - Enhanced"
 Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
+* language = #en
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4f"
 
@@ -530,6 +531,7 @@ Title: "[Enhanced-Alicia] ePI document for Karvea 75 mg Package Leaflet"
 Description: "[Enhanced-Alicia] Bundle for Karvea 75 mg Package Leaflet ePI document"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/97/049/001"
 * type = #document

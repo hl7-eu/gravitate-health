@@ -468,6 +468,7 @@ Title: "[Enhanced-Pedro] ePI document for Biktarvy 50 mg/200 mg/25 mg film-coate
 Description: "[Enhanced-Pedro] Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/97/049/001"
 * type = #document
