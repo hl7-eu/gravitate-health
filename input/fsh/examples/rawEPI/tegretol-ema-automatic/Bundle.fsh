@@ -5,6 +5,7 @@ Title: "ePI document Bundle for tegretol Package Leaflet"
 Description: "Bundle for tegretol Package Leaflet ePI document"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "39.955"
 * type = #document

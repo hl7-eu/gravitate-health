@@ -469,6 +469,7 @@ Title: "[Enhanced-Alicia] ePI document for Biktarvy 50 mg/200 mg/25 mg film-coat
 Description: "[Enhanced-Alicia] Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/97/049/001"
 * type = #document

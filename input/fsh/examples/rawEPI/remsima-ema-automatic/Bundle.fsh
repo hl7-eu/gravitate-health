@@ -5,6 +5,7 @@ Title: "ePI document Bundle for remsima Package Leaflet"
 Description: "Bundle for remsima Package Leaflet ePI document"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/13/853/001"
 * type = #document

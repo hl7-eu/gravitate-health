@@ -5,6 +5,7 @@ Title: "ePI document Bundle for dolocatil Package Leaflet"
 Description: "Bundle for dolocatil Package Leaflet ePI document"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/96/007/035"
 * type = #document

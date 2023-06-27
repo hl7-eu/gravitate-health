@@ -338,6 +338,7 @@ Title: "[Enhanced-Alicia] ePI document for CALCIO/VITAMINA D3 ROVI 1000 mg/880 U
 Description: "[Enhanced-Alicia] Bundle for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet ePI document"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/97/049/001"
 * type = #document

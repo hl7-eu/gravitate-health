@@ -207,6 +207,7 @@ Title: "[Enhanced-Pedro] ePI document for Flucelvax Package Leaflet"
 Description: "[Enhanced-Pedro] Bundle for Flucelvax Package Leaflet ePI document"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/97/049/001"
 * type = #document

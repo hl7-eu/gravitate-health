@@ -5,6 +5,7 @@ Title: "ePI document Bundle for dovato Package Leaflet"
 Description: "Bundle for dovato Package Leaflet ePI document"
 Usage: #example
 
+* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/19/1370/001"
 * type = #document

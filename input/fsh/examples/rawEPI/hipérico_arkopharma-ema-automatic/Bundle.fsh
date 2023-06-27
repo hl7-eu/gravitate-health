@@ -5,6 +5,7 @@ Title: "ePI document Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Lea
 Description: "Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet ePI document"
 Usage: #example
 
+* language = #es
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "xx"
 * type = #document
