@@ -25,7 +25,7 @@ Description: "{{ row["name"]  }}"
 Usage: #example
 
 * identifier.system = $ginas
-* identifier.value = "{{ row["identifier"]  }}"
+* identifier.value = "{{ row["identifier"]|trim  }}"
 * identifier.use = #official
 
 * role = $spor-rms#{{ row["roleID"]  }} "{{ row["role"]  }}"

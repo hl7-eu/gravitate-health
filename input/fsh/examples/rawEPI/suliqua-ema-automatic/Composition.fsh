@@ -3,10 +3,12 @@ Instance: compositionb4adca48035e7857c0e645892ad2c66e
 InstanceOf: CompositionUvEpi
 Title: "Composition for Suliqua Package Leaflet"
 Description:  "Composition for Suliqua Package Leaflet"
-Usage: #inline
+Usage: #example
 
-* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
-* identifier[=].value = "EU/1/16/1157/002"
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
+
+
+* identifier.value = "8233589eec8bc66272e5bbb8838726ca"
 
 * status = #final
 
@@ -19,7 +21,7 @@ Usage: #inline
 
 * subject = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-ff74c5498eb163c2fb470e9fd175a0c1)
+* author = Reference(org-16019cea3a857659d2c5a2018c2260df)
 
 * title = "TEST PURPOSES ONLY - Suliqua"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

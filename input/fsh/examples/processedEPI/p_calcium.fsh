@@ -23,25 +23,25 @@ Usage: #inline
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #es
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "pregnancyCategory"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#77386006 "Pregnancy"
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "pregnancyCategory"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = https://icpc2.icd.com/#W78 "Pregnancy"
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "breastfeedingCategory"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#69840006 "Normal breast feeding (finding)"
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "liver"
 * extension[=].extension[+].url = "concept"
@@ -341,6 +341,7 @@ Usage: #example
 * identifier.value = "EU/1/97/049/001"
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
+* language = #es
 
 // Composition
 * entry[0].fullUrl = "Composition/processed-composition02e928f15b7b861b4b44915d9f1330ec"

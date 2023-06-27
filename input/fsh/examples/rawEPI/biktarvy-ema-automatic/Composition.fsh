@@ -3,10 +3,12 @@ Instance: composition1846d2b12fecbbb0310cd8c196c98a58
 InstanceOf: CompositionUvEpi
 Title: "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
 Description:  "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
-Usage: #inline
+Usage: #example
 
-* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
-* identifier[=].value = "EU/1/18/1289/001" 
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
+
+
+* identifier.value = "b22ec2e7263c64ba0d74e2718a1857dc"
 
 * status = #final
 
@@ -19,7 +21,7 @@ Usage: #inline
 
 * subject = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-1133a7374c78f1d40f41885344f06a5a)
+* author = Reference(org-715f8a161ed438d0584510e5b4512caa)
 
 * title = "TEST PURPOSES ONLY - Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

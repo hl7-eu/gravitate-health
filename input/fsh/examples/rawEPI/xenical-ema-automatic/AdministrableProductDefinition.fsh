@@ -6,7 +6,7 @@ Description: "Xenical 120mg hard capsules"
 Usage: #example
 
 * identifier.system = $phpid
-* identifier.value = "EU/1/98/071/004 " 
+* identifier.value = "EU/1/98/071/004" 
 
 * status = #active
 

@@ -8,7 +8,7 @@ Description: "{{row['name']}}"
 Usage: #example
 
 * identifier.system = $phpid
-* identifier.value = "{{row['identifier']}}" 
+* identifier.value = "{{row['identifier']|trim}}" 
 
 * status = #{{row['status']}}
 

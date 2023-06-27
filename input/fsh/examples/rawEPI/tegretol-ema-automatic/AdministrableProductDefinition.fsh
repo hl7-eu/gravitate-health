@@ -6,7 +6,7 @@ Description: "Tegretol 200 mg tablets"
 Usage: #example
 
 * identifier.system = $phpid
-* identifier.value = "EU/1/98/071/004 " 
+* identifier.value = "EU/1/98/071/004" 
 
 * status = #active
 

@@ -3,10 +3,12 @@ Instance: composition45f3604d61f93f5f026bea5d5824af10
 InstanceOf: CompositionUvEpi
 Title: "Composition for Humalog Package Leaflet"
 Description:  "Composition for Humalog Package Leaflet"
-Usage: #inline
+Usage: #example
 
-* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
-* identifier[=].value = "EU/1/96/007/035" 
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
+
+
+* identifier.value = "67ff4522ed913c691ffda86f38ef0f4f"
 
 * status = #final
 

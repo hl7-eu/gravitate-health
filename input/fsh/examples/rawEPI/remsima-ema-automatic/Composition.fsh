@@ -3,10 +3,12 @@ Instance: compositionbe76bdf784deea6950583b234f789db2
 InstanceOf: CompositionUvEpi
 Title: "Composition for Remsima 100 mg powder for concentrate for solution for infusion Package Leaflet"
 Description:  "Composition for Remsima 100 mg powder for concentrate for solution for infusion Package Leaflet"
-Usage: #inline
+Usage: #example
 
-* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
-* identifier[=].value = "EU/1/13/853/001" 
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
+
+
+* identifier.value = "00c7ed1895dfbadd44fa4ec19f02fe0e"
 
 * status = #final
 
@@ -19,7 +21,7 @@ Usage: #inline
 
 * subject = Reference(mpbe76bdf784deea6950583b234f789db2)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-e3da03c458d6c0f3c5f1c39a2c6a1084)
+* author = Reference(org-3c850a69e5187931f2198c5e63f933fe)
 
 * title = "TEST PURPOSES ONLY - Remsima 100 mg powder for concentrate for solution for infusion"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

@@ -3,7 +3,7 @@ Instance: authorizationa9517814b36bf7381b0a946a09cda2e4
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Suliqua 100 units/ml + 50 microgram/ml solution for injection in a pre-filled pen"
 Description: "Regulated Authorization for Suliqua 100 units/ml + 50 microgram/ml solution for injection in a pre-filled pen"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/16/1157/002"

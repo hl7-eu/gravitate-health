@@ -8,7 +8,7 @@ Description: "{{ row["name"] }}"
 Usage: #example
 
 * identifier.system = $spor-prod
-* identifier.value = "{{ row["identifier"] }}"
+* identifier.value = "{{ row["identifier"]|trim }}"
 * identifier.use = #official
 
 * name = "{{ row["name"] }}"
@@ -20,9 +20,14 @@ Usage: #example
 * status = http://hl7.org/fhir/publication-status#active "Active"
 * statusDate = "{{ row["statusDate"]}}"
 
-{% if row["quantity"]|string !="nan"  %}
+{% if row["quantity"].split(' ')[1]|string in ["tablet","tablets","vial","capsules"]  %}
+* containedItemQuantity = {{ row["quantity"].split(' ')[0] }} '{{ '{' }}{{ row["quantity"].split(' ')[1] }}{{ '}' }}'
+
+{% elif row["quantity"]|string !="nan" %}
 
 * containedItemQuantity = {{ row["quantity"].split(' ')[0] }} '{{ row["quantity"].split(' ')[1] }}'
+
+
 {% endif %}
 
 {{ "* description = \"{}\"".format(row.description) if row.description|string !="nan"}}

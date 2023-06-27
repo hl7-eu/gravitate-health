@@ -8,6 +8,7 @@ import re
 from datetime import datetime
 from validator import pre_validation
 import hashlib
+from html import unescape
 
 context = {"now": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")}
 
@@ -32,6 +33,21 @@ OUTPUT_FOLDER = sys.argv[3]
 
 env = Environment(loader=FileSystemLoader(TEMPLATE_FOLDER), trim_blocks=True)
 env.filters["regex_replace"] = regex_replace
+
+
+def html_unescape(s):
+    return (
+        s.replace("&nbsp;", "")
+        .replace("<br>", "")
+        .replace("&oacute;", "ó")
+        .replace("&aacute;", "á")
+        .replace("&eacute;", "é")
+        .replace("&iacute;", "í")
+        .replace("&ntilde;", "ñ")
+    )
+
+
+env.filters["html_unescape"] = html_unescape
 
 
 def hash_id(string):

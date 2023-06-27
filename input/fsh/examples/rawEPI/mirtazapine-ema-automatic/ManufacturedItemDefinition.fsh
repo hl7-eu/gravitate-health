@@ -3,7 +3,7 @@ Instance: mid-e762a2f54b0b24fca4744b1bb7524a5b
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Title: "Manufactured item MIRTAZAPINA CINFA 30 mg Coated Tablet"
 Description: "MIRTAZAPINA CINFA 30 mg Coated Tablet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "x"

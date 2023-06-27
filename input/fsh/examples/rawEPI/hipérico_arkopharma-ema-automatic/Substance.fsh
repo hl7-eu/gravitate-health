@@ -2,7 +2,7 @@
 Instance: substance-hypericumperforatumwhole
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "HYPERICUM PERFORATUM WHOLE"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "XK4IUX8MNB"

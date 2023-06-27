@@ -7,7 +7,7 @@ Description: "{{ row["name"] }}"
 Usage: #example
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
-* identifier.value = "{{ row["identifier"] }}"
+* identifier.value = "{{ row["identifier"]|trim }}"
 * identifier.use = #official
 
 * version = "{{ row["version"] }}"

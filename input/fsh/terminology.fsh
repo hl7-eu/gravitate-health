@@ -6,7 +6,7 @@ Title:     "Questionnaire example Dimensions"
 Description:  "Questionnaire example Dimensions"
 
 
-* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/questi-dimens-cs
+//* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/questi-dimens-cs
 * #None
     "None"
     "None"
@@ -79,7 +79,7 @@ Description:  "Persona Vector Dimensions categories"
 
 
 
-* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-category-cs
+//* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-category-cs
 
 
 
@@ -92,7 +92,7 @@ CodeSystem: PDtypeCS
 Id:         pd-type-cs
 Title:     "Persona Vector Dimensions Code"
 Description:  "Persona Vector Dimensions Code"
-* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs
+//* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs
 
 * #EMP
     "employment"
@@ -134,7 +134,7 @@ Title:     "Category of EPI"
 Description: "Category of EPI"
 
 
-* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs
+//* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs
 * #R
     "Raw"
     "Raw"
@@ -159,7 +159,7 @@ Id:         icpc-2-cs
 Title:     "Example ICPC2 CS"
 Description: "Example ICPC2 CS"
 
-* ^url =  http://gravitate.eu/CodeSystem/icpc-2
+//* ^url =  http://gravitate.eu/CodeSystem/icpc-2
 // Spacing layout over three lines per term is optional, for clarity
 // The definition (second text string) is optional
 * #B90

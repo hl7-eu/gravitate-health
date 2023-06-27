@@ -3,7 +3,7 @@ Instance: authorization49178f16170ee8a6bc2a4361c1748d5f
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Dovato 50 mg/300 mg film-coated tablets"
 Description: "Regulated Authorization for Dovato 50 mg/300 mg film-coated tablets"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/19/1370/001"
@@ -17,7 +17,7 @@ Usage: #inline
 //* type = $spor-rms#100000072062
 //* type.text = "Marketing Authorisation"
 
-* region =  urn:iso:std:iso:3166#GBR "United Kingdom"
+* region = urn:iso:std:iso:3166#GBR "United Kingdom"
 
 
 * status = http://hl7.org/fhir/publication-status#active "Active"
@@ -30,7 +30,7 @@ Usage: #inline
  
 
 
-* holder = Reference(org-31ff1af739c7dcf77386a86f8dd83d29)
+* holder = Reference(org-173fde4cb6b1018cb7ec8ab708d3961c)
 
 
  

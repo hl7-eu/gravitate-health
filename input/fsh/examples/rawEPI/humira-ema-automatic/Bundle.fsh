@@ -8,7 +8,9 @@ Usage: #example
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "nan"
 * type = #document
-* timestamp = "2023-04-25T11:55:27Z"
+//* timestamp = "2023-06-27T16:20:41Z"
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
 
 // Composition
 * entry[0].fullUrl = "Composition/composition3a3583227b4c5b0887f1e0d38269b469"
@@ -81,8 +83,8 @@ Usage: #example
 
 // RegulatedAuthorization
 
-* entry[+].fullUrl = "RegulatedAuthorization/authorization816b7da4abc60b3e9ae3b37146463f8a"
-* entry[=].resource = authorization816b7da4abc60b3e9ae3b37146463f8a 
+* entry[+].fullUrl = "RegulatedAuthorization/authorization10d33efea61c4345dfc56683a4e61e97"
+* entry[=].resource = authorization10d33efea61c4345dfc56683a4e61e97 
  
 
 // Organization

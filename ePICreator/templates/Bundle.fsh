@@ -8,10 +8,12 @@ Description: "Bundle for {{row["name"]}} Package Leaflet ePI document"
 Usage: #example
 
 * identifier.system = "{{row['identifier_system']}}" 
-* identifier.value = "{{row["identifier_value"]}}"
+* identifier.value = "{{row["identifier_value"]|trim}}"
 * type = #document
-* timestamp = "{{ now }}"
+//* timestamp = "{{ now }}"
+* timestamp = "2023-06-27T10:09:22Z"
 {% if data["turn"] != "1" %}
+* language = #en
 
 // Composition
 * entry[0].fullUrl = "Composition/{{data["references"]["Composition"][0][1]}}"

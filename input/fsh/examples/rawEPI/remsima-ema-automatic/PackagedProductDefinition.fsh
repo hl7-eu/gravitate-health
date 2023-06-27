@@ -3,7 +3,7 @@ Instance: ppd-e3e5e78d4e002ed9e15b925cd546e20b
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Remsima 100 mg powder for concentrate for solution for infusion"
 Description: "Remsima 100 mg powder for concentrate for solution for infusion"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/13/853/001"
@@ -18,8 +18,8 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "Active"
 * statusDate = "2012-02-07T13:28:17Z"
 
+* containedItemQuantity = 1 '{vial}'
 
-* containedItemQuantity = 1 'vial'
 
 
 

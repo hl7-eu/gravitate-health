@@ -7,7 +7,7 @@ Instance: org-45fe50eae508b5755dd140ab2093eb5e
 InstanceOf: OrganizationUvEpi
 Title: "Seqirus Netherlands B.V. as Marketing authorisation holder"
 Description: "Seqirus Netherlands B.V. as Marketing authorisation holder"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100013715"
@@ -21,7 +21,9 @@ Usage: #inline
 
 * contact
   * address
-    * text = "Paasheuvelweg 28 1105BJ Amsterdam Netherlands"
+    * text = "Paasheuvelweg 28
+ 1105BJ Amsterdam
+ Netherlands"
     * use = #work
     * type = #physical
     * line = "Paasheuvelweg 28"

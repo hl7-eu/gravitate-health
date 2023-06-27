@@ -6,7 +6,7 @@ Description: "Xenical 120mg hard capsules 12 capsules"
 Usage: #example
 
 * identifier.system = $spor-prod
-* identifier.value = "EU/1/98/071/004 "
+* identifier.value = "EU/1/98/071/004"
 * identifier.use = #official
 
 * name = "Xenical 120mg hard capsules 12 capsules"
@@ -18,8 +18,8 @@ Usage: #example
 * status = http://hl7.org/fhir/publication-status#active "Active"
 * statusDate = "2012-02-07T13:28:17Z"
 
+* containedItemQuantity = 16 '{capsules}'
 
-* containedItemQuantity = 16 'capsules'
 
 
 

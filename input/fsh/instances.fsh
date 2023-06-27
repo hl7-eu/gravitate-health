@@ -48,7 +48,7 @@ Usage: #inline
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding[0] = http://hl7.org/fhir/sid/icd-10#E109
 * extension[=].extension[=].valueCodeableReference.concept.coding[+] = http://snomed.info/sct#46635009
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[0].url = "elementClass"
 * extension[=].extension[=].valueString = "theConcept2"
 * extension[=].extension[+].url = "concept"
@@ -144,7 +144,7 @@ Usage: #inline
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding[0] = http://hl7.org/fhir/sid/icd-10#E109
 * extension[=].extension[=].valueCodeableReference.concept.coding[+] = http://snomed.info/sct#46635009
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[0].url = "elementClass"
 * extension[=].extension[=].valueString = "theConcept2"
 * extension[=].extension[+].url = "concept"

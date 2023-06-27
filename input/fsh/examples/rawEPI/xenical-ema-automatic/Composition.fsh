@@ -5,9 +5,9 @@ Title: "Composition for Xenical 120mg hard capsules 12 capsules Package Leaflet"
 Description:  "Composition for Xenical 120mg hard capsules 12 capsules Package Leaflet"
 Usage: #example
 
-* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
-* identifier[=].value = "EU/1/98/071/004" 
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
+* identifier.value = "EU/1/13/853/001"
 * status = #final
 
 

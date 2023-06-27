@@ -14,7 +14,7 @@ Description: "{{row['type']}} - {{row['name']}}"
 Usage: #example
 
 * identifier.system = "{{row['identifier_system']}}"
-* identifier.value = "{{row['identifier']}}"
+* identifier.value = "{{row['identifier']|trim}}"
 * identifier.use = #official
 
 * type = #{{row['type']}}

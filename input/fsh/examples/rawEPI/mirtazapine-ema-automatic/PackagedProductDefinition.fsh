@@ -3,7 +3,7 @@ Instance: ppd-0c848f16e413619f64703ded9343d866
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "MIRTAZAPINA CINFA 30 mg Coated Tablet, 30 tablets"
 Description: "MIRTAZAPINA CINFA 30 mg Coated Tablet, 30 tablets"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "nan"
@@ -20,6 +20,8 @@ Usage: #inline
 
 
 * containedItemQuantity = 30 'mg'
+
+
 
 
 

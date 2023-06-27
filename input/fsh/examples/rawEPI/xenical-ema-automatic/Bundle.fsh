@@ -6,9 +6,11 @@ Description: "Bundle for xenical Package Leaflet ePI document"
 Usage: #example
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "EU/1/98/071/004 "
+* identifier.value = "EU/1/98/071/004"
 * type = #document
-* timestamp = "2023-05-24T09:54:02Z"
+//* timestamp = "2023-06-27T16:20:41Z"
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
 
 // Composition
 * entry[0].fullUrl = "Composition/composition896c7badf9740db2053855cd4e4d6666"

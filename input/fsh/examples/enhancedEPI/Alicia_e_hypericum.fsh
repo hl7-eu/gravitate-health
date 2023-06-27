@@ -25,7 +25,7 @@ Usage: #inline
 * language = #es
 
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "pregnancyCategory"
 * extension[=].extension[+].url = "concept"
@@ -368,6 +368,7 @@ Usage: #example
 * identifier.value = "EU/1/97/049/001"
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
+* language = #en
 
 // Composition
 * entry[0].fullUrl = "Composition/enhanced-compositionaf8d2f6e4772c29a8ef9fbb165e80d28"

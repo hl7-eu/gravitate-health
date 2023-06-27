@@ -3,10 +3,12 @@ Instance: composition16598f252d07b4784b82ba43cf9e847e
 InstanceOf: CompositionUvEpi
 Title: "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
 Description:  "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
-Usage: #inline
+Usage: #example
 
-* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
-* identifier[=].value = "EU/1/19/1370/001" 
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
+
+
+* identifier.value = "c90d140de2d4ddf3b2a2617fc2fc996c"
 
 * status = #final
 
@@ -19,7 +21,7 @@ Usage: #inline
 
 * subject = Reference(mp16598f252d07b4784b82ba43cf9e847e)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-7c9b97127f73ff3605a10eb1c2cc24d1)
+* author = Reference(org-173fde4cb6b1018cb7ec8ab708d3961c)
 
 * title = "TEST PURPOSES ONLY - Dovato 50 mg/300 mg film-coated tablets"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
@@ -434,10 +436,12 @@ Instance: compositione722f6782d3f34f86982e14386c8811d
 InstanceOf: CompositionUvEpi
 Title: "Composition for Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet"
 Description:  "Composition for Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "yy"
+
+
+* identifier.value = "a504f852006fe446066998cc996c2e40"
 
 * status = #final
 

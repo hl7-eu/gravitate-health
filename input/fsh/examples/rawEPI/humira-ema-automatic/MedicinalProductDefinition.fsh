@@ -39,7 +39,7 @@ Usage: #example
     * type.text = "Scientific name part"
   
   * part[+]
-    * part = "20 mg"
+    * part = "40 mg"
     * type = $spor-productNamePartType-cs#220000000004
     * type.text = "Strength part"
   

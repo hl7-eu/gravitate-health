@@ -6,7 +6,7 @@ Description: "Xenical 120mg hard capsules"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
-* identifier.value = "EU/1/98/071/004 "
+* identifier.value = "EU/1/98/071/004"
 * identifier.use = #official
 
 * status = #active

@@ -17,7 +17,7 @@ Description: "{{ row["name"]  }} as {{ row["type"]  }}"
 Usage: #example
 
 * identifier.system = $spor-org
-* identifier.value = "{{ row["identifier"]  }}"
+* identifier.value = "{{ row["identifier"]|trim }}"
 * identifier.use = #official
 
 * active = {{ row["active"]|lower  }}

@@ -12,6 +12,7 @@ Usage: #inline
 * identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4f"
 
 * status = #final
+* language = #en
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
@@ -24,26 +25,26 @@ Usage: #inline
 
 * title = "TEST PURPOSES ONLY - Karvea"
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "pregnancyCategory"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#77386006 "Pregnancy"
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "breastfeedingCategory"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#69840006 "Normal breast feeding (finding)"
 
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "indication"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.reference = Reference(cud-585e364c14debe29f6c6b564138aa400)
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "contraindication"
 * extension[=].extension[+].url = "concept"
@@ -51,26 +52,26 @@ Usage: #inline
 
 
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "contra-indication-pregancy"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.reference = Reference(contraindication-pregancy)
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "contra-indication-kidney"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.reference = Reference(contraindication-kidney)
 
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "contra-indication-diabetes-mellitus"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.reference = Reference(contraindication-diabetes-mellitus)
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "lactose"
 * extension[=].extension[+].url = "concept"
@@ -565,6 +566,7 @@ Usage: #example
 * identifier.value = "EU/1/97/049/001"
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
+* language = #en
 
 // Composition
 * entry[0].fullUrl = "Composition/Focused-compositionf4d45353edcb21af3718d3a0df94a4d8"

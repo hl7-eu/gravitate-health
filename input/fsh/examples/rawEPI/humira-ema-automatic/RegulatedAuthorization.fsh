@@ -1,9 +1,9 @@
 
-Instance: authorization816b7da4abc60b3e9ae3b37146463f8a
+Instance: authorization10d33efea61c4345dfc56683a4e61e97
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe"
-Description: "Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe"
-Usage: #inline
+Title: "Regulated Authorization for Humira 40 mg solution for injection in pre-filled syringe"
+Description: "Regulated Authorization for Humira 40 mg solution for injection in pre-filled syringe"
+Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/03/256/022"
@@ -17,7 +17,7 @@ Usage: #inline
 //* type = $spor-rms#100000072062
 //* type.text = "Marketing Authorisation"
 
-* region =  urn:iso:std:iso:3166#GBR "United Kingdom"
+* region = urn:iso:std:iso:3166#GBR "United Kingdom"
 
 
 * status = http://hl7.org/fhir/publication-status#active "Active"

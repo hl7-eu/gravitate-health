@@ -8,7 +8,7 @@ Description: "{{ row["name"] }}"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
-* identifier.value = "{{ row["identifier"] }}"
+* identifier.value = "{{ row["identifier"]|trim }}"
 * identifier.use = #official
 
 * status = #{{ row["status"] }}

@@ -3,7 +3,7 @@ Instance: ppd-8c4132a54faf3c7e493f1831dcb0425d
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "3 ml cartridge (glass) in a pre-filled pen"
 Description: "3 ml cartridge (glass) in a pre-filled pen"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/16/1157/002"
@@ -21,6 +21,8 @@ Usage: #inline
 
 * containedItemQuantity = 3 'ml'
 
+
+
 * description = "Type I colourless glass cartridge with a black plunger (bromobutyl rubber) and a flanged cap (aluminium) with inserted laminated sealing disks (bromobutyl rubber on the medicinal product side and polyisoprene on the outside) containing 3 ml of solution. Each cartridge is assembled into a disposable pen."
 * copackagedIndicator = false
 
@@ -37,4 +39,4 @@ Usage: #inline
 //reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 * packageFor = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
  // Reference to Organization: MAH
-* manufacturer = Reference(org-b9c6316075799071b2706c402f9fa388)
+* manufacturer = Reference(org-16019cea3a857659d2c5a2018c2260df)

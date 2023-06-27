@@ -18,8 +18,8 @@ Usage: #example
 * status = http://hl7.org/fhir/publication-status#active "Active"
 * statusDate = "2012-02-07T13:28:17Z"
 
+* containedItemQuantity = 50 '{tablets}'
 
-* containedItemQuantity = 50 'tablets'
 
 
 

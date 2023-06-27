@@ -36,7 +36,7 @@ Instance: org-e3da03c458d6c0f3c5f1c39a2c6a1084
 InstanceOf: OrganizationUvEpi
 Title: "European Medicines Agency as Medicines Regulatory Authority"
 Description: "European Medicines Agency as Medicines Regulatory Authority"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100013412"

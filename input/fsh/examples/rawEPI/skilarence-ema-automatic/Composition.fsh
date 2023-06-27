@@ -6,7 +6,9 @@ Description:  "Composition for skilarence Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "0d69fdcb-33cf-407f-8209-a6529856adf"
+
+
+* identifier.value = "b8d5ac467d953d2a9e5deb29f98ba14a"
 
 * status = #final
 

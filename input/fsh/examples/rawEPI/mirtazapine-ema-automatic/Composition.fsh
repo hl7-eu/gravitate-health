@@ -3,10 +3,12 @@ Instance: composition7a7ff0f4e1993c2fdabba6c8d9931a52
 InstanceOf: CompositionUvEpi
 Title: "Composition for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet"
 Description:  "Composition for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet"
-Usage: #inline
+Usage: #example
 
-* identifier[+].system = "https://cima.aemps.es/ids"
-* identifier[=].value = "67.068" 
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
+
+
+* identifier.value = "21c15cbfff3522085d2493e5acc90334"
 
 * status = #final
 

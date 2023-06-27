@@ -9,7 +9,7 @@ Instance: ingredient-for-humalog-glycerol
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Glycerol"
 Description: "Glycerol"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $ginas
 * identifier.value = "PDC6A3C0OX"
@@ -34,7 +34,7 @@ Usage: #inline
  
 
 
-* manufacturer.manufacturer = Reference(org-6f4987de7be1bbfa4ee92c07de7e94d4)
+* manufacturer.manufacturer = Reference(org-3fdc76794516d7826890ab9f893e99c1)
 
 
 
@@ -46,7 +46,7 @@ Instance: ingredient-for-humalog-hydrochloricacid
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Hydrochloric acid"
 Description: "Hydrochloric acid"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $ginas
 * identifier.value = "QTT17582CB"
@@ -83,7 +83,7 @@ Instance: ingredient-for-humalog-sodiumhydroxide
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Sodium Hydroxide"
 Description: "Sodium Hydroxide"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $ginas
 * identifier.value = "55X04QC32I"
@@ -120,7 +120,7 @@ Instance: ingredient-for-humalog-sterilewaterforinjection
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient STERILE WATER FOR INJECTION"
 Description: "STERILE WATER FOR INJECTION"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $ginas
 * identifier.value = "059QF0KO0R"
@@ -157,7 +157,7 @@ Instance: ingredient-for-humalog-insulinlispro
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Insulin Lispro"
 Description: "Insulin Lispro"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $ginas
 * identifier.value = "GFX7QIS1II"
@@ -198,7 +198,7 @@ Instance: ingredient-for-humalog-zincoxide
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Zinc Oxide"
 Description: "Zinc Oxide"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $ginas
 * identifier.value = "SOI2LOH54Z"
@@ -235,7 +235,7 @@ Instance: ingredient-for-humalog-metacresol
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Metacresol"
 Description: "Metacresol"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $ginas
 * identifier.value = "GGO4Y809LO"
@@ -272,7 +272,7 @@ Instance: ingredient-for-humalog-trometamol
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Trometamol"
 Description: "Trometamol"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $ginas
 * identifier.value = "023C2WHX2V"

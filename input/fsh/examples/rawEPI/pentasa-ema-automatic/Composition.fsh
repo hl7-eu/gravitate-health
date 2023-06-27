@@ -3,10 +3,12 @@ Instance: compositionb3a8d58c709a2281d8ad2a590fe81663
 InstanceOf: CompositionUvEpi
 Title: "Composition for Pentasa Slow Release Tablets 1g Package Leaflet"
 Description:  "Composition for Pentasa Slow Release Tablets 1g Package Leaflet"
-Usage: #inline
+Usage: #example
 
-* identifier[+].system = "https://cima.aemps.es/ids"
-* identifier[=].value = "77022" 
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
+
+
+* identifier.value = "5cb2d91401c7ada1c8aaab5577ca247d"
 
 * status = #final
 

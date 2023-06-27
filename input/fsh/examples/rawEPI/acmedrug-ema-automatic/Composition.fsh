@@ -6,7 +6,9 @@ Description:  "Composition for acmedrug Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4f"
+
+
+* identifier.value = "6e664efcceb2862d17918746c3383055"
 
 * status = #final
 

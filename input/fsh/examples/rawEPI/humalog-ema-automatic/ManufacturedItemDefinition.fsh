@@ -3,7 +3,7 @@ Instance: mid-a38f06714db0c27b2ba704652e3f08c5
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Title: "Manufactured item Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill"
 Description: "Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/96/007/035"
@@ -22,4 +22,4 @@ Usage: #inline
  
 
 
-* manufacturer = Reference(org-e3ef26dd2c7a0847d92d3bb1a64855b9)
+* manufacturer = Reference(org-3fdc76794516d7826890ab9f893e99c1)

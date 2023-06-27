@@ -5,11 +5,10 @@ Title: "Manufactured item Flucelvax Tetra - suspension for injection in pre-fill
 Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 Description: "Flucelvax Tetra - suspension for injection in pre-filled syringe
 Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
-* identifier.value = "EU/1/18/1326/001
-"
+* identifier.value = "EU/1/18/1326/001"
 * identifier.use = #official
 
 * status = #active

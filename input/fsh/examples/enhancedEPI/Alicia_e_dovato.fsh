@@ -24,32 +24,32 @@ Usage: #inline
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "pregnancyCategory"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#77386006 "Pregnancy"
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "indication"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = https://icpc2.icd.com/#B90 "HIV-infection/AIDS"
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "breastfeedingCategory"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#69840006 "Normal breast feeding (finding)"
 
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "liver"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = https://icpc2.icd.com/#D97 "Liver disease, other"
 
-* extension[+].url = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "contra-indication-hypericum"
 * extension[=].extension[+].url = "concept"
@@ -675,6 +675,7 @@ Usage: #example
 * identifier.value = "EU/1/97/049/001"
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
+* language = #es
 
 // Composition
 * entry[0].fullUrl = "Composition/enhanced-composition16598f252d07b4784b82ba43cf9e847e"
@@ -783,6 +784,7 @@ Usage: #example
 * identifier.value = "EU/1/97/049/001"
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
+* language = #en
 
 // Composition
 * entry[0].fullUrl = "Composition/compositione722f6782d3f34f86982e14386c8811dgg"

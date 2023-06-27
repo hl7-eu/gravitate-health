@@ -3,10 +3,12 @@ Instance: compositionaf8224f8c853d17daf5ea6782cb5a097
 InstanceOf: CompositionUvEpi
 Title: "Composition for cinitrapide Package Leaflet"
 Description:  "Composition for cinitrapide Package Leaflet"
-Usage: #inline
+Usage: #example
 
-* identifier[+].system = "https:://cima.aemps.es/ids"
-* identifier[=].value = "59.032" 
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
+
+
+* identifier.value = "8a63d6c3161134d9bf4502a1a8cdfe50"
 
 * status = #final
 

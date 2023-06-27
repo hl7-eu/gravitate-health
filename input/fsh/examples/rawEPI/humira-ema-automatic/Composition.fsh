@@ -3,10 +3,12 @@ Instance: composition3a3583227b4c5b0887f1e0d38269b469
 InstanceOf: CompositionUvEpi
 Title: "Composition for humira Package Leaflet"
 Description:  "Composition for humira Package Leaflet"
-Usage: #inline
+Usage: #example
 
-* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
-* identifier[=].value = "EU/1/03/256/022" 
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
+
+
+* identifier.value = "2bf0305e7e731bc6f0a8a3ae804fb03a"
 
 * status = #final
 

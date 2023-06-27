@@ -3,10 +3,12 @@ Instance: compositione8bd725f64067aeae7994e2b56cd79c9
 InstanceOf: CompositionUvEpi
 Title: "Composition for Flucelvax Package Leaflet"
 Description:  "Composition for Flucelvax Package Leaflet"
-Usage: #inline
+Usage: #example
 
-* identifier.system = "https://spor.ema.europa.eu/pmswi"
-* identifier.value = "EU/1/18/1326/001"
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
+
+
+* identifier.value = "163dd4e7fa7eed938c8bb01cecedf887"
 
 * status = #final
 
@@ -216,5 +218,5 @@ which the influenza virus is grown); </p>
 <p>This vaccine complies with the World Health Organisation (WHO) recommendation (northern hemisphere) and EU recommendation for the 2022/2023 SEASON.</p>
 <p>The other ingredients are: sodium chloride, potassium chloride, magnesium chloride hexahydrate, disodium phosphate dihydrate, potassium dihydrogen phosphate and water for injections.</p>
 <p><strong>What Flucelvax Tetra looks like and contents of the pack</strong></p>
-<p>Flucelvax Tetra is a suspension for injection in a pre-filled syringe (ready to use syringe).</p><p>Flucelvax Tetra is a clear to slightly opalescent suspension. A single syringe contains 0.5 ml of suspension for injection. Flucelvax Tetra is available in packs containing 1 pre-filled syringe with or without needle or 10 pre- filled syringes with or without needles.</p><p>Not all pack sizes may be marketed.  </p>         </div>"""      
+<p>Flucelvax Tetra is a suspension for injection in a pre-filled syringe (ready to use syringe).</p><p>Flucelvax Tetra is a clear to slightly opalescent suspension.A single syringe contains 0.5 ml of suspension for injection.Flucelvax Tetra is available in packs containing 1 pre-filled syringe with or without needle or 10 pre- filled syringes with or without needles.</p><p>Not all pack sizes may be marketed.  </p>         </div>"""      
 

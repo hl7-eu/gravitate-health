@@ -8,7 +8,7 @@ Description: "Regulated Authorization for {{ row["name"] }}"
 Usage: #example
 
 * identifier.system = $spor-prod
-* identifier.value = "{{ row["identifier"] }}"
+* identifier.value = "{{ row["identifier"]|trim }}"
 * identifier.use = #official
 
  // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet

@@ -6,7 +6,7 @@ Description: "acmedrug"
 Usage: #example
 
 * identifier.system = $phpid
-* identifier.value = "identifier" 
+* identifier.value = "nan" 
 
 * status = #active
 

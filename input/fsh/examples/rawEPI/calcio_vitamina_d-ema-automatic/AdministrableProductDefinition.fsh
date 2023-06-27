@@ -3,7 +3,7 @@ Instance: ap-925dad38f0afbba36223a82b3a766438
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
 Description: "CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $phpid
 * identifier.value = "xx" 
