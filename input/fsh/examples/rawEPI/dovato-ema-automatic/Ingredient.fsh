@@ -22,7 +22,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#1Q1V9V5WYQ "DOLUTEGRAVIR SODIUM"
 
 
-* substance.strength.presentationQuantity = 50.0 'mg'
+* substance.strength.presentationQuantity = 50 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -38,7 +38,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-173fde4cb6b1018cb7ec8ab708d3961c)
+//* manufacturer.manufacturer = Reference(man-173fde4cb6b1018cb7ec8ab708d3961c)
 
 
 
@@ -63,7 +63,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#2T8Q726O95 "lamivudine"
 
 
-* substance.strength.presentationQuantity = 300.0 'mg'
+* substance.strength.presentationQuantity = 300 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -79,7 +79,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-173fde4cb6b1018cb7ec8ab708d3961c)
+//* manufacturer.manufacturer = Reference(man-173fde4cb6b1018cb7ec8ab708d3961c)
 
 
 
@@ -116,7 +116,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-173fde4cb6b1018cb7ec8ab708d3961c)
+//* manufacturer.manufacturer = Reference(man-173fde4cb6b1018cb7ec8ab708d3961c)
 
 
 
@@ -153,7 +153,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-173fde4cb6b1018cb7ec8ab708d3961c)
+//* manufacturer.manufacturer = Reference(man-173fde4cb6b1018cb7ec8ab708d3961c)
 
 
 
@@ -190,7 +190,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-173fde4cb6b1018cb7ec8ab708d3961c)
+//* manufacturer.manufacturer = Reference(man-173fde4cb6b1018cb7ec8ab708d3961c)
 
 
 
@@ -227,4 +227,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-173fde4cb6b1018cb7ec8ab708d3961c)
+//* manufacturer.manufacturer = Reference(man-173fde4cb6b1018cb7ec8ab708d3961c)

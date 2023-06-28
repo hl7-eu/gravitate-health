@@ -22,7 +22,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#B72HH48FLU "INFLIXIMAB"
 
 
-* substance.strength.presentationQuantity = 100.0 'mg'
+* substance.strength.presentationQuantity = 100 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -37,7 +37,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-3c850a69e5187931f2198c5e63f933fe)
+//* manufacturer.manufacturer = Reference(mah-3c850a69e5187931f2198c5e63f933fe)
 
 
 
@@ -73,7 +73,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-3c850a69e5187931f2198c5e63f933fe)
+//* manufacturer.manufacturer = Reference(mah-3c850a69e5187931f2198c5e63f933fe)
 
 
 
@@ -109,7 +109,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-3c850a69e5187931f2198c5e63f933fe)
+//* manufacturer.manufacturer = Reference(mah-3c850a69e5187931f2198c5e63f933fe)
 
 
 
@@ -145,7 +145,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-3c850a69e5187931f2198c5e63f933fe)
+//* manufacturer.manufacturer = Reference(mah-3c850a69e5187931f2198c5e63f933fe)
 
 
 
@@ -181,4 +181,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-3c850a69e5187931f2198c5e63f933fe)
+//* manufacturer.manufacturer = Reference(mah-3c850a69e5187931f2198c5e63f933fe)

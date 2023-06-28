@@ -17,7 +17,7 @@ Usage: #example
 
  // Reference to Organization: MAH
  
-* manufacturer = Reference(org-173fde4cb6b1018cb7ec8ab708d3961c)
+* manufacturer = Reference(man-173fde4cb6b1018cb7ec8ab708d3961c)
 
  
 
@@ -48,7 +48,7 @@ Usage: #example
 
  // Reference to Organization: MAH
  
-* manufacturer = Reference(org-173fde4cb6b1018cb7ec8ab708d3961c)
+* manufacturer = Reference(man-173fde4cb6b1018cb7ec8ab708d3961c)
 
  
 

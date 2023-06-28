@@ -7,9 +7,23 @@
 {% set ns.three= data["dictionary"]["MajorName"] %}
 {% set ns.name_to_has= ns.one ~ ns.two ~ns.three  %}
 
+//{{row["type"]}}
+{% if row["type"]| lower == "marketing authorisation holder" %}
+{% set ns.org_type= "mah" %}
+{% elif row["type"] == "Medicines Regulatory Authority" %}
+{% set ns.org_type= "mra" %}
+{% elif row["type"] == "Manufacturer Batch release" %}
+{% set ns.org_type= "mbr" %}
+{% elif row["type"] == "Manufacturer API" %}
+{% set ns.org_type= "mapi" %}
+{% elif row["type"] == "Manufacturer" %}
+{% set ns.org_type= "man" %}
+{% else %}
+{% set ns.org_type= "org" %}
+{% endif %}
 
 
-Instance: org-{{ns.name_to_has| create_hash_id}}
+Instance: {{ns.org_type}}-{{ns.name_to_has| create_hash_id}}
 
 InstanceOf: OrganizationUvEpi
 Title: "{{ row["name"]  }} as {{ row["type"]  }}"

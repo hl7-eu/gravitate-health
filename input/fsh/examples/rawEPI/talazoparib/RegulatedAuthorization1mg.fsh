@@ -15,7 +15,7 @@ Usage: #example
 //* type = $spor-rms#100000072062
 //* type.text = "Marketing Authorisation"
 
-* region = urn:iso:std:iso:3166#UK "United Kingdom"
+* region = urn:iso:std:iso:3166#GBR "United Kingdom"
 
 * status = http://hl7.org/fhir/publication-status#active "Active"
 

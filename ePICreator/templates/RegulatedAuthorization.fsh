@@ -33,7 +33,7 @@ Usage: #example
 // * holder = Reference(sanofiaventisgroupe)
 {% if data["turn"] != "1" %}
 {% for refs in data["references"]["Organization"] %} 
-{% if refs[0].startswith("marketingauthorisationholder") %}
+{% if refs[0].startswith("mah") %}
 {% set ns.referenced=True -%}
 
 * holder = Reference({{refs[0]}})
@@ -54,7 +54,7 @@ Usage: #example
 
 {% if data["turn"] != "1" %}
 {% for refs in data["references"]["Organization"] %} 
-{% if refs[0].startswith("medicinesregulatoryauthority") %}
+{% if refs[0].startswith("mra") %}
  // Reference to Organization: EMA
 * regulator = Reference({{refs[0]}})
 {%- endif %}

@@ -21,4 +21,4 @@ Usage: #example
  
 
 
-* manufacturer = Reference(org-3c850a69e5187931f2198c5e63f933fe)
+//* manufacturer = Reference(mah-3c850a69e5187931f2198c5e63f933fe)

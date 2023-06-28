@@ -21,7 +21,13 @@ Usage: #example
 
 * subject = Reference(mp16598f252d07b4784b82ba43cf9e847e)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-173fde4cb6b1018cb7ec8ab708d3961c)
+
+ 
+ 
+ // Reference to Organization: MAH
+* author = Reference(mah-31ff1af739c7dcf77386a86f8dd83d29) 
+
+
 
 * title = "TEST PURPOSES ONLY - Dovato 50 mg/300 mg film-coated tablets"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
@@ -454,7 +460,13 @@ Usage: #example
 
 * subject = Reference(mp16598f252d07b4784b82ba43cf9e847e)
 * date = "2022-04-29T13:28:17Z"
-* author = Reference(org-173fde4cb6b1018cb7ec8ab708d3961c)
+
+ 
+ 
+ // Reference to Organization: MAH
+* author = Reference(mah-31ff1af739c7dcf77386a86f8dd83d29) 
+
+
 
 * title = "TEST PURPOSES ONLY - Dovato 50 mg/300 mg comprimidos recubiertos con película"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

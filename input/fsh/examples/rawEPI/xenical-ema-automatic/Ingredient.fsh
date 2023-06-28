@@ -22,7 +22,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#95M8R751W8 "ORLISTAT"
 
 
-* substance.strength.presentationQuantity = 120.0 'mg'
+* substance.strength.presentationQuantity = 120 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -36,7 +36,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-4aaf055c3c7bab96579cd18496b045eb)
+//* manufacturer.manufacturer = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
 
 
 
@@ -71,7 +71,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-4aaf055c3c7bab96579cd18496b045eb)
+//* manufacturer.manufacturer = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
 
 
 
@@ -106,7 +106,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-4aaf055c3c7bab96579cd18496b045eb)
+//* manufacturer.manufacturer = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
 
 
 
@@ -141,7 +141,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-4aaf055c3c7bab96579cd18496b045eb)
+//* manufacturer.manufacturer = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
 
 
 
@@ -176,7 +176,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-4aaf055c3c7bab96579cd18496b045eb)
+//* manufacturer.manufacturer = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
 
 
 
@@ -211,7 +211,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-4aaf055c3c7bab96579cd18496b045eb)
+//* manufacturer.manufacturer = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
 
 
 
@@ -246,4 +246,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-4aaf055c3c7bab96579cd18496b045eb)
+//* manufacturer.manufacturer = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)

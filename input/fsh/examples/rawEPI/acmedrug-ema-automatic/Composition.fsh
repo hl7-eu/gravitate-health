@@ -21,7 +21,11 @@ Usage: #example
 
 * subject = Reference(mp534e209eb0a3ff60437639cb2015316f)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-2aff7154a8d952c895e8a03849a25108)
+
+ 
+ // Reference to Organization: MAH
+* author = Reference(mah-2aff7154a8d952c895e8a03849a25108)
+
 
 * title = "TEST PURPOSES ONLY - acmedrug"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

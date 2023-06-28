@@ -21,7 +21,11 @@ Usage: #example
 
 * subject = Reference(mpa975b7e209ea5c4c3bf8040a42b86fbd)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-65db33d6be47a433e6e9e9c2980ea7a4)
+
+ 
+ // Reference to Organization: MAH
+* author = Reference(mah-65db33d6be47a433e6e9e9c2980ea7a4)
+
 
 * title = "TEST PURPOSES ONLY - paracetamol"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

@@ -26,9 +26,8 @@ Usage: #example
 * statusDate = "2010-10-01"
 // * holder = Reference(sanofiaventisgroupe)
  
+* holder = Reference(mah-65db33d6be47a433e6e9e9c2980ea7a4)
 
-
-* holder = Reference(org-65db33d6be47a433e6e9e9c2980ea7a4)
 
 
  

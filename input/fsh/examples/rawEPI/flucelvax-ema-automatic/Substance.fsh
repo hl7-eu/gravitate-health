@@ -17,7 +17,7 @@ Usage: #example
 
  // Reference to Organization: MAH
  
-* manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+* manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 * structure.molecularFormula = "nan"
 
@@ -44,7 +44,7 @@ Usage: #example
 
  // Reference to Organization: MAH
  
-* manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+* manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 * structure.molecularFormula = "nan"
 
@@ -71,7 +71,7 @@ Usage: #example
 
  // Reference to Organization: MAH
  
-* manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+* manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 * structure.molecularFormula = "nan"
 
@@ -98,7 +98,7 @@ Usage: #example
 
  // Reference to Organization: MAH
  
-* manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+* manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 * structure.molecularFormula = "nan"
 

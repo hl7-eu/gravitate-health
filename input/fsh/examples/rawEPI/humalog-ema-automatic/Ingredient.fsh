@@ -31,10 +31,8 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 
 
-
-* manufacturer.manufacturer = Reference(org-3fdc76794516d7826890ab9f893e99c1)
 
 
 
@@ -68,10 +66,8 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 
 
-
-* manufacturer.manufacturer = Reference(org-3fdc76794516d7826890ab9f893e99c1)
 
 
 
@@ -105,10 +101,8 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 
 
-
-* manufacturer.manufacturer = Reference(org-3fdc76794516d7826890ab9f893e99c1)
 
 
 
@@ -142,10 +136,8 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 
 
-
-* manufacturer.manufacturer = Reference(org-3fdc76794516d7826890ab9f893e99c1)
 
 
 
@@ -170,7 +162,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#GFX7QIS1II "Insulin Lispro"
 
 
-* substance.strength.presentationQuantity = 100.0 'U/ml'
+* substance.strength.presentationQuantity = 100 'U/ml'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -183,10 +175,8 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 
 
-
-* manufacturer.manufacturer = Reference(org-3fdc76794516d7826890ab9f893e99c1)
 
 
 
@@ -220,10 +210,8 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 
 
-
-* manufacturer.manufacturer = Reference(org-3fdc76794516d7826890ab9f893e99c1)
 
 
 
@@ -257,10 +245,8 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 
 
-
-* manufacturer.manufacturer = Reference(org-3fdc76794516d7826890ab9f893e99c1)
 
 
 
@@ -294,7 +280,5 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 
 
-
-* manufacturer.manufacturer = Reference(org-3fdc76794516d7826890ab9f893e99c1)

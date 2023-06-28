@@ -32,7 +32,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
 
@@ -67,7 +67,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
 
@@ -102,7 +102,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
 
@@ -137,7 +137,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
 
@@ -172,7 +172,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
 
@@ -197,7 +197,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#J0E2756Z7N "irbesartan"
 
 
-* substance.strength.presentationQuantity = 75.0 'mg'
+* substance.strength.presentationQuantity = 75 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -211,7 +211,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
 
@@ -246,7 +246,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
 
@@ -281,7 +281,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
 
@@ -316,7 +316,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
 
@@ -351,4 +351,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)

@@ -19,7 +19,11 @@ Usage: #example
 
 * subject = Reference(mpbc60fa1aa0bfe774d11ee13c0c131622)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-4aaf055c3c7bab96579cd18496b045eb)
+
+ 
+ // Reference to Organization: MAH
+* author = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
+
 
 * title = "TEST PURPOSES ONLY - Xenical 120mg hard capsules 12 capsules"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

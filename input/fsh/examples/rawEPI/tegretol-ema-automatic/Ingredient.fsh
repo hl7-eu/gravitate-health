@@ -22,7 +22,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#33CM23913M "CARBAMAZEPINE"
 
 
-* substance.strength.presentationQuantity = 120.0 'mg'
+* substance.strength.presentationQuantity = 120 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -36,7 +36,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-990eca26437774887062cfa11ea1d904)
+//* manufacturer.manufacturer = Reference(mah-990eca26437774887062cfa11ea1d904)
 
 
 
@@ -71,7 +71,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-990eca26437774887062cfa11ea1d904)
+//* manufacturer.manufacturer = Reference(mah-990eca26437774887062cfa11ea1d904)
 
 
 
@@ -106,4 +106,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-990eca26437774887062cfa11ea1d904)
+//* manufacturer.manufacturer = Reference(mah-990eca26437774887062cfa11ea1d904)

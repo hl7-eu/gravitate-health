@@ -5,11 +5,10 @@ Title: "ePI document Bundle for xenical Package Leaflet"
 Description: "Bundle for xenical Package Leaflet ePI document"
 Usage: #example
 
-* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/98/071/004"
 * type = #document
-//* timestamp = "2023-06-27T16:20:41Z"
+//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
 
@@ -80,8 +79,8 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-4aaf055c3c7bab96579cd18496b045eb"
-* entry[=].resource = org-4aaf055c3c7bab96579cd18496b045eb 
+* entry[+].fullUrl = "Organization/mah-4aaf055c3c7bab96579cd18496b045eb"
+* entry[=].resource = mah-4aaf055c3c7bab96579cd18496b045eb 
  
 
 // PackagedProductDefinition

@@ -13,4 +13,4 @@ Usage: #example
 
 * unitOfPresentation = $spor-rms#200000002113 "Capsule"
 
-* manufacturer = Reference(org-1)
+* manufacturer = Reference(org1)

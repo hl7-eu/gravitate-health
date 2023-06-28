@@ -1,8 +1,9 @@
 
 
+//Marketing authorisation holder
 
 
-Instance: org-3c850a69e5187931f2198c5e63f933fe
+Instance: mah-3c850a69e5187931f2198c5e63f933fe
 
 InstanceOf: OrganizationUvEpi
 Title: "Celltrion Healthcare Hungary Kft. as Marketing authorisation holder"
@@ -29,9 +30,10 @@ Usage: #example
     * country = "HU"
     * postalCode = "1062"
 
+//Medicines Regulatory Authority
 
 
-Instance: org-e3da03c458d6c0f3c5f1c39a2c6a1084
+Instance: mra-e3da03c458d6c0f3c5f1c39a2c6a1084
 
 InstanceOf: OrganizationUvEpi
 Title: "European Medicines Agency as Medicines Regulatory Authority"

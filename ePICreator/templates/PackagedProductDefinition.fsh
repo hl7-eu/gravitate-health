@@ -57,10 +57,27 @@ Usage: #example
 {% if data["turn"] != "1" %}
 * packageFor = Reference({{data["references"]["MedicinalProductDefinition"][0][0]}})
 {% endif %}
- // Reference to Organization: MAH
+
+
+
+{% set ns  = namespace(referenced=False) -%}
 {% if data["turn"] != "1" %}
-* manufacturer = Reference({{data["references"]["Organization"][0][0]}})
-{% endif %}
+{% for refs in data["references"]["Organization"] %} 
+{% if refs[0].startswith("man") and "mapi" not in refs[0]  %}
+{% set ns.referenced=True -%}
+
+* manufacturer = Reference({{refs[0]}})
+{%- endif %}
+{%- endfor %}
+
+{% if not ns.referenced  %}
+
+//* manufacturer = Reference({{data["references"]["Organization"][0][0]}})
+{%- endif %}
+{%- endif %}
+
+
+
 
 {%- endif %}
 {%- endfor %}

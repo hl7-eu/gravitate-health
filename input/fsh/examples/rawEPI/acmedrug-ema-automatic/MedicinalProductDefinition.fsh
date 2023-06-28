@@ -14,6 +14,10 @@ Usage: #example
 
 * status = http://hl7.org/fhir/publication-status#active "active"
 
+
+
+
+
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
 

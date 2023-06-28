@@ -36,7 +36,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-b7afabe350ac415f70e662ba6c703030)
+//* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
 
@@ -75,7 +75,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-b7afabe350ac415f70e662ba6c703030)
+//* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
 
@@ -100,7 +100,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#9NEZ333N27 "Sodium"
 
 
-* substance.strength.presentationQuantity = 96.15 'mg'
+* substance.strength.presentationQuantity = 96 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -114,7 +114,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-b7afabe350ac415f70e662ba6c703030)
+//* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
 
@@ -139,7 +139,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#EWQ57Q8I5X "lactose monohydrate"
 
 
-* substance.strength.presentationQuantity = 396.44 'mg'
+* substance.strength.presentationQuantity = 396 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -153,7 +153,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-b7afabe350ac415f70e662ba6c703030)
+//* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
 
@@ -178,7 +178,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#C151H8M554 "sucrose"
 
 
-* substance.strength.presentationQuantity = 3.68 'mg'
+* substance.strength.presentationQuantity = 3 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -192,7 +192,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-b7afabe350ac415f70e662ba6c703030)
+//* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
 
@@ -217,7 +217,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#A2M91M918C  "hydrogenated soybean oil"
 
 
-* substance.strength.presentationQuantity = 0.73 'mg'
+* substance.strength.presentationQuantity = 0 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -231,7 +231,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-b7afabe350ac415f70e662ba6c703030)
+//* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
 
@@ -266,7 +266,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-b7afabe350ac415f70e662ba6c703030)
+//* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
 
@@ -301,7 +301,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-b7afabe350ac415f70e662ba6c703030)
+//* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
 
@@ -336,7 +336,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-b7afabe350ac415f70e662ba6c703030)
+//* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
 
@@ -371,7 +371,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-b7afabe350ac415f70e662ba6c703030)
+//* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
 
@@ -406,7 +406,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-b7afabe350ac415f70e662ba6c703030)
+//* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
 
@@ -441,4 +441,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-b7afabe350ac415f70e662ba6c703030)
+//* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)

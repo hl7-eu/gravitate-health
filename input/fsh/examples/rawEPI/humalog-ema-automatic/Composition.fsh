@@ -21,7 +21,13 @@ Usage: #example
 
 * subject = Reference(mpd33868162d255ced115cecbbf188aab4)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-3fdc76794516d7826890ab9f893e99c1)
+
+ 
+ // Reference to Organization: MAH
+* author = Reference(mah-3fdc76794516d7826890ab9f893e99c1) 
+ 
+
+
 
 * title = "TEST PURPOSES ONLY - Humalog"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

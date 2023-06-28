@@ -20,4 +20,4 @@ Usage: #example
  
 
 
-* manufacturer = Reference(org-6ade044addd6563de0baefebb1cceb8e)
+//* manufacturer = Reference(mah-6ade044addd6563de0baefebb1cceb8e)

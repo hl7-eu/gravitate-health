@@ -22,7 +22,7 @@ Usage: #example
 {% set ns  = namespace(referenced=False) -%}
 {% if data["turn"] != "1" %}
 {% for refs in data["references"]["Organization"] %} 
-{% if refs[0].startswith("manufacturer") and "manufacturerapi" not in refs[0]  %}
+{% if refs[0].startswith("man") and "mapi" not in refs[0]  %}
 {% set ns.referenced=True -%}
 
 * manufacturer = Reference({{refs[0]}})
@@ -31,7 +31,7 @@ Usage: #example
 
 {% if not ns.referenced  %}
 
-* manufacturer = Reference({{data["references"]["Organization"][0][0]}})
+//* manufacturer = Reference({{data["references"]["Organization"][0][0]}})
 {%- endif %}
 {%- endif %}
 {%- endif %}

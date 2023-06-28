@@ -44,6 +44,9 @@ def html_unescape(s):
         .replace("&eacute;", "é")
         .replace("&iacute;", "í")
         .replace("&ntilde;", "ñ")
+        .replace("&rsquo;", "'")
+        .replace("&uacute;", "ú")
+        .replace("&uuml;", "ü")
     )
 
 
@@ -56,6 +59,34 @@ def hash_id(string):
 
 
 env.filters["create_hash_id"] = hash_id
+
+
+def quality_checks(DATA_FILE, OUTPUT_FOLDER):
+    if OUTPUT_FOLDER[-1] != "/":
+        OUTPUT_FOLDER += "/"
+
+    # major_name = DATA_FILE.lower().split("/")[-1].split(".")[0]
+    major_name = DATA_FILE.lower().split("/")[-1].split(".")[0].replace(" ", "_")
+    # real_output_folder = OUTPUT_FOLDER + major_name + "-ema-automatic/"
+    real_output_folder = OUTPUT_FOLDER + major_name + "-ema-automatic/"
+
+    # writing to file
+
+    for path in listdir(real_output_folder):
+        print(path)
+        file = open(real_output_folder + "/" + path, "r")
+        # with open(file) as f:
+        lines = file.readlines()
+        for idx, line in enumerate(lines):
+            if "None" in line:
+                print("ISSUE on line: ", str(idx), "file ->", path)
+                print(line)
+            if '"nan"' in line:
+                print("ANOTHER ISSUE on line: ", str(idx), "file ->", path)
+                print(line)
+            if ".0" in line:
+                print("ANOTHER ISSUE on line: ", str(idx), "file ->", path)
+                print(line)
 
 
 def create_from_template(DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER):
@@ -132,10 +163,24 @@ def create_from_template(DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER):
             Lines = file1.readlines()
             instances = []
             ids = []
+            type_ = []
+            # if file.split(".")[0] == "Organization":
+            #     for line in Lines:
+            #         if "Instance: " in line:
+            #             instances.append(line.replace("Instance: ", "").strip())
+            #         if "* type = $" in line:
+            #             # print(line)
+            #             type_.append(
+            #                 line.split("  ")[-1].replace('"', "").replace('"\n', "")
+            #             )
+            #     object_ids[file.split(".")[0]] = {
+            #         k: v for k, v in zip(type_, instances)
+            #     }
+            # else:
             for line in Lines:
 
                 if "Instance: " in line:
-                    # print(line)
+
                     instances.append(line.replace("Instance: ", "").strip())
                     # if "* id = " in line:
                     # print(line)
@@ -166,3 +211,4 @@ def create_from_template(DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER):
 
 if __name__ == "__main__":
     create_from_template(DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER)
+    quality_checks(DATA_FILE=DATA_FILE, OUTPUT_FOLDER=OUTPUT_FOLDER)

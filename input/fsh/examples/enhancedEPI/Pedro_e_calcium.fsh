@@ -16,7 +16,7 @@ Usage: #inline
 
 * subject = Reference(mpd4bcbbaec04bf6aceb2f71162205967e)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-b7afabe350ac415f70e662ba6c703030)
+* author = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 * title = "TEST PURPOSES ONLY - CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
@@ -433,8 +433,8 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-b7afabe350ac415f70e662ba6c703030"
-* entry[=].resource = org-b7afabe350ac415f70e662ba6c703030 
+* entry[+].fullUrl = "Organization/mah-b7afabe350ac415f70e662ba6c703030"
+* entry[=].resource = mah-b7afabe350ac415f70e662ba6c703030 
  
 
 // PackagedProductDefinition

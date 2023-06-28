@@ -1,8 +1,9 @@
 
 
+//Marketing authorisation holder
 
 
-Instance: org-715f8a161ed438d0584510e5b4512caa
+Instance: mah-715f8a161ed438d0584510e5b4512caa
 
 InstanceOf: OrganizationUvEpi
 Title: "Gilead Sciences Ireland UC as Marketing authorisation holder"
@@ -29,9 +30,10 @@ Usage: #example
     * country = "IR"
     
 
+//Medicines Regulatory Authority
 
 
-Instance: org-1133a7374c78f1d40f41885344f06a5a
+Instance: mra-1133a7374c78f1d40f41885344f06a5a
 
 InstanceOf: OrganizationUvEpi
 Title: "European Medicines Agency as Medicines Regulatory Authority"

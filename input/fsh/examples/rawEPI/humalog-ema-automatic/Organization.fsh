@@ -1,8 +1,9 @@
 
 
+//Marketing authorisation holder
 
 
-Instance: org-3fdc76794516d7826890ab9f893e99c1
+Instance: mah-3fdc76794516d7826890ab9f893e99c1
 
 InstanceOf: OrganizationUvEpi
 Title: "Eli Lilly Nederland B.V. as Marketing authorisation holder"
@@ -29,9 +30,10 @@ Usage: #example
     * country = "NL"
     
 
+//Manufacturer API
 
 
-Instance: org-6f4987de7be1bbfa4ee92c07de7e94d4
+Instance: mapi-6f4987de7be1bbfa4ee92c07de7e94d4
 
 InstanceOf: OrganizationUvEpi
 Title: "Eli Lilly and Company as Manufacturer API"
@@ -58,9 +60,10 @@ Usage: #example
     * country = "US"
     
 
+//Manufacturer
 
 
-Instance: org-e3ef26dd2c7a0847d92d3bb1a64855b9
+Instance: man-e3ef26dd2c7a0847d92d3bb1a64855b9
 
 InstanceOf: OrganizationUvEpi
 Title: "Lilly S.A. as Manufacturer"

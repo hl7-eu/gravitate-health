@@ -22,4 +22,4 @@ Usage: #example
  
 
 
-* manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+//* manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)

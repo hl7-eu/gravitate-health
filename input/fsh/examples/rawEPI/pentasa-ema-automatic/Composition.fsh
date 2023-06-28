@@ -21,7 +21,11 @@ Usage: #example
 
 * subject = Reference(mpb3a8d58c709a2281d8ad2a590fe81663)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-6ade044addd6563de0baefebb1cceb8e)
+
+ 
+ // Reference to Organization: MAH
+* author = Reference(mah-6ade044addd6563de0baefebb1cceb8e)
+
 
 * title = "TEST PURPOSES ONLY - Pentasa Slow Release Tablets 1g"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

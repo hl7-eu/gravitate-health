@@ -5,11 +5,10 @@ Title: "ePI document Bundle for dolocatil Package Leaflet"
 Description: "Bundle for dolocatil Package Leaflet ePI document"
 Usage: #example
 
-* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/96/007/035"
 * type = #document
-//* timestamp = "2023-06-27T16:20:41Z"
+//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
 
@@ -75,8 +74,8 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-65db33d6be47a433e6e9e9c2980ea7a4"
-* entry[=].resource = org-65db33d6be47a433e6e9e9c2980ea7a4 
+* entry[+].fullUrl = "Organization/mah-65db33d6be47a433e6e9e9c2980ea7a4"
+* entry[=].resource = mah-65db33d6be47a433e6e9e9c2980ea7a4 
  
 
 // PackagedProductDefinition

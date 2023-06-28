@@ -5,11 +5,10 @@ Title: "ePI document Bundle for remsima Package Leaflet"
 Description: "Bundle for remsima Package Leaflet ePI document"
 Usage: #example
 
-* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/13/853/001"
 * type = #document
-//* timestamp = "2023-06-27T16:20:41Z"
+//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
 
@@ -70,13 +69,13 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-3c850a69e5187931f2198c5e63f933fe"
-* entry[=].resource = org-3c850a69e5187931f2198c5e63f933fe 
+* entry[+].fullUrl = "Organization/mah-3c850a69e5187931f2198c5e63f933fe"
+* entry[=].resource = mah-3c850a69e5187931f2198c5e63f933fe 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-e3da03c458d6c0f3c5f1c39a2c6a1084"
-* entry[=].resource = org-e3da03c458d6c0f3c5f1c39a2c6a1084 
+* entry[+].fullUrl = "Organization/mra-e3da03c458d6c0f3c5f1c39a2c6a1084"
+* entry[=].resource = mra-e3da03c458d6c0f3c5f1c39a2c6a1084 
  
 
 // PackagedProductDefinition

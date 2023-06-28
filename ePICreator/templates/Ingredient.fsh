@@ -36,7 +36,7 @@ Usage: #example
 
 {% if row["StrengthBasis"]|string !="nan" %}
 
-* substance.strength.presentationQuantity = {{ row["quantity"] | replace (",",".")  }} '{{ row["quantity unit"]  }}'
+* substance.strength.presentationQuantity = {{ row["quantity"] | replace (",",".")|int  }} '{{ row["quantity unit"]  }}'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#{{row["StrengthBasis"]}} "{{row["StrengthBasisText"]|trim }}"
 {% endif %}
@@ -55,7 +55,7 @@ Usage: #example
 {% set ns  = namespace(referenced=False) -%}
 {% if data["turn"] != "1" %}
 {% for refs in data["references"]["Organization"] %} 
-{% if refs[0].startswith("manufacturerapi") %}
+{% if refs[0].startswith("mapi") %}
 {% set ns.referenced=True -%}
 
 * manufacturer.manufacturer  = Reference({{refs[0]}})
@@ -64,7 +64,7 @@ Usage: #example
 
 {% if not ns.referenced  %}
 
-* manufacturer.manufacturer = Reference({{data["references"]["Organization"][0][0]}})
+//* manufacturer.manufacturer = Reference({{data["references"]["Organization"][0][0]}})
 {% endif %}
 {% endif %}
 {% endif %}

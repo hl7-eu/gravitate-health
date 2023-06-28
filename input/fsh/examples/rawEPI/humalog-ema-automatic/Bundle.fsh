@@ -5,11 +5,10 @@ Title: "ePI document Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet"
 Description: "Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet ePI document"
 Usage: #example
 
-* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "xx"
 * type = #document
-//* timestamp = "2023-06-27T16:20:41Z"
+//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
 
@@ -85,18 +84,18 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-3fdc76794516d7826890ab9f893e99c1"
-* entry[=].resource = org-3fdc76794516d7826890ab9f893e99c1 
+* entry[+].fullUrl = "Organization/mah-3fdc76794516d7826890ab9f893e99c1"
+* entry[=].resource = mah-3fdc76794516d7826890ab9f893e99c1 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-6f4987de7be1bbfa4ee92c07de7e94d4"
-* entry[=].resource = org-6f4987de7be1bbfa4ee92c07de7e94d4 
+* entry[+].fullUrl = "Organization/mapi-6f4987de7be1bbfa4ee92c07de7e94d4"
+* entry[=].resource = mapi-6f4987de7be1bbfa4ee92c07de7e94d4 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-e3ef26dd2c7a0847d92d3bb1a64855b9"
-* entry[=].resource = org-e3ef26dd2c7a0847d92d3bb1a64855b9 
+* entry[+].fullUrl = "Organization/man-e3ef26dd2c7a0847d92d3bb1a64855b9"
+* entry[=].resource = man-e3ef26dd2c7a0847d92d3bb1a64855b9 
  
 
 // PackagedProductDefinition

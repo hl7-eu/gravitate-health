@@ -21,7 +21,11 @@ Usage: #example
 
 * subject = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-fe4fee458a4f24fccb770d311350f67c)
+
+ 
+ // Reference to Organization: MAH
+* author = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
+
 
 * title = "TEST PURPOSES ONLY - Karvea"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

@@ -5,11 +5,10 @@ Title: "ePI document Bundle for mirtazapine-cinfa Package Leaflet"
 Description: "Bundle for mirtazapine-cinfa Package Leaflet ePI document"
 Usage: #example
 
-* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "x"
 * type = #document
-//* timestamp = "2023-06-27T16:20:41Z"
+//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
 
@@ -75,8 +74,8 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-dbf32c7ed470ffbeb6060201f32edb29"
-* entry[=].resource = org-dbf32c7ed470ffbeb6060201f32edb29 
+* entry[+].fullUrl = "Organization/mah-dbf32c7ed470ffbeb6060201f32edb29"
+* entry[=].resource = mah-dbf32c7ed470ffbeb6060201f32edb29 
  
 
 // PackagedProductDefinition

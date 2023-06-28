@@ -21,7 +21,11 @@ Usage: #example
 
 * subject = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-94f8082c22713e050c3f2b55ea9d53ff)
+
+ 
+ // Reference to Organization: MAH
+* author = Reference(mah-94f8082c22713e050c3f2b55ea9d53ff)
+
 
 * title = "TEST PURPOSES ONLY - cinitrapide"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

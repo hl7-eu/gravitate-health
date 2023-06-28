@@ -27,13 +27,13 @@ Usage: #example
 // * holder = Reference(sanofiaventisgroupe)
  
  
- 
+* holder = Reference(mah-31ff1af739c7dcf77386a86f8dd83d29) 
 
 
-* holder = Reference(org-173fde4cb6b1018cb7ec8ab708d3961c)
 
 
- 
  
  
-
+ 
+ // Reference to Organization: EMA
+* regulator = Reference(mra-7c9b97127f73ff3605a10eb1c2cc24d1)

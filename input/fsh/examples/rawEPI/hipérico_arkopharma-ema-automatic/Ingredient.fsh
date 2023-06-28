@@ -22,7 +22,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#XK4IUX8MNB "Hypericum perforatum L."
 
 
-* substance.strength.presentationQuantity = 175.0 'mg'
+* substance.strength.presentationQuantity = 175 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -36,7 +36,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-c2a5378488511eaedce26dde272c2290)
+//* manufacturer.manufacturer = Reference(mah-c2a5378488511eaedce26dde272c2290)
 
 
 
@@ -71,7 +71,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-c2a5378488511eaedce26dde272c2290)
+//* manufacturer.manufacturer = Reference(mah-c2a5378488511eaedce26dde272c2290)
 
 
 
@@ -106,7 +106,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-c2a5378488511eaedce26dde272c2290)
+//* manufacturer.manufacturer = Reference(mah-c2a5378488511eaedce26dde272c2290)
 
 
 
@@ -141,7 +141,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-c2a5378488511eaedce26dde272c2290)
+//* manufacturer.manufacturer = Reference(mah-c2a5378488511eaedce26dde272c2290)
 
 
 
@@ -176,4 +176,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-c2a5378488511eaedce26dde272c2290)
+//* manufacturer.manufacturer = Reference(mah-c2a5378488511eaedce26dde272c2290)

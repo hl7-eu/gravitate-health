@@ -5,11 +5,10 @@ Title: "ePI document Bundle for biktarvy Package Leaflet"
 Description: "Bundle for biktarvy Package Leaflet ePI document"
 Usage: #example
 
-* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/18/1289/001"
 * type = #document
-//* timestamp = "2023-06-27T16:20:41Z"
+//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
 
@@ -70,13 +69,13 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-715f8a161ed438d0584510e5b4512caa"
-* entry[=].resource = org-715f8a161ed438d0584510e5b4512caa 
+* entry[+].fullUrl = "Organization/mah-715f8a161ed438d0584510e5b4512caa"
+* entry[=].resource = mah-715f8a161ed438d0584510e5b4512caa 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-1133a7374c78f1d40f41885344f06a5a"
-* entry[=].resource = org-1133a7374c78f1d40f41885344f06a5a 
+* entry[+].fullUrl = "Organization/mra-1133a7374c78f1d40f41885344f06a5a"
+* entry[=].resource = mra-1133a7374c78f1d40f41885344f06a5a 
  
 
 // PackagedProductDefinition

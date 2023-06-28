@@ -32,7 +32,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-dbf32c7ed470ffbeb6060201f32edb29)
+//* manufacturer.manufacturer = Reference(mah-dbf32c7ed470ffbeb6060201f32edb29)
 
 
 
@@ -67,7 +67,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-dbf32c7ed470ffbeb6060201f32edb29)
+//* manufacturer.manufacturer = Reference(mah-dbf32c7ed470ffbeb6060201f32edb29)
 
 
 
@@ -92,7 +92,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#A051Q2099Q "Mirtazapine"
 
 
-* substance.strength.presentationQuantity = 30.0 'mg'
+* substance.strength.presentationQuantity = 30 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -106,7 +106,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-dbf32c7ed470ffbeb6060201f32edb29)
+//* manufacturer.manufacturer = Reference(mah-dbf32c7ed470ffbeb6060201f32edb29)
 
 
 
@@ -141,7 +141,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-dbf32c7ed470ffbeb6060201f32edb29)
+//* manufacturer.manufacturer = Reference(mah-dbf32c7ed470ffbeb6060201f32edb29)
 
 
 
@@ -176,7 +176,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-dbf32c7ed470ffbeb6060201f32edb29)
+//* manufacturer.manufacturer = Reference(mah-dbf32c7ed470ffbeb6060201f32edb29)
 
 
 
@@ -211,4 +211,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-dbf32c7ed470ffbeb6060201f32edb29)
+//* manufacturer.manufacturer = Reference(mah-dbf32c7ed470ffbeb6060201f32edb29)

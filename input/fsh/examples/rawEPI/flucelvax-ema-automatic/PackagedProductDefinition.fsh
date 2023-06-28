@@ -46,5 +46,10 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
 //reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 * packageFor = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)
- // Reference to Organization: MAH
-* manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+
+
+
+ 
+
+
+//* manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)

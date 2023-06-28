@@ -22,7 +22,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#2ZM8CX04RZ "Insulin glargine"
 
 
-* substance.strength.presentationQuantity = 100.0 'U/ml'
+* substance.strength.presentationQuantity = 100 'U/ml'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -35,11 +35,9 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
-
-* manufacturer.manufacturer = Reference(org-16019cea3a857659d2c5a2018c2260df)
 
 
 
@@ -64,7 +62,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#74O62BB01U "Lixisenatide"
 
 
-* substance.strength.presentationQuantity = 50.0 'ug/ml'
+* substance.strength.presentationQuantity = 50 'ug/ml'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -77,11 +75,9 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
-
-* manufacturer.manufacturer = Reference(org-16019cea3a857659d2c5a2018c2260df)
 
 
 
@@ -115,11 +111,9 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
-
-* manufacturer.manufacturer = Reference(org-16019cea3a857659d2c5a2018c2260df)
 
 
 
@@ -153,11 +147,9 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
-
-* manufacturer.manufacturer = Reference(org-16019cea3a857659d2c5a2018c2260df)
 
 
 
@@ -191,11 +183,9 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
-
-* manufacturer.manufacturer = Reference(org-16019cea3a857659d2c5a2018c2260df)
 
 
 
@@ -229,11 +219,9 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
-
-* manufacturer.manufacturer = Reference(org-16019cea3a857659d2c5a2018c2260df)
 
 
 
@@ -267,11 +255,9 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
-
-* manufacturer.manufacturer = Reference(org-16019cea3a857659d2c5a2018c2260df)
 
 
 
@@ -305,11 +291,9 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
-
-* manufacturer.manufacturer = Reference(org-16019cea3a857659d2c5a2018c2260df)
 
 
 
@@ -343,8 +327,6 @@ Usage: #example
 
  
  
- 
+* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
-
-* manufacturer.manufacturer = Reference(org-16019cea3a857659d2c5a2018c2260df)

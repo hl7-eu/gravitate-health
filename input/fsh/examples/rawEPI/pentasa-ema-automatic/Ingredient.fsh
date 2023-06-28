@@ -22,7 +22,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#4Q81I59GXC "mesalazine"
 
 
-* substance.strength.presentationQuantity = 1.0 'g'
+* substance.strength.presentationQuantity = 1 'g'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -36,7 +36,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-6ade044addd6563de0baefebb1cceb8e)
+//* manufacturer.manufacturer = Reference(mah-6ade044addd6563de0baefebb1cceb8e)
 
 
 
@@ -71,7 +71,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-6ade044addd6563de0baefebb1cceb8e)
+//* manufacturer.manufacturer = Reference(mah-6ade044addd6563de0baefebb1cceb8e)
 
 
 
@@ -106,7 +106,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-6ade044addd6563de0baefebb1cceb8e)
+//* manufacturer.manufacturer = Reference(mah-6ade044addd6563de0baefebb1cceb8e)
 
 
 
@@ -141,7 +141,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-6ade044addd6563de0baefebb1cceb8e)
+//* manufacturer.manufacturer = Reference(mah-6ade044addd6563de0baefebb1cceb8e)
 
 
 
@@ -176,7 +176,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-6ade044addd6563de0baefebb1cceb8e)
+//* manufacturer.manufacturer = Reference(mah-6ade044addd6563de0baefebb1cceb8e)
 
 
 
@@ -211,4 +211,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-6ade044addd6563de0baefebb1cceb8e)
+//* manufacturer.manufacturer = Reference(mah-6ade044addd6563de0baefebb1cceb8e)

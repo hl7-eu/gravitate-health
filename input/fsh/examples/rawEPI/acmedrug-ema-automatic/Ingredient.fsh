@@ -32,7 +32,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-2aff7154a8d952c895e8a03849a25108)
+//* manufacturer.manufacturer = Reference(mah-2aff7154a8d952c895e8a03849a25108)
 
 
 
@@ -67,7 +67,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-2aff7154a8d952c895e8a03849a25108)
+//* manufacturer.manufacturer = Reference(mah-2aff7154a8d952c895e8a03849a25108)
 
 
 
@@ -92,7 +92,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#J0E2756Z7N "acmedrug-ing1"
 
 
-* substance.strength.presentationQuantity = 75.0 'mg'
+* substance.strength.presentationQuantity = 75 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -106,4 +106,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-2aff7154a8d952c895e8a03849a25108)
+//* manufacturer.manufacturer = Reference(mah-2aff7154a8d952c895e8a03849a25108)

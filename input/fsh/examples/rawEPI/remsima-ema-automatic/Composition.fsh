@@ -21,7 +21,12 @@ Usage: #example
 
 * subject = Reference(mpbe76bdf784deea6950583b234f789db2)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-3c850a69e5187931f2198c5e63f933fe)
+
+ 
+ // Reference to Organization: MAH
+* author = Reference(mah-3c850a69e5187931f2198c5e63f933fe) 
+
+
 
 * title = "TEST PURPOSES ONLY - Remsima 100 mg powder for concentrate for solution for infusion"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

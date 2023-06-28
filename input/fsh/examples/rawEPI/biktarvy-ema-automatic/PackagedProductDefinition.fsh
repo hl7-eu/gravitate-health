@@ -36,5 +36,11 @@ Usage: #example
 
 //reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 * packageFor = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
- // Reference to Organization: MAH
-* manufacturer = Reference(org-715f8a161ed438d0584510e5b4512caa)
+
+
+
+ 
+ 
+
+
+//* manufacturer = Reference(mah-715f8a161ed438d0584510e5b4512caa)

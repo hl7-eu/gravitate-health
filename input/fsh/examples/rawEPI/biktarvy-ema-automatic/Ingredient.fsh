@@ -22,7 +22,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#4L5MP1Y7W7 "BICTEGRAVIR SODIUM"
 
 
-* substance.strength.presentationQuantity = 50.0 'mg'
+* substance.strength.presentationQuantity = 50 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -37,7 +37,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-715f8a161ed438d0584510e5b4512caa)
+//* manufacturer.manufacturer = Reference(mah-715f8a161ed438d0584510e5b4512caa)
 
 
 
@@ -62,7 +62,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#G70B4ETF4S "Emtricitabine"
 
 
-* substance.strength.presentationQuantity = 200.0 'mg'
+* substance.strength.presentationQuantity = 200 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -77,7 +77,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-715f8a161ed438d0584510e5b4512caa)
+//* manufacturer.manufacturer = Reference(mah-715f8a161ed438d0584510e5b4512caa)
 
 
 
@@ -102,7 +102,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#EL9943AG5J "tenofovir alafenamide"
 
 
-* substance.strength.presentationQuantity = 25.0 'mg'
+* substance.strength.presentationQuantity = 25 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -117,7 +117,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-715f8a161ed438d0584510e5b4512caa)
+//* manufacturer.manufacturer = Reference(mah-715f8a161ed438d0584510e5b4512caa)
 
 
 
@@ -153,7 +153,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-715f8a161ed438d0584510e5b4512caa)
+//* manufacturer.manufacturer = Reference(mah-715f8a161ed438d0584510e5b4512caa)
 
 
 
@@ -189,7 +189,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-715f8a161ed438d0584510e5b4512caa)
+//* manufacturer.manufacturer = Reference(mah-715f8a161ed438d0584510e5b4512caa)
 
 
 
@@ -225,4 +225,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-715f8a161ed438d0584510e5b4512caa)
+//* manufacturer.manufacturer = Reference(mah-715f8a161ed438d0584510e5b4512caa)

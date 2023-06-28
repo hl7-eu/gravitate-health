@@ -17,7 +17,7 @@ Usage: #inline
 
 * subject = Reference(mp16598f252d07b4784b82ba43cf9e847e)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-7c9b97127f73ff3605a10eb1c2cc24d1)
+* author = Reference(mra-7c9b97127f73ff3605a10eb1c2cc24d1)
 
 * title = "TEST PURPOSES ONLY - Dovato 50 mg/300 mg film-coated tablets"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
@@ -481,7 +481,7 @@ Usage: #inline
 
 * subject = Reference(mp16598f252d07b4784b82ba43cf9e847e)
 * date = "2022-04-29T13:28:17Z"
-* author = Reference(org-7c9b97127f73ff3605a10eb1c2cc24d1)
+* author = Reference(mra-7c9b97127f73ff3605a10eb1c2cc24d1)
 
 * title = "TEST PURPOSES ONLY - Dovato 50 mg/300 mg comprimidos recubiertos con película"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
@@ -738,18 +738,18 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-173fde4cb6b1018cb7ec8ab708d3961c"
-* entry[=].resource = org-173fde4cb6b1018cb7ec8ab708d3961c 
+* entry[+].fullUrl = "Organization/man-173fde4cb6b1018cb7ec8ab708d3961c"
+* entry[=].resource = man-173fde4cb6b1018cb7ec8ab708d3961c 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-31ff1af739c7dcf77386a86f8dd83d29"
-* entry[=].resource = org-31ff1af739c7dcf77386a86f8dd83d29 
+* entry[+].fullUrl = "Organization/mah-31ff1af739c7dcf77386a86f8dd83d29"
+* entry[=].resource = mah-31ff1af739c7dcf77386a86f8dd83d29 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-7c9b97127f73ff3605a10eb1c2cc24d1"
-* entry[=].resource = org-7c9b97127f73ff3605a10eb1c2cc24d1 
+* entry[+].fullUrl = "Organization/mra-7c9b97127f73ff3605a10eb1c2cc24d1"
+* entry[=].resource = mra-7c9b97127f73ff3605a10eb1c2cc24d1 
  
 
 // PackagedProductDefinition
@@ -848,18 +848,18 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-173fde4cb6b1018cb7ec8ab708d3961c"
-* entry[=].resource = org-173fde4cb6b1018cb7ec8ab708d3961c 
+* entry[+].fullUrl = "Organization/man-173fde4cb6b1018cb7ec8ab708d3961c"
+* entry[=].resource = man-173fde4cb6b1018cb7ec8ab708d3961c 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-31ff1af739c7dcf77386a86f8dd83d29"
-* entry[=].resource = org-31ff1af739c7dcf77386a86f8dd83d29 
+* entry[+].fullUrl = "Organization/mah-31ff1af739c7dcf77386a86f8dd83d29"
+* entry[=].resource = mah-31ff1af739c7dcf77386a86f8dd83d29 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-7c9b97127f73ff3605a10eb1c2cc24d1"
-* entry[=].resource = org-7c9b97127f73ff3605a10eb1c2cc24d1 
+* entry[+].fullUrl = "Organization/mra-7c9b97127f73ff3605a10eb1c2cc24d1"
+* entry[=].resource = mra-7c9b97127f73ff3605a10eb1c2cc24d1 
  
 
 // PackagedProductDefinition

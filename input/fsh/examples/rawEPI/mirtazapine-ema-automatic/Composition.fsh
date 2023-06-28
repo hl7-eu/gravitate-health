@@ -21,7 +21,11 @@ Usage: #example
 
 * subject = Reference(mp7a7ff0f4e1993c2fdabba6c8d9931a52)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-dbf32c7ed470ffbeb6060201f32edb29)
+
+ 
+ // Reference to Organization: MAH
+* author = Reference(mah-dbf32c7ed470ffbeb6060201f32edb29)
+
 
 * title = "TEST PURPOSES ONLY - MIRTAZAPINA CINFA 30 mg Coated Tablet"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

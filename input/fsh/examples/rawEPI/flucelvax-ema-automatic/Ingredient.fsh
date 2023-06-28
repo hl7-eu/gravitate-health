@@ -23,7 +23,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#9V4SVN4JQV "INFLUENZA A VIRUS A/Delaware/55/2019 CVR-45 (H1N1) WHOLE"
 
 
-* substance.strength.presentationQuantity = 15.0 'ug'
+* substance.strength.presentationQuantity = 15 'ug'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -37,7 +37,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+//* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
 
@@ -62,7 +62,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#JS7E5ZZ3AC "INFLUENZA A VIRUS A/Darwin/11/2021 (H3N2) WHOLE"
 
 
-* substance.strength.presentationQuantity = 15.0 'ug'
+* substance.strength.presentationQuantity = 15 'ug'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -76,7 +76,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+//* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
 
@@ -102,7 +102,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#BFA4LSE5QQ "INFLUENZA B VIRUS B/Singapore/WUH4618/2021 WHOLE"
 
 
-* substance.strength.presentationQuantity = 15.0 'ug'
+* substance.strength.presentationQuantity = 15 'ug'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -116,7 +116,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+//* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
 
@@ -142,7 +142,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#B3EV5T8SUF "INFLUENZA B VIRUS B/SINGAPORE/INFTT-16-0610/2016 WHOLE"
 
 
-* substance.strength.presentationQuantity = 15.0 'ug'
+* substance.strength.presentationQuantity = 15 'ug'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -156,7 +156,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+//* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
 
@@ -191,7 +191,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+//* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
 
@@ -226,7 +226,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+//* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
 
@@ -261,7 +261,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+//* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
 
@@ -296,7 +296,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+//* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
 
@@ -333,7 +333,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+//* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
 
@@ -368,4 +368,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+//* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)

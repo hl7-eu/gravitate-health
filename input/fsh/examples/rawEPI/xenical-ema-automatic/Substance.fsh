@@ -17,7 +17,7 @@ Usage: #example
 
  // Reference to Organization: MAH
  
-* manufacturer = Reference(org-4aaf055c3c7bab96579cd18496b045eb)
+* manufacturer = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
 
  
 

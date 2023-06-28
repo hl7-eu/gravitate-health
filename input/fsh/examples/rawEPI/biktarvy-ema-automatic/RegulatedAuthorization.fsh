@@ -26,12 +26,12 @@ Usage: #example
 * statusDate = "2018-06-21T13:28:17Z"
 // * holder = Reference(sanofiaventisgroupe)
  
+* holder = Reference(mah-715f8a161ed438d0584510e5b4512caa) 
+
+
+
+
  
-
-
-* holder = Reference(org-715f8a161ed438d0584510e5b4512caa)
-
-
  
- 
-
+ // Reference to Organization: EMA
+* regulator = Reference(mra-1133a7374c78f1d40f41885344f06a5a)

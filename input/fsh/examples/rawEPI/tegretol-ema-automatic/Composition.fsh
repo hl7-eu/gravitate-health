@@ -21,7 +21,11 @@ Usage: #example
 
 * subject = Reference(mpac2bb08bb4cc3f51f8c4e3513034c019)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-990eca26437774887062cfa11ea1d904)
+
+ 
+ // Reference to Organization: MAH
+* author = Reference(mah-990eca26437774887062cfa11ea1d904)
+
 
 * title = "TEST PURPOSES ONLY - Tegretol 200 mg tablets"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

@@ -35,9 +35,16 @@ Usage: #example
 {%- endif %}
 
 * date = "{{row['date']}}"
+
 {% if data["turn"] != "1" %}
-* author = Reference({{data["references"]["Organization"][0][0]}})
+{% for refs in data["references"]["Organization"] %} 
+{% if refs[0].startswith("mah") %}
+ // Reference to Organization: MAH
+* author = Reference({{refs[0]}})
 {%- endif %}
+{%- endfor %}
+{%- endif %}
+
 
 
 * title = "TEST PURPOSES ONLY - {{row['name']}}"

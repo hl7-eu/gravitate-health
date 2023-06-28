@@ -32,7 +32,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-65db33d6be47a433e6e9e9c2980ea7a4)
+//* manufacturer.manufacturer = Reference(mah-65db33d6be47a433e6e9e9c2980ea7a4)
 
 
 
@@ -67,7 +67,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-65db33d6be47a433e6e9e9c2980ea7a4)
+//* manufacturer.manufacturer = Reference(mah-65db33d6be47a433e6e9e9c2980ea7a4)
 
 
 
@@ -92,7 +92,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#362O9ITL9D "paracetamol"
 
 
-* substance.strength.presentationQuantity = 1000.0 'mg'
+* substance.strength.presentationQuantity = 1000 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -106,7 +106,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-65db33d6be47a433e6e9e9c2980ea7a4)
+//* manufacturer.manufacturer = Reference(mah-65db33d6be47a433e6e9e9c2980ea7a4)
 
 
 
@@ -141,7 +141,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-65db33d6be47a433e6e9e9c2980ea7a4)
+//* manufacturer.manufacturer = Reference(mah-65db33d6be47a433e6e9e9c2980ea7a4)
 
 
 
@@ -176,7 +176,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-65db33d6be47a433e6e9e9c2980ea7a4)
+//* manufacturer.manufacturer = Reference(mah-65db33d6be47a433e6e9e9c2980ea7a4)
 
 
 
@@ -211,4 +211,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-65db33d6be47a433e6e9e9c2980ea7a4)
+//* manufacturer.manufacturer = Reference(mah-65db33d6be47a433e6e9e9c2980ea7a4)

@@ -21,7 +21,11 @@ Usage: #example
 
 * subject = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)
 * date = "2023-04-22T15:15:46Z"
-* author = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+
+ 
+ // Reference to Organization: MAH
+* author = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
+
 
 * title = "TEST PURPOSES ONLY - Flucelvax"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

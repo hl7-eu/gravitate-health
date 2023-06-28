@@ -5,11 +5,10 @@ Title: "ePI document Bundle for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMID
 Description: "Bundle for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet ePI document"
 Usage: #example
 
-* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "xx"
 * type = #document
-//* timestamp = "2023-06-27T16:20:41Z"
+//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
 
@@ -105,8 +104,8 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-b7afabe350ac415f70e662ba6c703030"
-* entry[=].resource = org-b7afabe350ac415f70e662ba6c703030 
+* entry[+].fullUrl = "Organization/mah-b7afabe350ac415f70e662ba6c703030"
+* entry[=].resource = mah-b7afabe350ac415f70e662ba6c703030 
  
 
 // PackagedProductDefinition

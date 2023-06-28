@@ -1,8 +1,9 @@
 
 
+//Manufacturer
 
 
-Instance: org-173fde4cb6b1018cb7ec8ab708d3961c
+Instance: man-173fde4cb6b1018cb7ec8ab708d3961c
 
 InstanceOf: OrganizationUvEpi
 Title: "GLAXO WELLCOME, S.A. as Manufacturer"
@@ -29,9 +30,10 @@ Usage: #example
     * country = "ES"
     
 
+//Marketing authorisation holder
 
 
-Instance: org-31ff1af739c7dcf77386a86f8dd83d29
+Instance: mah-31ff1af739c7dcf77386a86f8dd83d29
 
 InstanceOf: OrganizationUvEpi
 Title: "ViiV Healthcare BV as Marketing authorisation holder"
@@ -58,9 +60,10 @@ Usage: #example
     * country = "NL"
     
 
+//Medicines Regulatory Authority
 
 
-Instance: org-7c9b97127f73ff3605a10eb1c2cc24d1
+Instance: mra-7c9b97127f73ff3605a10eb1c2cc24d1
 
 InstanceOf: OrganizationUvEpi
 Title: "European Medicines Agency as Medicines Regulatory Authority"

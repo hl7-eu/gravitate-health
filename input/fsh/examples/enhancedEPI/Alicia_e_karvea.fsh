@@ -18,7 +18,7 @@ Usage: #inline
 
 * subject = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-fe4fee458a4f24fccb770d311350f67c)
+* author = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 * title = "TEST PURPOSES ONLY - Karvea"
 
@@ -596,8 +596,8 @@ Usage: #example
 * entry[+].fullUrl = "RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee"
 * entry[=].resource = authorizationdcaa4d32aa6658a8df831551503e52ee 
 // Organization
-* entry[+].fullUrl = "Organization/org-fe4fee458a4f24fccb770d311350f67c"
-* entry[=].resource = org-fe4fee458a4f24fccb770d311350f67c 
+* entry[+].fullUrl = "Organization/mah-fe4fee458a4f24fccb770d311350f67c"
+* entry[=].resource = mah-fe4fee458a4f24fccb770d311350f67c 
 // PackagedProductDefinition
 * entry[+].fullUrl = "PackagedProductDefinition/ppd-a223062bf3faf7acb3e6e80760fa4e91"
 * entry[=].resource = ppd-a223062bf3faf7acb3e6e80760fa4e91 

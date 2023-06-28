@@ -5,11 +5,10 @@ Title: "ePI document Bundle for dovato Package Leaflet"
 Description: "Bundle for dovato Package Leaflet ePI document"
 Usage: #example
 
-* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/19/1370/001"
 * type = #document
-//* timestamp = "2023-06-27T16:20:41Z"
+//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
 
@@ -82,18 +81,18 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-173fde4cb6b1018cb7ec8ab708d3961c"
-* entry[=].resource = org-173fde4cb6b1018cb7ec8ab708d3961c 
+* entry[+].fullUrl = "Organization/man-173fde4cb6b1018cb7ec8ab708d3961c"
+* entry[=].resource = man-173fde4cb6b1018cb7ec8ab708d3961c 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-31ff1af739c7dcf77386a86f8dd83d29"
-* entry[=].resource = org-31ff1af739c7dcf77386a86f8dd83d29 
+* entry[+].fullUrl = "Organization/mah-31ff1af739c7dcf77386a86f8dd83d29"
+* entry[=].resource = mah-31ff1af739c7dcf77386a86f8dd83d29 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-7c9b97127f73ff3605a10eb1c2cc24d1"
-* entry[=].resource = org-7c9b97127f73ff3605a10eb1c2cc24d1 
+* entry[+].fullUrl = "Organization/mra-7c9b97127f73ff3605a10eb1c2cc24d1"
+* entry[=].resource = mra-7c9b97127f73ff3605a10eb1c2cc24d1 
  
 
 // PackagedProductDefinition

@@ -21,7 +21,11 @@ Usage: #example
 
 * subject = Reference(mpf97db27e6330f77484eb8425ad2913cd)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-fda7514c0dcb7b5f0176cb5af274235f)
+
+ 
+ // Reference to Organization: MAH
+* author = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+
 
 * title = "TEST PURPOSES ONLY - humira"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official

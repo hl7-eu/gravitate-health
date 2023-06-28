@@ -5,11 +5,10 @@ Title: "ePI document Bundle for Suliqua 100 units/ml + 50 micrograms/ml solution
 Description: "Bundle for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen Package Leaflet ePI document"
 Usage: #example
 
-* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/16/1157/003"
 * type = #document
-//* timestamp = "2023-06-27T16:20:41Z"
+//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
 
@@ -95,23 +94,23 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-16019cea3a857659d2c5a2018c2260df"
-* entry[=].resource = org-16019cea3a857659d2c5a2018c2260df 
+* entry[+].fullUrl = "Organization/mah-16019cea3a857659d2c5a2018c2260df"
+* entry[=].resource = mah-16019cea3a857659d2c5a2018c2260df 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-ab61fc2db513f79636782643b3407aa5"
-* entry[=].resource = org-ab61fc2db513f79636782643b3407aa5 
+* entry[+].fullUrl = "Organization/mapi-ab61fc2db513f79636782643b3407aa5"
+* entry[=].resource = mapi-ab61fc2db513f79636782643b3407aa5 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-b9c6316075799071b2706c402f9fa388"
-* entry[=].resource = org-b9c6316075799071b2706c402f9fa388 
+* entry[+].fullUrl = "Organization/mbr-b9c6316075799071b2706c402f9fa388"
+* entry[=].resource = mbr-b9c6316075799071b2706c402f9fa388 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-ff74c5498eb163c2fb470e9fd175a0c1"
-* entry[=].resource = org-ff74c5498eb163c2fb470e9fd175a0c1 
+* entry[+].fullUrl = "Organization/mra-ff74c5498eb163c2fb470e9fd175a0c1"
+* entry[=].resource = mra-ff74c5498eb163c2fb470e9fd175a0c1 
  
 
 // PackagedProductDefinition

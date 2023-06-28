@@ -17,7 +17,7 @@ Usage: #inline
 
 * subject = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
 * date = "2022-02-16T13:28:17Z"
-* author = Reference(org-1133a7374c78f1d40f41885344f06a5a)
+* author = Reference(mra-1133a7374c78f1d40f41885344f06a5a)
 
 * title = "TEST PURPOSES ONLY - Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
@@ -532,13 +532,13 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-715f8a161ed438d0584510e5b4512caa"
-* entry[=].resource = org-715f8a161ed438d0584510e5b4512caa 
+* entry[+].fullUrl = "Organization/mah-715f8a161ed438d0584510e5b4512caa"
+* entry[=].resource = mah-715f8a161ed438d0584510e5b4512caa 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-1133a7374c78f1d40f41885344f06a5a"
-* entry[=].resource = org-1133a7374c78f1d40f41885344f06a5a 
+* entry[+].fullUrl = "Organization/mra-1133a7374c78f1d40f41885344f06a5a"
+* entry[=].resource = mra-1133a7374c78f1d40f41885344f06a5a 
  
 
 // PackagedProductDefinition

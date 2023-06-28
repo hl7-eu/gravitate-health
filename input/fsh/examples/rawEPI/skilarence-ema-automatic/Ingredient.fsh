@@ -32,7 +32,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-43da1186bd45a53209a5c5aa849ac823)
+//* manufacturer.manufacturer = Reference(mah-43da1186bd45a53209a5c5aa849ac823)
 
 
 
@@ -67,7 +67,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-43da1186bd45a53209a5c5aa849ac823)
+//* manufacturer.manufacturer = Reference(mah-43da1186bd45a53209a5c5aa849ac823)
 
 
 
@@ -92,7 +92,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#FO2303MNI2 "DIMETHYL FUMARATE"
 
 
-* substance.strength.presentationQuantity = 120.0 'mg'
+* substance.strength.presentationQuantity = 120 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -106,4 +106,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-43da1186bd45a53209a5c5aa849ac823)
+//* manufacturer.manufacturer = Reference(mah-43da1186bd45a53209a5c5aa849ac823)

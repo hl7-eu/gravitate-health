@@ -1,6 +1,6 @@
 import sys
 from os import listdir, getcwd, mkdir, rmdir
-from creator import create_from_template
+from creator import create_from_template, quality_checks
 
 # total arguments
 n = len(sys.argv)
@@ -25,3 +25,4 @@ for file in listdir(DATA_FOLDER):
         print(file)
         print("**" * 50)
         create_from_template(file, TEMPLATE_FOLDER, OUTPUT_FOLDER)
+        quality_checks(DATA_FILE=file, OUTPUT_FOLDER=OUTPUT_FOLDER)

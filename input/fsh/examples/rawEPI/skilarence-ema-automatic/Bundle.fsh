@@ -5,11 +5,10 @@ Title: "ePI document Bundle for skilarence Package Leaflet"
 Description: "Bundle for skilarence Package Leaflet ePI document"
 Usage: #example
 
-* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/17/1201/002"
 * type = #document
-//* timestamp = "2023-06-27T16:20:41Z"
+//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
 
@@ -60,8 +59,8 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-43da1186bd45a53209a5c5aa849ac823"
-* entry[=].resource = org-43da1186bd45a53209a5c5aa849ac823 
+* entry[+].fullUrl = "Organization/mah-43da1186bd45a53209a5c5aa849ac823"
+* entry[=].resource = mah-43da1186bd45a53209a5c5aa849ac823 
  
 
 // PackagedProductDefinition

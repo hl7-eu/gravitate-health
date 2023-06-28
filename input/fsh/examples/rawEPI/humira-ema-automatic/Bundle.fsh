@@ -5,11 +5,10 @@ Title: "ePI document Bundle for humira Package Leaflet"
 Description: "Bundle for humira Package Leaflet ePI document"
 Usage: #example
 
-* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "nan"
 * type = #document
-//* timestamp = "2023-06-27T16:20:41Z"
+//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
 
@@ -90,8 +89,8 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-fda7514c0dcb7b5f0176cb5af274235f"
-* entry[=].resource = org-fda7514c0dcb7b5f0176cb5af274235f 
+* entry[+].fullUrl = "Organization/mah-fda7514c0dcb7b5f0176cb5af274235f"
+* entry[=].resource = mah-fda7514c0dcb7b5f0176cb5af274235f 
  
 
 // PackagedProductDefinition

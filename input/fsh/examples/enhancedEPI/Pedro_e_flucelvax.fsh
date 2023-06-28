@@ -20,7 +20,7 @@ Usage: #inline
 
 * subject = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)
 * date = "2023-04-22T15:15:46Z"
-* author = Reference(org-45fe50eae508b5755dd140ab2093eb5e)
+* author = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 * title = "TEST PURPOSES ONLY - asdad"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
@@ -308,8 +308,8 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-45fe50eae508b5755dd140ab2093eb5e"
-* entry[=].resource = org-45fe50eae508b5755dd140ab2093eb5e 
+* entry[+].fullUrl = "Organization/mah-45fe50eae508b5755dd140ab2093eb5e"
+* entry[=].resource = mah-45fe50eae508b5755dd140ab2093eb5e 
  
 
 // PackagedProductDefinition

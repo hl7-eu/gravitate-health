@@ -5,11 +5,10 @@ Title: "ePI document Bundle for cinitrapide Package Leaflet"
 Description: "Bundle for cinitrapide Package Leaflet ePI document"
 Usage: #example
 
-* language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/96/007/035"
 * type = #document
-//* timestamp = "2023-06-27T16:20:41Z"
+//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
 
@@ -75,8 +74,8 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/org-94f8082c22713e050c3f2b55ea9d53ff"
-* entry[=].resource = org-94f8082c22713e050c3f2b55ea9d53ff 
+* entry[+].fullUrl = "Organization/mah-94f8082c22713e050c3f2b55ea9d53ff"
+* entry[=].resource = mah-94f8082c22713e050c3f2b55ea9d53ff 
  
 
 // PackagedProductDefinition

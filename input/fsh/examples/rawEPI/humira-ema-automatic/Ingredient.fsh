@@ -32,7 +32,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
 
@@ -67,7 +67,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
 
@@ -92,7 +92,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#FYS6T7F842 "adalimumab"
 
 
-* substance.strength.presentationQuantity = 40.0 'mg'
+* substance.strength.presentationQuantity = 40 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB  "active ingredient - basis of strength"
 
@@ -106,7 +106,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
 
@@ -141,7 +141,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
 
@@ -176,7 +176,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
 
@@ -211,7 +211,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
 
@@ -246,7 +246,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
 
@@ -281,7 +281,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
 
@@ -316,4 +316,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)

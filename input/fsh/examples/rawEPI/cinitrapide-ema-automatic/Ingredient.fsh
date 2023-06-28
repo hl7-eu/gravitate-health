@@ -32,7 +32,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-94f8082c22713e050c3f2b55ea9d53ff)
+//* manufacturer.manufacturer = Reference(mah-94f8082c22713e050c3f2b55ea9d53ff)
 
 
 
@@ -67,7 +67,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-94f8082c22713e050c3f2b55ea9d53ff)
+//* manufacturer.manufacturer = Reference(mah-94f8082c22713e050c3f2b55ea9d53ff)
 
 
 
@@ -92,7 +92,7 @@ Usage: #example
 * substance.code.concept.coding = $ginas#R8I97I2L24 "CINITAPRIDE"
 
 
-* substance.strength.presentationQuantity = 1.0 'mg'
+* substance.strength.presentationQuantity = 1 'mg'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
@@ -106,7 +106,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-94f8082c22713e050c3f2b55ea9d53ff)
+//* manufacturer.manufacturer = Reference(mah-94f8082c22713e050c3f2b55ea9d53ff)
 
 
 
@@ -141,7 +141,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-94f8082c22713e050c3f2b55ea9d53ff)
+//* manufacturer.manufacturer = Reference(mah-94f8082c22713e050c3f2b55ea9d53ff)
 
 
 
@@ -176,7 +176,7 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-94f8082c22713e050c3f2b55ea9d53ff)
+//* manufacturer.manufacturer = Reference(mah-94f8082c22713e050c3f2b55ea9d53ff)
 
 
 
@@ -211,4 +211,4 @@ Usage: #example
  
 
 
-* manufacturer.manufacturer = Reference(org-94f8082c22713e050c3f2b55ea9d53ff)
+//* manufacturer.manufacturer = Reference(mah-94f8082c22713e050c3f2b55ea9d53ff)
