@@ -10,10 +10,10 @@ The definition of the several steps in the processing pipeline:
 <br clear="all"/>
 
 
-The focused mechanism is complex and can be understood as a multi-step process:
-1. first the lenses are attached
-2. the persona vector and IPS and consulted/consumed
-3. the necessary data elements are attached (CSS classes to certain DIVs)
+The focusing mechanism is complex and can be understood as a multi-step process:
+1. first the lenses are attached - x(ePI)
+2. the persona vector and IPS and consulted/consumed - x'(ePI)
+3. the necessary data elements are attached (CSS classes to certain DIVs) - f(ePI)
 
 This will created a focused ePI that can be used to show personalized information to the user.
 
@@ -21,9 +21,7 @@ Diagram:
 <div>{% include e2e-focusing.svg %}</div>
 <br clear="all"/>
 
-## Preprocessed
 
-It goes from the raw epi to the annoa
 ## Example lenses
 
 * **Pregancy:**  
