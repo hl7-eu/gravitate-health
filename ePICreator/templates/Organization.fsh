@@ -10,15 +10,20 @@
 //{{row["type"]}}
 {% if row["type"]| lower == "marketing authorisation holder" %}
 {% set ns.org_type= "mah" %}
-{% elif row["type"] == "Medicines Regulatory Authority" %}
+{% elif row["type"]|lower == "medicines regulatory authority" %}
 {% set ns.org_type= "mra" %}
-{% elif row["type"] == "Manufacturer Batch release" %}
-{% set ns.org_type= "mbr" %}
-{% elif row["type"] == "Manufacturer API" %}
-{% set ns.org_type= "mapi" %}
-{% elif row["type"] == "Manufacturer" %}
+{% elif row["type"]|lower == "manufacturer" %}
 {% set ns.org_type= "man" %}
+{% elif row["type"]|lower == "master file holder" %}
+{% set ns.org_type= "mfh" %}
+{% elif row["type"]|lower == "contact location" %}
+{% set ns.org_type= "cl" %}
+{% elif row["type"]|lower == "manufacturer batch release" %}
+{% set ns.org_type= "mbr" %}
+{% elif row["type"]|lower == "manufacturer api" %}
+{% set ns.org_type= "mapi" %}
 {% else %}
+{{ "// ERROR[11] - Not a format for type  INDEX:{}".format(index+1)  }}
 {% set ns.org_type= "org" %}
 {% endif %}
 
@@ -34,17 +39,21 @@ Usage: #example
 * identifier.value = "{{ row["identifier"]|trim }}"
 * identifier.use = #official
 
-* active = {{ row["active"]|lower  }}
+* active = true 
+{% if ns.org_type== "mapi" or ns.org_type== "mbr" -%}
+* type = $spor-rms#220000000033  "Manufacturer"
 
+{% else %}
 * type = $spor-rms#{{row["typeID"]}}  "{{ row["type"]  }}"
+{% endif %}
 * type.text = "{{ row["type"]  }}"
 * name = "{{ row["name"]  }}"
 
 * contact
   * address
     * text = "{{ row["address_line"]  }} {{ row["address_city"]  }} {{ row["address_country"]  }}"
-    * use = #{{ row["address_use"]  }}
-    * type = #{{ row["address_type"]  }}
+    * use = #work
+    * type = #physical
     * line = "{{ row["address_line"]|trim  }}"
     * city = "{{ row["address_city"]|trim  }}"
     * country = "{{ row["address_country"]|trim  }}"

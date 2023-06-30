@@ -14,8 +14,7 @@ Usage: #example
 * identifier.value = "ORG-100000426"
 * identifier.use = #official
 
-* active = true
-
+* active = true 
 * type = $spor-rms#220000000034  "Marketing authorisation holder"
 * type.text = "Marketing authorisation holder"
 * name = "Eli Lilly Nederland B.V."
@@ -44,9 +43,9 @@ Usage: #example
 * identifier.value = "ORG-100000156"
 * identifier.use = #official
 
-* active = true
+* active = true 
+* type = $spor-rms#220000000033  "Manufacturer"
 
-* type = $spor-rms#220000000033  "Manufacturer API"
 * type.text = "Manufacturer API"
 * name = "Eli Lilly and Company"
 
@@ -74,8 +73,7 @@ Usage: #example
 * identifier.value = "ORG-100003996"
 * identifier.use = #official
 
-* active = true
-
+* active = true 
 * type = $spor-rms#220000000033  "Manufacturer"
 * type.text = "Manufacturer"
 * name = "Lilly S.A."

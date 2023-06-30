@@ -8,7 +8,7 @@ Usage: #example
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "xx"
 * type = #document
-//* timestamp = "2023-06-30T11:43:06Z"
+//* timestamp = "2023-06-30T14:12:15Z"
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
 
