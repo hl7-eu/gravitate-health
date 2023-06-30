@@ -8,7 +8,6 @@ import re
 from datetime import datetime
 from validator import pre_validation
 import hashlib
-from html import unescape
 
 context = {"now": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")}
 
@@ -21,60 +20,60 @@ if n < 3:
     )
 
 
-# Custom filter method
-def regex_replace(s, find, replace):
-    """A non-optimal implementation of a regex filter"""
-    return re.sub(find, replace, s)
-
-
 DATA_FILE = sys.argv[1]
 TEMPLATE_FOLDER = sys.argv[2]
 OUTPUT_FOLDER = sys.argv[3]
 
-env = Environment(loader=FileSystemLoader(TEMPLATE_FOLDER), trim_blocks=True)
-env.filters["regex_replace"] = regex_replace
+if TEMPLATE_FOLDER[-1] != "/":
+    TEMPLATE_FOLDER += "/"
+if OUTPUT_FOLDER[-1] != "/":
+    OUTPUT_FOLDER += "/"
 
 
-def html_unescape(s):
-    return (
-        s.replace("&nbsp;", "")
-        .replace("<br>", "")
-        .replace("&oacute;", "ó")
-        .replace("&aacute;", "á")
-        .replace("&eacute;", "é")
-        .replace("&iacute;", "í")
-        .replace("&ntilde;", "ñ")
-        .replace("&rsquo;", "'")
-        .replace("&uacute;", "ú")
-        .replace("&uuml;", "ü")
-    )
+def create_env(TEMPLATE_FOLDER):
+
+    env = Environment(loader=FileSystemLoader(TEMPLATE_FOLDER), trim_blocks=True)
+
+    # Custom filter method
+    def regex_replace(s, find, replace):
+        """A non-optimal implementation of a regex filter"""
+        return re.sub(find, replace, s)
+
+    env.filters["regex_replace"] = regex_replace
+
+    def html_unescape(s):
+        return (
+            s.replace("&nbsp;", "")
+            .replace("<br>", "")
+            .replace("&oacute;", "ó")
+            .replace("&aacute;", "á")
+            .replace("&eacute;", "é")
+            .replace("&iacute;", "í")
+            .replace("&ntilde;", "ñ")
+            .replace("&rsquo;", "'")
+            .replace("&uacute;", "ú")
+            .replace("&uuml;", "ü")
+        )
+
+    env.filters["html_unescape"] = html_unescape
+
+    def hash_id(string):
+        hash_object = hashlib.md5(bytes(string, "utf-8"))
+        return str(hash_object.hexdigest())
+
+    env.filters["create_hash_id"] = hash_id
+    return env
 
 
-env.filters["html_unescape"] = html_unescape
-
-
-def hash_id(string):
-    hash_object = hashlib.md5(bytes(string, "utf-8"))
-    return str(hash_object.hexdigest())
-
-
-env.filters["create_hash_id"] = hash_id
-
-
-def quality_checks(DATA_FILE, OUTPUT_FOLDER):
+def quality_checks(DATA_FILE, OUTPUT_FOLDER, major_name):
     if OUTPUT_FOLDER[-1] != "/":
         OUTPUT_FOLDER += "/"
 
-    # major_name = DATA_FILE.lower().split("/")[-1].split(".")[0]
-    major_name = DATA_FILE.lower().split("/")[-1].split(".")[0].replace(" ", "_")
-    # real_output_folder = OUTPUT_FOLDER + major_name + "-ema-automatic/"
-    real_output_folder = OUTPUT_FOLDER + major_name + "-ema-automatic/"
-
     # writing to file
 
-    for path in listdir(real_output_folder):
+    for path in listdir(OUTPUT_FOLDER):
         print(path)
-        file = open(real_output_folder + "/" + path, "r")
+        file = open(OUTPUT_FOLDER + "/" + path, "r")
         # with open(file) as f:
         lines = file.readlines()
         for idx, line in enumerate(lines):
@@ -89,7 +88,7 @@ def quality_checks(DATA_FILE, OUTPUT_FOLDER):
                 print(line)
 
 
-def create_from_template(DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER):
+def create_from_template(env, DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER, major_name):
     elements = [
         "AdministrableProductDefinition",
         "Substance",
@@ -107,20 +106,13 @@ def create_from_template(DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER):
     # create temp_folder:
     print(DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER)
 
-    if TEMPLATE_FOLDER[-1] != "/":
-        TEMPLATE_FOLDER += "/"
-    if OUTPUT_FOLDER[-1] != "/":
-        OUTPUT_FOLDER += "/"
-
     temp_folder = getcwd() + "/temp/"
 
     if not exists(temp_folder):
         mkdir(temp_folder)
-    major_name = DATA_FILE.lower().split("/")[-1].split(".")[0].replace(" ", "_")
-    real_output_folder = OUTPUT_FOLDER + major_name + "-ema-automatic/"
-    print(real_output_folder)
-    if not exists(real_output_folder):
-        mkdir(real_output_folder)
+    print(OUTPUT_FOLDER)
+    if not exists(OUTPUT_FOLDER):
+        mkdir(OUTPUT_FOLDER)
     for sheet in elements:
         # read an excel file and convert
         # into a dataframe object
@@ -150,33 +142,20 @@ def create_from_template(DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER):
 
         df = df.astype(str)
         data["data"] = df
-        t.stream(data=data, **context).dump(real_output_folder + n_file + ".fsh")
+        t.stream(data=data, **context).dump(OUTPUT_FOLDER + n_file + ".fsh")
 
         # get ids:
         ## goes for all, checks for ID and adds to list
         ## then creates again with references
     object_ids = {}
-    for file in listdir(real_output_folder):
+    for file in listdir(OUTPUT_FOLDER):
         #  print(file)
         # n_file = file.split(".")[0]
-        with open(real_output_folder + file, "r") as file1:
+        with open(OUTPUT_FOLDER + file, "r") as file1:
             Lines = file1.readlines()
             instances = []
             ids = []
-            type_ = []
-            # if file.split(".")[0] == "Organization":
-            #     for line in Lines:
-            #         if "Instance: " in line:
-            #             instances.append(line.replace("Instance: ", "").strip())
-            #         if "* type = $" in line:
-            #             # print(line)
-            #             type_.append(
-            #                 line.split("  ")[-1].replace('"', "").replace('"\n', "")
-            #             )
-            #     object_ids[file.split(".")[0]] = {
-            #         k: v for k, v in zip(type_, instances)
-            #     }
-            # else:
+
             for line in Lines:
 
                 if "Instance: " in line:
@@ -206,9 +185,21 @@ def create_from_template(DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER):
         df = df.astype(str)
         data["data"] = df
         data["turn"] = "2"
-        t.stream(data=data, **context).dump(real_output_folder + n_file + ".fsh")
+        t.stream(data=data, **context).dump(OUTPUT_FOLDER + n_file + ".fsh")
 
 
 if __name__ == "__main__":
-    create_from_template(DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER)
-    quality_checks(DATA_FILE=DATA_FILE, OUTPUT_FOLDER=OUTPUT_FOLDER)
+    major_name = DATA_FILE.lower().split("/")[-1].split(".")[0].replace(" ", "_")
+    real_output_folder = OUTPUT_FOLDER + major_name + "-ema-automatic/"
+
+    env = create_env(TEMPLATE_FOLDER=TEMPLATE_FOLDER)
+    create_from_template(
+        env,
+        DATA_FILE=DATA_FILE,
+        TEMPLATE_FOLDER=TEMPLATE_FOLDER,
+        OUTPUT_FOLDER=real_output_folder,
+        major_name=major_name,
+    )
+    quality_checks(
+        DATA_FILE=DATA_FILE, OUTPUT_FOLDER=real_output_folder, major_name=major_name
+    )
