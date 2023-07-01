@@ -3,6 +3,8 @@
 //Marketing authorisation holder
 
 
+
+
 Instance: mah-94f8082c22713e050c3f2b55ea9d53ff
 
 InstanceOf: OrganizationUvEpi
@@ -13,12 +15,11 @@ Usage: #example
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000789"
 * identifier.use = #official
-
-* active = true
-
+* active = true 
 * type = $spor-rms#220000000034  "Marketing authorisation holder"
-* type.text = "Marketing authorisation holder"
+//* type.text = "Marketing authorisation holder"
 * name = "Lacer, S.A. - Boters, 5"
+
 
 * contact
   * address

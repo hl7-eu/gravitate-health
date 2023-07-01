@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-humira-mannitol
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Mannitol"
@@ -27,19 +23,13 @@ Usage: #example
 * for = Reference(mid-9b5b17469311c2ea4d1d08419748b4fb)
 * for[+] = Reference(mpf97db27e6330f77484eb8425ad2913cd)
 * for[+] = Reference(ap-9b5b17469311c2ea4d1d08419748b4fb)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
-
-
-
 Instance: ingredient-for-humira-polysorbate80
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Polysorbate 80"
@@ -62,19 +52,13 @@ Usage: #example
 * for = Reference(mid-9b5b17469311c2ea4d1d08419748b4fb)
 * for[+] = Reference(mpf97db27e6330f77484eb8425ad2913cd)
 * for[+] = Reference(ap-9b5b17469311c2ea4d1d08419748b4fb)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
-
-
-
 Instance: ingredient-for-humira-adalimumab
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active adalimumab"
@@ -101,19 +85,13 @@ Usage: #example
 * for = Reference(mid-9b5b17469311c2ea4d1d08419748b4fb)
 * for[+] = Reference(mpf97db27e6330f77484eb8425ad2913cd)
 * for[+] = Reference(ap-9b5b17469311c2ea4d1d08419748b4fb)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
-
-
-
 Instance: ingredient-for-humira-sterilewaterforinjection
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient STERILE WATER FOR INJECTION"
@@ -136,19 +114,13 @@ Usage: #example
 * for = Reference(mid-9b5b17469311c2ea4d1d08419748b4fb)
 * for[+] = Reference(mpf97db27e6330f77484eb8425ad2913cd)
 * for[+] = Reference(ap-9b5b17469311c2ea4d1d08419748b4fb)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
-
-
-
 Instance: ingredient-for-humira-citricacidmonohydrate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient CITRIC ACID MONOHYDRATE"
@@ -171,19 +143,13 @@ Usage: #example
 * for = Reference(mid-9b5b17469311c2ea4d1d08419748b4fb)
 * for[+] = Reference(mpf97db27e6330f77484eb8425ad2913cd)
 * for[+] = Reference(ap-9b5b17469311c2ea4d1d08419748b4fb)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
-
-
-
 Instance: ingredient-for-humira-sodiumcitrateunspecifiedform
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SODIUM CITRATE, UNSPECIFIED FORM"
@@ -206,19 +172,13 @@ Usage: #example
 * for = Reference(mid-9b5b17469311c2ea4d1d08419748b4fb)
 * for[+] = Reference(mpf97db27e6330f77484eb8425ad2913cd)
 * for[+] = Reference(ap-9b5b17469311c2ea4d1d08419748b4fb)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
-
-
-
 Instance: ingredient-for-humira-sodiumphosphatemonobasicdihydrate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SODIUM PHOSPHATE, MONOBASIC, DIHYDRATE"
@@ -241,19 +201,13 @@ Usage: #example
 * for = Reference(mid-9b5b17469311c2ea4d1d08419748b4fb)
 * for[+] = Reference(mpf97db27e6330f77484eb8425ad2913cd)
 * for[+] = Reference(ap-9b5b17469311c2ea4d1d08419748b4fb)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
-
-
-
 Instance: ingredient-for-humira-sodiumphosphatedibasicdihydrate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SODIUM PHOSPHATE, DIBASIC, DIHYDRATE"
@@ -276,19 +230,13 @@ Usage: #example
 * for = Reference(mid-9b5b17469311c2ea4d1d08419748b4fb)
 * for[+] = Reference(mpf97db27e6330f77484eb8425ad2913cd)
 * for[+] = Reference(ap-9b5b17469311c2ea4d1d08419748b4fb)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
 
 
-
-
-
 Instance: ingredient-for-humira-sodiumchloride
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Sodium chloride"
@@ -311,8 +259,6 @@ Usage: #example
 * for = Reference(mid-9b5b17469311c2ea4d1d08419748b4fb)
 * for[+] = Reference(mpf97db27e6330f77484eb8425ad2913cd)
 * for[+] = Reference(ap-9b5b17469311c2ea4d1d08419748b4fb)
-// Reference to Organization:  Reference to MAH
-
  
 
 

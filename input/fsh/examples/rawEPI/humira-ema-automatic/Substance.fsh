@@ -8,11 +8,11 @@ Usage: #example
 * identifier.value = "FYS6T7F842"
 * identifier.use = #official
 
+
 * version = "1"
 
-* status = https://gsrs.ncats.nih.gov/ginas/app/beta/#1 "Validated (UNII)"
+* status = http://hl7.org/fhir/publication-status#active
 
-//* description = "nan"
 
 
  // Reference to Organization: MAH
@@ -21,7 +21,5 @@ Usage: #example
 
 * structure.molecularFormula = "C6448H10026O2016N1732S42"
 
-//* name.name = "nan"
 
 
-//* name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#nan "nan"

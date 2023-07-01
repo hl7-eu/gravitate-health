@@ -5,12 +5,14 @@ Title: "ePI document Bundle for humira Package Leaflet"
 Description: "Bundle for humira Package Leaflet ePI document"
 Usage: #example
 
+
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "nan"
+* identifier.value = "sid"
 * type = #document
-//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
+
 * language = #en
+
 
 // Composition
 * entry[0].fullUrl = "Composition/composition3a3583227b4c5b0887f1e0d38269b469"

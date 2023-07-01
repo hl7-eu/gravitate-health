@@ -12,12 +12,10 @@ Usage: #example
 
 * formOf = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
 * administrableDoseForm = $spor-rms#10219000 "Tablet"
-* unitOfPresentation = $spor-rms#nan "nan"
-
-//this is just manufactured with extra steps?
 
 
-//reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
+
+
 * producedFrom = Reference(mid-14ba4cb05b11f838919ef39edd3e0cdf)
 
 

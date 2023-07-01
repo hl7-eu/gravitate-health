@@ -5,12 +5,14 @@ Title: "ePI document Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet"
 Description: "Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet ePI document"
 Usage: #example
 
+
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "xx"
 * type = #document
-//* timestamp = "2023-06-30T14:12:15Z"
 * timestamp = "2023-06-27T10:09:22Z"
+
 * language = #en
+
 
 // Composition
 * entry[0].fullUrl = "Composition/composition45f3604d61f93f5f026bea5d5824af10"

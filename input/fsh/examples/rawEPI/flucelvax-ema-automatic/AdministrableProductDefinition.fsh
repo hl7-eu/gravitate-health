@@ -14,10 +14,8 @@ Usage: #example
 * administrableDoseForm = $spor-rms#100000074063 "suspension for injection in pre-filled syringe"
 * unitOfPresentation = $spor-rms#200000002150 "Syringe"
 
-//this is just manufactured with extra steps?
 
 
-//reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 * producedFrom = Reference(mid-04c9bd6fb89d38b2d83eced2460c4dc1)
 
 

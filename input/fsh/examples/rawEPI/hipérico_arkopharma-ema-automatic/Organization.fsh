@@ -3,6 +3,8 @@
 //Marketing authorisation holder
 
 
+
+
 Instance: mah-c2a5378488511eaedce26dde272c2290
 
 InstanceOf: OrganizationUvEpi
@@ -13,12 +15,11 @@ Usage: #example
 * identifier.system = $spor-org
 * identifier.value = "xx"
 * identifier.use = #official
-
-* active = true
-
+* active = true 
 * type = $spor-rms#220000000034  "Marketing authorisation holder"
-* type.text = "Marketing authorisation holder"
+//* type.text = "Marketing authorisation holder"
 * name = "Arkopharma LABORATORIOS, S.A.U,"
+
 
 * contact
   * address

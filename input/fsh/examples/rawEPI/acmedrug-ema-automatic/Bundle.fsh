@@ -5,12 +5,14 @@ Title: "ePI document Bundle for acmedrug Package Leaflet"
 Description: "Bundle for acmedrug Package Leaflet ePI document"
 Usage: #example
 
+
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "acmedrug-xx"
 * type = #document
-//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
+
 * language = #en
+
 
 // Composition
 * entry[0].fullUrl = "Composition/composition5aa8042f9b2bea12d814ccaf27f6d64e"

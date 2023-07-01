@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-mirtazapine-magnesiumstearate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Magnesium stearate"
@@ -27,19 +23,13 @@ Usage: #example
 * for = Reference(mid-e762a2f54b0b24fca4744b1bb7524a5b)
 * for[+] = Reference(mp7a7ff0f4e1993c2fdabba6c8d9931a52)
 * for[+] = Reference(ap-e762a2f54b0b24fca4744b1bb7524a5b)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-dbf32c7ed470ffbeb6060201f32edb29)
 
 
-
-
-
 Instance: ingredient-for-mirtazapine-lactosemonohydrate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient LACTOSE MONOHYDRATE"
@@ -62,19 +52,13 @@ Usage: #example
 * for = Reference(mid-e762a2f54b0b24fca4744b1bb7524a5b)
 * for[+] = Reference(mp7a7ff0f4e1993c2fdabba6c8d9931a52)
 * for[+] = Reference(ap-e762a2f54b0b24fca4744b1bb7524a5b)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-dbf32c7ed470ffbeb6060201f32edb29)
 
 
-
-
-
 Instance: ingredient-for-mirtazapine-mirtazapine
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Mirtazapine"
@@ -101,19 +85,13 @@ Usage: #example
 * for = Reference(mid-e762a2f54b0b24fca4744b1bb7524a5b)
 * for[+] = Reference(mp7a7ff0f4e1993c2fdabba6c8d9931a52)
 * for[+] = Reference(ap-e762a2f54b0b24fca4744b1bb7524a5b)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-dbf32c7ed470ffbeb6060201f32edb29)
 
 
-
-
-
 Instance: ingredient-for-mirtazapine-hydroxypropylcelluloseunspecified
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient HYDROXYPROPYL CELLULOSE, UNSPECIFIED"
@@ -136,19 +114,13 @@ Usage: #example
 * for = Reference(mid-e762a2f54b0b24fca4744b1bb7524a5b)
 * for[+] = Reference(mp7a7ff0f4e1993c2fdabba6c8d9931a52)
 * for[+] = Reference(ap-e762a2f54b0b24fca4744b1bb7524a5b)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-dbf32c7ed470ffbeb6060201f32edb29)
 
 
-
-
-
 Instance: ingredient-for-mirtazapine-silicacolloidalanhydrous
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SILICA, COLLOIDAL ANHYDROUS"
@@ -171,19 +143,13 @@ Usage: #example
 * for = Reference(mid-e762a2f54b0b24fca4744b1bb7524a5b)
 * for[+] = Reference(mp7a7ff0f4e1993c2fdabba6c8d9931a52)
 * for[+] = Reference(ap-e762a2f54b0b24fca4744b1bb7524a5b)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-dbf32c7ed470ffbeb6060201f32edb29)
 
 
-
-
-
 Instance: ingredient-for-mirtazapine-cornstarch
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient CORN STARCH"
@@ -206,8 +172,6 @@ Usage: #example
 * for = Reference(mid-e762a2f54b0b24fca4744b1bb7524a5b)
 * for[+] = Reference(mp7a7ff0f4e1993c2fdabba6c8d9931a52)
 * for[+] = Reference(ap-e762a2f54b0b24fca4744b1bb7524a5b)
-// Reference to Organization:  Reference to MAH
-
  
 
 

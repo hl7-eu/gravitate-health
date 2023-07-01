@@ -6,17 +6,10 @@
 {% set ns.two = row["name"]| lower | regex_replace('[^A-Za-z0-9]+', '')  %}
 {% set ns.name_to_has= ns.one ~ ns.two  %}
 
-
-
 {% if ns.name_to_has|length > 48 %}
-
 Instance: ingredient-for-{{ns.name_to_has| create_hash_id}}
-
-
 {% else %}
-
 Instance: ingredient-for-{{ data["dictionary"]["MajorName"]|lower|regex_replace('[^A-Za-z0-9]+', '')}}-{{ row["name"]| lower | regex_replace('[^A-Za-z0-9]+', '') }}
-
 {% endif %}
 
 InstanceOf: IngredientUvEpi
@@ -30,7 +23,7 @@ Usage: #example
 
 * role = $spor-rms#{{ row["roleID"]  }} "{{ row["role"]  }}"
 
-* status = #{{ row["status"]  }}
+* status = #active
 
 * substance.code.concept.coding = $ginas#{{ row["identifier"]  }} "{{ row["name"] | trim  }}"
 
@@ -49,8 +42,6 @@ Usage: #example
 * for[+] = Reference({{data["references"]["AdministrableProductDefinition"][0][0]}})
 
 {%- endif %}
-
-// Reference to Organization:  Reference to MAH
 
 {% set ns  = namespace(referenced=False) -%}
 {% if data["turn"] != "1" %}

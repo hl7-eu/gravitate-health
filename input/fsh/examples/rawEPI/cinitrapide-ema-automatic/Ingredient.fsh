@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-cinitrapide-magnesiumstearate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Magnesium stearate"
@@ -27,19 +23,13 @@ Usage: #example
 * for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-94f8082c22713e050c3f2b55ea9d53ff)
 
 
-
-
-
 Instance: ingredient-for-cinitrapide-povidoneunspecified
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient POVIDONE, UNSPECIFIED"
@@ -62,19 +52,13 @@ Usage: #example
 * for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-94f8082c22713e050c3f2b55ea9d53ff)
 
 
-
-
-
 Instance: ingredient-for-cinitrapide-cinitapride
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active CINITAPRIDE"
@@ -101,19 +85,13 @@ Usage: #example
 * for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-94f8082c22713e050c3f2b55ea9d53ff)
 
 
-
-
-
 Instance: ingredient-for-cinitrapide-silicacolloidalanhydrous
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SILICA, COLLOIDAL ANHYDROUS"
@@ -136,19 +114,13 @@ Usage: #example
 * for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-94f8082c22713e050c3f2b55ea9d53ff)
 
 
-
-
-
 Instance: ingredient-for-cinitrapide-starchpotato
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient STARCH, POTATO"
@@ -171,19 +143,13 @@ Usage: #example
 * for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-94f8082c22713e050c3f2b55ea9d53ff)
 
 
-
-
-
 Instance: ingredient-for-cinitrapide-starchcorn
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient STARCH, CORN"
@@ -206,8 +172,6 @@ Usage: #example
 * for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
-// Reference to Organization:  Reference to MAH
-
  
 
 

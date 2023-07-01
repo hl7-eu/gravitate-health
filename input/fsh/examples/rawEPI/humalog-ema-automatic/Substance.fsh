@@ -8,11 +8,11 @@ Usage: #example
 * identifier.value = "GFX7QIS1II"
 * identifier.use = #official
 
+
 * version = "1"
 
-* status = https://gsrs.ncats.nih.gov/ginas/app/beta/#1 "Validated (UNII)"
+* status = http://hl7.org/fhir/publication-status#active
 
-//* description = "nan"
 
 
  // Reference to Organization: MAH
@@ -21,7 +21,5 @@ Usage: #example
 
 * structure.molecularFormula = "C257H382O75N65S6"
 
-//* name.name = "28(SUP B)-L-LYSINE-29(SUP B)-L-PROLINEINSULIN (HUMAN)"
 * name.name = "28(SUP B)-L-LYSINE-29(SUP B)-L-PROLINEINSULIN (HUMAN)"
 
-//* name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "nan"

@@ -3,6 +3,8 @@
 //Marketing authorisation holder
 
 
+
+
 Instance: mah-16019cea3a857659d2c5a2018c2260df
 
 InstanceOf: OrganizationUvEpi
@@ -13,12 +15,11 @@ Usage: #example
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000789"
 * identifier.use = #official
-
-* active = true
-
+* active = true 
 * type = $spor-rms#220000000034  "Marketing authorisation holder"
-* type.text = "Marketing authorisation holder"
+//* type.text = "Marketing authorisation holder"
 * name = "Sanofi-Aventis Groupe"
+
 
 * contact
   * address
@@ -33,6 +34,8 @@ Usage: #example
 //Manufacturer API
 
 
+
+
 Instance: mapi-ab61fc2db513f79636782643b3407aa5
 
 InstanceOf: OrganizationUvEpi
@@ -43,12 +46,12 @@ Usage: #example
 * identifier.system = $spor-org
 * identifier.value = "ORG-100001175"
 * identifier.use = #official
+* active = true 
+* type = $spor-rms#220000000033  "Manufacturer"
 
-* active = true
-
-* type = $spor-rms#220000000033  "Manufacturer API"
-* type.text = "Manufacturer API"
+//* type.text = "Manufacturer API"
 * name = "Sanofi-Aventis Deutschland GmbH"
+
 
 * contact
   * address
@@ -63,6 +66,8 @@ Usage: #example
 //Manufacturer Batch release
 
 
+
+
 Instance: mbr-b9c6316075799071b2706c402f9fa388
 
 InstanceOf: OrganizationUvEpi
@@ -73,12 +78,12 @@ Usage: #example
 * identifier.system = $spor-org
 * identifier.value = "ORG-100001175"
 * identifier.use = #official
+* active = true 
+* type = $spor-rms#220000000033  "Manufacturer"
 
-* active = true
-
-* type = $spor-rms#220000000033  "Manufacturer Batch release"
-* type.text = "Manufacturer Batch release"
+//* type.text = "Manufacturer Batch release"
 * name = "Sanofi-Aventis Deutschland GmbH"
+
 
 * contact
   * address
@@ -93,6 +98,8 @@ Usage: #example
 //Medicines Regulatory Authority
 
 
+
+
 Instance: mra-ff74c5498eb163c2fb470e9fd175a0c1
 
 InstanceOf: OrganizationUvEpi
@@ -103,12 +110,11 @@ Usage: #example
 * identifier.system = $spor-org
 * identifier.value = "ORG-100013412"
 * identifier.use = #official
-
-* active = true
-
+* active = true 
 * type = $spor-rms#220000000032  "Medicines Regulatory Authority"
-* type.text = "Medicines Regulatory Authority"
+//* type.text = "Medicines Regulatory Authority"
 * name = "European Medicines Agency"
+
 
 * contact
   * address

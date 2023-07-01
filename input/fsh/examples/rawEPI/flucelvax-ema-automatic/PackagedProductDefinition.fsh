@@ -7,9 +7,6 @@ Description: "Flucelvax Tetra - suspension for injection in pre-filled syringe
 Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 Usage: #example
 
-* identifier.system = $spor-prod
-* identifier.value = "nan"
-* identifier.use = #official
 
 * name = "Flucelvax Tetra - suspension for injection in pre-filled syringe
 Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
@@ -29,13 +26,15 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
 * copackagedIndicator = true
 
-
 * packaging
+
   * identifier.system = $spor-prod
   * identifier.value = "xxxx"
   * type = $spor-rms#100000073498 "100000073498"
+  //* quantity = 1
   * quantity = 1
   * material = $spor-rms#200000003529 "Cardboard"
+
 
 
   * packaging.type = $spor-rms#30051000 "Pre-filled syringe"

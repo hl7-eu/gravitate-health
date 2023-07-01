@@ -8,11 +8,11 @@ Usage: #example
 * identifier.value = "95M8R751W8"
 * identifier.use = #official
 
+
 * version = "1"
 
-* status = https://gsrs.ncats.nih.gov/ginas/app/beta/#1 "Validated (UNII)"
+* status = http://hl7.org/fhir/publication-status#active
 
-//* description = "nan"
 
 
  // Reference to Organization: MAH
@@ -25,8 +25,6 @@ Usage: #example
 * molecularWeight[=].amount.value = 495.74
 * structure.molecularFormula = "C29H53NO5"
 
-//* name.name = "L-LEUCINE, N-FORMYL-, 1-((3-HEXYL-4-OXO-2-OXETANYL)METHYL)DODECYL ESTER, (2S-(2.ALPHA.(R*),3.BETA.))-"
 * name.name = "L-LEUCINE, N-FORMYL-, 1-((3-HEXYL-4-OXO-2-OXETANYL)METHYL)DODECYL ESTER, (2S-(2.ALPHA.(R*),3.BETA.))-"
 
-//* name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"
 * name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"

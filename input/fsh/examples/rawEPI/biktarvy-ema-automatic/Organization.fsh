@@ -3,6 +3,8 @@
 //Marketing authorisation holder
 
 
+
+
 Instance: mah-715f8a161ed438d0584510e5b4512caa
 
 InstanceOf: OrganizationUvEpi
@@ -13,12 +15,11 @@ Usage: #example
 * identifier.system = $spor-org
 * identifier.value = "ORG-100008368"
 * identifier.use = #official
-
-* active = true
-
+* active = true 
 * type = $spor-rms#220000000034  "Marketing authorisation holder"
-* type.text = "Marketing authorisation holder"
+//* type.text = "Marketing authorisation holder"
 * name = "Gilead Sciences Ireland UC"
+
 
 * contact
   * address
@@ -33,6 +34,8 @@ Usage: #example
 //Medicines Regulatory Authority
 
 
+
+
 Instance: mra-1133a7374c78f1d40f41885344f06a5a
 
 InstanceOf: OrganizationUvEpi
@@ -43,12 +46,11 @@ Usage: #example
 * identifier.system = $spor-org
 * identifier.value = "ORG-100013412"
 * identifier.use = #official
-
-* active = true
-
+* active = true 
 * type = $spor-rms#220000000032  "Medicines Regulatory Authority"
-* type.text = "Medicines Regulatory Authority"
+//* type.text = "Medicines Regulatory Authority"
 * name = "European Medicines Agency"
+
 
 * contact
   * address

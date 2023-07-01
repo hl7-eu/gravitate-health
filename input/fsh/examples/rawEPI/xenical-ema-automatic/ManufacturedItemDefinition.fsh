@@ -17,7 +17,5 @@ Usage: #example
 
  
 
- 
-
 
 //* manufacturer = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)

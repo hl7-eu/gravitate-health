@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-tegretol-carbamazepine
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active CARBAMAZEPINE"
@@ -31,19 +27,13 @@ Usage: #example
 * for = Reference(mid-2f37d696067eeb6daf1111cfc3272672)
 * for[+] = Reference(mpac2bb08bb4cc3f51f8c4e3513034c019)
 * for[+] = Reference(ap-2f37d696067eeb6daf1111cfc3272672)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-990eca26437774887062cfa11ea1d904)
 
 
-
-
-
 Instance: ingredient-for-tegretol-magnesiumstearate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Magnesium stearate"
@@ -66,19 +56,13 @@ Usage: #example
 * for = Reference(mid-2f37d696067eeb6daf1111cfc3272672)
 * for[+] = Reference(mpac2bb08bb4cc3f51f8c4e3513034c019)
 * for[+] = Reference(ap-2f37d696067eeb6daf1111cfc3272672)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-990eca26437774887062cfa11ea1d904)
 
 
-
-
-
 Instance: ingredient-for-tegretol-carboxymethylcellulose
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient CARBOXYMETHYLCELLULOSE"
@@ -101,8 +85,6 @@ Usage: #example
 * for = Reference(mid-2f37d696067eeb6daf1111cfc3272672)
 * for[+] = Reference(mpac2bb08bb4cc3f51f8c4e3513034c019)
 * for[+] = Reference(ap-2f37d696067eeb6daf1111cfc3272672)
-// Reference to Organization:  Reference to MAH
-
  
 
 

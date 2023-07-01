@@ -5,12 +5,14 @@ Title: "ePI document Bundle for remsima Package Leaflet"
 Description: "Bundle for remsima Package Leaflet ePI document"
 Usage: #example
 
+
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/13/853/001"
 * type = #document
-//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
+
 * language = #en
+
 
 // Composition
 * entry[0].fullUrl = "Composition/compositionbe76bdf784deea6950583b234f789db2"

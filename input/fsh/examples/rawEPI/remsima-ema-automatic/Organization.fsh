@@ -3,6 +3,8 @@
 //Marketing authorisation holder
 
 
+
+
 Instance: mah-3c850a69e5187931f2198c5e63f933fe
 
 InstanceOf: OrganizationUvEpi
@@ -13,12 +15,11 @@ Usage: #example
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000826"
 * identifier.use = #official
-
-* active = true
-
+* active = true 
 * type = $spor-rms#220000000034.0  "Marketing authorisation holder"
-* type.text = "Marketing authorisation holder"
+//* type.text = "Marketing authorisation holder"
 * name = "Celltrion Healthcare Hungary Kft."
+
 
 * contact
   * address
@@ -33,6 +34,8 @@ Usage: #example
 //Medicines Regulatory Authority
 
 
+
+
 Instance: mra-e3da03c458d6c0f3c5f1c39a2c6a1084
 
 InstanceOf: OrganizationUvEpi
@@ -43,12 +46,11 @@ Usage: #example
 * identifier.system = $spor-org
 * identifier.value = "ORG-100013412"
 * identifier.use = #official
-
-* active = true
-
+* active = true 
 * type = $spor-rms#nan  "Medicines Regulatory Authority"
-* type.text = "Medicines Regulatory Authority"
+//* type.text = "Medicines Regulatory Authority"
 * name = "European Medicines Agency"
+
 
 * contact
   * address

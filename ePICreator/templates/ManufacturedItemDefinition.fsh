@@ -11,13 +11,11 @@ Usage: #example
 * identifier.value = "{{ row["identifier"]|trim }}"
 * identifier.use = #official
 
-* status = #{{ row["status"] }}
+* status = #active
 * manufacturedDoseForm = https://spor.ema.europa.eu/rmswi/#{{row["doseFormID"]}} "{{ row["doseForm"] }}"
 
-* unitOfPresentation = $spor-rms#{{row["unit_presentationID"]}} "{{ row["unit_presentation"] }}"
+{{ "* unitOfPresentation = $spor-rms#{} \"{}\"".format(row.unit_presentationID,row.unit_presentation) if row.unit_presentationID|string !="nan"}}
 
-
- 
 
 {% set ns  = namespace(referenced=False) -%}
 {% if data["turn"] != "1" %}

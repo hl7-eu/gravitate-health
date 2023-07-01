@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-hipricoarkopharma-hypericumperforatuml
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Hypericum perforatum L."
@@ -31,19 +27,13 @@ Usage: #example
 * for = Reference(mid-29436a85dac3ea374adb3fa64cfd2578)
 * for[+] = Reference(mpaf8d2f6e4772c29a8ef9fbb165e80d28)
 * for[+] = Reference(ap-29436a85dac3ea374adb3fa64cfd2578)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-c2a5378488511eaedce26dde272c2290)
 
 
-
-
-
 Instance: ingredient-for-hipricoarkopharma-microcrystallinecellulose
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient microcrystalline cellulose"
@@ -66,19 +56,13 @@ Usage: #example
 * for = Reference(mid-29436a85dac3ea374adb3fa64cfd2578)
 * for[+] = Reference(mpaf8d2f6e4772c29a8ef9fbb165e80d28)
 * for[+] = Reference(ap-29436a85dac3ea374adb3fa64cfd2578)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-c2a5378488511eaedce26dde272c2290)
 
 
-
-
-
 Instance: ingredient-for-hipricoarkopharma-magnesiumstearate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient magnesium stearate"
@@ -101,19 +85,13 @@ Usage: #example
 * for = Reference(mid-29436a85dac3ea374adb3fa64cfd2578)
 * for[+] = Reference(mpaf8d2f6e4772c29a8ef9fbb165e80d28)
 * for[+] = Reference(ap-29436a85dac3ea374adb3fa64cfd2578)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-c2a5378488511eaedce26dde272c2290)
 
 
-
-
-
 Instance: ingredient-for-hipricoarkopharma-colloidalhydrophobicsilica
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient colloidal hydrophobic silica"
@@ -136,19 +114,13 @@ Usage: #example
 * for = Reference(mid-29436a85dac3ea374adb3fa64cfd2578)
 * for[+] = Reference(mpaf8d2f6e4772c29a8ef9fbb165e80d28)
 * for[+] = Reference(ap-29436a85dac3ea374adb3fa64cfd2578)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-c2a5378488511eaedce26dde272c2290)
 
 
-
-
-
 Instance: ingredient-for-hipricoarkopharma-maltodextrin
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient maltodextrin"
@@ -171,8 +143,6 @@ Usage: #example
 * for = Reference(mid-29436a85dac3ea374adb3fa64cfd2578)
 * for[+] = Reference(mpaf8d2f6e4772c29a8ef9fbb165e80d28)
 * for[+] = Reference(ap-29436a85dac3ea374adb3fa64cfd2578)
-// Reference to Organization:  Reference to MAH
-
  
 
 

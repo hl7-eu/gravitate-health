@@ -5,12 +5,14 @@ Title: "ePI document Bundle for tegretol Package Leaflet"
 Description: "Bundle for tegretol Package Leaflet ePI document"
 Usage: #example
 
+
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "39.955"
 * type = #document
-//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
+
 * language = #en
+
 
 // Composition
 * entry[0].fullUrl = "Composition/compositionac2bb08bb4cc3f51f8c4e3513034c019"

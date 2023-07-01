@@ -26,13 +26,15 @@ Usage: #example
 
 
 
-
 * packaging
+
   * identifier.system = $spor-prod
   * identifier.value = "123456"
   * type = $spor-rms#100000073543 "Pre-filled pen"
+  //* quantity = 5
   * quantity = 5
   * material = $spor-rms#200000003204 "Glass type 1"
+
 
 
 

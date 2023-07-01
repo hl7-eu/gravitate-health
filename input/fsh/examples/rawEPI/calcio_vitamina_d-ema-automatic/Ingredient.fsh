@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-calciovitaminad-calciumcarbonate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Calcium Carbonate"
@@ -31,19 +27,13 @@ Usage: #example
 * for = Reference(mid-925dad38f0afbba36223a82b3a766438)
 * for[+] = Reference(mpd4bcbbaec04bf6aceb2f71162205967e)
 * for[+] = Reference(ap-925dad38f0afbba36223a82b3a766438)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
-
-
-
 Instance: ingredient-for-calciovitaminad-cholecalciferol
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active cholecalciferol"
@@ -70,19 +60,13 @@ Usage: #example
 * for = Reference(mid-925dad38f0afbba36223a82b3a766438)
 * for[+] = Reference(mpd4bcbbaec04bf6aceb2f71162205967e)
 * for[+] = Reference(ap-925dad38f0afbba36223a82b3a766438)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
-
-
-
 Instance: ingredient-for-calciovitaminad-sodium
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Sodium"
@@ -109,19 +93,13 @@ Usage: #example
 * for = Reference(mid-925dad38f0afbba36223a82b3a766438)
 * for[+] = Reference(mpd4bcbbaec04bf6aceb2f71162205967e)
 * for[+] = Reference(ap-925dad38f0afbba36223a82b3a766438)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
-
-
-
 Instance: ingredient-for-calciovitaminad-lactosemonohydrate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active lactose monohydrate"
@@ -148,19 +126,13 @@ Usage: #example
 * for = Reference(mid-925dad38f0afbba36223a82b3a766438)
 * for[+] = Reference(mpd4bcbbaec04bf6aceb2f71162205967e)
 * for[+] = Reference(ap-925dad38f0afbba36223a82b3a766438)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
-
-
-
 Instance: ingredient-for-calciovitaminad-sucrose
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active sucrose"
@@ -187,19 +159,13 @@ Usage: #example
 * for = Reference(mid-925dad38f0afbba36223a82b3a766438)
 * for[+] = Reference(mpd4bcbbaec04bf6aceb2f71162205967e)
 * for[+] = Reference(ap-925dad38f0afbba36223a82b3a766438)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
-
-
-
 Instance: ingredient-for-calciovitaminad-hydrogenatedsoybeanoil
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active hydrogenated soybean oil"
@@ -226,19 +192,13 @@ Usage: #example
 * for = Reference(mid-925dad38f0afbba36223a82b3a766438)
 * for[+] = Reference(mpd4bcbbaec04bf6aceb2f71162205967e)
 * for[+] = Reference(ap-925dad38f0afbba36223a82b3a766438)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
-
-
-
 Instance: ingredient-for-calciovitaminad-anhydrouscitricacid
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Anhydrous citric acid"
@@ -261,19 +221,13 @@ Usage: #example
 * for = Reference(mid-925dad38f0afbba36223a82b3a766438)
 * for[+] = Reference(mpd4bcbbaec04bf6aceb2f71162205967e)
 * for[+] = Reference(ap-925dad38f0afbba36223a82b3a766438)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
-
-
-
 Instance: ingredient-for-calciovitaminad-sodiumbicarbonate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient sodium bicarbonate"
@@ -296,19 +250,13 @@ Usage: #example
 * for = Reference(mid-925dad38f0afbba36223a82b3a766438)
 * for[+] = Reference(mpd4bcbbaec04bf6aceb2f71162205967e)
 * for[+] = Reference(ap-925dad38f0afbba36223a82b3a766438)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
-
-
-
 Instance: ingredient-for-calciovitaminad-povidone
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient povidone"
@@ -331,19 +279,13 @@ Usage: #example
 * for = Reference(mid-925dad38f0afbba36223a82b3a766438)
 * for[+] = Reference(mpd4bcbbaec04bf6aceb2f71162205967e)
 * for[+] = Reference(ap-925dad38f0afbba36223a82b3a766438)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
-
-
-
 Instance: ingredient-for-calciovitaminad-saccharinsodium
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient saccharin sodium"
@@ -366,19 +308,13 @@ Usage: #example
 * for = Reference(mid-925dad38f0afbba36223a82b3a766438)
 * for[+] = Reference(mpd4bcbbaec04bf6aceb2f71162205967e)
 * for[+] = Reference(ap-925dad38f0afbba36223a82b3a766438)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
-
-
-
 Instance: ingredient-for-calciovitaminad-sodiumcyclamate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient sodium cyclamate"
@@ -401,19 +337,13 @@ Usage: #example
 * for = Reference(mid-925dad38f0afbba36223a82b3a766438)
 * for[+] = Reference(mpd4bcbbaec04bf6aceb2f71162205967e)
 * for[+] = Reference(ap-925dad38f0afbba36223a82b3a766438)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
-
-
-
 Instance: ingredient-for-calciovitaminad-macrogol6000
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient macrogol 6000"
@@ -436,8 +366,6 @@ Usage: #example
 * for = Reference(mid-925dad38f0afbba36223a82b3a766438)
 * for[+] = Reference(mpd4bcbbaec04bf6aceb2f71162205967e)
 * for[+] = Reference(ap-925dad38f0afbba36223a82b3a766438)
-// Reference to Organization:  Reference to MAH
-
  
 
 

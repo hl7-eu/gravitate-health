@@ -5,12 +5,14 @@ Title: "ePI document Bundle for biktarvy Package Leaflet"
 Description: "Bundle for biktarvy Package Leaflet ePI document"
 Usage: #example
 
+
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/18/1289/001"
 * type = #document
-//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
+
 * language = #en
+
 
 // Composition
 * entry[0].fullUrl = "Composition/composition1846d2b12fecbbb0310cd8c196c98a58"

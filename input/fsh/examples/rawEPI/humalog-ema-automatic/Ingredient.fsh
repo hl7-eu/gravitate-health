@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-humalog-glycerol
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Glycerol"
@@ -27,19 +23,13 @@ Usage: #example
 * for = Reference(mid-a38f06714db0c27b2ba704652e3f08c5)
 * for[+] = Reference(mpd33868162d255ced115cecbbf188aab4)
 * for[+] = Reference(ap-a38f06714db0c27b2ba704652e3f08c5)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 
 
 
 
-
-
-
 Instance: ingredient-for-humalog-hydrochloricacid
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Hydrochloric acid"
@@ -62,19 +52,13 @@ Usage: #example
 * for = Reference(mid-a38f06714db0c27b2ba704652e3f08c5)
 * for[+] = Reference(mpd33868162d255ced115cecbbf188aab4)
 * for[+] = Reference(ap-a38f06714db0c27b2ba704652e3f08c5)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 
 
 
 
-
-
-
 Instance: ingredient-for-humalog-sodiumhydroxide
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Sodium Hydroxide"
@@ -97,19 +81,13 @@ Usage: #example
 * for = Reference(mid-a38f06714db0c27b2ba704652e3f08c5)
 * for[+] = Reference(mpd33868162d255ced115cecbbf188aab4)
 * for[+] = Reference(ap-a38f06714db0c27b2ba704652e3f08c5)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 
 
 
 
-
-
-
 Instance: ingredient-for-humalog-sterilewaterforinjection
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient STERILE WATER FOR INJECTION"
@@ -132,19 +110,13 @@ Usage: #example
 * for = Reference(mid-a38f06714db0c27b2ba704652e3f08c5)
 * for[+] = Reference(mpd33868162d255ced115cecbbf188aab4)
 * for[+] = Reference(ap-a38f06714db0c27b2ba704652e3f08c5)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 
 
 
 
-
-
-
 Instance: ingredient-for-humalog-insulinlispro
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Insulin Lispro"
@@ -171,19 +143,13 @@ Usage: #example
 * for = Reference(mid-a38f06714db0c27b2ba704652e3f08c5)
 * for[+] = Reference(mpd33868162d255ced115cecbbf188aab4)
 * for[+] = Reference(ap-a38f06714db0c27b2ba704652e3f08c5)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 
 
 
 
-
-
-
 Instance: ingredient-for-humalog-zincoxide
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Zinc Oxide"
@@ -206,19 +172,13 @@ Usage: #example
 * for = Reference(mid-a38f06714db0c27b2ba704652e3f08c5)
 * for[+] = Reference(mpd33868162d255ced115cecbbf188aab4)
 * for[+] = Reference(ap-a38f06714db0c27b2ba704652e3f08c5)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 
 
 
 
-
-
-
 Instance: ingredient-for-humalog-metacresol
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Metacresol"
@@ -241,19 +201,13 @@ Usage: #example
 * for = Reference(mid-a38f06714db0c27b2ba704652e3f08c5)
 * for[+] = Reference(mpd33868162d255ced115cecbbf188aab4)
 * for[+] = Reference(ap-a38f06714db0c27b2ba704652e3f08c5)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 
 
 
 
-
-
-
 Instance: ingredient-for-humalog-trometamol
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Trometamol"
@@ -276,8 +230,6 @@ Usage: #example
 * for = Reference(mid-a38f06714db0c27b2ba704652e3f08c5)
 * for[+] = Reference(mpd33868162d255ced115cecbbf188aab4)
 * for[+] = Reference(ap-a38f06714db0c27b2ba704652e3f08c5)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-6f4987de7be1bbfa4ee92c07de7e94d4) 

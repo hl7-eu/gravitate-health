@@ -7,9 +7,12 @@ Title: "Regulated Authorization for {{ row["name"] }}"
 Description: "Regulated Authorization for {{ row["name"] }}"
 Usage: #example
 
+{% if row["identifier"]|string !="nan" -%}
 * identifier.system = $spor-prod
 * identifier.value = "{{ row["identifier"]|trim }}"
 * identifier.use = #official
+{% endif %}
+
 
  // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
  {% if data["turn"] != "1" %}
@@ -21,7 +24,9 @@ Usage: #example
 //* type = $spor-rms#100000072062
 //* type.text = "Marketing Authorisation"
 
+{%- if row["regionID"]|string !="nan" -%}
 * region = urn:iso:std:iso:3166#{{ row["regionID"] }} "{{ row["region"] }}"
+{% endif %}
 
 
 * status = http://hl7.org/fhir/publication-status#active "Active"

@@ -149,7 +149,7 @@ def create_from_template(env, DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER, major_n
         ## then creates again with references
     object_ids = {}
     for file in listdir(OUTPUT_FOLDER):
-        #  print(file)
+        # print(file)
         # n_file = file.split(".")[0]
         with open(OUTPUT_FOLDER + file, "r") as file1:
             Lines = file1.readlines()

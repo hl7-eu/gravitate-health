@@ -8,23 +8,21 @@ Usage: #example
 * identifier.value = "9V4SVN4JQV"
 * identifier.use = #official
 
+
 * version = "1.0"
 
-* status = https://gsrs.ncats.nih.gov/ginas/app/beta/#1 "Validated (UNII)"
+* status = http://hl7.org/fhir/publication-status#active
 
-//* description = "nan"
 
 
  // Reference to Organization: MAH
  
 * manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
-* structure.molecularFormula = "nan"
-
-//* name.name = "nan"
 
 
-//* name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#nan "nan"
+
+
 
 Instance: substance-influenzaavirusadarwin112021h3n2whole
 InstanceOf: SubstanceDefinitionUvEpi
@@ -35,23 +33,21 @@ Usage: #example
 * identifier.value = "JS7E5ZZ3AC"
 * identifier.use = #official
 
-* version = "nan"
 
-* status = https://gsrs.ncats.nih.gov/ginas/app/beta/#1 "Validated (UNII)"
 
-//* description = "nan"
+
+* status = http://hl7.org/fhir/publication-status#active
+
 
 
  // Reference to Organization: MAH
  
 * manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
-* structure.molecularFormula = "nan"
-
-//* name.name = "nan"
 
 
-//* name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#nan "nan"
+
+
 
 Instance: substance-influenzabvirusbsingaporewuh46182021whole
 InstanceOf: SubstanceDefinitionUvEpi
@@ -62,23 +58,21 @@ Usage: #example
 * identifier.value = "BFA4LSE5QQ"
 * identifier.use = #official
 
-* version = "nan"
 
-* status = https://gsrs.ncats.nih.gov/ginas/app/beta/#1 "Validated (UNII)"
 
-//* description = "nan"
+
+* status = http://hl7.org/fhir/publication-status#active
+
 
 
  // Reference to Organization: MAH
  
 * manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
-* structure.molecularFormula = "nan"
-
-//* name.name = "nan"
 
 
-//* name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#nan "nan"
+
+
 
 Instance: substance-influenzabvirusbsingaporeinftt1606102016whole
 InstanceOf: SubstanceDefinitionUvEpi
@@ -89,20 +83,18 @@ Usage: #example
 * identifier.value = "B3EV5T8SUF"
 * identifier.use = #official
 
-* version = "nan"
 
-* status = https://gsrs.ncats.nih.gov/ginas/app/beta/#1 "Validated (UNII)"
 
-//* description = "nan"
+
+* status = http://hl7.org/fhir/publication-status#active
+
 
 
  // Reference to Organization: MAH
  
 * manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
-* structure.molecularFormula = "nan"
-
-//* name.name = "nan"
 
 
-//* name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#nan "nan"
+
+

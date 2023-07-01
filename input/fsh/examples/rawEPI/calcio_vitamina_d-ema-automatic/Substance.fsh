@@ -8,11 +8,11 @@ Usage: #example
 * identifier.value = "H0G9379FGK"
 * identifier.use = #official
 
+
 * version = "1"
 
-* status = https://gsrs.ncats.nih.gov/ginas/app/beta/#1 "Validated (UNII)"
+* status = http://hl7.org/fhir/publication-status#active
 
-//* description = "nan"
 
 
  // Reference to Organization: MAH
@@ -25,8 +25,6 @@ Usage: #example
 * molecularWeight[=].amount.value = 100.09
 * structure.molecularFormula = "CO3.Ca"
 
-//* name.name = "CALCII CARBONAS [WHO-IP LATIN]"
 * name.name = "CALCII CARBONAS [WHO-IP LATIN]"
 
-//* name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"
 * name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"

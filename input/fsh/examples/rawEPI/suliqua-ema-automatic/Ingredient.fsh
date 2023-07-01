@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-suliqua-insulinglargine
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Insulin glargine"
@@ -31,8 +27,6 @@ Usage: #example
 * for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
 * for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
@@ -40,11 +34,7 @@ Usage: #example
 
 
 
-
-
-
 Instance: ingredient-for-suliqua-lixisenatide
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Lixisenatide"
@@ -71,8 +61,6 @@ Usage: #example
 * for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
 * for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
@@ -80,11 +68,7 @@ Usage: #example
 
 
 
-
-
-
 Instance: ingredient-for-suliqua-glycerol85whodd
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient GLYCEROL 85% [WHO-DD]"
@@ -107,8 +91,6 @@ Usage: #example
 * for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
 * for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
@@ -116,11 +98,7 @@ Usage: #example
 
 
 
-
-
-
 Instance: ingredient-for-suliqua-methionine
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Methionine"
@@ -143,8 +121,6 @@ Usage: #example
 * for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
 * for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
@@ -152,11 +128,7 @@ Usage: #example
 
 
 
-
-
-
 Instance: ingredient-for-suliqua-metacresol
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Metacresol"
@@ -179,8 +151,6 @@ Usage: #example
 * for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
 * for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
@@ -188,11 +158,7 @@ Usage: #example
 
 
 
-
-
-
 Instance: ingredient-for-suliqua-zincchloride
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Zinc chloride"
@@ -215,8 +181,6 @@ Usage: #example
 * for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
 * for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
@@ -224,11 +188,7 @@ Usage: #example
 
 
 
-
-
-
 Instance: ingredient-for-suliqua-hydrochloricacidiarc
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient HYDROCHLORIC ACID [IARC]"
@@ -251,8 +211,6 @@ Usage: #example
 * for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
 * for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
@@ -260,11 +218,7 @@ Usage: #example
 
 
 
-
-
-
 Instance: ingredient-for-suliqua-sterilewaterforinjection
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient STERILE WATER FOR INJECTION"
@@ -287,8 +241,6 @@ Usage: #example
 * for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
 * for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
@@ -296,11 +248,7 @@ Usage: #example
 
 
 
-
-
-
 Instance: ingredient-for-suliqua-sodiumhydroxide
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Sodium hydroxide"
@@ -323,8 +271,6 @@ Usage: #example
 * for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
 * for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
-// Reference to Organization:  Reference to MAH
-
  
  
 * manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 

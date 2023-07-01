@@ -8,11 +8,11 @@ Usage: #example
 * identifier.value = "4Q81I59GXC"
 * identifier.use = #official
 
+
 * version = "1"
 
-* status = https://gsrs.ncats.nih.gov/ginas/app/beta/#1 "Validated (UNII)"
+* status = http://hl7.org/fhir/publication-status#active
 
-//* description = "nan"
 
 
  // Reference to Organization: MAH
@@ -25,8 +25,6 @@ Usage: #example
 * molecularWeight[=].amount.value = 153.14
 * structure.molecularFormula = "C7H7NO3"
 
-//* name.name = "5-AMINO-2-HYDROXYBENZOIC ACID"
 * name.name = "5-AMINO-2-HYDROXYBENZOIC ACID"
 
-//* name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"
 * name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"

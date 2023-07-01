@@ -5,12 +5,14 @@ Title: "ePI document Bundle for flucelvax Package Leaflet"
 Description: "Bundle for flucelvax Package Leaflet ePI document"
 Usage: #example
 
+
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "flucelvax-1"
 * type = #document
-//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
+
 * language = #en
+
 
 // Composition
 * entry[0].fullUrl = "Composition/compositione8bd725f64067aeae7994e2b56cd79c9"

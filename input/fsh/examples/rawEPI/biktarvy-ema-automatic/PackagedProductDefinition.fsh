@@ -24,13 +24,15 @@ Usage: #example
 
 
 
-
 * packaging
+
   * identifier.system = $spor-prod
   * identifier.value = "654321"
   * type = $spor-rms#100000073504 "Child-resistant closure"
+  //* quantity = 1
   * quantity = 1
   * material = $spor-rms#200000003529 "Cardboard"
+
 
 
 

@@ -26,13 +26,15 @@ Usage: #example
 
 
 
-
 * packaging
+
   * identifier.system = $spor-prod
   * identifier.value = "123456"
   * type = $spor-rms#100000073496 "Blister"
+  //* quantity = 20
   * quantity = 20
   * material = $spor-rms#200000003222 "PolyVinyl Chloride"
+
 
 
 

@@ -16,8 +16,6 @@ Usage: #example
 
 
  
-
- 
 * manufacturer = Reference(man-173fde4cb6b1018cb7ec8ab708d3961c) 
  
 

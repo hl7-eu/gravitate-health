@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-acmedrug-acmedruging3
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient acmedrug-ing3"
@@ -27,19 +23,13 @@ Usage: #example
 * for = Reference(mid-534e209eb0a3ff60437639cb2015316f)
 * for[+] = Reference(mp534e209eb0a3ff60437639cb2015316f)
 * for[+] = Reference(ap-5aa8042f9b2bea12d814ccaf27f6d64e)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-2aff7154a8d952c895e8a03849a25108)
 
 
-
-
-
 Instance: ingredient-for-acmedrug-acmedruging2
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient acmedrug-ing2"
@@ -62,19 +52,13 @@ Usage: #example
 * for = Reference(mid-534e209eb0a3ff60437639cb2015316f)
 * for[+] = Reference(mp534e209eb0a3ff60437639cb2015316f)
 * for[+] = Reference(ap-5aa8042f9b2bea12d814ccaf27f6d64e)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-2aff7154a8d952c895e8a03849a25108)
 
 
-
-
-
 Instance: ingredient-for-acmedrug-acmedruging1
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active acmedrug-ing1"
@@ -85,7 +69,7 @@ Usage: #example
 * identifier.value = "J0E2756Z7N"
 * identifier.use = #official
 
-* role = $spor-rms#72072 "active"
+* role = $spor-rms#100000072072 "Active"
 
 * status = #active
 
@@ -101,8 +85,6 @@ Usage: #example
 * for = Reference(mid-534e209eb0a3ff60437639cb2015316f)
 * for[+] = Reference(mp534e209eb0a3ff60437639cb2015316f)
 * for[+] = Reference(ap-5aa8042f9b2bea12d814ccaf27f6d64e)
-// Reference to Organization:  Reference to MAH
-
  
 
 

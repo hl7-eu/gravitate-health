@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-dovato-dolutegravirsodium
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active DOLUTEGRAVIR SODIUM"
@@ -31,8 +27,6 @@ Usage: #example
 * for = Reference(mid-49178f16170ee8a6bc2a4361c1748d5f)
 * for[+] = Reference(mp16598f252d07b4784b82ba43cf9e847e)
 * for[+] = Reference(ap-49178f16170ee8a6bc2a4361c1748d5f)
-// Reference to Organization:  Reference to MAH
-
  
  
  
@@ -41,11 +35,7 @@ Usage: #example
 //* manufacturer.manufacturer = Reference(man-173fde4cb6b1018cb7ec8ab708d3961c)
 
 
-
-
-
 Instance: ingredient-for-dovato-lamivudine
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active lamivudine"
@@ -72,8 +62,6 @@ Usage: #example
 * for = Reference(mid-49178f16170ee8a6bc2a4361c1748d5f)
 * for[+] = Reference(mp16598f252d07b4784b82ba43cf9e847e)
 * for[+] = Reference(ap-49178f16170ee8a6bc2a4361c1748d5f)
-// Reference to Organization:  Reference to MAH
-
  
  
  
@@ -82,11 +70,7 @@ Usage: #example
 //* manufacturer.manufacturer = Reference(man-173fde4cb6b1018cb7ec8ab708d3961c)
 
 
-
-
-
 Instance: ingredient-for-dovato-microcrystallinecellulose
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient microcrystalline cellulose"
@@ -109,8 +93,6 @@ Usage: #example
 * for = Reference(mid-49178f16170ee8a6bc2a4361c1748d5f)
 * for[+] = Reference(mp16598f252d07b4784b82ba43cf9e847e)
 * for[+] = Reference(ap-49178f16170ee8a6bc2a4361c1748d5f)
-// Reference to Organization:  Reference to MAH
-
  
  
  
@@ -119,11 +101,7 @@ Usage: #example
 //* manufacturer.manufacturer = Reference(man-173fde4cb6b1018cb7ec8ab708d3961c)
 
 
-
-
-
 Instance: ingredient-for-dovato-sodiumstarchglycolate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient sodium starch glycolate"
@@ -146,8 +124,6 @@ Usage: #example
 * for = Reference(mid-49178f16170ee8a6bc2a4361c1748d5f)
 * for[+] = Reference(mp16598f252d07b4784b82ba43cf9e847e)
 * for[+] = Reference(ap-49178f16170ee8a6bc2a4361c1748d5f)
-// Reference to Organization:  Reference to MAH
-
  
  
  
@@ -156,11 +132,7 @@ Usage: #example
 //* manufacturer.manufacturer = Reference(man-173fde4cb6b1018cb7ec8ab708d3961c)
 
 
-
-
-
 Instance: ingredient-for-dovato-magnesiumstearate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient magnesium stearate"
@@ -183,8 +155,6 @@ Usage: #example
 * for = Reference(mid-49178f16170ee8a6bc2a4361c1748d5f)
 * for[+] = Reference(mp16598f252d07b4784b82ba43cf9e847e)
 * for[+] = Reference(ap-49178f16170ee8a6bc2a4361c1748d5f)
-// Reference to Organization:  Reference to MAH
-
  
  
  
@@ -193,11 +163,7 @@ Usage: #example
 //* manufacturer.manufacturer = Reference(man-173fde4cb6b1018cb7ec8ab708d3961c)
 
 
-
-
-
 Instance: ingredient-for-dovato-mannitol
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient mannitol"
@@ -220,8 +186,6 @@ Usage: #example
 * for = Reference(mid-49178f16170ee8a6bc2a4361c1748d5f)
 * for[+] = Reference(mp16598f252d07b4784b82ba43cf9e847e)
 * for[+] = Reference(ap-49178f16170ee8a6bc2a4361c1748d5f)
-// Reference to Organization:  Reference to MAH
-
  
  
  

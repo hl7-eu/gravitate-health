@@ -3,6 +3,8 @@
 //Marketing authorisation holder
 
 
+
+
 Instance: mah-45fe50eae508b5755dd140ab2093eb5e
 
 InstanceOf: OrganizationUvEpi
@@ -13,18 +15,15 @@ Usage: #example
 * identifier.system = $spor-org
 * identifier.value = "ORG-100013715"
 * identifier.use = #official
-
-* active = true
-
+* active = true 
 * type = $spor-rms#220000000034  "Marketing authorisation holder"
-* type.text = "Marketing authorisation holder"
+//* type.text = "Marketing authorisation holder"
 * name = "Seqirus Netherlands B.V."
+
 
 * contact
   * address
-    * text = "Paasheuvelweg 28
- 1105BJ Amsterdam
- Netherlands"
+    * text = "Paasheuvelweg 28 1105BJ Amsterdam Netherlands"
     * use = #work
     * type = #physical
     * line = "Paasheuvelweg 28"

@@ -8,11 +8,11 @@ Usage: #example
 * identifier.value = "XK4IUX8MNB"
 * identifier.use = #official
 
+
 * version = "1"
 
-* status = https://gsrs.ncats.nih.gov/ginas/app/beta/#1 "Validated (UNII)"
+* status = http://hl7.org/fhir/publication-status#active
 
-//* description = "nan"
 
 
  // Reference to Organization: MAH
@@ -25,8 +25,6 @@ Usage: #example
 * molecularWeight[=].amount.value = 156.09
 * structure.molecularFormula = "C35H52O4"
 
-//* name.name = "Hyperforin"
 * name.name = "Hyperforin"
 
-//* name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"
 * name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"

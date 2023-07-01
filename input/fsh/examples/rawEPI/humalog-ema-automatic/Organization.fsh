@@ -3,6 +3,8 @@
 //Marketing authorisation holder
 
 
+
+
 Instance: mah-3fdc76794516d7826890ab9f893e99c1
 
 InstanceOf: OrganizationUvEpi
@@ -13,11 +15,11 @@ Usage: #example
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000426"
 * identifier.use = #official
-
 * active = true 
 * type = $spor-rms#220000000034  "Marketing authorisation holder"
-* type.text = "Marketing authorisation holder"
+//* type.text = "Marketing authorisation holder"
 * name = "Eli Lilly Nederland B.V."
+
 
 * contact
   * address
@@ -32,6 +34,8 @@ Usage: #example
 //Manufacturer API
 
 
+
+
 Instance: mapi-6f4987de7be1bbfa4ee92c07de7e94d4
 
 InstanceOf: OrganizationUvEpi
@@ -42,12 +46,12 @@ Usage: #example
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000156"
 * identifier.use = #official
-
 * active = true 
 * type = $spor-rms#220000000033  "Manufacturer"
 
-* type.text = "Manufacturer API"
+//* type.text = "Manufacturer API"
 * name = "Eli Lilly and Company"
+
 
 * contact
   * address
@@ -62,6 +66,8 @@ Usage: #example
 //Manufacturer
 
 
+
+
 Instance: man-e3ef26dd2c7a0847d92d3bb1a64855b9
 
 InstanceOf: OrganizationUvEpi
@@ -72,11 +78,11 @@ Usage: #example
 * identifier.system = $spor-org
 * identifier.value = "ORG-100003996"
 * identifier.use = #official
-
 * active = true 
 * type = $spor-rms#220000000033  "Manufacturer"
-* type.text = "Manufacturer"
+//* type.text = "Manufacturer"
 * name = "Lilly S.A."
+
 
 * contact
   * address

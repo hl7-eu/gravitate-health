@@ -7,7 +7,7 @@ Usage: #example
 
  
 * identifier[+].system = "http://fakesys.com/ids"
-* identifier[=].value = "nan"
+* identifier[=].value = "ididid"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
 * domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"

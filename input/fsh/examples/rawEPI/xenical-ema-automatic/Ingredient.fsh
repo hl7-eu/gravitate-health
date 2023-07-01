@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-xenical-orlistat
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active ORLISTAT"
@@ -31,19 +27,13 @@ Usage: #example
 * for = Reference(mid-4fab126d28f65a1084e7b50a23200363)
 * for[+] = Reference(mpbc60fa1aa0bfe774d11ee13c0c131622)
 * for[+] = Reference(ap-4fab126d28f65a1084e7b50a23200363)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
 
 
-
-
-
 Instance: ingredient-for-xenical-microcrystallinecellulose
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient MICROCRYSTALLINE CELLULOSE"
@@ -66,19 +56,13 @@ Usage: #example
 * for = Reference(mid-4fab126d28f65a1084e7b50a23200363)
 * for[+] = Reference(mpbc60fa1aa0bfe774d11ee13c0c131622)
 * for[+] = Reference(ap-4fab126d28f65a1084e7b50a23200363)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
 
 
-
-
-
 Instance: ingredient-for-xenical-sodiumstarchglycolatetypea
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SODIUM STARCH GLYCOLATE TYPE A"
@@ -101,19 +85,13 @@ Usage: #example
 * for = Reference(mid-4fab126d28f65a1084e7b50a23200363)
 * for[+] = Reference(mpbc60fa1aa0bfe774d11ee13c0c131622)
 * for[+] = Reference(ap-4fab126d28f65a1084e7b50a23200363)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
 
 
-
-
-
 Instance: ingredient-for-xenical-povidoneunspecified
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient POVIDONE, UNSPECIFIED"
@@ -136,19 +114,13 @@ Usage: #example
 * for = Reference(mid-4fab126d28f65a1084e7b50a23200363)
 * for[+] = Reference(mpbc60fa1aa0bfe774d11ee13c0c131622)
 * for[+] = Reference(ap-4fab126d28f65a1084e7b50a23200363)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
 
 
-
-
-
 Instance: ingredient-for-xenical-sodiumlaurylsulfate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SODIUM LAURYL SULFATE"
@@ -171,19 +143,13 @@ Usage: #example
 * for = Reference(mid-4fab126d28f65a1084e7b50a23200363)
 * for[+] = Reference(mpbc60fa1aa0bfe774d11ee13c0c131622)
 * for[+] = Reference(ap-4fab126d28f65a1084e7b50a23200363)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
 
 
-
-
-
 Instance: ingredient-for-xenical-gelatinunspecified
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient GELATIN, UNSPECIFIED"
@@ -206,19 +172,13 @@ Usage: #example
 * for = Reference(mid-4fab126d28f65a1084e7b50a23200363)
 * for[+] = Reference(mpbc60fa1aa0bfe774d11ee13c0c131622)
 * for[+] = Reference(ap-4fab126d28f65a1084e7b50a23200363)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
 
 
-
-
-
 Instance: ingredient-for-xenical-titaniumdioxide
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient TITANIUM DIOXIDE"
@@ -241,8 +201,6 @@ Usage: #example
 * for = Reference(mid-4fab126d28f65a1084e7b50a23200363)
 * for[+] = Reference(mpbc60fa1aa0bfe774d11ee13c0c131622)
 * for[+] = Reference(ap-4fab126d28f65a1084e7b50a23200363)
-// Reference to Organization:  Reference to MAH
-
  
 
 

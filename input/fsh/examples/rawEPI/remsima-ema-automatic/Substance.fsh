@@ -8,11 +8,11 @@ Usage: #example
 * identifier.value = "B72HH48FLU"
 * identifier.use = #official
 
+
 * version = "1"
 
-* status = https://gsrs.ncats.nih.gov/ginas/app/beta/#1 "Validated (UNII)"
+* status = http://hl7.org/fhir/publication-status#active
 
-//* description = "nan"
 
 
  // Reference to Organization: MAH
@@ -21,8 +21,6 @@ Usage: #example
 
 * structure.molecularFormula = "C6458H9934N1728O2040S44"
 
-//* name.name = "IMMUNOGLOBULIN G (HUMAN-MOUSE MONOCLONAL CA2 HEAVY CHAIN ANTI-HUMAN TUMOR NECROSIS FACTOR), DISULFIDE WITH HUMAN-MOUSE MONOCLONAL CA2 LIGHT CHAIN, DIMER"
 * name.name = "IMMUNOGLOBULIN G (HUMAN-MOUSE MONOCLONAL CA2 HEAVY CHAIN ANTI-HUMAN TUMOR NECROSIS FACTOR), DISULFIDE WITH HUMAN-MOUSE MONOCLONAL CA2 LIGHT CHAIN, DIMER"
 
-//* name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"
 * name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"

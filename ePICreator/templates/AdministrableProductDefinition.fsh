@@ -10,20 +10,18 @@ Usage: #example
 * identifier.system = $phpid
 * identifier.value = "{{row['identifier']|trim}}" 
 
-* status = #{{row['status']}}
+* status = #active
 
 {% if data["turn"] != "1" %}
 * formOf = Reference({{data["references"]["MedicinalProductDefinition"][0][0]}})
 {%- endif %}
 
 * administrableDoseForm = $spor-rms#{{ row["doseFormID"] }} "{{ row["doseForm"] }}"
-* unitOfPresentation = $spor-rms#{{ row["unit_presentationID"] }} "{{ row["unit_presentation"] }}"
+{{ "* unitOfPresentation = $spor-rms#{} \"{}\"".format(row.unit_presentationID,row.unit_presentation) if row.unit_presentationID|string !="nan"}}
 
-//this is just manufactured with extra steps?
 
 {% if data["turn"] != "1" %}
 
-//reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 * producedFrom = Reference({{data["references"]["ManufacturedItemDefinition"][0][0]}})
 
 {% endif %}

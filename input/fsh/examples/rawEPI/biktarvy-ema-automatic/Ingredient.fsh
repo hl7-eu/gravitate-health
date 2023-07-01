@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-biktarvy-bictegravirsodium
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active BICTEGRAVIR SODIUM"
@@ -31,8 +27,6 @@ Usage: #example
 * for = Reference(mid-14ba4cb05b11f838919ef39edd3e0cdf)
 * for[+] = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
 * for[+] = Reference(ap-14ba4cb05b11f838919ef39edd3e0cdf)
-// Reference to Organization:  Reference to MAH
-
  
  
 
@@ -40,11 +34,7 @@ Usage: #example
 //* manufacturer.manufacturer = Reference(mah-715f8a161ed438d0584510e5b4512caa)
 
 
-
-
-
 Instance: ingredient-for-biktarvy-emtricitabine
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Emtricitabine"
@@ -71,8 +61,6 @@ Usage: #example
 * for = Reference(mid-14ba4cb05b11f838919ef39edd3e0cdf)
 * for[+] = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
 * for[+] = Reference(ap-14ba4cb05b11f838919ef39edd3e0cdf)
-// Reference to Organization:  Reference to MAH
-
  
  
 
@@ -80,11 +68,7 @@ Usage: #example
 //* manufacturer.manufacturer = Reference(mah-715f8a161ed438d0584510e5b4512caa)
 
 
-
-
-
 Instance: ingredient-for-biktarvy-tenofoviralafenamide
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active tenofovir alafenamide"
@@ -111,8 +95,6 @@ Usage: #example
 * for = Reference(mid-14ba4cb05b11f838919ef39edd3e0cdf)
 * for[+] = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
 * for[+] = Reference(ap-14ba4cb05b11f838919ef39edd3e0cdf)
-// Reference to Organization:  Reference to MAH
-
  
  
 
@@ -120,11 +102,7 @@ Usage: #example
 //* manufacturer.manufacturer = Reference(mah-715f8a161ed438d0584510e5b4512caa)
 
 
-
-
-
 Instance: ingredient-for-biktarvy-microcrystallinecellulose
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Microcrystalline cellulose"
@@ -147,8 +125,6 @@ Usage: #example
 * for = Reference(mid-14ba4cb05b11f838919ef39edd3e0cdf)
 * for[+] = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
 * for[+] = Reference(ap-14ba4cb05b11f838919ef39edd3e0cdf)
-// Reference to Organization:  Reference to MAH
-
  
  
 
@@ -156,11 +132,7 @@ Usage: #example
 //* manufacturer.manufacturer = Reference(mah-715f8a161ed438d0584510e5b4512caa)
 
 
-
-
-
 Instance: ingredient-for-biktarvy-croscarmellosesodium
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Croscarmellose sodium"
@@ -183,8 +155,6 @@ Usage: #example
 * for = Reference(mid-14ba4cb05b11f838919ef39edd3e0cdf)
 * for[+] = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
 * for[+] = Reference(ap-14ba4cb05b11f838919ef39edd3e0cdf)
-// Reference to Organization:  Reference to MAH
-
  
  
 
@@ -192,11 +162,7 @@ Usage: #example
 //* manufacturer.manufacturer = Reference(mah-715f8a161ed438d0584510e5b4512caa)
 
 
-
-
-
 Instance: ingredient-for-biktarvy-magnesiumstearate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Magnesium stearate"
@@ -219,8 +185,6 @@ Usage: #example
 * for = Reference(mid-14ba4cb05b11f838919ef39edd3e0cdf)
 * for[+] = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
 * for[+] = Reference(ap-14ba4cb05b11f838919ef39edd3e0cdf)
-// Reference to Organization:  Reference to MAH
-
  
  
 

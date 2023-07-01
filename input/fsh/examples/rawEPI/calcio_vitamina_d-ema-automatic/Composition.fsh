@@ -147,7 +147,7 @@ Usage: #example
 <li> Anticonvulsivantes.</li>
 <li> Corticosteroides sistémicos.</li>
 <li> Bifosfonatos y fluoruro sódico, esperar un intervalo de 3 horas.</li>
-<li> Barbit&uacute;ricos o fenitoína.</li>
+<li> Barbitúricos o fenitoína.</li>
 </ul>
 </div>
 <p><strong></strong></p>
@@ -167,13 +167,13 @@ Usage: #example
 <p></p>
 <p><strong>Calcio/Vitamina D</strong><strong>3</strong> <strong>ROVI contiene sacarosa, sodio, lactosa y glucosa.</strong></p>
 <p></p>
-<p>Este medicamento contiene sacarosa. Si su médico le ha indicado que padece una intolerancia a ciertos az&uacute;cares, consulte con él antes de tomar este medicamento. Puede producir caries.</p>
+<p>Este medicamento contiene sacarosa. Si su médico le ha indicado que padece una intolerancia a ciertos azúcares, consulte con él antes de tomar este medicamento. Puede producir caries.</p>
 <p></p>
 <p>Este medicamento contiene 96,15 mg de sodio (componente principal de la sal de mesa/para cocinar) en cada comprimido. Esto equivale al 4,8 % de la ingesta diaria máxima de sodio recomendada para un adulto.</p>
 <p></p>
-<p>Este medicamento contiene lactosa. Si su médico le ha indicado que padece una intolerancia a ciertos az&uacute;cares, consulte con él antes de tomar este medicamento.</p>
+<p>Este medicamento contiene lactosa. Si su médico le ha indicado que padece una intolerancia a ciertos azúcares, consulte con él antes de tomar este medicamento.</p>
 <p></p>
-<p>Este medicamento contiene glucosa (en maltodextrina procedente de maíz). Si su médico le ha indicado que padece una intolerancia a ciertos az&uacute;cares, consulte con él antes de tomar este medicamento.</p>
+<p>Este medicamento contiene glucosa (en maltodextrina procedente de maíz). Si su médico le ha indicado que padece una intolerancia a ciertos azúcares, consulte con él antes de tomar este medicamento.</p>
         </div>"""
 
    
@@ -269,9 +269,9 @@ Usage: #example
 <p></p>
 <p>Conservar en el envase original para protegerlo de la humedad.</p>
 <p></p>
-<p>No utilice este medicamento después de la fecha de caducidad que aparece en el envase después de CAD. La fecha de caducidad es el &uacute;ltimo día del mes que se indica.</p>
+<p>No utilice este medicamento después de la fecha de caducidad que aparece en el envase después de CAD. La fecha de caducidad es el último día del mes que se indica.</p>
 <p></p>
-<p>Los medicamentos no se deben tirar por los desag&uuml;es ni a la basura. Deposite los envases y los medicamentos que no necesita en el Punto SIGRE  de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma, ayudará a proteger el medio ambiente</p>
+<p>Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesita en el Punto SIGRE  de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma, ayudará a proteger el medio ambiente</p>
         </div>"""
 
       
@@ -308,7 +308,7 @@ Usage: #example
 <p>79395 - Neuenburg</p>
 <p>Alemania</p>
 <p><strong><em></em></strong></p>
-<p><strong>Fecha de la &uacute;ltima revisión de este prospecto:</strong> julio 2019</p>
+<p><strong>Fecha de la última revisión de este prospecto:</strong> julio 2019</p>
 <p>La información detallada de este medicamento está disponible en la página web de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) (<a href="https://www.aemps.gob.es/"><span style="text-decoration: underline;">https://www.aemps.gob.es/</span></a>)</p>
                             
                                   

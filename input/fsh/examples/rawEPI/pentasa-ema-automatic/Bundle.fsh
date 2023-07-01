@@ -5,12 +5,14 @@ Title: "ePI document Bundle for Pentasa Package Leaflet"
 Description: "Bundle for Pentasa Package Leaflet ePI document"
 Usage: #example
 
+
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "xx"
 * type = #document
-//* timestamp = "2023-06-28T18:12:46Z"
 * timestamp = "2023-06-27T10:09:22Z"
+
 * language = #en
+
 
 // Composition
 * entry[0].fullUrl = "Composition/compositionb3a8d58c709a2281d8ad2a590fe81663"

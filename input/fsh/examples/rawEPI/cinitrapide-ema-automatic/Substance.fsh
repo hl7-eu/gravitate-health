@@ -8,11 +8,11 @@ Usage: #example
 * identifier.value = "R8I97I2L24"
 * identifier.use = #official
 
+
 * version = "1"
 
-* status = https://gsrs.ncats.nih.gov/ginas/app/beta/#1 "Validated (UNII)"
+* status = http://hl7.org/fhir/publication-status#active
 
-//* description = "nan"
 
 
  // Reference to Organization: MAH
@@ -25,8 +25,6 @@ Usage: #example
 * molecularWeight[=].amount.value = 402.49
 * structure.molecularFormula = "C21H30N4O4"
 
-//* name.name = "4-amino-N-{1-[(cyclohex-3-en-1-yl)methyl]piperidin-4-yl}-2-ethoxy-5-nitrobenzamide"
 * name.name = "4-amino-N-{1-[(cyclohex-3-en-1-yl)methyl]piperidin-4-yl}-2-ethoxy-5-nitrobenzamide"
 
-//* name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"
 * name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"

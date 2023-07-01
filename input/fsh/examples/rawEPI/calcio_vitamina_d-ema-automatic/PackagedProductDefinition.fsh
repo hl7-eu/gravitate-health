@@ -26,13 +26,15 @@ Usage: #example
 
 * copackagedIndicator = false
 
-
 * packaging
+
   * identifier.system = $spor-prod
   * identifier.value = "123456"
   * type = $spor-rms#100000073496 "Blister"
+  //* quantity = 30
   * quantity = 30
   * material = $spor-rms#xxx "cardboard"
+
 
 
 

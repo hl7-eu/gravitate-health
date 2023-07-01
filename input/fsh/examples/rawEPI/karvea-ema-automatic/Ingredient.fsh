@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-karvea-hypromellose
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Hypromellose"
@@ -27,19 +23,13 @@ Usage: #example
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
 * for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
-
-
-
 Instance: ingredient-for-karvea-macrogol3000
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Macrogol 3000"
@@ -62,19 +52,13 @@ Usage: #example
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
 * for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
-
-
-
 Instance: ingredient-for-karvea-lactosemonohydrate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Lactose Monohydrate"
@@ -97,19 +81,13 @@ Usage: #example
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
 * for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
-
-
-
 Instance: ingredient-for-karvea-silicondioxide
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Silicon dioxide"
@@ -132,19 +110,13 @@ Usage: #example
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
 * for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
-
-
-
 Instance: ingredient-for-karvea-titaniumdioxide
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Titanium Dioxide"
@@ -167,19 +139,13 @@ Usage: #example
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
 * for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
-
-
-
 Instance: ingredient-for-karvea-irbesartan
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active irbesartan"
@@ -206,19 +172,13 @@ Usage: #example
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
 * for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
-
-
-
 Instance: ingredient-for-karvea-croscarmellosesodium
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Croscarmellose sodium"
@@ -241,19 +201,13 @@ Usage: #example
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
 * for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
-
-
-
 Instance: ingredient-for-karvea-microcrystallinecellulose
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Microcrystalline cellulose"
@@ -276,19 +230,13 @@ Usage: #example
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
 * for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
-
-
-
 Instance: ingredient-for-karvea-magnesiumstearate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Magnesium stearate"
@@ -311,19 +259,13 @@ Usage: #example
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
 * for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
 
-
-
-
 Instance: ingredient-for-karvea-carnaubawax
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Carnauba wax"
@@ -346,8 +288,6 @@ Usage: #example
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
 * for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
-// Reference to Organization:  Reference to MAH
-
  
 
 

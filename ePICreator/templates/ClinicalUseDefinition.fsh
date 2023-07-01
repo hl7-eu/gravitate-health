@@ -13,9 +13,11 @@ InstanceOf: ClinicalUseDefinition-{{row['type']}}-uv-epi
 Description: "{{row['type']}} - {{row['name']}}"
 Usage: #example
 
+{% if row["identifier"]!="nan"  %}
 * identifier.system = "{{row['identifier_system']}}"
 * identifier.value = "{{row['identifier']|trim}}"
 * identifier.use = #official
+{% endif %}
 
 * type = #{{row['type']}}
 

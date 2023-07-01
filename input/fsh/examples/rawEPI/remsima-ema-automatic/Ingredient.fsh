@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-remsima-infliximab
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active INFLIXIMAB"
@@ -31,8 +27,6 @@ Usage: #example
 * for = Reference(mid-e3e5e78d4e002ed9e15b925cd546e20b)
 * for[+] = Reference(mpbe76bdf784deea6950583b234f789db2)
 * for[+] = Reference(ap-e3e5e78d4e002ed9e15b925cd546e20b)
-// Reference to Organization:  Reference to MAH
-
  
  
 
@@ -40,11 +34,7 @@ Usage: #example
 //* manufacturer.manufacturer = Reference(mah-3c850a69e5187931f2198c5e63f933fe)
 
 
-
-
-
 Instance: ingredient-for-remsima-disodiumphosphatedihydrate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Disodium phosphate dihydrate"
@@ -67,8 +57,6 @@ Usage: #example
 * for = Reference(mid-e3e5e78d4e002ed9e15b925cd546e20b)
 * for[+] = Reference(mpbe76bdf784deea6950583b234f789db2)
 * for[+] = Reference(ap-e3e5e78d4e002ed9e15b925cd546e20b)
-// Reference to Organization:  Reference to MAH
-
  
  
 
@@ -76,11 +64,7 @@ Usage: #example
 //* manufacturer.manufacturer = Reference(mah-3c850a69e5187931f2198c5e63f933fe)
 
 
-
-
-
 Instance: ingredient-for-remsima-sodiumdihydrogenphosphatemonohydrate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Sodium dihydrogen phosphate monohydrate"
@@ -103,8 +87,6 @@ Usage: #example
 * for = Reference(mid-e3e5e78d4e002ed9e15b925cd546e20b)
 * for[+] = Reference(mpbe76bdf784deea6950583b234f789db2)
 * for[+] = Reference(ap-e3e5e78d4e002ed9e15b925cd546e20b)
-// Reference to Organization:  Reference to MAH
-
  
  
 
@@ -112,11 +94,7 @@ Usage: #example
 //* manufacturer.manufacturer = Reference(mah-3c850a69e5187931f2198c5e63f933fe)
 
 
-
-
-
 Instance: ingredient-for-remsima-polysorbate80
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient POLYSORBATE 80"
@@ -139,8 +117,6 @@ Usage: #example
 * for = Reference(mid-e3e5e78d4e002ed9e15b925cd546e20b)
 * for[+] = Reference(mpbe76bdf784deea6950583b234f789db2)
 * for[+] = Reference(ap-e3e5e78d4e002ed9e15b925cd546e20b)
-// Reference to Organization:  Reference to MAH
-
  
  
 
@@ -148,11 +124,7 @@ Usage: #example
 //* manufacturer.manufacturer = Reference(mah-3c850a69e5187931f2198c5e63f933fe)
 
 
-
-
-
 Instance: ingredient-for-remsima-sucrose
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Sucrose"
@@ -175,8 +147,6 @@ Usage: #example
 * for = Reference(mid-e3e5e78d4e002ed9e15b925cd546e20b)
 * for[+] = Reference(mpbe76bdf784deea6950583b234f789db2)
 * for[+] = Reference(ap-e3e5e78d4e002ed9e15b925cd546e20b)
-// Reference to Organization:  Reference to MAH
-
  
  
 

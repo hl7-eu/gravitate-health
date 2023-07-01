@@ -5,9 +5,6 @@ Title: "Humira 40 mg solution for injection in pre-filled syringe 2 pre-filled s
 Description: "Humira 40 mg solution for injection in pre-filled syringe 2 pre-filled syringes + 2 alcohol pads"
 Usage: #example
 
-* identifier.system = $spor-prod
-* identifier.value = "nan"
-* identifier.use = #official
 
 * name = "Humira 40 mg solution for injection in pre-filled syringe 2 pre-filled syringes + 2 alcohol pads"
 
@@ -26,13 +23,15 @@ Usage: #example
 
 * copackagedIndicator = true
 
-
 * packaging
+
   * identifier.system = $spor-prod
   * identifier.value = "xxxx"
   * type = $spor-rms#100000073498 "100000073498"
+  //* quantity = 1
   * quantity = 1
   * material = $spor-rms#200000003529 "Cardboard"
+
 
 
   * packaging.type = $spor-rms#30051000 "Pre-filled syringe"

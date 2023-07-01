@@ -7,9 +7,11 @@ Title: "{{ row["name"] }}"
 Description: "{{ row["name"] }}"
 Usage: #example
 
+{% if row["identifier"]|string !="nan" -%}
 * identifier.system = $spor-prod
 * identifier.value = "{{ row["identifier"]|trim }}"
 * identifier.use = #official
+{% endif %}
 
 * name = "{{ row["name"] }}"
 
@@ -33,13 +35,19 @@ Usage: #example
 {{ "* description = \"{}\"".format(row.description) if row.description|string !="nan"}}
 {{ "* copackagedIndicator = {}".format(row.copackagedIndicator|lower) if row.copackagedIndicator|string !="nan"}}
 
-
+{% if row["Packaging_type"]!="nan"  %}
 * packaging
+{% if row["packaging_identifier"]!="nan"  %}
+
   * identifier.system = $spor-prod
   * identifier.value = "{{ row["packaging_identifier"] }}"
+{% endif %}
   * type = $spor-rms#{{ row["Packaging_typeID"] }} "{{ row["Packaging_type"] }}"
-  * quantity = {{ row["packaging_quantity"] }}
-  * material = $spor-rms#{{ row["packaging_materialID"] }} "{{ row["packaging_material"] }}"
+  //* quantity = {{ row["packaging_quantity"] }}
+  {{ "* quantity = {}".format(row.packaging_quantity) if row.packaging_quantity|string !="nan"}}
+  {{ "* material = $spor-rms#{} \"{}\"".format(row.packaging_materialID,row.packaging_material) if row.packaging_material|string !="nan"}}
+
+{% endif %}
 
 {% if row["inside_packaging_type"]|string != "nan" %}
 

@@ -1,11 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-2e8cb2387c664fb619f6b8914767d38f
-
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active INFLUENZA A VIRUS A/Delaware/55/2019 CVR-45 (H1N1) WHOLE"
@@ -32,19 +27,13 @@ Usage: #example
 * for = Reference(mid-04c9bd6fb89d38b2d83eced2460c4dc1)
 * for[+] = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)
 * for[+] = Reference(ap-04c9bd6fb89d38b2d83eced2460c4dc1)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
-
-
-
 Instance: ingredient-for-flucelvax-influenzaavirusadarwin112021h3n2whole
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active INFLUENZA A VIRUS A/Darwin/11/2021 (H3N2) WHOLE"
@@ -71,20 +60,13 @@ Usage: #example
 * for = Reference(mid-04c9bd6fb89d38b2d83eced2460c4dc1)
 * for[+] = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)
 * for[+] = Reference(ap-04c9bd6fb89d38b2d83eced2460c4dc1)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
-
-
-
 Instance: ingredient-for-f4e520e2974f4acb8abe26b607ea5a46
-
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active INFLUENZA B VIRUS B/Singapore/WUH4618/2021 WHOLE"
@@ -111,20 +93,13 @@ Usage: #example
 * for = Reference(mid-04c9bd6fb89d38b2d83eced2460c4dc1)
 * for[+] = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)
 * for[+] = Reference(ap-04c9bd6fb89d38b2d83eced2460c4dc1)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
-
-
-
 Instance: ingredient-for-2c0c197a41a706fb2549601e635da1f3
-
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active INFLUENZA B VIRUS B/SINGAPORE/INFTT-16-0610/2016 WHOLE"
@@ -151,19 +126,13 @@ Usage: #example
 * for = Reference(mid-04c9bd6fb89d38b2d83eced2460c4dc1)
 * for[+] = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)
 * for[+] = Reference(ap-04c9bd6fb89d38b2d83eced2460c4dc1)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
-
-
-
 Instance: ingredient-for-flucelvax-sodiumchloride
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Sodium chloride"
@@ -186,19 +155,13 @@ Usage: #example
 * for = Reference(mid-04c9bd6fb89d38b2d83eced2460c4dc1)
 * for[+] = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)
 * for[+] = Reference(ap-04c9bd6fb89d38b2d83eced2460c4dc1)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
-
-
-
 Instance: ingredient-for-flucelvax-potassiumchloride
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Potassium chloride"
@@ -221,19 +184,13 @@ Usage: #example
 * for = Reference(mid-04c9bd6fb89d38b2d83eced2460c4dc1)
 * for[+] = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)
 * for[+] = Reference(ap-04c9bd6fb89d38b2d83eced2460c4dc1)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
-
-
-
 Instance: ingredient-for-flucelvax-magnesiumchloride
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient MAGNESIUM CHLORIDE"
@@ -256,19 +213,13 @@ Usage: #example
 * for = Reference(mid-04c9bd6fb89d38b2d83eced2460c4dc1)
 * for[+] = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)
 * for[+] = Reference(ap-04c9bd6fb89d38b2d83eced2460c4dc1)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
-
-
-
 Instance: ingredient-for-flucelvax-sodiumphosphatedibasicdihydrate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SODIUM PHOSPHATE, DIBASIC, DIHYDRATE"
@@ -291,19 +242,13 @@ Usage: #example
 * for = Reference(mid-04c9bd6fb89d38b2d83eced2460c4dc1)
 * for[+] = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)
 * for[+] = Reference(ap-04c9bd6fb89d38b2d83eced2460c4dc1)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
-
-
-
 Instance: ingredient-for-flucelvax-potassiumdihydrogenphosphate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Potassium dihydrogen phosphate
@@ -328,19 +273,13 @@ Usage: #example
 * for = Reference(mid-04c9bd6fb89d38b2d83eced2460c4dc1)
 * for[+] = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)
 * for[+] = Reference(ap-04c9bd6fb89d38b2d83eced2460c4dc1)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 
 
-
-
-
 Instance: ingredient-for-flucelvax-waterforinjections
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Water for injections"
@@ -363,8 +302,6 @@ Usage: #example
 * for = Reference(mid-04c9bd6fb89d38b2d83eced2460c4dc1)
 * for[+] = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)
 * for[+] = Reference(ap-04c9bd6fb89d38b2d83eced2460c4dc1)
-// Reference to Organization:  Reference to MAH
-
  
 
 

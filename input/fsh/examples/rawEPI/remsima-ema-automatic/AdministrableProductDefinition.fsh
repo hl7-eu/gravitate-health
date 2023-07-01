@@ -14,10 +14,8 @@ Usage: #example
 * administrableDoseForm = $spor-rms#100000074029 "Powder for concentrate for solution for infusion"
 * unitOfPresentation = $spor-rms#200000002158 "Vial"
 
-//this is just manufactured with extra steps?
 
 
-//reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 * producedFrom = Reference(mid-e3e5e78d4e002ed9e15b925cd546e20b)
 
 

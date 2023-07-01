@@ -8,11 +8,11 @@ Usage: #example
 * identifier.value = "362O9ITL9D"
 * identifier.use = #official
 
+
 * version = "1"
 
-* status = https://gsrs.ncats.nih.gov/ginas/app/beta/#1 "Validated (UNII)"
+* status = http://hl7.org/fhir/publication-status#active
 
-//* description = "nan"
 
 
  // Reference to Organization: MAH
@@ -25,8 +25,6 @@ Usage: #example
 * molecularWeight[=].amount.value = 151.16
 * structure.molecularFormula = "C8H9NO2"
 
-//* name.name = "4'-HYDROXYACETANILIDE"
 * name.name = "4'-HYDROXYACETANILIDE"
 
-//* name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"
 * name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"

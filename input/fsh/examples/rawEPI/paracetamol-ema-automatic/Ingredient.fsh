@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-paracetamol-magnesiumstearate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Magnesium stearate"
@@ -27,19 +23,13 @@ Usage: #example
 * for = Reference(mid-08ac066220d4d68a3933a9c94bef32ff)
 * for[+] = Reference(mpa975b7e209ea5c4c3bf8040a42b86fbd)
 * for[+] = Reference(ap-08ac066220d4d68a3933a9c94bef32ff)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-65db33d6be47a433e6e9e9c2980ea7a4)
 
 
-
-
-
 Instance: ingredient-for-paracetamol-povidoneunspecified
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient POVIDONE, UNSPECIFIED"
@@ -62,19 +52,13 @@ Usage: #example
 * for = Reference(mid-08ac066220d4d68a3933a9c94bef32ff)
 * for[+] = Reference(mpa975b7e209ea5c4c3bf8040a42b86fbd)
 * for[+] = Reference(ap-08ac066220d4d68a3933a9c94bef32ff)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-65db33d6be47a433e6e9e9c2980ea7a4)
 
 
-
-
-
 Instance: ingredient-for-paracetamol-paracetamol
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active paracetamol"
@@ -101,19 +85,13 @@ Usage: #example
 * for = Reference(mid-08ac066220d4d68a3933a9c94bef32ff)
 * for[+] = Reference(mpa975b7e209ea5c4c3bf8040a42b86fbd)
 * for[+] = Reference(ap-08ac066220d4d68a3933a9c94bef32ff)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-65db33d6be47a433e6e9e9c2980ea7a4)
 
 
-
-
-
 Instance: ingredient-for-paracetamol-silicacolloidalanhydrous
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SILICA, COLLOIDAL ANHYDROUS"
@@ -136,19 +114,13 @@ Usage: #example
 * for = Reference(mid-08ac066220d4d68a3933a9c94bef32ff)
 * for[+] = Reference(mpa975b7e209ea5c4c3bf8040a42b86fbd)
 * for[+] = Reference(ap-08ac066220d4d68a3933a9c94bef32ff)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-65db33d6be47a433e6e9e9c2980ea7a4)
 
 
-
-
-
 Instance: ingredient-for-paracetamol-starchcorn
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient STARCH, CORN"
@@ -171,19 +143,13 @@ Usage: #example
 * for = Reference(mid-08ac066220d4d68a3933a9c94bef32ff)
 * for[+] = Reference(mpa975b7e209ea5c4c3bf8040a42b86fbd)
 * for[+] = Reference(ap-08ac066220d4d68a3933a9c94bef32ff)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-65db33d6be47a433e6e9e9c2980ea7a4)
 
 
-
-
-
 Instance: ingredient-for-paracetamol-starchpotato
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient STARCH, POTATO"
@@ -206,8 +172,6 @@ Usage: #example
 * for = Reference(mid-08ac066220d4d68a3933a9c94bef32ff)
 * for[+] = Reference(mpa975b7e209ea5c4c3bf8040a42b86fbd)
 * for[+] = Reference(ap-08ac066220d4d68a3933a9c94bef32ff)
-// Reference to Organization:  Reference to MAH
-
  
 
 

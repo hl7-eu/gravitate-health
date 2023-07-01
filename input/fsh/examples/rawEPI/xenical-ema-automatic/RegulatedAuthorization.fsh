@@ -9,15 +9,14 @@ Usage: #example
 * identifier.value = "EU/1/98/071/004"
 * identifier.use = #official
 
+
  // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
  //* subject = Reference(karvea75mgblisterx28)
 * subject = Reference(mpbc60fa1aa0bfe774d11ee13c0c131622)
 * type = $spor-rms#100000072062 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062
-//* type.text = "Marketing Authorisation"
-
-* region = urn:iso:std:iso:3166#GBR "United Kingdom"
+//* type.text = "Marketing Authorisation"* region = urn:iso:std:iso:3166#GBR "United Kingdom"
 
 
 * status = http://hl7.org/fhir/publication-status#active "Active"

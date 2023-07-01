@@ -8,11 +8,11 @@ Usage: #example
 * identifier.value = "33CM23913M"
 * identifier.use = #official
 
+
 * version = "1"
 
-* status = https://gsrs.ncats.nih.gov/ginas/app/beta/#1 "Validated (UNII)"
+* status = http://hl7.org/fhir/publication-status#active
 
-//* description = "nan"
 
 
  // Reference to Organization: MAH
@@ -25,8 +25,6 @@ Usage: #example
 * molecularWeight[=].amount.value = 236.27
 * structure.molecularFormula = "C15H12N2O"
 
-//* name.name = "5H-DIBENZ(B,F)AZEPINE-5-CARBOXAMIDE"
 * name.name = "5H-DIBENZ(B,F)AZEPINE-5-CARBOXAMIDE"
 
-//* name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"
 * name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#x "Chemical Name"

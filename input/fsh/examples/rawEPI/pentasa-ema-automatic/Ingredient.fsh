@@ -1,10 +1,6 @@
 
 
-
-
-
 Instance: ingredient-for-pentasa-mesalazine
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active mesalazine"
@@ -31,19 +27,13 @@ Usage: #example
 * for = Reference(mid-1a7318638ddbbeb084ef416e717b6fdb)
 * for[+] = Reference(mpb3a8d58c709a2281d8ad2a590fe81663)
 * for[+] = Reference(ap-1a7318638ddbbeb084ef416e717b6fdb)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-6ade044addd6563de0baefebb1cceb8e)
 
 
-
-
-
 Instance: ingredient-for-pentasa-povidone
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Povidone"
@@ -66,19 +56,13 @@ Usage: #example
 * for = Reference(mid-1a7318638ddbbeb084ef416e717b6fdb)
 * for[+] = Reference(mpb3a8d58c709a2281d8ad2a590fe81663)
 * for[+] = Reference(ap-1a7318638ddbbeb084ef416e717b6fdb)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-6ade044addd6563de0baefebb1cceb8e)
 
 
-
-
-
 Instance: ingredient-for-pentasa-ethylcellulose
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Ethylcellulose"
@@ -101,19 +85,13 @@ Usage: #example
 * for = Reference(mid-1a7318638ddbbeb084ef416e717b6fdb)
 * for[+] = Reference(mpb3a8d58c709a2281d8ad2a590fe81663)
 * for[+] = Reference(ap-1a7318638ddbbeb084ef416e717b6fdb)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-6ade044addd6563de0baefebb1cceb8e)
 
 
-
-
-
 Instance: ingredient-for-pentasa-magnesiumstearate
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Magnesium stearate"
@@ -136,19 +114,13 @@ Usage: #example
 * for = Reference(mid-1a7318638ddbbeb084ef416e717b6fdb)
 * for[+] = Reference(mpb3a8d58c709a2281d8ad2a590fe81663)
 * for[+] = Reference(ap-1a7318638ddbbeb084ef416e717b6fdb)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-6ade044addd6563de0baefebb1cceb8e)
 
 
-
-
-
 Instance: ingredient-for-pentasa-talc
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Talc"
@@ -171,19 +143,13 @@ Usage: #example
 * for = Reference(mid-1a7318638ddbbeb084ef416e717b6fdb)
 * for[+] = Reference(mpb3a8d58c709a2281d8ad2a590fe81663)
 * for[+] = Reference(ap-1a7318638ddbbeb084ef416e717b6fdb)
-// Reference to Organization:  Reference to MAH
-
  
 
 
 //* manufacturer.manufacturer = Reference(mah-6ade044addd6563de0baefebb1cceb8e)
 
 
-
-
-
 Instance: ingredient-for-pentasa-microcrystallinecellulose
-
 
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Microcrystalline cellulose"
@@ -206,8 +172,6 @@ Usage: #example
 * for = Reference(mid-1a7318638ddbbeb084ef416e717b6fdb)
 * for[+] = Reference(mpb3a8d58c709a2281d8ad2a590fe81663)
 * for[+] = Reference(ap-1a7318638ddbbeb084ef416e717b6fdb)
-// Reference to Organization:  Reference to MAH
-
  
 
 

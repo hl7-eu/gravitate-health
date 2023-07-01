@@ -6,7 +6,7 @@ Description: "acmedrug"
 Usage: #example
 
 * identifier.system = $phpid
-* identifier.value = "nan" 
+* identifier.value = "id" 
 
 * status = #active
 
@@ -14,10 +14,8 @@ Usage: #example
 * administrableDoseForm = $spor-rms#100000073664 "Tablet"
 * unitOfPresentation = $spor-rms#200000002152 "Tablet"
 
-//this is just manufactured with extra steps?
 
 
-//reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 * producedFrom = Reference(mid-534e209eb0a3ff60437639cb2015316f)
 
 
