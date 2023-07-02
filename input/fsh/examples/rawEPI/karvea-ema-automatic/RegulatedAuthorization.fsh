@@ -1,18 +1,18 @@
 
-Instance: authorizationdcaa4d32aa6658a8df831551503e52ee
+Instance: authorization56d67fa637872ea5cc70adebbfde3adf
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for karvea 75 mg tablet"
-Description: "Regulated Authorization for karvea 75 mg tablet"
+Title: "Regulated Authorization for karvea 75 mg tablet - 14 tablets"
+Description: "Regulated Authorization for karvea 75 mg tablet - 14 tablets"
 Usage: #example
 
 * identifier.system = $spor-prod
-* identifier.value = "EU/1/97/049/001"
+* identifier.value = "EU/1/97/049/010"
 * identifier.use = #official
 
 
  // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
  //* subject = Reference(karvea75mgblisterx28)
-* subject = Reference(mp189022f500f412d86c5eec41521158d6)
+* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * type = $spor-rms#220000000061 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062
@@ -25,9 +25,11 @@ Usage: #example
 * statusDate = "2015-02-07T13:28:17Z"
 // * holder = Reference(sanofiaventisgroupe)
  
-* holder = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
+* holder = Reference(mah-511671db37e83e520b00f8a0d817dc96) 
 
 
 
+
+ 
  
 

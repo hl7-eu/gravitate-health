@@ -21,12 +21,13 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
+* for[+] = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
+ 
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-511671db37e83e520b00f8a0d817dc96)
 
 
 Instance: ingredient-for-karvea-macrogol3000
@@ -50,12 +51,13 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
+* for[+] = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
+ 
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-511671db37e83e520b00f8a0d817dc96)
 
 
 Instance: ingredient-for-karvea-lactosemonohydrate
@@ -79,12 +81,13 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
+* for[+] = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
+ 
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-511671db37e83e520b00f8a0d817dc96)
 
 
 Instance: ingredient-for-karvea-silicondioxide
@@ -108,12 +111,13 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
+* for[+] = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
+ 
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-511671db37e83e520b00f8a0d817dc96)
 
 
 Instance: ingredient-for-karvea-titaniumdioxide
@@ -137,12 +141,13 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
+* for[+] = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
+ 
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-511671db37e83e520b00f8a0d817dc96)
 
 
 Instance: ingredient-for-karvea-irbesartan
@@ -170,12 +175,13 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
+* for[+] = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
+ 
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-511671db37e83e520b00f8a0d817dc96)
 
 
 Instance: ingredient-for-karvea-croscarmellosesodium
@@ -199,12 +205,13 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
+* for[+] = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
+ 
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-511671db37e83e520b00f8a0d817dc96)
 
 
 Instance: ingredient-for-karvea-microcrystallinecellulose
@@ -228,12 +235,13 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
+* for[+] = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
+ 
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-511671db37e83e520b00f8a0d817dc96)
 
 
 Instance: ingredient-for-karvea-magnesiumstearate
@@ -257,12 +265,13 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
+* for[+] = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
+ 
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-511671db37e83e520b00f8a0d817dc96)
 
 
 Instance: ingredient-for-karvea-carnaubawax
@@ -286,9 +295,10 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
+* for[+] = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
+ 
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
+//* manufacturer.manufacturer = Reference(mah-511671db37e83e520b00f8a0d817dc96)

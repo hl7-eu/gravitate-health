@@ -17,12 +17,13 @@ Usage: #example
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp189022f500f412d86c5eec41521158d6)
+* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * date = "2022-02-16T13:28:17Z"
 
  
  // Reference to Organization: MAH
-* author = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
+* author = Reference(mah-511671db37e83e520b00f8a0d817dc96) 
+
 
 
 * title = "TEST PURPOSES ONLY - Karvea"

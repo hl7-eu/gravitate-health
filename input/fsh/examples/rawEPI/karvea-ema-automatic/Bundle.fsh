@@ -105,41 +105,31 @@ Usage: #example
 
 // RegulatedAuthorization
 
-* entry[+].fullUrl = "RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee"
-* entry[=].resource = authorizationdcaa4d32aa6658a8df831551503e52ee 
+* entry[+].fullUrl = "RegulatedAuthorization/authorization56d67fa637872ea5cc70adebbfde3adf"
+* entry[=].resource = authorization56d67fa637872ea5cc70adebbfde3adf 
  
 
 // Organization
 
-* entry[+].fullUrl = "Organization/mah-fe4fee458a4f24fccb770d311350f67c"
-* entry[=].resource = mah-fe4fee458a4f24fccb770d311350f67c 
+* entry[+].fullUrl = "Organization/mah-511671db37e83e520b00f8a0d817dc96"
+* entry[=].resource = mah-511671db37e83e520b00f8a0d817dc96 
+
+// Organization
+
+* entry[+].fullUrl = "Organization/man-4bb7a752921434fd5f9921b5b9473eda"
+* entry[=].resource = man-4bb7a752921434fd5f9921b5b9473eda 
  
 
 // PackagedProductDefinition
 
 * entry[+].fullUrl = "PackagedProductDefinition/ppd-2bcdfdf1d11850dc6baf092ed464d398"
 * entry[=].resource = ppd-2bcdfdf1d11850dc6baf092ed464d398 
-
-// PackagedProductDefinition
-
-* entry[+].fullUrl = "PackagedProductDefinition/ppd-af75ff967e8af305689c5bcec37bd16e"
-* entry[=].resource = ppd-af75ff967e8af305689c5bcec37bd16e 
-
-// PackagedProductDefinition
-
-* entry[+].fullUrl = "PackagedProductDefinition/ppd-acf41a12d309238147d81b509fc7f897"
-* entry[=].resource = ppd-acf41a12d309238147d81b509fc7f897 
-
-// PackagedProductDefinition
-
-* entry[+].fullUrl = "PackagedProductDefinition/ppd-d5f7793f665e09e8735d0343ed478fa4"
-* entry[=].resource = ppd-d5f7793f665e09e8735d0343ed478fa4 
  
 
 // MedicinalProductDefinition
 
-* entry[+].fullUrl = "MedicinalProductDefinition/mp189022f500f412d86c5eec41521158d6"
-* entry[=].resource = mp189022f500f412d86c5eec41521158d6 
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2412867d9a0e15f82f11047ad93bdbad"
+* entry[=].resource = mp2412867d9a0e15f82f11047ad93bdbad 
  
 
 // ManufacturedItemDefinition

@@ -1,13 +1,13 @@
 
-Instance: mp189022f500f412d86c5eec41521158d6
+Instance: mp2412867d9a0e15f82f11047ad93bdbad
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Karvea 75 mg tablets"
-Description: "Karvea 75 mg tablets"
+Title: "Medicinal Product Karvea 75 mg tablet x14"
+Description: "Karvea 75 mg tablet x14"
 Usage: #example
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"
-* identifier[=].value = "EU/1/97/049/001" 
+* identifier[=].value = "EU/1/97/049/010" 
 * identifier[+].system = "https://www.who-umc.org/phpid"
 * identifier[=].value = "0xF79CABF272B6A7EEF104DDDA44E82719"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
@@ -24,7 +24,7 @@ Usage: #example
 
 
 * name
-  * productName = "Karvea 75 mg tablets"
+  * productName = "Karvea 75 mg tablet x14"
   * type = $spor-productNamePartType-cs#220000000001
     * text = "Full name"
   
