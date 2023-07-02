@@ -17,7 +17,7 @@ Usage: #example
  // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
  {% if data["turn"] != "1" %}
 //* subject = Reference(karvea75mgblisterx28)
-* subject = Reference({{data["references"]["MedicinalProductDefinition"][0][0]}})
+* subject = Reference({{data["references"]["MedicinalProductDefinition"][index][0]}})
 {% endif %}
 * type = $spor-rms#{{ row["typeID"] }} "{{ row["type"] }}"
 

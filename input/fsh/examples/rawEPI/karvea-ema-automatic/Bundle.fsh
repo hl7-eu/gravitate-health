@@ -107,6 +107,21 @@ Usage: #example
 
 * entry[+].fullUrl = "RegulatedAuthorization/authorization56d67fa637872ea5cc70adebbfde3adf"
 * entry[=].resource = authorization56d67fa637872ea5cc70adebbfde3adf 
+
+// RegulatedAuthorization
+
+* entry[+].fullUrl = "RegulatedAuthorization/authorization45d6c9ac2ad1a24e271b9d9e071bf1c3"
+* entry[=].resource = authorization45d6c9ac2ad1a24e271b9d9e071bf1c3 
+
+// RegulatedAuthorization
+
+* entry[+].fullUrl = "RegulatedAuthorization/authorizationd022dc2e95e1f13832cc0a28033d434b"
+* entry[=].resource = authorizationd022dc2e95e1f13832cc0a28033d434b 
+
+// RegulatedAuthorization
+
+* entry[+].fullUrl = "RegulatedAuthorization/authorization8b2753978e7cb66746bf9fc0c5b1e856"
+* entry[=].resource = authorization8b2753978e7cb66746bf9fc0c5b1e856 
  
 
 // Organization
@@ -124,12 +139,42 @@ Usage: #example
 
 * entry[+].fullUrl = "PackagedProductDefinition/ppd-2bcdfdf1d11850dc6baf092ed464d398"
 * entry[=].resource = ppd-2bcdfdf1d11850dc6baf092ed464d398 
+
+// PackagedProductDefinition
+
+* entry[+].fullUrl = "PackagedProductDefinition/ppd-af75ff967e8af305689c5bcec37bd16e"
+* entry[=].resource = ppd-af75ff967e8af305689c5bcec37bd16e 
+
+// PackagedProductDefinition
+
+* entry[+].fullUrl = "PackagedProductDefinition/ppd-acf41a12d309238147d81b509fc7f897"
+* entry[=].resource = ppd-acf41a12d309238147d81b509fc7f897 
+
+// PackagedProductDefinition
+
+* entry[+].fullUrl = "PackagedProductDefinition/ppd-d5f7793f665e09e8735d0343ed478fa4"
+* entry[=].resource = ppd-d5f7793f665e09e8735d0343ed478fa4 
  
 
 // MedicinalProductDefinition
 
 * entry[+].fullUrl = "MedicinalProductDefinition/mp2412867d9a0e15f82f11047ad93bdbad"
 * entry[=].resource = mp2412867d9a0e15f82f11047ad93bdbad 
+
+// MedicinalProductDefinition
+
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf095d9202ffefe8b579ed68f5eb48cc2"
+* entry[=].resource = mpf095d9202ffefe8b579ed68f5eb48cc2 
+
+// MedicinalProductDefinition
+
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3782f5cdf745de74f956298557335c6a"
+* entry[=].resource = mp3782f5cdf745de74f956298557335c6a 
+
+// MedicinalProductDefinition
+
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc4f9d6ea53ec05b60b33bc68ae2b1dd3"
+* entry[=].resource = mpc4f9d6ea53ec05b60b33bc68ae2b1dd3 
  
 
 // ManufacturedItemDefinition

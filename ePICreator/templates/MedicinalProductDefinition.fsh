@@ -62,5 +62,5 @@ Usage: #example
     * jurisdiction = urn:iso:std:iso:3166#{{ row["countryCode"]  }} "{{ row["country"]  }}"
     * language = urn:ietf:bcp:47#{{ row["languageID"]  }}  "{{ row["language"]  }}"
 
-{%- endif %}
-{%- endfor %}
+{% endif %}
+{% endfor %}
