@@ -21,7 +21,7 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
+* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
  
 
@@ -50,7 +50,7 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
+* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
  
 
@@ -79,7 +79,7 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
+* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
  
 
@@ -108,7 +108,7 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
+* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
  
 
@@ -137,7 +137,7 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
+* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
  
 
@@ -156,7 +156,7 @@ Usage: #example
 * identifier.value = "J0E2756Z7N"
 * identifier.use = #official
 
-* role = $spor-rms#72072 "active"
+* role = $spor-rms#100000072072 "active"
 
 * status = #active
 
@@ -170,7 +170,7 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
+* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
  
 
@@ -199,7 +199,7 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
+* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
  
 
@@ -228,7 +228,7 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
+* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
  
 
@@ -257,7 +257,7 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
+* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
  
 
@@ -286,7 +286,7 @@ Usage: #example
 
 // Reference to products
 * for = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
-* for[+] = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
+* for[+] = Reference(mp189022f500f412d86c5eec41521158d6)
 * for[+] = Reference(ap-dcaa4d32aa6658a8df831551503e52ee)
  
 

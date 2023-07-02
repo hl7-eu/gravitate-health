@@ -10,7 +10,7 @@ Usage: #example
 * identifier.use = #official
 
 * status = #active
-* manufacturedDoseForm = https://spor.ema.europa.eu/rmswi/#100000073864 "tablet"
+* manufacturedDoseForm = https://spor.ema.europa.eu/rmswi/#100000073664 "Tablet"
 
 * unitOfPresentation = $spor-rms#200000002152 "Tablet"
 

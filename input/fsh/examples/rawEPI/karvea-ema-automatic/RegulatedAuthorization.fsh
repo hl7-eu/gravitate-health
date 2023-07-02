@@ -12,8 +12,8 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
  //* subject = Reference(karvea75mgblisterx28)
-* subject = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
-* type = $spor-rms#100000072062 "Marketing Authorisation"
+* subject = Reference(mp189022f500f412d86c5eec41521158d6)
+* type = $spor-rms#220000000061 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062
 //* type.text = "Marketing Authorisation"* region = urn:iso:std:iso:3166#DK "Denmark"

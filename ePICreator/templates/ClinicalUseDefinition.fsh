@@ -2,14 +2,14 @@
 {% if row["skip"] not in ['y', 'Y', 'x', 'X'] %}
 
 {% set ns = namespace() %}
-{% set ns.one = row['type'] %}
+{% set ns.one = row['type']|trim %}
 {% set ns.two = row['name']|lower | regex_replace('[^A-Za-z0-9]+', '') %}
 {% set ns.three= data["dictionary"]["MajorName"] %}
 {% set ns.name_to_has= ns.one ~ ns.two ~ns.three  %}
 
 
 Instance: cud-{{ns.name_to_has| create_hash_id}}
-InstanceOf: ClinicalUseDefinition-{{row['type']}}-uv-epi
+InstanceOf: ClinicalUseDefinition-{{row['type']|trim}}-uv-epi
 Description: "{{row['type']}} - {{row['name']}}"
 Usage: #example
 

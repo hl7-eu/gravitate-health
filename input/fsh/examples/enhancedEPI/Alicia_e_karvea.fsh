@@ -16,7 +16,7 @@ Usage: #inline
 * type.text = "Package Leaflet"
 * category = epicategory-cs#E "enhanced"
 
-* subject = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
+* subject = Reference(mp189022f500f412d86c5eec41521158d6)
 * date = "2022-02-16T13:28:17Z"
 * author = Reference(mah-fe4fee458a4f24fccb770d311350f67c)
 
@@ -599,11 +599,11 @@ Usage: #example
 * entry[+].fullUrl = "Organization/mah-fe4fee458a4f24fccb770d311350f67c"
 * entry[=].resource = mah-fe4fee458a4f24fccb770d311350f67c 
 // PackagedProductDefinition
-* entry[+].fullUrl = "PackagedProductDefinition/ppd-a223062bf3faf7acb3e6e80760fa4e91"
-* entry[=].resource = ppd-a223062bf3faf7acb3e6e80760fa4e91 
+* entry[+].fullUrl = "PackagedProductDefinition/ppd-2bcdfdf1d11850dc6baf092ed464d398"
+* entry[=].resource = ppd-2bcdfdf1d11850dc6baf092ed464d398 
 // MedicinalProductDefinition
-* entry[+].fullUrl = "MedicinalProductDefinition/mpa2bd0171a7654dc24f7eb7e9338e1acc"
-* entry[=].resource = mpa2bd0171a7654dc24f7eb7e9338e1acc 
+* entry[+].fullUrl = "MedicinalProductDefinition/mp189022f500f412d86c5eec41521158d6"
+* entry[=].resource = mp189022f500f412d86c5eec41521158d6 
 // ManufacturedItemDefinition
 * entry[+].fullUrl = "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
 * entry[=].resource = mid-dcaa4d32aa6658a8df831551503e52ee 

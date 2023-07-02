@@ -7,9 +7,7 @@ Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
-
-* identifier.value = "fa43fb82323d95374b1b9081843f6214"
-
+* identifier.value = "dd"
 * status = #final
 
 
@@ -19,7 +17,7 @@ Usage: #example
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
+* subject = Reference(mp189022f500f412d86c5eec41521158d6)
 * date = "2022-02-16T13:28:17Z"
 
  

@@ -10,9 +10,9 @@ Usage: #example
 
 * status = #active
 
-* formOf = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
-* administrableDoseForm = $spor-rms#200000002152 "tablet"
-* unitOfPresentation = $spor-rms#200000002152 "tablet"
+* formOf = Reference(mp189022f500f412d86c5eec41521158d6)
+* administrableDoseForm = $spor-rms#100000073664 "Tablet"
+* unitOfPresentation = $spor-rms#200000002152 "Tablet"
 
 
 

@@ -117,14 +117,29 @@ Usage: #example
 
 // PackagedProductDefinition
 
-* entry[+].fullUrl = "PackagedProductDefinition/ppd-a223062bf3faf7acb3e6e80760fa4e91"
-* entry[=].resource = ppd-a223062bf3faf7acb3e6e80760fa4e91 
+* entry[+].fullUrl = "PackagedProductDefinition/ppd-2bcdfdf1d11850dc6baf092ed464d398"
+* entry[=].resource = ppd-2bcdfdf1d11850dc6baf092ed464d398 
+
+// PackagedProductDefinition
+
+* entry[+].fullUrl = "PackagedProductDefinition/ppd-af75ff967e8af305689c5bcec37bd16e"
+* entry[=].resource = ppd-af75ff967e8af305689c5bcec37bd16e 
+
+// PackagedProductDefinition
+
+* entry[+].fullUrl = "PackagedProductDefinition/ppd-acf41a12d309238147d81b509fc7f897"
+* entry[=].resource = ppd-acf41a12d309238147d81b509fc7f897 
+
+// PackagedProductDefinition
+
+* entry[+].fullUrl = "PackagedProductDefinition/ppd-d5f7793f665e09e8735d0343ed478fa4"
+* entry[=].resource = ppd-d5f7793f665e09e8735d0343ed478fa4 
  
 
 // MedicinalProductDefinition
 
-* entry[+].fullUrl = "MedicinalProductDefinition/mpa2bd0171a7654dc24f7eb7e9338e1acc"
-* entry[=].resource = mpa2bd0171a7654dc24f7eb7e9338e1acc 
+* entry[+].fullUrl = "MedicinalProductDefinition/mp189022f500f412d86c5eec41521158d6"
+* entry[=].resource = mp189022f500f412d86c5eec41521158d6 
  
 
 // ManufacturedItemDefinition

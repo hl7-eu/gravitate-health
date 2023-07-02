@@ -1,8 +1,8 @@
 
-Instance: mpa2bd0171a7654dc24f7eb7e9338e1acc
+Instance: mp189022f500f412d86c5eec41521158d6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Karvea 75 mg tablet blister x28"
-Description: "Karvea 75 mg tablet blister x28"
+Title: "Medicinal Product Karvea 75 mg tablets"
+Description: "Karvea 75 mg tablets"
 Usage: #example
 
  
@@ -24,7 +24,7 @@ Usage: #example
 
 
 * name
-  * productName = "Karvea 75 mg tablet blister x28"
+  * productName = "Karvea 75 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001
     * text = "Full name"
   
@@ -49,6 +49,6 @@ Usage: #example
     * type.text = "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "Denmark"
-    * jurisdiction = urn:iso:std:iso:3166#DK "Denmark"
+    * country = urn:iso:std:iso:3166#DK ""
+    * jurisdiction = urn:iso:std:iso:3166#DK ""
     * language = urn:ietf:bcp:47#en  "English"

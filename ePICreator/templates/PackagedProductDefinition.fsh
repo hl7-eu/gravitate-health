@@ -35,30 +35,30 @@ Usage: #example
 {{ "* description = \"{}\"".format(row.description) if row.description|string !="nan"}}
 {{ "* copackagedIndicator = {}".format(row.copackagedIndicator|lower) if row.copackagedIndicator|string !="nan"}}
 
-{% if row["Packaging_type"]!="nan"  %}
+
+
 * packaging
+  * identifier.system = $spor-prod
+  * identifier.value = "mock-id"
+  * quantity = 1
+  * type = $spor-rms#100000073498 "Box"
+
+
+{% if row["Packaging_type"]!="nan"  %}
+  * packaging
 {% if row["packaging_identifier"]!="nan"  %}
 
-  * identifier.system = $spor-prod
-  * identifier.value = "{{ row["packaging_identifier"] }}"
+    * identifier.system = $spor-prod
+    * identifier.value = "{{ row["packaging_identifier"] }}"
 {% endif %}
-  * type = $spor-rms#{{ row["Packaging_typeID"] }} "{{ row["Packaging_type"] }}"
-  //* quantity = {{ row["packaging_quantity"] }}
-  {{ "* quantity = {}".format(row.packaging_quantity) if row.packaging_quantity|string !="nan"}}
-  {{ "* material = $spor-rms#{} \"{}\"".format(row.packaging_materialID,row.packaging_material) if row.packaging_material|string !="nan"}}
+    * type = $spor-rms#{{ row["Packaging_typeID"] }} "{{ row["Packaging_type"] }}"
+    //* quantity = {{ row["packaging_quantity"] }}
+    {{ "* quantity = {}".format(row.packaging_quantity) if row.packaging_quantity|string !="nan"}}
+    {{ "* material = $spor-rms#{} \"{}\"".format(row.packaging_materialID,row.packaging_material) if row.packaging_material|string !="nan"}}
 
 {% endif %}
 
-{% if row["inside_packaging_type"]|string != "nan" %}
 
-  * packaging.type = $spor-rms#{{ row["inside_packaging_typeID"] }} "{{ row["inside_packaging_type"] }}"
-  * packaging.quantity = {{ row["inside_packaging_quantity"] }}
-{% for idx in range(0,row["inside_packaging_materialID"].count("|")+1) %} 
-
-  * packaging.material[+] = $spor-rms#{{ row["inside_packaging_materialID"].split("|")[idx] }} "{{ row["inside_packaging_material"].split("|")[idx] }}"
-
-{%- endfor %}
-{%- endif %}
 
 
 //reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet

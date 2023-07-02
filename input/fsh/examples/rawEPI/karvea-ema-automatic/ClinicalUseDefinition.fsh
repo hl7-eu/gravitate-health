@@ -6,15 +6,12 @@ InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
 Description: "contraindication - Diabetis Mellitus"
 Usage: #example
 
-* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
-* identifier.value = "xx"
-* identifier.use = #official
 
 * type = #contraindication
 
 // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet blister x28
  
-* subject = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
+* subject = Reference(mp189022f500f412d86c5eec41521158d6)
 
 * contraindication
   * diseaseSymptomProcedure.concept.coding = $meddra#10012601 "Diabetis Mellitus"
@@ -28,15 +25,12 @@ InstanceOf: ClinicalUseDefinition-indication-uv-epi
 Description: "indication - Hypertension"
 Usage: #example
 
-* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
-* identifier.value = "xx"
-* identifier.use = #official
 
 * type = #indication
 
 // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet blister x28
  
-* subject = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
+* subject = Reference(mp189022f500f412d86c5eec41521158d6)
 
 
 * indication
@@ -51,15 +45,12 @@ InstanceOf: ClinicalUseDefinition-interaction-uv-epi
 Description: "interaction - METHOTREXATE"
 Usage: #example
 
-* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
-* identifier.value = "xx"
-* identifier.use = #official
 
 * type = #interaction
 
 // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet blister x28
  
-* subject = Reference(mpa2bd0171a7654dc24f7eb7e9338e1acc)
+* subject = Reference(mp189022f500f412d86c5eec41521158d6)
 
 
 
