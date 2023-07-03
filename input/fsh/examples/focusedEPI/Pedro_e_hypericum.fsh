@@ -1,8 +1,8 @@
 
-Instance: enhanced-compositionaf8d2f6e4772c29a8ef9fbb165e80d28
+Instance: enhanced-compositionaf8d2f6e4772c29a8ef9fbb165e80d28g
 InstanceOf: CompositionUvEpi
-Title: "[Enhanced-Alicia] Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
-Description:  "[Enhanced-Alicia] Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
+Title: "[Enhanced-Pedro] Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
+Description:  "[Enhanced-Pedro] Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
 Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
@@ -10,7 +10,10 @@ Usage: #inline
 
 * status = #final
 
-* category = epicategory-cs#E "enhanced"
+* category = epicategory-cs#F "Focused"
+
+
+
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
@@ -357,11 +360,10 @@ Usage: #inline
 
 
 
-
-Instance: enhanced-bundlehypericum-alicia
+Instance: enhanced-bundlehypericum-pedro
 InstanceOf: BundleUvEpi
-Title: "[Enhanced-Alicia] ePI document for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
-Description: "[Enhanced-Alicia] Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet ePI document"
+Title: "[Enhanced-Pedro] ePI document for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
+Description: "[Enhanced-Pedro] Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet ePI document"
 Usage: #example
 
 * language = #en
@@ -372,8 +374,8 @@ Usage: #example
 * language = #en
 
 // Composition
-* entry[0].fullUrl = "Composition/enhanced-compositionaf8d2f6e4772c29a8ef9fbb165e80d28"
-* entry[0].resource =  enhanced-compositionaf8d2f6e4772c29a8ef9fbb165e80d28
+* entry[0].fullUrl = "Composition/enhanced-compositionaf8d2f6e4772c29a8ef9fbb165e80d28g"
+* entry[0].resource =  enhanced-compositionaf8d2f6e4772c29a8ef9fbb165e80d28g
 
 
 

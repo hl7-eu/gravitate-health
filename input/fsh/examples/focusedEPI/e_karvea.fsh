@@ -1,9 +1,8 @@
-Instance: Focused-compositionf4d45353edcb21af3718d3a0df94a4d8
+Instance: enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8
 InstanceOf: CompositionUvEpi
-Title: "Composition for Karvea Package Leaflet - Focused"
-Description:  "Composition for Karvea Package Leaflet- Focused"
+Title: "[Enhanced] Composition for Karvea Package Leaflet"
+Description:  "[Enhanced] Composition for Karvea Package Leaflet"
 Usage: #inline
-
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
 * language = #en
@@ -11,7 +10,6 @@ Usage: #inline
 * identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4f"
 
 * status = #final
-* language = #en
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
@@ -531,34 +529,12 @@ Usage: #inline
             <p>Detailed information on this medicine is available on the European Medicines Agency web site: http://www.ema.europa.eu/</p>            
         </div>         </div>"""
 
-Instance: mock-lib
-InstanceOf: Library
-Title: "Lens Example"
-Description: "Lens Example"
-Usage: #example
 
-* version = "0.1"
-* name = "mock lenses"
-* experimental = true
-* type = http://terminology.hl7.org/CodeSystem/library-type#logic-library  "Logic Library"
-* content.data = "Ly8gR2V0IGFsbCBlbGVtZW50cyB3aXRoIHRoZSBjbGFzcyBuYW1lICJoaWdobGlnaHQiCnZhciBlbGVtZW50cyA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoImhpZ2hsaWdodCIpOwoKLy8gTG9vcCB0aHJvdWdoIGFsbCBlbGVtZW50cyBhbmQgYWRkIGEgQ1NTIGNsYXNzIHRvIGhpZ2hsaWdodCB0aGVtCmZvciAodmFyIGkgPSAwOyBpIDwgZWxlbWVudHMubGVuZ3RoOyBpKyspIHsKICBlbGVtZW50c1tpXS5jbGFzc0xpc3QuYWRkKCJoaWdobGlnaHRlZCIpOwp9" 
-* content.contentType = #text/javascript
-* status = #draft
 
-/*
-// Get all elements with the class name "highlight"
-var elements = document.getElementsByClassName("highlight");
-
-// Loop through all elements and add a CSS class to highlight them
-for (var i = 0; i < elements.length; i++) {
-  elements[i].classList.add("highlighted");
-}
-*/
-
-Instance: focuseddbundlekarvea
+Instance: enhancedddbundlekarvea
 InstanceOf: BundleUvEpi
-Title: "[Focused] ePI document Bundle for Karvea 75 mg Package Leaflet"
-Description: "[Focused] Bundle for Karvea 75 mg Package Leaflet ePI document"
+Title: "[Enhanced] ePI document Bundle for Karvea 75 mg Package Leaflet"
+Description: "[Enhanced] Bundle for Karvea 75 mg Package Leaflet ePI document"
 Usage: #example
 
 * language = #en
@@ -569,12 +545,10 @@ Usage: #example
 * language = #en
 
 // Composition
-* entry[0].fullUrl = "Composition/Focused-compositionf4d45353edcb21af3718d3a0df94a4d8"
-* entry[0].resource = Focused-compositionf4d45353edcb21af3718d3a0df94a4d8
+* entry[0].fullUrl = "Composition/enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8"
+* entry[0].resource = enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8
 
-// ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400"
-* entry[=].resource = cud-585e364c14debe29f6c6b564138aa400
+
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
 * entry[=].resource = contraindication-pregancy
@@ -587,8 +561,9 @@ Usage: #example
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-a40c2367ed3c1c715eacd432105752a0"
 * entry[=].resource = cud-a40c2367ed3c1c715eacd432105752a0 
-
-
+// ClinicalUseDefinition
+* entry[+].fullUrl = "ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400"
+* entry[=].resource = cud-585e364c14debe29f6c6b564138aa400 
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8"
 * entry[=].resource = cud-4fce9d5258f70f7d605059f97c24efa8 

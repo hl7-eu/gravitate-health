@@ -1,8 +1,8 @@
 
-Instance: enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8g
+Instance: enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8
 InstanceOf: CompositionUvEpi
-Title: "Composition for Karvea Package Leaflet - Enhanced for Pedro"
-Description:  "Composition for Karvea Package Leaflet - Enhanced for Pedro"
+Title: "Composition for Karvea Package Leaflet - Enhanced"
+Description:  "Composition for Karvea Package Leaflet - Enhanced"
 Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
@@ -14,7 +14,7 @@ Usage: #inline
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
-* category = epicategory-cs#E "enhanced"
+* category = epicategory-cs#F "Focused"
 
 * subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * date = "2022-02-16T13:28:17Z"
@@ -144,9 +144,9 @@ Usage: #inline
            <span class="contraindication"> <b>Do not take Karvea</b>
             <ul>
                 <li>if you are allergic to irbesartan or any other ingredients of this medicine (listed in section 6)</li>
-                <span class="contra-indication-pregancy collapse"> <li>if you are more than 3 months pregnant. (It is also better to avoid Karvea in early pregnancy –
+                <span class="contra-indication-pregancy highlight"> <li>if you are more than 3 months pregnant. (It is also better to avoid Karvea in early pregnancy –
                     see pregnancy section)</li></span>
-                <li><b><span class="contra-indication-diabetes-mellitus collapse">if you have diabetes </span> or <span class="contra-indication-kidney">impaired kidney function</span></b> and you are treated with a blood pressure
+                <li><b><span class="contra-indication-diabetes-mellitus">if you have diabetes </span> or <span class="contra-indication-kidney">impaired kidney function</span></b> and you are treated with a blood pressure
                     lowering medicine containing aliskiren.</li>
             </ul></span>
             <b>Warning and precautions</b>
@@ -190,11 +190,11 @@ Usage: #inline
             <b>Karvea with food and drink</b>
             <p>Karvea can be taken with or without food.</p>
             <b>Pregnancy and breast-feeding</b>
-            <span class="pregnancyCategory collapse"> 
+            <span class="pregnancyCategory highlight"> 
             <b>Pregnancy</b>
             <p>You must tell your doctor if you think you are (or might become) pregnant. Your doctor will normally advise you to stop taking Karvea before you become pregnant or as soon as you know you are pregnant and will advise you to take another medicine instead of Karvea. Karvea is not recommended in early pregnancy, and must not be taken when more than 3 months pregnant, as it may cause serious harm to your baby if used after the third month of pregnancy.</p>
             </span>
-            <span class="breastfeedingCategory collapse">
+            <span class="breastfeedingCategory highlight">
             <b>Breast-feeding</b>
             <p>Tell your doctor if you are breast-feeding or about to start breast-feeding. Karvea is not recommended for mothers who are breast-feeding, and your doctor may choose another treatment for you if you wish to breast-feed, especially if your baby is newborn, or was born prematurely.</p>
             </span>
@@ -524,10 +524,11 @@ Usage: #inline
 
 
 
-Instance: enhancedbundlekarveaP
+
+Instance: enhancedbundlekarvea-alicia
 InstanceOf: BundleUvEpi
-Title: "[Enhanced-Pedro] ePI document for Karvea 75 mg Package Leaflet"
-Description: "[Enhanced-Pedro] Bundle for Karvea 75 mg Package Leaflet ePI document"
+Title: "[Enhanced-Alicia] ePI document for Karvea 75 mg Package Leaflet"
+Description: "[Enhanced-Alicia] Bundle for Karvea 75 mg Package Leaflet ePI document"
 Usage: #example
 
 * language = #en
@@ -541,7 +542,7 @@ Usage: #example
 * entry[0].fullUrl = "Composition/enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8"
 * entry[0].resource = enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8
 
- 
+
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-a40c2367ed3c1c715eacd432105752a0"
 * entry[=].resource = cud-a40c2367ed3c1c715eacd432105752a0 
@@ -551,6 +552,8 @@ Usage: #example
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8"
 * entry[=].resource = cud-4fce9d5258f70f7d605059f97c24efa8 
+
+
 
 
 // Ingredient
@@ -613,3 +616,4 @@ Usage: #example
 
 * entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
 * entry[=].resource = contraindication-pregancy
+

@@ -1,15 +1,15 @@
 
-Instance: enhanced-composition16598f252d07b4784b82ba43cf9e847e
+Instance: enhanced-composition16598f252d07b4784b82ba43cf9e847eg
 InstanceOf: CompositionUvEpi
-Title: "[Enhanced-Alicia] Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
-Description:  "[Enhanced-Alicia] Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
+Title: "[Enhanced-Pedro] Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
+Description:  "[Enhanced-Pedro] Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
 Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "xx"
 
 * status = #final
-* category = epicategory-cs#E "enhanced"
+* category = epicategory-cs#F "Focused"
 
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -154,7 +154,7 @@ sclerosis).</li>
 Warnings and precautions
 Some people taking Dovato or other combination treatments for HIV are more at risk of serious side effects
 than others. You need to be aware of the extra risks:</li>
-<li><span class="liver">if you have moderate or severe liver disease </span>
+<li><span class="liver collapse">if you have moderate or severe liver disease </span>
 if you have ever had liver disease, including hepatitis B or C (if you have hepatitis B infection, don’t
 stop Dovato without your doctor’s advice, as your hepatitis may come back)
 • if you have a kidney problem.
@@ -200,13 +200,13 @@ lactitol or maltitol), if taken regularly</li>
 <li>rifampicin, to treat tuberculosis (TB) and other bacterial infections</li>
 <li>phenytoin and phenobarbital, to treat epilepsy</li>
 <li>oxcarbazepine and carbamazepine, to treat epilepsy or bipolar disorder</li>
-<span class="contra-indication-hypericum highlight"><li><p>St. John’s wort (Hypericum perforatum), a herbal remedy to treat depression.</p>
+<span class="contra-indication-hypericum collapse"><li><p>St. John’s wort (Hypericum perforatum), a herbal remedy to treat depression.</p>
 </li></span>
 <li><p>Tell your doctor or pharmacist if you are taking any of these. Your doctor may decide to adjust
 your dose or that you need extra check ups.</p>
 </li>
 </ul>
-<span class="pregnancyCategory highlight"><p><strong>Pregnancy</strong></p>
+<span class="pregnancyCategory collapse"><p><strong>Pregnancy</strong></p>
 <p>If you are pregnant, think you may be pregnant, or if you are planning to have a baby:</p>
 <ul>
 <li>Talk to your doctor about the risks and benefits of taking Dovato.</li>
@@ -461,10 +461,10 @@ Not all pack sizes may be available in your c
 ountry</p>         </div>"""      
 
 
-Instance: compositione722f6782d3f34f86982e14386c8811dgg
+Instance: compositione722f6782d3f34f86982e14386c8811dhh
 InstanceOf: CompositionUvEpi
-Title: "[Enhanced-Alicia] Composition for Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet"
-Description:  "[Enhanced-Alicia] Composition for Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet"
+Title: "[Enhanced-Pedro] Composition for Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet"
+Description:  "[Enhanced-Pedro] Composition for Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet"
 Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
@@ -662,13 +662,11 @@ Usage: #inline
 
       
 
-/////
 
-
-Instance: enchanced-bundledovato-en
+Instance: enchanced-bundledovato-pedro-en
 InstanceOf: BundleUvEpi
-Title: "[Enhanced-Alicia] ePI document for Dovato 50 mg/300 mg tablets Package Leaflet EN"
-Description: "[Enhanced-Alicia] Bundle for Dovato 50 mg/300 mg tablets Package Leaflet ePI document EN"
+Title: "[Enhanced-pedro] ePI document for Dovato 50 mg/300 mg tablets Package Leaflet EN"
+Description: "[Enhanced-pedro] Bundle for Dovato 50 mg/300 mg tablets Package Leaflet ePI document EN"
 Usage: #example
 
 * language = #en
@@ -679,9 +677,8 @@ Usage: #example
 * language = #es
 
 // Composition
-* entry[0].fullUrl = "Composition/enhanced-composition16598f252d07b4784b82ba43cf9e847e"
-* entry[0].resource =  enhanced-composition16598f252d07b4784b82ba43cf9e847e
-
+* entry[0].fullUrl = "Composition/enhanced-composition16598f252d07b4784b82ba43cf9e847eg"
+* entry[0].resource =  enhanced-composition16598f252d07b4784b82ba43cf9e847eg
 
 
 
@@ -775,10 +772,10 @@ Usage: #example
 
 
 
-Instance: enchanced-bundledovato-es
+Instance: enchanced-bundledovato-pedro-es
 InstanceOf: BundleUvEpi
-Title: "[Enhanced-Alicia] ePI document for Dovato 50 mg/300 mg tablets Package Leaflet ES"
-Description: "[Enhanced-Alicia] Bundle for Dovato 50 mg/300 mg tablets Package Leaflet ePI document ES"
+Title: "[Enhanced-pedro] ePI document for Dovato 50 mg/300 mg tablets Package Leaflet ES"
+Description: "[Enhanced-pedro] Bundle for Dovato 50 mg/300 mg tablets Package Leaflet ePI document ES"
 Usage: #example
 
 * language = #en
@@ -789,8 +786,8 @@ Usage: #example
 * language = #en
 
 // Composition
-* entry[0].fullUrl = "Composition/compositione722f6782d3f34f86982e14386c8811dgg"
-* entry[0].resource =  compositione722f6782d3f34f86982e14386c8811dgg
+* entry[0].fullUrl = "Composition/compositione722f6782d3f34f86982e14386c8811dhh"
+* entry[0].resource =  compositione722f6782d3f34f86982e14386c8811dhh
 
 
 

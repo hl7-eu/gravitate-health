@@ -1,15 +1,15 @@
 
-Instance: enhanced-composition1846d2b12fecbbb0310cd8c196c98a58
+Instance: enhanced-composition1846d2b12fecbbb0310cd8c196c98a58g
 InstanceOf: CompositionUvEpi
-Title: "[Enhanced-Alicia] Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
-Description:  "[Enhanced-Alicia] Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
+Title: "[Enhanced-Pedro] Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
+Description:  "[Enhanced-Pedro]  Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
 Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "EU/1/18/1289/001"
 
 * status = #final
-* category = epicategory-cs#E "enhanced"
+* category = epicategory-cs#F "Focused"
 
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -152,7 +152,7 @@ ingredients of this medicine (listed in section 6).</li>
 <li><p>If you are currently taking any of the following medicines:</p>
 <ul>
 <li>rifampicin used to treat some bacterial infections such as tuberculosis</li>
-<li><span class="contra-indication-hypericum highlight">St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and
+<li><span class="contra-indication-hypericum collapse">St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and
 anxiety, or products that contain it.</span></li>
 </ul>
 </li>
@@ -162,7 +162,7 @@ anxiety, or products that contain it.</span></li>
 <p><strong>Warnings and precautions</strong></p>
 <p><strong>Talk to your doctor before taking Biktarvy:</strong></p>
 <ul>
-<li><span class="liver collapse">If you have liver problems or a history of liver disease, including hepatitis. Patients with
+<li><span class="liver">If you have liver problems or a history of liver disease, including hepatitis. Patients with
 liver disease including chronic hepatitis B or C, who are treated with antiretrovirals, have a
 higher risk of severe and potentially fatal liver complications. If you have hepatitis B infection,
 your doctor will carefully consider the best treatment regimen for you.</span></li>
@@ -247,7 +247,7 @@ antacids or supplements containing aluminium and/or magnesium. Or you can take B
 food at least 2 hours after.</p>
 <p>Iron supplements: you will need to take Biktarvy at least 2 hours before iron supplements, or you
 can take them together with food.</p>
-<span class="pregnancyCategory highlight"><p><strong>Pregnancy and breast-feeding</strong></p>
+<span class="pregnancyCategory"><p><strong>Pregnancy and breast-feeding</strong></p>
 <ul>
 <li>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby,
 ask your doctor or pharmacist for advice before taking this medicine.</li>
@@ -258,7 +258,7 @@ risks of your antiretroviral therapy to you and your child.</li>
 other diagnostic tests to monitor the development of your child. In children whose mothers took
 nucleoside reverse transcriptase inhibitors (NRTIs) during pregnancy, the benefit from the protection
 against HIV outweighed the risk of side effects.</p>
-<span class="breastfeedingCategory highlight"><p><strong>Do not breast-feed during treatment with Biktarvy.</strong> This is because some of the active substances
+<span class="breastfeedingCategory"><p><strong>Do not breast-feed during treatment with Biktarvy.</strong> This is because some of the active substances
 in this medicine pass into human breast milk. Breast-feeding is not recommended in women living
 with HIV because HIV infection can be passed on to the baby in breast milk. If you are
 breast-feeding, or thinking about breast-feeding, you should discuss it with your doctor as soon as
@@ -462,11 +462,10 @@ Each bottle contains a silica gel desiccant that must be kept in the bottle to h
 The silica gel desiccant is contained in a separate sachet or canister and should not be swallowed.</p>             </div>"""      
 
 
-
-Instance: enhanced-bundlebik-alicia
+Instance: enhanced-bundlebik-pedro
 InstanceOf: BundleUvEpi
-Title: "[Enhanced-Alicia] ePI document for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
-Description: "[Enhanced-Alicia] Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
+Title: "[Enhanced-Pedro] ePI document for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
+Description: "[Enhanced-Pedro] Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
 Usage: #example
 
 * language = #en
@@ -477,8 +476,8 @@ Usage: #example
 * language = #en
 
 // Composition
-* entry[0].fullUrl = "Composition/enhanced-composition1846d2b12fecbbb0310cd8c196c98a58"
-* entry[0].resource = enhanced-composition1846d2b12fecbbb0310cd8c196c98a58
+* entry[0].fullUrl = "Composition/enhanced-composition1846d2b12fecbbb0310cd8c196c98a58g"
+* entry[0].resource = enhanced-composition1846d2b12fecbbb0310cd8c196c98a58g
 
 
 

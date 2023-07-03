@@ -1,7 +1,8 @@
-Instance: enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8
+
+Instance: enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8g
 InstanceOf: CompositionUvEpi
-Title: "[Enhanced] Composition for Karvea Package Leaflet"
-Description:  "[Enhanced] Composition for Karvea Package Leaflet"
+Title: "Composition for Karvea Package Leaflet - Enhanced for Pedro"
+Description:  "Composition for Karvea Package Leaflet - Enhanced for Pedro"
 Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
@@ -13,12 +14,11 @@ Usage: #inline
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
+* category = epicategory-cs#F "Focused"
 
 * subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * date = "2022-02-16T13:28:17Z"
 * author = Reference(mah-511671db37e83e520b00f8a0d817dc96)
-
-* category = epicategory-cs#E "Enhanced"
 
 * title = "TEST PURPOSES ONLY - Karvea"
 
@@ -75,17 +75,11 @@ Usage: #inline
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#190751001 "Primary lactose intolerance"
 
 
-
-* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/lenslibrary"
-* extension[=].valueReference = Reference(mock-lib)
-
-
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. PACKAGE LEAFLET"
   * text.status = #additional
-  
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
@@ -96,7 +90,6 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-     
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div xmlns='http://www.w3.org/1999/xhtml'> 
             <p>Karvea 75 mg tablets</p>
             <p>irbesartan</p>
@@ -114,7 +107,6 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-     
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div xmlns='http://www.w3.org/1999/xhtml'> 
             <ul>
                 <li>What Karvea is and what it is used for</li>
@@ -135,7 +127,7 @@ Usage: #inline
             <p>
                 Karvea belongs to a group of medicines known as angiotensin-II receptor antagonists. Angiotensin-II is a substance produced in the body which binds to receptors in blood vessels causing them to tighten. This results in an increase in blood pressure. Karvea prevents the binding of angiotensin-II to these receptors, causing the blood vessels to relax and the blood pressure to lower. Karvea slows the decrease of kidney function in patients with high blood pressure and type 2 diabetes.
             </p>
-         <span class="indication">   <p>Karvea is used in adult patients</p>
+         <span class="indication highlight">   <p>Karvea is used in adult patients</p>
             <ul>
                 <li>to treat high blood pressure (essential hypertension)</li>
                 <li>to protect the kidney in patients with high blood pressure, type 2 diabetes and laboratory
@@ -152,9 +144,9 @@ Usage: #inline
            <span class="contraindication"> <b>Do not take Karvea</b>
             <ul>
                 <li>if you are allergic to irbesartan or any other ingredients of this medicine (listed in section 6)</li>
-                <span class="contra-indication-pregancy"> <li>if you are more than 3 months pregnant. (It is also better to avoid Karvea in early pregnancy –
+                <span class="contra-indication-pregancy collapse"> <li>if you are more than 3 months pregnant. (It is also better to avoid Karvea in early pregnancy –
                     see pregnancy section)</li></span>
-                <li><b><span class="contra-indication-diabetes-mellitus">if you have diabetes </span> or <span class="contra-indication-kidney">impaired kidney function</span></b> and you are treated with a blood pressure
+                <li><b><span class="contra-indication-diabetes-mellitus collapse">if you have diabetes </span> or <span class="contra-indication-kidney">impaired kidney function</span></b> and you are treated with a blood pressure
                     lowering medicine containing aliskiren.</li>
             </ul></span>
             <b>Warning and precautions</b>
@@ -198,11 +190,11 @@ Usage: #inline
             <b>Karvea with food and drink</b>
             <p>Karvea can be taken with or without food.</p>
             <b>Pregnancy and breast-feeding</b>
-            <span class="pregnancyCategory"> 
+            <span class="pregnancyCategory collapse"> 
             <b>Pregnancy</b>
             <p>You must tell your doctor if you think you are (or might become) pregnant. Your doctor will normally advise you to stop taking Karvea before you become pregnant or as soon as you know you are pregnant and will advise you to take another medicine instead of Karvea. Karvea is not recommended in early pregnancy, and must not be taken when more than 3 months pregnant, as it may cause serious harm to your baby if used after the third month of pregnancy.</p>
             </span>
-            <span class="breastfeedingCategory">
+            <span class="breastfeedingCategory collapse">
             <b>Breast-feeding</b>
             <p>Tell your doctor if you are breast-feeding or about to start breast-feeding. Karvea is not recommended for mothers who are breast-feeding, and your doctor may choose another treatment for you if you wish to breast-feed, especially if your baby is newborn, or was born prematurely.</p>
             </span>
@@ -210,7 +202,7 @@ Usage: #inline
             <p>Karvea is unlikely to affect your ability to drive or use machines. However, occasionally dizziness or weariness may occur during treatment of high blood pressure. If you experience these, talk to your doctor before attempting to drive or use machines.
             </p>
             
-            <span class="lactose"><b>Karvea contains lactose.</b>
+            <span class="lactose collapse"><b>Karvea contains lactose.</b>
             <p>If you have been told by your doctor that you have an intolerance to some sugars (e.g. lactose), contact your doctor before taking this medicinal product.</p>
            </span> 
             <b>Karvea contains sodium.</b>
@@ -531,10 +523,11 @@ Usage: #inline
 
 
 
-Instance: enhancedddbundlekarvea
+
+Instance: enhancedbundlekarveaP
 InstanceOf: BundleUvEpi
-Title: "[Enhanced] ePI document Bundle for Karvea 75 mg Package Leaflet"
-Description: "[Enhanced] Bundle for Karvea 75 mg Package Leaflet ePI document"
+Title: "[Enhanced-Pedro] ePI document for Karvea 75 mg Package Leaflet"
+Description: "[Enhanced-Pedro] Bundle for Karvea 75 mg Package Leaflet ePI document"
 Usage: #example
 
 * language = #en
@@ -545,19 +538,10 @@ Usage: #example
 * language = #en
 
 // Composition
-* entry[0].fullUrl = "Composition/enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8"
-* entry[0].resource = enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8
+* entry[0].fullUrl = "Composition/enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8"
+* entry[0].resource = enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8
 
-
-// ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
-* entry[=].resource = contraindication-pregancy
-// ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
-* entry[=].resource = contraindication-kidney
-// ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
-* entry[=].resource = contraindication-diabetes-mellitus
+ 
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-a40c2367ed3c1c715eacd432105752a0"
 * entry[=].resource = cud-a40c2367ed3c1c715eacd432105752a0 
@@ -567,6 +551,8 @@ Usage: #example
 // ClinicalUseDefinition
 * entry[+].fullUrl = "ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8"
 * entry[=].resource = cud-4fce9d5258f70f7d605059f97c24efa8 
+
+
 // Ingredient
 * entry[+].fullUrl = "Ingredient/ingredient-for-karvea-hypromellose"
 * entry[=].resource = ingredient-for-karvea-hypromellose 
@@ -618,3 +604,12 @@ Usage: #example
 // ManufacturedItemDefinition
 * entry[+].fullUrl = "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
 * entry[=].resource = mid-dcaa4d32aa6658a8df831551503e52ee 
+
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
+* entry[=].resource = contraindication-kidney
+
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
+* entry[=].resource = contraindication-diabetes-mellitus
+
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
+* entry[=].resource = contraindication-pregancy

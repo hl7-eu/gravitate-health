@@ -10,7 +10,7 @@ Usage: #inline
 
 * status = #final
 
-* category = epicategory-cs#E "enhanced"
+* category = epicategory-cs#F "Focused"
 
 
 

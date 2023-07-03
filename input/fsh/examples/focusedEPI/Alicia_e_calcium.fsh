@@ -1,15 +1,15 @@
 
-Instance: enhanced-composition02e928f15b7b861b4b44915d9f1330ecg
+Instance: enhanced-composition02e928f15b7b861b4b44915d9f1330ec
 InstanceOf: CompositionUvEpi
-Title: "[Enhanced-Pedro] Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet"
-Description:  "[Enhanced-Pedro] Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet"
+Title: "[Enhanced-Alicia] Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet"
+Description:  "[Enhanced-Alicia] Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet"
 Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "cc"
 
 * status = #final
-* category = epicategory-cs#E "enhanced"
+* category = epicategory-cs#F "Focused"
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
@@ -169,7 +169,7 @@ Usage: #inline
 <p><strong></strong></p>
 <p>Si toma este medicamento juntamente con alimentos y bebidas que contengan  ácido ox álico (un compuesto presente en espinacas y ruibarbos) o  ácido fítico (presente en el pan integral y cereales) y el fósforo que se encuentra en la leche pueden producirse interacciones, por lo que se aconseja no tomar este medicamento durante las 2 horas siguientes después de haber tomado este tipo de alimentos.</p>
 <p></p>
-<span class="pregnancyCategory collapse"> <p><strong>Embarazo y lactancia</strong></p>
+<span class="pregnancyCategory highlight"> <p><strong>Embarazo y lactancia</strong></p>
 <p></p>
 <p>Si est á embarazada o en periodo de lactancia, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte a su médico o farmacéutico antes de utilizar este medicamento.</p>
 <p></p>
@@ -332,10 +332,10 @@ Usage: #inline
       
 
 
-Instance: enhanced-bundlekarveacalcium-pedro
+Instance: enhanced-bundlekarveacalcium-alicia
 InstanceOf: BundleUvEpi
-Title: "[Enhanced-Pedro] ePI document for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet"
-Description: "[Enhanced-Pedro] Bundle for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet ePI document"
+Title: "[Enhanced-Alicia] ePI document for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet"
+Description: "[Enhanced-Alicia] Bundle for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet ePI document"
 Usage: #example
 
 * language = #en
@@ -346,8 +346,8 @@ Usage: #example
 * language = #en
 
 // Composition
-* entry[0].fullUrl = "Composition/enhanced-composition02e928f15b7b861b4b44915d9f1330ecg"
-* entry[0].resource =  enhanced-composition02e928f15b7b861b4b44915d9f1330ecg
+* entry[0].fullUrl = "Composition/enhanced-composition02e928f15b7b861b4b44915d9f1330ec"
+* entry[0].resource =  enhanced-composition02e928f15b7b861b4b44915d9f1330ec
 
 
 
