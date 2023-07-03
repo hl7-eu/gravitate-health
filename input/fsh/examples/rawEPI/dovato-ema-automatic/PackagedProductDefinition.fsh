@@ -24,14 +24,24 @@ Usage: #example
 
 
 
-* packaging
 
+
+* packaging
   * identifier.system = $spor-prod
-  * identifier.value = "654321"
-  * type = $spor-rms#100000073504 "Child-resistant closure"
-  //* quantity = 1
+  * identifier.value = "mock-id"
   * quantity = 1
-  * material = $spor-rms#200000003529 "Cardboard"
+  * type = $spor-rms#100000073498 "Box"
+
+
+  * packaging
+
+    * identifier.system = $spor-prod
+    * identifier.value = "654321"
+    * type = $spor-rms#100000073504 "Child-resistant closure"
+    //* quantity = 1
+    * quantity = 1
+    * material = $spor-rms#200000003529 "Cardboard"
+
 
 
 

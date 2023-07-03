@@ -145,14 +145,6 @@ Description: "Category of EPI"
     "Processed"
     "Processed"
 
-* #E
-    "Enhanced"
-    "Enhanced"
-* #FL
-    "F'"
-    "F'"
-
-
 // Define a local code system
 CodeSystem: ICPC2CS
 Id:         icpc-2-cs

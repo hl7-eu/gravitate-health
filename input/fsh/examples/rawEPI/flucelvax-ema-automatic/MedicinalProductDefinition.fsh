@@ -52,6 +52,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
     * type.text = "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#ES ""
-    * jurisdiction = urn:iso:std:iso:3166#ES ""
+    * country = urn:iso:std:iso:3166#ES "Spain"
+    * jurisdiction = urn:iso:std:iso:3166#ES "Spain"
     * language = urn:ietf:bcp:47#en  "English"
+

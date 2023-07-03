@@ -26,22 +26,27 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
 * copackagedIndicator = true
 
+
+
 * packaging
-
   * identifier.system = $spor-prod
-  * identifier.value = "xxxx"
-  * type = $spor-rms#100000073498 "100000073498"
-  //* quantity = 1
+  * identifier.value = "mock-id"
   * quantity = 1
-  * material = $spor-rms#200000003529 "Cardboard"
+  * type = $spor-rms#100000073498 "Box"
+
+
+  * packaging
+
+    * identifier.system = $spor-prod
+    * identifier.value = "xxxx"
+    * type = $spor-rms#100000073498 "100000073498"
+    //* quantity = 1
+    * quantity = 1
+    * material = $spor-rms#200000003529 "Cardboard"
 
 
 
-  * packaging.type = $spor-rms#30051000 "Pre-filled syringe"
-  * packaging.quantity = 2
- 
 
-  * packaging.material[+] = $spor-rms#200000003204 "Glass type I"
 
 //reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 * packageFor = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)

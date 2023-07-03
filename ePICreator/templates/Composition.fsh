@@ -51,6 +51,7 @@ Usage: #example
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "{{row['date']}}"
 * language = #{{row['language']}}
+* category = epicategory-cs#R "Raw"
 
 
 * section[+].

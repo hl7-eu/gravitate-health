@@ -47,6 +47,7 @@ Usage: #example
     * type.text = "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK ""
-    * jurisdiction = urn:iso:std:iso:3166#DK ""
+    * country = urn:iso:std:iso:3166#DK "Denmark"
+    * jurisdiction = urn:iso:std:iso:3166#DK "Denmark"
     * language = urn:ietf:bcp:47#en  "English"
+

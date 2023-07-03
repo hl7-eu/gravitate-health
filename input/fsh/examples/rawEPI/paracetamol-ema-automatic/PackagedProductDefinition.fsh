@@ -26,14 +26,24 @@ Usage: #example
 
 
 
-* packaging
 
+
+* packaging
   * identifier.system = $spor-prod
-  * identifier.value = "123456"
-  * type = $spor-rms#100000073496 "Blister"
-  //* quantity = 20
-  * quantity = 20
-  * material = $spor-rms#200000003222 "PolyVinyl Chloride"
+  * identifier.value = "mock-id"
+  * quantity = 1
+  * type = $spor-rms#100000073498 "Box"
+
+
+  * packaging
+
+    * identifier.system = $spor-prod
+    * identifier.value = "123456"
+    * type = $spor-rms#100000073496 "Blister"
+    //* quantity = 20
+    * quantity = 20
+    * material = $spor-rms#200000003222 "PolyVinyl Chloride"
+
 
 
 

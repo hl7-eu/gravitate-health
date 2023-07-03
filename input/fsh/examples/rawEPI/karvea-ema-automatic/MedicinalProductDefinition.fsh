@@ -7,7 +7,7 @@ Usage: #example
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"
-* identifier[=].value = "EU/1/97/049/010" 
+* identifier[=].value = "EU/1/97/049/001" 
 * identifier[+].system = "https://www.who-umc.org/phpid"
 * identifier[=].value = "0xF79CABF272B6A7EEF104DDDA44E82719"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
@@ -117,7 +117,7 @@ Usage: #example
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"
-* identifier[=].value = "EU/1/97/049/010" 
+* identifier[=].value = "EU/1/97/049/002" 
 * identifier[+].system = "https://www.who-umc.org/phpid"
 * identifier[=].value = "0xF79CABF272B6A7EEF104DDDA44E82719"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
@@ -172,7 +172,7 @@ Usage: #example
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"
-* identifier[=].value = "EU/1/97/049/010" 
+* identifier[=].value = "EU/1/97/049/003" 
 * identifier[+].system = "https://www.who-umc.org/phpid"
 * identifier[=].value = "0xF79CABF272B6A7EEF104DDDA44E82719"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"

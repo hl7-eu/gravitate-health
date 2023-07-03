@@ -31,6 +31,7 @@ Usage: #example
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #es
+* category = epicategory-cs#R "Raw"
 
 
 * section[+].
