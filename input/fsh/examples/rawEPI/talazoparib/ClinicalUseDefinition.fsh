@@ -14,7 +14,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#N3RQ532IUT "Amiodarone"
 
@@ -36,7 +36,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#0K47UL67F2 "carvedilol"
 
@@ -58,7 +58,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#JQZ1L091Y2 "dronedarone"
 
@@ -80,7 +80,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#68IQX3T69U "propafenone"
 
@@ -101,7 +101,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#ITX08688JL "quinidine"
 
@@ -123,7 +123,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#A6IEZ5M406 "ranolazine"
 
@@ -145,7 +145,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#CJ0O37KU29 "verapamil"
 
@@ -167,7 +167,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#H1250JIK0A "Clarithromycin"
 
@@ -188,7 +188,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#63937KV33D "erythromycin"
 
@@ -210,7 +210,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#304NUG5GF4 "Itraconazole"
 
@@ -232,7 +232,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#R9400W927I "ketoconazole"
 
@@ -254,7 +254,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#LW2E03M5PG "Cobicistat"
 
@@ -275,7 +275,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#YO603Y8113 "darunavir"
 
@@ -297,7 +297,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#5W6YA9PKKH "indinavir"
 
@@ -319,7 +319,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#2494G1JF75 "lopinavir"
 
@@ -341,7 +341,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#O3J8G9O825 "ritonavir"
 
@@ -363,7 +363,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#L3JE09KZ2F "saquinavir"
 
@@ -385,7 +385,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#655M5O3W0U "telaprevir"
 
@@ -407,7 +407,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#ZZT404XD09 "tipranavir"
 
@@ -429,7 +429,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#83HN0GTJ6D "Ciclosporin"
 
@@ -451,7 +451,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#0VUA21238F "Lapatinib"
 
@@ -473,7 +473,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#IT942ZTH98 "Curcumin"
 
@@ -495,7 +495,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#33CM23913M "Carbamazepine"
 
@@ -517,7 +517,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#6158TKW0C5 "phenytoin"
 
@@ -539,7 +539,7 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#XK4IUX8MNB "Hypericum perforatum"
 
@@ -561,6 +561,6 @@ Usage: #example
 
  // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
 * subject = Reference(mp025mg)
-* subject[+] = Reference(mid1mg)
+* subject[+] = Reference(mp1mg)
 
 * interaction.interactant.itemCodeableConcept = $ginas#856YO1Z64F "turmeric root"
