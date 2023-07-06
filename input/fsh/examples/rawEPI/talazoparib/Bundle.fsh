@@ -110,3 +110,103 @@ Usage: #example
 // MedicinalProductDefinition
 * entry[+].fullUrl = "MedicinalProductDefinition/mp1mg"
 * entry[=].resource = mp1mg 
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionAmiodarone”
+* entry[=].resource = interactionAmiodarone
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactioncarvedilol”
+* entry[=].resource = interactioncarvedilol
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionpropafenone”
+* entry[=].resource = interactionpropafenone
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionquinidine”
+* entry[=].resource = interactionquinidine
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionranolazine”
+* entry[=].resource = interactionranolazine
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionverapamil”
+* entry[=].resource = interactionverapamil
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionClarithromycin”
+* entry[=].resource = interactionClarithromycin
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionerythromycin”
+* entry[=].resource = interactionerythromycin
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionItraconazole”
+* entry[=].resource = interactionItraconazole
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionketoconazole”
+* entry[=].resource = interactionketoconazole
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionCobicistat”
+* entry[=].resource = interactionCobicistat
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactiondarunavir”
+* entry[=].resource = interactiondarunavir
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionindinavir”
+* entry[=].resource = interactionindinavir
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionlopinavir”
+* entry[=].resource = interactionlopinavir
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionritonavir”
+* entry[=].resource = interactionritonavir
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionsaquinavir”
+* entry[=].resource = interactionsaquinavir
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactiontelaprevir”
+* entry[=].resource = interactiontelaprevir
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactiontipranavir”
+* entry[=].resource = interactiontipranavir
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionCiclosporin”
+* entry[=].resource = interactionCiclosporin
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionLapatinib”
+* entry[=].resource = interactionLapatinib
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionCurcumin”
+* entry[=].resource = interactionCurcumin
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionCarbamazepine”
+* entry[=].resource = interactionCarbamazepine
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionphenytoin”
+* entry[=].resource = interactionphenytoin
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionHypericumperforatum”
+* entry[=].resource = interactionHypericumperforatum
+
+// ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactionturmericroot”
+* entry[=].resource = interactionturmericroot
