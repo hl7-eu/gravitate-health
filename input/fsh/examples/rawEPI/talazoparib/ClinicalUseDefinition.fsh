@@ -1,4 +1,4 @@
-Instance: interaction
+Instance: interactionAmiodarone
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -Amiodarone"
@@ -20,7 +20,7 @@ Usage: #example
 
 // ————————-
 
-Instance: interaction
+Instance: interactioncarvedilol
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -carvedilol"
@@ -42,7 +42,7 @@ Usage: #example
 
 // —————————
 
-Instance: interaction
+Instance: interactiondronedarone
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -dronedarone"
@@ -64,7 +64,7 @@ Usage: #example
 
 // ————————-
 
-Instance: interaction
+Instance: interactionpropafenone
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -propafenone"
@@ -85,7 +85,7 @@ Usage: #example
 * interaction.interactant.itemCodeableConcept = $ginas#68IQX3T69U "propafenone"
 
 // —————————
-Instance: interaction
+Instance: interactionquinidine
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -quinidine"
@@ -107,7 +107,7 @@ Usage: #example
 
 // ————————-
 
-Instance: interaction
+Instance: interactionranolazine
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -ranolazine"
@@ -129,7 +129,7 @@ Usage: #example
 
 // —————————
 
-Instance: interaction
+Instance: interactionverapamil
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -verapamil"
@@ -151,7 +151,7 @@ Usage: #example
 
 // ————————-
 
-Instance: interaction
+Instance: interactionClarithromycin
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -Clarithromycin"
@@ -172,7 +172,7 @@ Usage: #example
 * interaction.interactant.itemCodeableConcept = $ginas#H1250JIK0A "Clarithromycin"
 
 // —————————
-Instance: interaction
+Instance: interactionerythromycin
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -erythromycin"
@@ -194,7 +194,7 @@ Usage: #example
 
 // ————————-
 
-Instance: interaction
+Instance: interactionItraconazole
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -Itraconazole"
@@ -216,7 +216,7 @@ Usage: #example
 
 // —————————
 
-Instance: interaction
+Instance: interactionketoconazole
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -ketoconazole"
@@ -238,7 +238,7 @@ Usage: #example
 
 // ————————-
 
-Instance: interaction
+Instance: interactionCobicistat
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -Cobicistat"
@@ -259,7 +259,7 @@ Usage: #example
 * interaction.interactant.itemCodeableConcept = $ginas#LW2E03M5PG "Cobicistat"
 
 // —————————
-Instance: interaction
+Instance: interactiondarunavir
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -darunavir"
@@ -281,7 +281,7 @@ Usage: #example
 
 // ————————-
 
-Instance: interaction
+Instance: interactionindinavir
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -indinavir"
@@ -303,7 +303,7 @@ Usage: #example
 
 // —————————
 
-Instance: interaction
+Instance: interactionlopinavir
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -lopinavir"
@@ -325,7 +325,7 @@ Usage: #example
 
 // ————————-
 
-Instance: interaction
+Instance: interactionritonavir
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -ritonavir"
@@ -347,7 +347,7 @@ Usage: #example
 
 // —————————
 
-Instance: interaction
+Instance: interactionsaquinavir
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example - saquinavir"
@@ -369,7 +369,7 @@ Usage: #example
 
 // —————————
 
-Instance: interaction
+Instance: interactiontelaprevir
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example - telaprevir"
@@ -391,7 +391,7 @@ Usage: #example
 
 // —————————
 
-Instance: interaction
+Instance: interactiontipranavir
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example - tipranavir"
@@ -413,7 +413,7 @@ Usage: #example
 
 // —————————
 
-Instance: interaction
+Instance: interactionCiclosporin
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example - Ciclosporin"
@@ -435,7 +435,7 @@ Usage: #example
 
 // —————————
 
-Instance: interaction
+Instance: interactionLapatinib
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example - Lapatinib"
@@ -457,7 +457,7 @@ Usage: #example
 
 // —————————
 
-Instance: interaction
+Instance: interactionCurcumin
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example - Curcumin"
@@ -479,7 +479,7 @@ Usage: #example
 
 // —————————
 
-Instance: interaction
+Instance: interactionCarbamazepine
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example - Carbamazepine"
@@ -501,7 +501,7 @@ Usage: #example
 
 // —————————
 
-Instance: interaction
+Instance: interactionphenytoin
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example - phenytoin"
@@ -523,7 +523,7 @@ Usage: #example
 
 // —————————
 
-Instance: interaction
+Instance: interactionHypericumperforatum
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example - Hypericum perforatum"
@@ -545,7 +545,7 @@ Usage: #example
 
 // —————————
 
-Instance: interaction
+Instance: interactionturmericroot
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example - turmeric root"
