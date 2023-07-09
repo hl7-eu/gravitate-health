@@ -91,8 +91,8 @@ Usage: #example
 * entry[=].resource = ingredientSorbitanmonolaurate
  
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientHypromellose"
-* entry[=].resource = ingredientHypromellose
+* entry[+].fullUrl = "Ingredient/ingredientHypromel"
+* entry[=].resource = ingredientHypromel
  
 // Ingredient
 * entry[+].fullUrl = "Ingredient/ingredientColloidalanhydroussilica"

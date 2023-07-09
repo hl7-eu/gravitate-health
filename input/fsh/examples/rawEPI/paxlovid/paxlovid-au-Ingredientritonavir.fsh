@@ -98,7 +98,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientHypromellose
+Instance: ingredientHypromel
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Hypromellose"
 Description: "Hypromellose"
