@@ -1,4 +1,4 @@
-Instance: compositionpax1846d2b12fecbbb0310cd8c196c98a58
+Instance: compositionpaxlovidau
 InstanceOf: CompositionUvEpi
 Title: "Composition for PAXLOVID nirmatrelvir 150 mg tablet and ritonavir 100 mg tablet blister composite pack"
 Description:  "Composition for PAXLOVID nirmatrelvir 150 mg tablet and ritonavir 100 mg tablet blister composite pack"
