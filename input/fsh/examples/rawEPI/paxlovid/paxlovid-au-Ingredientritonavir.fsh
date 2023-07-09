@@ -28,7 +28,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientCopovidone
+Instance: ingredientpCopovidone
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Copovidone"
 Description: "Copovidone"
@@ -52,7 +52,7 @@ Usage: #example
 * manufacturer.manufacturer = Reference(orgpfeau)
 
 
-Instance: ingredientCalciumhydrogenphosphate
+Instance: ingredientpCalciumhydrogenphosphate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Calcium hydrogen phosphate"
 Description: "Calcium hydrogen phosphate"
@@ -75,7 +75,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientSorbitanmonolaurate
+Instance: ingredientpSorbitanmonolaurate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Sorbitan monolaurate"
 Description: "Sorbitan monolaurate"
@@ -98,7 +98,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientHypromel
+Instance: ingredientpHypromel
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Hypromellose"
 Description: "Hypromellose"
@@ -121,7 +121,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientColloidalanhydroussilica
+Instance: ingredientpColloidalanhydroussilica
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Colloidal anhydrous silica"
 Description: "Colloidal anhydrous silica"
@@ -145,7 +145,7 @@ Usage: #example
 * manufacturer.manufacturer = Reference(orgpfeau)
 
 
-Instance: ingredientTitaniumdioxide
+Instance: ingredientpTitaniumdioxide
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Titanium dioxide"
 Description: "Titanium dioxide"
@@ -168,7 +168,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientSodiumstearylf
+Instance: ingredientpSodiumstearylf
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Sodium stearyl fumarate"
 Description: "7CV7WJK4UI"
@@ -191,7 +191,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientMacrogol400
+Instance: ingredientpMacrogol400
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Macrogol 400"
 Description: "Macrogol 400"
@@ -214,7 +214,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientHyprolose
+Instance: ingredientpHyprolose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Hyprolose"
 Description: "Hyprolose"
@@ -238,7 +238,7 @@ Usage: #example
 * manufacturer.manufacturer = Reference(orgpfeau)
 
 
-Instance: ingredientPurifiedtalc
+Instance: ingredientpPurifiedtalc
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Purified talc"
 Description: "Purified talc"
@@ -261,7 +261,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientMacrogol3350
+Instance: ingredientpMacrogol3350
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Macrogol 3350"
 Description: "Macrogol 3350"
@@ -284,7 +284,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientPolysorbate80
+Instance: ingredientpPolysorbate80
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Polysorbate 80"
 Description: "Polysorbate 80"

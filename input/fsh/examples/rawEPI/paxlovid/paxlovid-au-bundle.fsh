@@ -25,24 +25,24 @@ Usage: #example
 * entry[=].resource = paxlovidnirmatrelvir
 
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientLactosemonohydrate"
-* entry[=].resource = ingredientLactosemonohydrate
+* entry[+].fullUrl = "Ingredient/ingredientpLactosemonohydrate"
+* entry[=].resource = ingredientpLactosemonohydrate
 
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientCroscarmellosesodium"
-* entry[=].resource = ingredientCroscarmellosesodium
+* entry[+].fullUrl = "Ingredient/ingredientpCroscarmellosesodium"
+* entry[=].resource = ingredientpCroscarmellosesodium
 
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientColloidalsilicondioxide"
-* entry[=].resource = ingredientColloidalsilicondioxide
+* entry[+].fullUrl = "Ingredient/ingredientpColloidalsilicondioxide"
+* entry[=].resource = ingredientpColloidalsilicondioxide
  
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientSodiumstearylfumarate"
-* entry[=].resource = ingredientSodiumstearylfumarate
+* entry[+].fullUrl = "Ingredient/ingredientpSodiumstearylfumarate"
+* entry[=].resource = ingredientpSodiumstearylfumarate
 
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientOPADRY03B14436PINK"
-* entry[=].resource = ingredientOPADRY03B14436PINK
+* entry[+].fullUrl = "Ingredient/ingredientpOPADRY03B14436PINK"
+* entry[=].resource = ingredientpOPADRY03B14436PINK
 
 // Substance
 * entry[+].fullUrl = "SubstanceDefinition/substancenirmatrelvir"
@@ -75,56 +75,56 @@ Usage: #example
 * entry[=].resource = paxlovidritonavir
 
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientMICROCRYSTALLINEC"
-* entry[=].resource = ingredientMICROCRYSTALLINECELLULOSE
+* entry[+].fullUrl = "Ingredient/ingredientpMICROCRYSTALLINEC"
+* entry[=].resource = ingredientpMICROCRYSTALLINEC
  
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientCopovidone"
-* entry[=].resource = ingredientCopovidone
+* entry[+].fullUrl = "Ingredient/ingredientpCopovidone"
+* entry[=].resource = ingredientpCopovidone
  
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientCalciumhydrogenphosphate"
-* entry[=].resource = ingredientCalciumhydrogenphosphate
+* entry[+].fullUrl = "Ingredient/ingredientpCalciumhydrogenphosphate"
+* entry[=].resource = ingredientpCalciumhydrogenphosphate
  
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientSorbitanmonolaurate"
-* entry[=].resource = ingredientSorbitanmonolaurate
+* entry[+].fullUrl = "Ingredient/ingredientpSorbitanmonolaurate"
+* entry[=].resource = ingredientpSorbitanmonolaurate
  
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientHypromel"
-* entry[=].resource = ingredientHypromel
+* entry[+].fullUrl = "Ingredient/ingredientpHypromel"
+* entry[=].resource = ingredientpHypromel
  
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientColloidalanhydroussilica"
-* entry[=].resource = ingredientColloidalanhydroussilica
+* entry[+].fullUrl = "Ingredient/ingredientpColloidalanhydroussilica"
+* entry[=].resource = ingredientpColloidalanhydroussilica
  
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientTitaniumdioxide"
-* entry[=].resource = ingredientTitaniumdioxide
+* entry[+].fullUrl = "Ingredient/ingredientpTitaniumdioxide"
+* entry[=].resource = ingredientpTitaniumdioxide
  
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientSodiumstearylf"
-* entry[=].resource = ingredientSodiumstearylfumarate
+* entry[+].fullUrl = "Ingredient/ingredientpSodiumstearylf"
+* entry[=].resource = ingredientpSodiumstearylfumarate
  
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientMacrogol400"
-* entry[=].resource = ingredientMacrogol400
+* entry[+].fullUrl = "Ingredient/ingredientpMacrogol400"
+* entry[=].resource = ingredientpMacrogol400
  
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientHyprolose"
-* entry[=].resource = ingredientHyprolose
+* entry[+].fullUrl = "Ingredient/ingredientpHyprolose"
+* entry[=].resource = ingredientpHyprolose
 
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientPurifiedtalc"
-* entry[=].resource = ingredientPurifiedtalc
+* entry[+].fullUrl = "Ingredient/ingredientpPurifiedtalc"
+* entry[=].resource = ingredientpPurifiedtalc
 
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientMacrogol3350"
-* entry[=].resource = ingredientMacrogol3350
+* entry[+].fullUrl = "Ingredient/ingredientpMacrogol3350"
+* entry[=].resource = ingredientpMacrogol3350
 
 // Ingredient
-* entry[+].fullUrl = "Ingredient/ingredientPolysorbate80"
-* entry[=].resource = ingredientPolysorbate80
+* entry[+].fullUrl = "Ingredient/ingredientpPolysorbate80"
+* entry[=].resource = ingredientpPolysorbate80
 
 // Substance
 * entry[+].fullUrl = "SubstanceDefinition/substanceritonavir"

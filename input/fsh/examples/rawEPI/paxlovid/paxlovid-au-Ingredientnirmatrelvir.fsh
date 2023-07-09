@@ -28,7 +28,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientMICROCRYSTALLINEC
+Instance: ingredientpMICROCRYSTALLINEC
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-MICROCRYSTALLINE CELLULOSE"
 Description: "MICROCRYSTALLINE CELLULOSE"
@@ -51,7 +51,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientLactosemonohydrate
+Instance: ingredientpLactosemonohydrate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Lactose monohydrate"
 Description: "Lactose monohydrate"
@@ -74,7 +74,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientCroscarmellosesodium
+Instance: ingredientpCroscarmellosesodium
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Croscarmellose sodium"
 Description: "Croscarmellose sodium"
@@ -97,7 +97,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientColloidalsilicondioxide
+Instance: ingredientpColloidalsilicondioxide
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Colloidal silicon dioxide"
 Description: "Colloidal silicon dioxide"
@@ -120,7 +120,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientSodiumstearylfumarate
+Instance: ingredientpSodiumstearylfumarate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-Sodium stearyl fumarate"
 Description: "Sodium stearyl fumarate"
@@ -143,7 +143,7 @@ Usage: #example
 // Reference to Organization:  Reference to MAH
 * manufacturer.manufacturer = Reference(orgpfeau)
 
-Instance: ingredientOPADRY03B14436PINK
+Instance: ingredientpOPADRY03B14436PINK
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-OPADRY 03B14436 PINK"
 Description: "OPADRY 03B14436 PINK"
