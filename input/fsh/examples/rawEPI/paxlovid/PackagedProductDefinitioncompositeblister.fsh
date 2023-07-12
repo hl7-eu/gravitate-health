@@ -8,12 +8,12 @@ Usage: #example
 * identifier.value = "placeholder"
 * identifier.use = #official
 
-* name = "acme drug blister tabs"
+* name = "PAXLOVID blister composite pack "
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Product"
 
 * status = http://hl7.org/fhir/publication-status#active "Active"
-* statusDate = "2022-03-04T00:00:00Z"
+* statusDate = "2022-01-18T00:00:00Z"
 
 * containedItemQuantity = 30 'tablet'
 
@@ -24,3 +24,9 @@ Usage: #example
   * quantity = 30
   * material = $spor-rms#200000003222 "PolyVinyl Chloride"
   * manufacturer = Reference(orgpfeau)
+  * containedItem
+    * item = //reference to the manufactured item for nirmatrelvir 
+    * amount = 4
+  * containedItem
+    * item = // reference to the manufactured item for ritonavir 
+    * amount = 2
