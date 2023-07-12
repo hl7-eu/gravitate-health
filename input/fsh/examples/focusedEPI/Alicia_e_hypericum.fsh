@@ -369,38 +369,37 @@ Usage: #example
 * identifier.value = "EU/1/97/049/001"
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
-* language = #en
 
 // Composition
 * entry[0].fullUrl = "Composition/enhanced-compositionaf8d2f6e4772c29a8ef9fbb165e80d28"
-* entry[0].resource =  enhanced-compositionaf8d2f6e4772c29a8ef9fbb165e80d28
+* entry[0].resource = enhanced-compositionaf8d2f6e4772c29a8ef9fbb165e80d28
 
 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-hipricoarkopharma-hypericumperforatuml"
-* entry[=].resource = ingredient-for-hipricoarkopharma-hypericumperforatuml 
+* entry[+].fullUrl = "Ingredient/ingredient-for-hipericoarkopharma-hypericumperforatuml"
+* entry[=].resource = ingredient-for-hipericoarkopharma-hypericumperforatuml 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-hipricoarkopharma-microcrystallinecellulose"
-* entry[=].resource = ingredient-for-hipricoarkopharma-microcrystallinecellulose 
+* entry[+].fullUrl = "Ingredient/ingredient-for-hipericoarkopharma-microcrystallinecellulose"
+* entry[=].resource = ingredient-for-hipericoarkopharma-microcrystallinecellulose 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-hipricoarkopharma-magnesiumstearate"
-* entry[=].resource = ingredient-for-hipricoarkopharma-magnesiumstearate 
+* entry[+].fullUrl = "Ingredient/ingredient-for-hipericoarkopharma-magnesiumstearate"
+* entry[=].resource = ingredient-for-hipericoarkopharma-magnesiumstearate 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-hipricoarkopharma-colloidalhydrophobicsilica"
-* entry[=].resource = ingredient-for-hipricoarkopharma-colloidalhydrophobicsilica 
+* entry[+].fullUrl = "Ingredient/ingredient-for-hipericoarkopharma-colloidalhydrophobicsilica"
+* entry[=].resource = ingredient-for-hipericoarkopharma-colloidalhydrophobicsilica 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-hipricoarkopharma-maltodextrin"
-* entry[=].resource = ingredient-for-hipricoarkopharma-maltodextrin 
+* entry[+].fullUrl = "Ingredient/ingredient-for-hipericoarkopharma-maltodextrin"
+* entry[=].resource = ingredient-for-hipericoarkopharma-maltodextrin 
  
 
 // Substance
@@ -423,8 +422,8 @@ Usage: #example
 
 // Organization
 
-* entry[+].fullUrl = "Organization/mah-c2a5378488511eaedce26dde272c2290"
-* entry[=].resource = mah-c2a5378488511eaedce26dde272c2290 
+* entry[+].fullUrl = "Organization/mah-e0c4304ad134de29cff6bfff6e3a9ad7"
+* entry[=].resource = mah-e0c4304ad134de29cff6bfff6e3a9ad7
  
 
 // PackagedProductDefinition

@@ -6,7 +6,7 @@ Description: "DOLOCATIL 1 g tablets"
 Usage: #example
 
  
-* identifier[+].system = "https://cima.aemps.es/ids"
+* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
 * identifier[=].value = "72.741" 
 * identifier[+].system = "https://www.who-umc.org/phpid"
 * identifier[=].value = "0xE857DA811B4A6F3BD57810C45D2EA1ED"

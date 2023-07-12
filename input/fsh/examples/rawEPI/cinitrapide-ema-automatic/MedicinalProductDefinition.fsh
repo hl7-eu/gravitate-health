@@ -6,7 +6,7 @@ Description: "BLASTON 1 mg tablets"
 Usage: #example
 
  
-* identifier[+].system = "https:://cima.aemps.es/ids"
+* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
 * identifier[=].value = "59.032" 
 * identifier[+].system = "https://www.who-umc.org/phpid"
 * identifier[=].value = "0xbb82cd10ab2add752b2b9224931077b2"

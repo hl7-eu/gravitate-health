@@ -6,7 +6,7 @@ Description: "Pentasa Slow Release Tablets 1g"
 Usage: #example
 
  
-* identifier[+].system = "https://cima.aemps.es/ids"
+* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
 * identifier[=].value = "77022" 
 * identifier[+].system = "https://www.who-umc.org/phpid"
 * identifier[=].value = "0xF79CABF272B6A7EEF104DDDA44E827xx"

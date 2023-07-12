@@ -13,9 +13,17 @@ Usage: #example
 
 * language = #en
 
+
 // Composition
 * entry[0].fullUrl = "Composition/composition5aa8042f9b2bea12d814ccaf27f6d64e"
 * entry[0].resource = composition5aa8042f9b2bea12d814ccaf27f6d64e
+
+ 
+ 
+ 
+
+ 
+ 
 
 // Ingredient
 
@@ -41,8 +49,8 @@ Usage: #example
 
 // AdministrableProductDefinition
 
-* entry[+].fullUrl = "AdministrableProductDefinition/ap-1aa8042f9b2bea12d814ccaf27f6d64e"
-* entry[=].resource = ap-1aa8042f9b2bea12d814ccaf27f6d64e 
+* entry[+].fullUrl = "AdministrableProductDefinition/ap-5aa8042f9b2bea12d814ccaf27f6d64e"
+* entry[=].resource = ap-5aa8042f9b2bea12d814ccaf27f6d64e 
  
 
 // RegulatedAuthorization

@@ -6,7 +6,7 @@ Description: "HIPÉRICO ARKOPHARMA cápsulas duras"
 Usage: #example
 
  
-* identifier[+].system = "https://cima.aemps.es/ids"
+* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
 * identifier[=].value = "79963"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 

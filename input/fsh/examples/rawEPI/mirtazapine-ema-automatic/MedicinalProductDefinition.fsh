@@ -6,7 +6,7 @@ Description: "MIRTAZAPINA CINFA 30 mg Coated Tablet"
 Usage: #example
 
  
-* identifier[+].system = "https://cima.aemps.es/ids"
+* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
 * identifier[=].value = "67.068" 
 * identifier[+].system = "https://www.who-umc.org/phpid"
 * identifier[=].value = "0x6c47381b040e5b588db23b2272f28eec"

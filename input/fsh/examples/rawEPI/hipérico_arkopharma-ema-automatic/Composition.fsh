@@ -24,7 +24,7 @@ Usage: #example
 
  
  // Reference to Organization: MAH
-* author = Reference(mah-c2a5378488511eaedce26dde272c2290)
+* author = Reference(mah-e0c4304ad134de29cff6bfff6e3a9ad7)
 
 
 * title = "TEST PURPOSES ONLY - HIPÉRICO ARKOPHARMA cápsulas duras"
