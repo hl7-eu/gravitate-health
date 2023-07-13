@@ -25,8 +25,8 @@ Usage: #example
   * material = $spor-rms#200000003222 "PolyVinyl Chloride"
   * manufacturer = Reference(orgpfeau)
   * containedItem
-    * item = //reference to the manufactured item for nirmatrelvir 
-    * amount = 4
+    * item.reference = Reference(midnirmatrelvir150mg) //reference to the manufactured item for nirmatrelvir 
+    * amount.value = 4
   * containedItem
-    * item = // reference to the manufactured item for ritonavir 
-    * amount = 2
+    * item.reference = Reference(midritonavir100mg) // reference to the manufactured item for ritonavir 
+    * amount.value = 2
