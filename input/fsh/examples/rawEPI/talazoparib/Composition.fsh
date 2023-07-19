@@ -124,7 +124,7 @@ Usage: #example
 * section[=].section.section[+]
   * title = "Do not take Talzenna"
   * code = https://www.mhra.gov.uk/#100000155538
-  * code.text = "Do not {take}; {use} X"
+  * code.text = "Do not &lt;take&gt;; &lt;use&gt; X"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <ul>
@@ -267,7 +267,7 @@ Usage: #example
 * section[=].section.section[+]
   * title = "Talzenna with food and drink"
   * code = https://www.mhra.gov.uk/#100000155538
-  * code.text = "X with {food} {and} {,} {drink} {and} {alcohol}"
+  * code.text = "X with &lt;food&gt; &lt;and&gt; &lt;,&gt; &lt;drink&gt; &lt;and&gt; &lt;alcohol&gt;"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <p>Do not use curcumin in food supplements while you are taking
@@ -281,7 +281,7 @@ Usage: #example
 * section[=].section.section[+]
   * title = "Pregnancy"
   * code = https://www.mhra.gov.uk/#100000155538
-  * code.text = "Pregnancy {and} {,} breast-feeding {and fertility}"
+  * code.text = "Pregnancy &lt;and&gt; &lt;,&gt; breast-feeding &lt;and fertility&gt;"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <p>Talzenna could harm an unborn baby. If you are pregnant or
@@ -347,7 +347,7 @@ Usage: #example
 * section[=].section[+]
   * title = "3. How to take Talzenna"
   * code = https://www.mhra.gov.uk/#100000155538
-  * code.text = "3. How to {take} {use} X"
+  * code.text = "3. How to &lt;take&gt; &lt;use&gt; X"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <p>Always take this medicine exactly as your doctor or pharmacist has
@@ -372,7 +372,7 @@ Usage: #example
 * section[=].section.section[+]
   * title = "If you take more Talzenna than you should"
   * code = https://www.mhra.gov.uk/#100000155538
-  * code.text = "If you {take} {use} more X than you should"
+  * code.text = "If you &lt;take&gt; &lt;use&gt; more X than you should"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <p>If you have taken more Talzenna than your normal dose, contact
@@ -386,7 +386,7 @@ Usage: #example
 * section[=].section.section[+]
   * title = "If you forget to take Talzenna"
   * code = https://www.mhra.gov.uk/#100000155538
-  * code.text = "If you forget to {take} {use} X"
+  * code.text = "If you forget to &lt;take&gt; &lt;use&gt; X"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <p>If you miss a dose or vomit, take your next dose as scheduled. Do
@@ -398,7 +398,7 @@ Usage: #example
 * section[=].section.section[+]
   * title = "If you stop taking Talzenna"
   * code = https://www.mhra.gov.uk/#100000155538
-  * code.text = "If you stop {taking} {using} X"
+  * code.text = "If you stop &lt;taking&gt; &lt;using&gt; X"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <p>Do not stop taking Talzenna unless your doctor tells you to.</p>
