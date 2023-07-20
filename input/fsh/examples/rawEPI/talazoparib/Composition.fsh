@@ -29,16 +29,16 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'></div>"""
        
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Package leaflet: Information for the patient"
   * code = https://www.mhra.gov.uk/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Package leaflet: Information for the patient"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <p>
-                                <b>Talzenna 0.25 mg hard capsules</b>
+                                <b>Talzenna<sup>&reg;</sup> 0.25 mg hard capsules</b>
                             </p>
                             <p>
-                                <b>Talzenna 1 mg hard capsules</b>
+                                <b>Talzenna<sup>&reg;</sup> 1 mg hard capsules</b>
                             </p>
                             <p>talazoparib</p>
                             <p>&#9660; This medicine is subject to additional monitoring. This will
@@ -51,14 +51,11 @@ Usage: #example
                             </p>
                             <ul>
                                 <li>Keep this leaflet. You may need to read it again.</li>
-                                <li>If you have any further questions, ask your doctor or
-                                    pharmacist.</li>
+                                <li>If you have any further questions, ask your doctor, pharmacist or nurse.</li>
                                 <li>This medicine has been prescribed for you only. Do not pass it
                                     on to others. It may harm them, even if their signs of illness
                                     are the same as yours.</li>
-                                <li>If you get any side effects, talk to your doctor or pharmacist.
-                                    This includes any possible side effects not listed in this
-                                    leaflet. See section 4.</li>
+                                <li>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects not listed in this leaflet. See section 4.</li>
                             </ul>
   </div>"""
  
@@ -71,14 +68,14 @@ Usage: #example
                             <p>
                                 <b>What is in this leaflet</b>
                             </p>
-                            <ul>
+                            <ol>
                                 <li>What Talzenna is and what it is used for</li>
                                 <li>What you need to know before you take Talzenna</li>
                                 <li>How to take Talzenna</li>
                                 <li>Possible side effects</li>
                                 <li>How to store Talzenna</li>
                                 <li>Contents of the pack and other information</li>
-                            </ul>  
+                            </ol>  
   </div>"""
  
           
@@ -108,7 +105,8 @@ Usage: #example
                                 as HER2-negative breast cancer who have an abnormal inherited BRCA
                                 gene. </p>
                             <p>Talzenna is used when the cancer has spread beyond the original
-                                tumour or to other parts of the body. Your healthcare provider will
+                                tumour or to other parts of the body.</p> 
+                            <p>Your healthcare provider will
                                 perform a test to make sure that Talzenna is right for you. </p>
                             <p>If you have any questions about how Talzenna works or why this
                                 medicine has been prescribed for you, ask your doctor. </p>  
@@ -121,7 +119,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'></div>"""
 
-* section[=].section[=].section[+]
+* section[=].section[+]
   * title = "Do not take Talzenna"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "Do not &lt;take&gt;; &lt;use&gt; X"
