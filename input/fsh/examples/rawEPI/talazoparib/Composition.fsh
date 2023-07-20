@@ -445,12 +445,13 @@ Usage: #example
   * code.text = "Reporting of side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-<p>If you get any side effects, talk to your doctor or pharmacist or
-                                    nurse. This includes any possible side effects not listed in
-                                    this leaflet. You can also report side effects directly via the
-                                    national reporting system listed in Appendix V. By reporting
-                                    side effects you can help provide more information on the safety
-                                    of this medicine.</p>
+<p>If you get any side effects, talk to your doctor, pharmacist or nurse. This
+                    includes any possible side effects not listed in this leaflet. You can also
+                    report side effects directly via the Yellow Card Scheme at: <a
+                        href="http://www.mhra.gov.uk/yellowcard">www.mhra.gov.uk/yellowcard</a> or
+                    search for MHRA Yellow Card in the Google Play or Apple App Store. By reporting
+                    side effects you can help provide more information on the safety of this
+                    medicine.</p>
 
   </div>"""
         
@@ -551,7 +552,6 @@ Usage: #example
   * code.text = "Marketing Authorization Holder and Manufacturer"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-<p>Pfizer Europe MA EEIG</p>
                                 <p>Pfizer Limited</p>
                                 <p>Ramsgate Road</p>
                                 <p>Sandwich</p>
