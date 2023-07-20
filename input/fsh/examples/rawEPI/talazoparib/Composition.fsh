@@ -22,13 +22,6 @@ Usage: #example
 * language = #en
 
 * section[+]
-  * title = "B. Package Leaflet"
-  * code = https://www.mhra.gov.uk/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'></div>"""
-       
-* section[=].section[+]
   * title = "Package leaflet: Information for the patient"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "Package leaflet: Information for the patient"
@@ -76,11 +69,9 @@ Usage: #example
                                 <li>How to store Talzenna</li>
                                 <li>Contents of the pack and other information</li>
                             </ol>  
-  </div>"""
- 
-          
+  </div>""" 
 
-* section[=].section[+]
+* section[+]
   * title = "1. What Talzenna is and what it is used for"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "1. What X is and what it is used for"
@@ -112,7 +103,7 @@ Usage: #example
                                 medicine has been prescribed for you, ask your doctor. </p>  
 </div>"""
     
-* section[=].section[+]
+* section[+]
   * title = "2. What you need to know before you take Talzenna"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "2. What you need to know before you take X"
@@ -137,7 +128,7 @@ Usage: #example
   
   </div>"""
 
-* section[=].section[=].section[+]
+* section[=].section[+]
   * title = "Warnings and precautions"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "Warnings and precautions"
@@ -189,7 +180,7 @@ Usage: #example
   
   </div>"""
 
-* section[=].section[=].section[+]
+* section[=].section[+]
   * title = "Children and adolescents"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "Children and adolescents"
@@ -200,7 +191,7 @@ Usage: #example
   
   </div>"""
 
-* section[=].section[=].section[+]
+* section[=].section[+]
   * title = "Other medicines and Talzenna"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "Other medicines and Talzenna"
@@ -262,7 +253,7 @@ Usage: #example
   
   </div>"""
 
-* section[=].section[=].section[+]
+* section[=].section[+]
   * title = "Talzenna with food and drink"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "X with &lt;food&gt; &lt;and&gt; &lt;,&gt; &lt;drink&gt; &lt;and&gt; &lt;alcohol&gt;"
@@ -276,7 +267,7 @@ Usage: #example
   
   </div>"""
 
-* section[=].section[=].section[+]
+* section[=].section[+]
   * title = "Pregnancy"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "Pregnancy &lt;and&gt; &lt;,&gt; breast-feeding &lt;and fertility&gt;"
@@ -329,7 +320,7 @@ Usage: #example
   
   </div>"""
 
-* section[=].section[=].section[+]
+* section[=].section[+]
   * title = "Driving and using machines"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "Driving and using machines"
@@ -342,7 +333,7 @@ Usage: #example
   
   </div>"""
 
-* section[=].section[+]
+* section[+]
   * title = "3. How to take Talzenna"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "3. How to &lt;take&gt; &lt;use&gt; X"
@@ -367,7 +358,7 @@ Usage: #example
   
   </div>"""       
 
-* section[=].section[=].section[+]
+* section[=].section[+]
   * title = "If you take more Talzenna than you should"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "If you &lt;take&gt; &lt;use&gt; more X than you should"
@@ -381,7 +372,7 @@ Usage: #example
 
   </div>"""
 
-* section[=].section[=].section[+]
+* section[=].section[+]
   * title = "If you forget to take Talzenna"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "If you forget to &lt;take&gt; &lt;use&gt; X"
@@ -393,7 +384,7 @@ Usage: #example
 
   </div>"""
 
-* section[=].section[=].section[+]
+* section[=].section[+]
   * title = "If you stop taking Talzenna"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "If you stop &lt;taking&gt; &lt;using&gt; X"
@@ -405,7 +396,7 @@ Usage: #example
 
   </div>"""
 
-* section[=].section[+]
+* section[+]
   * title = "4. Possible side effects"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "4. Possible side effects"
@@ -448,7 +439,7 @@ Usage: #example
   
   </div>"""
 
-* section[=].section[=].section[+]
+* section[=].section[+]
   * title = "Reporting of side effects"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "Reporting of side effects"
@@ -463,7 +454,7 @@ Usage: #example
 
   </div>"""
         
-* section[=].section[+]
+* section[+]
   * title = "5. How to store Talzenna"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "5. How to store X"
@@ -482,14 +473,14 @@ Usage: #example
   
   </div>"""
         
-* section[=].section[+]
+* section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'></div>"""
     
-* section[=].section[=].section[+]
+* section[=].section[+]
   * title = "What Talzenna contains"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "What X contains"
@@ -533,7 +524,7 @@ Usage: #example
 
   </div>"""
 
-* section[=].section[=].section[+]
+* section[=].section[+]
   * title = "What Talzenna looks like and contents of the pack"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "What X looks like and contents of the pack"
@@ -554,7 +545,7 @@ Usage: #example
 
   </div>"""
 
-* section[=].section[=].section[+]
+* section[=].section[+]
   * title = "Marketing Authorization Holder and Manufacturer"
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "Marketing Authorization Holder and Manufacturer"
