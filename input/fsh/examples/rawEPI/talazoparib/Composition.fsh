@@ -28,10 +28,10 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <p>
-                                <b>Talzenna<sup>&reg;</sup> 0.25 mg hard capsules</b>
+                                <b>Talzenna<sup>&#174;</sup> 0.25 mg hard capsules</b>
                             </p>
                             <p>
-                                <b>Talzenna<sup>&reg;</sup> 1 mg hard capsules</b>
+                                <b>Talzenna<sup>&#174;</sup> 1 mg hard capsules</b>
                             </p>
                             <p>talazoparib</p>
                             <p>&#9660; This medicine is subject to additional monitoring. This will
@@ -207,9 +207,7 @@ Usage: #example
                                 <ul>
                                     <li>
                                         <p>Amiodarone, carvedilol, dronedarone, propafenone,
-                                            quinidine, ranolazine and verapamil – </p>
-
-                                        <p>generally used to treat heart problems. </p>
+                                            quinidine, ranolazine and verapamil – generally used to treat heart problems. </p>
                                     </li>
                                     <li>
                                         <p>Clarithromycin and erythromycin antibiotics – used to
