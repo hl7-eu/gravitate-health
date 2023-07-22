@@ -28,15 +28,15 @@ Usage: #example
   * code.text = "Title Page"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-<img src="#binarypfizerlogo" alt="Pfizer Logo"/>
-<p><b>Xyntha</b><sup>®</sup></p>
-        <p>Lyophilized Powder for Reconstitution in a Vial</p>
-        <p>250, 500, 1000, or 2000 IU in single-use vials and one pre-filled diluent syringe
+<p style="text-align:center"><img src="#binarypfizerlogo" alt="Pfizer Logo"/></p>
+<p style="text-align:center"><b>Xyntha</b><sup>®</sup></p>
+        <p style="text-align:center">Lyophilized Powder for Reconstitution in a Vial</p>
+        <p style="text-align:center">250, 500, 1000, or 2000 IU in single-use vials and one pre-filled diluent syringe
             containing 4 mL 0.9% Sodium Chloride for reconstitution*</p>
-        <p>Antihemophilic Factor (Recombinant) [BDDrFVIII]</p>
-        <p>For Intravenous Injection</p>
-        <p>Antihemorrhagic Blood Coagulation Factor VIII</p>
-        <p>Reference Market: Canada</p>
+        <p style="text-align:center">Antihemophilic Factor (Recombinant) [BDDrFVIII]</p>
+        <p style="text-align:center">For Intravenous Injection</p>
+        <p style="text-align:center">Antihemorrhagic Blood Coagulation Factor VIII</p>
+        <p style="text-align:center">Reference Market: Canada</p>
   </div>"""
  
 * section[+]
@@ -45,11 +45,11 @@ Usage: #example
   * code.text = "Package leaflet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-        <p><b>Xyntha</b><sup>®</sup></p>
-        <p>Moroctocog alfa, Antihemophilic Factor (Recombinant) </p>
-        <p><b>Xyntha 250, 500, 1000, &amp; 2000 IU Powder<i> and </i>Solvent for Solution<i> for
+        <p style="text-align:center"><b>Xyntha</b><sup>®</sup></p>
+        <p style="text-align:center">Moroctocog alfa, Antihemophilic Factor (Recombinant) </p>
+        <p style="text-align:center"><b>Xyntha 250, 500, 1000, &amp; 2000 IU Powder<i> and </i>Solvent for Solution<i> for
                 </i>Injection</b></p>
-        <p><i>This leaflet is a summary and will not tell you everything about </i><i>Xyntha.
+        <p style="text-align:center"><i>This leaflet is a summary and will not tell you everything about </i><i>Xyntha.
                 Contact your doctor or hemophilia treatment center if you have any questions about
                 the drug.</i></p>
 
@@ -136,14 +136,14 @@ Usage: #example
         </table>
         <p><b>BEFORE you use </b><b>Xyntha</b><b> talk to your hemophilia doctor if:</b></p>
         <ul>
-            <li>You are pregnant or planning to become pregnant<b><i>. </i></b>It is not known
+            <li><p>You are pregnant or planning to become pregnant<b><i>. </i></b>It is not known
                 whether Xyntha can affect your ability to have children or harm your developing
-                baby. </li>
-            <li>You are breastfeeding or planning to breast feed. It is not known whether Xyntha
-                passes into breast milk.</li>
-            <li>You are taking other medicines<b><i>. </i></b>Tell your hemophilia doctor if you are
+                baby. </p></li>
+            <li><p>You are breastfeeding or planning to breast feed. It is not known whether Xyntha
+                passes into breast milk.</p></li>
+            <li><p>You are taking other medicines<b><i>. </i></b>Tell your hemophilia doctor if you are
                 taking any other medicines or naturopathic products, including any that you buy
-                without a prescription from your pharmacy, supermarket, or health food shop.</li>
+                without a prescription from your pharmacy, supermarket, or health food shop.</p></li>
         </ul>
         <p>Your hemophilia doctor will advise you whether or not to take Xyntha or if you need to
             adjust the dose, or adapt your treatment.</p>
@@ -180,32 +180,32 @@ Usage: #example
             factor VIII in your blood is high enough to allow normal blood clotting. </p>
         <p>Each Xyntha vial kit contains:</p>
         <ul>
-            <li>1 vial of Xyntha powder</li>
-            <li>1 syringe pre-filled with 4 mL of sodium chloride diluent </li>
-            <li>1 plunger rod for the syringe</li>
-            <li>1 vial adapter</li>
-            <li>1 sterile infusion set</li>
-            <li>2 alcohol swabs</li>
-            <li>1 bandage</li>
-            <li>1 gauze</li>
-            <li>1 package insert</li>
+            <li><p>1 vial of Xyntha powder</p></li>
+            <li><p>1 syringe pre-filled with 4 mL of sodium chloride diluent </p></li>
+            <li><p>1 plunger rod for the syringe</p></li>
+            <li><p>1 vial adapter</p></li>
+            <li><p>1 sterile infusion set</p></li>
+            <li><p>2 alcohol swabs</p></li>
+            <li><p>1 bandage</p></li>
+            <li><p>1 gauze</p></li>
+            <li><p>1 package insert</p></li>
         </ul>
         <p> </p>
         <p>Xyntha Hospital pack contains:</p>
         <ul>
-            <li>3 vial of Xyntha powder</li>
-            <li>3 syringe pre-filled with 4 mL of sodium chloride diluent </li>
-            <li>3 plunger rods for the syringe</li>
-            <li>3 vial adapters</li>
-            <li>1 package insert</li>
+            <li><p>3 vial of Xyntha powder</p></li>
+            <li><p>3 syringe pre-filled with 4 mL of sodium chloride diluent </p></li>
+            <li><p>3 plunger rods for the syringe</p></li>
+            <li><p>3 vial adapters</p></li>
+            <li><p>1 package insert</p></li>
         </ul>
         <p/>
         <p>Xyntha Hospital pack does not contain:</p>
         <ul>
-            <li>sterile infusion set (tubing and butterfly needle)</li>
-            <li>alcohol swabs </li>
-            <li>bandage</li>
-            <li>gauze</li>
+            <li><p>sterile infusion set (tubing and butterfly needle)</p></li>
+            <li><p>alcohol swabs </p></li>
+            <li><p>bandage</p></li>
+            <li><p>gauze</p></li>
         </ul>
         <p>Not all strengths/pack sizes may be marketed.</p>
         <p>Xyntha is supplied in a sterile, freeze-dried powder form, and it is intended for
@@ -241,64 +241,64 @@ Usage: #example
             next vial adapter.</p>
         <p> </p>
         <ol>
-            <li>Allow the vial of freeze-dried Xyntha powder and the pre-filled diluent syringe to
-                reach room temperature. </li>
-            <li>Remove the plastic flip-top cap from the Xyntha vial to expose the central portions
-                of the rubber stopper. </li>
-            <li>Wipe the top of the vial with alcohol swab, or use another antiseptic solution, and
+            <li><p>Allow the vial of freeze-dried Xyntha powder and the pre-filled diluent syringe to
+                reach room temperature. </p></li>
+            <li><p>Remove the plastic flip-top cap from the Xyntha vial to expose the central portions
+                of the rubber stopper. </p>
+                <img src="#binaryimage003" alt="clip_image003_-1584181510.png"/>
+                </li>
+            <li><p>Wipe the top of the vial with alcohol swab, or use another antiseptic solution, and
                 allow to dry. After cleaning, do not touch the rubber stopper with your hand or
                 allow it to touch any surface.If you need to use more than 1 vial to inject your
-                prescribed dose, you must use a new alcohol swab for each vial. </li>
-            <li> </li>
-            <li>Peel back the cover from the clear plastic vial adapter package. <b><u>Do not remove
-                        the adapter from the package</u><u>.</u></b></li>
-            <li>Place the vial on a flat surface. While holding the adapter in the package, place
+                prescribed dose, you must use a new alcohol swab for each vial. </p></li>
+            <li><p> </p></li>
+            <li><p>Peel back the cover from the clear plastic vial adapter package. <b><u>Do not remove
+                        the adapter from the package</u><u>.</u></b></p></li>
+            <li><p>Place the vial on a flat surface. While holding the adapter in the package, place
                 the vial adapter over the vial. Press down firmly on the package until the adapter
                 snaps into place on top of the vial, with the adapter spike penetrating the vial
-                stopper. </li>
-            <li>Grasp the plunger rod as shown in the diagram. Avoid contact with the shaft of the
+                stopper. </p></li>
+            <li><p>Grasp the plunger rod as shown in the diagram. Avoid contact with the shaft of the
                 plunger rod. Attach the threaded end of the plunger rod to the diluent syringe by
-                pushing and turning firmly. </li>
-            <li><image href="clip_image006_1402751276.png" height="129" width="139"
-                    id="image_xkd_2l1_fyb"/></li>
-            <li>Break off the tamper-resistant, plastic-tip cap from the diluent syringe by snapping
+                pushing and turning firmly. </p>
+                <img src="#binaryimage004" alt="clip_image004_128978964.png"/></li>
+            <li><p>Break off the tamper-resistant, plastic-tip cap from the diluent syringe by snapping
                 the perforation of the cap. This is done by bending the cap up and down until the
                 perforation is broken. Do not touch the inside of the cap or the syringe tip. The
                 diluent syringe may need to be recapped (if the dissolved Xyntha is not used
                 immediately), so place the cap on its top on a clean surface in a spot where it
-                would be least likely to become contaminated. </li>
-            <li><image href="clip_image007_1848870172.png" height="100" width="96"
-                    id="image_zkd_2l1_fyb"/></li>
-            <li>Lift the package away from the adapter and discard the package. </li>
-            <li><image href="clip_image008_-1930407291.png" height="104" width="86"
-                    id="image_bld_2l1_fyb"/></li>
-            <li>Place the vial on a flat surface. Connect the diluent syringe to the vial adapter by
+                would be least likely to become contaminated. </p>
+                <img src="#image007" alt="clip_image007_1848870172.png"/>
+                </li>
+            <li><p>Lift the package away from the adapter and discard the package. </p>
+            <img src="#image008" alt="clip_image008_-1930407291.png"/></li>
+            <li><p>Place the vial on a flat surface. Connect the diluent syringe to the vial adapter by
                 inserting the tip of the syringe into the adapter opening while firmly pushing and
-                turning the syringe clockwise until the connection is secured. </li>
-            <li><image href="clip_image010_524367703.png" height="93" width="95"
-                    id="image_dld_2l1_fyb"/></li>
-            <li>Slowly depress the plunger rod to inject all the diluent into the Xyntha vial. </li>
-            <li><image href="clip_image012_583978923.png" height="83" width="84"
-                    id="image_fld_2l1_fyb"/></li>
-            <li>With the syringe still connected to the adapter, gentlyswirl the contents of the
-                vial until the powder is dissolved. </li>
-            <li>Note: The final solution should be inspected visually for particulate matter before
+                turning the syringe clockwise until the connection is secured. </p>
+                <img src="#" alt="clip_image010_524367703.png"/>
+                </li>
+            <li><p>Slowly depress the plunger rod to inject all the diluent into the Xyntha vial. </p>
+            <img src="#image012a" alt="clip_image012_583978923.png"/>
+            </li>
+            <li><p>With the syringe still connected to the adapter, gentlyswirl the contents of the
+                vial until the powder is dissolved. </p></li>
+            <li><p>Note: The final solution should be inspected visually for particulate matter before
                 administration. The solution should be clear to slightly pearly and colorless. If it
-                is not, the solution should be discarded and a new kit should be used.</li>
-            <li>Ensuring that the syringe plunger rod is still fully depressed, invert the vial.
-                Slowly draw the solution into the syringe. </li>
-            <li>Note: If you prepared more than one vial of Xyntha, remove the diluent syringe from
+                is not, the solution should be discarded and a new kit should be used.</p></li>
+            <li><p>Ensuring that the syringe plunger rod is still fully depressed, invert the vial.
+                Slowly draw the solution into the syringe. </p></li>
+            <li><p>Note: If you prepared more than one vial of Xyntha, remove the diluent syringe from
                 the vial adapter, leaving the vial adapter attached to the vial. Quickly attach a
                 separate large luer lock syringe and draw back the dissolved contents as instructed
                 above. Repeat this procedure with each vial in turn. Do not detach the diluent
                 syringes or the large luer lock syringe until you are ready to attach the large luer
-                lock syringe to the next vial adapter. </li>
-            <li><image href="clip_image012_-1646958650.png" height="83" width="84"
-                    id="image_ild_2l1_fyb"/></li>
-            <li>Detach the syringe from the vial adapter by gently pulling and turning the syringe
+                lock syringe to the next vial adapter. </p>
+                <img src="#image012b" alt="clip_image012_-1646958650.png"/>
+                </li>
+            <li><p>Detach the syringe from the vial adapter by gently pulling and turning the syringe
                 counterclockwise. Discard the vial with the adapter attached. Note: If the solution
                 is not to be used immediately, the syringe cap should be carefully replaced. Do not
-                touch the syringe tip or the inside of the cap. </li>
+                touch the syringe tip or the inside of the cap. </p></li>
         </ol>
         <p>Xyntha should be infused within 3 hours after dissolving. The dissolved solution may be
             stored at room temperature prior to infusion.</p>
@@ -313,22 +313,23 @@ Usage: #example
             sterile disposable plastic luer-lock syringe. In addition, the solution should be
             withdrawn from the vial using the vial adapter.</p>
         <ol>
-            <li>1. Attach the syringe to the luer end of the infusion set tubing and perform
-                venipuncture as instructed by your hemophilia doctor or nurse. </li>
-            <li>2. Apply a tourniquet and prepare the injection site by wiping the skin well with an
-                alcohol swab.</li>
-            <li><image href="clip_image013_1472120925.png" height="80" width="80"
-                    id="image_kld_2l1_fyb"/></li>
-            <li>3. Insert the needle on the infusion set tubing into the vein, and remove the
+            <li><p>1. Attach the syringe to the luer end of the infusion set tubing and perform
+                venipuncture as instructed by your hemophilia doctor or nurse. </p></li>
+            <li><p>2. Apply a tourniquet and prepare the injection site by wiping the skin well with an
+                alcohol swab.</p>
+                <img src="#image013" alt="clip_image013_1472120925.png"/><p><image href="" height="80" width="80"
+                    id="image_kld_2l1_fyb"/></p></li>
+            <li><p>3. Insert the needle on the infusion set tubing into the vein, and remove the
                 tourniquet. Infuse the reconstituted Xyntha product over several minutes. Your
-                comfort level should determine the rate of infusion.</li>
-            <li><image href="clip_image014_-861669482.jpg" height="73" width="73"
-                    id="image_lld_2l1_fyb"/></li>
-            <li>4. After injecting Xyntha, remove the infusion set and discard. The amount of drug
+                comfort level should determine the rate of infusion.</p>
+                <img src="#image014" alt="clip_image014_-861669482.jpg"/>
+                </li>
+            <li><p>4. After injecting Xyntha, remove the infusion set and discard. The amount of drug
                 product left in the infusion set will not affect your treatment. Dispose of all
                 unused solution, the empty vial(s), and the used needles and syringes in an
                 appropriate sharps container used for throwing away waste that might hurt others if
-                not handled properly. </li>
+                not handled properly. </p>
+                </li>
         </ol>
         <p>You should record the lot number of the product every time you use Xyntha. The lot number
             can be found on the vial label. The peel-off label on the vial may be used to record the
@@ -341,9 +342,7 @@ Usage: #example
                         there are no symptoms.</td>
                 </tr>
             </tbody>
-        </table>
-
-  
+        </table>  
   </div>"""
 
 * section[+]
@@ -596,11 +595,11 @@ Usage: #example
 			<td>
 			<p style="text-align:center">THIS IS A MEDICAMENT</p>
 			<ul>
-				<li>Medicament is a product which affects your health and its consumption contrary to instructions is dangerous for you.</li>
-				<li>Follow strictly the doctor&rsquo;s prescription, the method of use and the instructions of the Pharmacist who sold the medicament.</li>
-				<li>The doctor and the Pharmacist are experts in medicines, their benefits and risks.</li>
-				<li>Do not by yourself interrupt the period of treatment prescribed.</li>
-				<li>Do not repeat the same prescription without consulting your doctor.</li>
+				<li><p>Medicament is a product which affects your health and its consumption contrary to instructions is dangerous for you.</p></li>
+				<li><p>Follow strictly the doctor&rsquo;s prescription, the method of use and the instructions of the Pharmacist who sold the medicament.</p></li>
+				<li><p>The doctor and the Pharmacist are experts in medicines, their benefits and risks.</p></li>
+				<li><p>Do not by yourself interrupt the period of treatment prescribed.</p></li>
+				<li><p>Do not repeat the same prescription without consulting your doctor.</p></li>
 			</ul>
 			<p><b>Keep all medicaments out of reach and sight of children</b></p>
 			<p><b>Council of Arab Health Ministers</b></p>
