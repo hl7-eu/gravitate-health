@@ -313,18 +313,19 @@ Usage: #example
             sterile disposable plastic luer-lock syringe. In addition, the solution should be
             withdrawn from the vial using the vial adapter.</p>
         <ol>
-            <li><p>1. Attach the syringe to the luer end of the infusion set tubing and perform
-                venipuncture as instructed by your hemophilia doctor or nurse. </p></li>
-            <li><p>2. Apply a tourniquet and prepare the injection site by wiping the skin well with an
+            <li><p>Attach the syringe to the luer end of the infusion set tubing and perform
+                venipuncture as instructed by your hemophilia doctor or nurse. </p>
+                </li>
+            <li><p>Apply a tourniquet and prepare the injection site by wiping the skin well with an
                 alcohol swab.</p>
-                <img src="#image013" alt="clip_image013_1472120925.png"/><p><image href="" height="80" width="80"
-                    id="image_kld_2l1_fyb"/></p></li>
-            <li><p>3. Insert the needle on the infusion set tubing into the vein, and remove the
+                <img src="#image013" alt="clip_image013_1472120925.png"/>
+                </li>
+            <li><p>Insert the needle on the infusion set tubing into the vein, and remove the
                 tourniquet. Infuse the reconstituted Xyntha product over several minutes. Your
                 comfort level should determine the rate of infusion.</p>
                 <img src="#image014" alt="clip_image014_-861669482.jpg"/>
                 </li>
-            <li><p>4. After injecting Xyntha, remove the infusion set and discard. The amount of drug
+            <li><p>After injecting Xyntha, remove the infusion set and discard. The amount of drug
                 product left in the infusion set will not affect your treatment. Dispose of all
                 unused solution, the empty vial(s), and the used needles and syringes in an
                 appropriate sharps container used for throwing away waste that might hurt others if
