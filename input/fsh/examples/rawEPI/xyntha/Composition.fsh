@@ -109,8 +109,8 @@ Usage: #example
   <table border="1">
             <tbody>
                 <tr>
-                    <td>
-                        <p style="text-align:center"><b>Serious Warnings and Precautions</b></p>
+                    <td style="text-align:center">
+                        <b>Serious Warnings and Precautions</b>
                     </td>
                 </tr>
                 <tr>
@@ -375,168 +375,168 @@ Usage: #example
 <table border="1">
             <tbody>
                 <tr>
-                    <td colspan="4">
-                        <p style="text-align:center"><b>SERIOUS SIDE EFFECTS, HOW OFTEN THEY HAPPEN AND WHAT TO DO ABOUT THEM</b></p>
+                    <td colspan="4" style="text-align:center">
+                        <b>SERIOUS SIDE EFFECTS, HOW OFTEN THEY HAPPEN AND WHAT TO DO ABOUT THEM</b>
                     </td>
                 </tr>
                 <tr>
                     <td rowspan="2">
                         <p><b>Symptom / effect</b></p>
                     </td>
-                    <td colspan="2">
-                        <p style="text-align:center"><b>Talk with your doctor</b></p>
+                    <td colspan="2" style="text-align:center">
+                        <b>Talk with your doctor</b>
                     </td>
-                    <td rowspan="2">
-                        <p style="text-align:center"><b>Stop the infusion and call your doctor</b></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p style="text-align:center"><b>Only if severe</b></p>
-                    </td>
-                    <td>
-                        <p style="text-align:center"><b>In all cases</b></p>
+                    <td rowspan="2" style="text-align:center">
+                        <b>Stop the infusion and call your doctor</b>
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="4">
-                        <p><b>Uncommon</b></p>
+                    <td style="text-align:center">
+                        <b>Only if severe</b>
                     </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Headache</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p style="text-align:center">x</p>
+                    <td style="text-align:center">
+                        <b>In all cases</b>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="4">
-                        <p><b>Rare</b></p>
+                        <b>Uncommon</b>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <p>Fever</p>
+                        Headache
+                    </td>
+                    <td>
+                        
                     </td>
                     <td>
                         <p></p>
                     </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p style="text-align:center">x</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Nausea</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p style="text-align:center">x</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Vomiting</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p style="text-align:center">x</p>
+                    <td style="text-align:center">
+                        x
                     </td>
                 </tr>
                 <tr>
                     <td colspan="4">
-                        <p><b>Very Rare</b></p>
+                        <b>Rare</b>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <p>Bleeding does not stop as expected after infusing Xyntha</p>
+                        Fever
                     </td>
                     <td>
-                        <p></p>
+                        
                     </td>
                     <td>
-                        <p style="text-align:center">x</p>
+                        
                     </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Using an increasing amount of Xyntha to control your bleed</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p style="text-align:center">x</p>
-                    </td>
-                    <td>
-                        <p></p>
+                    <td style="text-align:center">
+                        x
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <p>Chills</p>
+                        Nausea
                     </td>
                     <td>
-                        <p></p>
+                        
                     </td>
                     <td>
-                        <p></p>
+                        
                     </td>
-                    <td>
-                        <p style="text-align:center">x</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Flushing</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p style="text-align:center">x</p>
+                    <td style="text-align:center">
+                        x
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <p>Allergic reactions (such as skin rash, itching, chest tightness, wheezing, dizziness, hives, faintness, rapid heartbeat, shortness of breath, and/or a swollen face)</p>
+                        Vomiting
                     </td>
                     <td>
-                        <p></p>
+                        
                     </td>
                     <td>
-                        <p></p>
+                        
+                    </td>
+                    <td style="text-align:center">
+                        x
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <b>Very Rare</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Bleeding does not stop as expected after infusing Xyntha
                     </td>
                     <td>
-                        <p style="text-align:center">x</p>
+                        
+                    </td>
+                    <td style="text-align:center">
+                        x
+                    </td>
+                    <td>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Using an increasing amount of Xyntha to control your bleed
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td style="text-align:center">
+                        x
+                    </td>
+                    <td>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Chills
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td style="text-align:center">
+                        x
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Flushing
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td style="text-align:center">
+                        x
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Allergic reactions (such as skin rash, itching, chest tightness, wheezing, dizziness, hives, faintness, rapid heartbeat, shortness of breath, and/or a swollen face)
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td style="text-align:center">
+                        x
                     </td>
                 </tr>
             </tbody>
