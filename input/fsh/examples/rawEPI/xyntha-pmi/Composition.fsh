@@ -1,4 +1,4 @@
-Instance: compositionxyntha
+Instance: compositionpmixyntha
 InstanceOf: CompositionUvEpi
 Title: "Composition - Patient Medicination Information : Xyntha® Lyophilized Powder for Reconstitution in a Vial"
 Description:  "Composition - Patient Medicination Information : Xyntha® Lyophilized Powder for Reconstitution in a Vial"

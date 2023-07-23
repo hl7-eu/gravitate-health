@@ -12,8 +12,8 @@ Usage: #example
 * timestamp = "2020-09-01T00:00:00Z"
 
 // Composition
-* entry[0].fullUrl = "Composition/compositionxyntha"
-* entry[0].resource = compositionxyntha
+* entry[0].fullUrl = "Composition/compositionpmixyntha"
+* entry[0].resource = compositionpmixyntha
 
 // Organization
 * entry[+].fullUrl = "Organization/organizationwyeth"
