@@ -77,7 +77,8 @@ Usage: #example
                     </td>
                 </tr>
             </tbody>
-        </table><p>Xyntha is prepared by a modified process that eliminates any exogenous human- or
+        </table>
+        <p>Xyntha is prepared by a modified process that eliminates any exogenous human- or
             animal-derived protein in the cell culture process, purification, or final formulation. 
             The purification process uses a series of chromatography steps, one of which is based on
             affinity chromatography using a synthetic peptide affinity ligand.  The process also
@@ -87,13 +88,16 @@ Usage: #example
             Factor VIII Potency Reference Standard has been calibrated to the WHO International
             Standard using the one-stage clotting assay.  This method of potency assignment is
             intended to harmonize Xyntha with clinical monitoring using a one-stage clotting
-            assay.</p><p><a>INDICATIONS AND CLINICAL USE</a></p><p>Xyntha, Antihemophilic Factor
+            assay.</p>
+            <p>INDICATIONS AND CLINICAL USE</p>
+            <p>Xyntha, Antihemophilic Factor
             (Recombinant) [BDDrFVIII], indicated for the control and prevention of hemorrhagic
             episodes and for routine and surgical prophylaxis in patients with hemophilia A
             (congenital factor VIII deficiency or classic hemophilia).</p><p>Xyntha does not contain
             von Willebrand factor and hence is not indicated in von Willebrand’s disease. </p>
             <p><b>Geriatrics (≥ 65 years of
-            age):</b></p>
+            age):</b>
+            </p>
             <p>Clinical studies of Xyntha did not include sufficient numbers of
             subjects aged 65 and over to determine whether they respond differently from younger
             subjects.  Other reported clinical experience has not identified differences in
@@ -103,13 +107,15 @@ Usage: #example
                 <p><b>Pediatrics: </b></p>
                 <p>Xyntha is appropriate for use in children of all
             ages, including newborns.</p>
-            <p><a>CONTRAINDICATIONS</a></p>
+            <p>CONTRAINDICATIONS</p>
             <p>Xyntha may be
             contraindicated in patients with a known hypersensitivity to any of the constituents of
             the preparation.  </p>
             <p>Xyntha has not been studied in patients with a known history of
             hypersensitivity to hamster proteins and may be contraindicated in these patients.
-        </p><p>WARNINGS AND PRECAUTIONS</p><table border="1">
+        </p>
+        <p>WARNINGS AND PRECAUTIONS</p>
+        <table border="1">
             <tbody>
                 <tr>
                     <td rowspan="1" colspan="1">
@@ -535,9 +541,11 @@ Usage: #example
             prophylaxis (study 311) 1 of 30 (3%) patients developed a lab increase for antibody to
             CHO.  Twenty of 113 (18%) previously treated patients (PTPs) had an increase in anti-CHO
             (Chinese hamster ovary, the cell line which is the source of factor VIII for Xyntha)
-            antibody titer, without any apparent clinical effect. </p><p><a>DRUG INTERACTIONS</a>
-        </p><p>No interactions with other medicinal products are known.  </p><p><a>DOSAGE AND
-                ADMINISTRATION</a>
+            antibody titer, without any apparent clinical effect. </p>
+            <p>DRUG INTERACTIONS
+        </p>
+        <p>No interactions with other medicinal products are known.  </p>
+        <p>DOSAGE AND ADMINISTRATION
         </p><p>Treatment with Xyntha<sup>®</sup>should be initiated under the supervision of a
             physician experienced in the treatment of hemophilia A. </p><p>Xyntha<sup>®</sup>is
             appropriate for use in adults and children including newborns. </p><p>Dosage and
@@ -660,24 +668,31 @@ Usage: #example
             recommendations in the below <b>Administration </b>and<b> Reconstitution </b>sections. 
             The procedures below are provided as general guidelines for the reconstitution and
             administration of Xyntha.</p><p>Additional instructions are provided after
-                <b>Infusion</b> section that detail the use of a Xyntha vial. </p><p>Parenteral drug
+                <b>Infusion</b> section that detail the use of a Xyntha vial. </p>
+                <p>Parenteral drug
             products should be inspected visually for particulate matter and discoloration prior to
-            administration, whenever solution and container permit. </p><p>Xyntha is administered by
+            administration, whenever solution and container permit. </p>
+            <p>Xyntha is administered by
             IV infusion after reconstitution of the lyophilized powder with the supplied pre-filled
             diluent (0.9% Sodium Chloride solution)
-            syringe.</p><p><b><u>Reconstitution</u></b></p><p>Always wash your hands before
+            syringe.</p>
+            <p><b><u>Reconstitution</u></b></p>
+            <p>Always wash your hands before
             performing the following procedures.  Use germ-free methods during the preparation
-            procedures. </p><p>All components used in the mixing and injection of Xyntha should be
+            procedures. </p>
+            <p>All components used in the mixing and injection of Xyntha should be
             used as soon as possible after opening their sterile containers to minimize unnecessary
-            exposure to room air.</p><p>Use only the materials provided in the Xyntha kit for
-            dissolving the Xyntha powder with the sodium chloride diluent.</p><p>Xyntha is
-            administered by intravenous injection after dissolving with the supplied diluent (0.9%
+            exposure to room air.</p>
+            <p>Use only the materials provided in the Xyntha kit for
+            dissolving the Xyntha powder with the sodium chloride diluent.</p>
+            <p>Xyntha is administered by intravenous injection after dissolving with the supplied diluent (0.9%
             sodium chloride) in the pre-filled syringe.</p><p>Note: If you use more than one vial of
             Xyntha per injection, each vial should be dissolved according to the following
             instructions.  The empty syringe should be removed leaving the vial adapter in place,
             and a separate large luer lock syringe may be used to draw back the dissolved contents
             of each vial.  Do not detach the diluent syringes or the large luer lock syringe until
-            you are ready to attach the large luer lock syringe to the next vial adapter.</p><ol>
+            you are ready to attach the large luer lock syringe to the next vial adapter.</p>
+            <ol>
             <li>Allow the vial of freeze-dried Xyntha powder and the pre-filled diluent syringe to
                 reach room temperature.</li>
             <li>Remove the plastic flip-top cap from the Xyntha vial to expose the central portions
@@ -808,21 +823,28 @@ Usage: #example
             for administration. </p><p>The reconstituted Xyntha solution does not contain a
             preservative and should be used within 3 hours of reconstitution. </p><p>OVERDOSAGE
             </p><p>No symptoms case of overdose have been reported with recombinant coagulation
-            factor VIII products. </p><p><a>ACTION AND CLINICAL PHARMACOLOGY</a>
-        </p><p><a><b><u>Mechanism of Action</u></b></a>
-        </p><p>Xyntha is a glycoprotein with an approximate molecular mass of 170 000 Da consisting
+            factor VIII products. </p>
+            <p>ACTION AND CLINICAL PHARMACOLOGY
+        </p>
+        <p><b><u>Mechanism of Action</u></b>
+        </p>
+        <p>Xyntha is a glycoprotein with an approximate molecular mass of 170 000 Da consisting
             of 1438 amino acids.  Xyntha is a recombinant DNA-based substance which has functional
             characteristics comparable to those of endogenous factor VIII.  Activated factor VIII
             acts as a cofactor for activated factor IX accelerating the conversion of factor X to
             activated factor X.  Activated factor X converts prothrombin into thrombin.  Thrombin
             then converts fibrinogen into fibrin which forms an insoluble
-                    clot.</p><p><b><u>Pharmacodynamics</u></b>
-        </p><p>Factor VIII is the specific clotting factor deficient in patients with hemophilia A
+                    clot.</p>
+                    <p><b><u>Pharmacodynamics</u></b>
+        </p>
+        <p>Factor VIII is the specific clotting factor deficient in patients with hemophilia A
             (classical hemophilia).  The administration of Xyntha, Antihemophilic Factor
             (Recombinant)[BDDrFVIII] increases plasma levels of factor VIII and can temporarily
-            correct the coagulation defect in these patients.  </p><p
-                    > </p><p><b><u>Pharmacokinetics</u></b></p><p><b><u>One Stage
-            Assay</u></b></p><p>In a pivotal cross-over pharmacokinetic study, Xyntha was shown to
+            correct the coagulation defect in these patients.  </p>
+            <p><b><u>Pharmacokinetics</u></b></p>
+            <p><b><u>One Stage
+            Assay</u></b></p>
+            <p>In a pivotal cross-over pharmacokinetic study, Xyntha was shown to
             be bioequivalent to another recombinant factor VIII product (rFVIII, Advate<sup>®</sup>)
             in 30 previously treated patients (PTPs) (³ 12 years) using the one-stage clotting
             assay.  The ratios of geometric least square means of Xyntha -to-Advate<sup>®</sup> were
@@ -830,7 +852,8 @@ Usage: #example
             </sub>respectively.  The corresponding 90% confidence intervals about the ratios of
             Xyntha to Advate<sup>®</sup> geometric means were within the bioequivalence window of
             80% to 125%, demonstrating bioequivalence of Xyntha to Advate<sup>®</sup>.
-                </p><p><b>Figure -1: Xyntha vs. Advate</b>
+                </p>
+                <p><b>Figure -1: Xyntha vs. Advate</b>
         </p><img height="231"
             src="#binaryimage016-646543884"/>
         <p>In the same study, the pharmacokinetic parameters for Xyntha were determined at baseline
@@ -846,7 +869,8 @@ Usage: #example
             profile was obtained after repeated use for six months.  The ratios of geometric least
             square means of month 6-to-baseline pharmacokinetic were 107%, 100% and 104% for
             recovery, AUCt and AUC¥, respectively. No time-dependent changes in the pharmacokinetic
-            properties of Xyntha were observed (Table 3). </p><table border="1">
+            properties of Xyntha were observed (Table 3). </p>
+            <table border="1">
             <thead>
                 <tr>
                     <td colspan="9" rowspan="1">
@@ -1641,7 +1665,7 @@ Usage: #example
                     </td>
                 </tr>
             </tbody>
-        </table><p><a>STORAGE AND STABILITY</a>
+        </table><p>STORAGE AND STABILITY
         </p><p>Xyntha Antihemophilic Factor (Recombinant) should be stored under refrigeration at a
             temperature of 2° to 8°C.  Xyntha vial may also be stored at room temperature not to
             exceed 25°C for up to 3 months.  The diluent syringe should be stored at 2° to 25°C and
@@ -1653,10 +1677,10 @@ Usage: #example
             vial after the expiry date on the label. </p><p><u>Product after reconstitution:</u> 
             The reconstituted solution may be stored at room temperature prior to administration. 
             The product does not contain a preservative and should be used within 3 hours.
-                </p><p><a>SPECIAL HANDLING INSTRUCTIONS</a>
+                </p><p>SPECIAL HANDLING INSTRUCTIONS
         </p><p>Freezing should be avoided to prevent damage to the pre-filled diluent syringe. 
-            During storage, avoid prolonged exposure of Xyntha vial to light. </p><p><a>DOSAGE
-                FORMS, COMPOSITION AND PACKAGING</a>
+            During storage, avoid prolonged exposure of Xyntha vial to light. </p><p>DOSAGE
+                FORMS, COMPOSITION AND PACKAGING
         </p><p>Xyntha, Antihemophilic Factor (Recombinant) freeze-dried is supplied in kits that
             include single-use vials that contain nominally 250, 500, 1000, or 2000 IU per vial.
             Actual factor VIII activity in IU is stated on the label of each Xyntha Antihemophilic
