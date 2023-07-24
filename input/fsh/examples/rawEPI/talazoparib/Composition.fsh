@@ -58,9 +58,6 @@ Usage: #example
   * code.text = "What is in this leaflet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-                            <p>
-                                <b>What is in this leaflet</b>
-                            </p>
                             <ol>
                                 <li>What Talzenna is and what it is used for</li>
                                 <li>What you need to know before you take Talzenna</li>
