@@ -89,7 +89,7 @@ Usage: #example
             Standard using the one-stage clotting assay.  This method of potency assignment is
             intended to harmonize Xyntha with clinical monitoring using a one-stage clotting
             assay.</p>
-            <p>INDICATIONS AND CLINICAL USE</p>
+            <p><b>INDICATIONS AND CLINICAL USE</b></p>
             <p>Xyntha, Antihemophilic Factor
             (Recombinant) [BDDrFVIII], indicated for the control and prevention of hemorrhagic
             episodes and for routine and surgical prophylaxis in patients with hemophilia A
@@ -542,11 +542,12 @@ Usage: #example
             CHO.  Twenty of 113 (18%) previously treated patients (PTPs) had an increase in anti-CHO
             (Chinese hamster ovary, the cell line which is the source of factor VIII for Xyntha)
             antibody titer, without any apparent clinical effect. </p>
-            <p>DRUG INTERACTIONS
-        </p>
+            <p><b>DRUG INTERACTIONS</b></p>
         <p>No interactions with other medicinal products are known.  </p>
-        <p>DOSAGE AND ADMINISTRATION
-        </p><p>Treatment with Xyntha<sup>®</sup>should be initiated under the supervision of a
+        <p>
+        <b>DOSAGE AND ADMINISTRATION</b>
+        </p>
+        <p>Treatment with Xyntha<sup>®</sup>should be initiated under the supervision of a
             physician experienced in the treatment of hemophilia A. </p><p>Xyntha<sup>®</sup>is
             appropriate for use in adults and children including newborns. </p><p>Dosage and
             duration of treatment depend on the severity of the factor VIII deficiency, the location
@@ -821,10 +822,12 @@ Usage: #example
             Xyntha should not be administered in the same tubing or container with other medicinal
             products.  Infusion kit components supplied in this carton are compatible with Xyntha
             for administration. </p><p>The reconstituted Xyntha solution does not contain a
-            preservative and should be used within 3 hours of reconstitution. </p><p>OVERDOSAGE
-            </p><p>No symptoms case of overdose have been reported with recombinant coagulation
+            preservative and should be used within 3 hours of reconstitution. </p>
+            <p><b>OVERDOSAGE</b>
+            </p>
+            <p>No symptoms case of overdose have been reported with recombinant coagulation
             factor VIII products. </p>
-            <p>ACTION AND CLINICAL PHARMACOLOGY
+            <p><b>ACTION AND CLINICAL PHARMACOLOGY</b>
         </p>
         <p><b><u>Mechanism of Action</u></b>
         </p>
@@ -1665,8 +1668,10 @@ Usage: #example
                     </td>
                 </tr>
             </tbody>
-        </table><p>STORAGE AND STABILITY
-        </p><p>Xyntha Antihemophilic Factor (Recombinant) should be stored under refrigeration at a
+        </table>
+        <p><b>STORAGE AND STABILITY</b>
+        </p>
+        <p>Xyntha Antihemophilic Factor (Recombinant) should be stored under refrigeration at a
             temperature of 2° to 8°C.  Xyntha vial may also be stored at room temperature not to
             exceed 25°C for up to 3 months.  The diluent syringe should be stored at 2° to 25°C and
             should not be used subsequent to expiration of the Xyntha drug product.  The patient
@@ -1677,15 +1682,21 @@ Usage: #example
             vial after the expiry date on the label. </p><p><u>Product after reconstitution:</u> 
             The reconstituted solution may be stored at room temperature prior to administration. 
             The product does not contain a preservative and should be used within 3 hours.
-                </p><p>SPECIAL HANDLING INSTRUCTIONS
-        </p><p>Freezing should be avoided to prevent damage to the pre-filled diluent syringe. 
-            During storage, avoid prolonged exposure of Xyntha vial to light. </p><p>DOSAGE
+                </p>
+                <p><b>SPECIAL HANDLING INSTRUCTIONS</b>
+        </p>
+        <p>Freezing should be avoided to prevent damage to the pre-filled diluent syringe. 
+            During storage, avoid prolonged exposure of Xyntha vial to light. </p>
+            <p>DOSAGE
                 FORMS, COMPOSITION AND PACKAGING
-        </p><p>Xyntha, Antihemophilic Factor (Recombinant) freeze-dried is supplied in kits that
+        </p>
+        <p>Xyntha, Antihemophilic Factor (Recombinant) freeze-dried is supplied in kits that
             include single-use vials that contain nominally 250, 500, 1000, or 2000 IU per vial.
             Actual factor VIII activity in IU is stated on the label of each Xyntha Antihemophilic
-            Factor (Recombinant) vial. </p><p>In addition, each Xyntha Antihemophilic Factor
-            (Recombinant) kit contains: </p><ul>
+            Factor (Recombinant) vial. </p>
+            <p>In addition, each Xyntha Antihemophilic Factor
+            (Recombinant) kit contains: </p>
+            <ul>
             <li>1 pre-filled diluent syringe containing 4 mL 0.9% Sodium Chloride with plunger rod
                 for assembly</li>
             <li>1 vial adapter.</li>
@@ -1694,7 +1705,8 @@ Usage: #example
             <li>1 bandage</li>
             <li>1 gauze </li>
             <li>1 package insert. </li>
-        </ul><p>Xyntha Antihemophilic Factor (Recombinant) can also be supplied in a Hospital pack
+        </ul>
+        <p>Xyntha Antihemophilic Factor (Recombinant) can also be supplied in a Hospital pack
             kit containing:</p><ul>
             <li>3vials of Xyntha powder</li>
             <li>3 pre-filled diluent syringes containing 4 mL 0.9% Sodium Chloride with plunger rod
@@ -1702,17 +1714,30 @@ Usage: #example
             <li>3 plunger rods for the syringe</li>
             <li>3 vial adapters </li>
             <li>1 package insert. </li>
-        </ul><p>Xyntha Hospital pack does not contain:</p><ul>
+        </ul>
+        <p>Xyntha Hospital pack does not contain:</p>
+        <ul>
             <li>sterile infusion set (tubing and butterfly needle)</li>
             <li>alcohol swabs </li>
             <li>bandage</li>
             <li>gauze</li>
-        </ul><p>Not all strengths/pack sizes may be marketed. </p><p><b>Last revised:</b>  April
-            2016 </p><p><b>Marketing Authorization Holder:</b>
-        </p><p>Pfizer Canada ULC. </p><p>17300 Trans-Canada Highway </p><p>Kirkland, Quebec
-            </p><p>Canada, H9J 2M5 </p><p><b>Manufactured, Packaged and Released By:</b>
-        </p><p>Wyeth Farma, S.A. </p><p>Autovia del Norte A-1, Km 23 </p><p>Desvio Algete, Km 1,
-            </p><p>28700 San Sebastian de los Reyes </p><p>Madrid, Spain</p><table>
+        </ul>
+        <p>Not all strengths/pack sizes may be marketed. </p><p><b>Last revised:</b>  April
+            2016 </p>
+            <p><b>Marketing Authorization Holder:</b>
+        </p>
+        <p>Pfizer Canada ULC. </p>
+        <p>17300 Trans-Canada Highway </p>
+        <p>Kirkland, Quebec
+            </p><p>Canada, H9J 2M5 </p>
+            <p><b>Manufactured, Packaged and Released By:</b>
+        </p>
+        <p>Wyeth Farma, S.A. </p>
+        <p>Autovia del Norte A-1, Km 23 </p>
+        <p>Desvio Algete, Km 1,
+            </p><p>28700 San Sebastian de los Reyes </p>
+            <p>Madrid, Spain</p>
+            <table>
             <tbody>
                 <tr>
                     <td rowspan="1" colspan="1">
