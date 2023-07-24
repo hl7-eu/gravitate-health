@@ -103,7 +103,7 @@ Usage: #example
   * code.text = "WARNINGS AND PRECAUTIONS"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
-  <table>
+  <table border="1">
             <tbody>
                 <tr>
                     <td>
@@ -332,7 +332,7 @@ Usage: #example
         <p>You should record the lot number of the product every time you use Xyntha. The lot number
             can be found on the vial label. The peel-off label on the vial may be used to record the
             lot number.</p>
-<table frame="border" align="left">
+<table border="1">
             <tbody>
                 <tr>
                     <td>In case of drug overdose, contact a health care practitioner, hospital
@@ -369,7 +369,7 @@ Usage: #example
             you are taking Xyntha.</p>
         <p>If you become pregnant while taking Xyntha, tell your hemophilia doctor and your doctor
             who will look after you during your pregnancy.</p>
-<table>
+<table border="1">
             <tbody>
                 <tr>
                     <td colspan="4">
@@ -587,7 +587,7 @@ Usage: #example
         <p>Desvio Algete, KM 1,</p>
         <p>28700 San Sebastian De Los Reyes</p>
         <p>Madrid, Spain</p>
-<table border="1" cellpadding="1" cellspacing="1">
+<table border="1">
 	<tbody>
 		<tr>
 			<td>
