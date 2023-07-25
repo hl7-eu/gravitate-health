@@ -70,6 +70,13 @@ Description:  "Questionnaire example Dimensions"
     "Employed non Manual"
 
 
+ValueSet: DLCategoryVS
+Id:         dl-category-vs
+
+* questi-dimens-cs#Low
+* questi-dimens-cs#Medium
+* questi-dimens-cs#High
+
 
 // Define a local code system
 CodeSystem: PDcategoryCS
