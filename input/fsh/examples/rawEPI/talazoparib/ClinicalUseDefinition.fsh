@@ -526,13 +526,13 @@ Usage: #example
 Instance: interactionHypericumperforatum
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
-Description: "Interaction example - Hypericum perforatum"
+Description: "Interaction example - St. John’s wort (Hypericum perforatum)"
 Usage: #example
 
 * id = "36fe2102-1b9c-11ee-be56-0242ac120002"
 
 * identifier.system = $ginas
-* identifier.value = "XK4IUX8MNB" //Hypericum perforatum
+* identifier.value = "UFH8805FKA" //St. John’s wort (Hypericum perforatum)
 * identifier.use = #official
 
 * type = #interaction
@@ -541,7 +541,7 @@ Usage: #example
 * subject = Reference(mp025mg)
 * subject[+] = Reference(mp1mg)
 
-* interaction.interactant.itemCodeableConcept = $ginas#XK4IUX8MNB "Hypericum perforatum"
+* interaction.interactant.itemCodeableConcept = $ginas#UFH8805FKA "St. John’s wort (Hypericum perforatum)"
 
 // —————————
 
