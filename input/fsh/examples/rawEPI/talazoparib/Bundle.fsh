@@ -120,6 +120,10 @@ Usage: #example
 * entry[=].resource = interactioncarvedilol
 
 // ClinicalUseDefinition - Interactions
+* entry[+].fullUrl = "ClinicalUseDefinition/interactiondronedarone"
+* entry[=].resource = interactiondronedarone
+
+// ClinicalUseDefinition - Interactions
 * entry[+].fullUrl = "ClinicalUseDefinition/interactionpropafenone"
 * entry[=].resource = interactionpropafenone
 
