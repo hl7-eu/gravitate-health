@@ -48,7 +48,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -dronedarone"
 Usage: #example
 
-* id = "36fdfe84-1b9c-11ee-be56-0242ac120002"
+* id = "36fdfa1a-1b9c-11ee-be56-0242ac120002"
 
 * identifier.system = $ginas
 * identifier.value = "JQZ1L091Y2" //dronedarone
