@@ -18,7 +18,7 @@ Usage: #example
 
 * interaction.interactant.itemCodeableConcept = $ginas#N3RQ532IUT "Amiodarone"
 
-// ————————-
+
 
 Instance: interactioncarvedilol
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
@@ -40,7 +40,7 @@ Usage: #example
 
 * interaction.interactant.itemCodeableConcept = $ginas#0K47UL67F2 "carvedilol"
 
-// —————————
+
 
 Instance: interactiondronedarone
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
