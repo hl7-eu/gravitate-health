@@ -50,7 +50,7 @@ Usage: #example
 * id = "81a382e7-8e11-4097-a3fb-362de8c9377f"
 
 * identifier.system = $ginas
-* identifier.value = "0K47UL67F2" //carvedilol
+* identifier.value = "0K47UL67F3" //carvedilol
 * identifier.use = #official
 
 * type = #interaction
@@ -59,7 +59,7 @@ Usage: #example
 * subject = Reference(mp025mg)
 * subject[+] = Reference(mp1mg)
 
-* interaction.interactant.itemCodeableConcept = $ginas#0K47UL67F2 "carvedilol2"
+* interaction.interactant.itemCodeableConcept = $ginas#0K47UL67F3 "carvedilol2"
 
 
 Instance: interactiondronedarone
