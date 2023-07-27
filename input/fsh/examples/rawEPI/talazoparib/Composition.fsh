@@ -216,8 +216,7 @@ Usage: #example
                                     </li>
                                     <li>
                                         <p>Cobicistat, darunavir, indinavir, lopinavir, ritonavir,
-                                            saquinavir, telaprevir and tipranavir used to </p>
-                                        <p>treat HIV infections/AIDS. </p>
+                                            saquinavir, telaprevir and tipranavir used to treat HIV infections/AIDS.</p>
                                     </li>
                                     <li>
                                         <p>Ciclosporin – used in organ transplantation to prevent
@@ -339,12 +338,12 @@ Usage: #example
                             <p>
                                 <b>How much to take </b>
                             </p>
-                            <p>The recommended dose is one 1-mg capsule taken by mouth once daily. </p>
+                            <p>The recommended dose is one 1 mg capsule taken by mouth once daily. </p>
                             <p>If you get certain side effects while you are taking Talzenna (see
                                 section 4), your doctor may lower your dose or stop treatment,
                                 either temporarily or permanently. The dose may be lowered to 0.75
-                                mg (taken as three 0.25-mg capsules) once daily, or 0.5 mg (two
-                                0.25-mg capsules) once daily, or 0.25 mg (one 0.25-mg capsule) once
+                                mg (taken as three 0.25 mg capsules) once daily, or 0.5 mg (two
+                                0.25 mg capsules) once daily, or 0.25 mg (one 0.25 mg capsule) once
                                 daily. </p>
                             <p>Swallow the capsule whole with a glass of water. Do not chew or crush
                                 the capsules. You can take Talzenna with food or between meals. Do
