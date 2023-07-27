@@ -41,7 +41,7 @@ Usage: #example
 * interaction.interactant.itemCodeableConcept = $ginas#0K47UL67F2 "carvedilol"
 
 
-Instance: interactioncarvedilol
+Instance: interactioncarvedilol2
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
 Title: "Clinical Use - Interaction"
 Description: "Interaction example -carvedilol2"
