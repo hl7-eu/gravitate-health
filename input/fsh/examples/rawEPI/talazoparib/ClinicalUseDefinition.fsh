@@ -41,6 +41,26 @@ Usage: #example
 * interaction.interactant.itemCodeableConcept = $ginas#0K47UL67F2 "carvedilol"
 
 
+Instance: interactioncarvedilol
+InstanceOf: ClinicalUseDefinitionInteractionUvEpi
+Title: "Clinical Use - Interaction"
+Description: "Interaction example -carvedilol2"
+Usage: #example
+
+* id = "81a382e7-8e11-4097-a3fb-362de8c9377f"
+
+* identifier.system = $ginas
+* identifier.value = "0K47UL67F2" //carvedilol
+* identifier.use = #official
+
+* type = #interaction
+
+ // Reference to MedicinalProductDefinition: Talzenna 0.25 mg tablet
+* subject = Reference(mp025mg)
+* subject[+] = Reference(mp1mg)
+
+* interaction.interactant.itemCodeableConcept = $ginas#0K47UL67F2 "carvedilol2"
+
 
 Instance: interactiondronedarone
 InstanceOf: ClinicalUseDefinitionInteractionUvEpi
