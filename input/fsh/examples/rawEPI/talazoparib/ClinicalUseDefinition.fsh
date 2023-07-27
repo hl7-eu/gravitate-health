@@ -26,7 +26,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -carvedilol"
 Usage: #example
 
-* id = "36fdfa1a-1b9c-11ee-be56-0242ac120002"
+* id = "81a382e7-8e11-4097-a3fb-362de8c9377e"
 
 * identifier.system = $ginas
 * identifier.value = "0K47UL67F2" //carvedilol
@@ -48,7 +48,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -dronedarone"
 Usage: #example
 
-* id = "36fdfa1a-1b9c-11ee-be56-0242ac120002"
+* id = "3a099eb4-fc14-41c3-bc14-8e5a4b5c51e9"
 
 * identifier.system = $ginas
 * identifier.value = "JQZ1L091Y2" //dronedarone
@@ -70,7 +70,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -propafenone"
 Usage: #example
 
-* id = "36fdffa6-1b9c-11ee-be56-0242ac120002"
+* id = "341721cd-5b7e-4b97-895e-e489b1310f9b"
 
 * identifier.system = $ginas
 * identifier.value = "68IQX3T69U" //propafenone
@@ -91,7 +91,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -quinidine"
 Usage: #example
 
-* id = "36fe00c8-1b9c-11ee-be56-0242ac120002"
+* id = "c15dd79b-e98e-4f1b-8a05-50f12b0c19d7"
 
 * identifier.system = $ginas
 * identifier.value = "ITX08688JL" //quinidine
@@ -113,7 +113,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -ranolazine"
 Usage: #example
 
-* id = "36fe01fe-1b9c-11ee-be56-0242ac120002"
+* id = "5a54b656-5e2c-4be0-b93f-7d540cb64711"
 
 * identifier.system = $ginas
 * identifier.value = "A6IEZ5M406" //ranolazine
@@ -135,7 +135,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -verapamil"
 Usage: #example
 
-* id = "36fe0320-1b9c-11ee-be56-0242ac120002"
+* id = "4907c33b-e1ae-40a7-9e7c-242653c92e60"
 
 * identifier.system = $ginas
 * identifier.value = "CJ0O37KU29" //verapamil
@@ -157,7 +157,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -Clarithromycin"
 Usage: #example
 
-* id = "36fe0438-1b9c-11ee-be56-0242ac120002"
+* id = "05a52022-c29a-4883-873b-c4cfaf05a696"
 
 * identifier.system = $ginas
 * identifier.value = "H1250JIK0A" //Clarithromycin
@@ -178,7 +178,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -erythromycin"
 Usage: #example
 
-* id = "36fe055a-1b9c-11ee-be56-0242ac120002"
+* id = "e0b859d1-beac-494d-b7d9-fe793efbbd96"
 
 * identifier.system = $ginas
 * identifier.value = "63937KV33D" //erythromycin
@@ -200,7 +200,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -Itraconazole"
 Usage: #example
 
-* id = "36fe0802-1b9c-11ee-be56-0242ac120002"
+* id = "e09c86b1-b802-4c2e-b8eb-6b49192fadfe"
 
 * identifier.system = $ginas
 * identifier.value = "304NUG5GF4" //Itraconazole
@@ -222,7 +222,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -ketoconazole"
 Usage: #example
 
-* id = "36fe092e-1b9c-11ee-be56-0242ac120002"
+* id = "b31a89e6-abda-40eb-ba77-5ec9357b62e7"
 
 * identifier.system = $ginas
 * identifier.value = "R9400W927I" //ketoconazole
@@ -244,7 +244,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -Cobicistat"
 Usage: #example
 
-* id = "36fe0a3c-1b9c-11ee-be56-0242ac120002"
+* id = "f0914110-749f-4afa-982a-627eacb5720b"
 
 * identifier.system = $ginas
 * identifier.value = "LW2E03M5PG" //Cobicistat
@@ -265,7 +265,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -darunavir"
 Usage: #example
 
-* id = "36fe0b54-1b9c-11ee-be56-0242ac120002"
+* id = "b40984a8-0a6b-43d0-911a-ff5b927fb4ca"
 
 * identifier.system = $ginas
 * identifier.value = "YO603Y8113" //darunavir
@@ -287,7 +287,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -indinavir"
 Usage: #example
 
-* id = "36fe0c6c-1b9c-11ee-be56-0242ac120002"
+* id = "8d54b4fd-1b9f-4114-991a-0a08e1dc2d98"
 
 * identifier.system = $ginas
 * identifier.value = "5W6YA9PKKH" //indinavir
@@ -309,7 +309,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -lopinavir"
 Usage: #example
 
-* id = "36fe0d7a-1b9c-11ee-be56-0242ac120002"
+* id = "3e52afa2-3310-4e52-9d61-7bfcfd97a25f"
 
 * identifier.system = $ginas
 * identifier.value = "2494G1JF75" //lopinavir
@@ -331,7 +331,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example -ritonavir"
 Usage: #example
 
-* id = "36fe0e92-1b9c-11ee-be56-0242ac120002"
+* id = "9654bfac-8458-4172-b74f-680a95036cff"
 
 * identifier.system = $ginas
 * identifier.value = "O3J8G9O825" //ritonavir
@@ -353,7 +353,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example - saquinavir"
 Usage: #example
 
-* id = "36fe0faa-1b9c-11ee-be56-0242ac120002"
+* id = "374f27ff-35f8-4e01-8fa5-53aafc8b48d6"
 
 * identifier.system = $ginas
 * identifier.value = "L3JE09KZ2F" //saquinavir
@@ -375,7 +375,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example - telaprevir"
 Usage: #example
 
-* id = "36fe14c8-1b9c-11ee-be56-0242ac120002"
+* id = "e416132b-4b3c-4aee-860f-604fa409ddc1"
 
 * identifier.system = $ginas
 * identifier.value = "655M5O3W0U" //telaprevir
@@ -397,7 +397,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example - tipranavir"
 Usage: #example
 
-* id = "36fe15e0-1b9c-11ee-be56-0242ac120002"
+* id = "f05bbecb-ba90-4d52-ae05-b13502954530"
 
 * identifier.system = $ginas
 * identifier.value = "ZZT404XD09" //tipranavir
@@ -419,7 +419,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example - Ciclosporin"
 Usage: #example
 
-* id = "36fe16f8-1b9c-11ee-be56-0242ac120002"
+* id = "f35aa761-20e7-4e66-9ac6-2c4ab3d42507"
 
 * identifier.system = $ginas
 * identifier.value = "83HN0GTJ6D" //Ciclosporin
@@ -441,7 +441,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example - Lapatinib"
 Usage: #example
 
-* id = "36fe1806-1b9c-11ee-be56-0242ac120002"
+* id = "5c6da0df-7747-490c-8ae4-93d8883b059b"
 
 * identifier.system = $ginas
 * identifier.value = "0VUA21238F" //Lapatinib
@@ -485,7 +485,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example - Carbamazepine"
 Usage: #example
 
-* id = "36fe1a54-1b9c-11ee-be56-0242ac120002"
+* id = "c579a16e-deaf-47b7-a9ba-19b0f2396e0f"
 
 * identifier.system = $ginas
 * identifier.value = "33CM23913M" //Carbamazepine
@@ -507,7 +507,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example - phenytoin"
 Usage: #example
 
-* id = "36fe1d06-1b9c-11ee-be56-0242ac120002"
+* id = "323b0573-7a65-4747-a2d4-0077092b1845"
 
 * identifier.system = $ginas
 * identifier.value = "6158TKW0C5" //phenytoin
@@ -529,7 +529,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example - St. John’s wort (Hypericum perforatum)"
 Usage: #example
 
-* id = "36fe2102-1b9c-11ee-be56-0242ac120002"
+* id = "e66ad89e-0f85-48f0-833f-dbf95ea270af"
 
 * identifier.system = $ginas
 * identifier.value = "UFH8805FKA" //St. John’s wort (Hypericum perforatum)
@@ -551,7 +551,7 @@ Title: "Clinical Use - Interaction"
 Description: "Interaction example - turmeric root"
 Usage: #example
 
-* id = "36fe2256-1b9c-11ee-be56-0242ac120002"
+* id = "976b30de-f1a2-4d9c-9351-c4087206cbf1"
 
 * identifier.system = $ginas
 * identifier.value = "856YO1Z64F" //turmeric root
