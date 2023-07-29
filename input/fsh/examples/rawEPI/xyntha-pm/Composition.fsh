@@ -37,7 +37,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
         <p>
-          <img src="#binarypfizerlogo" alt="Pfizer Logo"/>
+          <img src="binarypfizerlogo" alt="Pfizer Logo"/>
         </p>
 
         <p style="text-align:center"><b>Xyntha<sup>®</sup></b>
