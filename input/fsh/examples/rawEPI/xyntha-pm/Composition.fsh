@@ -28,7 +28,7 @@ Usage: #example
 * extension
   * url = "http://www.jordan.gov.jo/fhir/extension/ValidationReference"
   * valueReference
-    * reference = #binarypfizerlogo
+    * reference = "#binarypfizerlogo"
 
 * section[+]
   * title = "PRODUCT MONOGRAPH"
