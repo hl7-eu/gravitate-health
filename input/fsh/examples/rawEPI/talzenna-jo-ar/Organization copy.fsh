@@ -5,7 +5,7 @@ Description: "Pfizer Limited as Marketing authorisation holder"
 Usage: #example
 
 * identifier.system = $spor-org
-* identifier.value = "placeholder"
+* identifier.value = "orgpfizerinc"
 * identifier.use = #official
 
 * active = true
@@ -31,7 +31,7 @@ Description: "Pfizer Limited as Marketing authorisation holder"
 Usage: #example
 
 * identifier.system = $spor-org
-* identifier.value = "placeholder"
+* identifier.value = "orgexcellagmbh"
 * identifier.use = #official
 
 * active = true
@@ -57,7 +57,7 @@ Description: "Pfizer Limited as Marketing authorisation holder"
 Usage: #example
 
 * identifier.system = $spor-org
-* identifier.value = "placeholder"
+* identifier.value = "orgpfizerpharmceuticalsllc"
 * identifier.use = #official
 
 * active = true

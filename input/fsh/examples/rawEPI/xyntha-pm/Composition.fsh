@@ -36,7 +36,7 @@ Usage: #example
   * code.text = "PRODUCT MONOGRAPH"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-        <p>
+        <p style="text-align:center">
           <img src="#binarypfizerlogo" alt="Pfizer Logo"/>
         </p>
 

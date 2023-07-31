@@ -27,7 +27,3 @@ Usage: #example
 * entry[+].fullUrl = "Organization/orgpfizerpharmceuticalsllc"
 * entry[=].resource =  orgpfizerpharmceuticalsllc
 
-// Organization
-* entry[+].fullUrl = "Organization/orgpfizerpharmceuticalsllc"
-* entry[=].resource =  orgpfizerpharmceuticalsllc
-
