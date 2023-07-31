@@ -12,8 +12,8 @@ Usage: #example
 * timestamp = "2022-03-04T00:00:00Z"
 
 // Composition
-* entry[0].fullUrl = "Composition/composition1"
-* entry[0].resource = composition1
+* entry[0].fullUrl = "Composition/compositionuken"
+* entry[0].resource = compositionuken
 
 // Ingredient
 * entry[+].fullUrl = "Ingredient/talazoparib025mg"
@@ -96,8 +96,8 @@ Usage: #example
 * entry[=].resource = authorization025mg
 
 // Organization
-* entry[+].fullUrl = "Organization/org1"
-* entry[=].resource = org1 
+* entry[+].fullUrl = "Organization/orgpfizerukltd"
+* entry[=].resource = orgpfizerukltd 
  
 // PackagedProductDefinition
 * entry[+].fullUrl = "PackagedProductDefinition/ppdblister30"

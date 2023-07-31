@@ -1,4 +1,4 @@
-Instance: composition1
+Instance: compositionuken
 InstanceOf: CompositionUvEpi
 Title: "Composition for Package leaflet: Information for the patient Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
 Description:  "Composition for Package leaflet: Information for the patient Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
