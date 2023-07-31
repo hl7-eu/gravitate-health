@@ -9,7 +9,7 @@ Usage: #example
 * identifier.use = #official
 
 
-* version = "1"
+* version = "2"
 
 * status = http://hl7.org/fhir/publication-status#active
 
