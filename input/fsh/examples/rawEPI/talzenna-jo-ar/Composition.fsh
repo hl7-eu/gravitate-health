@@ -67,7 +67,7 @@ Usage: #example
             تكون علامة على وجود مشكلات خطيرة، بما في ذلك متلازمة خلل التنسج النقوي أو ابيضاض الدم
             النقوي الحاد. أخبر مقدم الرعاية الصحية الخاص بك إذا أصبت بأي من الأعراض التالية أثناء
             العلاج بتالزينا:</p>
-        <table dir="rtl" border="1" style="float:right">
+        <table dir="rtl" border="1">
             <tbody>
                 <tr>
                     <td>
@@ -156,7 +156,7 @@ Usage: #example
         <p dir="rtl"><b>يمكن أن يسبب تالزينا آثارًا جانبية خطيرة، بما في ذلك: </b></p>
         <p dir="rtl"><b>انظر "ما هي أهم المعلومات التي ينبغي عليّ معرفتها عن تالزينا؟"</b></p>
         <p dir="rtl"><b>تتضمن الآثار الجانبية الأكثر شيوعًا لتالزينا:</b></p>
-        <table dir="rtl" border="1" style="float:right">
+        <table dir="rtl" border="1">
             <tbody>
                 <tr>
                     <td>
@@ -226,7 +226,7 @@ Usage: #example
         <p dir="rtl"></p>
         <p dir="rtl"><b>تمت المراجعة الأخيرة لهذه النشرة في</b><b>مارس 2020</b></p>
         <p dir="rtl"> </p>
-        <table dir="rtl" border="1" style="float:right">
+        <table dir="rtl" border="1">
             <tbody>
                 <tr>
                     <td>
