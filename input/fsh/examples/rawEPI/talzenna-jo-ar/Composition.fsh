@@ -226,7 +226,7 @@ Usage: #example
         <p dir="rtl"></p>
         <p dir="rtl"><b>تمت المراجعة الأخيرة لهذه النشرة في</b><b>مارس 2020</b></p>
         <p dir="rtl"> </p>
-        <table dir="rtl" border="1" style="float:right>
+        <table dir="rtl" border="1" style="float:right">
             <tbody>
                 <tr>
                     <td>
