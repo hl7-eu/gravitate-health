@@ -298,3 +298,17 @@ Usage: #example
 
 
 
+Instance: list-grouper
+InstanceOf: List
+Title: "List grouper"
+Description: "list as grouper for the same leaflet in different languages as suggested by EMA"
+Usage: #example
+
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
+* identifier.value = "xx"
+
+* status = #current 
+* mode = #working
+
+* entry[+].item = Reference(bundlepackageleaflet-379d610f9c96d541562699215b0864126)
+* entry[+].item = Reference(bundlepackageleaflet-379d610f9c96d541562699215b0864127)
