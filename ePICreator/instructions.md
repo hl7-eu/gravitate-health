@@ -20,10 +20,10 @@ Then run the creator.py with 3 arguments:
 * output_folder = where to place the data created
 
 example code:  
-```python creator.py Humalog.xlsx templates/ ../input/fsh/examples/```
+```python creator.py Humalog.xlsx templates/ ../input/fsh/examples/rawEPI```
 
 for creating all at the same time:
-```python createAll.py . templates/ ../input/fsh/examples/```
+```python createAll.py . templates/ ../input/fsh/examples/rawEPI```
 
 
 ### Composition

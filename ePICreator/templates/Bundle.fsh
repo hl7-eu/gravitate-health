@@ -16,8 +16,12 @@ Usage: #example
 * timestamp = "2023-06-27T10:09:22Z"
 {% if data["turn"] != "1" %}
 
+{% if row["language"]  %}
 * language = #{{row['language']}}
+{% else %}
+* language = #en
 
+{% endif %}
 
 // Composition
 * entry[0].fullUrl = "Composition/{{data["references"]["Composition"][index][1]}}"

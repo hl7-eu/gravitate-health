@@ -6,8 +6,14 @@ Description: "Nurofen 100 mg Chewable Capsules"
 Usage: #example
 
  
-* identifier[+].system = "http://fakesys.com/ids"
-* identifier[=].value = "xx"
+* identifier[+].system = "https://www.who-umc.org/phpid/1"
+* identifier[=].value = "8B44F06AB13CD28E68DE3255193A4F59" 
+* identifier[+].system = "https://www.who-umc.org/phpid/2"
+* identifier[=].value = "946EDA19CD2DB76813237462884BEFD8" 
+* identifier[+].system = "https://www.who-umc.org/phpid/3"
+* identifier[=].value = "EBCFAC0D18CA76B872188AA9E85F0F67" 
+* identifier[+].system = "https://www.who-umc.org/phpid/4"
+* identifier[=].value = "9DE6782842862A9295DAA3C3B96C4882"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
 * domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
