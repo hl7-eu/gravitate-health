@@ -16,15 +16,19 @@ Usage: #example
 * timestamp = "2023-06-27T10:09:22Z"
 {% if data["turn"] != "1" %}
 
+{% if row["language"]  %}
+* language = #{{row['language']}}
+{% else %}
 * language = #en
 
+{% endif %}
 
 // Composition
-* entry[0].fullUrl = "Composition/{{data["references"]["Composition"][0][1]}}"
-* entry[0].resource = {{data["references"]["Composition"][0][0]}}
+* entry[0].fullUrl = "Composition/{{data["references"]["Composition"][index][1]}}"
+* entry[0].resource = {{data["references"]["Composition"][index][0]}}
 
-{% for key,value in data["references"].items() %} 
-{% for refs in value %} 
+{%- for key,value in data["references"].items() -%} 
+{%- for refs in value %} 
 
 {% if key != "Composition" and key !="Bundle" %}
 // {{key}}
