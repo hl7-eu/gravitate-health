@@ -1,7 +1,7 @@
 Instance: trastazumab
 InstanceOf: IngredientUvEpi
-Title: "Bundle Japan JA - Package Insert for Herceptin (trastazumab) 150 mg for Intravenous Use"
-Description: "Bundle Japan JA - Package Insert for Herceptin (trastazumab) 150 mg for Intravenous Use"
+Title: "Ingredient - trastazumab"
+Description: "Ingredient - trastazumab"
 Usage: #example
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
