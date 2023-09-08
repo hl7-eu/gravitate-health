@@ -39,10 +39,10 @@ Usage: #example
 
     * identifier.system = $spor-prod
     * identifier.value = "123456"
-    * type = $spor-rms#100000073496 "Blister"
-    //* quantity = 28
-    * quantity = 28
-    * material = $spor-rms#200000003222 "PolyVinyl Chloride"
+    * type = $spor-rms#100000073563 "Vial"
+    //* quantity = 1
+    * quantity = 1
+    * material = $spor-rms#200000003204 "Glass type I"
 
 
 

@@ -36,11 +36,11 @@ Usage: #example
   * packaging
 
     * identifier.system = $spor-prod
-    * identifier.value = "7777"
-    * type = $spor-rms#100000073498 "Box"
-    //* quantity = 1
-    * quantity = 1
-    * material = $spor-rms#200000003529 "Cardboard"
+    * identifier.value = "168740"
+    * type = $spor-rms#100000073496 "Blister"
+    //* quantity = 28
+    * quantity = 28
+    * material = $spor-rms#200000003222 "PolyVinyl Chloride"
 
 
 

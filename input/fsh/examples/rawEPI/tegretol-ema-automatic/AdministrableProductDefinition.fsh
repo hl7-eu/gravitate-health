@@ -5,7 +5,7 @@ Title: "Administrable product Tegretol 200 mg tablets"
 Description: "Tegretol 200 mg tablets"
 Usage: #example
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/98/071/004" 
 
 * status = #active

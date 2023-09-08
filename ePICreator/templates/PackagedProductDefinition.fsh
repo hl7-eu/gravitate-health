@@ -42,7 +42,7 @@ Usage: #example
   * identifier.value = "mock-id"
   * quantity = 1
   * type = $spor-rms#100000073498 "Box"
-
+  * material = $spor-rms#200000003529 "Cardboard"
 
 {% if row["Packaging_type"]!="nan"  %}
   * packaging

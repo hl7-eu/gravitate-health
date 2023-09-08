@@ -92,23 +92,19 @@
     {% comment %}print status and domain{% endcomment %}
     <div>
       <p>
-        status: {{ mpd.status.coding[0].display }}
+        status: <b>{{ mpd.status.coding[0].display }}</b>
       </p>
     </div>
     <div>
       <p>
-        Domain: {{ mpd.domain.coding[0].display }}
+        Domain: <b>{{ mpd.domain.coding[0].display }}</b>
       </p>
     </div>
     {% comment %}print combined dose form - if there's many, this should be adjusted{% endcomment %}
+
     <div>
       <p>
-        Combined pharmaceutical dose form: {{ mpd.combinedPharmaceuticalDoseForm.coding[0].display }}
-      </p>
-    </div>
-    <div>
-      <p>
-        Legal Status of Supply: {{ mpd.legalStatusOfSupply.coding[0].display }}
+        Legal Status of Supply: <b>{{ mpd.legalStatusOfSupply.coding[0].display }}</b>
       </p>
     </div>
 
@@ -139,11 +135,10 @@
           </b>
 
           <p>
-            Region:
+            Country:
             <b>
-              {% for rareg in ra.region %}
-                {{ rareg.coding[0].display }}
-              {% endfor %}
+               {{ ra.contact.address.country }}
+      
             </b>
           </p>
           <p>
@@ -222,12 +217,16 @@
               {{ ppid.value }}
             </b>
           {% endfor %}
+
+          {% if ppd.description %}
           <p>
             Description:
             <b>
               {{ ppd.description }}
             </b>
           </p>
+        {% endif %}
+
           Marketing Status:
           <b>
             {{ ppd.status.coding[0].code }}</b>
@@ -237,6 +236,7 @@
             <ul>
               {% for quant in ppd.containedItemQuantity %}
                 <li>
+
                   {{ quant.value }} {{ quant.code | pluralize: quant.code }}</li>
               {% endfor %}
             </ul>
@@ -252,7 +252,14 @@
 
               </div>
             {% endif %}
+            {% assign inner_pckg = pckg.packaging %}
+            {% if inner_pckg.quantity % %}
+              <br/>
+              <div class="container rcorners pack bleft">
+                <p>Package: {{ inner_pckg.quantity }} {{ inner_pckg.type.coding[0].display }} [{{ inner_pckg.material[0].coding[0].display }}]</p>
 
+              </div>
+            {% endif %}
           </p>
 
 

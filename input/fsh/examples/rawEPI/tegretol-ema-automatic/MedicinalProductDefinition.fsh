@@ -8,9 +8,9 @@ Usage: #example
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"
 * identifier[=].value = "39.955" 
-* identifier[+].system = "https://www.who-umc.org/phpid/4"
+* identifier[+].system = "https://www.who-umc.org/phpid_4"
 * identifier[=].value = "FB9808F4FED210183F412F9998622287" 
-* identifier[+].system = "https://www.who-umc.org/phpid/3"
+* identifier[+].system = "https://www.who-umc.org/phpid_3"
 * identifier[=].value = "5C62673C79E096D37914D32A45AA8F4D"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
