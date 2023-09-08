@@ -16,7 +16,7 @@ Usage: #example
 * description = "White to pale yellow"
 
  // Reference to Organization: MAH
-* manufacturer = Reference(orgchugai)
+* manufacturer = Reference(orgfujinaga)
 
 * structure.molecularFormula = "C15H12N2O"
 
