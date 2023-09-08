@@ -10,7 +10,7 @@ Usage: #example
 * status = #active
 
 //reference to MedicinalProductDefinition: Herceptin (trastazumab) 150 mg for Intravenous Use
-* formOf = Reference(medicinalproduct25mg)
+* formOf = Reference(medprodherceptin150)
 
 * administrableDoseForm = $spor-rms#10219000
 * administrableDoseForm.text = "Tablet"
@@ -20,4 +20,4 @@ Usage: #example
 * routeOfAdministration.code = $spor-rms#20053000
 
 // Reference to ManufacturedItemDefinition: Manufactured Item
-* producedFrom = Reference(7460b712-82ad-4cce-a756-90b0fa04896c)
+* producedFrom = Reference(manitemherceptin150)
