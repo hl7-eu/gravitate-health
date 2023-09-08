@@ -250,13 +250,14 @@
               <div class="container rcorners pack bleft">
                 <p>Package: {{ pckg.quantity }} {{ pckg.type.coding[0].display }} [{{ pckg.material[0].coding[0].display }}]</p>
 
-              </div>
+              
             {% assign inner_pckg = pckg.packaging[0] %}
             {% if inner_pckg.quantity % %}
               <br/>
               <div class="container rcorners pack bleft">
-                <p>Package: {{ inner_pckg.quantity }} {{ inner_pckg.type.coding[0].display }} [{{ inner_pckg.material[0].coding[0].display }}]</p>
+                <p>Inner Package: {{ inner_pckg.quantity }} {{ inner_pckg.type.coding[0].display }} [{{ inner_pckg.material[0].coding[0].display }}]</p>
 
+              </div>
               </div>
             {% endif %}
           {% endif %}
