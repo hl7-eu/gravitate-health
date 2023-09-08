@@ -137,7 +137,7 @@
           <p>
             Country:
             <b>
-               {{ ra.contact.address.country }}
+               {{ ra.contact[0].address.country }}
       
             </b>
           </p>
@@ -226,7 +226,7 @@
             </b>
           </p>
         {% endif %}
-
+<br/>
           Marketing Status:
           <b>
             {{ ppd.status.coding[0].code }}</b>
@@ -237,7 +237,7 @@
               {% for quant in ppd.containedItemQuantity %}
                 <li>
 
-                  {{ quant.value }} {{ quant.code | pluralize: quant.code }}</li>
+                 <b> {{ quant.value }} {{ quant.code | pluralize: quant.code }}</b></li>
               {% endfor %}
             </ul>
           </p>
@@ -251,8 +251,7 @@
                 <p>Package: {{ pckg.quantity }} {{ pckg.type.coding[0].display }} [{{ pckg.material[0].coding[0].display }}]</p>
 
               </div>
-            {% endif %}
-            {% assign inner_pckg = pckg.packaging %}
+            {% assign inner_pckg = pckg.packaging[0] %}
             {% if inner_pckg.quantity % %}
               <br/>
               <div class="container rcorners pack bleft">
@@ -260,6 +259,8 @@
 
               </div>
             {% endif %}
+          {% endif %}
+
           </p>
 
 
