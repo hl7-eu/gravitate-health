@@ -97,42 +97,18 @@ menu:
 
 groups:
   rawepi:
-    acmeDrug:
-      name: ePI Bundle - Acme Drug
-      description: Base ePI example for testing 
-      resources: 
-        - AdministrableProductDefinition/ap-1aa8042f9b2bea12d814ccaf27f6d64e
-        - Bundle/bundlepackageleaflet-5aa8042f9b2bea12d814ccaf27f6d64e
-        - Composition/composition5aa8042f9b2bea12d814ccaf27f6d64e
-        - Ingredient/ingredient-for-acmedrug-acmedruging3
-        - Ingredient/ingredient-for-acmedrug-acmedruging2
-        - Ingredient/ingredient-for-acmedrug-acmedruging1
-        - ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f
-        - MedicinalProductDefinition/mp534e209eb0a3ff60437639cb2015316f
-        - Organization/mah-2aff7154a8d952c895e8a03849a25108
-        - PackagedProductDefinition/ppd-8799ff87933460485b763ad9b52f8276
-        - RegulatedAuthorization/authorization5aa8042f9b2bea12d814ccaf27f6d64e
-        - SubstanceDefinition/substance-acmesub
-    biktarvy:
-      name: ePI Bundle - Acme Drug
-      description: Base ePI example for testing 
-      resources: 
-        - AdministrableProductDefinition/ap-14ba4cb05b11f838919ef39edd3e0cdf
-        - Bundle/bundlepackageleaflet-63b15a3bb9d18a00ecd0962bc011c765
-        - Composition/composition1846d2b12fecbbb0310cd8c196c98a58
-        - Ingredient/ingredient-for-biktarvy-bictegravirsodium
-        - Ingredient/ingredient-for-biktarvy-emtricitabine
-        - Ingredient/ingredient-for-biktarvy-tenofoviralafenamide
-        - Ingredient/ingredient-for-biktarvy-microcrystallinecellulose
-        - Ingredient/ingredient-for-biktarvy-croscarmellosesodium
-        - Ingredient/ingredient-for-biktarvy-magnesiumstearate
-        - ManufacturedItemDefinition/mid-14ba4cb05b11f838919ef39edd3e0cdf
-        - MedicinalProductDefinition/mp5fb1761a0a38bea0a9b49f146371c68b
-        - Organization/mah-715f8a161ed438d0584510e5b4512caa
-        - PackagedProductDefinition/ppd-bb925abf9dc1f2dd024210a50c0ee14b
-        - RegulatedAuthorization/authorization14ba4cb05b11f838919ef39edd3e0cdf
+    - Bundle/bundlepackageleaflet-5aa8042f9b2bea12d814ccaf27f6d64e #acmedrug
+    - Bundle/bundlepackageleaflet-63b15a3bb9d18a00ecd0962bc011c765 #biktarvy 1
+    - Bundle/bundlepackageleaflet-925dad38f0afbba36223a82b3a766438
+    - Bundle/bundlejpicarbamazepine200 #carba jp
+    - Bundle/bundlepackageleaflet-af8224f8c853d17daf5ea6782cb5a097
+    - Bundle/bundlepackageleaflet-0ea7cb60ce178124a5eca40942ba8f42
 
-  
+  processed:
+    - Bundle/processedbundlekarveabik
+
+  focused:      
+    - Bundle/enhanced-bundlebik-alicia  
 
 # --- original 
 # menu:
@@ -150,6 +126,7 @@ groups:
 
 #  Capability Statements:
 #    SmPC / PL: CapabilityStatement-capability-statement-ema.html
+
 
 
 FSHOnly: false
