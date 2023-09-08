@@ -1,11 +1,11 @@
 Instance: subcarbamazepine200
 InstanceOf: SubstanceDefinitionUvEpi
-Title: "Substance - trastazumab"
-Description: "Substance - trastazumab"
+Title: "Substance - carbamazepine"
+Description: "Substance - carbamazepine"
 Usage: #example
  
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
-* identifier.value = "P188ANX8CK"
+* identifier.value = "33CM23913M"
 * identifier.use = #official
 
 * version = "39"
@@ -16,10 +16,10 @@ Usage: #example
 * description = "White to pale yellow"
 
  // Reference to Organization: MAH
-* manufacturer = Reference(orgchugai)
+* manufacturer = Reference(orgfujinaga)
 
-* structure.molecularFormula = "C20H24O2"
+* structure.molecularFormula = "C15H12N2O"
 
-* name.name = "trastazumab"
+* name.name = "carbamazepine"
 * name.type = https://gsrs.ncats.nih.gov/ginas/app/beta/#1
 * name.type.text = "Chemical Name"

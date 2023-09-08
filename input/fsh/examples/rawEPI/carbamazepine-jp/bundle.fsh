@@ -27,8 +27,8 @@ Description: "Bundle Japan JA - Package Insert for Tegretol (carbamazepine) 200 
 * entry[=].resource = medprodcarbamazepine200
 
 // packaged product
-* entry[+].fullUrl = "PackagedProductDefinition/packherceptinvial"
-* entry[=].resource = packherceptinvial
+* entry[+].fullUrl = "PackagedProductDefinition/packcarbamazepine200"
+* entry[=].resource = packcarbamazepine200
 
 // administrable product
 * entry[+].fullUrl = "AdministrableProductDefinition/adminprodcarbamazepine200"
