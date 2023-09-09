@@ -23,5 +23,5 @@ Usage: #example
 * substance.strength.basis.text = "active ingredient - basis of strength"
 
 // Reference to Organization: Manufaturer API
-* manufacturer.manufacturer = Reference(orgchugai)
+* manufacturer.manufacturer = Reference(orgfujinaga)
 
