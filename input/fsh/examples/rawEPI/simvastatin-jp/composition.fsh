@@ -12,11 +12,11 @@ Usage: #example
 * type = https://spor.ema.europa.eu/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(medprodherceptin150) //reference to the medicinal product
+* subject = Reference(medprodsimvastatin20) //reference to the medicinal product
 
 * date = "2002-08-01T13:28:17Z"
 
-* author = Reference(orgchugai)  // Reference to Organization: Marketing Authorization Holder
+* author = Reference(medprodsimvastatin20)  // Reference to Organization: Marketing Authorization Holder
 * title = "simvastatin20 Package Leaflet - 150 mg for Intravenous Use"
 
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
