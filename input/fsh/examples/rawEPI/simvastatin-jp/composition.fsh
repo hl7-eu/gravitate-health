@@ -16,7 +16,7 @@ Usage: #example
 
 * date = "2002-08-01T13:28:17Z"
 
-* author = Reference(medprodsimvastatin20)  // Reference to Organization: Marketing Authorization Holder
+* author = Reference(orgohara)  // Reference to Organization: Marketing Authorization Holder
 * title = "simvastatin20 Package Leaflet - 150 mg for Intravenous Use"
 
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
