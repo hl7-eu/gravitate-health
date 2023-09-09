@@ -28,7 +28,7 @@ Description: "Bundle Japan JA - Package Insert for Simvastatin 20 mg tablets"
 
 // packaged product
 * entry[+].fullUrl = "PackagedProductDefinition/packsimvastatin20"
-* entry[=].resource = packherceptinvial
+* entry[=].resource = packsimvastatin20
 
 // administrable product
 * entry[+].fullUrl = "AdministrableProductDefinition/adminprodsimvastatin20"
