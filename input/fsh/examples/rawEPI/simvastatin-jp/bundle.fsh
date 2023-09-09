@@ -19,7 +19,7 @@ Description: "Bundle Japan JA - Package Insert for Simvastatin 20 mg tablets"
 * entry[=].resource = orgohara
 
 // authorizations
-* entry[+].fullUrl = "Authorizations/authsimvastatin20"
+* entry[+].fullUrl = "RegulatedAuthorization/authsimvastatin20"
 * entry[=].resource = authsimvastatin20
 
 // medicinal products
@@ -27,8 +27,8 @@ Description: "Bundle Japan JA - Package Insert for Simvastatin 20 mg tablets"
 * entry[=].resource = medprodsimvastatin20
 
 // packaged product
-* entry[+].fullUrl = "PackagedProductDefinition/packherceptinvial"
-* entry[=].resource = packherceptinvial
+* entry[+].fullUrl = "PackagedProductDefinition/packsimvastatin20"
+* entry[=].resource = packsimvastatin20
 
 // administrable product
 * entry[+].fullUrl = "AdministrableProductDefinition/adminprodsimvastatin20"
