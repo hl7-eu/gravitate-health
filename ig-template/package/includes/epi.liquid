@@ -311,7 +311,16 @@
                 {{ apd.unitOfPresentation.coding[0].display }}
               </b>
             </p>
-
+            Route of administration:
+            <ul>
+              {% for roas in apd.routeOfAdministration %}
+                <li>
+                  <b>
+                    {{ roas.code.coding[0].display }}
+                  </b>
+                </li>
+              {% endfor %}
+            </ul>
             Contents (Manuf. Items):
             <ul>
               {% assign mids = bundle.entry | where: "resource.resourceType", "ManufacturedItemDefinition" %}
@@ -466,16 +475,7 @@
                 </div>
               {% endif %}
             {% endfor %}
-            Route of administration:
-            <ul>
-              {% for roas in apd.routeOfAdministration %}
-                <li>
-                  <b>
-                    {{ roas.code.coding[0].display }}
-                  </b>
-                </li>
-              {% endfor %}
-            </ul>
+      
 
           </div>
         {% endif %}
