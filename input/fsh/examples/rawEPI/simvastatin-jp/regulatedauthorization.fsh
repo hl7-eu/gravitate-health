@@ -5,7 +5,7 @@ Description: "Regulated Authorization - Herceptin (trastazumab) 150 mg for Intra
 Usage: #example
 
 * identifier.system = "https://pmda-approvalandlicenseno/"
-* identifier.value = "21300AMY00128"
+* identifier.value = "22500AMX01227000"
 * identifier.use = #official
 
  // Reference to MedicinalProductDefinition: Herceptin (trastazumab) 150 mg for Intravenous Use
