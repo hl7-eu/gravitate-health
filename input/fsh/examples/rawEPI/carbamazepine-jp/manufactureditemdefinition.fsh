@@ -4,7 +4,7 @@ Description: "Manufactured Item - Tegretol (carbamazepine) 200 mg for tablet"
 Usage: #example
 
 * identifier.system = "https://pmda-sccj"
-* identifier.value = "871179"
+* identifier.value = "placeholder"
 * identifier.use = #official
 
 * status = #active
