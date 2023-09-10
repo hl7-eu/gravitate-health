@@ -5,7 +5,7 @@ Description: "Medicinal Product - Simvastatin 20 mg tablets"
 Usage: #example
 
 * identifier[+].system = "http://www.pmda.jp/"
-* identifier[=].value = "sim874291"
+* identifier[=].value = "872189"
 
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
