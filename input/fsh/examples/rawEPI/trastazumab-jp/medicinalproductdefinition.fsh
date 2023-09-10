@@ -4,8 +4,8 @@ Title: "Medicinal Product - Herceptin (trastazumab) 150 mg for Intravenous Use"
 Description: "Medicinal Product - Herceptin (trastazumab) 150 mg for Intravenous Use"
 Usage: #example
 
-* identifier[+].system = "http://www.pmda.jp/"
-* identifier[=].value = "874291"
+* identifier[+].system = "http://iyaku.info/medicine"
+* identifier[=].value = "4291447D2024"
 
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
