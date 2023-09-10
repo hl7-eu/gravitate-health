@@ -4,8 +4,8 @@ Title: "Medicinal Product - Simvastatin 20 mg tablets"
 Description: "Medicinal Product - Simvastatin 20 mg tablets"
 Usage: #example
 
-* identifier[+].system = "http://www.pmda.jp/"
-* identifier[=].value = "872189"
+* identifier[+].system = "http://iyaku.info/medicine"
+* identifier[=].value = "2189011F1262"
 
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
