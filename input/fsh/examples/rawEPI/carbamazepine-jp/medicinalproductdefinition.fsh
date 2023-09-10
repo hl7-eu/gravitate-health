@@ -5,7 +5,7 @@ Description: "Medicinal Product - Tegretol (carbamazepine) 200 mg for tablet"
 Usage: #example
 
 * identifier[+].system = "http://www.pmda.jp/"
-* identifier[=].value = "22700AMX00173"
+* identifier[=].value = "87119"
 
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
