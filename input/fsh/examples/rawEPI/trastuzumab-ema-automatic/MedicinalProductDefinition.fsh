@@ -8,6 +8,12 @@ Usage: #example
  
 * identifier[+].system = "https://www.who-umc.org/phpid/4"
 * identifier[=].value = "7532F47F36A3585D1F348BBDDA057862"
+
+* identifier[+].system = "http://legemiddelverket.no/FEST/LegemiddelMerkevareID"
+* identifier[=].value = "4249"
+
+
+
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
 * domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
