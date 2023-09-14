@@ -109,6 +109,8 @@ Description: "List of Dovato Package Leaflets"
 * identifier[=].value = "Dovato"
 * identifier[+].system = "http://spor.ema.europa.eu/v2/marketing-authorisation-numbers"
 * identifier[=].value = "EU/1/19/1370"
+* identifier[+].system = "https://www.gravitatehealth.eu/sid/doc"
+* identifier[=].value = "EU/1/19/1370/001"
 
 * entry
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
