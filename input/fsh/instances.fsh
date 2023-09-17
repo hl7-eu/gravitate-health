@@ -295,20 +295,3 @@ Usage: #example
     * country = urn:iso:std:iso:3166#DK
     * jurisdiction = urn:iso:std:iso:3166#DK
     * language = urn:ietf:bcp:47#en
-
-
-
-Instance: list-grouper
-InstanceOf: List
-Title: "List grouper"
-Description: "list as grouper for the same leaflet in different languages as suggested by EMA"
-Usage: #example
-
-* identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "xx"
-
-* status = #current 
-* mode = #working
-
-* entry[+].item = Reference(bundlepackageleaflet-379d610f9c96d541562699215b0864126)
-* entry[+].item = Reference(bundlepackageleaflet-379d610f9c96d541562699215b0864127)
