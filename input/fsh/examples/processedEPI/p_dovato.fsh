@@ -133,7 +133,7 @@ not listed in this leaflet. See section 4.</li>
 infection: dolutegravir and lamivudine. Dolutegravir belongs to a group of anti-retroviral medicines called
 integrase inhibitors (INIs), and lamivudine belongs to a group of anti-retroviral medicines called nucleoside
 analogue reverse transcriptase inhibitors (NRTIs).</p>
-<span class="indication"> <p>Dovato is used to treat HIV in adults and adolescents over 12 years old who weigh at least 40 kg.</p>
+<span class=\u0022indication\u0022> <p>Dovato is used to treat HIV in adults and adolescents over 12 years old who weigh at least 40 kg.</p>
 <p>Dovato does not cure HIV infection; it keeps the amount of virus in your body at a low level. This helps
 maintain the number of CD4 cells in your blood. CD4 cells are a type of white blood cells that are important
 in helping your body to fight infection.</p></span>
@@ -147,7 +147,7 @@ of your treatment.</p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take Dovato 50 mg/300 mg film-coated tablets"
   * text.status = #additional
-  * text.div = '<div xmlns="http://www.w3.org/1999/xhtml">  <p>Do not take Dovato</p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Dovato</p>
 <ul>
 <li>if you are allergic (hypersensitive) to dolutegravir or lamivudine or any of the other ingredients of
 this medicine (listed in section 6).</li>
@@ -235,7 +235,7 @@ as possible.</p>
 <p>Dovato can make you dizzy, and have other side effects that make you less alert.</p>
 <ul>
 <li>Don’t drive or operate machinery unless you are sure you’re not affected.</li>
-</ul>         </div>'
+</ul>         </div>"""
                     
 * section[=].section[+]
   * title = "3. How to take Dovato 50 mg/300 mg film-coated tablets"
