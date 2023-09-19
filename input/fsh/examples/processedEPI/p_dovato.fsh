@@ -147,7 +147,7 @@ of your treatment.</p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take Dovato 50 mg/300 mg film-coated tablets"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Dovato</p>
+  * text.div = '<div xmlns="http://www.w3.org/1999/xhtml">  <p>Do not take Dovato</p>
 <ul>
 <li>if you are allergic (hypersensitive) to dolutegravir or lamivudine or any of the other ingredients of
 this medicine (listed in section 6).</li>
@@ -235,7 +235,7 @@ as possible.</p>
 <p>Dovato can make you dizzy, and have other side effects that make you less alert.</p>
 <ul>
 <li>Don’t drive or operate machinery unless you are sure you’re not affected.</li>
-</ul>         </div>"""   
+</ul>         </div>'
                     
 * section[=].section[+]
   * title = "3. How to take Dovato 50 mg/300 mg film-coated tablets"
