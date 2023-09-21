@@ -133,7 +133,7 @@ not listed in this leaflet. See section 4.</li>
 infection: dolutegravir and lamivudine. Dolutegravir belongs to a group of anti-retroviral medicines called
 integrase inhibitors (INIs), and lamivudine belongs to a group of anti-retroviral medicines called nucleoside
 analogue reverse transcriptase inhibitors (NRTIs).</p>
-<span class=\u0022indication\u0022> <p>Dovato is used to treat HIV in adults and adolescents over 12 years old who weigh at least 40 kg.</p>
+<span class="indication"> <p>Dovato is used to treat HIV in adults and adolescents over 12 years old who weigh at least 40 kg.</p>
 <p>Dovato does not cure HIV infection; it keeps the amount of virus in your body at a low level. This helps
 maintain the number of CD4 cells in your blood. CD4 cells are a type of white blood cells that are important
 in helping your body to fight infection.</p></span>
