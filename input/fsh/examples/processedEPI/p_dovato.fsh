@@ -676,7 +676,6 @@ Usage: #example
 * identifier.value = "EU/1/19/1370/001"
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
-* language = #en
 
 // Composition
 * entry[0].fullUrl = "Composition/compositione722f6782d3f34f86982e14386c8811dll"
@@ -784,7 +783,6 @@ Usage: #example
 * identifier.value = "EU/1/19/1370/001"
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
-* language = #es
 
 // Composition
 * entry[0].fullUrl = "Composition/processed-composition16598f252d07b4784b82ba43cf9e847e"
