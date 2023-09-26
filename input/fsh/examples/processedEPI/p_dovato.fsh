@@ -209,9 +209,7 @@ lactitol or maltitol), if taken regularly</li>
 your dose or that you need extra check ups.</p>
 </li>
 </ul>
-<span class="pregnancyCategory"><p><strong>Pregnancy</strong></p>
-<p>If you are pregnant, think you may be pregnant, or if you are planning to have a baby:</p>
-<ul>
+<div class="pregnancyCategory"><p><strong>Pregnancy</strong></p><p>If you are pregnant, think you may be pregnant, or if you are planning to have a baby:</p><ul>
 <li>Talk to your doctor about the risks and benefits of taking Dovato.</li>
 </ul>
 <p>Taking Dovato at the time of becoming pregnant or during the first six weeks of pregnancy, may increase the
@@ -230,7 +228,7 @@ the baby in breast milk.
 A small amount of the ingredients in Dovato can also pass into your breast milk.
 If you are breast-feeding, or thinking about breast-feeding, you should discuss it with your doctor as soon
 as possible.</p>
-</span>
+</div>
 <p><strong>Driving and using machines</strong></p>
 <p>Dovato can make you dizzy, and have other side effects that make you less alert.</p>
 <ul>
