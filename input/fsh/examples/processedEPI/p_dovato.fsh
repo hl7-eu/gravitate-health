@@ -1,4 +1,4 @@
-
+/**
 Instance: processed-composition16598f252d07b4784b82ba43cf9e847e
 InstanceOf: CompositionUvEpi
 Title: "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet - Preprocessed"
