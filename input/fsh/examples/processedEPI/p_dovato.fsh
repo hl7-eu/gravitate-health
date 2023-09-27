@@ -1,4 +1,4 @@
-
+/* REMOVED UNTIL SPAN BUG
 Instance: processed-composition16598f252d07b4784b82ba43cf9e847e
 InstanceOf: CompositionUvEpi
 Title: "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet - Preprocessed"
@@ -879,3 +879,4 @@ Usage: #example
 * entry[=].resource = mid-49178f16170ee8a6bc2a4361c1748d5f 
  
 
+*/
