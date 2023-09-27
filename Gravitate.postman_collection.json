@@ -24,12 +24,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/fhir/$diff",
-							"protocol": "http",
+							"raw": "{{glens-facade}}/fhir/$diff",
 							"host": [
-								"localhost"
+								"{{glens-facade}}"
 							],
-							"port": "8080",
 							"path": [
 								"fhir",
 								"$diff"
@@ -39,7 +37,7 @@
 					"response": []
 				},
 				{
-					"name": "Invoke Glens FOSPS with Maria's IPS using Identifiers",
+					"name": "Invoke Glens FOSPS with Knud's IPS using Identifiers",
 					"request": {
 						"method": "POST",
 						"header": [
@@ -51,7 +49,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"resourceType\": \"Parameters\",\n    \"parameter\": [\n        {\n            \"name\": \"includeEpiExtracts\",\n            \"valueBoolean\": \"false\"\n        },\n        {\n            \"name\": \"epi-identifier\",\n            \"valueIdentifier\": {\n                \"system\": \"https://www.medicinpriser.dk/\",\n                \"value\": \"69790\"\n            }\n        },\n        {\n            \"name\": \"ips-identifier\",\n            \"valueIdentifier\": {\n                \"system\": \"urn:oid:1.2.208.176.1.2\",\n                \"value\": \"2502889861\"\n            }\n        }\n    ]\n}",
+							"raw": "{\n    \"resourceType\": \"Parameters\",\n    \"parameter\": [\n        {\n            \"name\": \"includeEpiExtracts\",\n            \"valueBoolean\": \"false\"\n        },\n        {\n            \"name\": \"epi-identifier\",\n            \"valueIdentifier\": {\n                \"system\": \"https://www.medicinpriser.dk/packageNumber\",\n                \"value\": \"423096\"\n            }\n        },\n        {\n            \"name\": \"ips-identifier\",\n            \"valueIdentifier\": {\n                \"system\": \"urn:oid:1.2.208.176.1.2\",\n                \"value\": \"2502889861\"\n            }\n        }\n    ]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -59,12 +57,43 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/fhir/$focus",
-							"protocol": "http",
+							"raw": "{{glens-facade}}/fhir/$focus",
 							"host": [
-								"localhost"
+								"{{glens-facade}}"
 							],
-							"port": "8080",
+							"path": [
+								"fhir",
+								"$focus"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Invoke Glens FOSPS with Carla's IPS using Identifiers",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/fhir+xml",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"resourceType\": \"Parameters\",\n    \"parameter\": [\n        {\n            \"name\": \"includeEpiExtracts\",\n            \"valueBoolean\": \"false\"\n        },\n        {\n            \"name\": \"epi-identifier\",\n            \"valueIdentifier\": {\n                \"system\": \"https://www.medicinpriser.dk/packageNumber\",\n                \"value\": \"423096\"\n            }\n        },\n        {\n            \"name\": \"ips-identifier\",\n            \"valueIdentifier\": {\n                \"system\": \"urn:oid:1.2.208.176.1.2\",\n                \"value\": \"1509018436\"\n            }\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{glens-facade}}/fhir/$focus",
+							"host": [
+								"{{glens-facade}}"
+							],
 							"path": [
 								"fhir",
 								"$focus"
@@ -88,15 +117,148 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/fhir/$diff",
-							"protocol": "http",
+							"raw": "{{glens-facade}}/fhir/$diff",
 							"host": [
-								"localhost"
+								"{{glens-facade}}"
 							],
-							"port": "8080",
 							"path": [
 								"fhir",
 								"$diff"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Bundle",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{glens-facade}}/fhir/Bundle?_language=es&_id=processedbundledovato-es",
+							"host": [
+								"{{glens-facade}}"
+							],
+							"path": [
+								"fhir",
+								"Bundle"
+							],
+							"query": [
+								{
+									"key": "identifier",
+									"value": "https%3A%2F%2Fwww.gravitatehealth.eu%2Fsid%2Fdoc%7CEU%2F1%2F97%2F049%2F001",
+									"disabled": true
+								},
+								{
+									"key": "_language",
+									"value": "es"
+								},
+								{
+									"key": "_id",
+									"value": "processedbundledovato-es"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Dovato List",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"resourceType\" : \"List\",\n  \"id\" : \"listDovato\",\n  \"text\" : {\n    \"status\" : \"generated\",\n    \"div\" : \"<div xmlns=\\\"http://www.w3.org/1999/xhtml\\\"><h2>List of all processed ePIs associated with Dovato</h2><table class=\\\"clstu\\\"><tr><td>Date: Feb 7, 2015, 1:28:17\\u202fPMMode: workingStatus: currentCode: ePI Master List</td></tr><tr><td>Subject: <a href=\\\"MedicinalProductDefinition-mp16598f252d07b4784b82ba43cf9e847e.html\\\">MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e</a></td></tr></table><table class=\\\"grid\\\"><tr style=\\\"backgound-color: #eeeeee\\\"><td><b>Items</b></td><td>Date</td><td>Flag</td></tr><tr><td><a href=\\\"Bundle-processedbundledovato-en.html\\\">Bundle/processedbundledovato-en</a></td><td>Feb 7, 2015, 1:28:17\\u202fPM</td><td>Unchanged</td></tr><tr><td><a href=\\\"Bundle-processedbundledovato-es.html\\\">Bundle/processedbundledovato-es</a></td><td>Feb 7, 2016, 1:28:17\\u202fPM</td><td>Unchanged</td></tr></table></div>\"\n  },\n  \"identifier\" : [{\n    \"system\" : \"http://spor.ema.europa.eu/v2/medicine-name\",\n    \"value\" : \"Dovato\"\n  },\n  {\n    \"system\" : \"http://spor.ema.europa.eu/v2/marketing-authorisation-numbers\",\n    \"value\" : \"EU/1/19/1370\"\n  },\n  {\n    \"system\" : \"https://www.gravitatehealth.eu/sid/doc\",\n    \"value\" : \"EU/1/19/1370/001\"\n  }],\n  \"status\" : \"current\",\n  \"mode\" : \"working\",\n  \"title\" : \"List of all processed ePIs associated with Dovato\",\n  \"code\" : {\n    \"coding\" : [{\n      \"system\" : \"http://spor.ema.europa.eu/v1/example-pi-list-types\",\n      \"code\" : \"00000021213\",\n      \"display\" : \"ePI Master List\"\n    }]\n  },\n  \"subject\" : [{\n    \"extension\" : [{\n      \"url\" : \"http://ema.europa.eu/fhir/extension/medicine-name\",\n      \"valueCoding\" : {\n        \"system\" : \"http://spor.ema.europa.eu/v1/100000000005\",\n        \"code\" : \"Dovato\",\n        \"display\" : \"Dovato\"\n      }\n    },\n    {\n      \"url\" : \"http://ema.europa.eu/fhir/extension/marketing-authorization-holder\",\n      \"valueCoding\" : {\n        \"system\" : \"http://spor.ema.europa.eu/v1/100000000005\",\n        \"code\" : \"mah-code\",\n        \"display\" : \"None\"\n      }\n    },\n    {\n      \"url\" : \"http://ema.europa.eu/fhir/extension/active-substance\",\n      \"valueCoding\" : {\n        \"system\" : \"http://spor.ema.europa.eu/v1/100000000005\",\n        \"code\" : \"acive-substance-code\",\n        \"display\" : \"None\"\n      }\n    },\n    {\n      \"url\" : \"http://ema.europa.eu/fhir/extension/domain\",\n      \"valueCoding\" : {\n        \"system\" : \"http://spor.ema.europa.eu/v1/100000000004\",\n        \"code\" : \"100000000012\",\n        \"display\" : \"H\"\n      }\n    }],\n    \"reference\" : \"MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e\"\n  }],\n  \"date\" : \"2015-02-07T13:28:17Z\",\n  \"entry\" : [{\n    \"flag\" : {\n      \"coding\" : [{\n        \"system\" : \"urn:oid:1.2.36.1.2001.1001.101.104.16592\",\n        \"code\" : \"01\"\n      }],\n      \"text\" : \"Unchanged\"\n    },\n    \"date\" : \"2015-02-07T13:28:17Z\",\n    \"item\" : {\n      \"extension\" : [{\n        \"url\" : \"http://ema.europa.eu/fhir/extension/documentType\",\n        \"valueCoding\" : {\n          \"system\" : \"http://spor.ema.europa.eu/v1/100000155531\",\n          \"code\" : \"100000155538\",\n          \"display\" : \"B. PACKAGE LEAFLET\"\n        }\n      },\n      {\n        \"url\" : \"http://ema.europa.eu/fhir/extension/language\",\n        \"valueCoding\" : {\n          \"system\" : \"http://spor.ema.europa.eu/v1/100000072057\",\n          \"code\" : \"100000072147\",\n          \"display\" : \"en\"\n        }\n      }],\n      \"reference\" : \"Bundle/processedbundledovato-en\"\n    }\n  },\n  {\n    \"flag\" : {\n      \"coding\" : [{\n        \"system\" : \"urn:oid:1.2.36.1.2001.1001.101.104.16592\",\n        \"code\" : \"01\"\n      }],\n      \"text\" : \"Unchanged\"\n    },\n    \"date\" : \"2016-02-07T13:28:17Z\",\n    \"item\" : {\n      \"extension\" : [{\n        \"url\" : \"http://ema.europa.eu/fhir/extension/documentType\",\n        \"valueCoding\" : {\n          \"system\" : \"http://spor.ema.europa.eu/v1/100000155531\",\n          \"code\" : \"100000155538\",\n          \"display\" : \"B. PROSPECTO\"\n        }\n      },\n      {\n        \"url\" : \"http://ema.europa.eu/fhir/extension/language\",\n        \"valueCoding\" : {\n          \"system\" : \"http://spor.ema.europa.eu/v1/100000072057\",\n          \"code\" : \"100000072168\",\n          \"display\" : \"es\"\n        }\n      }],\n      \"reference\" : \"Bundle/processedbundledovato-es\"\n    }\n  }]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{glens-facade}}/fhir/List?identifier=http%3A%2F%2Fspor.ema.europa.eu%2Fv2%2Fmarketing-authorisation-numbers%7CEU%2F1%2F19%2F1370",
+							"host": [
+								"{{glens-facade}}"
+							],
+							"path": [
+								"fhir",
+								"List"
+							],
+							"query": [
+								{
+									"key": "identifier",
+									"value": "http%3A%2F%2Fspor.ema.europa.eu%2Fv2%2Fmarketing-authorisation-numbers%7CEU%2F1%2F19%2F1370"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get single bespoke ConceptMappings",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{glens-facade}}/fhir/ConceptMap/$translate?url=https://www.trifork.com/gravitate&system=https://www.indlaegssedler.dk/Indlaegssedler&code=112869",
+							"host": [
+								"{{glens-facade}}"
+							],
+							"path": [
+								"fhir",
+								"ConceptMap",
+								"$translate"
+							],
+							"query": [
+								{
+									"key": "url",
+									"value": "https://www.trifork.com/gravitate"
+								},
+								{
+									"key": "system",
+									"value": "https://www.indlaegssedler.dk/Indlaegssedler"
+								},
+								{
+									"key": "code",
+									"value": "112869"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All bespoke ConceptMappings",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{glens-facade}}/fhir/ConceptMap/$translate?url=https://www.trifork.com/gravitate&system=https://www.indlaegssedler.dk/Indlaegssedler&code=112869",
+							"host": [
+								"{{glens-facade}}"
+							],
+							"path": [
+								"fhir",
+								"ConceptMap",
+								"$translate"
+							],
+							"query": [
+								{
+									"key": "url",
+									"value": "https://www.trifork.com/gravitate"
+								},
+								{
+									"key": "system",
+									"value": "https://www.indlaegssedler.dk/Indlaegssedler"
+								},
+								{
+									"key": "code",
+									"value": "112869"
+								}
 							]
 						}
 					},
@@ -108,7 +270,7 @@
 			"name": "IPS",
 			"item": [
 				{
-					"name": "GET summary",
+					"name": "GET summary for Knud",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -122,14 +284,9 @@
 							}
 						},
 						"url": {
-							"raw": "https://gravitate-ips.gravitate.tcs.trifork.dev/fhir/Patient/$summary",
-							"protocol": "https",
+							"raw": "{{ips-server}}/fhir/Patient/$summary",
 							"host": [
-								"gravitate-ips",
-								"gravitate",
-								"tcs",
-								"trifork",
-								"dev"
+								"{{ips-server}}"
 							],
 							"path": [
 								"fhir",
@@ -141,13 +298,13 @@
 					"response": []
 				},
 				{
-					"name": "GET summary",
+					"name": "GET summary for Carla",
 					"request": {
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"parameter\": [\n        {\n            \"name\": \"identifier\",\n            \"valueIdentifier\": {\n                \"system\": \"urn:oid:1.2.208.176.1.2\",\n                \"value\": \"0101010101\"\n            }\n        }\n    ],\n    \"resourceType\": \"Parameters\"\n}",
+							"raw": "{\n    \"parameter\": [\n        {\n            \"name\": \"identifier\",\n            \"valueIdentifier\": {\n                \"system\": \"urn:oid:1.2.208.176.1.2\",\n                \"value\": \"1509018436\"\n            }\n        }\n    ],\n    \"resourceType\": \"Parameters\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -155,11 +312,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{server}}/Patient/$summary",
+							"raw": "{{ips-server}}/fhir/Patient/$summary",
 							"host": [
-								"{{server}}"
+								"{{ips-server}}"
 							],
 							"path": [
+								"fhir",
 								"Patient",
 								"$summary"
 							]
@@ -572,6 +730,82 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Get Document Bundles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?type=document",
+							"protocol": "https",
+							"host": [
+								"fosps",
+								"gravitatehealth",
+								"eu"
+							],
+							"path": [
+								"epi",
+								"api",
+								"fhir",
+								"Bundle"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "document"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Document Lists",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fosps.gravitatehealth.eu/epi/api/fhir/List/10617",
+							"protocol": "https",
+							"host": [
+								"fosps",
+								"gravitatehealth",
+								"eu"
+							],
+							"path": [
+								"epi",
+								"api",
+								"fhir",
+								"List",
+								"10617"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get MedicinalProductDefinition",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fosps.gravitatehealth.eu/epi/api/fhir/MedicinalProductDefinition",
+							"protocol": "https",
+							"host": [
+								"fosps",
+								"gravitatehealth",
+								"eu"
+							],
+							"path": [
+								"epi",
+								"api",
+								"fhir",
+								"MedicinalProductDefinition"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
@@ -745,6 +979,40 @@
 									"key": "preprocessors",
 									"value": "preprocessing-service-manual"
 								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "EMA samples",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Ocp-Apim-Subscription-Key",
+								"value": "f3dd1394fca141a6a07e35b005f6e477",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://ema-dap-epi-tst-fhir-apim.azure-api.net/epi/v1/Bundle/2ae91933-4281-43d5-800f-e0a1bd7b627f",
+							"protocol": "https",
+							"host": [
+								"ema-dap-epi-tst-fhir-apim",
+								"azure-api",
+								"net"
+							],
+							"path": [
+								"epi",
+								"v1",
+								"Bundle",
+								"2ae91933-4281-43d5-800f-e0a1bd7b627f"
 							]
 						}
 					},
