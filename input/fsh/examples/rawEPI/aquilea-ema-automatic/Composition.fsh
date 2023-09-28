@@ -1,0 +1,110 @@
+
+Instance: compositiond88eaaff32ec133d89ec679da88bae62
+InstanceOf: CompositionUvEpi
+Title: "Composition for Aquilea Package Leaflet"
+Description:  "Composition for Aquilea Package Leaflet"
+Usage: #example
+
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
+
+
+* identifier.value = "59182720471b60257cf6421af6ea18c3"
+
+* status = #final
+
+
+
+
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3b8585822d27945de47423af5de9824d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+ // Reference to Organization: MAH
+* author = Reference(mah-55692ec414f31dec233d83cfa4fdb9f9)
+
+
+* title = "TEST PURPOSES ONLY - Aquilea"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #en
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. PACKAGE LEAFLET"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  This product is a OTC, epi pending         </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam eros sollicitudin erat pellentesque semper. In tincidunt hendrerit scelerisque. Donec a venenatis eros, a dignissim augue. Nullam rhoncus pulvinar risus eu auctor. Proin non dui est. Pellentesque eleifend, est ac eleifend feugiat, nulla nibh vestibulum mi, ut hendrerit erat nunc volutpat tortor. Aenean dignissim orci ac pretium egestas. Phasellus vel fringilla velit. Nunc sed augue egestas, accumsan justo quis, malesuada massa. Donec nisl sem, fermentum ac lacus vel, ornare eleifend turpis. Curabitur ut feugiat neque, at faucibus ligula. Suspendisse in tristique sem. Aenean posuere, justo vitae vulputate elementum, mi risus sodales lectus, vitae laoreet sem lacus sit amet nisi. Phasellus porta nunc sed tortor ultricies, non sagittis quam venenatis. Nulla sit amet augue odio.         </div>"""   
+          
+
+* section[=].section[+]
+  * title = "1. What Aquilea is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "1. What Aquilea is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  Quisque posuere elit nec auctor imperdiet. Morbi id tortor nec odio molestie maximus. Phasellus id placerat velit. In ex enim, ultricies at maximus sit amet, luctus sit amet magna. Quisque in laoreet ligula, venenatis ultricies lectus. Quisque eleifend felis sed nulla consequat, eu tincidunt nisi gravida. Duis et lacinia ex. Aliquam pharetra vel metus at scelerisque. Integer ultricies dolor vestibulum nibh lacinia mollis. Ut tempor congue nulla eget molestie.         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take Aquilea"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take Aquilea"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  Nunc velit ante, aliquet sed commodo ut, dictum eget lectus. Duis eu nulla ac dui pellentesque sodales. Curabitur pellentesque dolor metus, ut mollis est posuere sit amet. Praesent sagittis ligula vel est auctor congue. Duis varius ligula et faucibus porttitor. Ut placerat aliquet turpis, eget condimentum nibh porttitor ut. Morbi libero nisl, ullamcorper sit amet est a, dignissim rhoncus ante. Fusce suscipit enim et scelerisque vehicula. Suspendisse eu nulla porta, pharetra dolor et, blandit eros. Ut iaculis metus id purus scelerisque dignissim. Vivamus convallis placerat ex sit amet gravida. Nullam sed orci elit. Pellentesque tincidunt odio lacus, sit amet facilisis quam aliquam id.         </div>"""   
+                    
+* section[=].section[+]
+  * title = "3. How to take Aquilea"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take Aquilea"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  Fusce euismod justo eget sem dignissim convallis. Nulla a massa quis leo consectetur pulvinar. Sed aliquam nisl vel purus porta, id lobortis risus ultrices. Etiam quam elit, blandit vitae sem vel, rutrum fermentum velit. Integer congue libero eget bibendum dignissim. Suspendisse a cursus dui. Phasellus a venenatis dui. Sed luctus volutpat diam at consequat. Aliquam erat volutpat.         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  Phasellus sed viverra lacus. Quisque iaculis massa gravida purus mattis consectetur. Praesent vestibulum porta iaculis. Nam semper massa vel interdum gravida. Donec vitae imperdiet enim, a lobortis ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sed metus ante. Aliquam ut libero mi. Pellentesque sit amet mi tempus dui euismod porta. Morbi interdum, magna vel convallis fringilla, neque ipsum tincidunt metus, quis semper elit dolor non orci. Ut sed tellus id mauris accumsan accumsan dictum ut nulla. Donec placerat lorem in enim rhoncus, vitae facilisis purus suscipit. Praesent quis diam nunc. Aenean in est luctus, hendrerit quam at, facilisis tellus. Sed efficitur lectus in libero lacinia tempus.         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store Aquilea"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store Aquilea"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  Morbi egestas, sem id feugiat molestie, nisi libero faucibus urna, vel fermentum metus neque sit amet tellus. Nulla id dui tempor, suscipit augue eget, malesuada quam. Duis a lacinia leo, non finibus lectus. Vivamus at finibus odio. Nullam congue hendrerit cursus. Nunc sed dolor varius, aliquet lacus ut, ornare dolor. Donec condimentum dictum ultrices.         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  Sed posuere ipsum quis lobortis feugiat. Nullam mauris ipsum, iaculis vitae ex quis, volutpat ornare lorem. Etiam feugiat bibendum nisi, eget ultricies mauris lobortis eget. Nulla consectetur lacus congue elit volutpat, volutpat laoreet augue commodo. Praesent congue diam et massa placerat tincidunt. Vivamus egestas est eget velit efficitur fermentum. Vestibulum id metus in nibh condimentum sagittis non convallis augue. Phasellus tortor eros, vehicula pharetra tellus sagittis, pretium sagittis elit. In vulputate arcu lectus, nec tristique orci luctus vitae. Quisque imperdiet tristique justo, eget faucibus elit aliquam et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus et luctus purus. Curabitur porta scelerisque ex. Duis non libero at quam fringilla volutpat sed ornare neque. Donec vel tellus non neque efficitur efficitur.         </div>"""      
+
