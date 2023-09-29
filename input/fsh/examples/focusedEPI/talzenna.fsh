@@ -3,6 +3,7 @@ InstanceOf: CompositionUvEpi
 Title: "Personalized Composition for Package leaflet: Information for the patient Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
 Description:  "Personalized Composition for Package leaflet: Information for the patient Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
 Usage: #example
+* meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
 * identifier.system = "https://www.mhra.gov.uk/"
 * identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4g"
