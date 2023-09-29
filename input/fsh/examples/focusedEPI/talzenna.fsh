@@ -54,9 +54,9 @@ Usage: #example
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "strength1"
+* extension[=].extension[=].valueString = "pregnancyCategory"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#101 "strength 1 mg"
+* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#77386006  "pregnancy Category"
 
 * section[+]
   * title = "Package leaflet: Information for the patient"
