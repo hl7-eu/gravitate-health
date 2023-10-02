@@ -121,10 +121,10 @@ nurse if you fainted with a previous injection.</li>
 <p>Tell your doctor or nurse if you are using, have recently used or might use any other medicines, including medicines obtained without a prescription or if you have recently received any other vaccine.
 Flucelvax Tetra may be given at the same time as other vaccines.</p>
 <p><strong>Pregnancy and breast-feeding</strong></p>
-<span class="pregnancyCategory"><p><strong>Pregnancy and breast-feeding</strong></p>
+<div class="pregnancyCategory"><p><strong>Pregnancy and breast-feeding</strong></p>
 <p><strong>Pregnancy:</strong> </p>
 <p>Tell your doctor if you are pregnant, think you may be pregnant or are planning to have a baby. Influenza vaccines may be given in any trimester of pregnancy.</p>
-</span>
+</div>
 <p><strong>Breast-feeding:</strong> </p>
 <p>Use of Flucelvax Tetra during breast-feeding has not been studied. Flucelvax Tetra may be given during breast-feeding.</p>
 <p><strong>Driving and using machines</strong></p>

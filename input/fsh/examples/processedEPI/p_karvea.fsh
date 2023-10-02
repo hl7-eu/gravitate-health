@@ -127,13 +127,13 @@ Usage: #inline
             <p>
                 Karvea belongs to a group of medicines known as angiotensin-II receptor antagonists. Angiotensin-II is a substance produced in the body which binds to receptors in blood vessels causing them to tighten. This results in an increase in blood pressure. Karvea prevents the binding of angiotensin-II to these receptors, causing the blood vessels to relax and the blood pressure to lower. Karvea slows the decrease of kidney function in patients with high blood pressure and type 2 diabetes.
             </p>
-         <span class="indication">   <p>Karvea is used in adult patients</p>
+         <div class="indication">   <p>Karvea is used in adult patients</p>
             <ul>
                 <li>to treat high blood pressure (essential hypertension)</li>
                 <li>to protect the kidney in patients with high blood pressure, type 2 diabetes and laboratory
                     evidence of impaired kidney function.</li>
             </ul>
-            </span>
+            </div>
         </div>         </div>"""              
 * section[=].section[+]
   * title = "2. What you need to know before you take Karvea"
@@ -141,14 +141,14 @@ Usage: #inline
   * code.text = "2. What you need to know before you take Karvea"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div xmlns='http://www.w3.org/1999/xhtml'> 
-           <span class="contraindication"> <b>Do not take Karvea</b>
+           <div class="contraindication"> <b>Do not take Karvea</b>
             <ul>
                 <li>if you are allergic to irbesartan or any other ingredients of this medicine (listed in section 6)</li>
-                <span class="contra-indication-pregancy"> <li>if you are more than 3 months pregnant. (It is also better to avoid Karvea in early pregnancy –
-                    see pregnancy section)</li></span>
+                <div class="contra-indication-pregancy"> <li>if you are more than 3 months pregnant. (It is also better to avoid Karvea in early pregnancy –
+                    see pregnancy section)</li></div>
                 <li><b><span class="contra-indication-diabetes-mellitus">if you have diabetes </span> or <span class="contra-indication-kidney">impaired kidney function</span></b> and you are treated with a blood pressure
                     lowering medicine containing aliskiren.</li>
-            </ul></span>
+            </ul></div>
             <b>Warning and precautions</b>
             <p>Talk to your doctor before taking Karvea and <b>if any of the following apply to you:</b></p>
             <ul>
@@ -190,21 +190,21 @@ Usage: #inline
             <b>Karvea with food and drink</b>
             <p>Karvea can be taken with or without food.</p>
             <b>Pregnancy and breast-feeding</b>
-            <span class="pregnancyCategory"> 
+            <div class="pregnancyCategory"> 
             <b>Pregnancy</b>
             <p>You must tell your doctor if you think you are (or might become) pregnant. Your doctor will normally advise you to stop taking Karvea before you become pregnant or as soon as you know you are pregnant and will advise you to take another medicine instead of Karvea. Karvea is not recommended in early pregnancy, and must not be taken when more than 3 months pregnant, as it may cause serious harm to your baby if used after the third month of pregnancy.</p>
-            </span>
-            <span class="breastfeedingCategory">
+            </div>
+            <div class="breastfeedingCategory">
             <b>Breast-feeding</b>
             <p>Tell your doctor if you are breast-feeding or about to start breast-feeding. Karvea is not recommended for mothers who are breast-feeding, and your doctor may choose another treatment for you if you wish to breast-feed, especially if your baby is newborn, or was born prematurely.</p>
-            </span>
+            </div>
             <b>Driving and using machines</b>
             <p>Karvea is unlikely to affect your ability to drive or use machines. However, occasionally dizziness or weariness may occur during treatment of high blood pressure. If you experience these, talk to your doctor before attempting to drive or use machines.
             </p>
             
-            <span class="lactose"><b>Karvea contains lactose.</b>
+            <div class="lactose"><b>Karvea contains lactose.</b>
             <p>If you have been told by your doctor that you have an intolerance to some sugars (e.g. lactose), contact your doctor before taking this medicinal product.</p>
-           </span> 
+           </div> 
             <b>Karvea contains sodium.</b>
             <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-free’.</p>            
         </div>         </div>"""              

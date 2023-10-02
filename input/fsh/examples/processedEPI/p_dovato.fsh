@@ -1,4 +1,3 @@
-/* REMOVED UNTIL SPAN BUG
 Instance: processed-composition16598f252d07b4784b82ba43cf9e847e
 InstanceOf: CompositionUvEpi
 Title: "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet - Preprocessed"
@@ -133,10 +132,10 @@ not listed in this leaflet. See section 4.</li>
 infection: dolutegravir and lamivudine. Dolutegravir belongs to a group of anti-retroviral medicines called
 integrase inhibitors (INIs), and lamivudine belongs to a group of anti-retroviral medicines called nucleoside
 analogue reverse transcriptase inhibitors (NRTIs).</p>
-<span class="indication"> <p>Dovato is used to treat HIV in adults and adolescents over 12 years old who weigh at least 40 kg.</p>
+<div class="indication"> <p>Dovato is used to treat HIV in adults and adolescents over 12 years old who weigh at least 40 kg.</p>
 <p>Dovato does not cure HIV infection; it keeps the amount of virus in your body at a low level. This helps
 maintain the number of CD4 cells in your blood. CD4 cells are a type of white blood cells that are important
-in helping your body to fight infection.</p></span>
+in helping your body to fight infection.</p></div>
 <p>Not everyone responds to treatment with Dovato in the same way. Your doctor will monitor the effectiveness
 of your treatment.</p>         </div>"""   
           
@@ -157,7 +156,7 @@ sclerosis).</li>
 Warnings and precautions
 Some people taking Dovato or other combination treatments for HIV are more at risk of serious side effects
 than others. You need to be aware of the extra risks:</li>
-<li><span class="liver">if you have moderate or severe liver disease </span>
+<li><div class="liver">if you have moderate or severe liver disease </div>
 if you have ever had liver disease, including hepatitis B or C (if you have hepatitis B infection, don’t
 stop Dovato without your doctor’s advice, as your hepatitis may come back)
 • if you have a kidney problem.
@@ -203,13 +202,13 @@ lactitol or maltitol), if taken regularly</li>
 <li>rifampicin, to treat tuberculosis (TB) and other bacterial infections</li>
 <li>phenytoin and phenobarbital, to treat epilepsy</li>
 <li>oxcarbazepine and carbamazepine, to treat epilepsy or bipolar disorder</li>
-<span class="contra-indication-hypericum"><li><p>St. John’s wort (Hypericum perforatum), a herbal remedy to treat depression.</p>
-</li></span>
+<div class="contra-indication-hypericum"><li><p>St. John’s wort (Hypericum perforatum), a herbal remedy to treat depression.</p>
+</li></div>
 <li><p>Tell your doctor or pharmacist if you are taking any of these. Your doctor may decide to adjust
 your dose or that you need extra check ups.</p>
 </li>
 </ul>
-<span class="pregnancyCategory"><p><strong>Pregnancy</strong></p>
+<div class="pregnancyCategory"><p><strong>Pregnancy</strong></p>
 <p>If you are pregnant, think you may be pregnant, or if you are planning to have a baby:</p>
 <ul>
 <li>Talk to your doctor about the risks and benefits of taking Dovato.</li>
@@ -230,7 +229,7 @@ the baby in breast milk.
 A small amount of the ingredients in Dovato can also pass into your breast milk.
 If you are breast-feeding, or thinking about breast-feeding, you should discuss it with your doctor as soon
 as possible.</p>
-</span>
+</div>
 <p><strong>Driving and using machines</strong></p>
 <p>Dovato can make you dizzy, and have other side effects that make you less alert.</p>
 <ul>
@@ -877,6 +876,3 @@ Usage: #example
 
 * entry[+].fullUrl = "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
 * entry[=].resource = mid-49178f16170ee8a6bc2a4361c1748d5f 
- 
-
-*/

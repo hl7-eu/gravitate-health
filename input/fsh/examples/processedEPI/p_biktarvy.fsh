@@ -133,8 +133,8 @@ inhibitor (NRTI)</li>
 <li>tenofovir alafenamide, an antiretroviral medicine of a type known as a nucleotide reverse
 transcriptase inhibitor (NtRTI)</li>
 </ul>
-<p>Biktarvy is a single tablet for the treatment <span class="indication">of human immunodeficiency virus 1 (HIV-1) infection in
-adults, adolescents and children 2 years of age and older, who weigh at least 14 kg.</span></p>
+<p>Biktarvy is a single tablet for the treatment <div class="indication">of human immunodeficiency virus 1 (HIV-1) infection in
+adults, adolescents and children 2 years of age and older, who weigh at least 14 kg.</div></p>
 <p>Biktarvy reduces the amount of HIV in your body. This will improve your immune system and reduce
 the risk of developing illnesses linked to HIV infection.</p>         </div>"""   
           
@@ -152,8 +152,8 @@ ingredients of this medicine (listed in section 6).</li>
 <li><p>If you are currently taking any of the following medicines:</p>
 <ul>
 <li>rifampicin used to treat some bacterial infections such as tuberculosis</li>
-<li><span class="contra-indication-hypericum">St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and
-anxiety, or products that contain it.</span></li>
+<li><div class="contra-indication-hypericum">St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and
+anxiety, or products that contain it.</div></li>
 </ul>
 </li>
 <li><p>If any of these apply to you, <strong>do not take Biktarvy and tell your doctor immediately.</strong></p>
@@ -247,7 +247,7 @@ antacids or supplements containing aluminium and/or magnesium. Or you can take B
 food at least 2 hours after.</p>
 <p>Iron supplements: you will need to take Biktarvy at least 2 hours before iron supplements, or you
 can take them together with food.</p>
-<span class="pregnancyCategory"><p><strong>Pregnancy and breast-feeding</strong></p>
+<div class="pregnancyCategory"><p><strong>Pregnancy and breast-feeding</strong></p>
 <ul>
 <li>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby,
 ask your doctor or pharmacist for advice before taking this medicine.</li>
@@ -258,12 +258,12 @@ risks of your antiretroviral therapy to you and your child.</li>
 other diagnostic tests to monitor the development of your child. In children whose mothers took
 nucleoside reverse transcriptase inhibitors (NRTIs) during pregnancy, the benefit from the protection
 against HIV outweighed the risk of side effects.</p>
-<span class="breastfeedingCategory"><p><strong>Do not breast-feed during treatment with Biktarvy.</strong> This is because some of the active substances
+<div class="breastfeedingCategory"><p><strong>Do not breast-feed during treatment with Biktarvy.</strong> This is because some of the active substances
 in this medicine pass into human breast milk. Breast-feeding is not recommended in women living
 with HIV because HIV infection can be passed on to the baby in breast milk. If you are
 breast-feeding, or thinking about breast-feeding, you should discuss it with your doctor as soon as
-possible.</p></span>
-</span>
+possible.</p></div>
+</div>
 <p><strong>Driving and using machines</strong></p>
 <p>Biktarvy can cause dizziness. If you feel dizzy when taking Biktarvy, do not drive or ride a bicycle
 and do not use any tools or machines.</p>

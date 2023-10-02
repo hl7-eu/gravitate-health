@@ -169,13 +169,13 @@ Usage: #inline
 <p><strong></strong></p>
 <p>Si toma este medicamento juntamente con alimentos y bebidas que contengan  ácido ox álico (un compuesto presente en espinacas y ruibarbos) o  ácido fítico (presente en el pan integral y cereales) y el fósforo que se encuentra en la leche pueden producirse interacciones, por lo que se aconseja no tomar este medicamento durante las 2 horas siguientes después de haber tomado este tipo de alimentos.</p>
 <p></p>
-<span class="pregnancyCategory"> <p><strong>Embarazo y lactancia</strong></p>
+<div class="pregnancyCategory"> <p><strong>Embarazo y lactancia</strong></p>
 <p></p>
 <p>Si est á embarazada o en periodo de lactancia, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte a su médico o farmacéutico antes de utilizar este medicamento.</p>
 <p></p>
 <p>Debido al contenido en vitamina D (880 UI) de Calcio/Vitamina D3 ROVI, no est á indicado su uso durante el embarazo y la lactancia, ya que la dosis diaria recomendada de vitamina D no debe superar las 600 UI/día.</p>
 <p></p>
-</span>
+</div>
 <p><strong>Conducción y uso de máquinas:</strong></p>
 <p></p>
 <p>No se han descrito efectos sobre la conducción o uso de m áquinas.</p>
