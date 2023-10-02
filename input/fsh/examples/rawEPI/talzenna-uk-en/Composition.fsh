@@ -21,48 +21,6 @@ Usage: #example
 * title = "Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
 * language = #en
 
-* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
-* extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "breastCancer"
-* extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#254837009 "Breast Cancer"
-
-// * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
-// * extension[=].extension[+].url = "elementClass"
-// * extension[=].extension[=].valueString = "allergen"
-// * extension[=].extension[+].url = "concept"
-// * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#277054007 "allergen"
-
-* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
-* extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "contraindication"
-* extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#410536001 "Contraindicated (qualifier value)"
-
-* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
-* extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "Female"
-* extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#248152002 "Female"
-
-* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
-* extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "drugDrugInteraction"
-* extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#404204005 "Drug interaction with drug (finding)"
-
-* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
-* extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "strength025"
-* extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#100 "strength 0.25 mg"
-
-* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
-* extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "strength1"
-* extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#101 "strength 1 mg"
-
 * section[+]
   * title = "Package leaflet: Information for the patient"
   * code = https://www.mhra.gov.uk/#100000155538
@@ -133,7 +91,7 @@ Usage: #example
                             </p>
                             <p>Talzenna is used to treat adults with breast cancer of a type known
                                 as HER2-negative breast cancer who have an abnormal inherited BRCA
-                                gene. </p>
+                                gene.</p>
                             <p>Talzenna is used when the cancer has spread beyond the original
                                 tumour or to other parts of the body.</p> 
                             <p>Your healthcare provider will
@@ -157,11 +115,11 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <ul>
                                     <li>
-                                        <p>If you are allergic to talazoparib or any of the other
-                                            ingredients of this medicine (listed in section 6). </p>
+                                        <p><span class="allergen">If you are allergic to talazoparib or any of the other
+                                            ingredients of this medicine (listed in section 6).</span></p>
                                     </li>
                                     <li>
-                                        <p>If you are breast-feeding. </p>
+                                        <p><span class="breastFeeding">If you are breast-feeding.</span></p>
                                     </li>
                                 </ul>  
   
@@ -541,12 +499,12 @@ Usage: #example
                                             capsules come in different strengths. </p>
                                     </li>
                                     <li>
-                                        <p><span class="contraindication">Talzenna 0.25 mg hard capsules: each capsule contains
+                                        <p><span class="025mg">Talzenna 0.25 mg hard capsules: each capsule contains
                                             talazoparib tosylate equivalent to 0.25 mg talazoparib.</span></p>
                                     </li>
                                     <li>
-                                        <p>Talzenna 1 mg hard capsules: each capsule contains
-                                            talazoparib tosylate equivalent to 1 mg talazoparib.</p>
+                                        <p><span class="1mg">Talzenna 1 mg hard capsules: each capsule contains
+                                            talazoparib tosylate equivalent to 1 mg talazoparib.</span></p>
                                     </li>
                                 </ul>
                                 <p> The other ingredients are: </p>
@@ -557,13 +515,13 @@ Usage: #example
                                             dioxide). </p>
                                     </li>
                                     <li>
-                                        <p>0.25 mg capsule shell: hypromellose (HPMC), yellow iron
-                                            oxide (E172), and titanium dioxide (E171)</p>
+                                        <p><span class="025mg">0.25 mg capsule shell: hypromellose (HPMC), yellow iron
+                                            oxide (E172), and titanium dioxide (E171)</span></p>
                                     </li>
                                     <li>
-                                        <p>1 mg capsule shell: hypromellose (HPMC), yellow iron
+                                        <p><span class="1mg">1 mg capsule shell: hypromellose (HPMC), yellow iron
                                             oxide (E172), titanium dioxide (E171), and red iron
-                                            oxide (E172)</p>
+                                            oxide (E172)</span></p>
                                     </li>
                                 </ul>
                                 <p>Printing ink: shellac (E904), propylene glycol (E1520), ammonium
@@ -578,16 +536,16 @@ Usage: #example
   * code.text = "What X looks like and contents of the pack"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-<p><span class="strength025">Talzenna 0.25 mg is supplied as opaque, approximately 14.30 mm x
+<p><span class="025mg">Talzenna 0.25 mg is supplied as opaque, approximately 14.30 mm x
                                     5.32 mm hard capsule with an ivory cap (printed with “Pfizer” in
                                     black) and a white body (printed with “TLZ 0.25” in black).</span></p>
-                               <p><span class="strength1">Talzenna 1 mg is supplied as opaque, approximately 14.30 mm x
+                               <p><span class="1mg">Talzenna 1 mg is supplied as opaque, approximately 14.30 mm x
                                     5.32 mm hard capsule with a light red cap (printed with “Pfizer”
                                     in black) and a white body (printed with “TLZ 1” in black).</span></p>
-                                <p><span class="strength025">Talzenna 0.25 mg is available in perforated unit dose blister
+                                <p><span class="025mg">Talzenna 0.25 mg is available in perforated unit dose blister
                                     packs of 30, or 60, or 90 hard capsules and in plastic bottles
                                     of 30 hard capsules.</span></p>
-                                <p><span class="strength1">Talzenna 1 mg is available in perforated unit dose blister packs
+                                <p><span class="1mg">Talzenna 1 mg is available in perforated unit dose blister packs
                                     of 30 hard capsules and in plastic bottles of 30 hard capsules.</span></p>
                                 <p>Not all pack sizes may be marketed. </p>
 
