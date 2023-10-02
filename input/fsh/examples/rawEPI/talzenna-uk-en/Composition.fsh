@@ -27,11 +27,17 @@ Usage: #example
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#254837009 "Breast Cancer"
 
+// * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+// * extension[=].extension[+].url = "elementClass"
+// * extension[=].extension[=].valueString = "allergen"
+// * extension[=].extension[+].url = "concept"
+// * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#277054007 "allergen"
+
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "contraindication" //formerly allergen
+* extension[=].extension[=].valueString = "contraindication"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#277054007 "contraindication"
+* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#410536001 "Contraindicated (qualifier value)"
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
