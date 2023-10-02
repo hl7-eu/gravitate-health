@@ -557,7 +557,7 @@ Usage: #example
                                             dioxide). </p>
                                     </li>
                                     <li>
-                                        <p><span class="contraindication">0.25 mg capsule shell: hypromellose (HPMC), yellow iron
+                                        <p>0.25 mg capsule shell: hypromellose (HPMC), yellow iron
                                             oxide (E172), and titanium dioxide (E171)</p>
                                     </li>
                                     <li>
@@ -586,10 +586,10 @@ Usage: #example
                                     in black) and a white body (printed with “TLZ 1” in black).</span></p>
                                 <p><span class="strength025">Talzenna 0.25 mg is available in perforated unit dose blister
                                     packs of 30, or 60, or 90 hard capsules and in plastic bottles
-                                    of 30 hard capsules. </p></span>
+                                    of 30 hard capsules.</span></p>
                                 <p><span class="strength1">Talzenna 1 mg is available in perforated unit dose blister packs
-                                    of 30 hard capsules and in plastic bottles of 30 hard capsules. </p>
-                                <p>Not all pack sizes may be marketed. </span></p>
+                                    of 30 hard capsules and in plastic bottles of 30 hard capsules.</span></p>
+                                <p>Not all pack sizes may be marketed. </p>
 
   </div>"""
 
