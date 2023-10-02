@@ -1,4 +1,155 @@
-Instance: compositionuken
+Instance: bundlePersonalizedPlTalzenna
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
+Description: "Bundle for Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
+Usage: #example
+
+* language = #en
+* identifier.system = "https://www.mhra.gov.uk/" 
+* identifier.value = "talzenna"
+* type = #document
+* timestamp = "2022-03-04T00:00:00Z"
+
+// Composition
+* entry[0].fullUrl = "Composition/compositionUkEnPersonalizedTalzenna"
+* entry[0].resource = compositionUkEnPersonalizedTalzenna
+
+// Organization
+* entry[+].fullUrl = "Organization/orgpfizerukltd1"
+* entry[=].resource = orgpfizerukltd1 
+ 
+// MedicinalProductDefinition
+* entry[+].fullUrl = "MedicinalProductDefinition/mp025mg1"
+* entry[=].resource = mp025mg1
+
+// MedicinalProductDefinition
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1mg1"
+* entry[=].resource = mp1mg1 
+
+
+
+Instance: orgpfizerukltd1
+InstanceOf: OrganizationUvEpi
+Title: "Pfizer Limited as Marketing authorisation holder"
+Description: "Pfizer Limited as Marketing authorisation holder"
+Usage: #example
+
+* identifier.system = $spor-org
+* identifier.value = "ORG-100000789"
+* identifier.use = #official
+
+* active = true
+
+* type = $spor-rms#220000000034  "Marketing authorisation holder"
+* type.text = "Marketing authorisation holder"
+* name = "Pfizer Limited"
+
+* contact
+  * address
+    * text = "Pfizer Limited Ramsgate Road, Sandwich, Kent, CT13 9NJ, United Kingdom"
+    * use = #work
+    * type = #physical
+    * line = "Ramsgate Road"
+    * city = "Sandwich"
+    * country = "UK"
+
+
+
+Instance: mp025mg1
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Talzenna® (talazoparib) 0.25 mg hard capsules"
+Description: "Medicinal Product Talzenna® (talazoparib) 0.25 mg hard capsules"
+Usage: #example
+ 
+* identifier[+].system = "http://www.mhra.gov.uk/"
+* identifier[=].value = "471bb15-7f52-4fcd-b615-8674ce6eb91e"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+* name
+  * productName = "Talzenna® (talazoparib) 0.25 mg hard capsules"
+  * type = $spor-productNamePartType-cs#220000000001
+    * text = "Full name"
+  
+  * part[0]
+    * part = "Talzenna"
+    * type = $spor-productNamePartType-cs#220000000002
+    * type.text = "Invented name part"
+  
+  * part[+]
+    * part = "talazoparib"
+    * type = $spor-productNamePartType-cs#220000000003
+    * type.text = "Scientific name part"
+  
+  * part[+]
+    * part = "0.25 mg"
+    * type = $spor-productNamePartType-cs#220000000004
+    * type.text = "Strength part"
+  
+  * part[+]
+    * part = "Capsule, hard"
+    * type = $spor-productNamePartType-cs#220000000005
+    * type.text = "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#GBR "United Kingdom"
+    * jurisdiction = urn:iso:std:iso:3166#GBR "United Kingdom"
+    * language = urn:ietf:bcp:47#en  "English"
+
+
+Instance: mp1mg1
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Talzenna® (talazoparib) 1 mg hard capsules"
+Description: "Medicinal Product Talzenna® (talazoparib) 1 mg hard capsules"
+Usage: #example
+
+* identifier[+].system = "http://www.mhra.gov.uk/"
+* identifier[=].value = "4471bb15-7f52-4fcd-b615-8674ce6eb91e"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+* name
+  * productName = "Talzenna® (talazoparib) 1 mg hard capsules"
+  * type = $spor-productNamePartType-cs#220000000001
+    * text = "Full name"
+  
+  * part[0]
+    * part = "Talzenna"
+    * type = $spor-productNamePartType-cs#220000000002
+    * type.text = "Invented name part"
+  
+  * part[+]
+    * part = "talazoparib"
+    * type = $spor-productNamePartType-cs#220000000003
+    * type.text = "Scientific name part"
+  
+  * part[+]
+    * part = "1 mg"
+    * type = $spor-productNamePartType-cs#220000000004
+    * type.text = "Strength part"
+  
+  * part[+]
+    * part = "Capsule, hard"
+    * type = $spor-productNamePartType-cs#220000000005
+    * type.text = "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#GBR "United Kingdom"
+    * jurisdiction = urn:iso:std:iso:3166#GBR "United Kingdom"
+    * language = urn:ietf:bcp:47#en  "English"
+
+
+Instance: compositionUkEnPersonalizedTalzenna
 InstanceOf: CompositionUvEpi
 Title: "Composition for Package leaflet: Information for the patient Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
 Description:  "Composition for Package leaflet: Information for the patient Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
@@ -12,11 +163,11 @@ Usage: #example
 * type = https://www.mhra.gov.uk/#100000155538
 * type.text = "Package Leaflet"
 
-* subject[0] = Reference(mp1mg)
-//* subject[+] = Reference(mp025mg) //returns error???
+* subject = Reference(mp1mg1)
+* subject[+] = Reference(mp025mg1)
 
 * date = "2022-03-04T00:00:00Z"
-* author = Reference(org1)
+* author = Reference(orgpfizerukltd1)
 
 * title = "Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
 * language = #en
