@@ -536,8 +536,7 @@ Usage: #example
                                     </li>
                                     <li>
                                         <p><span class="contraindication">Talzenna 0.25 mg hard capsules: each capsule contains
-                                            talazoparib tosylate equivalent to </p>
-                                        <p>0.25 mg talazoparib.</span></p>
+                                            talazoparib tosylate equivalent to 0.25 mg talazoparib.</span></p>
                                     </li>
                                     <li>
                                         <p>Talzenna 1 mg hard capsules: each capsule contains
