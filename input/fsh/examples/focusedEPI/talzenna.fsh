@@ -163,8 +163,8 @@ Usage: #example
 * type = https://www.mhra.gov.uk/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp1mg1)
-* subject[+] = Reference(mp025mg1)
+* subject[0] = Reference(mp1mg1)
+* subject[1] = Reference(mp025mg1)
 
 * date = "2022-03-04T00:00:00Z"
 * author = Reference(orgpfizerukltd1)
