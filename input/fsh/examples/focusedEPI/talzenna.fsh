@@ -1,11 +1,12 @@
-Instance: compositionuken
+Instance: compositionUkEnPersonalized
 InstanceOf: CompositionUvEpi
-Title: "Composition for Package leaflet: Information for the patient Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
-Description:  "Composition for Package leaflet: Information for the patient Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
+Title: "Personalized Composition for Package leaflet: Information for the patient Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
+Description:  "Personalized Composition for Package leaflet: Information for the patient Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
 Usage: #example
+* meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
 * identifier.system = "https://www.mhra.gov.uk/"
-* identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4f"
+* identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4g"
 
 * status = #final
 
@@ -53,9 +54,9 @@ Usage: #example
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "strength1"
+* extension[=].extension[=].valueString = "pregnancyCategory"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#101 "strength 1 mg"
+* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#77386006  "pregnancy Category"
 
 * section[+]
   * title = "Package leaflet: Information for the patient"
@@ -535,13 +536,13 @@ Usage: #example
                                             capsules come in different strengths. </p>
                                     </li>
                                     <li>
-                                        <p><span class="strength025">Talzenna 0.25 mg hard capsules: each capsule contains
+                                        <span class="strength025"><p>Talzenna 0.25 mg hard capsules: each capsule contains
                                             talazoparib tosylate equivalent to </p>
-                                        <p>0.25 mg talazoparib.</span></p>
+                                        <p>0.25 mg talazoparib. </p></span>
                                     </li>
                                     <li>
-                                        <p><span class="strength1">Talzenna 1 mg hard capsules: each capsule contains
-                                            talazoparib tosylate equivalent to 1 mg talazoparib.</span></p>
+                                        <span class="strength1"><p>Talzenna 1 mg hard capsules: each capsule contains
+                                            talazoparib tosylate equivalent to 1 mg talazoparib.</p></span>
                                     </li>
                                 </ul>
                                 <p> The other ingredients are: </p>
@@ -552,13 +553,13 @@ Usage: #example
                                             dioxide). </p>
                                     </li>
                                     <li>
-                                        <p><span class="strength025">0.25 mg capsule shell: hypromellose (HPMC), yellow iron
-                                            oxide (E172), and titanium dioxide (E171)</span></p>
+                                        <span class="strength025"><p>0.25 mg capsule shell: hypromellose (HPMC), yellow iron
+                                            oxide (E172), and titanium dioxide (E171) </p></span>
                                     </li>
                                     <li>
-                                        <p><span class="strength1">1 mg capsule shell: hypromellose (HPMC), yellow iron
+                                        <span class="strength1"><p>1 mg capsule shell: hypromellose (HPMC), yellow iron
                                             oxide (E172), titanium dioxide (E171), and red iron
-                                            oxide (E172)</span></p>
+                                            oxide (E172) </p></span>
                                     </li>
                                 </ul>
                                 <p>Printing ink: shellac (E904), propylene glycol (E1520), ammonium
@@ -573,18 +574,18 @@ Usage: #example
   * code.text = "What X looks like and contents of the pack"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-<p><span class="strength025">Talzenna 0.25 mg is supplied as opaque, approximately 14.30 mm x
+<span class="strength025"><p>Talzenna 0.25 mg is supplied as opaque, approximately 14.30 mm x
                                     5.32 mm hard capsule with an ivory cap (printed with “Pfizer” in
-                                    black) and a white body (printed with “TLZ 0.25” in black).</span></p>
-                               <p><span class="strength1">Talzenna 1 mg is supplied as opaque, approximately 14.30 mm x
+                                    black) and a white body (printed with “TLZ 0.25” in black). </p></span>
+                               <span class="strength1"><p>Talzenna 1 mg is supplied as opaque, approximately 14.30 mm x
                                     5.32 mm hard capsule with a light red cap (printed with “Pfizer”
-                                    in black) and a white body (printed with “TLZ 1” in black).</span></p>
-                                <p><span class="strength025">Talzenna 0.25 mg is available in perforated unit dose blister
+                                    in black) and a white body (printed with “TLZ 1” in black). </p></span>
+                                <span class="strength025"><p>Talzenna 0.25 mg is available in perforated unit dose blister
                                     packs of 30, or 60, or 90 hard capsules and in plastic bottles
                                     of 30 hard capsules. </p></span>
-                                <p><span class="strength1">Talzenna 1 mg is available in perforated unit dose blister packs
+                                <span class="strength1"><p>Talzenna 1 mg is available in perforated unit dose blister packs
                                     of 30 hard capsules and in plastic bottles of 30 hard capsules. </p>
-                                <p>Not all pack sizes may be marketed. </span></p>
+                                <p>Not all pack sizes may be marketed. </p></span>
 
   </div>"""
 
