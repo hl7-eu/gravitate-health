@@ -116,7 +116,7 @@ Description: "List of Dovato Package Leaflets"
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
-  * item = Reference(processedbundledovato-en) // dovato en
+  * item = Reference(bundlepackageleaflet-0ea7cb60ce178124a5eca40942ba8f42) // dovato en
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
@@ -127,7 +127,7 @@ Description: "List of Dovato Package Leaflets"
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2016-02-07T13:28:17Z"
-  * item = Reference(processedbundledovato-es) // dovato es
+  * item = Reference(bundlepackageleaflet-f98744933a164dfc1d0bf89825ebfca1) // dovato es
 
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PROSPECTO"
