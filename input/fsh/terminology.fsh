@@ -70,8 +70,8 @@ Description:  "Questionnaire example Dimensions"
     "Employed non Manual"
 
 
-ValueSet: DLCategoryVS
-Id:         dl-category-vs
+ValueSet: ThreepointCategoryVS
+Id:         3point-category-vs
 
 * questi-dimens-cs#Low
 * questi-dimens-cs#Medium
