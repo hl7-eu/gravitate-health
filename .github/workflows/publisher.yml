@@ -47,7 +47,12 @@ jobs:
       - name: Run the FHIR validator
         run: java -jar validator_cli.jar ./fsh-generated/resources -version 5.0.0 -output data-validation-compact.html -output-style compact -level errors -allow-example-urls true -level errors -ig hl7.fhir.uv.emedicinal-product-info
 
-
+        
+      - name: en_US.UTF-8
+        run: |
+            sudo locale-gen en_US.UTF-8
+            sudo update-locale LANG=en_US.UTF-8
+            
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
         with:
