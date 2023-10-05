@@ -9,7 +9,8 @@ def test_focusing_pregnancy():
     # returns JSON object as 
     # a dictionary
     #data = json.load(f)
-    x=requests.post("http://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1")
+    x=requests.post("http://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_pregnancy&patientIdentifier=alicia-1")
+    print(x.text)
     assert x.status_code == 200
     
     
