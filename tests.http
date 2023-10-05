@@ -1,28 +1,26 @@
 
-## List all available preprocessors
+### List all available preprocessors
 
 GET https://fosps.gravitatehealth.eu/focusing/preprocessing
 
-## List All available lenses
+### List All available lenses
 
 GET https://fosps.gravitatehealth.eu/focusing/lenses
 
-## testing focusing lens pregancy DIV (epi raw)
 
 
-POST http://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_pregnancy&patientIdentifier=alicia-1
-
-## testing focusing lens pregancy DIV (epi preprocessed)
-
-
-POST http://fosps.gravitatehealth.eu/focusing/focus/processedbundledovato-en?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_pregnancy&patientIdentifier=alicia-1
-
-## testing focusing lens pregancy MVP2
+### testing focusing lens pregancy MVP2 with DIV - doesnt work
 
 POST http://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1
 
 
-## testing focusing lens pregancy DIV
+### testing focusing lens pregancy DIV with DIV - should work
+
+POST http://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_pregnancy&patientIdentifier=alicia-1
+
+### testing focusing lens pregancy DIV (epi preprocessed) with DIV - works
 
 
-POST http://fosps.gravitatehealth.eu/focusing/focus/preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1
+POST http://fosps.gravitatehealth.eu/focusing/focus/processedbundledovato-en?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_pregnancy&patientIdentifier=alicia-1
+
+
