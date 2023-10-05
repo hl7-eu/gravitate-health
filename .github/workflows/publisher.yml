@@ -49,11 +49,7 @@ jobs:
       
 
       - name: Run the FHIR validator
-        run: |
-          export LANG=en_US.UTF-8
-          export LANGUAGE=en_US.UTF-8
-          export LC_ALL=en_US.UTF-8
-          java -jar validator_cli.jar ./fsh-generated/resources -version 5.0.0 -output data-validation-compact.html -output-style compact -level errors -allow-example-urls true -level errors -ig hl7.fhir.uv.emedicinal-product-info -locale en-US
+        run: java -jar validator_cli.jar ./fsh-generated/resources -version 5.0.0 -output data-validation-compact.html -output-style compact -level errors -allow-example-urls true -level errors -ig hl7.fhir.uv.emedicinal-product-info -locale en-US > /Dev/Null 
 
         
 

@@ -8,10 +8,20 @@ GET https://fosps.gravitatehealth.eu/focusing/preprocessing
 GET https://fosps.gravitatehealth.eu/focusing/lenses
 
 
+### testing focusing lens pregancy MVP2 with DIV - doesnt work
+
+GET https://fosps.gravitatehealth.eu/ips/api/fhir/Composition?subject.identifier=alicia-1
+
+
 
 ### testing focusing lens pregancy MVP2 with DIV - doesnt work
 
 POST http://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1
+
+### testing focusing lens pregancy MVP2 with DIV - doesnt work
+
+POST http://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=Cecilia-1
+
 
 
 ### testing focusing lens pregancy DIV with DIV - should work
@@ -36,3 +46,6 @@ GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle/bundlepackageleaflet-2d
 
 POST http://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_diabetes&patientIdentifier=Cecilia-1
 
+### no lens nor preprocessor nor patient    
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/processedbundledovato-en
