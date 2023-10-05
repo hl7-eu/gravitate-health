@@ -3,8 +3,14 @@ import requests
 import json
 
 def test_focusing_pregnancy():
-    data=json.load("../fsh-generated/resources/Bundle-processedbundledovato-en.json")
-
+    # Opening JSON file
+    f = open('../fsh-generated/resources/Bundle-processedbundledovato-en.json')
+    
+    # returns JSON object as 
+    # a dictionary
+    data = json.load(f)
+    x=requests.post("http://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1")
+    return True
     
 #def test_calculate_area_square_negative():  
 #    with pytest.raises(TypeError):  
