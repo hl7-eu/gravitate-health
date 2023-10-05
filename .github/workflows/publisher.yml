@@ -1,7 +1,7 @@
 # This is a simple workflow that runs the publisher and copies the output to https://<owner>.github.io/<repo>/index.html
 # Based on the idea from Carl Leitner, first implemented by Elliot Silver, available from: https://www.argentixinfo.com/archives/156
 
-name: CI
+name: Publisher and validator Test
 
 # Controls when the action will run. 
 on: 
@@ -30,26 +30,6 @@ jobs:
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-#      - name: Create gh-pages branch if it doesn't exist
-#        run: |
-#          exists=$(git ls-remote --heads origin gh-pages | wc -l)
-#          if [ "$exists" -eq "0" ]; then
-#            echo 'gh-pages branch does not exist, creating it'
-      
-#            # Set placeholder user name and email for Git
-#            git config user.email "automation@example.com"
-#            git config user.name "Automation bot"
-
-#            git checkout --orphan gh-pages
-#            git reset --hard
-#            git commit --allow-empty -m "create gh pages"
-#            git push origin gh-pages
-#          else
-#            echo 'gh-pages branch exists'
-#          fi
-#      - uses: actions/checkout@v3
-      
       - name: Update the image to the latest publisher
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
@@ -62,15 +42,10 @@ jobs:
           args: java -jar ./input-cache/publisher.jar publisher -ig .
 
       - name: Download validator-cli
-        uses: docker://hl7fhir/ig-publisher-base:latest
-        with:
-          # Get the latest publisher - don't run the batch script but run the line directly
-          args: curl -L https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar -o validator_cli.jar
+        run: curl -L https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar -o validator_cli.jar
 
       - name: Run the FHIR validator
-        uses: docker://hl7fhir/ig-publisher-base:latest
-        with:
-          args: java -jar validator_cli.jar ./fsh-generated/resources -version 5.0.0 -output data-validation-compact.html -output-style compact -level errors -allow-example-urls true -level errors -ig hl7.fhir.uv.emedicinal-product-info
+        run: java -jar validator_cli.jar ./fsh-generated/resources -version 5.0.0 -output data-validation-compact.html -output-style compact -level errors -allow-example-urls true -level errors -ig hl7.fhir.uv.emedicinal-product-info
 
 
       - name: Archive production artifacts
