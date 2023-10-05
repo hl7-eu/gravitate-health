@@ -71,3 +71,11 @@ jobs:
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
           args: java -jar validator_cli.jar ./fsh-generated/resources -version 5.0.0 -output data-validation-compact.html -output-style compact -level errors -allow-example-urls true -level errors -ig hl7.fhir.uv.emedicinal-product-info
+
+
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: validation-report
+          path: data-validation-compact.html
+          retention-days: 5

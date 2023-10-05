@@ -10,17 +10,24 @@ The definition of the several steps in the processing pipeline:
 <br clear="all"/>
 
 
-The focusing mechanism is complex and can be understood as a multi-step process:
+The focusing mechanism is complex and can be understood as a multistep process:
 1. first the lenses are attached - x(ePI)
 2. the persona vector and IPS and consulted/consumed - x'(ePI)
 3. the necessary data elements are attached (CSS classes to certain DIVs) - f(ePI)
 
-This will created a focused ePI that can be used to show personalized information to the user.
+This will create a focused ePI that can be used to show personalized information to the user.
 
 Diagram:
 <div>{% include e2e-focusing.svg %}</div>
 <br clear="all"/>
 
+## Current developments
+
+The current definition for the FOSPS is here:
+
+https://fosps.gravitatehealth.eu/swagger-fosps/?urls.primaryName=Focusing%20Manager#/Lenses/post_focusing_focus__epiId
+
+Example requests in the github.
 
 ## Example lenses
 
@@ -35,3 +42,5 @@ FOR ALL \<hiperglucemia\> IF patient’s IPS contains \<diabetes\>  THEN add Hig
 2. FOR ALL \<oral intake\> IF patient.literacy is not high THEN add hover overlay with oral intake advice
 3. FOR ALL \<injectable\> IF patient.literacy is low THEN add icon 
 4. FOR ALL \<oral intake\> IF patient.literacy is low THEN add icon
+
+

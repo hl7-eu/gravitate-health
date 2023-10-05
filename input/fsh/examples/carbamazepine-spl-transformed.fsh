@@ -1,4 +1,4 @@
-Alias: $ = https://spor.ema.europa.eu/rmswi/
+/*Alias: $ = https://spor.ema.europa.eu/rmswi/
 Alias: $epicategory-cs = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs
 Alias: $list-empty-reason = http://terminology.hl7.org/CodeSystem/list-empty-reason
 Alias: $codesystem-organizationTypes = http://hl7.org/fhir/us/spl/CodeSystem/codesystem-organizationTypes
