@@ -1,4 +1,5 @@
-/*Alias: $ = https://spor.ema.europa.eu/rmswi/
+/*
+Alias: $ = https://spor.ema.europa.eu/rmswi/
 Alias: $epicategory-cs = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs
 Alias: $list-empty-reason = http://terminology.hl7.org/CodeSystem/list-empty-reason
 Alias: $codesystem-organizationTypes = http://hl7.org/fhir/us/spl/CodeSystem/codesystem-organizationTypes
@@ -1395,3 +1396,6 @@ Usage: #inline
 * region = urn:iso:std:iso:3166#USA
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"
 * holder = Reference(http://example.org/Organization/Establishment-600072078)
+
+
+*/
