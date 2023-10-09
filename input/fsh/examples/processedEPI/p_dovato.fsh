@@ -202,8 +202,8 @@ lactitol or maltitol), if taken regularly</li>
 <li>rifampicin, to treat tuberculosis (TB) and other bacterial infections</li>
 <li>phenytoin and phenobarbital, to treat epilepsy</li>
 <li>oxcarbazepine and carbamazepine, to treat epilepsy or bipolar disorder</li>
-<div class="contra-indication-hypericum"><li><p>St. John’s wort (Hypericum perforatum), a herbal remedy to treat depression.</p>
-</li></div>
+<li class="contra-indication-hypericum"><p>St. John’s wort (Hypericum perforatum), a herbal remedy to treat depression.</p>
+</li>
 <li><p>Tell your doctor or pharmacist if you are taking any of these. Your doctor may decide to adjust
 your dose or that you need extra check ups.</p>
 </li>
