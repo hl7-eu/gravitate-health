@@ -156,7 +156,7 @@ sclerosis).</li>
 Warnings and precautions
 Some people taking Dovato or other combination treatments for HIV are more at risk of serious side effects
 than others. You need to be aware of the extra risks:</li>
-<li><div class="liver">if you have moderate or severe liver disease </div>
+<li><span class="liver">if you have moderate or severe liver disease </span>
 if you have ever had liver disease, including hepatitis B or C (if you have hepatitis B infection, don’t
 stop Dovato without your doctor’s advice, as your hepatitis may come back)
 • if you have a kidney problem.
