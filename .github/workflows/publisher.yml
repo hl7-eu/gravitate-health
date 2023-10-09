@@ -49,12 +49,13 @@ jobs:
       
 
       - name: Run the FHIR validator
-        run: java -jar validator_cli.jar ./fsh-generated/resources -version 5.0.0 -output data-validation-compact.html -output-style compact -allow-example-urls true -level errors -ig hl7.fhir.uv.emedicinal-product-info -locale en-US || true
+        run: java -jar validator_cli.jar ./fsh-generated/resources -version 5.0.0 -output data-validation-compact.html -output-style compact -allow-example-urls true -level errors -ig hl7.fhir.uv.emedicinal-product-info -locale en-US 
 
         
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
+        if: true
         with:
           name: validation-report
           path: data-validation-compact.html
