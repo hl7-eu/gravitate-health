@@ -28,12 +28,7 @@ Usage: #inline
 * extension[=].extension[=].valueString = "pregnancyCategory"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#77386006 "Pregnancy"
-
-* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
-* extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "pregnancyCategory"
-* extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = https://icpc2.icd.com/#W78 "Pregnancy"
+* extension[=].extension[=].valueCodeableReference.concept.coding[+] = https://icpc2.icd.com/#W78 "Pregnancy"
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"

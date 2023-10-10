@@ -43,4 +43,4 @@ Usage: #example
   * usage
     * country = urn:iso:std:iso:3166#JP
     * jurisdiction = urn:iso:std:iso:3166#JP
-    * language = urn:ietf:bcp:47#JA
+    * language = urn:ietf:bcp:47#ja
