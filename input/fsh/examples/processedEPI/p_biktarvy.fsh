@@ -133,8 +133,8 @@ inhibitor (NRTI)</li>
 <li>tenofovir alafenamide, an antiretroviral medicine of a type known as a nucleotide reverse
 transcriptase inhibitor (NtRTI)</li>
 </ul>
-<p>Biktarvy is a single tablet for the treatment <div class="indication">of human immunodeficiency virus 1 (HIV-1) infection in
-adults, adolescents and children 2 years of age and older, who weigh at least 14 kg.</div></p>
+<p>Biktarvy is a single tablet for the treatment <span class="indication">of human immunodeficiency virus 1 (HIV-1) infection in
+adults, adolescents and children 2 years of age and older, who weigh at least 14 kg.</span></p>
 <p>Biktarvy reduces the amount of HIV in your body. This will improve your immune system and reduce
 the risk of developing illnesses linked to HIV infection.</p>         </div>"""   
           
@@ -152,8 +152,8 @@ ingredients of this medicine (listed in section 6).</li>
 <li><p>If you are currently taking any of the following medicines:</p>
 <ul>
 <li>rifampicin used to treat some bacterial infections such as tuberculosis</li>
-<li><div class="contra-indication-hypericum">St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and
-anxiety, or products that contain it.</div></li>
+<li><span class="contra-indication-hypericum">St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and
+anxiety, or products that contain it.</span></li>
 </ul>
 </li>
 <li><p>If any of these apply to you, <strong>do not take Biktarvy and tell your doctor immediately.</strong></p>
