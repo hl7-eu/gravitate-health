@@ -65,6 +65,13 @@ The persona dimension can be delivered either as a `Bundle` or by using an `Iden
 * parameter[=].documentation = "Persona Vector Identifier"
 * parameter[=].type = #Identifier
 
+* parameter[+].name = #language
+* parameter[=].use = #in
+* parameter[=].min = 0
+* parameter[=].max = "1"
+* parameter[=].documentation = "Language of the ePI. The code must be picked from https://hl7.org/fhir/valueset-languages.html. Defaults to english if none is provided."
+* parameter[=].type = #Coding
+
 * parameter[+].name = #returnEpi
 * parameter[=].use = #out
 * parameter[=].min = 1
@@ -78,7 +85,6 @@ The persona dimension can be delivered either as a `Bundle` or by using an `Iden
 * parameter[=].max = "1"
 * parameter[=].documentation = "Focused epi Bundle extracts"
 * parameter[=].type = #Bundle
-
 
 
 
