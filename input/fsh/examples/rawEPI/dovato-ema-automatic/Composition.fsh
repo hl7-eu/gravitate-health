@@ -561,13 +561,69 @@ Usage: #example
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
   <b>2. Qué necesita saber antes de empezar a tomar Dovato</b>
-  <b>No tome Dovato</b>
-  <ul>
-    <li>si es <b>alérgico</b> (hipersensible) a dolutegravir o lamivudina o a alguno de los demás
-  componentes de este medicamento (incluidos en la sección 6)</li>
-    <li>si está tomando un medicamento llamado <b>fampridina</b> (también conocido como
-  dalfampridina; utilizado para tratar la esclerosis múltiple).</li>
-  </ul>
+<p><strong>No tome Dovato</strong></p>
+<ul>
+<li>si es alérgico (hipersensible) a dolutegravir o lamivudina o a alguno de los demás componentes de este medicamento (incluidos en la sección 6)</li>
+<li>si está tomando un medicamento llamado fampridina (también conocido como dalfampridina; utilizado para tratar la esclerosis múltiple).</li>
+</ul>
+<p>? Si cree que algo de esto le aplica, consulte a su médico.</p>
+<p><strong>Advertencias y precauciones</strong>
+Algunas personas que toman Dovato u otros tratamientos combinados frente al VIH tienen un mayor riesgo de desarrollar efectos adversos graves que otras. Usted necesita saber que hay un mayor riesgo:</p>
+<ul>
+<li><span class="liver">si tiene una enfermedad hepática moderada o grave</span></li>
+<li>si alguna vez ha tenido una enfermedad hepática, incluyendo hepatitis B o C (si tiene hepatitis B no deje de tomar Dovato sin el consejo de su médico, ya que podría empeorar)</li>
+<li>si tiene un problema de riñón.</li>
+</ul>
+<p>? Consulte a su médico antes de empezar a tomar Dovato si le aplica alguna de estas condiciones. Puede necesitar pruebas adicionales, incluyendo análisis de sangre, mientras toma este medicamento. Para más información, ver sección 4.</p>
+<p><em>Reacciones alérgicas</em></p>
+<p>Dovato contiene dolutegravir. Dolutegravir puede producir una reacción alérgica grave conocida como reacción de hipersensibilidad. Usted necesita saber a qué signos y síntomas importantes debe estar atento mientras esté tomando Dovato.</p>
+<p>? Lea la información “Reacciones alérgicas” en la sección 4 de este prospecto.</p>
+<p><em>Esté atento a los síntomas importantes</em></p>
+<p>Algunas personas que toman medicamentos para la infección por el VIH desarrollan otros trastornos, que pueden ser graves. Estos incluyen:</p>
+<ul>
+<li>síntomas de infecciones e inflamación</li>
+<li>dolor en las articulaciones, rigidez y problemas de huesos.</li>
+</ul>
+<p>Usted necesita saber a qué signos y síntomas importantes debe estar atento mientras esté tomando Dovato.</p>
+<p>? Lea la información sobre “Otros posibles efectos adversos” en la sección 4 de este prospecto.</p>
+<p><strong>Niños</strong></p>
+<p>Este medicamento no está indicado en niños menores de 12 años, porque no ha sido estudiado en estos pacientes.</p>
+<p><strong>Otros medicamentos y Dovato</strong>
+Informe a su médico si está tomando, ha tomado recientemente o pudiera tener que tomar cualquier otro medicamento.</p>
+<p>No tome Dovato con el siguiente medicamento:</p>
+<ul>
+<li>fampridina (también conocido como dalfampridina), utilizado para tratar la esclerosis múltiple.</li>
+</ul>
+<p>Algunos medicamentos pueden afectar al funcionamiento de Dovato o aumentar la probabilidad de sufrir efectos adversos. Dovato también puede afectar al funcionamiento de algunos otros medicamentos.</p>
+<p>Informe a su médico si está tomando alguno de los siguientes medicamentos:</p>
+<ul>
+<li>metformina, para tratar la diabetes</li>
+<li>medicamentos llamados antiácidos, para tratar la indigestión y el ardor de estómago. No tome un antiácido durante las 6 horas antes de tomar Dovato, o por lo menos 2 horas después de tomarlo (ver también sección 3, “Cómo tomar Dovato”).</li>
+<li>suplementos o multivitamínicos que contienen calcio, hierro o magnesio. Si toma Dovato con comida, puede tomar los suplementos o multivitamínicos que contengan calcio, hierro o magnesio a la vez que Dovato. Si no toma Dovato con comida, no puede tomar un suplemento o multivitamínico que contenga calcio, hierro o magnesio durante las 6 horas antes de tomar Dovato, o por lo menos 2 horas después de tomarlo (ver también sección 3, “Cómo tomar Dovato”).</li>
+<li>emtricitabina, etravirina, efavirenz, nevirapina o tipranavir/ritonavir, para tratar la infección por el VIH
+medicamentos (generalmente líquidos) que contengan sorbitol y otros polialcoholes (como xilitol, manitol, lactitol o maltitol), si se toman con regularidad</li>
+<li>cladribina, utilizada para tratar la leucemia o la esclerosis múltiple</li>
+<li>rifampicina, para tratar la tuberculosis (TB) y otras infecciones bacterianas</li>
+<li>fenitoína y fenobarbital, para tratar la epilepsia</li>
+<li>oxcarbazepina y carbamazepina, para tratar la epilepsia o el trastorno bipolar</li>
+<li class="contra-indication-hypericum">hierba de San Juan (Hypericum perforatum), un medicamento a base de plantas para tratar la depresión.</li>
+</ul>
+<p>? Informe a su médico o farmacéutico si está tomando alguno de estos medicamentos. Su médico puede decidir ajustar su dosis o que usted necesite chequeos adicionales.</p>
+<div class="pregnancyCategory"><p><strong>Embarazo</strong></p>
+<p>Si está embarazada, cree que podría estar embarazada o tiene intención de quedarse embarazada:</p>
+<p>? Consulte a su médico sobre los riegos y beneficios de tomar Dovato.</p>
+<p>Tomar Dovato en el momento de quedarse embarazada o durante las primeras seis semanas de embarazo puede aumentar el riesgo de un defecto de nacimiento, denominado defecto del tubo neural, como la espina bífida (malformación de la médula espinal).</p>
+<p>Si existe la posibilidad de quedarse embarazada mientras está tomando Dovato:</p>
+<p>? Consulte a su médico y valore si existe la necesidad de utilizar un método anticonceptivo, como preservativos o anticonceptivos orales.</p>
+<p>Informe a su médico de inmediato si se queda embarazada o tiene intención de quedarse embarazada. Su médico revisará su tratamiento. No interrumpa el tratamiento con Dovato sin consultar a su médico, ya que esto podría dañarles a usted y a su hijo.</p>
+<p><strong>Lactancia</strong></p>
+<p><strong>No se recomienda</strong> que las mujeres que conviven con el VIH den el pecho porque la infección por VIH puede transmitirse al bebé a través de la leche materna.</p>
+<p>Una pequeña cantidad de los componentes de Dovato también pueden pasar a la leche materna.</p>
+<p>Si está dando el pecho o piensa en dar el pecho, debe consultar con su médico lo antes posible.</p></div>
+<p><strong>Conducción y uso de máquinas</strong>
+Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos que reduzcan su atención.</p>
+<p>No conduzca ni maneje maquinaria, a menos que esté seguro que no está afectado.</p>
+
   </div>"""
 
    
