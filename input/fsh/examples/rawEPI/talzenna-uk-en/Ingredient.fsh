@@ -13,6 +13,7 @@ Usage: #example
 * status = #active
 
 * role = $spor-rms#100000072072 "Active"
+* allergenicIndicator = false
 
 * substance.code.concept.coding = $ginas#9QHX048FRV "TALAZOPARIB"
 * substance.strength.presentationQuantity.value = 0.25
@@ -42,6 +43,7 @@ Usage: #example
 * status = #active
 
 * role = $spor-rms#100000072072 "Active"
+* allergenicIndicator = false
 
 * substance.code.concept.coding = $ginas#9QHX048FRV "TALAZOPARIB"
 * substance.strength.presentationQuantity.value = 1
@@ -67,6 +69,7 @@ Usage: #example
 * identifier.use = #official
 
 * role = $spor-rms#100000072082 "Excipient"
+* allergenicIndicator = false
 
 * status = #active
 
@@ -90,6 +93,7 @@ Usage: #example
 * identifier.use = #official
 
 * role = $spor-rms#100000072082 "Excipient"
+* allergenicIndicator = false
 
 * status = #active
 
@@ -115,6 +119,7 @@ Usage: #example
 * identifier.use = #official
 
 * role = $spor-rms#100000072082 "Excipient"
+* allergenicIndicator = false
 
 * status = #active
 
@@ -140,6 +145,7 @@ Usage: #example
 * identifier.use = #official
 
 * role = $spor-rms#100000072082 "Excipient"
+* allergenicIndicator = false
 
 * status = #active
 
@@ -165,7 +171,8 @@ Usage: #example
 * identifier.value = "15FIX9V2JP"
 * identifier.use = #official
 
-* role = $spor-rms#100000072082 "Excipient"
+* role = $spor-rms#100000072082 "Excipient" 
+* allergenicIndicator = false
 
 * status = #active
 
@@ -191,6 +198,7 @@ Usage: #example
 * identifier.use = #official
 
 * role = $spor-rms#100000072082 "Excipient"
+* allergenicIndicator = false
 
 * status = #active
 
@@ -216,6 +224,7 @@ Usage: #example
 * identifier.use = #official
 
 * role = $spor-rms#100000072082 "Excipient"
+* allergenicIndicator = false
 
 * status = #active
 
@@ -241,6 +250,7 @@ Usage: #example
 * identifier.use = #official
 
 * role = $spor-rms#100000072082 "Excipient"
+* allergenicIndicator = false
 
 * status = #active
 
@@ -266,6 +276,7 @@ Usage: #example
 * identifier.use = #official
 
 * role = $spor-rms#100000072082 "Excipient"
+* allergenicIndicator = false
 
 * status = #active
 
@@ -291,6 +302,7 @@ Usage: #example
 * identifier.use = #official
 
 * role = $spor-rms#100000072082 "Excipient"
+* allergenicIndicator = false
 
 * status = #active
 
@@ -316,6 +328,7 @@ Usage: #example
 * identifier.use = #official
 
 * role = $spor-rms#100000072082 "Excipient"
+* allergenicIndicator = false
 
 * status = #active
 
