@@ -1,7 +1,14 @@
 {% for index,row in data["data"].iterrows() %}
 {% if row["skip"] not in ['y', 'Y', 'x', 'X'] %}
 
-Instance: composition{{row["name"]| regex_replace('[^A-Za-z0-9]+', '')| create_hash_id}}
+{% set ns = namespace() %}
+{% if row["language"]  %}
+{% set ns.language = row["language"] %}
+{% else %}
+{% set ns.language = en %}
+{% endif %}
+
+Instance: composition-{{ns.language}}-{{row["name"]| regex_replace('[^A-Za-z0-9]+', '')| create_hash_id}}
 InstanceOf: CompositionUvEpi
 Title: "Composition for {{row['name']}} Package Leaflet"
 Description:  "Composition for {{row['name']}} Package Leaflet"

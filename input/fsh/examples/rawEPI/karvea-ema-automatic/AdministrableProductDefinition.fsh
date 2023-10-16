@@ -5,7 +5,7 @@ Title: "Administrable product Karvea 75mg tablet"
 Description: "Karvea 75mg tablet"
 Usage: #example
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/97/049/001" 
 
 * status = #active
