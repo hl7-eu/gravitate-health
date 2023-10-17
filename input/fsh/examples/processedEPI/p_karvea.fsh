@@ -1323,7 +1323,7 @@ Europeia de Medicamentos <a href="http://www.ema.europa.eu/">http://www.ema.euro
 
 
 
-Instance: bundlepa-processed-pt-2d49ae46735143c1323423b7aea24165
+Instance: bundle-processed-pt-2d49ae46735143c1323423b7aea24165
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Karvea 75 mg Package Leaflet for language pt"
 Description: "Bundle for Karvea 75 mg Package Leaflet ePI document"

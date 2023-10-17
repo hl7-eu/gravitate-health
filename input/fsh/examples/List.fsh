@@ -44,7 +44,7 @@ Description: "List of Karvea Package Leaflets"
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
-  * item = Reference(bundlepackageleaflet-2d49ae46735143c1323423b7aea24165) // karvea
+  * item = Reference(bundlepackageleaflet-pt-2d49ae46735143c1323423b7aea24165) // karvea
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
@@ -174,7 +174,7 @@ Description: "List of Dovato Package Leaflets"
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
-  * item = Reference(bundle-processed-pt-2d49ae46735143c1323423b7aea24165) // karvea pt raw
+  * item = Reference(bundle-processed-pt-2d49ae46735143c1323423b7aea24165) // karvea pt preprocessed
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
@@ -185,7 +185,7 @@ Description: "List of Dovato Package Leaflets"
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2016-02-07T13:28:17Z"
-  * item = Reference(Processedbundlekarvea) // karvea en raw
+  * item = Reference(bundle-processed-en-2d49ae46735143c1323423b7aea24165) // karvea en preprocessed
 
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. FOLHETO INFORMATIVO"

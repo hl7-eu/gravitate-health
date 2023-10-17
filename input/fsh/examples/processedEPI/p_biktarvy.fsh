@@ -464,8 +464,8 @@ The silica gel desiccant is contained in a separate sachet or canister and shoul
 
 Instance: processedbundlekarveabik
 InstanceOf: BundleUvEpi
-Title: "[Preprocessed] ePI document for Karvea 75 mg Package Leaflet"
-Description: "[Preprocessed] Bundle for Karvea 75 mg Package Leaflet ePI document"
+Title: "[Preprocessed] ePI document for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
+Description: "[Preprocessed] Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet ePI document"
 Usage: #example
 
 * language = #en
