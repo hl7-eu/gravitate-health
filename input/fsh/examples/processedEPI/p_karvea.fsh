@@ -51,9 +51,9 @@ Usage: #inline
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "contra-indication-pregancy"
+* extension[=].extension[=].valueString = "contra-indication-pregnancy"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.reference = Reference(contraindication-pregancy)
+* extension[=].extension[=].valueCodeableReference.reference = Reference(contraindication-pregnancy)
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
@@ -144,7 +144,7 @@ Usage: #inline
            <div class="contraindication"> <b>Do not take Karvea</b>
             <ul>
                 <li>if you are allergic to irbesartan or any other ingredients of this medicine (listed in section 6)</li>
-               <li class="contra-indication-pregancy">if you are more than 3 months pregnant. (It is also better to avoid Karvea in early pregnancy –
+               <li class="contra-indication-pregnancy">if you are more than 3 months pregnant. (It is also better to avoid Karvea in early pregnancy –
                     see pregnancy section)</li>
                 <li><b><span class="contra-indication-diabetes-mellitus">if you have diabetes </span> or <span class="contra-indication-kidney">impaired kidney function</span></b> and you are treated with a blood pressure
                     lowering medicine containing aliskiren.</li>
@@ -523,13 +523,13 @@ Usage: #inline
 
 
 
-Instance: contraindication-pregancy
+Instance: contraindication-pregnancy
 InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
-Description: "contraindication - pregancy"
+Description: "contraindication - pregnancy"
 Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
-* identifier.value = "pregancy"
+* identifier.value = "pregnancy"
 * identifier.use = #official
 
 * type = #contraindication
@@ -659,8 +659,8 @@ Usage: #example
 * entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
 * entry[=].resource = contraindication-diabetes-mellitus
 
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
-* entry[=].resource = contraindication-pregancy
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregnancy"
+* entry[=].resource = contraindication-pregnancy
 
 
 
@@ -912,9 +912,9 @@ Usage: #example
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "contra-indication-pregancy"
+* extension[=].extension[=].valueString = "contra-indication-pregnancy"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.reference = Reference(contraindication-pregancy)
+* extension[=].extension[=].valueCodeableReference.reference = Reference(contraindication-pregnancy)
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
@@ -1013,7 +1013,7 @@ laboratorial de insuficiência dos rins. </li>
 <ul>
 <li>se tem alergia ao irbesartan ou a qualquer outro componente deste medicamento (indicados na
 secção 6).</li>
-<li class="contra-indication-pregancy">se tiver mais do que três meses de gravidez. (Também é preferível não tomar Karvea no início
+<li class="contra-indication-pregnancy">se tiver mais do que três meses de gravidez. (Também é preferível não tomar Karvea no início
 da gravidez - ver secção Gravidez</li>
 <li><span class="contra-indication-diabetes-mellitus">se tem diabetes </span>ou <span class="contra-indication-kidney">função renal diminuída</span> e está a ser tratado com um medicamento que contém
 aliscireno para diminuir a pressão arterial</li>
