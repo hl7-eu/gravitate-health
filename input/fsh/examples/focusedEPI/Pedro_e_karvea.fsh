@@ -53,7 +53,7 @@ Usage: #inline
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "contra-indication-pregancy"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.reference = Reference(contraindication-pregancy)
+* extension[=].extension[=].valueCodeableReference.reference = Reference(contraindication-pregnancy)
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
@@ -541,69 +541,7 @@ Usage: #example
 * entry[0].fullUrl = "Composition/enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8"
 * entry[0].resource = enhancedcompositionf4d45353edcb21af3718d3a0df94a4d8
 
- 
-// ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/cud-a40c2367ed3c1c715eacd432105752a0"
-* entry[=].resource = cud-a40c2367ed3c1c715eacd432105752a0 
-// ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400"
-* entry[=].resource = cud-585e364c14debe29f6c6b564138aa400 
-// ClinicalUseDefinition
-* entry[+].fullUrl = "ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8"
-* entry[=].resource = cud-4fce9d5258f70f7d605059f97c24efa8 
-
-
-// Ingredient
-* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-hypromellose"
-* entry[=].resource = ingredient-for-karvea-hypromellose 
-// Ingredient
-* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-macrogol3000"
-* entry[=].resource = ingredient-for-karvea-macrogol3000 
-// Ingredient
-* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-lactosemonohydrate"
-* entry[=].resource = ingredient-for-karvea-lactosemonohydrate 
-// Ingredient
-* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-silicondioxide"
-* entry[=].resource = ingredient-for-karvea-silicondioxide 
-// Ingredient
-* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-titaniumdioxide"
-* entry[=].resource = ingredient-for-karvea-titaniumdioxide 
-// Ingredient
-* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-irbesartan"
-* entry[=].resource = ingredient-for-karvea-irbesartan 
-// Ingredient
-* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-croscarmellosesodium"
-* entry[=].resource = ingredient-for-karvea-croscarmellosesodium 
-// Ingredient
-* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-microcrystallinecellulose"
-* entry[=].resource = ingredient-for-karvea-microcrystallinecellulose 
-// Ingredient
-* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-magnesiumstearate"
-* entry[=].resource = ingredient-for-karvea-magnesiumstearate 
-// Ingredient
-* entry[+].fullUrl = "Ingredient/ingredient-for-karvea-carnaubawax"
-* entry[=].resource = ingredient-for-karvea-carnaubawax 
-// Substance
-* entry[+].fullUrl = "SubstanceDefinition/substance-irbesartan"
-* entry[=].resource = substance-irbesartan 
-// AdministrableProductDefinition
-* entry[+].fullUrl = "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
-* entry[=].resource = ap-dcaa4d32aa6658a8df831551503e52ee 
-// RegulatedAuthorization
-* entry[+].fullUrl = "RegulatedAuthorization/authorization56d67fa637872ea5cc70adebbfde3adf"
-* entry[=].resource = authorization56d67fa637872ea5cc70adebbfde3adf 
-// Organization
-* entry[+].fullUrl = "Organization/mah-511671db37e83e520b00f8a0d817dc96"
-* entry[=].resource = mah-511671db37e83e520b00f8a0d817dc96 
-// PackagedProductDefinition
-* entry[+].fullUrl = "PackagedProductDefinition/ppd-2bcdfdf1d11850dc6baf092ed464d398"
-* entry[=].resource = ppd-2bcdfdf1d11850dc6baf092ed464d398 
-// MedicinalProductDefinition
-* entry[+].fullUrl = "MedicinalProductDefinition/mp2412867d9a0e15f82f11047ad93bdbad"
-* entry[=].resource = mp2412867d9a0e15f82f11047ad93bdbad 
-// ManufacturedItemDefinition
-* entry[+].fullUrl = "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
-* entry[=].resource = mid-dcaa4d32aa6658a8df831551503e52ee 
+* insert KarveaBundleRuleset
 
 * entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
 * entry[=].resource = contraindication-kidney
@@ -611,5 +549,6 @@ Usage: #example
 * entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
 * entry[=].resource = contraindication-diabetes-mellitus
 
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregancy"
-* entry[=].resource = contraindication-pregancy
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregnancy"
+* entry[=].resource = contraindication-pregnancy
+
