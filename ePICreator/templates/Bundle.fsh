@@ -22,33 +22,40 @@ Usage: #example
 {% endif %}
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
 {% if data["turn"] != "1" %}
 
 
-* language = #en
 
 
 // Composition
 * entry[0].fullUrl = "Composition/{{data["references"]["Composition"][index][1]}}"
 * entry[0].resource = {{data["references"]["Composition"][index][0]}}
 
+* insert {{row["name"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}BundleRuleset
+{% if data["turn"] == "2" %}
+
+RuleSet: {{row["name"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}BundleRuleset
+
 {%- for key,value in data["references"].items() -%} 
 {%- for refs in value %} 
 
-{% if key != "Composition" and key !="Bundle" %}
+
+{% if key != "Composition" and key !="Bundle" -%}
 // {{key}}
-{% if "Substance" not in key  %}
+{% if "Substance" not in key  -%}
 
 * entry[+].fullUrl = "{{key}}/{{refs[1]}}"
 * entry[=].resource = {{refs[0]}}
-{%- else %}   
+{%- else -%}   
 * entry[+].fullUrl = "{{key}}Definition/{{refs[1]}}"
 * entry[=].resource = {{refs[0]}}
-{%- endif %}   
-
-{%- endif %}   
+{%- endif -%}   
+{%- endif -%}   
 {%- endfor %}
 {%- endfor %}
+{%- endif %}  
 
 {%- endif %}
 
