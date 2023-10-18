@@ -5,7 +5,7 @@
 {% if row["language"]  %}
 {% set ns.language = row["language"] %}
 {% else %}
-{% set ns.language = en %}
+{% set ns.language = "en" %}
 {% endif %}
 
 

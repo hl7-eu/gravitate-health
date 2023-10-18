@@ -5,7 +5,7 @@ Title: "Administrable product Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
 Description: "Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
 Usage: #example
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/18/1289/001" 
 
 * status = #active
