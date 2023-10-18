@@ -6,11 +6,11 @@ Alias: $100000072057 = http://spor.ema.europa.eu/v1/100000072057
 
 
 
-Instance: listKarvea
+Instance: list-test-smpc
 InstanceOf: List
 Usage: #example
-Title: "List of Karvea Package Leaflets"
-Description: "List of Karvea Package Leaflets"
+Title: "List of enbrel smpc Package Leaflets"
+Description: "List of enbrel smpc  Package Leaflets"
 
 * status = #current
 * mode = #working
@@ -18,11 +18,10 @@ Description: "List of Karvea Package Leaflets"
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 
-* title = "List of all ePIs associated with Karvea (irbesartan) 75mg tablets"
 
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+* subject = Reference(mp25bbfa948f4a0b224f9baa1fe481efa8)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
-* subject.extension[=].valueCoding = $100000000005#Skilarence "Skilarence"
+* subject.extension[=].valueCoding = $100000000005#Enbrel "Enbrel"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
 * subject.extension[=].valueCoding = $100000000005#mah-code "None"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
@@ -34,45 +33,22 @@ Description: "List of Karvea Package Leaflets"
 
 
 * identifier[0].system = "http://spor.ema.europa.eu/v2/medicine-name"
-* identifier[=].value = "skilarence"
+* identifier[=].value = "Enbrel"
 * identifier[+].system = "http://spor.ema.europa.eu/v2/marketing-authorisation-numbers"
-* identifier[=].value = "EU/1/17/1201/001"
-* identifier[+].system = "http://spor.ema.europa.eu/v2/marketing-authorisation-numbers"
-* identifier[=].value = "EU/1/17/1201/002"
+* identifier[=].value = "EU/1/99/126/003"
+
 
 * entry
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
-  * item = Reference(bundlepackageleaflet-pt-2d49ae46735143c1323423b7aea24165) // karvea
+  * item = Reference(bundlepackageleaflet-f2c90821a14dbdb924eb4be01de36427) // enbrel with smpc
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
-  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "Full ePI"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "en"
 
 
-* entry[+]
-  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
-  * flag.text = "Unchanged"
-  * date = "2016-02-07T13:28:17Z"
-  * item = Reference(bundlepackageleaflet-29436a85dac3ea374adb3fa64cfd2578) // HIPÉRICO 
-
-  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
-  * item.extension[=].valueCoding = $100000155531#100000155538 "B. INDLÆGSSEDDEL"
-  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072168 "da"
-
-* entry[+]
-  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
-  * flag.text = "Unchanged"
-  * date = "2017-02-07T13:28:17Z"
-  * item = Reference(bundlepackageleaflet-31887cbcd4c018e35f958e5f8547dd66) // Humalog 
-
-* entry[+]
-  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
-  * flag.text = "Unchanged"
-  * date = "2018-02-07T13:28:17Z"
-  * item = Reference(bundlepackageleaflet-3a3583227b4c5b0887f1e0d38269b469) // humira 
 
 
 
