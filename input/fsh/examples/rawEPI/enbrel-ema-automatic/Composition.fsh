@@ -33,6 +33,8 @@ Usage: #example
 * language = #en
 * category = epicategory-cs#R "Raw"
 
+* insert smpcEnbrelRuleset
+
 
 * section[+].
   * title = "B. Package Leaflet"
