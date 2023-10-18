@@ -462,102 +462,6 @@ Each bottle contains a silica gel desiccant that must be kept in the bottle to h
 The silica gel desiccant is contained in a separate sachet or canister and should not be swallowed.</p>             </div>"""      
 
 
-Instance: processedbundlekarveabik
-InstanceOf: BundleUvEpi
-Title: "[Preprocessed] ePI document for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
-Description: "[Preprocessed] Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet ePI document"
-Usage: #example
-
-* language = #en
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "EU/1/97/049/001"
-* type = #document
-* timestamp = "2023-04-25T11:55:27Z"
-* language = #en
-
-// Composition
-* entry[0].fullUrl = "Composition/Processed-composition1846d2b12fecbbb0310cd8c196c98a58"
-* entry[0].resource = Processed-composition1846d2b12fecbbb0310cd8c196c98a58
-
-
-
-
- 
- 
-
-// Ingredient
-
-* entry[+].fullUrl = "Ingredient/ingredient-for-biktarvy-bictegravirsodium"
-* entry[=].resource = ingredient-for-biktarvy-bictegravirsodium 
-
-// Ingredient
-
-* entry[+].fullUrl = "Ingredient/ingredient-for-biktarvy-emtricitabine"
-* entry[=].resource = ingredient-for-biktarvy-emtricitabine 
-
-// Ingredient
-
-* entry[+].fullUrl = "Ingredient/ingredient-for-biktarvy-tenofoviralafenamide"
-* entry[=].resource = ingredient-for-biktarvy-tenofoviralafenamide 
-
-// Ingredient
-
-* entry[+].fullUrl = "Ingredient/ingredient-for-biktarvy-microcrystallinecellulose"
-* entry[=].resource = ingredient-for-biktarvy-microcrystallinecellulose 
-
-// Ingredient
-
-* entry[+].fullUrl = "Ingredient/ingredient-for-biktarvy-croscarmellosesodium"
-* entry[=].resource = ingredient-for-biktarvy-croscarmellosesodium 
-
-// Ingredient
-
-* entry[+].fullUrl = "Ingredient/ingredient-for-biktarvy-magnesiumstearate"
-* entry[=].resource = ingredient-for-biktarvy-magnesiumstearate 
- 
- 
-
-// AdministrableProductDefinition
-
-* entry[+].fullUrl = "AdministrableProductDefinition/ap-14ba4cb05b11f838919ef39edd3e0cdf"
-* entry[=].resource = ap-14ba4cb05b11f838919ef39edd3e0cdf 
- 
-
-// RegulatedAuthorization
-
-* entry[+].fullUrl = "RegulatedAuthorization/authorization14ba4cb05b11f838919ef39edd3e0cdf"
-* entry[=].resource = authorization14ba4cb05b11f838919ef39edd3e0cdf 
- 
-
-// Organization
-
-* entry[+].fullUrl = "Organization/mah-715f8a161ed438d0584510e5b4512caa"
-* entry[=].resource = mah-715f8a161ed438d0584510e5b4512caa 
-
-// Organization
-
-* entry[+].fullUrl = "Organization/mra-1133a7374c78f1d40f41885344f06a5a"
-* entry[=].resource = mra-1133a7374c78f1d40f41885344f06a5a 
- 
-
-// PackagedProductDefinition
-
-* entry[+].fullUrl = "PackagedProductDefinition/ppd-bb925abf9dc1f2dd024210a50c0ee14b"
-* entry[=].resource = ppd-bb925abf9dc1f2dd024210a50c0ee14b 
- 
-
-// MedicinalProductDefinition
-
-* entry[+].fullUrl = "MedicinalProductDefinition/mp5fb1761a0a38bea0a9b49f146371c68b"
-* entry[=].resource = mp5fb1761a0a38bea0a9b49f146371c68b 
- 
-
-// ManufacturedItemDefinition
-
-* entry[+].fullUrl = "ManufacturedItemDefinition/mid-14ba4cb05b11f838919ef39edd3e0cdf"
-* entry[=].resource = mid-14ba4cb05b11f838919ef39edd3e0cdf 
- 
-
 ////////////////////////////////////////// PT /////////////////////////////////////////////////
 
 
@@ -1501,74 +1405,24 @@ Usage: #example
 * entry[0].fullUrl = "Composition/composition-proc-pt-2065c93918e829bc9508cce4f449e8fd"
 * entry[0].resource = composition-proc-pt-2065c93918e829bc9508cce4f449e8fd
 
- 
+* insert BiktarvyBundleRuleset
 
- 
 
-// Ingredient
+Instance: processedbundlekarveabik
+InstanceOf: BundleUvEpi
+Title: "[Preprocessed] ePI document for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
+Description: "[Preprocessed] Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet ePI document"
+Usage: #example
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-biktarvy-bictegravirsodium"
-* entry[=].resource = ingredient-for-biktarvy-bictegravirsodium 
+* language = #en
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/97/049/001"
+* type = #document
+* timestamp = "2023-04-25T11:55:27Z"
+* language = #en
 
-// Ingredient
+// Composition
+* entry[0].fullUrl = "Composition/Processed-composition1846d2b12fecbbb0310cd8c196c98a58"
+* entry[0].resource = Processed-composition1846d2b12fecbbb0310cd8c196c98a58
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-biktarvy-emtricitabine"
-* entry[=].resource = ingredient-for-biktarvy-emtricitabine 
-
-// Ingredient
-
-* entry[+].fullUrl = "Ingredient/ingredient-for-biktarvy-tenofoviralafenamide"
-* entry[=].resource = ingredient-for-biktarvy-tenofoviralafenamide 
-
-// Ingredient
-
-* entry[+].fullUrl = "Ingredient/ingredient-for-biktarvy-microcrystallinecellulose"
-* entry[=].resource = ingredient-for-biktarvy-microcrystallinecellulose 
-
-// Ingredient
-
-* entry[+].fullUrl = "Ingredient/ingredient-for-biktarvy-croscarmellosesodium"
-* entry[=].resource = ingredient-for-biktarvy-croscarmellosesodium 
-
-// Ingredient
-
-* entry[+].fullUrl = "Ingredient/ingredient-for-biktarvy-magnesiumstearate"
-* entry[=].resource = ingredient-for-biktarvy-magnesiumstearate 
-
-// AdministrableProductDefinition
-
-* entry[+].fullUrl = "AdministrableProductDefinition/ap-14ba4cb05b11f838919ef39edd3e0cdf"
-* entry[=].resource = ap-14ba4cb05b11f838919ef39edd3e0cdf 
-
-// RegulatedAuthorization
-
-* entry[+].fullUrl = "RegulatedAuthorization/authorization14ba4cb05b11f838919ef39edd3e0cdf"
-* entry[=].resource = authorization14ba4cb05b11f838919ef39edd3e0cdf 
-
-// Organization
-
-* entry[+].fullUrl = "Organization/mah-715f8a161ed438d0584510e5b4512caa"
-* entry[=].resource = mah-715f8a161ed438d0584510e5b4512caa 
-
-// Organization
-
-* entry[+].fullUrl = "Organization/mra-1133a7374c78f1d40f41885344f06a5a"
-* entry[=].resource = mra-1133a7374c78f1d40f41885344f06a5a 
-
-// PackagedProductDefinition
-
-* entry[+].fullUrl = "PackagedProductDefinition/ppd-bb925abf9dc1f2dd024210a50c0ee14b"
-* entry[=].resource = ppd-bb925abf9dc1f2dd024210a50c0ee14b 
-
-// MedicinalProductDefinition
-
-* entry[+].fullUrl = "MedicinalProductDefinition/mp5fb1761a0a38bea0a9b49f146371c68b"
-* entry[=].resource = mp5fb1761a0a38bea0a9b49f146371c68b 
-
-// ManufacturedItemDefinition
-
-* entry[+].fullUrl = "ManufacturedItemDefinition/mid-14ba4cb05b11f838919ef39edd3e0cdf"
-* entry[=].resource = mid-14ba4cb05b11f838919ef39edd3e0cdf 
-
- 
-
+* insert BiktarvyBundleRuleset
