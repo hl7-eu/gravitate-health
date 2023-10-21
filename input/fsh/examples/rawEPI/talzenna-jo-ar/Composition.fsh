@@ -207,22 +207,22 @@ Usage: #example
         <p dir="rtl"> </p>
         <p dir="rtl"><b>مالك حق التسويق:</b></p>
         <p dir="rtl"></p>
-        <p dir="ltr" style="text-align:right"><u>Pfizer Inc., 235 East 42nd street, </u></p>
-        <p dir="ltr" style="text-align:right"><u>New York NY 10017-5755, </u></p>
-        <p dir="ltr" style="text-align:right"><u>United States of America</u></p>
+        <p dir="ltr" style="text-align:right">Pfizer Inc., 235 East 42nd street, </p>
+        <p dir="ltr" style="text-align:right">New York NY 10017-5755, </p>
+        <p dir="ltr" style="text-align:right">United States of America</p>
         <p dir="rtl"></p>
-        <p dir="rtl"><b><u>التصنيع و التعبة الأولية</u></b></p>
+        <p dir="rtl"><b>التصنيع و التعبة الأولية</b></p>
         <p dir="rtl"> </p>
-        <p dir="ltr" style="text-align:right"><u>Excella GmbH &amp; Co. KG </u></p>
-        <p dir="ltr" style="text-align:right"><u>Nürnberger Strasse 12 </u></p>
-        <p dir="ltr" style="text-align:right"><u>90537 Feucht </u></p>
-        <p dir="ltr" style="text-align:right"><u>Germany</u></p>
+        <p dir="ltr" style="text-align:right">Excella GmbH &amp; Co. KG </p>
+        <p dir="ltr" style="text-align:right">Nürnberger Strasse 12 </p>
+        <p dir="ltr" style="text-align:right">90537 Feucht </p>
+        <p dir="ltr" style="text-align:right">Germany</p>
         <p dir="rtl"></p>
-        <p dir="rtl" style="text-align:right"><b><u>التعبئة الثانوية و الافراج النهائي:</u></b></p>
+        <p dir="rtl" style="text-align:right"><b>التعبئة الثانوية و الافراج النهائي:</b></p>
         <p dir="rtl"></p>
-        <p dir="ltr" style="text-align:right"><u>Pfizer Pharmaceuticals LLC, </u></p>
-        <p dir="ltr" style="text-align:right"><u>Km. 1.9 Road 689,Vega Baja, Puerto Rico 00693, </u></p>
-        <p dir="ltr" style="text-align:right"><u>USA</u></p>
+        <p dir="ltr" style="text-align:right">Pfizer Pharmaceuticals LLC, </p>
+        <p dir="ltr" style="text-align:right">Km. 1.9 Road 689,Vega Baja, Puerto Rico 00693, </p>
+        <p dir="ltr" style="text-align:right">USA</p>
         <p dir="rtl"></p>
         <p dir="rtl"><b>تمت المراجعة الأخيرة لهذه النشرة في</b><b>مارس 2020</b></p>
         <p dir="rtl"> </p>

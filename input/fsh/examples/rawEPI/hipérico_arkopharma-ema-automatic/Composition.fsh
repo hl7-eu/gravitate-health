@@ -182,7 +182,7 @@ Usage: #example
 
  
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
 
       <li style="margin:0pt 0pt 0pt 21.3pt; text-indent:-18pt; text-align:justify; font-family:serif; font-size:11pt; list-style-position:inside"><span style="font:7.0pt Times New Roman">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <span style="font-family:Times New Roman; font-size:11pt">Si es menor de 18 años.</span></li>
 
@@ -290,7 +290,7 @@ Usage: #example
 
  
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
 
       <li style="margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">para el SIDA (antirretrovirales)</span></li>
 
@@ -537,7 +537,7 @@ Usage: #example
 
  
 
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano:</span> <a href="https://www.notificaram.es"><u><span style="font-family:Times New Roman; font-size:11pt; color:#0000ff">https://www.notificaram.es</span></u></a><span style="font-family:Times New Roman; font-size:11pt">. Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</span></p>
+    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano:</span> <a href="https://www.notificaram.es"><span style="font-family:Times New Roman; font-size:11pt; color:#0000ff">https://www.notificaram.es</span></a><span style="font-family:Times New Roman; font-size:11pt">. Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</span></p>
 
  
 
@@ -710,7 +710,7 @@ Usage: #example
 
  
 
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">La informaci&#243;n detallada y actualizada de este medicamento est&#225; disponible en la p&#225;gina web de la Agencia Espa&#241;ola de Medicamentos y Productos Sanitarios (AEMPS)</span> <a href="http://www.aemps.gob.es/"><u><span style="font-family:Times New Roman; font-size:11pt; color:#0000ff">http://www.aemps.gob.es/</span></u></a></p>
+    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">La informaci&#243;n detallada y actualizada de este medicamento est&#225; disponible en la p&#225;gina web de la Agencia Espa&#241;ola de Medicamentos y Productos Sanitarios (AEMPS)</span> <a href="http://www.aemps.gob.es/"><span style="font-family:Times New Roman; font-size:11pt; color:#0000ff">http://www.aemps.gob.es/</span></a></p>
 
   </div>
                             

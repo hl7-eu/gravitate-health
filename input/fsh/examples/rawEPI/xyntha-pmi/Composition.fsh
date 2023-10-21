@@ -59,18 +59,18 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <p>
-            <b><u>What the medication is used for:</u></b></p>
+            <b>What the medication is used for:</b></p>
         <p>Coagulation Factor VIII is a protein that is necessary for blood to clot. People who have
             the hereditary bleeding disease factor VIII deficiency (hemophilia A) lack this clotting
             factor, causing their blood to take longer to form a clot. Xyntha is a form of
             coagulation factor VIII. </p>
         <p>Xyntha is used for the control and treatment of bleeding and the routine and surgical
             prevention of bleeding in people with hemophilia A.</p>
-        <p><b><u>What is does:</u></b></p>
+        <p><b>What is does:</b></p>
         <p>Administering Xyntha increases blood levels of factor VIII and helps prevent and control
             bleeding episodes in patients with hemophilia A. Xyntha has the same clot-promoting
             effects as factor VIII protein made from human plasma. </p>
-        <p><b><u>When it should not be used:</u></b></p>
+        <p><b>When it should not be used:</b></p>
         <p>You should not take Xyntha unless your doctor confirms you have hemophilia A. Xyntha
             should not be used for the treatment of other clotting factor deficiencies such as von
             Willebrand’s disease or hemophilia B.</p>
@@ -80,17 +80,17 @@ Usage: #example
             proteins.</p>
         <p>Do not use Xyntha after the expiry date printed on the pack.</p>
         <p>Do not use Xyntha if the packaging is torn or shows signs of tampering.</p>
-        <p><b><u>What the medicinal ingredient is:</u></b></p>
+        <p><b>What the medicinal ingredient is:</b></p>
         <p>Xyntha is a coagulation factor VIII product that is produced by recombinant technology.  </p>
         <p>Xyntha does not contain any human blood or plasma, albumin, preservatives, or added
             animal or human components in the final product, making it naturally free from the risk
             of transmission of blood-borne pathogens such as human immunodeficiency virus (HIV),
             hepatitis viruses, and parvovirus.</p>
-        <p><b><u>What the important nonmedicinal ingredients are:</u></b></p>
+        <p><b>What the important nonmedicinal ingredients are:</b></p>
         <p>Polysorbate 80 (0.4 mg/vial), Sucrose (12 mg/vial), L-Histidine (6 mg/vial), Calcium
             Chloride Dihydrate (1 mg/vial), Sodium Chloride (72 mg/vial) [after reconstitution with
             diluent].</p>
-        <p><b><u>What dosage forms it comes in:</u></b></p>
+        <p><b>What dosage forms it comes in:</b></p>
         <p>Xyntha is supplied in kits that include single-use vials that contain nominally 250, 500,
             1000, or 2000 IU per vial with pre-filled diluent syringe containing 4 mL 0.9% Sodium
             Chloride for reconstitution.</p>
@@ -217,7 +217,7 @@ Usage: #example
         <p>Always use an aseptic technique.</p>
         <p> </p>
         <p>
-            <b><u>RECONSTITUTION</u></b></p>
+            <b>RECONSTITUTION</b></p>
         <p>Always wash your hands before performing the following procedures. Use germ-free methods
             during the preparation procedures. </p>
         <p> Use only the materials provided in the Xyntha kit for dissolving the Xyntha powder with
@@ -249,8 +249,8 @@ Usage: #example
                 allow it to touch any surface.If you need to use more than 1 vial to inject your
                 prescribed dose, you must use a new alcohol swab for each vial. </p></li>
             <li><p> </p></li>
-            <li><p>Peel back the cover from the clear plastic vial adapter package. <b><u>Do not remove
-                        the adapter from the package</u><u>.</u></b></p></li>
+            <li><p>Peel back the cover from the clear plastic vial adapter package. <b>Do not remove
+                        the adapter from the package.</b></p></li>
             <li><p>Place the vial on a flat surface. While holding the adapter in the package, place
                 the vial adapter over the vial. Press down firmly on the package until the adapter
                 snaps into place on top of the vial, with the adapter spike penetrating the vial
@@ -299,7 +299,7 @@ Usage: #example
         </ol>
         <p>Xyntha should be infused within 3 hours after dissolving. The dissolved solution may be
             stored at room temperature prior to infusion.</p>
-        <p><b><u>INFUSION (Intravenous Injection)</u></b></p>
+        <p><b>INFUSION (Intravenous Injection)</b></p>
         <p>You should inject Xyntha as instructed by your hemophilia doctor or nurse. Once you learn
             how to self-infuse, you can follow the instructions in this insert.</p>
         <p>Always wash your hands before doing the following procedures. Germ-free methods should be
@@ -594,7 +594,7 @@ Usage: #example
 			<p style="text-align:center">THIS IS A MEDICAMENT</p>
 			<ul>
 				<li><p>Medicament is a product which affects your health and its consumption contrary to instructions is dangerous for you.</p></li>
-				<li><p>Follow strictly the doctor&rsquo;s prescription, the method of use and the instructions of the Pharmacist who sold the medicament.</p></li>
+				<li><p>Follow strictly the doctor's prescription, the method of use and the instructions of the Pharmacist who sold the medicament.</p></li>
 				<li><p>The doctor and the Pharmacist are experts in medicines, their benefits and risks.</p></li>
 				<li><p>Do not by yourself interrupt the period of treatment prescribed.</p></li>
 				<li><p>Do not repeat the same prescription without consulting your doctor.</p></li>

@@ -146,16 +146,16 @@ Usage: #example
                 </tr>
             </tbody>
         </table><p>
-            <b><u>General</u></b></p><p>It is recommended that, whenever possible, every time that
+            <b>General</b></p><p>It is recommended that, whenever possible, every time that
             Xyntha is administered to patients the lot number of the product is documented.
-                    </p><p><b><u>Effects on Ability to Drive and Use Machines</u></b>
+                    </p><p><b>Effects on Ability to Drive and Use Machines</b>
         </p><p>No studies on the ability to drive and use machines have been performed.
-                    </p><p><b><u>Carcinogenesis and Mutagenesis</u></b>
+                    </p><p><b>Carcinogenesis and Mutagenesis</b>
         </p><p>Xyntha has been shown to be nonmutagenic in the mouse micronucleus assay.  No other
             mutagenicity studies and no investigations on carcinogenesis, impairment of fertility or
-            fetal development have been conducted.  </p><p><b><u>Drug-Drug Interactions</u></b>
+            fetal development have been conducted.  </p><p><b>Drug-Drug Interactions</b>
         </p><p>No formal druginteraction studies have been conducted with Xyntha.  No interactions
-            with other medicinal products are known. </p><p><b><u>Immune</u></b></p><p>The
+            with other medicinal products are known. </p><p><b>Immune</b></p><p>The
             occurrence of neutralizing antibodies (inhibitors) is well known in patients receiving
             factor VIII‑containing products.  Inhibitors most commonly occur early in the treatment
             course of previously untreated patients, but have also been observed in patients who
@@ -168,7 +168,7 @@ Usage: #example
             with an appropriate dose, testing should be performed to determine if a factor VIII
             inhibitor is present.  Management of such patients should be directed by physicians with
             experience in the care of patients with hemophilia.</p><p>
-            <b><u>Hypersensitivity</u></b>
+            <b>Hypersensitivity</b>
         </p><p>As with any intravenous protein product, allergic type hypersensitivity reactions are
             possible.  </p><p>Patients should be informed of the early signs or symptoms of
             hypersensitivity reactions including hives (rash with itching), generalized urticaria,
@@ -177,7 +177,7 @@ Usage: #example
             medical management should be given, which may include treatment for shock.  Patients
             should be advised to discontinue use of the product and contact their hemophelia
             physicians and/or seek immediate emergency care, depending on the type and severity of
-            the reaction, if any of these symptoms occur. </p><p><b><u>Special Populations</u></b>
+            the reaction, if any of these symptoms occur. </p><p><b>Special Populations</b>
         </p><p><b>Pregnancy and Lactation:</b>
         </p><p>No animal reproduction and lactation studies have been conducted with Xyntha.  Based
             on the rare occurrence of hemophilia A in women, experience regarding the use of factor
@@ -422,7 +422,7 @@ Usage: #example
                         <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p><s> </s></p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
                         <p>Rash</p>
@@ -586,8 +586,8 @@ Usage: #example
             assay.  This method of potency assignment is intended to harmonize Xyntha with clinical
             monitoring using a one-stage clotting assay. </p><p>Precise monitoring of the
             replacement therapy by means of plasma factor VIII activity assay should be considered,
-            particularly for surgical intervention.</p><p><b><u>Dosing for Bleeding and
-                Surgery:</u></b></p><p>In the case of the following hemorrhagic events,
+            particularly for surgical intervention.</p><p><b>Dosing for Bleeding and
+                Surgery:</b></p><p>In the case of the following hemorrhagic events,
             consideration should be given to maintaining the factor VIII activity at or above the
             plasma levels (in % of normal or in IU/dL) for the indicated period, as outlined in the
             following table.</p>
@@ -663,10 +663,10 @@ Usage: #example
                     </td>
                 </tr>
             </tbody>
-        </table><p><b><u>Dosage for Prophylaxis</u></b></p><p>Xyntha has been administered
+        </table><p><b>Dosage for Prophylaxis</b></p><p>Xyntha has been administered
             prophylactically in a pivotal clinical trial in adolescent and adult previously treated
-            patients at a dose of 30 <u>+</u> 5 IU/kg given 3 times weekly.</p><p><b><u>Inhibitors
-                </u></b>
+            patients at a dose of 30 + 5 IU/kg given 3 times weekly.</p><p><b>Inhibitors
+                </b>
         </p><p>Patients using factor VIII replacement therapy should be monitored for the
             development of factor VIII inhibitors.  If expected factor VIII activity plasma levels
             are not attained, or if bleeding is not controlled with an appropriate dose, an assay
@@ -674,7 +674,7 @@ Usage: #example
             with factor VIII inhibitors, factor VIII therapy may not be effective and other
             therapeutic options should be considered.  Management of such patients should be
             directed by physicians with experience in the care of patients with hemophilia.
-                    </p><p><b><u>Administration</u></b>
+                    </p><p><b>Administration</b>
         </p><p>Patients should follow the specific reconstitution and administration procedures
             provided by their physicians.  For instructions, patients should follow the
             recommendations in the below <b>Administration </b>and<b> Reconstitution </b>sections. 
@@ -688,7 +688,7 @@ Usage: #example
             IV infusion after reconstitution of the lyophilized powder with the supplied pre-filled
             diluent (0.9% Sodium Chloride solution)
             syringe.</p>
-            <p><b><u>Reconstitution</u></b></p>
+            <p><b>Reconstitution</b></p>
             <p>Always wash your hands before
             performing the following procedures.  Use germ-free methods during the preparation
             procedures. </p>
@@ -717,8 +717,8 @@ Usage: #example
                 allow to dry.  After cleaning, do not touch the rubber stopper with your hand or
                 allow it to touch any surface.If you need to use more than 1 vial to inject your
                 prescribed dose, you must use a new alcohol swab for each vial.</li>
-            <li>Peel back the cover from the clear plastic vial adapter package.<u>Do not remove the
-                    adapter from the package</u></li>
+            <li>Peel back the cover from the clear plastic vial adapter package.Do not remove the
+                    adapter from the package</li>
             <li>Place the vial on a flat surface.  While holding the adapter in the package, place
                 the vial adapter over the vial.  Press down firmly on the package until the adapter
                 snaps into place on top of the vial, with the adapter spike penetrating the vial
@@ -788,7 +788,7 @@ Usage: #example
         <p>Xyntha should be infused within 3 hours after dissolving.  The dissolved solution may be
             stored at room temperature prior to infusion.</p>
         <p>
-            <b><u>Infusion (Intravenous Injection)</u></b>
+            <b>Infusion (Intravenous Injection)</b>
         </p><p>Xyntha, when reconstituted, contains polysorbate-80, which is known to increase the
             rate of di-(2-ethylhexyl) phthalate (DEHP) extraction from polyvinyl chloride (PVC). 
             This should be considered during the preparation and administration of Xyntha, including
@@ -840,7 +840,7 @@ Usage: #example
             factor VIII products. </p>
             <p><b>ACTION AND CLINICAL PHARMACOLOGY</b>
         </p>
-        <p><b><u>Mechanism of Action</u></b>
+        <p><b>Mechanism of Action</b>
         </p>
         <p>Xyntha is a glycoprotein with an approximate molecular mass of 170 000 Da consisting
             of 1438 amino acids.  Xyntha is a recombinant DNA-based substance which has functional
@@ -849,15 +849,15 @@ Usage: #example
             activated factor X.  Activated factor X converts prothrombin into thrombin.  Thrombin
             then converts fibrinogen into fibrin which forms an insoluble
                     clot.</p>
-                    <p><b><u>Pharmacodynamics</u></b>
+                    <p><b>Pharmacodynamics</b>
         </p>
         <p>Factor VIII is the specific clotting factor deficient in patients with hemophilia A
             (classical hemophilia).  The administration of Xyntha, Antihemophilic Factor
             (Recombinant)[BDDrFVIII] increases plasma levels of factor VIII and can temporarily
             correct the coagulation defect in these patients.  </p>
-            <p><b><u>Pharmacokinetics</u></b></p>
-            <p><b><u>One Stage
-            Assay</u></b></p>
+            <p><b>Pharmacokinetics</b></p>
+            <p><b>One Stage
+            Assay</b></p>
             <p>In a pivotal cross-over pharmacokinetic study, Xyntha was shown to
             be bioequivalent to another recombinant factor VIII product (rFVIII, Advate<sup>®</sup>)
             in 30 previously treated patients (PTPs) (³ 12 years) using the one-stage clotting
@@ -1281,7 +1281,7 @@ Usage: #example
         2.11(± 0.43) IU/dL per IU/kg, and the mean (±SD) <i>in vivo</i> recovery value was
         101.0% (± 20%). 
         <p>
-            <b><u>Chromogenic Assay</u></b>
+            <b>Chromogenic Assay</b>
         </p>
         <p>The labeled potency of Xyntha<sup>®</sup>manufactured by the previous process is
             based on the European Pharmacopoeia chromogenic substrate assay in which the Pfizer
@@ -1690,7 +1690,7 @@ Usage: #example
             at room temperature.  After room temperature storage, the product can be returned to
             refrigerated storage until the expiration date. Do not store Xyntha vial at room
             temperature and return it to refrigerated storage more than once.  Do not use Xyntha
-            vial after the expiry date on the label. </p><p><u>Product after reconstitution:</u> 
+            vial after the expiry date on the label. </p><p>Product after reconstitution: 
             The reconstituted solution may be stored at room temperature prior to administration. 
             The product does not contain a preservative and should be used within 3 hours.
                 </p>

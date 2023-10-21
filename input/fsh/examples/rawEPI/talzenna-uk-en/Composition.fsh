@@ -135,7 +135,7 @@ Usage: #example
                                     and during your treatment if you experience signs or symptoms
                                     described in this section. </p>
                                 <p>
-                                    <u>Low blood cell counts</u>
+                                    Low blood cell counts
                                 </p>
                                 <p>Talzenna lowers your blood cell counts, such as your red blood
                                     cell count (anaemia), white blood cell count (neutropenia), or
@@ -162,14 +162,14 @@ Usage: #example
                                     to check your blood cells (white blood cells, red blood cells,
                                     and platelets). </p>
                                 <p>
-                                    <u>Serious problems with the bone marrow</u>
+                                    Serious problems with the bone marrow
                                 </p>
                                 <p>Rarely, low blood cell counts may be a sign of more serious
                                     problems with the bone marrow such as myelodysplastic syndrome
                                     (MDS) or acute myeloid leukaemia (AML). Your doctor may want to
                                     test your bone marrow to check for these problems. </p>
                                 <p>
-                                    <u>Male and female contraception</u>
+                                    Male and female contraception
                                 </p>
                                 <p>Women who can become pregnant and men with partners who are or
                                     can become pregnant should use effective contraception.</p>

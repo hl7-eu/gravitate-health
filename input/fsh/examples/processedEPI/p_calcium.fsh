@@ -241,13 +241,13 @@ Usage: #inline
            <p>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</p>
 <p></p>
 <p><strong>-Poco frecuente</strong>s (pueden afectar a entre 1 y 10 de cada 1.000 pacientes ):</p>
-<ul type="disc">
+<ul >
 <li>niveles altos de calcio en sangre hipercalcemia,</li>
 <li>niveles altos de calcio en orina hipercalciuria.</li>
 </ul>
 <p></p>
 <p><strong>-Raros</strong> (pueden afectar a entre 1 y 10 de cada 10.000 pacientes ):</p>
-<ul type="disc">
+<ul >
 <li>estreñimiento,</li>
 <li>flatulencia,</li>
 <li>n áuseas,</li>
@@ -256,7 +256,7 @@ Usage: #inline
 </ul>
 <p></p>
 <p>-<strong>Muy raros</strong> (pueden afectar a menos de 1 de cada 10.000 pacientes):):</p>
-<ul type="disc">
+<ul >
 <li>picor (prurito),</li>
 <li>erupción de la piel (exantema),</li>
 <li>ronchas (urticaria).</li>
