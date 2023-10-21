@@ -4,6 +4,7 @@ CodeSystem: QuestionnaireDimensionCS
 Id:         questi-dimens-cs
 Title:     "Questionnaire example Dimensions"
 Description:  "Questionnaire example Dimensions"
+* ^experimental = true
 
 
 //* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/questi-dimens-cs
@@ -83,6 +84,7 @@ CodeSystem: PDcategoryCS
 Id:         pd-category-cs
 Title:     "Persona Vector Dimensions categories"
 Description:  "Persona Vector Dimensions categories"
+* ^experimental = true
 
 
 
@@ -100,6 +102,7 @@ Id:         pd-type-cs
 Title:     "Persona Vector Dimensions Code"
 Description:  "Persona Vector Dimensions Code"
 //* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs
+* ^experimental = true
 
 * #EMP
     "employment"
@@ -139,6 +142,7 @@ CodeSystem: EpicategoryCS
 Id:         epicategory-cs
 Title:     "Category of EPI"
 Description: "Category of EPI"
+* ^experimental = true
 
 
 //* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs
@@ -157,6 +161,7 @@ CodeSystem: ICPC2CS
 Id:         icpc-2-cs
 Title:     "Example ICPC2 CS"
 Description: "Example ICPC2 CS"
+* ^experimental = true
 
 //* ^url =  http://gravitate.eu/CodeSystem/icpc-2
 // Spacing layout over three lines per term is optional, for clarity

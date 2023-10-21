@@ -1407,6 +1407,18 @@ Usage: #example
 
 * insert BiktarvyBundleRuleset
 
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
+* entry[=].resource = contraindication-kidney
+
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
+* entry[=].resource = contraindication-diabetes-mellitus
+
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregnancy"
+* entry[=].resource = contraindication-pregnancy
+
+
+
+
 
 Instance: processedbundlekarveabik
 InstanceOf: BundleUvEpi
@@ -1426,3 +1438,14 @@ Usage: #example
 * entry[0].resource = Processed-composition1846d2b12fecbbb0310cd8c196c98a58
 
 * insert BiktarvyBundleRuleset
+
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
+* entry[=].resource = contraindication-kidney
+
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
+* entry[=].resource = contraindication-diabetes-mellitus
+
+* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregnancy"
+* entry[=].resource = contraindication-pregnancy
+
+
