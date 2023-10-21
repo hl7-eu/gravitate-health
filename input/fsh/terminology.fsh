@@ -5,6 +5,7 @@ Id:         questi-dimens-cs
 Title:     "Questionnaire example Dimensions"
 Description:  "Questionnaire example Dimensions"
 * ^experimental = true
+* ^caseSensitive = true
 
 
 //* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/questi-dimens-cs
@@ -85,11 +86,8 @@ Id:         pd-category-cs
 Title:     "Persona Vector Dimensions categories"
 Description:  "Persona Vector Dimensions categories"
 * ^experimental = true
-
-
-
+* ^caseSensitive = true
 //* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-category-cs
-
 
 
 ValueSet: PDcategoryVS
@@ -103,6 +101,7 @@ Title:     "Persona Vector Dimensions Code"
 Description:  "Persona Vector Dimensions Code"
 //* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs
 * ^experimental = true
+* ^caseSensitive = true
 
 * #EMP
     "employment"
@@ -143,6 +142,7 @@ Id:         epicategory-cs
 Title:     "Category of EPI"
 Description: "Category of EPI"
 * ^experimental = true
+* ^caseSensitive = true
 
 
 //* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs

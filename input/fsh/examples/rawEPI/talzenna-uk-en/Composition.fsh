@@ -105,7 +105,8 @@ Usage: #example
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "2. What you need to know before you take X"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'></div>"""
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "Do not take Talzenna"
@@ -485,8 +486,9 @@ Usage: #example
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'></div>"""
-    
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
+
 * section[=].section[+]
   * title = "What Talzenna contains"
   * code = https://www.mhra.gov.uk/#100000155538

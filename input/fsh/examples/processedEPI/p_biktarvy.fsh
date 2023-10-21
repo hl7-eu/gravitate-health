@@ -1439,13 +1439,5 @@ Usage: #example
 
 * insert BiktarvyBundleRuleset
 
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
-* entry[=].resource = contraindication-kidney
-
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
-* entry[=].resource = contraindication-diabetes-mellitus
-
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregnancy"
-* entry[=].resource = contraindication-pregnancy
 
 

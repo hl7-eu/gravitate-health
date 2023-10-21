@@ -16,9 +16,11 @@ Usage: #example
 * entry[0].resource = compositionpaxlovidau
 
 // Organization
-* entry[+].fullUrl = "Organization/orgpfeau"
-* entry[=].resource = orgpfeau
- 
+* entry[+].fullUrl = "Organization/org-1134a7374c78f1d40f41885344f06a5a"
+* entry[=].resource = org-1134a7374c78f1d40f41885344f06a5a
+
+
+
 // nirmatrelvir tablets==================================
 // Ingredient
 * entry[+].fullUrl = "Ingredient/paxlovidnirmatrelvir"
@@ -150,3 +152,4 @@ Usage: #example
 // PackagedProductDefinition
 * entry[+].fullUrl = "PackagedProductDefinition/ppdcompositeblister30"
 * entry[=].resource = ppdcompositeblister30 
+
