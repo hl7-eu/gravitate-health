@@ -523,55 +523,6 @@ Usage: #inline
 
 
 
-Instance: contraindication-pregnancy
-InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
-Description: "contraindication - pregnancy"
-Usage: #inline
-
-* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
-* identifier.value = "pregnancy"
-* identifier.use = #official
-
-* type = #contraindication
-
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
-
-* contraindication
-  * diseaseSymptomProcedure.concept.coding = $snomed#289908002 "Pregnancy, function (observable entity)"
-
-Instance: contraindication-diabetes-mellitus
-InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
-Description: "contraindication -    Diabetes mellitus (disorder)"
-Usage: #inline
-
-* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
-* identifier.value = "diabetes-mellitus"
-* identifier.use = #official
-
-* type = #contraindication
-
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
-
-* contraindication
-  * diseaseSymptomProcedure.concept.coding = $snomed#73211009 "Diabetes mellitus (disorder)"
-
-
-Instance: contraindication-kidney
-InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
-Description: "contraindication - kidney function"
-Usage: #inline
-
-* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
-* identifier.value = "kidney function"
-* identifier.use = #official
-
-* type = #contraindication
-
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
-
-* contraindication
-  * diseaseSymptomProcedure.concept.coding = $snomed#76114004 "Decreased renal function (finding)"
-
 
 
 Instance: Processedbundlekarvea
@@ -604,51 +555,6 @@ Usage: #example
 * entry[=].resource = contraindication-pregnancy
 
 
-
-
-
-
-
-
-
-
-
-Instance: bundle-processed-en-2d49ae46735143c1323423b7aea24165
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Karvea 75 mg Package Leaflet for language en"
-Description: "Bundle for Karvea 75 mg Package Leaflet ePI document"
-Usage: #example
-
-
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "EU/1/97/049/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-
-
-* language = #en
-
-
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f4d45353edcb21af3718d3a0df94a4d8"
-* entry[0].resource = composition-en-f4d45353edcb21af3718d3a0df94a4d8 
-
-// ClinicalUseDefinition
-
-* entry[+].fullUrl = "ClinicalUseDefinition/cud-a40c2367ed3c1c715eacd432105752a0"
-* entry[=].resource = cud-a40c2367ed3c1c715eacd432105752a0 
-
-// ClinicalUseDefinition
-
-* entry[+].fullUrl = "ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400"
-* entry[=].resource = cud-585e364c14debe29f6c6b564138aa400 
-
-// ClinicalUseDefinition
-
-* entry[+].fullUrl = "ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8"
-* entry[=].resource = cud-4fce9d5258f70f7d605059f97c24efa8 
-
- 
 
 
 
@@ -1158,3 +1064,58 @@ Usage: #example
 * entry[=].resource = contraindication-pregnancy
 
 
+
+
+
+
+
+
+
+Instance: contraindication-pregnancy
+InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
+Description: "contraindication - pregnancy"
+Usage: #inline
+
+* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
+* identifier.value = "pregnancy"
+* identifier.use = #official
+
+* type = #contraindication
+
+* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+
+* contraindication
+  * diseaseSymptomProcedure.concept.coding = $snomed#289908002 "Pregnancy, function (observable entity)"
+
+Instance: contraindication-diabetes-mellitus
+InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
+Description: "contraindication -    Diabetes mellitus (disorder)"
+Usage: #inline
+
+* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
+* identifier.value = "diabetes-mellitus"
+* identifier.use = #official
+
+* type = #contraindication
+
+* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+
+* contraindication
+  * diseaseSymptomProcedure.concept.coding = $snomed#73211009 "Diabetes mellitus (disorder)"
+
+
+Instance: contraindication-kidney
+InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
+Description: "contraindication - kidney function"
+Usage: #inline
+
+* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
+* identifier.value = "kidney function"
+* identifier.use = #official
+
+* type = #contraindication
+
+* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+
+* contraindication
+  * diseaseSymptomProcedure.concept.coding = $snomed#76114004 "Decreased renal function (finding)"

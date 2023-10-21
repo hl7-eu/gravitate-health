@@ -354,7 +354,7 @@ Usage: #inline
 			<td>
 			<ul>
 				<li>Medicament is a product which affects your health and its consumption contrary to instructions is dangerous for you.</li>
-				<li>Follow strictly the doctor&rsquo;s prescription, the method of use and the instructions of the Pharmacist who sold the medicament.</li>
+				<li>Follow strictly the doctor's prescription, the method of use and the instructions of the Pharmacist who sold the medicament.</li>
 				<li>The doctor and the Pharmacist are experts in medicines, their benefits and risks.</li>
 				<li>Do not by yourself interrupt the period of treatment prescribed.</li>
 				<li>Do not repeat the same prescription without consulting your doctor.</li>

@@ -18,8 +18,6 @@ Usage: #example
 * substance.code.concept.coding = $ginas#R44IWB3RN5 "SOY PROTEIN"
 
 
-* substance.strength.presentationQuantity = 0 'nan'
-
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
 

@@ -17,8 +17,8 @@ Usage: #example
 
 // Organization
 
-//* entry[+].fullUrl = "Organization/mah-c2a5378488511eaedce26dde272c2290"
-//* entry[=].resource = mah-c2a5378488511eaedce26dde272c2290
+* entry[+].fullUrl = "Organization/org-1135a7374c78f1d40f41885344f06a5a"
+* entry[=].resource = org-1135a7374c78f1d40f41885344f06a5a
  
 
 // MedicinalProductDefinition

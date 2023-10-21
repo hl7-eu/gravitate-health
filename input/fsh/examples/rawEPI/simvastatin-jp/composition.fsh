@@ -38,6 +38,7 @@ Usage: #example
   * code.text = "1. 警告"
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -46,56 +47,56 @@ Usage: #example
   * code = https://pmda.jp/#2.1
   * code.text = "1.1"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "1.2"
   * code = https://pmda.jp/#2.1
   * code.text = "1.2"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "1.3"
   * code = https://pmda.jp/#2.1
   * code.text = "1.3"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[+]
   * title = "2. 禁忌(次の患者には投与しないこと)" //2. CONTRAINDICATIONS
   * code = https://pmda.jp/#2
   * code.text = "禁忌(次の患者には投与しないこと)"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "2.1"
   * code = https://pmda.jp/#2.1
   * code.text = "2.1"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "2.2"
   * code = https://pmda.jp/#2.2
   * code.text = "2.2"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "2.3"
   * code = https://pmda.jp/#2.3
   * code.text = "2.3"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -104,43 +105,40 @@ Usage: #example
   * code = https://pmda.jp/#3
   * code.text = "3. 組成・性状"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "3.1 組成"
   * code = https://pmda.jp/#3.1
   * code.text = "3.1 組成"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "3.2 製剤の性状"
   * code = https://pmda.jp/#3.2
   * code.text = "3.2 製剤の性状"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[+]
   * title = "4. 効能又は効果" //4. INDICATIONS
   * code = https://pmda.jp/#4
   * code.text = "効能又は効果"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[+]
   * title = "5. 効能又は効果に関連する注意" //5. PRECAUTIONS CONCERNING INDICATIONS
   * code = https://pmda.jp/#5
   * code.text = "効能又は効果に関連する注意"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -149,17 +147,16 @@ Usage: #example
   * code = https://pmda.jp/#6
   * code.text = "用法及び用量"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[+]
   * title = "7. 用法及び用量に関連する注意" //7. PRECAUTIONS CONCERNING DOSAGE ANDADMINISTRATION
   * code = https://pmda.jp/#7
   * code.text = "7. 用法及び用量に関連する注意"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -168,26 +165,24 @@ Usage: #example
   * code = https://pmda.jp/#8
   * code.text = "重要な基本的注意"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"><p></p>
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"><p></p></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "8.1"
   * code = https://pmda.jp/#8.1
   * code.text = "8.1"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "8.2"
   * code = https://pmda.jp/#8.2
   * code.text = "8.2"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
-
-</div>"""
+  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "8.3"
@@ -197,6 +192,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "8.4"
@@ -206,6 +202,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[+]
   * title = "9. 特定の背景を有する患者に関する注意" // 9. PRECAUTIONS CONCERNING PATIENTS WITH SPECIFIC BACKGROUNDS
@@ -214,6 +211,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"><p></p>
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "9.1"
@@ -221,6 +219,7 @@ Usage: #example
   * code.text = "9.1"
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "9.2 腎機能障害患者"
@@ -228,6 +227,7 @@ Usage: #example
   * code.text = "9.2 腎機能障害患者"
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[=].section[+]
   * title = "9.2.1 重度の腎障害のある患者"
@@ -237,6 +237,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "9.3 肝機能障害患者"
@@ -245,6 +246,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[=].section[+]
   * title = "9.3.1 重度の肝障害のある患者"
@@ -254,6 +256,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "9.4"
@@ -262,6 +265,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "9.5 妊婦"
@@ -271,6 +275,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "9.6 授乳婦"
@@ -288,6 +293,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"><p></p>
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "10.1"
@@ -296,6 +302,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -307,6 +314,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[+]
   * title = "11. 副作用" //11. ADVERSE REACTIONS
@@ -323,6 +331,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[=].section[+]
   * title = "11.1.1"
@@ -332,6 +341,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "11.2 その他の副作用"
@@ -341,6 +351,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[+]
   * title = "12. 臨床検査結果に及ぼす影響"
@@ -357,6 +368,7 @@ Usage: #example
   * code.text = "13. 過量投与"
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -366,6 +378,7 @@ Usage: #example
   * code.text = "14. 適用上の注意"
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "14.1 薬剤交付時の注意"
@@ -375,6 +388,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 * section[+]
@@ -385,6 +399,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
   </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -394,6 +409,7 @@ Usage: #example
   * code.text = "15.1"
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -405,6 +421,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
   </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[+]
   * title = "16. 薬物動態" //16
@@ -422,6 +439,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
   </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "16.2 吸収" //16.2
@@ -429,6 +447,7 @@ Usage: #example
   * code.text = "16.2 吸収"
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 * section[=].section[=].section[+]
@@ -439,6 +458,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
   </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "16.3 分布" //
@@ -446,6 +466,7 @@ Usage: #example
   * code.text = "16.3 分布"
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 * section[=].section[=].section[+]
@@ -456,6 +477,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
   </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[=].section[+]
   * title = "16.3.2 胎児・胎盤移行性" //
@@ -474,6 +496,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
   </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "16.5 排泄" //
@@ -481,6 +504,7 @@ Usage: #example
   * code.text = "16.5 排泄"
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 * section[=].section[=].section[+]
@@ -491,6 +515,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
   </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[=].section[+]
   * title = "16.5.2" //
@@ -507,6 +532,7 @@ Usage: #example
   * code.text = "16.6 特定の背景を有する患者"
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 * section[=].section[=].section[+]
@@ -517,6 +543,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
   </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[=].section[+]
   * title = "16.6.2 肝機能障害患者における体内動態" //
@@ -533,6 +560,7 @@ Usage: #example
   * code.text = "17. 臨床成績"
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -542,6 +570,7 @@ Usage: #example
   * code.text = "17.1 有効性及び安全性に関する試験"
   * text.status = #additional
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml"></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -553,6 +582,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
   </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[=].section[+]
   * title = "17.1.2 ブリッジング試験" //
@@ -571,6 +601,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
   </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[=].section[+]
   * title = "17.1.4 海外大規模比較試験(第III相試験 術後補助療法)" //
@@ -589,6 +620,7 @@ Usage: #example
   * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">
 
   </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[=].section[+]
   * title = "17.1.6 非盲検無作為化比較試験(第II/III相試験 転移性乳癌に対する第一次 ホルモン療法)"
@@ -598,6 +630,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[+]
   * title = "18. 薬効薬理" // 18. PHARMACOLOGY
@@ -605,6 +638,7 @@ Usage: #example
   * code.text = "18. 薬効薬理"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -614,6 +648,7 @@ Usage: #example
   * code.text = "18.1 作用機序"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -625,6 +660,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "18.2 抗腫瘍効果"
@@ -634,6 +670,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[+]
   * title = "18.3 エストロゲン抑制作用"
@@ -641,6 +678,7 @@ Usage: #example
   * code.text = "18.3 エストロゲン抑制作用"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -652,6 +690,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[=].section[=].section[+]
   * title = "18.3.2"
@@ -661,6 +700,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[+]
   * title = "19. 有効成分に関する理化学的知見" //19. PHYSICOCHEMICAL PROPERTIES ****insert image
@@ -670,6 +710,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[+]
   * title = "20. 取扱い上の注意" //20. PRECAUTIONS FOR HANDLING
@@ -677,6 +718,7 @@ Usage: #example
   * code.text = "20. 取扱い上の注意"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -686,6 +728,7 @@ Usage: #example
   * code.text = "21. 承認条件"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -697,6 +740,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[+]
   * title = "23. 主要文献" //23. REFERENCES
@@ -706,6 +750,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[+]
   * title = "24. 文献請求先及び問い合わせ先" //24. REFERENCE REQUEST AND CONTACT INFORMATION
@@ -722,6 +767,7 @@ Usage: #example
   * code.text = "25. 保険給付上の注意"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -731,6 +777,7 @@ Usage: #example
   * code.text = "26. 製造販売業者等"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'></div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -742,3 +789,4 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
 
 </div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   

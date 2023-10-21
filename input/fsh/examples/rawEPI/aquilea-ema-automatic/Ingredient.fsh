@@ -18,8 +18,6 @@ Usage: #example
 * substance.code.concept.coding = $ginas#I38ZP9992A "magnesium"
 
 
-* substance.strength.presentationQuantity = 0 'nan'
-
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
 
@@ -50,8 +48,6 @@ Usage: #example
 
 * substance.code.concept.coding = $ginas#PT3TGI7OIP "HUMAN TYPE I COLLAGEN"
 
-
-* substance.strength.presentationQuantity = 0 'nan'
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 

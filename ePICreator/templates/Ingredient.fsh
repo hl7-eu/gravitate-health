@@ -28,8 +28,10 @@ Usage: #example
 * substance.code.concept.coding = $ginas#{{ row["identifier"]  }} "{{ row["name"] | trim  }}"
 
 {% if row["StrengthBasis"]|string !="nan" %}
+{% if row["quantity"]|string !="nan" %}
 
 * substance.strength.presentationQuantity = {{ row["quantity"] | replace (",",".")|int  }} '{{ row["quantity unit"]  }}'
+{% endif %}
 
 * substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#{{row["StrengthBasis"]}} "{{row["StrengthBasisText"]|trim }}"
 {% endif %}
