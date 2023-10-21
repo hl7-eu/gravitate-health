@@ -163,7 +163,7 @@ Usage: #example
 * type = https://www.mhra.gov.uk/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp1mg1)
+* subject[1] = Reference(mp1mg1)
 * subject[0] = Reference(mp025mg1)
 
 * date = "2022-03-04T00:00:00Z"
@@ -206,13 +206,13 @@ Usage: #example
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "strength025"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#100 "strength 0.25 mg"
+* extension[=].extension[=].valueCodeableReference.concept.coding = http://example.org#100 "strength 0.25 mg"
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "strength1"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#101 "strength 1 mg"
+* extension[=].extension[=].valueCodeableReference.concept.coding = http://example.org#101 "strength 1 mg"
 
 * section[+]
   * title = "Package leaflet: Information for the patient"
@@ -298,7 +298,7 @@ Usage: #example
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "2. What you need to know before you take X"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'></div>"""
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
 
 * section[=].section[+]
   * title = "Do not take Talzenna"
@@ -678,7 +678,7 @@ Usage: #example
   * code = https://www.mhra.gov.uk/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'></div>"""
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
     
 * section[=].section[+]
   * title = "What Talzenna contains"

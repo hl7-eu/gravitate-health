@@ -162,6 +162,7 @@ Id:         icpc-2-cs
 Title:     "Example ICPC2 CS"
 Description: "Example ICPC2 CS"
 * ^experimental = true
+* ^caseSensitive = true
 
 //* ^url =  http://gravitate.eu/CodeSystem/icpc-2
 // Spacing layout over three lines per term is optional, for clarity

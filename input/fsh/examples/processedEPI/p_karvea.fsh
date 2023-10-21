@@ -1,4 +1,57 @@
 
+
+Instance: contraindication-pregnancy
+InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
+Description: "contraindication - pregnancy"
+Usage: #inline
+
+* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
+* identifier.value = "pregnancy"
+* identifier.use = #official
+
+* type = #contraindication
+
+* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+
+* contraindication
+  * diseaseSymptomProcedure.concept.coding = $snomed#289908002 "Pregnancy, function (observable entity)"
+
+Instance: contraindication-diabetes-mellitus
+InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
+Description: "contraindication -    Diabetes mellitus (disorder)"
+Usage: #inline
+
+* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
+* identifier.value = "diabetes-mellitus"
+* identifier.use = #official
+
+* type = #contraindication
+
+* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+
+* contraindication
+  * diseaseSymptomProcedure.concept.coding = $snomed#73211009 "Diabetes mellitus (disorder)"
+
+
+Instance: contraindication-kidney
+InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
+Description: "contraindication - kidney function"
+Usage: #inline
+
+* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
+* identifier.value = "kidney function"
+* identifier.use = #official
+
+* type = #contraindication
+
+* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+
+* contraindication
+  * diseaseSymptomProcedure.concept.coding = $snomed#76114004 "Decreased renal function (finding)"
+
+
+
+
 Instance: Processedcompositionf4d45353edcb21af3718d3a0df94a4d8
 InstanceOf: CompositionUvEpi
 Title: "Composition for Karvea Package Leaflet - Preprocessed"
@@ -1069,53 +1122,3 @@ Usage: #example
 
 
 
-
-
-Instance: contraindication-pregnancy
-InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
-Description: "contraindication - pregnancy"
-Usage: #inline
-
-* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
-* identifier.value = "pregnancy"
-* identifier.use = #official
-
-* type = #contraindication
-
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
-
-* contraindication
-  * diseaseSymptomProcedure.concept.coding = $snomed#289908002 "Pregnancy, function (observable entity)"
-
-Instance: contraindication-diabetes-mellitus
-InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
-Description: "contraindication -    Diabetes mellitus (disorder)"
-Usage: #inline
-
-* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
-* identifier.value = "diabetes-mellitus"
-* identifier.use = #official
-
-* type = #contraindication
-
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
-
-* contraindication
-  * diseaseSymptomProcedure.concept.coding = $snomed#73211009 "Diabetes mellitus (disorder)"
-
-
-Instance: contraindication-kidney
-InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
-Description: "contraindication - kidney function"
-Usage: #inline
-
-* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
-* identifier.value = "kidney function"
-* identifier.use = #official
-
-* type = #contraindication
-
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
-
-* contraindication
-  * diseaseSymptomProcedure.concept.coding = $snomed#76114004 "Decreased renal function (finding)"

@@ -18,7 +18,7 @@ Usage: #definition
 * instance[0].key = "1"
 * instance[=].title = "Raw ePI"
 * instance[=].description = "The epi without any annotations nor personalization: very similar to current pdf ones"
-* instance[=].content = Reference(bundlepackageleaflet-2d49ae46735143c1323423b7aea24165)
+* instance[=].content = Reference(bundlepackageleaflet-en-2d49ae46735143c1323423b7aea24165)
 * instance[=].structureType = http://hl7.org/fhir/fhir-types#Bundle
 
 * instance[+].key = "2"

@@ -175,7 +175,7 @@ Description: "7CV7WJK4UI"
 Usage: #example
 
 * identifier.system = $ginas
-* identifier.value = ""
+* identifier.value = "7CV7WJK4UI"
 * identifier.use = #official
 
 * role = $spor-rms#100000072082 "Excipient"

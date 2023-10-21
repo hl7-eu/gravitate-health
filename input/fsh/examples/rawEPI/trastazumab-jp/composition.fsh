@@ -28,9 +28,7 @@ Usage: #example
   * code = https://pmda.jp/#0
   * code.text = "アロマターゼ阻害剤/閉経後乳癌治療剤"
   * text.status = #additional
-  * text.div = """<div xmlns="http://www.w3.org/1999/xhtml">     
-
-</div>"""
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 * section[+]

@@ -14,7 +14,7 @@ Usage: #example
 * type = https://spor.ema.europa.eu/rmswi/#/#100000072062
 * type.text = "Marketing Authorisation"
 
-* region = urn:iso:std:iso:3166#jp
+* region = urn:iso:std:iso:3166#JP
 * region.text = "Japan"
 
 * status = $publication-status#active

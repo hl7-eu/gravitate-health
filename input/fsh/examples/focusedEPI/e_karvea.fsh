@@ -1,3 +1,12 @@
+Instance: mock-lib
+InstanceOf: Library
+Usage: #inline
+
+* status = #draft
+* type = #logic-library
+* experimental = true
+* content.data = "Y29kZSBkdW1teQ=="
+
 Instance: enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8
 InstanceOf: CompositionUvEpi
 Title: "[Enhanced] Composition for Karvea Package Leaflet"
@@ -53,7 +62,7 @@ Usage: #inline
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "contra-indication-pregancy"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.reference = Reference(contraindication-pregancy)
+* extension[=].extension[=].valueCodeableReference.reference = Reference(contraindication-pregnancy)
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
@@ -76,7 +85,7 @@ Usage: #inline
 
 
 
-* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/lenslibrary"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
 * extension[=].valueReference = Reference(mock-lib)
 
 

@@ -111,7 +111,7 @@ Usage: #example
 // Reference to Manufactured Item
 * for = Reference(manitemherceptin150)
 
-* substance.code.concept.coding = https://gsrs.ncats.nih.gov/ginas/app/beta/#3NXW29V3WO "HYPROMELLOSE, UNSPECIFIED "
+* substance.code.concept.coding = https://gsrs.ncats.nih.gov/ginas/app/beta/#3NXW29V3WO "HYPROMELLOSE, UNSPECIFIED"
 
 // Reference to Organization: Manufacturer
 * manufacturer.manufacturer = Reference(orgchugai)
@@ -420,7 +420,7 @@ Usage: #example
 // Reference to Manufactured Item
 * for = Reference(manitemherceptin150)
 
-* substance.code.concept.coding = https://gsrs.ncats.nih.gov/ginas/app/beta/#15FIX9V2JP "TITANIUM DIOXIDE "
+* substance.code.concept.coding = https://gsrs.ncats.nih.gov/ginas/app/beta/#15FIX9V2JP "TITANIUM DIOXIDE"
 
 // Reference to Organization: Manufacturer
 * manufacturer.manufacturer = Reference(orgchugai)
