@@ -15,7 +15,7 @@ Usage: #example
 * status = http://hl7.org/fhir/publication-status#active "Active"
 * statusDate = "2022-01-18T00:00:00Z"
 
-* containedItemQuantity = 30 'tablet'
+* containedItemQuantity = 30 '{tablet}'
 
 * packaging
   * identifier.system = $spor-prod
