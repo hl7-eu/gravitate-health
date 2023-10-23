@@ -13,7 +13,7 @@ Usage: #example
 * type.text = "Package Leaflet"
 
 * subject = Reference(mp1mg)
-//* subject[+] = Reference(mp025mg) //returns error???
+//* subject[+] = Reference(mp025mg)
 
 * date = "2022-03-04T00:00:00Z"
 * author = Reference(org1)
