@@ -164,7 +164,10 @@ Usage: #example
 * type.text = "Package Leaflet"
 
 * subject[1] = Reference(mp1mg1)
-* subject[0] = Reference(mp025mg1)
+
+//* subject[0] = Reference(mp025mg1)
+//this uncommented returns error!!! why???
+//Exception in thread "main" java.lang.Error: Attempt to read a single element when there is more than one present (subject)
 
 * date = "2022-03-04T00:00:00Z"
 * author = Reference(orgpfizerukltd1)
