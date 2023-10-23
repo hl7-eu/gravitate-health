@@ -89,11 +89,11 @@ Usage: #example
                             <p>
                                 <b>What Talzenna is used for </b>
                             </p>
-                            <p>Talzenna is used to treat adults with breast cancer of a type known
+                            <a><p>Talzenna is used to treat adults with breast cancer of a type known
                                 as HER2-negative breast cancer who have an abnormal inherited BRCA
                                 gene.</p>
-                            <p>Talzenna is used when the cancer has spread beyond the original
-                                tumour or to other parts of the body.</p> 
+                            <p class="">Talzenna is used when the cancer has spread beyond the original
+                                tumour or to other parts of the body.</p></a>
                             <p>Your healthcare provider will
                                 perform a test to make sure that Talzenna is right for you. </p>
                             <p>If you have any questions about how Talzenna works or why this
@@ -116,11 +116,17 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <ul>
                                     <li>
-                                        <p><span class="allergen">If you are allergic to talazoparib or any of the other
-                                            ingredients of this medicine (listed in section 6).</span></p>
+                                        <a class="allergen">
+                    <p>
+                        If you are allergic to talazoparib or any of the other ingredients of this medicine (listed in section 6).
+
+                    </p>
+                </a>
                                     </li>
                                     <li>
-                                        <p><span class="breastFeeding">If you are breast-feeding.</span></p>
+                                        <a class="breastFeeding">
+                                           <p>If you are breast-feeding.</p>
+                                        </a>
                                     </li>
                                 </ul>  
   
@@ -501,12 +507,12 @@ Usage: #example
                                             capsules come in different strengths. </p>
                                     </li>
                                     <li>
-                                        <p><span class="025mg">Talzenna 0.25 mg hard capsules: each capsule contains
-                                            talazoparib tosylate equivalent to 0.25 mg talazoparib.</span></p>
+                                        <a class="025mg"><p>Talzenna 0.25 mg hard capsules: each capsule contains
+                                            talazoparib tosylate equivalent to 0.25 mg talazoparib.</p></a>
                                     </li>
                                     <li>
-                                        <p><span class="1mg">Talzenna 1 mg hard capsules: each capsule contains
-                                            talazoparib tosylate equivalent to 1 mg talazoparib.</span></p>
+                                        <a class="1mg"><p>Talzenna 1 mg hard capsules: each capsule contains
+                                            talazoparib tosylate equivalent to 1 mg talazoparib.</p></a>
                                     </li>
                                 </ul>
                                 <p> The other ingredients are: </p>
@@ -517,13 +523,13 @@ Usage: #example
                                             dioxide). </p>
                                     </li>
                                     <li>
-                                        <p><span class="025mg">0.25 mg capsule shell: hypromellose (HPMC), yellow iron
-                                            oxide (E172), and titanium dioxide (E171)</span></p>
+                                        <a class="025mg"><p>0.25 mg capsule shell: hypromellose (HPMC), yellow iron
+                                            oxide (E172), and titanium dioxide (E171)</p></a>
                                     </li>
                                     <li>
-                                        <p><span class="1mg">1 mg capsule shell: hypromellose (HPMC), yellow iron
+                                        <a class="01mg"><p>1 mg capsule shell: hypromellose (HPMC), yellow iron
                                             oxide (E172), titanium dioxide (E171), and red iron
-                                            oxide (E172)</span></p>
+                                            oxide (E172)</p></a>
                                     </li>
                                 </ul>
                                 <p>Printing ink: shellac (E904), propylene glycol (E1520), ammonium
@@ -538,17 +544,17 @@ Usage: #example
   * code.text = "What X looks like and contents of the pack"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-<p><span class="025mg">Talzenna 0.25 mg is supplied as opaque, approximately 14.30 mm x
+<a class="025mg"><p>Talzenna 0.25 mg is supplied as opaque, approximately 14.30 mm x
                                     5.32 mm hard capsule with an ivory cap (printed with “Pfizer” in
-                                    black) and a white body (printed with “TLZ 0.25” in black).</span></p>
-                               <p><span class="1mg">Talzenna 1 mg is supplied as opaque, approximately 14.30 mm x
+                                    black) and a white body (printed with “TLZ 0.25” in black).</p></a>
+                               <a class="1mg"><p>Talzenna 1 mg is supplied as opaque, approximately 14.30 mm x
                                     5.32 mm hard capsule with a light red cap (printed with “Pfizer”
-                                    in black) and a white body (printed with “TLZ 1” in black).</span></p>
-                                <p><span class="025mg">Talzenna 0.25 mg is available in perforated unit dose blister
+                                    in black) and a white body (printed with “TLZ 1” in black).</p></a>
+                                <a class="025mg"><p>Talzenna 0.25 mg is available in perforated unit dose blister
                                     packs of 30, or 60, or 90 hard capsules and in plastic bottles
-                                    of 30 hard capsules.</span></p>
-                                <p><span class="1mg">Talzenna 1 mg is available in perforated unit dose blister packs
-                                    of 30 hard capsules and in plastic bottles of 30 hard capsules.</span></p>
+                                    of 30 hard capsules.</p></a>
+                                <a class="1mg"><p>Talzenna 1 mg is available in perforated unit dose blister packs
+                                    of 30 hard capsules and in plastic bottles of 30 hard capsules.</p></a>
                                 <p>Not all pack sizes may be marketed. </p>
 
   </div>"""
