@@ -89,10 +89,10 @@ Usage: #example
                             <p>
                                 <b>What Talzenna is used for </b>
                             </p>
-                            <a><p>Talzenna is used to treat adults with breast cancer of a type known
+                            <a class="breastCancer"><p>Talzenna is used to treat adults with breast cancer of a type known
                                 as HER2-negative breast cancer who have an abnormal inherited BRCA
                                 gene.</p>
-                            <p class="">Talzenna is used when the cancer has spread beyond the original
+                            <p>Talzenna is used when the cancer has spread beyond the original
                                 tumour or to other parts of the body.</p></a>
                             <p>Your healthcare provider will
                                 perform a test to make sure that Talzenna is right for you. </p>
