@@ -703,3 +703,4 @@ Usage: #example
     <p style="margin:0.55pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
 
     <p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Se debe inspeccionar visualmente la vacuna en busca de part&#237;culas extra&#241;as o cambios de color antes de la administraci&#243;n. Si se observan part&#237;culas extra&#241;as y/o cualquier variaci&#243;n del aspecto f&#237;sico, no administre la vacuna.</span></p>
+</div>"""
