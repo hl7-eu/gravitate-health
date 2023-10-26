@@ -362,7 +362,7 @@ Usage: #example
 
     <p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si es al&#233;rgico a:</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0.05pt 16.9pt 0pt 23.05pt; text-indent:0pt; text-align:justify; padding-left:19.5pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">los principios activos o alguno de los dem&#225;s componentes de esta vacuna (incluidos en la secci&#243;n 6).</span></li>
 
       <li style="margin:0pt 0pt 0pt 23.05pt; text-indent:0pt; text-align:justify; padding-left:19.5pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">la beta-propiolactona, al bromuro de cetiltrimetilamonio o al polisorbato 80, que son residuos del proceso de fabricaci&#243;n que pueden estar presentes en cantidades m&#237;nimas.</span></li>
@@ -376,15 +376,15 @@ Usage: #example
 
     <p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p>
 
-    <p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><u><span style="font-family:Times New Roman; font-size:11pt;">ANTES DE vacunarse</span></u></p>
+    <p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt;">ANTES DE vacunarse</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0.9pt 5pt 0pt 13.36pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">su m&#233;dico o enfermero comprobar&#225; la f&#225;cil disponibilidad de tratamiento m&#233;dico y supervisi&#243;n adecuados en el caso raro de que se produjera una reacci&#243;n anafil&#225;ctica (una reacci&#243;n al&#233;rgica muy grave con s&#237;ntomas como dificultad para respirar, mareos, pulso d&#233;bil y r&#225;pido y erupci&#243;n cut&#225;nea) despu&#233;s de la administraci&#243;n. Esta reacci&#243;n puede presentarse con Flucelvax Tetra, al igual que con todas las vacunas que se inyectan.</span></li>
 
       <li style="margin:0pt 25.35pt 0pt 13.36pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">debe informar a su m&#233;dico si tiene una enfermedad aguda que cursa con fiebre. Su m&#233;dico puede decidir retrasar su vacunaci&#243;n hasta que la fiebre haya desaparecido.</span></li>
 
       <li style="list-style: none; display: inline">
-        <ul type="disc" style="margin:0pt; padding-left:0pt">
+        <ul  style="margin:0pt; padding-left:0pt">
           <li style="margin:0pt 5.45pt 0pt 13.36pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">debe informar a su m&#233;dico si su sistema inmunitario est&#225; comprometido o si est&#225; recibiendo un tratamiento que afecte al mismo, por ejemplo, medicamento contra el c&#225;ncer (quimioterapia) o corticoides (ver secci&#243;n &#8220;Otros medicamentos y Flucelvax Tetra&#8221;).</span></li>
         </ul>
       </li>
@@ -412,13 +412,13 @@ Usage: #example
 
     <p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Embarazo y lactancia</span></strong></p>
 
-    <p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><u><span style="font-family:Times New Roman; font-size:11pt;">Embarazo:</span></u></p>
+    <p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt;">Embarazo:</span></p>
 
     <p style="margin:0.05pt 14.1pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si est&#225; embarazada, cree que podr&#237;a estar embarazada o tiene intenci&#243;n de quedarse embarazada, consulte a su m&#233;dico. Las vacunas antigripales se pueden administrar en cualquier trimestre del embarazo.</span></p>
 
     <p style="margin:0.5pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
 
-    <p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><u><span style="font-family:Times New Roman; font-size:11pt;">Lactancia:</span></u></p>
+    <p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt;">Lactancia:</span></p>
 
     <p style="margin:0.15pt 7.5pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">El uso de Flucelvax Tetra durante la lactancia no ha sido estudiado. Flucelvax Tetra se puede administrar durante la lactancia.</span></p>
 
@@ -447,7 +447,7 @@ Usage: #example
 
     <p style="margin:0.95pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p>
 
-    <p style="margin:1.6pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><u><span style="font-family:Times New Roman; font-size:11pt; vertical-align:-0.5pt">Adultos y ni&#241;os a partir de 2 a&#241;os de edad:</span></u></p>
+    <p style="margin:1.6pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt; vertical-align:-0.5pt">Adultos y ni&#241;os a partir de 2 a&#241;os de edad:</span></p>
 
     <p style="margin:0.3pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p>
 
@@ -489,7 +489,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Se siente d&#233;bil, tiene dificultades para moverse o presenta entumecimiento u hormigueo en las extremidades. Estos pueden ser s&#237;ntomas del s&#237;ndrome de Guillain-Barr&#233; (SGB), una enfermedad autoinmune causada por el propio sistema inmunitario del organismo</span></li>
 
       <li style="margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Hinchaz&#243;n extensa del miembro en el que se ha inyectado</span></li>
@@ -499,9 +499,9 @@ Usage: #example
 
     <p style="margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Efectos adversos leves</span></strong></p>
 
-    <p style="margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><u><span style="font-family:Times New Roman; font-size:11pt;">Muy frecuentes</span></u> <span style="font-family:Times New Roman; font-size:11pt">(pueden afectar a m&#225;s de 1 de cada 10 personas):</span></p>
+    <p style="margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt;">Muy frecuentes</span> <span style="font-family:Times New Roman; font-size:11pt">(pueden afectar a m&#225;s de 1 de cada 10 personas):</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:1.1pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Dolor en la zona de inyecci&#243;n, cardenales, enrojecimiento y endurecimiento o hinchaz&#243;n en la zona de inyecci&#243;n</span></li>
 
       <li style="margin:0pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Dolor de cabeza</span></li>
@@ -527,9 +527,9 @@ Usage: #example
 
     <p style="margin:1.6pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p>
 
-    <p style="margin:1.6pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><u><span style="font-family:Times New Roman; font-size:11pt;">Frecuentes</span></u> <span style="font-family:Times New Roman; font-size:11pt">(pueden afectar hasta 1 de cada 10 personas):</span></p>
+    <p style="margin:1.6pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt;">Frecuentes</span> <span style="font-family:Times New Roman; font-size:11pt">(pueden afectar hasta 1 de cada 10 personas):</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0.55pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">N&#225;useas, v&#243;mitos, diarrea</span></li>
 
       <li style="margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Dolor articular</span></li>
@@ -547,9 +547,9 @@ Usage: #example
 
     <p style="margin:0.55pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p>
 
-    <p style="margin:0pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt"><u><span style="font-family:Times New Roman; font-size:11pt;">Frecuencia no conocida</span></u> <span style="font-family:Times New Roman; font-size:11pt">(no puede estimarse a partir de los datos disponibles):</span></p>
+    <p style="margin:0pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt;">Frecuencia no conocida</span> <span style="font-family:Times New Roman; font-size:11pt">(no puede estimarse a partir de los datos disponibles):</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0.7pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Sensaci&#243;n de hormigueo y</span> <span style="font-family:Times New Roman; font-size:11pt">entumecimiento (parestesia)</span></li>
 
       <li style="margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Reacciones cut&#225;neas generalizadas incluyendo picor, ampollas en la piel (prurito, urticaria) o erupci&#243;n cut&#225;nea inespec&#237;fica</span></li>
@@ -559,7 +559,7 @@ Usage: #example
 
     <p style="margin:1.6pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Comunicaci&#243;n de efectos adversos</span></strong></p>
 
-    <p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si experimenta cualquier tipo de efecto adverso, consulte a su profesional sanitario, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto.</span> <span style="font-family:Times New Roman; font-size:11pt">Tambi&#233;n puede comunicarlos directamente a trav&#233;s del Sistema Espa&#241;ol de Farmacovigilancia de Medicamentos de Uso Humano en</span> <a href="http://www.notificaRAM.es"><u><span style="font-family:Times New Roman; font-size:11pt; color:#0000ff; background-color:#ffffff">www.notificaRAM.es</span></u></a><span style="font-family:Times New Roman; font-size:11pt">.</span> <span style="font-family:Times New Roman; font-size:11pt">M</span><span style="font-family:Times New Roman; font-size:11pt">ediante la comunicaci&#243;n de efectos adversos usted puede contribuir a proporcionar m&#225;s informaci&#243;n sobre la seguridad de este medicamento.</span></p>         </div>"""      
+    <p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si experimenta cualquier tipo de efecto adverso, consulte a su profesional sanitario, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto.</span> <span style="font-family:Times New Roman; font-size:11pt">Tambi&#233;n puede comunicarlos directamente a trav&#233;s del Sistema Espa&#241;ol de Farmacovigilancia de Medicamentos de Uso Humano en</span> <a href="http://www.notificaRAM.es"><span style="font-family:Times New Roman; font-size:11pt; color:#0000ff; background-color:#ffffff">www.notificaRAM.es</span></a><span style="font-family:Times New Roman; font-size:11pt">.</span> <span style="font-family:Times New Roman; font-size:11pt">M</span><span style="font-family:Times New Roman; font-size:11pt">ediante la comunicaci&#243;n de efectos adversos usted puede contribuir a proporcionar m&#225;s informaci&#243;n sobre la seguridad de este medicamento.</span></p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store Flucelvax"
@@ -596,7 +596,7 @@ Usage: #example
 
     <p style="margin:0.4pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 14.1pt 0pt 11.96pt; text-indent:0pt; text-align:justify; line-height:115%; padding-left:9.34pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Los principios activos son ant&#237;genos de superficie del virus de la gripe (hemaglutinina y neuraminidasa), inactivados, de las siguientes cepas*:</span></li>
     </ul>
 
@@ -632,7 +632,7 @@ Usage: #example
 
     <p style="margin:0.7pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 14.25pt 0pt 15.76pt; text-indent:0pt; text-align:justify; line-height:115%; padding-left:12.59pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Los dem&#225;s componentes son: cloruro de sodio, cloruro de potasio, cloruro de magnesio hexahidrato, fosfato dis&#243;dico dihidrato, dihidrogenofosfato de potasio y agua para preparaciones inyectables.</span></li>
     </ul>
 
@@ -686,7 +686,7 @@ Usage: #example
 
     <p style="margin:0.6pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
 
-    <p style="margin:0pt 3.8pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">La informaci&#243;n detallada de este medicamento est&#225; disponible en la p&#225;gina web de la Agencia Europea de Medicamentos:</span> <a href="http://www.ema.europa.eu/"><u><span style="font-family:Times New Roman; font-size:11pt;">http://www.ema.europa.eu/.</span></u></a></p>
+    <p style="margin:0pt 3.8pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">La informaci&#243;n detallada de este medicamento est&#225; disponible en la p&#225;gina web de la Agencia Europea de Medicamentos:</span> <a href="http://www.ema.europa.eu/"><span style="font-family:Times New Roman; font-size:11pt;">http://www.ema.europa.eu/.</span></a></p>
 
     <p style="margin:0.55pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
 

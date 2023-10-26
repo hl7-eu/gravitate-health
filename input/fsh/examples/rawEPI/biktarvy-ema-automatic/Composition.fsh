@@ -947,7 +947,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 9.56pt; text-indent:0pt; text-align:justify; padding-left:19.44pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Conserve este prospecto, ya que puede tener que volver a leerlo.</span></li>
 
       <li style="margin:0pt 0pt 0pt 9.56pt; text-indent:0pt; text-align:justify; padding-left:19.44pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si tiene alguna duda, consulte a su m&#233;dico o farmac&#233;utico.</span></li>
@@ -970,7 +970,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
 
-    <ol type="1" style="margin:0pt; padding-left:0pt">
+    <ol  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 13.25pt; text-indent:0pt; text-align:justify; padding-left:15.1pt; font-family:Times New Roman; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Qu&#233; es Biktarvy y para qu&#233; se utiliza</span></li>
 
       <li style="margin:0pt 0pt 0pt 13.25pt; text-indent:0pt; text-align:justify; padding-left:15.1pt; font-family:Times New Roman; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Qu&#233; necesita saber antes de empezar a tomar Biktarvy</span></li>
@@ -998,7 +998,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Biktarvy contiene tres principios activos:</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 5.4pt 0pt 9.75pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">bictegravir,</span></strong> <span style="font-family:Times New Roman; font-size:11pt">un medicamento antirretroviral conocido como inhibidor de la transferencia de las</span> <span style="font-family:Times New Roman; font-size:11pt">hebras de la integrasa (INI)</span></li>
 
       <li style="margin:0pt 7.4pt 0pt 9.75pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">emtricitabina,</span></strong> <span style="font-family:Times New Roman; font-size:11pt">un medicamento antirretroviral de un tipo conocido como nucle&#243;sido inhibidor</span> <span style="font-family:Times New Roman; font-size:11pt">de la transcriptasa inversa (ITIAN)</span></li>
@@ -1029,15 +1029,15 @@ Usage: #example
 
     <p style="margin:0pt 14.4pt 0pt 0pt; line-height:117%; font-size:11pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 14.4pt 0pt 9.8pt; text-indent:0pt; text-align:justify; padding-left:19.2pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Si es al&#233;rgico a bictegravir, emtricitabina, tenofovir alafenamida</span></strong> <span style="font-family:Times New Roman; font-size:11pt">o a alguno de los dem&#225;s</span> <span style="font-family:Times New Roman; font-size:11pt">componentes de este medicamento (incluidos en la secci&#243;n 6 de este prospecto).</span></li>
     </ul>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><a name="page2" id="page2"></a><strong><span style="font-family:Times New Roman; font-size:11pt;">Si actualmente est&#225; tomando alguno de los siguientes medicamentos:</span></strong></li>
 
       <li style="list-style: none; display: inline">
-        <ul type="circle" style="margin:0pt; padding-left:0pt">
+        <ul  style="margin:0pt; padding-left:0pt">
           <li style="margin:0pt 0pt 0pt 37.01pt; text-indent:0pt; text-align:justify; padding-left:20.09pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">rifampicina</span></strong> <span style="font-family:Times New Roman; font-size:11pt">utilizada para tratar algunas infecciones bacterianas como la tuberculosis</span></li>
 
           <li style="margin:0pt 30.4pt 0pt 37.06pt; text-indent:0pt; text-align:justify; padding-left:20.04pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">hierba de San Juan</span></strong> <span style="font-family:Times New Roman; font-size:11pt">(</span><em><span style="font-family:Times New Roman; font-size:11pt;">Hypericum perforatum</span></em><span style="font-family:Times New Roman; font-size:11pt">, hip&#233;rico), un medicamento a base de</span> <span style="font-family:Times New Roman; font-size:11pt">plantas utilizado para la depresi&#243;n y la ansiedad, o productos que la contengan.</span></li>
@@ -1047,7 +1047,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span style="font-family:Times New Roman; font-size:10pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 36.4pt 0pt 15.77pt; text-indent:0pt; text-align:justify; padding-left:5.53pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si est&#225; tomando alguno de estos medicamentos,</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">no tome Biktarvy y consulte a su m&#233;dico</span></strong> <strong><span style="font-family:Times New Roman; font-size:11pt;">inmediatamente.</span></strong></li>
     </ul>
 
@@ -1061,17 +1061,17 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span style="font-family:Times New Roman; font-size:10pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 4.4pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Si tiene problemas hep&#225;ticos o antecedentes de enfermedad hep&#225;tica, incluida la hepatitis.</span></strong> <span style="font-family:Times New Roman; font-size:11pt">Los pacientes que padecen de enfermedades hep&#225;ticas, como la hepatitis B o C cr&#243;nica, y est&#225;n en tratamiento con antirretrovirales tienen m&#225;s riesgo de presentar complicaciones hep&#225;ticas graves y potencialmente mortales. Si tiene infecci&#243;n por el virus de la hepatitis B, su m&#233;dico evaluar&#225; detenidamente la mejor pauta terap&#233;utica para usted.</span></li>
     </ul>
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 25.4pt 0pt 8.9pt; text-indent:0pt; text-align:justify; padding-left:19.2pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Si tiene hepatitis B.</span></strong> <span style="font-family:Times New Roman; font-size:11pt">Los problemas hep&#225;ticos pueden empeorar despu&#233;s de dejar de tomar</span> <span style="font-family:Times New Roman; font-size:11pt">Biktarvy.</span></li>
     </ul>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 18.4pt 0pt 15.77pt; text-indent:0pt; text-align:justify; padding-left:5.53pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">No deje de tomar Biktarvy si tiene hepatitis B. Hable antes con su m&#233;dico. Puede consultar m&#225;s detalles en la secci&#243;n 3,</span> <em><span style="font-family:Times New Roman; font-size:11pt;">No interrumpa el tratamiento con Biktarvy.</span></em></li>
     </ul>
 
@@ -1085,7 +1085,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span style="font-family:Times New Roman; font-size:10pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 27pt; text-indent:0pt; text-align:justify; padding-left:1.1pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Signos de inflamaci&#243;n o infecci&#243;n</span></strong></li>
 
       <li style="margin:0pt 0pt 0pt 27pt; text-indent:0pt; text-align:justify; padding-left:1.1pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Dolor articular, rigidez o problemas &#243;seos</span></strong></li>
@@ -1093,7 +1093,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span style="font-family:Times New Roman; font-size:10pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0.4pt 0pt 14.1pt; text-indent:0.1pt; text-align:justify; font-family:serif; font-size:11pt; list-style-position:inside"><strong><span style="font-family:Times New Roman; font-size:11pt;">Si nota cualquiera de estos s&#237;ntomas, informe a su m&#233;dico inmediatamente.</span></strong> <span style="font-family:Times New Roman; font-size:11pt">Puede consultar</span> <span style="font-family:Times New Roman; font-size:11pt">m&#225;s informaci&#243;n en la secci&#243;n 4,</span> <em><span style="font-family:Times New Roman; font-size:11pt;">Posibles efectos adversos</span></em><span style="font-family:Times New Roman; font-size:11pt">.</span></li>
     </ul>
 
@@ -1127,7 +1127,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span style="font-family:Times New Roman; font-size:10pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">rifampicina</span></strong> <span style="font-family:Times New Roman; font-size:11pt">utilizada para tratar algunas infecciones bacterianas como la tuberculosis</span></li>
 
       <li style="margin:0pt 27pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">hierba de San Juan</span></strong> <span style="font-family:Times New Roman; font-size:11pt">(</span><em><span style="font-family:Times New Roman; font-size:11pt;">Hypericum perforatum</span></em><span style="font-family:Times New Roman; font-size:11pt">, hip&#233;rico), un medicamento a base de plantas</span> <span style="font-family:Times New Roman; font-size:11pt">utilizado para la depresi&#243;n y la ansiedad, o productos que lo contengan</span><strong><span style="font-family:Times New Roman; font-size:11pt;">.</span></strong></li>
@@ -1135,7 +1135,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span style="font-family:Times New Roman; font-size:10pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 40pt 0pt 14.1pt; text-indent:0pt; text-align:justify; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si est&#225; tomando alguno de estos medicamentos,</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">no tome Biktarvy e informe a su m&#233;dico</span></strong> <strong><span style="font-family:Times New Roman; font-size:11pt;">inmediatamente.</span></strong></li>
     </ul>
 
@@ -1145,11 +1145,11 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">medicamentos utilizados para tratar el VIH y/o la hepatitis B</span></strong> <span style="font-family:Times New Roman; font-size:11pt">que contengan:</span></li>
 
       <li style="list-style: none; display: inline">
-        <ul type="circle" style="margin:0pt; padding-left:0pt">
+        <ul  style="margin:0pt; padding-left:0pt">
           <li style="margin:0pt 53pt 0pt 37.06pt; text-indent:0pt; text-align:justify; padding-left:17.04pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">adefovir dipivoxil, atazanavir, bictegravir, emtricitabina, lamivudina, tenofovir alafenamida o tenofovir disoproxilo</span></li>
         </ul>
       </li>
@@ -1157,8 +1157,8 @@ Usage: #example
       <li style="margin:0pt 0pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">antibi&#243;ticos, utilizados para tratar las infecciones bacterianas</span></strong><span style="font-family:Times New Roman; font-size:11pt">, que contengan:</span></li>
 
       <li style="list-style: none; display: inline">
-        <div type="square" style="margin: 0pt; margin-left: 2em; padding-left: 0pt">
-          <ul type="square" style="margin:0pt; padding-left:0pt">
+        <div  style="margin: 0pt; margin-left: 2em; padding-left: 0pt">
+          <ul  style="margin:0pt; padding-left:0pt">
             <li style="margin:0pt 0pt 0pt 44.66pt; text-indent:0pt; text-align:justify; padding-left:9.44pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">azitromicina, claritromicina, rifabutina o rifapentina</span></li>
           </ul>
         </div>
@@ -1167,7 +1167,7 @@ Usage: #example
       <li style="margin:0pt 0pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">antiepil&#233;pticos,</span></strong> <span style="font-family:Times New Roman; font-size:11pt">utilizados para tratar la epilepsia, que contengan:</span></li>
 
       <li style="list-style: none; display: inline">
-        <ul type="circle" style="margin:0pt; padding-left:0pt">
+        <ul  style="margin:0pt; padding-left:0pt">
           <li style="margin:0pt 0pt 0pt 37.06pt; text-indent:0pt; text-align:justify; padding-left:17.04pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">carbamazepina, oxcarbazepina, fenobarbital o fenito&#237;na</span></li>
         </ul>
       </li>
@@ -1179,7 +1179,7 @@ Usage: #example
 
     <p style="margin:0pt 0pt 0pt 28.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 42pt 0pt 14.1pt; text-indent:0pt; text-align:justify; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Informe a su m&#233;dico si est&#225; tomando alguno de estos medicamentos.</span></strong> <span style="font-family:Times New Roman; font-size:11pt">No interrumpa su</span> <span style="font-family:Times New Roman; font-size:11pt">tratamiento sin consultar con su m&#233;dico.</span></li>
     </ul>
 
@@ -1187,7 +1187,7 @@ Usage: #example
 
     <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Consulte a su m&#233;dico o farmac&#233;utico si est&#225; tomando:</span></strong></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 24pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">anti&#225;cidos</span></strong> <span style="font-family:Times New Roman; font-size:11pt">para tratar &#250;lceras estomacales, acidez estomacal o reflujo &#225;cido, que contengan</span> <span style="font-family:Times New Roman; font-size:11pt">hidr&#243;xido de aluminio y/o de magnesio</span></li>
 
       <li style="margin:0pt 0pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">suplementos de minerales</span></strong> <span style="font-family:Times New Roman; font-size:11pt">o</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">de vitaminas,</span></strong> <span style="font-family:Times New Roman; font-size:11pt">que contengan magnesio o hierro</span></li>
@@ -1195,8 +1195,8 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <div type="circle" style="margin: 0pt; margin-left: 2em; padding-left: 0pt">
-      <ul type="circle" style="margin:0pt; padding-left:0pt">
+    <div  style="margin: 0pt; margin-left: 2em; padding-left: 0pt">
+      <ul  style="margin:0pt; padding-left:0pt">
         <li style="margin:0pt 9pt 0pt 14.1pt; text-indent:0pt; text-align:justify; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Consulte a su m&#233;dico o farmac&#233;utico antes de tomar Biktarvy</span></strong> <span style="font-family:Times New Roman; font-size:11pt">si est&#225; tomando alguno de estos</span> <span style="font-family:Times New Roman; font-size:11pt">medicamentos.</span></li>
       </ul>
     </div>
@@ -1209,7 +1209,7 @@ Usage: #example
 
     <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Embarazo y lactancia</span></strong></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si est&#225; embarazada o en periodo de lactancia, cree que podr&#237;a estar embarazada o tiene intenci&#243;n de quedarse embarazada, consulte a su m&#233;dico o farmac&#233;utico antes de utilizar este medicamento.</span></li>
 
       <li style="margin:0pt 25pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Informe a su m&#233;dico inmediatamente si se queda embarazada y pregunte sobre los posibles beneficios y riesgos de su tratamiento antirretroviral para usted y para su hijo.</span></li>
@@ -1262,17 +1262,17 @@ Usage: #example
 
     <p style="margin:0pt 224.4pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 14.1pt; text-indent:0pt; text-align:justify; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Consulte a su m&#233;dico o farmac&#233;utico si est&#225; tomando:</span></strong></li>
     </ul>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 22.4pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">anti&#225;cidos</span></strong> <span style="font-family:Times New Roman; font-size:11pt">para tratar &#250;lceras estomacales, acidez estomacal o reflujo &#225;cido, que contengan</span> <span style="font-family:Times New Roman; font-size:11pt">hidr&#243;xido de aluminio y/o de magnesio</span></li>
 
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; text-align:justify; padding-left:19.2pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">suplementos de minerales</span></strong> <span style="font-family:Times New Roman; font-size:11pt">o</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">vitaminas</span></strong> <span style="font-family:Times New Roman; font-size:11pt">que contengan magnesio o hierro</span></li>
     </ul>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 14.1pt; text-indent:0pt; text-align:justify; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Vea la secci&#243;n 2 para m&#225;s informaci&#243;n</span></strong> <span style="font-family:Times New Roman; font-size:11pt">sobre c&#243;mo tomar estos medicamentos con Biktarvy.</span></li>
     </ul>
 
@@ -1300,7 +1300,7 @@ Usage: #example
 
     <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si olvida una dosis:</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 1.4pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Si se da cuenta en las 18 horas</span></strong> <span style="font-family:Times New Roman; font-size:11pt">posteriores a la hora a la que normalmente toma Biktarvy, debe</span> <span style="font-family:Times New Roman; font-size:11pt">tomar el comprimido tan pronto como sea posible. Luego tome la dosis siguiente de la forma habitual.</span></li>
 
       <li style="margin:0pt 2.4pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Si se da cuenta despu&#233;s de 18 horas o m&#225;s</span></strong> <span style="font-family:Times New Roman; font-size:11pt">de la hora a la que normalmente toma Biktarvy, no</span> <span style="font-family:Times New Roman; font-size:11pt">tome la dosis olvidada. Espere y tome la siguiente dosis a la hora habitual.</span></li>
@@ -1328,7 +1328,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 13.4pt 0pt 14.1pt; text-indent:0pt; text-align:justify; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Hable con su m&#233;dico inmediatamente</span></strong> <span style="font-family:Times New Roman; font-size:11pt">acerca de s&#237;ntomas nuevos o inusuales tras suspender su</span> <span style="font-family:Times New Roman; font-size:11pt">tratamiento, particularmente s&#237;ntomas que asocie con la infecci&#243;n por el virus de la hepatitis B.</span></li>
     </ul>
 
@@ -1354,20 +1354,20 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span style="font-family:Times New Roman; font-size:10pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 5.4pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Cualquier signo de inflamaci&#243;n o de infecci&#243;n.</span></strong> <span style="font-family:Times New Roman; font-size:11pt">En algunos pacientes con infecci&#243;n avanzada</span> <span style="font-family:Times New Roman; font-size:11pt">por el VIH (sida) y antecedentes de infecciones oportunistas (infecciones que ocurren en personas con un sistema inmunitario d&#233;bil), se pueden producir signos y s&#237;ntomas de inflamaci&#243;n por infecciones previas poco despu&#233;s de iniciar el tratamiento contra el VIH. Se cree que estos s&#237;ntomas se deben a una mejor&#237;a de la respuesta inmunitaria del organismo, que le permite combatir infecciones que podr&#237;an haber estado presentes sin s&#237;ntomas obvios.</span></li>
     </ul>
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 7.4pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Se pueden producir tambi&#233;n</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">trastornos autoinmunitarios,</span></strong> <span style="font-family:Times New Roman; font-size:11pt">en los que el sistema inmunitario ataca a los tejidos sanos del organismo, despu&#233;s de que empiece a tomar medicamentos para la infecci&#243;n por el VIH. Los trastornos autoinmunitarios se pueden producir muchos meses despu&#233;s del inicio del tratamiento. Est&#233; atento a cualquier s&#237;ntoma de infecci&#243;n u otros s&#237;ntomas, como:</span></li>
     </ul>
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <div type="circle" style="margin: 0pt; margin-left: 2em; padding-left: 0pt">
-      <ul type="circle" style="margin:0pt; padding-left:0pt">
+    <div  style="margin: 0pt; margin-left: 2em; padding-left: 0pt">
+      <ul  style="margin:0pt; padding-left:0pt">
         <li style="margin:0pt 0pt 0pt 37.01pt; text-indent:0pt; text-align:justify; padding-left:20.09pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">debilidad muscular</span></li>
 
         <li style="margin:0pt 0pt 0pt 37.01pt; text-indent:0pt; text-align:justify; padding-left:20.09pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">debilidad que se inicia en las manos y los pies y se desplaza hacia el tronco</span></li>
@@ -1378,7 +1378,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span style="font-family:Times New Roman; font-size:10pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 5.4pt 0pt 14.1pt; text-indent:0pt; text-align:justify; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Si nota cualquiera de estos s&#237;ntomas o cualquier s&#237;ntoma de inflamaci&#243;n o infecci&#243;n, informe a su m&#233;dico inmediatamente.</span></strong></li>
     </ul>
 
@@ -1388,7 +1388,7 @@ Usage: #example
 
     <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><em><span style="font-family:Times New Roman; font-size:11pt;">(pueden afectar hasta 1 de cada 10 personas)</span></em></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">depresi&#243;n</span></li>
 
       <li style="margin:0pt 0pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">sue&#241;os anormales</span></li>
@@ -1410,77 +1410,77 @@ Usage: #example
 
     <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">(</span><em><span style="font-family:Times New Roman; font-size:11pt;">pueden afectar hasta 1 de cada 100 personas</span></em><span style="font-family:Times New Roman; font-size:11pt">)</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; text-align:justify; padding-left:19.2pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">anemia</span></li>
     </ul>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.85pt; text-indent:0pt; padding-left:19.25pt; font-family:serif; font-size:11pt"><a name="page6" id="page6"></a><span style="font-family:Times New Roman; font-size:11pt">v&#243;mitos</span></li>
     </ul>
 
     <p style="margin:0pt; line-height:0.7pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">dolor de est&#243;mago</span></li>
     </ul>
 
     <p style="margin:0pt; line-height:0.7pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">problemas digestivos que generan molestias despu&#233;s de las comidas (</span><em><span style="font-family:Times New Roman; font-size:11pt;">dispepsia</span></em><span style="font-family:Times New Roman; font-size:11pt">)</span></li>
     </ul>
 
     <p style="margin:0pt; line-height:0.7pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">gases (</span><em><span style="font-family:Times New Roman; font-size:11pt;">flatulencia</span></em><span style="font-family:Times New Roman; font-size:11pt">)</span></li>
     </ul>
 
     <p style="margin:0pt; line-height:0.7pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">hinchaz&#243;n de la cara, labios, lengua o garganta (</span><em><span style="font-family:Times New Roman; font-size:11pt;">angioedema</span></em><span style="font-family:Times New Roman; font-size:11pt">)</span></li>
     </ul>
 
     <p style="margin:0pt; line-height:0.7pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">picaz&#243;n (</span><em><span style="font-family:Times New Roman; font-size:11pt;">prurito</span></em><span style="font-family:Times New Roman; font-size:11pt">)</span></li>
     </ul>
 
     <p style="margin:0pt; line-height:0.7pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">erupci&#243;n</span></li>
     </ul>
 
     <p style="margin:0pt; line-height:0.7pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">habones (</span><em><span style="font-family:Times New Roman; font-size:11pt;">urticaria</span></em><span style="font-family:Times New Roman; font-size:11pt">)</span></li>
     </ul>
 
     <p style="margin:0pt; line-height:0.7pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">dolor en las articulaciones (</span><em><span style="font-family:Times New Roman; font-size:11pt;">artralgia</span></em><span style="font-family:Times New Roman; font-size:11pt">)</span></li>
     </ul>
 
     <p style="margin:0pt; line-height:0.7pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">comportamiento suicida</span></li>
     </ul>
 
     <p style="margin:0pt; line-height:0.7pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">ansiedad</span></li>
     </ul>
 
     <p style="margin:0pt; line-height:0.7pt"><span style="font-family:Arial; font-size:11pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">trastornos del sue&#241;o</span></li>
     </ul>
 
@@ -1488,13 +1488,13 @@ Usage: #example
 
     <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><em><span style="font-family:Times New Roman; font-size:11pt;">Los an&#225;lisis de sangre tambi&#233;n pueden mostrar:</span></em></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 65pt; text-indent:-65pt; text-align:justify; font-family:serif; font-size:11pt; list-style-position:inside"><span style="font:7.0pt Times New Roman">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <span style="font-family:Times New Roman; font-size:11pt">Concentraciones m&#225;s altas de sustancias llamadas bilirrubina y/o creatinina s&#233;rica en la sangre</span></li>
     </ul>
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span style="font-family:Times New Roman; font-size:10pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 28.4pt 0pt 65pt; text-indent:-65pt; text-align:justify; font-family:serif; font-size:11pt; list-style-position:inside"><span style="font:7.0pt Times New Roman">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">Si considera que alguno de los efectos adversos que sufre es grave, informe a su m&#233;dico.</span></strong></li>
     </ul>
 
@@ -1506,11 +1506,11 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span style="font-family:Times New Roman; font-size:10pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 2.4pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Problemas &#243;seos.</span></strong> <span style="font-family:Times New Roman; font-size:11pt">Algunos pacientes tratados con medicamentos antirretrovirales combinados</span> <span style="font-family:Times New Roman; font-size:11pt">como Biktarvy pueden desarrollar una enfermedad de los huesos llamada</span> <em><span style="font-family:Times New Roman; font-size:11pt;">osteonecrosis</span></em> <span style="font-family:Times New Roman; font-size:11pt">(muerte del tejido &#243;seo debida a una p&#233;rdida del suministro de sangre al hueso). Tomar este tipo de medicamentos durante un tiempo prolongado, tomar corticosteroides, beber alcohol, tener un sistema inmunitario muy d&#233;bil y tener sobrepeso, pueden ser algunos de los muchos factores de riesgo para desarrollar esta enfermedad. Los signos de osteonecrosis son:</span></li>
 
       <li style="list-style: none; display: inline">
-        <ul type="circle" style="margin:0pt; padding-left:0pt">
+        <ul  style="margin:0pt; padding-left:0pt">
           <li style="margin:0pt 0pt 0pt 37.01pt; text-indent:0pt; text-align:justify; padding-left:20.09pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">rigidez articular</span></li>
 
           <li style="margin:0pt 0pt 0pt 36.96pt; text-indent:0pt; text-align:justify; padding-left:20.14pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">molestias y dolores articulares (especialmente de la cadera, la rodilla y el hombro)</span></li>
@@ -1522,7 +1522,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span style="font-family:Times New Roman; font-size:10pt">&#xa0;</span></p>
 
-    <ul type="disc" style="margin:0pt; padding-left:0pt">
+    <ul  style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 14.1pt; text-indent:0pt; text-align:justify; font-family:serif; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Si nota cualquiera de estos s&#237;ntomas, informe a su m&#233;dico.</span></strong></li>
     </ul>
 
