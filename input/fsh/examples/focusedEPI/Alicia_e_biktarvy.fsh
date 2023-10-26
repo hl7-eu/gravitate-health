@@ -474,7 +474,6 @@ Usage: #example
 * identifier.value = "EU/1/97/049/001"
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
-* language = #en
 
 // Composition
 * entry[0].fullUrl = "Composition/enhanced-composition1846d2b12fecbbb0310cd8c196c98a58"
