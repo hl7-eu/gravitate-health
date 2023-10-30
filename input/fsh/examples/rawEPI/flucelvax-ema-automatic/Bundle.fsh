@@ -1,30 +1,4 @@
-
-Instance: bundlepackageleaflet-56a32a5ee239fc834b47c10db1faa3fd
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for flucelvax Package Leaflet"
-Description: "Bundle for flucelvax Package Leaflet ePI document"
-Usage: #example
-
-
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "flucelvax-1"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-
-* language = #en
-
-
-// Composition
-* entry[0].fullUrl = "Composition/compositione8bd725f64067aeae7994e2b56cd79c9"
-* entry[0].resource = compositione8bd725f64067aeae7994e2b56cd79c9
-
- 
- 
- 
-
- 
- 
-
+RuleSet: FlucelvaxBundleRuleset
 // Ingredient
 
 * entry[+].fullUrl = "Ingredient/ingredient-for-2e8cb2387c664fb619f6b8914767d38f"
@@ -133,3 +107,50 @@ Usage: #example
 * entry[=].resource = mid-04c9bd6fb89d38b2d83eced2460c4dc1 
  
 
+
+
+
+Instance: bundlepackageleaflet-56a32a5ee239fc834b47c10db1faa3fd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for flucelvax Package Leaflet"
+Description: "Bundle for flucelvax Package Leaflet ePI document"
+Usage: #example
+
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "flucelvax-1"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+
+* language = #en
+
+
+// Composition
+* entry[0].fullUrl = "Composition/compositione8bd725f64067aeae7994e2b56cd79c9"
+* entry[0].resource = compositione8bd725f64067aeae7994e2b56cd79c9
+
+ 
+* insert FlucelvaxBundleRuleset
+
+ 
+Instance: bundlepackageleaflet-es-56a32a5ee239fc834b47c10db1faa3fd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for flucelvax Package Leaflet es"
+Description: "Bundle for flucelvax Package Leaflet ePI document es"
+Usage: #example
+
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "flucelvax-es"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+
+* language = #es
+
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-es-e8bd725f64067aeae7994e2b56cd71c1"
+* entry[0].resource = composition-es-e8bd725f64067aeae7994e2b56cd71c1
+
+ 
+* insert FlucelvaxBundleRuleset

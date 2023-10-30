@@ -116,3 +116,26 @@ Usage: #example
 
 * insert BiktarvyBundleRuleset
 
+
+
+Instance: bundlepackageleaflet-es-b44cce291e466626afa836fffe72c350
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for biktarvy-pt Package Leaflet for language es"
+Description: "Bundle for biktarvy-es Package Leaflet ePI document"
+Usage: #example
+
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/18/1289/001"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+
+
+* language = #es
+
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-es-1846d2b12fecbbb0310cd8c196c98f82"
+* entry[0].resource = composition-es-1846d2b12fecbbb0310cd8c196c98f82
+
+* insert BiktarvyBundleRuleset
