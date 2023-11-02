@@ -277,7 +277,7 @@ Usage: #example
                                     breast-feeding, think you may be pregnant or are planning to
                                     have a baby, ask your doctor or pharmacist for advice before
                                     taking this medicine. Your doctor will perform a pregnancy test
-                                    prior to starting Talzenna. </p></a>
+                                    prior to starting Talzenna.</a></p>
                                 <ul>
                                     <li>
                                         <a class:"Pregnant"><p>You should not use Talzenna if you are pregnant. </p></a>
