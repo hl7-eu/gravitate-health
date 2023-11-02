@@ -273,17 +273,17 @@ Usage: #example
   * code.text = "Pregnancy &lt;and&gt; &lt;,&gt; breast-feeding &lt;and fertility&gt;"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-<p>Talzenna could harm an unborn baby. <a class:"Female">If you are pregnant or
+<p>Talzenna could harm an unborn baby. <a class="Female">If you are pregnant or
                                     breast-feeding, think you may be pregnant or are planning to
                                     have a baby, ask your doctor or pharmacist for advice before
                                     taking this medicine. Your doctor will perform a pregnancy test
                                     prior to starting Talzenna.</a></p>
                                 <ul>
                                     <li>
-                                        <a class:"Pregnant"><p>You should not use Talzenna if you are pregnant. </p></a>
+                                        <a class="Pregnant"><p>You should not use Talzenna if you are pregnant. </p></a>
                                     </li>
                                     <li>
-                                        <a class:"female"><p>You should not become pregnant while taking Talzenna.
+                                        <a class="Female"><p>You should not become pregnant while taking Talzenna.
                                         </p></a>
                                     </li>
                                     <li>
@@ -295,7 +295,7 @@ Usage: #example
                                 <p>
                                     <b>Male and female contraception</b>
                                 </p>
-                                <a class:"Female"><p><b>Women </b>who are able to become pregnant should use effective
+                                <a class="Female"><p><b>Women </b>who are able to become pregnant should use effective
                                     birth control (contraception) during treatment with Talzenna and
                                     for at least 7 months after the last dose of Talzenna. Since the
                                     use of hormonal contraception is not recommended if you have
@@ -303,7 +303,7 @@ Usage: #example
                                     methods.</p></a>
                                 <p>Talk to your healthcare provider about birth control methods that
                                     may be right for you. </p>
-                                <a class:"Male"><p><b>Men </b>with female partners who are pregnant or able to
+                                <a class="Male"><p><b>Men </b>with female partners who are pregnant or able to
                                     become pregnant should use effective birth control
                                     (contraception), even after a vasectomy, during treatment with
                                     Talzenna and for at least 4 months after the last dose.</p></a>
