@@ -15,7 +15,7 @@ Usage: #example
 
 
 // Composition
-* entry[0].fullUrl = "Composition/compositionb4adca48035e7857c0e645892ad2c66e"
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/compositionb4adca48035e7857c0e645892ad2c66e"
 * entry[0].resource = compositionb4adca48035e7857c0e645892ad2c66e
 
  
@@ -23,12 +23,12 @@ Usage: #example
 
 // ClinicalUseDefinition
 
-* entry[+].fullUrl = "ClinicalUseDefinition/cud-42659cd40ce761bcf6d15bd28423e45f"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-42659cd40ce761bcf6d15bd28423e45f"
 * entry[=].resource = cud-42659cd40ce761bcf6d15bd28423e45f 
 
 // ClinicalUseDefinition
 
-* entry[+].fullUrl = "ClinicalUseDefinition/cud-7b1263be67675b61a6b6e6f0a5c35389"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-7b1263be67675b61a6b6e6f0a5c35389"
 * entry[=].resource = cud-7b1263be67675b61a6b6e6f0a5c35389 
  
 
@@ -37,99 +37,99 @@ Usage: #example
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-suliqua-insulinglargine"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-suliqua-insulinglargine"
 * entry[=].resource = ingredient-for-suliqua-insulinglargine 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-suliqua-lixisenatide"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-suliqua-lixisenatide"
 * entry[=].resource = ingredient-for-suliqua-lixisenatide 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-suliqua-glycerol85whodd"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-suliqua-glycerol85whodd"
 * entry[=].resource = ingredient-for-suliqua-glycerol85whodd 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-suliqua-methionine"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-suliqua-methionine"
 * entry[=].resource = ingredient-for-suliqua-methionine 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-suliqua-metacresol"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-suliqua-metacresol"
 * entry[=].resource = ingredient-for-suliqua-metacresol 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-suliqua-zincchloride"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-suliqua-zincchloride"
 * entry[=].resource = ingredient-for-suliqua-zincchloride 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-suliqua-hydrochloricacidiarc"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-suliqua-hydrochloricacidiarc"
 * entry[=].resource = ingredient-for-suliqua-hydrochloricacidiarc 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-suliqua-sterilewaterforinjection"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-suliqua-sterilewaterforinjection"
 * entry[=].resource = ingredient-for-suliqua-sterilewaterforinjection 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-suliqua-sodiumhydroxide"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-suliqua-sodiumhydroxide"
 * entry[=].resource = ingredient-for-suliqua-sodiumhydroxide 
  
  
 
 // AdministrableProductDefinition
 
-* entry[+].fullUrl = "AdministrableProductDefinition/ap-66d97ddf0e95a23a3c0f4f2102139f34"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-66d97ddf0e95a23a3c0f4f2102139f34"
 * entry[=].resource = ap-66d97ddf0e95a23a3c0f4f2102139f34 
  
 
 // RegulatedAuthorization
 
-* entry[+].fullUrl = "RegulatedAuthorization/authorizationa9517814b36bf7381b0a946a09cda2e4"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationa9517814b36bf7381b0a946a09cda2e4"
 * entry[=].resource = authorizationa9517814b36bf7381b0a946a09cda2e4 
  
 
 // Organization
 
-* entry[+].fullUrl = "Organization/mah-16019cea3a857659d2c5a2018c2260df"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-16019cea3a857659d2c5a2018c2260df"
 * entry[=].resource = mah-16019cea3a857659d2c5a2018c2260df 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/mapi-ab61fc2db513f79636782643b3407aa5"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Organization/mapi-ab61fc2db513f79636782643b3407aa5"
 * entry[=].resource = mapi-ab61fc2db513f79636782643b3407aa5 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/mbr-b9c6316075799071b2706c402f9fa388"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Organization/mbr-b9c6316075799071b2706c402f9fa388"
 * entry[=].resource = mbr-b9c6316075799071b2706c402f9fa388 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/mra-ff74c5498eb163c2fb470e9fd175a0c1"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Organization/mra-ff74c5498eb163c2fb470e9fd175a0c1"
 * entry[=].resource = mra-ff74c5498eb163c2fb470e9fd175a0c1 
  
 
 // PackagedProductDefinition
 
-* entry[+].fullUrl = "PackagedProductDefinition/ppd-8c4132a54faf3c7e493f1831dcb0425d"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-8c4132a54faf3c7e493f1831dcb0425d"
 * entry[=].resource = ppd-8c4132a54faf3c7e493f1831dcb0425d 
  
 
 // MedicinalProductDefinition
 
-* entry[+].fullUrl = "MedicinalProductDefinition/mp367b9089c0743a2330f4c6e82b40ee41"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp367b9089c0743a2330f4c6e82b40ee41"
 * entry[=].resource = mp367b9089c0743a2330f4c6e82b40ee41 
  
 
 // ManufacturedItemDefinition
 
-* entry[+].fullUrl = "ManufacturedItemDefinition/mid-66d97ddf0e95a23a3c0f4f2102139f34"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-66d97ddf0e95a23a3c0f4f2102139f34"
 * entry[=].resource = mid-66d97ddf0e95a23a3c0f4f2102139f34 
  
 

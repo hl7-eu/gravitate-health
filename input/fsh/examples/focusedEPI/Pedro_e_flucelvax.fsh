@@ -215,7 +215,7 @@ Usage: #example
 * language = #en
 
 // Composition
-* entry[0].fullUrl = "Composition/enhanced-composition056f32ee5cf49404607e368bd8d3f2afg"
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/enhanced-composition056f32ee5cf49404607e368bd8d3f2afg"
 * entry[0].resource =  enhanced-composition056f32ee5cf49404607e368bd8d3f2afg
 
 
@@ -224,109 +224,109 @@ Usage: #example
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-2e8cb2387c664fb619f6b8914767d38f"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-2e8cb2387c664fb619f6b8914767d38f"
 * entry[=].resource = ingredient-for-2e8cb2387c664fb619f6b8914767d38f 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-flucelvax-influenzaavirusadarwin112021h3n2whole"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-flucelvax-influenzaavirusadarwin112021h3n2whole"
 * entry[=].resource = ingredient-for-flucelvax-influenzaavirusadarwin112021h3n2whole 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-f4e520e2974f4acb8abe26b607ea5a46"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-f4e520e2974f4acb8abe26b607ea5a46"
 * entry[=].resource = ingredient-for-f4e520e2974f4acb8abe26b607ea5a46 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-2c0c197a41a706fb2549601e635da1f3"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-2c0c197a41a706fb2549601e635da1f3"
 * entry[=].resource = ingredient-for-2c0c197a41a706fb2549601e635da1f3 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-flucelvax-sodiumchloride"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-flucelvax-sodiumchloride"
 * entry[=].resource = ingredient-for-flucelvax-sodiumchloride 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-flucelvax-potassiumchloride"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-flucelvax-potassiumchloride"
 * entry[=].resource = ingredient-for-flucelvax-potassiumchloride 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-flucelvax-magnesiumchloride"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-flucelvax-magnesiumchloride"
 * entry[=].resource = ingredient-for-flucelvax-magnesiumchloride 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-flucelvax-sodiumphosphatedibasicdihydrate"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-flucelvax-sodiumphosphatedibasicdihydrate"
 * entry[=].resource = ingredient-for-flucelvax-sodiumphosphatedibasicdihydrate 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-flucelvax-potassiumdihydrogenphosphate"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-flucelvax-potassiumdihydrogenphosphate"
 * entry[=].resource = ingredient-for-flucelvax-potassiumdihydrogenphosphate 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-flucelvax-waterforinjections"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-flucelvax-waterforinjections"
 * entry[=].resource = ingredient-for-flucelvax-waterforinjections 
  
 
 // Substance
    
-* entry[+].fullUrl = "SubstanceDefinition/substance-influenzaavirusadelaware552019cvr45h1n1whole"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-influenzaavirusadelaware552019cvr45h1n1whole"
 * entry[=].resource = substance-influenzaavirusadelaware552019cvr45h1n1whole 
 
 // Substance
    
-* entry[+].fullUrl = "SubstanceDefinition/substance-influenzaavirusadarwin112021h3n2whole"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-influenzaavirusadarwin112021h3n2whole"
 * entry[=].resource = substance-influenzaavirusadarwin112021h3n2whole 
 
 // Substance
    
-* entry[+].fullUrl = "SubstanceDefinition/substance-influenzabvirusbsingaporewuh46182021whole"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-influenzabvirusbsingaporewuh46182021whole"
 * entry[=].resource = substance-influenzabvirusbsingaporewuh46182021whole 
 
 // Substance
    
-* entry[+].fullUrl = "SubstanceDefinition/substance-influenzabvirusbsingaporeinftt1606102016whole"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-influenzabvirusbsingaporeinftt1606102016whole"
 * entry[=].resource = substance-influenzabvirusbsingaporeinftt1606102016whole 
  
 
 // AdministrableProductDefinition
 
-* entry[+].fullUrl = "AdministrableProductDefinition/ap-04c9bd6fb89d38b2d83eced2460c4dc1"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-04c9bd6fb89d38b2d83eced2460c4dc1"
 * entry[=].resource = ap-04c9bd6fb89d38b2d83eced2460c4dc1 
  
 
 // RegulatedAuthorization
 
-* entry[+].fullUrl = "RegulatedAuthorization/authorization04c9bd6fb89d38b2d83eced2460c4dc1"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization04c9bd6fb89d38b2d83eced2460c4dc1"
 * entry[=].resource = authorization04c9bd6fb89d38b2d83eced2460c4dc1 
  
 
 // Organization
 
-* entry[+].fullUrl = "Organization/mah-45fe50eae508b5755dd140ab2093eb5e"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-45fe50eae508b5755dd140ab2093eb5e"
 * entry[=].resource = mah-45fe50eae508b5755dd140ab2093eb5e 
  
 
 // PackagedProductDefinition
 
-* entry[+].fullUrl = "PackagedProductDefinition/ppd-04c9bd6fb89d38b2d83eced2460c4dc1"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-04c9bd6fb89d38b2d83eced2460c4dc1"
 * entry[=].resource = ppd-04c9bd6fb89d38b2d83eced2460c4dc1 
  
 
 // MedicinalProductDefinition
 
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb6ced64d25ea2c8da6c6099386f14db1"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpb6ced64d25ea2c8da6c6099386f14db1"
 * entry[=].resource = mpb6ced64d25ea2c8da6c6099386f14db1 
  
 
 // ManufacturedItemDefinition
 
-* entry[+].fullUrl = "ManufacturedItemDefinition/mid-04c9bd6fb89d38b2d83eced2460c4dc1"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-04c9bd6fb89d38b2d83eced2460c4dc1"
 * entry[=].resource = mid-04c9bd6fb89d38b2d83eced2460c4dc1 
  
 

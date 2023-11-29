@@ -554,17 +554,17 @@ Usage: #example
 * language = #en
 
 // Composition
-* entry[0].fullUrl = "Composition/enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8"
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8"
 * entry[0].resource = enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8
 
 * insert KarveaBundleRuleset
 
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney"
 * entry[=].resource = contraindication-kidney
 
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-diabetes-mellitus"
 * entry[=].resource = contraindication-diabetes-mellitus
 
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregnancy"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-pregnancy"
 * entry[=].resource = contraindication-pregnancy
 

@@ -764,7 +764,7 @@ Usage: #example
 * timestamp = "2023-04-25T11:55:27Z"
 
 // Composition
-* entry[0].fullUrl = "Composition/compositione722f6782d3f34f86982e14386c8811dll"
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/compositione722f6782d3f34f86982e14386c8811dll"
 * entry[0].resource =  compositione722f6782d3f34f86982e14386c8811dll
 
 
@@ -785,7 +785,7 @@ Usage: #example
 * timestamp = "2023-04-25T11:55:27Z"
 
 // Composition
-* entry[0].fullUrl = "Composition/processed-composition16598f252d07b4784b82ba43cf9e847e"
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/processed-composition16598f252d07b4784b82ba43cf9e847e"
 * entry[0].resource =  processed-composition16598f252d07b4784b82ba43cf9e847e
 
 

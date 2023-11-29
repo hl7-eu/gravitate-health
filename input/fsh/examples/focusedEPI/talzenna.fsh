@@ -11,19 +11,19 @@ Usage: #example
 * timestamp = "2022-03-04T00:00:00Z"
 
 // Composition
-* entry[0].fullUrl = "Composition/compositionUkEnPersonalizedTalzenna"
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/compositionUkEnPersonalizedTalzenna"
 * entry[0].resource = compositionUkEnPersonalizedTalzenna
 
 // Organization
-* entry[+].fullUrl = "Organization/orgpfizerukltd1"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Organization/orgpfizerukltd1"
 * entry[=].resource = orgpfizerukltd1 
  
 // MedicinalProductDefinition
-* entry[+].fullUrl = "MedicinalProductDefinition/mp025mg1"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp025mg1"
 * entry[=].resource = mp025mg1
 
 // MedicinalProductDefinition
-* entry[+].fullUrl = "MedicinalProductDefinition/mp1mg1"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp1mg1"
 * entry[=].resource = mp1mg1 
 
 

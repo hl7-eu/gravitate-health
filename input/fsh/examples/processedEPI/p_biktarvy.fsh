@@ -2112,18 +2112,18 @@ Usage: #example
 
 
 // Composition
-* entry[0].fullUrl = "Composition/composition-proc-es-1846d2b12fecbbb0310cd8c196c98f82"
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-proc-es-1846d2b12fecbbb0310cd8c196c98f82"
 * entry[0].resource = composition-proc-es-1846d2b12fecbbb0310cd8c196c98f82
 
 * insert BiktarvyBundleRuleset
 
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney"
 * entry[=].resource = contraindication-kidney
 
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-diabetes-mellitus"
 * entry[=].resource = contraindication-diabetes-mellitus
 
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregnancy"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-pregnancy"
 * entry[=].resource = contraindication-pregnancy
 
 
@@ -2144,18 +2144,18 @@ Usage: #example
 
 
 // Composition
-* entry[0].fullUrl = "Composition/composition-proc-pt-2065c93918e829bc9508cce4f449e8fd"
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-proc-pt-2065c93918e829bc9508cce4f449e8fd"
 * entry[0].resource = composition-proc-pt-2065c93918e829bc9508cce4f449e8fd
 
 * insert BiktarvyBundleRuleset
 
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney"
 * entry[=].resource = contraindication-kidney
 
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-diabetes-mellitus"
 * entry[=].resource = contraindication-diabetes-mellitus
 
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregnancy"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-pregnancy"
 * entry[=].resource = contraindication-pregnancy
 
 
@@ -2176,19 +2176,19 @@ Usage: #example
 * language = #en
 
 // Composition
-* entry[0].fullUrl = "Composition/Processed-composition1846d2b12fecbbb0310cd8c196c98a58"
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/Processed-composition1846d2b12fecbbb0310cd8c196c98a58"
 * entry[0].resource = Processed-composition1846d2b12fecbbb0310cd8c196c98a58
 
 * insert BiktarvyBundleRuleset
 
 
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-kidney"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney"
 * entry[=].resource = contraindication-kidney
 
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-diabetes-mellitus"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-diabetes-mellitus"
 * entry[=].resource = contraindication-diabetes-mellitus
 
-* entry[+].fullUrl = "ClinicalUseDefinition/contraindication-pregnancy"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-pregnancy"
 * entry[=].resource = contraindication-pregnancy
 
 

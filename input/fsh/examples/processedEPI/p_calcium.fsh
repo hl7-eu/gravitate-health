@@ -340,7 +340,7 @@ Usage: #example
 * language = #es
 
 // Composition
-* entry[0].fullUrl = "Composition/processed-composition02e928f15b7b861b4b44915d9f1330ec"
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/processed-composition02e928f15b7b861b4b44915d9f1330ec"
 * entry[0].resource =  processed-composition02e928f15b7b861b4b44915d9f1330ec
 
 

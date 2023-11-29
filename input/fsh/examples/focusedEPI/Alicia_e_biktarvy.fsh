@@ -476,7 +476,7 @@ Usage: #example
 * timestamp = "2023-04-25T11:55:27Z"
 
 // Composition
-* entry[0].fullUrl = "Composition/enhanced-composition1846d2b12fecbbb0310cd8c196c98a58"
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/enhanced-composition1846d2b12fecbbb0310cd8c196c98a58"
 * entry[0].resource = enhanced-composition1846d2b12fecbbb0310cd8c196c98a58
 
 * insert BiktarvyBundleRuleset

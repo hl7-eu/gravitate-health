@@ -15,7 +15,7 @@ Usage: #example
 
 
 // Composition
-* entry[0].fullUrl = "Composition/composition45f3604d61f93f5f026bea5d5824af10"
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition45f3604d61f93f5f026bea5d5824af10"
 * entry[0].resource = composition45f3604d61f93f5f026bea5d5824af10
 
  
@@ -27,94 +27,94 @@ Usage: #example
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-humalog-glycerol"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-humalog-glycerol"
 * entry[=].resource = ingredient-for-humalog-glycerol 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-humalog-hydrochloricacid"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-humalog-hydrochloricacid"
 * entry[=].resource = ingredient-for-humalog-hydrochloricacid 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-humalog-sodiumhydroxide"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-humalog-sodiumhydroxide"
 * entry[=].resource = ingredient-for-humalog-sodiumhydroxide 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-humalog-sterilewaterforinjection"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-humalog-sterilewaterforinjection"
 * entry[=].resource = ingredient-for-humalog-sterilewaterforinjection 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-humalog-insulinlispro"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-humalog-insulinlispro"
 * entry[=].resource = ingredient-for-humalog-insulinlispro 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-humalog-zincoxide"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-humalog-zincoxide"
 * entry[=].resource = ingredient-for-humalog-zincoxide 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-humalog-metacresol"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-humalog-metacresol"
 * entry[=].resource = ingredient-for-humalog-metacresol 
 
 // Ingredient
 
-* entry[+].fullUrl = "Ingredient/ingredient-for-humalog-trometamol"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-humalog-trometamol"
 * entry[=].resource = ingredient-for-humalog-trometamol 
  
 
 // Substance
    
-* entry[+].fullUrl = "SubstanceDefinition/substance-insulinlispro"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-insulinlispro"
 * entry[=].resource = substance-insulinlispro 
  
 
 // AdministrableProductDefinition
 
-* entry[+].fullUrl = "AdministrableProductDefinition/ap-a38f06714db0c27b2ba704652e3f08c5"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-a38f06714db0c27b2ba704652e3f08c5"
 * entry[=].resource = ap-a38f06714db0c27b2ba704652e3f08c5 
  
 
 // RegulatedAuthorization
 
-* entry[+].fullUrl = "RegulatedAuthorization/authorization35570a7ffa4ad1ddf8a920b1728d4cd2"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization35570a7ffa4ad1ddf8a920b1728d4cd2"
 * entry[=].resource = authorization35570a7ffa4ad1ddf8a920b1728d4cd2 
  
 
 // Organization
 
-* entry[+].fullUrl = "Organization/mah-3fdc76794516d7826890ab9f893e99c1"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-3fdc76794516d7826890ab9f893e99c1"
 * entry[=].resource = mah-3fdc76794516d7826890ab9f893e99c1 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/mapi-6f4987de7be1bbfa4ee92c07de7e94d4"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Organization/mapi-6f4987de7be1bbfa4ee92c07de7e94d4"
 * entry[=].resource = mapi-6f4987de7be1bbfa4ee92c07de7e94d4 
 
 // Organization
 
-* entry[+].fullUrl = "Organization/man-e3ef26dd2c7a0847d92d3bb1a64855b9"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Organization/man-e3ef26dd2c7a0847d92d3bb1a64855b9"
 * entry[=].resource = man-e3ef26dd2c7a0847d92d3bb1a64855b9 
  
 
 // PackagedProductDefinition
 
-* entry[+].fullUrl = "PackagedProductDefinition/ppd-a38f06714db0c27b2ba704652e3f08c5"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-a38f06714db0c27b2ba704652e3f08c5"
 * entry[=].resource = ppd-a38f06714db0c27b2ba704652e3f08c5 
  
 
 // MedicinalProductDefinition
 
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd33868162d255ced115cecbbf188aab4"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpd33868162d255ced115cecbbf188aab4"
 * entry[=].resource = mpd33868162d255ced115cecbbf188aab4 
  
 
 // ManufacturedItemDefinition
 
-* entry[+].fullUrl = "ManufacturedItemDefinition/mid-a38f06714db0c27b2ba704652e3f08c5"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-a38f06714db0c27b2ba704652e3f08c5"
 * entry[=].resource = mid-a38f06714db0c27b2ba704652e3f08c5 
  
 

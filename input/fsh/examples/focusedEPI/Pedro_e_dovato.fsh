@@ -677,7 +677,7 @@ Usage: #example
 * language = #es
 
 // Composition
-* entry[0].fullUrl = "Composition/enhanced-composition16598f252d07b4784b82ba43cf9e847eg"
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/enhanced-composition16598f252d07b4784b82ba43cf9e847eg"
 * entry[0].resource =  enhanced-composition16598f252d07b4784b82ba43cf9e847eg
 
 
@@ -700,7 +700,7 @@ Usage: #example
 * language = #en
 
 // Composition
-* entry[0].fullUrl = "Composition/compositione722f6782d3f34f86982e14386c8811dhh"
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/compositione722f6782d3f34f86982e14386c8811dhh"
 * entry[0].resource =  compositione722f6782d3f34f86982e14386c8811dhh
 
 
