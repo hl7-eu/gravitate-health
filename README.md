@@ -1,3 +1,10 @@
+![CI Build](https://img.shields.io/github/actions/workflow/status/hl7-eu/gravitate-health/ghbuild.yml)  
+  
+
+[![QA errors](https://img.shields.io/badge/dynamic/json?url=http://build.fhir.org/ig/hl7-eu/gravitate-health/qa.json&query=%24.errs&logoColor=red&label=QA%20errors&color=yellow)](https://worldhealthorganization.github.io/smart-immunizations-measles/qa.html)
+![QA warnings](https://img.shields.io/badge/dynamic/json?url=http://build.fhir.org/ig/hl7-eu/gravitate-health/qa.json&query=%24.warnings&logoColor=orange&label=QA%20warnings&color=yellow)
+![QA hints](https://img.shields.io/badge/dynamic/json?url=http://build.fhir.org/ig/hl7-eu/gravitate-health/qa.json&query=%24.hints&logoColor=yellow&label=QA%20hints&color=yellow)
+
 # gravitate-health
 Gravitate Health Project
 
