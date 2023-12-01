@@ -777,6 +777,9 @@ Usage: #example
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/processed-composition056f32ee5cf49404607e368bd8d3f2af"
 * entry[0].resource =  processed-composition056f32ee5cf49404607e368bd8d3f2af
 
+* insert FlucelvaxBundleRuleset
+
+
 Instance: processedbundleflucelvaxES
 InstanceOf: BundleUvEpi
 Title: "[Preprocessed] ePI document for Flucelvax Package Leaflet in ES"
@@ -795,113 +798,5 @@ Usage: #example
 * entry[0].resource =  composition-proc-es-e8bd725f64067aeae7994e2b56cd71c1
 
 
- 
-
-// Ingredient
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-2e8cb2387c664fb619f6b8914767d38f"
-* entry[=].resource = ingredient-for-2e8cb2387c664fb619f6b8914767d38f 
-
-// Ingredient
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-flucelvax-influenzaavirusadarwin112021h3n2whole"
-* entry[=].resource = ingredient-for-flucelvax-influenzaavirusadarwin112021h3n2whole 
-
-// Ingredient
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-f4e520e2974f4acb8abe26b607ea5a46"
-* entry[=].resource = ingredient-for-f4e520e2974f4acb8abe26b607ea5a46 
-
-// Ingredient
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-2c0c197a41a706fb2549601e635da1f3"
-* entry[=].resource = ingredient-for-2c0c197a41a706fb2549601e635da1f3 
-
-// Ingredient
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-flucelvax-sodiumchloride"
-* entry[=].resource = ingredient-for-flucelvax-sodiumchloride 
-
-// Ingredient
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-flucelvax-potassiumchloride"
-* entry[=].resource = ingredient-for-flucelvax-potassiumchloride 
-
-// Ingredient
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-flucelvax-magnesiumchloride"
-* entry[=].resource = ingredient-for-flucelvax-magnesiumchloride 
-
-// Ingredient
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-flucelvax-sodiumphosphatedibasicdihydrate"
-* entry[=].resource = ingredient-for-flucelvax-sodiumphosphatedibasicdihydrate 
-
-// Ingredient
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-flucelvax-potassiumdihydrogenphosphate"
-* entry[=].resource = ingredient-for-flucelvax-potassiumdihydrogenphosphate 
-
-// Ingredient
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-flucelvax-waterforinjections"
-* entry[=].resource = ingredient-for-flucelvax-waterforinjections 
- 
-
-// Substance
-   
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-influenzaavirusadelaware552019cvr45h1n1whole"
-* entry[=].resource = substance-influenzaavirusadelaware552019cvr45h1n1whole 
-
-// Substance
-   
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-influenzaavirusadarwin112021h3n2whole"
-* entry[=].resource = substance-influenzaavirusadarwin112021h3n2whole 
-
-// Substance
-   
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-influenzabvirusbsingaporewuh46182021whole"
-* entry[=].resource = substance-influenzabvirusbsingaporewuh46182021whole 
-
-// Substance
-   
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-influenzabvirusbsingaporeinftt1606102016whole"
-* entry[=].resource = substance-influenzabvirusbsingaporeinftt1606102016whole 
- 
-
-// AdministrableProductDefinition
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-04c9bd6fb89d38b2d83eced2460c4dc1"
-* entry[=].resource = ap-04c9bd6fb89d38b2d83eced2460c4dc1 
- 
-
-// RegulatedAuthorization
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization04c9bd6fb89d38b2d83eced2460c4dc1"
-* entry[=].resource = authorization04c9bd6fb89d38b2d83eced2460c4dc1 
- 
-
-// Organization
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-45fe50eae508b5755dd140ab2093eb5e"
-* entry[=].resource = mah-45fe50eae508b5755dd140ab2093eb5e 
- 
-
-// PackagedProductDefinition
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-04c9bd6fb89d38b2d83eced2460c4dc1"
-* entry[=].resource = ppd-04c9bd6fb89d38b2d83eced2460c4dc1 
- 
-
-// MedicinalProductDefinition
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpb6ced64d25ea2c8da6c6099386f14db1"
-* entry[=].resource = mpb6ced64d25ea2c8da6c6099386f14db1 
- 
-
-// ManufacturedItemDefinition
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-04c9bd6fb89d38b2d83eced2460c4dc1"
-* entry[=].resource = mid-04c9bd6fb89d38b2d83eced2460c4dc1 
- 
+ * insert FlucelvaxBundleRuleset
 
