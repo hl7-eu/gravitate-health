@@ -2089,8 +2089,8 @@ Usage: #example
 
 Instance: bundleprocessed-es-b44cce291e466626afa836fffe72c350
 InstanceOf: BundleUvEpi
-Title: "[Processed] ePI document Bundle for biktarvy-pt Package Leaflet for language es"
-Description: "[Processed] Bundle for biktarvy-pt Package Leaflet ePI document"
+Title: "[Processed] ePI document Bundle for biktarvy-es Package Leaflet for language es"
+Description: "[Processed] Bundle for biktarvy-es Package Leaflet ePI document"
 Usage: #example
 
 
