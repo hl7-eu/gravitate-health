@@ -510,7 +510,7 @@ Usage: #example
 * title = "TEST PURPOSES ONLY - Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
-* language = #en
+* language = #pt
 * category = epicategory-cs#P "Processed"
 
 
@@ -1061,7 +1061,7 @@ Usage: #example
 * section[=].section[+]
   * title = "Package leaflet: Information for the user"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Prospecto: información para el usuario"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt 0pt 0pt 136pt; line-height:115%; font-size:11pt"><a name="page1" id="page1"></a><strong><span style="font-family:Times New Roman; font-size:11pt;">Prospecto: informaci&#243;n para el usuario</span></strong></p>
 
@@ -1100,7 +1100,7 @@ Usage: #example
 * section[=].section[+]
   * title = "What is in this leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Contenido del prospecto"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt 0pt 0pt 1pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Contenido del prospecto</span></strong></p>
 
@@ -1128,7 +1128,7 @@ Usage: #example
 * section[=].section[+]
   * title = "1. What Biktarvy 50 mg/200 mg/25 mg film-coated tablets is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Biktarvy 50 mg/200 mg/25 mg film-coated tablets is and what it is used for"
+  * code.text = "1. Qué es Biktarvy y para qué se utiliza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt; line-height:12.8pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
 
@@ -1157,7 +1157,7 @@ Usage: #example
 * section[=].section[+]
   * title = "2. What you need to know before you take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt; line-height:0.05pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
 
@@ -1380,7 +1380,7 @@ Usage: #example
 * section[=].section[+]
   * title = "3. How to take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * code.text = "3. Cómo tomar Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Siga exactamente las instrucciones de administraci&#243;n de este medicamento indicadas por su m&#233;dico.</span></p>
 
@@ -1478,7 +1478,7 @@ Usage: #example
 * section[=].section[+]
   * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt; line-height:12.75pt"><span style="font-family:Times New Roman; font-size:10pt">&#xa0;</span></p>
 
@@ -1681,7 +1681,7 @@ Usage: #example
 * section[=].section[+]
   * title = "5. How to store Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * code.text = "5. Conservación de Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Mantener este medicamento fuera de la vista y del alcance de los ni&#241;os.</span></p>
 
@@ -1703,7 +1703,7 @@ Usage: #example
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt; line-height:0.05pt"><span style="font-family:Times New Roman; font-size:10pt">&#xa0;</span></p>
 
