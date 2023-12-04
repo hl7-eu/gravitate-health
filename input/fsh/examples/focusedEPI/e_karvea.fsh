@@ -1,6 +1,6 @@
 Instance: mock-lib
 InstanceOf: Library
-Usage: #inline
+
 
 * status = #draft
 * type = #logic-library
