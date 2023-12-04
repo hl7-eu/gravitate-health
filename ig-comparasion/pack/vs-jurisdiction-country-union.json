@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e227cd7f-7616-4ac8-9768-e94d01bd9f29-26",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e227cd7f-7616-4ac8-9768-e94d01bd9f29-26",
+  "name" : "UnionJurisdictionValueSetAndVsCountry",
+  "title" : "Union of Jurisdiction ValueSet And ISO Country two letter code",
+  "status" : "draft",
+  "date" : "2023-12-04T12:22:09+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "urn:iso:std:iso:3166"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166:-2"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "filter" : [{
+        "property" : "class",
+        "op" : "=",
+        "value" : "region"
+      }]
+    },
+    {
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/v3-Country2"]
+    }]
+  }
+}

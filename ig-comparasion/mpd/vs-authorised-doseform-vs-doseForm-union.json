@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ac3a9eda-3e63-4660-8523-ca641f5b044b-11",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/ac3a9eda-3e63-4660-8523-ca641f5b044b-11",
+  "name" : "UnionAuthorisedDoseFormAndVsDoseForm",
+  "title" : "Union of EMA SPOR Authorised Dose Form And Dose Form",
+  "status" : "draft",
+  "date" : "2023-12-04T12:19:52+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://spor.ema.europa.eu/v1/lists/200000000004"
+    },
+    {
+      "system" : "https://spor.ema.europa.eu/v1/lists/200000000006"
+    },
+    {
+      "system" : "https://spor.ema.europa.eu/v1/lists/200000000007"
+    },
+    {
+      "system" : "https://spor.ema.europa.eu/v1/lists/200000000008"
+    },
+    {
+      "system" : "http://hl7.org/fhir/combined-dose-form"
+    }]
+  }
+}

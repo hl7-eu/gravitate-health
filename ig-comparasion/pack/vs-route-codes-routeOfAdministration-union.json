@@ -1,0 +1,30 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e227cd7f-7616-4ac8-9768-e94d01bd9f29-17",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e227cd7f-7616-4ac8-9768-e94d01bd9f29-17",
+  "name" : "UnionSNOMEDCTRouteCodesAndVsRouteOfAdministration",
+  "title" : "Union of SNOMED CT Route Codes And Route Of Administration",
+  "status" : "draft",
+  "date" : "2023-12-04T12:22:09+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "284009009"
+      },
+      {
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "284009009"
+      }]
+    }]
+  }
+}
