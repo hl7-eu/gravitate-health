@@ -93,7 +93,7 @@
     {% assign mpdtid = mpd.id | prepend: 'MedicinalProductDefinition/' %}
     {% comment %}if the current looped RA points to the MPD as subject{% endcomment %}
     {% if ra.subject[0].reference == mpdtid %}
-      {% include regauth.liquid ra=ra %}
+      {% include regauth.liquid ra=ra  bundle=bundle %}
     {% endif %}
   {% endfor %}
 
@@ -110,7 +110,7 @@
         {% if ppdpackageFor.reference == mpdtid %}
           <div class="container rcorners ppd listcontainer"> <p class="divtitle">
             Package {{ ppdindex }} of {{ ppds | size }}</p>
-          {% include ppd.liquid ppd=ppd %}
+          {% include ppd.liquid ppd=ppd bundle=bundle %}
         </div>
       {% endif %}
     {% endfor %}
@@ -127,7 +127,7 @@
         {% comment %}Do this only if the APD-formOf links to the MPD {% endcomment %}
         {% comment %}FIX - currently only [0], should be  any{% endcomment %}
           {% if apd.formOf[0].reference == mpdtid %}
-        {% include apd.liquid apd=apd %}
+        {% include apd.liquid apd=apd bundle=bundle %}
       {% endif %}
     {% endfor %}
   {% comment %}</div>{% endcomment %}

@@ -45,7 +45,7 @@
 <h2>Product Information</h2>
 {% assign mpdr = bundle.entry | where: "resource.resourceType", "MedicinalProductDefinition" | first %}
 {% assign mpd = mpdr.resource %}
-{% include mpd.liquid mpd=mpd %}
+{% include mpd.liquid mpd=mpd bundle=bundle %}
 
 <!--
   <div class="container rcorners mpd">

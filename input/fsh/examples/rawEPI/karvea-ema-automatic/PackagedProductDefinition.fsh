@@ -29,8 +29,8 @@ Usage: #example
 
 
 * packaging
-  * identifier.system = $spor-prod
-  * identifier.value = "mock-id"
+//  * identifier.system = $spor-prod
+//  * identifier.value = "mock-id"
   * quantity = 1
   * type = $spor-rms#100000073498 "Box"
   * material = $spor-rms#200000003529 "Cardboard"
@@ -39,8 +39,9 @@ Usage: #example
 
     * identifier.system = $spor-prod
     * identifier.value = "123456"
+    * containedItem.item.reference = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
     * type = $spor-rms#100000073496 "Blister"
-    //* quantity = 14
+    
     * quantity = 14
     * material = $spor-rms#200000003222 "PolyVinyl Chloride"
 
@@ -87,8 +88,8 @@ Usage: #example
 
 
 * packaging
-  * identifier.system = $spor-prod
-  * identifier.value = "mock-id"
+//  * identifier.system = $spor-prod
+//  * identifier.value = "mock-id"
   * quantity = 1
   * type = $spor-rms#100000073498 "Box"
   * material = $spor-rms#200000003529 "Cardboard"
@@ -97,8 +98,9 @@ Usage: #example
 
     * identifier.system = $spor-prod
     * identifier.value = "123456"
+    * containedItem.item.reference = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
     * type = $spor-rms#100000073496 "Blister"
-    //* quantity = 28
+    
     * quantity = 28
     * material = $spor-rms#200000003222 "PolyVinyl Chloride"
 
@@ -145,8 +147,8 @@ Usage: #example
 
 
 * packaging
-  * identifier.system = $spor-prod
-  * identifier.value = "mock-id"
+//  * identifier.system = $spor-prod
+//  * identifier.value = "mock-id"
   * quantity = 1
   * type = $spor-rms#100000073498 "Box"
   * material = $spor-rms#200000003529 "Cardboard"
@@ -155,8 +157,9 @@ Usage: #example
 
     * identifier.system = $spor-prod
     * identifier.value = "123456"
+    * containedItem.item.reference = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
     * type = $spor-rms#100000073496 "Blister"
-    //* quantity = 56
+    
     * quantity = 56
     * material = $spor-rms#200000003222 "PolyVinyl Chloride"
 
@@ -203,8 +206,8 @@ Usage: #example
 
 
 * packaging
-  * identifier.system = $spor-prod
-  * identifier.value = "mock-id"
+//  * identifier.system = $spor-prod
+//  * identifier.value = "mock-id"
   * quantity = 1
   * type = $spor-rms#100000073498 "Box"
   * material = $spor-rms#200000003529 "Cardboard"
@@ -213,8 +216,9 @@ Usage: #example
 
     * identifier.system = $spor-prod
     * identifier.value = "123456"
+    * containedItem.item.reference = Reference(mid-dcaa4d32aa6658a8df831551503e52ee)
     * type = $spor-rms#100000073496 "Blister"
-    //* quantity = 98
+    
     * quantity = 98
     * material = $spor-rms#200000003222 "PolyVinyl Chloride"
 
