@@ -19,7 +19,7 @@
     <b>Composition type:</b>
     {{ composition.type.coding[0].display }}{% endif %}
   <br/>
-  <br/>
+  
 
   <h2>Narrative Text</h2>
   <br/>
@@ -45,6 +45,9 @@
 <h2>Product Information</h2>
 {% assign mpdr = bundle.entry | where: "resource.resourceType", "MedicinalProductDefinition" | first %}
 {% assign mpd = mpdr.resource %}
+{% include mpd.liquid mpd=mpd %}
+
+<!--
   <div class="container rcorners mpd">
   {% comment %}print the name - current name[0], should be all names{% endcomment %}
   <h4 class="nonumbers">

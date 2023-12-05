@@ -1,0 +1,30 @@
+<div class="container rcorners mid listcontainer">
+  <p class="divtitle">Manufactured Item</p>
+  <p>
+    Dose form:
+    <b>
+      {{ mid.manufacturedDoseForm.coding[0].display }}
+    </b>
+  </p>
+  <p>
+    Unit of presentation:
+    <b>
+      {{ mid.unitOfPresentation.coding[0].display }}
+    </b>
+  </p>
+
+  {% assign midings = bundle.entry | where: "resource.resourceType", "Ingredient" %}
+
+  {% for midingr in midings %}
+
+    {% assign miding = midingr.resource %}
+
+    {% assign midid = mid.id | prepend: 'ManufacturedItemDefinition/' %}
+    {% for midingfor in miding.for %}
+      {% if midingfor.reference == midid %}
+        {% include midingredient.liquid miding=miding %}
+
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>

@@ -1,0 +1,42 @@
+{% for ppid in ppd.identifier %}
+  <p>{{ ppid.system | split: '/' | last | upcase }}:
+  <b>
+    {{ ppid.value }}
+  </b>
+  </p>
+{% endfor %}
+<p>
+  Description:
+  </br>
+  <i>
+    {{ ppd.description }}
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  {% for mkts in ppd.marketingStatus %}
+    <li>
+      <b>{{ mkts.country.coding[0].display }}: {{ mkts.status.coding[0].display }}
+      </b>
+    </li>
+  {% endfor %}
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    {% for quant in ppd.containedItemQuantity %}
+      <li>
+        <b>{{ quant.value }} {{ quant.unit | pluralize: quant.unit }}</li></b>
+    {% endfor %}
+  </ul>
+</p>
+
+<p>
+  {% assign pckg = ppd.packaging %}
+    <div class="container rcorners pack">
+    {% comment %}Include the ppd-package (recursive, with pckg as the object to parse) {% endcomment %}
+    {% include ppd-package.liquid pckg=pckg %}
+  </div>
+</p>

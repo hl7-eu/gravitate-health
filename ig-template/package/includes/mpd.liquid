@@ -1,0 +1,134 @@
+{% comment %}GET all MPDs from the Bundle - the resource inside each entry{% endcomment %}
+
+  <div class="container rcorners mpd">
+  {% comment %}print the name - current name[0], should be all names{% endcomment %}
+  <h4>
+    {{ mpd.name[0].productName }}
+  </h4>
+
+  {% comment %}and MPD identifiers{% endcomment %}
+  {% for pid in mpd.identifier %}
+    {{ pid.system | split: '/' | last | upcase }}:
+    <b>
+      {{ pid.value }}
+    </b>
+    </br>
+  {% endfor %}
+  <hr>
+  {% comment %}and name parts{% endcomment %}
+  <p>Full name: <b>{{ mpd.name[0].productName }}</b></p>
+  {% for namepart in mpd.name[0].part %}
+    <p>
+      - {{ namepart.type.coding[0].display }}:
+      <b>
+        {{ namepart.part }}
+      </b>
+    </p>
+  {% endfor %}
+
+
+  {% comment %}for each name (currently [0] but should be all) print the languages{% endcomment %}
+  {% comment %}FIX{% endcomment %}
+  {% if mpd.name[0].usage %}
+    <div>
+      <p>
+        Name usage:
+        {% for lang in mpd.name[0].usage %}
+
+          <b>{{ lang.language.coding[0].display }} ({{ lang.country.coding[0].display }})</b>
+        </p>
+
+      {% endfor %}
+    </div>
+  {% endif %}
+  <hr>
+  {% comment %}print combined dose form - if there's many, this should be adjusted{% endcomment %}
+  <div>
+    <p>
+      Authorised dose form:
+      <b>{{ mpd.combinedPharmaceuticalDoseForm.coding[0].display }}</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b>{{ mpd.legalStatusOfSupply.coding[0].display }}</b>
+    </p>
+  </div>
+  {% comment %}print status and domain{% endcomment %}
+  <div>
+    <p>
+      Domain:
+      <b>{{ mpd.domain.coding[0].display }}</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b>{{ mpd.status.coding[0].display }}</b>
+    </p>
+  </div>
+<hr>
+  {% comment %}print mpd classification{% endcomment %}
+  <p>
+  Product classification:
+    {% for classif in mpd.classification %}
+      <ul>
+          {% for class in classif.coding %}
+            <li> 
+                <b>{{ class.code }}  {{ class.display }}</b>
+            </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</p>
+
+  {% comment %}Get all RAs (RegAuthorization) from the Bundle{% endcomment %}
+  {% assign ras = bundle.entry | where: "resource.resourceType", "RegulatedAuthorization" %}
+
+    {% for rar in ras %}
+    {% comment %}get the RA resource{% endcomment %}
+    {% assign ra = rar.resource %}
+    {% comment %}mpdtid = mpd prepended ID - will be "MedicinalProductDefinition/<id>" identifiers{% endcomment %}
+    {% assign mpdtid = mpd.id | prepend: 'MedicinalProductDefinition/' %}
+    {% comment %}if the current looped RA points to the MPD as subject{% endcomment %}
+    {% if ra.subject[0].reference == mpdtid %}
+      {% include regauth.liquid ra=ra %}
+    {% endif %}
+  {% endfor %}
+
+  {% comment %}Get PPDs from Bundle {% endcomment %}
+  {% assign ppds = bundle.entry | where: "resource.resourceType", "PackagedProductDefinition" %}
+    {% for ppdr in ppds %}
+    {% assign ppdindex = forloop.index %}
+    {% assign ppd = ppdr.resource %}
+    {% comment %}Get PPDs that link to MPD, via packagefor[0] {% endcomment %}
+    {% comment %}SHOULD FIX: Currently only packageFor[0], but should be any package {% endcomment %}
+    {% assign mpdtid = mpd.id | prepend: 'MedicinalProductDefinition/' %}
+    {% comment %}FIX{% endcomment %}
+      {% for ppdpackageFor in ppd.packageFor %}
+        {% if ppdpackageFor.reference == mpdtid %}
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package {{ ppdindex }} of {{ ppds | size }}</p>
+          {% include ppd.liquid ppd=ppd %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+
+  {% assign apds = bundle.entry | where: "resource.resourceType", "AdministrableProductDefinition" %}
+
+  {% if apds %}
+{% comment %}<div class="container rcorners apd listcontainer">{% endcomment %}
+
+      {% for apdr in apds %}
+        {% assign apd = apdr.resource %}
+        {% assign mpdtid = mpd.id | prepend: 'MedicinalProductDefinition/' %}
+        {% comment %}Do this only if the APD-formOf links to the MPD {% endcomment %}
+        {% comment %}FIX - currently only [0], should be  any{% endcomment %}
+          {% if apd.formOf[0].reference == mpdtid %}
+        {% include apd.liquid apd=apd %}
+      {% endif %}
+    {% endfor %}
+  {% comment %}</div>{% endcomment %}
+{% endif %}</div>

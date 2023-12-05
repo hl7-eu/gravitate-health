@@ -1,0 +1,51 @@
+<div class="container rcorners apd listcontainer">
+  <p class="divtitle">Administrable Product ({{ forloop.index }} of {{ apds | size }})</p>
+  <p>
+    Dose form:
+    <b>
+      {{ apd.administrableDoseForm.coding[0].display }}
+    </b>
+  </p>
+
+  <p>
+    Unit of presentation:
+    <b>
+      {{ apd.unitOfPresentation.coding[0].display }}
+    </b>
+  </p>
+
+  <p>
+    Route of administration:
+    <ul>
+      {% for roas in apd.routeOfAdministration %}
+        <li>
+          <b>
+            {{ roas.code.coding[0].display }}
+          </b>
+        </li>
+      {% endfor %}
+    </ul>
+  </p>
+
+  Ingredients:
+  {% comment %}Get Ings from Bundle {% endcomment %}
+
+
+
+  {% assign apdings = bundle.entry | where: "resource.resourceType", "Ingredient" %}
+
+  {% for apdingr in apdings %}
+    {% assign apding = apdingr.resource %}
+
+    {% assign apdid = apd.id | prepend: 'AdministrableProductDefinition/' %}
+
+    {% for apdingfor in apding.for %}
+      {% if apdingfor.reference == apdid %}
+        {% include apdingredient.liquid apding=apding %}
+
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+
+
+</div>

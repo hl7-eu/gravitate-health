@@ -1,0 +1,59 @@
+<div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              {{ apding.role.coding[0].display }}
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              {{ apding.substance.code.concept.coding[0].display }}
+            </b>
+          </p>
+
+          {% for strn in apding.substance.strength %}
+            {% if strn.concentrationRatio %}
+              <p>
+                Concentration strength:
+                <b>
+                  {{ strn.concentrationRatio.numerator.value }} {{ strn.concentrationRatio.numerator.unit }} /
+                  {{ strn.concentrationRatio.denominator.value }} {{ strn.concentrationRatio.denominator.unit }}
+                </b>
+              </p>
+            {% endif %}
+
+            {% if strn.presentationRatio %}
+              <p>
+                Presentation strength:
+                <b>
+                  {{ strn.presentationRatio.numerator.value }} {{ strn.presentationRatio.numerator.unit }} /
+
+                  {{ strn.presentationRatio.denominator.value }} {{ strn.presentationRatio.denominator.unit }}
+                </b>
+              </p>
+            {% endif %}
+
+            {% if strn.referenceStrength %}
+            {% for refstrn in strn.referenceStrength %}
+            <hr>
+              <p>
+                Reference strength:</br>
+                <b>
+                  {{ refstrn.substance.concept.coding[0].display }}
+                </b>
+                <b>
+
+                  {{ refstrn.strengthRatio.numerator.value }} {{ refstrn.strengthRatio.numerator.unit }} /
+
+                  {{ refstrn.strengthRatio.denominator.value }} {{ refstrn.strengthRatio.denominator.unit }}
+                </b>
+              </p>
+            {% endfor %}
+          {% endif %}
+
+          {% endfor %}
+          </div>
+        {% comment %}{% endcomment %}

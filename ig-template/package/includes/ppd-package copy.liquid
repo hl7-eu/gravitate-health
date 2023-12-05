@@ -1,0 +1,37 @@
+<p>Package:
+  <b>{{ pckg.quantity }} {{ pckg.type.coding[0].display }}</b>
+  {% assign pcks = pckg.material | size %}
+  {% if pcks != 0 %}
+    {% for pckgm in pckg.material %}
+      <b>({{ pckgm.coding[0].display }})</b>
+    {% endfor %}
+  {% endif %}
+</p>
+
+<p>Containing:
+  {% for pckgcontainedItem in pckg.containedItem %}
+    <b>{{ pckgcontainedItem.amount.value }} {{ pckgcontainedItem.amount.unit }}
+      {{ pckgcontainedItem.item.concept.coding[0].display }}
+    </b>
+  </p>
+  {% assign mids = bundle.entry | where: "resource.resourceType", "ManufacturedItemDefinition" %}
+  {% for midr in mids %}
+    {% assign mid = midr.resource %}
+    {% assign fmid = mid.id | prepend: 'ManufacturedItemDefinition/' %}
+
+    {% if pckgcontainedItem.item.reference.reference == fmid %}
+      {% include mid.liquid mid=mid %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% for pckg in pckg.packaging %}
+  <br/>
+  <div class="container rcorners innerpack">
+    {% include ppd-package.liquid pckg=pckg %}
+  </div>
+{% endfor %}
+
+{% comment %}
+<div class="container rcorners innerpack"></div>
+{% endcomment %}
