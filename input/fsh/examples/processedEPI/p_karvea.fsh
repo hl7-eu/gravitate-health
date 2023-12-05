@@ -596,7 +596,7 @@ Usage: #example
 * entry[0].resource = Processedcompositionf4d45353edcb21af3718d3a0df94a4d8
 
 
-* insert KarveaBundleRuleset
+* insert d99852efa4d4976d99a584078a2ca48cBundleRuleset
 
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney"
 * entry[=].resource = contraindication-kidney
@@ -1105,7 +1105,7 @@ Usage: #example
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-processed-pt-f4d45353edcb21af3718d3a0df94a4d8"
 * entry[0].resource = composition-processed-pt-f4d45353edcb21af3718d3a0df94a4d8 
 
-* insert KarveaBundleRuleset
+* insert d99852efa4d4976d99a584078a2ca48cBundleRuleset
 
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney"
 * entry[=].resource = contraindication-kidney

@@ -35,13 +35,13 @@ Description: "Regulated Authorization for karvea 75 mg tablet - 28 tablets"
 Usage: #example
 
 * identifier.system = $spor-prod
-* identifier.value = "EU/1/97/049/010"
+* identifier.value = "EU/1/97/049/001"
 * identifier.use = #official
 
 
  // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
  //* subject = Reference(karvea75mgblisterx28)
-* subject = Reference(mpf095d9202ffefe8b579ed68f5eb48cc2)
+* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * type = $spor-rms#220000000061 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062
@@ -64,13 +64,13 @@ Description: "Regulated Authorization for karvea 75 mg tablet - 56 tablets"
 Usage: #example
 
 * identifier.system = $spor-prod
-* identifier.value = "EU/1/97/049/010"
+* identifier.value = "EU/1/97/049/002"
 * identifier.use = #official
 
 
  // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
  //* subject = Reference(karvea75mgblisterx28)
-* subject = Reference(mp3782f5cdf745de74f956298557335c6a)
+* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * type = $spor-rms#220000000061 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062
@@ -93,13 +93,13 @@ Description: "Regulated Authorization for karvea 75 mg tablet - 98 tablets"
 Usage: #example
 
 * identifier.system = $spor-prod
-* identifier.value = "EU/1/97/049/010"
+* identifier.value = "EU/1/97/049/003"
 * identifier.use = #official
 
 
  // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
  //* subject = Reference(karvea75mgblisterx28)
-* subject = Reference(mpc4f9d6ea53ec05b60b33bc68ae2b1dd3)
+* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
 * type = $spor-rms#220000000061 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062

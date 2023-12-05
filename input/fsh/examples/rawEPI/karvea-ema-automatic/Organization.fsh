@@ -18,7 +18,7 @@ Usage: #example
 * active = true 
 * type = $spor-rms#220000000034  "Marketing authorisation holder"
 //* type.text = "Marketing authorisation holder"
-* name = "Sanofi Winthrop Industrie"
+* name = "Sanofi Winthrop Industrie	"
 
 
 * contact

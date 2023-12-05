@@ -10,7 +10,7 @@ from validator import pre_validation
 import hashlib
 
 context = {"now": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")}
-
+CANONICAL_URL = "http://hl7.eu/fhir/ig/gravitate-health/"
 
 # total arguments
 n = len(sys.argv)
@@ -31,7 +31,6 @@ if OUTPUT_FOLDER[-1] != "/":
 
 
 def create_env(TEMPLATE_FOLDER):
-
     env = Environment(loader=FileSystemLoader(TEMPLATE_FOLDER), trim_blocks=True)
 
     # Custom filter method
@@ -124,8 +123,11 @@ def create_from_template(env, DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER, major_n
         #   print(df)
         df.to_csv(temp_folder + sheet + ".csv", index=True)
 
-    data_dict = {"MajorName": major_name}  # if needed
-    data = {"dictionary": data_dict, "turn": "1"}
+    data_dict = {"MajorName": major_name, "url": CANONICAL_URL}  # if needed
+    data = {
+        "dictionary": data_dict,
+        "turn": "1",
+    }
 
     # multiple elementsa
     for file in listdir(temp_folder):
@@ -157,9 +159,7 @@ def create_from_template(env, DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER, major_n
             ids = []
 
             for line in Lines:
-
                 if "Instance: " in line:
-
                     instances.append(line.replace("Instance: ", "").strip())
                     # if "* id = " in line:
                     # print(line)

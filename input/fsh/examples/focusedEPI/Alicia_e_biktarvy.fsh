@@ -479,4 +479,4 @@ Usage: #example
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/enhanced-composition1846d2b12fecbbb0310cd8c196c98a58"
 * entry[0].resource = enhanced-composition1846d2b12fecbbb0310cd8c196c98a58
 
-* insert BiktarvyBundleRuleset
+* insert 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset

@@ -63,7 +63,7 @@ Usage: #example
 
 //reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 {% if data["turn"] != "1" %}
-* packageFor = Reference({{data["references"]["MedicinalProductDefinition"][index][0]}})
+* packageFor = Reference({{data["references"]["MedicinalProductDefinition"][0][0]}})
 {% endif %}
 
 
