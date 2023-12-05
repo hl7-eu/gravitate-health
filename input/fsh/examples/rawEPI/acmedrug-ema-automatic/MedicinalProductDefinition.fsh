@@ -28,23 +28,19 @@ Usage: #example
   
   * part[0]
     * part = "acme"
-    * type = $spor-productNamePartType-cs#220000000002
-    * type.text = "Invented name part"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
   
   * part[+]
     * part = "acmedrug"
-    * type = $spor-productNamePartType-cs#220000000003
-    * type.text = "Scientific name part"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
   
   * part[+]
     * part = "75 mg"
-    * type = $spor-productNamePartType-cs#220000000004
-    * type.text = "Strength part"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
   
   * part[+]
     * part = "tablet"
-    * type = $spor-productNamePartType-cs#220000000005
-    * type.text = "Pharmaceutical dose form part"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
     * country = urn:iso:std:iso:3166#DK "Denmark"

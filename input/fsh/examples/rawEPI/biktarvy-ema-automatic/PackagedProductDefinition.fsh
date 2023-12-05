@@ -27,8 +27,8 @@ Usage: #example
 
 
 * packaging
-  * identifier.system = $spor-prod
-  * identifier.value = "mock-id"
+//  * identifier.system = $spor-prod
+//  * identifier.value = "mock-id"
   * quantity = 1
   * type = $spor-rms#100000073498 "Box"
   * material = $spor-rms#200000003529 "Cardboard"
@@ -37,8 +37,9 @@ Usage: #example
 
     * identifier.system = $spor-prod
     * identifier.value = "654321"
+    * containedItem.item.reference = Reference(mid-14ba4cb05b11f838919ef39edd3e0cdf)
     * type = $spor-rms#100000073504 "Child-resistant closure"
-    //* quantity = 1
+    
     * quantity = 1
     * material = $spor-rms#200000003529 "Cardboard"
 
@@ -84,8 +85,8 @@ Usage: #example
 
 
 * packaging
-  * identifier.system = $spor-prod
-  * identifier.value = "mock-id"
+//  * identifier.system = $spor-prod
+//  * identifier.value = "mock-id"
   * quantity = 1
   * type = $spor-rms#100000073498 "Box"
   * material = $spor-rms#200000003529 "Cardboard"
@@ -94,8 +95,9 @@ Usage: #example
 
     * identifier.system = $spor-prod
     * identifier.value = "654321"
+    * containedItem.item.reference = Reference(mid-14ba4cb05b11f838919ef39edd3e0cdf)
     * type = $spor-rms#100000073504 "Child-resistant closure"
-    //* quantity = 1
+    
     * quantity = 1
     * material = $spor-rms#200000003529 "Cardboard"
 
