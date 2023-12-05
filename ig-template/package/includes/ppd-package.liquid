@@ -25,7 +25,7 @@ pckg = packaging element
 
     {% if pckgcontainedItem.item.reference.reference == fmid %}
       {% include mid.liquid mid=mid %}
-      {% elif pckgcontainedItem.packaging.item.reference.reference == fmid%}
+      {% elsif pckgcontainedItem.packaging.item.reference.reference == fmid%}
       {% include mid.liquid mid=mid %}
     {% endif %}
   {% endfor %}
