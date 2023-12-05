@@ -13,30 +13,29 @@ GET https://fosps.gravitatehealth.eu/focusing/lenses
 GET https://fosps.gravitatehealth.eu/ips/api/fhir/Composition?subject.identifier=alicia-1
 
 
+### testing focusing lens pregancy MVP2 with DIV - doesnt work
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1
 
 ### testing focusing lens pregancy MVP2 with DIV - doesnt work
 
-POST http://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1
-
-### testing focusing lens pregancy MVP2 with DIV - doesnt work
-
-POST http://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=Cecilia-1
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=Cecilia-1
 
 
 
 ### testing focusing lens pregancy DIV with DIV - should work
 
-POST http://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_pregnancy&patientIdentifier=alicia-1
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_pregnancy&patientIdentifier=alicia-1
 
 ### testing focusing lens pregancy DIV (epi preprocessed) with DIV - works
 
 
-POST http://fosps.gravitatehealth.eu/focusing/focus/processedbundledovato-en?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_pregnancy&patientIdentifier=alicia-1
+POST https://fosps.gravitatehealth.eu/focusing/focus/processedbundledovato-en?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_pregnancy&patientIdentifier=alicia-1
 
 
 ### testing focusing lens HIV DIV (multiple pedros)
 
-POST http://fosps.gravitatehealth.eu/focusing/focus/processedbundledovato-en?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_HIV&patientIdentifier=Pedro-1
+POST https://fosps.gravitatehealth.eu/focusing/focus/processedbundledovato-en?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_HIV&patientIdentifier=Pedro-1
 
 
 ### check epi for using in diabetes
@@ -44,7 +43,47 @@ POST http://fosps.gravitatehealth.eu/focusing/focus/processedbundledovato-en?pre
 GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165
 ### testing focusing lens diabetes DIV (cecilia)
 
-POST http://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_diabetes&patientIdentifier=Cecilia-1
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_diabetes&patientIdentifier=Cecilia-1
+
+
+### Test all the lenses, individually.
+
+### Test Lens: Pregnancy
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1
+
+### Test Lens: Diabetes
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_diabetes&patientIdentifier=Cecilia-1
+
+### Test Lens: Interaction
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-63b15a3bb9d18a00ecd0962bc011c765?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_interaction&patientIdentifier=Cecilia-1
+
+### Test Lens: Intolerance
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_intolerance&patientIdentifier=Cecilia-1
+
+
+### Test Lenses in groups
+
+### Test Lens: Pregnancy + Diabetes
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&lenses=lens-selector-mvp2_diabetes&patientIdentifier=Cecilia-1
+
+### Test Lens: Pregnancy + Diabetes + Intolerance
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&lenses=lens-selector-mvp2_diabetes&lenses=lens-selector-mvp2_intolerance&patientIdentifier=Cecilia-1
+
+
+### Tests for Spanish TS
+
+### Spanish TS Dovato (Lenses: Pregnancy, Interaction)
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-f98744933a164dfc1d0bf89825ebfca1?preprocessors=preprocessing-service-manual&patientIdentifier=Cecilia-1&lenses=lens-selector-mvp2_pregnancy&lenses=lens-selector-mvp2_interaction
+
+### Spanish TS Biktarvy (Lenses: Pregnancy, Interaction)
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-b44cce291e466626afa836fffe72c350?preprocessors=preprocessing-service-manual&patientIdentifier=Cecilia-1&lenses=lens-selector-mvp2_pregnancy&lenses=lens-selector-mvp2_interaction
+
+### Spanish TS Calcio/Calcium (Lenses: Pregnancy)
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-925dad38f0afbba36223a82b3a766438?preprocessors=preprocessing-service-manual&patientIdentifier=Cecilia-1&lenses=lens-selector-mvp2_pregnancy
+
+### Spanish TS Flucelvax
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-56a32a5ee239fc834b47c10db1faa3fd?preprocessors=preprocessing-service-manual&patientIdentifier=Cecilia-1&lenses=lens-selector-mvp2_pregnancy
+
 
 ### no preprocessor nor lenses and ips added as bundle
 
