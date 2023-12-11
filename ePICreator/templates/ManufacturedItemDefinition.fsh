@@ -1,10 +1,10 @@
 {% for index,row in data["data"].iterrows() %}
 {% if row["skip"] not in ['y', 'Y', 'x', 'X'] %}
 
-Instance: mid-{{ row["name"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id }}
+Instance: mid-{{ data["dictionary"]["productname"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id }}
 InstanceOf: ManufacturedItemDefinitionUvEpi
-Title: "Manufactured item {{ row["name"] }}"
-Description: "{{ row["name"] }}"
+Title: "Manufactured item {{ data["dictionary"]["productname"] }}"
+Description: "Manufactured item {{ data["dictionary"]["productname"] }}"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"

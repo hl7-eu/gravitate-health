@@ -1,10 +1,10 @@
 {% for index,row in data["data"].iterrows() %}
 {% if row["skip"] not in ['y', 'Y', 'x', 'X'] %}
 
-Instance: ap-{{row['name']|lower|regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}
+Instance: ap-{{data["dictionary"]["productname"]|lower|regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}
 InstanceOf: AdministrableProductDefinitionUvEpi
-Title: "Administrable product {{row['name']}}"
-Description: "{{row['name']}}"
+Title: "Administrable product {{data["dictionary"]["productname"]}}"
+Description: "Administrable product {{data["dictionary"]["productname"]}}"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"

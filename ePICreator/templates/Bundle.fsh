@@ -37,10 +37,10 @@ RuleSet: {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]
 
 
 
-Instance: bundlepackageleaflet-{{ns.language}}-{{row["name"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}
+Instance: bundlepackageleaflet-{{ns.language}}-{{data["dictionary"]["productname"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for {{row["name"]}} Package Leaflet for language {{row["language"]}}"
-Description: "Bundle for {{row["name"]}} Package Leaflet ePI document"
+Title: "ePI document Bundle for {{data["dictionary"]["productname"]}} Package Leaflet for language {{row["language"]}}"
+Description: "ePI document Bundle for {{data["dictionary"]["productname"]}} Package Leaflet for language {{row["language"]}}"
 Usage: #example
 
 {% if row["identifier_value"]!="nan"  %}

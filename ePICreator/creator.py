@@ -123,7 +123,13 @@ def create_from_template(env, DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER, major_n
         #   print(df)
         df.to_csv(temp_folder + sheet + ".csv", index=True)
 
-    data_dict = {"MajorName": major_name, "url": CANONICAL_URL}  # if needed
+    df = pd.read_csv(temp_folder + "MedicinalProductDefinition.csv", index_col=0)
+    productname = df.loc[0, "productname"]
+    data_dict = {
+        "MajorName": major_name,
+        "url": CANONICAL_URL,
+        "productname": productname,
+    }  # if needed
     data = {
         "dictionary": data_dict,
         "turn": "1",

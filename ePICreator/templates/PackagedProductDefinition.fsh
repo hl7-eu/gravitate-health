@@ -1,10 +1,16 @@
 {% for index,row in data["data"].iterrows() %}
 {% if row["skip"] not in ['y', 'Y', 'x', 'X'] %}
 
-Instance: ppd-{{ row["name"]| lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}
+{% set ns = namespace() %}
+{% set ns.one = data["dictionary"]["productname"] %}
+{% set ns.two = row["packaging_quantity"]  %}
+{% set ns.name_to_has= ns.one ~ ns.two  %}
+
+
+Instance: ppd-{{ ns.name_to_has| lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "{{ row["name"] }}"
-Description: "{{ row["name"] }}"
+Title: "Packaged Product Definition: {{data["dictionary"]["productname"]}} {{row["packaging_quantity"]}}"
+Description: "Packaged Product Definition: {{data["dictionary"]["productname"]}} {{row["packaging_quantity"]}}"
 Usage: #example
 
 {% if row["identifier"]|string !="nan" -%}
@@ -13,7 +19,7 @@ Usage: #example
 * identifier.use = #official
 {% endif %}
 
-* name = "{{ row["name"] }}"
+* name = "{{data["dictionary"]["productname"]}} {{row["packaging_quantity"]}}"
 
 * type = $spor-rms#{{ row["typeID"] }} "{{ row["type"] }}"
 //* type = $spor-rms#100000155527
@@ -29,12 +35,10 @@ Usage: #example
 
 * containedItemQuantity = {{ row["quantity"].split(' ')[0] }} '{{ row["quantity"].split(' ')[1] }}'
 
-
-{% endif %}
+{% endif -%}
 
 {{ "* description = \"{}\"".format(row.description) if row.description|string !="nan"}}
 {{ "* copackagedIndicator = {}".format(row.copackagedIndicator|lower) if row.copackagedIndicator|string !="nan"}}
-
 
 
 * packaging
@@ -61,15 +65,10 @@ Usage: #example
 
 {% endif %}
 
-
-
-
 //reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 {% if data["turn"] != "1" %}
 * packageFor = Reference({{data["references"]["MedicinalProductDefinition"][0][0]}})
-{% endif %}
-
-
+{% endif -%}
 
 {% set ns  = namespace(referenced=False) -%}
 {% if data["turn"] != "1" %}

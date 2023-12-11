@@ -8,10 +8,10 @@
 {% set ns.language = en %}
 {% endif %}
 
-Instance: composition-{{ns.language}}-{{row["name"]| regex_replace('[^A-Za-z0-9]+', '')| create_hash_id}}
+Instance: composition-{{ns.language}}-{{data["dictionary"]["productname"]| regex_replace('[^A-Za-z0-9]+', '')| create_hash_id}}
 InstanceOf: CompositionUvEpi
-Title: "Composition for {{row['name']}} Package Leaflet"
-Description:  "Composition for {{row['name']}} Package Leaflet"
+Title: "Composition for {{data["dictionary"]["productname"]}} Package Leaflet"
+Description:  "Composition for {{data["dictionary"]["productname"]}} Package Leaflet"
 Usage: #example
 
 * identifier.system = "{{row['identifier_system']}}"
@@ -19,7 +19,7 @@ Usage: #example
 {% if row["identifier"]|string == "nan" %}
 {% set ns = namespace() %}
 {% set ns.one = "Composition" %}
-{% set ns.two = row["name"]| regex_replace('[^A-Za-z0-9]+', '') %}
+{% set ns.two = data["dictionary"]["productname"]| regex_replace('[^A-Za-z0-9]+', '') %}
 {% set ns.name_to_has= ns.one ~ ns.two   %}
 
 * identifier.value = "{{ns.name_to_has| create_hash_id}}"
@@ -54,7 +54,7 @@ Usage: #example
 
 
 
-* title = "TEST PURPOSES ONLY - {{row['name']}}"
+* title = "TEST PURPOSES ONLY - {{data["dictionary"]["productname"]}}"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "{{row['date']}}"
 * language = #{{row['language']}}

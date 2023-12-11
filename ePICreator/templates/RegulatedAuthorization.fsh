@@ -1,10 +1,10 @@
 {% for index,row in data["data"].iterrows() %}
 {% if row["skip"] not in ['y', 'Y', 'x', 'X'] %}
 
-Instance: authorization{{ row["name"]| lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id }}
+Instance: authorization{{ data["dictionary"]["productname"]| lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id }}{{index}}
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for {{ row["name"] }}"
-Description: "Regulated Authorization for {{ row["name"] }}"
+Title: "Regulated Authorization for {{data["dictionary"]["productname"]}} {{index}}"
+Description: "Regulated Authorization for {{data["dictionary"]["productname"]}} {{index}}"
 Usage: #example
 
 {% if row["identifier"]|string !="nan" -%}
@@ -14,10 +14,15 @@ Usage: #example
 {% endif %}
 
 
- // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
- {% if data["turn"] != "1" %}
-//* subject = Reference(karvea75mgblisterx28)
+// Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
+{% if data["turn"] != "1" %}
+
+{% if row["reference"] == "MedicinalProduct" %}
 * subject = Reference({{data["references"]["MedicinalProductDefinition"][0][0]}})
+{% elif row["reference"] == "PackagedProduct"%}
+* subject = Reference({{data["references"]["PackagedProductDefinition"][index][0]}})
+{% endif %}
+
 {% endif %}
 * type = $spor-rms#{{ row["typeID"] }} "{{ row["type"] }}"
 
