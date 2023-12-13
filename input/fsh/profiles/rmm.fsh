@@ -1,5 +1,5 @@
-Profile:    asm
-Id:        asm
+Profile:    ASM
+Id:        ASM
 Parent: DocumentReference
 Title:     "Additional Support Material Profile"
 Description:  "Additional Support Material Profile"
