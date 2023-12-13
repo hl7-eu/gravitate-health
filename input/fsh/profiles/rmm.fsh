@@ -1,10 +1,11 @@
-Profile:    RMM
-Id:        rmm
+Profile:    asm
+Id:        asm
 Parent: DocumentReference
-Title:     "RMM Profile"
-Description:  "RMM Profile"
+Title:     "Additional Support Material Profile"
+Description:  "Additional Support Material Profile"
 
 * identifier 1..* MS 
+* language MS
 * version MS
 * docStatus MS
 * modality 0..0
@@ -14,6 +15,8 @@ Description:  "RMM Profile"
 * author MS
 * attester MS
 * content MS
+* content.attachment.language MS
+* content.attachment.contentType MS
 * relatesTo MS
 * description MS
 * context MS
