@@ -5,7 +5,7 @@ Title: "Administrable product DOLOCATIL 1 g tablets "
 Description: "DOLOCATIL 1 g tablets "
 Usage: #example
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "xx" 
 
 * status = #active

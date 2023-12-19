@@ -11,7 +11,7 @@ Usage: #example
 * identifier.value = "2ZM8CX04RZ"
 * identifier.use = #official
 
-* role = $spor-rms#72072 "active"
+* role = $spor-rms#100000072072 "Active"
 
 * status = #active
 
@@ -24,14 +24,15 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
+* for = Reference(mid-e2464a7d3d627b9df9bef5bc3b263fb4)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
-* for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
+* for[+] = Reference(ap-e2464a7d3d627b9df9bef5bc3b263fb4)
  
  
-* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
+
+//* manufacturer.manufacturer = Reference(mah-16019cea3a857659d2c5a2018c2260df)
 
 
 Instance: ingredient-for-suliqua-lixisenatide
@@ -45,7 +46,7 @@ Usage: #example
 * identifier.value = "74O62BB01U"
 * identifier.use = #official
 
-* role = $spor-rms#72072 "active"
+* role = $spor-rms#100000072072 "Active"
 
 * status = #active
 
@@ -58,14 +59,15 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
+* for = Reference(mid-e2464a7d3d627b9df9bef5bc3b263fb4)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
-* for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
+* for[+] = Reference(ap-e2464a7d3d627b9df9bef5bc3b263fb4)
  
  
-* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
+
+//* manufacturer.manufacturer = Reference(mah-16019cea3a857659d2c5a2018c2260df)
 
 
 Instance: ingredient-for-suliqua-glycerol85whodd
@@ -88,14 +90,15 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
+* for = Reference(mid-e2464a7d3d627b9df9bef5bc3b263fb4)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
-* for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
+* for[+] = Reference(ap-e2464a7d3d627b9df9bef5bc3b263fb4)
  
  
-* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
+
+//* manufacturer.manufacturer = Reference(mah-16019cea3a857659d2c5a2018c2260df)
 
 
 Instance: ingredient-for-suliqua-methionine
@@ -118,14 +121,15 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
+* for = Reference(mid-e2464a7d3d627b9df9bef5bc3b263fb4)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
-* for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
+* for[+] = Reference(ap-e2464a7d3d627b9df9bef5bc3b263fb4)
  
  
-* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
+
+//* manufacturer.manufacturer = Reference(mah-16019cea3a857659d2c5a2018c2260df)
 
 
 Instance: ingredient-for-suliqua-metacresol
@@ -148,14 +152,15 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
+* for = Reference(mid-e2464a7d3d627b9df9bef5bc3b263fb4)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
-* for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
+* for[+] = Reference(ap-e2464a7d3d627b9df9bef5bc3b263fb4)
  
  
-* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
+
+//* manufacturer.manufacturer = Reference(mah-16019cea3a857659d2c5a2018c2260df)
 
 
 Instance: ingredient-for-suliqua-zincchloride
@@ -178,14 +183,15 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
+* for = Reference(mid-e2464a7d3d627b9df9bef5bc3b263fb4)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
-* for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
+* for[+] = Reference(ap-e2464a7d3d627b9df9bef5bc3b263fb4)
  
  
-* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
+
+//* manufacturer.manufacturer = Reference(mah-16019cea3a857659d2c5a2018c2260df)
 
 
 Instance: ingredient-for-suliqua-hydrochloricacidiarc
@@ -208,14 +214,15 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
+* for = Reference(mid-e2464a7d3d627b9df9bef5bc3b263fb4)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
-* for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
+* for[+] = Reference(ap-e2464a7d3d627b9df9bef5bc3b263fb4)
  
  
-* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
+
+//* manufacturer.manufacturer = Reference(mah-16019cea3a857659d2c5a2018c2260df)
 
 
 Instance: ingredient-for-suliqua-sterilewaterforinjection
@@ -238,14 +245,15 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
+* for = Reference(mid-e2464a7d3d627b9df9bef5bc3b263fb4)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
-* for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
+* for[+] = Reference(ap-e2464a7d3d627b9df9bef5bc3b263fb4)
  
  
-* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
+
+//* manufacturer.manufacturer = Reference(mah-16019cea3a857659d2c5a2018c2260df)
 
 
 Instance: ingredient-for-suliqua-sodiumhydroxide
@@ -268,11 +276,12 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-66d97ddf0e95a23a3c0f4f2102139f34)
+* for = Reference(mid-e2464a7d3d627b9df9bef5bc3b263fb4)
 * for[+] = Reference(mp367b9089c0743a2330f4c6e82b40ee41)
-* for[+] = Reference(ap-66d97ddf0e95a23a3c0f4f2102139f34)
+* for[+] = Reference(ap-e2464a7d3d627b9df9bef5bc3b263fb4)
  
  
-* manufacturer.manufacturer  = Reference(mapi-ab61fc2db513f79636782643b3407aa5) 
  
 
+
+//* manufacturer.manufacturer = Reference(mah-16019cea3a857659d2c5a2018c2260df)

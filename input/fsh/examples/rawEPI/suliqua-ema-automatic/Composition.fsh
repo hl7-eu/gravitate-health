@@ -1,14 +1,15 @@
 
-Instance: compositionb4adca48035e7857c0e645892ad2c66e
+
+Instance: composition-en-367b9089c0743a2330f4c6e82b40ee41
 InstanceOf: CompositionUvEpi
-Title: "Composition for Suliqua Package Leaflet"
-Description:  "Composition for Suliqua Package Leaflet"
+Title: "Composition for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen Package Leaflet"
+Description:  "Composition for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
-* identifier.value = "8233589eec8bc66272e5bbb8838726ca"
+* identifier.value = "e5196cc3cd86b4a0171e8a0a4b8dfdd1"
 
 * status = #final
 
@@ -26,11 +27,10 @@ Usage: #example
  // Reference to Organization: MAH
 * author = Reference(mah-16019cea3a857659d2c5a2018c2260df) 
  
- 
 
 
 
-* title = "TEST PURPOSES ONLY - Suliqua"
+* title = "TEST PURPOSES ONLY - Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en
@@ -79,9 +79,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What Suliqua is and what it is used for"
+  * title = "1. What 0 is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Suliqua is and what it is used for"
+  * code.text = "1. What 0 is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Suliqua is an injectable diabetes medicine that contains two active substances: </p>
 <ul>
@@ -96,9 +96,9 @@ response to increases in blood sugar, and slows the absorption of sugar from foo
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take Suliqua"
+  * title = "2. What you need to know before you take 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take Suliqua"
+  * code.text = "2. What you need to know before you take 0"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Do not use Suliqua:</strong></p>
 <ul>
@@ -211,9 +211,9 @@ Having too low or too high blood sugar (see information in the box at the end of
 <p>This medicine contains metacresol which may cause allergic reactions.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take Suliqua"
+  * title = "3. How to take 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take Suliqua"
+  * code.text = "3. How to take 0"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Your doctor may tell you to use a different dose of Suliqua compared to your previous insulin dose or glucose lowering medicine if any. Check with your doctor, pharmacist or nurse if you are not sure.</p>
 <p>Based on your lifestyle, your blood sugar tests and your previous insulin use, your doctor will tell you:</p>
@@ -330,9 +330,9 @@ intense pain when injecting, itching, hives, swelling or inflammation. This can 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. By reporting side effects you can help provide more information on the safety of this medicine.</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store Suliqua"
+  * title = "5. How to store 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store Suliqua"
+  * code.text = "5. How to store 0"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.</p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the label of the pen after “EXP”. The expiry date refers to the last day of that month.</p>

@@ -40,13 +40,13 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
 
 
 // AdministrableProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-14ba4cb05b11f838919ef39edd3e0cdf"
-* entry[=].resource = ap-14ba4cb05b11f838919ef39edd3e0cdf 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-94a96e39cfdcd8b378d12dd4063065f9"
+* entry[=].resource = ap-94a96e39cfdcd8b378d12dd4063065f9 
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization14ba4cb05b11f838919ef39edd3e0cdf"
-* entry[=].resource = authorization14ba4cb05b11f838919ef39edd3e0cdf 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization94a96e39cfdcd8b378d12dd4063065f90"
+* entry[=].resource = authorization94a96e39cfdcd8b378d12dd4063065f90 
 
 
 // Organization
@@ -60,23 +60,23 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-bb925abf9dc1f2dd024210a50c0ee14b"
-* entry[=].resource = ppd-bb925abf9dc1f2dd024210a50c0ee14b 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-e34e4b65abd3fd8e667db05606cc25a9"
+* entry[=].resource = ppd-e34e4b65abd3fd8e667db05606cc25a9 
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-c191979ed2ea674e9d057a57ab42367d"
-* entry[=].resource = ppd-c191979ed2ea674e9d057a57ab42367d 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-6d93344139a7793e7b9bd0f5e32b6c91"
+* entry[=].resource = ppd-6d93344139a7793e7b9bd0f5e32b6c91 
 
 
 // MedicinalProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp5fb1761a0a38bea0a9b49f146371c68b"
-* entry[=].resource = mp5fb1761a0a38bea0a9b49f146371c68b 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp2a9c4333cfd126f2e7b73ad3cafd6949"
+* entry[=].resource = mp2a9c4333cfd126f2e7b73ad3cafd6949 
 
 
 // ManufacturedItemDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-14ba4cb05b11f838919ef39edd3e0cdf"
-* entry[=].resource = mid-14ba4cb05b11f838919ef39edd3e0cdf 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-94a96e39cfdcd8b378d12dd4063065f9"
+* entry[=].resource = mid-94a96e39cfdcd8b378d12dd4063065f9 
 
 
  
@@ -85,10 +85,10 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-41d684fd43c60877dc84804d8fa2ac8c
+Instance: bundlepackageleaflet-en-94a96e39cfdcd8b378d12dd4063065f9
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for biktarvy-en Package Leaflet for language en"
-Description: "Bundle for biktarvy-en Package Leaflet ePI document"
+Title: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language en"
+Description: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language en"
 Usage: #example
 
 
@@ -103,18 +103,18 @@ Usage: #example
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-1846d2b12fecbbb0310cd8c196c98a58"
-* entry[0].resource = composition-en-1846d2b12fecbbb0310cd8c196c98a58
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-2a9c4333cfd126f2e7b73ad3cafd6949"
+* entry[0].resource = composition-en-2a9c4333cfd126f2e7b73ad3cafd6949
 
 * insert 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
 
 
 
 
-Instance: bundlepackageleaflet-pt-b44cce291e466626afa836fffe72c350
+Instance: bundlepackageleaflet-pt-94a96e39cfdcd8b378d12dd4063065f9
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for biktarvy-pt Package Leaflet for language pt"
-Description: "Bundle for biktarvy-pt Package Leaflet ePI document"
+Title: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language pt"
+Description: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language pt"
 Usage: #example
 
 
@@ -129,7 +129,7 @@ Usage: #example
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-pt-2065c93918e829bc9508cce4f449e8fd"
-* entry[0].resource = composition-pt-2065c93918e829bc9508cce4f449e8fd
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-pt-2a9c4333cfd126f2e7b73ad3cafd6949"
+* entry[0].resource = composition-pt-2a9c4333cfd126f2e7b73ad3cafd6949
 
 * insert 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset

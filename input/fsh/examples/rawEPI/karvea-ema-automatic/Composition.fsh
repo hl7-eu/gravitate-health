@@ -1,9 +1,9 @@
 
 
-Instance: composition-en-f4d45353edcb21af3718d3a0df94a4d8
+Instance: composition-en-873a1a47330e628770640f9c96c0761e
 InstanceOf: CompositionUvEpi
-Title: "Composition for Karvea Package Leaflet"
-Description:  "Composition for Karvea Package Leaflet"
+Title: "Composition for Karvea 75 mg tablet Package Leaflet"
+Description:  "Composition for Karvea 75 mg tablet Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
@@ -18,7 +18,7 @@ Usage: #example
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+* subject = Reference(mp873a1a47330e628770640f9c96c0761e)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -506,10 +506,10 @@ Usage: #example
 
 
 
-Instance: composition-pt-f4d45353edcb21af3718d3a0df94a4d8
+Instance: composition-pt-873a1a47330e628770640f9c96c0761e
 InstanceOf: CompositionUvEpi
-Title: "Composition for Karvea Package Leaflet"
-Description:  "Composition for Karvea Package Leaflet"
+Title: "Composition for Karvea 75 mg tablet Package Leaflet"
+Description:  "Composition for Karvea 75 mg tablet Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
@@ -524,7 +524,7 @@ Usage: #example
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+* subject = Reference(mp873a1a47330e628770640f9c96c0761e)
 * date = "2022-02-16T13:28:17Z"
 
  

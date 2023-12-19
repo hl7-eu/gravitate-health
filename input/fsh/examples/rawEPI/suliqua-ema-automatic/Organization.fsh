@@ -31,16 +31,16 @@ Usage: #example
     * country = "FR"
     
 
-//Manufacturer API
+//Manufacturer
 
 
 
 
-Instance: mapi-ab61fc2db513f79636782643b3407aa5
+Instance: man-174ad598bd1faddba2098648a45613e1
 
 InstanceOf: OrganizationUvEpi
-Title: "Sanofi-Aventis Deutschland GmbH as Manufacturer API"
-Description: "Sanofi-Aventis Deutschland GmbH as Manufacturer API"
+Title: "Sanofi-Aventis Deutschland GmbH as Manufacturer"
+Description: "Sanofi-Aventis Deutschland GmbH as Manufacturer"
 Usage: #example
 
 * identifier.system = $spor-org
@@ -48,8 +48,7 @@ Usage: #example
 * identifier.use = #official
 * active = true 
 * type = $spor-rms#220000000033  "Manufacturer"
-
-//* type.text = "Manufacturer API"
+//* type.text = "Manufacturer"
 * name = "Sanofi-Aventis Deutschland GmbH"
 
 
@@ -62,38 +61,6 @@ Usage: #example
     * city = "Frankfurt am Main"
     * country = "de"
     * postalCode = "65926.0"
-
-//Manufacturer Batch release
-
-
-
-
-Instance: mbr-b9c6316075799071b2706c402f9fa388
-
-InstanceOf: OrganizationUvEpi
-Title: "Sanofi-Aventis Deutschland GmbH as Manufacturer Batch release"
-Description: "Sanofi-Aventis Deutschland GmbH as Manufacturer Batch release"
-Usage: #example
-
-* identifier.system = $spor-org
-* identifier.value = "ORG-100001175"
-* identifier.use = #official
-* active = true 
-* type = $spor-rms#220000000033  "Manufacturer"
-
-//* type.text = "Manufacturer Batch release"
-* name = "Sanofi-Aventis Deutschland GmbH"
-
-
-* contact
-  * address
-    * text = "Brueningstrasse 50, Industriepark Höchst Frankfurt am Main de"
-    * use = #work
-    * type = #physical
-    * line = "Brueningstrasse 50, Industriepark Höchst"
-    * city = "Frankfurt am Main"
-    * country = "de"
-    * postalCode = "65927.0"
 
 //Medicines Regulatory Authority
 

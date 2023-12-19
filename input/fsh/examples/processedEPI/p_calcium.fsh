@@ -344,5 +344,5 @@ Usage: #example
 * entry[0].resource =  processed-composition02e928f15b7b861b4b44915d9f1330ec
 
 
-* insert 925dad38f0afbba36223a82b3a766438BundleRuleset
+* insert bdfe699962879d1b1d2adb6ccf20a5cbBundleRuleset
 

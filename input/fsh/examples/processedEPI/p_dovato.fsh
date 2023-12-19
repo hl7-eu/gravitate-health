@@ -740,7 +740,7 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
   cambio en su estado de salud.</b></p>
   <p><strong>Reacciones al&#233;rgicas</strong></p>
 <p>Dovato contiene dolutegravir. Dolutegravir puede producir una reacci&#243;n al&#233;rgica grave conocida como <em>reacci&#243;n de hipersensibilidad.</em> Esta es una reacci&#243;n poco frecuente (puede afectar hasta 1 de cada 100 personas) en personas que toman dolutegravir. Si tiene alguno de los siguientes s&#237;ntomas:</p>
-<ul type="disc">
+<ul >
 <li>erupci&#243;n cut&#225;nea</li>
 <li>una temperatura alta (<em>fiebre</em>)</li>
 <li>falta de energ&#237;a (<em>cansancio</em>)</li>
@@ -752,7 +752,7 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
 <p><strong>Efectos adversos muy frecuentes</strong></p>
 <p>Estos pueden afectar a <strong>m&#225;s de 1 de cada 10</strong> personas:</p>
 <div>
-<ul type="disc">
+<ul >
 <li>dolor de cabeza</li>
 <li>diarrea</li>
 <li>n&#225;useas.</li>
@@ -762,7 +762,7 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
 <p><strong>Efectos adversos frecuentes</strong></p>
 <p>Estos pueden afectar <strong>hasta 1 de cada 10</strong> personas:</p>
 <div>
-<ul type="disc">
+<ul >
 <li>depresi&#243;n (sensaci&#243;n de tristeza profunda y falta de autoestima)</li>
 <li>erupci&#243;n cut&#225;nea</li>
 <li>picor (<em>prurito</em>)</li>
@@ -784,7 +784,7 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
 <p>&#160;</p>
 <p>Los efectos adversos frecuentes que pueden aparecer en los an&#225;lisis de sangre son:</p>
 <div>
-<ul type="disc">
+<ul >
 <li>aumento en el nivel de las enzimas del h&#237;gado (<em>aminotransferasas</em>)</li>
 <li>aumento en el nivel de las enzimas producidas en los m&#250;sculos (<em>creatinfosfoquinasa</em>).</li>
 </ul>
@@ -793,7 +793,7 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
 <p><strong>Efectos adversos poco frecuentes</strong></p>
 <p>Estos pueden afectar <strong>hasta 1 de cada 100</strong> personas:</p>
 <div>
-<ul type="disc">
+<ul >
 <li>inflamaci&#243;n del h&#237;gado (<em>hepatitis</em>)</li>
 <li>intento de suicidio (especialmente en pacientes que anteriormente han tenido depresi&#243;n o problemas de salud mental)</li>
 <li>pensamientos suicidas (especialmente en pacientes que anteriormente han tenido depresi&#243;n o problemas de salud mental)</li>
@@ -802,19 +802,19 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
 </div>
 <p><strong>&#160;</strong></p>
 <p>Los efectos adversos poco frecuentes que pueden aparecer en los an&#225;lisis de sangre son:</p>
-<ul type="disc">
+<ul >
 <li>una disminuci&#243;n de las c&#233;lulas involucradas en la coagulaci&#243;n sangu&#237;nea (<em>trombocitopenia</em>)</li>
 <li>un recuento bajo de gl&#243;bulos rojos (<em>anemia</em>) o recuento bajo de gl&#243;bulos blancos (<em>neutropenia</em>).</li>
 </ul>
 <p>&#160;</p>
 <p><strong>Efectos adversos raros</strong></p>
 <p>Estos pueden afectar <strong>hasta</strong> <strong>1 de cada 1.000</strong> personas:</p>
-<ul type="disc">
+<ul >
 <li>insuficiencia hep&#225;tica (los signos pueden incluir coloraci&#243;n amarillenta de la piel y del blanco de los ojos u orina inusualmente oscura)</li>
 <li>hinchaz&#243;n, a veces de la cara o la boca (<em>angioedema</em>), causando dificultad para respirar</li>
 <li>inflamaci&#243;n del p&#225;ncreas (<em>pancreatitis</em>)</li>
 </ul>
-<ul type="disc">
+<ul >
 <li>rotura del tejido muscular</li>
 <li>suicidio (especialmente en pacientes que anteriormente han tenido depresi&#243;n o problemas de salud mental).</li>
 </ul>
@@ -822,21 +822,21 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
 <p><strong>Informe a su m&#233;dico de inmediato</strong> si experimenta alg&#250;n problema de salud mental (consulte tambi&#233;n otros problemas de salud mental que aparecen m&#225;s arriba).</p>
 <p>&#160;</p>
 <p>Los efectos adversos raros que pueden aparecer en los an&#225;lisis de sangre son:</p>
-<ul type="disc">
+<ul >
 <li>aumento de bilirrubina (prueba de funci&#243;n del h&#237;gado)</li>
 <li>aumento de una enzima llamada <em>amilasa</em>.</li>
 </ul>
 <p>&#160;</p>
 <p><strong>Efectos adversos muy raros</strong></p>
 <p>Estos pueden afectar <strong>hasta</strong> <strong>1 de cada 10.000</strong> personas:</p>
-<ul type="disc">
+<ul >
 <li>acidosis l&#225;ctica (exceso de &#225;cido l&#225;ctico en la sangre)</li>
 <li>entumecimiento, sensaci&#243;n de hormigueo en la piel (pinchazos)</li>
 <li>sensaci&#243;n de debilidad en las extremidades.</li>
 </ul>
 <p>&#160;</p>
 <p>Los efectos adversos muy raros que pueden aparecer en los an&#225;lisis de sangre son:</p>
-<ul type="disc">
+<ul >
 <li>un fallo de la m&#233;dula &#243;sea en producir nuevos gl&#243;bulos rojos (<em>aplasia pura de gl&#243;bulos rojos</em>).</li>
 </ul>
 <p>&#160;</p>
@@ -846,7 +846,7 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
 <p><strong>S&#237;ntomas de infecci&#243;n e inflamaci&#243;n</strong></p>
 <p>Las personas con infecci&#243;n por el VIH avanzada (SIDA) tienen un sistema inmunitario debilitado y es m&#225;s probable que desarrollen infecciones graves (infecciones oportunistas). Tales infecciones pueden haberse desarrollado de manera "silenciosa", no siendo detectadas por el sistema inmunitario debilitado antes de que el tratamiento se iniciara. Despu&#233;s de iniciar el tratamiento, el sistema inmunitario se vuelve m&#225;s fuerte y puede luchar contra estas infecciones, lo que puede causar s&#237;ntomas de infecci&#243;n o inflamaci&#243;n. Los s&#237;ntomas generalmente incluyen fiebre, adem&#225;s de algunos de los siguientes:</p>
 <div>
-<ul type="disc">
+<ul >
 <li>dolor de cabeza</li>
 <li>dolor de est&#243;mago</li>
 <li>dificultad para respirar.</li>
@@ -854,7 +854,7 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
 </div>
 <p>En casos raros, como el sistema inmunitario se vuelve m&#225;s fuerte, tambi&#233;n puede atacar tejidos sanos (<em>trastornos</em> <em>autoinmunes</em><em>)</em>. Los s&#237;ntomas de los trastornos autoinmunes pueden aparecer muchos meses despu&#233;s de comenzar a tomar medicamentos para tratar la infecci&#243;n por el VIH. Los s&#237;ntomas pueden incluir:</p>
 <div>
-<ul type="disc">
+<ul >
 <li>palpitaciones (latido card&#237;aco r&#225;pido o irregular) o temblor</li>
 <li>hiperactividad (excesiva inquietud y movimiento)</li>
 <li>debilidad que empieza en las manos y pies y que asciende hacia el tronco del cuerpo.</li>
@@ -866,7 +866,7 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
 <p>&#160;</p>
 <p><strong>Dolor en las articulaciones, rigidez y problemas de huesos</strong></p>
 <p>Algunas personas en tratamiento combinado para el VIH desarrollan <em>osteonecrosis</em>. En esta afecci&#243;n, partes del tejido &#243;seo se da&#241;an permanentemente debido al menor aporte de sangre a los huesos. Las personas pueden ser m&#225;s propensas a padecer esta afecci&#243;n:</p>
-<ul type="disc">
+<ul >
 <li>si han tomado un tratamiento combinado durante un largo tiempo</li>
 <li>si tambi&#233;n est&#225;n tomando medicamentos antiinflamatorios llamados corticosteroides</li>
 <li>si beben alcohol</li>
@@ -875,7 +875,7 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
 </ul>
 <p><strong>&#160;</strong></p>
 <p><strong>Los signos de la osteonecrosis incluyen:</strong></p>
-<ul type="disc">
+<ul >
 <li>rigidez en las articulaciones</li>
 <li>molestias y dolores en las articulaciones (especialmente en la cadera, rodilla u hombro)</li>
 <li>dificultad de movimiento.</li>
@@ -949,7 +949,7 @@ Usage: #example
 * entry[0].resource =  compositione722f6782d3f34f86982e14386c8811dll
 
 
-* insert DovatoBundleRuleset
+* insert 6eb523b7a88cd6dcee848368833cbd08BundleRuleset
 
 
 
@@ -970,4 +970,4 @@ Usage: #example
 * entry[0].resource =  processed-composition16598f252d07b4784b82ba43cf9e847e
 
 
-* insert DovatoBundleRuleset
+* insert 6eb523b7a88cd6dcee848368833cbd08BundleRuleset

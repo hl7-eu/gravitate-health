@@ -5,7 +5,7 @@ Title: "Administrable product Lipcut Simvastatine 5 mg Tablet"
 Description: "Lipcut Simvastatine 5 mg Tablet"
 Usage: #example
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "fin-x" 
 
 * status = #active

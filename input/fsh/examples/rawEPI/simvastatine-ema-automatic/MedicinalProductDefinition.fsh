@@ -8,10 +8,6 @@ Usage: #example
  
 * identifier[+].system = "https://www.who-umc.org/phpid"
 * identifier[=].value = "F92168108C432D63DACDD70444176BB3"
-
-* identifier[+].system = "http://pharmaca.fi/mpid"
-* identifier[=].value = "2638"
-
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
 * domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
@@ -27,28 +23,23 @@ Usage: #example
 
 * name
   * productName = "Lipcut Simvastatin 5 mg Tablet"
-  * type = $spor-productNamePartType-cs#220000000001
-    * text = "Full name"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
     * part = "Lipcut"
-    * type = $spor-productNamePartType-cs#220000000002
-    * type.text = "Invented name part"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
   
   * part[+]
     * part = "Simvastatin"
-    * type = $spor-productNamePartType-cs#220000000003
-    * type.text = "Scientific name part"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
   
   * part[+]
     * part = "5 mg"
-    * type = $spor-productNamePartType-cs#220000000004
-    * type.text = "Strength part"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
   
   * part[+]
     * part = "tablet"
-    * type = $spor-productNamePartType-cs#220000000005
-    * type.text = "Pharmaceutical dose form part"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
     * country = urn:iso:std:iso:3166#FIN "Finland"

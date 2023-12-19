@@ -1,4 +1,59 @@
 
+
+Instance: contraindication-pregnancy-bik
+InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
+Description: "contraindication - pregnancy"
+Usage: #inline
+
+* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
+* identifier.value = "pregnancy"
+* identifier.use = #official
+
+* type = #contraindication
+
+* subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
+
+* contraindication
+  * diseaseSymptomProcedure.concept.coding = $snomed#289908002 "Pregnancy, function (observable entity)"
+
+Instance: contraindication-diabetes-mellitus-bik
+InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
+Description: "contraindication -    Diabetes mellitus (disorder)"
+Usage: #inline
+
+* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
+* identifier.value = "diabetes-mellitus"
+* identifier.use = #official
+
+* type = #contraindication
+
+* subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
+
+* contraindication
+  * diseaseSymptomProcedure.concept.coding = $snomed#73211009 "Diabetes mellitus (disorder)"
+
+
+Instance: contraindication-kidney-bik
+InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
+Description: "contraindication - kidney function"
+Usage: #inline
+
+* identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
+* identifier.value = "kidney function"
+* identifier.use = #official
+
+* type = #contraindication
+
+* subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
+
+* contraindication
+  * diseaseSymptomProcedure.concept.coding = $snomed#76114004 "Decreased renal function (finding)"
+
+
+
+
+
+
 Instance: Processed-composition1846d2b12fecbbb0310cd8c196c98a58
 														 
 InstanceOf: CompositionUvEpi
@@ -20,7 +75,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
+* subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -498,7 +553,7 @@ Usage: #example
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
+* subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -991,7 +1046,7 @@ Usage: #example
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
+* subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -2109,15 +2164,14 @@ Usage: #example
 
 * insert 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
 
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney"
-* entry[=].resource = contraindication-kidney
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney-bik"
+* entry[=].resource = contraindication-kidney-bik
 
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-diabetes-mellitus"
-* entry[=].resource = contraindication-diabetes-mellitus
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-diabetes-mellitus-bik"
+* entry[=].resource = contraindication-diabetes-mellitus-bik
 
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-pregnancy"
-* entry[=].resource = contraindication-pregnancy
-
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-pregnancy-bik"
+* entry[=].resource = contraindication-pregnancy-bik
 
 Instance: bundleprocessed-pt-b44cce291e466626afa836fffe72c350
 InstanceOf: BundleUvEpi
@@ -2141,14 +2195,14 @@ Usage: #example
 
 * insert 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
 
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney"
-* entry[=].resource = contraindication-kidney
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney-bik"
+* entry[=].resource = contraindication-kidney-bik
 
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-diabetes-mellitus"
-* entry[=].resource = contraindication-diabetes-mellitus
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-diabetes-mellitus-bik"
+* entry[=].resource = contraindication-diabetes-mellitus-bik
 
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-pregnancy"
-* entry[=].resource = contraindication-pregnancy
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-pregnancy-bik"
+* entry[=].resource = contraindication-pregnancy-bik
 
 
 
@@ -2174,15 +2228,14 @@ Usage: #example
 * insert 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
 
 
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney"
-* entry[=].resource = contraindication-kidney
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney-bik"
+* entry[=].resource = contraindication-kidney-bik
 
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-diabetes-mellitus"
-* entry[=].resource = contraindication-diabetes-mellitus
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-diabetes-mellitus-bik"
+* entry[=].resource = contraindication-diabetes-mellitus-bik
 
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-pregnancy"
-* entry[=].resource = contraindication-pregnancy
-
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-pregnancy-bik"
+* entry[=].resource = contraindication-pregnancy-bik
 
 
 

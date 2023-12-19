@@ -681,7 +681,7 @@ Usage: #example
 * entry[0].resource =  enhanced-composition16598f252d07b4784b82ba43cf9e847eg
 
 
-* insert DovatoBundleRuleset
+* insert 6eb523b7a88cd6dcee848368833cbd08BundleRuleset
 
 
 
@@ -704,4 +704,4 @@ Usage: #example
 * entry[0].resource =  compositione722f6782d3f34f86982e14386c8811dhh
 
 
-* insert DovatoBundleRuleset
+* insert 6eb523b7a88cd6dcee848368833cbd08BundleRuleset

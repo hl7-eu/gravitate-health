@@ -5,7 +5,7 @@ Title: "Administrable product Enbrel 25 mg powder for solution for injection"
 Description: "Enbrel 25 mg powder for solution for injection"
 Usage: #example
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "id" 
 
 * status = #active

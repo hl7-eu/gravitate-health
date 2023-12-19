@@ -11,7 +11,7 @@ Usage: #inline
 
 * type = #contraindication
 
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+* subject = Reference(mp873a1a47330e628770640f9c96c0761e)
 
 * contraindication
   * diseaseSymptomProcedure.concept.coding = $snomed#289908002 "Pregnancy, function (observable entity)"
@@ -27,7 +27,7 @@ Usage: #inline
 
 * type = #contraindication
 
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+* subject = Reference(mp873a1a47330e628770640f9c96c0761e)
 
 * contraindication
   * diseaseSymptomProcedure.concept.coding = $snomed#73211009 "Diabetes mellitus (disorder)"
@@ -44,7 +44,7 @@ Usage: #inline
 
 * type = #contraindication
 
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+* subject = Reference(mp873a1a47330e628770640f9c96c0761e)
 
 * contraindication
   * diseaseSymptomProcedure.concept.coding = $snomed#76114004 "Decreased renal function (finding)"
@@ -58,7 +58,6 @@ Title: "Composition for Karvea Package Leaflet - Preprocessed"
 Description:  "Composition for Karvea Package Leaflet - Preprocessed"
 Usage: #inline
 
-* meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4f"
@@ -69,7 +68,7 @@ Usage: #inline
 * type.text = "Package Leaflet"
 * category = epicategory-cs#P "Processed"
 
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+* subject = Reference(mp873a1a47330e628770640f9c96c0761e)
 * date = "2022-02-16T13:28:17Z"
 * author = Reference(mah-511671db37e83e520b00f8a0d817dc96)
 
@@ -629,7 +628,7 @@ Usage: #example
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+* subject = Reference(mp873a1a47330e628770640f9c96c0761e)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1098,7 +1097,7 @@ Usage: #example
 * timestamp = "2023-06-27T10:09:22Z"
 
 
-* language = #en
+* language = #pt
 
 
 // Composition

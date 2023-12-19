@@ -777,7 +777,7 @@ Usage: #example
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/processed-composition056f32ee5cf49404607e368bd8d3f2af"
 * entry[0].resource =  processed-composition056f32ee5cf49404607e368bd8d3f2af
 
-* insert FlucelvaxBundleRuleset
+* insert 56a32a5ee239fc834b47c10db1faa3fdBundleRuleset
 
 
 Instance: processedbundleflucelvaxES
@@ -798,5 +798,5 @@ Usage: #example
 * entry[0].resource =  composition-proc-es-e8bd725f64067aeae7994e2b56cd71c1
 
 
-* insert FlucelvaxBundleRuleset
+* insert 56a32a5ee239fc834b47c10db1faa3fdBundleRuleset
 

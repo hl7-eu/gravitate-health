@@ -5,7 +5,7 @@ Title: "Administrable product Humira 40 mg Solution for injection Subcutaneous u
 Description: "Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)"
 Usage: #example
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "nan" 
 
 * status = #active

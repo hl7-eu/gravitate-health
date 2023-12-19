@@ -5,7 +5,7 @@ Title: "Administrable product BLASTON 1 mg tablets"
 Description: "BLASTON 1 mg tablets"
 Usage: #example
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "xx" 
 
 * status = #active

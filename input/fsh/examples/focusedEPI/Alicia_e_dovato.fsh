@@ -683,7 +683,7 @@ Usage: #example
 * entry[0].resource =  enhanced-composition16598f252d07b4784b82ba43cf9e847e
 
 
-* insert DovatoBundleRuleset
+* insert 6eb523b7a88cd6dcee848368833cbd08BundleRuleset
 
 
 
@@ -705,4 +705,4 @@ Usage: #example
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/compositione722f6782d3f34f86982e14386c8811dgg"
 * entry[0].resource =  compositione722f6782d3f34f86982e14386c8811dgg
 
-* insert DovatoBundleRuleset
+* insert 6eb523b7a88cd6dcee848368833cbd08BundleRuleset

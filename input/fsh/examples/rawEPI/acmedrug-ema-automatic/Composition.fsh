@@ -1,14 +1,15 @@
 
-Instance: composition5aa8042f9b2bea12d814ccaf27f6d64e
+
+Instance: composition-en-534e209eb0a3ff60437639cb2015316f
 InstanceOf: CompositionUvEpi
-Title: "Composition for acmedrug Package Leaflet"
-Description:  "Composition for acmedrug Package Leaflet"
+Title: "Composition for acmedrug-man Package Leaflet"
+Description:  "Composition for acmedrug-man Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
-* identifier.value = "6e664efcceb2862d17918746c3383055"
+* identifier.value = "c5848bd9bdfc9ac72d12e6dc6dcddf4a"
 
 * status = #final
 
@@ -27,7 +28,7 @@ Usage: #example
 * author = Reference(mah-2aff7154a8d952c895e8a03849a25108)
 
 
-* title = "TEST PURPOSES ONLY - acmedrug"
+* title = "TEST PURPOSES ONLY - acmedrug-man"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en
@@ -67,9 +68,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What acmedrug is and what it is used for"
+  * title = "1. What 0 is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What acmedrug is and what it is used for"
+  * code.text = "1. What 0 is and what it is used for"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -78,18 +79,18 @@ Usage: #example
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take acmedrug"
+  * title = "2. What you need to know before you take 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take acmedrug"
+  * code.text = "2. What you need to know before you take 0"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
                     
 * section[=].section[+]
-  * title = "3. How to take acmedrug"
+  * title = "3. How to take 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take acmedrug"
+  * code.text = "3. How to take 0"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -106,9 +107,9 @@ Usage: #example
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable      
         
 * section[=].section[+]
-  * title = "5. How to store acmedrug"
+  * title = "5. How to store 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store acmedrug"
+  * code.text = "5. How to store 0"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""

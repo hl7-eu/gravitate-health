@@ -1,5 +1,6 @@
 
-Instance: composition45f3604d61f93f5f026bea5d5824af10
+
+Instance: composition-en-45f3604d61f93f5f026bea5d5824af10
 InstanceOf: CompositionUvEpi
 Title: "Composition for Humalog Package Leaflet"
 Description:  "Composition for Humalog Package Leaflet"
@@ -20,8 +21,7 @@ Usage: #example
 * type.text = "Package Leaflet"
 
 * subject = Reference(mpd33868162d255ced115cecbbf188aab4)
-//* date = "2022-02-16T13:28:17Z"
-* date = "2023-07-31T13:28:17Z"
+* date = "2022-02-16T13:28:17Z"
 
  
  // Reference to Organization: MAH

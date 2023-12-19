@@ -5,7 +5,7 @@ Title: "Administrable product Dovato 50 mg/300 mg film-coated tablets"
 Description: "Dovato 50 mg/300 mg film-coated tablets"
 Usage: #example
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "123456" 
 
 * status = #active

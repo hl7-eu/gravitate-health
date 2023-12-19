@@ -5,7 +5,7 @@ Title: "Administrable product Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspensio
 Description: "Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill"
 Usage: #example
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "humalog-id" 
 
 * status = #active

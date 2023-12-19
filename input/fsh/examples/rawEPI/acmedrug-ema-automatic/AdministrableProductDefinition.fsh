@@ -1,11 +1,11 @@
 
-Instance: ap-5aa8042f9b2bea12d814ccaf27f6d64e
+Instance: ap-534e209eb0a3ff60437639cb2015316f
 InstanceOf: AdministrableProductDefinitionUvEpi
-Title: "Administrable product acmedrug"
-Description: "acmedrug"
+Title: "Administrable product acmedrug-man"
+Description: "Administrable product acmedrug-man"
 Usage: #example
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "id" 
 
 * status = #active

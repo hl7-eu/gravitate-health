@@ -22,37 +22,29 @@ Usage: #example
 * containedItemQuantity = 175 'mg'
 
 
-
-
 * copackagedIndicator = false
 
 
-
 * packaging
-  * identifier.system = $spor-prod
-  * identifier.value = "mock-id"
+//  * identifier.system = $spor-prod
+//  * identifier.value = "mock-id"
   * quantity = 1
   * type = $spor-rms#100000073498 "Box"
-
+  * material = $spor-rms#200000003529 "Cardboard"
 
   * packaging
 
     * identifier.system = $spor-prod
     * identifier.value = "123456"
+    * containedItem.item.reference = Reference(mid-29436a85dac3ea374adb3fa64cfd2578)
     * type = $spor-rms#100000073496 "Blister"
-    //* quantity = 30
+    
     * quantity = 30
     * material = $spor-rms#xxx "cardboard"
 
 
-
-
-
 //reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 * packageFor = Reference(mpaf8d2f6e4772c29a8ef9fbb165e80d28)
-
-
-
  
 
 

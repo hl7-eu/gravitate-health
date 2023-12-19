@@ -23,8 +23,7 @@ Usage: #example
 
 * name
   * productName = "acmedrug-man"
-  * type = $spor-productNamePartType-cs#220000000001
-    * text = "Full name"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
     * part = "acme"

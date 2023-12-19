@@ -126,7 +126,7 @@ Description: "List of Dovato Package Leaflets"
 
 * title = "List of all processed ePIs associated with Karvea"
 
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+* subject = Reference(mp873a1a47330e628770640f9c96c0761e)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Karvea "Karvea"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
@@ -185,7 +185,7 @@ Description: "List of Biktarvy Package Leaflets"
 
 * title = "List of all processed ePIs associated with Biktarvy"
 
-* subject = Reference(mp2412867d9a0e15f82f11047ad93bdbad)
+* subject = Reference(mp873a1a47330e628770640f9c96c0761e)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Karvea "Biktarvy"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

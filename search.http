@@ -1,0 +1,20 @@
+### search freetext
+### need to create text index on the field
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Condition?_text=diabetes
+
+### test with MP
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/MedicinalProductDefinition?name:contains=biktarvy
+
+### then get the composition 
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?subject.identifier=EU/1/18/1289/001&_language=en&category=http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs|R
+
+
+### then get the composition 
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?_elements=subject,title
+
+
+### test with MP
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/MedicinalProductDefinition?identifier=EU/1/18/1289/001

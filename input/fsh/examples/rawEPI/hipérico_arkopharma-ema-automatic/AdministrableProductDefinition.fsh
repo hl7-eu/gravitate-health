@@ -5,7 +5,7 @@ Title: "Administrable product HIPÉRICO ARKOPHARMA cápsulas duras"
 Description: "HIPÉRICO ARKOPHARMA cápsulas duras"
 Usage: #example
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "xx" 
 
 * status = #active

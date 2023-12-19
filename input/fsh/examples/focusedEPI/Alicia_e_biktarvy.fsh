@@ -15,7 +15,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
+* subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
 * date = "2022-02-16T13:28:17Z"
 * author = Reference(mra-1133a7374c78f1d40f41885344f06a5a)
 

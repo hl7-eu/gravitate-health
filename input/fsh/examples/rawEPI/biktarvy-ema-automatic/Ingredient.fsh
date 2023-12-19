@@ -11,7 +11,7 @@ Usage: #example
 * identifier.value = "4L5MP1Y7W7"
 * identifier.use = #official
 
-* role = $spor-rms#72072 "active"
+* role = $spor-rms#100000072072 "Active"
 
 * status = #active
 
@@ -24,9 +24,9 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-14ba4cb05b11f838919ef39edd3e0cdf)
-* for[+] = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
-* for[+] = Reference(ap-14ba4cb05b11f838919ef39edd3e0cdf)
+* for = Reference(mid-94a96e39cfdcd8b378d12dd4063065f9)
+* for[+] = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
+* for[+] = Reference(ap-94a96e39cfdcd8b378d12dd4063065f9)
  
  
 
@@ -45,7 +45,7 @@ Usage: #example
 * identifier.value = "G70B4ETF4S"
 * identifier.use = #official
 
-* role = $spor-rms#72072 "active"
+* role = $spor-rms#100000072072 "Active"
 
 * status = #active
 
@@ -58,9 +58,9 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-14ba4cb05b11f838919ef39edd3e0cdf)
-* for[+] = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
-* for[+] = Reference(ap-14ba4cb05b11f838919ef39edd3e0cdf)
+* for = Reference(mid-94a96e39cfdcd8b378d12dd4063065f9)
+* for[+] = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
+* for[+] = Reference(ap-94a96e39cfdcd8b378d12dd4063065f9)
  
  
 
@@ -79,7 +79,7 @@ Usage: #example
 * identifier.value = "EL9943AG5J"
 * identifier.use = #official
 
-* role = $spor-rms#72072 "active"
+* role = $spor-rms#100000072072 "Active"
 
 * status = #active
 
@@ -92,9 +92,9 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-14ba4cb05b11f838919ef39edd3e0cdf)
-* for[+] = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
-* for[+] = Reference(ap-14ba4cb05b11f838919ef39edd3e0cdf)
+* for = Reference(mid-94a96e39cfdcd8b378d12dd4063065f9)
+* for[+] = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
+* for[+] = Reference(ap-94a96e39cfdcd8b378d12dd4063065f9)
  
  
 
@@ -122,9 +122,9 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-14ba4cb05b11f838919ef39edd3e0cdf)
-* for[+] = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
-* for[+] = Reference(ap-14ba4cb05b11f838919ef39edd3e0cdf)
+* for = Reference(mid-94a96e39cfdcd8b378d12dd4063065f9)
+* for[+] = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
+* for[+] = Reference(ap-94a96e39cfdcd8b378d12dd4063065f9)
  
  
 
@@ -152,9 +152,9 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-14ba4cb05b11f838919ef39edd3e0cdf)
-* for[+] = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
-* for[+] = Reference(ap-14ba4cb05b11f838919ef39edd3e0cdf)
+* for = Reference(mid-94a96e39cfdcd8b378d12dd4063065f9)
+* for[+] = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
+* for[+] = Reference(ap-94a96e39cfdcd8b378d12dd4063065f9)
  
  
 
@@ -182,9 +182,9 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-14ba4cb05b11f838919ef39edd3e0cdf)
-* for[+] = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
-* for[+] = Reference(ap-14ba4cb05b11f838919ef39edd3e0cdf)
+* for = Reference(mid-94a96e39cfdcd8b378d12dd4063065f9)
+* for[+] = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
+* for[+] = Reference(ap-94a96e39cfdcd8b378d12dd4063065f9)
  
  
 

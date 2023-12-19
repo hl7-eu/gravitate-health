@@ -5,7 +5,7 @@ Title: "Administrable product Nurofen 100 mg Chewable Capsules"
 Description: "Nurofen 100 mg Chewable Capsules"
 Usage: #example
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "pt-xx" 
 
 * status = #active

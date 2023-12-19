@@ -22,24 +22,16 @@ Usage: #example
 
 
 
-
-
 * packaging
-  * identifier.system = $spor-prod
-  * identifier.value = "mock-id"
+//  * identifier.system = $spor-prod
+//  * identifier.value = "mock-id"
   * quantity = 1
   * type = $spor-rms#100000073498 "Box"
   * material = $spor-rms#200000003529 "Cardboard"
 
 
-
-
-
 //reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 * packageFor = Reference(mp96d7b1b575aa8164c8c2b4cbe70f252a)
-
-
-
  
 
 

@@ -1,15 +1,15 @@
 
 
-Instance: composition-en-1846d2b12fecbbb0310cd8c196c98a58
+Instance: composition-en-2a9c4333cfd126f2e7b73ad3cafd6949
 InstanceOf: CompositionUvEpi
-Title: "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
-Description:  "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
+Title: "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet"
+Description:  "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
-* identifier.value = "b22ec2e7263c64ba0d74e2718a1857dc"
+* identifier.value = "c97bc0c62de4cf4143e63299ba73c5a3"
 
 * status = #final
 
@@ -20,7 +20,7 @@ Usage: #example
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
+* subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -29,7 +29,7 @@ Usage: #example
 
 
 
-* title = "TEST PURPOSES ONLY - Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+* title = "TEST PURPOSES ONLY - Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en
@@ -93,9 +93,9 @@ is addressed to your child (in this case please read “your child” instead of
           
 
 * section[=].section[+]
-  * title = "1. What Biktarvy 50 mg/200 mg/25 mg film-coated tablets is and what it is used for"
+  * title = "1. What 0 is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Biktarvy 50 mg/200 mg/25 mg film-coated tablets is and what it is used for"
+  * code.text = "1. What 0 is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Biktarvy contains three active substances:</p>
 <ul>
@@ -113,9 +113,9 @@ the risk of developing illnesses linked to HIV infection.</p>         </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * title = "2. What you need to know before you take 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * code.text = "2. What you need to know before you take 0"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Do not take Biktarvy</strong></p>
 <ul>
@@ -243,9 +243,9 @@ and do not use any tools or machines.</p>
 ‘sodium-free’.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * title = "3. How to take 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * code.text = "3. How to take 0"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist
 if you are not sure.</p>
@@ -399,9 +399,9 @@ listed in Appendix V. By reporting side effects you can help provide more inform
 of this medicine.</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * title = "5. How to store 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * code.text = "5. How to store 0"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.</p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and bottle or blister strips
@@ -434,16 +434,16 @@ The silica gel desiccant is contained in a separate sachet or canister and shoul
 
 
 
-Instance: composition-pt-2065c93918e829bc9508cce4f449e8fd
+Instance: composition-pt-2a9c4333cfd126f2e7b73ad3cafd6949
 InstanceOf: CompositionUvEpi
-Title: "Composition for Biktarvy 50 mg/200 mg/25 mg comprimidos revestidos por película Package Leaflet"
-Description:  "Composition for Biktarvy 50 mg/200 mg/25 mg comprimidos revestidos por película Package Leaflet"
+Title: "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet"
+Description:  "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
-* identifier.value = "8ea338f60ba1b60fbcdabbce96d639aa"
+* identifier.value = "c97bc0c62de4cf4143e63299ba73c5a3"
 
 * status = #final
 
@@ -454,7 +454,7 @@ Usage: #example
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
+* subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -463,7 +463,7 @@ Usage: #example
 
 
 
-* title = "TEST PURPOSES ONLY - Biktarvy 50 mg/200 mg/25 mg comprimidos revestidos por película"
+* title = "TEST PURPOSES ONLY - Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #pt
@@ -515,9 +515,9 @@ neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.</li>
           
 
 * section[=].section[+]
-  * title = "1. What Biktarvy 50 mg/200 mg/25 mg comprimidos revestidos por película is and what it is used for"
+  * title = "1. What 1 is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Biktarvy 50 mg/200 mg/25 mg comprimidos revestidos por película is and what it is used for"
+  * code.text = "1. What 1 is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Biktarvy contém três substâncias ativas:</p>
 <ul>
@@ -537,9 +537,9 @@ diminuir o risco de desenvolvimento de doenças ligadas à infeção pelo VIH.</
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take Biktarvy 50 mg/200 mg/25 mg comprimidos revestidos por película"
+  * title = "2. What you need to know before you take 1"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take Biktarvy 50 mg/200 mg/25 mg comprimidos revestidos por película"
+  * code.text = "2. What you need to know before you take 1"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Não tome Biktarvy</strong></p>
 <ul>
@@ -659,9 +659,9 @@ ande de bicicleta e não utilize quaisquer ferramentas ou máquinas.</p>
 praticamente “isento de sódio”.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take Biktarvy 50 mg/200 mg/25 mg comprimidos revestidos por película"
+  * title = "3. How to take 1"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take Biktarvy 50 mg/200 mg/25 mg comprimidos revestidos por película"
+  * code.text = "3. How to take 1"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou
 farmacêutico se tiver dúvidas.</p>
@@ -821,9 +821,9 @@ diretamente através do sistema nacional de notificação mencionado no Apêndic
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store Biktarvy 50 mg/200 mg/25 mg comprimidos revestidos por película"
+  * title = "5. How to store 1"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store Biktarvy 50 mg/200 mg/25 mg comprimidos revestidos por película"
+  * code.text = "5. How to store 1"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.</p>
 <p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco ou

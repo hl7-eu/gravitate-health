@@ -5,7 +5,7 @@ Title: "Administrable product Xenical 120mg hard capsules"
 Description: "Xenical 120mg hard capsules"
 Usage: #example
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/98/071/004" 
 
 * status = #active

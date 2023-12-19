@@ -27,28 +27,23 @@ Usage: #example
 * classification[+] = $atc#A10AB04 "insulin lispro"
 * name
   * productName = "Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill"
-  * type = $spor-productNamePartType-cs#220000000001
-    * text = "Full name"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
     * part = "Humalog"
-    * type = $spor-productNamePartType-cs#220000000002
-    * type.text = "Invented name part"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
   
   * part[+]
     * part = "insulin lispro"
-    * type = $spor-productNamePartType-cs#220000000003
-    * type.text = "Scientific name part"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
   
   * part[+]
     * part = "100 U/ml"
-    * type = $spor-productNamePartType-cs#220000000004
-    * type.text = "Strength part"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
   
   * part[+]
     * part = "Suspension for injection"
-    * type = $spor-productNamePartType-cs#220000000005
-    * type.text = "Pharmaceutical dose form part"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
     * country = urn:iso:std:iso:3166#DK "Denmark"

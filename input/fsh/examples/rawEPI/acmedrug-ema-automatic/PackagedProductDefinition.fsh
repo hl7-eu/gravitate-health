@@ -1,15 +1,17 @@
 
-Instance: ppd-8799ff87933460485b763ad9b52f8276
+
+
+Instance: ppd-8b2a2f9f4892591c2caef29c58ff5446
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "acme drug blister tabs"
-Description: "acme drug blister tabs"
+Title: "Packaged Product Definition: acmedrug-man 28"
+Description: "Packaged Product Definition: acmedrug-man 28"
 Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/97/049/001"
 * identifier.use = #official
 
-* name = "acme drug blister tabs"
+* name = "acmedrug-man 28"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Product"
 //* type = $spor-rms#100000155527
@@ -25,34 +27,26 @@ Usage: #example
 
 
 
-
-
-
 * packaging
-  * identifier.system = $spor-prod
-  * identifier.value = "mock-id"
+//  * identifier.system = $spor-prod
+//  * identifier.value = "mock-id"
   * quantity = 1
   * type = $spor-rms#100000073498 "Box"
-
+  * material = $spor-rms#200000003529 "Cardboard"
 
   * packaging
 
     * identifier.system = $spor-prod
     * identifier.value = "123456"
+    * containedItem.item.reference = Reference(mid-534e209eb0a3ff60437639cb2015316f)
     * type = $spor-rms#100000073496 "Blister"
-    //* quantity = 28
+    
     * quantity = 28
     * material = $spor-rms#200000003222 "PolyVinyl Chloride"
 
 
-
-
-
 //reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 * packageFor = Reference(mp534e209eb0a3ff60437639cb2015316f)
-
-
-
  
 
 

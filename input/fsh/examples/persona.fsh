@@ -71,16 +71,16 @@ Usage: #example
 * identifier.system = "https://myserver.org/persona-dimension-collection"
 * identifier.value = "pd-collection-1"
 
-* entry[+].fullUrl = "Observation/pd1"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/persona-dimension-1"
 * entry[=].resource = persona-dimension-1
 
-* entry[+].fullUrl = "Observation/pd2"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/persona-dimension-2"
 * entry[=].resource = persona-dimension-2
 
-* entry[+].fullUrl = "Observation/pd3"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/persona-dimension-3"
 * entry[=].resource = persona-dimension-3
 
-* entry[+].fullUrl = "Observation/pd4"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/persona-dimension-4"
 * entry[=].resource = persona-dimension-4
 
 

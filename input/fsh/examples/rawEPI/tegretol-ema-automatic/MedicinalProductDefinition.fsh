@@ -27,28 +27,23 @@ Usage: #example
 
 * name
   * productName = "Tegretol 200 mg tablets"
-  * type = $spor-productNamePartType-cs#220000000001
-    * text = "Full name"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
     * part = "Tegretol"
-    * type = $spor-productNamePartType-cs#220000000002
-    * type.text = "Invented name part"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
   
   * part[+]
     * part = "Carbamazepine"
-    * type = $spor-productNamePartType-cs#220000000003
-    * type.text = "Scientific name part"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
   
   * part[+]
     * part = "200 mg"
-    * type = $spor-productNamePartType-cs#220000000004
-    * type.text = "Strength part"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
   
   * part[+]
     * part = "tablets"
-    * type = $spor-productNamePartType-cs#220000000005
-    * type.text = "Pharmaceutical dose form part"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
     * country = urn:iso:std:iso:3166#ES "Spain"

@@ -131,29 +131,29 @@ Title: "Pedro Persona Vector - Collection"
 Description:  "Pedro Persona Vector - Collection"
 Usage: #example
 
-* identifier.system = "https://myserver.org/persona-dimension-collection"
+* identifier.system = "http://hl7.eu/fhir/ig/gravitate-health/persona-dimension-collection"
 * identifier.value = "pd-collection-1"
 
-* entry[+].fullUrl = "Observation/pedro-1"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-1"
 * entry[=].resource = pedro-dimension-1
 
-* entry[+].fullUrl = "Observation/pedro-2"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-2"
 * entry[=].resource = pedro-dimension-2
 
-* entry[+].fullUrl = "Observation/pedro-3"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-3"
 * entry[=].resource = pedro-dimension-3
 
-* entry[+].fullUrl = "Observation/pedro-4"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-4"
 * entry[=].resource = pedro-dimension-4
 
-* entry[+].fullUrl = "Observation/pedro-5"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-5"
 * entry[=].resource = pedro-dimension-5
 
-* entry[+].fullUrl = "Observation/pedro-6"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-6"
 * entry[=].resource = pedro-dimension-6
 
-* entry[+].fullUrl = "Observation/pedro-7"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-7"
 * entry[=].resource = pedro-dimension-7
 
-* entry[+].fullUrl = "Observation/pedro-8"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-8"
 * entry[=].resource = pedro-dimension-8
