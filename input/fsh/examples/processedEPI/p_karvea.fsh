@@ -73,7 +73,7 @@ Usage: #inline
 * author = Reference(mah-511671db37e83e520b00f8a0d817dc96)
 
 * title = "TEST PURPOSES ONLY - Karvea"
-
+* language = #en
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "pregnancyCategory"
