@@ -6,6 +6,9 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdBundleRuleset
  
 
 
+ 
+
+
 // Ingredient
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-2e8cb2387c664fb619f6b8914767d38f"
 * entry[=].resource = ingredient-for-2e8cb2387c664fb619f6b8914767d38f 
@@ -82,8 +85,8 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdBundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization04c9bd6fb89d38b2d83eced2460c4dc1"
-* entry[=].resource = authorization04c9bd6fb89d38b2d83eced2460c4dc1 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization04c9bd6fb89d38b2d83eced2460c4dc10"
+* entry[=].resource = authorization04c9bd6fb89d38b2d83eced2460c4dc10 
 
 
 // Organization
@@ -92,8 +95,8 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdBundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-04c9bd6fb89d38b2d83eced2460c4dc1"
-* entry[=].resource = ppd-04c9bd6fb89d38b2d83eced2460c4dc1 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-a854b6fee6a8536c78c604a4b9f6c395"
+* entry[=].resource = ppd-a854b6fee6a8536c78c604a4b9f6c395 
 
 
 // MedicinalProductDefinition
@@ -106,13 +109,18 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdBundleRuleset
 * entry[=].resource = mid-04c9bd6fb89d38b2d83eced2460c4dc1 
 
 
+ 
 
 
 
-Instance: bundlepackageleaflet-en-56a32a5ee239fc834b47c10db1faa3fd
+
+
+Instance: bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for flucelvax Package Leaflet for language "
-Description: "Bundle for flucelvax Package Leaflet ePI document"
+Title: "ePI document Bundle for Flucelvax Tetra - suspension for injection in pre-filled syringe
+Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) Package Leaflet for language en"
+Description: "ePI document Bundle for Flucelvax Tetra - suspension for injection in pre-filled syringe
+Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) Package Leaflet for language en"
 Usage: #example
 
 
@@ -127,7 +135,35 @@ Usage: #example
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-e8bd725f64067aeae7994e2b56cd79c9"
-* entry[0].resource = composition-en-e8bd725f64067aeae7994e2b56cd79c9
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-b6ced64d25ea2c8da6c6099386f14db1"
+* entry[0].resource = composition-en-b6ced64d25ea2c8da6c6099386f14db1
+
+* insert 56a32a5ee239fc834b47c10db1faa3fdBundleRuleset
+
+
+
+
+Instance: bundlepackageleaflet-es-04c9bd6fb89d38b2d83eced2460c4dc1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for Flucelvax Tetra - suspension for injection in pre-filled syringe
+Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) Package Leaflet for language es"
+Description: "ePI document Bundle for Flucelvax Tetra - suspension for injection in pre-filled syringe
+Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) Package Leaflet for language es"
+Usage: #example
+
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "flucelvax-1"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+
+
+
+
+// Composition
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-b6ced64d25ea2c8da6c6099386f14db1"
+* entry[0].resource = composition-es-b6ced64d25ea2c8da6c6099386f14db1
 
 * insert 56a32a5ee239fc834b47c10db1faa3fdBundleRuleset

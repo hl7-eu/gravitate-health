@@ -1,15 +1,17 @@
 
-Instance: ppd-925dad38f0afbba36223a82b3a766438
+
+
+Instance: ppd-740c0d6d7605c10cb166cd0ee16908f9
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "Calcio/Vitamina D3 ROVI 1000 mg / 880 UI comprimidos efervescentes"
-Description: "Calcio/Vitamina D3 ROVI 1000 mg / 880 UI comprimidos efervescentes"
+Title: "Packaged Product Definition: Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes 30"
+Description: "Packaged Product Definition: Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes 30"
 Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "x"
 * identifier.use = #official
 
-* name = "Calcio/Vitamina D3 ROVI 1000 mg / 880 UI comprimidos efervescentes"
+* name = "Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes 30"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Prodcut"
 //* type = $spor-rms#100000155527

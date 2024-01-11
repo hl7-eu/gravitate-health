@@ -1,15 +1,15 @@
 
 
-Instance: composition-es-02e928f15b7b861b4b44915d9f1330ec
+Instance: composition-es-d4bcbbaec04bf6aceb2f71162205967e
 InstanceOf: CompositionUvEpi
-Title: "Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet"
-Description:  "Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet"
+Title: "Composition for Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes Package Leaflet"
+Description:  "Composition for Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
-* identifier.value = "7d5feb53fe79200d74496784fad38599"
+* identifier.value = "15c796b3d17f2310cd94b6867ae47c71"
 
 * status = #final
 
@@ -28,7 +28,7 @@ Usage: #example
 * author = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
 
-* title = "TEST PURPOSES ONLY - CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+* title = "TEST PURPOSES ONLY - Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #es
@@ -78,7 +78,7 @@ Usage: #example
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
         <p><strong>Contenido del prospecto</strong></p>
-<ol >
+<ol type="1">
 <li>Qué es Calcio/Vitamina D3 ROVI y para qué se utiliza</li>
 <li>Qué necesita saber antes de empezar a tomar Calcio/Vitamina D3 ROVI</li>
 <li>Cómo tomar Calcio/Vitamina D3 ROVI</li>
@@ -115,7 +115,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>No tome Calcio/Vitamina D</strong><strong>3</strong> <strong>ROVI:</strong></p>
 <p></p>
 <div>
-<ul >
+<ul type="circle">
 <li>si es alérgico a los principios activos o a alguno de los demás componentes de este medicamento (incluidos en la sección 6),</li>
 <li>si usted presenta hipercalcemia (nivel de calcio anormalmente elevado en sangre),</li>
 <li>si usted presenta hipercalciuria (eliminación exagerada de calcio en orina),</li>
@@ -142,7 +142,7 @@ Usage: #example
 <p>Informe a su médico o farmacéutico si está utilizando, ha utilizado recientemente o pudiera tener que utilizar cualquier otro medicamento. Ciertos medicamentos pueden interferir con Calcio/Vitamina D3 ROVI; en estos casos puede ser necesario cambiar la dosis, interrumpir el tratamiento con alguno de ellos o esperar al menos unas horas entre la administración de ambos.</p>
 <p>Es importante que informe a su médico si está tomando o ha tomado recientemente alguno de los siguientes medicamentos:</p>
 <div>
-<ul >
+<ul type="circle">
 <li> Glucósidos cardíacos (medicamentos para el corazón).</li>
 <li> Tetraciclinas (ciertos antibióticos), esperar un intervalo de al menos 3 horas.</li>
 <li> Diuréticos tiazídicos (medicamentos que aumentan la eliminación de orina).</li>
@@ -233,13 +233,13 @@ Usage: #example
            <p>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</p>
 <p></p>
 <p><strong>-Poco frecuente</strong>s (pueden afectar a entre 1 y 10 de cada 1.000 pacientes ):</p>
-<ul >
+<ul type="disc">
 <li>niveles altos de calcio en sangre hipercalcemia,</li>
 <li>niveles altos de calcio en orina hipercalciuria.</li>
 </ul>
 <p></p>
 <p><strong>-Raros</strong> (pueden afectar a entre 1 y 10 de cada 10.000 pacientes ):</p>
-<ul >
+<ul type="disc">
 <li>estreñimiento,</li>
 <li>flatulencia,</li>
 <li>náuseas,</li>
@@ -248,7 +248,7 @@ Usage: #example
 </ul>
 <p></p>
 <p>-<strong>Muy raros</strong> (pueden afectar a menos de 1 de cada 10.000 pacientes):):</p>
-<ul >
+<ul type="disc">
 <li>picor (prurito),</li>
 <li>erupción de la piel (exantema),</li>
 <li>ronchas (urticaria).</li>

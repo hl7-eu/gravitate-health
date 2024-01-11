@@ -24,6 +24,9 @@ RuleSet: d99852efa4d4976d99a584078a2ca48cBundleRuleset
  
 
 
+ 
+
+
 // Ingredient
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-hypromellose"
 * entry[=].resource = ingredient-for-karvea-hypromellose 
@@ -147,13 +150,16 @@ RuleSet: d99852efa4d4976d99a584078a2ca48cBundleRuleset
  
 
 
+ 
 
 
 
-Instance: bundlepackageleaflet-en-cfcd208495d565ef66e7dff9f98764da
+
+
+Instance: bundlepackageleaflet-en-dcaa4d32aa6658a8df831551503e52ee
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for 0 Package Leaflet for language en"
-Description: "Bundle for 0 Package Leaflet ePI document"
+Title: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for language en"
+Description: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for language en"
 Usage: #example
 
 
@@ -176,10 +182,10 @@ Usage: #example
 
 
 
-Instance: bundlepackageleaflet-pt-c4ca4238a0b923820dcc509a6f75849b
+Instance: bundlepackageleaflet-pt-dcaa4d32aa6658a8df831551503e52ee
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for 1 Package Leaflet for language pt"
-Description: "Bundle for 1 Package Leaflet ePI document"
+Title: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for language pt"
+Description: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for language pt"
 Usage: #example
 
 
@@ -196,5 +202,31 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-pt-873a1a47330e628770640f9c96c0761e"
 * entry[0].resource = composition-pt-873a1a47330e628770640f9c96c0761e
+
+* insert d99852efa4d4976d99a584078a2ca48cBundleRuleset
+
+
+
+
+Instance: bundlepackageleaflet-es-dcaa4d32aa6658a8df831551503e52ee
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for language es"
+Description: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for language es"
+Usage: #example
+
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/97/049/001-pt"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+
+
+
+
+// Composition
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-873a1a47330e628770640f9c96c0761e"
+* entry[0].resource = composition-es-873a1a47330e628770640f9c96c0761e
 
 * insert d99852efa4d4976d99a584078a2ca48cBundleRuleset

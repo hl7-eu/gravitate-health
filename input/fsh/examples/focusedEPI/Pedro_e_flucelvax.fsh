@@ -302,8 +302,8 @@ Usage: #example
 
 // RegulatedAuthorization
 
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization04c9bd6fb89d38b2d83eced2460c4dc1"
-* entry[=].resource = authorization04c9bd6fb89d38b2d83eced2460c4dc1 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization04c9bd6fb89d38b2d83eced2460c4dc10"
+* entry[=].resource = authorization04c9bd6fb89d38b2d83eced2460c4dc10 
  
 
 // Organization
@@ -314,8 +314,8 @@ Usage: #example
 
 // PackagedProductDefinition
 
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-04c9bd6fb89d38b2d83eced2460c4dc1"
-* entry[=].resource = ppd-04c9bd6fb89d38b2d83eced2460c4dc1 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-a854b6fee6a8536c78c604a4b9f6c395"
+* entry[=].resource = ppd-a854b6fee6a8536c78c604a4b9f6c395
  
 
 // MedicinalProductDefinition

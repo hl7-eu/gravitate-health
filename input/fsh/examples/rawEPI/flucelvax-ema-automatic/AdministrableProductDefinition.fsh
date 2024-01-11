@@ -1,8 +1,10 @@
 
 Instance: ap-04c9bd6fb89d38b2d83eced2460c4dc1
 InstanceOf: AdministrableProductDefinitionUvEpi
-Title: "Administrable product Flucelvax Tetra - suspension for injection in pre-filled syringe Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
-Description: "Flucelvax Tetra - suspension for injection in pre-filled syringe Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
+Title: "Administrable product Flucelvax Tetra - suspension for injection in pre-filled syringe
+Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
+Description: "Administrable product Flucelvax Tetra - suspension for injection in pre-filled syringe
+Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"

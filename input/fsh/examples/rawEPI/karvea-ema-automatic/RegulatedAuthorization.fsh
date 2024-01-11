@@ -11,8 +11,7 @@ Usage: #example
 
 
 // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
-//if more than 1 - pack, if 1 - MedicinalProductDefinition ?? TODO
-//* subject = Reference(karvea75mgblisterx28)
+
 * subject = Reference(ppd-d91b269b209aaa5538a1bfafd1a7434d)
 
 * type = $spor-rms#220000000061 "Marketing Authorisation"
@@ -42,8 +41,7 @@ Usage: #example
 
 
 // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
-//if more than 1 - pack, if 1 - MedicinalProductDefinition ?? TODO
-//* subject = Reference(karvea75mgblisterx28)
+
 * subject = Reference(ppd-f3f2f89544dfc5d20216861bcf90c0c5)
 
 * type = $spor-rms#220000000061 "Marketing Authorisation"
@@ -73,8 +71,7 @@ Usage: #example
 
 
 // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
-//if more than 1 - pack, if 1 - MedicinalProductDefinition ?? TODO
-//* subject = Reference(karvea75mgblisterx28)
+
 * subject = Reference(ppd-5763619e2b501aeeab53677bd09d5cbf)
 
 * type = $spor-rms#220000000061 "Marketing Authorisation"
@@ -104,8 +101,7 @@ Usage: #example
 
 
 // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
-//if more than 1 - pack, if 1 - MedicinalProductDefinition ?? TODO
-//* subject = Reference(karvea75mgblisterx28)
+
 * subject = Reference(ppd-9b1d5d261d22694685deb35714ec08ea)
 
 * type = $spor-rms#220000000061 "Marketing Authorisation"
