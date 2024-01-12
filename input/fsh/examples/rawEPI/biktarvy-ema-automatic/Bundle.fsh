@@ -159,7 +159,7 @@ Usage: #example
 * identifier.value = "EU/1/18/1289/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* language = #es
 
 
 
