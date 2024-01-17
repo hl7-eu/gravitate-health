@@ -2,13 +2,9 @@
 {% if row["skip"] not in ['y', 'Y', 'x', 'X'] %}
 
 {% set ns = namespace() %}
-{% if row["language"]  %}
-{% set ns.language = row["language"] %}
-{% else %}
-{% set ns.language = en %}
-{% endif %}
 
-Instance: composition-{{ns.language}}-{{data["dictionary"]["productname"]| regex_replace('[^A-Za-z0-9]+', '')| create_hash_id}}
+
+Instance: composition-{{row["language"]}}-{{data["dictionary"]["productname"]| regex_replace('[^A-Za-z0-9]+', '')| create_hash_id}}
 InstanceOf: CompositionUvEpi
 Title: "Composition for {{data["dictionary"]["productname"]}} Package Leaflet"
 Description:  "Composition for {{data["dictionary"]["productname"]}} Package Leaflet"
@@ -57,7 +53,7 @@ Usage: #example
 * title = "TEST PURPOSES ONLY - {{data["dictionary"]["productname"]}}"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "{{row['date']}}"
-* language = #{{row['language']}}
+* language = #{{row["language"]}}
 * category = epicategory-cs#R "Raw"
 
 

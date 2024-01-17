@@ -192,6 +192,13 @@ def create_from_template(env, DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER, major_n
         data["data"] = df
         data["turn"] = "2"
         t.stream(data=data, **context).dump(OUTPUT_FOLDER + n_file + ".fsh")
+    df = pd.read_csv(temp_folder + "Bundle.csv", index_col=0)
+    # print(df)
+    df = df.astype(str)
+    data["data"] = df
+    data["turn"] = "2"
+    t = env.get_template("List.fsh")
+    t.stream(data=data, **context).dump(OUTPUT_FOLDER + "List.fsh")
 
 
 if __name__ == "__main__":
