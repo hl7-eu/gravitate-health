@@ -82,9 +82,9 @@ adversos que no aparecen en este prospecto. Ver sección 4.</li>
           
 
 * section[=].section[+]
-  * title =  "1. Qué es cinitrapide y para qué se utiliza"
+  * title =  "1. Qué es Blaston 1 mg y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. Qué es cinitrapide y para qué se utiliza"
+  * code.text =  "1. Qué es Blaston 1 mg y para qué se utiliza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Blaston pertenece a un grupo de medicamentos denominados procinéticos, que actúan estimulando la
 motilidad gastrointestinal.</p>
@@ -95,9 +95,9 @@ los trastornos funcionales de la motilidad gastrointestinal leve-moderada.</p>  
 
              
 * section[=].section[+]
-  * title = "2. Qué necesita saber antes de empezar a tomar cinitrapide"
+  * title = "2. Qué necesita saber antes de empezar a tomar Blaston 1 mg"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. Qué necesita saber antes de empezar a tomar cinitrapide"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar Blaston 1 mg"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>No tome Blaston 1 mg Comprimidos</strong></p>
 <ul>
@@ -149,9 +149,9 @@ azúcares, consulte con él antes de tomar este medicamento.</p>
 “exento de sodio”.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. Cómo tomar cinitrapide"
+  * title =  "3. Cómo tomar Blaston 1 mg"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. Cómo tomar cinitrapide"
+  * code.text = "3. Cómo tomar Blaston 1 mg"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico. En
 caso de duda, consulte de nuevo a su médico o farmacéutico.</p>
@@ -212,9 +212,9 @@ directamente a través del Sistema Español de Farmacovigilancia de Medicamentos
 sobre la seguridad de este medicamento.</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. CONSERVACIÓN DE cinitrapide"
+  * title = "5. CONSERVACIÓN DE Blaston 1 mg"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. CONSERVACIÓN DE cinitrapide"
+  * code.text = "5. CONSERVACIÓN DE Blaston 1 mg"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mantener este medicamento fuera de la vista y del alcance de los niños.</p>
 <p>No requiere condiciones especiales de conservación.</p>

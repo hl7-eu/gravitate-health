@@ -83,9 +83,9 @@ adversos que no aparecen en este prospecto. Ver sección 4. </li>
           
 
 * section[=].section[+]
-  * title =  "1. Qué es MIRTAZAPINA CINFA 30 mg Coated Tablet y para qué se utiliza"
+  * title =  "1. Qué es MIRTAZAPINA CINFA  y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. Qué es MIRTAZAPINA CINFA 30 mg Coated Tablet y para qué se utiliza"
+  * code.text =  "1. Qué es MIRTAZAPINA CINFA  y para qué se utiliza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>mirtazapina cinfa pertenece al grupo de medicamentos llamados antidepresivos.</p>
 <p>Mirtazapina se utiliza para tratar la depresión en adultos.</p>
@@ -96,9 +96,9 @@ de 2 a 4 semanas.</p>
 
              
 * section[=].section[+]
-  * title = "2. Qué necesita saber antes de empezar a tomar MIRTAZAPINA CINFA 30 mg Coated Tablet"
+  * title = "2. Qué necesita saber antes de empezar a tomar MIRTAZAPINA CINFA "
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. Qué necesita saber antes de empezar a tomar MIRTAZAPINA CINFA 30 mg Coated Tablet"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar MIRTAZAPINA CINFA "
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>No tome mirtazapina cinfa</strong></p>
 <ul>
@@ -255,9 +255,9 @@ maneje herramientas o máquinas hasta que sepa cómo le afecta el tratamiento co
 azúcares, consulte con él antes de tomar este medicamento.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. Cómo tomar MIRTAZAPINA CINFA 30 mg Coated Tablet"
+  * title =  "3. Cómo tomar MIRTAZAPINA CINFA "
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. Cómo tomar MIRTAZAPINA CINFA 30 mg Coated Tablet"
+  * code.text = "3. Cómo tomar MIRTAZAPINA CINFA "
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o
 farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico.</p>
@@ -434,9 +434,9 @@ través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano:
 proporcionar más información sobre la seguridad de este medicamento.</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. CONSERVACIÓN DE MIRTAZAPINA CINFA 30 mg Coated Tablet"
+  * title = "5. CONSERVACIÓN DE MIRTAZAPINA CINFA "
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. CONSERVACIÓN DE MIRTAZAPINA CINFA 30 mg Coated Tablet"
+  * code.text = "5. CONSERVACIÓN DE MIRTAZAPINA CINFA "
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mantener este medicamento fuera de la vista y del alcance de los niños.</p>
 <p>No utilice este medicamento después de la fecha de caducidad que aparece en el envase y en el blíster,

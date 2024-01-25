@@ -50,10 +50,10 @@ RuleSet: 1c7aee423a757a868580dc7fca4c9316BundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-865e1b5617e6fb0d453cc2f7cf87d441
+Instance: bundlepackageleaflet-es-865e1b5617e6fb0d453cc2f7cf87d441
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for SORIA NATURAL VITAMINA C 36 COMPRIMIDOS Package Leaflet for language en"
-Description: "ePI document Bundle for SORIA NATURAL VITAMINA C 36 COMPRIMIDOS Package Leaflet for language en"
+Title: "ePI document Bundle for SORIA NATURAL VITAMINA C 36 COMPRIMIDOS Package Leaflet for language es"
+Description: "ePI document Bundle for SORIA NATURAL VITAMINA C 36 COMPRIMIDOS Package Leaflet for language es"
 Usage: #example
 
 
@@ -63,14 +63,14 @@ Usage: #example
 * identifier.value = "soria-xx"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* language = #es
 
 
 
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-5aea2ea50d47a8b479a61aec209c957f"
-* entry[0].resource = composition-en-5aea2ea50d47a8b479a61aec209c957f
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-5aea2ea50d47a8b479a61aec209c957f"
+* entry[0].resource = composition-es-5aea2ea50d47a8b479a61aec209c957f
 
 * insert 1c7aee423a757a868580dc7fca4c9316BundleRuleset

@@ -75,10 +75,10 @@ RuleSet: af8224f8c853d17daf5ea6782cb5a097BundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-da0fc2395ce219262dfd4f0c9a9f72e1
+Instance: bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for BLASTON 1 mg tablets Package Leaflet for language en"
-Description: "ePI document Bundle for BLASTON 1 mg tablets Package Leaflet for language en"
+Title: "ePI document Bundle for BLASTON 1 mg tablets Package Leaflet for language es"
+Description: "ePI document Bundle for BLASTON 1 mg tablets Package Leaflet for language es"
 Usage: #example
 
 
@@ -88,7 +88,7 @@ Usage: #example
 * identifier.value = "EU/1/96/007/035"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* language = #es
 
 
 
