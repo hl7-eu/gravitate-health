@@ -93,9 +93,9 @@ is addressed to your child (in this case please read “your child” instead of
           
 
 * section[=].section[+]
-  * title =  "1. What 0 is and what it is used for"
+  * title =  "1. What Biktarvy is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What 0 is and what it is used for"
+  * code.text =  "1. What Biktarvy is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Biktarvy contains three active substances:</p>
 <ul>
@@ -113,9 +113,9 @@ the risk of developing illnesses linked to HIV infection.</p>         </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take 0"
+  * title = "2. What you need to know before you take Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take 0"
+  * code.text = "2. What you need to know before you take Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Do not take Biktarvy</strong></p>
 <ul>
@@ -243,9 +243,9 @@ and do not use any tools or machines.</p>
 ‘sodium-free’.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take 0"
+  * title =  "3. How to take Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take 0"
+  * code.text = "3. How to take Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist
 if you are not sure.</p>
@@ -399,9 +399,9 @@ listed in Appendix V. By reporting side effects you can help provide more inform
 of this medicine.</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store 0"
+  * title = "5. How to store Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store 0"
+  * code.text = "5. How to store Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.</p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and bottle or blister strips
@@ -515,9 +515,9 @@ neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.</li>
           
 
 * section[=].section[+]
-  * title =  "1. What 1 is and what it is used for"
+  * title =  "1. What Biktarvy is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What 1 is and what it is used for"
+  * code.text =  "1. What Biktarvy is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Biktarvy contém três substâncias ativas:</p>
 <ul>
@@ -537,9 +537,9 @@ diminuir o risco de desenvolvimento de doenças ligadas à infeção pelo VIH.</
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take 1"
+  * title = "2. What you need to know before you take Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take 1"
+  * code.text = "2. What you need to know before you take Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Não tome Biktarvy</strong></p>
 <ul>
@@ -659,9 +659,9 @@ ande de bicicleta e não utilize quaisquer ferramentas ou máquinas.</p>
 praticamente “isento de sódio”.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take 1"
+  * title =  "3. How to take Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take 1"
+  * code.text = "3. How to take Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou
 farmacêutico se tiver dúvidas.</p>
@@ -821,9 +821,9 @@ diretamente através do sistema nacional de notificação mencionado no Apêndic
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store 1"
+  * title = "5. How to store Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store 1"
+  * code.text = "5. How to store Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.</p>
 <p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco ou
@@ -995,9 +995,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title =  "1. Qué es 2 y para qué se utiliza"
+  * title =  "1. Qué es Biktarvy y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. Qué es 2 y para qué se utiliza"
+  * code.text =  "1. Qué es Biktarvy y para qué se utiliza"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt; line-height:12.8pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
@@ -1027,9 +1027,9 @@ Usage: #example
 
              
 * section[=].section[+]
-  * title = "2. Qué necesita saber antes de empezar a tomar 2"
+  * title = "2. Qué necesita saber antes de empezar a tomar Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. Qué necesita saber antes de empezar a tomar 2"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar Biktarvy"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt; line-height:0.05pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
@@ -1253,9 +1253,9 @@ Usage: #example
    
                     
 * section[=].section[+]
-  * title =  "3. Cómo tomar 2"
+  * title =  "3. Cómo tomar Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. Cómo tomar 2"
+  * code.text = "3. Cómo tomar Biktarvy"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Siga exactamente las instrucciones de administraci&#243;n de este medicamento indicadas por su m&#233;dico.</span></p>
@@ -1560,9 +1560,9 @@ Usage: #example
       
         
 * section[=].section[+]
-  * title = "5. CONSERVACIÓN DE 2"
+  * title = "5. CONSERVACIÓN DE Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. CONSERVACIÓN DE 2"
+  * code.text = "5. CONSERVACIÓN DE Biktarvy"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Mantener este medicamento fuera de la vista y del alcance de los ni&#241;os.</span></p>

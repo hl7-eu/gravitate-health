@@ -75,10 +75,10 @@ RuleSet: a91e68f5f39edd2d60f8aeca00ff2a3cBundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-e762a2f54b0b24fca4744b1bb7524a5b
+Instance: bundlepackageleaflet-es-e762a2f54b0b24fca4744b1bb7524a5b
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet for language en"
-Description: "ePI document Bundle for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet for language en"
+Title: "ePI document Bundle for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet for language es"
+Description: "ePI document Bundle for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet for language es"
 Usage: #example
 
 
@@ -88,7 +88,7 @@ Usage: #example
 * identifier.value = "x"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* language = #es
 
 
 

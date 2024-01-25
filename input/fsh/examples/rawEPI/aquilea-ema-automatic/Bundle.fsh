@@ -55,10 +55,10 @@ RuleSet: 49bbaf88ca82da246f516eabbf90d54eBundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-af1953635c28668e0d454e0740fcb36f
+Instance: bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Aquilea Articulaciones Colageno y Magnesio 375gr Package Leaflet for language en"
-Description: "ePI document Bundle for Aquilea Articulaciones Colageno y Magnesio 375gr Package Leaflet for language en"
+Title: "ePI document Bundle for Aquilea Articulaciones Colageno y Magnesio 375gr Package Leaflet for language es"
+Description: "ePI document Bundle for Aquilea Articulaciones Colageno y Magnesio 375gr Package Leaflet for language es"
 Usage: #example
 
 
@@ -68,14 +68,14 @@ Usage: #example
 * identifier.value = "acmedrug-xx"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* language = #es
 
 
 
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-3b8585822d27945de47423af5de9824d"
-* entry[0].resource = composition-en-3b8585822d27945de47423af5de9824d
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-3b8585822d27945de47423af5de9824d"
+* entry[0].resource = composition-es-3b8585822d27945de47423af5de9824d
 
 * insert 49bbaf88ca82da246f516eabbf90d54eBundleRuleset
