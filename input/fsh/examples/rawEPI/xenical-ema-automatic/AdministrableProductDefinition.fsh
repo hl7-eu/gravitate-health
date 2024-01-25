@@ -2,7 +2,7 @@
 Instance: ap-4fab126d28f65a1084e7b50a23200363
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Xenical 120mg hard capsules"
-Description: "Xenical 120mg hard capsules"
+Description: "Administrable product Xenical 120mg hard capsules"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"

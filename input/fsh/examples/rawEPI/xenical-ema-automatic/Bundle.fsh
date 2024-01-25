@@ -1,6 +1,10 @@
 
 
+
 RuleSet: 37d610f9c96d541562699215b0864126BundleRuleset 
+
+
+ 
 
 
  
@@ -52,8 +56,8 @@ RuleSet: 37d610f9c96d541562699215b0864126BundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization4fab126d28f65a1084e7b50a23200363"
-* entry[=].resource = authorization4fab126d28f65a1084e7b50a23200363 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization4fab126d28f65a1084e7b50a232003630"
+* entry[=].resource = authorization4fab126d28f65a1084e7b50a232003630 
 
 
 // Organization
@@ -62,8 +66,8 @@ RuleSet: 37d610f9c96d541562699215b0864126BundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-649bf36725172cd11455d1dcb53f6762"
-* entry[=].resource = ppd-649bf36725172cd11455d1dcb53f6762 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-352d83277f894aa6147981b6a4f36c07"
+* entry[=].resource = ppd-352d83277f894aa6147981b6a4f36c07 
 
 
 // MedicinalProductDefinition
@@ -76,14 +80,19 @@ RuleSet: 37d610f9c96d541562699215b0864126BundleRuleset
 * entry[=].resource = mid-4fab126d28f65a1084e7b50a23200363 
 
 
+ 
 
 
 
-Instance: bundlepackageleaflet-en-37d610f9c96d541562699215b0864126
+
+
+Instance: bundlepackageleaflet-en-4fab126d28f65a1084e7b50a23200363
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for xenical Package Leaflet for language "
-Description: "Bundle for xenical Package Leaflet ePI document"
+Title: "ePI document Bundle for Xenical 120mg hard capsules Package Leaflet for language en"
+Description: "ePI document Bundle for Xenical 120mg hard capsules Package Leaflet for language en"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
@@ -97,7 +106,36 @@ Usage: #example
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-896c7badf9740db2053855cd4e4d6666"
-* entry[0].resource = composition-en-896c7badf9740db2053855cd4e4d6666
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-bc60fa1aa0bfe774d11ee13c0c131622"
+* entry[0].resource = composition-en-bc60fa1aa0bfe774d11ee13c0c131622
+
+* insert 37d610f9c96d541562699215b0864126BundleRuleset
+
+
+
+
+
+Instance: bundlepackageleaflet-es-4fab126d28f65a1084e7b50a23200363
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for Xenical 120mg hard capsules Package Leaflet for language es"
+Description: "ePI document Bundle for Xenical 120mg hard capsules Package Leaflet for language es"
+Usage: #example
+
+
+
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/98/071/004"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #es
+
+
+
+
+
+// Composition
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-bc60fa1aa0bfe774d11ee13c0c131622"
+* entry[0].resource = composition-es-bc60fa1aa0bfe774d11ee13c0c131622
 
 * insert 37d610f9c96d541562699215b0864126BundleRuleset
