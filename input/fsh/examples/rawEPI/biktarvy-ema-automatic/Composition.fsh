@@ -1,6 +1,5 @@
 
 
-
 Instance: composition-en-2a9c4333cfd126f2e7b73ad3cafd6949
 InstanceOf: CompositionUvEpi
 Title: "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet"
@@ -40,7 +39,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Read all of this leaflet carefully before you start taking this medicine because it contains
 important information for you.</strong></p>
@@ -94,9 +93,9 @@ is addressed to your child (in this case please read “your child” instead of
           
 
 * section[=].section[+]
-  * title = "1. What 0 is and what it is used for"
+  * title =  "1. What 0 is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What 0 is and what it is used for"
+  * code.text =  "1. What 0 is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Biktarvy contains three active substances:</p>
 <ul>
@@ -244,7 +243,7 @@ and do not use any tools or machines.</p>
 ‘sodium-free’.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take 0"
+  * title =  "3. How to take 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take 0"
   * text.status = #additional
@@ -435,7 +434,6 @@ The silica gel desiccant is contained in a separate sachet or canister and shoul
 
 
 
-
 Instance: composition-pt-2a9c4333cfd126f2e7b73ad3cafd6949
 InstanceOf: CompositionUvEpi
 Title: "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet"
@@ -475,7 +473,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -517,9 +515,9 @@ neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.</li>
           
 
 * section[=].section[+]
-  * title = "1. What 1 is and what it is used for"
+  * title =  "1. What 1 is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What 1 is and what it is used for"
+  * code.text =  "1. What 1 is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Biktarvy contém três substâncias ativas:</p>
 <ul>
@@ -661,7 +659,7 @@ ande de bicicleta e não utilize quaisquer ferramentas ou máquinas.</p>
 praticamente “isento de sódio”.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take 1"
+  * title =  "3. How to take 1"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take 1"
   * text.status = #additional
@@ -877,6 +875,7 @@ Irlanda</p>         </div>"""
 
 
 
+
 Instance: composition-es-2a9c4333cfd126f2e7b73ad3cafd6949
 InstanceOf: CompositionUvEpi
 Title: "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet"
@@ -914,9 +913,9 @@ Usage: #example
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. PROSPECTO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. PROSPECTO"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -925,9 +924,9 @@ Usage: #example
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt 0pt 0pt 136pt; line-height:115%; font-size:11pt"><a name="page1" id="page1"></a><strong><span style="font-family:Times New Roman; font-size:11pt;">Prospecto: informaci&#243;n para el usuario</span></strong></p>
@@ -965,9 +964,9 @@ Usage: #example
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Contenido del prospecto"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Contenido del prospecto"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt 0pt 0pt 1pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Contenido del prospecto</span></strong></p>
@@ -996,9 +995,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What 2 is and what it is used for"
+  * title =  "1. Qué es 2 y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What 2 is and what it is used for"
+  * code.text =  "1. Qué es 2 y para qué se utiliza"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt; line-height:12.8pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
@@ -1028,9 +1027,9 @@ Usage: #example
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take 2"
+  * title = "2. Qué necesita saber antes de empezar a tomar 2"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take 2"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar 2"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt; line-height:0.05pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
@@ -1254,9 +1253,9 @@ Usage: #example
    
                     
 * section[=].section[+]
-  * title = "3. How to take 2"
+  * title =  "3. Cómo tomar 2"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take 2"
+  * code.text = "3. Cómo tomar 2"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Siga exactamente las instrucciones de administraci&#243;n de este medicamento indicadas por su m&#233;dico.</span></p>
@@ -1355,9 +1354,9 @@ Usage: #example
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Posibles efectos adversos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt; line-height:12.75pt"><span style="font-family:Times New Roman; font-size:10pt">&#xa0;</span></p>
@@ -1561,9 +1560,9 @@ Usage: #example
       
         
 * section[=].section[+]
-  * title = "5. How to store 2"
+  * title = "5. CONSERVACIÓN DE 2"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store 2"
+  * code.text = "5. CONSERVACIÓN DE 2"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Mantener este medicamento fuera de la vista y del alcance de los ni&#241;os.</span></p>
@@ -1586,9 +1585,9 @@ Usage: #example
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Contenido del envase e información adicional"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt; line-height:0.05pt"><span style="font-family:Times New Roman; font-size:10pt">&#xa0;</span></p>

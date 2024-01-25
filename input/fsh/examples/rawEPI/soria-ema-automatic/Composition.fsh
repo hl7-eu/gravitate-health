@@ -1,6 +1,5 @@
 
 
-
 Instance: composition-en-5aea2ea50d47a8b479a61aec209c957f
 InstanceOf: CompositionUvEpi
 Title: "Composition for SORIA NATURAL VITAMINA C 36 COMPRIMIDOS Package Leaflet"
@@ -39,7 +38,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  This product is a OTC, epi pending         </div>"""   
 
@@ -65,9 +64,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What SORIA NATURAL VITAMINA C 36 COMPRIMIDOS is and what it is used for"
+  * title =  "1. What SORIA NATURAL VITAMINA C 36 COMPRIMIDOS is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What SORIA NATURAL VITAMINA C 36 COMPRIMIDOS is and what it is used for"
+  * code.text =  "1. What SORIA NATURAL VITAMINA C 36 COMPRIMIDOS is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  Quisque posuere elit nec auctor imperdiet. Morbi id tortor nec odio molestie maximus. Phasellus id placerat velit. In ex enim, ultricies at maximus sit amet, luctus sit amet magna. Quisque in laoreet ligula, venenatis ultricies lectus. Quisque eleifend felis sed nulla consequat, eu tincidunt nisi gravida. Duis et lacinia ex. Aliquam pharetra vel metus at scelerisque. Integer ultricies dolor vestibulum nibh lacinia mollis. Ut tempor congue nulla eget molestie.         </div>"""   
           
@@ -81,7 +80,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  Nunc velit ante, aliquet sed commodo ut, dictum eget lectus. Duis eu nulla ac dui pellentesque sodales. Curabitur pellentesque dolor metus, ut mollis est posuere sit amet. Praesent sagittis ligula vel est auctor congue. Duis varius ligula et faucibus porttitor. Ut placerat aliquet turpis, eget condimentum nibh porttitor ut. Morbi libero nisl, ullamcorper sit amet est a, dignissim rhoncus ante. Fusce suscipit enim et scelerisque vehicula. Suspendisse eu nulla porta, pharetra dolor et, blandit eros. Ut iaculis metus id purus scelerisque dignissim. Vivamus convallis placerat ex sit amet gravida. Nullam sed orci elit. Pellentesque tincidunt odio lacus, sit amet facilisis quam aliquam id.         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take SORIA NATURAL VITAMINA C 36 COMPRIMIDOS"
+  * title =  "3. How to take SORIA NATURAL VITAMINA C 36 COMPRIMIDOS"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take SORIA NATURAL VITAMINA C 36 COMPRIMIDOS"
   * text.status = #additional

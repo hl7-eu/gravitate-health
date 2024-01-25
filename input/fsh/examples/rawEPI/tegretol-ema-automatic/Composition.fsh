@@ -1,6 +1,7 @@
 
 
 
+
 Instance: composition-es-ac2bb08bb4cc3f51f8c4e3513034c019
 InstanceOf: CompositionUvEpi
 Title: "Composition for Tegretol 200 mg tablets Package Leaflet"
@@ -37,9 +38,9 @@ Usage: #example
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. PROSPECTO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. PROSPECTO"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -48,9 +49,9 @@ Usage: #example
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
 
@@ -80,9 +81,9 @@ Usage: #example
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Contenido del prospecto"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Contenido del prospecto"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p style="margin:5pt 0pt 0pt; page-break-after:avoid; line-height:115%; font-size:11pt"><strong><u><span style="font-family:Times New Roman; font-size:11pt;">Contenido del prospecto:</span></u></strong></p>
@@ -102,9 +103,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What Tegretol 200 mg tablets is and what it is used for"
+  * title =  "1. Qué es Tegretol 200 mg  comprimidos  y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Tegretol 200 mg tablets is and what it is used for"
+  * code.text =  "1. Qué es Tegretol 200 mg  comprimidos  y para qué se utiliza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p style="margin:0pt"><span style="font-family:Times New Roman; font-size:11pt">El principio activo es carbamazepina.</span></p>
@@ -115,9 +116,9 @@ Usage: #example
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take Tegretol 200 mg tablets"
+  * title = "2. Qué necesita saber antes de empezar a tomar Tegretol 200 mg  comprimidos "
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take Tegretol 200 mg tablets"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar Tegretol 200 mg  comprimidos "
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p style="margin:0pt"><span style="font-family:Times New Roman; font-size:11pt">Siga las instrucciones que le ha dado su médico. Éstas pueden ser diferentes de la información contenida en este prospecto.</span></p>
@@ -304,9 +305,9 @@ Usage: #example
   </div>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take Tegretol 200 mg tablets"
+  * title =  "3. Cómo tomar Tegretol 200 mg  comprimidos "
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take Tegretol 200 mg tablets"
+  * code.text = "3. Cómo tomar Tegretol 200 mg  comprimidos "
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p style="margin:0pt; text-align:justify"><strong><span style="font-family:Times New Roman; font-size:11pt;">Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico cuidadosamente. En caso de duda, consulte de nuevo a su médico o farmacéutico. No exceda la dosis recomendada.</span></strong></p>
@@ -360,9 +361,9 @@ Usage: #example
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Posibles efectos adversos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</span></p>
@@ -445,9 +446,9 @@ Usage: #example
   </div>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store Tegretol 200 mg tablets"
+  * title = "5. CONSERVACIÓN DE Tegretol 200 mg  comprimidos "
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store Tegretol 200 mg tablets"
+  * code.text = "5. CONSERVACIÓN DE Tegretol 200 mg  comprimidos "
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p style="margin:0pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">Mantener</span> <span style="font-family:Times New Roman; font-size:11pt">este medicamento</span> <span style="font-family:Times New Roman; font-size:11pt">fuera de la vista y del alcance de los niños</span><span style="font-family:Times New Roman; font-size:12pt">.</span></p>
@@ -473,9 +474,9 @@ Usage: #example
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Contenido del envase e información adicional"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p style="margin:0pt; text-align:justify"><strong><span style="font-family:Times New Roman; font-size:11pt;">Composición de Tegretol 200 mg comprimidos</span></strong></p>

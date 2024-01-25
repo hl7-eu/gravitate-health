@@ -1,6 +1,7 @@
 
 
 
+
 Instance: composition-es-1453e0f16ff6c1d3106ed737a7857578
 InstanceOf: CompositionUvEpi
 Title: "Composition for BLASTON 1 mg tablets Package Leaflet"
@@ -37,9 +38,9 @@ Usage: #example
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. PROSPECTO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. PROSPECTO"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -48,9 +49,9 @@ Usage: #example
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento, porque contiene información importante para usted.</strong></p>
 <ul>
@@ -65,9 +66,9 @@ adversos que no aparecen en este prospecto. Ver sección 4.</li>
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Contenido del prospecto"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Contenido del prospecto"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Contenido del prospecto:</strong></p>
 <ol>
@@ -81,9 +82,9 @@ adversos que no aparecen en este prospecto. Ver sección 4.</li>
           
 
 * section[=].section[+]
-  * title = "1. What cinitrapide is and what it is used for"
+  * title =  "1. Qué es cinitrapide y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What cinitrapide is and what it is used for"
+  * code.text =  "1. Qué es cinitrapide y para qué se utiliza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Blaston pertenece a un grupo de medicamentos denominados procinéticos, que actúan estimulando la
 motilidad gastrointestinal.</p>
@@ -94,9 +95,9 @@ los trastornos funcionales de la motilidad gastrointestinal leve-moderada.</p>  
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take cinitrapide"
+  * title = "2. Qué necesita saber antes de empezar a tomar cinitrapide"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take cinitrapide"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar cinitrapide"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>No tome Blaston 1 mg Comprimidos</strong></p>
 <ul>
@@ -148,9 +149,9 @@ azúcares, consulte con él antes de tomar este medicamento.</p>
 “exento de sodio”.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take cinitrapide"
+  * title =  "3. Cómo tomar cinitrapide"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take cinitrapide"
+  * code.text = "3. Cómo tomar cinitrapide"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico. En
 caso de duda, consulte de nuevo a su médico o farmacéutico.</p>
@@ -181,9 +182,9 @@ la dosis olvidada y espere a tomar la siguiente dosis a la hora que le correspon
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Posibles efectos adversos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Al igual que todos los medicamentos, Blaston puede producir efectos adversos, aunque no todas las
 personas los sufran.
@@ -211,9 +212,9 @@ directamente a través del Sistema Español de Farmacovigilancia de Medicamentos
 sobre la seguridad de este medicamento.</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store cinitrapide"
+  * title = "5. CONSERVACIÓN DE cinitrapide"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store cinitrapide"
+  * code.text = "5. CONSERVACIÓN DE cinitrapide"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mantener este medicamento fuera de la vista y del alcance de los niños.</p>
 <p>No requiere condiciones especiales de conservación.</p>
@@ -225,9 +226,9 @@ ayudará a proteger el medio ambiente.</p>         </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Contenido del envase e información adicional"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Composición de Blaston 1 mg Comprimidos</strong></p>
 <p>El principio activo es cinitaprida (como tartrato ácido). Cada comprimido contiene 1 mg de cinitaprida

@@ -1,6 +1,7 @@
 
 
 
+
 Instance: composition-es-af8d2f6e4772c29a8ef9fbb165e80d28
 InstanceOf: CompositionUvEpi
 Title: "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
@@ -26,7 +27,7 @@ Usage: #example
 
  
  // Reference to Organization: MAH
-* author = Reference(mah-e0c4304ad134de29cff6bfff6e3a9ad7)
+* author = Reference(mah-c2a5378488511eaedce26dde272c2290)
 
 
 * title = "TEST PURPOSES ONLY - HIPÉRICO ARKOPHARMA cápsulas duras"
@@ -37,9 +38,9 @@ Usage: #example
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. PROSPECTO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. PROSPECTO"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -48,9 +49,9 @@ Usage: #example
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -110,9 +111,9 @@ Usage: #example
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Contenido del prospecto"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Contenido del prospecto"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -147,9 +148,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What HIPÉRICO ARKOPHARMA cápsulas duras is and what it is used for"
+  * title =  "1. Qué es HIPÉRICO ARKOPHARMA cápsulas duras y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What HIPÉRICO ARKOPHARMA cápsulas duras is and what it is used for"
+  * code.text =  "1. Qué es HIPÉRICO ARKOPHARMA cápsulas duras y para qué se utiliza"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -169,9 +170,9 @@ Usage: #example
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take HIPÉRICO ARKOPHARMA cápsulas duras"
+  * title = "2. Qué necesita saber antes de empezar a tomar HIPÉRICO ARKOPHARMA cápsulas duras"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take HIPÉRICO ARKOPHARMA cápsulas duras"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar HIPÉRICO ARKOPHARMA cápsulas duras"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <div>
@@ -424,9 +425,9 @@ Usage: #example
    
                     
 * section[=].section[+]
-  * title = "3. How to take HIPÉRICO ARKOPHARMA cápsulas duras"
+  * title =  "3. Cómo tomar HIPÉRICO ARKOPHARMA cápsulas duras"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take HIPÉRICO ARKOPHARMA cápsulas duras"
+  * code.text = "3. Cómo tomar HIPÉRICO ARKOPHARMA cápsulas duras"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -511,9 +512,9 @@ Usage: #example
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Posibles efectos adversos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -551,9 +552,9 @@ Usage: #example
       
         
 * section[=].section[+]
-  * title = "5. How to store HIPÉRICO ARKOPHARMA cápsulas duras"
+  * title = "5. CONSERVACIÓN DE HIPÉRICO ARKOPHARMA cápsulas duras"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store HIPÉRICO ARKOPHARMA cápsulas duras"
+  * code.text = "5. CONSERVACIÓN DE HIPÉRICO ARKOPHARMA cápsulas duras"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -600,9 +601,9 @@ Usage: #example
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Contenido del envase e información adicional"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 

@@ -4,7 +4,7 @@ import re
 
 # Define the path to the PDF file
 pdf_path = "../source-data/epi/pil.10637.pdf"
-html_file_path = "../source-data/epi/pil.10637.md"
+html_file_path = "./pil.10637.md"
 
 
 # Open the PDF file

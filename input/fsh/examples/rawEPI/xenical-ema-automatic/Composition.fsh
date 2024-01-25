@@ -1,6 +1,5 @@
 
 
-
 Instance: composition-en-bc60fa1aa0bfe774d11ee13c0c131622
 InstanceOf: CompositionUvEpi
 Title: "Composition for Xenical 120mg hard capsules Package Leaflet"
@@ -37,7 +36,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -76,9 +75,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What Xenical 120mg hard capsules 12 capsules is and what it is used for"
+  * title =  "1. What Xenical 120mg hard capsules 12 capsules is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Xenical 120mg hard capsules 12 capsules is and what it is used for"
+  * code.text =  "1. What Xenical 120mg hard capsules 12 capsules is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xenical is a medicine used to treat obesity. It works in your digestive system to block about one-third of the fat in the food you eat from being digested.
 Xenical attaches to the enzymes in your digestive system (lipases) and blocks them from breaking down some of the fat you have eaten during your meal. The undigested fat cannot be absorbed and is eliminated by your body.</p>
@@ -132,7 +131,7 @@ You must not breast-feed your infant during treatment with Xenical as it is not 
 Xenical has no known effect on your ability to drive a car or operate machinery.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take Xenical 120mg hard capsules 12 capsules"
+  * title =  "3. How to take Xenical 120mg hard capsules 12 capsules"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take Xenical 120mg hard capsules 12 capsules"
   * text.status = #additional
@@ -213,6 +212,7 @@ CHEPLAPHARM Arzneimittel GmbH Bahnhofstr. 1a  </p>
 
 
 
+
 Instance: composition-es-bc60fa1aa0bfe774d11ee13c0c131622
 InstanceOf: CompositionUvEpi
 Title: "Composition for Xenical 120mg hard capsules Package Leaflet"
@@ -247,9 +247,9 @@ Usage: #example
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. PROSPECTO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. PROSPECTO"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -258,9 +258,9 @@ Usage: #example
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>XENICAL 120 mg cápsulas duras 
 Orlistat </p>
@@ -275,9 +275,9 @@ aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.  </p>
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Contenido del prospecto"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Contenido del prospecto"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Contenido del prospecto: </p>
 <ol>
@@ -291,9 +291,9 @@ aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.  </p>
           
 
 * section[=].section[+]
-  * title = "1. What Xenical 120mg hard capsules 12 capsules is and what it is used for"
+  * title =  "1. Qué es XENICAL 120 mg cápsulas duras  y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Xenical 120mg hard capsules 12 capsules is and what it is used for"
+  * code.text =  "1. Qué es XENICAL 120 mg cápsulas duras  y para qué se utiliza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xenical es un medicamento utilizado para tratar la obesidad. Actúa sobre su sistema digestivo 
 evitando que se digiera alrededor de un tercio de la grasa contenida en la comida que ingiere.Xenical se une a enzimas de su sistema digestivo (lipasas) evitando que hidrolicen parte de las grasas 
@@ -304,9 +304,9 @@ calorías.  </p>         </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take Xenical 120mg hard capsules 12 capsules"
+  * title = "2. Qué necesita saber antes de empezar a tomar XENICAL 120 mg cápsulas duras "
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take Xenical 120mg hard capsules 12 capsules"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar XENICAL 120 mg cápsulas duras "
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>No tome XENICAL </p>
 <ul>
@@ -380,9 +380,9 @@ a la leche materna. </p>
 <p><strong>Conducción y uso de máquinas</strong>Xenical no tiene ningún efecto conocido sobre la capacidad para conducir o utilizar maquinas. </p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take Xenical 120mg hard capsules 12 capsules"
+  * title =  "3. Cómo tomar XENICAL 120 mg cápsulas duras "
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take Xenical 120mg hard capsules 12 capsules"
+  * code.text = "3. Cómo tomar XENICAL 120 mg cápsulas duras "
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Siga exactamente las instrucciones de administración de Xenical indicadas por su médico. En caso de 
 duda, consulte a su médico o farmacéutico.La dosis recomendada de Xenical es de una cápsula de 120 mg tomada con cada una de las tres 
@@ -416,9 +416,9 @@ ha dejado de tomar varias dosis, por favor, informe a su médico y siga el conse
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Posibles efectos adversos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no 
 todas las personas los sufran. </p>
@@ -456,9 +456,9 @@ comunicación de efectos adversos usted puede contribuir a  proporcionar más in
 seguridad de este medicamento. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store Xenical 120mg hard capsules 12 capsules"
+  * title = "5. CONSERVACIÓN DE XENICAL 120 mg cápsulas duras "
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store Xenical 120mg hard capsules 12 capsules"
+  * code.text = "5. CONSERVACIÓN DE XENICAL 120 mg cápsulas duras "
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mantener fuera de la vista y del alcance  de los niños. </p>
 <p><strong>Blisters </strong>No utilice este medicamento después de la fecha de caducidad que aparece en el envase. 
@@ -474,9 +474,9 @@ el medio ambiente. </p>         </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Contenido del envase e información adicional"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Composición de  Xenical </p>
 <ul>

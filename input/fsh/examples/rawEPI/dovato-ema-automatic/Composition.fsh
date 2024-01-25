@@ -1,6 +1,5 @@
 
 
-
 Instance: composition-en-16598f252d07b4784b82ba43cf9e847e
 InstanceOf: CompositionUvEpi
 Title: "Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
@@ -41,7 +40,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -103,9 +102,9 @@ not listed in this leaflet. See section 4.</li>
           
 
 * section[=].section[+]
-  * title = "1. What 0 is and what it is used for"
+  * title =  "1. What Dovato is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What 0 is and what it is used for"
+  * code.text =  "1. What Dovato is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dovato is a medicine that contains two active ingredients used to treat human immunodeficiency virus (HIV)
 infection: dolutegravir and lamivudine. Dolutegravir belongs to a group of anti-retroviral medicines called
@@ -121,9 +120,9 @@ of your treatment.</p>         </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take 0"
+  * title = "2. What you need to know before you take Dovato"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take 0"
+  * code.text = "2. What you need to know before you take Dovato"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Dovato</p>
 <ul>
@@ -215,9 +214,9 @@ as possible.</p>
 </ul>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take 0"
+  * title =  "3. How to take Dovato"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take 0"
+  * code.text = "3. How to take Dovato"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if you
 are not sure.</p>
@@ -405,9 +404,9 @@ in this leaflet. You can also report side effects directly via the national repo
 Appendix V. By reporting side effects you can help provide more information on the safety of this medicine.</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store 0"
+  * title = "5. How to store Dovato"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store 0"
+  * code.text = "5. How to store Dovato"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.</p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and bottle after EXP. The expiry
@@ -439,6 +438,7 @@ titanium dioxide (E171).</li>
 <p>Multipacks containing 90 film-coated tablets (3 packs of 30 film-coated tablets) are also available.
 Not all pack sizes may be available in your c
 ountry</p>         </div>"""      
+
 
 
 
@@ -481,9 +481,9 @@ Usage: #example
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. PROSPECTO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. PROSPECTO"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -492,9 +492,9 @@ Usage: #example
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -518,9 +518,9 @@ Usage: #example
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Contenido del prospecto"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Contenido del prospecto"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -539,9 +539,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What 1 is and what it is used for"
+  * title =  "1. Qué es Dovato y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What 1 is and what it is used for"
+  * code.text =  "1. Qué es Dovato y para qué se utiliza"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -558,9 +558,9 @@ Usage: #example
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take 1"
+  * title = "2. Qué necesita saber antes de empezar a tomar Dovato"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take 1"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar Dovato"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>No tome Dovato</strong></p>
 <ul>
@@ -627,9 +627,9 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
          </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take 1"
+  * title =  "3. Cómo tomar Dovato"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take 1"
+  * code.text = "3. Cómo tomar Dovato"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -646,9 +646,9 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Posibles efectos adversos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -661,9 +661,9 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
       
         
 * section[=].section[+]
-  * title = "5. How to store 1"
+  * title = "5. CONSERVACIÓN DE Dovato"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store 1"
+  * code.text = "5. CONSERVACIÓN DE Dovato"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -681,9 +681,9 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Contenido del envase e información adicional"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
