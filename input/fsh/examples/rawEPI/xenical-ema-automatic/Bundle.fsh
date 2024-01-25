@@ -7,6 +7,9 @@ RuleSet: 37d610f9c96d541562699215b0864126BundleRuleset
  
 
 
+ 
+
+
 // Ingredient
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-xenical-orlistat"
 * entry[=].resource = ingredient-for-xenical-orlistat 
@@ -77,6 +80,9 @@ RuleSet: 37d610f9c96d541562699215b0864126BundleRuleset
 * entry[=].resource = mid-4fab126d28f65a1084e7b50a23200363 
 
 
+ 
+
+
 
 
 
@@ -102,5 +108,34 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-bc60fa1aa0bfe774d11ee13c0c131622"
 * entry[0].resource = composition-en-bc60fa1aa0bfe774d11ee13c0c131622
+
+* insert 37d610f9c96d541562699215b0864126BundleRuleset
+
+
+
+
+
+Instance: bundlepackageleaflet-es-4fab126d28f65a1084e7b50a23200363
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for Xenical 120mg hard capsules Package Leaflet for language es"
+Description: "ePI document Bundle for Xenical 120mg hard capsules Package Leaflet for language es"
+Usage: #example
+
+
+
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/98/071/004"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #es
+
+
+
+
+
+// Composition
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-bc60fa1aa0bfe774d11ee13c0c131622"
+* entry[0].resource = composition-es-bc60fa1aa0bfe774d11ee13c0c131622
 
 * insert 37d610f9c96d541562699215b0864126BundleRuleset
