@@ -1,15 +1,16 @@
 
 
-Instance: composition-es-34060417eeae4622c4674a9c4100d2ed
+
+Instance: composition-es-a975b7e209ea5c4c3bf8040a42b86fbd
 InstanceOf: CompositionUvEpi
-Title: "Composition for paracetamol Package Leaflet"
-Description:  "Composition for paracetamol Package Leaflet"
+Title: "Composition for DOLOCATIL 1 g tablets Package Leaflet"
+Description:  "Composition for DOLOCATIL 1 g tablets Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
-* identifier.value = "f6b83f540946832dd0244a65a0cf82b5"
+* identifier.value = "a02c4f62b2ecab881b49c2f8bd9c926d"
 
 * status = #final
 
@@ -28,7 +29,7 @@ Usage: #example
 * author = Reference(mah-65db33d6be47a433e6e9e9c2980ea7a4)
 
 
-* title = "TEST PURPOSES ONLY - paracetamol"
+* title = "TEST PURPOSES ONLY - DOLOCATIL 1 g tablets"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #es

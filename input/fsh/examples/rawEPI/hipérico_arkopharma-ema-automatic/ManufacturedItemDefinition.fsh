@@ -2,7 +2,7 @@
 Instance: mid-29436a85dac3ea374adb3fa64cfd2578
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Title: "Manufactured item HIPÉRICO ARKOPHARMA cápsulas duras"
-Description: "HIPÉRICO ARKOPHARMA cápsulas duras"
+Description: "Manufactured item HIPÉRICO ARKOPHARMA cápsulas duras"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
@@ -18,4 +18,4 @@ Usage: #example
  
 
 
-//* manufacturer = Reference(mah-e0c4304ad134de29cff6bfff6e3a9ad7)
+//* manufacturer = Reference(mah-c2a5378488511eaedce26dde272c2290)

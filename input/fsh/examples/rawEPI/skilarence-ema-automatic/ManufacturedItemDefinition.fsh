@@ -1,8 +1,8 @@
 
 Instance: mid-6a3c9768548036f502739419bacb2482
 InstanceOf: ManufacturedItemDefinitionUvEpi
-Title: "Manufactured item Skilarence 120 mg gastro-resistant tablets "
-Description: "Skilarence 120 mg gastro-resistant tablets "
+Title: "Manufactured item Skilarence 120 mg gastro-resistant tablets"
+Description: "Manufactured item Skilarence 120 mg gastro-resistant tablets"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"

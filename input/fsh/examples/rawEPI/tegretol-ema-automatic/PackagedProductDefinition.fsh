@@ -1,15 +1,17 @@
 
-Instance: ppd-2f37d696067eeb6daf1111cfc3272672
+
+
+Instance: ppd-1618faf0346b4539ed1e3d6b23353e60
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "Tegretol 200 mg tablets"
-Description: "Tegretol 200 mg tablets"
+Title: "Packaged Product Definition: Tegretol 200 mg tablets 28"
+Description: "Packaged Product Definition: Tegretol 200 mg tablets 28"
 Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "39.955"
 * identifier.use = #official
 
-* name = "Tegretol 200 mg tablets"
+* name = "Tegretol 200 mg tablets 28"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Prodcut"
 //* type = $spor-rms#100000155527

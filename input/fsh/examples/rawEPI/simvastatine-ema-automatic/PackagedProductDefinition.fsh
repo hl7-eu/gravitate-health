@@ -1,15 +1,17 @@
 
-Instance: ppd-660952efa1b907b97e182807063ac261
+
+
+Instance: ppd-eac96261823092966bc3d7659feb5d7a
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "Lipcut Simvastatin 5 mg Tablet"
-Description: "Lipcut Simvastatin 5 mg Tablet"
+Title: "Packaged Product Definition: Lipcut Simvastatin 5 mg Tablet 28"
+Description: "Packaged Product Definition: Lipcut Simvastatin 5 mg Tablet 28"
 Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "fin-x"
 * identifier.use = #official
 
-* name = "Lipcut Simvastatin 5 mg Tablet"
+* name = "Lipcut Simvastatin 5 mg Tablet 28"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Product"
 //* type = $spor-rms#100000155527
@@ -36,7 +38,7 @@ Usage: #example
 
     * identifier.system = $spor-prod
     * identifier.value = "123456"
-    * containedItem.item.reference = Reference(mid-f017cc40b97c30d177960a4c63431139)
+    * containedItem.item.reference = Reference(mid-660952efa1b907b97e182807063ac261)
     * type = $spor-rms#100000073496 "Blister"
     
     * quantity = 28

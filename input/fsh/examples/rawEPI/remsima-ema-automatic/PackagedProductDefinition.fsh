@@ -1,15 +1,17 @@
 
-Instance: ppd-e3e5e78d4e002ed9e15b925cd546e20b
+
+
+Instance: ppd-515e8ffbb9f74e0d03d7ec46f9b79d8f
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "Remsima 100 mg powder for concentrate for solution for infusion"
-Description: "Remsima 100 mg powder for concentrate for solution for infusion"
+Title: "Packaged Product Definition: Remsima 100 mg powder for concentrate for solution for infusion 1"
+Description: "Packaged Product Definition: Remsima 100 mg powder for concentrate for solution for infusion 1"
 Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/13/853/001"
 * identifier.use = #official
 
-* name = "Remsima 100 mg powder for concentrate for solution for infusion"
+* name = "Remsima 100 mg powder for concentrate for solution for infusion 1"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Prodcut"
 //* type = $spor-rms#100000155527

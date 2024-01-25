@@ -2,7 +2,7 @@
 Instance: ap-29436a85dac3ea374adb3fa64cfd2578
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product HIPÉRICO ARKOPHARMA cápsulas duras"
-Description: "HIPÉRICO ARKOPHARMA cápsulas duras"
+Description: "Administrable product HIPÉRICO ARKOPHARMA cápsulas duras"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"

@@ -1,5 +1,6 @@
 
 
+
 RuleSet: 34060417eeae4622c4674a9c4100d2edBundleRuleset 
 
 
@@ -47,8 +48,8 @@ RuleSet: 34060417eeae4622c4674a9c4100d2edBundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization08ac066220d4d68a3933a9c94bef32ff"
-* entry[=].resource = authorization08ac066220d4d68a3933a9c94bef32ff 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization08ac066220d4d68a3933a9c94bef32ff0"
+* entry[=].resource = authorization08ac066220d4d68a3933a9c94bef32ff0 
 
 
 // Organization
@@ -57,8 +58,8 @@ RuleSet: 34060417eeae4622c4674a9c4100d2edBundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-1fba151ccf2a68d419f373375e997036"
-* entry[=].resource = ppd-1fba151ccf2a68d419f373375e997036 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-951de5ac0ea34819d959a1b4321a915b"
+* entry[=].resource = ppd-951de5ac0ea34819d959a1b4321a915b 
 
 
 // MedicinalProductDefinition
@@ -74,11 +75,13 @@ RuleSet: 34060417eeae4622c4674a9c4100d2edBundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-9e0b95f2943e17e9a39046404c6cce71
+Instance: bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for dolocatil Package Leaflet for language "
-Description: "Bundle for dolocatil Package Leaflet ePI document"
+Title: "ePI document Bundle for DOLOCATIL 1 g tablets Package Leaflet for language en"
+Description: "ePI document Bundle for DOLOCATIL 1 g tablets Package Leaflet for language en"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
@@ -92,7 +95,7 @@ Usage: #example
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-34060417eeae4622c4674a9c4100d2ed"
-* entry[0].resource = composition-es-34060417eeae4622c4674a9c4100d2ed
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-a975b7e209ea5c4c3bf8040a42b86fbd"
+* entry[0].resource = composition-es-a975b7e209ea5c4c3bf8040a42b86fbd
 
 * insert 34060417eeae4622c4674a9c4100d2edBundleRuleset

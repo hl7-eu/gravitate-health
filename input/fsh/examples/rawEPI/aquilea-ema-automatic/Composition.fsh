@@ -1,15 +1,15 @@
 
 
-Instance: composition-en-d88eaaff32ec133d89ec679da88bae62
+Instance: composition-en-3b8585822d27945de47423af5de9824d
 InstanceOf: CompositionUvEpi
-Title: "Composition for Aquilea Package Leaflet"
-Description:  "Composition for Aquilea Package Leaflet"
+Title: "Composition for Aquilea Articulaciones Colageno y Magnesio 375gr Package Leaflet"
+Description:  "Composition for Aquilea Articulaciones Colageno y Magnesio 375gr Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
-* identifier.value = "59182720471b60257cf6421af6ea18c3"
+* identifier.value = "23d476da249cad2649e668dacd805f23"
 
 * status = #final
 
@@ -28,7 +28,7 @@ Usage: #example
 * author = Reference(mah-55692ec414f31dec233d83cfa4fdb9f9)
 
 
-* title = "TEST PURPOSES ONLY - Aquilea"
+* title = "TEST PURPOSES ONLY - Aquilea Articulaciones Colageno y Magnesio 375gr"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en
@@ -38,7 +38,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  This product is a OTC, epi pending         </div>"""   
 
@@ -64,9 +64,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What Aquilea is and what it is used for"
+  * title =  "1. What Aquilea is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Aquilea is and what it is used for"
+  * code.text =  "1. What Aquilea is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  Quisque posuere elit nec auctor imperdiet. Morbi id tortor nec odio molestie maximus. Phasellus id placerat velit. In ex enim, ultricies at maximus sit amet, luctus sit amet magna. Quisque in laoreet ligula, venenatis ultricies lectus. Quisque eleifend felis sed nulla consequat, eu tincidunt nisi gravida. Duis et lacinia ex. Aliquam pharetra vel metus at scelerisque. Integer ultricies dolor vestibulum nibh lacinia mollis. Ut tempor congue nulla eget molestie.         </div>"""   
           
@@ -80,7 +80,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  Nunc velit ante, aliquet sed commodo ut, dictum eget lectus. Duis eu nulla ac dui pellentesque sodales. Curabitur pellentesque dolor metus, ut mollis est posuere sit amet. Praesent sagittis ligula vel est auctor congue. Duis varius ligula et faucibus porttitor. Ut placerat aliquet turpis, eget condimentum nibh porttitor ut. Morbi libero nisl, ullamcorper sit amet est a, dignissim rhoncus ante. Fusce suscipit enim et scelerisque vehicula. Suspendisse eu nulla porta, pharetra dolor et, blandit eros. Ut iaculis metus id purus scelerisque dignissim. Vivamus convallis placerat ex sit amet gravida. Nullam sed orci elit. Pellentesque tincidunt odio lacus, sit amet facilisis quam aliquam id.         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take Aquilea"
+  * title =  "3. How to take Aquilea"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take Aquilea"
   * text.status = #additional

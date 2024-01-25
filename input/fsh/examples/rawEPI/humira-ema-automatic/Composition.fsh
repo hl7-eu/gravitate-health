@@ -1,15 +1,16 @@
 
 
-Instance: composition-en-3a3583227b4c5b0887f1e0d38269b469
+
+Instance: composition-en-f97db27e6330f77484eb8425ad2913cd
 InstanceOf: CompositionUvEpi
-Title: "Composition for humira Package Leaflet"
-Description:  "Composition for humira Package Leaflet"
+Title: "Composition for Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) Package Leaflet"
+Description:  "Composition for Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
-* identifier.value = "2bf0305e7e731bc6f0a8a3ae804fb03a"
+* identifier.value = "a14be1b1a1c674243176b59de5d183f9"
 
 * status = #final
 
@@ -25,10 +26,10 @@ Usage: #example
 
  
  // Reference to Organization: MAH
-* author = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+* author = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
-* title = "TEST PURPOSES ONLY - humira"
+* title = "TEST PURPOSES ONLY - Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en
@@ -83,9 +84,9 @@ adalimumab</p>
           
 
 * section[=].section[+]
-  * title = "1. What humira is and what it is used for"
+  * title = "1. What 0 is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What humira is and what it is used for"
+  * code.text = "1. What 0 is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Humira is and what it is used for
 Humira contains the active substance adalimumab.
@@ -139,9 +140,9 @@ will be given Humira to reduce the signs and symptoms of his/her disease.</p>   
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take humira"
+  * title = "2. What you need to know before you take 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take humira"
+  * code.text = "2. What you need to know before you take 0"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2 id="warnings-and-precautions">Warnings and precautions</h2>
 <p>Talk to your doctor or pharmacist before using Humira.
@@ -257,9 +258,9 @@ doctor if symptoms such as persistent unexplained rash, fever, joint pain or tir
 </ul>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take humira"
+  * title = "3. How to take 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take humira"
+  * code.text = "3. How to take 0"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2 id="how-to-use-humira">How to use Humira</h2>
 <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor or
@@ -473,9 +474,9 @@ listed in Appendix V. By reporting side effects, you can help provide more infor
 this medicine. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store humira"
+  * title = "5. How to store 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store humira"
+  * code.text = "5. How to store 0"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2 id="how-to-store-humira">How to store Humira</h2>
 <p>Keep this medicine out of the sight and reach of children.

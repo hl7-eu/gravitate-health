@@ -2,7 +2,7 @@
 Instance: ap-a38f06714db0c27b2ba704652e3f08c5
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill"
-Description: "Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill"
+Description: "Administrable product Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"

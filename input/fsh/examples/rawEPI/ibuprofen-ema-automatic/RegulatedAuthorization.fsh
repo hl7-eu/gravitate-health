@@ -1,8 +1,8 @@
 
-Instance: authorizatione0d9ad275c19f6e91c9365529421d5a8
+Instance: authorizatione0d9ad275c19f6e91c9365529421d5a80
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for Nurofen 100 mg Chewable Capsules"
-Description: "Regulated Authorization for Nurofen 100 mg Chewable Capsules"
+Title: "Regulated Authorization for Nurofen 100 mg Chewable Capsules 0"
+Description: "Regulated Authorization for Nurofen 100 mg Chewable Capsules 0"
 Usage: #example
 
 * identifier.system = $spor-prod
@@ -10,9 +10,11 @@ Usage: #example
 * identifier.use = #official
 
 
- // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
- //* subject = Reference(karvea75mgblisterx28)
+// Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
+
 * subject = Reference(mp01eaaf0a81574efda98a52449788e7a2)
+
+
 * type = $spor-rms#220000000061 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062

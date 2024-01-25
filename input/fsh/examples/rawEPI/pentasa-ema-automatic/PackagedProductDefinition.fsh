@@ -1,15 +1,17 @@
 
-Instance: ppd-1a7318638ddbbeb084ef416e717b6fdb
+
+
+Instance: ppd-dd9288188d1a45ddbbe2e5d930862d7f
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "Pentasa Slow Release Tablets 1g"
-Description: "Pentasa Slow Release Tablets 1g"
+Title: "Packaged Product Definition: Pentasa Slow Release Tablets 1g 28"
+Description: "Packaged Product Definition: Pentasa Slow Release Tablets 1g 28"
 Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "x"
 * identifier.use = #official
 
-* name = "Pentasa Slow Release Tablets 1g"
+* name = "Pentasa Slow Release Tablets 1g 28"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Prodcut"
 //* type = $spor-rms#100000155527

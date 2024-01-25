@@ -5,20 +5,20 @@
 
 
 
-Instance: mah-fda7514c0dcb7b5f0176cb5af274235f
+Instance: mah-63db764f02d280689a772e5827bb2515
 
 InstanceOf: OrganizationUvEpi
-Title: "AbbVie Deutschland GmbH Co. KG as Marketing authorisation holder"
-Description: "AbbVie Deutschland GmbH Co. KG as Marketing authorisation holder"
+Title: "ACME industry as Marketing authorisation holder"
+Description: "ACME industry as Marketing authorisation holder"
 Usage: #example
 
 * identifier.system = $spor-org
-* identifier.value = "ORG-100008684"
+* identifier.value = "ORG-100000789"
 * identifier.use = #official
 * active = true 
 * type = $spor-rms#220000000034  "Marketing authorisation holder"
 //* type.text = "Marketing authorisation holder"
-* name = "AbbVie Deutschland GmbH Co. KG"
+* name = "ACME industry"
 
 
 * contact

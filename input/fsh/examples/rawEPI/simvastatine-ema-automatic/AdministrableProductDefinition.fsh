@@ -1,8 +1,8 @@
 
-Instance: ap-f017cc40b97c30d177960a4c63431139
+Instance: ap-660952efa1b907b97e182807063ac261
 InstanceOf: AdministrableProductDefinitionUvEpi
-Title: "Administrable product Lipcut Simvastatine 5 mg Tablet"
-Description: "Lipcut Simvastatine 5 mg Tablet"
+Title: "Administrable product Lipcut Simvastatin 5 mg Tablet"
+Description: "Administrable product Lipcut Simvastatin 5 mg Tablet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
@@ -16,7 +16,7 @@ Usage: #example
 
 
 
-* producedFrom = Reference(mid-f017cc40b97c30d177960a4c63431139)
+* producedFrom = Reference(mid-660952efa1b907b97e182807063ac261)
 
 
 * routeOfAdministration.code = $spor-rms#100000073619 "Oral use"

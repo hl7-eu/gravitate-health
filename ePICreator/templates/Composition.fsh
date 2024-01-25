@@ -2,7 +2,29 @@
 {% if row["skip"] not in ['y', 'Y', 'x', 'X'] %}
 
 {% set ns = namespace() %}
+{% if row["language"] == "es"%}
+{% set ns.title = "B. PROSPECTO" %}
+{% set ns.user = "PROSPECTO: INFORMACIÓN PARA EL USUARIO" %}
+{% set ns.leaflet = "Contenido del prospecto" %}
+{% set ns.h1 = "1. Qué es "~row['name']~" y para qué se utiliza"%}
 
+{% set ns.h2 = "2. Qué necesita saber antes de empezar a tomar " ~row['name'] %}
+{% set ns.h3 = "3. Cómo tomar "~row['name'] %}
+{% set ns.h4 = "4. Posibles efectos adversos" %}
+{% set ns.h5 = "5. CONSERVACIÓN DE "~row['name'] %}
+{% set ns.h6 = "6. Contenido del envase e información adicional" %}
+
+{% else %}
+{% set ns.title = "B. Package Leaflet" %}
+{% set ns.user = "Package leaflet: Information for the user" %}
+{% set ns.leaflet = "What is in this leaflet" %}
+{% set ns.h1 = "1. What "~row['name']~" is and what it is used for" %}
+{% set ns.h2 = "2. What you need to know before you take "~row['name'] %}
+{% set ns.h3 = "3. How to take "~row['name'] %}
+{% set ns.h4 = "4. Possible side effects" %}
+{% set ns.h5 = "5. How to store "~row['name'] %}
+{% set ns.h6 = "6. Contents of the pack and other information" %}
+{% endif %}
 
 Instance: composition-{{row["language"]}}-{{data["dictionary"]["productname"]| regex_replace('[^A-Za-z0-9]+', '')| create_hash_id}}
 InstanceOf: CompositionUvEpi
@@ -13,7 +35,6 @@ Usage: #example
 * identifier.system = "{{row['identifier_system']}}"
 
 {% if row["identifier"]|string == "nan" %}
-{% set ns = namespace() %}
 {% set ns.one = "Composition" %}
 {% set ns.two = data["dictionary"]["productname"]| regex_replace('[^A-Za-z0-9]+', '') %}
 {% set ns.name_to_has= ns.one ~ ns.two   %}
@@ -58,9 +79,9 @@ Usage: #example
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "{{ns.title}}"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "{{ns.title}}"
   * text.status = #additional
 {% if row["package_leaflet"]|string == "nan" %}
 
@@ -76,9 +97,9 @@ Usage: #example
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "{{ns.user}}"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "{{ns.user}}"
   * text.status = #additional
 {% if row["information_user"]|string == "nan" %}
 
@@ -94,9 +115,9 @@ Usage: #example
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "{{ns.leaflet}}"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "{{ns.leaflet}}"
   * text.status = #additional
 {% if row["what_in_leaflet"]|string == "nan" %}
 
@@ -111,9 +132,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What {{row['name']}} is and what it is used for"
+  * title =  "{{ns.h1}}"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What {{row['name']}} is and what it is used for"
+  * code.text =  "{{ns.h1}}"
   * text.status = #additional
 {% if row["what_product_is"]|string == "nan" %}
 
@@ -130,9 +151,9 @@ Usage: #example
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take {{row['name']}}"
+  * title = "{{ns.h2}}"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take {{row['name']}}"
+  * code.text = "{{ns.h2}}"
   * text.status = #additional
 {% if row["before_take"]|string == "nan" %}
 
@@ -146,9 +167,9 @@ Usage: #example
 {%- endif %}   
                     
 * section[=].section[+]
-  * title = "3. How to take {{row['name']}}"
+  * title =  "{{ns.h3}}"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take {{row['name']}}"
+  * code.text = "{{ns.h3}}"
   * text.status = #additional
 {% if row["how_to_take"]|string == "nan" %}
 
@@ -163,9 +184,9 @@ Usage: #example
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "{{ns.h4}}"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "{{ns.h4}}"
   * text.status = #additional
 {% if row["side_effects"]|string == "nan" %}
 
@@ -179,9 +200,9 @@ Usage: #example
 {%- endif %}      
         
 * section[=].section[+]
-  * title = "5. How to store {{row['name']}}"
+  * title = "{{ns.h5}}"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store {{row['name']}}"
+  * code.text = "{{ns.h5}}"
   * text.status = #additional
 {% if row["how_to_store"]|string == "nan" %}
 
@@ -196,9 +217,9 @@ Usage: #example
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "{{ns.h6}}"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "{{ns.h6}}"
   * text.status = #additional
 {% if row["other_info"]|string == "nan" %}
 

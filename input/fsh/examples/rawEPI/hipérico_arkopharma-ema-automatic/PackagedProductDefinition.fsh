@@ -1,15 +1,17 @@
 
-Instance: ppd-29436a85dac3ea374adb3fa64cfd2578
+
+
+Instance: ppd-ee8bd93e975dcd04f4824ba8d24a8944
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "HIPÉRICO ARKOPHARMA cápsulas duras"
-Description: "HIPÉRICO ARKOPHARMA cápsulas duras"
+Title: "Packaged Product Definition: HIPÉRICO ARKOPHARMA cápsulas duras 30"
+Description: "Packaged Product Definition: HIPÉRICO ARKOPHARMA cápsulas duras 30"
 Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "x"
 * identifier.use = #official
 
-* name = "HIPÉRICO ARKOPHARMA cápsulas duras"
+* name = "HIPÉRICO ARKOPHARMA cápsulas duras 30"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Prodcut"
 //* type = $spor-rms#100000155527
@@ -48,4 +50,4 @@ Usage: #example
  
 
 
-//* manufacturer = Reference(mah-e0c4304ad134de29cff6bfff6e3a9ad7)
+//* manufacturer = Reference(mah-c2a5378488511eaedce26dde272c2290)

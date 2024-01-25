@@ -1,5 +1,6 @@
 
 
+
 RuleSet: c29ba23bb04c16ab758f150fe41d6513BundleRuleset 
 
 
@@ -42,8 +43,8 @@ RuleSet: c29ba23bb04c16ab758f150fe41d6513BundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizatione3e5e78d4e002ed9e15b925cd546e20b"
-* entry[=].resource = authorizatione3e5e78d4e002ed9e15b925cd546e20b 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizatione3e5e78d4e002ed9e15b925cd546e20b0"
+* entry[=].resource = authorizatione3e5e78d4e002ed9e15b925cd546e20b0 
 
 
 // Organization
@@ -57,8 +58,8 @@ RuleSet: c29ba23bb04c16ab758f150fe41d6513BundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-e3e5e78d4e002ed9e15b925cd546e20b"
-* entry[=].resource = ppd-e3e5e78d4e002ed9e15b925cd546e20b 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-515e8ffbb9f74e0d03d7ec46f9b79d8f"
+* entry[=].resource = ppd-515e8ffbb9f74e0d03d7ec46f9b79d8f 
 
 
 // MedicinalProductDefinition
@@ -74,11 +75,13 @@ RuleSet: c29ba23bb04c16ab758f150fe41d6513BundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-c29ba23bb04c16ab758f150fe41d6513
+Instance: bundlepackageleaflet-en-e3e5e78d4e002ed9e15b925cd546e20b
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for remsima Package Leaflet for language "
-Description: "Bundle for remsima Package Leaflet ePI document"
+Title: "ePI document Bundle for Remsima 100 mg powder for concentrate for solution for infusion Package Leaflet for language en"
+Description: "ePI document Bundle for Remsima 100 mg powder for concentrate for solution for infusion Package Leaflet for language en"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 

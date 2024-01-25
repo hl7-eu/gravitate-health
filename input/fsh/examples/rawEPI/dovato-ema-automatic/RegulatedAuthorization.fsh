@@ -1,8 +1,8 @@
 
-Instance: authorization49178f16170ee8a6bc2a4361c1748d5f
+Instance: authorization49178f16170ee8a6bc2a4361c1748d5f0
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for Dovato 50 mg/300 mg film-coated tablets"
-Description: "Regulated Authorization for Dovato 50 mg/300 mg film-coated tablets"
+Title: "Regulated Authorization for Dovato 50 mg/300 mg film-coated tablets 0"
+Description: "Regulated Authorization for Dovato 50 mg/300 mg film-coated tablets 0"
 Usage: #example
 
 * identifier.system = $spor-prod
@@ -10,10 +10,11 @@ Usage: #example
 * identifier.use = #official
 
 
- // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
- //* subject = Reference(karvea75mgblisterx28)
+// Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
+
 * subject = Reference(mp16598f252d07b4784b82ba43cf9e847e)
-* type = $spor-rms#100000072062 "Marketing Authorisation"
+
+* type = $spor-rms#220000000061 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062
 //* type.text = "Marketing Authorisation"* region = urn:iso:std:iso:3166#GBR "United Kingdom"

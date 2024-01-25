@@ -26,7 +26,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-polysorbate80
@@ -55,7 +55,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-adalimumab
@@ -69,7 +69,7 @@ Usage: #example
 * identifier.value = "FYS6T7F842"
 * identifier.use = #official
 
-* role = $spor-rms#72072 "active"
+* role = $spor-rms#100000072072 "Active"
 
 * status = #active
 
@@ -78,7 +78,7 @@ Usage: #example
 
 * substance.strength.presentationQuantity = 40 'mg'
 
-* substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB  "active ingredient - basis of strength"
+* substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
 
 // Reference to products
@@ -88,7 +88,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-sterilewaterforinjection
@@ -117,7 +117,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-citricacidmonohydrate
@@ -146,7 +146,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-sodiumcitrateunspecifiedform
@@ -175,7 +175,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-sodiumphosphatemonobasicdihydrate
@@ -204,7 +204,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-sodiumphosphatedibasicdihydrate
@@ -233,7 +233,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-sodiumchloride
@@ -262,4 +262,4 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)

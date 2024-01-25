@@ -41,7 +41,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -80,9 +80,9 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
           
 
 * section[=].section[+]
-  * title = "1. What Flucelvax is and what it is used for"
+  * title =  "1. What Flucelvax is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Flucelvax is and what it is used for"
+  * code.text =  "1. What Flucelvax is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Flucelvax Tetra is a vaccine against flu (influenza). Flucelvax Tetra is prepared in cell cultures, and, therefore, is egg-free. </p>
 <p>When a person is given the vaccine, the immune system (the body’s natural defence system) will produce its own protection against the influenza virus. None of the ingredients in the vaccine can cause flu.</p>
@@ -136,7 +136,7 @@ Flucelvax Tetra may be given at the same time as other vaccines.</p>
 This vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essentially ‘potassium free’</p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take Flucelvax"
+  * title =  "3. How to take Flucelvax"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take Flucelvax"
   * text.status = #additional
@@ -231,6 +231,8 @@ which the influenza virus is grown); </p>
 
 
 
+
+
 Instance: composition-es-b6ced64d25ea2c8da6c6099386f14db1
 InstanceOf: CompositionUvEpi
 Title: "Composition for Flucelvax Tetra - suspension for injection in pre-filled syringe
@@ -270,9 +272,9 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. PROSPECTO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. PROSPECTO"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -281,9 +283,9 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:3.5pt 0pt 0pt 7.1pt; text-align:center; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Prospecto: informaci&#243;n para el usuario</span></strong></p>
@@ -319,9 +321,9 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Contenido del prospecto"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Contenido del prospecto"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify"><strong><span style="font-family:Times New Roman; font-size:11pt;">Contenido del prospecto</span></strong></p>
@@ -344,9 +346,9 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
           
 
 * section[=].section[+]
-  * title = "1. What Flucelvax is and what it is used for"
+  * title =  "1. Qué es Flucelvax y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Flucelvax is and what it is used for"
+  * code.text =  "1. Qué es Flucelvax y para qué se utiliza"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0.6pt 0pt 0pt; line-height:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
@@ -368,9 +370,9 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take Flucelvax"
+  * title = "2. Qué necesita saber antes de empezar a tomar Flucelvax"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take Flucelvax"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar Flucelvax"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0.65pt 0pt 0pt; line-height:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
@@ -456,9 +458,9 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
    
                     
 * section[=].section[+]
-  * title = "3. How to take Flucelvax"
+  * title =  "3. Cómo tomar Flucelvax"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take Flucelvax"
+  * code.text = "3. Cómo tomar Flucelvax"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0.6pt 0pt 0pt; line-height:12pt"><a name="_Hlk142925114"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></a></p>
@@ -483,9 +485,9 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Posibles efectos adversos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0.4pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
@@ -587,9 +589,9 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
       
         
 * section[=].section[+]
-  * title = "5. How to store Flucelvax"
+  * title = "5. CONSERVACIÓN DE Flucelvax"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store Flucelvax"
+  * code.text = "5. CONSERVACIÓN DE Flucelvax"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:2.45pt 14.1pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Mantener este medicamento fuera de la vista y del alcance de los ni&#241;os.</span></p>
@@ -614,9 +616,9 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Contenido del envase e información adicional"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0.55pt 0pt 0pt; line-height:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>

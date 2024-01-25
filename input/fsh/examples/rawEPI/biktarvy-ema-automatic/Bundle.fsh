@@ -1,5 +1,6 @@
 
 
+
 RuleSet: 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset 
 
 
@@ -93,6 +94,9 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
  
 
 
+ 
+
+
 
 
 
@@ -101,6 +105,8 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language en"
 Description: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language en"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
@@ -122,11 +128,14 @@ Usage: #example
 
 
 
+
 Instance: bundlepackageleaflet-pt-94a96e39cfdcd8b378d12dd4063065f9
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language pt"
 Description: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language pt"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
@@ -148,11 +157,14 @@ Usage: #example
 
 
 
+
 Instance: bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language es"
 Description: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language es"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 

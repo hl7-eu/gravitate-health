@@ -1,15 +1,17 @@
 
-Instance: ppd-5af3df1132d20d744a88dab06e924e5e
+
+
+Instance: ppd-e7c391536e9fc6ff50198d09558da8c0
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "Ogivri 150 mg powder for concentrate for solution for infusion "
-Description: "Ogivri 150 mg powder for concentrate for solution for infusion "
+Title: "Packaged Product Definition: Ogivri 150 mg powder for concentrate for solution for infusion  1"
+Description: "Packaged Product Definition: Ogivri 150 mg powder for concentrate for solution for infusion  1"
 Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/18/1341/001"
 * identifier.use = #official
 
-* name = "Ogivri 150 mg powder for concentrate for solution for infusion "
+* name = "Ogivri 150 mg powder for concentrate for solution for infusion  1"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Product"
 //* type = $spor-rms#100000155527

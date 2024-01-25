@@ -1,15 +1,16 @@
 
 
-Instance: composition-en-45f3604d61f93f5f026bea5d5824af10
+
+Instance: composition-en-d33868162d255ced115cecbbf188aab4
 InstanceOf: CompositionUvEpi
-Title: "Composition for Humalog Package Leaflet"
-Description:  "Composition for Humalog Package Leaflet"
+Title: "Composition for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet"
+Description:  "Composition for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
-* identifier.value = "67ff4522ed913c691ffda86f38ef0f4f"
+* identifier.value = "e21457b312eb72f9276a0c1aa36092ee"
 
 * status = #final
 
@@ -30,7 +31,7 @@ Usage: #example
 
 
 
-* title = "TEST PURPOSES ONLY - Humalog"
+* title = "TEST PURPOSES ONLY - Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en

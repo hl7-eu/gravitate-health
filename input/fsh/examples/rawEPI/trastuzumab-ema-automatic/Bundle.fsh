@@ -1,5 +1,6 @@
 
 
+
 RuleSet: 094b29cee867407552635ebcaf13f8c8BundleRuleset 
 
 
@@ -27,8 +28,8 @@ RuleSet: 094b29cee867407552635ebcaf13f8c8BundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization5af3df1132d20d744a88dab06e924e5e"
-* entry[=].resource = authorization5af3df1132d20d744a88dab06e924e5e 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization5af3df1132d20d744a88dab06e924e5e0"
+* entry[=].resource = authorization5af3df1132d20d744a88dab06e924e5e0 
 
 
 // Organization
@@ -37,8 +38,8 @@ RuleSet: 094b29cee867407552635ebcaf13f8c8BundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-5af3df1132d20d744a88dab06e924e5e"
-* entry[=].resource = ppd-5af3df1132d20d744a88dab06e924e5e 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-e7c391536e9fc6ff50198d09558da8c0"
+* entry[=].resource = ppd-e7c391536e9fc6ff50198d09558da8c0 
 
 
 // MedicinalProductDefinition
@@ -54,15 +55,17 @@ RuleSet: 094b29cee867407552635ebcaf13f8c8BundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-3063ae54c8b95c21a8b236c970f9eb21
+Instance: bundlepackageleaflet-en-5af3df1132d20d744a88dab06e924e5e
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Ogivri Package Leaflet for language en"
-Description: "Bundle for Ogivri Package Leaflet ePI document"
+Title: "ePI document Bundle for Ogivri 150 mg powder for concentrate for solution for infusion  Package Leaflet for language en"
+Description: "ePI document Bundle for Ogivri 150 mg powder for concentrate for solution for infusion  Package Leaflet for language en"
 Usage: #example
 
 
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "xx"
+
+
+* identifier[+].system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "7027e635478c3b3a26b4c7ea7238a57c"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en

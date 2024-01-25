@@ -1,15 +1,17 @@
 
-Instance: ppd-1fba151ccf2a68d419f373375e997036
+
+
+Instance: ppd-951de5ac0ea34819d959a1b4321a915b
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "DOLOCATIL 1 g tablets, 20 tablets"
-Description: "DOLOCATIL 1 g tablets, 20 tablets"
+Title: "Packaged Product Definition: DOLOCATIL 1 g tablets 20"
+Description: "Packaged Product Definition: DOLOCATIL 1 g tablets 20"
 Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "672669"
 * identifier.use = #official
 
-* name = "DOLOCATIL 1 g tablets, 20 tablets"
+* name = "DOLOCATIL 1 g tablets 20"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Prodcut"
 //* type = $spor-rms#100000155527

@@ -1,15 +1,17 @@
 
-Instance: ppd-e0d9ad275c19f6e91c9365529421d5a8
+
+
+Instance: ppd-1f1356f6a8c19d66c5c3f4e40da7536c
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "Nurofen 100 mg Chewable Capsules"
-Description: "Nurofen 100 mg Chewable Capsules"
+Title: "Packaged Product Definition: Nurofen 100 mg Chewable Capsules 2"
+Description: "Packaged Product Definition: Nurofen 100 mg Chewable Capsules 2"
 Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "5697008"
 * identifier.use = #official
 
-* name = "Nurofen 100 mg Chewable Capsules"
+* name = "Nurofen 100 mg Chewable Capsules 2"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Product"
 //* type = $spor-rms#100000155527

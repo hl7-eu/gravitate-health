@@ -1,5 +1,6 @@
 
 
+
 RuleSet: 49bbaf88ca82da246f516eabbf90d54eBundleRuleset 
 
 
@@ -27,8 +28,8 @@ RuleSet: 49bbaf88ca82da246f516eabbf90d54eBundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization49bbaf88ca82da246f516eabbf90d54e"
-* entry[=].resource = authorization49bbaf88ca82da246f516eabbf90d54e 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationaf1953635c28668e0d454e0740fcb36f0"
+* entry[=].resource = authorizationaf1953635c28668e0d454e0740fcb36f0 
 
 
 // Organization
@@ -37,8 +38,8 @@ RuleSet: 49bbaf88ca82da246f516eabbf90d54eBundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-af1953635c28668e0d454e0740fcb36f"
-* entry[=].resource = ppd-af1953635c28668e0d454e0740fcb36f 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-6b96042e191f6f2105954b57d9ea5780"
+* entry[=].resource = ppd-6b96042e191f6f2105954b57d9ea5780 
 
 
 // MedicinalProductDefinition
@@ -54,11 +55,13 @@ RuleSet: 49bbaf88ca82da246f516eabbf90d54eBundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-49bbaf88ca82da246f516eabbf90d54e
+Instance: bundlepackageleaflet-en-af1953635c28668e0d454e0740fcb36f
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for aquilea Package Leaflet for language en"
-Description: "Bundle for aquilea Package Leaflet ePI document"
+Title: "ePI document Bundle for Aquilea Articulaciones Colageno y Magnesio 375gr Package Leaflet for language en"
+Description: "ePI document Bundle for Aquilea Articulaciones Colageno y Magnesio 375gr Package Leaflet for language en"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
@@ -72,7 +75,7 @@ Usage: #example
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-d88eaaff32ec133d89ec679da88bae62"
-* entry[0].resource = composition-en-d88eaaff32ec133d89ec679da88bae62
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-3b8585822d27945de47423af5de9824d"
+* entry[0].resource = composition-en-3b8585822d27945de47423af5de9824d
 
 * insert 49bbaf88ca82da246f516eabbf90d54eBundleRuleset

@@ -1,5 +1,6 @@
 
 
+
 RuleSet: 35570a7ffa4ad1ddf8a920b1728d4cd2BundleRuleset 
 
 
@@ -57,8 +58,8 @@ RuleSet: 35570a7ffa4ad1ddf8a920b1728d4cd2BundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization35570a7ffa4ad1ddf8a920b1728d4cd2"
-* entry[=].resource = authorization35570a7ffa4ad1ddf8a920b1728d4cd2 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationa38f06714db0c27b2ba704652e3f08c50"
+* entry[=].resource = authorizationa38f06714db0c27b2ba704652e3f08c50 
 
 
 // Organization
@@ -77,8 +78,8 @@ RuleSet: 35570a7ffa4ad1ddf8a920b1728d4cd2BundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-a38f06714db0c27b2ba704652e3f08c5"
-* entry[=].resource = ppd-a38f06714db0c27b2ba704652e3f08c5 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-03a3a81da9e0b9a5bb33d75251bb5234"
+* entry[=].resource = ppd-03a3a81da9e0b9a5bb33d75251bb5234 
 
 
 // MedicinalProductDefinition
@@ -94,15 +95,17 @@ RuleSet: 35570a7ffa4ad1ddf8a920b1728d4cd2BundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-31887cbcd4c018e35f958e5f8547dd66
+Instance: bundlepackageleaflet-en-a38f06714db0c27b2ba704652e3f08c5
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet for language "
-Description: "Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet ePI document"
+Title: "ePI document Bundle for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet for language en"
+Description: "ePI document Bundle for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet for language en"
 Usage: #example
 
 
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "xx"
+
+
+* identifier[+].system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "6ae10ebda017e9cd47810d6f49391ea3"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -112,7 +115,7 @@ Usage: #example
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-45f3604d61f93f5f026bea5d5824af10"
-* entry[0].resource = composition-en-45f3604d61f93f5f026bea5d5824af10
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-d33868162d255ced115cecbbf188aab4"
+* entry[0].resource = composition-en-d33868162d255ced115cecbbf188aab4
 
 * insert 35570a7ffa4ad1ddf8a920b1728d4cd2BundleRuleset

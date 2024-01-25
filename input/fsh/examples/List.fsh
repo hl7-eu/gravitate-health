@@ -17,8 +17,6 @@ Description: "List of enbrel smpc  Package Leaflets"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
-
-
 * subject = Reference(mp25bbfa948f4a0b224f9baa1fe481efa8)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Enbrel "Enbrel"
@@ -47,9 +45,6 @@ Description: "List of enbrel smpc  Package Leaflets"
   * item.extension[=].valueCoding = $100000155531#100000155538 "Full ePI"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "en"
-
-
-
 
 
 

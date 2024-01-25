@@ -20,7 +20,7 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
+* for = Reference(mid-da0fc2395ce219262dfd4f0c9a9f72e1)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
  
@@ -49,7 +49,7 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
+* for = Reference(mid-da0fc2395ce219262dfd4f0c9a9f72e1)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
  
@@ -82,7 +82,7 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
+* for = Reference(mid-da0fc2395ce219262dfd4f0c9a9f72e1)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
  
@@ -111,7 +111,7 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
+* for = Reference(mid-da0fc2395ce219262dfd4f0c9a9f72e1)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
  
@@ -140,7 +140,7 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
+* for = Reference(mid-da0fc2395ce219262dfd4f0c9a9f72e1)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
  
@@ -169,7 +169,7 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
+* for = Reference(mid-da0fc2395ce219262dfd4f0c9a9f72e1)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
  

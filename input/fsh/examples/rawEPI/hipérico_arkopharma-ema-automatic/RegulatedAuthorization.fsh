@@ -1,8 +1,8 @@
 
-Instance: authorization29436a85dac3ea374adb3fa64cfd2578
+Instance: authorization29436a85dac3ea374adb3fa64cfd25780
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for HIPÉRICO ARKOPHARMA cápsulas duras"
-Description: "Regulated Authorization for HIPÉRICO ARKOPHARMA cápsulas duras"
+Title: "Regulated Authorization for HIPÉRICO ARKOPHARMA cápsulas duras 0"
+Description: "Regulated Authorization for HIPÉRICO ARKOPHARMA cápsulas duras 0"
 Usage: #example
 
 * identifier.system = $spor-prod
@@ -10,9 +10,11 @@ Usage: #example
 * identifier.use = #official
 
 
- // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
- //* subject = Reference(karvea75mgblisterx28)
+// Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
+
 * subject = Reference(mpaf8d2f6e4772c29a8ef9fbb165e80d28)
+
+
 * type = $spor-rms#100000072062 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062
@@ -25,7 +27,7 @@ Usage: #example
 * statusDate = "2015-01-01"
 // * holder = Reference(sanofiaventisgroupe)
  
-* holder = Reference(mah-e0c4304ad134de29cff6bfff6e3a9ad7)
+* holder = Reference(mah-c2a5378488511eaedce26dde272c2290)
 
 
 

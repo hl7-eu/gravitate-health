@@ -21,6 +21,9 @@ Usage: #example
 * subject = Reference({{data["references"]["MedicinalProductDefinition"][0][0]}})
 {% elif row["reference"] == "PackagedProduct"%}
 * subject = Reference({{data["references"]["PackagedProductDefinition"][index][0]}})
+{% else %}
+* subject = Reference({{data["references"]["MedicinalProductDefinition"][0][0]}})
+
 {% endif %}
 
 {% endif %}

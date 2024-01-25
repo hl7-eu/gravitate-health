@@ -1,5 +1,7 @@
 
 
+
+
 Instance: composition-es-ac2bb08bb4cc3f51f8c4e3513034c019
 InstanceOf: CompositionUvEpi
 Title: "Composition for Tegretol 200 mg tablets Package Leaflet"
@@ -36,9 +38,9 @@ Usage: #example
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. PROSPECTO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. PROSPECTO"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -47,9 +49,9 @@ Usage: #example
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
 
@@ -63,11 +65,11 @@ Usage: #example
 
     <p style="margin:0pt; text-indent:-7.1pt; line-height:115%; padding-left:7.1pt; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Lea todo el prospecto detenidamente antes de empezar a tomar el medicamento,</span></strong> <strong><span style="font-family:Times New Roman; font-size:11pt;">porque contiene información importante para usted</span></strong><strong><span style="font-family:Times New Roman; font-size:11pt;">.</span></strong></p>
 
-    <ul  style="margin:0pt; padding-left:0pt">
+    <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.66pt; text-indent:0pt; padding-left:12.64pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Conserve este prospecto, ya que puede tener que volver a leerlo.</span></li>
     </ul>
 
-    <ul  style="margin:0pt; padding-left:0pt">
+    <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.66pt; text-indent:0pt; padding-left:12.64pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si tiene alguna duda, consulte a su médico o farmacéutico.</span></li>
 
       <li style="margin:0pt 0pt 0pt 8.66pt; text-indent:0pt; padding-left:12.64pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Este medicamento se le ha recetado solamente a usted personalmente y no debe dárselo a otras personas aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.</span></li>
@@ -79,12 +81,12 @@ Usage: #example
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Contenido del prospecto"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Contenido del prospecto"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
-    <p style="margin:5pt 0pt 0pt; page-break-after:avoid; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Contenido del prospecto:</span></strong></p>
+    <p style="margin:5pt 0pt 0pt; page-break-after:avoid; line-height:115%; font-size:11pt"><strong><u><span style="font-family:Times New Roman; font-size:11pt;">Contenido del prospecto:</span></u></strong></p>
 
     <p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">1. Qué es Tegretol y para qué se utiliza</span></p>
 
@@ -101,9 +103,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What Tegretol 200 mg tablets is and what it is used for"
+  * title =  "1. Qué es Tegretol 200 mg  comprimidos  y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Tegretol 200 mg tablets is and what it is used for"
+  * code.text =  "1. Qué es Tegretol 200 mg  comprimidos  y para qué se utiliza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p style="margin:0pt"><span style="font-family:Times New Roman; font-size:11pt">El principio activo es carbamazepina.</span></p>
@@ -114,9 +116,9 @@ Usage: #example
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take Tegretol 200 mg tablets"
+  * title = "2. Qué necesita saber antes de empezar a tomar Tegretol 200 mg  comprimidos "
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take Tegretol 200 mg tablets"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar Tegretol 200 mg  comprimidos "
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p style="margin:0pt"><span style="font-family:Times New Roman; font-size:11pt">Siga las instrucciones que le ha dado su médico. Éstas pueden ser diferentes de la información contenida en este prospecto.</span></p>
@@ -129,7 +131,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">No tome Tegretol:</span></strong></p>
 
-    <ul  style="margin:0pt; padding-left:0pt">
+    <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 10.06pt; text-indent:0pt; padding-left:11.24pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si es alérgico a carbamazepina o a alguno de los demás componentes de este medicamento (incluidos en la sección 6), así como a algún fármaco de estructura parecida a carbamazepina (algunos antidepresivos);</span></li>
 
       <li style="margin:0pt 0pt 0pt 10.06pt; text-indent:0pt; padding-left:11.24pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si padece una enfermedad grave de corazón;</span></li>
@@ -151,7 +153,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Consulte a su médico o farmacéutico antes de empezar a tomar Tegretol.</span></p>
 
-    <ul  style="margin:0pt; padding-left:0pt">
+    <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.66pt; text-indent:0pt; text-align:justify; padding-left:12.64pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">si ha sufrido en el pasado o sufre enfermedades de corazón, de hígado o de riñón;</span></li>
 
       <li style="margin:0pt 0pt 0pt 8.66pt; text-indent:0pt; text-align:justify; padding-left:12.64pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">si padece o ha padecido alguna enfermedad de la sangre (incluidas las causadas por otros medicamentos);</span></li>
@@ -177,17 +179,17 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt"></span></p>
 
-    <ul  style="margin:0pt; padding-left:0pt">
+    <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 31.36pt; text-indent:0pt; padding-left:11.19pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">En caso de aparición de fiebre, dolor de garganta, erupción en la piel, úlceras en la boca, magulladuras de forma fácil y sin motivo aparente o manchas violáceas en la piel (ver Sección 4 “Posibles efectos adversos”).</span></li>
     </ul>
 
     <p style="margin:0pt 0pt 2.05pt 42.55pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Es muy importante que el médico controle el tratamiento en visitas periódicas y, le haga análisis de sangre y orina al principio del tratamiento y de forma regular a lo largo del mismo para descartar la aparición de alteraciones de la sangre y de la función de su hígado y riñón, y también en algunas ocasiones para controlar la dosis de Tegretol más adecuada.</span></p>
 
-    <ul  style="margin:0pt; padding-left:0pt">
+    <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 31.36pt; text-indent:0pt; padding-left:11.19pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Se han descrito erupciones cutáneas que pueden amenazar la vida del paciente (síndrome de Stevens Johnson y necrólisis epidérmica tóxica) con el uso de Tegretol, inicialmente aparecen como puntos o machas circulares rojizas, a menudo con una ampolla central. Otros signos adicionales que pueden aparecer son llagas en la boca, garganta, nariz, genitales y conjuntivitis (ojos hinchados y rojos). Estas erupciones en la piel que pueden amenazar la vida del paciente, a menudo van acompañadas de síntomas de gripe. La erupción puede progresar a la formación de ampollas generalizadas o descamación de la piel. El periodo de mayor riesgo de aparición de reacciones cutáneas graves es durante los primeros meses de tratamiento con Tegretol.</span> <span style="font-family:Times New Roman; font-size:11pt">Si aparece una reacción en la piel como erupción, enrojecimiento, ampollas en labios, ojos o boca o descamación acompañada de fiebre, deje de tomar Tegretol e informe inmediatamente a su médico. Estas reacciones pueden ser más frecuentes en pacientes de países asiáticos (p. ej. Taiwán, Malasia y Filipinas). Pueden aparecer raramente efectos adversos graves en piel mientras esté en tratamiento con Tegretol. Las personas de origen chino y tailandés se les puede estimar el riesgo con un análisis de sangre. Si es de dicha procedencia, hable de ello con su médico antes de tomar Tegretol.</span> <span style="font-family:Times New Roman; font-size:11pt">Si usted ha desarrollado síndrome de Steve Johnson o necrólisis epidérmica tóxica con el uso de Tegretol, no debe utilizar Tegretol de nuevo en ningún momento.</span></li>
     </ul>
 
-    <ul  style="margin:0pt; padding-left:0pt">
+    <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 2.05pt 31.36pt; text-indent:0pt; padding-left:11.19pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si aparece una reacción alérgica como fiebre con hinchazón de ganglios linfáticos, erupción o ampollas en la piel, consulte con su médico inmediatamente o acuda al hospital más cercano (ver Sección 4 “Posibles efectos adversos”).</span></li>
 
       <li style="margin:0pt 0pt 2.05pt 31.36pt; text-indent:0pt; padding-left:11.19pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si experimenta un aumento del número de crisis epilépticas, consulte a su médico inmediatamente.</span></li>
@@ -231,7 +233,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Durante el tratamiento con Tegretol evite usar medicamentos que contengan alcohol.</span></p>
 
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt;">Anticonceptivos hormonales, por ejemplo, píldoras, parches, inyecciones o implantes</span></p>
+    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><u><span style="font-family:Times New Roman; font-size:11pt;">Anticonceptivos hormonales, por ejemplo, píldoras, parches, inyecciones o implantes</span></u></p>
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Tegretol puede afectar al funcionamiento de los anticonceptivos hormonales, haciendo que sean menos eficaces para prevenir el embarazo. Consulte a su médico, quien le explicará el tipo de anticonceptivo más adecuado que puede usar mientras esté tomando Tegretol.</span></p>
 
@@ -251,7 +253,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt"></span></p>
 
-    <p style="margin:0pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt;">Embarazo</span> <a name="_Hlk90458730"><span style="font-family:Times New Roman; font-size:11pt;">y mujeres en edad fértil</span></a></p>
+    <p style="margin:0pt; text-align:justify"><u><span style="font-family:Times New Roman; font-size:11pt;">Embarazo</span></u> <a name="_Hlk90458730"><u><span style="font-family:Times New Roman; font-size:11pt;">y mujeres en edad fértil</span></u></a></p>
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si está embarazada o en periodo de lactancia, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte</span> <span style="font-family:Times New Roman; font-size:11pt">a su médico o farmacéutico antes de utilizar este medicamento.</span> <span style="font-family:Times New Roman; font-size:11pt">Si bien la epilepsia ya conlleva un riesgo de trastornos del desarrollo en su descendencia, incluyendo malformaciones congénitas, mayor que en la población general, los diferentes tratamientos disponibles pueden aumentar en general este riesgo. En concreto para carbamazepina existe la posibilidad de que aumente el riesgo de espina bífida, malformaciones en el cráneo y en la cara, cardiovasculares y en el sistema urinario, además del posible síndrome de abstinencia al tratamiento que se puede presentar en el recién nacido.</span></p>
 
@@ -277,13 +279,13 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">2. En caso de que esté ya embarazada, CONSULTE A SU NEURÓLOGO.</span></p>
 
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt;">3. En ninguno de los dos casos</span> <span style="font-family:Times New Roman; font-size:11pt">INTERRUMPA EL TRATAMIENTO por su cuenta. La epilepsia no tratada perjudica tanto al feto como a la madre por el posible agravamiento de la enfermedad.</span></p>
+    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><u><span style="font-family:Times New Roman; font-size:11pt;">3. En ninguno de los dos casos</span></u> <span style="font-family:Times New Roman; font-size:11pt">INTERRUMPA EL TRATAMIENTO por su cuenta. La epilepsia no tratada perjudica tanto al feto como a la madre por el posible agravamiento de la enfermedad.</span></p>
 
     <p style="margin:0pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">En estas situaciones, es posible que el médico le recete un tratamiento suplementario con ácido fólico antes y durante el embarazo y vitamina K1 en las últimas semanas del mismo (en este último caso también al recién nacido). Además, el embarazo será controlado de forma más estrecha.</span></p>
 
     <p style="margin:0pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt"></span></p>
 
-    <p style="margin:0pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt;">Lactancia</span></p>
+    <p style="margin:0pt; text-align:justify"><u><span style="font-family:Times New Roman; font-size:11pt;">Lactancia</span></u></p>
 
     <p style="margin:0pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">Advierta a su médico si está amamantando.</span></p>
 
@@ -303,9 +305,9 @@ Usage: #example
   </div>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take Tegretol 200 mg tablets"
+  * title =  "3. Cómo tomar Tegretol 200 mg  comprimidos "
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take Tegretol 200 mg tablets"
+  * code.text = "3. Cómo tomar Tegretol 200 mg  comprimidos "
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p style="margin:0pt; text-align:justify"><strong><span style="font-family:Times New Roman; font-size:11pt;">Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico cuidadosamente. En caso de duda, consulte de nuevo a su médico o farmacéutico. No exceda la dosis recomendada.</span></strong></p>
@@ -359,9 +361,9 @@ Usage: #example
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Posibles efectos adversos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</span></p>
@@ -370,7 +372,7 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">C</span></strong><strong><span style="font-family:Times New Roman; font-size:11pt;">onsulte inmediatamente a su médico o asegúrese de que alguien pueda hacerlo por Usted si aparece alguno de los siguientes efectos adversos, ya que pueden ser los primeros signos de lesión grave de la sangre, de la piel, del hígado, del corazón, de los riñones o de otros órganos y pueden requerir tratamiento médico urgente:</span></strong></p>
 
-    <ul  style="margin:0pt; padding-left:0pt">
+    <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 10.06pt; text-indent:0pt; padding-left:11.24pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">si tiene fiebre, dolor de garganta, erupción, llagas en la boca, glándulas inflamadas o tiene facilidad para coger infecciones (signo de falta de glóbulos blancos)</span></li>
 
       <li style="margin:0pt 0pt 0pt 10.06pt; text-indent:0pt; padding-left:11.24pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">si se siente cansado, tiene dolor de cabeza, se queda sin aire al hacer ejercicio, está mareado, pálido, presenta infecciones frecuentes con fiebre, escalofríos, dolor de garganta o úlceras en la boca, si sangra o tiene más hematomas de lo normal, si le sangra la nariz (signos de falta de células de la sangre)</span></li>
@@ -388,7 +390,7 @@ Usage: #example
       <li style="margin:0pt 0pt 0pt 10.06pt; text-indent:0pt; padding-left:11.24pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">si presenta erupción cutánea, enrojecimiento de la piel, ampollas en los labios, boca u ojos, descamación de piel, acompañado de fiebre, escalofríos, dolor de cabeza, tos o dolor en el cuerpo (signos de reacciones graves en la piel). Ver sección 2</span></li>
     </ul>
 
-    <ul  style="margin:0pt; padding-left:0pt">
+    <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 10.06pt; text-indent:0pt; padding-left:11.24pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">si padece hinchazón en la cara, ojos, o lengua, dificultad para tragar, jadeos, urticaria y picor generalizado, erupción cutánea, fiebre, calambres abdominales, molestias u opresión en el pecho, dificultad para respirar, inconsciencia (signos de angioedema y de reacciones alérgicas graves)</span></li>
 
       <li style="margin:0pt 0pt 0pt 10.06pt; text-indent:0pt; padding-left:11.24pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">si presenta letargia, confusión, tics musculares o empeoramiento significativo de las convulsiones (signos que pueden estar asociados a niveles bajos de sodio en la sangre)</span></li>
@@ -438,15 +440,15 @@ Usage: #example
 
     <p style="margin:0pt; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Comunicación de efectos adversos</span></strong></p>
 
-    <p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del</span> <span style="font-family:Times New Roman; font-size:11pt">Sistema Español de Farmacovigilancia de medicamentos de Uso Humano</span><span style="font-family:Times New Roman; font-size:11pt">:</span> <a href="https://www.notificaRAM.es"><span style="font-family:Times New Roman; font-size:11pt; color:#0000ff">https://www.notificaRAM.es</span></a><span style="font-family:Times New Roman; font-size:11pt">.</span> <span style="font-family:Times New Roman; font-size:11pt">Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</span></p>
+    <p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del</span> <span style="font-family:Times New Roman; font-size:11pt">Sistema Español de Farmacovigilancia de medicamentos de Uso Humano</span><span style="font-family:Times New Roman; font-size:11pt">:</span> <a href="https://www.notificaRAM.es"><u><span style="font-family:Times New Roman; font-size:11pt; color:#0000ff">https://www.notificaRAM.es</span></u></a><span style="font-family:Times New Roman; font-size:11pt">.</span> <span style="font-family:Times New Roman; font-size:11pt">Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</span></p>
 
     <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt"></span></p>
   </div>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store Tegretol 200 mg tablets"
+  * title = "5. CONSERVACIÓN DE Tegretol 200 mg  comprimidos "
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store Tegretol 200 mg tablets"
+  * code.text = "5. CONSERVACIÓN DE Tegretol 200 mg  comprimidos "
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p style="margin:0pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">Mantener</span> <span style="font-family:Times New Roman; font-size:11pt">este medicamento</span> <span style="font-family:Times New Roman; font-size:11pt">fuera de la vista y del alcance de los niños</span><span style="font-family:Times New Roman; font-size:12pt">.</span></p>
@@ -472,14 +474,14 @@ Usage: #example
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Contenido del envase e información adicional"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p style="margin:0pt; text-align:justify"><strong><span style="font-family:Times New Roman; font-size:11pt;">Composición de Tegretol 200 mg comprimidos</span></strong></p>
 
-    <ul  style="margin:0pt; padding-left:0pt">
+    <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 26.66pt; text-indent:0pt; text-align:justify; padding-left:9.34pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">El principio activo es carbamazepina. Cada comprimido contiene 200 mg de carbamazepina.</span></li>
 
       <li style="margin:0pt 0pt 0pt 26.66pt; text-indent:0pt; text-align:justify; padding-left:9.34pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Los demás componentes son: sílice coloidal anhidra, estearato de magnesio, celulosa microcristalina, carboximetilcelulosa de sodio.</span></li>

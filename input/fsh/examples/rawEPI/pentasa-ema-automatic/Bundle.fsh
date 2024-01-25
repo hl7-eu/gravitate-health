@@ -1,5 +1,6 @@
 
 
+
 RuleSet: 87263ad77afb6e39aa59e421ea0b6b37BundleRuleset 
 
 
@@ -47,8 +48,8 @@ RuleSet: 87263ad77afb6e39aa59e421ea0b6b37BundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization4c6fd7bcbb34ab6e64e45a5035e4e5f4"
-* entry[=].resource = authorization4c6fd7bcbb34ab6e64e45a5035e4e5f4 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization1a7318638ddbbeb084ef416e717b6fdb0"
+* entry[=].resource = authorization1a7318638ddbbeb084ef416e717b6fdb0 
 
 
 // Organization
@@ -57,8 +58,8 @@ RuleSet: 87263ad77afb6e39aa59e421ea0b6b37BundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-1a7318638ddbbeb084ef416e717b6fdb"
-* entry[=].resource = ppd-1a7318638ddbbeb084ef416e717b6fdb 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-dd9288188d1a45ddbbe2e5d930862d7f"
+* entry[=].resource = ppd-dd9288188d1a45ddbbe2e5d930862d7f 
 
 
 // MedicinalProductDefinition
@@ -74,15 +75,17 @@ RuleSet: 87263ad77afb6e39aa59e421ea0b6b37BundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-87263ad77afb6e39aa59e421ea0b6b37
+Instance: bundlepackageleaflet-en-1a7318638ddbbeb084ef416e717b6fdb
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Pentasa Package Leaflet for language "
-Description: "Bundle for Pentasa Package Leaflet ePI document"
+Title: "ePI document Bundle for Pentasa Slow Release Tablets 1g Package Leaflet for language en"
+Description: "ePI document Bundle for Pentasa Slow Release Tablets 1g Package Leaflet for language en"
 Usage: #example
 
 
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "xx"
+
+
+* identifier[+].system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "abec73f25c4907beac907dc574ca8c69"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
