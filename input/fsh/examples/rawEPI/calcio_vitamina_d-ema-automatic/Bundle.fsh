@@ -1,5 +1,6 @@
 
 
+
 RuleSet: bdfe699962879d1b1d2adb6ccf20a5cbBundleRuleset 
 
 
@@ -111,8 +112,10 @@ Description: "ePI document Bundle for Calcio/Vitamina D3 ROVI 1000 mg/880 UI com
 Usage: #example
 
 
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "xx"
+
+
+* identifier[+].system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "63e08581a92c9abd584453870e49f381"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #es

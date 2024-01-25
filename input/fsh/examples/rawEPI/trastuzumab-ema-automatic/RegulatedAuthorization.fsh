@@ -1,8 +1,8 @@
 
-Instance: authorization5af3df1132d20d744a88dab06e924e5e
+Instance: authorization5af3df1132d20d744a88dab06e924e5e0
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for Ogivri 150 mg powder for concentrate for solution for infusion "
-Description: "Regulated Authorization for Ogivri 150 mg powder for concentrate for solution for infusion "
+Title: "Regulated Authorization for Ogivri 150 mg powder for concentrate for solution for infusion  0"
+Description: "Regulated Authorization for Ogivri 150 mg powder for concentrate for solution for infusion  0"
 Usage: #example
 
 * identifier.system = $spor-prod
@@ -10,9 +10,11 @@ Usage: #example
 * identifier.use = #official
 
 
- // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
- //* subject = Reference(karvea75mgblisterx28)
+// Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
+
 * subject = Reference(mpaae8d931abe2f2d9085b87555b9bb088)
+
+
 * type = $spor-rms#220000000061 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062

@@ -1,12 +1,14 @@
 
-Instance: ppd-0c848f16e413619f64703ded9343d866
+
+
+Instance: ppd-660f3150e2ccfb088d576c1767f7fe95
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "MIRTAZAPINA CINFA 30 mg Coated Tablet, 30 tablets"
-Description: "MIRTAZAPINA CINFA 30 mg Coated Tablet, 30 tablets"
+Title: "Packaged Product Definition: MIRTAZAPINA CINFA 30 mg Coated Tablet 30"
+Description: "Packaged Product Definition: MIRTAZAPINA CINFA 30 mg Coated Tablet 30"
 Usage: #example
 
 
-* name = "MIRTAZAPINA CINFA 30 mg Coated Tablet, 30 tablets"
+* name = "MIRTAZAPINA CINFA 30 mg Coated Tablet 30"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Prodcut"
 //* type = $spor-rms#100000155527

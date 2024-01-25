@@ -12,7 +12,7 @@ RuleSet: {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]
 {%- for refs in value %} 
 
 
-{% if key != "Composition" and key !="Bundle" -%}
+{% if key != "Composition" and key !="Bundle" and key !="List" -%}
 // {{key}}
 {% if "Substance" not in key  -%}
 
@@ -38,8 +38,21 @@ Title: "ePI document Bundle for {{data["dictionary"]["productname"]}} Package Le
 Description: "ePI document Bundle for {{data["dictionary"]["productname"]}} Package Leaflet for language {{row["language"]}}"
 Usage: #example
 
-{% if row["identifier_value"]!="nan"  %}
+{% set ns = namespace() %}
+{% set ns.one =row["language"] %}
+{% set ns.two = data["dictionary"]["productname"]| regex_replace('[^A-Za-z0-9]+', '') %}
+{% set ns.name_to_has= ns.one ~ ns.two   %}
 
+
+
+{% if row["identifier_value"]=="nan"  %}
+* identifier[+].system = "{{row['identifier_system']}}" 
+* identifier.value = "{{ns.name_to_has| create_hash_id}}"
+
+{% elif  row["identifier_value"]=="xx"  %}
+* identifier[+].system = "{{row['identifier_system']}}" 
+* identifier.value = "{{ns.name_to_has| create_hash_id}}"
+{% else %}
 * identifier.system = "{{row['identifier_system']}}" 
 * identifier.value = "{{row["identifier_value"]|trim}}"
 {% endif %}

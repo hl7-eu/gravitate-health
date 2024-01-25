@@ -1,5 +1,6 @@
 
 
+
 RuleSet: d99852efa4d4976d99a584078a2ca48cBundleRuleset 
 
 
@@ -153,6 +154,9 @@ RuleSet: d99852efa4d4976d99a584078a2ca48cBundleRuleset
  
 
 
+ 
+
+
 
 
 
@@ -161,6 +165,8 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for language en"
 Description: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for language en"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
@@ -182,6 +188,7 @@ Usage: #example
 
 
 
+
 Instance: bundlepackageleaflet-pt-dcaa4d32aa6658a8df831551503e52ee
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for language pt"
@@ -189,11 +196,13 @@ Description: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for la
 Usage: #example
 
 
+
+
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/97/049/001-pt"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* language = #pt
 
 
 
@@ -208,6 +217,7 @@ Usage: #example
 
 
 
+
 Instance: bundlepackageleaflet-es-dcaa4d32aa6658a8df831551503e52ee
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for language es"
@@ -215,11 +225,13 @@ Description: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for la
 Usage: #example
 
 
+
+
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "EU/1/97/049/001-pt"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* language = #es
 
 
 

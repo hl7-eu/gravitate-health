@@ -1,5 +1,6 @@
 
 
+
 Instance: composition-en-b6ced64d25ea2c8da6c6099386f14db1
 InstanceOf: CompositionUvEpi
 Title: "Composition for Flucelvax Tetra - suspension for injection in pre-filled syringe
@@ -228,6 +229,7 @@ which the influenza virus is grown); </p>
 <p>The other ingredients are: sodium chloride, potassium chloride, magnesium chloride hexahydrate, disodium phosphate dihydrate, potassium dihydrogen phosphate and water for injections.</p>
 <p><strong>What Flucelvax Tetra looks like and contents of the pack</strong></p>
 <p>Flucelvax Tetra is a suspension for injection in a pre-filled syringe (ready to use syringe).</p><p>Flucelvax Tetra is a clear to slightly opalescent suspension.A single syringe contains 0.5 ml of suspension for injection.Flucelvax Tetra is available in packs containing 1 pre-filled syringe with or without needle or 10 pre- filled syringes with or without needles.</p><p>Not all pack sizes may be marketed.  </p>         </div>"""      
+
 
 
 

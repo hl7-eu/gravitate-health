@@ -1,15 +1,17 @@
 
-Instance: ppd-b5a6ac2496348cb06663deb81c55cb37
+
+
+Instance: ppd-2f26bab76fe91bd9c2223496b450fc96
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "Natures Plus Spiru-Tein"
-Description: "Natures Plus Spiru-Tein"
+Title: "Packaged Product Definition: Natures Plus Spiru-Tein nan"
+Description: "Packaged Product Definition: Natures Plus Spiru-Tein nan"
 Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/97/049/001"
 * identifier.use = #official
 
-* name = "Natures Plus Spiru-Tein"
+* name = "Natures Plus Spiru-Tein nan"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Product"
 //* type = $spor-rms#100000155527

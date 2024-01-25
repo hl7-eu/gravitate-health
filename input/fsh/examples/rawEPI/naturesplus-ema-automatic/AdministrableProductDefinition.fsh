@@ -2,7 +2,7 @@
 Instance: ap-b5a6ac2496348cb06663deb81c55cb37
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Natures Plus Spiru-Tein"
-Description: "Natures Plus Spiru-Tein"
+Description: "Administrable product Natures Plus Spiru-Tein"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"

@@ -1,15 +1,17 @@
 
-Instance: ppd-865e1b5617e6fb0d453cc2f7cf87d441
+
+
+Instance: ppd-f75e85a736ba2c6abc7778f42f422723
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "SORIA NATURAL VITAMINA C 36 COMPRIMIDOS"
-Description: "SORIA NATURAL VITAMINA C 36 COMPRIMIDOS"
+Title: "Packaged Product Definition: SORIA NATURAL VITAMINA C 36 COMPRIMIDOS 36"
+Description: "Packaged Product Definition: SORIA NATURAL VITAMINA C 36 COMPRIMIDOS 36"
 Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "soria-x"
 * identifier.use = #official
 
-* name = "SORIA NATURAL VITAMINA C 36 COMPRIMIDOS"
+* name = "SORIA NATURAL VITAMINA C 36 COMPRIMIDOS 36"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Product"
 //* type = $spor-rms#100000155527

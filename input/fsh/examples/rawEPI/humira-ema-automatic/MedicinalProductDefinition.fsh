@@ -20,7 +20,7 @@ Usage: #example
 
 
 
-* legalStatusOfSupply = $spor-rms#100000000000 "Medicinal product subject to medical prescription"
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
 
 * name

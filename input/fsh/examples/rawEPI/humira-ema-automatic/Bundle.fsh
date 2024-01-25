@@ -1,5 +1,6 @@
 
 
+
 RuleSet: 3a3583227b4c5b0887f1e0d38269b469BundleRuleset 
 
 
@@ -62,18 +63,18 @@ RuleSet: 3a3583227b4c5b0887f1e0d38269b469BundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization10d33efea61c4345dfc56683a4e61e97"
-* entry[=].resource = authorization10d33efea61c4345dfc56683a4e61e97 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization9b5b17469311c2ea4d1d08419748b4fb0"
+* entry[=].resource = authorization9b5b17469311c2ea4d1d08419748b4fb0 
 
 
 // Organization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-fda7514c0dcb7b5f0176cb5af274235f"
-* entry[=].resource = mah-fda7514c0dcb7b5f0176cb5af274235f 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-63db764f02d280689a772e5827bb2515"
+* entry[=].resource = mah-63db764f02d280689a772e5827bb2515 
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-8ff6c02459d9a66f4d9a3db864bd78f6"
-* entry[=].resource = ppd-8ff6c02459d9a66f4d9a3db864bd78f6 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-8cd75434ddd15aca2f0bc2efe5d26afe"
+* entry[=].resource = ppd-8cd75434ddd15aca2f0bc2efe5d26afe 
 
 
 // MedicinalProductDefinition
@@ -89,11 +90,13 @@ RuleSet: 3a3583227b4c5b0887f1e0d38269b469BundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-3a3583227b4c5b0887f1e0d38269b469
+Instance: bundlepackageleaflet-en-9b5b17469311c2ea4d1d08419748b4fb
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for humira Package Leaflet for language "
-Description: "Bundle for humira Package Leaflet ePI document"
+Title: "ePI document Bundle for Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) Package Leaflet for language en"
+Description: "ePI document Bundle for Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) Package Leaflet for language en"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
@@ -107,7 +110,7 @@ Usage: #example
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-3a3583227b4c5b0887f1e0d38269b469"
-* entry[0].resource = composition-en-3a3583227b4c5b0887f1e0d38269b469
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-f97db27e6330f77484eb8425ad2913cd"
+* entry[0].resource = composition-en-f97db27e6330f77484eb8425ad2913cd
 
 * insert 3a3583227b4c5b0887f1e0d38269b469BundleRuleset

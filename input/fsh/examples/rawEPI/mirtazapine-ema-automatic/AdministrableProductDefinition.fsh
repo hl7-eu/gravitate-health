@@ -2,7 +2,7 @@
 Instance: ap-e762a2f54b0b24fca4744b1bb7524a5b
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product MIRTAZAPINA CINFA 30 mg Coated Tablet"
-Description: "MIRTAZAPINA CINFA 30 mg Coated Tablet"
+Description: "Administrable product MIRTAZAPINA CINFA 30 mg Coated Tablet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"

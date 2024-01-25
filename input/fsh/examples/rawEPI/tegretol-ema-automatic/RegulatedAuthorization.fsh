@@ -1,8 +1,8 @@
 
-Instance: authorization2f37d696067eeb6daf1111cfc3272672
+Instance: authorization2f37d696067eeb6daf1111cfc32726720
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for Tegretol 200 mg tablets"
-Description: "Regulated Authorization for Tegretol 200 mg tablets"
+Title: "Regulated Authorization for Tegretol 200 mg tablets 0"
+Description: "Regulated Authorization for Tegretol 200 mg tablets 0"
 Usage: #example
 
 * identifier.system = $spor-prod
@@ -10,9 +10,11 @@ Usage: #example
 * identifier.use = #official
 
 
- // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
- //* subject = Reference(karvea75mgblisterx28)
+// Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
+
 * subject = Reference(mpac2bb08bb4cc3f51f8c4e3513034c019)
+
+
 * type = $spor-rms#100000072062 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062

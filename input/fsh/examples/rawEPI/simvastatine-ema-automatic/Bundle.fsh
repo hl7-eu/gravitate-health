@@ -1,5 +1,6 @@
 
 
+
 RuleSet: b225abac985fe47fe0c881943c7381c0BundleRuleset 
 
 
@@ -27,13 +28,13 @@ RuleSet: b225abac985fe47fe0c881943c7381c0BundleRuleset
 
 
 // AdministrableProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-f017cc40b97c30d177960a4c63431139"
-* entry[=].resource = ap-f017cc40b97c30d177960a4c63431139 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-660952efa1b907b97e182807063ac261"
+* entry[=].resource = ap-660952efa1b907b97e182807063ac261 
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization660952efa1b907b97e182807063ac261"
-* entry[=].resource = authorization660952efa1b907b97e182807063ac261 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization660952efa1b907b97e182807063ac2610"
+* entry[=].resource = authorization660952efa1b907b97e182807063ac2610 
 
 
 // Organization
@@ -42,8 +43,8 @@ RuleSet: b225abac985fe47fe0c881943c7381c0BundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-660952efa1b907b97e182807063ac261"
-* entry[=].resource = ppd-660952efa1b907b97e182807063ac261 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-eac96261823092966bc3d7659feb5d7a"
+* entry[=].resource = ppd-eac96261823092966bc3d7659feb5d7a 
 
 
 // MedicinalProductDefinition
@@ -52,22 +53,24 @@ RuleSet: b225abac985fe47fe0c881943c7381c0BundleRuleset
 
 
 // ManufacturedItemDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-f017cc40b97c30d177960a4c63431139"
-* entry[=].resource = mid-f017cc40b97c30d177960a4c63431139 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-660952efa1b907b97e182807063ac261"
+* entry[=].resource = mid-660952efa1b907b97e182807063ac261 
 
 
 
 
 
-Instance: bundlepackageleaflet-en-6c3578f2cd9caac2a99f7a9278744cce
+Instance: bundlepackageleaflet-en-660952efa1b907b97e182807063ac261
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for simvastatin Package Leaflet for language en"
-Description: "Bundle for simvastatin Package Leaflet ePI document"
+Title: "ePI document Bundle for Lipcut Simvastatin 5 mg Tablet Package Leaflet for language en"
+Description: "ePI document Bundle for Lipcut Simvastatin 5 mg Tablet Package Leaflet for language en"
 Usage: #example
 
 
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "xx"
+
+
+* identifier[+].system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "ffbe86a335f8d8796862a46d498f55a4"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en

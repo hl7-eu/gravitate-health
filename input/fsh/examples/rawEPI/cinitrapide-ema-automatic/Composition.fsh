@@ -1,15 +1,16 @@
 
 
-Instance: composition-es-af8224f8c853d17daf5ea6782cb5a097
+
+Instance: composition-es-1453e0f16ff6c1d3106ed737a7857578
 InstanceOf: CompositionUvEpi
-Title: "Composition for cinitrapide Package Leaflet"
-Description:  "Composition for cinitrapide Package Leaflet"
+Title: "Composition for BLASTON 1 mg tablets Package Leaflet"
+Description:  "Composition for BLASTON 1 mg tablets Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
-* identifier.value = "8a63d6c3161134d9bf4502a1a8cdfe50"
+* identifier.value = "aa2daeee5c5e5c33d46b730187cd9803"
 
 * status = #final
 
@@ -28,7 +29,7 @@ Usage: #example
 * author = Reference(mah-94f8082c22713e050c3f2b55ea9d53ff)
 
 
-* title = "TEST PURPOSES ONLY - cinitrapide"
+* title = "TEST PURPOSES ONLY - BLASTON 1 mg tablets"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #es

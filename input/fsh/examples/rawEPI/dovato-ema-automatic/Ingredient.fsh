@@ -11,7 +11,7 @@ Usage: #example
 * identifier.value = "1Q1V9V5WYQ"
 * identifier.use = #official
 
-* role = $spor-rms#72072 "active"
+* role = $spor-rms#100000072072 "Active"
 
 * status = #active
 
@@ -46,7 +46,7 @@ Usage: #example
 * identifier.value = "2T8Q726O95"
 * identifier.use = #official
 
-* role = $spor-rms#72072 "active"
+* role = $spor-rms#100000072072 "Active"
 
 * status = #active
 

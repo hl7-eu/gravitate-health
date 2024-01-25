@@ -1,5 +1,6 @@
 
 
+
 RuleSet: 5116a09635abfdd54705a9c914657436BundleRuleset 
 
 
@@ -42,8 +43,8 @@ RuleSet: 5116a09635abfdd54705a9c914657436BundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization29436a85dac3ea374adb3fa64cfd2578"
-* entry[=].resource = authorization29436a85dac3ea374adb3fa64cfd2578 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization29436a85dac3ea374adb3fa64cfd25780"
+* entry[=].resource = authorization29436a85dac3ea374adb3fa64cfd25780 
 
 
 // Organization
@@ -52,8 +53,8 @@ RuleSet: 5116a09635abfdd54705a9c914657436BundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-29436a85dac3ea374adb3fa64cfd2578"
-* entry[=].resource = ppd-29436a85dac3ea374adb3fa64cfd2578 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-ee8bd93e975dcd04f4824ba8d24a8944"
+* entry[=].resource = ppd-ee8bd93e975dcd04f4824ba8d24a8944 
 
 
 // MedicinalProductDefinition
@@ -69,18 +70,20 @@ RuleSet: 5116a09635abfdd54705a9c914657436BundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-29436a85dac3ea374adb3fa64cfd2578
+Instance: bundlepackageleaflet-es-29436a85dac3ea374adb3fa64cfd2578
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet for language "
-Description: "Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet ePI document"
+Title: "ePI document Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet for language es"
+Description: "ePI document Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet for language es"
 Usage: #example
 
 
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "xx"
+
+
+* identifier[+].system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "f7d0862cd6fcfe527653aec52909bb3e"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* language = #es
 
 
 

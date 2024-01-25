@@ -1,5 +1,6 @@
 
 
+
 RuleSet: f2c90821a14dbdb924eb4be01de36427BundleRuleset 
 
 
@@ -37,8 +38,8 @@ RuleSet: f2c90821a14dbdb924eb4be01de36427BundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization7f657b63823319aa7da7d2c5939e39e5"
-* entry[=].resource = authorization7f657b63823319aa7da7d2c5939e39e5 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization7f657b63823319aa7da7d2c5939e39e50"
+* entry[=].resource = authorization7f657b63823319aa7da7d2c5939e39e50 
 
 
 // Organization
@@ -47,8 +48,8 @@ RuleSet: f2c90821a14dbdb924eb4be01de36427BundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-7f657b63823319aa7da7d2c5939e39e5"
-* entry[=].resource = ppd-7f657b63823319aa7da7d2c5939e39e5 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-51ddf55f89e2cd74ee3392c14c809976"
+* entry[=].resource = ppd-51ddf55f89e2cd74ee3392c14c809976 
 
 
 // MedicinalProductDefinition
@@ -64,15 +65,17 @@ RuleSet: f2c90821a14dbdb924eb4be01de36427BundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-f2c90821a14dbdb924eb4be01de36427
+Instance: bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for enbrel Package Leaflet for language en"
-Description: "Bundle for enbrel Package Leaflet ePI document"
+Title: "ePI document Bundle for Enbrel 25 mg powder for solution for injection Package Leaflet for language en"
+Description: "ePI document Bundle for Enbrel 25 mg powder for solution for injection Package Leaflet for language en"
 Usage: #example
 
 
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "xx"
+
+
+* identifier[+].system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "deca01585a8d920f79dbfbe328e7acda"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en

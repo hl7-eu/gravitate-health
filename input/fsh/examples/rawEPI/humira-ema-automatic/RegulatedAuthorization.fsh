@@ -1,8 +1,8 @@
 
-Instance: authorization10d33efea61c4345dfc56683a4e61e97
+Instance: authorization9b5b17469311c2ea4d1d08419748b4fb0
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for Humira 40 mg solution for injection in pre-filled syringe"
-Description: "Regulated Authorization for Humira 40 mg solution for injection in pre-filled syringe"
+Title: "Regulated Authorization for Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) 0"
+Description: "Regulated Authorization for Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) 0"
 Usage: #example
 
 * identifier.system = $spor-prod
@@ -10,10 +10,11 @@ Usage: #example
 * identifier.use = #official
 
 
- // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
- //* subject = Reference(karvea75mgblisterx28)
+// Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
+
 * subject = Reference(mpf97db27e6330f77484eb8425ad2913cd)
-* type = $spor-rms#100000072062 "Marketing Authorisation"
+
+* type = $spor-rms#220000000061 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062
 //* type.text = "Marketing Authorisation"* region = urn:iso:std:iso:3166#GBR "United Kingdom"
@@ -25,7 +26,7 @@ Usage: #example
 * statusDate = "2008-09-08"
 // * holder = Reference(sanofiaventisgroupe)
  
-* holder = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+* holder = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 

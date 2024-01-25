@@ -1,15 +1,16 @@
 
 
-Instance: composition-en-040bd687344f34655b854f4b67248074
+
+Instance: composition-en-284ddecbce6fb138483090d5e55bafac
 InstanceOf: CompositionUvEpi
-Title: "Composition for skilarence Package Leaflet"
-Description:  "Composition for skilarence Package Leaflet"
+Title: "Composition for Skilarence 120 mg gastro-resistant tablets Package Leaflet"
+Description:  "Composition for Skilarence 120 mg gastro-resistant tablets Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
-* identifier.value = "b8d5ac467d953d2a9e5deb29f98ba14a"
+* identifier.value = "3c099c199e69e2a66255fca3e7fbd0e5"
 
 * status = #final
 
@@ -28,7 +29,7 @@ Usage: #example
 * author = Reference(mah-43da1186bd45a53209a5c5aa849ac823)
 
 
-* title = "TEST PURPOSES ONLY - skilarence"
+* title = "TEST PURPOSES ONLY - Skilarence 120 mg gastro-resistant tablets"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en

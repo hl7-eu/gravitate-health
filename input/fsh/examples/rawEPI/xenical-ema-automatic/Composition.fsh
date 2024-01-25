@@ -1,9 +1,10 @@
 
 
-Instance: composition-en-896c7badf9740db2053855cd4e4d6666
+
+Instance: composition-en-bc60fa1aa0bfe774d11ee13c0c131622
 InstanceOf: CompositionUvEpi
-Title: "Composition for Xenical 120mg hard capsules 12 capsules Package Leaflet"
-Description:  "Composition for Xenical 120mg hard capsules 12 capsules Package Leaflet"
+Title: "Composition for Xenical 120mg hard capsules Package Leaflet"
+Description:  "Composition for Xenical 120mg hard capsules Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
@@ -26,7 +27,7 @@ Usage: #example
 * author = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
 
 
-* title = "TEST PURPOSES ONLY - Xenical 120mg hard capsules 12 capsules"
+* title = "TEST PURPOSES ONLY - Xenical 120mg hard capsules"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en

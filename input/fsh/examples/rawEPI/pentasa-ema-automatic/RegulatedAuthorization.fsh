@@ -1,8 +1,8 @@
 
-Instance: authorization4c6fd7bcbb34ab6e64e45a5035e4e5f4
+Instance: authorization1a7318638ddbbeb084ef416e717b6fdb0
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for PENTASA 1g Prolonged-release tablet"
-Description: "Regulated Authorization for PENTASA 1g Prolonged-release tablet"
+Title: "Regulated Authorization for Pentasa Slow Release Tablets 1g 0"
+Description: "Regulated Authorization for Pentasa Slow Release Tablets 1g 0"
 Usage: #example
 
 * identifier.system = $spor-prod
@@ -10,9 +10,11 @@ Usage: #example
 * identifier.use = #official
 
 
- // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
- //* subject = Reference(karvea75mgblisterx28)
+// Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
+
 * subject = Reference(mpb3a8d58c709a2281d8ad2a590fe81663)
+
+
 * type = $spor-rms#100000072062 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062

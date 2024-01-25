@@ -1,5 +1,6 @@
 
 
+
 RuleSet: a91e68f5f39edd2d60f8aeca00ff2a3cBundleRuleset 
 
 
@@ -47,8 +48,8 @@ RuleSet: a91e68f5f39edd2d60f8aeca00ff2a3cBundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizatione762a2f54b0b24fca4744b1bb7524a5b"
-* entry[=].resource = authorizatione762a2f54b0b24fca4744b1bb7524a5b 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizatione762a2f54b0b24fca4744b1bb7524a5b0"
+* entry[=].resource = authorizatione762a2f54b0b24fca4744b1bb7524a5b0 
 
 
 // Organization
@@ -57,8 +58,8 @@ RuleSet: a91e68f5f39edd2d60f8aeca00ff2a3cBundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-0c848f16e413619f64703ded9343d866"
-* entry[=].resource = ppd-0c848f16e413619f64703ded9343d866 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-660f3150e2ccfb088d576c1767f7fe95"
+* entry[=].resource = ppd-660f3150e2ccfb088d576c1767f7fe95 
 
 
 // MedicinalProductDefinition
@@ -74,11 +75,13 @@ RuleSet: a91e68f5f39edd2d60f8aeca00ff2a3cBundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-dbd5a91e4cf6998bdbd8827ab1854e65
+Instance: bundlepackageleaflet-en-e762a2f54b0b24fca4744b1bb7524a5b
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for mirtazapine-cinfa Package Leaflet for language "
-Description: "Bundle for mirtazapine-cinfa Package Leaflet ePI document"
+Title: "ePI document Bundle for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet for language en"
+Description: "ePI document Bundle for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet for language en"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 

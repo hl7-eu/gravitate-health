@@ -1,5 +1,6 @@
 
 
+
 RuleSet: 9aabab1dccc46a284a817edc09bfaddaBundleRuleset 
 
 
@@ -22,8 +23,8 @@ RuleSet: 9aabab1dccc46a284a817edc09bfaddaBundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationb5a6ac2496348cb06663deb81c55cb37"
-* entry[=].resource = authorizationb5a6ac2496348cb06663deb81c55cb37 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationb5a6ac2496348cb06663deb81c55cb370"
+* entry[=].resource = authorizationb5a6ac2496348cb06663deb81c55cb370 
 
 
 // Organization
@@ -32,8 +33,8 @@ RuleSet: 9aabab1dccc46a284a817edc09bfaddaBundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-b5a6ac2496348cb06663deb81c55cb37"
-* entry[=].resource = ppd-b5a6ac2496348cb06663deb81c55cb37 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-2f26bab76fe91bd9c2223496b450fc96"
+* entry[=].resource = ppd-2f26bab76fe91bd9c2223496b450fc96 
 
 
 // MedicinalProductDefinition
@@ -52,8 +53,10 @@ RuleSet: 9aabab1dccc46a284a817edc09bfaddaBundleRuleset
 Instance: bundlepackageleaflet-en-b5a6ac2496348cb06663deb81c55cb37
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Natures Plus Spiru-Tein Package Leaflet for language en"
-Description: "Bundle for Natures Plus Spiru-Tein Package Leaflet ePI document"
+Description: "ePI document Bundle for Natures Plus Spiru-Tein Package Leaflet for language en"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 

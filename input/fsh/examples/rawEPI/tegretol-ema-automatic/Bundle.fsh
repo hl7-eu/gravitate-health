@@ -1,5 +1,6 @@
 
 
+
 RuleSet: 38fbd67f0d3e64f32230141d1621df57BundleRuleset 
 
 
@@ -32,8 +33,8 @@ RuleSet: 38fbd67f0d3e64f32230141d1621df57BundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization2f37d696067eeb6daf1111cfc3272672"
-* entry[=].resource = authorization2f37d696067eeb6daf1111cfc3272672 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization2f37d696067eeb6daf1111cfc32726720"
+* entry[=].resource = authorization2f37d696067eeb6daf1111cfc32726720 
 
 
 // Organization
@@ -42,8 +43,8 @@ RuleSet: 38fbd67f0d3e64f32230141d1621df57BundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-2f37d696067eeb6daf1111cfc3272672"
-* entry[=].resource = ppd-2f37d696067eeb6daf1111cfc3272672 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-1618faf0346b4539ed1e3d6b23353e60"
+* entry[=].resource = ppd-1618faf0346b4539ed1e3d6b23353e60 
 
 
 // MedicinalProductDefinition
@@ -59,18 +60,20 @@ RuleSet: 38fbd67f0d3e64f32230141d1621df57BundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-38fbd67f0d3e64f32230141d1621df57
+Instance: bundlepackageleaflet-es-2f37d696067eeb6daf1111cfc3272672
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for tegretol Package Leaflet for language "
-Description: "Bundle for tegretol Package Leaflet ePI document"
+Title: "ePI document Bundle for Tegretol 200 mg tablets Package Leaflet for language es"
+Description: "ePI document Bundle for Tegretol 200 mg tablets Package Leaflet for language es"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "39.955"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* language = #es
 
 
 

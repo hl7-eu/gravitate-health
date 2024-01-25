@@ -1,5 +1,6 @@
 
 
+
 RuleSet: af8224f8c853d17daf5ea6782cb5a097BundleRuleset 
 
 
@@ -47,8 +48,8 @@ RuleSet: af8224f8c853d17daf5ea6782cb5a097BundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationda0fc2395ce219262dfd4f0c9a9f72e1"
-* entry[=].resource = authorizationda0fc2395ce219262dfd4f0c9a9f72e1 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationda0fc2395ce219262dfd4f0c9a9f72e10"
+* entry[=].resource = authorizationda0fc2395ce219262dfd4f0c9a9f72e10 
 
 
 // Organization
@@ -57,8 +58,8 @@ RuleSet: af8224f8c853d17daf5ea6782cb5a097BundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-4c852ef40521d2a0f394aaaec09654a7"
-* entry[=].resource = ppd-4c852ef40521d2a0f394aaaec09654a7 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-c46dbb6b3c5d5b6e1f1f6020e6af1b5e"
+* entry[=].resource = ppd-c46dbb6b3c5d5b6e1f1f6020e6af1b5e 
 
 
 // MedicinalProductDefinition
@@ -67,18 +68,20 @@ RuleSet: af8224f8c853d17daf5ea6782cb5a097BundleRuleset
 
 
 // ManufacturedItemDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-af8224f8c853d17daf5ea6782cb5a097"
-* entry[=].resource = mid-af8224f8c853d17daf5ea6782cb5a097 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-da0fc2395ce219262dfd4f0c9a9f72e1"
+* entry[=].resource = mid-da0fc2395ce219262dfd4f0c9a9f72e1 
 
 
 
 
 
-Instance: bundlepackageleaflet-en-af8224f8c853d17daf5ea6782cb5a097
+Instance: bundlepackageleaflet-en-da0fc2395ce219262dfd4f0c9a9f72e1
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for cinitrapide Package Leaflet for language "
-Description: "Bundle for cinitrapide Package Leaflet ePI document"
+Title: "ePI document Bundle for BLASTON 1 mg tablets Package Leaflet for language en"
+Description: "ePI document Bundle for BLASTON 1 mg tablets Package Leaflet for language en"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
@@ -92,7 +95,7 @@ Usage: #example
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-af8224f8c853d17daf5ea6782cb5a097"
-* entry[0].resource = composition-es-af8224f8c853d17daf5ea6782cb5a097
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-1453e0f16ff6c1d3106ed737a7857578"
+* entry[0].resource = composition-es-1453e0f16ff6c1d3106ed737a7857578
 
 * insert af8224f8c853d17daf5ea6782cb5a097BundleRuleset

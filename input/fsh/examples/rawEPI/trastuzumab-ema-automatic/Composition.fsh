@@ -1,12 +1,13 @@
 
 
+
 Instance: composition-en-aae8d931abe2f2d9085b87555b9bb088
 InstanceOf: CompositionUvEpi
 Title: "Composition for Ogivri 150 mg powder for concentrate for solution for infusion  Package Leaflet"
 Description:  "Composition for Ogivri 150 mg powder for concentrate for solution for infusion  Package Leaflet"
 Usage: #example
 
-* identifier.system = "https://spor.ema.europa.eu/rmswi/"
+* identifier.system = "nan"
 
 
 * identifier.value = "eb2d55ad5005be64271cb8d7a8411595"
@@ -68,9 +69,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What Ogivri 150 mg powder for concentrate for solution for infusion  is and what it is used for"
+  * title = "1. What 0 is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Ogivri 150 mg powder for concentrate for solution for infusion  is and what it is used for"
+  * code.text = "1. What 0 is and what it is used for"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -79,18 +80,18 @@ Usage: #example
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take Ogivri 150 mg powder for concentrate for solution for infusion "
+  * title = "2. What you need to know before you take 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take Ogivri 150 mg powder for concentrate for solution for infusion "
+  * code.text = "2. What you need to know before you take 0"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
                     
 * section[=].section[+]
-  * title = "3. How to take Ogivri 150 mg powder for concentrate for solution for infusion "
+  * title = "3. How to take 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take Ogivri 150 mg powder for concentrate for solution for infusion "
+  * code.text = "3. How to take 0"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -107,9 +108,9 @@ Usage: #example
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable      
         
 * section[=].section[+]
-  * title = "5. How to store Ogivri 150 mg powder for concentrate for solution for infusion "
+  * title = "5. How to store 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store Ogivri 150 mg powder for concentrate for solution for infusion "
+  * code.text = "5. How to store 0"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""

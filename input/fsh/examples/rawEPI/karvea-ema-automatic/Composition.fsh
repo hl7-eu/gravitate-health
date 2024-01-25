@@ -1,5 +1,6 @@
 
 
+
 Instance: composition-en-873a1a47330e628770640f9c96c0761e
 InstanceOf: CompositionUvEpi
 Title: "Composition for Karvea 75 mg tablet Package Leaflet"
@@ -506,6 +507,7 @@ Usage: #example
 
 
 
+
 Instance: composition-pt-873a1a47330e628770640f9c96c0761e
 InstanceOf: CompositionUvEpi
 Title: "Composition for Karvea 75 mg tablet Package Leaflet"
@@ -913,6 +915,7 @@ Tel: +44 (0) 800 035 2525</p>
 <p><strong>Este folheto foi revisto pela última vez em</strong></p>
 <p>Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência
 Europeia de Medicamentos <a href="http://www.ema.europa.eu/">http://www.ema.europa.eu/</a> </p>         </div>"""      
+
 
 
 

@@ -1,5 +1,6 @@
 
 
+
 RuleSet: e9513387532dad14223da3d260adb3d7BundleRuleset 
 
 
@@ -114,6 +115,8 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Fluenz Tetra nasal spray suspension Package Leaflet for language en"
 Description: "ePI document Bundle for Fluenz Tetra nasal spray suspension Package Leaflet for language en"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 

@@ -1,15 +1,17 @@
 
-Instance: ppd-af1953635c28668e0d454e0740fcb36f
+
+
+Instance: ppd-6b96042e191f6f2105954b57d9ea5780
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "Aquilea Articulaciones Colageno y Magnesio 375gr"
-Description: "Aquilea Articulaciones Colageno y Magnesio 375gr"
+Title: "Packaged Product Definition: Aquilea Articulaciones Colageno y Magnesio 375gr 28"
+Description: "Packaged Product Definition: Aquilea Articulaciones Colageno y Magnesio 375gr 28"
 Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/97/049/001"
 * identifier.use = #official
 
-* name = "Aquilea Articulaciones Colageno y Magnesio 375gr"
+* name = "Aquilea Articulaciones Colageno y Magnesio 375gr 28"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Product"
 //* type = $spor-rms#100000155527

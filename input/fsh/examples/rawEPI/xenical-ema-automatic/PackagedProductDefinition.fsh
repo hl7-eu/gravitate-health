@@ -1,15 +1,17 @@
 
-Instance: ppd-649bf36725172cd11455d1dcb53f6762
+
+
+Instance: ppd-352d83277f894aa6147981b6a4f36c07
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "Xenical 120mg hard capsules 12 capsules"
-Description: "Xenical 120mg hard capsules 12 capsules"
+Title: "Packaged Product Definition: Xenical 120mg hard capsules 1"
+Description: "Packaged Product Definition: Xenical 120mg hard capsules 1"
 Usage: #example
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/98/071/004"
 * identifier.use = #official
 
-* name = "Xenical 120mg hard capsules 12 capsules"
+* name = "Xenical 120mg hard capsules 1"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Prodcut"
 //* type = $spor-rms#100000155527

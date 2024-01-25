@@ -1,8 +1,8 @@
 
-Instance: authorizatione3e5e78d4e002ed9e15b925cd546e20b
+Instance: authorizatione3e5e78d4e002ed9e15b925cd546e20b0
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for Remsima 100 mg powder for concentrate for solution for infusion"
-Description: "Regulated Authorization for Remsima 100 mg powder for concentrate for solution for infusion"
+Title: "Regulated Authorization for Remsima 100 mg powder for concentrate for solution for infusion 0"
+Description: "Regulated Authorization for Remsima 100 mg powder for concentrate for solution for infusion 0"
 Usage: #example
 
 * identifier.system = $spor-prod
@@ -10,9 +10,11 @@ Usage: #example
 * identifier.use = #official
 
 
- // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
- //* subject = Reference(karvea75mgblisterx28)
+// Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
+
 * subject = Reference(mpbe76bdf784deea6950583b234f789db2)
+
+
 * type = $spor-rms#100000072062 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062

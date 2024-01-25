@@ -1,8 +1,8 @@
 
-Instance: authorization7f657b63823319aa7da7d2c5939e39e5
+Instance: authorization7f657b63823319aa7da7d2c5939e39e50
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for Enbrel 25 mg powder for solution for injection"
-Description: "Regulated Authorization for Enbrel 25 mg powder for solution for injection"
+Title: "Regulated Authorization for Enbrel 25 mg powder for solution for injection 0"
+Description: "Regulated Authorization for Enbrel 25 mg powder for solution for injection 0"
 Usage: #example
 
 * identifier.system = $spor-prod
@@ -10,9 +10,11 @@ Usage: #example
 * identifier.use = #official
 
 
- // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
- //* subject = Reference(karvea75mgblisterx28)
+// Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
+
 * subject = Reference(mp25bbfa948f4a0b224f9baa1fe481efa8)
+
+
 * type = $spor-rms#220000000061 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062

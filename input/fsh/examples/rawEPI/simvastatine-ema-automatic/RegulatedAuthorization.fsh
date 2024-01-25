@@ -1,8 +1,8 @@
 
-Instance: authorization660952efa1b907b97e182807063ac261
+Instance: authorization660952efa1b907b97e182807063ac2610
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for Lipcut Simvastatin 5 mg Tablet"
-Description: "Regulated Authorization for Lipcut Simvastatin 5 mg Tablet"
+Title: "Regulated Authorization for Lipcut Simvastatin 5 mg Tablet 0"
+Description: "Regulated Authorization for Lipcut Simvastatin 5 mg Tablet 0"
 Usage: #example
 
 * identifier.system = $spor-prod
@@ -10,9 +10,11 @@ Usage: #example
 * identifier.use = #official
 
 
- // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
- //* subject = Reference(karvea75mgblisterx28)
+// Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
+
 * subject = Reference(mp245a2b4a9e3ee4304e5e6cf2b1a252b4)
+
+
 * type = $spor-rms#220000000061 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062

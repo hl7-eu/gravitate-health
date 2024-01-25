@@ -1,5 +1,6 @@
 
 
+
 RuleSet: 10daca0041c9b151561aea3f8524ae71BundleRuleset 
 
 
@@ -37,8 +38,8 @@ RuleSet: 10daca0041c9b151561aea3f8524ae71BundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizatione0d9ad275c19f6e91c9365529421d5a8"
-* entry[=].resource = authorizatione0d9ad275c19f6e91c9365529421d5a8 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizatione0d9ad275c19f6e91c9365529421d5a80"
+* entry[=].resource = authorizatione0d9ad275c19f6e91c9365529421d5a80 
 
 
 // Organization
@@ -47,8 +48,8 @@ RuleSet: 10daca0041c9b151561aea3f8524ae71BundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-e0d9ad275c19f6e91c9365529421d5a8"
-* entry[=].resource = ppd-e0d9ad275c19f6e91c9365529421d5a8 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-1f1356f6a8c19d66c5c3f4e40da7536c"
+* entry[=].resource = ppd-1f1356f6a8c19d66c5c3f4e40da7536c 
 
 
 // MedicinalProductDefinition
@@ -64,15 +65,17 @@ RuleSet: 10daca0041c9b151561aea3f8524ae71BundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-099a3acb71546da204143d1e24e3180b
+Instance: bundlepackageleaflet-en-e0d9ad275c19f6e91c9365529421d5a8
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ibruprofen Package Leaflet for language en"
-Description: "Bundle for ibruprofen Package Leaflet ePI document"
+Title: "ePI document Bundle for Nurofen 100 mg Chewable Capsules Package Leaflet for language en"
+Description: "ePI document Bundle for Nurofen 100 mg Chewable Capsules Package Leaflet for language en"
 Usage: #example
 
 
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "xx"
+
+
+* identifier[+].system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "aa4a4793bfd06de750277f993c8c155b"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en

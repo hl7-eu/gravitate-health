@@ -1,15 +1,16 @@
 
 
-Instance: composition-en-d88eaaff32ec133d89ec679da88bae62
+
+Instance: composition-en-3b8585822d27945de47423af5de9824d
 InstanceOf: CompositionUvEpi
-Title: "Composition for Aquilea Package Leaflet"
-Description:  "Composition for Aquilea Package Leaflet"
+Title: "Composition for Aquilea Articulaciones Colageno y Magnesio 375gr Package Leaflet"
+Description:  "Composition for Aquilea Articulaciones Colageno y Magnesio 375gr Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
-* identifier.value = "59182720471b60257cf6421af6ea18c3"
+* identifier.value = "23d476da249cad2649e668dacd805f23"
 
 * status = #final
 
@@ -28,7 +29,7 @@ Usage: #example
 * author = Reference(mah-55692ec414f31dec233d83cfa4fdb9f9)
 
 
-* title = "TEST PURPOSES ONLY - Aquilea"
+* title = "TEST PURPOSES ONLY - Aquilea Articulaciones Colageno y Magnesio 375gr"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en

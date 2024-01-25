@@ -1,5 +1,6 @@
 
 
+
 Instance: composition-en-2a9c4333cfd126f2e7b73ad3cafd6949
 InstanceOf: CompositionUvEpi
 Title: "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet"
@@ -431,6 +432,7 @@ debossed with “BVY” on one side and a score line on the other side of the ta
 <p>Biktarvy comes in bottles of 30 tablets and in packs made up of 3 bottles, each containing 30 tablets.
 Each bottle contains a silica gel desiccant that must be kept in the bottle to help protect your tablets.
 The silica gel desiccant is contained in a separate sachet or canister and should not be swallowed.</p>             </div>"""      
+
 
 
 
@@ -871,6 +873,7 @@ IDA Business &amp; Technology Park
 Carrigtohill
 County Cork
 Irlanda</p>         </div>"""      
+
 
 
 

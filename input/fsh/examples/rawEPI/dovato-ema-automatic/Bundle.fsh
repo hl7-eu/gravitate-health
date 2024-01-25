@@ -1,5 +1,6 @@
 
 
+
 RuleSet: 6eb523b7a88cd6dcee848368833cbd08BundleRuleset 
 
 
@@ -55,8 +56,8 @@ RuleSet: 6eb523b7a88cd6dcee848368833cbd08BundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization49178f16170ee8a6bc2a4361c1748d5f"
-* entry[=].resource = authorization49178f16170ee8a6bc2a4361c1748d5f 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization49178f16170ee8a6bc2a4361c1748d5f0"
+* entry[=].resource = authorization49178f16170ee8a6bc2a4361c1748d5f0 
 
 
 // Organization
@@ -75,8 +76,8 @@ RuleSet: 6eb523b7a88cd6dcee848368833cbd08BundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-23f4e5c6d9ca952c3ffb3940859a26f8"
-* entry[=].resource = ppd-23f4e5c6d9ca952c3ffb3940859a26f8 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-2977a2afce16a0bd914b8d242dd126b5"
+* entry[=].resource = ppd-2977a2afce16a0bd914b8d242dd126b5 
 
 
 // MedicinalProductDefinition
@@ -92,14 +93,19 @@ RuleSet: 6eb523b7a88cd6dcee848368833cbd08BundleRuleset
  
 
 
+ 
 
 
 
-Instance: bundlepackageleaflet-en-0ea7cb60ce178124a5eca40942ba8f42
+
+
+Instance: bundlepackageleaflet-en-49178f16170ee8a6bc2a4361c1748d5f
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for dovat-en Package Leaflet for language en"
-Description: "Bundle for dovat-en Package Leaflet ePI document"
+Title: "ePI document Bundle for Dovato 50 mg/300 mg film-coated tablets Package Leaflet for language en"
+Description: "ePI document Bundle for Dovato 50 mg/300 mg film-coated tablets Package Leaflet for language en"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
@@ -121,11 +127,14 @@ Usage: #example
 
 
 
-Instance: bundlepackageleaflet-es-f98744933a164dfc1d0bf89825ebfca1
+
+Instance: bundlepackageleaflet-es-49178f16170ee8a6bc2a4361c1748d5f
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for dovato-es Package Leaflet for language es"
-Description: "Bundle for dovato-es Package Leaflet ePI document"
+Title: "ePI document Bundle for Dovato 50 mg/300 mg film-coated tablets Package Leaflet for language es"
+Description: "ePI document Bundle for Dovato 50 mg/300 mg film-coated tablets Package Leaflet for language es"
 Usage: #example
+
+
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
@@ -139,7 +148,7 @@ Usage: #example
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-e722f6782d3f34f86982e14386c8811d"
-* entry[0].resource = composition-es-e722f6782d3f34f86982e14386c8811d
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-16598f252d07b4784b82ba43cf9e847e"
+* entry[0].resource = composition-es-16598f252d07b4784b82ba43cf9e847e
 
 * insert 6eb523b7a88cd6dcee848368833cbd08BundleRuleset
