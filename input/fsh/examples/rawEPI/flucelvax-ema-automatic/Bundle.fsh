@@ -131,7 +131,7 @@ Usage: #example
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "flucelvax-1"
+* identifier.value = "EU/1/18/1326/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -162,7 +162,7 @@ Usage: #example
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "flucelvax-1"
+* identifier.value = "EU/1/18/1326/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #es

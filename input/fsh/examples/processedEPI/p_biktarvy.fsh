@@ -64,7 +64,7 @@ Usage: #inline
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
-* identifier.value = "EU/1/18/1289/001"
+* identifier.value = "P/EU/1/18/1289/001"
 
 * status = #final
 * category = epicategory-cs#P "Processed"

@@ -940,7 +940,7 @@ Usage: #example
 
 * language = #es
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "EU/1/19/1370/001"
+* identifier.value = "P/EU/1/19/1370/001"
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
 

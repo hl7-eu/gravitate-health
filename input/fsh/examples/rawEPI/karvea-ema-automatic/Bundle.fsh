@@ -189,32 +189,6 @@ Usage: #example
 
 
 
-Instance: bundlepackageleaflet-pt-dcaa4d32aa6658a8df831551503e52ee
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for language pt"
-Description: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for language pt"
-Usage: #example
-
-
-
-
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "EU/1/97/049/001-pt"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #pt
-
-
-
-
-
-// Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-pt-873a1a47330e628770640f9c96c0761e"
-* entry[0].resource = composition-pt-873a1a47330e628770640f9c96c0761e
-
-* insert d99852efa4d4976d99a584078a2ca48cBundleRuleset
-
-
 
 
 

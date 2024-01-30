@@ -129,33 +129,6 @@ Usage: #example
 
 
 
-Instance: bundlepackageleaflet-pt-94a96e39cfdcd8b378d12dd4063065f9
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language pt"
-Description: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language pt"
-Usage: #example
-
-
-
-
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "EU/1/18/1289/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #pt
-
-
-
-
-
-// Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-pt-2a9c4333cfd126f2e7b73ad3cafd6949"
-* entry[0].resource = composition-pt-2a9c4333cfd126f2e7b73ad3cafd6949
-
-* insert 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
-
-
-
 
 
 Instance: bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9
