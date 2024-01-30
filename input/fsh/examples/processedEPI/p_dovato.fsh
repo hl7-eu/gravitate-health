@@ -953,21 +953,3 @@ Usage: #example
 
 
 
-Instance: processedbundledovato-en
-InstanceOf: BundleUvEpi
-Title: "[Preprocessed] ePI document for Dovato 50 mg/300 mg tablets Package Leaflet"
-Description: "[Preprocessed] Bundle for Dovato 50 mg/300 mg tablets Package Leaflet ePI document"
-Usage: #example
-
-* language = #en
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "EU/1/19/1370/001"
-* type = #document
-* timestamp = "2023-04-25T11:55:27Z"
-
-// Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/processed-composition16598f252d07b4784b82ba43cf9e847e"
-* entry[0].resource =  processed-composition16598f252d07b4784b82ba43cf9e847e
-
-
-* insert 6eb523b7a88cd6dcee848368833cbd08BundleRuleset

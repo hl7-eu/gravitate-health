@@ -119,34 +119,6 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdBundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Flucelvax Tetra - suspension for injection in pre-filled syringe
-Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) Package Leaflet for language en"
-Description: "ePI document Bundle for Flucelvax Tetra - suspension for injection in pre-filled syringe
-Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) Package Leaflet for language en"
-Usage: #example
-
-
-
-
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "EU/1/18/1326/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
-
-
-
-
-
-// Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-b6ced64d25ea2c8da6c6099386f14db1"
-* entry[0].resource = composition-en-b6ced64d25ea2c8da6c6099386f14db1
-
-* insert 56a32a5ee239fc834b47c10db1faa3fdBundleRuleset
-
-
 
 
 
