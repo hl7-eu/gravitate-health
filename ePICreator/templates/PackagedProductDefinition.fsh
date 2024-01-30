@@ -11,7 +11,7 @@ Instance: ppd-{{ ns.name_to_has| lower | regex_replace('[^A-Za-z0-9]+', '') | cr
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: {{data["dictionary"]["productname"]}} {{row["packaging_quantity"]}}"
 Description: "Packaged Product Definition: {{data["dictionary"]["productname"]}} {{row["packaging_quantity"]}}"
-Usage: #example
+Usage: #inline
 
 {% if row["identifier"]|string !="nan" -%}
 * identifier.system = $spor-prod

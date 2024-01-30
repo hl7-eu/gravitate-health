@@ -5,7 +5,7 @@ Instance: ingredient-for-biktarvy-bictegravirsodium
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active BICTEGRAVIR SODIUM"
 Description: "BICTEGRAVIR SODIUM"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "4L5MP1Y7W7"
@@ -39,7 +39,7 @@ Instance: ingredient-for-biktarvy-emtricitabine
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Emtricitabine"
 Description: "Emtricitabine"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "G70B4ETF4S"
@@ -73,7 +73,7 @@ Instance: ingredient-for-biktarvy-tenofoviralafenamide
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active tenofovir alafenamide"
 Description: "tenofovir alafenamide"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "EL9943AG5J"
@@ -107,7 +107,7 @@ Instance: ingredient-for-biktarvy-microcrystallinecellulose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Microcrystalline cellulose"
 Description: "Microcrystalline cellulose"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "OP1R32D61U"
@@ -137,7 +137,7 @@ Instance: ingredient-for-biktarvy-croscarmellosesodium
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Croscarmellose sodium"
 Description: "Croscarmellose sodium"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "M28OL1HH48"
@@ -167,7 +167,7 @@ Instance: ingredient-for-biktarvy-magnesiumstearate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Magnesium stearate"
 Description: "Magnesium stearate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "70097M6I30"

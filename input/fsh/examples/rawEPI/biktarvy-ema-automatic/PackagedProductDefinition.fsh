@@ -5,7 +5,7 @@ Instance: ppd-e34e4b65abd3fd8e667db05606cc25a9
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion 90"
 Description: "Packaged Product Definition: Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion 90"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/18/1289/001"
@@ -55,7 +55,7 @@ Instance: ppd-6d93344139a7793e7b9bd0f5e32b6c91
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion 30"
 Description: "Packaged Product Definition: Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion 30"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/18/1289/001"

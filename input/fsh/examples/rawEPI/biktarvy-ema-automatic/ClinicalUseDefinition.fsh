@@ -4,7 +4,7 @@
 Instance: cud-d79af6e660f456c6c7091803d6bd1a92
 InstanceOf: ClinicalUseDefinition-contraindication-uv-epi
 Description: "contraindication - nan"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/#/"
 * identifier.value = "pregnancy"

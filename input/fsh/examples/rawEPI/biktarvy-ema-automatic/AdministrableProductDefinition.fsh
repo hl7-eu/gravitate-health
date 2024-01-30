@@ -3,7 +3,7 @@ Instance: ap-94a96e39cfdcd8b378d12dd4063065f9
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
 Description: "Administrable product Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/18/1289/001" 

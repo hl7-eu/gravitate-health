@@ -5,7 +5,7 @@ Instance: ap-{{data["dictionary"]["productname"]|lower|regex_replace('[^A-Za-z0-
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product {{data["dictionary"]["productname"]}}"
 Description: "Administrable product {{data["dictionary"]["productname"]}}"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "{{row['identifier']|trim}}" 

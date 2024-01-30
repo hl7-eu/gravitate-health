@@ -20,16 +20,16 @@ Then run the creator.py with 3 arguments:
 * output_folder = where to place the data created
 
 example code:  
-```python creator.py Humalog.xlsx templates/ ../input/fsh/examples/rawEPI```
+```python creator.py data/Humalog.xlsx templates/ ../input/fsh/examples/rawEPI```
 
 for creating all at the same time:
-```python createAll.py . templates/ ../input/fsh/examples/rawEPI```
+```python createAll.py data/ templates/ ../input/fsh/examples/rawEPI```
 
 
 ### Composition
 The composition is where the narrative text is and requires a transformation to HTML.
 
 The best practice so far is:
-going to [here](https://pdf2md.morethan.io/) and upload pdf and get markdown data.
+going to [this site](https://pdf2md.morethan.io/) and upload pdf and get markdown data.
 
 From there, use it to convert to html in [here](https://markdowntohtml.com/)

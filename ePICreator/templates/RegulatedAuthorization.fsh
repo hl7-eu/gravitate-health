@@ -5,7 +5,7 @@ Instance: authorization{{ data["dictionary"]["productname"]| lower | regex_repla
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for {{data["dictionary"]["productname"]}} {{index}}"
 Description: "Regulated Authorization for {{data["dictionary"]["productname"]}} {{index}}"
-Usage: #example
+Usage: #inline
 
 {% if row["identifier"]|string !="nan" -%}
 * identifier.system = $spor-prod

@@ -5,7 +5,7 @@ Instance: mp{{ row["productname"]| regex_replace('[^A-Za-z0-9]+', '') | create_h
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product {{ row["productname"]}}"
 Description: "{{ row["productname"]}}"
-Usage: #example
+Usage: #inline
 
 {% for idx in range(0,row["identifier_system"].count("|")+1) %} 
 * identifier[+].system = "{{ row["identifier_system"].split("|")[idx]}}"

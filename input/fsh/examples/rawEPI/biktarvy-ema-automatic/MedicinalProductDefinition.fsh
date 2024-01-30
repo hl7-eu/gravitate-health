@@ -3,7 +3,7 @@ Instance: mp2a9c4333cfd126f2e7b73ad3cafd6949
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
 Description: "Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"

@@ -35,7 +35,7 @@ Instance: {{ns.org_type}}-{{ns.name_to_has| create_hash_id}}
 InstanceOf: OrganizationUvEpi
 Title: "{{ row["name"]  }} as {{ row["type"]  }}"
 Description: "{{ row["name"]  }} as {{ row["type"]  }}"
-Usage: #example
+Usage: #inline
 
 {% if row["identifier"]|string !="nan" -%}
 * identifier.system = $spor-org

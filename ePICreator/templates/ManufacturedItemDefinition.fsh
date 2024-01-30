@@ -5,7 +5,7 @@ Instance: mid-{{ data["dictionary"]["productname"] | lower | regex_replace('[^A-
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Title: "Manufactured item {{ data["dictionary"]["productname"] }}"
 Description: "Manufactured item {{ data["dictionary"]["productname"] }}"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "{{ row["identifier"]|trim }}"
