@@ -2,7 +2,7 @@ Instance: medprodcarbamazepine200
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product - Tegretol (carbamazepine) 200 mg for tablet"
 Description: "Medicinal Product - Tegretol (carbamazepine) 200 mg for tablet"
-Usage: #example
+Usage: #inline
 
 * identifier[+].system = "http://iyaku.info/medicine"
 * identifier[=].value = "1139002F1070"

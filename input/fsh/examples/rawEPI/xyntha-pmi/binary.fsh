@@ -1,7 +1,7 @@
 Instance: binarypfizerlogo
 InstanceOf: Binary
 Description: "Pfizer Logo"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -11,7 +11,7 @@ Usage: #example
 Instance: binaryimage003
 InstanceOf: Binary
 Description: "clip_image003_-1584181510.png"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -20,7 +20,7 @@ Usage: #example
 Instance: binaryimage004
 InstanceOf: Binary
 Description: "clip_image004_128978964.png"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -29,7 +29,7 @@ Usage: #example
 Instance: binaryimage006
 InstanceOf: Binary
 Description: "clip_image006_1402751276.png"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -38,7 +38,7 @@ Usage: #example
 Instance: binaryimage007
 InstanceOf: Binary
 Description: "clip_image007_1848870172.png"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -47,7 +47,7 @@ Usage: #example
 Instance: binaryimage008
 InstanceOf: Binary
 Description: "clip_image008_-1930407291.png"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -56,7 +56,7 @@ Usage: #example
 Instance: binaryimage010
 InstanceOf: Binary
 Description: "clip_image010_524367703.png"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -65,7 +65,7 @@ Usage: #example
 Instance: binaryimage012a
 InstanceOf: Binary
 Description: "clip_image012_583978923.png"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -74,7 +74,7 @@ Usage: #example
 Instance: binaryimage012b
 InstanceOf: Binary
 Description: "clip_image012_-1646958650.png"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -83,7 +83,7 @@ Usage: #example
 Instance: binaryimage013
 InstanceOf: Binary
 Description: "clip_image013_1472120925.png"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -92,7 +92,7 @@ Usage: #example
 Instance: binaryimage0014
 InstanceOf: Binary
 Description: "clip_image014_-861669482.jpg"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 

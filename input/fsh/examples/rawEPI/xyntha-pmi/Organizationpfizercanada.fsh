@@ -2,7 +2,7 @@ Instance: organizationpfizercanada
 InstanceOf: OrganizationUvEpi
 Title: "Marketing authorisation holder - Pfizer Canada ULC."
 Description: "Pfizer Limited as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "placeholder"

@@ -4,9 +4,7 @@
 RuleSet: 35570a7ffa4ad1ddf8a920b1728d4cd2BundleRuleset 
 
 
-// composition-en-d33868162d255ced115cecbbf188aab4
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-en-d33868162d255ced115cecbbf188aab4/composition-en-d33868162d255ced115cecbbf188aab4"
-* entry[=].resource = composition-en-d33868162d255ced115cecbbf188aab4 
+ 
 
 
  
@@ -90,9 +88,7 @@ RuleSet: 35570a7ffa4ad1ddf8a920b1728d4cd2BundleRuleset
 * entry[=].resource = ppd-03a3a81da9e0b9a5bb33d75251bb5234 
 
 
-// composition-dk-d33868162d255ced115cecbbf188aab4
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-dk-d33868162d255ced115cecbbf188aab4/composition-dk-d33868162d255ced115cecbbf188aab4"
-* entry[=].resource = composition-dk-d33868162d255ced115cecbbf188aab4 
+ 
 
 
 // MedicinalProductDefinition

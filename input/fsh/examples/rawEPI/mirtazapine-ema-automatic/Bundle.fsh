@@ -37,9 +37,7 @@ RuleSet: a91e68f5f39edd2d60f8aeca00ff2a3cBundleRuleset
 * entry[=].resource = ingredient-for-mirtazapine-cornstarch 
 
 
-// composition-es-7a7ff0f4e1993c2fdabba6c8d9931a52
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-es-7a7ff0f4e1993c2fdabba6c8d9931a52/composition-es-7a7ff0f4e1993c2fdabba6c8d9931a52"
-* entry[=].resource = composition-es-7a7ff0f4e1993c2fdabba6c8d9931a52 
+ 
 
 
 // Substance

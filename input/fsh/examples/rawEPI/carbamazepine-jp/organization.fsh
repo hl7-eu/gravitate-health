@@ -2,7 +2,7 @@ Instance: orgfujinaga
 InstanceOf: OrganizationUvEpi
 Title: "Marketing Authorization Holder - Fujinaga Pharmaceutical Co., Ltd."
 Description: "Marketing Authorization Holder - Fujinaga Pharmaceutical Co., Ltd."
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://pmda-org-id"
 * identifier.value = "fujinaga"

@@ -5,7 +5,7 @@ from os import mkdir
 from os.path import exists
 
 
-LANGUAGE = "pt"
+LANGUAGE = "uk"
 
 
 if LANGUAGE == "dk":
@@ -18,6 +18,8 @@ if LANGUAGE == "fr":
     from parser_fr import parse_html, cleanhtml, split_parts
 if LANGUAGE == "en":
     from parser_en import parse_html, cleanhtml, split_parts
+if LANGUAGE == "uk":
+    from parser_uk import parse_html, cleanhtml, split_parts
 
 # Define the path to the PDF file
 pdf_path = "../../source-data/epi/karvea-epar-product-information_da.pdf"
@@ -25,6 +27,9 @@ pdf_path = "/Users/joaoalmeida/Downloads/biktarvy-epar-product-information_da.pd
 pdf_path = "/Users/joaoalmeida/Downloads/humalog-epar-product-information_da.pdf"
 pdf_path = "/Users/joaoalmeida/Downloads/dovato-epar-product-information_da.pdf"
 pdf_path = "/Users/joaoalmeida/Downloads/dovato-epar-product-information_pt.pdf"
+pdf_path = "/Users/joaoalmeida/Downloads/pil.12844.pdf"
+pdf_path = "/Users/joaoalmeida/Downloads/pil.4177.pdf"
+
 
 html_folder = "../temp_html/"
 if not exists(html_folder):

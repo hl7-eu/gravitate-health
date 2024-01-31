@@ -3,7 +3,7 @@ Instance: zi6fb1761a0a38bea0a9b49f146371c68b
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product zithromax (azithromycin) 250 mg capsules -  النشرة الداخلية: معلومات للمريض - كبسولات زيثروماكس® 250 مجم"
 Description: "zithromax (azithromycin) 250 mg capsules -  النشرة الداخلية: معلومات للمريض - كبسولات زيثروماكس® 250 مجم"
-Usage: #example
+Usage: #inline
 
 * identifier[+].system = "https://jfda.jo"
 * identifier[=].value = "placeholder" 

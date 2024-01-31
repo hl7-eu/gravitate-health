@@ -4,9 +4,7 @@
 RuleSet: 56a32a5ee239fc834b47c10db1faa3fdBundleRuleset 
 
 
-// composition-en-b6ced64d25ea2c8da6c6099386f14db1
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-en-b6ced64d25ea2c8da6c6099386f14db1/composition-en-b6ced64d25ea2c8da6c6099386f14db1"
-* entry[=].resource = composition-en-b6ced64d25ea2c8da6c6099386f14db1 
+ 
 
 
  
@@ -90,9 +88,7 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdBundleRuleset
 * entry[=].resource = ap-04c9bd6fb89d38b2d83eced2460c4dc1 
 
 
-// composition-es-b6ced64d25ea2c8da6c6099386f14db1
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-es-b6ced64d25ea2c8da6c6099386f14db1/composition-es-b6ced64d25ea2c8da6c6099386f14db1"
-* entry[=].resource = composition-es-b6ced64d25ea2c8da6c6099386f14db1 
+ 
 
 
 // RegulatedAuthorization

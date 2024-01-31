@@ -42,9 +42,7 @@ RuleSet: 5aa8042f9b2bea12d814ccaf27f6d64eBundleRuleset
 * entry[=].resource = mah-2aff7154a8d952c895e8a03849a25108 
 
 
-// composition-en-534e209eb0a3ff60437639cb2015316f
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-en-534e209eb0a3ff60437639cb2015316f/composition-en-534e209eb0a3ff60437639cb2015316f"
-* entry[=].resource = composition-en-534e209eb0a3ff60437639cb2015316f 
+ 
 
 
 // PackagedProductDefinition

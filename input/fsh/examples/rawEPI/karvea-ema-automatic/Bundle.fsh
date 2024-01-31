@@ -19,9 +19,7 @@ RuleSet: d99852efa4d4976d99a584078a2ca48cBundleRuleset
 * entry[=].resource = cud-4fce9d5258f70f7d605059f97c24efa8 
 
 
-// composition-en-873a1a47330e628770640f9c96c0761e
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-en-873a1a47330e628770640f9c96c0761e/composition-en-873a1a47330e628770640f9c96c0761e"
-* entry[=].resource = composition-en-873a1a47330e628770640f9c96c0761e 
+ 
 
 
  
@@ -126,9 +124,7 @@ RuleSet: d99852efa4d4976d99a584078a2ca48cBundleRuleset
 * entry[=].resource = man-4bb7a752921434fd5f9921b5b9473eda 
 
 
-// composition-es-873a1a47330e628770640f9c96c0761e
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-es-873a1a47330e628770640f9c96c0761e/composition-es-873a1a47330e628770640f9c96c0761e"
-* entry[=].resource = composition-es-873a1a47330e628770640f9c96c0761e 
+ 
 
 
 // PackagedProductDefinition
@@ -151,9 +147,7 @@ RuleSet: d99852efa4d4976d99a584078a2ca48cBundleRuleset
 * entry[=].resource = ppd-9b1d5d261d22694685deb35714ec08ea 
 
 
-// composition-dk-873a1a47330e628770640f9c96c0761e
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-dk-873a1a47330e628770640f9c96c0761e/composition-dk-873a1a47330e628770640f9c96c0761e"
-* entry[=].resource = composition-dk-873a1a47330e628770640f9c96c0761e 
+ 
 
 
 // MedicinalProductDefinition
@@ -161,9 +155,7 @@ RuleSet: d99852efa4d4976d99a584078a2ca48cBundleRuleset
 * entry[=].resource = mp873a1a47330e628770640f9c96c0761e 
 
 
-// composition-pt-873a1a47330e628770640f9c96c0761e
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-pt-873a1a47330e628770640f9c96c0761e/composition-pt-873a1a47330e628770640f9c96c0761e"
-* entry[=].resource = composition-pt-873a1a47330e628770640f9c96c0761e 
+ 
 
 
 // ManufacturedItemDefinition

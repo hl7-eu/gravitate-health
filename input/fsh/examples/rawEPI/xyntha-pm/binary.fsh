@@ -1,7 +1,7 @@
 Instance: binaryimage003-1537998405
 InstanceOf: Binary
 Description: "image003_1537998405"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -10,7 +10,7 @@ Usage: #example
 Instance: binaryimage004-124372563
 InstanceOf: Binary
 Description: "binaryimage004_124372563"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -19,7 +19,7 @@ Usage: #example
 Instance: binaryimage006-1085115419
 InstanceOf: Binary
 Description: "binaryimage006_1085115419"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -28,7 +28,7 @@ Usage: #example
 Instance: binaryimage007-1887834135
 InstanceOf: Binary
 Description: "binaryimage007_1887834135"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -37,7 +37,7 @@ Usage: #example
 Instance: binaryimage008-1358253692
 InstanceOf: Binary
 Description: "binaryimage008_1358253692"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -46,7 +46,7 @@ Usage: #example
 Instance: binaryimage010-240412440
 InstanceOf: Binary
 Description: "binaryimage010_240412440"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -55,7 +55,7 @@ Usage: #example
 Instance: binaryimage012-1035983834
 InstanceOf: Binary
 Description: "binaryimage012_1035983834"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -64,7 +64,7 @@ Usage: #example
 Instance: binaryimage012-251481591
 InstanceOf: Binary
 Description: "binaryimage012_251481591"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -73,7 +73,7 @@ Usage: #example
 Instance: binaryimage013-244659630
 InstanceOf: Binary
 Description: "binaryimage013_244659630"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -82,7 +82,7 @@ Usage: #example
 Instance: binaryimage014-39753133
 InstanceOf: Binary
 Description: "binaryimage014_39753133"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 
@@ -91,7 +91,7 @@ Usage: #example
 Instance: binaryimage016-646543884
 InstanceOf: Binary
 Description: "binaryimage016_646543884"
-Usage: #example
+Usage: #inline
 
 * contentType = #image/jpeg
 

@@ -2,7 +2,7 @@ Instance: authcarbamazepine200
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization - Tegretol (carbamazepine) 200 mg for tablet"
 Description: "Regulated Authorization - Tegretol (carbamazepine) 200 mg for tablet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://pmda-approvalandlicenseno/"
 * identifier.value = "22700AMX00173"
