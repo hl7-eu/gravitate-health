@@ -3,7 +3,7 @@ Instance: authorizationa38f06714db0c27b2ba704652e3f08c50
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill 0"
 Description: "Regulated Authorization for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/96/007/035"

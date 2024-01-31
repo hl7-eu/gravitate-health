@@ -3,7 +3,7 @@ Instance: ap-dcaa4d32aa6658a8df831551503e52ee
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Karvea 75 mg tablet"
 Description: "Administrable product Karvea 75 mg tablet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/97/049/001" 

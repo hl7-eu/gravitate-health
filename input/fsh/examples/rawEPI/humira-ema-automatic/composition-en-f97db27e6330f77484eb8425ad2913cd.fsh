@@ -1,6 +1,3 @@
-
-
-
 Instance: composition-en-f97db27e6330f77484eb8425ad2913cd
 InstanceOf: CompositionUvEpi
 Title: "Composition for Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) Package Leaflet"
@@ -39,7 +36,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -84,9 +81,9 @@ adalimumab</p>
           
 
 * section[=].section[+]
-  * title = "1. What 0 is and what it is used for"
+  * title =  "1. What 0 is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What 0 is and what it is used for"
+  * code.text =  "1. What 0 is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Humira is and what it is used for
 Humira contains the active substance adalimumab.
@@ -258,7 +255,7 @@ doctor if symptoms such as persistent unexplained rash, fever, joint pain or tir
 </ul>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take 0"
+  * title =  "3. How to take 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take 0"
   * text.status = #additional

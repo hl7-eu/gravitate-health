@@ -35,9 +35,9 @@ Usage: #example
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. FOLHETO INFORMATIVO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -46,9 +46,9 @@ Usage: #example
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Folheto informativo: Informação para o utilizador"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois contém informação importante para si.</strong></p>
 <ul>
@@ -63,9 +63,9 @@ neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.</li>
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "O que contém este folheto"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "O que contém este folheto"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:</p>
 <ol>
@@ -79,9 +79,9 @@ neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.</li>
           
 
 * section[=].section[+]
-  * title =  "1. What Biktarvy is and what it is used for"
+  * title =  "1. O que é Biktarvy e para que é utilizado"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What Biktarvy is and what it is used for"
+  * code.text =  "1. O que é Biktarvy e para que é utilizado"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Biktarvy contém três substâncias ativas:</p>
 <ul>
@@ -101,9 +101,9 @@ diminuir o risco de desenvolvimento de doenças ligadas à infeção pelo VIH.</
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take Biktarvy"
+  * title = "2. O que precisa de saber antes de tomar Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take Biktarvy"
+  * code.text = "2. O que precisa de saber antes de tomar Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Não tome Biktarvy</strong></p>
 <ul>
@@ -223,9 +223,9 @@ ande de bicicleta e não utilize quaisquer ferramentas ou máquinas.</p>
 praticamente “isento de sódio”.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take Biktarvy"
+  * title =  "3. Como tomar Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take Biktarvy"
+  * code.text = "3. Como tomar Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou
 farmacêutico se tiver dúvidas.</p>
@@ -287,9 +287,9 @@ farmacêutico.</p>         </div>"""
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Efeitos indesejáveis possíveis"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Efeitos indesejáveis possíveis"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se
 manifestem em todas as pessoas.</p>
@@ -385,9 +385,9 @@ diretamente através do sistema nacional de notificação mencionado no Apêndic
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store Biktarvy"
+  * title = "5. Como conservar Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store Biktarvy"
+  * code.text = "5. Como conservar Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.</p>
 <p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco ou
@@ -400,9 +400,9 @@ o ambiente.</p>         </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Conteúdo da embalagem e outras informações"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Conteúdo da embalagem e outras informações"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Qual a composição de Biktarvy</strong></p>
 <p>As substâncias ativas são o bictegravir, a emtricitabina e o tenofovir alafenamida. Cada comprimido
@@ -435,8 +435,6 @@ IDA Business &amp; Technology Park
 Carrigtohill
 County Cork
 Irlanda</p>         </div>"""      
-
-
 
 
 

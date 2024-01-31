@@ -3,7 +3,7 @@ Instance: authorization534e209eb0a3ff60437639cb2015316f0
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for acmedrug-man 0"
 Description: "Regulated Authorization for acmedrug-man 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/96/007/035"

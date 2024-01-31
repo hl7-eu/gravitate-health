@@ -3,7 +3,7 @@ Instance: ap-9b5b17469311c2ea4d1d08419748b4fb
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)"
 Description: "Administrable product Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "nan" 

@@ -1,7 +1,3 @@
-
-
-
-
 Instance: composition-es-7a7ff0f4e1993c2fdabba6c8d9931a52
 InstanceOf: CompositionUvEpi
 Title: "Composition for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet"
@@ -434,9 +430,9 @@ través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano:
 proporcionar más información sobre la seguridad de este medicamento.</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. CONSERVACIÓN DE MIRTAZAPINA CINFA "
+  * title = "5. Conservación de MIRTAZAPINA CINFA "
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. CONSERVACIÓN DE MIRTAZAPINA CINFA "
+  * code.text = "5. Conservación de MIRTAZAPINA CINFA "
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mantener este medicamento fuera de la vista y del alcance de los niños.</p>
 <p>No utilice este medicamento después de la fecha de caducidad que aparece en el envase y en el blíster,

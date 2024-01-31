@@ -3,7 +3,7 @@ Instance: authorization9b5b17469311c2ea4d1d08419748b4fb0
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) 0"
 Description: "Regulated Authorization for Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/03/256/022"

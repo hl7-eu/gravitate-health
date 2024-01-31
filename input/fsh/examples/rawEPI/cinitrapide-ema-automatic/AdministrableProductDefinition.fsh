@@ -3,7 +3,7 @@ Instance: ap-da0fc2395ce219262dfd4f0c9a9f72e1
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product BLASTON 1 mg tablets"
 Description: "Administrable product BLASTON 1 mg tablets"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "xx" 

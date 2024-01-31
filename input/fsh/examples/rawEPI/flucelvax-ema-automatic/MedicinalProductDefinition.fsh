@@ -5,7 +5,7 @@ Title: "Medicinal Product Flucelvax Tetra - suspension for injection in pre-fill
 Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 Description: "Flucelvax Tetra - suspension for injection in pre-filled syringe
 Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"

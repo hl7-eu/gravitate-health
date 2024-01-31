@@ -1,6 +1,3 @@
-
-
-
 Instance: composition-en-367b9089c0743a2330f4c6e82b40ee41
 InstanceOf: CompositionUvEpi
 Title: "Composition for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen Package Leaflet"
@@ -41,7 +38,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -80,9 +77,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What 0 is and what it is used for"
+  * title =  "1. What 0 is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What 0 is and what it is used for"
+  * code.text =  "1. What 0 is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Suliqua is an injectable diabetes medicine that contains two active substances: </p>
 <ul>
@@ -212,7 +209,7 @@ Having too low or too high blood sugar (see information in the box at the end of
 <p>This medicine contains metacresol which may cause allergic reactions.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take 0"
+  * title =  "3. How to take 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take 0"
   * text.status = #additional

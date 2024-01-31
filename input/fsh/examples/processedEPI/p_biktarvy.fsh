@@ -151,9 +151,9 @@ is addressed to your child (in this case please read “your child” instead of
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Read all of this leaflet carefully before you start taking this medicine because it contains
 important information for you.</strong></p>
@@ -171,9 +171,9 @@ is addressed to your child (in this case please read “your child” instead of
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Contenido del prospecto"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Contenido del prospecto"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet</p>
 <ol>
@@ -187,9 +187,9 @@ is addressed to your child (in this case please read “your child” instead of
           
 
 * section[=].section[+]
-  * title = "1. What Biktarvy 50 mg/200 mg/25 mg film-coated tablets is and what it is used for"
+  * title =  "1. Qué es Biktarvy y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Biktarvy 50 mg/200 mg/25 mg film-coated tablets is and what it is used for"
+  * code.text =  "1. Qué es Biktarvy y para qué se utiliza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Biktarvy contains three active substances:</p>
 <ul>
@@ -207,9 +207,9 @@ the risk of developing illnesses linked to HIV infection.</p>         </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * title = "2. Qué necesita saber antes de empezar a tomar Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Do not take Biktarvy</strong></p>
 <ul>
@@ -338,9 +338,9 @@ and do not use any tools or machines.</p>
 ‘sodium-free’.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * title =  "3. Cómo tomar Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * code.text = "3. Cómo tomar Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist
 if you are not sure.</p>
@@ -398,9 +398,9 @@ If you have any further questions on the use of this medicine, ask your doctor o
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Posibles efectos adversos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.</p>
 <p><strong>Possible side effects: tell a doctor immediately</strong></p>
@@ -494,9 +494,9 @@ listed in Appendix V. By reporting side effects you can help provide more inform
 of this medicine.</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * title = "5. Conservación DE Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * code.text = "5. Conservación DE Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.</p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and bottle or blister strips
@@ -508,9 +508,9 @@ throw away medicines you no longer use. These measures will help protect the env
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Contenido del envase e información adicional"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>What Biktarvy contains</strong></p>
 <p>The active substances are bictegravir, emtricitabine and tenofovir alafenamide. Each Biktarvy tablet

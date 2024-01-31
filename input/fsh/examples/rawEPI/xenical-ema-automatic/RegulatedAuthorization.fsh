@@ -3,7 +3,7 @@ Instance: authorization4fab126d28f65a1084e7b50a232003630
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Xenical 120mg hard capsules 0"
 Description: "Regulated Authorization for Xenical 120mg hard capsules 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/98/071/004"

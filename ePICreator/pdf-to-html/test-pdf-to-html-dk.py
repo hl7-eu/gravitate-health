@@ -1,38 +1,19 @@
 import fitz  # PyMuPDF
 import re
-
+import markdown
+from os import mkdir
+from os.path import exists
 
 # Define the path to the PDF file
-pdf_path = "../source-data/epi/pil.10637.pdf"
-html_file_path = "./pil.10637.md"
+pdf_path = "../../source-data/epi/karvea-epar-product-information_da.pdf"
+html_folder = "../temp_html/"
+if not exists(html_folder):
+    mkdir(html_folder)
 
 
 # Open the PDF file
 def replace_unicode_character(input_string, character_to_replace, replacement_char):
     return input_string.replace(character_to_replace, replacement_char)
-
-
-def cleanhtml(raw_html):
-    raw_html = re.sub(r"\*\n", "* ", raw_html)
-    raw_html = re.sub(r"\d{2,3}\s\n", "", raw_html)
-
-    raw_html = re.sub(r"(\d\.)\s\n", r"\1 ", raw_html)
-    raw_html = re.sub(r"\so\s", "* ", raw_html)
-    raw_html = raw_html.replace(
-        "4. Possible side effects \n ", "## Possible side effects\n"
-    )
-    raw_html = raw_html.replace("\n \n5. How to store ", " \n## How to store ")
-    raw_html = raw_html.replace(
-        "\n \n6. Contents of the pack and other information",
-        " \n## Contents of the pack and other information",
-    )
-    raw_html = raw_html.replace("\n \n3. How to take ", " \n## How to take ")
-    raw_html = raw_html.replace(
-        "\n \n2. What you need to know before you take ",
-        " \n## What you need to know before you take ",
-    )
-    raw_html = raw_html.replace("\n \n1. What ", " \n## What ")
-    return raw_html
 
 
 def parse_html(html_content):
@@ -41,19 +22,34 @@ def parse_html(html_content):
     pasr = html_content.split("\n")
     for idx, line in enumerate(pasr):
         line = replace_unicode_character(line, chr(61607) + " ", "*")
+        line = replace_unicode_character(line, "• \n", "*")
+        line = replace_unicode_character(line, "6. \n", "6. ")
+
         new_html_content.append(line)
-        if "B. PACKAGE LEAFLET" or "Package Leaflet (PIL)" in line:  # ema and UK
-            print(line)
+        if "B. INDLÆGSSEDDEL" in line:  # ema and UK
+            #  print(line)
             startidx = idx
         if (
-            "Detailed information on this medicine is available on the European Medicines Agency web site: "
+            "Du kan finde yderligere information om Karvea på Det Europæiske Lægemiddelagenturs hjemmeside "
             in line
         ):
-            print(line)
+            # print(line)
             endidx = idx + 5
             break
     print(startidx, endidx)
     return "\n".join(new_html_content[startidx:endidx])
+
+
+def cleanhtml(raw_html):
+    raw_html = re.sub(r"\*\n", "* ", raw_html)
+    raw_html = re.sub(r"\d{2,3}\s\n", "", raw_html)
+
+    raw_html = re.sub(r"(\d\.)\s\n", r"\1 ", raw_html)
+    raw_html = re.sub(r"\so\s", "* ", raw_html)
+    raw_html = re.sub(r"-\s\n", "- ", raw_html)
+    raw_html = re.sub(r"•\s\n", "* ", raw_html)
+
+    return raw_html
 
 
 doc = fitz.open(pdf_path)
@@ -70,9 +66,42 @@ for page in doc:
 doc.close()
 
 
-html_content = parse_html(html_content)
+parsed_content = parse_html(html_content)
 
-html_content = cleanhtml(html_content)
-# Save the extracted HTML to a file
-with open(html_file_path, "w") as file:
-    file.write(html_content)
+clean_content = cleanhtml(parsed_content)
+
+with open(html_folder + "/" + "mid-full.md", "w") as file:
+    file.write(clean_content)
+second_part = re.findall(
+    r"Oversigt over indlægssedlen: \n1. .+\n2. .+\n3. .+\n4. .+\n5. .+\n6. .+\n",
+    clean_content,
+)[0]
+first_part = re.split(
+    r"Oversigt over indlægssedlen: \n1. .+\n2. .+\n3. .+\n4. .+\n5. .+\n6. .+\n",
+    clean_content,
+)[0]
+third_part = re.split(
+    r"Oversigt over indlægssedlen: \n1. .+\n2. .+\n3. .+\n4. .+\n5. .+\n6. .+\n",
+    clean_content,
+)[1]
+# print(first_part)
+# print(second_part)
+# print(third_part)
+
+list_content = re.split(r"\n\d\..+\n", third_part)
+# print(list_content[0])
+# print(len(list_content))
+# print(html_content)
+for idx, piece in enumerate(list_content):
+    # Save the extracted HTML to a file
+    with open(html_folder + "/" + str(idx) + ".md", "w") as file:
+        file.write(piece)
+    with open(html_folder + "/" + str(idx) + ".html", "w") as file:
+        file.write(markdown.markdown(piece))
+
+with open(html_folder + "/" + "first.html", "w") as file:
+    file.write(markdown.markdown(first_part))
+with open(html_folder + "/" + "second.html", "w") as file:
+    file.write(markdown.markdown(second_part))
+with open(html_folder + "/" + "full.md", "w") as file:
+    file.write(clean_content)

@@ -5,7 +5,7 @@ Instance: ppd-6b96042e191f6f2105954b57d9ea5780
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Aquilea Articulaciones Colageno y Magnesio 375gr 28"
 Description: "Packaged Product Definition: Aquilea Articulaciones Colageno y Magnesio 375gr 28"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/97/049/001"

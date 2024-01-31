@@ -3,7 +3,7 @@ Instance: ap-1a7318638ddbbeb084ef416e717b6fdb
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Pentasa Slow Release Tablets 1g"
 Description: "Administrable product Pentasa Slow Release Tablets 1g"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "xx" 

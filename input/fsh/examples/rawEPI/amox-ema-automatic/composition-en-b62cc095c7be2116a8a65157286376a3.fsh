@@ -1,6 +1,3 @@
-
-
-
 Instance: composition-en-b62cc095c7be2116a8a65157286376a3
 InstanceOf: CompositionUvEpi
 Title: "Composition for amoxicillin 250 mg tablets Package Leaflet"
@@ -9,9 +6,7 @@ Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
-
-* identifier.value = "5d7d1cdbe1ec9b69cea434ad9af39541"
-
+* identifier.value = "hack-1"
 * status = #final
 
 
@@ -39,7 +34,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -82,9 +77,9 @@ not listed in this leaflet. See section 4.</li>
           
 
 * section[=].section[+]
-  * title = "1. What 0 is and what it is used for"
+  * title =  "1. What amoxicillin is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What 0 is and what it is used for"
+  * code.text =  "1. What amoxicillin is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h1 id="what-amoxicillin-capsules-is-and-what-it-is-used-for">What Amoxicillin capsules is and what it is used for</h1>
 <p>What Amoxicillin Capsule is
@@ -97,9 +92,9 @@ Amoxicillin Capsule may also be used in combination with other medicines to trea
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take 0"
+  * title = "2. What you need to know before you take amoxicillin"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take 0"
+  * code.text = "2. What you need to know before you take amoxicillin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Do not take Amoxicillin capsule:</strong></p>
 <ul>
@@ -150,9 +145,9 @@ convulsions) may make you unfit to drive.
 Do not drive or operate machinery unless you are feeling well.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take 0"
+  * title =  "3. How to take amoxicillin"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take 0"
+  * code.text = "3. How to take amoxicillin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor or
 pharmacist if you are not sure.</p>
@@ -308,9 +303,9 @@ safety of this medicine.</li>
 </ul>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store 0"
+  * title = "5. How to store amoxicillin"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store 0"
+  * code.text = "5. How to store amoxicillin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.</p>
 <p>Do not use this medicine after the expiry date which is stated on the carton after EXP. The expiry date refers to the last day of that month.</p>

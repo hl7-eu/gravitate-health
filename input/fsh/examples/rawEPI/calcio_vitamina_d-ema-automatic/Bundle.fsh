@@ -82,6 +82,11 @@ RuleSet: bdfe699962879d1b1d2adb6ccf20a5cbBundleRuleset
 * entry[=].resource = authorization925dad38f0afbba36223a82b3a7664380 
 
 
+// composition-es-d4bcbbaec04bf6aceb2f71162205967e
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-es-d4bcbbaec04bf6aceb2f71162205967e/composition-es-d4bcbbaec04bf6aceb2f71162205967e"
+* entry[=].resource = composition-es-d4bcbbaec04bf6aceb2f71162205967e 
+
+
 // Organization
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-b7afabe350ac415f70e662ba6c703030"
 * entry[=].resource = mah-b7afabe350ac415f70e662ba6c703030 

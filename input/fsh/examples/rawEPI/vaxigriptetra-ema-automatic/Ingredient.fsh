@@ -5,7 +5,7 @@ Instance: ingredient-for-vaxigriptetra-avictoria48972022
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active A/Victoria/4897/2022"
 Description: "A/Victoria/4897/2022"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "nan"
@@ -39,7 +39,7 @@ Instance: ingredient-for-vaxigriptetra-adarwin92021h3n2
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active A/Darwin/9/2021 (H3N2)"
 Description: "A/Darwin/9/2021 (H3N2)"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "nan"
@@ -73,7 +73,7 @@ Instance: ingredient-for-vaxigriptetra-baustria13594172021
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active B/Austria/1359417/2021"
 Description: "B/Austria/1359417/2021"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "nan"
@@ -107,7 +107,7 @@ Instance: ingredient-for-vaxigriptetra-bphuket30732013
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active B/Phuket/3073/2013 -"
 Description: "B/Phuket/3073/2013 -"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "nan"
@@ -141,7 +141,7 @@ Instance: ingredient-for-vaxigriptetra-sucrose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Sucrose"
 Description: "Sucrose"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "nan"
@@ -171,7 +171,7 @@ Instance: ingredient-for-vaxigriptetra-dipotassiumphosphate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Dipotassium phosphate"
 Description: "Dipotassium phosphate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "nan"
@@ -201,7 +201,7 @@ Instance: ingredient-for-vaxigriptetra-potassiumdihydrogenphosphate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Potassium dihydrogen phosphate"
 Description: "Potassium dihydrogen phosphate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "nan"
@@ -231,7 +231,7 @@ Instance: ingredient-for-vaxigriptetra-gelatinporcinetypea
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Gelatin (porcine, Type A)"
 Description: "Gelatin (porcine, Type A)"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "nan"
@@ -261,7 +261,7 @@ Instance: ingredient-for-vaxigriptetra-argininehydrochloride
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Arginine hydrochloride"
 Description: "Arginine hydrochloride"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "nan"
@@ -291,7 +291,7 @@ Instance: ingredient-for-vaxigriptetra-monosodiumglutamatemonohydrate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Monosodium glutamate monohydrate"
 Description: "Monosodium glutamate monohydrate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "nan"
@@ -321,7 +321,7 @@ Instance: ingredient-for-vaxigriptetra-waterforinjections
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Water for injections"
 Description: "Water for injections"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "nan"

@@ -3,7 +3,7 @@ Instance: mpa975b7e209ea5c4c3bf8040a42b86fbd
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product DOLOCATIL 1 g tablets"
 Description: "DOLOCATIL 1 g tablets"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"

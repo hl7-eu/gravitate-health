@@ -1,6 +1,3 @@
-
-
-
 Instance: composition-en-d33868162d255ced115cecbbf188aab4
 InstanceOf: CompositionUvEpi
 Title: "Composition for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet"
@@ -41,7 +38,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -94,9 +91,9 @@ What in this leaflet
           
 
 * section[=].section[+]
-  * title = "1. What Humalog is and what it is used for"
+  * title =  "1. What Humalog is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Humalog is and what it is used for"
+  * code.text =  "1. What Humalog is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Humalog is used to treat diabetes. Humalog works more quickly than normal human insulin because
 the insulin molecule has been changed slightly.</p>
@@ -198,7 +195,7 @@ This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say 
    
                     
 * section[=].section[+]
-  * title = "3. How to take Humalog"
+  * title =  "3. How to take Humalog"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take Humalog"
   * text.status = #additional

@@ -5,7 +5,7 @@ Instance: ppd-4dcf3cdcbbee40871876a3bcfe95984d
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Skilarence 120 mg gastro-resistant tablets 40"
 Description: "Packaged Product Definition: Skilarence 120 mg gastro-resistant tablets 40"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/17/1201/002"

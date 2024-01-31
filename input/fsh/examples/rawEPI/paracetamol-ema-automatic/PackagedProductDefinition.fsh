@@ -5,7 +5,7 @@ Instance: ppd-951de5ac0ea34819d959a1b4321a915b
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: DOLOCATIL 1 g tablets 20"
 Description: "Packaged Product Definition: DOLOCATIL 1 g tablets 20"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "672669"

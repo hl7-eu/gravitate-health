@@ -5,7 +5,7 @@ Instance: ppd-eac9778d48eb0b894852b7d0d82c3aa8
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: amoxicillin 250 mg tablets 15"
 Description: "Packaged Product Definition: amoxicillin 250 mg tablets 15"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "10637"

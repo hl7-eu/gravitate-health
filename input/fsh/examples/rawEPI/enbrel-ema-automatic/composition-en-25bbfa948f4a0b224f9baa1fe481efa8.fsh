@@ -1,16 +1,13 @@
-
-
-
-Instance: composition-en-245a2b4a9e3ee4304e5e6cf2b1a252b4
+Instance: composition-en-25bbfa948f4a0b224f9baa1fe481efa8
 InstanceOf: CompositionUvEpi
-Title: "Composition for Lipcut Simvastatin 5 mg Tablet Package Leaflet"
-Description:  "Composition for Lipcut Simvastatin 5 mg Tablet Package Leaflet"
+Title: "Composition for Enbrel 25 mg powder for solution for injection Package Leaflet"
+Description:  "Composition for Enbrel 25 mg powder for solution for injection Package Leaflet"
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
-* identifier.value = "33baa39274e4f9e04535de6e365fb5af"
+* identifier.value = "50d2abb4441275478b3d10432498aec6"
 
 * status = #final
 
@@ -21,15 +18,15 @@ Usage: #example
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp245a2b4a9e3ee4304e5e6cf2b1a252b4)
+* subject = Reference(mp25bbfa948f4a0b224f9baa1fe481efa8)
 * date = "2022-02-16T13:28:17Z"
 
  
  // Reference to Organization: MAH
-* author = Reference(mah-1f2bde1de64d7b561417b3a3d4313827)
+* author = Reference(mah-9800de324c3962f6f767647a95e0c17e)
 
 
-* title = "TEST PURPOSES ONLY - Lipcut Simvastatin 5 mg Tablet"
+* title = "TEST PURPOSES ONLY - Enbrel 25 mg powder for solution for injection"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en
@@ -39,7 +36,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -69,9 +66,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What Lipcut Simvastatin 5 mg Tablet is and what it is used for"
+  * title =  "1. What Enbrel 25 mg powder for solution for injection is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Lipcut Simvastatin 5 mg Tablet is and what it is used for"
+  * code.text =  "1. What Enbrel 25 mg powder for solution for injection is and what it is used for"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -80,18 +77,18 @@ Usage: #example
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take Lipcut Simvastatin 5 mg Tablet"
+  * title = "2. What you need to know before you take Enbrel 25 mg powder for solution for injection"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take Lipcut Simvastatin 5 mg Tablet"
+  * code.text = "2. What you need to know before you take Enbrel 25 mg powder for solution for injection"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
                     
 * section[=].section[+]
-  * title = "3. How to take Lipcut Simvastatin 5 mg Tablet"
+  * title =  "3. How to take Enbrel 25 mg powder for solution for injection"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take Lipcut Simvastatin 5 mg Tablet"
+  * code.text = "3. How to take Enbrel 25 mg powder for solution for injection"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -108,9 +105,9 @@ Usage: #example
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable      
         
 * section[=].section[+]
-  * title = "5. How to store Lipcut Simvastatin 5 mg Tablet"
+  * title = "5. How to store Enbrel 25 mg powder for solution for injection"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store Lipcut Simvastatin 5 mg Tablet"
+  * code.text = "5. How to store Enbrel 25 mg powder for solution for injection"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""

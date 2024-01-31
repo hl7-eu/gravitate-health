@@ -5,7 +5,7 @@ Instance: ppd-1f1356f6a8c19d66c5c3f4e40da7536c
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Nurofen 100 mg Chewable Capsules 2"
 Description: "Packaged Product Definition: Nurofen 100 mg Chewable Capsules 2"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "5697008"

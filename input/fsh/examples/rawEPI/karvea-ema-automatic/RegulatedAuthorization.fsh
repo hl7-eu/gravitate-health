@@ -3,7 +3,7 @@ Instance: authorizationdcaa4d32aa6658a8df831551503e52ee0
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Karvea 75 mg tablet 0"
 Description: "Regulated Authorization for Karvea 75 mg tablet 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/97/049/010"
@@ -33,7 +33,7 @@ Instance: authorizationdcaa4d32aa6658a8df831551503e52ee1
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Karvea 75 mg tablet 1"
 Description: "Regulated Authorization for Karvea 75 mg tablet 1"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/97/049/001"
@@ -63,7 +63,7 @@ Instance: authorizationdcaa4d32aa6658a8df831551503e52ee2
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Karvea 75 mg tablet 2"
 Description: "Regulated Authorization for Karvea 75 mg tablet 2"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/97/049/002"
@@ -93,7 +93,7 @@ Instance: authorizationdcaa4d32aa6658a8df831551503e52ee3
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Karvea 75 mg tablet 3"
 Description: "Regulated Authorization for Karvea 75 mg tablet 3"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/97/049/003"

@@ -3,7 +3,7 @@ Instance: mp245a2b4a9e3ee4304e5e6cf2b1a252b4
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Lipcut Simvastatin 5 mg Tablet"
 Description: "Lipcut Simvastatin 5 mg Tablet"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://www.who-umc.org/phpid"

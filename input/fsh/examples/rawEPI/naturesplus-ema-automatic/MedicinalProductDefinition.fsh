@@ -3,7 +3,7 @@ Instance: mp96d7b1b575aa8164c8c2b4cbe70f252a
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Natures Plus Spiru-Tein"
 Description: "Natures Plus Spiru-Tein"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"

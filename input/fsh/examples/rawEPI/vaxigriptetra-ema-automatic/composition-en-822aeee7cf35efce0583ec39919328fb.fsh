@@ -1,6 +1,3 @@
-
-
-
 Instance: composition-en-822aeee7cf35efce0583ec39919328fb
 InstanceOf: CompositionUvEpi
 Title: "Composition for Fluenz Tetra nasal spray suspension Package Leaflet"
@@ -40,7 +37,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -82,9 +79,9 @@ possible side effects not listed in this leaflet. See section 4.</li>
           
 
 * section[=].section[+]
-  * title = "1. What 0 is and what it is used for"
+  * title =  "1. What 0 is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What 0 is and what it is used for"
+  * code.text =  "1. What 0 is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fluenz Tetra is a vaccine to prevent influenza (flu). It is used in children and adolescents 24 months to
 less than 18 years of age. Fluenz Tetra will help to protect against the four virus strains contained in
@@ -151,7 +148,7 @@ Tetra is not recommended for women who are pregnant or are breast-feeding.</li>
 </ul>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take 0"
+  * title =  "3. How to take 0"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take 0"
   * text.status = #additional

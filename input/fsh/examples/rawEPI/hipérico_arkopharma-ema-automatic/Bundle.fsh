@@ -4,6 +4,11 @@
 RuleSet: 2e9b255d9b94b05d362748d5716e558cBundleRuleset 
 
 
+// composition-es-af8d2f6e4772c29a8ef9fbb165e80d28
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-es-af8d2f6e4772c29a8ef9fbb165e80d28/composition-es-af8d2f6e4772c29a8ef9fbb165e80d28"
+* entry[=].resource = composition-es-af8d2f6e4772c29a8ef9fbb165e80d28 
+
+
  
 
 

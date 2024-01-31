@@ -1,6 +1,3 @@
-
-
-
 Instance: composition-es-b3a8d58c709a2281d8ad2a590fe81663
 InstanceOf: CompositionUvEpi
 Title: "Composition for Pentasa Slow Release Tablets 1g Package Leaflet"
@@ -37,9 +34,9 @@ Usage: #example
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. PROSPECTO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. PROSPECTO"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -48,9 +45,9 @@ Usage: #example
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lea todo el prospecto detenidamente antes de empezar a tomareste medicamento, porque contiene información importante para usted.</p>
 <p>Conserve este prospecto, ya que puede tener que volver a leerlo.</p>
@@ -61,9 +58,9 @@ Usage: #example
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Contenido del prospecto"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Contenido del prospecto"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Contenido del prospecto</strong></p>
 <ol>
@@ -83,9 +80,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What Pentasa Slow Release Tablets 1g is and what it is used for"
+  * title =  "1. Qué es Pentasa Slow Release Tablets 1g y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Pentasa Slow Release Tablets 1g is and what it is used for"
+  * code.text =  "1. Qué es Pentasa Slow Release Tablets 1g y para qué se utiliza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pentasa comprimidos está indicado para ayudarle a mantenerle libre de nuevos brotes de colitis ulcerosa.</p>
 <p>La colitis ulcerosa es una enfermedad inflamatoria intestinal en la que el revestimiento del intestino está inflamado y desarrolla muchas roturas diminutas en su superficie (úlceras) que pueden sangrar.</p>
@@ -94,9 +91,9 @@ Usage: #example
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take Pentasa Slow Release Tablets 1g"
+  * title = "2. Qué necesita saber antes de empezar a tomar Pentasa Slow Release Tablets 1g"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take Pentasa Slow Release Tablets 1g"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar Pentasa Slow Release Tablets 1g"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>No tome Pentasa comprimidos:</strong></p>
 <ul>
@@ -140,9 +137,9 @@ se deberá interrumpir el tratamiento inmediatamente en caso de calambres, dolor
 <p>El tratamiento con Pentasacomprimidos no parece ejercer ninguna influencia en la capacidad de conducir y/o manejar máquinas.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take Pentasa Slow Release Tablets 1g"
+  * title =  "3. Cómo tomar Pentasa Slow Release Tablets 1g"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take Pentasa Slow Release Tablets 1g"
+  * code.text = "3. Cómo tomar Pentasa Slow Release Tablets 1g"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte a su médico o farmacéutico.</p>
 <p>La dosis recomendada es:</p>
@@ -166,9 +163,9 @@ Para facilitar la administración se pueden suspender en agua o zumo de naranja,
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Posibles efectos adversos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Al igual que todos los medicamentos, Pentasa comprimidos puede producir efectos adversos, aunque no
 todas las personas los sufran.</p>
@@ -240,9 +237,9 @@ http;//www.notificaram.es. Mediante la comunicación de efectos adversos usted p
 proporcionar más información sobre la seguridad de este medicamento.</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store Pentasa Slow Release Tablets 1g"
+  * title = "5. Conservación de Pentasa Slow Release Tablets 1g"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store Pentasa Slow Release Tablets 1g"
+  * code.text = "5. Conservación de Pentasa Slow Release Tablets 1g"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mantener este medicamento fuera de la vista y del alcance de los niños.</p>
 <p>No utiliceeste medicamentodespués de la fecha de caducidad que aparece en la caja, después de “CAD”. La
@@ -255,9 +252,9 @@ ayudará a proteger el medio ambiente.</p>         </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Contenido del envase e información adicional"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><b>Composición dePentasa comprimidos</b></p>
 <ul>

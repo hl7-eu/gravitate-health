@@ -5,7 +5,7 @@ Instance: ingredient-for-amox-croscarmellosesodium
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Croscarmellose sodium"
 Description: "Croscarmellose sodium"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "M28OL1HH48"
@@ -34,7 +34,7 @@ Instance: ingredient-for-amox-microcrystallinecellulose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Microcrystalline cellulose"
 Description: "Microcrystalline cellulose"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "OP1R32D61U"
@@ -63,7 +63,7 @@ Instance: ingredient-for-amox-amoxicillin
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active AMOXICILLIN"
 Description: "AMOXICILLIN"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "804826J2HU"
@@ -96,7 +96,7 @@ Instance: ingredient-for-amox-hypromellose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Hypromellose"
 Description: "Hypromellose"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "3NXW29V3WO"
@@ -125,7 +125,7 @@ Instance: ingredient-for-amox-macrogol3000
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Macrogol 3000"
 Description: "Macrogol 3000"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "SA1B764746"
@@ -154,7 +154,7 @@ Instance: ingredient-for-amox-lactosemonohydrate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Lactose Monohydrate"
 Description: "Lactose Monohydrate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "EWQ57Q8I5X"
@@ -183,7 +183,7 @@ Instance: ingredient-for-amox-silicondioxide
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Silicon dioxide"
 Description: "Silicon dioxide"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "ETJ7Z6XBU4"
@@ -212,7 +212,7 @@ Instance: ingredient-for-amox-titaniumdioxide
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Titanium Dioxide"
 Description: "Titanium Dioxide"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "15FIX9V2JP"
@@ -241,7 +241,7 @@ Instance: ingredient-for-amox-magnesiumstearate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Magnesium stearate"
 Description: "Magnesium stearate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "70097M6I30"
@@ -270,7 +270,7 @@ Instance: ingredient-for-amox-carnaubawax
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Carnauba wax"
 Description: "Carnauba wax"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "R12CBM0EIZ"

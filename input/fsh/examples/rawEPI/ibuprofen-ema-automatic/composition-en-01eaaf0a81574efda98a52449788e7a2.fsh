@@ -1,6 +1,3 @@
-
-
-
 Instance: composition-en-01eaaf0a81574efda98a52449788e7a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for Nurofen 100 mg Chewable Capsules Package Leaflet"
@@ -39,7 +36,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -69,9 +66,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What Nurofen 100 mg Chewable Capsules is and what it is used for"
+  * title =  "1. What Nurofen 100 mg Chewable Capsules is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Nurofen 100 mg Chewable Capsules is and what it is used for"
+  * code.text =  "1. What Nurofen 100 mg Chewable Capsules is and what it is used for"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -89,7 +86,7 @@ Usage: #example
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
                     
 * section[=].section[+]
-  * title = "3. How to take Nurofen 100 mg Chewable Capsules"
+  * title =  "3. How to take Nurofen 100 mg Chewable Capsules"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take Nurofen 100 mg Chewable Capsules"
   * text.status = #additional

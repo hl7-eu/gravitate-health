@@ -10,7 +10,7 @@ Instance: mah-0932dbba1d0482c4518be4a7c874cb91
 InstanceOf: OrganizationUvEpi
 Title: "ACME industry as Marketing authorisation holder"
 Description: "ACME industry as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000789"

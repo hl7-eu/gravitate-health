@@ -37,6 +37,11 @@ RuleSet: 87263ad77afb6e39aa59e421ea0b6b37BundleRuleset
 * entry[=].resource = ingredient-for-pentasa-microcrystallinecellulose 
 
 
+// composition-es-b3a8d58c709a2281d8ad2a590fe81663
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-es-b3a8d58c709a2281d8ad2a590fe81663/composition-es-b3a8d58c709a2281d8ad2a590fe81663"
+* entry[=].resource = composition-es-b3a8d58c709a2281d8ad2a590fe81663 
+
+
 // Substance
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-mesalamine"
 * entry[=].resource = substance-mesalamine 

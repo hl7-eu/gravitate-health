@@ -3,7 +3,7 @@ Instance: authorization1a7318638ddbbeb084ef416e717b6fdb0
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Pentasa Slow Release Tablets 1g 0"
 Description: "Regulated Authorization for Pentasa Slow Release Tablets 1g 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "77022"

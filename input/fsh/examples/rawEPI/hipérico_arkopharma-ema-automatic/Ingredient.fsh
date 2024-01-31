@@ -5,7 +5,7 @@ Instance: ingredient-for-hipricoarkopharma-hypericumperforatuml
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Hypericum perforatum L."
 Description: "Hypericum perforatum L."
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "XK4IUX8MNB"
@@ -38,7 +38,7 @@ Instance: ingredient-for-hipricoarkopharma-microcrystallinecellulose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient microcrystalline cellulose"
 Description: "microcrystalline cellulose"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "OP1R32D61U"
@@ -67,7 +67,7 @@ Instance: ingredient-for-hipricoarkopharma-magnesiumstearate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient magnesium stearate"
 Description: "magnesium stearate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "70097M6I30"
@@ -96,7 +96,7 @@ Instance: ingredient-for-hipricoarkopharma-colloidalhydrophobicsilica
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient colloidal hydrophobic silica"
 Description: "colloidal hydrophobic silica"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "8MDF5V39QO"
@@ -125,7 +125,7 @@ Instance: ingredient-for-hipricoarkopharma-maltodextrin
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient maltodextrin"
 Description: "maltodextrin"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "7CVR7L4A2D"

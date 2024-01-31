@@ -3,7 +3,7 @@ Instance: mpb3a8d58c709a2281d8ad2a590fe81663
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Pentasa Slow Release Tablets 1g"
 Description: "Pentasa Slow Release Tablets 1g"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"

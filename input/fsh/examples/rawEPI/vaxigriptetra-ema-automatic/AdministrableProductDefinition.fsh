@@ -3,7 +3,7 @@ Instance: ap-635d47ee543a5a9e15fcd321ee5fe6bb
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Fluenz Tetra nasal spray suspension"
 Description: "Administrable product Fluenz Tetra nasal spray suspension"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "nan" 

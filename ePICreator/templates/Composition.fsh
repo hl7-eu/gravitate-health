@@ -7,13 +7,21 @@
 {% set ns.user = "PROSPECTO: INFORMACIÓN PARA EL USUARIO" %}
 {% set ns.leaflet = "Contenido del prospecto" %}
 {% set ns.h1 = "1. Qué es "~row['name']~" y para qué se utiliza"%}
-
 {% set ns.h2 = "2. Qué necesita saber antes de empezar a tomar " ~row['name'] %}
 {% set ns.h3 = "3. Cómo tomar "~row['name'] %}
 {% set ns.h4 = "4. Posibles efectos adversos" %}
-{% set ns.h5 = "5. CONSERVACIÓN DE "~row['name'] %}
+{% set ns.h5 = "5. Conservación de "~row['name'] %}
 {% set ns.h6 = "6. Contenido del envase e información adicional" %}
-
+{% elif  row["language"] == "pt"%}
+{% set ns.title = "B. FOLHETO INFORMATIVO" %}
+{% set ns.user = "Folheto informativo: Informação para o utilizador" %}
+{% set ns.leaflet = "O que contém este folheto" %}
+{% set ns.h1 = "1. O que é "~row['name']~" e para que é utilizado"%}
+{% set ns.h2 = "2. O que precisa de saber antes de tomar " ~row['name'] %}
+{% set ns.h3 = "3. Como tomar "~row['name'] %}
+{% set ns.h4 = "4. Efeitos indesejáveis possíveis" %}
+{% set ns.h5 = "5. Como conservar "~row['name'] %}
+{% set ns.h6 = "6. Conteúdo da embalagem e outras informações" %}
 {% else %}
 {% set ns.title = "B. Package Leaflet" %}
 {% set ns.user = "Package leaflet: Information for the user" %}

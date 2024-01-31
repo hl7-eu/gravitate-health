@@ -3,7 +3,7 @@ Instance: authorization08ac066220d4d68a3933a9c94bef32ff0
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for DOLOCATIL 1 g tablets 0"
 Description: "Regulated Authorization for DOLOCATIL 1 g tablets 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "72.741"

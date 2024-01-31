@@ -10,7 +10,7 @@ Instance: man-05de1a64764c002add42fbfd49b6a38d
 InstanceOf: OrganizationUvEpi
 Title: "MedImmune, UK Limited as Manufacturer"
 Description: "MedImmune, UK Limited as Manufacturer"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000789"
@@ -41,7 +41,7 @@ Instance: mah-46a3afc149c080384b82a9e476e79f76
 InstanceOf: OrganizationUvEpi
 Title: "AstraZeneca AB as Marketing authorisation holder"
 Description: "AstraZeneca AB as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000789"

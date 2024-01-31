@@ -1,7 +1,3 @@
-
-
-
-
 Instance: composition-es-1453e0f16ff6c1d3106ed737a7857578
 InstanceOf: CompositionUvEpi
 Title: "Composition for BLASTON 1 mg tablets Package Leaflet"
@@ -212,9 +208,9 @@ directamente a través del Sistema Español de Farmacovigilancia de Medicamentos
 sobre la seguridad de este medicamento.</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. CONSERVACIÓN DE Blaston 1 mg"
+  * title = "5. Conservación de Blaston 1 mg"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. CONSERVACIÓN DE Blaston 1 mg"
+  * code.text = "5. Conservación de Blaston 1 mg"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mantener este medicamento fuera de la vista y del alcance de los niños.</p>
 <p>No requiere condiciones especiales de conservación.</p>

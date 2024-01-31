@@ -3,7 +3,7 @@ Instance: ap-534e209eb0a3ff60437639cb2015316f
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product acmedrug-man"
 Description: "Administrable product acmedrug-man"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "id" 

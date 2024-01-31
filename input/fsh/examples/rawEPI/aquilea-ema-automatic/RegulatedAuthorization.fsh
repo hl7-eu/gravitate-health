@@ -3,7 +3,7 @@ Instance: authorizationaf1953635c28668e0d454e0740fcb36f0
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Aquilea Articulaciones Colageno y Magnesio 375gr 0"
 Description: "Regulated Authorization for Aquilea Articulaciones Colageno y Magnesio 375gr 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "aquilea-1"

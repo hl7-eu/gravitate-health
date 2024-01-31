@@ -10,7 +10,7 @@ Instance: mah-c2a5378488511eaedce26dde272c2290
 InstanceOf: OrganizationUvEpi
 Title: "Arkopharma LABORATORIOS, S.A.U, as Marketing authorisation holder"
 Description: "Arkopharma LABORATORIOS, S.A.U, as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "xx"

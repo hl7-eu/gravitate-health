@@ -10,7 +10,7 @@ Instance: mah-1f2bde1de64d7b561417b3a3d4313827
 InstanceOf: OrganizationUvEpi
 Title: "Sandoz A/S as Marketing authorisation holder"
 Description: "Sandoz A/S as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000848"

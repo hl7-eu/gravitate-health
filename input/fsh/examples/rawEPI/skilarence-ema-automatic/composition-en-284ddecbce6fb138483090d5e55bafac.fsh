@@ -1,6 +1,3 @@
-
-
-
 Instance: composition-en-284ddecbce6fb138483090d5e55bafac
 InstanceOf: CompositionUvEpi
 Title: "Composition for Skilarence 120 mg gastro-resistant tablets Package Leaflet"
@@ -39,7 +36,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -84,9 +81,9 @@ important information for you.</strong></p>
           
 
 * section[=].section[+]
-  * title = "1. What skilarence is and what it is used for"
+  * title =  "1. What skilarence is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What skilarence is and what it is used for"
+  * code.text =  "1. What skilarence is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>What Skilarence is</strong>
 Skilarence is a medicine that contains the active substance dimethyl fumarate. Dimethyl fumarate
@@ -181,7 +178,7 @@ This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to sa
 free’.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take skilarence"
+  * title =  "3. How to take skilarence"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take skilarence"
   * text.status = #additional

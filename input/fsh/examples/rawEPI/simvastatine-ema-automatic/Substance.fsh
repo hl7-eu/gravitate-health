@@ -2,7 +2,7 @@
 Instance: substance-simvastatin
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "SIMVASTATIN"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "AGG2FN16EV"

@@ -3,7 +3,7 @@ Instance: ap-5af3df1132d20d744a88dab06e924e5e
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Ogivri 150 mg powder for concentrate for solution for infusion "
 Description: "Administrable product Ogivri 150 mg powder for concentrate for solution for infusion "
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "id" 

@@ -3,7 +3,7 @@ Instance: mp822aeee7cf35efce0583ec39919328fb
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Fluenz Tetra nasal spray suspension"
 Description: "Fluenz Tetra nasal spray suspension"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "http://fakesys.com/ids"

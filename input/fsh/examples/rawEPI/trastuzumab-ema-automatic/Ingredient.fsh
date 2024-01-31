@@ -5,7 +5,7 @@ Instance: ingredient-for-trastuzumab-sorbitol
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SORBITOL"
 Description: "SORBITOL"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "506T60A25R"
@@ -34,7 +34,7 @@ Instance: ingredient-for-trastuzumab-trastuzumab
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active trastuzumab"
 Description: "trastuzumab"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "P188ANX8CK"

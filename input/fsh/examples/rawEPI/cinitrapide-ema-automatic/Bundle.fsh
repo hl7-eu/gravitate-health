@@ -37,6 +37,11 @@ RuleSet: af8224f8c853d17daf5ea6782cb5a097BundleRuleset
 * entry[=].resource = ingredient-for-cinitrapide-starchcorn 
 
 
+// composition-es-1453e0f16ff6c1d3106ed737a7857578
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-es-1453e0f16ff6c1d3106ed737a7857578/composition-es-1453e0f16ff6c1d3106ed737a7857578"
+* entry[=].resource = composition-es-1453e0f16ff6c1d3106ed737a7857578 
+
+
 // Substance
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-cinitapride"
 * entry[=].resource = substance-cinitapride 

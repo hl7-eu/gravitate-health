@@ -1,6 +1,3 @@
-
-
-
 Instance: composition-en-be76bdf784deea6950583b234f789db2
 InstanceOf: CompositionUvEpi
 Title: "Composition for Remsima 100 mg powder for concentrate for solution for infusion Package Leaflet"
@@ -40,7 +37,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -86,9 +83,9 @@ Remsima.  </li>
           
 
 * section[=].section[+]
-  * title = "1. What Remsima 100 mg powder for concentrate for solution for infusion is and what it is used for"
+  * title =  "1. What Remsima 100 mg powder for concentrate for solution for infusion is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Remsima 100 mg powder for concentrate for solution for infusion is and what it is used for"
+  * code.text =  "1. What Remsima 100 mg powder for concentrate for solution for infusion is and what it is used for"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Remsima contains the active substance infliximab. Infliximab is a monoclonal antibody - a type of
@@ -362,7 +359,7 @@ unwell after having Remsima, do not drive or use any tools or machines.</p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially ‘sodium-free’ and 45 mg sorbitol in each 120 mg dose. </p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take Remsima 100 mg powder for concentrate for solution for infusion"
+  * title =  "3. How to take Remsima 100 mg powder for concentrate for solution for infusion"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take Remsima 100 mg powder for concentrate for solution for infusion"
   * text.status = #additional

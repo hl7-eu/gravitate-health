@@ -7,6 +7,11 @@ RuleSet: 3a3583227b4c5b0887f1e0d38269b469BundleRuleset
  
 
 
+// composition-en-f97db27e6330f77484eb8425ad2913cd
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-en-f97db27e6330f77484eb8425ad2913cd/composition-en-f97db27e6330f77484eb8425ad2913cd"
+* entry[=].resource = composition-en-f97db27e6330f77484eb8425ad2913cd 
+
+
 // Ingredient
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-humira-mannitol"
 * entry[=].resource = ingredient-for-humira-mannitol 

@@ -2,7 +2,7 @@
 Instance: substance-insulinglargine
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "Insulin glargine"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "2ZM8CX04RZ"
@@ -27,7 +27,7 @@ Usage: #example
 Instance: substance-lixisenatide
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "Lixisenatide"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "74O62BB01U"

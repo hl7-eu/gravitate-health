@@ -3,7 +3,7 @@ Instance: mid-635d47ee543a5a9e15fcd321ee5fe6bb
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Title: "Manufactured item Fluenz Tetra nasal spray suspension"
 Description: "Manufactured item Fluenz Tetra nasal spray suspension"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "nan"

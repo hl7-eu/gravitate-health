@@ -3,7 +3,7 @@ Instance: ap-08ac066220d4d68a3933a9c94bef32ff
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product DOLOCATIL 1 g tablets"
 Description: "Administrable product DOLOCATIL 1 g tablets"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "xx" 

@@ -3,7 +3,7 @@ Instance: mp534e209eb0a3ff60437639cb2015316f
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product acmedrug-man"
 Description: "acmedrug-man"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "http://fakesys.com/ids"

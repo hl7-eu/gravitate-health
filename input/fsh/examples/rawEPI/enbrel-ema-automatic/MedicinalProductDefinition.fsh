@@ -3,7 +3,7 @@ Instance: mp25bbfa948f4a0b224f9baa1fe481efa8
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Enbrel 25 mg powder for solution for injection"
 Description: "Enbrel 25 mg powder for solution for injection"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "http://fakesys.com/ids"

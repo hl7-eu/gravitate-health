@@ -5,7 +5,7 @@ Instance: ppd-740c0d6d7605c10cb166cd0ee16908f9
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes 30"
 Description: "Packaged Product Definition: Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes 30"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "x"

@@ -3,7 +3,7 @@ Instance: mp5aea2ea50d47a8b479a61aec209c957f
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product SORIA NATURAL VITAMINA C 36 COMPRIMIDOS"
 Description: "SORIA NATURAL VITAMINA C 36 COMPRIMIDOS"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"

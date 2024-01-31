@@ -3,7 +3,7 @@ Instance: authorizatione762a2f54b0b24fca4744b1bb7524a5b0
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for MIRTAZAPINA CINFA 30 mg Coated Tablet 0"
 Description: "Regulated Authorization for MIRTAZAPINA CINFA 30 mg Coated Tablet 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "67.068"

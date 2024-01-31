@@ -30,6 +30,19 @@ if OUTPUT_FOLDER[-1] != "/":
     OUTPUT_FOLDER += "/"
 
 
+def homogenize_text(composition):
+    # print(composition)
+    composition = re.sub(
+        r'style="font-family:Times New Roman; font-size:1\d{1}pt\S*"', "", composition
+    )
+    composition = re.sub(
+        r"font-family:Times New Roman; font-size:1\d{1}pt", "", composition
+    )
+
+    composition = composition.replace("font-family:serif;", "")
+    return composition
+
+
 def split_compositions(OUTPUT_FOLDER, major_name):
     print("splitting compositions")
     print(OUTPUT_FOLDER)
@@ -46,7 +59,7 @@ def split_compositions(OUTPUT_FOLDER, major_name):
     idxs.append(len(Lines))
     for nidx, name in enumerate(names):
         with open(OUTPUT_FOLDER + name + ".fsh", "w") as file2:
-            file2.write("".join(Lines[idxs[nidx] : idxs[nidx + 1]]))
+            file2.write(homogenize_text("".join(Lines[idxs[nidx] : idxs[nidx + 1]])))
     remove(OUTPUT_FOLDER + "Composition.fsh")
 
 

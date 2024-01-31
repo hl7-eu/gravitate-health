@@ -3,7 +3,7 @@ Instance: ap-e0d9ad275c19f6e91c9365529421d5a8
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Nurofen 100 mg Chewable Capsules"
 Description: "Administrable product Nurofen 100 mg Chewable Capsules"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "pt-xx" 

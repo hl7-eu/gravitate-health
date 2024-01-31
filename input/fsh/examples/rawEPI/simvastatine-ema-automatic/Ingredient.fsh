@@ -5,7 +5,7 @@ Instance: ingredient-for-simvastatine-titaniumdioxide
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient TITANIUM DIOXIDE"
 Description: "TITANIUM DIOXIDE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "15FIX9V2JP"
@@ -34,7 +34,7 @@ Instance: ingredient-for-simvastatine-hypromelloseunspecified
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient HYPROMELLOSE, UNSPECIFIED"
 Description: "HYPROMELLOSE, UNSPECIFIED"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "3NXW29V3WO"
@@ -63,7 +63,7 @@ Instance: ingredient-for-simvastatine-simvastatin
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active SIMVASTATIN"
 Description: "SIMVASTATIN"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "AGG2FN16EV"

@@ -5,7 +5,7 @@ Instance: ingredient-for-tegretol-carbamazepine
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active CARBAMAZEPINE"
 Description: "CARBAMAZEPINE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "33CM23913M"
@@ -38,7 +38,7 @@ Instance: ingredient-for-tegretol-magnesiumstearate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Magnesium stearate"
 Description: "Magnesium stearate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "70097M6I30"
@@ -67,7 +67,7 @@ Instance: ingredient-for-tegretol-carboxymethylcellulose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient CARBOXYMETHYLCELLULOSE"
 Description: "CARBOXYMETHYLCELLULOSE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "05JZI7B19X"

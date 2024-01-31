@@ -3,7 +3,7 @@ Instance: mpac2bb08bb4cc3f51f8c4e3513034c019
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Tegretol 200 mg tablets"
 Description: "Tegretol 200 mg tablets"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"

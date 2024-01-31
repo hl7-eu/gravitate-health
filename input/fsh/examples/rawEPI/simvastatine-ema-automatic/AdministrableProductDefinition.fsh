@@ -3,7 +3,7 @@ Instance: ap-660952efa1b907b97e182807063ac261
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Lipcut Simvastatin 5 mg Tablet"
 Description: "Administrable product Lipcut Simvastatin 5 mg Tablet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "fin-x" 

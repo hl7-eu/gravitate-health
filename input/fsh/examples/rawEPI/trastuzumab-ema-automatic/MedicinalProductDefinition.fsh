@@ -3,7 +3,7 @@ Instance: mpaae8d931abe2f2d9085b87555b9bb088
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Ogivri 150 mg powder for concentrate for solution for infusion "
 Description: "Ogivri 150 mg powder for concentrate for solution for infusion "
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://www.who-umc.org/phpid/4"

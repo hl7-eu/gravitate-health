@@ -5,7 +5,7 @@ Instance: ppd-03a3a81da9e0b9a5bb33d75251bb5234
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill 5"
 Description: "Packaged Product Definition: Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill 5"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/96/007/035"

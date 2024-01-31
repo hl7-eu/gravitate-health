@@ -10,7 +10,7 @@ Instance: mah-6ade044addd6563de0baefebb1cceb8e
 InstanceOf: OrganizationUvEpi
 Title: "FERRING S.A.U. as Marketing authorisation holder"
 Description: "FERRING S.A.U. as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000621"

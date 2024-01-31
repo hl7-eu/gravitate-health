@@ -5,7 +5,7 @@ Instance: ppd-eac96261823092966bc3d7659feb5d7a
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Lipcut Simvastatin 5 mg Tablet 28"
 Description: "Packaged Product Definition: Lipcut Simvastatin 5 mg Tablet 28"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "fin-x"

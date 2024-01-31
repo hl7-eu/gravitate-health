@@ -5,7 +5,7 @@ Instance: ppd-8cd75434ddd15aca2f0bc2efe5d26afe
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) 2"
 Description: "Packaged Product Definition: Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) 2"
-Usage: #example
+Usage: #inline
 
 
 * name = "Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) 2"

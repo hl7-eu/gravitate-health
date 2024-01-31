@@ -3,7 +3,7 @@ Instance: authorization2f37d696067eeb6daf1111cfc32726720
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Tegretol 200 mg tablets 0"
 Description: "Regulated Authorization for Tegretol 200 mg tablets 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "39.955"

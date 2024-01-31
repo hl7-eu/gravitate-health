@@ -3,7 +3,7 @@ Instance: authorization660952efa1b907b97e182807063ac2610
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Lipcut Simvastatin 5 mg Tablet 0"
 Description: "Regulated Authorization for Lipcut Simvastatin 5 mg Tablet 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "fin-x"

@@ -5,7 +5,7 @@ Instance: ingredient-for-suliqua-insulinglargine
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Insulin glargine"
 Description: "Insulin glargine"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "2ZM8CX04RZ"
@@ -40,7 +40,7 @@ Instance: ingredient-for-suliqua-lixisenatide
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Lixisenatide"
 Description: "Lixisenatide"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "74O62BB01U"
@@ -75,7 +75,7 @@ Instance: ingredient-for-suliqua-glycerol85whodd
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient GLYCEROL 85% [WHO-DD]"
 Description: "GLYCEROL 85% [WHO-DD]"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "PDC6A3C0OX"
@@ -106,7 +106,7 @@ Instance: ingredient-for-suliqua-methionine
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Methionine"
 Description: "Methionine"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "AE28F7PNPL"
@@ -137,7 +137,7 @@ Instance: ingredient-for-suliqua-metacresol
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Metacresol"
 Description: "Metacresol"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "GGO4Y809LO"
@@ -168,7 +168,7 @@ Instance: ingredient-for-suliqua-zincchloride
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Zinc chloride"
 Description: "Zinc chloride"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "86Q357L16B"
@@ -199,7 +199,7 @@ Instance: ingredient-for-suliqua-hydrochloricacidiarc
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient HYDROCHLORIC ACID [IARC]"
 Description: "HYDROCHLORIC ACID [IARC]"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "QTT17582CB"
@@ -230,7 +230,7 @@ Instance: ingredient-for-suliqua-sterilewaterforinjection
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient STERILE WATER FOR INJECTION"
 Description: "STERILE WATER FOR INJECTION"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "059QF0KO0R"
@@ -261,7 +261,7 @@ Instance: ingredient-for-suliqua-sodiumhydroxide
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Sodium hydroxide"
 Description: "Sodium hydroxide"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "55X04QC32I"

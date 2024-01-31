@@ -3,7 +3,7 @@ Instance: authorizationb62cc095c7be2116a8a65157286376a30
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for amoxicillin 250 mg tablets 0"
 Description: "Regulated Authorization for amoxicillin 250 mg tablets 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "hack-1"

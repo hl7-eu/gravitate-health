@@ -3,7 +3,7 @@ Instance: ap-925dad38f0afbba36223a82b3a766438
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes"
 Description: "Administrable product Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "xx" 

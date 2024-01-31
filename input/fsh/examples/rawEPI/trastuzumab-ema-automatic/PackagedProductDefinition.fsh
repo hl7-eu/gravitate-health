@@ -5,7 +5,7 @@ Instance: ppd-e7c391536e9fc6ff50198d09558da8c0
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Ogivri 150 mg powder for concentrate for solution for infusion  1"
 Description: "Packaged Product Definition: Ogivri 150 mg powder for concentrate for solution for infusion  1"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/18/1341/001"

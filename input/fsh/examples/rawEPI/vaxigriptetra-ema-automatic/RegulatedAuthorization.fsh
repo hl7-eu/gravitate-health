@@ -3,7 +3,7 @@ Instance: authorization635d47ee543a5a9e15fcd321ee5fe6bb0
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Fluenz Tetra nasal spray suspension 0"
 Description: "Regulated Authorization for Fluenz Tetra nasal spray suspension 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/13/887/003"
@@ -33,7 +33,7 @@ Instance: authorization635d47ee543a5a9e15fcd321ee5fe6bb1
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Fluenz Tetra nasal spray suspension 1"
 Description: "Regulated Authorization for Fluenz Tetra nasal spray suspension 1"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/13/887/004"

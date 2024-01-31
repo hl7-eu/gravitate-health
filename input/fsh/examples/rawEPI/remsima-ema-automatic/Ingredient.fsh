@@ -5,7 +5,7 @@ Instance: ingredient-for-remsima-infliximab
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active INFLIXIMAB"
 Description: "INFLIXIMAB"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "B72HH48FLU"
@@ -39,7 +39,7 @@ Instance: ingredient-for-remsima-disodiumphosphatedihydrate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Disodium phosphate dihydrate"
 Description: "Disodium phosphate dihydrate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "94255I6E2T"
@@ -69,7 +69,7 @@ Instance: ingredient-for-remsima-sodiumdihydrogenphosphatemonohydrate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Sodium dihydrogen phosphate monohydrate"
 Description: "Sodium dihydrogen phosphate monohydrate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "593YOG76RN"
@@ -99,7 +99,7 @@ Instance: ingredient-for-remsima-polysorbate80
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient POLYSORBATE 80"
 Description: "POLYSORBATE 80"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "6OZP39ZG8H"
@@ -129,7 +129,7 @@ Instance: ingredient-for-remsima-sucrose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Sucrose"
 Description: "Sucrose"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "C151H8M554"

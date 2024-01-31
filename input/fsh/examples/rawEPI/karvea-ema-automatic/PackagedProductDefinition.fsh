@@ -5,7 +5,7 @@ Instance: ppd-d91b269b209aaa5538a1bfafd1a7434d
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Karvea 75 mg tablet 14"
 Description: "Packaged Product Definition: Karvea 75 mg tablet 14"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/97/049/010"
@@ -57,7 +57,7 @@ Instance: ppd-f3f2f89544dfc5d20216861bcf90c0c5
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Karvea 75 mg tablet 28"
 Description: "Packaged Product Definition: Karvea 75 mg tablet 28"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/97/049/001"
@@ -109,7 +109,7 @@ Instance: ppd-5763619e2b501aeeab53677bd09d5cbf
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Karvea 75 mg tablet 56"
 Description: "Packaged Product Definition: Karvea 75 mg tablet 56"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/97/049/002"
@@ -161,7 +161,7 @@ Instance: ppd-9b1d5d261d22694685deb35714ec08ea
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Karvea 75 mg tablet 98"
 Description: "Packaged Product Definition: Karvea 75 mg tablet 98"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/97/049/003"

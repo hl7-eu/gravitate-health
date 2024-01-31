@@ -3,7 +3,7 @@ Instance: mpb62cc095c7be2116a8a65157286376a3
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product amoxicillin 250 mg tablets"
 Description: "amoxicillin 250 mg tablets"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "http://fakesys.com/ids"

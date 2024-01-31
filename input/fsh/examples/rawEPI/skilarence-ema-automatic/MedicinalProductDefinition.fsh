@@ -3,7 +3,7 @@ Instance: mp284ddecbce6fb138483090d5e55bafac
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Skilarence 120 mg gastro-resistant tablets"
 Description: "Skilarence 120 mg gastro-resistant tablets"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://www.who-umc.org/phpid"

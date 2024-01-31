@@ -3,7 +3,7 @@ Instance: authorization6a3c9768548036f502739419bacb24820
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Skilarence 120 mg gastro-resistant tablets 0"
 Description: "Regulated Authorization for Skilarence 120 mg gastro-resistant tablets 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/17/1201/002"

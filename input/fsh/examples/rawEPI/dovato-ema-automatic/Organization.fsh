@@ -10,7 +10,7 @@ Instance: man-173fde4cb6b1018cb7ec8ab708d3961c
 InstanceOf: OrganizationUvEpi
 Title: "GLAXO WELLCOME, S.A. as Manufacturer"
 Description: "GLAXO WELLCOME, S.A. as Manufacturer"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100004538"
@@ -41,7 +41,7 @@ Instance: mah-31ff1af739c7dcf77386a86f8dd83d29
 InstanceOf: OrganizationUvEpi
 Title: "ViiV Healthcare BV as Marketing authorisation holder"
 Description: "ViiV Healthcare BV as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100012958"
@@ -72,7 +72,7 @@ Instance: mra-7c9b97127f73ff3605a10eb1c2cc24d1
 InstanceOf: OrganizationUvEpi
 Title: "European Medicines Agency as Medicines Regulatory Authority"
 Description: "European Medicines Agency as Medicines Regulatory Authority"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100013412"

@@ -10,7 +10,7 @@ Instance: mah-9800de324c3962f6f767647a95e0c17e
 InstanceOf: OrganizationUvEpi
 Title: "Pfizer Europe MA EEIG as Marketing authorisation holder"
 Description: "Pfizer Europe MA EEIG as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100011459"

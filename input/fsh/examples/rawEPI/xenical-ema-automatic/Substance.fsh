@@ -2,7 +2,7 @@
 Instance: substance-orlistat
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "ORLISTAT"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "95M8R751W8"

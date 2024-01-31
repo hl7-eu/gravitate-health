@@ -3,7 +3,7 @@ Instance: mpbc60fa1aa0bfe774d11ee13c0c131622
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Xenical 120mg hard capsules"
 Description: "Xenical 120mg hard capsules"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"

@@ -5,7 +5,7 @@ Instance: ingredient-for-enbrel-sucrose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SUCROSE"
 Description: "SUCROSE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "C151H8M554"
@@ -34,7 +34,7 @@ Instance: ingredient-for-enbrel-mannitol
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient MANNITOL"
 Description: "MANNITOL"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "3OWL53L36A"
@@ -63,7 +63,7 @@ Instance: ingredient-for-enbrel-etanercept
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Etanercept"
 Description: "Etanercept"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "OP401G7OJC"
@@ -96,7 +96,7 @@ Instance: ingredient-for-enbrel-tromethamine
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient TROMETHAMINE"
 Description: "TROMETHAMINE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "023C2WHX2V"

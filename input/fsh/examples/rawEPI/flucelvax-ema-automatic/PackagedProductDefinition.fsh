@@ -7,7 +7,7 @@ Title: "Packaged Product Definition: Flucelvax Tetra - suspension for injection 
 Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) 1"
 Description: "Packaged Product Definition: Flucelvax Tetra - suspension for injection in pre-filled syringe
 Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) 1"
-Usage: #example
+Usage: #inline
 
 
 * name = "Flucelvax Tetra - suspension for injection in pre-filled syringe

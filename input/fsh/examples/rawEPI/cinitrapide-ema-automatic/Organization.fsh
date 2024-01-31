@@ -10,7 +10,7 @@ Instance: mah-94f8082c22713e050c3f2b55ea9d53ff
 InstanceOf: OrganizationUvEpi
 Title: "Lacer, S.A. - Boters, 5 as Marketing authorisation holder"
 Description: "Lacer, S.A. - Boters, 5 as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000789"

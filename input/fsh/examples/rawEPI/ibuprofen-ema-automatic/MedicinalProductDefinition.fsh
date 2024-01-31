@@ -3,7 +3,7 @@ Instance: mp01eaaf0a81574efda98a52449788e7a2
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Nurofen 100 mg Chewable Capsules"
 Description: "Nurofen 100 mg Chewable Capsules"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://www.who-umc.org/phpid/1"

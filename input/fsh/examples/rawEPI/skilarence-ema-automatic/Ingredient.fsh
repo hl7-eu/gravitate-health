@@ -5,7 +5,7 @@ Instance: ingredient-for-skilarence-acmedruging3
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient acmedrug-ing3"
 Description: "acmedrug-ing3"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "ETJ7Z6XBU4"
@@ -34,7 +34,7 @@ Instance: ingredient-for-skilarence-acmedruging2
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient acmedrug-ing2"
 Description: "acmedrug-ing2"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "15FIX9V2JP"
@@ -63,7 +63,7 @@ Instance: ingredient-for-skilarence-dimethylfumarate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active DIMETHYL FUMARATE"
 Description: "DIMETHYL FUMARATE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "FO2303MNI2"

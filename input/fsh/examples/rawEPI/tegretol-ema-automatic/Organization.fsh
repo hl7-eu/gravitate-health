@@ -10,7 +10,7 @@ Instance: mah-990eca26437774887062cfa11ea1d904
 InstanceOf: OrganizationUvEpi
 Title: "Novartis Farmacéutica, S.A. as Marketing authorisation holder"
 Description: "Novartis Farmacéutica, S.A. as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100001650"

@@ -287,9 +287,9 @@ Usage: #example
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#69840006 "Normal breast feeding (finding)"
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. PROSPECTO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. PROSPECTO"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -300,9 +300,9 @@ Usage: #example
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Prospecto: información para el usuario"
+  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:3.5pt 0pt 0pt 7.1pt; text-align:center; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Prospecto: informaci&#243;n para el usuario</span></strong></p>
 
@@ -338,51 +338,31 @@ Usage: #example
 
     <p style="margin:0pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p>      </div>"""   
 																  
- 
-
-			
-   
-																								 
-																			 
-
-			
-   
-																						  
-																	  
+												  
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Contenido del prospecto"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Contenido del prospecto"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify"><strong><span style="font-family:Times New Roman; font-size:11pt;">Contenido del prospecto</span></strong></p>
 
     <p style="margin:0.45pt 0pt 0pt; text-align:justify"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p>
-   
-																								  
-																			  
- 
 
     <p style="margin:0pt 0pt 0pt 6.3pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">1.&#160;&#160;&#160; Qu&#233; es Flucelvax Tetra y para qu&#233; se utiliza</span></p>
 
     <p style="margin:0pt 0pt 0pt 6.3pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">2.&#160;&#160;&#160; Qu&#233; necesita saber antes de empezar a recibir Flucelvax Tetra</span></p>
-														  
- 
 
     <p style="margin:0pt 0pt 0pt 6.3pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">3.&#160;&#160;&#160; C&#243;mo se administra Flucelvax Tetra</span></p>
 
     <p style="margin:0.05pt 0pt 0pt 6.3pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">4.&#160;&#160;&#160; Posibles efectos adversos</span></p>
 																	
- 
-
     <p style="margin:0pt 0pt 0pt 6.3pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">5.&#160;&#160;&#160; Conservaci&#243;n de Flucelvax Tetra</span></p>
 
     <p style="margin:0.05pt 0pt 0pt 6.3pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">6.&#160;&#160;&#160; Contenido del envase e informaci&#243;n adicional</span></p></div>"""   
           
- 
-
 * section[=].section[+]
-  * title = "1. What Flucelvax is and what it is used for"
+  * title =  "1. Qué es Flucelvax Tetra y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "1. Qué es Flucelvax Tetra y para qué se utiliza"
   * text.status = #additional
@@ -407,7 +387,7 @@ Usage: #example
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take Flucelvax"
+  * title = "2. Qué necesita saber antes de empezar a recibir Flucelvax Tetra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. Qué necesita saber antes de empezar a recibir Flucelvax Tetra"
   * text.status = #additional
@@ -492,7 +472,7 @@ Usage: #example
     <p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Esta vacuna contiene potasio, menos de 1 mmol (39 mg) por dosis; esto es, esencialmente &#8220;exento de potasio&#8221;.</span></p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take Flucelvax"
+  * title = "3. Cómo se administra Flucelvax Tetra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. Cómo se administra Flucelvax Tetra"
   * text.status = #additional
@@ -516,7 +496,7 @@ Usage: #example
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Posibles efectos adversos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
@@ -617,7 +597,7 @@ Usage: #example
     <p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si experimenta cualquier tipo de efecto adverso, consulte a su profesional sanitario, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto.</span> <span style="font-family:Times New Roman; font-size:11pt">Tambi&#233;n puede comunicarlos directamente a trav&#233;s del Sistema Espa&#241;ol de Farmacovigilancia de Medicamentos de Uso Humano en</span> <a href="http://www.notificaRAM.es"><span style="font-family:Times New Roman; font-size:11pt; color:#0000ff; background-color:#ffffff">www.notificaRAM.es</span></a><span style="font-family:Times New Roman; font-size:11pt">.</span> <span style="font-family:Times New Roman; font-size:11pt">M</span><span style="font-family:Times New Roman; font-size:11pt">ediante la comunicaci&#243;n de efectos adversos usted puede contribuir a proporcionar m&#225;s informaci&#243;n sobre la seguridad de este medicamento.</span></p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store Flucelvax"
+  * title = "5. Conservación de Flucelvax Tetra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. Conservación de Flucelvax Tetra"
   * text.status = #additional
@@ -641,7 +621,7 @@ Usage: #example
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Contenido del envase e información adicional"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional

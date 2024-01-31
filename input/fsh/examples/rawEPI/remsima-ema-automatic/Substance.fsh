@@ -2,7 +2,7 @@
 Instance: substance-infliximab
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "INFLIXIMAB"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "B72HH48FLU"

@@ -3,7 +3,7 @@ Instance: ap-b62cc095c7be2116a8a65157286376a3
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product amoxicillin 250 mg tablets"
 Description: "Administrable product amoxicillin 250 mg tablets"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "10637" 

@@ -5,7 +5,7 @@ Instance: ppd-2f26bab76fe91bd9c2223496b450fc96
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Natures Plus Spiru-Tein nan"
 Description: "Packaged Product Definition: Natures Plus Spiru-Tein nan"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/97/049/001"

@@ -2,7 +2,7 @@
 Instance: substance-carbamazepine
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "CARBAMAZEPINE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "33CM23913M"

@@ -3,7 +3,7 @@ Instance: authorization5af3df1132d20d744a88dab06e924e5e0
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Ogivri 150 mg powder for concentrate for solution for infusion  0"
 Description: "Regulated Authorization for Ogivri 150 mg powder for concentrate for solution for infusion  0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/18/1341/001"

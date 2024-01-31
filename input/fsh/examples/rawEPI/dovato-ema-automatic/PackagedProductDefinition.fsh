@@ -5,7 +5,7 @@ Instance: ppd-2977a2afce16a0bd914b8d242dd126b5
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Dovato 50 mg/300 mg film-coated tablets 30"
 Description: "Packaged Product Definition: Dovato 50 mg/300 mg film-coated tablets 30"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/19/1370/001"

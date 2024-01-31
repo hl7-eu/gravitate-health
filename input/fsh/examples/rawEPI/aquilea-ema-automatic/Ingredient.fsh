@@ -5,7 +5,7 @@ Instance: ingredient-for-aquilea-magnesium
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active magnesium"
 Description: "magnesium"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "I38ZP9992A"
@@ -36,7 +36,7 @@ Instance: ingredient-for-aquilea-humantypeicollagen
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active HUMAN TYPE I COLLAGEN"
 Description: "HUMAN TYPE I COLLAGEN"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "PT3TGI7OIP"

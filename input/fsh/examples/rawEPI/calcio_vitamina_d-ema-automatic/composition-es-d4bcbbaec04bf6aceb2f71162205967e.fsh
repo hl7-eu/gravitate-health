@@ -1,7 +1,3 @@
-
-
-
-
 Instance: composition-es-d4bcbbaec04bf6aceb2f71162205967e
 InstanceOf: CompositionUvEpi
 Title: "Composition for Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes Package Leaflet"
@@ -263,9 +259,9 @@ Usage: #example
       
         
 * section[=].section[+]
-  * title = "5. CONSERVACIÓN DE CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+  * title = "5. Conservación de CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. CONSERVACIÓN DE CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+  * code.text = "5. Conservación de CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 

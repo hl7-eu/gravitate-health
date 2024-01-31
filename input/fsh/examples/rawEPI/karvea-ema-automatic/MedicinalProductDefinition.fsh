@@ -3,7 +3,7 @@ Instance: mp873a1a47330e628770640f9c96c0761e
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Karvea 75 mg tablet"
 Description: "Karvea 75 mg tablet"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"

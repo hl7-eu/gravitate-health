@@ -5,7 +5,7 @@ Instance: ppd-660f3150e2ccfb088d576c1767f7fe95
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: MIRTAZAPINA CINFA 30 mg Coated Tablet 30"
 Description: "Packaged Product Definition: MIRTAZAPINA CINFA 30 mg Coated Tablet 30"
-Usage: #example
+Usage: #inline
 
 
 * name = "MIRTAZAPINA CINFA 30 mg Coated Tablet 30"

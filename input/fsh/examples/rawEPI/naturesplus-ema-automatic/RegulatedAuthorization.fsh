@@ -3,7 +3,7 @@ Instance: authorizationb5a6ac2496348cb06663deb81c55cb370
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Natures Plus Spiru-Tein 0"
 Description: "Regulated Authorization for Natures Plus Spiru-Tein 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "naturesplus-1"

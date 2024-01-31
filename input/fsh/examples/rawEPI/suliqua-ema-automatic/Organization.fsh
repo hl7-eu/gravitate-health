@@ -10,7 +10,7 @@ Instance: mah-16019cea3a857659d2c5a2018c2260df
 InstanceOf: OrganizationUvEpi
 Title: "Sanofi-Aventis Groupe as Marketing authorisation holder"
 Description: "Sanofi-Aventis Groupe as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000789"
@@ -41,7 +41,7 @@ Instance: man-174ad598bd1faddba2098648a45613e1
 InstanceOf: OrganizationUvEpi
 Title: "Sanofi-Aventis Deutschland GmbH as Manufacturer"
 Description: "Sanofi-Aventis Deutschland GmbH as Manufacturer"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100001175"
@@ -72,7 +72,7 @@ Instance: mra-ff74c5498eb163c2fb470e9fd175a0c1
 InstanceOf: OrganizationUvEpi
 Title: "European Medicines Agency as Medicines Regulatory Authority"
 Description: "European Medicines Agency as Medicines Regulatory Authority"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100013412"

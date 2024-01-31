@@ -10,7 +10,7 @@ Instance: mah-511671db37e83e520b00f8a0d817dc96
 InstanceOf: OrganizationUvEpi
 Title: "Sanofi Winthrop Industrie	 as Marketing authorisation holder"
 Description: "Sanofi Winthrop Industrie	 as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100011564"
@@ -41,7 +41,7 @@ Instance: man-4bb7a752921434fd5f9921b5b9473eda
 InstanceOf: OrganizationUvEpi
 Title: "Sanofi Winthrop Industrie as Manufacturer"
 Description: "Sanofi Winthrop Industrie as Manufacturer"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100011564"

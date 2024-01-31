@@ -5,7 +5,7 @@ Instance: ppd-352d83277f894aa6147981b6a4f36c07
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "Packaged Product Definition: Xenical 120mg hard capsules 1"
 Description: "Packaged Product Definition: Xenical 120mg hard capsules 1"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/98/071/004"

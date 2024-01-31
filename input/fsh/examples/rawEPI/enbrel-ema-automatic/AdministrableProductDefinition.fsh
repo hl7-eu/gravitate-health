@@ -3,7 +3,7 @@ Instance: ap-7f657b63823319aa7da7d2c5939e39e5
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Enbrel 25 mg powder for solution for injection"
 Description: "Administrable product Enbrel 25 mg powder for solution for injection"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "id" 

@@ -1,6 +1,3 @@
-
-
-
 Instance: composition-en-534e209eb0a3ff60437639cb2015316f
 InstanceOf: CompositionUvEpi
 Title: "Composition for acmedrug-man Package Leaflet"
@@ -39,7 +36,7 @@ Usage: #example
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -69,9 +66,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What 0 is and what it is used for"
+  * title =  "1. What acme is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What 0 is and what it is used for"
+  * code.text =  "1. What acme is and what it is used for"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -80,18 +77,18 @@ Usage: #example
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take 0"
+  * title = "2. What you need to know before you take acme"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take 0"
+  * code.text = "2. What you need to know before you take acme"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
                     
 * section[=].section[+]
-  * title = "3. How to take 0"
+  * title =  "3. How to take acme"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take 0"
+  * code.text = "3. How to take acme"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -108,9 +105,9 @@ Usage: #example
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable      
         
 * section[=].section[+]
-  * title = "5. How to store 0"
+  * title = "5. How to store acme"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store 0"
+  * code.text = "5. How to store acme"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""

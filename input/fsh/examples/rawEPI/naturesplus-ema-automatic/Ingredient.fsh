@@ -5,7 +5,7 @@ Instance: ingredient-for-naturesplus-soyprotein
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active SOY PROTEIN"
 Description: "SOY PROTEIN"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "R44IWB3RN5"

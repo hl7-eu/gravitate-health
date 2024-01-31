@@ -1,6 +1,3 @@
-
-
-
 Instance: composition-es-a975b7e209ea5c4c3bf8040a42b86fbd
 InstanceOf: CompositionUvEpi
 Title: "Composition for DOLOCATIL 1 g tablets Package Leaflet"
@@ -37,9 +34,9 @@ Usage: #example
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. PROSPECTO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. PROSPECTO"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -48,9 +45,9 @@ Usage: #example
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento porque contiene
 información importante para usted.</p>
@@ -66,9 +63,9 @@ adversos que no aparecen en este prospecto. Ver sección 4.</li>
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Contenido del prospecto"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Contenido del prospecto"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Contenido del prospecto:</strong></p>
 <ol>
@@ -82,9 +79,9 @@ adversos que no aparecen en este prospecto. Ver sección 4.</li>
           
 
 * section[=].section[+]
-  * title = "1. What paracetamol is and what it is used for"
+  * title =  "1. Qué es paracetamol y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What paracetamol is and what it is used for"
+  * code.text =  "1. Qué es paracetamol y para qué se utiliza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dolocatil pertenece al grupo de medicamentos llamados analgésicos y antipiréticos.</p>
 <p>Se utiliza para el tratamiento de los síntomas del dolor y la fiebre.</p>         </div>"""   
@@ -92,9 +89,9 @@ adversos que no aparecen en este prospecto. Ver sección 4.</li>
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take paracetamol"
+  * title = "2. Qué necesita saber antes de empezar a tomar paracetamol"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take paracetamol"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar paracetamol"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>No tome Dolocatil</strong></p>
 <ul>
@@ -166,9 +163,9 @@ consulte a su médico o farmacéutico antes de tomar este medicamento.</p>
 <p>La influencia del paracetamol sobre la capacidad de conducir y utilizar máquinas es nula o insignificante.</p>         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take paracetamol"
+  * title =  "3. Cómo tomar paracetamol"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take paracetamol"
+  * code.text = "3. Cómo tomar paracetamol"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las
 indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico.</p>
@@ -214,9 +211,9 @@ horas).</p>         </div>"""
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Posibles efectos adversos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas
 las personas los sufran.</p>
@@ -236,9 +233,9 @@ través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano:
 proporcionar más información sobre la seguridad de este medicamento.</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store paracetamol"
+  * title = "5. Conservación de paracetamol"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store paracetamol"
+  * code.text = "5. Conservación de paracetamol"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mantener este medicamento fuera de la vista y del alcance de los niños.</p>
 <p>Este medicamento no requiere condiciones especiales de conservación.</p>
@@ -251,9 +248,9 @@ ayudará a proteger el medio ambiente.</p>         </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Contenido del envase e información adicional"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>Composición de Dolocatil</strong></p>
 <ul>

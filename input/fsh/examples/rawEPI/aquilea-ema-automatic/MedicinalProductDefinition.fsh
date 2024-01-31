@@ -3,7 +3,7 @@ Instance: mp3b8585822d27945de47423af5de9824d
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Aquilea Articulaciones Colageno y Magnesio 375gr"
 Description: "Aquilea Articulaciones Colageno y Magnesio 375gr"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"

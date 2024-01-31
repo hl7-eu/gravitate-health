@@ -5,7 +5,7 @@ Instance: ingredient-for-xenical-orlistat
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active ORLISTAT"
 Description: "ORLISTAT"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "95M8R751W8"
@@ -38,7 +38,7 @@ Instance: ingredient-for-xenical-microcrystallinecellulose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient MICROCRYSTALLINE CELLULOSE"
 Description: "MICROCRYSTALLINE CELLULOSE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "OP1R32D61U"
@@ -67,7 +67,7 @@ Instance: ingredient-for-xenical-sodiumstarchglycolatetypea
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SODIUM STARCH GLYCOLATE TYPE A"
 Description: "SODIUM STARCH GLYCOLATE TYPE A"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "H8AV0SQX4D"
@@ -96,7 +96,7 @@ Instance: ingredient-for-xenical-povidoneunspecified
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient POVIDONE, UNSPECIFIED"
 Description: "POVIDONE, UNSPECIFIED"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "FZ989GH94E"
@@ -125,7 +125,7 @@ Instance: ingredient-for-xenical-sodiumlaurylsulfate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SODIUM LAURYL SULFATE"
 Description: "SODIUM LAURYL SULFATE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "368GB5141J"
@@ -154,7 +154,7 @@ Instance: ingredient-for-xenical-gelatinunspecified
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient GELATIN, UNSPECIFIED"
 Description: "GELATIN, UNSPECIFIED"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "2G86QN327L"
@@ -183,7 +183,7 @@ Instance: ingredient-for-xenical-titaniumdioxide
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient TITANIUM DIOXIDE"
 Description: "TITANIUM DIOXIDE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "15FIX9V2JP"

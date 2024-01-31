@@ -3,7 +3,7 @@ Instance: authorization7f657b63823319aa7da7d2c5939e39e50
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization for Enbrel 25 mg powder for solution for injection 0"
 Description: "Regulated Authorization for Enbrel 25 mg powder for solution for injection 0"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/99/126/003"
