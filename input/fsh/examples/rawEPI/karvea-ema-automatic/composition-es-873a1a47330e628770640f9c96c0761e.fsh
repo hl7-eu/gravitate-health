@@ -709,390 +709,125 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
-   
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:0pt; line-height:0.05pt"><span >&#xa0;</span></p>
-
-    <p style="margin:0pt 12.4pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span >Composici&#243;n de Biktarvy</span></strong></p>
-
-    <p style="margin:0pt 12.4pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span >&#xa0;</span></strong></p>
-
-    <p style="margin:0pt 12.4pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span >Los principios activos son</span></strong> <span >bictegravir, emtricitabina y tenofovir alafenamida. Cada comprimido de</span> <span >Biktarvy contiene bictegravir s&#243;dico equivalente a 50 mg de bictegravir, 200 mg de emtricitabina y tenofovir alafenamida fumarato equivalente a 25 mg de tenofovir alafenamida.</span></p>
-
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span >Los dem&#225;s componentes son</span></strong></p>
-
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><em><span >N&#250;cleo del comprimido</span></em></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span >Celulosa microcristalina, croscarmelosa s&#243;dica, estearato de magnesio.</span></p>
-
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><em><span >Recubrimiento con pel&#237;cula</span></em></p>
-
-    <p style="margin:0pt 3.4pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span >Alcohol polivin&#237;lico, di&#243;xido de titanio (E171), macrogol, talco, &#243;xido de hierro rojo (E172), &#243;xido de hierro negro (E172).</span></p>
-
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span >Aspecto del producto y contenido del envase</span></strong></p>
-
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-
-    <p style="margin:0pt 10.4pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span >Los comprimidos recubiertos con pel&#237;cula de Biktarvy son comprimidos recubiertos con pel&#237;cula de color marr&#243;n purp&#250;reo, con forma de c&#225;psula, marcados en una de las caras del comprimido con &#171;GSI&#187; y en la otra cara del comprimido con &#171;9883&#187;. Biktarvy se presenta en frascos de 30 comprimidos y en envases de 3 frascos, conteniendo cada uno de ellos 30 comprimidos. Cada frasco contiene un desecante de gel de s&#237;lice que debe conservarse en el frasco para ayudar a proteger los comprimidos. El desecante de gel de s&#237;lice est&#225; contenido en un sobre o recipiente separado, y no se debe tragar.</span></p>
-
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span >Puede que solamente est&#233;n comercializados algunos tama&#241;os de envases.</span></p>
-
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span >Titular de la autorizaci&#243;n de comercializaci&#243;n</span></strong></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span >Gilead Sciences Ireland UC</span></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span >Carrigtohill</span></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span >County Cork, T45 DP77</span></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span >Irlanda</span></p>
-
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span >Responsable de la fabricaci&#243;n</span></strong></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span >Gilead Sciences Ireland UC</span></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span >IDA Business &#38; Technology Park</span></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span >Carrigtohill</span></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span >County Cork</span></p>
-
-    <p style="margin:0pt 0pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span >Irlanda</span></p>
-
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-
-    <p style="margin:0pt 6.4pt 0pt 0.1pt; text-align:justify; line-height:115%; font-size:11pt"><span >Pueden solicitar m&#225;s informaci&#243;n respecto a este medicamento dirigi&#233;ndose al representante local del titular de la autorizaci&#243;n de comercializaci&#243;n:</span></p>
-
-    <p style="margin:0pt; line-height:8.5pt"><span >&#xa0;</span></p>
-
-    <table cellspacing="0" cellpadding="0" style="border-collapse:collapse; margin-left:0pt">
-      <tr>
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Belgi&#235;/Belgique/Belgien</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Belgium SPRL-BVBA</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >T&#233;l/Tel: + 32 (0) 24 01 35 50</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-        </td>
-
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Lietuva</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Poland Sp. z o.o.</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel.: + 48 (0) 22 262 8702</span></p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >????????</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Ireland UC</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >???.: + 353 (0) 1 686 1888</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-        </td>
-
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Luxembourg/Luxemburg</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Belgium SPRL-BVBA</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >T&#233;l/Tel: + 32 (0) 24 01 35 50</span></p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Cesk&#225; republika</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences s.r.o.</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel: + 420 (0) 910 871 986</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-        </td>
-
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Magyarorsz&#225;g</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences</span> <span >Ireland UC</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel.: + 353 (0) 1 686 1888</span></p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Danmark</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Sweden AB</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tlf: + 46 (0) 8 5057 1849</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-        </td>
-
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Malta</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Ireland UC</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel: + 353 (0) 1 686 1888</span></p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Deutschland</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences GmbH</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel: + 49 (0) 89 899890-0</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-        </td>
-
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Nederland</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Netherlands B.V.</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel: + 31 (0) 20 718 36 98</span></p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Eesti</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Poland Sp. z o.o.</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel.: +48 (0) 22 262 8702</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-        </td>
-
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Norge</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Sweden AB</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tlf: + 46 (0) 8 5057 1849</span></p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >&#917;&#955;&#955;?&#948;&#945;</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences &#917;&#955;&#955;?&#962; &#924;.&#917;&#928;&#917;.</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >&#932;&#951;&#955;: + 30 (0) 210 8930 100</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-        </td>
-
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >&#214;sterreich</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences GesmbH</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel: + 43 (0) 1 260 830</span></p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Espa&#241;a</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences, S.L.</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel: + 34 (0) 91 378 98 30</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-        </td>
-
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Polska</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Poland Sp. z o.o.</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel.: + 48 (0) 22 262 870</span><span >2</span></p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >France</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >T&#233;l: + 33 (0) 1 46 09 41 00</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-        </td>
-
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Portugal</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences, Lda.</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel: + 351 (0) 21 7928790</span></p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Hrvatska</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Ireland UC</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel: + 353 (0) 1 686 1888</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-        </td>
-
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Rom&#226;nia</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Ireland UC</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel: + 353 (0) 1 686 1888</span></p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Irlanda</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Ireland UC</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel: + 353 (0) 214 825 999</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-        </td>
-
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Slovenija</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Ireland UC</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel: + 353 (0) 1 686 1888</span></p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >&#205;sland</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Sweden AB</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >S&#237;mi: + 46 (0) 8 5057 1849</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:10pt"><span >&#xa0;</span></p>
-        </td>
-
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Slovensk&#225; republika</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Slovakia s.r.o.</span></p>
-
-          <p style="margin:0pt; line-height:115%; font-size:11pt"><span >Tel: + 421 (0) 232 121 210</span></p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Italia</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences S.r.l.</span></p>
-
-          <p style="margin:0pt"><span >Tel: + 39 02 439201</span></p>
-
-          <p style="margin:0pt"><strong><span >&#xa0;</span></strong></p>
-        </td>
-
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Suomi/Finland</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Sweden AB</span></p>
-
-          <p style="margin:0pt"><span >Puh/Tel: + 46 (0) 8 5057 1849</span></p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >&#922;?&#960;&#961;&#959;&#962;</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences &#917;&#955;&#955;?&#962; &#924;.&#917;&#928;&#917;.</span></p>
-
-          <p style="margin:0pt"><span >&#932;&#951;&#955;: + 30 (0) 210 8930 100</span></p>
-
-          <p style="margin:0pt"><strong><span >&#xa0;</span></strong></p>
-        </td>
-
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Sverige</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Sweden A</span><span >B</span></p>
-
-          <p style="margin:0pt"><span >Tel: + 46 (0) 8 5057 1849</span></p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Latvija</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Poland Sp. z o.o.</span></p>
-
-          <p style="margin:0pt"><span >Tel.: + 48 (0) 22 262 8702</span></p>
-        </td>
-
-        <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:216.1pt">
-          <p style="margin:0pt"><strong><span >Reino Unido</span></strong></p>
-
-          <p style="margin:0pt"><span >Gilead Sciences Ltd.</span></p>
-
-          <p style="margin:0pt"><span >Tel: + 44 (0) 8000 113 700</span></p>
-        </td>
-      </tr>
-    </table>
-
-    <p style="margin:0pt; line-height:7.5pt"><span >&#xa0;</span></p>
-
-    <p style="margin:0pt; line-height:10pt"><span >&#xa0;</span></p>
-
-    <p style="margin:0pt; line-height:115%; font-size:11pt"><a name="page9" id="page9"></a><strong><span >Fecha de la &#250;ltima revisi&#243;n de este prospecto:</span></strong></p>
-
-    <p style="margin:0pt; line-height:12.8pt"><span >&#xa0;</span></p>
-
-    <p style="margin:0pt 38.4pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt"><span >La informaci&#243;n detallada de este medicamento est&#225; disponible en la p&#225;gina web de la Agencia Europea de Medicamentos:</span> <a href="http://www.ema.europa.eu/"><span >http://www.ema.europa.eu.</span></a></p>
-
-    <p style="margin:0pt; line-height:10pt"><span >&#xa0;</span></p>
-
-    <p style="margin:0pt; line-height:115%; font-size:11pt"><span >&#xa0;</span></p>            </div>"""
-
-      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Karvea indeholder: </p>
+<ul>
+<li>Aktivt stof: irbesartan. Hver Karvea-tablet 75 mg indeholder 75 mg irbesartan. </li>
+<li>Øvrige indholdsstoffer: lactosemonohydrat, mikrokrystallinsk cellulose, croscarmellosenatrium, 
+magnesiumstearat, kolloid silica, prægelatineret majsstivelse, poloaxamer 188.<br />
+Se punkt 2 ”Aprovel indeholder lactose” </li>
+</ul>
+<p>Udseende og pakningstørrelser 
+Karvea 75 mg tabletter er hvide til mathvide, bikonvekse og ovale med et hjerte præget på den ene 
+side og nummeret 2771 på den anden side. </p>
+<p>Karvea 75 mg tabletter leveres i blisterpakninger af 14, 28, 56 eller 98 tabletter. Der fås også 
+enkeltdosisblisterpakninger med 56 x 1 tablet til hospitalsbrug. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaveren af markedsføringstilladelsen: </p>
+<p>Sanofi Winthrop Industrie 
+82 avenue Raspail 
+94250 Gentilly 
+Frankrig </p>
+<p>Fremstiller: </p>
+<p>SANOFI WINTHROP INDUSTRIE 
+1, rue de la Vierge 
+Ambarès &amp; Lagrave 
+F-33565 Carbon Blanc Cedex - Frankrig </p>
+<p>SANOFI WINTHROP INDUSTRIE 
+30-36 Avenue Gustave Eiffel, BP 7F-37071 Tours Cedex 2 - Frankrig </p>
+<p>Hvis du vil have yderligere oplysninger om Karvea, skal du henvende dig til den lokale repræsentant 
+for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium 
+Tél/Tel: +32 (0)2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91<br />
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel.: +36 1 505 0 
+Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 </p>
+<p>Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4 
+Eesti 
+Swixx Biopharma OÜ 
+Tel: +372 640 10<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη AEBE 
+Τηλ: +30 210 900 16<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 – 0 </p>
+<p>España 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00<br />
+France 
+Sanofi Winthrop Industrie 
+Tél:<br />
+0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda 
+Tel: +351 21 35 89<br />
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078 România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenija 
+Swixx Biopharma d.o.o. 
+Tel: +386 1 235 51<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33<br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800.536 
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija 
+Swixx Biopharma SIA 
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 
+Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere information om Karvea på Det Europæiske Lægemiddelagenturs hjemmeside </p>         </div>"""      
 
 
 

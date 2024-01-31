@@ -151,6 +151,11 @@ RuleSet: d99852efa4d4976d99a584078a2ca48cBundleRuleset
 * entry[=].resource = ppd-9b1d5d261d22694685deb35714ec08ea 
 
 
+// composition-dk-873a1a47330e628770640f9c96c0761e
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-dk-873a1a47330e628770640f9c96c0761e/composition-dk-873a1a47330e628770640f9c96c0761e"
+* entry[=].resource = composition-dk-873a1a47330e628770640f9c96c0761e 
+
+
 // MedicinalProductDefinition
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
 * entry[=].resource = mp873a1a47330e628770640f9c96c0761e 
@@ -164,6 +169,9 @@ RuleSet: d99852efa4d4976d99a584078a2ca48cBundleRuleset
 // ManufacturedItemDefinition
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
 * entry[=].resource = mid-dcaa4d32aa6658a8df831551503e52ee 
+
+
+ 
 
 
  
@@ -258,5 +266,34 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-873a1a47330e628770640f9c96c0761e"
 * entry[0].resource = composition-es-873a1a47330e628770640f9c96c0761e
+
+* insert d99852efa4d4976d99a584078a2ca48cBundleRuleset
+
+
+
+
+
+Instance: bundlepackageleaflet-dk-dcaa4d32aa6658a8df831551503e52ee
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for language dk"
+Description: "ePI document Bundle for Karvea 75 mg tablet Package Leaflet for language dk"
+Usage: #example
+
+
+
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/97/049/001-pt"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #dk
+
+
+
+
+
+// Composition
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-dk-873a1a47330e628770640f9c96c0761e"
+* entry[0].resource = composition-dk-873a1a47330e628770640f9c96c0761e
 
 * insert d99852efa4d4976d99a584078a2ca48cBundleRuleset

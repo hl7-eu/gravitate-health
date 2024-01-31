@@ -22,6 +22,16 @@
 {% set ns.h4 = "4. Efeitos indesejáveis possíveis" %}
 {% set ns.h5 = "5. Como conservar "~row['name'] %}
 {% set ns.h6 = "6. Conteúdo da embalagem e outras informações" %}
+{% elif  row["language"] == "dk"%}
+{% set ns.title = "B. INDLÆGSSEDDEL" %}
+{% set ns.user = "Indlægsseddel: Information til brugeren" %}
+{% set ns.leaflet = "Oversigt over indlægssedlen" %}
+{% set ns.h1 = "1. Virkning og anvendelse"%}
+{% set ns.h2 = "2. Det skal du vide, før du begynder at tage  " ~row['name'] %}
+{% set ns.h3 = "3. Sådan skal du tage "~row['name'] %}
+{% set ns.h4 = "4. Bivirkninger" %}
+{% set ns.h5 = "5. Opbevaring" %}
+{% set ns.h6 = "6. Pakningsstørrelser og yderligere oplysninger" %}
 {% else %}
 {% set ns.title = "B. Package Leaflet" %}
 {% set ns.user = "Package leaflet: Information for the user" %}

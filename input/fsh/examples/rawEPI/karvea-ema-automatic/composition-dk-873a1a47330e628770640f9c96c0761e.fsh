@@ -33,9 +33,9 @@ Usage: #example
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -44,9 +44,9 @@ Usage: #example
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>B. INDLÆGSSEDDEL </p>
 <p>Indlægsseddel: Information til brugeren 
@@ -65,9 +65,9 @@ Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
 1. Virkning og anvendelse 
@@ -79,49 +79,77 @@ Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""
           
 
 * section[=].section[+]
-  * title =  "1. What Karvea is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What Karvea is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Karvea tilhører en medicingruppe, der kaldes angiotensin-II receptorantagonister. Angiotensin-II er et 
 stof, der produceres i kroppen, og som binder sig til receptorer i blodårerne og får dem til at trække sig 
 sammen. Dette medfører, at blodtrykket øges. Karvea forebygger at angiotensin-II binder sig til disse 
 receptorer. Derved afslappes blodårerne, og blodtrykket falder. Karvea mindsker faldende 
 nyrefunktion hos patienter med forhøjet blodtryk og type 2 diabetes (sukkersyge). </p>
-<p>Karvea anvendes til voksne patienter 
-* til at behandle forhøjet blodtryk (hypertension) 
-* til at beskytte nyrerne hos patienter med for højt blodtryk, type 2 diabetes og blodprøver, der viser 
-nedsat nyrefunktion. </p>         </div>"""   
+<p>Karvea anvendes til voksne patienter </p>
+<ul>
+<li>
+<p>til at behandle forhøjet blodtryk (hypertension) </p>
+</li>
+<li>
+<p>til at beskytte nyrerne hos patienter med for højt blodtryk, type 2 diabetes og blodprøver, der viser 
+nedsat nyrefunktion. </p>
+</li>
+</ul>         </div>"""   
           
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take Karvea"
+  * title = "2. Det skal du vide, før du begynder at tage  Karvea"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take Karvea"
+  * code.text = "2. Det skal du vide, før du begynder at tage  Karvea"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Karvea: 
-* hvis du er overfølsom (allergisk) over for irbesartan eller et af de øvrige indholdsstoffer i 
-Karvea (angivet i punkt 6). 
-* hvis du er længere end 3 måneder henne i din graviditet. (Det er også bedre at lade være med 
-at tage Karvea i begyndelsen af graviditeten – se afsnittet om graviditet) 
-* hvis du har diabetes eller nedsat nyrefunktion, og du bliver behandlet med et lægemiddel, 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Karvea: </p>
+<ul>
+<li>
+<p>hvis du er overfølsom (allergisk) over for irbesartan eller et af de øvrige indholdsstoffer i 
+Karvea (angivet i punkt 6). </p>
+</li>
+<li>
+<p>hvis du er længere end 3 måneder henne i din graviditet. (Det er også bedre at lade være med 
+at tage Karvea i begyndelsen af graviditeten – se afsnittet om graviditet) </p>
+</li>
+<li>
+<p>hvis du har diabetes eller nedsat nyrefunktion, og du bliver behandlet med et lægemiddel, 
 der sænker blodtrykket, som indeholder aliskiren  </p>
+</li>
+</ul>
 <p>Advarsler og forsigtighedsregler 
-Kontakt lægen, før du tager Karvea, hvis noget af det følgende gælder for dig: 
-* hvis du får hyppig opkastning eller diarré 
-* hvis du lider af nyreproblemer 
-* hvis du lider af hjerteproblemer 
-* hvis du får Karvea for diabetisk nyresygdom. I dette tilfælde kan lægen tage regelmæssige 
+Kontakt lægen, før du tager Karvea, hvis noget af det følgende gælder for dig: </p>
+<ul>
+<li>
+<p>hvis du får hyppig opkastning eller diarré </p>
+</li>
+<li>
+<p>hvis du lider af nyreproblemer </p>
+</li>
+<li>
+<p>hvis du lider af hjerteproblemer </p>
+</li>
+<li>
+<p>hvis du får Karvea for diabetisk nyresygdom. I dette tilfælde kan lægen tage regelmæssige 
 blodprøver med særlig henblik på at måle kaliumniveauet i blodet, hvis nyrefunktionen er 
 nedsat </p>
-<ul>
-<li>hvis du udvikler lavt blodsukkerniveau (symptomerne kan inkludere svedtendens, svaghed, 
+</li>
+<li>
+<p>hvis du udvikler lavt blodsukkerniveau (symptomerne kan inkludere svedtendens, svaghed, 
 sult, svimmelhed, skælven, hovedpine, rødmen eller bleghed, følelsesløshed, hurtige og 
-hamrende hjerteslag), især hvis du er i behandling for diabetes </li>
-<li>hvis du skal opereres eller bedøves </li>
-<li>hvis du tager en af følgende lægemidler, der anvendes til at behandle forhøjet blodtryk: * en ACE-hæmmer (f.eks. enalapril, lisinopril, remipril) især hvis du har 
-nyreproblemer, der skyldes diabetes. * Aliskiren. </li>
+hamrende hjerteslag), især hvis du er i behandling for diabetes </p>
+</li>
+<li>
+<p>hvis du skal opereres eller bedøves </p>
+</li>
+<li>
+<p>hvis du tager en af følgende lægemidler, der anvendes til at behandle forhøjet blodtryk: * en ACE-hæmmer (f.eks. enalapril, lisinopril, remipril) især hvis du har 
+nyreproblemer, der skyldes diabetes. * Aliskiren. </p>
+</li>
 </ul>
 <p>Din læge vil måske regelmæssigt kontrollere din nyrefunktion, dit blodtryk og mængden af 
 elektrolytter (f.eks. kalium) i dit blod.  </p>
@@ -139,12 +167,24 @@ nylig.  </p>
 <p>Din læge kan blive nødt til at ændre din dosis og/eller tage andre forholdsregler: 
 Hvis du tager en ACE-hæmmer eller aliskiren (se også information under ”Tag ikke Karvea” og 
 ”Advarsler og forsigtighedsregler”).  </p>
-<p>Det kan være nødvendigt at tage blodprøver, hvis du tager: 
-* kaliumtilskud 
-* salterstatninger, der indeholder kalium 
-* kaliumsparende medicin (som visse vanddrivende lægemidler) 
-* medicin, der indeholder lithium 
-* repaglinid (medicin, der anvendes til at sænke blodsukkerniveauet). </p>
+<p>Det kan være nødvendigt at tage blodprøver, hvis du tager: </p>
+<ul>
+<li>
+<p>kaliumtilskud </p>
+</li>
+<li>
+<p>salterstatninger, der indeholder kalium </p>
+</li>
+<li>
+<p>kaliumsparende medicin (som visse vanddrivende lægemidler) </p>
+</li>
+<li>
+<p>medicin, der indeholder lithium </p>
+</li>
+<li>
+<p>repaglinid (medicin, der anvendes til at sænke blodsukkerniveauet). </p>
+</li>
+</ul>
 <p>Hvis du tager en bestemt slags smertestillende medicin, der kaldes non-steroide anti-inflammatoriske 
 lægemidler, kan virkningen af irbesartan nedsættes. </p>
 <p>Brug af Karvea sammen med mad og drikke 
@@ -173,9 +213,9 @@ Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. 
 væsentlige natriumfrit. </p>         </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take Karvea"
+  * title =  "3. Sådan skal du tage Karvea"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take Karvea"
+  * code.text = "3. Sådan skal du tage Karvea"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid Karvea nøjagtigt efter lægen anvisning. Er du i tvivl, så spørg lægen eller på apoteket. </p>
 <p>Sådan tages tabletterne 
@@ -210,9 +250,9 @@ som erstatning for den glemte dosis. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. 
 Nogle af disse bivirkninger kan være alvorlige og kan kræve medicinsk behandling. </p>
@@ -224,10 +264,12 @@ skal du holde op med at tage Karvea og straks søge lægehjælp. </p>
 Meget almindelig: kan påvirke flere end 1 ud af 10 patienter<br />
 Almindelig: kan påvirke op til 1 ud af 10 patienter 
 Ikke almindelig: kan påvirke op til 1 ud af 100 patienter </p>
-<p>Følgende bivirkninger blev indberettet i kliniske forsøg med patienter, der fik Karvea: 
-* Meget almindelig (kan påvirke flere end 1 ud af 10 patienter):  hvis du har højt blodtryk og type 2 
-diabetes med nyresygdom, kan blodprøver vise, at du har for meget kalium i blodet. </p>
+<p>Følgende bivirkninger blev indberettet i kliniske forsøg med patienter, der fik Karvea: </p>
 <ul>
+<li>
+<p>Meget almindelig (kan påvirke flere end 1 ud af 10 patienter):  hvis du har højt blodtryk og type 2 
+diabetes med nyresygdom, kan blodprøver vise, at du har for meget kalium i blodet. </p>
+</li>
 <li>
 <p>Almindelig (kan påvirke op til 1 ud af 10 patienter): svimmelhed, kvalme/opkastning, træthed og 
 blodprøver, der viser en forhøjet mængde af et enzym, der måler muskel- og hjertefunktionen 
@@ -258,9 +300,9 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store Karvea"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store Karvea"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterpakningen efter Exp. 
@@ -271,15 +313,21 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Karvea indeholder: 
-* Aktivt stof: irbesartan. Hver Karvea-tablet 75 mg indeholder 75 mg irbesartan. 
-*  Øvrige indholdsstoffer: lactosemonohydrat, mikrokrystallinsk cellulose, croscarmellosenatrium, 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Karvea indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: irbesartan. Hver Karvea-tablet 75 mg indeholder 75 mg irbesartan. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: lactosemonohydrat, mikrokrystallinsk cellulose, croscarmellosenatrium, 
 magnesiumstearat, kolloid silica, prægelatineret majsstivelse, poloaxamer 188.<br />
 Se punkt 2 ”Aprovel indeholder lactose” </p>
+</li>
+</ul>
 <p>Udseende og pakningstørrelser 
 Karvea 75 mg tabletter er hvide til mathvide, bikonvekse og ovale med et hjerte præget på den ene 
 side og nummeret 2771 på den anden side. </p>

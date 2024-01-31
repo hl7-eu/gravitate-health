@@ -12,7 +12,7 @@ RuleSet: {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]
 {%- for refs in value %} 
 
 
-{% if key != "Composition" and key !="Bundle" and key !="List" -%}
+{% if key != "Composition" and key !="Bundle" and key !="List" and "composition" not in key -%}
 // {{key}}
 {% if "Substance" not in key  -%}
 

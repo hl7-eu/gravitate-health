@@ -12,6 +12,9 @@ RuleSet: 35570a7ffa4ad1ddf8a920b1728d4cd2BundleRuleset
  
 
 
+ 
+
+
 // Ingredient
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-humalog-glycerol"
 * entry[=].resource = ingredient-for-humalog-glycerol 
@@ -87,6 +90,11 @@ RuleSet: 35570a7ffa4ad1ddf8a920b1728d4cd2BundleRuleset
 * entry[=].resource = ppd-03a3a81da9e0b9a5bb33d75251bb5234 
 
 
+// composition-dk-d33868162d255ced115cecbbf188aab4
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-dk-d33868162d255ced115cecbbf188aab4/composition-dk-d33868162d255ced115cecbbf188aab4"
+* entry[=].resource = composition-dk-d33868162d255ced115cecbbf188aab4 
+
+
 // MedicinalProductDefinition
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpd33868162d255ced115cecbbf188aab4"
 * entry[=].resource = mpd33868162d255ced115cecbbf188aab4 
@@ -95,6 +103,12 @@ RuleSet: 35570a7ffa4ad1ddf8a920b1728d4cd2BundleRuleset
 // ManufacturedItemDefinition
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-a38f06714db0c27b2ba704652e3f08c5"
 * entry[=].resource = mid-a38f06714db0c27b2ba704652e3f08c5 
+
+
+ 
+
+
+ 
 
 
 
@@ -122,5 +136,34 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-d33868162d255ced115cecbbf188aab4"
 * entry[0].resource = composition-en-d33868162d255ced115cecbbf188aab4
+
+* insert 35570a7ffa4ad1ddf8a920b1728d4cd2BundleRuleset
+
+
+
+
+
+Instance: bundlepackageleaflet-dk-a38f06714db0c27b2ba704652e3f08c5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet for language dk"
+Description: "ePI document Bundle for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet for language dk"
+Usage: #example
+
+
+
+
+* identifier[+].system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "ead66ba9b718bc52a45f29a519e8e302"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #dk
+
+
+
+
+
+// Composition
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-dk-d33868162d255ced115cecbbf188aab4"
+* entry[0].resource = composition-dk-d33868162d255ced115cecbbf188aab4
 
 * insert 35570a7ffa4ad1ddf8a920b1728d4cd2BundleRuleset

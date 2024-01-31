@@ -4,15 +4,6 @@
 RuleSet: 6eb523b7a88cd6dcee848368833cbd08BundleRuleset 
 
 
-// composition-es-16598f252d07b4784b82ba43cf9e847e
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-es-16598f252d07b4784b82ba43cf9e847e/composition-es-16598f252d07b4784b82ba43cf9e847e"
-* entry[=].resource = composition-es-16598f252d07b4784b82ba43cf9e847e 
-
-
- 
-
-
- 
 
 
 // Ingredient
@@ -85,6 +76,16 @@ RuleSet: 6eb523b7a88cd6dcee848368833cbd08BundleRuleset
 * entry[=].resource = mra-7c9b97127f73ff3605a10eb1c2cc24d1 
 
 
+// composition-pt-16598f252d07b4784b82ba43cf9e847e
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-pt-16598f252d07b4784b82ba43cf9e847e/composition-pt-16598f252d07b4784b82ba43cf9e847e"
+* entry[=].resource = composition-pt-16598f252d07b4784b82ba43cf9e847e 
+
+
+// composition-dk-16598f252d07b4784b82ba43cf9e847e
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-dk-16598f252d07b4784b82ba43cf9e847e/composition-dk-16598f252d07b4784b82ba43cf9e847e"
+* entry[=].resource = composition-dk-16598f252d07b4784b82ba43cf9e847e 
+
+
 // PackagedProductDefinition
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-2977a2afce16a0bd914b8d242dd126b5"
 * entry[=].resource = ppd-2977a2afce16a0bd914b8d242dd126b5 
@@ -98,6 +99,12 @@ RuleSet: 6eb523b7a88cd6dcee848368833cbd08BundleRuleset
 // ManufacturedItemDefinition
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
 * entry[=].resource = mid-49178f16170ee8a6bc2a4361c1748d5f 
+
+
+ 
+
+
+ 
 
 
  
@@ -160,5 +167,63 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-16598f252d07b4784b82ba43cf9e847e"
 * entry[0].resource = composition-es-16598f252d07b4784b82ba43cf9e847e
+
+* insert 6eb523b7a88cd6dcee848368833cbd08BundleRuleset
+
+
+
+
+
+Instance: bundlepackageleaflet-dk-49178f16170ee8a6bc2a4361c1748d5f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for Dovato 50 mg/300 mg film-coated tablets Package Leaflet for language dk"
+Description: "ePI document Bundle for Dovato 50 mg/300 mg film-coated tablets Package Leaflet for language dk"
+Usage: #example
+
+
+
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/19/1370/001"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #dk
+
+
+
+
+
+// Composition
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-dk-16598f252d07b4784b82ba43cf9e847e"
+* entry[0].resource = composition-dk-16598f252d07b4784b82ba43cf9e847e
+
+* insert 6eb523b7a88cd6dcee848368833cbd08BundleRuleset
+
+
+
+
+
+Instance: bundlepackageleaflet-pt-49178f16170ee8a6bc2a4361c1748d5f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for Dovato 50 mg/300 mg film-coated tablets Package Leaflet for language pt"
+Description: "ePI document Bundle for Dovato 50 mg/300 mg film-coated tablets Package Leaflet for language pt"
+Usage: #example
+
+
+
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/19/1370/001"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+
+
+
+
+// Composition
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-pt-16598f252d07b4784b82ba43cf9e847e"
+* entry[0].resource = composition-pt-16598f252d07b4784b82ba43cf9e847e
 
 * insert 6eb523b7a88cd6dcee848368833cbd08BundleRuleset

@@ -23,6 +23,9 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
  
 
 
+ 
+
+
 // Ingredient
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-biktarvy-bictegravirsodium"
 * entry[=].resource = ingredient-for-biktarvy-bictegravirsodium 
@@ -78,6 +81,11 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
 * entry[=].resource = composition-en-2a9c4333cfd126f2e7b73ad3cafd6949 
 
 
+// composition-dk-2a9c4333cfd126f2e7b73ad3cafd6949
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/composition-dk-2a9c4333cfd126f2e7b73ad3cafd6949/composition-dk-2a9c4333cfd126f2e7b73ad3cafd6949"
+* entry[=].resource = composition-dk-2a9c4333cfd126f2e7b73ad3cafd6949 
+
+
 // PackagedProductDefinition
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-e34e4b65abd3fd8e667db05606cc25a9"
 * entry[=].resource = ppd-e34e4b65abd3fd8e667db05606cc25a9 
@@ -101,6 +109,9 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
 // ManufacturedItemDefinition
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-94a96e39cfdcd8b378d12dd4063065f9"
 * entry[=].resource = mid-94a96e39cfdcd8b378d12dd4063065f9 
+
+
+ 
 
 
  
@@ -195,5 +206,34 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-2a9c4333cfd126f2e7b73ad3cafd6949"
 * entry[0].resource = composition-es-2a9c4333cfd126f2e7b73ad3cafd6949
+
+* insert 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
+
+
+
+
+
+Instance: bundlepackageleaflet-dk-94a96e39cfdcd8b378d12dd4063065f9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language dk"
+Description: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language dk"
+Usage: #example
+
+
+
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/18/1289/001"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #dk
+
+
+
+
+
+// Composition
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-dk-2a9c4333cfd126f2e7b73ad3cafd6949"
+* entry[0].resource = composition-dk-2a9c4333cfd126f2e7b73ad3cafd6949
 
 * insert 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
