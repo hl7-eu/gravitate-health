@@ -173,7 +173,7 @@ Usage: #example
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <div>
 
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:9pt"><strong><span style="font-family:Times New Roman; font-size:9pt;">&#xa0;</span></strong></p>
+    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:9pt"><strong><span style=" font-size:9pt;">&#xa0;</span></strong></p>
 
  
 
@@ -229,7 +229,7 @@ Usage: #example
 
  
 
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:9pt"><span style="font-family:Times New Roman; font-size:9pt">&#xa0;</span></p>
+    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:9pt"><span style=" font-size:9pt">&#xa0;</span></p>
 
  
 
@@ -353,11 +353,11 @@ Usage: #example
 
  
 
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span >En caso de tratamiento concomitante de HIPÉRICO ARKOPHARMA con medicamentos anticoagulantes (como fenprocumona, warfarina, clopidogrel, ácido acetilsalicílico y otros antireumáticos no esteroideos) no puede excluirse que el efecto de estas preparaciones se vea aumentado</span><span style="font-family:Times New Roman; font-size:9pt">.</span></p>
+    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span >En caso de tratamiento concomitante de HIPÉRICO ARKOPHARMA con medicamentos anticoagulantes (como fenprocumona, warfarina, clopidogrel, ácido acetilsalicílico y otros antireumáticos no esteroideos) no puede excluirse que el efecto de estas preparaciones se vea aumentado</span><span style=" font-size:9pt">.</span></p>
 
  
 
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:9pt"><span style="font-family:Times New Roman; font-size:9pt">&#xa0;</span></p>
+    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:9pt"><span style=" font-size:9pt">&#xa0;</span></p>
 
  
 
@@ -413,7 +413,7 @@ Usage: #example
 
  
 
-    <p style="margin:0pt; line-height:115%; font-size:11pt"><span >No se han realizado estudios sobre la capacidad de conducir y el uso de máquinas</span><span style="font-family:Times New Roman; font-size:9pt">.</span></p>
+    <p style="margin:0pt; line-height:115%; font-size:11pt"><span >No se han realizado estudios sobre la capacidad de conducir y el uso de máquinas</span><span style=" font-size:9pt">.</span></p>
 
   </div>
         </div>"""
@@ -501,7 +501,7 @@ Usage: #example
 
  
 
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span >En caso de olvido de una dosis, tome el medicamento lo antes posible continuando el tratamiento de la forma prescrita. Sin embargo, si está próxima la siguiente dosis, es mejor que no tome la dosis olvidada y espere a la siguiente. En ningún caso tome una dosis doble para compensar la dosis olvidada</span><span style="font-family:Times New Roman; font-size:9pt">.</span></p>   
+    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span >En caso de olvido de una dosis, tome el medicamento lo antes posible continuando el tratamiento de la forma prescrita. Sin embargo, si está próxima la siguiente dosis, es mejor que no tome la dosis olvidada y espere a la siguiente. En ningún caso tome una dosis doble para compensar la dosis olvidada</span><span style=" font-size:9pt">.</span></p>   
         </div>"""
 
          
@@ -540,7 +540,7 @@ Usage: #example
 
  
 
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:9pt"><span style="font-family:Times New Roman; font-size:9pt">&#xa0;</span></p>
+    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:9pt"><span style=" font-size:9pt">&#xa0;</span></p>
 
   </div>
         </div>"""
@@ -588,7 +588,7 @@ Usage: #example
 
  
 
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span >Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesite en el Punto SIGRE</span> <span >de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma, ayudará a proteger el medio ambiente</span><span style="font-family:Times New Roman; font-size:9pt">.</span></p>
+    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span >Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesite en el Punto SIGRE</span> <span >de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma, ayudará a proteger el medio ambiente</span><span style=" font-size:9pt">.</span></p>
 
   </div>
         </div>"""
