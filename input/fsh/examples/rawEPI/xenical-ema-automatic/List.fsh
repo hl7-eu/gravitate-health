@@ -1,19 +1,10 @@
 
 
 
-Instance: list-xenical
-InstanceOf: List
-Usage: #example
-Title: "List of xenical Package Leaflets"
-Description: "List of xenical Package Leaflets"
-
-* status = #current
-* mode = #working
-
-* code = $example-pi-list-types#00000021213 "ePI Master List"
+RuleSet: 37d610f9c96d541562699215b0864126ListRuleset
 
 
-* title = "List of all processed ePIs associated with xenical"
+* title = "List of all raw ePIs associated with xenical"
 
 
 
@@ -54,3 +45,19 @@ Description: "List of xenical Package Leaflets"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "es"
+
+
+
+Instance: list-xenical
+InstanceOf: List
+Usage: #example
+Title: "List of xenical Package Leaflets Raw"
+Description: "List of xenical Package Leaflets Raw"
+
+* status = #current
+* mode = #working
+
+* code = $example-pi-list-types#00000021213 "ePI Master List"
+
+
+* insert 37d610f9c96d541562699215b0864126ListRuleset

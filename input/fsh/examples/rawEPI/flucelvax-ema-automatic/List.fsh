@@ -1,19 +1,10 @@
 
 
 
-Instance: list-flucelvax
-InstanceOf: List
-Usage: #example
-Title: "List of flucelvax Package Leaflets"
-Description: "List of flucelvax Package Leaflets"
-
-* status = #current
-* mode = #working
-
-* code = $example-pi-list-types#00000021213 "ePI Master List"
+RuleSet: 56a32a5ee239fc834b47c10db1faa3fdListRuleset
 
 
-* title = "List of all processed ePIs associated with flucelvax"
+* title = "List of all raw ePIs associated with flucelvax"
 
 
 
@@ -54,3 +45,19 @@ Description: "List of flucelvax Package Leaflets"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "es"
+
+
+
+Instance: list-flucelvax
+InstanceOf: List
+Usage: #example
+Title: "List of flucelvax Package Leaflets Raw"
+Description: "List of flucelvax Package Leaflets Raw"
+
+* status = #current
+* mode = #working
+
+* code = $example-pi-list-types#00000021213 "ePI Master List"
+
+
+* insert 56a32a5ee239fc834b47c10db1faa3fdListRuleset

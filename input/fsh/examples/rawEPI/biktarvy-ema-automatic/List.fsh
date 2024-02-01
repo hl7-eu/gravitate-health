@@ -1,19 +1,10 @@
 
 
 
-Instance: list-biktarvy
-InstanceOf: List
-Usage: #example
-Title: "List of biktarvy Package Leaflets"
-Description: "List of biktarvy Package Leaflets"
-
-* status = #current
-* mode = #working
-
-* code = $example-pi-list-types#00000021213 "ePI Master List"
+RuleSet: 63b15a3bb9d18a00ecd0962bc011c765ListRuleset
 
 
-* title = "List of all processed ePIs associated with biktarvy"
+* title = "List of all raw ePIs associated with biktarvy"
 
 
 
@@ -72,3 +63,19 @@ Description: "List of biktarvy Package Leaflets"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "dk"
+
+
+
+Instance: list-biktarvy
+InstanceOf: List
+Usage: #example
+Title: "List of biktarvy Package Leaflets Raw"
+Description: "List of biktarvy Package Leaflets Raw"
+
+* status = #current
+* mode = #working
+
+* code = $example-pi-list-types#00000021213 "ePI Master List"
+
+
+* insert 63b15a3bb9d18a00ecd0962bc011c765ListRuleset

@@ -1,19 +1,10 @@
 
 
 
-Instance: list-dovato
-InstanceOf: List
-Usage: #example
-Title: "List of dovato Package Leaflets"
-Description: "List of dovato Package Leaflets"
-
-* status = #current
-* mode = #working
-
-* code = $example-pi-list-types#00000021213 "ePI Master List"
+RuleSet: 6eb523b7a88cd6dcee848368833cbd08ListRuleset
 
 
-* title = "List of all processed ePIs associated with dovato"
+* title = "List of all raw ePIs associated with dovato"
 
 
 
@@ -72,3 +63,19 @@ Description: "List of dovato Package Leaflets"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
+
+
+
+Instance: list-dovato
+InstanceOf: List
+Usage: #example
+Title: "List of dovato Package Leaflets Raw"
+Description: "List of dovato Package Leaflets Raw"
+
+* status = #current
+* mode = #working
+
+* code = $example-pi-list-types#00000021213 "ePI Master List"
+
+
+* insert 6eb523b7a88cd6dcee848368833cbd08ListRuleset

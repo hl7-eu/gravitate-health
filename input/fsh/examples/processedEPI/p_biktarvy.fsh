@@ -1021,27 +1021,10 @@ Description:  "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets P
 Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
-
-															 
-					   
-																						
-																			  
-			   
-
 * identifier.value = "b22ec2e7263c64ba0d74e2718a1859op"
 
 * status = #final
-									   
-				  
-									
 
-
-				
-
-
-			  
-																					   
-																		  
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
@@ -1052,9 +1035,6 @@ Usage: #example
  
  // Reference to Organization: MAH
 * author = Reference(mah-715f8a161ed438d0584510e5b4512caa) 
-
-																	   
-												
 
 
 * title = "TEST PURPOSES ONLY - Biktarvy 50 mg/200 mg/25 mg film-coated tablets"

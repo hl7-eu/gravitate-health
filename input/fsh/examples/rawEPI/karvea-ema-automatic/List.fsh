@@ -1,19 +1,10 @@
 
 
 
-Instance: list-karvea
-InstanceOf: List
-Usage: #example
-Title: "List of karvea Package Leaflets"
-Description: "List of karvea Package Leaflets"
-
-* status = #current
-* mode = #working
-
-* code = $example-pi-list-types#00000021213 "ePI Master List"
+RuleSet: d99852efa4d4976d99a584078a2ca48cListRuleset
 
 
-* title = "List of all processed ePIs associated with karvea"
+* title = "List of all raw ePIs associated with karvea"
 
 
 
@@ -72,3 +63,19 @@ Description: "List of karvea Package Leaflets"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "dk"
+
+
+
+Instance: list-karvea
+InstanceOf: List
+Usage: #example
+Title: "List of karvea Package Leaflets Raw"
+Description: "List of karvea Package Leaflets Raw"
+
+* status = #current
+* mode = #working
+
+* code = $example-pi-list-types#00000021213 "ePI Master List"
+
+
+* insert d99852efa4d4976d99a584078a2ca48cListRuleset

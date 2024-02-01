@@ -1,19 +1,10 @@
 
 
 
-Instance: list-humalog
-InstanceOf: List
-Usage: #example
-Title: "List of humalog Package Leaflets"
-Description: "List of humalog Package Leaflets"
-
-* status = #current
-* mode = #working
-
-* code = $example-pi-list-types#00000021213 "ePI Master List"
+RuleSet: 35570a7ffa4ad1ddf8a920b1728d4cd2ListRuleset
 
 
-* title = "List of all processed ePIs associated with humalog"
+* title = "List of all raw ePIs associated with humalog"
 
 
 
@@ -54,3 +45,19 @@ Description: "List of humalog Package Leaflets"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "dk"
+
+
+
+Instance: list-humalog
+InstanceOf: List
+Usage: #example
+Title: "List of humalog Package Leaflets Raw"
+Description: "List of humalog Package Leaflets Raw"
+
+* status = #current
+* mode = #working
+
+* code = $example-pi-list-types#00000021213 "ePI Master List"
+
+
+* insert 35570a7ffa4ad1ddf8a920b1728d4cd2ListRuleset
