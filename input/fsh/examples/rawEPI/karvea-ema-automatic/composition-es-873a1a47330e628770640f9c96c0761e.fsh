@@ -156,7 +156,7 @@ Usage: #example
 
     <p style="margin:0pt 14.4pt 0pt 0pt; line-height:117%; font-size:11pt"><strong><span >No tome Biktarvy</span></strong></p>
 
-    <p style="margin:0pt 14.4pt 0pt 0pt; line-height:117%; font-size:11pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt 14.4pt 0pt 0pt; line-height:117%; font-size:11pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 14.4pt 0pt 9.8pt; text-indent:0pt; text-align:justify; padding-left:19.2pt;  font-size:11pt"><strong><span >Si es al&#233;rgico a bictegravir, emtricitabina, tenofovir alafenamida</span></strong> <span >o a alguno de los dem&#225;s</span> <span >componentes de este medicamento (incluidos en la secci&#243;n 6 de este prospecto).</span></li>
@@ -194,7 +194,7 @@ Usage: #example
       <li style="margin:0pt 4.4pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt;  font-size:11pt"><strong><span >Si tiene problemas hep&#225;ticos o antecedentes de enfermedad hep&#225;tica, incluida la hepatitis.</span></strong> <span >Los pacientes que padecen de enfermedades hep&#225;ticas, como la hepatitis B o C cr&#243;nica, y est&#225;n en tratamiento con antirretrovirales tienen m&#225;s riesgo de presentar complicaciones hep&#225;ticas graves y potencialmente mortales. Si tiene infecci&#243;n por el virus de la hepatitis B, su m&#233;dico evaluar&#225; detenidamente la mejor pauta terap&#233;utica para usted.</span></li>
     </ul>
 
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 25.4pt 0pt 8.9pt; text-indent:0pt; text-align:justify; padding-left:19.2pt;  font-size:11pt"><strong><span >Si tiene hepatitis B.</span></strong> <span >Los problemas hep&#225;ticos pueden empeorar despu&#233;s de dejar de tomar</span> <span >Biktarvy.</span></li>
@@ -306,7 +306,7 @@ Usage: #example
       <li style="margin:0pt 0pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt;  font-size:11pt"><strong><span >medicamentos para la curaci&#243;n de &#250;lceras</span></strong> <span >que contengan sucralfato</span></li>
     </ul>
 
-    <p style="margin:0pt 0pt 0pt 28.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt 0pt 0pt 28.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 42pt 0pt 14.1pt; text-indent:0pt; text-align:justify;  font-size:11pt"><strong><span >Informe a su m&#233;dico si est&#225; tomando alguno de estos medicamentos.</span></strong> <span >No interrumpa su</span> <span >tratamiento sin consultar con su m&#233;dico.</span></li>
@@ -322,7 +322,7 @@ Usage: #example
       <li style="margin:0pt 0pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt;  font-size:11pt"><strong><span >suplementos de minerales</span></strong> <span >o</span> <strong><span >de vitaminas,</span></strong> <span >que contengan magnesio o hierro</span></li>
     </ul>
 
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <div type="circle" style="margin: 0pt; margin-left: 2em; padding-left: 0pt">
       <ul type="circle" style="margin:0pt; padding-left:0pt">
@@ -493,13 +493,13 @@ Usage: #example
       <li style="margin:0pt 5.4pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt;  font-size:11pt"><strong><span >Cualquier signo de inflamaci&#243;n o de infecci&#243;n.</span></strong> <span >En algunos pacientes con infecci&#243;n avanzada</span> <span >por el VIH (sida) y antecedentes de infecciones oportunistas (infecciones que ocurren en personas con un sistema inmunitario d&#233;bil), se pueden producir signos y s&#237;ntomas de inflamaci&#243;n por infecciones previas poco despu&#233;s de iniciar el tratamiento contra el VIH. Se cree que estos s&#237;ntomas se deben a una mejor&#237;a de la respuesta inmunitaria del organismo, que le permite combatir infecciones que podr&#237;an haber estado presentes sin s&#237;ntomas obvios.</span></li>
     </ul>
 
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 7.4pt 0pt 8.85pt; text-indent:0pt; text-align:justify; padding-left:19.25pt;  font-size:11pt"><span >Se pueden producir tambi&#233;n</span> <strong><span >trastornos autoinmunitarios,</span></strong> <span >en los que el sistema inmunitario ataca a los tejidos sanos del organismo, despu&#233;s de que empiece a tomar medicamentos para la infecci&#243;n por el VIH. Los trastornos autoinmunitarios se pueden producir muchos meses despu&#233;s del inicio del tratamiento. Est&#233; atento a cualquier s&#237;ntoma de infecci&#243;n u otros s&#237;ntomas, como:</span></li>
     </ul>
 
-    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <div type="circle" style="margin: 0pt; margin-left: 2em; padding-left: 0pt">
       <ul type="circle" style="margin:0pt; padding-left:0pt">
@@ -553,67 +553,67 @@ Usage: #example
       <li style="margin:0pt 0pt 0pt 8.85pt; text-indent:0pt; padding-left:19.25pt;  font-size:11pt"><a name="page6" id="page6"></a><span >v&#243;mitos</span></li>
     </ul>
 
-    <p style="margin:0pt; line-height:0.7pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt; line-height:0.7pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt;  font-size:11pt"><span >dolor de est&#243;mago</span></li>
     </ul>
 
-    <p style="margin:0pt; line-height:0.7pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt; line-height:0.7pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt;  font-size:11pt"><span >problemas digestivos que generan molestias despu&#233;s de las comidas (</span><em><span >dispepsia</span></em><span >)</span></li>
     </ul>
 
-    <p style="margin:0pt; line-height:0.7pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt; line-height:0.7pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt;  font-size:11pt"><span >gases (</span><em><span >flatulencia</span></em><span >)</span></li>
     </ul>
 
-    <p style="margin:0pt; line-height:0.7pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt; line-height:0.7pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt;  font-size:11pt"><span >hinchaz&#243;n de la cara, labios, lengua o garganta (</span><em><span >angioedema</span></em><span >)</span></li>
     </ul>
 
-    <p style="margin:0pt; line-height:0.7pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt; line-height:0.7pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt;  font-size:11pt"><span >picaz&#243;n (</span><em><span >prurito</span></em><span >)</span></li>
     </ul>
 
-    <p style="margin:0pt; line-height:0.7pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt; line-height:0.7pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt;  font-size:11pt"><span >erupci&#243;n</span></li>
     </ul>
 
-    <p style="margin:0pt; line-height:0.7pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt; line-height:0.7pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt;  font-size:11pt"><span >habones (</span><em><span >urticaria</span></em><span >)</span></li>
     </ul>
 
-    <p style="margin:0pt; line-height:0.7pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt; line-height:0.7pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt;  font-size:11pt"><span >dolor en las articulaciones (</span><em><span >artralgia</span></em><span >)</span></li>
     </ul>
 
-    <p style="margin:0pt; line-height:0.7pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt; line-height:0.7pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt;  font-size:11pt"><span >comportamiento suicida</span></li>
     </ul>
 
-    <p style="margin:0pt; line-height:0.7pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt; line-height:0.7pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt;  font-size:11pt"><span >ansiedad</span></li>
     </ul>
 
-    <p style="margin:0pt; line-height:0.7pt"><span style=" font-size:11pt">&#xa0;</span></p>
+    <p style="margin:0pt; line-height:0.7pt"><span style="font-size:11pt">&#xa0;</span></p>
 
     <ul type="disc" style="margin:0pt; padding-left:0pt">
       <li style="margin:0pt 0pt 0pt 8.9pt; text-indent:0pt; padding-left:19.2pt;  font-size:11pt"><span >trastornos del sue&#241;o</span></li>

@@ -55,7 +55,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p style="margin:3.5pt 0pt 0pt 7.1pt; text-align:center; line-height:115%; font-size:11pt"><strong><span >Prospecto: informaci&#243;n para el usuario</span></strong></p>
 
-    <p style="margin:0.4pt 0pt 0pt 7.1pt; text-align:center; line-height:5pt"><span style=" font-size:5pt">&#xa0;</span></p>
+    <p style="margin:0.4pt 0pt 0pt 7.1pt; text-align:center; line-height:5pt"><span style="font-size:5pt">&#xa0;</span></p>
 
     <p style="margin:0pt 0pt 0pt 7.1pt; text-align:center; line-height:10pt"><span >&#xa0;</span></p>
 
