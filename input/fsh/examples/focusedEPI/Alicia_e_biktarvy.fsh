@@ -1,3 +1,8 @@
+Instance: binary1
+InstanceOf: Binary
+* id = "binary1"
+* contentType = #image/png
+* data = "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mJ8BwEAAggBBMIBEP8AAAAASUVORK5CYII="
 
 Instance: enhanced-composition1846d2b12fecbbb0310cd8c196c98a58
 InstanceOf: CompositionUvEpi
@@ -137,7 +142,7 @@ transcriptase inhibitor (NtRTI)</li>
 <p>Biktarvy is a single tablet for the treatment <span class="indication highlight mock-lib">of human immunodeficiency virus 1 (HIV-1) infection in
 adults, adolescents and children 2 years of age and older, who weigh at least 14 kg.</span></p>
 <p>Biktarvy reduces the amount of HIV in your body. This will improve your immune system and reduce
-the risk of developing illnesses linked to HIV infection.</p>         </div>"""   
+the risk of developing illnesses linked to HIV infection.<img alt="White Pixel Image" src="#image"/></p>         </div>"""   
           
 
              
