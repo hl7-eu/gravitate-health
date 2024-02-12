@@ -4,6 +4,8 @@ InstanceOf: CompositionUvEpi
 Title: "Composition for Karvea Package Leaflet - Enhanced for Pedro"
 Description:  "Composition for Karvea Package Leaflet - Enhanced for Pedro"
 Usage: #inline
+* contained = mock-lib
+
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
 * language = #en

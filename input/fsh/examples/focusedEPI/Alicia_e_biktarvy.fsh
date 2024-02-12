@@ -5,6 +5,7 @@ Title: "[Enhanced-Alicia] Composition for Biktarvy 50 mg/200 mg/25 mg film-coate
 Description:  "[Enhanced-Alicia] Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
 Usage: #inline
 
+* contained = mock-lib
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "EU/1/18/1289/001"
 
@@ -133,7 +134,7 @@ inhibitor (NRTI)</li>
 <li>tenofovir alafenamide, an antiretroviral medicine of a type known as a nucleotide reverse
 transcriptase inhibitor (NtRTI)</li>
 </ul>
-<p>Biktarvy is a single tablet for the treatment <span class="indication highlight">of human immunodeficiency virus 1 (HIV-1) infection in
+<p>Biktarvy is a single tablet for the treatment <span class="indication highlight mock-lib">of human immunodeficiency virus 1 (HIV-1) infection in
 adults, adolescents and children 2 years of age and older, who weigh at least 14 kg.</span></p>
 <p>Biktarvy reduces the amount of HIV in your body. This will improve your immune system and reduce
 the risk of developing illnesses linked to HIV infection.</p>         </div>"""   
@@ -152,7 +153,7 @@ ingredients of this medicine (listed in section 6).</li>
 <li><p>If you are currently taking any of the following medicines:</p>
 <ul>
 <li>rifampicin used to treat some bacterial infections such as tuberculosis</li>
-<li><span class="contra-indication-hypericum highlight">St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and
+<li><span class="contra-indication-hypericum highlight mock-lib">St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and
 anxiety, or products that contain it.</span></li>
 </ul>
 </li>
@@ -162,11 +163,11 @@ anxiety, or products that contain it.</span></li>
 <p><strong>Warnings and precautions</strong></p>
 <p><strong>Talk to your doctor before taking Biktarvy:</strong></p>
 <ul>
-<li><span class="liver collapse">If you have liver problems or a history of liver disease, including hepatitis. Patients with
+<li><span class="liver collapse mock-lib">If you have liver problems or a history of liver disease, including hepatitis. Patients with
 liver disease including chronic hepatitis B or C, who are treated with antiretrovirals, have a
 higher risk of severe and potentially fatal liver complications. If you have hepatitis B infection,
 your doctor will carefully consider the best treatment regimen for you.</span></li>
-<li><p><span class="hepatitisB collapse">If you have hepatitis B infection. Liver problems may become worse after you stop taking
+<li><p><span class="hepatitisB collapse mock-lib">If you have hepatitis B infection. Liver problems may become worse after you stop taking
 Biktarvy</span></p>
 </li>
 <li><p>Do not stop taking Biktarvy if you have hepatitis B. Talk to your doctor first. For more details, see
@@ -247,7 +248,7 @@ antacids or supplements containing aluminium and/or magnesium. Or you can take B
 food at least 2 hours after.</p>
 <p>Iron supplements: you will need to take Biktarvy at least 2 hours before iron supplements, or you
 can take them together with food.</p>
-<span class="pregnancyCategory highlight"><p><strong>Pregnancy and breast-feeding</strong></p>
+<span class="pregnancyCategory highlight mock-lib"><p><strong>Pregnancy and breast-feeding</strong></p>
 <ul>
 <li>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby,
 ask your doctor or pharmacist for advice before taking this medicine.</li>
@@ -258,7 +259,7 @@ risks of your antiretroviral therapy to you and your child.</li>
 other diagnostic tests to monitor the development of your child. In children whose mothers took
 nucleoside reverse transcriptase inhibitors (NRTIs) during pregnancy, the benefit from the protection
 against HIV outweighed the risk of side effects.</p>
-<span class="breastfeedingCategory highlight"><p><strong>Do not breast-feed during treatment with Biktarvy.</strong> This is because some of the active substances
+<span class="breastfeedingCategory highlight mock-lib"><p><strong>Do not breast-feed during treatment with Biktarvy.</strong> This is because some of the active substances
 in this medicine pass into human breast milk. Breast-feeding is not recommended in women living
 with HIV because HIV infection can be passed on to the baby in breast milk. If you are
 breast-feeding, or thinking about breast-feeding, you should discuss it with your doctor as soon as

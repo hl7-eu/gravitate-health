@@ -5,6 +5,9 @@ Title: "[Enhanced-Alicia] Composition for Dovato 50 mg/300 mg film-coated tablet
 Description:  "[Enhanced-Alicia] Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
 Usage: #inline
 
+* contained = mock-lib
+
+
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "xx"
 

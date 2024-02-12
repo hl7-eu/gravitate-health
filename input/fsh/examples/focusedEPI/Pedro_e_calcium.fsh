@@ -5,6 +5,8 @@ Title: "[Enhanced-Pedro] Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI 
 Description:  "[Enhanced-Pedro] Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet"
 Usage: #inline
 
+* contained = mock-lib
+
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "cc"
 

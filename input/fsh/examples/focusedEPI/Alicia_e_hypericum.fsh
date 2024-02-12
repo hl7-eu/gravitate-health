@@ -5,6 +5,9 @@ Title: "[Enhanced-Alicia] Composition for HIPÉRICO ARKOPHARMA cápsulas duras P
 Description:  "[Enhanced-Alicia] Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
 Usage: #inline
 
+* contained = mock-lib
+
+
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "cc"
 

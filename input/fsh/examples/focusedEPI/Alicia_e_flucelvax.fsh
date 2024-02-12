@@ -5,6 +5,9 @@ Title: "[Enhanced-Alicia] Composition for asdad Package Leaflet"
 Description:  "[Enhanced-Alicia] Composition for asdad Package Leaflet"
 Usage: #inline
 
+* contained = mock-lib
+
+
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "asdasd"
 

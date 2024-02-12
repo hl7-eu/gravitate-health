@@ -1,18 +1,12 @@
-Instance: mock-lib
-InstanceOf: Library
 
-
-* status = #draft
-* type = #logic-library
-* experimental = true
-* content.data = "Y29kZSBkdW1teQ=="
-* content.contentType = #application/javascript
 
 Instance: enhanced-compositionf4d45353edcb21af3718d3a0df94a4d8
 InstanceOf: CompositionUvEpi
 Title: "[Enhanced] Composition for Karvea Package Leaflet"
 Description:  "[Enhanced] Composition for Karvea Package Leaflet"
 Usage: #inline
+* contained = mock-lib
+
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
 * language = #en
@@ -86,8 +80,6 @@ Usage: #inline
 
 
 
-* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
-* extension[=].valueReference = Reference(mock-lib)
 
 
 * section[+].
