@@ -278,7 +278,8 @@ possible.</p></span>
 and do not use any tools or machines.</p>
 <p><strong>Biktarvy contains sodium</strong></p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially
-‘sodium-free’.</p>         </div>"""   
+‘sodium-free’.</p>        
+<img alt="How to take medication" class="mock-lib" src="https://github.com/hl7-eu/gravitate-health/blob/master/input/images/test-image.jpeg"/> </div>"""   
                     
 * section[=].section[+]
   * title = "3. How to take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
