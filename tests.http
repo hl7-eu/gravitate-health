@@ -34,6 +34,11 @@ GET  https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?composition.subject=Me
 
 GET https://fosps.gravitatehealth.eu/ips/api/fhir/Composition?subject.identifier=alicia-1
 
+
+### testing focusing lens pregancy MVP2 with DIV - doesnt work
+
+GET https://fosps.gravitatehealth.eu/ips/api/fhir/Patient/$summary?identifier=alicia-1
+
 ### testing all Ids
 
 GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?&category=http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs|R&_elements=identifier,title
@@ -186,4 +191,9 @@ GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle/Processedcompositionf4d
 ### Test Lens: Intolerance
 
 POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_intolerance&patientIdentifier=Cecilia-1
+Accept: application/json
+
+### collapsing
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=Pedro-1
 Accept: application/json
