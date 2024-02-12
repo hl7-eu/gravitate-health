@@ -24,7 +24,7 @@ group Registration
 pat -> fe : register
 fe -> be : create profile
 fe -> ehr : get ips 
-note left of fe : <URL>/Patient?Summary={identifier}
+note left of fe : <URL>/Patient?$summary={identifier}
 
 end
 
@@ -37,7 +37,7 @@ fe -> be: searchs for epi using code as identifier for Medicinal Product
 note left of fe
  <URL>/Composition?
  _language=<lang>
- &category=R
+ &category=R&identifier=<code>
  end note
 fe -> fe: gets id
 be -> fe: returns epi bundle
