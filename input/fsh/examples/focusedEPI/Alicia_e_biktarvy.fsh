@@ -145,7 +145,7 @@ transcriptase inhibitor (NtRTI)</li>
 <p>Biktarvy is a single tablet for the treatment <span class="indication highlight mock-lib">of human immunodeficiency virus 1 (HIV-1) infection in
 adults, adolescents and children 2 years of age and older, who weigh at least 14 kg.</span></p>
 <p>Biktarvy reduces the amount of HIV in your body. This will improve your immune system and reduce
-the risk of developing illnesses linked to HIV infection.<img alt="How to take medication" class="mock-lib" src="#image"/></p>         </div>"""   
+the risk of developing illnesses linked to HIV infection.</p><img alt="How to take medication" class="mock-lib" src="#binary1"/>        </div>"""   
           
 
              
