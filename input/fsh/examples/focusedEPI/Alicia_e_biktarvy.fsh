@@ -11,8 +11,12 @@ Description:  "[Enhanced-Alicia] Composition for Biktarvy 50 mg/200 mg/25 mg fil
 Usage: #inline
 
 * contained = binary1
-* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
 * extension[=].valueReference = Reference(mock-lib)
+
+* extension[+].url = "http://ema.europa.eu/fhir/extension/dummyValidationReference"
+* extension[=].valueReference = Reference(binary1)
+
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "EU/1/18/1289/001"
