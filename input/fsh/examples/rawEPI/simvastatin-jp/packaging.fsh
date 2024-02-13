@@ -1,7 +1,7 @@
 Instance: packsimvastatin20
 InstanceOf: PackagedProductDefinitionUvEpi
 Description: "28 tablets"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://pmda-packinsertno/"
 * identifier.value = "sim4291012F1022"

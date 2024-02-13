@@ -32,7 +32,7 @@ Instance: orgpfizerukltd1
 InstanceOf: OrganizationUvEpi
 Title: "Pfizer Limited as Marketing authorisation holder"
 Description: "Pfizer Limited as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000789"
@@ -59,7 +59,7 @@ Instance: mp025mg1
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Talzenna® (talazoparib) 0.25 mg hard capsules"
 Description: "Medicinal Product Talzenna® (talazoparib) 0.25 mg hard capsules"
-Usage: #example
+Usage: #inline
  
 * identifier[+].system = "http://www.mhra.gov.uk/"
 * identifier[=].value = "471bb15-7f52-4fcd-b615-8674ce6eb91e"
@@ -106,7 +106,7 @@ Instance: mp1mg1
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Talzenna® (talazoparib) 1 mg hard capsules"
 Description: "Medicinal Product Talzenna® (talazoparib) 1 mg hard capsules"
-Usage: #example
+Usage: #inline
 
 * identifier[+].system = "http://www.mhra.gov.uk/"
 * identifier[=].value = "4471bb15-7f52-4fcd-b615-8674ce6eb91e"
@@ -153,7 +153,7 @@ Instance: compositionUkEnPersonalizedTalzenna
 InstanceOf: CompositionUvEpi
 Title: "Composition for Package leaflet: Information for the patient Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
 Description:  "Composition for Package leaflet: Information for the patient Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://www.mhra.gov.uk/"
 * identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4f"

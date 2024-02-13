@@ -614,7 +614,7 @@ Instance: composition-processed-pt-f4d45353edcb21af3718d3a0df94a4d8
 InstanceOf: CompositionUvEpi
 Title: "Composition for Karvea Package Leaflet PT Preprocessed"
 Description:  "Composition for Karvea Package Leaflet PT Preprocessed"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

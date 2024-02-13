@@ -1,7 +1,7 @@
 Instance: manitemsimvastatin20
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Description: "Manufactured Item - Simvastatin 20 mg tablets"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://pmda-sccj"
 * identifier.value = "sim874291"

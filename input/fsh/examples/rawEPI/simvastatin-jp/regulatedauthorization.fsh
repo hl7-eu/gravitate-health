@@ -2,7 +2,7 @@ Instance: authsimvastatin20
 InstanceOf: RegulatedAuthorizationUvEpi
 Title: "Regulated Authorization - Herceptin (trastazumab) 150 mg for Intravenous Use"
 Description: "Regulated Authorization - Herceptin (trastazumab) 150 mg for Intravenous Use"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://pmda-approvalandlicenseno/"
 * identifier.value = "22500AMX01227000"

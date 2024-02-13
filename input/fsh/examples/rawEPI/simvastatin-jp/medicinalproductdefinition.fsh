@@ -2,7 +2,7 @@ Instance: medprodsimvastatin20
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product - Simvastatin 20 mg tablets"
 Description: "Medicinal Product - Simvastatin 20 mg tablets"
-Usage: #example
+Usage: #inline
 
 * identifier[+].system = "http://iyaku.info/medicine"
 * identifier[=].value = "2189011F1262"

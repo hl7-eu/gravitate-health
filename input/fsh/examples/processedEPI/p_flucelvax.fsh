@@ -232,7 +232,7 @@ Instance: composition-proc-es-e8bd725f64067aeae7994e2b56cd71c1
 InstanceOf: CompositionUvEpi
 Title: "Composition for Flucelvax Package Leaflet - preprocessed ES"
 Description:  "Composition for Flucelvax Package Leaflet - preprocessed ES"
-Usage: #example
+Usage: #inline
 
 				
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"

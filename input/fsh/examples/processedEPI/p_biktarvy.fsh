@@ -537,7 +537,7 @@ Instance: composition-proc-pt-2065c93918e829bc9508cce4f449e8fd
 InstanceOf: CompositionUvEpi
 Title: "Composition for Biktarvy 50 mg/200 mg/25 mg comprimidos revestidos por película Package Leaflet"
 Description:  "Composition for Biktarvy 50 mg/200 mg/25 mg comprimidos revestidos por película Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
@@ -1018,7 +1018,7 @@ Instance: composition-proc-es-1846d2b12fecbbb0310cd8c196c98f82
 InstanceOf: CompositionUvEpi
 Title: "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
 Description:  "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "b22ec2e7263c64ba0d74e2718a1859op"

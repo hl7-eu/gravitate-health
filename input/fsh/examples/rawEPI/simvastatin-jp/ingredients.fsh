@@ -2,7 +2,7 @@ Instance: ingredientsimvastatin20
 InstanceOf: IngredientUvEpi
 Title: "Ingredient - simvastatin"
 Description: "Ingredient - simvastatin"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "AGG2FN16EV"
