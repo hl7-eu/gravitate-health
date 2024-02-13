@@ -53,22 +53,15 @@ Usage: #example
 Title: "Bundle for returning searchset of lenses"
 Description: "Bundle for returning searchset of lenses"
 
-
-
-
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
 * identifier.value = "lens-bundle-1"
 * type = #searchset
 * timestamp = "2023-06-27T10:09:22Z"
-* language = #en
-
-
-
 
 
 // Composition
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Library/mock-lib1"
 * entry[0].resource = mock-lib
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Library/mock-lib2"
-* entry[0].resource = mock-lib2
+* entry[1].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Library/mock-lib2"
+* entry[1].resource = mock-lib2
