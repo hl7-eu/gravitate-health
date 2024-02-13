@@ -5,8 +5,8 @@ InstanceOf: CompositionUvEpi
 Title: "[Enhanced] Composition for Karvea Package Leaflet"
 Description:  "[Enhanced] Composition for Karvea Package Leaflet"
 Usage: #inline
-* contained = mock-lib
-
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
+* extension[=].valueReference = Reference(mock-lib)
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 
 * language = #en

@@ -5,8 +5,8 @@ Title: "[Enhanced-Pedro] Composition for Flucelvax Package Leaflet"
 Description:  "[Enhanced-Pedro] Composition for Flucelvax Package Leaflet"
 Usage: #inline
 
-* contained = mock-lib
-
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
+* extension[=].valueReference = Reference(mock-lib)
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "asdasd"
 

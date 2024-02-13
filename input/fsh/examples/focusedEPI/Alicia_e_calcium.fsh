@@ -5,7 +5,8 @@ Title: "[Enhanced-Alicia] Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI
 Description:  "[Enhanced-Alicia] Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet"
 Usage: #inline
 
-* contained = mock-lib
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
+* extension[=].valueReference = Reference(mock-lib)
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "cc"

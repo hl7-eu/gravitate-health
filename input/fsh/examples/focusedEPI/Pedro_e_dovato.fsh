@@ -5,8 +5,8 @@ Title: "[Enhanced-Pedro] Composition for Dovato 50 mg/300 mg film-coated tablets
 Description:  "[Enhanced-Pedro] Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
 Usage: #inline
 
-* contained = mock-lib
-
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
+* extension[=].valueReference = Reference(mock-lib)
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "xx"
 

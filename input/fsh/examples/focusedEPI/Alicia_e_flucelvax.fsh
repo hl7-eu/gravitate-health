@@ -5,8 +5,8 @@ Title: "[Enhanced-Alicia] Composition for asdad Package Leaflet"
 Description:  "[Enhanced-Alicia] Composition for asdad Package Leaflet"
 Usage: #inline
 
-* contained = mock-lib
-
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
+* extension[=].valueReference = Reference(mock-lib)
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "asdasd"
