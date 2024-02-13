@@ -2,7 +2,7 @@ Instance: composition-es-a975b7e209ea5c4c3bf8040a42b86fbd
 InstanceOf: CompositionUvEpi
 Title: "Composition for DOLOCATIL 1 g tablets Package Leaflet"
 Description:  "Composition for DOLOCATIL 1 g tablets Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

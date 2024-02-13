@@ -2,7 +2,7 @@ Instance: composition-dk-873a1a47330e628770640f9c96c0761e
 InstanceOf: CompositionUvEpi
 Title: "Composition for Karvea 75 mg tablet Package Leaflet"
 Description:  "Composition for Karvea 75 mg tablet Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

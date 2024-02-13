@@ -2,7 +2,7 @@ Instance: carbamazepine200jpi
 InstanceOf: CompositionUvEpi
 Title: "Tegretol (carbamazepine) 200 mg for tablet"
 Description: "Tegretol (carbamazepine) 200 mg for tablet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "fcats34placeholder"

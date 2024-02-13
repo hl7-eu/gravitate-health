@@ -2,7 +2,7 @@ Instance: org-1135a7374c78f1d40f41885344f06a5a
 InstanceOf: OrganizationUvEpi
 Title: "Pfizer Limited, Ramsgate Road, Sandwich, Kent, CT13 9NJ, United Kingdom"
 Description: "Pfizer Limited, Ramsgate Road, Sandwich, Kent, CT13 9NJ, United Kingdom"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100008368"

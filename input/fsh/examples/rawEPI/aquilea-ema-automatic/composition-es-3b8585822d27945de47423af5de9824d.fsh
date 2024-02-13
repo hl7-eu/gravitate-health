@@ -2,7 +2,7 @@ Instance: composition-es-3b8585822d27945de47423af5de9824d
 InstanceOf: CompositionUvEpi
 Title: "Composition for Aquilea Articulaciones Colageno y Magnesio 375gr Package Leaflet"
 Description:  "Composition for Aquilea Articulaciones Colageno y Magnesio 375gr Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

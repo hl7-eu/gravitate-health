@@ -2,7 +2,7 @@ Instance: composition-es-ac2bb08bb4cc3f51f8c4e3513034c019
 InstanceOf: CompositionUvEpi
 Title: "Composition for Tegretol 200 mg tablets Package Leaflet"
 Description:  "Composition for Tegretol 200 mg tablets Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

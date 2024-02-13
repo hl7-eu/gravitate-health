@@ -2,7 +2,7 @@ Instance: composition-en-f97db27e6330f77484eb8425ad2913cd
 InstanceOf: CompositionUvEpi
 Title: "Composition for Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) Package Leaflet"
 Description:  "Composition for Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

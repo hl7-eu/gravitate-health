@@ -2,7 +2,7 @@ Instance: composition-en-534e209eb0a3ff60437639cb2015316f
 InstanceOf: CompositionUvEpi
 Title: "Composition for acmedrug-man Package Leaflet"
 Description:  "Composition for acmedrug-man Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

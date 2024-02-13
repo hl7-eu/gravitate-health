@@ -2,7 +2,7 @@ Instance: composition-en-bc60fa1aa0bfe774d11ee13c0c131622
 InstanceOf: CompositionUvEpi
 Title: "Composition for Xenical 120mg hard capsules Package Leaflet"
 Description:  "Composition for Xenical 120mg hard capsules Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

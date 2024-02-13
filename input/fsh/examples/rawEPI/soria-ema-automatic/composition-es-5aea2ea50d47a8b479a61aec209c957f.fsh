@@ -2,7 +2,7 @@ Instance: composition-es-5aea2ea50d47a8b479a61aec209c957f
 InstanceOf: CompositionUvEpi
 Title: "Composition for SORIA NATURAL VITAMINA C 36 COMPRIMIDOS Package Leaflet"
 Description:  "Composition for SORIA NATURAL VITAMINA C 36 COMPRIMIDOS Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

@@ -4,7 +4,7 @@ Title: "Composition for Flucelvax Tetra - suspension for injection in pre-filled
 Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) Package Leaflet"
 Description:  "Composition for Flucelvax Tetra - suspension for injection in pre-filled syringe
 Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

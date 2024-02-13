@@ -2,7 +2,7 @@ Instance: composition-en-822aeee7cf35efce0583ec39919328fb
 InstanceOf: CompositionUvEpi
 Title: "Composition for Fluenz Tetra nasal spray suspension Package Leaflet"
 Description:  "Composition for Fluenz Tetra nasal spray suspension Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

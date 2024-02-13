@@ -2,7 +2,7 @@ Instance: composition-en-284ddecbce6fb138483090d5e55bafac
 InstanceOf: CompositionUvEpi
 Title: "Composition for Skilarence 120 mg gastro-resistant tablets Package Leaflet"
 Description:  "Composition for Skilarence 120 mg gastro-resistant tablets Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

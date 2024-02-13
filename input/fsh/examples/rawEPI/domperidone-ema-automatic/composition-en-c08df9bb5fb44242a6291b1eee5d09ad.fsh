@@ -2,7 +2,7 @@ Instance: composition-en-c08df9bb5fb44242a6291b1eee5d09ad
 InstanceOf: CompositionUvEpi
 Title: "Composition for Mo Package Leaflet"
 Description:  "Composition for Mo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

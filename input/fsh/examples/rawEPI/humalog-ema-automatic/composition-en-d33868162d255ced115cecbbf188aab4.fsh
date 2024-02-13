@@ -2,7 +2,7 @@ Instance: composition-en-d33868162d255ced115cecbbf188aab4
 InstanceOf: CompositionUvEpi
 Title: "Composition for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet"
 Description:  "Composition for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

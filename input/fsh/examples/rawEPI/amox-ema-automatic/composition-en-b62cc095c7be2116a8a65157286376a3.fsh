@@ -2,7 +2,7 @@ Instance: composition-en-b62cc095c7be2116a8a65157286376a3
 InstanceOf: CompositionUvEpi
 Title: "Composition for amoxicillin 250 mg tablets Package Leaflet"
 Description:  "Composition for amoxicillin 250 mg tablets Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

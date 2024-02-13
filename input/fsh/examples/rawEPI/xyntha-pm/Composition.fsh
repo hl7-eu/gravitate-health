@@ -2,7 +2,7 @@ Instance: compositionproductmonographxyntha
 InstanceOf: CompositionUvEpi
 Title: "Composition - Product Monograph for Package leaflet: Xyntha® Lyophilized Powder for Reconstitution in a Vial"
 Description:  "Composition - Product Monograph for Package leaflet: Xyntha® Lyophilized Powder for Reconstitution in a Vial"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://www.jordan.gov.jo/"
 * identifier.value = "0d69fdcb-33cf-407f-8209-a6529856ab4f"

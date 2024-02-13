@@ -2,7 +2,7 @@ Instance: composition-es-1453e0f16ff6c1d3106ed737a7857578
 InstanceOf: CompositionUvEpi
 Title: "Composition for BLASTON 1 mg tablets Package Leaflet"
 Description:  "Composition for BLASTON 1 mg tablets Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

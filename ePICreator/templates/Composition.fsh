@@ -48,7 +48,7 @@ Instance: composition-{{row["language"]}}-{{data["dictionary"]["productname"]| r
 InstanceOf: CompositionUvEpi
 Title: "Composition for {{data["dictionary"]["productname"]}} Package Leaflet"
 Description:  "Composition for {{data["dictionary"]["productname"]}} Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "{{row['identifier_system']}}"
 

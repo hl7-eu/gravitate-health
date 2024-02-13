@@ -2,7 +2,7 @@ Instance: composition-en-04c5df8b1b688f62331c672bbd9ffa97
 InstanceOf: CompositionUvEpi
 Title: "Composition for Calcichew-D3 Forte Package Leaflet"
 Description:  "Composition for Calcichew-D3 Forte Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 

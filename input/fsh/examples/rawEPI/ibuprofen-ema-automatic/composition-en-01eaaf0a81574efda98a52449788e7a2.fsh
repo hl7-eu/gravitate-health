@@ -2,7 +2,7 @@ Instance: composition-en-01eaaf0a81574efda98a52449788e7a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for Nurofen 100 mg Chewable Capsules Package Leaflet"
 Description:  "Composition for Nurofen 100 mg Chewable Capsules Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
