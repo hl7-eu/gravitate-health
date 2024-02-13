@@ -10,7 +10,7 @@ Title: "[Enhanced-Alicia] Composition for Biktarvy 50 mg/200 mg/25 mg film-coate
 Description:  "[Enhanced-Alicia] Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
 Usage: #inline
 
-
+* contained = binary1
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
 * extension[=].valueReference = Reference(mock-lib)
 
@@ -279,7 +279,7 @@ and do not use any tools or machines.</p>
 <p><strong>Biktarvy contains sodium</strong></p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially
 ‘sodium-free’.</p>        
-<img alt="How to take medication" class="mock-lib" src="https://github.com/hl7-eu/gravitate-health/blob/master/input/images/test-image.jpeg"/> </div>"""   
+<img alt="How to take medication" class="mock-lib" src="https://github.com/hl7-eu/gravitate-health/blob/master/input/images/test-image.jpeg?raw=true"/> </div>"""   
                     
 * section[=].section[+]
   * title = "3. How to take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
