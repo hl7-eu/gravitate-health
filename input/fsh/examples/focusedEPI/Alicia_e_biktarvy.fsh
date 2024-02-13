@@ -13,6 +13,8 @@ Usage: #inline
 * contained = binary1
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
 * extension[=].valueReference = Reference(mock-lib)
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
+* extension[=].valueReference = Reference(mock-lib2)
 
 * extension[+].url = "http://ema.europa.eu/fhir/extension/dummyValidationReference"
 * extension[=].valueReference = Reference(binary1)
@@ -260,7 +262,7 @@ antacids or supplements containing aluminium and/or magnesium. Or you can take B
 food at least 2 hours after.</p>
 <p>Iron supplements: you will need to take Biktarvy at least 2 hours before iron supplements, or you
 can take them together with food.</p>
-<span class="pregnancyCategory highlight mock-lib"><p><strong>Pregnancy and breast-feeding</strong></p>
+<div class="pregnancyCategory highlight mock-lib"><p><strong>Pregnancy and breast-feeding</strong></p>
 <ul>
 <li>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby,
 ask your doctor or pharmacist for advice before taking this medicine.</li>
@@ -271,12 +273,12 @@ risks of your antiretroviral therapy to you and your child.</li>
 other diagnostic tests to monitor the development of your child. In children whose mothers took
 nucleoside reverse transcriptase inhibitors (NRTIs) during pregnancy, the benefit from the protection
 against HIV outweighed the risk of side effects.</p>
-<span class="breastfeedingCategory highlight mock-lib"><p><strong>Do not breast-feed during treatment with Biktarvy.</strong> This is because some of the active substances
+<div class="breastfeedingCategory highlight mock-lib"><p><strong>Do not breast-feed during treatment with Biktarvy.</strong> This is because some of the active substances
 in this medicine pass into human breast milk. Breast-feeding is not recommended in women living
 with HIV because HIV infection can be passed on to the baby in breast milk. If you are
 breast-feeding, or thinking about breast-feeding, you should discuss it with your doctor as soon as
-possible.</p></span>
-</span>
+possible.</p></div>
+</div>
 <p><strong>Driving and using machines</strong></p>
 <p>Biktarvy can cause dizziness. If you feel dizzy when taking Biktarvy, do not drive or ride a bicycle
 and do not use any tools or machines.</p>
