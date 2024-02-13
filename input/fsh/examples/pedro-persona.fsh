@@ -63,8 +63,8 @@ Usage: #example
 
 Instance: pedro-dimension-5
 InstanceOf: Observation
-Title: "Persona Dimension - Extrovert/introvert"
-Description:  "Persona Dimension - Extrovert/introvert"
+Title: "Persona Dimension - Emotional/Rational"
+Description:  "Persona Dimension - Emotional/Rational"
 Usage: #example
 
 * status = #final
@@ -79,8 +79,8 @@ Usage: #example
 
 Instance: pedro-dimension-6
 InstanceOf: Observation
-Title: "Persona Dimension - Extrovert/introvert"
-Description:  "Persona Dimension - Extrovert/introvert"
+Title: "Persona Dimension - Health Literacy"
+Description:  "Persona Dimension - Health Literacy"
 Usage: #example
 
 * status = #final
@@ -95,8 +95,8 @@ Usage: #example
 
 Instance: pedro-dimension-7
 InstanceOf: Observation
-Title: "Persona Dimension - Extrovert/introvert"
-Description:  "Persona Dimension - Extrovert/introvert"
+Title: "Persona Dimension - Digital Literacy"
+Description:  "Persona Dimension - Digital Literacy"
 Usage: #example
 
 * status = #final
@@ -111,8 +111,8 @@ Usage: #example
 
 Instance: pedro-dimension-8
 InstanceOf: Observation
-Title: "Persona Dimension - Extrovert/introvert"
-Description:  "Persona Dimension - Extrovert/introvert"
+Title: "Persona Dimension - Tool Support Interest"
+Description:  "Persona Dimension - Tool Support Interest"
 Usage: #example
 
 * status = #final

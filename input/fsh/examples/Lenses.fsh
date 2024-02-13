@@ -52,7 +52,6 @@ InstanceOf: Bundle
 Usage: #example
 Title: "Bundle for returning searchset of lenses"
 Description: "Bundle for returning searchset of lenses"
-Usage: #example
 
 
 
