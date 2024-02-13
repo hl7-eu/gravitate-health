@@ -21,17 +21,15 @@
   <br/>
   
 
-  <h2 class="nonumbers">Narrative Text</h2>
-  <br/>
 
   {% for sec in composition.section %}
-    <h3>{{ sec.title }}</h3>
+    <h3 class="nonumbers">{{ sec.title }}</h3>
     <p>
       {{ sec.text.div }}</p>
     {% if sec.section %}
       {% for sec2 in sec.section %}
 
-        <h4>{{ sec2.title }}</h4>
+        <h4 class="nonumbers">{{ sec2.title }}</h4>
         <p>
           {{ sec2.text.div }}</p>
 
@@ -42,7 +40,6 @@
 </div>
 
 
-<h2>Product Information</h2>
 {% assign mpdr = bundle.entry | where: "resource.resourceType", "MedicinalProductDefinition" | first %}
 {% assign mpd = mpdr.resource %}
 {% include mpd.liquid mpd=mpd bundle=bundle %}
