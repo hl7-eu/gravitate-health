@@ -60,7 +60,7 @@ Description: "Bundle for returning searchset of lenses"
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Library/mock-lib1"
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Library/mock-lib"
 * entry[0].resource = mock-lib
 // Composition
 * entry[1].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Library/mock-lib2"
