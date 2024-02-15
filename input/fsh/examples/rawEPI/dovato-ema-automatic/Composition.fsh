@@ -193,7 +193,7 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
-  <b>3. Cómo tomar Dovato</b>
+  
   <p>Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico.
   En caso de duda, consulte de nuevo a su médico o farmacéutico.</p>
   <ul>
@@ -212,7 +212,6 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
-  <p><b>4. Posibles efectos adversos</b></p>
   <p>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no
   todas las personas los sufran, <b>por lo que es muy importante que le comente a su médico cualquier
   cambio en su estado de salud.</b></p>
@@ -227,7 +226,6 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
-  <b>5. Conservación de Dovato</b>
   <p>Mantener este medicamento fuera de la vista y del alcance de los niños</p>
   <p>No utilice este medicamento después de la fecha de caducidad que aparece en la caja y el frasco
   después de CAD. La fecha de caducidad es el último día del mes que se indica.</p>
@@ -247,7 +245,6 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
-  <b>6. Contenido del envase e información adicional</b>
   <b>Composición de Dovato</b>
   <ul>
     <li>Los principios activos son dolutegravir y lamivudina. Cada comprimido contiene dolutegravir

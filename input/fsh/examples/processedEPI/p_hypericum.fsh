@@ -109,11 +109,11 @@ Usage: #inline
     <p><strong><span>&#xa0;</span></strong></p>
     <p><strong><span>No tome HIPÉRICO ARKOPHARMA</span></strong></p>
     <ul >
-      <li><span>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <span>Si es menor de 18 años.</span></li>
-      <li><span>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <span>Si usted está embarazada o en periodo de lactancia.</span></li>
-      <li><span>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <span>Si es alérgico a</span> <em><span>Hypericum perforatum</span></em> <span>L. o a cualquiera de los componentes del medicamento.</span></li>
-      <li><span>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <span>Si va a someterse a alguna intervención quirúrgica que requiera tratamiento con otros medicamentos.</span></li>
-      <li><span>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <span>Si usted está en tratamiento con alguno de los medicamentos indicados en este prospecto. Algunos componentes del hipérico (</span><em><span>Hypericum perforatum</span></em> <span>L.) pueden producir interacciones farmacocinéticas con gran número de medicamentos, ocasionando un posible descenso de su efectividad; (ver la información sobre la toma de otros medicamentos).</span></li>
+      <li> <span>Si es menor de 18 años.</span></li>
+      <li> <span>Si usted está embarazada o en periodo de lactancia.</span></li>
+      <li> <span>Si es alérgico a</span> <em><span>Hypericum perforatum</span></em> <span>L. o a cualquiera de los componentes del medicamento.</span></li>
+      <li> <span>Si va a someterse a alguna intervención quirúrgica que requiera tratamiento con otros medicamentos.</span></li>
+      <li> <span>Si usted está en tratamiento con alguno de los medicamentos indicados en este prospecto. Algunos componentes del hipérico (</span><em><span>Hypericum perforatum</span></em> <span>L.) pueden producir interacciones farmacocinéticas con gran número de medicamentos, ocasionando un posible descenso de su efectividad; (ver la información sobre la toma de otros medicamentos).</span></li>
     </ul>
     <p><strong><span>&#xa0;</span></strong></p>
     <p><strong><span>Advertencias y precauciones</span></strong></p>

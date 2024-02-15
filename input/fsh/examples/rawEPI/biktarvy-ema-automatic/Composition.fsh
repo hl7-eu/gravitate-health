@@ -552,75 +552,26 @@ Usage: #example
 
     <ul>
       <li><span>anemia</span></li>
-    </ul>
-
-    <ul>
       <li><a name="page6" id="page6"></a><span>v&#243;mitos</span></li>
-    </ul>
-
-    <p><span>&#xa0;</span></p>
-
-    <ul>
       <li><span>dolor de est&#243;mago</span></li>
-    </ul>
-
-    <p><span>&#xa0;</span></p>
-
-    <ul>
       <li><span>problemas digestivos que generan molestias despu&#233;s de las comidas (</span><em><span>dispepsia</span></em><span>)</span></li>
-    </ul>
 
-    <p><span>&#xa0;</span></p>
-
-    <ul>
       <li><span>gases (</span><em><span>flatulencia</span></em><span>)</span></li>
-    </ul>
 
-    <p><span>&#xa0;</span></p>
-
-    <ul>
       <li><span>hinchaz&#243;n de la cara, labios, lengua o garganta (</span><em><span>angioedema</span></em><span>)</span></li>
-    </ul>
 
-    <p><span>&#xa0;</span></p>
-
-    <ul>
       <li><span>picaz&#243;n (</span><em><span>prurito</span></em><span>)</span></li>
-    </ul>
 
-    <p><span>&#xa0;</span></p>
-
-    <ul>
       <li><span>erupci&#243;n</span></li>
-    </ul>
 
-    <p><span>&#xa0;</span></p>
-
-    <ul>
       <li><span>habones (</span><em><span>urticaria</span></em><span>)</span></li>
-    </ul>
 
-    <p><span>&#xa0;</span></p>
-
-    <ul>
       <li><span>dolor en las articulaciones (</span><em><span>artralgia</span></em><span>)</span></li>
-    </ul>
-
-    <p><span>&#xa0;</span></p>
-
-    <ul>
+    
       <li><span>comportamiento suicida</span></li>
-    </ul>
 
-    <p><span>&#xa0;</span></p>
-
-    <ul>
       <li><span>ansiedad</span></li>
-    </ul>
 
-    <p><span>&#xa0;</span></p>
-
-    <ul>
       <li><span>trastornos del sue&#241;o</span></li>
     </ul>
 
@@ -629,13 +580,9 @@ Usage: #example
     <p><em><span>Los an&#225;lisis de sangre tambi&#233;n pueden mostrar:</span></em></p>
 
     <ul>
-      <li><span>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <span>Concentraciones m&#225;s altas de sustancias llamadas bilirrubina y/o creatinina s&#233;rica en la sangre</span></li>
-    </ul>
+      <li><span>Concentraciones m&#225;s altas de sustancias llamadas bilirrubina y/o creatinina s&#233;rica en la sangre</span></li>
 
-    <p><span>&#xa0;</span></p>
-
-    <ul>
-      <li><span>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <strong><span>Si considera que alguno de los efectos adversos que sufre es grave, informe a su m&#233;dico.</span></strong></li>
+      <li> <strong><span>Si considera que alguno de los efectos adversos que sufre es grave, informe a su m&#233;dico.</span></strong></li>
     </ul>
 
     <p><strong><span>Otros efectos que se pueden observar durante el tratamiento contra el VIH</span></strong></p>
@@ -648,8 +595,7 @@ Usage: #example
 
     <ul>
       <li><strong><span>Problemas &#243;seos.</span></strong> <span>Algunos pacientes tratados con medicamentos antirretrovirales combinados</span> <span>como Biktarvy pueden desarrollar una enfermedad de los huesos llamada</span> <em><span>osteonecrosis</span></em> <span>(muerte del tejido &#243;seo debida a una p&#233;rdida del suministro de sangre al hueso). Tomar este tipo de medicamentos durante un tiempo prolongado, tomar corticosteroides, beber alcohol, tener un sistema inmunitario muy d&#233;bil y tener sobrepeso, pueden ser algunos de los muchos factores de riesgo para desarrollar esta enfermedad. Los signos de osteonecrosis son:</span></li>
-
-      <li>
+     
         <ul>
           <li><span>rigidez articular</span></li>
 
@@ -657,7 +603,6 @@ Usage: #example
 
           <li><span>dificultad para moverse</span></li>
         </ul>
-      </li>
     </ul>
 
     <p><span>&#xa0;</span></p>

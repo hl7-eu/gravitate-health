@@ -56,11 +56,11 @@ Usage: #example
 Orlistat </p>
 <p>Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento, porque 
 contiene información importante para usted. </p>
-<p>• Conserve este prospecto, ya que  puede tener que volver a leerlo. </p>
-<p>• Si tiene alguna duda, consulte a su médico* farmacéutico. </p>
-<p>• Este medicamento se le ha recetado solamente a usted y no debe dárselo a otras personas, 
+<p> Conserve este prospecto, ya que  puede tener que volver a leerlo. </p>
+<p> Si tiene alguna duda, consulte a su médico* farmacéutico. </p>
+<p> Este medicamento se le ha recetado solamente a usted y no debe dárselo a otras personas, 
 aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.  </p>
-<p>• Si experimenta efectos adversos, consulte a su médico* farmacéutico, incluso si se trata deefectos adversos que no aparecen en este prospecto. Ver sección 4 </p>         </div>"""   
+<p> Si experimenta efectos adversos, consulte a su médico* farmacéutico, incluso si se trata deefectos adversos que no aparecen en este prospecto. Ver sección 4 </p>         </div>"""   
 
 
 
