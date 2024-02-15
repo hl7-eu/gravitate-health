@@ -25,15 +25,15 @@ Usage: #inline
   * code.text = "Title Page"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-<p style="text-align:center"><img src="#binarypfizerlogo" alt="Pfizer Logo"/></p>
-<p style="text-align:center"><b>Xyntha</b><sup>®</sup></p>
-        <p style="text-align:center">Lyophilized Powder for Reconstitution in a Vial</p>
-        <p style="text-align:center">250, 500, 1000, or 2000 IU in single-use vials and one pre-filled diluent syringe
+<p><img src="#binarypfizerlogo" alt="Pfizer Logo"/></p>
+<p><b>Xyntha</b><sup>®</sup></p>
+        <p>Lyophilized Powder for Reconstitution in a Vial</p>
+        <p>250, 500, 1000, or 2000 IU in single-use vials and one pre-filled diluent syringe
             containing 4 mL 0.9% Sodium Chloride for reconstitution*</p>
-        <p style="text-align:center">Antihemophilic Factor (Recombinant) [BDDrFVIII]</p>
-        <p style="text-align:center">For Intravenous Injection</p>
-        <p style="text-align:center">Antihemorrhagic Blood Coagulation Factor VIII</p>
-        <p style="text-align:center">Reference Market: Canada</p>
+        <p>Antihemophilic Factor (Recombinant) [BDDrFVIII]</p>
+        <p>For Intravenous Injection</p>
+        <p>Antihemorrhagic Blood Coagulation Factor VIII</p>
+        <p>Reference Market: Canada</p>
   </div>"""
  
 * section[+]
@@ -42,11 +42,11 @@ Usage: #inline
   * code.text = "Package leaflet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-        <p style="text-align:center"><b>Xyntha</b><sup>®</sup></p>
-        <p style="text-align:center">Moroctocog alfa, Antihemophilic Factor (Recombinant) </p>
-        <p style="text-align:center"><b>Xyntha 250, 500, 1000, &amp; 2000 IU Powder<i> and </i>Solvent for Solution<i> for
+        <p><b>Xyntha</b><sup>®</sup></p>
+        <p>Moroctocog alfa, Antihemophilic Factor (Recombinant) </p>
+        <p><b>Xyntha 250, 500, 1000, &amp; 2000 IU Powder<i> and </i>Solvent for Solution<i> for
                 </i>Injection</b></p>
-        <p style="text-align:center"><i>This leaflet is a summary and will not tell you everything about </i><i>Xyntha.
+        <p><i>This leaflet is a summary and will not tell you everything about </i><i>Xyntha.
                 Contact your doctor or hemophilia treatment center if you have any questions about
                 the drug.</i></p>
 
@@ -107,7 +107,7 @@ Usage: #inline
             <tbody>
                 <tr>
                     <td>
-                        <p style="text-align:center"><b>Serious Warnings and Precautions</b></p>
+                        <p><b>Serious Warnings and Precautions</b></p>
                     </td>
                 </tr>
                 <tr>
@@ -373,7 +373,7 @@ Usage: #inline
             <tbody>
                 <tr>
                     <td colspan="4">
-                        <p style="text-align:center"><b>SERIOUS SIDE EFFECTS, HOW OFTEN THEY HAPPEN AND WHAT TO DO ABOUT THEM</b></p>
+                        <p><b>SERIOUS SIDE EFFECTS, HOW OFTEN THEY HAPPEN AND WHAT TO DO ABOUT THEM</b></p>
                     </td>
                 </tr>
                 <tr>
@@ -381,18 +381,18 @@ Usage: #inline
                         <p><b>Symptom / effect</b></p>
                     </td>
                     <td colspan="2">
-                        <p style="text-align:center"><b>Talk with your doctor</b></p>
+                        <p><b>Talk with your doctor</b></p>
                     </td>
                     <td rowspan="2">
-                        <p style="text-align:center"><b>Stop the infusion and call your doctor</b></p>
+                        <p><b>Stop the infusion and call your doctor</b></p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <p style="text-align:center"><b>Only if severe</b></p>
+                        <p><b>Only if severe</b></p>
                     </td>
                     <td>
-                        <p style="text-align:center"><b>In all cases</b></p>
+                        <p><b>In all cases</b></p>
                     </td>
                 </tr>
                 <tr>
@@ -411,7 +411,7 @@ Usage: #inline
                         <p></p>
                     </td>
                     <td>
-                        <p style="text-align:center">x</p>
+                        <p>x</p>
                     </td>
                 </tr>
                 <tr>
@@ -430,7 +430,7 @@ Usage: #inline
                         <p></p>
                     </td>
                     <td>
-                        <p style="text-align:center">x</p>
+                        <p>x</p>
                     </td>
                 </tr>
                 <tr>
@@ -444,7 +444,7 @@ Usage: #inline
                         <p></p>
                     </td>
                     <td>
-                        <p style="text-align:center">x</p>
+                        <p>x</p>
                     </td>
                 </tr>
                 <tr>
@@ -458,7 +458,7 @@ Usage: #inline
                         <p></p>
                     </td>
                     <td>
-                        <p style="text-align:center">x</p>
+                        <p>x</p>
                     </td>
                 </tr>
                 <tr>
@@ -474,7 +474,7 @@ Usage: #inline
                         <p></p>
                     </td>
                     <td>
-                        <p style="text-align:center">x</p>
+                        <p>x</p>
                     </td>
                     <td>
                         <p></p>
@@ -488,7 +488,7 @@ Usage: #inline
                         <p></p>
                     </td>
                     <td>
-                        <p style="text-align:center">x</p>
+                        <p>x</p>
                     </td>
                     <td>
                         <p></p>
@@ -505,7 +505,7 @@ Usage: #inline
                         <p></p>
                     </td>
                     <td>
-                        <p style="text-align:center">x</p>
+                        <p>x</p>
                     </td>
                 </tr>
                 <tr>
@@ -519,7 +519,7 @@ Usage: #inline
                         <p></p>
                     </td>
                     <td>
-                        <p style="text-align:center">x</p>
+                        <p>x</p>
                     </td>
                 </tr>
                 <tr>
@@ -533,7 +533,7 @@ Usage: #inline
                         <p></p>
                     </td>
                     <td>
-                        <p style="text-align:center">x</p>
+                        <p>x</p>
                     </td>
                 </tr>
             </tbody>
@@ -591,7 +591,7 @@ Usage: #inline
 	<tbody>
 		<tr>
 			<td>
-			<p style="text-align:center">THIS IS A MEDICAMENT</p>
+			<p>THIS IS A MEDICAMENT</p>
 			<ul>
 				<li><p>Medicament is a product which affects your health and its consumption contrary to instructions is dangerous for you.</p></li>
 				<li><p>Follow strictly the doctor's prescription, the method of use and the instructions of the Pharmacist who sold the medicament.</p></li>

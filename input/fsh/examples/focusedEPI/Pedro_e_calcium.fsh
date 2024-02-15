@@ -204,15 +204,15 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
             <p>Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico.</p>
 <p></p>
-<p><span style="text-decoration: underline;">Dosis</span></p>
+<p><span>Dosis</span></p>
 <p><em>Adultos</em></p>
 <p>La dosis recomendada es de 1 comprimido efervescente (1000 mg de calcio y 880 UI de Vitamina D3) al día.</p>
 <p><em></em></p>
-<p><span style="text-decoration: underline;">Forma y vía de administración</span></p>
+<p><span>Forma y vía de administración</span></p>
 <p>Este medicamento se administra por vía oral.</p>
 <p>Disolver el comprimido en un vaso de agua y beber inmediatamente.</p>
 <p></p>
-<p><span style="text-decoration: underline;">Duración del tratamiento</span></p>
+<p><span>Duración del tratamiento</span></p>
 <p>Su médico le indicar á la duración de su tratamiento con Calcio / Vitamina D3 ROVI. No suspenda antes el tratamiento.</p>
 <p></p>
 <p>Siga estas instrucciones a menos que su médico le haya dado otras indicaciones distintas. En estos casos es conveniente solicitar al médico las instrucciones por escrito y asegurarse de haberlas entendido bien.</p>
@@ -326,7 +326,7 @@ Usage: #inline
 <p>Alemania</p>
 <p><strong><em></em></strong></p>
 <p><strong>Fecha de la última revisión de este prospecto:</strong> julio 2019</p>
-<p>La información detallada de este medicamento est á disponible en la p ágina web de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) (<a href="https://www.aemps.gob.es/"><span style="text-decoration: underline;">https://www.aemps.gob.es/</span></a>)</p>
+<p>La información detallada de este medicamento est á disponible en la p ágina web de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) (<a href="https://www.aemps.gob.es/"><span>https://www.aemps.gob.es/</span></a>)</p>
                             
                                   
         </div>"""

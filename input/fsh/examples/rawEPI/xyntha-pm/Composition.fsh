@@ -36,26 +36,26 @@ Usage: #inline
   * code.text = "PRODUCT MONOGRAPH"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-        <p style="text-align:center">
+        <p>
           <img src="#binarypfizerlogo" alt="Pfizer Logo"/>
         </p>
 
-        <p style="text-align:center"><b>Xyntha<sup>®</sup></b>
+        <p><b>Xyntha<sup>®</sup></b>
         </p>
-        <p style="text-align:center">Lyophilized Powder for Reconstitution in a Vial</p>
+        <p>Lyophilized Powder for Reconstitution in a Vial</p>
         <p
-            style="text-align:center">250, 500, 1000, or 2000 IU in single-use vials and one
-            pre-filled diluent syringe containing 4 mL 0.9% </p><p style="text-align:center">Sodium
-            Chloride for reconstitution* </p><p style="text-align:center">Antihemophilic Factor
-            (Recombinant) [BDDrFVIII]</p><p style="text-align:center">For Intravenous Injection
-            </p><p style="text-align:center">Antihemorrhagic Blood Coagulation Factor VIII</p>
+           >250, 500, 1000, or 2000 IU in single-use vials and one
+            pre-filled diluent syringe containing 4 mL 0.9% </p><p>Sodium
+            Chloride for reconstitution* </p><p>Antihemophilic Factor
+            (Recombinant) [BDDrFVIII]</p><p>For Intravenous Injection
+            </p><p>Antihemorrhagic Blood Coagulation Factor VIII</p>
         <p
-            style="text-align:center">Reference Market: Canada</p>
+           >Reference Market: Canada</p>
         <p> </p>
         <p> </p>
         <p> </p>
-        <p style="text-align:center">Xyntha<sup>®</sup></p><p style="text-align:center">Moroctocog
-            alfa</p><p style="text-align:center">Antihemophilic Factor (Recombinant) [BDDrFVIII] </p>
+        <p>Xyntha<sup>®</sup></p><p>Moroctocog
+            alfa</p><p>Antihemophilic Factor (Recombinant) [BDDrFVIII] </p>
         <p><b>SUMMARY PRODUCT INFORMATION</b></p><table border="1">
             <tbody>
                 <tr>
@@ -130,7 +130,7 @@ Usage: #inline
             <tbody>
                 <tr>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"><b>Serious Warnings and Precautions</b></p>
+                        <p><b>Serious Warnings and Precautions</b></p>
                         <ul>
                             <li>Anaphylaxis and severe hypersensitivity reactions are possible as
                                 with any intravenous protein product.   Should such reactions occur,
@@ -201,28 +201,28 @@ Usage: #inline
             <tbody>
                 <tr>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">System Organ Class</p>
-                        <p style="text-align:center">(disorder)</p>
+                        <p>System Organ Class</p>
+                        <p>(disorder)</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">Very Common</p>
-                        <p style="text-align:center">≥10%</p>
+                        <p>Very Common</p>
+                        <p>≥10%</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">Common</p>
-                        <p style="text-align:center">≥1%</p>
+                        <p>Common</p>
+                        <p>≥1%</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">Uncommon</p>
-                        <p style="text-align:center">≥0.1% and &lt;1%</p>
+                        <p>Uncommon</p>
+                        <p>≥0.1% and &lt;1%</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">Rare</p>
-                        <p style="text-align:center">≥0.01% and &lt;0.1%</p>
+                        <p>Rare</p>
+                        <p>≥0.01% and &lt;0.1%</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">Very Rare</p>
-                        <p style="text-align:center">&lt;0.01%</p>
+                        <p>Very Rare</p>
+                        <p>&lt;0.01%</p>
                     </td>
                 </tr>
                 <tr>
@@ -645,7 +645,7 @@ Usage: #inline
                             oral antifibrinolytic therapy within 1 hour may be sufficient.  </p>
                     </td>
                 </tr>
-                <tr style="mso-yfti-irow:4;mso-yfti-lastrow:yes">
+                <tr>
                     <td rowspan="1" colspan="1">
                         <p>Major</p>
                         <p>Gastrointestinal bleeding.  Intracranial, intra-abdominal or
@@ -709,7 +709,7 @@ Usage: #inline
                 reach room temperature.</li>
             <li>Remove the plastic flip-top cap from the Xyntha vial to expose the central portions
                 of the rubber stopper. 
-                <p style="text-align:center">
+                <p>
                     <img src="#binaryimage003-1537998405"/>
                     </p>
                     </li>
@@ -723,13 +723,13 @@ Usage: #inline
                 the vial adapter over the vial.  Press down firmly on the package until the adapter
                 snaps into place on top of the vial, with the adapter spike penetrating the vial
                 stopper. 
-                <p style="text-align:center"><img src="#binaryimage004-124372563"/>
+                <p><img src="#binaryimage004-124372563"/>
                         </p>
                         </li>
             <li>Grasp the plunger rod as shown in the diagram.  Avoid contact with the shaft of the
                 plunger rod.  Attach the threaded end of the plunger rod to the diluent syringe by
                 pushing and turning firmly. 
-                <p style="text-align:center">
+                <p>
                 <img src="#binaryimage006-1085115419"/>
                 </p></li>
             <li>Break off the tamper-resistant, plastic-tip cap from the diluent syringe by snapping
@@ -738,25 +738,25 @@ Usage: #inline
                 diluent syringe may need to be recapped (if the dissolved Xyntha is not used
                 immediately), so place the cap on its top on a clean surface in a spot where it
                 would be least likely to become contaminated. 
-                <p style="text-align:center">
+                <p>
                 <img src="#binaryimage007-1887834135"/>
                 </p>
                 </li>
             <li>Lift the package away from the adapter and discard the package. 
-            <p style="text-align:center">
+            <p>
                     <img src="#binaryimage008-1358253692"/>
                 </p></li>
             <li>Place the vial on a flat surface.  Connect the diluent syringe to the vial adapter
                 by inserting the tip of the syringe into the adapter opening while firmly pushing
                 and turning the syringe clockwise until the connection is secured. 
                 <p
-                    style="text-align:center">
+                   >
                     <img src="#binaryimage010-240412440"/>
                 </p>
             </li>
             <li>Slowly depress the plunger rod to inject all the diluent into the Xyntha vial. 
             <p
-                    style="text-align:center">
+                   >
                     <img src="#binaryimage012-1035983834"/>
                 </p>
             </li>
@@ -774,7 +774,7 @@ Usage: #inline
                     procedure with each vial in turn.  Do not detach the diluent syringes or the
                     large luer lock syringe until you are ready to attach the large luer lock
                     syringe to the next vial adapter.</p>
-                    <p style="text-align:center">
+                    <p>
                     <img src="#binaryimage012-251481591"/>
                 </p>
                 </li>
@@ -810,13 +810,13 @@ Usage: #inline
                 alcohol swab. If you need to use more than 1 vial to inject your prescribed dose,
                 you must use a new alcohol swab for each vial. Do not use the injection needle to
                 withdraw the medicine from vial 
-                <p style="text-align:center">
+                <p>
                 <img src="#binaryimage013-244659630"/>
                 </p></li>
             <li>Insert the needle on the infusion set tubing into the vein, and remove the
                 tourniquet.  Infuse the reconstituted Xyntha product over several minutes. Your
                 comfort level should determine the rate of infusion. 
-                <p style="text-align:center">
+                <p>
                     <img src="#binaryimage014-39753133"/>
                 </p>
                 </li>
@@ -894,42 +894,42 @@ Usage: #inline
                 </tr>
                 <tr>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">Parameter</p>
+                        <p>Parameter</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">C<sub>max</sub>
+                        <p>C<sub>max</sub>
                             (IU/ml)</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"
+                        <p
                                 >AUC<sub>T</sub> (hr*IU/ml)</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"
+                        <p
                             >Half-life (hr)</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"
+                        <p
                                 >AUC<sub>∞</sub>(hr*IU/ml)</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"
+                        <p
                             >Clearance (ml/hr/kg)</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"
+                        <p
                             >Mean Residence Time</p>
-                        <p style="text-align:center"
+                        <p
                             >(hr)</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"
+                        <p
                                 >V<sub>ss</sub></p>
-                        <p style="text-align:center"
+                        <p
                             >(ml/kg)</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"
+                        <p
                             >Recovery (IU/dl/IU/kg)</p>
                     </td>
                 </tr>
@@ -940,28 +940,28 @@ Usage: #inline
                         <p>Baseline</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                 </tr>
                 <tr>
@@ -969,28 +969,28 @@ Usage: #inline
                         <p>Mean</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">1.12</p>
+                        <p>1.12</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">13.3</p>
+                        <p>13.3</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">11.8</p>
+                        <p>11.8</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">14.2</p>
+                        <p>14.2</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">4.21</p>
+                        <p>4.21</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">16.3</p>
+                        <p>16.3</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">65.1</p>
+                        <p>65.1</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">2.23</p>
+                        <p>2.23</p>
                     </td>
                 </tr>
                 <tr>
@@ -998,28 +998,28 @@ Usage: #inline
                         <p>SD</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">0.19</p>
+                        <p>0.19</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">5.2</p>
+                        <p>5.2</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">5.1</p>
+                        <p>5.1</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">5.5</p>
+                        <p>5.5</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">2.08</p>
+                        <p>2.08</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">5.9</p>
+                        <p>5.9</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">35.1</p>
+                        <p>35.1</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">0.39</p>
+                        <p>0.39</p>
                     </td>
                 </tr>
                 <tr>
@@ -1027,123 +1027,123 @@ Usage: #inline
                         <p>  Min</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">0.59</p>
+                        <p>0.59</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">4.1</p>
+                        <p>4.1</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">6.4</p>
+                        <p>6.4</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">4.7</p>
+                        <p>4.7</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">2.00</p>
+                        <p>2.00</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">7.9</p>
+                        <p>7.9</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">34.8</p>
+                        <p>34.8</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">1.19</p>
+                        <p>1.19</p>
                     </td>
                 </tr>
-                <tr style="mso-yfti-irow:6">
+                <tr>
                     <td rowspan="1" colspan="1">
                         <p>Max</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"
+                        <p
                             >1.41</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"
+                        <p
                             >23.6</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"
+                        <p
                             >33.9</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"
+                        <p
                             >25.0</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"
+                        <p
                             >10.63</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"
+                        <p
                             >40.0</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"
+                        <p
                             >195.1</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"
+                        <p
                             >2.83</p>
                     </td>
                 </tr>
                 <tr>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                 </tr>
                 <tr>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">Month 6</p>
+                        <p>Month 6</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"> </p>
+                        <p> </p>
                     </td>
                 </tr>
                 <tr>
@@ -1151,28 +1151,28 @@ Usage: #inline
                         <p>Mean</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">1.24</p>
+                        <p>1.24</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">13.3</p>
+                        <p>13.3</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">11.8</p>
+                        <p>11.8</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">15.0</p>
+                        <p>15.0</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">4.04</p>
+                        <p>4.04</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">19.5</p>
+                        <p>19.5</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">67.4</p>
+                        <p>67.4</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">2.47</p>
+                        <p>2.47</p>
                     </td>
                 </tr>
                 <tr>
@@ -1180,28 +1180,28 @@ Usage: #inline
                         <p>SD</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">0.42</p>
+                        <p>0.42</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">6.7</p>
+                        <p>6.7</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">6.2</p>
+                        <p>6.2</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">7.5</p>
+                        <p>7.5</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">1.87</p>
+                        <p>1.87</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">16.1</p>
+                        <p>16.1</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">32.6</p>
+                        <p>32.6</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">0.84</p>
+                        <p>0.84</p>
                     </td>
                 </tr>
                 <tr>
@@ -1209,28 +1209,28 @@ Usage: #inline
                         <p>Min</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">0.65</p>
+                        <p>0.65</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">5.0</p>
+                        <p>5.0</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">5.8</p>
+                        <p>5.8</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">5.3</p>
+                        <p>5.3</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">1.19</p>
+                        <p>1.19</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">7.6</p>
+                        <p>7.6</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">18.5</p>
+                        <p>18.5</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">1.29</p>
+                        <p>1.29</p>
                     </td>
                 </tr>
                 <tr>
@@ -1238,28 +1238,28 @@ Usage: #inline
                         <p>Max</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">2.60</p>
+                        <p>2.60</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">41.0</p>
+                        <p>41.0</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">32.6</p>
+                        <p>32.6</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">14.8</p>
+                        <p>14.8</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">9.45</p>
+                        <p>9.45</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">89.2</p>
+                        <p>89.2</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">168.8</p>
+                        <p>168.8</p>
                     </td>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center">5.20</p>
+                        <p>5.20</p>
                     </td>
                 </tr>
                 <tr>
@@ -1752,7 +1752,7 @@ Usage: #inline
             <tbody>
                 <tr>
                     <td rowspan="1" colspan="1">
-                        <p style="text-align:center"><b>THIS IS A MEDICAMENT</b></p>
+                        <p><b>THIS IS A MEDICAMENT</b></p>
                         <ul>
                             <li>Medicament is a product which affects your health and its
                                 consumption contrary to instructions is dangerous for you.</li>
@@ -1765,7 +1765,7 @@ Usage: #inline
                             <li>Do not repeat the same prescription without consulting your
                                 doctor.</li>
                         </ul>
-                        <p style="text-align:center"><b>Keep all medicaments out of reach and sight
+                        <p><b>Keep all medicaments out of reach and sight
                                 of children</b></p>
                         <p><b>Council of Arab Health Ministers</b></p>
                         <p><b>Union of Arabic Pharmacists</b></p>

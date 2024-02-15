@@ -76,7 +76,7 @@ Usage: #inline
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
         <p><strong>Contenido del prospecto</strong></p>
-<ol type="1">
+<ol>
 <li>Qué es Calcio/Vitamina D3 ROVI y para qué se utiliza</li>
 <li>Qué necesita saber antes de empezar a tomar Calcio/Vitamina D3 ROVI</li>
 <li>Cómo tomar Calcio/Vitamina D3 ROVI</li>
@@ -111,9 +111,8 @@ Usage: #inline
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>No tome Calcio/Vitamina D</strong><strong>3</strong> <strong>ROVI:</strong></p>
-<p></p>
 <div>
-<ul type="circle">
+<ul>
 <li>si es alérgico a los principios activos o a alguno de los demás componentes de este medicamento (incluidos en la sección 6),</li>
 <li>si usted presenta hipercalcemia (nivel de calcio anormalmente elevado en sangre),</li>
 <li>si usted presenta hipercalciuria (eliminación exagerada de calcio en orina),</li>
@@ -123,7 +122,7 @@ Usage: #inline
 </ul>
 </div>
 <p></p>
-<p></p>
+
 <p>Este medicamento contiene aceite de soja. No debe utilizarse en caso de alergia al cacahuete o a la soja.</p>
 <p></p>
 <p><strong>Advertencias y precauciones:</strong></p>
@@ -140,7 +139,7 @@ Usage: #inline
 <p>Informe a su médico o farmacéutico si está utilizando, ha utilizado recientemente o pudiera tener que utilizar cualquier otro medicamento. Ciertos medicamentos pueden interferir con Calcio/Vitamina D3 ROVI; en estos casos puede ser necesario cambiar la dosis, interrumpir el tratamiento con alguno de ellos o esperar al menos unas horas entre la administración de ambos.</p>
 <p>Es importante que informe a su médico si está tomando o ha tomado recientemente alguno de los siguientes medicamentos:</p>
 <div>
-<ul type="circle">
+<ul>
 <li> Glucósidos cardíacos (medicamentos para el corazón).</li>
 <li> Tetraciclinas (ciertos antibióticos), esperar un intervalo de al menos 3 horas.</li>
 <li> Diuréticos tiazídicos (medicamentos que aumentan la eliminación de orina).</li>
@@ -187,15 +186,15 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
             <p>Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico.</p>
 <p></p>
-<p><span style="text-decoration: underline;">Dosis</span></p>
+<p><span>Dosis</span></p>
 <p><em>Adultos</em></p>
 <p>La dosis recomendada es de 1 comprimido efervescente (1000 mg de calcio y 880 UI de Vitamina D3) al día.</p>
 <p><em></em></p>
-<p><span style="text-decoration: underline;">Forma y vía de administración</span></p>
+<p><span>Forma y vía de administración</span></p>
 <p>Este medicamento se administra por vía oral.</p>
 <p>Disolver el comprimido en un vaso de agua y beber inmediatamente.</p>
 <p></p>
-<p><span style="text-decoration: underline;">Duración del tratamiento</span></p>
+<p><span>Duración del tratamiento</span></p>
 <p>Su médico le indicará la duración de su tratamiento con Calcio / Vitamina D3 ROVI. No suspenda antes el tratamiento.</p>
 <p></p>
 <p>Siga estas instrucciones a menos que su médico le haya dado otras indicaciones distintas. En estos casos es conveniente solicitar al médico las instrucciones por escrito y asegurarse de haberlas entendido bien.</p>
@@ -231,13 +230,13 @@ Usage: #inline
            <p>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</p>
 <p></p>
 <p><strong>-Poco frecuente</strong>s (pueden afectar a entre 1 y 10 de cada 1.000 pacientes ):</p>
-<ul type="disc">
+<ul>
 <li>niveles altos de calcio en sangre hipercalcemia,</li>
 <li>niveles altos de calcio en orina hipercalciuria.</li>
 </ul>
 <p></p>
 <p><strong>-Raros</strong> (pueden afectar a entre 1 y 10 de cada 10.000 pacientes ):</p>
-<ul type="disc">
+<ul>
 <li>estreñimiento,</li>
 <li>flatulencia,</li>
 <li>náuseas,</li>
@@ -246,7 +245,7 @@ Usage: #inline
 </ul>
 <p></p>
 <p>-<strong>Muy raros</strong> (pueden afectar a menos de 1 de cada 10.000 pacientes):):</p>
-<ul type="disc">
+<ul>
 <li>picor (prurito),</li>
 <li>erupción de la piel (exantema),</li>
 <li>ronchas (urticaria).</li>
@@ -309,7 +308,7 @@ Usage: #inline
 <p>Alemania</p>
 <p><strong><em></em></strong></p>
 <p><strong>Fecha de la última revisión de este prospecto:</strong> julio 2019</p>
-<p>La información detallada de este medicamento está disponible en la página web de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) (<a href="https://www.aemps.gob.es/"><span style="text-decoration: underline;">https://www.aemps.gob.es/</span></a>)</p>
+<p>La información detallada de este medicamento está disponible en la página web de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) (<a href="https://www.aemps.gob.es/"><span>https://www.aemps.gob.es/</span></a>)</p>
                             
                                   
         </div>"""

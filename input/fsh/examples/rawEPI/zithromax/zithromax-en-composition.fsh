@@ -345,10 +345,10 @@ Usage: #inline
         <p>Haupt Pharma Latina S.r.l. S.S. 156, Km 47.600; Borgo San Michele, 04100 Latina,
             Italy</p>
         <p>This leaflet was last revised in: <b>November 2020</b></p>
-<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+<table border="1" cellpadding="1" cellspacing="1">
 	<tbody>
 		<tr>
-			<td style="text-align:center"><strong>THIS IS A MEDICAMENT</strong></td>
+			<td><strong>THIS IS A MEDICAMENT</strong></td>
 		</tr>
 		<tr>
 			<td>
