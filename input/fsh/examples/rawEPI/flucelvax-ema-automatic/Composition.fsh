@@ -120,7 +120,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
   * code.text =  "1. Qué es Flucelvax y para qué se utiliza"
   * text.status = #additional
    
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><span>&#xa0;</span></p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  
 
     <p><span>Flucelvax Tetra es una vacuna contra la gripe. Flucelvax Tetra se prepara en cultivos celulares y, por lo tanto, no contiene huevo.</span></p>
 
@@ -144,7 +144,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
   * code.text = "2. Qué necesita saber antes de empezar a tomar Flucelvax"
   * text.status = #additional
    
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><span>&#xa0;</span></p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 
     <p><strong><span>No debe recibir Flucelvax Tetra:</span></strong></p>
 
@@ -232,7 +232,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
   * code.text = "3. Cómo tomar Flucelvax"
   * text.status = #additional
    
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><a name="_Hlk142925114"><span>&#xa0;</span></a></p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  
 
     <p><span>Su m&#233;dico o enfermero le administrar&#225; Flucelvax Tetra en forma de inyecci&#243;n en el m&#250;sculo de la parte superior del brazo (m&#250;sculo deltoides).</span></p>
 
@@ -259,7 +259,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
   * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
    
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><span>&#xa0;</span></p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 
     <p><span>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</span></p>
 
@@ -273,7 +273,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
     <p><span>&#xa0;</span></p>
 
-    <p><span>&#8226;</span><span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span> <span>Dificultad para respirar, mareos, pulso d&#233;bil y r&#225;pido junto con erupci&#243;n cut&#225;nea, que son los s&#237;ntomas de una reacci&#243;n anafil&#225;ctica (una reacci&#243;n al&#233;rgica muy grave)</span></p>
+    <p><span>Dificultad para respirar, mareos, pulso d&#233;bil y r&#225;pido junto con erupci&#243;n cut&#225;nea, que son los s&#237;ntomas de una reacci&#243;n anafil&#225;ctica (una reacci&#243;n al&#233;rgica muy grave)</span></p>
 
     <p><span>&#xa0;</span></p>
 
@@ -283,7 +283,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
     <p><span>&#xa0;</span></p>
 
-    <ul >
+    <ul>
       <li><span>Se siente d&#233;bil, tiene dificultades para moverse o presenta entumecimiento u hormigueo en las extremidades. Estos pueden ser s&#237;ntomas del s&#237;ndrome de Guillain-Barr&#233; (SGB), una enfermedad autoinmune causada por el propio sistema inmunitario del organismo</span></li>
 
       <li><span>Hinchaz&#243;n extensa del miembro en el que se ha inyectado</span></li>
@@ -295,7 +295,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
     <p><span>Muy frecuentes</span> <span>(pueden afectar a m&#225;s de 1 de cada 10 personas):</span></p>
 
-    <ul >
+    <ul>
       <li><span>Dolor en la zona de inyecci&#243;n, cardenales, enrojecimiento y endurecimiento o hinchaz&#243;n en la zona de inyecci&#243;n</span></li>
 
       <li><span>Dolor de cabeza</span></li>

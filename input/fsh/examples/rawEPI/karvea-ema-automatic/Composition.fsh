@@ -1207,8 +1207,8 @@ Usage: #example
       <li><strong><span>antibi&#243;ticos, utilizados para tratar las infecciones bacterianas</span></strong><span>, que contengan:</span></li>
 
       <li>
-        <div type="square">
-          <ul type="square">
+        <div>
+          <ul>
             <li><span>azitromicina, claritromicina, rifabutina o rifapentina</span></li>
           </ul>
         </div>

@@ -242,7 +242,8 @@ derecho), algunas veces con pérdida de apetito. Deje de tomar Xenical si aparec
 informe a su médico. Cálculos biliares. Pancreatitis (inflamación del páncreas). Nefropatía por oxalato 
 (desarrollada por el oxalato de calcio que puede originar cálculos renales). Véase Capítulo 2, Tenga 
 especial cuidado con Xenical.Interacciones con anticoagulantes. </p>
-<p>Comunicación de efectos adversosSi experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico incluso si se 
+<p>Comunicación de efectos adversos</p>
+<p>Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico incluso si se 
 trata de  posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos 
 directamente a través del sistema nacional de notificación incluido en el Anexo V*. Mediante la 
 comunicación de efectos adversos usted puede contribuir a  proporcionar más información sobre la 
@@ -254,11 +255,13 @@ seguridad de este medicamento. </p>         </div>"""
   * code.text = "5. CONSERVACIÓN DE XENICAL 120 mg cápsulas duras "
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mantener fuera de la vista y del alcance  de los niños. </p>
-<p><strong>Blisters </strong>No utilice este medicamento después de la fecha de caducidad que aparece en el envase. 
+<p><strong>Blisters </strong></p>
+<p>No utilice este medicamento después de la fecha de caducidad que aparece en el envase. 
 No conservar a temperatura superior a 25 ºC 
 Conservar en el embalaje original y mantener el blíster en el embalaje exterior para protegerlo de la 
 luz y de la humedad. </p>
-<p><strong>Frascos de cristal</strong>No utilice este medicamento después de la fecha de caducidad que aparece en el envase. 
+<p><strong>Frascos de cristal</strong></p>
+<p>No utilice este medicamento después de la fecha de caducidad que aparece en el envase. 
 No conservar a temperatura superior a 30 ºC 
 Mantener el envase perfectamente cerrado para protegerlo de la humedad </p>
 <p>Los medicamentos no se deben tirar por los desagües ni a la basura. Pregunte a su farmacéutico cómo 

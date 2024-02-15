@@ -517,9 +517,6 @@ Usage: #example
 
     <p><span>Italia</span></p>
 
-    <p><a name="_Hlk113950627"><span></span></a></p>
-
-    <p><span>o</span></p>
 
     <p><span></span></p>
 
@@ -529,9 +526,6 @@ Usage: #example
 
     <p><span>08013 Barcelona, España</span></p>
 
-    <p><span></span></p>
-
-    <p><span>o</span></p>
 
     <p><span></span></p>
 
@@ -541,7 +535,6 @@ Usage: #example
 
     <p><span>90429 Nuremberg, Alemania</span></p>
 
-    <p><span></span></p>
 
     <p><span>Fecha de la última revisión de este prospecto: enero 2022</span></p>
   </div>         </div>"""      

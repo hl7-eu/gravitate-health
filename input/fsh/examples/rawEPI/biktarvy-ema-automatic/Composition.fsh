@@ -72,7 +72,7 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>Conserve este prospecto, ya que puede tener que volver a leerlo.</span></li>
 
       <li><span>Si tiene alguna duda, consulte a su m&#233;dico o farmac&#233;utico.</span></li>
@@ -98,7 +98,7 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ol type="1">
+    <ol>
       <li><span>Qu&#233; es Biktarvy y para qu&#233; se utiliza</span></li>
 
       <li><span>Qu&#233; necesita saber antes de empezar a tomar Biktarvy</span></li>
@@ -125,11 +125,11 @@ Usage: #example
   * code.text =  "1. Qué es Biktarvy y para qué se utiliza"
   * text.status = #additional
    
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><span>&#xa0;</span></p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  
 
     <p><span>Biktarvy contiene tres principios activos:</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>bictegravir,</span></strong> <span>un medicamento antirretroviral conocido como inhibidor de la transferencia de las</span> <span>hebras de la integrasa (INI)</span></li>
 
       <li><strong><span>emtricitabina,</span></strong> <span>un medicamento antirretroviral de un tipo conocido como nucle&#243;sido inhibidor</span> <span>de la transcriptasa inversa (ITIAN)</span></li>
@@ -157,21 +157,21 @@ Usage: #example
   * code.text = "2. Qué necesita saber antes de empezar a tomar Biktarvy"
   * text.status = #additional
    
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><span>&#xa0;</span></p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  
 
     <p><strong><span>No tome Biktarvy</span></strong></p>
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>Si es al&#233;rgico a bictegravir, emtricitabina, tenofovir alafenamida</span></strong> <span>o a alguno de los dem&#225;s</span> <span>componentes de este medicamento (incluidos en la secci&#243;n 6 de este prospecto).</span></li>
     </ul>
 
-    <ul type="disc">
+    <ul>
       <li><a name="page2" id="page2"></a><strong><span>Si actualmente est&#225; tomando alguno de los siguientes medicamentos:</span></strong></li>
 
       <li>
-        <ul type="circle">
+        <ul>
           <li><strong><span>rifampicina</span></strong> <span>utilizada para tratar algunas infecciones bacterianas como la tuberculosis</span></li>
 
           <li><strong><span>hierba de San Juan</span></strong> <span>(</span><em><span>Hypericum perforatum</span></em><span>, hip&#233;rico), un medicamento a base de</span> <span>plantas utilizado para la depresi&#243;n y la ansiedad, o productos que la contengan.</span></li>
@@ -181,7 +181,7 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>Si est&#225; tomando alguno de estos medicamentos,</span> <strong><span>no tome Biktarvy y consulte a su m&#233;dico</span></strong> <strong><span>inmediatamente.</span></strong></li>
     </ul>
 
@@ -195,17 +195,17 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>Si tiene problemas hep&#225;ticos o antecedentes de enfermedad hep&#225;tica, incluida la hepatitis.</span></strong> <span>Los pacientes que padecen de enfermedades hep&#225;ticas, como la hepatitis B o C cr&#243;nica, y est&#225;n en tratamiento con antirretrovirales tienen m&#225;s riesgo de presentar complicaciones hep&#225;ticas graves y potencialmente mortales. Si tiene infecci&#243;n por el virus de la hepatitis B, su m&#233;dico evaluar&#225; detenidamente la mejor pauta terap&#233;utica para usted.</span></li>
     </ul>
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>Si tiene hepatitis B.</span></strong> <span>Los problemas hep&#225;ticos pueden empeorar despu&#233;s de dejar de tomar</span> <span>Biktarvy.</span></li>
     </ul>
 
-    <ul type="disc">
+    <ul>
       <li><span>No deje de tomar Biktarvy si tiene hepatitis B. Hable antes con su m&#233;dico. Puede consultar m&#225;s detalles en la secci&#243;n 3,</span> <em><span>No interrumpa el tratamiento con Biktarvy.</span></em></li>
     </ul>
 
@@ -219,7 +219,7 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>Signos de inflamaci&#243;n o infecci&#243;n</span></strong></li>
 
       <li><strong><span>Dolor articular, rigidez o problemas &#243;seos</span></strong></li>
@@ -227,7 +227,7 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>Si nota cualquiera de estos s&#237;ntomas, informe a su m&#233;dico inmediatamente.</span></strong> <span>Puede consultar</span> <span>m&#225;s informaci&#243;n en la secci&#243;n 4,</span> <em><span>Posibles efectos adversos</span></em><span>.</span></li>
     </ul>
 
@@ -261,7 +261,7 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>rifampicina</span></strong> <span>utilizada para tratar algunas infecciones bacterianas como la tuberculosis</span></li>
 
       <li><strong><span>hierba de San Juan</span></strong> <span>(</span><em><span>Hypericum perforatum</span></em><span>, hip&#233;rico), un medicamento a base de plantas</span> <span>utilizado para la depresi&#243;n y la ansiedad, o productos que lo contengan</span><strong><span>.</span></strong></li>
@@ -269,7 +269,7 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>Si est&#225; tomando alguno de estos medicamentos,</span> <strong><span>no tome Biktarvy e informe a su m&#233;dico</span></strong> <strong><span>inmediatamente.</span></strong></li>
     </ul>
 
@@ -279,11 +279,11 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>medicamentos utilizados para tratar el VIH y/o la hepatitis B</span></strong> <span>que contengan:</span></li>
 
       <li>
-        <ul type="circle">
+        <ul>
           <li><span>adefovir dipivoxil, atazanavir, bictegravir, emtricitabina, lamivudina, tenofovir alafenamida o tenofovir disoproxilo</span></li>
         </ul>
       </li>
@@ -291,8 +291,8 @@ Usage: #example
       <li><strong><span>antibi&#243;ticos, utilizados para tratar las infecciones bacterianas</span></strong><span>, que contengan:</span></li>
 
       <li>
-        <div type="square">
-          <ul type="square">
+        <div>
+          <ul>
             <li><span>azitromicina, claritromicina, rifabutina o rifapentina</span></li>
           </ul>
         </div>
@@ -301,7 +301,7 @@ Usage: #example
       <li><strong><span>antiepil&#233;pticos,</span></strong> <span>utilizados para tratar la epilepsia, que contengan:</span></li>
 
       <li>
-        <ul type="circle">
+        <ul>
           <li><span>carbamazepina, oxcarbazepina, fenobarbital o fenito&#237;na</span></li>
         </ul>
       </li>
@@ -313,7 +313,7 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>Informe a su m&#233;dico si est&#225; tomando alguno de estos medicamentos.</span></strong> <span>No interrumpa su</span> <span>tratamiento sin consultar con su m&#233;dico.</span></li>
     </ul>
 
@@ -321,7 +321,7 @@ Usage: #example
 
     <p><strong><span>Consulte a su m&#233;dico o farmac&#233;utico si est&#225; tomando:</span></strong></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>anti&#225;cidos</span></strong> <span>para tratar &#250;lceras estomacales, acidez estomacal o reflujo &#225;cido, que contengan</span> <span>hidr&#243;xido de aluminio y/o de magnesio</span></li>
 
       <li><strong><span>suplementos de minerales</span></strong> <span>o</span> <strong><span>de vitaminas,</span></strong> <span>que contengan magnesio o hierro</span></li>
@@ -329,8 +329,8 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <div type="circle">
-      <ul type="circle">
+    <div>
+      <ul>
         <li><strong><span>Consulte a su m&#233;dico o farmac&#233;utico antes de tomar Biktarvy</span></strong> <span>si est&#225; tomando alguno de estos</span> <span>medicamentos.</span></li>
       </ul>
     </div>
@@ -343,7 +343,7 @@ Usage: #example
 
     <p><strong><span>Embarazo y lactancia</span></strong></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>Si est&#225; embarazada o en periodo de lactancia, cree que podr&#237;a estar embarazada o tiene intenci&#243;n de quedarse embarazada, consulte a su m&#233;dico o farmac&#233;utico antes de utilizar este medicamento.</span></li>
 
       <li><span>Informe a su m&#233;dico inmediatamente si se queda embarazada y pregunte sobre los posibles beneficios y riesgos de su tratamiento antirretroviral para usted y para su hijo.</span></li>
@@ -399,17 +399,17 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>Consulte a su m&#233;dico o farmac&#233;utico si est&#225; tomando:</span></strong></li>
     </ul>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>anti&#225;cidos</span></strong> <span>para tratar &#250;lceras estomacales, acidez estomacal o reflujo &#225;cido, que contengan</span> <span>hidr&#243;xido de aluminio y/o de magnesio</span></li>
 
       <li><strong><span>suplementos de minerales</span></strong> <span>o</span> <strong><span>vitaminas</span></strong> <span>que contengan magnesio o hierro</span></li>
     </ul>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>Vea la secci&#243;n 2 para m&#225;s informaci&#243;n</span></strong> <span>sobre c&#243;mo tomar estos medicamentos con Biktarvy.</span></li>
     </ul>
 
@@ -437,7 +437,7 @@ Usage: #example
 
     <p><span>Si olvida una dosis:</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>Si se da cuenta en las 18 horas</span></strong> <span>posteriores a la hora a la que normalmente toma Biktarvy, debe</span> <span>tomar el comprimido tan pronto como sea posible. Luego tome la dosis siguiente de la forma habitual.</span></li>
 
       <li><strong><span>Si se da cuenta despu&#233;s de 18 horas o m&#225;s</span></strong> <span>de la hora a la que normalmente toma Biktarvy, no</span> <span>tome la dosis olvidada. Espere y tome la siguiente dosis a la hora habitual.</span></li>
@@ -465,7 +465,7 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>Hable con su m&#233;dico inmediatamente</span></strong> <span>acerca de s&#237;ntomas nuevos o inusuales tras suspender su</span> <span>tratamiento, particularmente s&#237;ntomas que asocie con la infecci&#243;n por el virus de la hepatitis B.</span></li>
     </ul>
 
@@ -484,7 +484,7 @@ Usage: #example
   * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
    
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><span>&#xa0;</span></p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 
     <p><span>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</span></p>
 
@@ -494,20 +494,20 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>Cualquier signo de inflamaci&#243;n o de infecci&#243;n.</span></strong> <span>En algunos pacientes con infecci&#243;n avanzada</span> <span>por el VIH (sida) y antecedentes de infecciones oportunistas (infecciones que ocurren en personas con un sistema inmunitario d&#233;bil), se pueden producir signos y s&#237;ntomas de inflamaci&#243;n por infecciones previas poco despu&#233;s de iniciar el tratamiento contra el VIH. Se cree que estos s&#237;ntomas se deben a una mejor&#237;a de la respuesta inmunitaria del organismo, que le permite combatir infecciones que podr&#237;an haber estado presentes sin s&#237;ntomas obvios.</span></li>
     </ul>
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>Se pueden producir tambi&#233;n</span> <strong><span>trastornos autoinmunitarios,</span></strong> <span>en los que el sistema inmunitario ataca a los tejidos sanos del organismo, despu&#233;s de que empiece a tomar medicamentos para la infecci&#243;n por el VIH. Los trastornos autoinmunitarios se pueden producir muchos meses despu&#233;s del inicio del tratamiento. Est&#233; atento a cualquier s&#237;ntoma de infecci&#243;n u otros s&#237;ntomas, como:</span></li>
     </ul>
 
     <p><span>&#xa0;</span></p>
 
-    <div type="circle">
-      <ul type="circle">
+    <div>
+      <ul>
         <li><span>debilidad muscular</span></li>
 
         <li><span>debilidad que se inicia en las manos y los pies y se desplaza hacia el tronco</span></li>
@@ -518,7 +518,7 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>Si nota cualquiera de estos s&#237;ntomas o cualquier s&#237;ntoma de inflamaci&#243;n o infecci&#243;n, informe a su m&#233;dico inmediatamente.</span></strong></li>
     </ul>
 
@@ -528,7 +528,7 @@ Usage: #example
 
     <p><em><span>(pueden afectar hasta 1 de cada 10 personas)</span></em></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>depresi&#243;n</span></li>
 
       <li><span>sue&#241;os anormales</span></li>
@@ -550,77 +550,77 @@ Usage: #example
 
     <p><span>(</span><em><span>pueden afectar hasta 1 de cada 100 personas</span></em><span>)</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>anemia</span></li>
     </ul>
 
-    <ul type="disc">
+    <ul>
       <li><a name="page6" id="page6"></a><span>v&#243;mitos</span></li>
     </ul>
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>dolor de est&#243;mago</span></li>
     </ul>
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>problemas digestivos que generan molestias despu&#233;s de las comidas (</span><em><span>dispepsia</span></em><span>)</span></li>
     </ul>
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>gases (</span><em><span>flatulencia</span></em><span>)</span></li>
     </ul>
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>hinchaz&#243;n de la cara, labios, lengua o garganta (</span><em><span>angioedema</span></em><span>)</span></li>
     </ul>
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>picaz&#243;n (</span><em><span>prurito</span></em><span>)</span></li>
     </ul>
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>erupci&#243;n</span></li>
     </ul>
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>habones (</span><em><span>urticaria</span></em><span>)</span></li>
     </ul>
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>dolor en las articulaciones (</span><em><span>artralgia</span></em><span>)</span></li>
     </ul>
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>comportamiento suicida</span></li>
     </ul>
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>ansiedad</span></li>
     </ul>
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>trastornos del sue&#241;o</span></li>
     </ul>
 
@@ -628,13 +628,13 @@ Usage: #example
 
     <p><em><span>Los an&#225;lisis de sangre tambi&#233;n pueden mostrar:</span></em></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <span>Concentraciones m&#225;s altas de sustancias llamadas bilirrubina y/o creatinina s&#233;rica en la sangre</span></li>
     </ul>
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <strong><span>Si considera que alguno de los efectos adversos que sufre es grave, informe a su m&#233;dico.</span></strong></li>
     </ul>
 
@@ -646,11 +646,11 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>Problemas &#243;seos.</span></strong> <span>Algunos pacientes tratados con medicamentos antirretrovirales combinados</span> <span>como Biktarvy pueden desarrollar una enfermedad de los huesos llamada</span> <em><span>osteonecrosis</span></em> <span>(muerte del tejido &#243;seo debida a una p&#233;rdida del suministro de sangre al hueso). Tomar este tipo de medicamentos durante un tiempo prolongado, tomar corticosteroides, beber alcohol, tener un sistema inmunitario muy d&#233;bil y tener sobrepeso, pueden ser algunos de los muchos factores de riesgo para desarrollar esta enfermedad. Los signos de osteonecrosis son:</span></li>
 
       <li>
-        <ul type="circle">
+        <ul>
           <li><span>rigidez articular</span></li>
 
           <li><span>molestias y dolores articulares (especialmente de la cadera, la rodilla y el hombro)</span></li>
@@ -662,7 +662,7 @@ Usage: #example
 
     <p><span>&#xa0;</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><strong><span>Si nota cualquiera de estos s&#237;ntomas, informe a su m&#233;dico.</span></strong></li>
     </ul>
 
@@ -715,7 +715,7 @@ Usage: #example
   * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
    
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><span>&#xa0;</span></p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  
 
     <p><strong><span>Composici&#243;n de Biktarvy</span></strong></p>
 
