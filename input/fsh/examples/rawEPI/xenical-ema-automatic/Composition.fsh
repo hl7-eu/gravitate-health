@@ -135,21 +135,18 @@ tomar cualquier otro medicamento. </p>
 disminuir su efecto. </p>
 <p>Xenical puede modificar la acción de: </p>
 <ul>
-<li><p>Anticoagulantes (p. ej. warfarina), por ello, su médico puede necesitar monitorizar su 
-coagulación sanguínea. </p>
-</li>
-<li><p>Ciclosporina. No se recomienda la administración conjunta con ciclosporina. Su médico puede 
+<li>Anticoagulantes (p. ej. warfarina), por ello, su médico puede necesitar monitorizar su 
+coagulación sanguínea.</li>
+<li>Ciclosporina. No se recomienda la administración conjunta con ciclosporina. Su médico puede 
 necesitar monitorizar sus niveles plasmáticos de ciclosporina con mayor frecuencia de lo 
-habitual. </p>
+habitual. </li>
+<li>Sales de yodo y/o levotiroxina. Pueden producir casos de hipotiroidismo y/o alteraciones del 
+control del hipotiroidismo.</li>
+<li>Amiodarona. Consulte con su médico. 
 </li>
-<li><p>Sales de yodo y/o levotiroxina. Pueden producir casos de hipotiroidismo y/o alteraciones del 
-control del hipotiroidismo. </p>
+<li>Medicamentos para tratar el SIDA.
 </li>
-<li><p>Amiodarona. Consulte con su médico. </p>
-</li>
-<li><p>Medicamentos para tratar el SIDA. </p>
-</li>
-<li><p>Medicamentos para la depresión, para trastornos psiquiátricos o para la ansiedad. </p>
+<li>Medicamentos para la depresión, para trastornos psiquiátricos o para la ansiedad. 
 </li>
 </ul>
 <p>Xenical reduce la absorción de suplementos de algunos nutrientes solubles en grasa, especialmente de 
@@ -292,7 +289,6 @@ CHEPLAPHARM Arzneimittel GmbH
 Bahnhofstr. 1a 
 17498 Mesekenhagen 
 Alemania </p>
-<p>o </p>
 <p>CHEPLAPHARM Arzneimittel GmbH 
 Ziegelhof 23-17489 GreifswaldAlemania </p>
 <p>Fecha de la última revisión de este prospecto </p>

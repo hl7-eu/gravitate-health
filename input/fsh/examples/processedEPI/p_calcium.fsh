@@ -197,7 +197,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
             <p>Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico.</p>
 <p></p>
-<p><span>Dosis</span></p>
+<p><strong><span>Dosis</span></strong></p>
 <p><em>Adultos</em></p>
 <p>La dosis recomendada es de 1 comprimido efervescente (1000 mg de calcio y 880 UI de Vitamina D3) al día.</p>
 <p><em></em></p>
@@ -240,13 +240,13 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
            <p>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</p>
 <p></p>
-<p><strong>-Poco frecuente</strong>s (pueden afectar a entre 1 y 10 de cada 1.000 pacientes ):</p>
-<ul >
+<p><strong>- Poco frecuente</strong>s (pueden afectar a entre 1 y 10 de cada 1.000 pacientes ):</p>
+<ul>
 <li>niveles altos de calcio en sangre hipercalcemia,</li>
 <li>niveles altos de calcio en orina hipercalciuria.</li>
 </ul>
 <p></p>
-<p><strong>-Raros</strong> (pueden afectar a entre 1 y 10 de cada 10.000 pacientes ):</p>
+<p><strong>- Raros</strong> (pueden afectar a entre 1 y 10 de cada 10.000 pacientes ):</p>
 <ul >
 <li>estreñimiento,</li>
 <li>flatulencia,</li>
@@ -255,7 +255,7 @@ Usage: #inline
 <li>diarrea.</li>
 </ul>
 <p></p>
-<p>-<strong>Muy raros</strong> (pueden afectar a menos de 1 de cada 10.000 pacientes):):</p>
+<p>- <strong>Muy raros</strong> (pueden afectar a menos de 1 de cada 10.000 pacientes):):</p>
 <ul >
 <li>picor (prurito),</li>
 <li>erupción de la piel (exantema),</li>

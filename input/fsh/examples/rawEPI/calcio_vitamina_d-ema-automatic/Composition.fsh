@@ -117,7 +117,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>No tome Calcio/Vitamina D</strong><strong>3</strong> <strong>ROVI:</strong></p>
 <p></p>
 <div>
-<ul type="circle">
+<ul>
 <li>si es alérgico a los principios activos o a alguno de los demás componentes de este medicamento (incluidos en la sección 6),</li>
 <li>si usted presenta hipercalcemia (nivel de calcio anormalmente elevado en sangre),</li>
 <li>si usted presenta hipercalciuria (eliminación exagerada de calcio en orina),</li>
@@ -144,7 +144,7 @@ Usage: #example
 <p>Informe a su médico o farmacéutico si está utilizando, ha utilizado recientemente o pudiera tener que utilizar cualquier otro medicamento. Ciertos medicamentos pueden interferir con Calcio/Vitamina D3 ROVI; en estos casos puede ser necesario cambiar la dosis, interrumpir el tratamiento con alguno de ellos o esperar al menos unas horas entre la administración de ambos.</p>
 <p>Es importante que informe a su médico si está tomando o ha tomado recientemente alguno de los siguientes medicamentos:</p>
 <div>
-<ul type="circle">
+<ul >
 <li> Glucósidos cardíacos (medicamentos para el corazón).</li>
 <li> Tetraciclinas (ciertos antibióticos), esperar un intervalo de al menos 3 horas.</li>
 <li> Diuréticos tiazídicos (medicamentos que aumentan la eliminación de orina).</li>
@@ -191,7 +191,7 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
             <p>Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico.</p>
 <p></p>
-<p><span>Dosis</span></p>
+<p><strong><span>Dosis</span></strong></p>
 <p><em>Adultos</em></p>
 <p>La dosis recomendada es de 1 comprimido efervescente (1000 mg de calcio y 880 UI de Vitamina D3) al día.</p>
 <p><em></em></p>
@@ -234,14 +234,14 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
            <p>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</p>
 <p></p>
-<p><strong>-Poco frecuente</strong>s (pueden afectar a entre 1 y 10 de cada 1.000 pacientes ):</p>
-<ul type="disc">
+<p><strong>- Poco frecuente</strong>s (pueden afectar a entre 1 y 10 de cada 1.000 pacientes ):</p>
+<ul>
 <li>niveles altos de calcio en sangre hipercalcemia,</li>
 <li>niveles altos de calcio en orina hipercalciuria.</li>
 </ul>
 <p></p>
-<p><strong>-Raros</strong> (pueden afectar a entre 1 y 10 de cada 10.000 pacientes ):</p>
-<ul type="disc">
+<p><strong>- Raros</strong> (pueden afectar a entre 1 y 10 de cada 10.000 pacientes ):</p>
+<ul>
 <li>estreñimiento,</li>
 <li>flatulencia,</li>
 <li>náuseas,</li>
@@ -249,8 +249,8 @@ Usage: #example
 <li>diarrea.</li>
 </ul>
 <p></p>
-<p>-<strong>Muy raros</strong> (pueden afectar a menos de 1 de cada 10.000 pacientes):):</p>
-<ul type="disc">
+<p>- <strong>Muy raros</strong> (pueden afectar a menos de 1 de cada 10.000 pacientes):):</p>
+<ul>
 <li>picor (prurito),</li>
 <li>erupción de la piel (exantema),</li>
 <li>ronchas (urticaria).</li>
