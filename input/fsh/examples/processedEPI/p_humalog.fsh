@@ -4,16 +4,12 @@ Instance: composition-en-45f3604d61f93f5f026bea5d5824af10-proc
 InstanceOf: CompositionUvEpi
 Title: "Composition for Humalog Package Leaflet- Preprocessed"
 Description:  "Composition for Humalog Package Leaflet - Preprocessed"
-Usage: #inline
+Usage: #example
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "67ff4522ed913c691ffda86f38ef0f4f"
 
 * status = #final
-
-
-
-
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
@@ -21,11 +17,8 @@ Usage: #inline
 * subject = Reference(mpd33868162d255ced115cecbbf188aab4)
 * date = "2022-02-16T13:28:17Z"
 
- 
  // Reference to Organization: MAH
 * author = Reference(mah-3fdc76794516d7826890ab9f893e99c1) 
- 
-
 
 
 * title = "TEST PURPOSES ONLY - Humalog"
@@ -65,10 +58,6 @@ Read all of this leaflet carefully before you start taking this medicine because
 </ul>
 </div>"""
 
-   
-
-
-
 * section[=].section[+]
   * title = "What is in this leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -87,9 +76,6 @@ What in this leaflet
 </ol>
 </div>"""
 
-   
-          
-
 * section[=].section[+]
   * title = "1. What Humalog is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -105,9 +91,8 @@ use Humalog within 15 minutes of a meal.</p>
 comes with another patient information leaflet to tell you about it. Do not change your insulin unless
 your doctor tells you to. Be very careful if you do change insulin.</p>
 <p>Humalog is suitable for use in adults and children.</p>         </div>"""   
-          
 
-             
+
 * section[=].section[+]
   * title = "2. What you need to know before you take Humalog"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538

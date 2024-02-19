@@ -54,9 +54,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
+  * title = "Package leaflet: Information for the user"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
+  * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -78,9 +78,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "Contenido del prospecto"
+  * title = "What is in this leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Contenido del prospecto"
+  * code.text = "What is in this leaflet"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -99,9 +99,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title = "1. Qué es CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES y para qué se utiliza"
+  * title = "1. What CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. Qué es CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES y para qué se utiliza"
+  * code.text = "1. What CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES is and what it is used for"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -114,9 +114,9 @@ Usage: #inline
 
              
 * section[=].section[+]
-  * title = "2. Qué necesita saber antes de empezar a tomar CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+  * title = "2. What you need to know before you take CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. Qué necesita saber antes de empezar a tomar CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+  * code.text = "2. What you need to know before you take CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>No tome Calcio/Vitamina D</strong><strong>3</strong> <strong>ROVI:</strong></p>
@@ -189,15 +189,15 @@ Usage: #inline
    
                     
 * section[=].section[+]
-  * title = "3. Cómo tomar CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+  * title = "3. How to take CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. Cómo tomar CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+  * code.text = "3. How to take CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
             <p>Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico.</p>
 <p></p>
-<p><span>Dosis</span></p>
+<p><strong><span>Dosis</span></strong></p>
 <p><em>Adultos</em></p>
 <p>La dosis recomendada es de 1 comprimido efervescente (1000 mg de calcio y 880 UI de Vitamina D3) al día.</p>
 <p><em></em></p>
@@ -232,21 +232,21 @@ Usage: #inline
 
         
 * section[=].section[+]
-  * title = "4. Posibles efectos adversos"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Posibles efectos adversos"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
            <p>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</p>
 <p></p>
-<p><strong>-Poco frecuente</strong>s (pueden afectar a entre 1 y 10 de cada 1.000 pacientes ):</p>
-<ul >
+<p><strong>- Poco frecuente</strong>s (pueden afectar a entre 1 y 10 de cada 1.000 pacientes ):</p>
+<ul>
 <li>niveles altos de calcio en sangre hipercalcemia,</li>
 <li>niveles altos de calcio en orina hipercalciuria.</li>
 </ul>
 <p></p>
-<p><strong>-Raros</strong> (pueden afectar a entre 1 y 10 de cada 10.000 pacientes ):</p>
+<p><strong>- Raros</strong> (pueden afectar a entre 1 y 10 de cada 10.000 pacientes ):</p>
 <ul >
 <li>estreñimiento,</li>
 <li>flatulencia,</li>
@@ -255,7 +255,7 @@ Usage: #inline
 <li>diarrea.</li>
 </ul>
 <p></p>
-<p>-<strong>Muy raros</strong> (pueden afectar a menos de 1 de cada 10.000 pacientes):):</p>
+<p>- <strong>Muy raros</strong> (pueden afectar a menos de 1 de cada 10.000 pacientes):):</p>
 <ul >
 <li>picor (prurito),</li>
 <li>erupción de la piel (exantema),</li>
@@ -269,9 +269,9 @@ Usage: #inline
       
         
 * section[=].section[+]
-  * title = "5. Conservación DE CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+  * title = "5. How to store CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. Conservación DE CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+  * code.text = "5. How to store CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -288,9 +288,9 @@ Usage: #inline
         
         
 * section[=].section[+]
-  * title = "6. Contenido del envase e información adicional"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contenido del envase e información adicional"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -334,7 +334,7 @@ Usage: #example
 
 * language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "EU/1/97/049/001"
+* identifier.value = "P/EU/1/97/049/001"
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
 * language = #es

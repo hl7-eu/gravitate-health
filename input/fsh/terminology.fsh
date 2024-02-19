@@ -237,3 +237,30 @@ Description: "Example ICPC2 CS"
 * #D93
     "Irritable bowel syndrome"
     "Irritable bowel syndrome"
+
+
+
+// Define a local code system
+CodeSystem: TypeOfDataCS
+Id:         type-of-data-cs
+Title:     "Type of information to be added in epi CS"
+Description:  "Type of information to be added in epi CS"
+* ^experimental = true
+* ^caseSensitive = true
+
+* #PCT
+    "PCT"
+    "PCT"
+* #IMG
+    "IMG"
+    "IMG"
+* #VIDEO
+    "Video"
+    "Video"
+
+
+ValueSet: TypeOfDataVS
+Id:         type-of-data-vs
+
+
+* include codes from system type-of-data-cs
