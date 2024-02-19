@@ -9,4 +9,5 @@ Description:  "Summary Data  Profile"
 * relatesTo MS
 * category MS
 * section  1..*
+* note 1..* MS
 
