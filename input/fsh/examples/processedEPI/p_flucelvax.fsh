@@ -565,6 +565,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
+
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><span>&#xa0;</span></p>
 
     <p><strong><span>Composici&#243;n de Flucelvax Tetra</span></strong></p>
@@ -592,9 +593,8 @@ Usage: #example
 
     <p><span>por dosis de 0,5 ml</span></p>
 
-    <p><span>&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.</span></p>
 
-    <p><span>*</span><span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span> <span>propagadas en c&#233;lulas Madin Darby Canine Kidney (MDCK) (se trata de un cultivo celular especial en el que crece el virus de la gripe)</span></p>
+    <p><span>*</span><span>propagadas en c&#233;lulas Madin Darby Canine Kidney (MDCK) (se trata de un cultivo celular especial en el que crece el virus de la gripe)</span></p>
 
     <p><span>** hemaglutinina</span></p>
 
@@ -650,7 +650,7 @@ Usage: #example
     <p><span>La informaci&#243;n detallada de este medicamento est&#225; disponible en la p&#225;gina web de la Agencia Europea de Medicamentos:</span> <a href="http://www.ema.europa.eu/"><span>http://www.ema.europa.eu/.</span></a></p>
 
 
-    <p><span>------------------------------------------------------------------------------------------------------------- Esta informaci&#243;n est&#225; destinada &#250;nicamente a profesionales del sector sanitario:</span></p>
+    <p><span Esta informaci&#243;n est&#225; destinada &#250;nicamente a profesionales del sector sanitario:</span></p>
 
 
     <p><span>Debe estar siempre f&#225;cilmente disponible el tratamiento m&#233;dico y la supervisi&#243;n apropiados en caso de un episodio anafil&#225;ctico, que puede aparecer raramente despu&#233;s de administrar la vacuna.</span></p>

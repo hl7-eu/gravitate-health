@@ -55,21 +55,19 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
 
-    <p><span></span></p>
 
     <p><strong><span>TEGRETOL 200 mg comprimidos</span></strong></p>
 
     <p><span>Carbamazepina</span></p>
 
-    <p><span></span></p>
 
     <p><strong><span>Lea todo el prospecto detenidamente antes de empezar a tomar el medicamento,</span></strong> <strong><span>porque contiene información importante para usted</span></strong><strong><span>.</span></strong></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>Conserve este prospecto, ya que puede tener que volver a leerlo.</span></li>
     </ul>
 
-    <ul type="disc">
+    <ul>
       <li><span>Si tiene alguna duda, consulte a su médico o farmacéutico.</span></li>
 
       <li><span>Este medicamento se le ha recetado solamente a usted personalmente y no debe dárselo a otras personas aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.</span></li>
@@ -127,11 +125,10 @@ Usage: #example
 
     <p><span>El riesgo de reacciones cutáneas graves en pacientes de origen chinos Han o tailandés relacionado con carbamazepina o compuestos químicamente relacionados puede predecirse por medio de un análisis de sangre de estos pacientes. Su médico debe indicarle si necesita que se haga estos análisis antes de tomar Tegretol.</span></p>
 
-    <p><span></span></p>
 
     <p><strong><span>No tome Tegretol:</span></strong></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>Si es alérgico a carbamazepina o a alguno de los demás componentes de este medicamento (incluidos en la sección 6), así como a algún fármaco de estructura parecida a carbamazepina (algunos antidepresivos);</span></li>
 
       <li><span>Si padece una enfermedad grave de corazón;</span></li>
@@ -143,17 +140,15 @@ Usage: #example
       <li><span>Si está tomando medicamentos pertenecientes a un grupo especial de antidepresivos llamados inhibidores de la monoamino-oxidasa (IMAOs).</span></li>
     </ul>
 
-    <p><span></span></p>
 
     <p><span>Si se encuentra en alguna de estas situaciones, consulte a su médico antes de tomar Tegretol. Si piensa que puede ser alérgico, consulte a su médico.</span></p>
 
-    <p><span></span></p>
 
     <p><strong><span>Advertencias y precauciones</span></strong></p>
 
     <p><span>Consulte a su médico o farmacéutico antes de empezar a tomar Tegretol.</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>si ha sufrido en el pasado o sufre enfermedades de corazón, de hígado o de riñón;</span></li>
 
       <li><span>si padece o ha padecido alguna enfermedad de la sangre (incluidas las causadas por otros medicamentos);</span></li>
@@ -171,25 +166,21 @@ Usage: #example
       <li><span>Informe a su médico si usted está embarazada o tiene intención de quedarse embarazada. Su médico le informará sobre el riesgo potencial de tomar Tegretol durante el embarazo ya que puede producir daños o anormalidades en el feto. Existe riesgo de daños para el feto si se utiliza Tegretol durante el embarazo. Las mujeres en edad fértil deben utilizar un método anticonceptivo eficaz durante el tratamiento con Tegretol y durante dos semanas después de la última dosis (ver sección embarazo, lactancia y fertilidad).</span></li>
     </ul>
 
-    <p><span></span></p>
-
-    <p><span></span></p>
 
     <p><span>Si se encuentra con alguna de las siguientes situaciones, consulte inmediatamente con su médico:</span></p>
 
-    <p><span></span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>En caso de aparición de fiebre, dolor de garganta, erupción en la piel, úlceras en la boca, magulladuras de forma fácil y sin motivo aparente o manchas violáceas en la piel (ver Sección 4 “Posibles efectos adversos”).</span></li>
     </ul>
 
     <p><span>Es muy importante que el médico controle el tratamiento en visitas periódicas y, le haga análisis de sangre y orina al principio del tratamiento y de forma regular a lo largo del mismo para descartar la aparición de alteraciones de la sangre y de la función de su hígado y riñón, y también en algunas ocasiones para controlar la dosis de Tegretol más adecuada.</span></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>Se han descrito erupciones cutáneas que pueden amenazar la vida del paciente (síndrome de Stevens Johnson y necrólisis epidérmica tóxica) con el uso de Tegretol, inicialmente aparecen como puntos o machas circulares rojizas, a menudo con una ampolla central. Otros signos adicionales que pueden aparecer son llagas en la boca, garganta, nariz, genitales y conjuntivitis (ojos hinchados y rojos). Estas erupciones en la piel que pueden amenazar la vida del paciente, a menudo van acompañadas de síntomas de gripe. La erupción puede progresar a la formación de ampollas generalizadas o descamación de la piel. El periodo de mayor riesgo de aparición de reacciones cutáneas graves es durante los primeros meses de tratamiento con Tegretol.</span> <span>Si aparece una reacción en la piel como erupción, enrojecimiento, ampollas en labios, ojos o boca o descamación acompañada de fiebre, deje de tomar Tegretol e informe inmediatamente a su médico. Estas reacciones pueden ser más frecuentes en pacientes de países asiáticos (p. ej. Taiwán, Malasia y Filipinas). Pueden aparecer raramente efectos adversos graves en piel mientras esté en tratamiento con Tegretol. Las personas de origen chino y tailandés se les puede estimar el riesgo con un análisis de sangre. Si es de dicha procedencia, hable de ello con su médico antes de tomar Tegretol.</span> <span>Si usted ha desarrollado síndrome de Steve Johnson o necrólisis epidérmica tóxica con el uso de Tegretol, no debe utilizar Tegretol de nuevo en ningún momento.</span></li>
     </ul>
 
-    <ul type="disc">
+    <ul>
       <li><span>Si aparece una reacción alérgica como fiebre con hinchazón de ganglios linfáticos, erupción o ampollas en la piel, consulte con su médico inmediatamente o acuda al hospital más cercano (ver Sección 4 “Posibles efectos adversos”).</span></li>
 
       <li><span>Si experimenta un aumento del número de crisis epilépticas, consulte a su médico inmediatamente.</span></li>
@@ -203,29 +194,23 @@ Usage: #example
       <li><span>Si experimenta mareos, somnolencia, disminución de la presión sanguínea, confusión, sedación y ataxia a causa de del tratamiento con Tegretol, ya que puede producir que se caiga.</span></li>
     </ul>
 
-    <p><span></span></p>
 
     <p><span>No interrumpa el tratamiento con Tegretol sin antes consultar con su médico. Para prevenir un empeoramiento de las crisis epilépticas, no discontinúe el tratamiento bruscamente.</span></p>
 
-    <p><span></span></p>
 
     <p><span>Antes de cualquier intervención quirúrgica, incluso dental o en un tratamiento de emergencia, comunique al médico que le atiende que está tomando Tegretol.</span></p>
 
-    <p><strong><span></span></strong></p>
 
-    <p><span></span></p>
 
     <p><strong><span>Uso en ancianos</span></strong></p>
 
     <p><span>Tegretol se puede emplear de forma segura en pacientes de edad avanzada ateniéndose a las instrucciones del médico. Si es necesario se dará información especial sobre dosificación y medidas a tener en cuenta (ver también Sección 3 “Cómo tomar Tegretol” y Sección 4 “Posibles efectos adversos”).</span></p>
 
-    <p><strong><span></span></strong></p>
 
     <p><strong><span>Uso en niños</span></strong></p>
 
     <p><span>Tegretol se puede emplear de forma segura en niños ateniéndose a las instrucciones del médico. Si es necesario se dará información especial sobre dosificación y medidas a tener en cuenta (ver también Sección 3 “Cómo tomar Tegretol” y Sección 4 “Posibles efectos adversos”).</span></p>
 
-    <p><span></span></p>
 
     <p><strong><span>Otros medicamentos y Tegretol</span></strong></p>
 
@@ -237,7 +222,6 @@ Usage: #example
 
     <p><span>Tegretol puede afectar al funcionamiento de los anticonceptivos hormonales, haciendo que sean menos eficaces para prevenir el embarazo. Consulte a su médico, quien le explicará el tipo de anticonceptivo más adecuado que puede usar mientras esté tomando Tegretol.</span></p>
 
-    <p><strong><span></span></strong></p>
 
     <p><strong><span>Uso de Tegretol con alimentos y bebidas</span></strong></p>
 
@@ -247,17 +231,13 @@ Usage: #example
 
     <p><span>No beba zumo de pomelo ni coma pomelo ya que puede incrementar el efecto de Tegretol. Otros zumos, como el de naranja o de manzana, no tienen este efecto</span></p>
 
-    <p><strong><span></span></strong></p>
 
     <p><strong><span>Embarazo, lactancia y fertilidad</span></strong></p>
 
-    <p><span></span></p>
 
     <p><u><span>Embarazo</span></u> <a name="_Hlk90458730"><u><span>y mujeres en edad fértil</span></u></a></p>
 
     <p><span>Si está embarazada o en periodo de lactancia, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte</span> <span>a su médico o farmacéutico antes de utilizar este medicamento.</span> <span>Si bien la epilepsia ya conlleva un riesgo de trastornos del desarrollo en su descendencia, incluyendo malformaciones congénitas, mayor que en la población general, los diferentes tratamientos disponibles pueden aumentar en general este riesgo. En concreto para carbamazepina existe la posibilidad de que aumente el riesgo de espina bífida, malformaciones en el cráneo y en la cara, cardiovasculares y en el sistema urinario, además del posible síndrome de abstinencia al tratamiento que se puede presentar en el recién nacido.</span></p>
-
-    <p><a name="_Hlk90458755"><span></span></a></p>
 
     <p><span>Tegretol puede causar defectos congénitos importantes. Si toma Tegretol durante el embarazo, su bebé tendrá un riesgo hasta 3 veces mayor de padecer un defecto congénito en comparación con las mujeres que no toman un fármaco antiepiléptico. Se han notificado defectos congénitos importantes, como defectos del tubo neural (abertura en la columna vertebral), defectos congénitos de la cara, como labio leporino o fisura palatina, defectos congénitos de la cabeza, defectos cardíacos, defectos congénitos del pene relacionados con la abertura de la vía urinaria (hipospadias) y defectos en los dedos. Si ha tomado Tegretol durante el embarazo, se deberá vigilar de cerca al feto.</span></p>
 
@@ -271,7 +251,6 @@ Usage: #example
 
     <p><span>Si toma Tegretol durante el embarazo, el bebé también tiene riesgo de sufrir problemas hemorrágicos justo después de nacer. Su médico puede administrarle a usted y al bebé un medicamento para prevenir esto</span><span>.</span></p>
 
-    <p><span></span></p>
 
     <p><span>Por lo tanto, le aconsejamos:</span></p>
 
@@ -283,7 +262,6 @@ Usage: #example
 
     <p><span>En estas situaciones, es posible que el médico le recete un tratamiento suplementario con ácido fólico antes y durante el embarazo y vitamina K1 en las últimas semanas del mismo (en este último caso también al recién nacido). Además, el embarazo será controlado de forma más estrecha.</span></p>
 
-    <p><span></span></p>
 
     <p><u><span>Lactancia</span></u></p>
 
@@ -297,7 +275,6 @@ Usage: #example
 
     <p><span>Tegretol puede provocar somnolencia, mareos o visión borrosa,</span> <span>visión doble o falta de coordinación muscular</span> <span>especialmente al iniciar el tratamiento o al aumentar la dosis</span> <span>y disminuir la capacidad de reacción. Estos efectos así como la propia enfermedad pueden dificultar su capacidad para conducir vehículos o manejar máquinas. Por lo tanto no conduzca, ni maneje máquinas, ni practique otras actividades que requieran especial atención, hasta que su médico valore su respuesta a este medicamento</span><span>.</span></p>
 
-    <p><span></span></p>
 
     <p><strong><span>Tegretol contiene sodio</span></strong></p>
 
@@ -316,8 +293,6 @@ Usage: #example
 
     <p><strong><span>No interrumpa el tratamiento bruscamente antes de consultarlo con su médico,</span></strong> <span>ya que podría empeorar su enfermedad. El médico le indicará lo que debe hacer (ver Sección “Advertencias y precauciones”).</span></p>
 
-    <p><span></span></p>
-
     <p><strong><span>Cantidad de Tegretol que debe tomar</span></strong></p>
 
     <p><span>Las dosis prescritas por su médico pueden ser diferentes a las indicadas. Siga siempre las instrucciones de su médico.</span></p>
@@ -332,13 +307,9 @@ Usage: #example
 
     <p><span>El médico le indicará la dosis exacta de Tegretol que debe tomar.</span></p>
 
-    <p><span></span></p>
-
     <p><strong><span>Cómo y cuándo debe tomar Tegretol</span></strong></p>
 
     <p><span>Excepto quizás durante el primer día, los comprimidos de Tegretol deberán repartirse en 2-4 tomas diarias, dependiendo siempre de su estado clínico. Tome siempre Tegretol durante o después de las comidas con un poco de líquido. Si es necesario los comprimidos pueden partirse por la mitad.</span></p>
-
-    <p><strong><span></span></strong></p>
 
     <p><strong><span>Si toma más Tegretol del que debe</span></strong></p>
 
@@ -346,13 +317,9 @@ Usage: #example
 
     <p><span>Si ha tomado más Tegretol del que debe, consulte inmediatamente a su médico, a su farmacéutico o llame al Servicio de Información Toxicológica, teléfono: 91 562 04 20, indicando el medicamento y la cantidad utilizada.</span></p>
 
-    <p><strong><span></span></strong></p>
-
     <p><strong><span>Si olvidó tomar Tegretol</span></strong></p>
 
     <p><span>Si olvidara una dosis, tómela tan pronto como pueda, excepto si ya casi es hora de la siguiente; en este caso espere y vuelva a la pauta de administración habitual.</span> <strong><span>No tome una dosis doble para compensar las dosis olvidadas</span></strong><span>. Si olvidara varias dosis consulte con su médico.</span></p>
-
-    <p><span></span></p>
 
     <p><strong><span>Si interrumpe el tratamiento con Tegretol</span></strong></p>
 
@@ -372,7 +339,7 @@ Usage: #example
 
     <p><strong><span>C</span></strong><strong><span>onsulte inmediatamente a su médico o asegúrese de que alguien pueda hacerlo por Usted si aparece alguno de los siguientes efectos adversos, ya que pueden ser los primeros signos de lesión grave de la sangre, de la piel, del hígado, del corazón, de los riñones o de otros órganos y pueden requerir tratamiento médico urgente:</span></strong></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>si tiene fiebre, dolor de garganta, erupción, llagas en la boca, glándulas inflamadas o tiene facilidad para coger infecciones (signo de falta de glóbulos blancos)</span></li>
 
       <li><span>si se siente cansado, tiene dolor de cabeza, se queda sin aire al hacer ejercicio, está mareado, pálido, presenta infecciones frecuentes con fiebre, escalofríos, dolor de garganta o úlceras en la boca, si sangra o tiene más hematomas de lo normal, si le sangra la nariz (signos de falta de células de la sangre)</span></li>
@@ -390,7 +357,7 @@ Usage: #example
       <li><span>si presenta erupción cutánea, enrojecimiento de la piel, ampollas en los labios, boca u ojos, descamación de piel, acompañado de fiebre, escalofríos, dolor de cabeza, tos o dolor en el cuerpo (signos de reacciones graves en la piel). Ver sección 2</span></li>
     </ul>
 
-    <ul type="disc">
+    <ul>
       <li><span>si padece hinchazón en la cara, ojos, o lengua, dificultad para tragar, jadeos, urticaria y picor generalizado, erupción cutánea, fiebre, calambres abdominales, molestias u opresión en el pecho, dificultad para respirar, inconsciencia (signos de angioedema y de reacciones alérgicas graves)</span></li>
 
       <li><span>si presenta letargia, confusión, tics musculares o empeoramiento significativo de las convulsiones (signos que pueden estar asociados a niveles bajos de sodio en la sangre)</span></li>
@@ -408,41 +375,25 @@ Usage: #example
       <li><span>si experimenta una caída causada por mareos, somnolencia, descenso de la presión arterial, confusión</span></li>
     </ul>
 
-    <p><span></span></p>
-
     <p><strong><span>Otros efectos adversos</span></strong></p>
 
     <p><strong><span>Consulte con su médico lo antes posible si aparece alguno de los siguientes efectos adversos, ya que puede requerir atención médica:</span></strong></p>
 
-    <p><strong><span></span></strong></p>
-
     <p><em><span>Efectos adversos muy frecuentes (</span></em><em><span>pueden afectar a más de 1 de cada 10 pacientes</span></em><em><span>)</span></em><strong><span>:</span></strong> <span>pérdida de la coordinación muscular,</span> <span>inflamación de la piel con erupción cutánea con picor y enrojecimiento, erupción cutánea con picazón, vómitos, náuseas, mareos, somnolencia, inestabilidad, aumento de peso.</span></p>
-
-    <p><span></span></p>
 
     <p><em><span>Efectos adversos frecuentes</span></em> <em><span>(pueden afectar hasta 1 de cada 10 pacientes)</span></em><strong><span>:</span></strong> <span>hinchazón de tobillos, pies y piernas (edema), cambios en el comportamiento, confusión, debilidad, aumento de las crisis epilépticas (brotes, debido a una cantidad insuficiente de sodio en el cuerpo), dolor de cabeza, sequedad de boca.</span></p>
 
-    <p><span></span></p>
-
     <p><em><span>Efectos adversos poco frecuentes</span></em> <em><span>(pueden afectar hasta 1 de cada 100 pacientes)</span></em><strong><span>:</span></strong> <span>Temblores, movimientos incontrolados anormales, espasmos musculares.</span></p>
 
-    <p><span></span></p>
 
     <p><em><span>Efectos adversos raros (pueden afectar hasta 1 de cada 1.000 pacientes):</span></em> <span>picores, hinchazón de las glándulas, agitación u hostilidad (especialmente en los ancianos), dificultad para hablar o farfulleo, depresión con inquietud, nerviosismo u otros cambios de humor o mentales, alucinaciones,</span> <span>visión borrosa, visión doble, picor con enrojecimiento e hinchazón en los ojos (conjuntivitis), sensación de presión/dolor en los ojos (signo de aumento de presión en los ojos), movimientos involuntarios de los ojos,</span> <span>zumbidos u otros ruidos no explicables, descenso de la audición, ritmo cardíaco rápido o inusualmente lento, adormecimiento u hormigueo en las manos y pies, debilidad, aumento de la frecuencia urinaria, disminución repentina de la cantidad de orina, trastornos del gusto, secreción inusual de leche, aumento del tamaño del pecho en los hombres, hinchazón y enrojecimiento a lo largo de una vena muy sensible al tacto y frecuentemente dolorosa (tromboflebitis), aumento de la sensibilidad de la piel al sol, debilitamiento de los huesos causando un aumento del riesgo de fractura (falta de vitamina D, osteoporosis), estreñimiento, diarrea, dolor abdominal, dolor en las articulaciones o músculos, aumento de la sudoración, pérdida de apetito, pérdida de pelo, vello corporal y facial excesivo, alteraciones sexuales, infertilidad masculina, enrojecimiento e irritación de la lengua, llagas en la boca, alteraciones en la pigmentación de la piel, acné y reacciones graves en la piel.</span></p>
 
-    <p><span></span></p>
-
     <p><em><span>Efectos adversos de frecuencia no conocida (no puede estimarse a partir de los datos disponibles):</span></em> <span>reactivación de la infección del virus del herpes (puede ser grave con el sistema inmunitario deprimido), pérdida completa de las uñas, fractura de huesos, disminución de la densidad ósea, sedación</span><span>, pérdida de memoria, pápulas de color morado o granate que pueden producir picor,</span> <a name="_Hlk90459140"><span>niveles elevados de amoniaco en sangre (hiperamonemia). Los síntomas de hiperamonemia pueden consistir en irritabilidad, confusión, vómitos, pérdida del apetito y somnolencia</span></a><span>.</span></p>
-
-    <p><span></span></p>
-
-    <p><span></span></p>
 
     <p><strong><span>Comunicación de efectos adversos</span></strong></p>
 
     <p><span>Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del</span> <span>Sistema Español de Farmacovigilancia de medicamentos de Uso Humano</span><span>:</span> <a href="https://www.notificaRAM.es"><u><span>https://www.notificaRAM.es</span></u></a><span>.</span> <span>Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</span></p>
 
-    <p><span></span></p>
   </div>         </div>"""      
         
 * section[=].section[+]
@@ -453,21 +404,14 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p><span>Mantener</span> <span>este medicamento</span> <span>fuera de la vista y del alcance de los niños</span><span>.</span></p>
 
-    <p><span></span></p>
 
     <p><span>Conservar por debajo de 25ºC.</span></p>
 
     <p><span>Conservar en el embalaje original para protegerlo de la humedad.</span></p>
 
-    <p><span></span></p>
-
     <p><span>No utilice</span> <span>este medicamento</span> <span>después de la fecha de caducidad que aparece en el</span> <span>envase</span> <span>después de CAD. La fecha de caducidad es el último día del mes que se indica.</span></p>
 
-    <p><span></span></p>
-
     <p><span>No utilice</span> <span>este medicamento</span> <span>si observa</span> <span>que el envase está dañado o muestra signos de manipulación.</span></p>
-
-    <p><span></span></p>
 
     <p><span>Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesita en el Punto SIGRE</span>  <span>de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma, ayudará a proteger el medio ambiente.</span></p>
   </div>         </div>"""      
@@ -481,13 +425,12 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p><strong><span>Composición de Tegretol 200 mg comprimidos</span></strong></p>
 
-    <ul type="disc">
+    <ul>
       <li><span>El principio activo es carbamazepina. Cada comprimido contiene 200 mg de carbamazepina.</span></li>
 
       <li><span>Los demás componentes son: sílice coloidal anhidra, estearato de magnesio, celulosa microcristalina, carboximetilcelulosa de sodio.</span></li>
     </ul>
 
-    <p><span></span></p>
 
     <p><strong><span>Aspecto del producto y contenido del envase</span></strong></p>
 
@@ -495,7 +438,6 @@ Usage: #example
 
     <p><span>Puede que solamente estén comercializados algunos tamaños de envases.</span></p>
 
-    <p><span></span></p>
 
     <p><strong><span>Titular de la autorización de comercialización</span></strong></p>
 
@@ -505,7 +447,6 @@ Usage: #example
 
     <p><span>08013 Barcelona - España</span></p>
 
-    <p><strong><span></span></strong></p>
 
     <p><strong><span>Responsable de la fabricación</span></strong></p>
 
@@ -518,16 +459,12 @@ Usage: #example
     <p><span>Italia</span></p>
 
 
-    <p><span></span></p>
-
     <p><span>Novartis Farmacéutica, S.A.</span></p>
 
     <p><span>Gran Via de les Corts Catalanes, 764</span></p>
 
     <p><span>08013 Barcelona, España</span></p>
 
-
-    <p><span></span></p>
 
     <p><span>Novartis Pharma GmbH</span></p>
 
