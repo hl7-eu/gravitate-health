@@ -2,14 +2,14 @@
 Instance: substance-insulinlispro
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "INSULIN LISPRO"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "GFX7QIS1II"
 * identifier.use = #official
 
 
-* version = "2"
+* version = "1"
 
 * status = http://hl7.org/fhir/publication-status#active
 

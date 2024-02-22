@@ -10,7 +10,7 @@ Instance: mah-fe6b7ee8886997a3f2098e16b925984d
 InstanceOf: OrganizationUvEpi
 Title: "Reckitt Benckiser Healthcare, Lda. as Marketing authorisation holder"
 Description: "Reckitt Benckiser Healthcare, Lda. as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100002574"

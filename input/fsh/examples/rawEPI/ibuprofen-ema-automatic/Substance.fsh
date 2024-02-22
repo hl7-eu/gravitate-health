@@ -2,7 +2,7 @@
 Instance: substance-ibuprofen
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "IBUPROFEN"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "WK2XYI10QM"

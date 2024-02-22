@@ -1,18 +1,20 @@
 
-Instance: authorization4fab126d28f65a1084e7b50a23200363
+Instance: authorization4fab126d28f65a1084e7b50a232003630
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for Xenical 120mg hard capsules "
-Description: "Regulated Authorization for Xenical 120mg hard capsules "
-Usage: #example
+Title: "Regulated Authorization for Xenical 120mg hard capsules 0"
+Description: "Regulated Authorization for Xenical 120mg hard capsules 0"
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/98/071/004"
 * identifier.use = #official
 
 
- // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
- //* subject = Reference(karvea75mgblisterx28)
+// Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
+
 * subject = Reference(mpbc60fa1aa0bfe774d11ee13c0c131622)
+
+
 * type = $spor-rms#100000072062 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062

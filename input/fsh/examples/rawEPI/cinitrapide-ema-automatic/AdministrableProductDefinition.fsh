@@ -2,10 +2,10 @@
 Instance: ap-da0fc2395ce219262dfd4f0c9a9f72e1
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product BLASTON 1 mg tablets"
-Description: "BLASTON 1 mg tablets"
-Usage: #example
+Description: "Administrable product BLASTON 1 mg tablets"
+Usage: #inline
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "xx" 
 
 * status = #active
@@ -16,7 +16,7 @@ Usage: #example
 
 
 
-* producedFrom = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
+* producedFrom = Reference(mid-da0fc2395ce219262dfd4f0c9a9f72e1)
 
 
 * routeOfAdministration.code = $spor-rms#100000073619 "Oral use"

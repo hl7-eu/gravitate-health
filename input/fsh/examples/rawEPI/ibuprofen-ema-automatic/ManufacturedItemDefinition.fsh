@@ -2,8 +2,8 @@
 Instance: mid-e0d9ad275c19f6e91c9365529421d5a8
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Title: "Manufactured item Nurofen 100 mg Chewable Capsules"
-Description: "Nurofen 100 mg Chewable Capsules"
-Usage: #example
+Description: "Manufactured item Nurofen 100 mg Chewable Capsules"
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "pt-xx"

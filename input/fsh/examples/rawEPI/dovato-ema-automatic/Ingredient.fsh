@@ -5,13 +5,13 @@ Instance: ingredient-for-dovato-dolutegravirsodium
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active DOLUTEGRAVIR SODIUM"
 Description: "DOLUTEGRAVIR SODIUM"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "1Q1V9V5WYQ"
 * identifier.use = #official
 
-* role = $spor-rms#72072 "active"
+* role = $spor-rms#100000072072 "Active"
 
 * status = #active
 
@@ -40,13 +40,13 @@ Instance: ingredient-for-dovato-lamivudine
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active lamivudine"
 Description: "lamivudine"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "2T8Q726O95"
 * identifier.use = #official
 
-* role = $spor-rms#72072 "active"
+* role = $spor-rms#100000072072 "Active"
 
 * status = #active
 
@@ -75,7 +75,7 @@ Instance: ingredient-for-dovato-microcrystallinecellulose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient microcrystalline cellulose"
 Description: "microcrystalline cellulose"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "OP1R32D61U"
@@ -106,7 +106,7 @@ Instance: ingredient-for-dovato-sodiumstarchglycolate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient sodium starch glycolate"
 Description: "sodium starch glycolate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "H8AV0SQX4D"
@@ -137,7 +137,7 @@ Instance: ingredient-for-dovato-magnesiumstearate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient magnesium stearate"
 Description: "magnesium stearate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "70097M6I30"
@@ -168,7 +168,7 @@ Instance: ingredient-for-dovato-mannitol
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient mannitol"
 Description: "mannitol"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "3OWL53L36A"

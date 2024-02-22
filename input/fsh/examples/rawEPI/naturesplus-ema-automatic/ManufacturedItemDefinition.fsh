@@ -2,8 +2,8 @@
 Instance: mid-b5a6ac2496348cb06663deb81c55cb37
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Title: "Manufactured item Natures Plus Spiru-Tein"
-Description: "Natures Plus Spiru-Tein"
-Usage: #example
+Description: "Manufactured item Natures Plus Spiru-Tein"
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/96/007/035"

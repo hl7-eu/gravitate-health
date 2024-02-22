@@ -2,7 +2,7 @@
 Instance: substance-ascorbicacid
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "ASCORBIC ACID"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "PQ6CK8PD0R"

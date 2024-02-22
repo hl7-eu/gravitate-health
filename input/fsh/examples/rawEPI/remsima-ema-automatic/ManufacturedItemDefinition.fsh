@@ -2,8 +2,8 @@
 Instance: mid-e3e5e78d4e002ed9e15b925cd546e20b
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Title: "Manufactured item Remsima 100 mg powder for concentrate for solution for infusion"
-Description: "Remsima 100 mg powder for concentrate for solution for infusion"
-Usage: #example
+Description: "Manufactured item Remsima 100 mg powder for concentrate for solution for infusion"
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/13/853/001"

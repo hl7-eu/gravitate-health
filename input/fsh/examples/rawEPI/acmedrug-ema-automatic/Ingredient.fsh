@@ -5,7 +5,7 @@ Instance: ingredient-for-acmedrug-acmedruging3
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient acmedrug-ing3"
 Description: "acmedrug-ing3"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "ETJ7Z6XBU4"
@@ -22,7 +22,7 @@ Usage: #example
 // Reference to products
 * for = Reference(mid-534e209eb0a3ff60437639cb2015316f)
 * for[+] = Reference(mp534e209eb0a3ff60437639cb2015316f)
-* for[+] = Reference(ap-5aa8042f9b2bea12d814ccaf27f6d64e)
+* for[+] = Reference(ap-534e209eb0a3ff60437639cb2015316f)
  
 
 
@@ -34,7 +34,7 @@ Instance: ingredient-for-acmedrug-acmedruging2
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient acmedrug-ing2"
 Description: "acmedrug-ing2"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "15FIX9V2JP"
@@ -51,7 +51,7 @@ Usage: #example
 // Reference to products
 * for = Reference(mid-534e209eb0a3ff60437639cb2015316f)
 * for[+] = Reference(mp534e209eb0a3ff60437639cb2015316f)
-* for[+] = Reference(ap-5aa8042f9b2bea12d814ccaf27f6d64e)
+* for[+] = Reference(ap-534e209eb0a3ff60437639cb2015316f)
  
 
 
@@ -63,7 +63,7 @@ Instance: ingredient-for-acmedrug-acmedruging1
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active acmedrug-ing1"
 Description: "acmedrug-ing1"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "J0E2756Z7N"
@@ -84,7 +84,7 @@ Usage: #example
 // Reference to products
 * for = Reference(mid-534e209eb0a3ff60437639cb2015316f)
 * for[+] = Reference(mp534e209eb0a3ff60437639cb2015316f)
-* for[+] = Reference(ap-5aa8042f9b2bea12d814ccaf27f6d64e)
+* for[+] = Reference(ap-534e209eb0a3ff60437639cb2015316f)
  
 
 

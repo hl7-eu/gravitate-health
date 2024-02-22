@@ -5,6 +5,9 @@ Title: "[Enhanced-Alicia] Composition for Dovato 50 mg/300 mg film-coated tablet
 Description:  "[Enhanced-Alicia] Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet"
 Usage: #inline
 
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
+* extension[=].valueReference = Reference(mock-lib)
+
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "xx"
 
@@ -683,7 +686,7 @@ Usage: #example
 * entry[0].resource =  enhanced-composition16598f252d07b4784b82ba43cf9e847e
 
 
-* insert DovatoBundleRuleset
+* insert 6eb523b7a88cd6dcee848368833cbd08BundleRuleset
 
 
 
@@ -705,4 +708,4 @@ Usage: #example
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/compositione722f6782d3f34f86982e14386c8811dgg"
 * entry[0].resource =  compositione722f6782d3f34f86982e14386c8811dgg
 
-* insert DovatoBundleRuleset
+* insert 6eb523b7a88cd6dcee848368833cbd08BundleRuleset

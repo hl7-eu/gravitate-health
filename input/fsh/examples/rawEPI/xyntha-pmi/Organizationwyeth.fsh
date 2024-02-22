@@ -2,7 +2,7 @@ Instance: organizationwyeth
 InstanceOf: OrganizationUvEpi
 Title: "Manufactured, Packaged and Released By Wyeth Farma S.A"
 Description: "Manufactured, Packaged and Released By Wyeth Farma S.A"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "placeholder"

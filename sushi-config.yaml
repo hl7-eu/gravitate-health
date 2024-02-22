@@ -62,13 +62,15 @@ pages:
   08-persona-dimensions.md:
       title: Persona Dimensions
   09-epi-processing.md:
-      title: Epi Processing
+      title: ePI Processing
   10-semantic-annotation.md:
       title: Semantic Annotation
   11-ips-considerations.md:
       title: IPS Considerations
+  14-workflow.md:
+      title: Project Workflow
   12-operations.md:
-      title: Operations    
+      title: Project Operations    
   12-1-OperationDefinition-annotation-notes.md:
       title: Annotation    
   12-2-OperationDefinition-focus-notes.md:
@@ -77,24 +79,32 @@ pages:
       title: International
   13-1-project-coop.md:
       title: Project
+  15-focusing-considerations.md:
+      title: Focusing
 
 menu:
   Table of Contents: toc.html
   Introduction: 
     Overview: index.html
     Functional Analysis: 01-1-functional-analysis.html
-  ePI Processing: 
-    Epi Processing: 09-epi-processing.html
+  ePI Focusing: 
+    ePI Processing: 09-epi-processing.html
     Semantic Annotation: 10-semantic-annotation.html
+    Focusing: 15-focusing-considerations.html
     Persona Dimensions: 08-persona-dimensions.html
     IPS Considerations: 11-ips-considerations.html
-    Operations: 12-operations.html
     Terminology: 03-terminology.html
-  Cross Cooperation: 
+
+  The Project:
+    Workflow:   14-workflow.html
+    Operations: 12-operations.html
+
+  Cooperation: 
     International: 13-international-coop.html
     Project: 13-1-project-coop.html
-  Capability: 05-capability.html
-  Technical Requirements: 06-general-technical-conformance-requirements.html    
+  Technical:
+    Capability: 05-capability.html
+    Requirements: 06-general-technical-conformance-requirements.html    
   Artifact Index: artifacts.html
 
 groups:
@@ -102,38 +112,44 @@ groups:
     name: Raw ePI
     description: Raw ePI Documents
     resources:
-      - Bundle/bundlepackageleaflet-5aa8042f9b2bea12d814ccaf27f6d64e #acmedrug
-      - Bundle/bundlepackageleaflet-en-41d684fd43c60877dc84804d8fa2ac8c #biktarvy 1
-      - Bundle/bundlepackageleaflet-pt-b44cce291e466626afa836fffe72c350 #biktarvy pt
-      - Bundle/bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438
+      - Bundle/bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f #acmedrug
+      - Bundle/bundlepackageleaflet-en-94a96e39cfdcd8b378d12dd4063065f9 #biktarvy 1
+      - Bundle/bundlepackageleaflet-pt-94a96e39cfdcd8b378d12dd4063065f9 #biktarvy pt
+      - Bundle/bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9
+
+      - Bundle/bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1
+      - Bundle/bundlepackageleaflet-es-04c9bd6fb89d38b2d83eced2460c4dc1
+      
+      - Bundle/bundlepackageleaflet-en-dcaa4d32aa6658a8df831551503e52ee
+      - Bundle/bundlepackageleaflet-pt-dcaa4d32aa6658a8df831551503e52ee
+      - Bundle/bundlepackageleaflet-es-dcaa4d32aa6658a8df831551503e52ee
+      
       - Bundle/bundlejpicarbamazepine200 #carba jp
-      - Bundle/bundlepackageleaflet-af8224f8c853d17daf5ea6782cb5a097
-      - Bundle/bundlepackageleaflet-0ea7cb60ce178124a5eca40942ba8f42
+     # - Bundle/bundlepackageleaflet-en-af8224f8c853d17daf5ea6782cb5a097
+    #  - Bundle/bundlepackageleaflet-en-0ea7cb60ce178124a5eca40942ba8f42
       - Bundle/bundlepackageleaflet-379d610f9c96d541562699215b0864127
-      - Bundle/bundlepackageleaflet-f98744933a164dfc1d0bf89825ebfca1
-      - Bundle/bundlepackageleaflet-6c3578f2cd9caac2a99f7a9278744cce
-      - Bundle/bundlepackageleaflet-3a3583227b4c5b0887f1e0d38269b469
-      - Bundle/bundlepackageleaflet-dbd5a91e4cf6998bdbd8827ab1854e65
-      - Bundle/bundlepackageleaflet-c29ba23bb04c16ab758f150fe41d6513
-      - Bundle/bundlepackageleaflet-56a32a5ee239fc834b47c10db1faa3fd
-      - Bundle/bundlepackageleaflet-3063ae54c8b95c21a8b236c970f9eb21
-      - Bundle/bundlepackageleaflet-9e0b95f2943e17e9a39046404c6cce71
+    #  - Bundle/bundlepackageleaflet-es-f98744933a164dfc1d0bf89825ebfca1
+     # - Bundle/bundlepackageleaflet-en-6c3578f2cd9caac2a99f7a9278744cce
+     # - Bundle/bundlepackageleaflet-en-3a3583227b4c5b0887f1e0d38269b469
+    #  - Bundle/bundlepackageleaflet-en-dbd5a91e4cf6998bdbd8827ab1854e65
+    #  - Bundle/bundlepackageleaflet-en-c29ba23bb04c16ab758f150fe41d6513
+      - Bundle/bundlepackageleaflet-es-925dad38f0afbba36223a82b3a766438
+   #   - Bundle/bundlepackageleaflet-en-3063ae54c8b95c21a8b236c970f9eb21
+    #  - Bundle/bundlepackageleaflet-en-9e0b95f2943e17e9a39046404c6cce71
       - Bundle/bundlejpisimvastatin20
       - Bundle/bundlepackageleaflet-378d610f9c96d541562699215b0864126
-      - Bundle/bundlepackageleaflet-e2464a7d3d627b9df9bef5bc3b263fb4
-      - Bundle/bundlepackageleaflet-37d610f9c96d541562699215b0864126
+      - Bundle/bundlepackageleaflet-en-e2464a7d3d627b9df9bef5bc3b263fb4
+    # - Bundle/bundlepackageleaflet-en-37d610f9c96d541562699215b0864126
       - Bundle/bundlepackageleafletxyntha
-      - Bundle/bundlepackageleaflet-f2c90821a14dbdb924eb4be01de36427
-      - Bundle/bundlepackageleaflet-31887cbcd4c018e35f958e5f8547dd66
-      - Bundle/bundlepackageleaflet-099a3acb71546da204143d1e24e3180b
-      - Bundle/bundlepackageleaflet-87263ad77afb6e39aa59e421ea0b6b37
+    #  - Bundle/bundlepackageleaflet-en-f2c90821a14dbdb924eb4be01de36427
+    #  - Bundle/bundlepackageleaflet-en-31887cbcd4c018e35f958e5f8547dd66
+    #  - Bundle/bundlepackageleaflet-en-099a3acb71546da204143d1e24e3180b
+     # - Bundle/bundlepackageleaflet-en-87263ad77afb6e39aa59e421ea0b6b37
       - Bundle/bundleproductmonographxyntha
-      - Bundle/bundlepackageleaflet-29436a85dac3ea374adb3fa64cfd2578
+     # - Bundle/bundlepackageleaflet-en-29436a85dac3ea374adb3fa64cfd2578
       - Bundle/bundlejpiherceptin150
-      - Bundle/bundlepackageleaflet-38fbd67f0d3e64f32230141d1621df57
-      - Bundle/bundlepackageleaflet-en-2d49ae46735143c1323423b7aea24165
-      - Bundle/bundlepackageleaflet-040bd687344f34655b854f4b67248074
-      - Bundle/bundlepackageleaflet-pt-2d49ae46735143c1323423b7aea24165
+   #   - Bundle/bundlepackageleaflet-en-38fbd67f0d3e64f32230141d1621df57
+
 
   processed:
     name: Processed ePI

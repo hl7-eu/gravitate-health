@@ -15,7 +15,7 @@ Usage: #example
 * status = #current
 * docStatus = #final
 * content.attachment.language = #en
-* content.attachment.contentType = #applcation/json+fhir
+* content.attachment.contentType = #application/json+fhir
 * content.attachment.url = "Composition/Example"
 
 

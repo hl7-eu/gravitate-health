@@ -2,7 +2,7 @@ Instance: packcarbamazepine200
 InstanceOf: PackagedProductDefinitionUvEpi
 Title: "28 tablets in bottle"
 Description: "28 tablets in bottle"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://pmda-packinsertno/"
 * identifier.value = "placeholder2"

@@ -5,6 +5,9 @@ Title: "[Enhanced-Pedro] Composition for Biktarvy 50 mg/200 mg/25 mg film-coated
 Description:  "[Enhanced-Pedro]  Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tablets Package Leaflet"
 Usage: #inline
 
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
+* extension[=].valueReference = Reference(mock-lib)
+
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "EU/1/18/1289/001"
 
@@ -15,7 +18,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp5fb1761a0a38bea0a9b49f146371c68b)
+* subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
 * date = "2022-02-16T13:28:17Z"
 * author = Reference(mra-1133a7374c78f1d40f41885344f06a5a)
 

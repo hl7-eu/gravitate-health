@@ -1,9 +1,9 @@
 
-Instance: mid-f017cc40b97c30d177960a4c63431139
+Instance: mid-660952efa1b907b97e182807063ac261
 InstanceOf: ManufacturedItemDefinitionUvEpi
-Title: "Manufactured item Lipcut Simvastatine 5 mg Tablet"
-Description: "Lipcut Simvastatine 5 mg Tablet"
-Usage: #example
+Title: "Manufactured item Lipcut Simvastatin 5 mg Tablet"
+Description: "Manufactured item Lipcut Simvastatin 5 mg Tablet"
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "fin-x"

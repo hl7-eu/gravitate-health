@@ -1,8 +1,8 @@
 Instance: pedro-dimension-1
 InstanceOf: Observation
-Title: "Persona Dimension - Employment"
-Description:  "Persona Dimension - Employment"
-Usage: #example
+Title: "Pedro Persona Dimension - Employment"
+Description:  "Pedro Persona Dimension - Employment"
+Usage: #inline
 
 * status = #final
 * code = pd-type-cs#EMP
@@ -15,9 +15,9 @@ Usage: #example
 
 Instance: pedro-dimension-2
 InstanceOf: Observation
-Title: "Persona Dimension - Share info Willingly"
-Description:  "Persona Dimension - Share info Willingly"
-Usage: #example
+Title: "Pedro Persona Dimension - Share info Willingly"
+Description:  "Pedro Persona Dimension - Share info Willingly"
+Usage: #inline
 
 * status = #final
 * code = pd-type-cs#SHW
@@ -31,9 +31,9 @@ Usage: #example
 
 Instance: pedro-dimension-3
 InstanceOf: Observation
-Title: "Persona Dimension - WorkLife"
-Description:  "Persona Dimension - WorkLife"
-Usage: #example
+Title: "Pedro Persona Dimension - WorkLife"
+Description:  "Pedro Persona Dimension - WorkLife"
+Usage: #inline
 
 
 * status = #final
@@ -48,9 +48,9 @@ Usage: #example
 
 Instance: pedro-dimension-4
 InstanceOf: Observation
-Title: "Persona Dimension - Extrovert/introvert"
-Description:  "Persona Dimension - Extrovert/introvert"
-Usage: #example
+Title: "Pedro Persona Dimension - Extrovert/introvert"
+Description:  "Pedro Persona Dimension - Extrovert/introvert"
+Usage: #inline
 
 * status = #final
 * code = pd-type-cs#EVI
@@ -63,9 +63,9 @@ Usage: #example
 
 Instance: pedro-dimension-5
 InstanceOf: Observation
-Title: "Persona Dimension - Extrovert/introvert"
-Description:  "Persona Dimension - Extrovert/introvert"
-Usage: #example
+Title: "Pedro Persona Dimension - Emotional/Rational"
+Description:  "Pedro Persona Dimension - Emotional/Rational"
+Usage: #inline
 
 * status = #final
 * code = pd-type-cs#ER
@@ -79,9 +79,9 @@ Usage: #example
 
 Instance: pedro-dimension-6
 InstanceOf: Observation
-Title: "Persona Dimension - Extrovert/introvert"
-Description:  "Persona Dimension - Extrovert/introvert"
-Usage: #example
+Title: "Pedro Persona Dimension - Health Literacy"
+Description:  "Pedro Persona Dimension - Health Literacy"
+Usage: #inline
 
 * status = #final
 * code = pd-type-cs#HL
@@ -95,9 +95,9 @@ Usage: #example
 
 Instance: pedro-dimension-7
 InstanceOf: Observation
-Title: "Persona Dimension - Extrovert/introvert"
-Description:  "Persona Dimension - Extrovert/introvert"
-Usage: #example
+Title: "Pedro Persona Dimension - Digital Literacy"
+Description:  "Pedro Persona Dimension - Digital Literacy"
+Usage: #inline
 
 * status = #final
 * code = pd-type-cs#DL
@@ -111,9 +111,9 @@ Usage: #example
 
 Instance: pedro-dimension-8
 InstanceOf: Observation
-Title: "Persona Dimension - Extrovert/introvert"
-Description:  "Persona Dimension - Extrovert/introvert"
-Usage: #example
+Title: "Pedro ersona Dimension - Tool Support Interest"
+Description:  "Pedro Persona Dimension - Tool Support Interest"
+Usage: #inline
 
 * status = #final
 * code = pd-type-cs#TSI
@@ -131,29 +131,29 @@ Title: "Pedro Persona Vector - Collection"
 Description:  "Pedro Persona Vector - Collection"
 Usage: #example
 
-* identifier.system = "https://myserver.org/persona-dimension-collection"
+* identifier.system = "http://hl7.eu/fhir/ig/gravitate-health/persona-dimension-collection"
 * identifier.value = "pd-collection-1"
 
-* entry[+].fullUrl = "Observation/pedro-1"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-1"
 * entry[=].resource = pedro-dimension-1
 
-* entry[+].fullUrl = "Observation/pedro-2"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-2"
 * entry[=].resource = pedro-dimension-2
 
-* entry[+].fullUrl = "Observation/pedro-3"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-3"
 * entry[=].resource = pedro-dimension-3
 
-* entry[+].fullUrl = "Observation/pedro-4"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-4"
 * entry[=].resource = pedro-dimension-4
 
-* entry[+].fullUrl = "Observation/pedro-5"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-5"
 * entry[=].resource = pedro-dimension-5
 
-* entry[+].fullUrl = "Observation/pedro-6"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-6"
 * entry[=].resource = pedro-dimension-6
 
-* entry[+].fullUrl = "Observation/pedro-7"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-7"
 * entry[=].resource = pedro-dimension-7
 
-* entry[+].fullUrl = "Observation/pedro-8"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-8"
 * entry[=].resource = pedro-dimension-8

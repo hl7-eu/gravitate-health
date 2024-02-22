@@ -10,7 +10,7 @@ Instance: mah-45fe50eae508b5755dd140ab2093eb5e
 InstanceOf: OrganizationUvEpi
 Title: "Seqirus Netherlands B.V. as Marketing authorisation holder"
 Description: "Seqirus Netherlands B.V. as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100013715"

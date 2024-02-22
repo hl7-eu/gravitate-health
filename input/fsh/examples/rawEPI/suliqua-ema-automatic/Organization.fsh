@@ -10,7 +10,7 @@ Instance: mah-16019cea3a857659d2c5a2018c2260df
 InstanceOf: OrganizationUvEpi
 Title: "Sanofi-Aventis Groupe as Marketing authorisation holder"
 Description: "Sanofi-Aventis Groupe as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000789"
@@ -31,25 +31,24 @@ Usage: #example
     * country = "FR"
     
 
-//Manufacturer API
+//Manufacturer
 
 
 
 
-Instance: mapi-ab61fc2db513f79636782643b3407aa5
+Instance: man-174ad598bd1faddba2098648a45613e1
 
 InstanceOf: OrganizationUvEpi
-Title: "Sanofi-Aventis Deutschland GmbH as Manufacturer API"
-Description: "Sanofi-Aventis Deutschland GmbH as Manufacturer API"
-Usage: #example
+Title: "Sanofi-Aventis Deutschland GmbH as Manufacturer"
+Description: "Sanofi-Aventis Deutschland GmbH as Manufacturer"
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100001175"
 * identifier.use = #official
 * active = true 
 * type = $spor-rms#220000000033  "Manufacturer"
-
-//* type.text = "Manufacturer API"
+//* type.text = "Manufacturer"
 * name = "Sanofi-Aventis Deutschland GmbH"
 
 
@@ -63,38 +62,6 @@ Usage: #example
     * country = "de"
     * postalCode = "65926.0"
 
-//Manufacturer Batch release
-
-
-
-
-Instance: mbr-b9c6316075799071b2706c402f9fa388
-
-InstanceOf: OrganizationUvEpi
-Title: "Sanofi-Aventis Deutschland GmbH as Manufacturer Batch release"
-Description: "Sanofi-Aventis Deutschland GmbH as Manufacturer Batch release"
-Usage: #example
-
-* identifier.system = $spor-org
-* identifier.value = "ORG-100001175"
-* identifier.use = #official
-* active = true 
-* type = $spor-rms#220000000033  "Manufacturer"
-
-//* type.text = "Manufacturer Batch release"
-* name = "Sanofi-Aventis Deutschland GmbH"
-
-
-* contact
-  * address
-    * text = "Brueningstrasse 50, Industriepark Höchst Frankfurt am Main de"
-    * use = #work
-    * type = #physical
-    * line = "Brueningstrasse 50, Industriepark Höchst"
-    * city = "Frankfurt am Main"
-    * country = "de"
-    * postalCode = "65927.0"
-
 //Medicines Regulatory Authority
 
 
@@ -105,7 +72,7 @@ Instance: mra-ff74c5498eb163c2fb470e9fd175a0c1
 InstanceOf: OrganizationUvEpi
 Title: "European Medicines Agency as Medicines Regulatory Authority"
 Description: "European Medicines Agency as Medicines Regulatory Authority"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100013412"

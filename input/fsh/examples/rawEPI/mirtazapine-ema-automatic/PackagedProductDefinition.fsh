@@ -1,12 +1,14 @@
 
-Instance: ppd-0c848f16e413619f64703ded9343d866
+
+
+Instance: ppd-660f3150e2ccfb088d576c1767f7fe95
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "MIRTAZAPINA CINFA 30 mg Coated Tablet, 30 tablets"
-Description: "MIRTAZAPINA CINFA 30 mg Coated Tablet, 30 tablets"
-Usage: #example
+Title: "Packaged Product Definition: MIRTAZAPINA CINFA 30 mg Coated Tablet 30"
+Description: "Packaged Product Definition: MIRTAZAPINA CINFA 30 mg Coated Tablet 30"
+Usage: #inline
 
 
-* name = "MIRTAZAPINA CINFA 30 mg Coated Tablet, 30 tablets"
+* name = "MIRTAZAPINA CINFA 30 mg Coated Tablet 30"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Prodcut"
 //* type = $spor-rms#100000155527
@@ -22,34 +24,26 @@ Usage: #example
 
 
 
-
-
-
 * packaging
-  * identifier.system = $spor-prod
-  * identifier.value = "mock-id"
+//  * identifier.system = $spor-prod
+//  * identifier.value = "mock-id"
   * quantity = 1
   * type = $spor-rms#100000073498 "Box"
-
+  * material = $spor-rms#200000003529 "Cardboard"
 
   * packaging
 
     * identifier.system = $spor-prod
     * identifier.value = "123456"
+    * containedItem.item.reference = Reference(mid-e762a2f54b0b24fca4744b1bb7524a5b)
     * type = $spor-rms#100000073496 "Blister"
-    //* quantity = 30
+    
     * quantity = 30
     * material = $spor-rms#200000003222 "PolyVinyl Chloride"
 
 
-
-
-
 //reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 * packageFor = Reference(mp7a7ff0f4e1993c2fdabba6c8d9931a52)
-
-
-
  
 
 

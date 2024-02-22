@@ -3,7 +3,7 @@ Instance: mp1453e0f16ff6c1d3106ed737a7857578
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product BLASTON 1 mg tablets"
 Description: "BLASTON 1 mg tablets"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"
@@ -25,28 +25,23 @@ Usage: #example
 
 * name
   * productName = "BLASTON 1 mg tablets"
-  * type = $spor-productNamePartType-cs#220000000001
-    * text = "Full name"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
     * part = "Blaston"
-    * type = $spor-productNamePartType-cs#220000000002
-    * type.text = "Invented name part"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
   
   * part[+]
     * part = "Cinitapride"
-    * type = $spor-productNamePartType-cs#220000000003
-    * type.text = "Scientific name part"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
   
   * part[+]
     * part = "1 mg"
-    * type = $spor-productNamePartType-cs#220000000004
-    * type.text = "Strength part"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
   
   * part[+]
     * part = "tablet"
-    * type = $spor-productNamePartType-cs#220000000005
-    * type.text = "Pharmaceutical dose form part"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
     * country = urn:iso:std:iso:3166#ES "Spain"

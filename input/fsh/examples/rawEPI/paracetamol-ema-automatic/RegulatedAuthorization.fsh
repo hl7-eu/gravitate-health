@@ -1,18 +1,20 @@
 
-Instance: authorization08ac066220d4d68a3933a9c94bef32ff
+Instance: authorization08ac066220d4d68a3933a9c94bef32ff0
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for DOLOCATIL 1 g tablets "
-Description: "Regulated Authorization for DOLOCATIL 1 g tablets "
-Usage: #example
+Title: "Regulated Authorization for DOLOCATIL 1 g tablets 0"
+Description: "Regulated Authorization for DOLOCATIL 1 g tablets 0"
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "72.741"
 * identifier.use = #official
 
 
- // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
- //* subject = Reference(karvea75mgblisterx28)
+// Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
+
 * subject = Reference(mpa975b7e209ea5c4c3bf8040a42b86fbd)
+
+
 * type = $spor-rms#100000072062 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062

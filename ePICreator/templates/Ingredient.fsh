@@ -15,7 +15,7 @@ Instance: ingredient-for-{{ data["dictionary"]["MajorName"]|lower|regex_replace(
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-{{row["role"]| lower}} {{ row["name"]  }}"
 Description: "{{ row["name"]  }}"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "{{ row["identifier"]|trim  }}"

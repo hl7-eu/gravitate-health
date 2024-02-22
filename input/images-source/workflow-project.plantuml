@@ -1,8 +1,9 @@
 @startuml
+actor       patient       as pat
+
 participant Frontend as fe
 participant Backend as be
 participant EHR as ehr
-actor       patient       as pat
 /'
 actor       Physician       as phy
 
@@ -23,19 +24,38 @@ group Registration
 
 pat -> fe : register
 fe -> be : create profile
-fe -> ehr : get ips
+fe -> ehr : get ips 
+note left of fe : <URL>/Patient?$summary={identifier}
+
 end
+
 
 group usage
 fe -> pat: presents medication list based on ips
 pat -> fe : asks for information for specific one drug
 fe -> fe : gets medication resource code
 fe -> be: searchs for epi using code as identifier for Medicinal Product
+note left of fe
+ <URL>/Composition?
+ _language=<lang>
+ &category=R&identifier=<code>
+ end note
+fe -> fe: gets id
 be -> fe: returns epi bundle
 
 end
 
 group focusing
+fe -> be: ask for focusing
+note right of pat 
+<URL>/focusing/focus/<bundle>
+?preprocessors=preprocessing-service-manual
+&lenses=<lenses>
+&patientIdentifier=<pat_id>
+end note
+
+be -> fe: returns epi bundle
+
 
 end
 @enduml

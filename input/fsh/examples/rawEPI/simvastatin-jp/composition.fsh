@@ -2,7 +2,7 @@ Instance: compositionsimvastatin20jpi
 InstanceOf: CompositionUvEpi
 Title: "Package Leaflet - simvastatin 20 mg tablets"
 Description: "Package Leaflet - simvastatin 20 mg tablets"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "fcats34placeholder"

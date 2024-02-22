@@ -10,7 +10,7 @@ Instance: mah-5192019d531d0f82a0e8d8ffcb39b68a
 InstanceOf: OrganizationUvEpi
 Title: "Viatris Limited as Marketing authorisation holder"
 Description: "Viatris Limited as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100034260"

@@ -2,7 +2,7 @@ Instance: adminprodcarbamazepine200
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable Product - Tegretol (carbamazepine) 200 mg for tablet"
 Description: "Administrable Product - Tegretol (carbamazepine) 200 mg for tablet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $phpid
 * identifier.value = "FB9808F4FED210183F412F9998622287" //PHPID 

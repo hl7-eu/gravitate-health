@@ -2,8 +2,8 @@
 Instance: ap-2f37d696067eeb6daf1111cfc3272672
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Tegretol 200 mg tablets"
-Description: "Tegretol 200 mg tablets"
-Usage: #example
+Description: "Administrable product Tegretol 200 mg tablets"
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/98/071/004" 

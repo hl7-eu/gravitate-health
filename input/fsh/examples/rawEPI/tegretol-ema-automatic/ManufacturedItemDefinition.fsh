@@ -2,8 +2,8 @@
 Instance: mid-2f37d696067eeb6daf1111cfc3272672
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Title: "Manufactured item Tegretol 200 mg tablets"
-Description: "Tegretol 200 mg tablets"
-Usage: #example
+Description: "Manufactured item Tegretol 200 mg tablets"
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "39955"

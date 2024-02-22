@@ -5,7 +5,7 @@ Instance: ingredient-for-cinitrapide-magnesiumstearate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Magnesium stearate"
 Description: "Magnesium stearate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "70097M6I30"
@@ -20,7 +20,7 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
+* for = Reference(mid-da0fc2395ce219262dfd4f0c9a9f72e1)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
  
@@ -34,7 +34,7 @@ Instance: ingredient-for-cinitrapide-povidoneunspecified
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient POVIDONE, UNSPECIFIED"
 Description: "POVIDONE, UNSPECIFIED"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "FZ989GH94E"
@@ -49,7 +49,7 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
+* for = Reference(mid-da0fc2395ce219262dfd4f0c9a9f72e1)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
  
@@ -63,7 +63,7 @@ Instance: ingredient-for-cinitrapide-cinitapride
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active CINITAPRIDE"
 Description: "CINITAPRIDE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "R8I97I2L24"
@@ -82,7 +82,7 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
+* for = Reference(mid-da0fc2395ce219262dfd4f0c9a9f72e1)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
  
@@ -96,7 +96,7 @@ Instance: ingredient-for-cinitrapide-silicacolloidalanhydrous
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SILICA, COLLOIDAL ANHYDROUS"
 Description: "SILICA, COLLOIDAL ANHYDROUS"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "ETJ7Z6XBU4"
@@ -111,7 +111,7 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
+* for = Reference(mid-da0fc2395ce219262dfd4f0c9a9f72e1)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
  
@@ -125,7 +125,7 @@ Instance: ingredient-for-cinitrapide-starchpotato
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient STARCH, POTATO"
 Description: "STARCH, POTATO"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "8I089SAH3T"
@@ -140,7 +140,7 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
+* for = Reference(mid-da0fc2395ce219262dfd4f0c9a9f72e1)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
  
@@ -154,7 +154,7 @@ Instance: ingredient-for-cinitrapide-starchcorn
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient STARCH, CORN"
 Description: "STARCH, CORN"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "O8232NY3SJ"
@@ -169,7 +169,7 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-af8224f8c853d17daf5ea6782cb5a097)
+* for = Reference(mid-da0fc2395ce219262dfd4f0c9a9f72e1)
 * for[+] = Reference(mp1453e0f16ff6c1d3106ed737a7857578)
 * for[+] = Reference(ap-da0fc2395ce219262dfd4f0c9a9f72e1)
  

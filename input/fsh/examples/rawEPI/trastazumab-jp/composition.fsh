@@ -2,7 +2,7 @@ Instance: trastazumabjpi
 InstanceOf: CompositionUvEpi
 Title: "Herceptin (trastazumab) Package Leaflet - 150 mg for Intravenous Use"
 Description: "Herceptin (trastazumab) Package Leaflet - 150 mg for Intravenous Use"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 * identifier.value = "fcats34placeholder"

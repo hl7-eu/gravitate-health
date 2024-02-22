@@ -2,8 +2,8 @@
 Instance: ap-865e1b5617e6fb0d453cc2f7cf87d441
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product SORIA NATURAL VITAMINA C 36 COMPRIMIDOS"
-Description: "SORIA NATURAL VITAMINA C 36 COMPRIMIDOS"
-Usage: #example
+Description: "Administrable product SORIA NATURAL VITAMINA C 36 COMPRIMIDOS"
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "id" 

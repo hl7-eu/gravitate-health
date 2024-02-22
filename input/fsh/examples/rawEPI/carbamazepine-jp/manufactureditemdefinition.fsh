@@ -1,7 +1,7 @@
 Instance: manitemcarbamazepine200
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Description: "Manufactured Item - Tegretol (carbamazepine) 200 mg for tablet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://pmda-sccj"
 * identifier.value = "placeholder"

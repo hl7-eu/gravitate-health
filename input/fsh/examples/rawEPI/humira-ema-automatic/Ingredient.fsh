@@ -5,7 +5,7 @@ Instance: ingredient-for-humira-mannitol
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Mannitol"
 Description: "Mannitol"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "3OWL53L36A"
@@ -26,7 +26,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-polysorbate80
@@ -34,7 +34,7 @@ Instance: ingredient-for-humira-polysorbate80
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Polysorbate 80"
 Description: "Polysorbate 80"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "6OZP39ZG8H"
@@ -55,7 +55,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-adalimumab
@@ -63,13 +63,13 @@ Instance: ingredient-for-humira-adalimumab
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active adalimumab"
 Description: "adalimumab"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "FYS6T7F842"
 * identifier.use = #official
 
-* role = $spor-rms#72072 "active"
+* role = $spor-rms#100000072072 "Active"
 
 * status = #active
 
@@ -78,7 +78,7 @@ Usage: #example
 
 * substance.strength.presentationQuantity = 40 'mg'
 
-* substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB  "active ingredient - basis of strength"
+* substance.strength.basis = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB "active ingredient - basis of strength"
 
 
 // Reference to products
@@ -88,7 +88,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-sterilewaterforinjection
@@ -96,7 +96,7 @@ Instance: ingredient-for-humira-sterilewaterforinjection
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient STERILE WATER FOR INJECTION"
 Description: "STERILE WATER FOR INJECTION"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "059QF0KO0R"
@@ -117,7 +117,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-citricacidmonohydrate
@@ -125,7 +125,7 @@ Instance: ingredient-for-humira-citricacidmonohydrate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient CITRIC ACID MONOHYDRATE"
 Description: "CITRIC ACID MONOHYDRATE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "2968PHW8QP"
@@ -146,7 +146,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-sodiumcitrateunspecifiedform
@@ -154,7 +154,7 @@ Instance: ingredient-for-humira-sodiumcitrateunspecifiedform
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SODIUM CITRATE, UNSPECIFIED FORM"
 Description: "SODIUM CITRATE, UNSPECIFIED FORM"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "1Q73Q2JULR"
@@ -175,7 +175,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-sodiumphosphatemonobasicdihydrate
@@ -183,7 +183,7 @@ Instance: ingredient-for-humira-sodiumphosphatemonobasicdihydrate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SODIUM PHOSPHATE, MONOBASIC, DIHYDRATE"
 Description: "SODIUM PHOSPHATE, MONOBASIC, DIHYDRATE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "5QWK665956"
@@ -204,7 +204,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-sodiumphosphatedibasicdihydrate
@@ -212,7 +212,7 @@ Instance: ingredient-for-humira-sodiumphosphatedibasicdihydrate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SODIUM PHOSPHATE, DIBASIC, DIHYDRATE"
 Description: "SODIUM PHOSPHATE, DIBASIC, DIHYDRATE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "94255I6E2T"
@@ -233,7 +233,7 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)
 
 
 Instance: ingredient-for-humira-sodiumchloride
@@ -241,7 +241,7 @@ Instance: ingredient-for-humira-sodiumchloride
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Sodium chloride"
 Description: "Sodium chloride"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "451W47IQ8X"
@@ -262,4 +262,4 @@ Usage: #example
  
 
 
-//* manufacturer.manufacturer = Reference(mah-fda7514c0dcb7b5f0176cb5af274235f)
+//* manufacturer.manufacturer = Reference(mah-63db764f02d280689a772e5827bb2515)

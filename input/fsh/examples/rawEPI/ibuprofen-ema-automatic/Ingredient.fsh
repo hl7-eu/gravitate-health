@@ -5,7 +5,7 @@ Instance: ingredient-for-ibuprofen-sucrose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Sucrose"
 Description: "Sucrose"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "C151H8M554"
@@ -34,7 +34,7 @@ Instance: ingredient-for-ibuprofen-anhydrousdextrose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient ANHYDROUS DEXTROSE"
 Description: "ANHYDROUS DEXTROSE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "5SL0G7R0OK"
@@ -63,7 +63,7 @@ Instance: ingredient-for-ibuprofen-ibuprofen
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active IBUPROFEN"
 Description: "IBUPROFEN"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "WK2XYI10QM"
@@ -96,7 +96,7 @@ Instance: ingredient-for-ibuprofen-lecithinsoybean
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient LECITHIN, SOYBEAN"
 Description: "LECITHIN, SOYBEAN"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "1DI56QDM62"

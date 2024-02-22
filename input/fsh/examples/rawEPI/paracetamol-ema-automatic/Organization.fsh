@@ -10,7 +10,7 @@ Instance: mah-65db33d6be47a433e6e9e9c2980ea7a4
 InstanceOf: OrganizationUvEpi
 Title: "FERRER INTERNACIONAL, S.A. as Marketing authorisation holder"
 Description: "FERRER INTERNACIONAL, S.A. as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000789"

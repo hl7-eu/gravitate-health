@@ -3,7 +3,7 @@ Instance: mp25bbfa948f4a0b224f9baa1fe481efa8
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Enbrel 25 mg powder for solution for injection"
 Description: "Enbrel 25 mg powder for solution for injection"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "http://fakesys.com/ids"
@@ -23,28 +23,23 @@ Usage: #example
 
 * name
   * productName = "Enbrel 25 mg powder for solution for injection"
-  * type = $spor-productNamePartType-cs#220000000001
-    * text = "Full name"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
     * part = "Enbrel"
-    * type = $spor-productNamePartType-cs#220000000002
-    * type.text = "Invented name part"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
   
   * part[+]
     * part = "Etanercept"
-    * type = $spor-productNamePartType-cs#220000000003
-    * type.text = "Scientific name part"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
   
   * part[+]
     * part = "25 mg"
-    * type = $spor-productNamePartType-cs#220000000004
-    * type.text = "Strength part"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
   
   * part[+]
     * part = "powder for solution for injection"
-    * type = $spor-productNamePartType-cs#220000000005
-    * type.text = "Pharmaceutical dose form part"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
     * country = urn:iso:std:iso:3166#NOR "Norway"

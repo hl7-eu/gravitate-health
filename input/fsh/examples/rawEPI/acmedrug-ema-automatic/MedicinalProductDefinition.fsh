@@ -3,7 +3,7 @@ Instance: mp534e209eb0a3ff60437639cb2015316f
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product acmedrug-man"
 Description: "acmedrug-man"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "http://fakesys.com/ids"
@@ -23,8 +23,7 @@ Usage: #example
 
 * name
   * productName = "acmedrug-man"
-  * type = $spor-productNamePartType-cs#220000000001
-    * text = "Full name"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
     * part = "acme"

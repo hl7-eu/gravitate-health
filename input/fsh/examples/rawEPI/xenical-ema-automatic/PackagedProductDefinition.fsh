@@ -1,15 +1,17 @@
 
-Instance: ppd-649bf36725172cd11455d1dcb53f6762
+
+
+Instance: ppd-352d83277f894aa6147981b6a4f36c07
 InstanceOf: PackagedProductDefinitionUvEpi
-Title: "Xenical 120mg hard capsules 12 capsules"
-Description: "Xenical 120mg hard capsules 12 capsules"
-Usage: #example
+Title: "Packaged Product Definition: Xenical 120mg hard capsules 1"
+Description: "Packaged Product Definition: Xenical 120mg hard capsules 1"
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/98/071/004"
 * identifier.use = #official
 
-* name = "Xenical 120mg hard capsules 12 capsules"
+* name = "Xenical 120mg hard capsules 1"
 
 * type = $spor-rms#100000155527 "Chemical Medicinal Prodcut"
 //* type = $spor-rms#100000155527
@@ -24,33 +26,26 @@ Usage: #example
 
 
 
-
-
 * packaging
-  * identifier.system = $spor-prod
-  * identifier.value = "mock-id"
+//  * identifier.system = $spor-prod
+//  * identifier.value = "mock-id"
   * quantity = 1
   * type = $spor-rms#100000073498 "Box"
-
+  * material = $spor-rms#200000003529 "Cardboard"
 
   * packaging
 
     * identifier.system = $spor-prod
     * identifier.value = "7777"
+    * containedItem.item.reference = Reference(mid-4fab126d28f65a1084e7b50a23200363)
     * type = $spor-rms#100000073498 "Box"
-    //* quantity = 1
+    
     * quantity = 1
     * material = $spor-rms#200000003529 "Cardboard"
 
 
-
-
-
 //reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
 * packageFor = Reference(mpbc60fa1aa0bfe774d11ee13c0c131622)
-
-
-
  
 
 

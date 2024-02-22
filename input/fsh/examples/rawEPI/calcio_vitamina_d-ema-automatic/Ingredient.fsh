@@ -5,7 +5,7 @@ Instance: ingredient-for-calciovitaminad-calciumcarbonate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Calcium Carbonate"
 Description: "Calcium Carbonate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "H0G9379FGK"
@@ -38,7 +38,7 @@ Instance: ingredient-for-calciovitaminad-cholecalciferol
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active cholecalciferol"
 Description: "cholecalciferol"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "1C6V77QF41"
@@ -71,7 +71,7 @@ Instance: ingredient-for-calciovitaminad-sodium
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active Sodium"
 Description: "Sodium"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "9NEZ333N27"
@@ -104,7 +104,7 @@ Instance: ingredient-for-calciovitaminad-lactosemonohydrate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active lactose monohydrate"
 Description: "lactose monohydrate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "EWQ57Q8I5X"
@@ -137,7 +137,7 @@ Instance: ingredient-for-calciovitaminad-sucrose
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active sucrose"
 Description: "sucrose"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "C151H8M554"
@@ -170,7 +170,7 @@ Instance: ingredient-for-calciovitaminad-hydrogenatedsoybeanoil
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active hydrogenated soybean oil"
 Description: "hydrogenated soybean oil"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "A2M91M918C"
@@ -203,7 +203,7 @@ Instance: ingredient-for-calciovitaminad-anhydrouscitricacid
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Anhydrous citric acid"
 Description: "Anhydrous citric acid"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "XF417D3PSL"
@@ -232,7 +232,7 @@ Instance: ingredient-for-calciovitaminad-sodiumbicarbonate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient sodium bicarbonate"
 Description: "sodium bicarbonate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "8MDF5V39QO"
@@ -261,7 +261,7 @@ Instance: ingredient-for-calciovitaminad-povidone
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient povidone"
 Description: "povidone"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "FZ989GH94E"
@@ -290,7 +290,7 @@ Instance: ingredient-for-calciovitaminad-saccharinsodium
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient saccharin sodium"
 Description: "saccharin sodium"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "SB8ZUX40TY"
@@ -319,7 +319,7 @@ Instance: ingredient-for-calciovitaminad-sodiumcyclamate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient sodium cyclamate"
 Description: "sodium cyclamate"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "1I6F42RME1"
@@ -348,7 +348,7 @@ Instance: ingredient-for-calciovitaminad-macrogol6000
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient macrogol 6000"
 Description: "macrogol 6000"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "30IQX730WE"

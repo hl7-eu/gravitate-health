@@ -5,7 +5,7 @@ Instance: ingredient-for-2e8cb2387c664fb619f6b8914767d38f
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active INFLUENZA A VIRUS A/Delaware/55/2019 CVR-45 (H1N1) WHOLE"
 Description: "INFLUENZA A VIRUS A/Delaware/55/2019 CVR-45 (H1N1) WHOLE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "9V4SVN4JQV"
@@ -38,7 +38,7 @@ Instance: ingredient-for-flucelvax-influenzaavirusadarwin112021h3n2whole
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active INFLUENZA A VIRUS A/Darwin/11/2021 (H3N2) WHOLE"
 Description: "INFLUENZA A VIRUS A/Darwin/11/2021 (H3N2) WHOLE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "JS7E5ZZ3AC"
@@ -71,7 +71,7 @@ Instance: ingredient-for-f4e520e2974f4acb8abe26b607ea5a46
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active INFLUENZA B VIRUS B/Singapore/WUH4618/2021 WHOLE"
 Description: "INFLUENZA B VIRUS B/Singapore/WUH4618/2021 WHOLE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "BFA4LSE5QQ"
@@ -104,7 +104,7 @@ Instance: ingredient-for-2c0c197a41a706fb2549601e635da1f3
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active INFLUENZA B VIRUS B/SINGAPORE/INFTT-16-0610/2016 WHOLE"
 Description: "INFLUENZA B VIRUS B/SINGAPORE/INFTT-16-0610/2016 WHOLE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "B3EV5T8SUF"
@@ -137,7 +137,7 @@ Instance: ingredient-for-flucelvax-sodiumchloride
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Sodium chloride"
 Description: "Sodium chloride"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "451W47IQ8X"
@@ -166,7 +166,7 @@ Instance: ingredient-for-flucelvax-potassiumchloride
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Potassium chloride"
 Description: "Potassium chloride"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "660YQ98I10"
@@ -195,7 +195,7 @@ Instance: ingredient-for-flucelvax-magnesiumchloride
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient MAGNESIUM CHLORIDE"
 Description: "MAGNESIUM CHLORIDE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "02F3473H9O"
@@ -224,7 +224,7 @@ Instance: ingredient-for-flucelvax-sodiumphosphatedibasicdihydrate
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient SODIUM PHOSPHATE, DIBASIC, DIHYDRATE"
 Description: "SODIUM PHOSPHATE, DIBASIC, DIHYDRATE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "94255I6E2T"
@@ -255,7 +255,7 @@ Title: "Ingredient-excipient Potassium dihydrogen phosphate
 "
 Description: "Potassium dihydrogen phosphate
 "
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "4J9FJ0HL51"
@@ -284,7 +284,7 @@ Instance: ingredient-for-flucelvax-waterforinjections
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient Water for injections"
 Description: "Water for injections"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "059QF0KO0R"

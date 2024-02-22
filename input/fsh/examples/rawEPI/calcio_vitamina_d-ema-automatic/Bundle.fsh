@@ -1,30 +1,7 @@
 
 
 
-Instance: bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet for language "
-Description: "Bundle for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet ePI document"
-Usage: #example
-
-
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "xx"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
-
-
-
-
-
-// Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-02e928f15b7b861b4b44915d9f1330ec"
-* entry[0].resource = composition-es-02e928f15b7b861b4b44915d9f1330ec
-
-* insert 925dad38f0afbba36223a82b3a766438BundleRuleset
-
-RuleSet: 925dad38f0afbba36223a82b3a766438BundleRuleset 
+RuleSet: bdfe699962879d1b1d2adb6ccf20a5cbBundleRuleset 
 
 
  
@@ -101,8 +78,11 @@ RuleSet: 925dad38f0afbba36223a82b3a766438BundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization925dad38f0afbba36223a82b3a766438"
-* entry[=].resource = authorization925dad38f0afbba36223a82b3a766438 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization925dad38f0afbba36223a82b3a7664380"
+* entry[=].resource = authorization925dad38f0afbba36223a82b3a7664380 
+
+
+ 
 
 
 // Organization
@@ -111,8 +91,8 @@ RuleSet: 925dad38f0afbba36223a82b3a766438BundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-925dad38f0afbba36223a82b3a766438"
-* entry[=].resource = ppd-925dad38f0afbba36223a82b3a766438 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-740c0d6d7605c10cb166cd0ee16908f9"
+* entry[=].resource = ppd-740c0d6d7605c10cb166cd0ee16908f9 
 
 
 // MedicinalProductDefinition
@@ -125,3 +105,30 @@ RuleSet: 925dad38f0afbba36223a82b3a766438BundleRuleset
 * entry[=].resource = mid-925dad38f0afbba36223a82b3a766438 
 
 
+
+
+
+Instance: bundlepackageleaflet-es-925dad38f0afbba36223a82b3a766438
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes Package Leaflet for language es"
+Description: "ePI document Bundle for Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes Package Leaflet for language es"
+Usage: #example
+
+
+
+
+* identifier[+].system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "63e08581a92c9abd584453870e49f381"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #es
+
+
+
+
+
+// Composition
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-d4bcbbaec04bf6aceb2f71162205967e"
+* entry[0].resource = composition-es-d4bcbbaec04bf6aceb2f71162205967e
+
+* insert bdfe699962879d1b1d2adb6ccf20a5cbBundleRuleset

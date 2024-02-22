@@ -10,7 +10,7 @@ Instance: mah-b7afabe350ac415f70e662ba6c703030
 InstanceOf: OrganizationUvEpi
 Title: "Laboratorios Farmacéuticos ROVI, S.A. as Marketing authorisation holder"
 Description: "Laboratorios Farmacéuticos ROVI, S.A. as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "xx"

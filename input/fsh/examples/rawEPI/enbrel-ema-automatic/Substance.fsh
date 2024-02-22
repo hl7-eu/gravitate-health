@@ -2,7 +2,7 @@
 Instance: substance-etanercept
 InstanceOf: SubstanceDefinitionUvEpi
 Description: "Etanercept"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "OP401G7OJC"

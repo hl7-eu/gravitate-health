@@ -1,53 +1,3 @@
-Extension: Lenses
-Description: "Conveying Lens Information in the FHIR format"
-* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
-* value[x] only Reference(Lens)
-* insert ExtensionContext(Composition)
-
-// This rule set limits the application of an extension to the given path
-RuleSet: ExtensionContext(path)
-* ^context[+].type = #element
-* ^context[=].expression = "{path}"
-
-
-/*
-Extension: HtmlElementLinkReference
-* extension contains
-    elementClass 1..1 and
-    concept 1..1 
-* extension[concept] ^short = "Codes from different code systems"
-* extension[concept].value[x] only Reference(ClinicalUseDefinition)
-* extension[elementClass].value[x] only string
-
-
-Extension: HtmlElementLinkCodeableConcept
-* extension contains
-    elementClass 1..1 and
-    concept 1..1 and
-    relationship 1..1 
-* extension[concept] ^short = "Codes from different code systems"
-* extension[concept].value[x] only CodeableConcept
-* extension[elementClass].value[x] only string
-* extension[relationship].value[x] only CodeableConcept
-
-
-
-Profile: UsageContextProfile
-Parent: UsageContext
-
-* value[x] only CodeableConcept
-
-
-Extension: HtmlElementLinkV2
-* extension contains
-    elementClass 1..1 and
-    concept 1..1 
-* extension[concept] ^short = "Codes from different code systems"
-* extension[concept].value[x] only Reference or UsageContextProfile
-* extension[elementClass].value[x] only string
-
-*/
-
 Extension: HtmlElementLink
 * extension contains
     elementClass 1..1 and
@@ -57,11 +7,24 @@ Extension: HtmlElementLink
 * extension[elementClass].value[x] only string
 
 
-Extension: HtmlElementLinkV3
+Extension: LensesApplied
+Description: "Conveying Lens Information in the FHIR format"
+* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
+* value[x] only Reference(Lens)
+
+
+Extension: AdditionalInformation
+Description: "Adding information to ePIs in the FHIR format. This information may be pictograms, images, video or something else. Flexible to enable a lot of different types of information to be added."
+* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalInformation"
 * extension contains
-    elementClass 1..1 and
-    concept 1..1 
-* extension[concept] ^short = "Reference for ClinicalUseDefinition"
-* extension[concept].value[x] only Reference(ClinicalUseDefinition)
+    elementClass 0..1 and
+    concept 1..1 and type 0..1
+* extension[concept] ^short = "Data to be used, can be a reference to a resourc, a CodeableConcept, or a base64 encoded string or a URL"
+* extension[concept].value[x] only CodeableReference or base64Binary or url
+
+* extension[type].value[x] only CodeableConcept 
+* extension[type].value[x] from TypeOfDataVS (preferred)
+* extension[type] ^short = "Type of data, e.g. image, video, text, etc."
+
 * extension[elementClass].value[x] only string
-* extension[elementClass] ^short = "Tag for adding in the HTML code"
+* extension[elementClass] ^short = "Location in the html. if applicable"

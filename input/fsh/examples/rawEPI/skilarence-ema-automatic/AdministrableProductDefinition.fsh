@@ -2,10 +2,10 @@
 Instance: ap-6a3c9768548036f502739419bacb2482
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Skilarence 120 mg gastro-resistant tablets"
-Description: "Skilarence 120 mg gastro-resistant tablets"
-Usage: #example
+Description: "Administrable product Skilarence 120 mg gastro-resistant tablets"
+Usage: #inline
 
-* identifier.system = $phpid
+* identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "xx" 
 
 * status = #active

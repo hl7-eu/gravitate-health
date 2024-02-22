@@ -2,8 +2,8 @@
 Instance: ap-af1953635c28668e0d454e0740fcb36f
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable product Aquilea Articulaciones Colageno y Magnesio 375gr"
-Description: "Aquilea Articulaciones Colageno y Magnesio 375gr"
-Usage: #example
+Description: "Administrable product Aquilea Articulaciones Colageno y Magnesio 375gr"
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "id" 

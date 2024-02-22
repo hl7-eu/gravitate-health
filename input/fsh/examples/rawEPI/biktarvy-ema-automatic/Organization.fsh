@@ -10,7 +10,7 @@ Instance: mah-715f8a161ed438d0584510e5b4512caa
 InstanceOf: OrganizationUvEpi
 Title: "Gilead Sciences Ireland UC as Marketing authorisation holder"
 Description: "Gilead Sciences Ireland UC as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100008368"
@@ -41,7 +41,7 @@ Instance: mra-1133a7374c78f1d40f41885344f06a5a
 InstanceOf: OrganizationUvEpi
 Title: "European Medicines Agency as Medicines Regulatory Authority"
 Description: "European Medicines Agency as Medicines Regulatory Authority"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100013412"

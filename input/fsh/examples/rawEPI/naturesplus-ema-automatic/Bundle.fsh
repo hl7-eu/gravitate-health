@@ -1,30 +1,10 @@
 
 
 
-Instance: bundlepackageleaflet-en-b5a6ac2496348cb06663deb81c55cb37
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Natures Plus Spiru-Tein Package Leaflet for language en"
-Description: "Bundle for Natures Plus Spiru-Tein Package Leaflet ePI document"
-Usage: #example
+RuleSet: 9aabab1dccc46a284a817edc09bfaddaBundleRuleset 
 
 
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "acmedrug-xx"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
-
-
-
-
-
-// Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-96d7b1b575aa8164c8c2b4cbe70f252a"
-* entry[0].resource = composition-en-96d7b1b575aa8164c8c2b4cbe70f252a
-
-* insert b5a6ac2496348cb06663deb81c55cb37BundleRuleset
-
-RuleSet: b5a6ac2496348cb06663deb81c55cb37BundleRuleset 
+ 
 
 
  
@@ -46,8 +26,8 @@ RuleSet: b5a6ac2496348cb06663deb81c55cb37BundleRuleset
 
 
 // RegulatedAuthorization
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationb5a6ac2496348cb06663deb81c55cb37"
-* entry[=].resource = authorizationb5a6ac2496348cb06663deb81c55cb37 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationb5a6ac2496348cb06663deb81c55cb370"
+* entry[=].resource = authorizationb5a6ac2496348cb06663deb81c55cb370 
 
 
 // Organization
@@ -56,8 +36,8 @@ RuleSet: b5a6ac2496348cb06663deb81c55cb37BundleRuleset
 
 
 // PackagedProductDefinition
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-b5a6ac2496348cb06663deb81c55cb37"
-* entry[=].resource = ppd-b5a6ac2496348cb06663deb81c55cb37 
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-2f26bab76fe91bd9c2223496b450fc96"
+* entry[=].resource = ppd-2f26bab76fe91bd9c2223496b450fc96 
 
 
 // MedicinalProductDefinition
@@ -70,3 +50,30 @@ RuleSet: b5a6ac2496348cb06663deb81c55cb37BundleRuleset
 * entry[=].resource = mid-b5a6ac2496348cb06663deb81c55cb37 
 
 
+
+
+
+Instance: bundlepackageleaflet-es-b5a6ac2496348cb06663deb81c55cb37
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for Natures Plus Spiru-Tein Package Leaflet for language es"
+Description: "ePI document Bundle for Natures Plus Spiru-Tein Package Leaflet for language es"
+Usage: #example
+
+
+
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "acmedrug-xx"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #es
+
+
+
+
+
+// Composition
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-96d7b1b575aa8164c8c2b4cbe70f252a"
+* entry[0].resource = composition-es-96d7b1b575aa8164c8c2b4cbe70f252a
+
+* insert 9aabab1dccc46a284a817edc09bfaddaBundleRuleset

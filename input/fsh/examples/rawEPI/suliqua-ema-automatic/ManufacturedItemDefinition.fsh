@@ -1,24 +1,21 @@
 
-Instance: mid-66d97ddf0e95a23a3c0f4f2102139f34
+Instance: mid-e2464a7d3d627b9df9bef5bc3b263fb4
 InstanceOf: ManufacturedItemDefinitionUvEpi
-Title: "Manufactured item Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens"
-Description: "Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens"
-Usage: #example
+Title: "Manufactured item Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen"
+Description: "Manufactured item Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen"
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
-* identifier.value = "EU/1/16/1157/003"
+* identifier.value = "xxx"
 * identifier.use = #official
 
 * status = #active
-* manufacturedDoseForm = https://spor.ema.europa.eu/rmswi/#200000002007 "Solution"
+* manufacturedDoseForm = https://spor.ema.europa.eu/rmswi/#200000016420 "Solution"
 
 * unitOfPresentation = $spor-rms#200000002135 "Pen"
 
 
  
  
- 
- 
+* manufacturer = Reference(man-174ad598bd1faddba2098648a45613e1) 
 
-
-//* manufacturer = Reference(mah-16019cea3a857659d2c5a2018c2260df)

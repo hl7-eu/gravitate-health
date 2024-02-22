@@ -1,9 +1,9 @@
 
-Instance: mp2412867d9a0e15f82f11047ad93bdbad
+Instance: mp873a1a47330e628770640f9c96c0761e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Karvea 75 mg tablet x14"
-Description: "Karvea 75 mg tablet x14"
-Usage: #example
+Title: "Medicinal Product Karvea 75 mg tablet"
+Description: "Karvea 75 mg tablet"
+Usage: #inline
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"
@@ -24,7 +24,7 @@ Usage: #example
 
 
 * name
-  * productName = "Karvea 75 mg tablet x14"
+  * productName = "Karvea 75 mg tablet"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]

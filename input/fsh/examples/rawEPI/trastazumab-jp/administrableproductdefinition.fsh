@@ -2,7 +2,7 @@ Instance: adminprodherceptin150
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable Product - Herceptin (trastazumab) 150 mg for Intravenous Use"
 Description: "Administrable Product - Herceptin (trastazumab) 150 mg for Intravenous Use"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $phpid
 * identifier.value = "7532F47F36A3585D1F348BBDDA057862" //PHPID 

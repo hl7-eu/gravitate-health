@@ -1,4 +1,4 @@
-from os import listdir, getcwd, mkdir
+from os import listdir, getcwd, mkdir, remove
 from os.path import exists
 from jinja2 import Environment, FileSystemLoader
 import pandas as pd
@@ -28,6 +28,39 @@ if TEMPLATE_FOLDER[-1] != "/":
     TEMPLATE_FOLDER += "/"
 if OUTPUT_FOLDER[-1] != "/":
     OUTPUT_FOLDER += "/"
+
+
+def homogenize_text(composition):
+    # print(composition)
+    composition = re.sub(
+        r'style="font-family:Times New Roman; font-size:1\d{1}pt\S*"', "", composition
+    )
+    composition = re.sub(
+        r"font-family:Times New Roman; font-size:1\d{1}pt", "", composition
+    )
+
+    composition = composition.replace("font-family:serif;", "")
+    return composition
+
+
+def split_compositions(OUTPUT_FOLDER, major_name):
+    print("splitting compositions")
+    print(OUTPUT_FOLDER)
+    idxs = []
+    names = []
+    with open(OUTPUT_FOLDER + "Composition.fsh", "r") as file1:
+        Lines = file1.readlines()
+        for idx, line in enumerate(Lines):
+            if "Instance:" in line:
+                print(line)
+                print(idx)
+                idxs.append(idx)
+                names.append(line.replace("Instance: ", "").strip())
+    idxs.append(len(Lines))
+    for nidx, name in enumerate(names):
+        with open(OUTPUT_FOLDER + name + ".fsh", "w") as file2:
+            file2.write(homogenize_text("".join(Lines[idxs[nidx] : idxs[nidx + 1]])))
+    remove(OUTPUT_FOLDER + "Composition.fsh")
 
 
 def create_env(TEMPLATE_FOLDER):
@@ -192,6 +225,13 @@ def create_from_template(env, DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER, major_n
         data["data"] = df
         data["turn"] = "2"
         t.stream(data=data, **context).dump(OUTPUT_FOLDER + n_file + ".fsh")
+    df = pd.read_csv(temp_folder + "Bundle.csv", index_col=0)
+    # print(df)
+    df = df.astype(str)
+    data["data"] = df
+    data["turn"] = "2"
+    t = env.get_template("List.fsh")
+    t.stream(data=data, **context).dump(OUTPUT_FOLDER + "List.fsh")
 
 
 if __name__ == "__main__":
@@ -206,6 +246,7 @@ if __name__ == "__main__":
         OUTPUT_FOLDER=real_output_folder,
         major_name=major_name,
     )
+    split_compositions(OUTPUT_FOLDER=real_output_folder, major_name=major_name)
     quality_checks(
         DATA_FILE=DATA_FILE, OUTPUT_FOLDER=real_output_folder, major_name=major_name
     )

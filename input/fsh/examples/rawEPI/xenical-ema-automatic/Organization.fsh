@@ -10,7 +10,7 @@ Instance: mah-4aaf055c3c7bab96579cd18496b045eb
 InstanceOf: OrganizationUvEpi
 Title: "CHEPLAPHARM Arzneimittel GmbH as Marketing authorisation holder"
 Description: "CHEPLAPHARM Arzneimittel GmbH as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000214"

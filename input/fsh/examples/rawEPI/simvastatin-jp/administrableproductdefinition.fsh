@@ -2,7 +2,7 @@ Instance: adminprodsimvastatin20
 InstanceOf: AdministrableProductDefinitionUvEpi
 Title: "Administrable Product - simvastatin 20 mg tablet"
 Description: "Administrable Product - simvastatin 20 mg tablet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $phpid
 * identifier.value = "9721571303255BF02181E8EC5AD60DF9" //PHPID 

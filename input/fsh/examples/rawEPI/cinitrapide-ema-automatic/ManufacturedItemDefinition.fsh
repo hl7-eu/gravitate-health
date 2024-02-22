@@ -1,9 +1,9 @@
 
-Instance: mid-af8224f8c853d17daf5ea6782cb5a097
+Instance: mid-da0fc2395ce219262dfd4f0c9a9f72e1
 InstanceOf: ManufacturedItemDefinitionUvEpi
-Title: "Manufactured item cinitrapide"
-Description: "cinitrapide"
-Usage: #example
+Title: "Manufactured item BLASTON 1 mg tablets"
+Description: "Manufactured item BLASTON 1 mg tablets"
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "x"

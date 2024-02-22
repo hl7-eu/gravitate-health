@@ -5,7 +5,7 @@ Instance: ingredient-for-simvastatine-titaniumdioxide
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient TITANIUM DIOXIDE"
 Description: "TITANIUM DIOXIDE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "15FIX9V2JP"
@@ -20,9 +20,9 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-f017cc40b97c30d177960a4c63431139)
+* for = Reference(mid-660952efa1b907b97e182807063ac261)
 * for[+] = Reference(mp245a2b4a9e3ee4304e5e6cf2b1a252b4)
-* for[+] = Reference(ap-f017cc40b97c30d177960a4c63431139)
+* for[+] = Reference(ap-660952efa1b907b97e182807063ac261)
  
 
 
@@ -34,7 +34,7 @@ Instance: ingredient-for-simvastatine-hypromelloseunspecified
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-excipient HYPROMELLOSE, UNSPECIFIED"
 Description: "HYPROMELLOSE, UNSPECIFIED"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "3NXW29V3WO"
@@ -49,9 +49,9 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-f017cc40b97c30d177960a4c63431139)
+* for = Reference(mid-660952efa1b907b97e182807063ac261)
 * for[+] = Reference(mp245a2b4a9e3ee4304e5e6cf2b1a252b4)
-* for[+] = Reference(ap-f017cc40b97c30d177960a4c63431139)
+* for[+] = Reference(ap-660952efa1b907b97e182807063ac261)
  
 
 
@@ -63,7 +63,7 @@ Instance: ingredient-for-simvastatine-simvastatin
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active SIMVASTATIN"
 Description: "SIMVASTATIN"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "AGG2FN16EV"
@@ -82,9 +82,9 @@ Usage: #example
 
 
 // Reference to products
-* for = Reference(mid-f017cc40b97c30d177960a4c63431139)
+* for = Reference(mid-660952efa1b907b97e182807063ac261)
 * for[+] = Reference(mp245a2b4a9e3ee4304e5e6cf2b1a252b4)
-* for[+] = Reference(ap-f017cc40b97c30d177960a4c63431139)
+* for[+] = Reference(ap-660952efa1b907b97e182807063ac261)
  
 
 

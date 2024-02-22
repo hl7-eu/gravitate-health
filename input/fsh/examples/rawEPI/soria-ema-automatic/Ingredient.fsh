@@ -5,7 +5,7 @@ Instance: ingredient-for-soria-ascorbicacid
 InstanceOf: IngredientUvEpi
 Title: "Ingredient-active ASCORBIC ACID"
 Description: "ASCORBIC ACID"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $ginas
 * identifier.value = "PQ6CK8PD0R"

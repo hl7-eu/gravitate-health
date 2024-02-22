@@ -2,8 +2,8 @@
 Instance: mid-1a7318638ddbbeb084ef416e717b6fdb
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Title: "Manufactured item Pentasa Slow Release Tablets 1g"
-Description: "Pentasa Slow Release Tablets 1g"
-Usage: #example
+Description: "Manufactured item Pentasa Slow Release Tablets 1g"
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "77022"

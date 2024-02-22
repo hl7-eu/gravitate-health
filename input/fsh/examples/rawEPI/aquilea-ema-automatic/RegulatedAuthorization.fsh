@@ -1,18 +1,20 @@
 
-Instance: authorization49bbaf88ca82da246f516eabbf90d54e
+Instance: authorizationaf1953635c28668e0d454e0740fcb36f0
 InstanceOf: RegulatedAuthorizationUvEpi
-Title: "Regulated Authorization for aquilea"
-Description: "Regulated Authorization for aquilea"
-Usage: #example
+Title: "Regulated Authorization for Aquilea Articulaciones Colageno y Magnesio 375gr 0"
+Description: "Regulated Authorization for Aquilea Articulaciones Colageno y Magnesio 375gr 0"
+Usage: #inline
 
 * identifier.system = $spor-prod
 * identifier.value = "aquilea-1"
 * identifier.use = #official
 
 
- // Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
- //* subject = Reference(karvea75mgblisterx28)
+// Reference to MedicinalProductDefinition: EU/1/97/049/001 Karvea 75 mg tablet
+
 * subject = Reference(mp3b8585822d27945de47423af5de9824d)
+
+
 * type = $spor-rms#220000000061 "Marketing Authorisation"
 
 //* type = $spor-rms#100000072062

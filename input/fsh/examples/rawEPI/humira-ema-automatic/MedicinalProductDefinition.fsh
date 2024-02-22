@@ -3,7 +3,7 @@ Instance: mpf97db27e6330f77484eb8425ad2913cd
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)"
 Description: "Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)"
-Usage: #example
+Usage: #inline
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"
@@ -20,33 +20,28 @@ Usage: #example
 
 
 
-* legalStatusOfSupply = $spor-rms#100000000000 "Medicinal product subject to medical prescription"
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
 
 * name
   * productName = "Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)"
-  * type = $spor-productNamePartType-cs#220000000001
-    * text = "Full name"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
     * part = "Humira"
-    * type = $spor-productNamePartType-cs#220000000002
-    * type.text = "Invented name part"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
   
   * part[+]
     * part = "Adalimumab"
-    * type = $spor-productNamePartType-cs#220000000003
-    * type.text = "Scientific name part"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
   
   * part[+]
     * part = "40 mg"
-    * type = $spor-productNamePartType-cs#220000000004
-    * type.text = "Strength part"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
   
   * part[+]
     * part = "Solution for injection"
-    * type = $spor-productNamePartType-cs#220000000005
-    * type.text = "Pharmaceutical dose form part"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
     * country = urn:iso:std:iso:3166#ES "Spain"

@@ -2,7 +2,7 @@ Instance: trastazumab
 InstanceOf: IngredientUvEpi
 Title: "Ingredient - trastazumab"
 Description: "Ingredient - trastazumab"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "P188ANX8CK"
@@ -29,7 +29,7 @@ Usage: #example
 Instance: carnubawax
 InstanceOf: IngredientUvEpi
 Description: "Carnauba wax"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "R12CBM0EIZ"
@@ -51,7 +51,7 @@ Usage: #example
 Instance: crystallinecellulose
 InstanceOf: IngredientUvEpi
 Description: "crystalline cellulose"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "OP1R32D61U"
@@ -73,7 +73,7 @@ Usage: #example
 Instance: mannitol
 InstanceOf: IngredientUvEpi
 Description: "MANNITOL"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "3OWL53L36A"
@@ -96,7 +96,7 @@ Usage: #example
 Instance: hypromelose
 InstanceOf: IngredientUvEpi
 Description: "HYPROMELLOSE, UNSPECIFIED "
-Usage: #example
+Usage: #inline
 
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
@@ -120,7 +120,7 @@ Usage: #example
 Instance: lightanhydroussilicicacid
 InstanceOf: IngredientUvEpi
 Description: "light anhydrous silicic acid"
-Usage: #example
+Usage: #inline
 
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
@@ -144,7 +144,7 @@ Usage: #example
 Instance: magnesiumcarbonate
 InstanceOf: IngredientUvEpi
 Description: "MAGNESIUM CARBONATE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "0E53J927NA"
@@ -167,7 +167,7 @@ Usage: #example
 Instance: magnesiumstearate
 InstanceOf: IngredientUvEpi
 Description: "MAGNESIUM STEARATE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "70097M6I30"
@@ -190,7 +190,7 @@ Usage: #example
 Instance: methylparaben
 InstanceOf: IngredientUvEpi
 Description: "METHYLPARABEN"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "A2I8C7HI9T"
@@ -214,7 +214,7 @@ Usage: #example
 Instance: polyethyleneglycol
 InstanceOf: IngredientUvEpi
 Description: "POLYETHYLENE GLYCOL 6000"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "30IQX730WE"
@@ -237,7 +237,7 @@ Usage: #example
 Instance: polysorbate
 InstanceOf: IngredientUvEpi
 Description: "POLYSORBATE 80"
-Usage: #example
+Usage: #inline
 
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
@@ -262,7 +262,7 @@ Usage: #example
 Instance: polyvinylalcohol
 InstanceOf: IngredientUvEpi
 Description: "POLYVINYL ALCOHOL, UNSPECIFIED"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "532B59J990"
@@ -286,7 +286,7 @@ Usage: #example
 Instance: sucrose
 InstanceOf: IngredientUvEpi
 Description: "SUCROSE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "C151H8M554"
@@ -310,7 +310,7 @@ Usage: #example
 Instance: silicondioxide
 InstanceOf: IngredientUvEpi
 Description: "SILICON DIOXIDE"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "ETJ7Z6XBU4"
@@ -334,7 +334,7 @@ Usage: #example
 Instance: sodiumstarch
 InstanceOf: IngredientUvEpi
 Description: "SODIUM STARCH GLYCOLATE TYPE A POTATO"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "5856J3G2A2"
@@ -357,7 +357,7 @@ Usage: #example
 Instance: syntehticwax
 InstanceOf: IngredientUvEpi
 Description: "synthetic wax"
-Usage: #example
+Usage: #inline
 
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
@@ -382,7 +382,7 @@ Usage: #example
 Instance: talc
 InstanceOf: IngredientUvEpi
 Description: "talc"
-Usage: #example
+Usage: #inline
 
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
@@ -406,7 +406,7 @@ Usage: #example
 Instance: titaniumdioxide2
 InstanceOf: IngredientUvEpi
 Description: "TITANIUM DIOXIDE "
-Usage: #example
+Usage: #inline
 
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "15FIX9V2JP"

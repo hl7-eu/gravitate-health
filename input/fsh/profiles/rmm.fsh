@@ -17,8 +17,16 @@ Description:  "Additional Support Material Profile"
 * content MS
 * content.attachment.language MS
 * content.attachment.contentType MS
+* content.attachment.data MS
+* content.attachment.url MS
+* content.attachment.hash MS
+* content.attachment.title MS
+* content.attachment.creation MS
+
 * relatesTo MS
 * description MS
 * context MS
 * securityLabel MS
 * custodian MS
+
+* content 1..1

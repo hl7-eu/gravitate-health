@@ -2,7 +2,7 @@ Instance: persona-dimension-1
 InstanceOf: Observation
 Title: "Persona Dimension - Employment"
 Description:  "Persona Dimension - Employment"
-Usage: #example
+Usage: #inline
 
 * status = #final
 * code = pd-type-cs#EMP
@@ -17,7 +17,7 @@ Instance: persona-dimension-2
 InstanceOf: Observation
 Title: "Persona Dimension - Share info Willingly"
 Description:  "Persona Dimension - Share info Willingly"
-Usage: #example
+Usage: #inline
 
 * status = #final
 * code = pd-type-cs#SHW
@@ -33,7 +33,7 @@ Instance: persona-dimension-3
 InstanceOf: Observation
 Title: "Persona Dimension - WorkLife"
 Description:  "Persona Dimension - WorkLife"
-Usage: #example
+Usage: #inline
 
 
 * status = #final
@@ -50,7 +50,7 @@ Instance: persona-dimension-4
 InstanceOf: Observation
 Title: "Persona Dimension - Extrovert/introvert"
 Description:  "Persona Dimension - Extrovert/introvert"
-Usage: #example
+Usage: #inline
 
 * status = #final
 * code = pd-type-cs#EVI
@@ -71,16 +71,16 @@ Usage: #example
 * identifier.system = "https://myserver.org/persona-dimension-collection"
 * identifier.value = "pd-collection-1"
 
-* entry[+].fullUrl = "Observation/pd1"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/persona-dimension-1"
 * entry[=].resource = persona-dimension-1
 
-* entry[+].fullUrl = "Observation/pd2"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/persona-dimension-2"
 * entry[=].resource = persona-dimension-2
 
-* entry[+].fullUrl = "Observation/pd3"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/persona-dimension-3"
 * entry[=].resource = persona-dimension-3
 
-* entry[+].fullUrl = "Observation/pd4"
+* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Observation/persona-dimension-4"
 * entry[=].resource = persona-dimension-4
 
 

@@ -10,7 +10,7 @@ Instance: mah-3c850a69e5187931f2198c5e63f933fe
 InstanceOf: OrganizationUvEpi
 Title: "Celltrion Healthcare Hungary Kft. as Marketing authorisation holder"
 Description: "Celltrion Healthcare Hungary Kft. as Marketing authorisation holder"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000826"
@@ -41,7 +41,7 @@ Instance: mra-e3da03c458d6c0f3c5f1c39a2c6a1084
 InstanceOf: OrganizationUvEpi
 Title: "European Medicines Agency as Medicines Regulatory Authority"
 Description: "European Medicines Agency as Medicines Regulatory Authority"
-Usage: #example
+Usage: #inline
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100013412"

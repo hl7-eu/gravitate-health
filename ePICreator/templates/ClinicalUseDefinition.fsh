@@ -11,7 +11,7 @@
 Instance: cud-{{ns.name_to_has| create_hash_id}}
 InstanceOf: ClinicalUseDefinition-{{row['type']|trim}}-uv-epi
 Description: "{{row['type']}} - {{row['name']}}"
-Usage: #example
+Usage: #inline
 
 {% if row["identifier"]!="nan"  %}
 * identifier.system = "{{row['identifier_system']}}"

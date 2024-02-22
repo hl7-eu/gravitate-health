@@ -2,8 +2,8 @@
 Instance: mid-af1953635c28668e0d454e0740fcb36f
 InstanceOf: ManufacturedItemDefinitionUvEpi
 Title: "Manufactured item Aquilea Articulaciones Colageno y Magnesio 375gr"
-Description: "Aquilea Articulaciones Colageno y Magnesio 375gr"
-Usage: #example
+Description: "Manufactured item Aquilea Articulaciones Colageno y Magnesio 375gr"
+Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/pmswi"
 * identifier.value = "EU/1/96/007/035"

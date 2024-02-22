@@ -1,9 +1,9 @@
 
-Instance: mp5fb1761a0a38bea0a9b49f146371c68b
+Instance: mp2a9c4333cfd126f2e7b73ad3cafd6949
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Remsima 100 Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
-Description: "Remsima 100 Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
-Usage: #example
+Title: "Medicinal Product Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
+Description: "Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
+Usage: #inline
 
  
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"
@@ -24,7 +24,7 @@ Usage: #example
 
 
 * name
-  * productName = "Remsima 100 Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
+  * productName = "Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
