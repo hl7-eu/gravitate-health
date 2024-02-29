@@ -49,20 +49,4 @@ RuleSet: {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]
 {% if data["data"]|length> 1%}
 
 
-
-Instance: list-{{data["dictionary"]["MajorName"]}}
-InstanceOf: List
-Usage: #example
-Title: "List of {{data["dictionary"]["MajorName"]}} Package Leaflets Raw"
-Description: "List of {{data["dictionary"]["MajorName"]}} Package Leaflets Raw"
-
-* status = #current
-* mode = #working
-
-* code = $example-pi-list-types#00000021213 "ePI Master List"
-
-
-* insert {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}ListRuleset
-
-
 {%- endif %}

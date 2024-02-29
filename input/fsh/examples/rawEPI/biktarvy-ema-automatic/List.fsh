@@ -66,16 +66,3 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765ListRuleset
 
 
 
-Instance: list-biktarvy
-InstanceOf: List
-Usage: #example
-Title: "List of biktarvy Package Leaflets Raw"
-Description: "List of biktarvy Package Leaflets Raw"
-
-* status = #current
-* mode = #working
-
-* code = $example-pi-list-types#00000021213 "ePI Master List"
-
-
-* insert 63b15a3bb9d18a00ecd0962bc011c765ListRuleset

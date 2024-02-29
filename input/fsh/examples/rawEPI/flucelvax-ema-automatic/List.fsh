@@ -48,16 +48,3 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdListRuleset
 
 
 
-Instance: list-flucelvax
-InstanceOf: List
-Usage: #example
-Title: "List of flucelvax Package Leaflets Raw"
-Description: "List of flucelvax Package Leaflets Raw"
-
-* status = #current
-* mode = #working
-
-* code = $example-pi-list-types#00000021213 "ePI Master List"
-
-
-* insert 56a32a5ee239fc834b47c10db1faa3fdListRuleset

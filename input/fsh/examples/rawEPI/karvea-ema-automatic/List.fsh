@@ -65,17 +65,3 @@ RuleSet: d99852efa4d4976d99a584078a2ca48cListRuleset
   * item.extension[=].valueCoding = $100000072057#100000072147 "dk"
 
 
-
-Instance: list-karvea
-InstanceOf: List
-Usage: #example
-Title: "List of karvea Package Leaflets Raw"
-Description: "List of karvea Package Leaflets Raw"
-
-* status = #current
-* mode = #working
-
-* code = $example-pi-list-types#00000021213 "ePI Master List"
-
-
-* insert d99852efa4d4976d99a584078a2ca48cListRuleset
