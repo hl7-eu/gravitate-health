@@ -65,10 +65,6 @@ Usage: #inline
 
 * status = #final
 
-
-
-
-
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
@@ -80,6 +76,7 @@ Usage: #inline
 
 {% if data["turn"] != "1" %}
 {% for refs in data["references"]["Organization"] %} 
+
 {% if refs[0].startswith("mah") %}
  // Reference to Organization: MAH
 * author = Reference({{refs[0]}})
