@@ -45,7 +45,7 @@ folder_path = (
 )
 OUTPUT_FOLDER = "../../../test-epi-composition/input/fsh/"
 TEMPLATE_FOLDER = "../templates/"
-LANGUAGE = "uk"
+LANGUAGE = "en"
 # Iterate over each file in the folder
 for filename in os.listdir(folder_path):
     file_path = os.path.join(folder_path, filename)
@@ -76,7 +76,7 @@ for filename in os.listdir(folder_path):
 
         t = env.get_template("composition.fsh")
         # t = Template(templateString, trim_blocks=True)
-        print(len(list_parts))
+        print("len list parts", len(list_parts))
         #  df = pd.read_csv(temp_folder + n_file + ".csv", index_col=0)
         df_content = {
             "identifier": "identifier",
@@ -102,5 +102,5 @@ for filename in os.listdir(folder_path):
         # Replace the following line with your desired logic
     #  print(f"Processing file: {file_path}")
     except Exception as e:
-        print(e)
-        print("Error processing file: " + file_path)
+        #  print(e)
+        print("Error processing file: " + file_path + ": " + str(e))
