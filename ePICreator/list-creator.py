@@ -66,9 +66,6 @@ Description: "List of """
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
-* subject = Reference("""
-            + subject_reference
-            + """)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#"""
             + product_name.split(" ")[0]
@@ -103,7 +100,7 @@ Description: "List of """
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2016-02-07T13:28:17Z"
-  * item = Reference("""
+  * item = Reference(Bundle/"""
             + bundle_id
             + """)
 
@@ -127,3 +124,7 @@ print(final_doc)
 output_file = "/Users/joaoalmeida/Desktop/hl7Europe/gravitate/gravitate-health/ePICreator/final_doc.txt"
 with open(output_file, "w") as file:
     file.write(final_doc)
+
+# * subject = Reference("""
+#            + subject_reference
+#            + """)

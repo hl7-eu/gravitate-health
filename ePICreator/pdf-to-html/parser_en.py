@@ -140,7 +140,7 @@ def clean_aspas(piece):
 
 
 def parse_second_part(second_part):
-    c = re.sub(r"(What is in this leaflet:)\n", r"\1\n\n", second_part)
+    c = re.sub(r"(What is in this leaflet:?)\s*\n", r"\1\n\n", second_part)
 
     # print(second_part)
     return c

@@ -117,7 +117,12 @@ def parser_html(language, pdf_path, html_folder="../temp_html/"):
     with open(html_folder + "/" + "full.md", "w") as file:
         file.write(clean_content)
 
-    return first_part, second_part, third_part, list_parts
+    return (
+        markdown.markdown(first_part),
+        markdown.markdown(parse_second_part(second_part)),
+        markdown.markdown(third_part),
+        list_parts,
+    )
 
 
 if __name__ == "__main__":

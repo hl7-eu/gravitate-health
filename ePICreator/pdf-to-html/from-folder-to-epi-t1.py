@@ -43,9 +43,11 @@ def create_env(TEMPLATE_FOLDER):
 folder_path = (
     "../../../../chatwithepi/epi-gather/epis-ema"  # Replace with the actual folder path
 )
-OUTPUT_FOLDER = "../../../test-epi-composition/input/fsh/"
+OUTPUT_FOLDER = "../../../test-epi-composition/input/fsh/examples/"
 TEMPLATE_FOLDER = "../templates/"
 LANGUAGE = "en"
+with open("log.txt", "w") as log_file:
+    log_file.write("Start...." + "\n")
 # Iterate over each file in the folder
 for idx, filename in enumerate(os.listdir(folder_path)):
     file_path = os.path.join(folder_path, filename)
@@ -80,6 +82,7 @@ for idx, filename in enumerate(os.listdir(folder_path)):
         #  print("len list parts", len(list_parts))
         #  df = pd.read_csv(temp_folder + n_file + ".csv", index_col=0)
         df_content = {
+            "identifier_system": "http://ema.europa.eu/identifier",
             "identifier": "identifier",
             "date": "2022-02-16T13:28:17Z",
             "language": "en",
@@ -99,12 +102,19 @@ for idx, filename in enumerate(os.listdir(folder_path)):
         #   df = df.astype(str)
         data["data"] = df
         t.stream(data=data).dump(OUTPUT_FOLDER + productname + ".fsh")
-        # Apply something to each file
+        # Read the modified file
+        with open(OUTPUT_FOLDER + productname + ".fsh", "r") as file:
+            modified_content = file.read()
 
-        # Replace the following line with your desired logic
-    #  print(f"Processing file: {file_path}")
+        modified_content = modified_content.replace("Usage: #inline", "Usage: #example")
+
+        # Write the modified content back to the file
+        with open(OUTPUT_FOLDER + productname + ".fsh", "w") as file:
+            file.write(modified_content)
+
     except Exception as e:
         #  print(e)
-
-        # print("Error processing file: " + file_path + ": " + str(e))
-        raise Exception("Error processing file: " + file_path + ": " + str(e))
+        with open("log.txt", "a") as log_file:
+            log_file.write("Processed file: " + file_path + "\n")
+        print("Error processing file: " + file_path + ": " + str(e))
+        # raise Exception("Error processing file: " + file_path + ": " + str(e))
