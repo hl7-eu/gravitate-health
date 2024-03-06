@@ -22,6 +22,28 @@ pdf_path = (
 
 pdf_path = "../../../../chatwithepi/epi-gather/epis-ema/prehevbri-epar-product-information_en.pdf"
 
+pdf_path = "../../../../chatwithepi/epi-gather/epis-ema/Stivarga-epar-product-information_en.pdf"
+pdf_path = "../../../../chatwithepi/epi-gather/epis-ema/infanrix-hexa-epar-product-information_en.pdf"
+pdf_path = "../../../../chatwithepi/epi-gather/epis-ema/adjupanrix-previously-pandemic-influenza-vaccine-h5n1-split-virion-inactivated-adjuvanted-glaxosmithkline-biologicals-epar-product-information_en.pdf"
+pdf_path = (
+    "../../../../chatwithepi/epi-gather/epis-ema/sixmo-epar-product-information_en.pdf"
+)
+pdf_path = "../../../../chatwithepi/epi-gather/epis-ema/tepadina-epar-product-information_en.pdf"
+pdf_path = "../../../../chatwithepi/epi-gather/epis-ema/memantine-merz-epar-product-information_en.pdf"
+pdf_path = "../../../../chatwithepi/epi-gather/epis-ema/aripiprazole-accord-epar-product-information_en.pdf"
+pdf_path = "../../../../chatwithepi/epi-gather/epis-ema/bridion-epar-product-information_en.pdf"
+pdf_path = "../../../../chatwithepi/epi-gather/epis-ema/visudyne-epar-product-information_en.pdf"
+pdf_path = "../../../../chatwithepi/epi-gather/epis-ema/carvykti-epar-product-information_en.pdf"
+pdf_path = "../../../../chatwithepi/epi-gather/epis-ema/spevigo-epar-product-information_en.pdf"
+pdf_path = "../../../../chatwithepi/epi-gather/epis-ema/regkirona-epar-product-information_en.pdf"
+pdf_path = (
+    "../../../../chatwithepi/epi-gather/epis-ema/plavix-epar-product-information_en.pdf"
+)
+pdf_path = "../../../../chatwithepi/epi-gather/epis-ema/akynzeo-epar-product-information_en.pdf"
+pdf_path = (
+    "../../../../chatwithepi/epi-gather/epis-ema/avonex-epar-product-information_en.pdf"
+)
+
 
 def parser_html(language, pdf_path, html_folder="../temp_html/"):
     if not exists(html_folder):
@@ -42,6 +64,7 @@ def parser_html(language, pdf_path, html_folder="../temp_html/"):
             split_parts,
             create_list,
             parse_second_part,
+            clean_aspas,
         )
     if language == "uk":
         from parser_uk import parse_html, cleanhtml, split_parts
@@ -75,16 +98,16 @@ def parser_html(language, pdf_path, html_folder="../temp_html/"):
     list_content, headers = create_list(third_part)
     print("headers:", headers)
     # print(list_content[0])
-    print("list_content:", len(list_content))
+    # print("list_content:", len(list_content))
     # print(html_content)
     for idx, piece in enumerate(list_content):
         # Save the extracted HTML to a file
         with open(html_folder + "/" + str(idx) + ".md", "w") as file:
             file.write(piece)
         with open(html_folder + "/" + str(idx) + ".html", "w") as file:
-            file.write(markdown.markdown(piece))
-            list_parts.append(markdown.markdown(piece))
-
+            file.write(markdown.markdown(clean_aspas(piece)))
+            list_parts.append(markdown.markdown(clean_aspas(piece)))
+    # <Braille>, <large print> or <audio>
     with open(html_folder + "/" + "first.html", "w") as file:
         file.write(markdown.markdown(first_part))
     with open(html_folder + "/" + "second.html", "w") as file:

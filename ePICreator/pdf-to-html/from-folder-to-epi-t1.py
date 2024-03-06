@@ -47,11 +47,12 @@ OUTPUT_FOLDER = "../../../test-epi-composition/input/fsh/"
 TEMPLATE_FOLDER = "../templates/"
 LANGUAGE = "en"
 # Iterate over each file in the folder
-for filename in os.listdir(folder_path):
+for idx, filename in enumerate(os.listdir(folder_path)):
     file_path = os.path.join(folder_path, filename)
+    print(idx)
     try:
         first_part, second_part, third_part, list_parts = parser_html(
-            LANGUAGE, file_path, "temp_html"
+            LANGUAGE, file_path
         )
 
         productname = filename.split("-")[0]
@@ -76,7 +77,7 @@ for filename in os.listdir(folder_path):
 
         t = env.get_template("composition.fsh")
         # t = Template(templateString, trim_blocks=True)
-        print("len list parts", len(list_parts))
+        #  print("len list parts", len(list_parts))
         #  df = pd.read_csv(temp_folder + n_file + ".csv", index_col=0)
         df_content = {
             "identifier": "identifier",
@@ -99,8 +100,11 @@ for filename in os.listdir(folder_path):
         data["data"] = df
         t.stream(data=data).dump(OUTPUT_FOLDER + productname + ".fsh")
         # Apply something to each file
+
         # Replace the following line with your desired logic
     #  print(f"Processing file: {file_path}")
     except Exception as e:
         #  print(e)
-        print("Error processing file: " + file_path + ": " + str(e))
+
+        # print("Error processing file: " + file_path + ": " + str(e))
+        raise Exception("Error processing file: " + file_path + ": " + str(e))
