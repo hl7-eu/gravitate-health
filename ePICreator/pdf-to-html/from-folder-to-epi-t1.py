@@ -1,13 +1,16 @@
 import os
 from parser_start import parser_html
-from jinja2 import Environment, FileSystemLoader
+from jinja2 import Environment, FileSystemLoader, BaseLoader
 import re
 import hashlib
 import pandas as pd
 
 
-def create_env(TEMPLATE_FOLDER):
-    env = Environment(loader=FileSystemLoader(TEMPLATE_FOLDER), trim_blocks=True)
+def create_env(TEMPLATE_FOLDER, type="file"):
+    if type == "file":
+        env = Environment(loader=FileSystemLoader(TEMPLATE_FOLDER), trim_blocks=True)
+    else:
+        env = Environment(loader=BaseLoader(), trim_blocks=True)
 
     # Custom filter method
     def regex_replace(s, find, replace):
@@ -96,6 +99,7 @@ for idx, filename in enumerate(os.listdir(folder_path)):
             "side_effects": list_parts[4],
             "how_to_store": list_parts[5],
             "other_info": list_parts[6],
+            "identifier_value": None,
         }
         df = pd.DataFrame(df_content, index=[0])
         # print(df)
@@ -106,11 +110,53 @@ for idx, filename in enumerate(os.listdir(folder_path)):
         with open(OUTPUT_FOLDER + productname + ".fsh", "r") as file:
             modified_content = file.read()
 
-        modified_content = modified_content.replace("Usage: #inline", "Usage: #example")
+        rtemplate = create_env(
+            TEMPLATE_FOLDER=TEMPLATE_FOLDER, type="string"
+        ).from_string("""
+                      {% for index,row in data["data"].iterrows() %}
 
+Instance: bundlepackageleaflet-{{row["language"]}}-{{data["dictionary"]["productname"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for {{data["dictionary"]["productname"]}} Package Leaflet for language {{row["language"]}}"
+Description: "ePI document Bundle for {{data["dictionary"]["productname"]}} Package Leaflet for language {{row["language"]}}"
+Usage: #example
+
+{% set ns = namespace() %}
+{% set ns.one =row["language"] %}
+{% set ns.two = data["dictionary"]["productname"]| regex_replace('[^A-Za-z0-9]+', '') %}
+{% set ns.name_to_has= ns.one ~ ns.two   %}
+
+
+
+{% if row["identifier_value"]=="nan"  %}
+* identifier[+].system = "{{row['identifier_system']}}" 
+* identifier.value = "{{ns.name_to_has| create_hash_id}}"
+
+{% elif  row["identifier_value"]=="xx"  %}
+* identifier[+].system = "{{row['identifier_system']}}" 
+* identifier.value = "{{ns.name_to_has| create_hash_id}}"
+{% else %}
+* identifier.system = "{{row['identifier_system']}}" 
+* identifier.value = "{{row["identifier_value"]|trim}}"
+{% endif %}
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #{{row["language"]}}
+
+// Composition
+* entry[0].fullUrl = "{{data["dictionary"]["url"]}}Composition/composition-{{row["language"]}}-{{data["dictionary"]["productname"]| regex_replace('[^A-Za-z0-9]+', '')| create_hash_id}}"
+* entry[0].resource = composition-{{row["language"]}}-{{data["dictionary"]["productname"]| regex_replace('[^A-Za-z0-9]+', '')| create_hash_id}}
+                      
+                      {% endfor %}
+""")
+        bundledata = rtemplate.render(data=data)
+        # print(bundledata)
+        # modified_content = modified_content.replace("Usage: #inline", "Usage: #example")
+        # t=env.
         # Write the modified content back to the file
-        with open(OUTPUT_FOLDER + productname + ".fsh", "w") as file:
-            file.write(modified_content)
+        with open(OUTPUT_FOLDER + productname + ".fsh", "a") as file:
+            file.write("\n\n\n")
+            file.write(bundledata)
 
     except Exception as e:
         #  print(e)
