@@ -2,6 +2,7 @@
 {% assign composition = compositionResource.resource %}
 
 
+{% assign all_contained_binaries = composition.contained | where: "resourceType", "Binary" %}
 
 <div>
   {% if composition.category[0].coding[0].code == "F" %}
@@ -25,13 +26,25 @@
   {% for sec in composition.section %}
     <h3 class="nonumbers">{{ sec.title }}</h3>
     <p>
-      {{ sec.text.div }}</p>
+      {% assign sec_div = sec.text.div %}
+      {% for contained_binary in all_contained_binaries %}
+        {% assign image_ref = "#" | append: contained_binary.id %}
+        {% assign image_data = "data:" | append: contained_binary.contentType | append: ";base64," | append: contained_binary.data %}
+        {% assign sec_div = sec_div | replace: image_ref, image_data %}
+      {% endfor %}
+      {{ sec_div }}</p>
     {% if sec.section %}
       {% for sec2 in sec.section %}
 
         <h4 class="nonumbers">{{ sec2.title }}</h4>
         <p>
-          {{ sec2.text.div }}</p>
+          {% assign sec2_div = sec2.text.div %}
+          {% for contained_binary in all_contained_binaries %}
+            {% assign image_ref = "#" | append: contained_binary.id %}
+            {% assign image_data = "data:" | append: contained_binary.contentType | append: ";base64," | append: contained_binary.data %}
+            {% assign sec2_div = sec2_div | replace: image_ref, image_data %}
+          {% endfor %}
+          {{ sec2_div }}</p>
 
       {% endfor %}
     {% endif %}
