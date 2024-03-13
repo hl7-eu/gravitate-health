@@ -85,7 +85,7 @@ Usage: #example
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "x"
+* identifier.value = "67.068"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #es

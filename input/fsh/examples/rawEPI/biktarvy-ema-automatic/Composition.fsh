@@ -317,20 +317,10 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><span>Siga exactamente las instrucciones de administraci&#243;n de este medicamento indicadas por su m&#233;dico.</span></p>
 
     <p><span>En caso de duda, consulte de nuevo a su m&#233;dico o farmac&#233;utico.</span></p>
-
-
     <p><strong><span>La dosis recomendada es:</span></strong></p>
-
-
     <p><strong><span>Adultos:</span></strong> <span>un comprimido al d&#237;a, con o sin alimentos</span></p>
-
     <p><span>No mastique, triture ni divida el comprimido.</span></p>
-
-
-    
 <strong><span>Consulte a su m&#233;dico o farmac&#233;utico si est&#225; tomando:</span></strong>
-
-
     <ul>
       <li><strong><span>anti&#225;cidos</span></strong> <span>para tratar &#250;lceras estomacales, acidez estomacal o reflujo &#225;cido, que contengan</span> <span>hidr&#243;xido de aluminio y/o de magnesio</span></li>
 
