@@ -1,7 +1,7 @@
 Instance: 123
 InstanceOf: BundleUvEpi
 Usage: #example
-* meta.security = $v3-ActReason#HTEST "Please be aware that this electronic product information is for testing and development purposes only. It may not meet production quality standards and must not be relied upon for critical systems and must not be used in production or mission critical applications"
+* meta.security = $v3-ActReason#HTEST "Please be aware that this electronic product information is for testing"
 * language = #en-GB
 * identifier.system = "https://medicines.org.uk/bundle"
 * identifier.value = "epi-SMPC-511"
