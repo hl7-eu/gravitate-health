@@ -1,11 +1,9 @@
-
-
-
 Instance: list-test-smpc
 InstanceOf: List
 Usage: #example
 Title: "List of enbrel smpc Package Leaflets"
 Description: "List of enbrel smpc  Package Leaflets"
+* contained[+] = mp25bbfa948f4a0b224f9baa1fe481efa8
 
 * status = #current
 * mode = #working
@@ -46,6 +44,7 @@ InstanceOf: List
 Usage: #example
 Title: "List of dovato Package Leaflets"
 Description: "List of dovato Package Leaflets"
+* contained[+] = mp16598f252d07b4784b82ba43cf9e847e
 
 * status = #current
 * mode = #working
@@ -82,6 +81,8 @@ InstanceOf: List
 Usage: #example
 Title: "List of biktarvy Package Leaflets"
 Description: "List of biktarvy Package Leaflets"
+
+* contained[+] = mp2a9c4333cfd126f2e7b73ad3cafd6949
 
 * status = #current
 * mode = #working
@@ -136,6 +137,8 @@ Usage: #example
 Title: "List of karvea Package Leaflets Raw"
 Description: "List of karvea Package Leaflets Raw"
 
+* contained[+] = mp873a1a47330e628770640f9c96c0761e
+
 * status = #current
 * mode = #working
 
@@ -175,6 +178,8 @@ InstanceOf: List
 Usage: #example
 Title: "List of flucelvax Package Leaflets Raw"
 Description: "List of flucelvax Package Leaflets Raw"
+
+* contained[+] = mpb6ced64d25ea2c8da6c6099386f14db1
 
 * status = #current
 * mode = #working
