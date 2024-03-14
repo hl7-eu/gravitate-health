@@ -1,0 +1,44 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/DocumentReference/asm-3> a fhir:DocumentReference ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "asm-3"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/ASM"^^xsd:anyURI ;
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/ASM>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: DocumentReference</b><a name=\"asm-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource DocumentReference &quot;asm-3&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ASM.html\">Additional Support Material Profile</a></p></div><p><b>identifier</b>: id: 1</p><p><b>version</b>: 1.0</p><p><b>status</b>: current</p><p><b>docStatus</b>: final</p><p><b>subject</b>: <span>: ACME DRUG</span></p><p><b>author</b>: <span>: GH</span></p><p><b>description</b>: example of Additional material in strucutred  format</p><blockquote><p><b>content</b></p><h3>Attachments</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ContentType</b></td><td><b>Language</b></td><td><b>Url</b></td></tr><tr><td style=\"display: none\">*</td><td>application/json+fhir</td><td>en</td><td><code>Composition/Example</code></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://example.org"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.0"] ; # 
+  fhir:status [ fhir:v "current"] ; # 
+  fhir:docStatus [ fhir:v "final"] ; # 
+  fhir:subject [
+     fhir:display [ fhir:v "ACME DRUG" ]
+  ] ; # 
+  fhir:author ( [
+     fhir:display [ fhir:v "GH" ]
+  ] ) ; # 
+  fhir:description [ fhir:v "example of Additional material in strucutred  format"] ; # 
+  fhir:content ( [
+     fhir:attachment [
+       fhir:contentType [ fhir:v "application/json+fhir" ] ;
+       fhir:language [ fhir:v "en" ] ;
+       fhir:url [ fhir:v "Composition/Example"^^xsd:anyURI ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

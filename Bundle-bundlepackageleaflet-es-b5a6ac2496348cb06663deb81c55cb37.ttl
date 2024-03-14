@@ -1,0 +1,654 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Bundle/bundlepackageleaflet-es-b5a6ac2496348cb06663deb81c55cb37> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "bundlepackageleaflet-es-b5a6ac2496348cb06663deb81c55cb37"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "es"] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "https://www.gravitatehealth.eu/sid/doc"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "acmedrug-xx" ]
+  ] ; # 
+  fhir:type [ fhir:v "document"] ; # 
+  fhir:timestamp [ fhir:v "2023-06-27T10:09:22Z"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-96d7b1b575aa8164c8c2b4cbe70f252a"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-96d7b1b575aa8164c8c2b4cbe70f252a> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-naturesplus-soyprotein"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-naturesplus-soyprotein> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-soyprotein"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-soyprotein> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-b5a6ac2496348cb06663deb81c55cb37"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-b5a6ac2496348cb06663deb81c55cb37> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationb5a6ac2496348cb06663deb81c55cb370"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationb5a6ac2496348cb06663deb81c55cb370> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-0932dbba1d0482c4518be4a7c874cb91"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-0932dbba1d0482c4518be4a7c874cb91> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-2f26bab76fe91bd9c2223496b450fc96"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-2f26bab76fe91bd9c2223496b450fc96> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-b5a6ac2496348cb06663deb81c55cb37"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-b5a6ac2496348cb06663deb81c55cb37> )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-96d7b1b575aa8164c8c2b4cbe70f252a> a fhir:Composition ;
+  fhir:id [ fhir:v "composition-es-96d7b1b575aa8164c8c2b4cbe70f252a"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "es"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"es\" lang=\"es\"><a name=\"Composition_composition-es-96d7b1b575aa8164c8c2b4cbe70f252a\"> </a><p><b>Generated Narrative: Composition</b><a name=\"composition-es-96d7b1b575aa8164c8c2b4cbe70f252a\"> </a><a name=\"hccomposition-es-96d7b1b575aa8164c8c2b4cbe70f252a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;composition-es-96d7b1b575aa8164c8c2b4cbe70f252a&quot;  (Language &quot;es&quot;) </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/</code>/3008f49140c0c226266b50684f1c8b17</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000155538)</span></p><p><b>category</b>: Raw <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-epicategory-cs.html\">Category of EPI</a>#R)</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href=\"#Organization_mah-0932dbba1d0482c4518be4a7c874cb91\">See above (Organization/mah-0932dbba1d0482c4518be4a7c874cb91)</a></p><p><b>title</b>: TEST PURPOSES ONLY - Natures Plus Spiru-Tein</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td>Official <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html\">Composition Attestation Mode</a>#official)</span></td><td>2022-02-16 13:28:17+0000</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "3008f49140c0c226266b50684f1c8b17" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155538" ]
+     ] ) ;
+     fhir:text [ fhir:v "Package Leaflet" ]
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "R" ] ;
+       fhir:display [ fhir:v "Raw" ]
+     ] )
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2022-02-16T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-0932dbba1d0482c4518be4a7c874cb91> ;
+     fhir:reference [ fhir:v "Organization/mah-0932dbba1d0482c4518be4a7c874cb91" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "TEST PURPOSES ONLY - Natures Plus Spiru-Tein"] ; # 
+  fhir:attester ( [
+     fhir:mode [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/composition-attestation-mode"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "official" ]
+       ] )
+     ] ;
+     fhir:time [ fhir:v "2022-02-16T13:28:17Z"^^xsd:dateTime ]
+  ] ) ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "B. PROSPECTO" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000155538" ]
+       ] ) ;
+       fhir:text [ fhir:v "B. PROSPECTO" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">This product is a OTC, epi pending</div>"
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "PROSPECTO: INFORMACIÓN PARA EL USUARIO" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "PROSPECTO: INFORMACIÓN PARA EL USUARIO" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "Contenido del prospecto" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "Contenido del prospecto" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam eros sollicitudin erat pellentesque semper. In tincidunt hendrerit scelerisque. Donec a venenatis eros, a dignissim augue. Nullam rhoncus pulvinar risus eu auctor. Proin non dui est. Pellentesque eleifend, est ac eleifend feugiat, nulla nibh vestibulum mi, ut hendrerit erat nunc volutpat tortor. Aenean dignissim orci ac pretium egestas. Phasellus vel fringilla velit. Nunc sed augue egestas, accumsan justo quis, malesuada massa. Donec nisl sem, fermentum ac lacus vel, ornare eleifend turpis. Curabitur ut feugiat neque, at faucibus ligula. Suspendisse in tristique sem. Aenean posuere, justo vitae vulputate elementum, mi risus sodales lectus, vitae laoreet sem lacus sit amet nisi. Phasellus porta nunc sed tortor ultricies, non sagittis quam venenatis. Nulla sit amet augue odio.</div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "1. Qué es Natures Plus Spiru-Tein y para qué se utiliza" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "1. Qué es Natures Plus Spiru-Tein y para qué se utiliza" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Quisque posuere elit nec auctor imperdiet. Morbi id tortor nec odio molestie maximus. Phasellus id placerat velit. In ex enim, ultricies at maximus sit amet, luctus sit amet magna. Quisque in laoreet ligula, venenatis ultricies lectus. Quisque eleifend felis sed nulla consequat, eu tincidunt nisi gravida. Duis et lacinia ex. Aliquam pharetra vel metus at scelerisque. Integer ultricies dolor vestibulum nibh lacinia mollis. Ut tempor congue nulla eget molestie.</div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "2. Qué necesita saber antes de empezar a tomar Natures Plus Spiru-Tein" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "2. Qué necesita saber antes de empezar a tomar Natures Plus Spiru-Tein" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Nunc velit ante, aliquet sed commodo ut, dictum eget lectus. Duis eu nulla ac dui pellentesque sodales. Curabitur pellentesque dolor metus, ut mollis est posuere sit amet. Praesent sagittis ligula vel est auctor congue. Duis varius ligula et faucibus porttitor. Ut placerat aliquet turpis, eget condimentum nibh porttitor ut. Morbi libero nisl, ullamcorper sit amet est a, dignissim rhoncus ante. Fusce suscipit enim et scelerisque vehicula. Suspendisse eu nulla porta, pharetra dolor et, blandit eros. Ut iaculis metus id purus scelerisque dignissim. Vivamus convallis placerat ex sit amet gravida. Nullam sed orci elit. Pellentesque tincidunt odio lacus, sit amet facilisis quam aliquam id.</div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "3. Cómo tomar Natures Plus Spiru-Tein" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "3. Cómo tomar Natures Plus Spiru-Tein" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Fusce euismod justo eget sem dignissim convallis. Nulla a massa quis leo consectetur pulvinar. Sed aliquam nisl vel purus porta, id lobortis risus ultrices. Etiam quam elit, blandit vitae sem vel, rutrum fermentum velit. Integer congue libero eget bibendum dignissim. Suspendisse a cursus dui. Phasellus a venenatis dui. Sed luctus volutpat diam at consequat. Aliquam erat volutpat.</div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "4. Posibles efectos adversos" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "4. Posibles efectos adversos" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Phasellus sed viverra lacus. Quisque iaculis massa gravida purus mattis consectetur. Praesent vestibulum porta iaculis. Nam semper massa vel interdum gravida. Donec vitae imperdiet enim, a lobortis ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sed metus ante. Aliquam ut libero mi. Pellentesque sit amet mi tempus dui euismod porta. Morbi interdum, magna vel convallis fringilla, neque ipsum tincidunt metus, quis semper elit dolor non orci. Ut sed tellus id mauris accumsan accumsan dictum ut nulla. Donec placerat lorem in enim rhoncus, vitae facilisis purus suscipit. Praesent quis diam nunc. Aenean in est luctus, hendrerit quam at, facilisis tellus. Sed efficitur lectus in libero lacinia tempus.</div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "5. CONSERVACIÓN DE Natures Plus Spiru-Tein" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "5. CONSERVACIÓN DE Natures Plus Spiru-Tein" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Morbi egestas, sem id feugiat molestie, nisi libero faucibus urna, vel fermentum metus neque sit amet tellus. Nulla id dui tempor, suscipit augue eget, malesuada quam. Duis a lacinia leo, non finibus lectus. Vivamus at finibus odio. Nullam congue hendrerit cursus. Nunc sed dolor varius, aliquet lacus ut, ornare dolor. Donec condimentum dictum ultrices.</div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "6. Contenido del envase e información adicional" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "6. Contenido del envase e información adicional" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sed posuere ipsum quis lobortis feugiat. Nullam mauris ipsum, iaculis vitae ex quis, volutpat ornare lorem. Etiam feugiat bibendum nisi, eget ultricies mauris lobortis eget. Nulla consectetur lacus congue elit volutpat, volutpat laoreet augue commodo. Praesent congue diam et massa placerat tincidunt. Vivamus egestas est eget velit efficitur fermentum. Vestibulum id metus in nibh condimentum sagittis non convallis augue. Phasellus tortor eros, vehicula pharetra tellus sagittis, pretium sagittis elit. In vulputate arcu lectus, nec tristique orci luctus vitae. Quisque imperdiet tristique justo, eget faucibus elit aliquam et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus et luctus purus. Curabitur porta scelerisque ex. Duis non libero at quam fringilla volutpat sed ornare neque. Donec vel tellus non neque efficitur efficitur.</div>"
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-naturesplus-soyprotein> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-naturesplus-soyprotein"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-naturesplus-soyprotein\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-naturesplus-soyprotein\"> </a><a name=\"hcingredient-for-naturesplus-soyprotein\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-naturesplus-soyprotein&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/R44IWB3RN5 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-b5a6ac2496348cb06663deb81c55cb37\">See above (ManufacturedItemDefinition/mid-b5a6ac2496348cb06663deb81c55cb37)</a></li><li><a href=\"#MedicinalProductDefinition_mp96d7b1b575aa8164c8c2b4cbe70f252a\">See above (MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a)</a></li><li><a href=\"#AdministrableProductDefinition_ap-b5a6ac2496348cb06663deb81c55cb37\">See above (AdministrableProductDefinition/ap-b5a6ac2496348cb06663deb81c55cb37)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>SOY PROTEIN <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#R44IWB3RN5)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "R44IWB3RN5" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-b5a6ac2496348cb06663deb81c55cb37> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-b5a6ac2496348cb06663deb81c55cb37" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-b5a6ac2496348cb06663deb81c55cb37> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-b5a6ac2496348cb06663deb81c55cb37" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072072" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "R44IWB3RN5" ] ;
+           fhir:display [ fhir:v "SOY PROTEIN" ]
+         ] )
+       ]
+     ] ;
+     fhir:strength ( [
+       fhir:basis [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleClass"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ACTIB" ] ;
+           fhir:display [ fhir:v "active ingredient - basis of strength" ]
+         ] )
+       ]
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-soyprotein> a fhir:SubstanceDefinition ;
+  fhir:id [ fhir:v "substance-soyprotein"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"SubstanceDefinition_substance-soyprotein\"> </a><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"substance-soyprotein\"> </a><a name=\"hcsubstance-soyprotein\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;substance-soyprotein&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta/</code>/R44IWB3RN5 (use: OFFICIAL)</p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>manufacturer</b>: <a href=\"#Organization_mah-0932dbba1d0482c4518be4a7c874cb91\">See above (Organization/mah-0932dbba1d0482c4518be4a7c874cb91)</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "R44IWB3RN5" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-0932dbba1d0482c4518be4a7c874cb91> ;
+     fhir:reference [ fhir:v "Organization/mah-0932dbba1d0482c4518be4a7c874cb91" ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-b5a6ac2496348cb06663deb81c55cb37> a fhir:AdministrableProductDefinition ;
+  fhir:id [ fhir:v "ap-b5a6ac2496348cb06663deb81c55cb37"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AdministrableProductDefinition_ap-b5a6ac2496348cb06663deb81c55cb37\"> </a><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"ap-b5a6ac2496348cb06663deb81c55cb37\"> </a><a name=\"hcap-b5a6ac2496348cb06663deb81c55cb37\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;ap-b5a6ac2496348cb06663deb81c55cb37&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/naturesplus-1</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_mp96d7b1b575aa8164c8c2b4cbe70f252a\">See above (MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a)</a></p><p><b>administrableDoseForm</b>: Powder for oral solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073364)</span></p><p><b>unitOfPresentation</b>: Can <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000022800)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_mid-b5a6ac2496348cb06663deb81c55cb37\">See above (ManufacturedItemDefinition/mid-b5a6ac2496348cb06663deb81c55cb37)</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073619)</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>Human <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "naturesplus-1" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:formOf ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a" ]
+  ] ) ; # 
+  fhir:administrableDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000073364" ] ;
+       fhir:display [ fhir:v "Powder for oral solution" ]
+     ] )
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000022800" ] ;
+       fhir:display [ fhir:v "Can" ]
+     ] )
+  ] ; # 
+  fhir:producedFrom ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-b5a6ac2496348cb06663deb81c55cb37> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-b5a6ac2496348cb06663deb81c55cb37" ]
+  ] ) ; # 
+  fhir:routeOfAdministration ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073619" ] ;
+         fhir:display [ fhir:v "Oral use" ]
+       ] )
+     ] ;
+     fhir:targetSpecies ( [
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000109093" ] ;
+           fhir:display [ fhir:v "Human" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationb5a6ac2496348cb06663deb81c55cb370> a fhir:RegulatedAuthorization ;
+  fhir:id [ fhir:v "authorizationb5a6ac2496348cb06663deb81c55cb370"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"RegulatedAuthorization_authorizationb5a6ac2496348cb06663deb81c55cb370\"> </a><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"authorizationb5a6ac2496348cb06663deb81c55cb370\"> </a><a name=\"hcauthorizationb5a6ac2496348cb06663deb81c55cb370\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;authorizationb5a6ac2496348cb06663deb81c55cb370&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/naturesplus-1 (use: OFFICIAL)</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_mp96d7b1b575aa8164c8c2b4cbe70f252a\">See above (MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000061)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>holder</b>: <a href=\"#Organization_mah-0932dbba1d0482c4518be4a7c874cb91\">See above (Organization/mah-0932dbba1d0482c4518be4a7c874cb91)</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "naturesplus-1" ]
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000061" ] ;
+       fhir:display [ fhir:v "Marketing Authorisation" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:holder [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-0932dbba1d0482c4518be4a7c874cb91> ;
+     fhir:reference [ fhir:v "Organization/mah-0932dbba1d0482c4518be4a7c874cb91" ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-0932dbba1d0482c4518be4a7c874cb91> a fhir:Organization ;
+  fhir:id [ fhir:v "mah-0932dbba1d0482c4518be4a7c874cb91"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_mah-0932dbba1d0482c4518be4a7c874cb91\"> </a><p><b>Generated Narrative: Organization</b><a name=\"mah-0932dbba1d0482c4518be4a7c874cb91\"> </a><a name=\"hcmah-0932dbba1d0482c4518be4a7c874cb91\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;mah-0932dbba1d0482c4518be4a7c874cb91&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/ORG-100000789 (use: OFFICIAL)</p><p><b>active</b>: true</p><p><b>type</b>: Marketing authorisation holder <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000034)</span></p><p><b>name</b>: ACME industry</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>street x and y Paris FR(WORK)</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/omswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "ORG-100000789" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000034" ] ;
+       fhir:display [ fhir:v "Marketing authorisation holder" ]
+     ] )
+  ] ) ; # 
+  fhir:name [ fhir:v "ACME industry"] ; # 
+  fhir:contact ( [
+     fhir:address [
+       fhir:use [ fhir:v "work" ] ;
+       fhir:type [ fhir:v "physical" ] ;
+       fhir:text [ fhir:v "street x and y Paris FR" ] ;
+       fhir:line ( [ fhir:v "street x and y" ] ) ;
+       fhir:city [ fhir:v "Paris" ] ;
+       fhir:country [ fhir:v "FR" ]
+     ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-2f26bab76fe91bd9c2223496b450fc96> a fhir:PackagedProductDefinition ;
+  fhir:id [ fhir:v "ppd-2f26bab76fe91bd9c2223496b450fc96"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-2f26bab76fe91bd9c2223496b450fc96\"> </a><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"ppd-2f26bab76fe91bd9c2223496b450fc96\"> </a><a name=\"hcppd-2f26bab76fe91bd9c2223496b450fc96\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;ppd-2f26bab76fe91bd9c2223496b450fc96&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/97/049/001 (use: OFFICIAL)</p><p><b>name</b>: Natures Plus Spiru-Tein nan</p><p><b>type</b>: Chemical Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_mp96d7b1b575aa8164c8c2b4cbe70f252a\">See above (MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a)</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><h3>Packagings</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td style=\"display: none\">*</td><td>Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073498)</span></td><td>1</td><td>Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/97/049/001" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Natures Plus Spiru-Tein nan"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155527" ] ;
+       fhir:display [ fhir:v "Chemical Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:packageFor ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:packaging [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073498" ] ;
+         fhir:display [ fhir:v "Box" ]
+       ] )
+     ] ;
+     fhir:quantity [ fhir:v "1"^^xsd:integer ] ;
+     fhir:material ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000003529" ] ;
+         fhir:display [ fhir:v "Cardboard" ]
+       ] )
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp96d7b1b575aa8164c8c2b4cbe70f252a> a fhir:MedicinalProductDefinition ;
+  fhir:id [ fhir:v "mp96d7b1b575aa8164c8c2b4cbe70f252a"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_mp96d7b1b575aa8164c8c2b4cbe70f252a\"> </a><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"mp96d7b1b575aa8164c8c2b4cbe70f252a\"> </a><a name=\"hcmp96d7b1b575aa8164c8c2b4cbe70f252a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;mp96d7b1b575aa8164c8c2b4cbe70f252a&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/0x81bb4f17d1ea7aabcd39383d33a4f2d6</p><p><b>type</b>: Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-medicinal-product-type.html\">Medicinal Product Type</a>#MedicinalProduct)</span></p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-medicinal-product-domain.html\">Medicinal Product Domain</a>#Human)</span></p><p><b>status</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072084)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Natures Plus Spiru-Tein</p><p><b>type</b>: Full name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000001)</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Natures Plus Spiru-Tein</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: vegetal protein</p><p><b>type</b>: Scientific name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000003)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 525 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: powder</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style=\"display: none\">*</td><td>Spain <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></td><td>Spain <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></td><td>Spanish <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-ietf3066.html\">Tags for the Identification of Languages</a>#es)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "0x81bb4f17d1ea7aabcd39383d33a4f2d6" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MedicinalProduct" ] ;
+       fhir:display [ fhir:v "Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:domain [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-domain"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Human" ] ;
+       fhir:display [ fhir:v "Human use" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:legalStatusOfSupply [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072084" ] ;
+       fhir:display [ fhir:v "Medicinal product subject to medical prescription" ]
+     ] )
+  ] ; # 
+  fhir:name ( [
+     fhir:productName [ fhir:v "Natures Plus Spiru-Tein" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "220000000001" ] ;
+         fhir:display [ fhir:v "Full name" ]
+       ] )
+     ] ;
+     fhir:part ( [
+       fhir:part [ fhir:v "Natures Plus Spiru-Tein" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000002" ] ;
+           fhir:display [ fhir:v "Invented name part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "vegetal protein" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000003" ] ;
+           fhir:display [ fhir:v "Scientific name part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "525 mg" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000004" ] ;
+           fhir:display [ fhir:v "Strength part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "powder" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000005" ] ;
+           fhir:display [ fhir:v "Pharmaceutical dose form part" ]
+         ] )
+       ]
+     ] ) ;
+     fhir:usage ( [
+       fhir:country [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ES" ] ;
+           fhir:display [ fhir:v "Spain" ]
+         ] )
+       ] ;
+       fhir:jurisdiction [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ES" ] ;
+           fhir:display [ fhir:v "Spain" ]
+         ] )
+       ] ;
+       fhir:language [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "es" ] ;
+           fhir:display [ fhir:v "Spanish" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-b5a6ac2496348cb06663deb81c55cb37> a fhir:ManufacturedItemDefinition ;
+  fhir:id [ fhir:v "mid-b5a6ac2496348cb06663deb81c55cb37"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ManufacturedItemDefinition_mid-b5a6ac2496348cb06663deb81c55cb37\"> </a><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"mid-b5a6ac2496348cb06663deb81c55cb37\"> </a><a name=\"hcmid-b5a6ac2496348cb06663deb81c55cb37\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;mid-b5a6ac2496348cb06663deb81c55cb37&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/96/007/035 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Powder for oral solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000073364)</span></p><p><b>unitOfPresentation</b>: Can <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000022800)</span></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/96/007/035" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:manufacturedDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000073364" ] ;
+       fhir:display [ fhir:v "Powder for oral solution" ]
+     ] )
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000022800" ] ;
+       fhir:display [ fhir:v "Can" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

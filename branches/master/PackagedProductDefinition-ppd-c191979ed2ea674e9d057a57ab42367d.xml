@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PackagedProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="ppd-c191979ed2ea674e9d057a57ab42367d"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="ppd-c191979ed2ea674e9d057a57ab42367d"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;ppd-c191979ed2ea674e9d057a57ab42367d&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/18/1289/001 (use: OFFICIAL)</p><p><b>name</b>: Biktarvy 50 mg/200 mg/25 mg film-coated tablets 30 (1 bottle of 30) film-coated tablets</p><p><b>type</b>: Chemical Medicinal Prodcut <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-mp5fb1761a0a38bea0a9b49f146371c68b.html">MedicinalProductDefinition/mp5fb1761a0a38bea0a9b49f146371c68b</a></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R5/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2012-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 30 {tablets}<span style="background: LightGoldenRodYellow"> (Details: UCUM code {tablets} = '{tablets}')</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: id: 654321</p><p><b>type</b>: Child-resistant closure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073504)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000003529)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://spor.ema.europa.eu/pmswi"/>
+    <value value="EU/1/18/1289/001"/>
+  </identifier>
+  <name value="Biktarvy 50 mg/200 mg/25 mg film-coated tablets 30 (1 bottle of 30) film-coated tablets"/>
+  <type>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000155527"/>
+      <display value="Chemical Medicinal Prodcut"/>
+    </coding>
+  </type>
+  <packageFor>
+    <reference value="MedicinalProductDefinition/mp5fb1761a0a38bea0a9b49f146371c68b"/>
+  </packageFor>
+  <status>
+    <coding>
+      <system value="http://hl7.org/fhir/publication-status"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </status>
+  <statusDate value="2012-02-07T13:28:17Z"/>
+  <containedItemQuantity>
+    <value value="30"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="{tablets}"/>
+  </containedItemQuantity>
+  <packaging>
+    <type>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="100000073498"/>
+        <display value="Box"/>
+      </coding>
+    </type>
+    <quantity value="1"/>
+    <material>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="200000003529"/>
+        <display value="Cardboard"/>
+      </coding>
+    </material>
+    <packaging>
+      <identifier>
+        <system value="https://spor.ema.europa.eu/pmswi"/>
+        <value value="654321"/>
+      </identifier>
+      <type>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi"/>
+          <code value="100000073504"/>
+          <display value="Child-resistant closure"/>
+        </coding>
+      </type>
+      <quantity value="1"/>
+      <material>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi"/>
+          <code value="200000003529"/>
+          <display value="Cardboard"/>
+        </coding>
+      </material>
+      <containedItem>
+        <item>
+          <reference>
+            <reference value="ManufacturedItemDefinition/mid-14ba4cb05b11f838919ef39edd3e0cdf"/>
+          </reference>
+        </item>
+      </containedItem>
+    </packaging>
+  </packaging>
+</PackagedProductDefinition>

@@ -1,0 +1,1809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI document Bundle for xenical Package Leaflet for language  - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.32"}
+    h3,h4,h5,h6{--heading-prefix:"16.32"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for xenical Package Leaflet for language </b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-en-37d610f9c96d541562699215b0864126.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-en-37d610f9c96d541562699215b0864126.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-en-37d610f9c96d541562699215b0864126.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Example Bundle: ePI document Bundle for xenical Package Leaflet for language </h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  Raw
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>B. Package Leaflet</h3>
+    <p>
+      <div xmlns="http://www.w3.org/1999/xhtml">unavailable</div></p>
+    
+      
+
+        <h4>Package leaflet: Information for the user</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Xenical 120mg hard capsules</p><p>Orlistat</p><p>Read all of this leaflet carefully before you start taking this medicine because it contains important information for you.</p><ul><li>Keep this leaflet. You may need to read it again.</li><li>If you have any further questions, please ask your doctor or your pharmacist.</li><li>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.</li><li>If you get any of the side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.</li></ul></div></p>
+
+      
+
+        <h4>What is in this leaflet</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>What is in this leaflet:</p><ol><li>What Xenical is and what it is used for</li><li>What you need to know before you take Xenical 3. How to take Xenical</li><li>Possible side effects</li><li>How to store Xenical</li><li>Contents of the pack and other information</li></ol></div></p>
+
+      
+
+        <h4>1. What Xenical 120mg hard capsules 12 capsules is and what it is used for</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Xenical is a medicine used to treat obesity. It works in your digestive system to block about one-third of the fat in the food you eat from being digested. Xenical attaches to the enzymes in your digestive system (lipases) and blocks them from breaking down some of the fat you have eaten during your meal. The undigested fat cannot be absorbed and is eliminated by your body.</p><p>Xenical is indicated in the treatment of obesity in conjunction with a low calorie intake diet.</p></div></p>
+
+      
+
+        <h4>2. What you need to know before you take Xenical 120mg hard capsules 12 capsules</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p><strong>Do not take XENICAL</strong></p><ul><li>if you are allergic (hypersensitive) to orlistat or to any of the other ingredients of Xenical,</li><li>if you have chronic malabsorption syndrome (insufficient absorption of nutrients from alimentary tract),</li><li>if you have cholestasis (liver disorder)</li><li>if you are breast-feeding</li></ul><p><strong>Warnings and precautions</strong></p><p>Weight loss may also affect the dose of medicines taken for other conditions (e.g. high cholesterol or diabetes). Be sure to discuss these and other medicines you may be taking with your doctor. Losing weight may mean you need adjustments to the dose of these medicines.</p><p>To gain the maximum benefit from Xenical you should follow the nutrition program recommended to you by your doctor. As with any weight-control program, over-consumption of fat and calories may reduce any weight loss effect.</p><p>This medicine can cause harmless changes in your bowel habits, such as fatty or oily stools, due to the elimination of undigested fat in your faeces. The possibility of this happening may increase if Xenical is taken with a diet high in fat. In addition your daily intake of fat should be distributed evenly over three main meals because if Xenical is taken with a meal very high in fat, the possibility of gastrointestinal effects may increase.</p><p>The use of an additional contraceptive method is recommended to prevent possible failure of oral contraception that could occur in case of severe diarrhoea.</p><p>The use of orlistat may be associated with renal stones in patients suffering from chronic kidney disease. Inform your doctor whether you suffer from problems with your kidney.</p><p>This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially ‘sodium-free’.</p><p><strong>Children</strong></p><p>Xenical is not intended to be used in children.</p><p><strong>Other medicines and Xenical</strong></p><p>Please inform your doctor or pharmacist if you are taking or have recently taken any other medicines, even those not prescribed.</p><p>This is important as using more than one medicine at the same time can strengthen or weaken the effects of the medicines.</p><p>Xenical may modify the activity of</p><ul><li>Anticoagulant drugs (e.g. warfarin). Your doctor may need to monitor your blood coagulation.</li><li>Ciclosporin. Co-administration with ciclosporin is not recommended. Your doctor may need to monitor your ciclosporin blood levels more frequently than usual.</li><li>Iodine salts and/or levothyroxine. Cases of hypothyroidism and/or reduced control of hypothyroidism may occur.</li><li>Amiodarone. You may ask your doctor for advice.</li><li>Medicines to treat HIV .</li><li>Medicines for depression, psychiatric disorders or anxiousness</li></ul><p>Xenical reduces the absorption of supplements of some fat soluble nutrients, particularly beta-carotene and vitamin E. You should therefore follow your doctor’s advice in taking a well balanced diet rich in fruit and vegetables. Your doctor may suggest you take a multivitamin supplement.</p><p>Orlistat may unbalance an anticonvulsant treatment, by decreasing the absorption of antiepileptic drugs, thus leading to convulsions. Please contact your doctor if you think that the frequency and/or severity of the convulsions have changed when taking Xenical together with antiepileptic drugs.</p><p>Xenical is not recommended for people taking acarbose (an anti-diabetic drug used to treat type 2 diabetes mellitus).</p><p><strong>Xenical with food and drink</strong></p><p>Xenical can be taken immediately before, during a meal or up to one hour after a meal. The capsule should be swallowed with water.</p><p><strong>Pregnancy and breast-feeding</strong> Taking Xenical during pregnancy is not recommended. You must not breast-feed your infant during treatment with Xenical as it is not known whether Xenical passes into human milk.</p><p><strong>Driving and using machines</strong> Xenical has no known effect on your ability to drive a car or operate machinery.</p></div></p>
+
+      
+
+        <h4>3. How to take Xenical 120mg hard capsules 12 capsules</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Always take Xenical exactly as your doctor has told you. You should check with your doctor or pharmacist if you are not sure. The usual dose of Xenical is one 120 mg capsule taken with each of the three main meals per day. It can be taken immediately before, during a meal or up to one hour after a meal. The capsule should be swallowed with water.</p><p>Xenical should be taken with a well-balanced, calorie controlled diet that is rich in fruit and vegetables and contains an average of 30 % of the calories from fat. Your daily intake of fat, carbohydrate and protein should be distributed over three meals. This means you will usually take one capsule at breakfast time, one capsule at lunch time and one capsule at dinner time. To gain optimal benefit, avoid the intake of food containing fat between meals, such as biscuits, chocolate and savoury snacks.</p><p>Xenical only works in the presence of dietary fat. Therefore, if you miss a main meal or if you have a meal containing no fat, Xenical need not be taken.</p><p>Tell your doctor if, for any reason, you have not taken your medicine exactly as prescribed. Otherwise, your doctor may think that it was not effective or well tolerated and may change your treatment unnecessarily.</p><p>Your doctor will discontinue the treatment with Xenical after 12 weeks if you have not lost at least 5 % of your body weight as measured at the start of treatment with Xenical.</p><p>Xenical has been studied in long-term clinical studies of up to 4 years duration.</p><p><strong>If you take more XENICAL than you should</strong></p><p>If you take more capsules than you have been told to take, or if someone else accidentally takes your medicine, contact a doctor, pharmacist or hospital as you may need medical attention.</p><p><strong>If you forget to take XENICAL</strong></p><p>If you forget to take your medicine at any time, take it as soon as you remember provided this is within one hour of your last meal, then continue to take it at the usual times. Do not take a double dose. If you have missed several doses, please inform your doctor and follow the advice given to you. Do not change the prescribed dose yourself unless your doctor tells you to.</p><p>If you have further questions on the use of this medicine, ask your doctor or pharmacist.</p></div></p>
+
+      
+
+        <h4>4. Possible side effects</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Like all medicines, Xenical can cause side effects, although not everybody gets them.</p><p>Tell your doctor or pharmacist as soon as possible if you do not feel well while you are taking Xenical.</p><p>The majority of unwanted effects related to the use of Xenical result from its local action in your digestive system. These symptoms are generally mild, occur at the beginning of treatment and are particularly experienced after meals containing high levels of fat. Normally, these symptoms disappear if you continue treatment and keep to your recommended diet. <strong>Very common side effects (affects more than 1 user in 10)</strong></p><p>Headache, abdominal pain/discomfort, urgent or increased need to open the bowels, flatulence (wind) with discharge, oily discharge, oily or fatty stools, liquid stools, low blood sugar levels (experienced by some people with type 2 diabetes).</p><p><strong>Common side effects (affects 1 to 10 users in 100)</strong></p><p>Rectal pain/discomfort, soft stools, incontinence (stools), bloating (experienced by some people with type 2 diabetes), tooth/gum disorder, irregularity of menstrual cycle, tiredness.</p><p>The following side effects have also been reported but their frequency cannot be estimated from the available data:</p><p>Allergic reactions. The main symptoms are itching, rash, wheals (slightly elevated, itchy skin patches that are paler or redder than surrounding skin), severe difficulty in breathing, nausea, vomiting and feeling unwell. Skin blistering (including blisters that burst). Diverticulitis. Bleeding from the back passage (rectum). Increases in the levels of some liver enzymes may be found in blood tests. Hepatitis (inflammation of the liver). Symptoms can include yellowing skin and eyes, itching, dark coloured urine, stomach pain and liver tenderness (indicated by pain under the front of the rib cage on your right hand side), sometimes with loss of appetite. Stop Xenical if such symptoms occur and tell your doctor. Gallstones. Pancreatitis (inflammation of the pancreas). Oxalate nephropathy (build up of calcium oxalate which may lead to kidney stones). See Chapter 2, take special care with Xenical. Effects on clotting with anti-coagulants.</p><p><strong>Reporting of side effects</strong></p><p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix V*. By reporting side effects you can help provide more information on the safety of this medicine.</p></div></p>
+
+      
+
+        <h4>5. How to store Xenical 120mg hard capsules 12 capsules</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Keep out of the sight and reach of children</p><p><strong>Blister packs</strong></p><p>Do not use Xenical after the expiry date stated on the carton.</p><p>Do not store above 25 °C.</p><p>Store in original package and keep the blister in the outer carton in order to protect from light and moisture.</p><p><strong>Glass bottles</strong></p><p>Do not use Xenical after the expiry date stated on the bottle. Do not store above 30 °C.</p><p>Keep container tightly closed in order to protect from moisture.</p><p>Medicines should not be disposed via wastewater or household waste. Ask your pharmacist how to dispose of medicines no longer required. These measures will help to protect the environment.</p></div></p>
+
+      
+
+        <h4>6. Contents of the pack and other information</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p><strong>What XENICAL contains</strong></p><ul><li>The active substance is orlistat. Each capsule contains 120 mg of orlistat.</li><li>The other ingredients are microcrystalline cellulose (E460), sodium starch glycolate (type A), povidone (E1201), sodium laurilsulfate and talc. The capsule shell consists of gelatine, indigo carmine (E132), titanium dioxide (E171) and edible printing ink.</li></ul><p><strong>What XENICAL looks like and contents of the pack</strong></p><p>Xenical capsules are turquoise with the imprint “XENICAL 120” and are supplied in blister packs and glass bottles, containing 21, 42 and 84 capsules. Not all pack sizes may be marketed.</p><p><strong>Marketing Authorisation Holder</strong> CHEPLAPHARM Arzneimittel GmbH Ziegelhof 24</p><p>17489 Greifswald</p><p>Germany</p><p><strong>Manufacturer</strong> CHEPLAPHARM Arzneimittel GmbH Bahnhofstr. 1a</p><p>17498 Mesekenhagen</p><p>Germany</p><p>or</p><p>CHEPLAPHARM Arzneimittel GmbH Ziegelhof 23-24</p><p>17489 Greifswald</p><p>Germany</p><p>This leaflet was last revised in &lt;{MM/YYYY}&gt; &lt;{month YYYY}&gt;.</p><p>Detailed information on this medicine is available on the European Medicines Agency web site: <a href="http://www.ema.europa.eu">http://www.ema.europa.eu</a></p></div></p>
+
+      
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Xenical 120mg hard capsules
+  </h4>
+
+  
+  
+    PMSWI:
+    <b>
+      EU/1/98/071/004
+    </b>
+    </br>
+  
+    PHPID:
+    <b>
+      0xF79CABF272B6A7EEF104DDDA44E82809
+    </b>
+    </br>
+  
+  <hr>
+  
+  <p>Full name: <b>Xenical 120mg hard capsules</b></p>
+  
+    <p>
+      - Invented name part:
+      <b>
+        Xenical
+      </b>
+    </p>
+  
+    <p>
+      - Scientific name part:
+      <b>
+        Orlistat
+      </b>
+    </p>
+  
+    <p>
+      - Strength part:
+      <b>
+        120mg
+      </b>
+    </p>
+  
+    <p>
+      - Pharmaceutical dose form part:
+      <b>
+        hard capsules
+      </b>
+    </p>
+  
+
+
+  
+  
+  
+    <div>
+      <p>
+        Name usage:
+        
+
+          <b>English (United Kingdom)</b>
+        </p>
+
+      
+    </div>
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b>active</b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+  <p class="divtitle">
+    <b>Marketing Authorisation</b>
+    1 of 1</p>
+
+  <p>Authorisation number:
+    <b>
+      
+        EU/1/98/071/004
+      
+    </b>
+  </p>
+
+  <p>
+    Region:
+    <b>
+      
+    </b>
+  </p>
+
+  <p>
+
+    
+  </p>
+
+  
+  
+
+    
+    
+    
+    
+
+
+    
+    
+      <p>Marketing authorisation holder:
+        <b>CHEPLAPHARM Arzneimittel GmbH</b>
+      </p>
+      <p>
+        Identifier:
+        <ul>
+          
+            <li>
+              <b>ORG-100000214</b>
+            </li>
+          
+        </ul>
+      </p>
+    
+  
+
+  <p>
+    Status:
+    <b>
+      Active (2018-06-21)
+    </b>
+  </p>
+
+</div>
+    
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 1</p>
+          
+  <p>PMSWI:
+  <b>
+    EU/1/98/071/004
+  </b>
+  </p>
+
+<p>
+  Description:
+  </br>
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+      <li>
+        <b>16 </li></b>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b>1 Box</b>
+  
+  
+    
+      <b>(Cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+
+
+  <br/>
+  <div class="container rcorners innerpack">
+    
+<p>Package:
+  <b>1 Box</b>
+  
+  
+    
+      <b>(Cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+    <b> 
+      
+    </b>
+  </p>
+  
+  
+  
+    
+    
+
+    
+      <div class="container rcorners mid listcontainer">
+  <p class="divtitle">Manufactured Item</p>
+  <p>
+    Dose form:
+    <b>
+      Capsule, hard
+    </b>
+  </p>
+  <p>
+    Unit of presentation:
+    <b>
+      Capsule, hard
+    </b>
+  </p>
+
+  
+
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              ORLISTAT
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              MICROCRYSTALLINE CELLULOSE
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              SODIUM STARCH GLYCOLATE TYPE A
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              POVIDONE, UNSPECIFIED
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              SODIUM LAURYL SULFATE
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              GELATIN, UNSPECIFIED
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              TITANIUM DIOXIDE
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+</div>
+      
+  
+
+
+
+
+
+  </div>
+
+
+
+  </div>
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+        
+        
+        
+        
+          
+        <div class="container rcorners apd listcontainer">
+  <p class="divtitle">Administrable Product (1 of 1)</p>
+  <p>
+    Dose form:
+    <b>
+      Capsule, hard
+    </b>
+  </p>
+
+  <p>
+    Unit of presentation:
+    <b>
+      Capsule, hard
+    </b>
+  </p>
+
+  <p>
+    Route of administration:
+    <ul>
+      
+        <li>
+          <b>
+            Oral use
+          </b>
+        </li>
+      
+    </ul>
+  </p>
+
+  Ingredients:
+  
+
+
+
+  
+
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              ORLISTAT
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              MICROCRYSTALLINE CELLULOSE
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              SODIUM STARCH GLYCOLATE TYPE A
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              POVIDONE, UNSPECIFIED
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              SODIUM LAURYL SULFATE
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              GELATIN, UNSPECIFIED
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              TITANIUM DIOXIDE
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+
+
+</div>
+      
+    
+  
+</div>
+
+
+<!--
+  <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Xenical 120mg hard capsules
+  </h4>
+
+  
+  
+  
+  
+    PMSWI:
+    <b>
+      EU/1/98/071/004
+    </b>
+  
+    PHPID:
+    <b>
+      0xF79CABF272B6A7EEF104DDDA44E82809
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b>active</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+
+        <p class="divtitle">Authorisation 1 of 1</p>
+        Auth id:
+        <b>
+          
+            EU/1/98/071/004
+          
+        </b>
+
+        <p>
+          Country:
+          <b>
+            
+
+          </b>
+        </p>
+        <p>
+          Type:
+          <b>
+            Marketing Authorisation
+          </b>
+        </p>
+
+        
+      </p>
+
+      
+      
+
+        
+        
+        
+        
+
+
+        
+        
+          <p>
+            Holder:
+            <b>CHEPLAPHARM Arzneimittel GmbH (ORG-100000214)</b>
+
+          </p>
+          <p></p>
+        
+      
+
+
+
+      <p>
+        Status:
+        <b>
+          Active (2018-06-21)
+        </b>
+      </p>
+
+    </div>
+
+  
+
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 1</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          PMSWI:
+          <b>
+            EU/1/98/071/004
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          active</b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+              <li>
+
+                <b>
+                  16 {capsules}</b>
+              </li>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+            <br/>
+            <div class="container rcorners pack bleft">
+              <p>Package: 1 Box [Cardboard]</p>
+
+
+              
+              
+                <br/>
+                <div class="container rcorners pack bleft">
+                  <p>Inner Package: 1 Box [Cardboard]</p>
+
+                </div>
+              </div>
+            
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+      
+
+      
+      
+      
+        
+          <div class="container bleft rcorners apd"> <p class="divtitle">Administrable Product (1 of 1)</p>
+          <p>
+            Dose form:
+            <b>
+              Capsule, hard
+            </b>
+          </p>
+
+          <p>
+            Presentation unit:
+            <b>
+              Capsule, hard
+            </b>
+          </p>
+          Route of administration:
+          <ul>
+            
+              <li>
+                <b>
+                  Oral use
+                </b>
+              </li>
+            
+          </ul>
+          Contents (Manuf. Items):
+          <ul>
+            
+            
+
+              
+
+              
+
+              
+                <div class="container   rcorners mid">
+                  <b>mid-4fab126d28f65a1084e7b50a23200363</b>
+                  <p>
+                    Dose form:
+                    <b>Capsule, hard</b>
+                  </p>
+                  <p>
+                    Presentation unit:
+                    <b>Capsule, hard</b>
+                  </p>
+                  <p>
+                    Manufactured Dose Form:
+                    <b>Capsule, hard</b>
+                  </p>
+                  Ingredients:
+                  <ul>
+                    
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-xenical-orlistat</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              ORLISTAT
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-xenical-microcrystallinecellulose</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              MICROCRYSTALLINE CELLULOSE
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-xenical-sodiumstarchglycolatetypea</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              SODIUM STARCH GLYCOLATE TYPE A
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-xenical-povidoneunspecified</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              POVIDONE, UNSPECIFIED
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-xenical-sodiumlaurylsulfate</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              SODIUM LAURYL SULFATE
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-xenical-gelatinunspecified</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              GELATIN, UNSPECIFIED
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-xenical-titaniumdioxide</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              TITANIUM DIOXIDE
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                  </ul>
+
+                </div>
+              
+            
+          </ul>
+          
+          
+            
+
+
+        </div>
+      
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Jan 21, 2024 22:55+0000">2024-01-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>[Enhanced-Alicia] ePI document for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.50"}
+    h3,h4,h5,h6{--heading-prefix:"16.50"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>[Enhanced-Alicia] ePI document for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-enhanced-bundlehypericum-alicia.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-enhanced-bundlehypericum-alicia.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-enhanced-bundlehypericum-alicia.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Example Bundle: [Enhanced-Alicia] ePI document for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+    <link href="assets/css/lenses.css" rel="stylesheet" />
+
+  
+  <b>Composition category:</b>
+  Focused
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>B. Package Leaflet</h3>
+    <p>
+      <div xmlns="http://www.w3.org/1999/xhtml">unavailable</div></p>
+    
+      
+
+        <h4>Package leaflet: Information for the user</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><div><p style="margin:0pt; text-align:center; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">PROSPECTO: INFORMACIÓN PARA EL USUARIO</span></strong></p><p style="margin:0pt; text-align:center; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">HIPÉRICO ARKOPHARMA cápsulas duras</span></strong></p><p style="margin:0pt; text-align:center; line-height:115%; font-size:11pt"><strong><em><span style="font-family:Times New Roman; font-size:11pt;">Hypericum perforatum</span></em></strong> <strong><span style="font-family:Times New Roman; font-size:11pt;">L.</span></strong></p><p style="margin:0pt; text-align:center; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">&#xa0;</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento, porque contiene información importante para usted.</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las indicadas por su farmacéutico, médico o enfermero.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">- Conserve este prospecto, ya que puede tener que volver a leerlo.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">- Si necesita consejo o más información, consulte a su farmacéutico.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">- Si experimenta efectos adversos, consulte a su médico, farmacéutico o enfermero, incluso si se trata de efectos adversos que no aparecen en este prospecto.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">- Debe consultar a un médico si empeora o si no mejora después de 28 días de tratamiento.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">&#xa0;</span></strong></p></div></div></p>
+
+      
+
+        <h4>What is in this leaflet</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Contenido del prospecto</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">&#xa0;</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">1. Qué es</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">HIPÉRICO ARKOPHARMA</span></strong> <span style="font-family:Times New Roman; font-size:11pt">y para qué se utiliza</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">2. Qué necesita saber antes de empezar a tomar</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">HIPÉRICO ARKOPHARMA</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">3. Cómo tomar</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">HIPÉRICO ARKOPHARMA</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">4. Posibles efectos adversos</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">5. Conservación de</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">HIPÉRICO ARKOPHARMA</span></strong> <span style="font-family:Times New Roman; font-size:11pt">6. Contenido del envase e información adicional.</span></p></div></p>
+
+      
+
+        <h4>1. What HIPÉRICO ARKOPHARMA cápsulas duras is and what it is used for</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><div><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Medicamento a base de plantas para el tratamiento sintomático de los estados de decaimiento que cursan con desánimo, pérdida de interés, cansancio y alteraciones del sueño.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Debe consultar a un médico si empeora o si no mejora después de 28 días.</span></p></div></div></p>
+
+      
+
+        <h4>2. What you need to know before you take HIPÉRICO ARKOPHARMA cápsulas duras</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><div><p style="margin:0pt; text-align:justify; line-height:115%; font-size:9pt"><strong><span style="font-family:Times New Roman; font-size:9pt;">&#xa0;</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">No tome HIPÉRICO ARKOPHARMA</span></strong></p><ul style="margin:0pt; padding-left:0pt"><li style="margin:0pt 0pt 0pt 21.3pt; text-indent:-18pt; text-align:justify; font-family:serif; font-size:11pt; list-style-position:inside"><span style="font:7.0pt Times New Roman">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <span style="font-family:Times New Roman; font-size:11pt">Si es menor de 18 años.</span></li><li style="margin:0pt 0pt 0pt 21.3pt; text-indent:-18pt; text-align:justify; font-family:serif; font-size:11pt; list-style-position:inside"><span style="font:7.0pt Times New Roman">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <span style="font-family:Times New Roman; font-size:11pt">Si usted está embarazada o en periodo de lactancia.</span></li><li style="margin:0pt 0pt 0pt 21.3pt; text-indent:-18pt; text-align:justify; font-family:serif; font-size:11pt; list-style-position:inside"><span style="font:7.0pt Times New Roman">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <span style="font-family:Times New Roman; font-size:11pt">Si es alérgico a</span> <em><span style="font-family:Times New Roman; font-size:11pt;">Hypericum perforatum</span></em> <span style="font-family:Times New Roman; font-size:11pt">L. o a cualquiera de los componentes del medicamento.</span></li><li style="margin:0pt 0pt 0pt 21.3pt; text-indent:-18pt; text-align:justify; font-family:serif; font-size:11pt; list-style-position:inside"><span style="font:7.0pt Times New Roman">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <span style="font-family:Times New Roman; font-size:11pt">Si va a someterse a alguna intervención quirúrgica que requiera tratamiento con otros medicamentos.</span></li><li style="margin:0pt 0pt 0pt 21.3pt; text-indent:-18pt; text-align:justify; font-family:serif; font-size:11pt; list-style-position:inside"><span style="font:7.0pt Times New Roman">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span> <span style="font-family:Times New Roman; font-size:11pt">Si usted está en tratamiento con alguno de los medicamentos indicados en este prospecto. Algunos componentes del hipérico (</span><em><span style="font-family:Times New Roman; font-size:11pt;">Hypericum perforatum</span></em> <span style="font-family:Times New Roman; font-size:11pt">L.) pueden producir interacciones farmacocinéticas con gran número de medicamentos, ocasionando un posible descenso de su efectividad; (ver la información sobre la toma de otros medicamentos).</span></li></ul><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">&#xa0;</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Advertencias y precauciones</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Consulte a su farmacéutico, médico o enfermero antes de empezar a tomar HIPÉRICO ARKOPHARMA.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si usted está tomando HIPÉRICO ARKOPHARMA, evite exposiciones intensas a los rayos UV (largas exposiciones al sol o baños de rayos UVA).</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Las mujeres que utilizan anticonceptivos orales no deben utilizar simultáneamente este medicamento porque puede producir sangrado entre los ciclos menstruales y falta de eficacia; de los medicamentos anticonceptivos.</span><a name="OLE_LINK3" id="OLE_LINK3"></a></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:9pt"><span style="font-family:Times New Roman; font-size:9pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Evite las exposiciones a radiación solar intensa o a radiación ultravioleta artificial durante la toma de; este medicamento. No se recomienda el uso de este medicamento durante tratamientos de fototerapia (tratamientos con rayos UVA) o si va a ser sometido a algún estudio de fotodiagnóstico, particularmente en personas de piel clara, ya que se podrían producir; reacciones similares a las quemaduras solares en la piel expuesta</span><span style="font-family:Times New Roman; font-size:11pt">.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si usted ha sido diagnosticado de depresión y está en tratamiento con medicamentos psicotrópicos o con antidepresivos inhibidores selectivos de la recaptación de serotonina o medicamentos del grupo de los triptanos, no debe utilizar este medicamento.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Se deberá dejar de tomar este medicamento 10 días antes de una operación quirúrgica u otra intervención clínica programada a fin de evitar interacciones potenciales con otros medicamentos, durante el uso de anestesia general o local.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Niños y adolescentes</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">No deben utilizar este medicamento los niños y adolescentes menores de 18 años.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Uso de HIPÉRICO ARKOPHARMA; con otros medicamentos</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Algunos componentes del hipérico (</span><em><span style="font-family:Times New Roman; font-size:11pt;">Hypericum perforatum</span></em> <span style="font-family:Times New Roman; font-size:11pt">L.) pueden producir una reducción de los efectos terapéuticos de otros medicamentos, cuando se toman simultáneamente con hipérico. En los tratamientos que pueden verse afectados por este medicamento se incluyen los medicamentos recomendados por su médico y también los que usted puede adquirir sin prescripción del médico.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">No deben comenzar a utilizar preparados de hipérico sin consultar antes con su médico o farmacéutico, los pacientes que estén tomando los siguientes medicamentos:</span></p><ul style="margin:0pt; padding-left:0pt"><li style="margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">para el SIDA (antirretrovirales)</span></li><li style="margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">para el rechazo de trasplantes (ciclosporina)</span></li><li style="margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">para la epilepsia</span></li><li style="margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">para el corazón (digoxina)</span></li><li style="margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">para el tratamiento del asma o bronquitis crónica (teofilina)</span></li><li style="margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">para la migraña</span></li><li style="margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">para la depresión</span></li><li style="margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">anticoagulantes orales</span></li><li style="margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">anticonceptivos orales</span></li></ul><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Para mayor información, consulte la siguiente lista:</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">No tome este medicamento si usted está en tratamiento con cualquier medicamento de los indicados en este listado:</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">•Agonistas 5HT (Triptanes):</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como almotriptan, eleptriptan, frovatriptan, naratriptan, rizatriptan, sumatriptan, zolmitriptan;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Analgésicos:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como tramadol;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Anestésicos/ medicamentos para la preparación de una intervención quirúrgica</span></strong><span style="font-family:Times New Roman; font-size:11pt">: tales como fentanilo, propofol, midazolam, sevoflurano;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Ansiolíticos</span></strong><span style="font-family:Times New Roman; font-size:11pt">: tales como buspirona;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Antagonistas hormonales:</span></strong><span style="font-family:Times New Roman; font-size:11pt">; tales como exemestano;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Antianginosos:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como ivabradina;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Antiarrítmicos</span></strong><span style="font-family:Times New Roman; font-size:11pt">: tales como amiodarona;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">Antibacterianos</span></strong><span style="font-family:Times New Roman; font-size:11pt">: tales como eritromicina, claritromicina, telitromicina;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Anticoagulantes:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como warfarina, acenocumarol;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Anticonceptivos Hormonales:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">anticonceptivos orales, anticonceptivos hormonales de emergencia (Píldora del día después), implantes e inyecciones hormonales, parches transdérmicos, dispositivos intrauterinos con hormonas;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Anticonvulsivantes (Antiepilépticos):</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como carbamazepina, fenobarbital, fenitoína, primidona, valproato sódico;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Antidepresivos Tricíclicos</span></strong><span style="font-family:Times New Roman; font-size:11pt">: tales como amitriptilina, clomipramina;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">IMAO:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como moclobemida;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">ISRS</span></strong> <span style="font-family:Times New Roman; font-size:11pt">(inhibidores selectivos de la recaptación de serotonina) tales como citalopram, fluoxetina, fluvoxamina, paroxetina, sertralina;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">Otros antidepresivos</span></strong> <span style="font-family:Times New Roman; font-size:11pt">como duloxetina, venlafaxina;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Antifúngicos:</span></strong><span style="font-family:Times New Roman; font-size:11pt">; tales como itraconazol, voriconazol;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Antimaláricos:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como lumefantrina;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Antiparkinsonianos:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como rasagilina;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Antisicóticos:</span></strong><span style="font-family:Times New Roman; font-size:11pt">; tales como aripiprazol;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Todos los Antivirales:</span></strong><span style="font-family:Times New Roman; font-size:11pt">; tales como</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">Inhibidores de Proteasa</span></strong> <span style="font-family:Times New Roman; font-size:11pt">(amprenavir, atazanavir, darunavir, fosamprenavir indinavir, lopinavir, nelfinavir, ritonavir, saquinavir, tipranavir);</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">Inhibidores de transcriptasa inversa no nucleósidos</span></strong> <span style="font-family:Times New Roman; font-size:11pt">(efavirenz, nevirapina, delavirdina);</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Aprepitant</span></strong> <strong><span style="font-family:Times New Roman; font-size:11pt;">(</span></strong><span style="font-family:Times New Roman; font-size:11pt">se utiliza para evitar vómitos, tras un tratamiento con quimioterapia);</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Barbituratos</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como butobarbital, fenobarbital;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Bloqueadores de los canales del Calcio:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como amlodipina, nifedipina, verapamilo, felodipina;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Citotóxicos:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">como irinotecan, dasatinib, erlotinib, imatinib, sorafenib, sunitinib, etoposido, mitotano;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Diuréticos:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como eplerenona;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Estimulantes de SNC:</span></strong><span style="font-family:Times New Roman; font-size:11pt">; tales como metilfenidato;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Glucósidos cardiacos:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como digoxina;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Hipoglucemiantes orales</span></strong> <span style="font-family:Times New Roman; font-size:11pt">(antidiabéticos orales): tales como gliclazida;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Hipolipemiantes:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como; simvastatina, atorvastatina;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Hormonas tiroideas:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">todos los medicamentos de esta clase incluido Tiroxina;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Inhibidores de la bomba de protones:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como lansoprazol, omeprazol;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Inmunosupresores:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como ciclosporina, tacrolimus;</span> <strong><span style="font-family:Times New Roman; font-size:11pt;">•Litio; •Teofilina; •Terapia hormonal de remplazo:</span></strong> <span style="font-family:Times New Roman; font-size:11pt">tales como los parches, geles, anillo vaginal)</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">En caso de tratamiento concomitante de HIPÉRICO ARKOPHARMA con medicamentos anticoagulantes (como fenprocumona, warfarina, clopidogrel, ácido acetilsalicílico y otros antireumáticos no esteroideos) no puede excluirse que el efecto de estas preparaciones se vea aumentado</span><span style="font-family:Times New Roman; font-size:9pt">.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:9pt"><span style="font-family:Times New Roman; font-size:9pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">No puede excluirse que HIPÉRICO ARKOPHARMA actúe sobre la metabolización de otros medicamentos lo que puede afectar a la potencia y/o duración del efecto de los medicamentos a los que se refiere. Por esta razón, consulte con su médico o farmacéutico antes de tomar HIPÉRICO ARKOPHARMA con otros tratamientos.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Informe a su médico o farmacéutico si está tomando o ha tomado recientemente cualquier otro medicamento, incluso los adquiridos sin receta médica.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Informe también a su médico o farmacéutico sobre cualquier sospecha de cambio en los efectos de los medicamentos que está tomando a la vez que HIPÉRICO ARKOPHARMA.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Toma de HIPÉRICO ARKOPHARMA con los alimentos y bebidas</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Los alimentos y las bebidas no tienen influencia sobre el efecto del medicamento.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Embarazo, lactancia y fertilidad</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si está embarazada o en periodo de lactancia, cree que pudiera estar embarazada o tiene intención de quedarse embarazada, consulte a su farmacéutico o médico antes de utilizar este medicamento. No se recomienda su administración en estas circunstancias.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Conducción y uso de máquinas</span></strong></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">No se han realizado estudios sobre la capacidad de conducir y el uso de máquinas</span><span style="font-family:Times New Roman; font-size:9pt">.</span></p></div></div></p>
+
+      
+
+        <h4>3. How to take HIPÉRICO ARKOPHARMA cápsulas duras</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><div><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las indicadas por su farmacéutico, médico o enfermero. En caso de duda, pregunte a su farmacéutico, médico o enfermero.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">La dosis recomendada es:</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Adultos: tomar 2 cápsulas, 2 ó 3 veces al día con un vaso de agua.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Es aconsejable que las tomas se realicen siempre a las mismas horas.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Este medicamento se utiliza vía oral.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">La duración de tratamiento es de 6 semanas.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">El efecto del medicamento aparece generalmente a las 4 semanas. Si los síntomas persisten, debería consultar con un profesional sanitario.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Una vez abierto el envase, se retirará la bolsita absorbente que no es apta para consumo humano y no debe ser ingerida.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Uso en niños y adolescentes</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">No utilizar en niños y adolescentes menores de 18 años</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Si toma más HIPÉRICO ARKOPHARMA del que debe</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si se ha tomado una dosis excesiva de HIPÉRICO ARKOPHARMA pueden aparecer convulsiones o estado de confusión.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">En caso de la toma de una dosis excesiva de hipérico, se debe proteger de las radiaciones solares o de cualquier otra fuente de rayos UV durante 1-2 semanas.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">En caso de sobredosis o ingestión accidental, consulte inmediatamente a su farmacéutico o médico o llame al Servicio de Información Toxicológica, teléfono 91 562 04 20, indicando el producto y la cantidad ingerida.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Si olvidó tomar HIPÉRICO ARKOPHARMA</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">En caso de olvido de una dosis, tome el medicamento lo antes posible continuando el tratamiento de la forma prescrita. Sin embargo, si está próxima la siguiente dosis, es mejor que no tome la dosis olvidada y espere a la siguiente. En ningún caso tome una dosis doble para compensar la dosis olvidada</span><span style="font-family:Times New Roman; font-size:9pt">.</span></p></div></div></p>
+
+      
+
+        <h4>4. Possible side effects</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><div><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">En casos raros, con una frecuencia que afecta a menos de un caso por cada 1000 pacientes, se han descrito problemas digestivos tales como náusea, dolor abdominal, diarrea, pérdida de apetito; o reacciones en la piel como picor, irritación, enrojecimiento (urticaria) y muy raramente podrían ocurrir reacciones similares a las quemaduras solares, en la piel expuesta a radiación solar o artificial intensa.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">También se ha descrito dolor de cabeza, neuropatía, ansiedad, mareo, fatiga, manía o alergias, para los que se desconoce la frecuencia de aparición.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Comunicación de reacciones adversas</span></strong><span style="font-family:Times New Roman; font-size:11pt">:</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano:</span> <a href="https://www.notificaram.es"><span style="font-family:Times New Roman; font-size:11pt; color:#0000ff">https://www.notificaram.es</span></a><span style="font-family:Times New Roman; font-size:11pt">. Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:9pt"><span style="font-family:Times New Roman; font-size:9pt">&#xa0;</span></p></div></div></p>
+
+      
+
+        <h4>5. How to store HIPÉRICO ARKOPHARMA cápsulas duras</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><div><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Mantener este medicamento fuera de la vista y del alcance de los niños.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">No conservar a temperatura superior a 25ºC.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Una vez abierto, desechar después de 21 días.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">No utilice HIPÉRICO ARKOPHARMA después de la fecha de caducidad que aparece en el envase, después de la abreviatura “CAD”. La fecha de caducidad es el último día del mes que se indica.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesite en el Punto SIGRE</span> <span style="font-family:Times New Roman; font-size:11pt">de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma, ayudará a proteger el medio ambiente</span><span style="font-family:Times New Roman; font-size:9pt">.</span></p></div></div></p>
+
+      
+
+        <h4>6. Contents of the pack and other information</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><div><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Composici&#243;n de HIP&#201;RICO ARKOPHARMA</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Cada c&#225;psula contiene como principio activo:</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">175 mg de extracto seco hidroalcoh&#243;lico de</span> <em><span style="font-family:Times New Roman; font-size:11pt;">Hypericum perforatum</span></em> <span style="font-family:Times New Roman; font-size:11pt">L. herba (sumidades floridas de hip&#233;rico) (3.5-6:1) que corresponden a: 0,27 mg a 0,46mg de hipericinas totales, &#8805; 10,5 mg de flavonoides y 2,71 mg a 4,63 mg de hiperforina.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Disolvente de extracci&#243;n: etanol 60% m/m</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Los dem&#225;s componentes son los excipientes: celulosa microcristalina, estearato de magnesio, s&#237;lice coloidalhidr&#243;foba y maltodextrina.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Composici&#243;n de la</span> <span style="font-family:Times New Roman; font-size:11pt">c&#225;psula: hipromelosa, di&#243;xido de titanio y &#243;xido de hierro amarillo.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Aspecto del producto y contenido del envase</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Existe 1 presentaci&#243;n en frascos que contienen 42 c&#225;psulas, con una bolsita absorbente en su interior.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Una vez abierto el envase, se retirar&#225; la bolsita absorbente que no es apta para consumo humano y no debe ser ingerida.</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">&#xa0;</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Titular de la autorizaci&#243;n de comercializaci&#243;n y responsable de la fabricaci&#243;n:</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">&#xa0;</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Titular</span></strong></p><p style="margin:0pt; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Arkopharma LABORATORIOS, S.A.U,</span></strong></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">C/ Amaltea, 9</span></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">28045 MADRID</span></p><p style="margin:0pt; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">&#xa0;</span></strong></p><p style="margin:0pt; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Responsable de la fabricaci&#243;n</span></strong></p><p style="margin:0pt; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">ARKOPHARMA</span></strong></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">LABORATOIRES PHARMACEUTIQUES</span></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">BP 28 &#8211; 06511 CARROS Cedex - FRANCE</span></p><p style="margin:0pt; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">&#xa0;</span></strong></p><p style="margin:0pt; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Fecha de la &#250;ltima revisi&#243;n de este prospecto: septiembre 2016</span></strong></p><p style="margin:0pt; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">&#xa0;</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">La informaci&#243;n detallada y actualizada de este medicamento est&#225; disponible en la p&#225;gina web de la Agencia Espa&#241;ola de Medicamentos y Productos Sanitarios (AEMPS)</span> <a href="http://www.aemps.gob.es/"><span style="font-family:Times New Roman; font-size:11pt; color:#0000ff">http://www.aemps.gob.es/</span></a></p></div></div></p>
+
+      
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    HIPÉRICO ARKOPHARMA cápsulas duras
+  </h4>
+
+  
+  
+    PMSWI:
+    <b>
+      79963
+    </b>
+    </br>
+  
+  <hr>
+  
+  <p>Full name: <b>HIPÉRICO ARKOPHARMA cápsulas duras</b></p>
+  
+    <p>
+      - Invented name part:
+      <b>
+        HIPÉRICO ARKOPHARMA
+      </b>
+    </p>
+  
+    <p>
+      - Scientific name part:
+      <b>
+        Hypericum perforatum L.
+      </b>
+    </p>
+  
+    <p>
+      - Strength part:
+      <b>
+        175 mg
+      </b>
+    </p>
+  
+    <p>
+      - Pharmaceutical dose form part:
+      <b>
+        hard capsules
+      </b>
+    </p>
+  
+
+
+  
+  
+  
+    <div>
+      <p>
+        Name usage:
+        
+
+          <b>English ()</b>
+        </p>
+
+      
+    </div>
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b>active</b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+  <p class="divtitle">
+    <b>Marketing Authorisation</b>
+    1 of 1</p>
+
+  <p>Authorisation number:
+    <b>
+      
+        79963
+      
+    </b>
+  </p>
+
+  <p>
+    Region:
+    <b>
+      
+    </b>
+  </p>
+
+  <p>
+
+    
+  </p>
+
+  
+  
+
+    
+    
+    
+    
+
+
+    
+    
+      <p>Marketing authorisation holder:
+        <b>Arkopharma LABORATORIOS, S.A.U,</b>
+      </p>
+      <p>
+        Identifier:
+        <ul>
+          
+            <li>
+              <b>xx</b>
+            </li>
+          
+        </ul>
+      </p>
+    
+  
+
+  <p>
+    Status:
+    <b>
+      Active (2015-01-01)
+    </b>
+  </p>
+
+</div>
+    
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 1</p>
+          
+  <p>PMSWI:
+  <b>
+    x
+  </b>
+  </p>
+
+<p>
+  Description:
+  </br>
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+      <li>
+        <b>175 </li></b>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b>1 Box</b>
+  
+  
+    
+      <b>(Cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+
+
+  <br/>
+  <div class="container rcorners innerpack">
+    
+<p>Package:
+  <b>30 Blister</b>
+  
+  
+    
+      <b>(cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+    <b> 
+      
+    </b>
+  </p>
+  
+  
+  
+    
+    
+
+    
+      <div class="container rcorners mid listcontainer">
+  <p class="divtitle">Manufactured Item</p>
+  <p>
+    Dose form:
+    <b>
+      hard capsules
+    </b>
+  </p>
+  <p>
+    Unit of presentation:
+    <b>
+      hard capsules
+    </b>
+  </p>
+
+  
+
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Hypericum perforatum L.
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              microcrystalline cellulose
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              magnesium stearate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              colloidal hydrophobic silica
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              maltodextrin
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+</div>
+      
+  
+
+
+
+
+
+  </div>
+
+
+
+  </div>
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+        
+        
+        
+        
+          
+        <div class="container rcorners apd listcontainer">
+  <p class="divtitle">Administrable Product (1 of 1)</p>
+  <p>
+    Dose form:
+    <b>
+      Hard capsules
+    </b>
+  </p>
+
+  <p>
+    Unit of presentation:
+    <b>
+      hard capsule
+    </b>
+  </p>
+
+  <p>
+    Route of administration:
+    <ul>
+      
+        <li>
+          <b>
+            Oral use
+          </b>
+        </li>
+      
+    </ul>
+  </p>
+
+  Ingredients:
+  
+
+
+
+  
+
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Hypericum perforatum L.
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              microcrystalline cellulose
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              magnesium stearate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              colloidal hydrophobic silica
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              maltodextrin
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+
+
+</div>
+      
+    
+  
+</div>
+
+
+<!--
+  <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    HIPÉRICO ARKOPHARMA cápsulas duras
+  </h4>
+
+  
+  
+  
+  
+    PMSWI:
+    <b>
+      79963
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b>active</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+
+        <p class="divtitle">Authorisation 1 of 1</p>
+        Auth id:
+        <b>
+          
+            79963
+          
+        </b>
+
+        <p>
+          Country:
+          <b>
+            
+
+          </b>
+        </p>
+        <p>
+          Type:
+          <b>
+            Marketing Authorisation
+          </b>
+        </p>
+
+        
+      </p>
+
+      
+      
+
+        
+        
+        
+        
+
+
+        
+        
+          <p>
+            Holder:
+            <b>Arkopharma LABORATORIOS, S.A.U, (xx)</b>
+
+          </p>
+          <p></p>
+        
+      
+
+
+
+      <p>
+        Status:
+        <b>
+          Active (2015-01-01)
+        </b>
+      </p>
+
+    </div>
+
+  
+
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 1</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          PMSWI:
+          <b>
+            x
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          active</b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+              <li>
+
+                <b>
+                  175 mg</b>
+              </li>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+            <br/>
+            <div class="container rcorners pack bleft">
+              <p>Package: 1 Box [Cardboard]</p>
+
+
+              
+              
+                <br/>
+                <div class="container rcorners pack bleft">
+                  <p>Inner Package: 30 Blister [cardboard]</p>
+
+                </div>
+              </div>
+            
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+      
+
+      
+      
+      
+        
+          <div class="container bleft rcorners apd"> <p class="divtitle">Administrable Product (1 of 1)</p>
+          <p>
+            Dose form:
+            <b>
+              Hard capsules
+            </b>
+          </p>
+
+          <p>
+            Presentation unit:
+            <b>
+              hard capsule
+            </b>
+          </p>
+          Route of administration:
+          <ul>
+            
+              <li>
+                <b>
+                  Oral use
+                </b>
+              </li>
+            
+          </ul>
+          Contents (Manuf. Items):
+          <ul>
+            
+            
+
+              
+
+              
+
+              
+                <div class="container   rcorners mid">
+                  <b>mid-29436a85dac3ea374adb3fa64cfd2578</b>
+                  <p>
+                    Dose form:
+                    <b>hard capsules</b>
+                  </p>
+                  <p>
+                    Presentation unit:
+                    <b>hard capsules</b>
+                  </p>
+                  <p>
+                    Manufactured Dose Form:
+                    <b>hard capsules</b>
+                  </p>
+                  Ingredients:
+                  <ul>
+                    
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-hipericoarkopharma-hypericumperforatuml</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Hypericum perforatum L.
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-hipericoarkopharma-microcrystallinecellulose</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              microcrystalline cellulose
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-hipericoarkopharma-magnesiumstearate</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              magnesium stearate
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-hipericoarkopharma-colloidalhydrophobicsilica</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              colloidal hydrophobic silica
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-hipericoarkopharma-maltodextrin</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              maltodextrin
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                  </ul>
+
+                </div>
+              
+            
+          </ul>
+          
+          
+            
+
+
+        </div>
+      
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Jan 21, 2024 22:55+0000">2024-01-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

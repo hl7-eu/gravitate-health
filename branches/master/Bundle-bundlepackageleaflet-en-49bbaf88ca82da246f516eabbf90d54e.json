@@ -1,0 +1,713 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "bundlepackageleaflet-en-49bbaf88ca82da246f516eabbf90d54e",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"]
+  },
+  "language" : "en",
+  "identifier" : {
+    "system" : "https://www.gravitatehealth.eu/sid/doc",
+    "value" : "acmedrug-xx"
+  },
+  "type" : "document",
+  "timestamp" : "2023-06-27T10:09:22Z",
+  "entry" : [{
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-d88eaaff32ec133d89ec679da88bae62",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "composition-en-d88eaaff32ec133d89ec679da88bae62",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p><b>Generated Narrative: Composition</b><a name=\"composition-en-d88eaaff32ec133d89ec679da88bae62\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;composition-en-d88eaaff32ec133d89ec679da88bae62&quot;  (Language &quot;en&quot;) </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a059182720471b60257cf6421af6ea18c3</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000155538)</span></p><p><b>category</b>: Raw <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-epicategory-cs.html\">Category of EPI</a>#R)</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href=\"#Organization_mah-55692ec414f31dec233d83cfa4fdb9f9\">See above (Organization/mah-55692ec414f31dec233d83cfa4fdb9f9)</a></p><p><b>title</b>: TEST PURPOSES ONLY - Aquilea</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td>Official <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html\">Composition Attestation Mode</a>#official)</span></td><td>2022-02-16 13:28:17+0000</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi/",
+        "value" : "59182720471b60257cf6421af6ea18c3"
+      }],
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000155538"
+        }],
+        "text" : "Package Leaflet"
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs",
+          "code" : "R",
+          "display" : "Raw"
+        }]
+      }],
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d"
+      }],
+      "date" : "2022-02-16T13:28:17Z",
+      "author" : [{
+        "reference" : "Organization/mah-55692ec414f31dec233d83cfa4fdb9f9"
+      }],
+      "title" : "TEST PURPOSES ONLY - Aquilea",
+      "attester" : [{
+        "mode" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/composition-attestation-mode",
+            "code" : "official"
+          }]
+        },
+        "time" : "2022-02-16T13:28:17Z"
+      }],
+      "section" : [{
+        "title" : "B. Package Leaflet",
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi/",
+            "code" : "100000155538"
+          }],
+          "text" : "B. PACKAGE LEAFLET"
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">This product is a OTC, epi pending</div>"
+        },
+        "section" : [{
+          "title" : "Package leaflet: Information for the user",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "Package leaflet: Information for the user"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        },
+        {
+          "title" : "What is in this leaflet",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "What is in this leaflet"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam eros sollicitudin erat pellentesque semper. In tincidunt hendrerit scelerisque. Donec a venenatis eros, a dignissim augue. Nullam rhoncus pulvinar risus eu auctor. Proin non dui est. Pellentesque eleifend, est ac eleifend feugiat, nulla nibh vestibulum mi, ut hendrerit erat nunc volutpat tortor. Aenean dignissim orci ac pretium egestas. Phasellus vel fringilla velit. Nunc sed augue egestas, accumsan justo quis, malesuada massa. Donec nisl sem, fermentum ac lacus vel, ornare eleifend turpis. Curabitur ut feugiat neque, at faucibus ligula. Suspendisse in tristique sem. Aenean posuere, justo vitae vulputate elementum, mi risus sodales lectus, vitae laoreet sem lacus sit amet nisi. Phasellus porta nunc sed tortor ultricies, non sagittis quam venenatis. Nulla sit amet augue odio.</div>"
+          }
+        },
+        {
+          "title" : "1. What Aquilea is and what it is used for",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "1. What Aquilea is and what it is used for"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Quisque posuere elit nec auctor imperdiet. Morbi id tortor nec odio molestie maximus. Phasellus id placerat velit. In ex enim, ultricies at maximus sit amet, luctus sit amet magna. Quisque in laoreet ligula, venenatis ultricies lectus. Quisque eleifend felis sed nulla consequat, eu tincidunt nisi gravida. Duis et lacinia ex. Aliquam pharetra vel metus at scelerisque. Integer ultricies dolor vestibulum nibh lacinia mollis. Ut tempor congue nulla eget molestie.</div>"
+          }
+        },
+        {
+          "title" : "2. What you need to know before you take Aquilea",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "2. What you need to know before you take Aquilea"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Nunc velit ante, aliquet sed commodo ut, dictum eget lectus. Duis eu nulla ac dui pellentesque sodales. Curabitur pellentesque dolor metus, ut mollis est posuere sit amet. Praesent sagittis ligula vel est auctor congue. Duis varius ligula et faucibus porttitor. Ut placerat aliquet turpis, eget condimentum nibh porttitor ut. Morbi libero nisl, ullamcorper sit amet est a, dignissim rhoncus ante. Fusce suscipit enim et scelerisque vehicula. Suspendisse eu nulla porta, pharetra dolor et, blandit eros. Ut iaculis metus id purus scelerisque dignissim. Vivamus convallis placerat ex sit amet gravida. Nullam sed orci elit. Pellentesque tincidunt odio lacus, sit amet facilisis quam aliquam id.</div>"
+          }
+        },
+        {
+          "title" : "3. How to take Aquilea",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "3. How to take Aquilea"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Fusce euismod justo eget sem dignissim convallis. Nulla a massa quis leo consectetur pulvinar. Sed aliquam nisl vel purus porta, id lobortis risus ultrices. Etiam quam elit, blandit vitae sem vel, rutrum fermentum velit. Integer congue libero eget bibendum dignissim. Suspendisse a cursus dui. Phasellus a venenatis dui. Sed luctus volutpat diam at consequat. Aliquam erat volutpat.</div>"
+          }
+        },
+        {
+          "title" : "4. Possible side effects",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "4. Possible side effects"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Phasellus sed viverra lacus. Quisque iaculis massa gravida purus mattis consectetur. Praesent vestibulum porta iaculis. Nam semper massa vel interdum gravida. Donec vitae imperdiet enim, a lobortis ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sed metus ante. Aliquam ut libero mi. Pellentesque sit amet mi tempus dui euismod porta. Morbi interdum, magna vel convallis fringilla, neque ipsum tincidunt metus, quis semper elit dolor non orci. Ut sed tellus id mauris accumsan accumsan dictum ut nulla. Donec placerat lorem in enim rhoncus, vitae facilisis purus suscipit. Praesent quis diam nunc. Aenean in est luctus, hendrerit quam at, facilisis tellus. Sed efficitur lectus in libero lacinia tempus.</div>"
+          }
+        },
+        {
+          "title" : "5. How to store Aquilea",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "5. How to store Aquilea"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Morbi egestas, sem id feugiat molestie, nisi libero faucibus urna, vel fermentum metus neque sit amet tellus. Nulla id dui tempor, suscipit augue eget, malesuada quam. Duis a lacinia leo, non finibus lectus. Vivamus at finibus odio. Nullam congue hendrerit cursus. Nunc sed dolor varius, aliquet lacus ut, ornare dolor. Donec condimentum dictum ultrices.</div>"
+          }
+        },
+        {
+          "title" : "6. Contents of the pack and other information",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "6. Contents of the pack and other information"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sed posuere ipsum quis lobortis feugiat. Nullam mauris ipsum, iaculis vitae ex quis, volutpat ornare lorem. Etiam feugiat bibendum nisi, eget ultricies mauris lobortis eget. Nulla consectetur lacus congue elit volutpat, volutpat laoreet augue commodo. Praesent congue diam et massa placerat tincidunt. Vivamus egestas est eget velit efficitur fermentum. Vestibulum id metus in nibh condimentum sagittis non convallis augue. Phasellus tortor eros, vehicula pharetra tellus sagittis, pretium sagittis elit. In vulputate arcu lectus, nec tristique orci luctus vitae. Quisque imperdiet tristique justo, eget faucibus elit aliquam et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus et luctus purus. Curabitur porta scelerisque ex. Duis non libero at quam fringilla volutpat sed ornare neque. Donec vel tellus non neque efficitur efficitur.</div>"
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-aquilea-magnesium",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-aquilea-magnesium",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-aquilea-magnesium\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-aquilea-magnesium&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0I38ZP9992A\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-af1953635c28668e0d454e0740fcb36f\">See above (ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f)</a></li><li><a href=\"#MedicinalProductDefinition_mp3b8585822d27945de47423af5de9824d\">See above (MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d)</a></li><li><a href=\"#AdministrableProductDefinition_ap-af1953635c28668e0d454e0740fcb36f\">See above (AdministrableProductDefinition/ap-af1953635c28668e0d454e0740fcb36f)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>magnesium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#I38ZP9992A)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "I38ZP9992A"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-af1953635c28668e0d454e0740fcb36f"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072072",
+          "display" : "Active"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "I38ZP9992A",
+              "display" : "magnesium"
+            }]
+          }
+        },
+        "strength" : [{
+          "basis" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+              "code" : "ACTIB",
+              "display" : "active ingredient - basis of strength"
+            }]
+          }
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-aquilea-humantypeicollagen",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-aquilea-humantypeicollagen",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-aquilea-humantypeicollagen\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-aquilea-humantypeicollagen&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0PT3TGI7OIP\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-af1953635c28668e0d454e0740fcb36f\">See above (ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f)</a></li><li><a href=\"#MedicinalProductDefinition_mp3b8585822d27945de47423af5de9824d\">See above (MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d)</a></li><li><a href=\"#AdministrableProductDefinition_ap-af1953635c28668e0d454e0740fcb36f\">See above (AdministrableProductDefinition/ap-af1953635c28668e0d454e0740fcb36f)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>HUMAN TYPE I COLLAGEN <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#PT3TGI7OIP)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "PT3TGI7OIP"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-af1953635c28668e0d454e0740fcb36f"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072072",
+          "display" : "Active"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "PT3TGI7OIP",
+              "display" : "HUMAN TYPE I COLLAGEN"
+            }]
+          }
+        },
+        "strength" : [{
+          "basis" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+              "code" : "ACTIB",
+              "display" : "active ingredient - basis of strength"
+            }]
+          }
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-magnesium",
+    "resource" : {
+      "resourceType" : "SubstanceDefinition",
+      "id" : "substance-magnesium",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"substance-magnesium\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;substance-magnesium&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0I38ZP9992A\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>manufacturer</b>: <a href=\"#Organization_mah-55692ec414f31dec233d83cfa4fdb9f9\">See above (Organization/mah-55692ec414f31dec233d83cfa4fdb9f9)</a></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+        "value" : "I38ZP9992A"
+      }],
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active"
+        }]
+      },
+      "manufacturer" : [{
+        "reference" : "Organization/mah-55692ec414f31dec233d83cfa4fdb9f9"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-af1953635c28668e0d454e0740fcb36f",
+    "resource" : {
+      "resourceType" : "AdministrableProductDefinition",
+      "id" : "ap-af1953635c28668e0d454e0740fcb36f",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"ap-af1953635c28668e0d454e0740fcb36f\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;ap-af1953635c28668e0d454e0740fcb36f&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0id</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_mp3b8585822d27945de47423af5de9824d\">See above (MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d)</a></p><p><b>administrableDoseForm</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073664)</span></p><p><b>unitOfPresentation</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002152)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_mid-af1953635c28668e0d454e0740fcb36f\">See above (ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f)</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073619)</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>Human <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "id"
+      }],
+      "status" : "active",
+      "formOf" : [{
+        "reference" : "MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d"
+      }],
+      "administrableDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000073664",
+          "display" : "Tablet"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002152",
+          "display" : "Tablet"
+        }]
+      },
+      "producedFrom" : [{
+        "reference" : "ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f"
+      }],
+      "routeOfAdministration" : [{
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073619",
+            "display" : "Oral use"
+          }]
+        },
+        "targetSpecies" : [{
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000109093",
+              "display" : "Human"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization49bbaf88ca82da246f516eabbf90d54e",
+    "resource" : {
+      "resourceType" : "RegulatedAuthorization",
+      "id" : "authorization49bbaf88ca82da246f516eabbf90d54e",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"authorization49bbaf88ca82da246f516eabbf90d54e\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;authorization49bbaf88ca82da246f516eabbf90d54e&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0aquilea-1\u00a0(use:\u00a0OFFICIAL)</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_mp3b8585822d27945de47423af5de9824d\">See above (MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000061)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>holder</b>: <a href=\"#Organization_mah-55692ec414f31dec233d83cfa4fdb9f9\">See above (Organization/mah-55692ec414f31dec233d83cfa4fdb9f9)</a></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "aquilea-1"
+      }],
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000061",
+          "display" : "Marketing Authorisation"
+        }]
+      },
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2015-02-07T13:28:17Z",
+      "holder" : {
+        "reference" : "Organization/mah-55692ec414f31dec233d83cfa4fdb9f9"
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-55692ec414f31dec233d83cfa4fdb9f9",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "mah-55692ec414f31dec233d83cfa4fdb9f9",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"mah-55692ec414f31dec233d83cfa4fdb9f9\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;mah-55692ec414f31dec233d83cfa4fdb9f9&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0ORG-100000789\u00a0(use:\u00a0OFFICIAL)</p><p><b>active</b>: true</p><p><b>type</b>: Marketing authorisation holder <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000034)</span></p><p><b>name</b>: ACME industry</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>street x and y Paris FR(WORK)</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/omswi",
+        "value" : "ORG-100000789"
+      }],
+      "active" : true,
+      "type" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000034",
+          "display" : "Marketing authorisation holder"
+        }]
+      }],
+      "name" : "ACME industry",
+      "contact" : [{
+        "address" : {
+          "use" : "work",
+          "type" : "physical",
+          "text" : "street x and y Paris FR",
+          "line" : ["street x and y"],
+          "city" : "Paris",
+          "country" : "FR"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-af1953635c28668e0d454e0740fcb36f",
+    "resource" : {
+      "resourceType" : "PackagedProductDefinition",
+      "id" : "ppd-af1953635c28668e0d454e0740fcb36f",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"ppd-af1953635c28668e0d454e0740fcb36f\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;ppd-af1953635c28668e0d454e0740fcb36f&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0EU/1/97/049/001\u00a0(use:\u00a0OFFICIAL)</p><p><b>name</b>: Aquilea Articulaciones Colageno y Magnesio 375gr</p><p><b>type</b>: Chemical Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_mp3b8585822d27945de47423af5de9824d\">See above (MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d)</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 75 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: id:\u00a0123456</p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073496)</span></p><p><b>quantity</b>: 28</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003222)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "EU/1/97/049/001"
+      }],
+      "name" : "Aquilea Articulaciones Colageno y Magnesio 375gr",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000155527",
+          "display" : "Chemical Medicinal Product"
+        }]
+      },
+      "packageFor" : [{
+        "reference" : "MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d"
+      }],
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2015-02-07T13:28:17Z",
+      "containedItemQuantity" : [{
+        "value" : 75,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      }],
+      "packaging" : {
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073498",
+            "display" : "Box"
+          }]
+        },
+        "quantity" : 1,
+        "material" : [{
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "200000003529",
+            "display" : "Cardboard"
+          }]
+        }],
+        "packaging" : [{
+          "identifier" : [{
+            "system" : "https://spor.ema.europa.eu/pmswi",
+            "value" : "123456"
+          }],
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000073496",
+              "display" : "Blister"
+            }]
+          },
+          "quantity" : 28,
+          "material" : [{
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "200000003222",
+              "display" : "PolyVinyl Chloride"
+            }]
+          }],
+          "containedItem" : [{
+            "item" : {
+              "reference" : {
+                "reference" : "ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f"
+              }
+            }
+          }]
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d",
+    "resource" : {
+      "resourceType" : "MedicinalProductDefinition",
+      "id" : "mp3b8585822d27945de47423af5de9824d",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"mp3b8585822d27945de47423af5de9824d\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;mp3b8585822d27945de47423af5de9824d&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a00xb9846396e9e1eedc4a344e7b64d57107</p><p><b>type</b>: Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-medicinal-product-type.html\">Medicinal Product Type</a>#MedicinalProduct)</span></p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-medicinal-product-domain.html\">Medicinal Product Domain</a>#Human)</span></p><p><b>status</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072084)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Aquilea Articulaciones Colageno y Magnesio 375gr</p><p><b>type</b>: Full name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000001)</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Aquilea</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: Colageneo y Magnesio</p><p><b>type</b>: Scientific name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000003)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 375 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: tablet</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style=\"display: none\">*</td><td>Spain <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></td><td>Spain <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></td><td>Spanish <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-ietf3066.html\">Tags for the Identification of Languages</a>#es)</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "0xb9846396e9e1eedc4a344e7b64d57107"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-type",
+          "code" : "MedicinalProduct",
+          "display" : "Medicinal Product"
+        }]
+      },
+      "domain" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-domain",
+          "code" : "Human",
+          "display" : "Human use"
+        }]
+      },
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "active"
+        }]
+      },
+      "legalStatusOfSupply" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072084",
+          "display" : "Medicinal product subject to medical prescription"
+        }]
+      },
+      "name" : [{
+        "productName" : "Aquilea Articulaciones Colageno y Magnesio 375gr",
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/lists/220000000000",
+            "code" : "220000000001",
+            "display" : "Full name"
+          }]
+        },
+        "part" : [{
+          "part" : "Aquilea",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000002",
+              "display" : "Invented name part"
+            }]
+          }
+        },
+        {
+          "part" : "Colageneo y Magnesio",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000003",
+              "display" : "Scientific name part"
+            }]
+          }
+        },
+        {
+          "part" : "375 mg",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000004",
+              "display" : "Strength part"
+            }]
+          }
+        },
+        {
+          "part" : "tablet",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000005",
+              "display" : "Pharmaceutical dose form part"
+            }]
+          }
+        }],
+        "usage" : [{
+          "country" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "ES",
+              "display" : "Spain"
+            }]
+          },
+          "jurisdiction" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "ES",
+              "display" : "Spain"
+            }]
+          },
+          "language" : {
+            "coding" : [{
+              "system" : "urn:ietf:bcp:47",
+              "code" : "es",
+              "display" : "Spanish"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f",
+    "resource" : {
+      "resourceType" : "ManufacturedItemDefinition",
+      "id" : "mid-af1953635c28668e0d454e0740fcb36f",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"mid-af1953635c28668e0d454e0740fcb36f\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;mid-af1953635c28668e0d454e0740fcb36f&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0EU/1/96/007/035\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Aerosol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000143522)</span></p><p><b>unitOfPresentation</b>: Bead <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000022797)</span></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "EU/1/96/007/035"
+      }],
+      "status" : "active",
+      "manufacturedDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000143522",
+          "display" : "Aerosol"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000022797",
+          "display" : "Bead"
+        }]
+      }
+    }
+  }]
+}

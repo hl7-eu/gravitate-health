@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/adminprodherceptin150> a fhir:AdministrableProductDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "adminprodherceptin150"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"adminprodherceptin150\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;adminprodherceptin150&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: 7532F47F36A3585D1F348BBDDA057862</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"MedicinalProductDefinition-medprodherceptin150.html\">MedicinalProductDefinition/medprodherceptin150</a></p><p><b>administrableDoseForm</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#10219000)</span></p><p><b>unitOfPresentation</b>: 15054000 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#15054000)</span></p><p><b>producedFrom</b>: <a href=\"ManufacturedItemDefinition-manitemherceptin150.html\">ManufacturedItemDefinition/manitemherceptin150</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>20053000 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#20053000)</span></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://www.who-umc.org/phpid"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "7532F47F36A3585D1F348BBDDA057862" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:formOf ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/medprodherceptin150> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/medprodherceptin150" ]
+  ] ) ; # 
+  fhir:administrableDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "10219000" ]
+     ] ) ;
+     fhir:text [ fhir:v "Tablet" ]
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "15054000" ]
+     ] )
+  ] ; # 
+  fhir:producedFrom ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:routeOfAdministration ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "20053000" ]
+       ] )
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-vaxigriptetra-sucrose> a fhir:Ingredient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ingredient-for-vaxigriptetra-sucrose"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-vaxigriptetra-sucrose\"> </a><a name=\"hcingredient-for-vaxigriptetra-sucrose\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-vaxigriptetra-sucrose&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/nan (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"ManufacturedItemDefinition-mid-635d47ee543a5a9e15fcd321ee5fe6bb.html\">ManufacturedItemDefinition/mid-635d47ee543a5a9e15fcd321ee5fe6bb</a></li><li><a href=\"MedicinalProductDefinition-mp822aeee7cf35efce0583ec39919328fb.html\">MedicinalProductDefinition/mp822aeee7cf35efce0583ec39919328fb</a></li><li><a href=\"AdministrableProductDefinition-ap-635d47ee543a5a9e15fcd321ee5fe6bb.html\">AdministrableProductDefinition/ap-635d47ee543a5a9e15fcd321ee5fe6bb</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Sucrose <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#nan)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "nan" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-635d47ee543a5a9e15fcd321ee5fe6bb> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-635d47ee543a5a9e15fcd321ee5fe6bb" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp822aeee7cf35efce0583ec39919328fb> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp822aeee7cf35efce0583ec39919328fb" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-635d47ee543a5a9e15fcd321ee5fe6bb> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-635d47ee543a5a9e15fcd321ee5fe6bb" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "nan" ] ;
+           fhir:display [ fhir:v "Sucrose" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

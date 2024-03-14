@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="processedbundlehypericum"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"/>
+  </meta>
+  <language value="es"/>
+  <identifier>
+    <system value="https://www.gravitatehealth.eu/sid/doc"/>
+    <value value="P/EU/1/97/049/001"/>
+  </identifier>
+  <type value="document"/>
+  <timestamp value="2023-04-25T11:55:27Z"/>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/Composition/processed-compositionaf8d2f6e4772c29a8ef9fbb165e80d28"/>
+    <resource>
+      <Composition>
+        <id value="processed-compositionaf8d2f6e4772c29a8ef9fbb165e80d28"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
+        </meta>
+        <language value="es"/>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es"><a name="Composition_processed-compositionaf8d2f6e4772c29a8ef9fbb165e80d28"> </a><p><b>Generated Narrative: Composition</b><a name="processed-compositionaf8d2f6e4772c29a8ef9fbb165e80d28"> </a><a name="hcprocessed-compositionaf8d2f6e4772c29a8ef9fbb165e80d28"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Composition &quot;processed-compositionaf8d2f6e4772c29a8ef9fbb165e80d28&quot;  (Language &quot;es&quot;) </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html">Composition (ePI)</a></p></div><blockquote><p><b>HtmlElementLink</b></p><blockquote><p><b>url</b></p><code>elementClass</code></blockquote><p><b>value</b>: pregnancyCategory</p><blockquote><p><b>url</b></p><code>concept</code></blockquote><p><b>value</b>: Pregnancy <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#77386006)</span></p></blockquote><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/</code>/cc</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#100000155538)</span></p><p><b>category</b>: Processed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-epicategory-cs.html">Category of EPI</a>#P)</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href="#Organization_mah-c2a5378488511eaedce26dde272c2290">See above (Organization/mah-c2a5378488511eaedce26dde272c2290)</a></p><p><b>title</b>: TEST PURPOSES ONLY - HIPÉRICO ARKOPHARMA cápsulas duras</p><h3>Attesters</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style="display: none">*</td><td>Official <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html">Composition Attestation Mode</a>#official)</span></td><td>2022-02-16 13:28:17+0000</td></tr></table></div>
+        </text>
+        <extension url="http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink">
+          <extension url="elementClass">
+            <valueString value="pregnancyCategory"/>
+          </extension>
+          <extension url="concept">
+            <valueCodeableReference>
+              <concept>
+                <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="77386006"/>
+                  <display value="Pregnancy"/>
+                </coding>
+              </concept>
+            </valueCodeableReference>
+          </extension>
+        </extension>
+        <identifier>
+          <system value="https://spor.ema.europa.eu/rmswi/"/>
+          <value value="cc"/>
+        </identifier>
+        <status value="final"/>
+        <type>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="Package Leaflet"/>
+        </type>
+        <category>
+          <coding>
+            <system value="http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs"/>
+            <code value="P"/>
+            <display value="Processed"/>
+          </coding>
+        </category>
+        <subject>
+          <reference value="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/>
+        </subject>
+        <date value="2022-02-16T13:28:17Z"/>
+        <author>
+          <reference value="Organization/mah-c2a5378488511eaedce26dde272c2290"/>
+        </author>
+        <title value="TEST PURPOSES ONLY - HIPÉRICO ARKOPHARMA cápsulas duras"/>
+        <attester>
+          <mode>
+            <coding>
+              <system value="http://hl7.org/fhir/composition-attestation-mode"/>
+              <code value="official"/>
+            </coding>
+          </mode>
+          <time value="2022-02-16T13:28:17Z"/>
+        </attester>
+        <section>
+          <title value="B. Package Leaflet"/>
+          <code>
+            <coding>
+              <system value="https://spor.ema.europa.eu/rmswi/"/>
+              <code value="100000155538"/>
+            </coding>
+            <text value="B. PACKAGE LEAFLET"/>
+          </code>
+          <text>
+            <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">unavailable</div>
+          </text>
+          <emptyReason>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+              <code value="unavailable"/>
+            </coding>
+          </emptyReason>
+          <section>
+            <title value="Package leaflet: Information for the user"/>
+            <code>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi/"/>
+                <code value="100000155538"/>
+              </coding>
+              <text value="Package leaflet: Information for the user"/>
+            </code>
+            <text>
+              <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div><p><strong><span>PROSPECTO: INFORMACIÓN PARA EL USUARIO</span></strong></p><p><strong><span>HIPÉRICO ARKOPHARMA cápsulas duras</span></strong></p><p><strong><em><span>Hypericum perforatum</span></em></strong> <strong><span>L.</span></strong></p><p><strong><span>Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento, porque contiene información importante para usted.</span></strong></p><p><span>Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las indicadas por su farmacéutico, médico o enfermero.</span></p><p><span>- Conserve este prospecto, ya que puede tener que volver a leerlo.</span></p><p><span>- Si necesita consejo o más información, consulte a su farmacéutico.</span></p><p><span>- Si experimenta efectos adversos, consulte a su médico, farmacéutico o enfermero, incluso si se trata de efectos adversos que no aparecen en este prospecto.</span></p><p><span>- Debe consultar a un médico si empeora o si no mejora después de 28 días de tratamiento.</span></p></div></div>
+            </text>
+          </section>
+          <section>
+            <title value="What is in this leaflet"/>
+            <code>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi/"/>
+                <code value="100000155538"/>
+              </coding>
+              <text value="What is in this leaflet"/>
+            </code>
+            <text>
+              <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><strong><span>Contenido del prospecto</span></strong></p><p><span>1. Qué es</span> <strong><span>HIPÉRICO ARKOPHARMA</span></strong> <span>y para qué se utiliza</span></p><p><span>2. Qué necesita saber antes de empezar a tomar</span> <strong><span>HIPÉRICO ARKOPHARMA</span></strong></p><p><span>3. Cómo tomar</span> <strong><span>HIPÉRICO ARKOPHARMA</span></strong></p><p><span>4. Posibles efectos adversos</span></p><p><span>5. Conservación de</span> <strong><span>HIPÉRICO ARKOPHARMA</span></strong> <span>6. Contenido del envase e información adicional.</span></p></div>
+            </text>
+          </section>
+          <section>
+            <title value="1. What HIPÉRICO ARKOPHARMA cápsulas duras is and what it is used for"/>
+            <code>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi/"/>
+                <code value="100000155538"/>
+              </coding>
+              <text value="1. What HIPÉRICO ARKOPHARMA cápsulas duras is and what it is used for"/>
+            </code>
+            <text>
+              <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div><p><span>Medicamento a base de plantas para el tratamiento sintomático de los estados de decaimiento que cursan con desánimo, pérdida de interés, cansancio y alteraciones del sueño.</span></p><p><span>Debe consultar a un médico si empeora o si no mejora después de 28 días.</span></p></div></div>
+            </text>
+          </section>
+          <section>
+            <title value="2. What you need to know before you take HIPÉRICO ARKOPHARMA cápsulas duras"/>
+            <code>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi/"/>
+                <code value="100000155538"/>
+              </coding>
+              <text value="2. What you need to know before you take HIPÉRICO ARKOPHARMA cápsulas duras"/>
+            </code>
+            <text>
+              <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div><p><strong><span>No tome HIPÉRICO ARKOPHARMA</span></strong></p><ul><li><span>Si es menor de 18 años.</span></li><li><span>Si usted está embarazada o en periodo de lactancia.</span></li><li><span>Si es alérgico a</span> <em><span>Hypericum perforatum</span></em> <span>L. o a cualquiera de los componentes del medicamento.</span></li><li><span>Si va a someterse a alguna intervención quirúrgica que requiera tratamiento con otros medicamentos.</span></li><li><span>Si usted está en tratamiento con alguno de los medicamentos indicados en este prospecto. Algunos componentes del hipérico (</span><em><span>Hypericum perforatum</span></em> <span>L.) pueden producir interacciones farmacocinéticas con gran número de medicamentos, ocasionando un posible descenso de su efectividad; (ver la información sobre la toma de otros medicamentos).</span></li></ul><p><strong><span>Advertencias y precauciones</span></strong></p><p><span>Consulte a su farmacéutico, médico o enfermero antes de empezar a tomar HIPÉRICO ARKOPHARMA.</span></p><p><span>Si usted está tomando HIPÉRICO ARKOPHARMA, evite exposiciones intensas a los rayos UV (largas exposiciones al sol o baños de rayos UVA).</span></p><p><span>Las mujeres que utilizan anticonceptivos orales no deben utilizar simultáneamente este medicamento porque puede producir sangrado entre los ciclos menstruales y falta de eficacia; de los medicamentos anticonceptivos.</span><a name="OLE_LINK3" id="OLE_LINK3"></a></p><p><span>Evite las exposiciones a radiación solar intensa o a radiación ultravioleta artificial durante la toma de; este medicamento. No se recomienda el uso de este medicamento durante tratamientos de fototerapia (tratamientos con rayos UVA) o si va a ser sometido a algún estudio de fotodiagnóstico, particularmente en personas de piel clara, ya que se podrían producir; reacciones similares a las quemaduras solares en la piel expuesta</span><span>.</span></p><p><span>Si usted ha sido diagnosticado de depresión y está en tratamiento con medicamentos psicotrópicos o con antidepresivos inhibidores selectivos de la recaptación de serotonina o medicamentos del grupo de los triptanos, no debe utilizar este medicamento.</span></p><p><span>Se deberá dejar de tomar este medicamento 10 días antes de una operación quirúrgica u otra intervención clínica programada a fin de evitar interacciones potenciales con otros medicamentos, durante el uso de anestesia general o local.</span></p><p><strong><span>Niños y adolescentes</span></strong></p><p><span>No deben utilizar este medicamento los niños y adolescentes menores de 18 años.</span></p><p><strong><span>Uso de HIPÉRICO ARKOPHARMA con otros medicamentos</span></strong></p><p><span>Algunos componentes del hipérico (</span><em><span>Hypericum perforatum</span></em> <span>L.) pueden producir una reducción de los efectos terapéuticos de otros medicamentos, cuando se toman simultáneamente con hipérico. En los tratamientos que pueden verse afectados por este medicamento se incluyen los medicamentos recomendados por su médico y también los que usted puede adquirir sin prescripción del médico.</span></p><p><span>No deben comenzar a utilizar preparados de hipérico sin consultar antes con su médico o farmacéutico, los pacientes que estén tomando los siguientes medicamentos:</span></p><ul><li><span>para el SIDA (antirretrovirales)</span></li><li><span>para el rechazo de trasplantes (ciclosporina)</span></li><li><span>para la epilepsia</span></li><li><span>para el corazón (digoxina)</span></li><li><span>para el tratamiento del asma o bronquitis crónica (teofilina)</span></li><li><span>para la migraña</span></li><li><span>para la depresión</span></li><li><span>anticoagulantes orales</span></li><li><span>anticonceptivos orales</span></li></ul><p><span>Para mayor información, consulte la siguiente lista:</span></p><p><span>No tome este medicamento si usted está en tratamiento con cualquier medicamento de los indicados en este listado:</span></p><p><strong><span>•Agonistas 5HT (Triptanes):</span></strong> <span>tales como almotriptan, eleptriptan, frovatriptan, naratriptan, rizatriptan, sumatriptan, zolmitriptan;</span> <strong><span>•Analgésicos:</span></strong> <span>tales como tramadol;</span> <strong><span>•Anestésicos/ medicamentos para la preparación de una intervención quirúrgica</span></strong><span>: tales como fentanilo, propofol, midazolam, sevoflurano;</span> <strong><span>•Ansiolíticos</span></strong><span>: tales como buspirona;</span> <strong><span>•Antagonistas hormonales:</span></strong><span>; tales como exemestano;</span> <strong><span>•Antianginosos:</span></strong> <span>tales como ivabradina;</span> <strong><span>•Antiarrítmicos</span></strong><span>: tales como amiodarona;</span> <strong><span>Antibacterianos</span></strong><span>: tales como eritromicina, claritromicina, telitromicina;</span> <strong><span>•Anticoagulantes:</span></strong> <span>tales como warfarina, acenocumarol;</span> <strong><span>•Anticonceptivos Hormonales:</span></strong> <span>anticonceptivos orales, anticonceptivos hormonales de emergencia (Píldora del día después), implantes e inyecciones hormonales, parches transdérmicos, dispositivos intrauterinos con hormonas;</span> <strong><span>•Anticonvulsivantes (Antiepilépticos):</span></strong> <span>tales como carbamazepina, fenobarbital, fenitoína, primidona, valproato sódico;</span> <strong><span>•Antidepresivos Tricíclicos</span></strong><span>: tales como amitriptilina, clomipramina;</span> <strong><span>IMAO:</span></strong> <span>tales como moclobemida;</span> <strong><span>ISRS</span></strong> <span>(inhibidores selectivos de la recaptación de serotonina) tales como citalopram, fluoxetina, fluvoxamina, paroxetina, sertralina;</span> <strong><span>Otros antidepresivos</span></strong> <span>como duloxetina, venlafaxina;</span> <strong><span>•Antifúngicos:</span></strong><span>; tales como itraconazol, voriconazol;</span> <strong><span>•Antimaláricos:</span></strong> <span>tales como lumefantrina;</span> <strong><span>•Antiparkinsonianos:</span></strong> <span>tales como rasagilina;</span> <strong><span>•Antisicóticos:</span></strong><span>; tales como aripiprazol;</span> <strong><span>•Todos los Antivirales:</span></strong><span>; tales como</span> <strong><span>Inhibidores de Proteasa</span></strong> <span>(amprenavir, atazanavir, darunavir, fosamprenavir indinavir, lopinavir, nelfinavir, ritonavir, saquinavir, tipranavir);</span> <strong><span>Inhibidores de transcriptasa inversa no nucleósidos</span></strong> <span>(efavirenz, nevirapina, delavirdina);</span> <strong><span>•Aprepitant</span></strong> <strong><span>(</span></strong><span>se utiliza para evitar vómitos, tras un tratamiento con quimioterapia);</span> <strong><span>•Barbituratos</span></strong> <span>tales como butobarbital, fenobarbital;</span> <strong><span>•Bloqueadores de los canales del Calcio:</span></strong> <span>tales como amlodipina, nifedipina, verapamilo, felodipina;</span> <strong><span>•Citotóxicos:</span></strong> <span>como irinotecan, dasatinib, erlotinib, imatinib, sorafenib, sunitinib, etoposido, mitotano;</span> <strong><span>•Diuréticos:</span></strong> <span>tales como eplerenona;</span> <strong><span>•Estimulantes de SNC:</span></strong><span>; tales como metilfenidato;</span> <strong><span>•Glucósidos cardiacos:</span></strong> <span>tales como digoxina;</span> <strong><span>•Hipoglucemiantes orales</span></strong> <span>(antidiabéticos orales): tales como gliclazida;</span> <strong><span>•Hipolipemiantes:</span></strong> <span>tales como; simvastatina, atorvastatina;</span> <strong><span>•Hormonas tiroideas:</span></strong> <span>todos los medicamentos de esta clase incluido Tiroxina;</span> <strong><span>•Inhibidores de la bomba de protones:</span></strong> <span>tales como lansoprazol, omeprazol;</span> <strong><span>•Inmunosupresores:</span></strong> <span>tales como ciclosporina, tacrolimus;</span> <strong><span>•Litio; •Teofilina; •Terapia hormonal de remplazo:</span></strong> <span>tales como los parches, geles, anillo vaginal)</span></p><p><span>En caso de tratamiento concomitante de HIPÉRICO ARKOPHARMA con medicamentos anticoagulantes (como fenprocumona, warfarina, clopidogrel, ácido acetilsalicílico y otros antireumáticos no esteroideos) no puede excluirse que el efecto de estas preparaciones se vea aumentado</span><span>.</span></p><p><span>No puede excluirse que HIPÉRICO ARKOPHARMA actúe sobre la metabolización de otros medicamentos lo que puede afectar a la potencia y/o duración del efecto de los medicamentos a los que se refiere. Por esta razón, consulte con su médico o farmacéutico antes de tomar HIPÉRICO ARKOPHARMA con otros tratamientos.</span></p><p><span>Informe a su médico o farmacéutico si está tomando o ha tomado recientemente cualquier otro medicamento, incluso los adquiridos sin receta médica.</span></p><p><span>Informe también a su médico o farmacéutico sobre cualquier sospecha de cambio en los efectos de los medicamentos que está tomando a la vez que HIPÉRICO ARKOPHARMA.</span></p><p><strong><span>Toma de HIPÉRICO ARKOPHARMA con los alimentos y bebidas</span></strong></p><p><span>Los alimentos y las bebidas no tienen influencia sobre el efecto del medicamento.</span></p><p><strong><span>Embarazo, lactancia y fertilidad</span></strong></p><p><span>Si está embarazada o en periodo de lactancia, cree que pudiera estar embarazada o tiene intención de quedarse embarazada, consulte a su farmacéutico o médico antes de utilizar este medicamento. No se recomienda su administración en estas circunstancias.</span></p><p><strong><span>Conducción y uso de máquinas</span></strong></p><p><span>No se han realizado estudios sobre la capacidad de conducir y el uso de máquinas</span><span>.</span></p></div></div>
+            </text>
+          </section>
+          <section>
+            <title value="3. How to take HIPÉRICO ARKOPHARMA cápsulas duras"/>
+            <code>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi/"/>
+                <code value="100000155538"/>
+              </coding>
+              <text value="3. How to take HIPÉRICO ARKOPHARMA cápsulas duras"/>
+            </code>
+            <text>
+              <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div><p><span>Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las indicadas por su farmacéutico, médico o enfermero. En caso de duda, pregunte a su farmacéutico, médico o enfermero.</span></p><p><span>La dosis recomendada es:</span></p><p><span>Adultos: tomar 2 cápsulas, 2 ó 3 veces al día con un vaso de agua.</span></p><p><span>Es aconsejable que las tomas se realicen siempre a las mismas horas.</span></p><p><span>Este medicamento se utiliza vía oral.</span></p><p><span>La duración de tratamiento es de 6 semanas.</span></p><p><span>El efecto del medicamento aparece generalmente a las 4 semanas. Si los síntomas persisten, debería consultar con un profesional sanitario.</span></p><p><span>Una vez abierto el envase, se retirará la bolsita absorbente que no es apta para consumo humano y no debe ser ingerida.</span></p><p><strong><span>Uso en niños y adolescentes</span></strong></p><p><span>No utilizar en niños y adolescentes menores de 18 años</span></p><p><strong><span>Si toma más HIPÉRICO ARKOPHARMA del que debe</span></strong></p><p><span>Si se ha tomado una dosis excesiva de HIPÉRICO ARKOPHARMA pueden aparecer convulsiones o estado de confusión.</span></p><p><span>En caso de la toma de una dosis excesiva de hipérico, se debe proteger de las radiaciones solares o de cualquier otra fuente de rayos UV durante 1-2 semanas.</span></p><p><span>En caso de sobredosis o ingestión accidental, consulte inmediatamente a su farmacéutico o médico o llame al Servicio de Información Toxicológica, teléfono 91 562 04 20, indicando el producto y la cantidad ingerida.</span></p><p><strong><span>Si olvidó tomar HIPÉRICO ARKOPHARMA</span></strong></p><p><span>En caso de olvido de una dosis, tome el medicamento lo antes posible continuando el tratamiento de la forma prescrita. Sin embargo, si está próxima la siguiente dosis, es mejor que no tome la dosis olvidada y espere a la siguiente. En ningún caso tome una dosis doble para compensar la dosis olvidada</span><span>.</span></p></div></div>
+            </text>
+          </section>
+          <section>
+            <title value="4. Possible side effects"/>
+            <code>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi/"/>
+                <code value="100000155538"/>
+              </coding>
+              <text value="4. Possible side effects"/>
+            </code>
+            <text>
+              <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div><p><span>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</span></p><p><span>En casos raros, con una frecuencia que afecta a menos de un caso por cada 1000 pacientes, se han descrito problemas digestivos tales como náusea, dolor abdominal, diarrea, pérdida de apetito; o reacciones en la piel como picor, irritación, enrojecimiento (urticaria) y muy raramente podrían ocurrir reacciones similares a las quemaduras solares, en la piel expuesta a radiación solar o artificial intensa.</span></p><p><span>También se ha descrito dolor de cabeza, neuropatía, ansiedad, mareo, fatiga, manía o alergias, para los que se desconoce la frecuencia de aparición.</span></p><p><strong><span>Comunicación de reacciones adversas</span></strong><span>:</span></p><p><span>Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano:</span> <a href="https://www.notificaram.es"><span>https://www.notificaram.es</span></a><span>. Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</span></p></div></div>
+            </text>
+          </section>
+          <section>
+            <title value="5. How to store HIPÉRICO ARKOPHARMA cápsulas duras"/>
+            <code>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi/"/>
+                <code value="100000155538"/>
+              </coding>
+              <text value="5. How to store HIPÉRICO ARKOPHARMA cápsulas duras"/>
+            </code>
+            <text>
+              <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><span>Mantener este medicamento fuera de la vista y del alcance de los niños.</span></p><p><span>No conservar a temperatura superior a 25ºC.</span></p><p><span>Una vez abierto, desechar después de 21 días.</span></p><p><span>No utilice HIPÉRICO ARKOPHARMA después de la fecha de caducidad que aparece en el envase, después de la abreviatura “CAD”. La fecha de caducidad es el último día del mes que se indica.</span></p><p><span>Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesite en el Punto SIGRE</span> <span>de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma, ayudará a proteger el medio ambiente</span><span>.</span></p></div>
+            </text>
+          </section>
+          <section>
+            <title value="6. Contents of the pack and other information"/>
+            <code>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi/"/>
+                <code value="100000155538"/>
+              </coding>
+              <text value="6. Contents of the pack and other information"/>
+            </code>
+            <text>
+              <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div><p><strong><span>Composici&#243;n de HIP&#201;RICO ARKOPHARMA</span></strong></p><p><span>Cada c&#225;psula contiene como principio activo:</span></p><p><span>175 mg de extracto seco hidroalcoh&#243;lico de</span> <em><span>Hypericum perforatum</span></em> <span>L. herba (sumidades floridas de hip&#233;rico) (3.5-6:1) que corresponden a: 0,27 mg a 0,46mg de hipericinas totales, &#8805; 10,5 mg de flavonoides y 2,71 mg a 4,63 mg de hiperforina.</span></p><p><span>Disolvente de extracci&#243;n: etanol 60% m/m</span></p><p><span>Los dem&#225;s componentes son los excipientes: celulosa microcristalina, estearato de magnesio, s&#237;lice coloidalhidr&#243;foba y maltodextrina.</span></p><p><span>Composici&#243;n de la</span> <span>c&#225;psula: hipromelosa, di&#243;xido de titanio y &#243;xido de hierro amarillo.</span></p><p><strong><span>Aspecto del producto y contenido del envase</span></strong></p><p><span>Existe 1 presentaci&#243;n en frascos que contienen 42 c&#225;psulas, con una bolsita absorbente en su interior.</span></p><p><span>Una vez abierto el envase, se retirar&#225; la bolsita absorbente que no es apta para consumo humano y no debe ser ingerida.</span></p><p><strong><span>Titular de la autorizaci&#243;n de comercializaci&#243;n y responsable de la fabricaci&#243;n:</span></strong></p><p><strong><span>Titular</span></strong></p><p><strong><span>Arkopharma LABORATORIOS, S.A.U,</span></strong></p><p><span>C/ Amaltea, 9</span></p><p><span>28045 MADRID</span></p><p><strong><span>Responsable de la fabricaci&#243;n</span></strong></p><p><strong><span>ARKOPHARMA</span></strong></p><p><span>LABORATOIRES PHARMACEUTIQUES</span></p><p><span>BP 28 &#8211; 06511 CARROS Cedex - FRANCE</span></p><p><strong><span>Fecha de la &#250;ltima revisi&#243;n de este prospecto: septiembre 2016</span></strong></p><p><span>La informaci&#243;n detallada y actualizada de este medicamento est&#225; disponible en la p&#225;gina web de la Agencia Espa&#241;ola de Medicamentos y Productos Sanitarios (AEMPS)</span> <a href="http://www.aemps.gob.es/"><span>http://www.aemps.gob.es/</span></a></p></div></div>
+            </text>
+          </section>
+        </section>
+      </Composition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-hipricoarkopharma-hypericumperforatuml"/>
+    <resource>
+      <Ingredient>
+        <id value="ingredient-for-hipricoarkopharma-hypericumperforatuml"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Ingredient_ingredient-for-hipricoarkopharma-hypericumperforatuml"> </a><p><b>Generated Narrative: Ingredient</b><a name="ingredient-for-hipricoarkopharma-hypericumperforatuml"> </a><a name="hcingredient-for-hipricoarkopharma-hypericumperforatuml"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;ingredient-for-hipricoarkopharma-hypericumperforatuml&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/XK4IUX8MNB (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#ManufacturedItemDefinition_mid-29436a85dac3ea374adb3fa64cfd2578">See above (ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578)</a></li><li><a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28">See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)</a></li><li><a href="#AdministrableProductDefinition_ap-29436a85dac3ea374adb3fa64cfd2578">See above (AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578)</a></li></ul><p><b>role</b>: active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#72072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Concept</b></td></tr><tr><td style="display: none">*</td><td>Hypericum perforatum L. <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (beta#XK4IUX8MNB)</span></td></tr></table><h3>Strengths</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style="display: none">*</td><td>175 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span></td><td>active ingredient - basis of strength <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/>
+          <value value="XK4IUX8MNB"/>
+        </identifier>
+        <status value="active"/>
+        <for>
+          <reference value="ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/>
+        </for>
+        <for>
+          <reference value="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/>
+        </for>
+        <for>
+          <reference value="AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578"/>
+        </for>
+        <role>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="72072"/>
+            <display value="active"/>
+          </coding>
+        </role>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/>
+                <code value="XK4IUX8MNB"/>
+                <display value="Hypericum perforatum L."/>
+              </coding>
+            </concept>
+          </code>
+          <strength>
+            <presentationQuantity>
+              <value value="175"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="mg"/>
+            </presentationQuantity>
+            <basis>
+              <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+                <code value="ACTIB"/>
+                <display value="active ingredient - basis of strength"/>
+              </coding>
+            </basis>
+          </strength>
+        </substance>
+      </Ingredient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-hipricoarkopharma-microcrystallinecellulose"/>
+    <resource>
+      <Ingredient>
+        <id value="ingredient-for-hipricoarkopharma-microcrystallinecellulose"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Ingredient_ingredient-for-hipricoarkopharma-microcrystallinecellulose"> </a><p><b>Generated Narrative: Ingredient</b><a name="ingredient-for-hipricoarkopharma-microcrystallinecellulose"> </a><a name="hcingredient-for-hipricoarkopharma-microcrystallinecellulose"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;ingredient-for-hipricoarkopharma-microcrystallinecellulose&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/OP1R32D61U (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#ManufacturedItemDefinition_mid-29436a85dac3ea374adb3fa64cfd2578">See above (ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578)</a></li><li><a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28">See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)</a></li><li><a href="#AdministrableProductDefinition_ap-29436a85dac3ea374adb3fa64cfd2578">See above (AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578)</a></li></ul><p><b>role</b>: excipient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Concept</b></td></tr><tr><td style="display: none">*</td><td>microcrystalline cellulose <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (beta#OP1R32D61U)</span></td></tr></table></blockquote></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/>
+          <value value="OP1R32D61U"/>
+        </identifier>
+        <status value="active"/>
+        <for>
+          <reference value="ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/>
+        </for>
+        <for>
+          <reference value="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/>
+        </for>
+        <for>
+          <reference value="AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578"/>
+        </for>
+        <role>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000072082"/>
+            <display value="excipient"/>
+          </coding>
+        </role>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/>
+                <code value="OP1R32D61U"/>
+                <display value="microcrystalline cellulose"/>
+              </coding>
+            </concept>
+          </code>
+        </substance>
+      </Ingredient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-hipricoarkopharma-magnesiumstearate"/>
+    <resource>
+      <Ingredient>
+        <id value="ingredient-for-hipricoarkopharma-magnesiumstearate"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Ingredient_ingredient-for-hipricoarkopharma-magnesiumstearate"> </a><p><b>Generated Narrative: Ingredient</b><a name="ingredient-for-hipricoarkopharma-magnesiumstearate"> </a><a name="hcingredient-for-hipricoarkopharma-magnesiumstearate"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;ingredient-for-hipricoarkopharma-magnesiumstearate&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/70097M6I30 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#ManufacturedItemDefinition_mid-29436a85dac3ea374adb3fa64cfd2578">See above (ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578)</a></li><li><a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28">See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)</a></li><li><a href="#AdministrableProductDefinition_ap-29436a85dac3ea374adb3fa64cfd2578">See above (AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578)</a></li></ul><p><b>role</b>: excipient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Concept</b></td></tr><tr><td style="display: none">*</td><td>magnesium stearate <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (beta#70097M6I30)</span></td></tr></table></blockquote></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/>
+          <value value="70097M6I30"/>
+        </identifier>
+        <status value="active"/>
+        <for>
+          <reference value="ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/>
+        </for>
+        <for>
+          <reference value="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/>
+        </for>
+        <for>
+          <reference value="AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578"/>
+        </for>
+        <role>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000072082"/>
+            <display value="excipient"/>
+          </coding>
+        </role>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/>
+                <code value="70097M6I30"/>
+                <display value="magnesium stearate"/>
+              </coding>
+            </concept>
+          </code>
+        </substance>
+      </Ingredient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-hipricoarkopharma-colloidalhydrophobicsilica"/>
+    <resource>
+      <Ingredient>
+        <id value="ingredient-for-hipricoarkopharma-colloidalhydrophobicsilica"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Ingredient_ingredient-for-hipricoarkopharma-colloidalhydrophobicsilica"> </a><p><b>Generated Narrative: Ingredient</b><a name="ingredient-for-hipricoarkopharma-colloidalhydrophobicsilica"> </a><a name="hcingredient-for-hipricoarkopharma-colloidalhydrophobicsilica"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;ingredient-for-hipricoarkopharma-colloidalhydrophobicsilica&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/8MDF5V39QO (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#ManufacturedItemDefinition_mid-29436a85dac3ea374adb3fa64cfd2578">See above (ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578)</a></li><li><a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28">See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)</a></li><li><a href="#AdministrableProductDefinition_ap-29436a85dac3ea374adb3fa64cfd2578">See above (AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578)</a></li></ul><p><b>role</b>: excipient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Concept</b></td></tr><tr><td style="display: none">*</td><td>colloidal hydrophobic silica <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (beta#8MDF5V39QO)</span></td></tr></table></blockquote></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/>
+          <value value="8MDF5V39QO"/>
+        </identifier>
+        <status value="active"/>
+        <for>
+          <reference value="ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/>
+        </for>
+        <for>
+          <reference value="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/>
+        </for>
+        <for>
+          <reference value="AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578"/>
+        </for>
+        <role>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000072082"/>
+            <display value="excipient"/>
+          </coding>
+        </role>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/>
+                <code value="8MDF5V39QO"/>
+                <display value="colloidal hydrophobic silica"/>
+              </coding>
+            </concept>
+          </code>
+        </substance>
+      </Ingredient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-hipricoarkopharma-maltodextrin"/>
+    <resource>
+      <Ingredient>
+        <id value="ingredient-for-hipricoarkopharma-maltodextrin"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Ingredient_ingredient-for-hipricoarkopharma-maltodextrin"> </a><p><b>Generated Narrative: Ingredient</b><a name="ingredient-for-hipricoarkopharma-maltodextrin"> </a><a name="hcingredient-for-hipricoarkopharma-maltodextrin"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;ingredient-for-hipricoarkopharma-maltodextrin&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/7CVR7L4A2D (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#ManufacturedItemDefinition_mid-29436a85dac3ea374adb3fa64cfd2578">See above (ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578)</a></li><li><a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28">See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)</a></li><li><a href="#AdministrableProductDefinition_ap-29436a85dac3ea374adb3fa64cfd2578">See above (AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578)</a></li></ul><p><b>role</b>: excipient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Concept</b></td></tr><tr><td style="display: none">*</td><td>maltodextrin <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (beta#7CVR7L4A2D)</span></td></tr></table></blockquote></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/>
+          <value value="7CVR7L4A2D"/>
+        </identifier>
+        <status value="active"/>
+        <for>
+          <reference value="ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/>
+        </for>
+        <for>
+          <reference value="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/>
+        </for>
+        <for>
+          <reference value="AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578"/>
+        </for>
+        <role>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000072082"/>
+            <display value="excipient"/>
+          </coding>
+        </role>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/>
+                <code value="7CVR7L4A2D"/>
+                <display value="maltodextrin"/>
+              </coding>
+            </concept>
+          </code>
+        </substance>
+      </Ingredient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-hypericumperforatumwhole"/>
+    <resource>
+      <SubstanceDefinition>
+        <id value="substance-hypericumperforatumwhole"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="SubstanceDefinition_substance-hypericumperforatumwhole"> </a><p><b>Generated Narrative: SubstanceDefinition</b><a name="substance-hypericumperforatumwhole"> </a><a name="hcsubstance-hypericumperforatumwhole"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource SubstanceDefinition &quot;substance-hypericumperforatumwhole&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-SubstanceDefinition-uv-epi.html">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta/</code>/XK4IUX8MNB (use: OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R5/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>manufacturer</b>: <a href="#Organization_mah-c2a5378488511eaedce26dde272c2290">See above (Organization/mah-c2a5378488511eaedce26dde272c2290)</a></p><h3>MolecularWeights</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td style="display: none">*</td><td>exact <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></td><td>156.09</td></tr></table><h3>Structures</h3><table class="grid"><tr><td style="display: none">-</td><td><b>MolecularFormula</b></td></tr><tr><td style="display: none">*</td><td>C35H52O4</td></tr></table><h3>Names</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style="display: none">*</td><td>Hyperforin</td><td>Chemical Name <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#x)</span></td></tr></table></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+          <value value="XK4IUX8MNB"/>
+        </identifier>
+        <version value="1"/>
+        <status>
+          <coding>
+            <system value="http://hl7.org/fhir/publication-status"/>
+            <code value="active"/>
+          </coding>
+        </status>
+        <manufacturer>
+          <reference value="Organization/mah-c2a5378488511eaedce26dde272c2290"/>
+        </manufacturer>
+        <molecularWeight>
+          <type>
+            <text value="exact"/>
+          </type>
+          <amount>
+            <value value="156.09"/>
+          </amount>
+        </molecularWeight>
+        <structure>
+          <molecularFormula value="C35H52O4"/>
+        </structure>
+        <name>
+          <name value="Hyperforin"/>
+          <type>
+            <coding>
+              <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+              <code value="x"/>
+              <display value="Chemical Name"/>
+            </coding>
+          </type>
+        </name>
+      </SubstanceDefinition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578"/>
+    <resource>
+      <AdministrableProductDefinition>
+        <id value="ap-29436a85dac3ea374adb3fa64cfd2578"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="AdministrableProductDefinition_ap-29436a85dac3ea374adb3fa64cfd2578"> </a><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="ap-29436a85dac3ea374adb3fa64cfd2578"> </a><a name="hcap-29436a85dac3ea374adb3fa64cfd2578"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;ap-29436a85dac3ea374adb3fa64cfd2578&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/xx</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28">See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)</a></p><p><b>administrableDoseForm</b>: Hard capsules <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073681)</span></p><p><b>unitOfPresentation</b>: hard capsule <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000002152)</span></p><p><b>producedFrom</b>: <a href="#ManufacturedItemDefinition_mid-29436a85dac3ea374adb3fa64cfd2578">See above (ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578)</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073619)</span></p><h3>TargetSpecies</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td></tr><tr><td style="display: none">*</td><td>Human <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>
+        </text>
+        <identifier>
+          <system value="https://spor.ema.europa.eu/pmswi"/>
+          <value value="xx"/>
+        </identifier>
+        <status value="active"/>
+        <formOf>
+          <reference value="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/>
+        </formOf>
+        <administrableDoseForm>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000073681"/>
+            <display value="Hard capsules"/>
+          </coding>
+        </administrableDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="200000002152"/>
+            <display value="hard capsule"/>
+          </coding>
+        </unitOfPresentation>
+        <producedFrom>
+          <reference value="ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/>
+        </producedFrom>
+        <routeOfAdministration>
+          <code>
+            <coding>
+              <system value="https://spor.ema.europa.eu/rmswi"/>
+              <code value="100000073619"/>
+              <display value="Oral use"/>
+            </coding>
+          </code>
+          <targetSpecies>
+            <code>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi"/>
+                <code value="100000109093"/>
+                <display value="Human"/>
+              </coding>
+            </code>
+          </targetSpecies>
+        </routeOfAdministration>
+      </AdministrableProductDefinition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization29436a85dac3ea374adb3fa64cfd25780"/>
+    <resource>
+      <RegulatedAuthorization>
+        <id value="authorization29436a85dac3ea374adb3fa64cfd25780"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="RegulatedAuthorization_authorization29436a85dac3ea374adb3fa64cfd25780"> </a><p><b>Generated Narrative: RegulatedAuthorization</b><a name="authorization29436a85dac3ea374adb3fa64cfd25780"> </a><a name="hcauthorization29436a85dac3ea374adb3fa64cfd25780"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization &quot;authorization29436a85dac3ea374adb3fa64cfd25780&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/79963 (use: OFFICIAL)</p><p><b>subject</b>: <a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28">See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072062)</span></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R5/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-01-01</p><p><b>holder</b>: <a href="#Organization_mah-c2a5378488511eaedce26dde272c2290">See above (Organization/mah-c2a5378488511eaedce26dde272c2290)</a></p></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://spor.ema.europa.eu/pmswi"/>
+          <value value="79963"/>
+        </identifier>
+        <subject>
+          <reference value="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/>
+        </subject>
+        <type>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000072062"/>
+            <display value="Marketing Authorisation"/>
+          </coding>
+        </type>
+        <status>
+          <coding>
+            <system value="http://hl7.org/fhir/publication-status"/>
+            <code value="active"/>
+            <display value="Active"/>
+          </coding>
+        </status>
+        <statusDate value="2015-01-01"/>
+        <holder>
+          <reference value="Organization/mah-c2a5378488511eaedce26dde272c2290"/>
+        </holder>
+      </RegulatedAuthorization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-c2a5378488511eaedce26dde272c2290"/>
+    <resource>
+      <Organization>
+        <id value="mah-c2a5378488511eaedce26dde272c2290"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Organization_mah-c2a5378488511eaedce26dde272c2290"> </a><p><b>Generated Narrative: Organization</b><a name="mah-c2a5378488511eaedce26dde272c2290"> </a><a name="hcmah-c2a5378488511eaedce26dde272c2290"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Organization &quot;mah-c2a5378488511eaedce26dde272c2290&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Organization-uv-epi.html">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/xx (use: OFFICIAL)</p><p><b>active</b>: true</p><p><b>type</b>: Marketing authorisation holder <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#220000000034)</span></p><p><b>name</b>: Arkopharma LABORATORIOS, S.A.U,</p><h3>Contacts</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Address</b></td></tr><tr><td style="display: none">*</td><td>C/ Amaltea, 9 Madrid ES(WORK)</td></tr></table></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://spor.ema.europa.eu/omswi"/>
+          <value value="xx"/>
+        </identifier>
+        <active value="true"/>
+        <type>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="220000000034"/>
+            <display value="Marketing authorisation holder"/>
+          </coding>
+        </type>
+        <name value="Arkopharma LABORATORIOS, S.A.U,"/>
+        <contact>
+          <address>
+            <use value="work"/>
+            <type value="physical"/>
+            <text value="C/ Amaltea, 9 Madrid ES"/>
+            <line value="C/ Amaltea, 9"/>
+            <city value="Madrid"/>
+            <postalCode value="28045"/>
+            <country value="ES"/>
+          </address>
+        </contact>
+      </Organization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-ee8bd93e975dcd04f4824ba8d24a8944"/>
+    <resource>
+      <PackagedProductDefinition>
+        <id value="ppd-ee8bd93e975dcd04f4824ba8d24a8944"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="PackagedProductDefinition_ppd-ee8bd93e975dcd04f4824ba8d24a8944"> </a><p><b>Generated Narrative: PackagedProductDefinition</b><a name="ppd-ee8bd93e975dcd04f4824ba8d24a8944"> </a><a name="hcppd-ee8bd93e975dcd04f4824ba8d24a8944"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;ppd-ee8bd93e975dcd04f4824ba8d24a8944&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/x (use: OFFICIAL)</p><p><b>name</b>: HIPÉRICO ARKOPHARMA cápsulas duras 30</p><p><b>type</b>: Chemical Medicinal Prodcut <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28">See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)</a></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R5/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-01-03</p><p><b>containedItemQuantity</b>: 175 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span></p><p><b>copackagedIndicator</b>: false</p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: Blister <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073496)</span></p><p><b>quantity</b>: 30</p><p><b>material</b>: cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#xxx)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://spor.ema.europa.eu/pmswi"/>
+          <value value="x"/>
+        </identifier>
+        <name value="HIPÉRICO ARKOPHARMA cápsulas duras 30"/>
+        <type>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000155527"/>
+            <display value="Chemical Medicinal Prodcut"/>
+          </coding>
+        </type>
+        <packageFor>
+          <reference value="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/>
+        </packageFor>
+        <status>
+          <coding>
+            <system value="http://hl7.org/fhir/publication-status"/>
+            <code value="active"/>
+            <display value="Active"/>
+          </coding>
+        </status>
+        <statusDate value="2015-01-03"/>
+        <containedItemQuantity>
+          <value value="175"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="mg"/>
+        </containedItemQuantity>
+        <copackagedIndicator value="false"/>
+        <packaging>
+          <type>
+            <coding>
+              <system value="https://spor.ema.europa.eu/rmswi"/>
+              <code value="100000073498"/>
+              <display value="Box"/>
+            </coding>
+          </type>
+          <quantity value="1"/>
+          <material>
+            <coding>
+              <system value="https://spor.ema.europa.eu/rmswi"/>
+              <code value="200000003529"/>
+              <display value="Cardboard"/>
+            </coding>
+          </material>
+          <packaging>
+            <identifier>
+              <system value="https://spor.ema.europa.eu/pmswi"/>
+              <value value="123456"/>
+            </identifier>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi"/>
+                <code value="100000073496"/>
+                <display value="Blister"/>
+              </coding>
+            </type>
+            <quantity value="30"/>
+            <material>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi"/>
+                <code value="xxx"/>
+                <display value="cardboard"/>
+              </coding>
+            </material>
+            <containedItem>
+              <item>
+                <reference>
+                  <reference value="ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/>
+                </reference>
+              </item>
+            </containedItem>
+          </packaging>
+        </packaging>
+      </PackagedProductDefinition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/>
+    <resource>
+      <MedicinalProductDefinition>
+        <id value="mpaf8d2f6e4772c29a8ef9fbb165e80d28"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28"> </a><p><b>Generated Narrative: MedicinalProductDefinition</b><a name="mpaf8d2f6e4772c29a8ef9fbb165e80d28"> </a><a name="hcmpaf8d2f6e4772c29a8ef9fbb165e80d28"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition &quot;mpaf8d2f6e4772c29a8ef9fbb165e80d28&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/79963</p><p><b>type</b>: Medicinal Product <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R5/codesystem-medicinal-product-type.html">Medicinal Product Type</a>#MedicinalProduct)</span></p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R5/codesystem-medicinal-product-domain.html">Medicinal Product Domain</a>#Human)</span></p><p><b>status</b>: active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R5/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000000000)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: HIPÉRICO ARKOPHARMA cápsulas duras</p><p><b>type</b>: Full name <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000001)</span></p><blockquote><p><b>part</b></p><p><b>part</b>: HIPÉRICO ARKOPHARMA</p><p><b>type</b>: Invented name part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: Hypericum perforatum L.</p><p><b>type</b>: Scientific name part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000003)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 175 mg</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: hard capsules</p><p><b>type</b>: Pharmaceutical dose form part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000005)</span></p></blockquote><h3>Usages</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style="display: none">*</td><td>Spain <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></td><td>Spain <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></td><td>English <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-v3-ietf3066.html">Tags for the Identification of Languages</a>#en)</span></td></tr></table></blockquote></div>
+        </text>
+        <identifier>
+          <system value="https://spor.ema.europa.eu/pmswi"/>
+          <value value="79963"/>
+        </identifier>
+        <type>
+          <coding>
+            <system value="http://hl7.org/fhir/medicinal-product-type"/>
+            <code value="MedicinalProduct"/>
+            <display value="Medicinal Product"/>
+          </coding>
+        </type>
+        <domain>
+          <coding>
+            <system value="http://hl7.org/fhir/medicinal-product-domain"/>
+            <code value="Human"/>
+            <display value="Human use"/>
+          </coding>
+        </domain>
+        <status>
+          <coding>
+            <system value="http://hl7.org/fhir/publication-status"/>
+            <code value="active"/>
+            <display value="active"/>
+          </coding>
+        </status>
+        <legalStatusOfSupply>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000000000"/>
+            <display value="Medicinal product subject to medical prescription"/>
+          </coding>
+        </legalStatusOfSupply>
+        <name>
+          <productName value="HIPÉRICO ARKOPHARMA cápsulas duras"/>
+          <type>
+            <coding>
+              <system value="https://spor.ema.europa.eu/lists/220000000000"/>
+              <code value="220000000001"/>
+              <display value="Full name"/>
+            </coding>
+          </type>
+          <part>
+            <part value="HIPÉRICO ARKOPHARMA"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/lists/220000000000"/>
+                <code value="220000000002"/>
+                <display value="Invented name part"/>
+              </coding>
+            </type>
+          </part>
+          <part>
+            <part value="Hypericum perforatum L."/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/lists/220000000000"/>
+                <code value="220000000003"/>
+                <display value="Scientific name part"/>
+              </coding>
+            </type>
+          </part>
+          <part>
+            <part value="175 mg"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/lists/220000000000"/>
+                <code value="220000000004"/>
+                <display value="Strength part"/>
+              </coding>
+            </type>
+          </part>
+          <part>
+            <part value="hard capsules"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/lists/220000000000"/>
+                <code value="220000000005"/>
+                <display value="Pharmaceutical dose form part"/>
+              </coding>
+            </type>
+          </part>
+          <usage>
+            <country>
+              <coding>
+                <system value="urn:iso:std:iso:3166"/>
+                <code value="ES"/>
+              </coding>
+            </country>
+            <jurisdiction>
+              <coding>
+                <system value="urn:iso:std:iso:3166"/>
+                <code value="ES"/>
+              </coding>
+            </jurisdiction>
+            <language>
+              <coding>
+                <system value="urn:ietf:bcp:47"/>
+                <code value="en"/>
+                <display value="English"/>
+              </coding>
+            </language>
+          </usage>
+        </name>
+      </MedicinalProductDefinition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/>
+    <resource>
+      <ManufacturedItemDefinition>
+        <id value="mid-29436a85dac3ea374adb3fa64cfd2578"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="ManufacturedItemDefinition_mid-29436a85dac3ea374adb3fa64cfd2578"> </a><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name="mid-29436a85dac3ea374adb3fa64cfd2578"> </a><a name="hcmid-29436a85dac3ea374adb3fa64cfd2578"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition &quot;mid-29436a85dac3ea374adb3fa64cfd2578&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ManufacturedItemDefinition-uv-epi.html">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/79963 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: hard capsules <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#100000073681)</span></p><p><b>unitOfPresentation</b>: hard capsules <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000002152)</span></p></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://spor.ema.europa.eu/pmswi"/>
+          <value value="79963"/>
+        </identifier>
+        <status value="active"/>
+        <manufacturedDoseForm>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000073681"/>
+            <display value="hard capsules"/>
+          </coding>
+        </manufacturedDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="200000002152"/>
+            <display value="hard capsules"/>
+          </coding>
+        </unitOfPresentation>
+      </ManufacturedItemDefinition>
+    </resource>
+  </entry>
+</Bundle>

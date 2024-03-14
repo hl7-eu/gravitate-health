@@ -1,0 +1,54 @@
+{
+  "resourceType" : "AdministrableProductDefinition",
+  "id" : "ap-635d47ee543a5a9e15fcd321ee5fe6bb",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"ap-635d47ee543a5a9e15fcd321ee5fe6bb\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;ap-635d47ee543a5a9e15fcd321ee5fe6bb&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0nan</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"MedicinalProductDefinition-mp822aeee7cf35efce0583ec39919328fb.html\">MedicinalProductDefinition/mp822aeee7cf35efce0583ec39919328fb</a></p><p><b>administrableDoseForm</b>: Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000016474)</span></p><p><b>unitOfPresentation</b>: Spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000016451)</span></p><p><b>producedFrom</b>: <a href=\"ManufacturedItemDefinition-mid-635d47ee543a5a9e15fcd321ee5fe6bb.html\">ManufacturedItemDefinition/mid-635d47ee543a5a9e15fcd321ee5fe6bb</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073615)</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>Human <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>"
+  },
+  "identifier" : [{
+    "system" : "https://spor.ema.europa.eu/pmswi",
+    "value" : "nan"
+  }],
+  "status" : "active",
+  "formOf" : [{
+    "reference" : "MedicinalProductDefinition/mp822aeee7cf35efce0583ec39919328fb"
+  }],
+  "administrableDoseForm" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "200000016474",
+      "display" : "Nasal spray"
+    }]
+  },
+  "unitOfPresentation" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "200000016451",
+      "display" : "Spray"
+    }]
+  },
+  "producedFrom" : [{
+    "reference" : "ManufacturedItemDefinition/mid-635d47ee543a5a9e15fcd321ee5fe6bb"
+  }],
+  "routeOfAdministration" : [{
+    "code" : {
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "100000073615",
+        "display" : "Nasal use"
+      }]
+    },
+    "targetSpecies" : [{
+      "code" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000109093",
+          "display" : "Human"
+        }]
+      }
+    }]
+  }]
+}

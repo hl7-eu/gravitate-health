@@ -1,0 +1,72 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-calciovitaminad-sucrose> a fhir:Ingredient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ingredient-for-calciovitaminad-sucrose"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-calciovitaminad-sucrose\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-calciovitaminad-sucrose&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: C151H8M554 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"ManufacturedItemDefinition-mid-925dad38f0afbba36223a82b3a766438.html\">ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438</a></li><li><a href=\"MedicinalProductDefinition-mpd4bcbbaec04bf6aceb2f71162205967e.html\">MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e</a></li><li><a href=\"AdministrableProductDefinition-ap-925dad38f0afbba36223a82b3a766438.html\">AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438</a></li></ul><p><b>role</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#72072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>sucrose <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#C151H8M554)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>3 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "C151H8M554" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "72072" ] ;
+       fhir:display [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "C151H8M554" ] ;
+           fhir:display [ fhir:v "sucrose" ]
+         ] )
+       ]
+     ] ;
+     fhir:strength ( [
+       fhir:presentation [
+         a fhir:Quantity ;
+         fhir:value [ fhir:v "3"^^xsd:decimal ] ;
+         fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "mg" ]
+       ] ;
+       fhir:basis [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleClass"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ACTIB" ] ;
+           fhir:display [ fhir:v "active ingredient - basis of strength" ]
+         ] )
+       ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

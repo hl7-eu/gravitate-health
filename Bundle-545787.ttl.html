@@ -1,0 +1,734 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>AeroBec Teva (Bundle) - TTL Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.485"}
+    h3,h4,h5,h6{--heading-prefix:"16.485"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>AeroBec Teva (Bundle)</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+  <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-545787.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-545787.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-545787.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: AeroBec Teva (Bundle) - TTL Representation</h2>
+
+
+<p><a href="Bundle-545787.ttl" no-download="true">Raw ttl</a> | <a download="null" href="Bundle-545787.ttl">Download</a></p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <pre style="white-space: pre; overflow: hidden" class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Bundle ;
+  <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "545787"] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "no"] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.identifier">fhir:identifier</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://felleskatalogen.no/vsid"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "545787" ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "document"] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.timestamp">fhir:timestamp</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#instant">fhir:v</a> "2021-01-01T01:01:01Z"^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">fhir:entry</a> ( [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/Composition/545787"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/composition.html#Composition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/545787&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/COPD-MPD-28"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/COPD-MPD-28&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/COPD-PPD-37"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/COPD-PPD-37&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/COPD-MPD-34"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/COPD-MPD-34&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/COPD-PPD-46"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/COPD-PPD-46&gt; )
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/545787&gt; <a href="http://hl7.org/fhir/R5/composition.html">a</a> fhir:Composition ;
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "545787"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "no"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"no\" lang=\"no\"&gt;&lt;a name=\"Composition_545787\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=\"545787\"&gt; &lt;/a&gt;&lt;a name=\"hc545787\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource Composition &amp;quot;545787&amp;quot;  (Language &amp;quot;no&amp;quot;) &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\"&gt;Composition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://felleskatalogen.no/vsid&lt;/code&gt;/545787&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: 100000155538 &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2021-01-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;span&gt;&lt;code&gt;https://gravitatehealth.eu/organization&lt;/code&gt;/felleskatalogen&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: AeroBec Teva&lt;/p&gt;&lt;hr/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Binary #13936050&lt;/b&gt;&lt;a name=\"13936050\"&gt; &lt;/a&gt;&lt;a name=\"hc13936050\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;contentType&lt;/b&gt;: image/jpeg&lt;/p&gt;&lt;p&gt;&lt;b&gt;data&lt;/b&gt;: (base64 data - 33531 bytes)&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/binary.html#Binary">fhir:contained</a> ( [
+<a href="http://hl7.org/fhir/R5/binary.html">a</a> fhir:Binary ;
+<a href="http://hl7.org/fhir/R5/binary.html#Binary.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "13936050" ] ;
+<a href="http://hl7.org/fhir/R5/binary.html#Binary.contentType">fhir:contentType</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "image/jpeg" ] ;
+<a href="http://hl7.org/fhir/R5/binary.html#Binary.data">fhir:data</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#base64Binary">fhir:v</a> "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"^^xsd:base64Binary ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://felleskatalogen.no/vsid"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "545787" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "final"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.type">fhir:type</a> [
+    ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/100000155531/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.subject">fhir:subject</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/COPD-MPD-28" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/COPD-MPD-34" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> "2021-01-01"^^xsd:date] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.author">fhir:author</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.identifier">fhir:identifier</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/organization"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "felleskatalogen" ]     ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "AeroBec Teva"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.section">fhir:section</a> ( [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Pakningsvedlegg: Informasjon til brukeren" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+      ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029894" ]       ] )     ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                     &lt;h1&gt;Pakningsvedlegg: Informasjon til brukeren&lt;/h1&gt;\n                     &lt;h2&gt;AeroBec inhalasjonsaerosol, oppløsning 50 mikrog/dose&lt;/h2&gt;\n                     &lt;h2&gt;AeroBec inhalasjonsaerosol, oppløsning 100 mikrog/dose&lt;/h2&gt;\n                     &lt;h3&gt;beklometasondipropionat&lt;/h3&gt;\n                  &lt;/div&gt;"     ] ;
+    ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg." ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/section"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "rules" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg.&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;Ta vare på dette pakningsvedlegget. Du kan få behov for å lese det igjen.&lt;/li&gt;\n                              &lt;li&gt;Spør lege eller apotek hvis du har flere spørsmål eller trenger mer informasjon.&lt;/li&gt;\n                              &lt;li&gt;Dette legemidlet er skrevet ut kun til deg. Ikke gi det videre til andre. Det kan skade dem, selv om de har symptomer på sykdom som ligner dine.&lt;/li&gt;\n                              &lt;li&gt;Kontakt lege eller apotek dersom du opplever bivirkninger. Dette gjelder også bivirkninger som ikke er nevnt i pakningsvedlegget. Se avsnitt 4.&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "I dette pakningsvedlegget finner du informasjon om:" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/section"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "toc" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;I dette pakningsvedlegget finner du informasjon om:&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ol&gt;\n                              &lt;li&gt;Hva AeroBec er og hva det brukes mot&lt;/li&gt;\n                              &lt;li&gt;Hva du må vite før du bruker AeroBec&lt;/li&gt;\n                              &lt;li&gt;Hvordan du bruker AeroBec&lt;/li&gt;\n                              &lt;li&gt;Mulige bivirkninger&lt;/li&gt;\n                              &lt;li&gt;Hvordan du oppbevarer AeroBec&lt;/li&gt;\n                              &lt;li&gt;Innholdet i pakningen og ytterligere informasjon&lt;/li&gt;\n                           &lt;/ol&gt;\n                        &lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Hva AeroBec er og hva det brukes mot" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029895" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Hva AeroBec er og hva det brukes mot&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Beklometasondipropionat er et kortikosteroid som brukes til astmabehandling. Beklometasondipropionat inhalasjonsaerosol virker dypt nede i lungene dine og gjør det lettere å puste ved å redusere hevelse og irritasjon i de små luftveiene. Dette reduserer antall astmaanfall og symptomer på astma, som pustebesvær, piping og følelse av tetthet i brystet.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Denne type medisin er forebyggende. Den må tas regelmessig hver dag, selv om du ikke har symptomer.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;AeroBec vil ikke lette symptomene når et anfall av piping og pustebesvær har startet. Da trenger du en annen type medisin, som lindrer og utvider luftveiene under et anfall. Den kan du trygt bruke sammen med AeroBec som du må fortsette å bruke, selv om du har anfall.&lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Hva du må vite før du bruker AeroBec" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029896" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Hva du må vite før du bruker AeroBec&lt;/h2&gt;\n                     &lt;/div&gt;"       ] ;
+      ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Bruk ikke AeroBec" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029897" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Bruk ikke AeroBec&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;ul&gt;\n                                 &lt;li&gt;dersom du er allergisk overfor virkestoffet eller noen av de andre innholdsstoffene i dette legemidlet (listet opp i avsnitt 6).&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Advarsler og forsiktighetsregler" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029898" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Advarsler og forsiktighetsregler&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Snakk med lege eller apotek før du bruker AeroBec.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Den individuelle responsen på steroider kan variere. Beklometason, i likhet med andre inhalasjonssteroider, absorberes fra lungene til den systemiske sirkulasjon. Høye doser kan medføre en undertrykking av binyrebarken. Innenfor det anbefalte doseområdet er dette vanligvis ikke noe problem.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Vis forsiktighet ved bruk av AeroBec:&lt;ul&gt;\n                                 &lt;li&gt;Dersom du under behandling må øke forbruket av beta2-agonister med kort virketid for å kontrollere symptomer, tyder dette på en forverring av sykdommen. Du må i slike tilfeller ta kontakt med legen din.&lt;/li&gt;\n                                 &lt;li&gt;Dersom du har eller har hatt lungetuberkulose eller andre infeksjoner i lungene, bør du vise forsiktighet ved bruk av AeroBec. Snakk med legen din.&lt;/li&gt;\n                                 &lt;li&gt;Dersom du har infeksjoner i munn eller luftveier. Snakk med legen din.&lt;/li&gt;\n                                 &lt;li&gt;Dersom du får sammentrekninger/spasmer i luftveiene umiddelbart efter inhalasjon, kontakt lege snarest (se også ”Mulige bivirkninger”)&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Vær også oppmerksom på:&lt;br/&gt;AeroBec har &lt;b&gt;ikke &lt;/b&gt;effekt på akutte anfall av pustebesvær. &lt;i&gt;AeroBec virker forebyggende og skal tas regelmessig selv om man ikke har besvær. &lt;/i&gt;Virkning oppnås først etter noen dagers behandling. Full virkning er avhengig av regelmessig bruk over lengre tid. Hvis virkning ikke oppnås, må lege kontaktes.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;i&gt;Overgang fra systemisk steroidbehandling.&lt;/i&gt;\n                              &lt;br/&gt;Dersom du tidligere har brukt steroidtabletter, kan det være nødvendig å fortsette med disse en kort periode, eller i perioder med stress eller hvor obstruksjon (tiltetting) eller slim vanskeliggjør absorpsjon etter inhalasjon.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Dersom du har brukt steroider i tablettform over lengre perioder og/eller i høye doser, behøver du spesiell oppmerksomhet og oppfølging av lege ved overgang til inhalasjonssteroider. Normalisering av nedsatt binyrebarkfunksjon, forårsaket av langvarig oralt steroidbruk, er langsom. Din astma bør være stabil før inhalasjonssteroider påbegynnes i tillegg til orale steroider, og nedtrapping av orale steroider bør foretas gradvis med 1-2,5 mg prednisolon (eller tilsvarende) med intervaller på minst en uke. Det kan være aktuelt å kontrollere din evne til å produsere kortisol. Man kan i begynnelsen oppleve hodepine, muskel- og leddplager og av og til kvalme og brekninger. Informer i så fall legen din, som vil vurdere alt dette.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Overgang fra orale steroider til inhalasjonssteroider kan avdekke tidligere allergier, som ikke har vært merkbare under behandling.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Kontakt legen din hvis du opplever tåkesyn eller andre synsforstyrrelser.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Andre legemidler og AeroBec" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029900" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Andre legemidler og AeroBec&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Snakk med lege eller apotek dersom du bruker eller nylig har brukt andre legemidler, dette gjelder også reseptfrie legemidler. Enkelte legemidler kan øke effekten av Aerobec Autohaler, og legen din kan vurdere at det er nødvendig med tett oppfølging hvis du tar denne type legemidler (inkludert enkelte legemidler mot HIV: ritonavir, kobicistat).&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Graviditet, amming og fertilitet" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029902" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Graviditet, amming og fertilitet&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Snakk med lege eller apotek før du tar dette legemidlet dersom du er gravid eller ammer, tror at du kan være gravid eller planlegger å bli gravid.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Det er liten erfaring ved bruk av AeroBec under graviditet. Snakk derfor med lege før bruk av AeroBec dersom du er gravid.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Det er ukjent om AeroBec går over i morsmelk. Snakk derfor med lege før bruk av AeroBec ved amming.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Kjøring og bruk av maskiner" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029903" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Kjøring og bruk av maskiner&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Legemidlet antas ikke å påvirke evnen til å kjøre bil og bruke maskiner.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Aerobec inneholder etanol" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029904" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Aerobec inneholder etanol&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Dette legemidlet inneholder 4,74 mg alkohol (etanol) per dose. Mengden per dose av dette legemidlet tilsvarer mindre enn 0,1 ml øl eller 0,05 ml vin.&lt;br/&gt;Mengden alkohol i dette legemidlet er lav og vil ikke gi merkbare effekter.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] )     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Hvordan du bruker AeroBec" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029905" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Hvordan du bruker AeroBec&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Bruk alltid dette legemidlet nøyaktig slik legen eller apoteket har fortalt deg. Kontakt lege eller apotek hvis du er usikker.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Dosen bestemmes av legen som tilpasser den for deg.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;AeroBec 50 mikrog/dose&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;i&gt;Voksne (over 18 år)&lt;/i&gt;\n                           &lt;br/&gt;Den anbefalte dosen for mild til moderat astma er 1 dose 2 ganger daglig. Dette kan økes til 4 doser to ganger daglig. For mer alvorlig astma er den anbefalte dosen opptil 8 doser morgen og kveld.&lt;br/&gt;Legen kan forskrive opptil totalt 16 doser pr. dag.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;i&gt;Barn (over 5 år)&lt;/i&gt;\n                           &lt;br/&gt;Den anbefalte dosen for mild astma er 1 dose 2 ganger daglig. Den anbefalte dosen for mer alvorlig astma er 2 doser 2 ganger daglig.&lt;br/&gt;Dette er maksimal dosering for barn.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;AeroBec 100 mikrog/dose&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;i&gt;Voksne (over 18 år)&lt;/i&gt;\n                           &lt;br/&gt;Den anbefalte dosen for mild til moderat astma er 1 dose 2 ganger daglig. Denne kan økes til 2 doser to ganger daglig.&lt;br/&gt;For mer alvorlig astma er den anbefalte dosen opp til 4 doser morgen og kveld. Legen kan forskrive opptil totalt 8 doser pr. dag.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;i&gt;Barn (over 5 år)&lt;/i&gt;\n                           &lt;br/&gt;Den anbefalte dosen for mer alvorlig astma er 1 dose 2 ganger daglig. Dette er maksimal dosering for barn.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Denne inhalatoren må brukes regelmessig, selv om du føler deg bra. Du må ikke slutte å bruke denne inhalatoren før legen forteller deg det.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du glemmer å bruke inhalatoren til fastsatt tid, ta den anbefalte dosen så snart du husker det, for så å fortsette med regelmessige doser.&lt;br/&gt;Hvis du tror at din vanlige behandling ikke virker, eller hvis du føler du trenger mer enn maksimalt antall doser per dag, ta kontakt med legen din.&lt;br/&gt;Hvis du ofte tar flere doser enn anbefalt, fortell det til legen.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Bruksanvisning&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;Sprayen virker noe “bløtere” og varmere enn de “gamle” KFK-holdige sprayer og smaker annerledes. Det finnes to styrker av AeroBec Inhalasjonsaerosol, og legen din har valgt den styrken som passer best for deg. Husk at det er viktig å ta legemidlet slik som legen har fortalt deg. Etiketten skal minne deg på hvor mange doser du skal ta og hvor ofte. Føler du deg usikker på noe, ta kontakt med legen din.&lt;br/&gt;AeroBec er en inhalasjonsaerosol som sørger for at mer av hver dose kommer ned i lungene. Legen din kan derfor ha forskrevet en lavere dose av AeroBec enn av tidligere kortikosteroider du har brukt.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Merk!&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Før bruk / ikke brukt på 2 uker&lt;/b&gt;\n                           &lt;br/&gt;Hvis dette er en &lt;b&gt;ny inhalator &lt;/b&gt;eller hvis den &lt;b&gt;ikke har vært brukt på 2 uker eller mer&lt;/b&gt;, må du teste den før bruk ved å ta beskyttelseshetten av munnstykket og trykke ned beholderen på innsiden av inhalatoren. Trykk 2 puff ut i luften, fra deg.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Hvordan bruke din inhalator&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;Du trenger ikke riste inhalatoren.&lt;ol&gt;\n                              &lt;li&gt;Ta beskyttelseshetten vekk fra munnstykket.&lt;/li&gt;\n                              &lt;li&gt;Pust ut så langt du klarer, plassèr straks munnstykket i munnen og tett leppene godt til rundt det.&lt;/li&gt;\n                              &lt;li&gt;Pust sakte og dypt inn gjennom munnen og press ned beholderen inni inhalatoren som vist. Dette utløser en dose legemiddel. Det er viktig at du fortsetter å puste langsomt inn etter at dosen er utløst.&lt;/li&gt;\n                              &lt;li&gt;Hold pusten og tell sakte til 5. Pust så sakte ut. Hvis legen har forskrevet mer enn én dose, gjenta pkt.2-4. Etter bruk settes beskyttelseshetten tilbake på munnstykket. Skyll munnen med vann og spytt ut etter avsluttet inhalasjon.&lt;/li&gt;\n                           &lt;/ol&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;img src=\"#13936050\" alt=\"null\"/&gt;\n                        &lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Hvordan vite når din AeroBec er tom&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;Ta ut metallbeholderen fra inhalatoren og rist den. Du hører om det er noe igjen. Sett beholderen tilbake på plass.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Rengjøring&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;For normal hygiene bør munnstykket på inhalatoren din tørkes ukentlig med en ren, tørr klut eller et tørkepapir.&lt;br/&gt;Inhalasjonsaerosolen (det gjelder både beholderen og plastmunnstykket) må ikke komme i kontakt med vann, og den skal &lt;i&gt;ikke &lt;/i&gt;vaskes.&lt;/div&gt;\n                     &lt;/div&gt;"       ] ;
+      ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.entry">fhir:entry</a> [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "#13936050" ]       ] ) ;
+      ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Dersom du tar for mye av AeroBec" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029907" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Dersom du tar for mye av AeroBec&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Det er viktig at du tar dosen din som angitt på apotekets etikett eller som avtalt med legen din. Du skal ikke øke eller senke dosen din uten å snakke med lege.&lt;br/&gt;Akutt overdosering medfører vanligvis ikke problemer. Det er ikke nødvendig med spesielle tiltak. Fortsett behandlingen med den anbefalte dose for å kontrollere astmaen.&lt;br/&gt;Dersom meget høye doser har vært inntatt over lengre tid, kan kroppens evne til å lage kortisol være nedsatt. I et slikt tilfelle bør pasienten behandles som steroidavhengig og settes på steroidtabletter. Dette avgjøres av legen din.&lt;br/&gt;Når tilstanden er stabilisert, kan inhalasjonsterapi gjenopptas med AeroBec i vanlig dose.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] )     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Mulige bivirkninger" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029910" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Mulige bivirkninger&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Som alle legemidler kan dette legemidlet forårsake bivirkninger, men ikke alle får det.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Som for annen inhalasjonsbehandling er det en risiko for at kortpustetheten og hvesingen blir verre like etter bruk av AeroBec, og dette kalles &lt;b&gt;paradoksal bronkospasme&lt;/b&gt;. Hvis dette oppstår, skal du &lt;b&gt;øyeblikkelig SLUTTE å bruke AeroBec &lt;/b&gt;og bruke din hurtigvirkende inhalator med én gang for å behandle symptomene på kortpustethet og hvesing. Kontakt lege umiddelbart.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Kontakt legen din umiddelbart dersom du opplever overfølsomhetsreaksjoner som kløe, utslett, eksem (dermatitt), elveblest, rødme eller hevelse i huden eller slimhinner spesielt i øynene, ansiktet, leppene eller halsen.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Bivirkninger er angitt nedenfor etter hvor hyppig de forekommer.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;i&gt;Vanlige (forekommer hos færre enn 1 av 10 personer):&lt;/i&gt;\n                           &lt;br/&gt;Soppinfeksjoner (i munnen og svelget), heshet, sår hals. Dette kan ofte unngås hvis du skyller munnen med vann og spytter ut, etter bruk av inhalatoren.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;i&gt;Mindre vanlige (forekommer hos færre enn 1 av 100 personer):&lt;/i&gt;\n                           &lt;br/&gt;Hodepine, svimmelhet, hoste, økende astmasymptomer, elveblest, skjelvinger, utslett (eksantem).&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;i&gt;Sjeldne (forekommer hos færre enn 1 av 1000 personer):&lt;/i&gt;\n                           &lt;br/&gt;Overfølsomhetsreaksjoner som hevelse i tunge, svelg, leppe eller ansikt (angioødem), utslett, eksem (dermatitt) og kløe, kortpustethet (paradoksal bronkospasme), kvalme.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Bruk av høye doser langtidsvirkende kortikosteroider til inhalasjon over lang tid kan i sjeldne tilfeller gi virkninger som gjelder hele kroppen. Disse omfatter problemer med hvordan binyrene virker (hemming av binyrene), nedsatt mineraltetthet i bein (nedsatt beintetthet), bremsing av veksten hos barn og ungdom, økt trykk i øynene (glaukom), og grå stær.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Følgende bivirkninger med &lt;i&gt;ukjent frekvens&lt;/i&gt;, kan også forekomme:&lt;br/&gt;Rastløshet og opphisselse, søvnproblemer, angst, depresjon, aggresjon, adferdsrelaterte endringer og tåkesyn. Barn er mest utsatt for disse effektene.&lt;/div&gt;\n                     &lt;/div&gt;"       ] ;
+      ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Melding av bivirkninger" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029912" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Melding av bivirkninger&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Kontakt lege, apotek eller sykepleier dersom du opplever bivirkninger, inkludert mulige bivirkninger som ikke er nevnt\ni dette pakningsvedlegget. Du kan også melde fra om bivirkninger direkte via meldeskjema som finnes på nettsiden til Statens legemiddelverk: \n&lt;a href=\"https://www.legemiddelverket.no/pasientmelding\" title=\"www.legemiddelverket.no/pasientmelding\"&gt;www.legemiddelverket.no/pasientmelding&lt;/a&gt;. Ved å melde fra om bivirkninger\nbidrar du med informasjon om sikkerheten ved bruk av dette legemidlet.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] )     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Hvordan du oppbevarer AeroBec" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029913" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Hvordan du oppbevarer AeroBec&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Oppbevares utilgjengelig for barn.&lt;br/&gt;Oppbevares ved romtemperatur (15-30ºC).&lt;br/&gt;Skal ikke oppbevares ved temperaturer over 30ºC.&lt;br/&gt;Unngå oppbevaring i direkte sollys og varme.&lt;br/&gt;Beholderen er under trykk. Stikk ikke hull på den eller brenn den selv, om den synes tom.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Bruk ikke dette legemidlet etter utløpsdatoen som er angitt på pakningen eller etiketten etter EXP. Utløpsdatoen er den siste dagen i den angitte måneden.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Legemidler skal ikke kastes i avløpsvann eller sammen med husholdningsavfall. Spør på apoteket hvordan du skal kaste legemidler som du ikke lenger bruker. Disse tiltakene bidrar til å beskytte miljøet.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Klorfluorkarboner (KFK-gasser) har vist seg å ødelegge ozonlaget i atmosfæren. Din AeroBec inneholder ikke KFK-gasser, den inneholder i stedet et hydrofluoralkan (norfluran) som drivgass.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Hydrofluoralkaner er utviklet for å erstatte KFK-gasser fordi de ikke ødelegger ozonlaget. AeroBec er i motsetning til de fleste inhalasjonsaerosoler en oppløsnings-aerosol og inneholder ikke overflatestabiliserende stoffer. De fleste andre aerosoler har partikler som flyter i væsken, dvs. en suspensjon. Det er ikke nødvendig å riste AeroBec-aerosolen før bruk, og flere inhalasjoner kan tas fortløpende. AeroBec fungerer stabilt i temperaturer ned til -10ºC. Doseringsnøyaktigheten påvirkes ikke av om aerosolen oppbevares liggende eller stående.&lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Innholdet i pakningen og ytterligere informasjon" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029914" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Innholdet i pakningen og ytterligere informasjon&lt;/h2&gt;\n                     &lt;/div&gt;"       ] ;
+      ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Sammensetning av AeroBec" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029915" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Sammensetning av AeroBec&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;ul&gt;\n                                 &lt;li&gt;Virkestoff(er) er beklometasondipropionat&lt;/li&gt;\n                                 &lt;li&gt;Andre innholdsstoffer er etanol og norfluran (freonfri drivgass)&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Hvordan AeroBec ser ut og innholdet i pakningen" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029916" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Hvordan AeroBec ser ut og innholdet i pakningen&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Beholderen inneholder 200 doser.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Inhalatoren utløser en aerosol som gir høy deponering av legemiddel i lungene. Det er mulig fordi preparatet er en oppløsning.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Innehaver av markedsføringstillatelsen og tilvirker" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029917" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Innehaver av markedsføringstillatelsen og tilvirker&lt;/h3&gt;\n                           &lt;span class=\"inline-title\"&gt;Innehaver av markedsføringstillatelsen:&lt;/span&gt;\n                           &lt;div class=\"paragraph\"&gt;Teva Sweden AB, Box 1070, SE - 251 10 Helsingborg, Sverige.&lt;/div&gt;\n                           &lt;span class=\"inline-title\"&gt;Tilvirker:&lt;/span&gt;\n                           &lt;div class=\"paragraph\"&gt;Norton (Waterford) Limited T/A Teva Pharmaceuticals Ireland&lt;br/&gt;Unit 27/35 IDA Industrial Park, Cork Road, Waterford, Irland&lt;/div&gt;\n                           &lt;span class=\"inline-title\"&gt;For ytterligere informasjon kontakt:&lt;/span&gt;\n                           &lt;div class=\"paragraph\"&gt;Teva Norway AS&lt;br/&gt;Kinoveien 3A&lt;br/&gt;1337 Sandvika&lt;br/&gt;Tlf: 66 77 55 90&lt;br/&gt;\n                              &lt;a href=\"mailto:info@tevapharm.no\" title=\"info@tevapharm.no\"&gt;info@tevapharm.no&lt;/a&gt;\n                           &lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Dette pakningsvedlegget ble sist oppdatert: 01.01.2021" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029919" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Dette pakningsvedlegget ble sist oppdatert: 01.01.2021&lt;/h3&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Andre informasjonskilder" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029920" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;div class=\"paragraph\"&gt;Detaljert informasjon om dette legemidlet er tilgjengelig på nettstedet til &lt;a href=\"http://www.felleskatalogen.no/\" title=\"\n               \n                  www.felleskatalogen.no\n               \n            \"&gt;\n               \n                  www.felleskatalogen.no\n               \n            &lt;/a&gt;\n                           &lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] )     ] )
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/COPD-MPD-28&gt; <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">a</a> fhir:MedicinalProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "COPD-MPD-28"] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"MedicinalProductDefinition_COPD-MPD-28\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition&lt;/b&gt;&lt;a name=\"COPD-MPD-28\"&gt; &lt;/a&gt;&lt;a name=\"hcCOPD-MPD-28\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource MedicinalProductDefinition &amp;quot;COPD-MPD-28&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\"&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_4DE5B13A-4C84-4A3F-9733-91D1F9CA2AA7&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;*&lt;/td&gt;&lt;td&gt;Aerobec inh aerosol, oppl 100 mikrog/dose&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelMerkevareID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_4DE5B13A-4C84-4A3F-9733-91D1F9CA2AA7" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name">fhir:name</a> ( [
+<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.productName">fhir:productName</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Aerobec inh aerosol, oppl 100 mikrog/dose" ]
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/COPD-PPD-37&gt; <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">a</a> fhir:PackagedProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "COPD-PPD-37"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"PackagedProductDefinition_COPD-PPD-37\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;a name=\"COPD-PPD-37\"&gt; &lt;/a&gt;&lt;a name=\"hcCOPD-PPD-37\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource PackagedProductDefinition &amp;quot;COPD-PPD-37&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\"&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_8F7CDDB7-E333-4839-AEFA-4341173C3A6B, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/378792&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Aerobec inh aerosol, oppl 100 mikrog/dose&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_COPD-MPD-28\"&gt;See above (MedicinalProductDefinition/COPD-MPD-28)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelPakningID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_8F7CDDB7-E333-4839-AEFA-4341173C3A6B" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://farmalogg.no/varenummer"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "378792" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Aerobec inh aerosol, oppl 100 mikrog/dose"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packageFor">fhir:packageFor</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/COPD-MPD-28" ]
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/COPD-MPD-34&gt; <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">a</a> fhir:MedicinalProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "COPD-MPD-34"] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"MedicinalProductDefinition_COPD-MPD-34\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition&lt;/b&gt;&lt;a name=\"COPD-MPD-34\"&gt; &lt;/a&gt;&lt;a name=\"hcCOPD-MPD-34\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource MedicinalProductDefinition &amp;quot;COPD-MPD-34&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\"&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_8DCB732B-F555-4A8A-81B9-519FA22CFC51&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;*&lt;/td&gt;&lt;td&gt;Aerobec inh aerosol, oppl 50 mikrog/dose&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelMerkevareID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_8DCB732B-F555-4A8A-81B9-519FA22CFC51" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name">fhir:name</a> ( [
+<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.productName">fhir:productName</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Aerobec inh aerosol, oppl 50 mikrog/dose" ]
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/COPD-PPD-46&gt; <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">a</a> fhir:PackagedProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "COPD-PPD-46"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"PackagedProductDefinition_COPD-PPD-46\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;a name=\"COPD-PPD-46\"&gt; &lt;/a&gt;&lt;a name=\"hcCOPD-PPD-46\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource PackagedProductDefinition &amp;quot;COPD-PPD-46&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\"&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_83D3902F-CAC1-44BB-8EB2-0783C7911863, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/052957&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Aerobec inh aerosol, oppl 50 mikrog/dose&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_COPD-MPD-34\"&gt;See above (MedicinalProductDefinition/COPD-MPD-34)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelPakningID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_83D3902F-CAC1-44BB-8EB2-0783C7911863" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://farmalogg.no/varenummer"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "052957" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Aerobec inh aerosol, oppl 50 mikrog/dose"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packageFor">fhir:packageFor</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/COPD-MPD-34" ]
+  ] ) . # 
+
+</pre>
+
+
+
+    <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

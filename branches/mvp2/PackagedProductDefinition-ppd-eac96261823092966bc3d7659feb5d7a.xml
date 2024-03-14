@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PackagedProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="ppd-eac96261823092966bc3d7659feb5d7a"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="ppd-eac96261823092966bc3d7659feb5d7a"> </a><a name="hcppd-eac96261823092966bc3d7659feb5d7a"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;ppd-eac96261823092966bc3d7659feb5d7a&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/fin-x (use: OFFICIAL)</p><p><b>name</b>: Lipcut Simvastatin 5 mg Tablet 28</p><p><b>type</b>: Chemical Medicinal Product <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-mp245a2b4a9e3ee4304e5e6cf2b1a252b4.html">MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4</a></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R5/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 5 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: Blister <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073496)</span></p><p><b>quantity</b>: 28</p><p><b>material</b>: PolyVinyl Chloride <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000003222)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://spor.ema.europa.eu/pmswi"/>
+    <value value="fin-x"/>
+  </identifier>
+  <name value="Lipcut Simvastatin 5 mg Tablet 28"/>
+  <type>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000155527"/>
+      <display value="Chemical Medicinal Product"/>
+    </coding>
+  </type>
+  <packageFor>
+    <reference value="MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4"/>
+  </packageFor>
+  <status>
+    <coding>
+      <system value="http://hl7.org/fhir/publication-status"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </status>
+  <statusDate value="2015-02-07T13:28:17Z"/>
+  <containedItemQuantity>
+    <value value="5"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="mg"/>
+  </containedItemQuantity>
+  <packaging>
+    <type>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="100000073498"/>
+        <display value="Box"/>
+      </coding>
+    </type>
+    <quantity value="1"/>
+    <material>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="200000003529"/>
+        <display value="Cardboard"/>
+      </coding>
+    </material>
+    <packaging>
+      <identifier>
+        <system value="https://spor.ema.europa.eu/pmswi"/>
+        <value value="123456"/>
+      </identifier>
+      <type>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi"/>
+          <code value="100000073496"/>
+          <display value="Blister"/>
+        </coding>
+      </type>
+      <quantity value="28"/>
+      <material>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi"/>
+          <code value="200000003222"/>
+          <display value="PolyVinyl Chloride"/>
+        </coding>
+      </material>
+      <containedItem>
+        <item>
+          <reference>
+            <reference value="ManufacturedItemDefinition/mid-660952efa1b907b97e182807063ac261"/>
+          </reference>
+        </item>
+      </containedItem>
+    </packaging>
+  </packaging>
+</PackagedProductDefinition>

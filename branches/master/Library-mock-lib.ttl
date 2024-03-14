@@ -1,0 +1,45 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Library/mock-lib> a fhir:Library ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mock-lib"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Contents</h2><p><code>application/javascript</code></p><pre><code>code dummy</code></pre></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Library/mock-lib"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:code [ fhir:v "logic-library" ]
+     ] )
+  ] ; # 
+  fhir:date [ fhir:v "2024-01-21T22:55:49+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Gravitate Health Project"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] ) ; # 
+  fhir:content ( [
+     fhir:contentType [ fhir:v "application/javascript" ] ;
+     fhir:data [ fhir:v "Y29kZSBkdW1teQ=="^^xsd:base64Binary ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

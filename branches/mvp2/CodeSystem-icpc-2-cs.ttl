@@ -1,0 +1,127 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/icpc-2-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "icpc-2-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/icpc-2-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">B90<a name=\"icpc-2-cs-B90\"> </a></td><td>HIV-infection/AIDS</td><td>HIV-infection/AIDS</td></tr><tr><td style=\"white-space:nowrap\">R80<a name=\"icpc-2-cs-R80\"> </a></td><td>Influenza</td><td>Influenza</td></tr><tr><td style=\"white-space:nowrap\">R81<a name=\"icpc-2-cs-R81\"> </a></td><td>Pneumonia</td><td>Pneumonia</td></tr><tr><td style=\"white-space:nowrap\">P74<a name=\"icpc-2-cs-P74\"> </a></td><td>Anxiety disorder/anxiety state</td><td>Anxiety disorder/anxiety state</td></tr><tr><td style=\"white-space:nowrap\">W78<a name=\"icpc-2-cs-W78\"> </a></td><td>Pregnancy</td><td>Pregnancy</td></tr><tr><td style=\"white-space:nowrap\">W27<a name=\"icpc-2-cs-W27\"> </a></td><td>Fear of complications of pregnancy</td><td>Fear of complications of pregnancy</td></tr><tr><td style=\"white-space:nowrap\">D07<a name=\"icpc-2-cs-D07\"> </a></td><td>Dyspepsia/indigestion</td><td>Dyspepsia/indigestion</td></tr><tr><td style=\"white-space:nowrap\">A84<a name=\"icpc-2-cs-A84\"> </a></td><td>Poisoning by medical agent</td><td>Poisoning by medical agent</td></tr><tr><td style=\"white-space:nowrap\">P19<a name=\"icpc-2-cs-P19\"> </a></td><td>Drug abuse</td><td>Drug abuse</td></tr><tr><td style=\"white-space:nowrap\">P18<a name=\"icpc-2-cs-P18\"> </a></td><td>Medication abuse</td><td>Medication abuse</td></tr><tr><td style=\"white-space:nowrap\">B99<a name=\"icpc-2-cs-B99\"> </a></td><td>Blood/lymph/spleen disease other</td><td>Blood/lymph/spleen disease other</td></tr><tr><td style=\"white-space:nowrap\">D97<a name=\"icpc-2-cs-D97\"> </a></td><td>Liver disease NOS</td><td>Liver disease NOS</td></tr><tr><td style=\"white-space:nowrap\">A13<a name=\"icpc-2-cs-A13\"> </a></td><td>Concern/fear medical treatment</td><td>Concern/fear medical treatment</td></tr><tr><td style=\"white-space:nowrap\">A78<a name=\"icpc-2-cs-A78\"> </a></td><td>Infectious disease other/NOS </td><td>Infectious disease other/NOS </td></tr><tr><td style=\"white-space:nowrap\">P03<a name=\"icpc-2-cs-P03\"> </a></td><td>Feeling depressed</td><td>Feeling depressed</td></tr><tr><td style=\"white-space:nowrap\">U72<a name=\"icpc-2-cs-U72\"> </a></td><td>Urethritis</td><td>Urethritis</td></tr><tr><td style=\"white-space:nowrap\">K86<a name=\"icpc-2-cs-K86\"> </a></td><td>Hypertension uncomplicated</td><td>Hypertension uncomplicated</td></tr><tr><td style=\"white-space:nowrap\">T89<a name=\"icpc-2-cs-T89\"> </a></td><td>Diabetes insulin dependent</td><td>Diabetes insulin dependent</td></tr><tr><td style=\"white-space:nowrap\">T90<a name=\"icpc-2-cs-T90\"> </a></td><td>Diabetes non-insulin dependent</td><td>Diabetes non-insulin dependent</td></tr><tr><td style=\"white-space:nowrap\">K22<a name=\"icpc-2-cs-K22\"> </a></td><td>Risk factor cardiovascular disease</td><td>Risk factor cardiovascular disease</td></tr><tr><td style=\"white-space:nowrap\">D93<a name=\"icpc-2-cs-D93\"> </a></td><td>Irritable bowel syndrome</td><td>Irritable bowel syndrome</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/icpc-2-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ICPC2CS"] ; # 
+  fhir:title [ fhir:v "Example ICPC2 CS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-03-14T09:41:47+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Gravitate Health Project"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Example ICPC2 CS"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "21"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "B90" ] ;
+     fhir:display [ fhir:v "HIV-infection/AIDS" ] ;
+     fhir:definition [ fhir:v "HIV-infection/AIDS" ]
+  ] [
+     fhir:code [ fhir:v "R80" ] ;
+     fhir:display [ fhir:v "Influenza" ] ;
+     fhir:definition [ fhir:v "Influenza" ]
+  ] [
+     fhir:code [ fhir:v "R81" ] ;
+     fhir:display [ fhir:v "Pneumonia" ] ;
+     fhir:definition [ fhir:v "Pneumonia" ]
+  ] [
+     fhir:code [ fhir:v "P74" ] ;
+     fhir:display [ fhir:v "Anxiety disorder/anxiety state" ] ;
+     fhir:definition [ fhir:v "Anxiety disorder/anxiety state" ]
+  ] [
+     fhir:code [ fhir:v "W78" ] ;
+     fhir:display [ fhir:v "Pregnancy" ] ;
+     fhir:definition [ fhir:v "Pregnancy" ]
+  ] [
+     fhir:code [ fhir:v "W27" ] ;
+     fhir:display [ fhir:v "Fear of complications of pregnancy" ] ;
+     fhir:definition [ fhir:v "Fear of complications of pregnancy" ]
+  ] [
+     fhir:code [ fhir:v "D07" ] ;
+     fhir:display [ fhir:v "Dyspepsia/indigestion" ] ;
+     fhir:definition [ fhir:v "Dyspepsia/indigestion" ]
+  ] [
+     fhir:code [ fhir:v "A84" ] ;
+     fhir:display [ fhir:v "Poisoning by medical agent" ] ;
+     fhir:definition [ fhir:v "Poisoning by medical agent" ]
+  ] [
+     fhir:code [ fhir:v "P19" ] ;
+     fhir:display [ fhir:v "Drug abuse" ] ;
+     fhir:definition [ fhir:v "Drug abuse" ]
+  ] [
+     fhir:code [ fhir:v "P18" ] ;
+     fhir:display [ fhir:v "Medication abuse" ] ;
+     fhir:definition [ fhir:v "Medication abuse" ]
+  ] [
+     fhir:code [ fhir:v "B99" ] ;
+     fhir:display [ fhir:v "Blood/lymph/spleen disease other" ] ;
+     fhir:definition [ fhir:v "Blood/lymph/spleen disease other" ]
+  ] [
+     fhir:code [ fhir:v "D97" ] ;
+     fhir:display [ fhir:v "Liver disease NOS" ] ;
+     fhir:definition [ fhir:v "Liver disease NOS" ]
+  ] [
+     fhir:code [ fhir:v "A13" ] ;
+     fhir:display [ fhir:v "Concern/fear medical treatment" ] ;
+     fhir:definition [ fhir:v "Concern/fear medical treatment" ]
+  ] [
+     fhir:code [ fhir:v "A78" ] ;
+     fhir:display [ fhir:v "Infectious disease other/NOS " ] ;
+     fhir:definition [ fhir:v "Infectious disease other/NOS " ]
+  ] [
+     fhir:code [ fhir:v "P03" ] ;
+     fhir:display [ fhir:v "Feeling depressed" ] ;
+     fhir:definition [ fhir:v "Feeling depressed" ]
+  ] [
+     fhir:code [ fhir:v "U72" ] ;
+     fhir:display [ fhir:v "Urethritis" ] ;
+     fhir:definition [ fhir:v "Urethritis" ]
+  ] [
+     fhir:code [ fhir:v "K86" ] ;
+     fhir:display [ fhir:v "Hypertension uncomplicated" ] ;
+     fhir:definition [ fhir:v "Hypertension uncomplicated" ]
+  ] [
+     fhir:code [ fhir:v "T89" ] ;
+     fhir:display [ fhir:v "Diabetes insulin dependent" ] ;
+     fhir:definition [ fhir:v "Diabetes insulin dependent" ]
+  ] [
+     fhir:code [ fhir:v "T90" ] ;
+     fhir:display [ fhir:v "Diabetes non-insulin dependent" ] ;
+     fhir:definition [ fhir:v "Diabetes non-insulin dependent" ]
+  ] [
+     fhir:code [ fhir:v "K22" ] ;
+     fhir:display [ fhir:v "Risk factor cardiovascular disease" ] ;
+     fhir:definition [ fhir:v "Risk factor cardiovascular disease" ]
+  ] [
+     fhir:code [ fhir:v "D93" ] ;
+     fhir:display [ fhir:v "Irritable bowel syndrome" ] ;
+     fhir:definition [ fhir:v "Irritable bowel syndrome" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

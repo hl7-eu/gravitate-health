@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-9b5b17469311c2ea4d1d08419748b4fb> a fhir:AdministrableProductDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ap-9b5b17469311c2ea4d1d08419748b4fb"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"ap-9b5b17469311c2ea4d1d08419748b4fb\"> </a><a name=\"hcap-9b5b17469311c2ea4d1d08419748b4fb\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;ap-9b5b17469311c2ea4d1d08419748b4fb&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/nan</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"MedicinalProductDefinition-mpf97db27e6330f77484eb8425ad2913cd.html\">MedicinalProductDefinition/mpf97db27e6330f77484eb8425ad2913cd</a></p><p><b>administrableDoseForm</b>: Solution for injection <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073863)</span></p><p><b>unitOfPresentation</b>: Syringe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002150)</span></p><p><b>producedFrom</b>: <a href=\"ManufacturedItemDefinition-mid-9b5b17469311c2ea4d1d08419748b4fb.html\">ManufacturedItemDefinition/mid-9b5b17469311c2ea4d1d08419748b4fb</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Subcutaneous use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073633)</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>Human <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "nan" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:formOf ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpf97db27e6330f77484eb8425ad2913cd> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mpf97db27e6330f77484eb8425ad2913cd" ]
+  ] ) ; # 
+  fhir:administrableDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000073863" ] ;
+       fhir:display [ fhir:v "Solution for injection" ]
+     ] )
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000002150" ] ;
+       fhir:display [ fhir:v "Syringe" ]
+     ] )
+  ] ; # 
+  fhir:producedFrom ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-9b5b17469311c2ea4d1d08419748b4fb> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-9b5b17469311c2ea4d1d08419748b4fb" ]
+  ] ) ; # 
+  fhir:routeOfAdministration ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073633" ] ;
+         fhir:display [ fhir:v "Subcutaneous use" ]
+       ] )
+     ] ;
+     fhir:targetSpecies ( [
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000109093" ] ;
+           fhir:display [ fhir:v "Human" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

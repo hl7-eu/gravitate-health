@@ -1,0 +1,903 @@
+<!-- get modelType -->
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Gravitate Health Lens - logical model - JSON Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.62"}
+    h3,h4,h5,h6{--heading-prefix:"16.62"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Gravitate Health Lens - logical model</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="StructureDefinition-Lens.html">Content</a>
+  </li>
+
+
+
+  <li>
+    <a href="StructureDefinition-Lens-definitions.html">Detailed Descriptions</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="StructureDefinition-Lens-mappings.html">Mappings</a>
+    </li>
+  
+
+
+
+
+
+
+
+  
+    <li>
+      <a href="StructureDefinition-Lens.profile.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="StructureDefinition-Lens.profile.ttl.html">TTL</a>
+    </li>
+  
+
+
+</ul>
+
+
+<a name="root"> </a>
+<h2 id="root">Logical Model: Lens - JSON Profile</h2>
+
+  <table class="colsi">
+    <tr>
+
+      <td colspan="2">
+        
+          Active
+          
+            as of 2023-12-05
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p>JSON representation of the Lens logical model.</p>
+
+<p><a href="StructureDefinition-Lens.json" no-download="true">Raw json</a> | <a href="StructureDefinition-Lens.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" style="white-space: pre; overflow: hidden"><code>
+{
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition">resourceType</a>" : "StructureDefinition",
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.id">id</a>" : "Lens",
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "extensions",
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;table border=\&quot;0\&quot; cellpadding=\&quot;0\&quot; cellspacing=\&quot;0\&quot; style=\&quot;border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\&quot;&gt;&lt;tr style=\&quot;border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\&quot;&gt;&lt;th style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\&quot; title=\&quot;The logical name of the element\&quot;&gt;Name&lt;/a&gt;&lt;/th&gt;&lt;th style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\&quot; title=\&quot;Information about the use of the element\&quot;&gt;Flags&lt;/a&gt;&lt;/th&gt;&lt;th style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\&quot; title=\&quot;Minimum and Maximum # of times the the element can appear in the instance\&quot;&gt;Card.&lt;/a&gt;&lt;/th&gt;&lt;th style=\&quot;width: 100px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\&quot; title=\&quot;Reference to the type of the element\&quot;&gt;Type&lt;/a&gt;&lt;/th&gt;&lt;th style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\&quot; title=\&quot;Additional information about the element\&quot;&gt;Description &amp;amp; Constraints&lt;/a&gt;&lt;span style=\&quot;float: right\&quot;&gt;&lt;a href=\&quot;https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\&quot; title=\&quot;Legend for this format\&quot;&gt;&lt;img src=\&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\&quot; alt=\&quot;doco\&quot; style=\&quot;background-color: inherit\&quot;/&gt;&lt;/a&gt;&lt;/span&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr style=\&quot;border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\&quot;&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;img src=\&quot;tbl_spacer.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;icon_element.gif\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: white; background-color: inherit\&quot; title=\&quot;Element\&quot; class=\&quot;hierarchy\&quot;/&gt; &lt;a href=\&quot;StructureDefinition-Lens-definitions.html#Lens\&quot; title=\&quot;A model for the gravitate health lens\&quot;&gt;Lens&lt;/a&gt;&lt;a name=\&quot;Lens\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;span style=\&quot;opacity: 0.5\&quot;&gt;0&lt;/span&gt;&lt;span style=\&quot;opacity: 0.5\&quot;&gt;..&lt;/span&gt;&lt;span style=\&quot;opacity: 0.5\&quot;&gt;*&lt;/span&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/R5/types.html#Base\&quot;&gt;Base&lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;Gravitate Health Lens - logical model&lt;br/&gt;&lt;span style=\&quot;font-weight:bold\&quot;&gt;Instances of this logical model are not marked to be the target of a Reference&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\&quot;border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\&quot;&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;img src=\&quot;tbl_spacer.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;tbl_vjoin.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;icon_primitive.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: #F7F7F7; background-color: inherit\&quot; title=\&quot;Primitive Data Type\&quot; class=\&quot;hierarchy\&quot;/&gt; &lt;a href=\&quot;StructureDefinition-Lens-definitions.html#Lens.name\&quot; title=\&quot;name of the lense\&quot;&gt;name&lt;/a&gt;&lt;a name=\&quot;Lens.name\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;1..1&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/R5/datatypes.html#string\&quot;&gt;string&lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;name of the lense&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\&quot;border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\&quot;&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;img src=\&quot;tbl_spacer.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;tbl_vjoin.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;icon_primitive.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: white; background-color: inherit\&quot; title=\&quot;Primitive Data Type\&quot; class=\&quot;hierarchy\&quot;/&gt; &lt;a href=\&quot;StructureDefinition-Lens-definitions.html#Lens.intent\&quot; title=\&quot;description of the patients this lens is intented towards\&quot;&gt;intent&lt;/a&gt;&lt;a name=\&quot;Lens.intent\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;1..1&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/R5/datatypes.html#string\&quot;&gt;string&lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;description of the patients this lens is intented towards&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\&quot;border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\&quot;&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;img src=\&quot;tbl_spacer.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;tbl_vjoin.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;icon_datatype.gif\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: #F7F7F7; background-color: inherit\&quot; title=\&quot;Data Type\&quot; class=\&quot;hierarchy\&quot;/&gt; &lt;a href=\&quot;StructureDefinition-Lens-definitions.html#Lens.parameters\&quot; title=\&quot;input parameters (for GDPR enforcement)\&quot;&gt;parameters&lt;/a&gt;&lt;a name=\&quot;Lens.parameters\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;0..*&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/R5/datatypes.html#CodeableConcept\&quot;&gt;CodeableConcept&lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;input parameters (for GDPR enforcement)&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\&quot;border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\&quot;&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;img src=\&quot;tbl_spacer.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;tbl_vjoin.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;icon_primitive.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: white; background-color: inherit\&quot; title=\&quot;Primitive Data Type\&quot; class=\&quot;hierarchy\&quot;/&gt; &lt;a href=\&quot;StructureDefinition-Lens-definitions.html#Lens.explanation\&quot; title=\&quot;disclaimer, explanation of the lens\&quot;&gt;explanation&lt;/a&gt;&lt;a name=\&quot;Lens.explanation\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;0..1&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/R5/datatypes.html#string\&quot;&gt;string&lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;disclaimer, explanation of the lens&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\&quot;border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\&quot;&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;img src=\&quot;tbl_spacer.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;tbl_vjoin.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;icon_reference.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: #F7F7F7; background-color: inherit\&quot; title=\&quot;Reference to another Resource\&quot; class=\&quot;hierarchy\&quot;/&gt; &lt;a href=\&quot;StructureDefinition-Lens-definitions.html#Lens.alternative\&quot; title=\&quot;compatible / recommended / alternative lenses\&quot;&gt;alternative&lt;/a&gt;&lt;a name=\&quot;Lens.alternative\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;0..*&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/R5/references.html\&quot;&gt;Reference&lt;/a&gt;(&lt;a href=\&quot;StructureDefinition-Lens.html\&quot;&gt;Gravitate Health Lens - logical model&lt;/a&gt;)&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;compatible / recommended / alternative lenses&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\&quot;border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\&quot;&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;img src=\&quot;tbl_spacer.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;tbl_vjoin.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;icon_reference.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: white; background-color: inherit\&quot; title=\&quot;Reference to another Resource\&quot; class=\&quot;hierarchy\&quot;/&gt; &lt;a href=\&quot;StructureDefinition-Lens-definitions.html#Lens.author\&quot; title=\&quot;author/owner of the lens\&quot;&gt;author&lt;/a&gt;&lt;a name=\&quot;Lens.author\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;1..1&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/R5/references.html\&quot;&gt;Reference&lt;/a&gt;(&lt;a href=\&quot;http://hl7.org/fhir/R5/organization.html\&quot;&gt;Organization&lt;/a&gt;)&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;author/owner of the lens&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\&quot;border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\&quot;&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;img src=\&quot;tbl_spacer.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;tbl_vjoin.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;icon_primitive.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: #F7F7F7; background-color: inherit\&quot; title=\&quot;Primitive Data Type\&quot; class=\&quot;hierarchy\&quot;/&gt; &lt;a href=\&quot;StructureDefinition-Lens-definitions.html#Lens.license\&quot; title=\&quot;license of the lens\&quot;&gt;license&lt;/a&gt;&lt;a name=\&quot;Lens.license\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;1..1&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/R5/datatypes.html#string\&quot;&gt;string&lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;license of the lens&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\&quot;border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\&quot;&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;img src=\&quot;tbl_spacer.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;tbl_vjoin.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;icon_datatype.gif\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: white; background-color: inherit\&quot; title=\&quot;Data Type\&quot; class=\&quot;hierarchy\&quot;/&gt; &lt;a href=\&quot;StructureDefinition-Lens-definitions.html#Lens.documentation\&quot; title=\&quot;documentation of the lens\&quot;&gt;documentation&lt;/a&gt;&lt;a name=\&quot;Lens.documentation\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;0..*&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/R5/datatypes.html#CodeableConcept\&quot;&gt;CodeableConcept&lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;documentation of the lens&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\&quot;border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\&quot;&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;img src=\&quot;tbl_spacer.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;tbl_vjoin.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;icon_datatype.gif\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: #F7F7F7; background-color: inherit\&quot; title=\&quot;Data Type\&quot; class=\&quot;hierarchy\&quot;/&gt; &lt;a href=\&quot;StructureDefinition-Lens-definitions.html#Lens.certification\&quot; title=\&quot;certification of the lens (if any)\&quot;&gt;certification&lt;/a&gt;&lt;a name=\&quot;Lens.certification\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;0..*&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/R5/datatypes.html#CodeableConcept\&quot;&gt;CodeableConcept&lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;certification of the lens (if any)&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\&quot;border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\&quot;&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;img src=\&quot;tbl_spacer.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;tbl_vjoin.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;icon_primitive.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: white; background-color: inherit\&quot; title=\&quot;Primitive Data Type\&quot; class=\&quot;hierarchy\&quot;/&gt; &lt;a href=\&quot;StructureDefinition-Lens-definitions.html#Lens.code\&quot; title=\&quot;link to the code, if not the code itself (we may have different types of code, in the future)\&quot;&gt;code&lt;/a&gt;&lt;a name=\&quot;Lens.code\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;1..*&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/R5/datatypes.html#base64Binary\&quot;&gt;base64Binary&lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;link to the code, if not the code itself (we may have different types of code, in the future)&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\&quot;border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\&quot;&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;img src=\&quot;tbl_spacer.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;tbl_vjoin.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;icon_primitive.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: #F7F7F7; background-color: inherit\&quot; title=\&quot;Primitive Data Type\&quot; class=\&quot;hierarchy\&quot;/&gt; &lt;a href=\&quot;StructureDefinition-Lens-definitions.html#Lens.version\&quot; title=\&quot;version of the lens\&quot;&gt;version&lt;/a&gt;&lt;a name=\&quot;Lens.version\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;1..1&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/R5/datatypes.html#string\&quot;&gt;string&lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;version of the lens&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\&quot;border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\&quot;&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;img src=\&quot;tbl_spacer.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;tbl_vjoin.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;icon_datatype.gif\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: white; background-color: inherit\&quot; title=\&quot;Data Type\&quot; class=\&quot;hierarchy\&quot;/&gt; &lt;a href=\&quot;StructureDefinition-Lens-definitions.html#Lens.region\&quot; title=\&quot;region of applicability of the lens (region / juridisdiction of the lens)\&quot;&gt;region&lt;/a&gt;&lt;a name=\&quot;Lens.region\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;0..*&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/R5/datatypes.html#CodeableConcept\&quot;&gt;CodeableConcept&lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;region of applicability of the lens (region / juridisdiction of the lens)&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\&quot;border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\&quot;&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;img src=\&quot;tbl_spacer.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;tbl_vjoin_end.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: inherit\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;img src=\&quot;icon_primitive.png\&quot; alt=\&quot;.\&quot; style=\&quot;background-color: #F7F7F7; background-color: inherit\&quot; title=\&quot;Primitive Data Type\&quot; class=\&quot;hierarchy\&quot;/&gt; &lt;a href=\&quot;StructureDefinition-Lens-definitions.html#Lens.icon\&quot; title=\&quot;icon for the lens (compliant with a set of style rules)\&quot;&gt;icon&lt;/a&gt;&lt;a name=\&quot;Lens.icon\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;/&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;1..*&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/R5/datatypes.html#base64Binary\&quot;&gt;base64Binary&lt;/a&gt;&lt;/td&gt;&lt;td style=\&quot;vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\&quot; class=\&quot;hierarchy\&quot;&gt;icon for the lens (compliant with a set of style rules)&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr&gt;&lt;td colspan=\&quot;5\&quot; class=\&quot;hierarchy\&quot;&gt;&lt;br/&gt;&lt;a href=\&quot;https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\&quot; title=\&quot;Legend for this format\&quot;&gt;&lt;img src=\&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\&quot; alt=\&quot;doco\&quot; style=\&quot;background-color: inherit\&quot;/&gt; Documentation for this format&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.url">url</a>" : "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lens",
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.name">name</a>" : "Lens",
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.title">title</a>" : "Gravitate Health Lens - logical model",
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.date">date</a>" : "2023-12-05T16:37:50+00:00",
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.publisher">publisher</a>" : "Gravitate Health Project",
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "Gravitate Health Project",
+      "<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://www.gravitatehealth.eu/"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "Gravitate Health Project",
+      "<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://www.gravitatehealth.eu/"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.description">description</a>" : "A model for the gravitate health lens",
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.fhirVersion">fhirVersion</a>" : "5.0.0",
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.mapping">mapping</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.mapping.identity">identity</a>" : "rim",
+      "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.mapping.uri">uri</a>" : "http://hl7.org/v3",
+      "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.mapping.name">name</a>" : "RIM Mapping"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.kind">kind</a>" : "logical",
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.abstract">abstract</a>" : false,
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.type">type</a>" : "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lens",
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.baseDefinition">baseDefinition</a>" : "http://hl7.org/fhir/StructureDefinition/Base",
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.derivation">derivation</a>" : "specialization",
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.snapshot">snapshot</a>" : {
+    "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.snapshot.element">element</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "Gravitate Health Lens - logical model",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "A model for the gravitate health lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>" : {
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.path">path</a>" : "Base",
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.min">min</a>" : 0,
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.max">max</a>" : "*"
+        },
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.isModifier">isModifier</a>" : false,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.mapping">mapping</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a>" : "rim",
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.mapping.map">map</a>" : "n/a"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.name",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.name",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "name of the lense",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "name of the lense",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>" : {
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.path">path</a>" : "Lens.name",
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.min">min</a>" : 1,
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.max">max</a>" : "1"
+        },
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "string"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.intent",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.intent",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "description of the patients this lens is intented towards",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "description of the patients this lens is intented towards",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>" : {
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.path">path</a>" : "Lens.intent",
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.min">min</a>" : 1,
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.max">max</a>" : "1"
+        },
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "string"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.parameters",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.parameters",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "input parameters (for GDPR enforcement)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "input parameters (for GDPR enforcement)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>" : {
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.path">path</a>" : "Lens.parameters",
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.min">min</a>" : 0,
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.max">max</a>" : "*"
+        },
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.explanation",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.explanation",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "disclaimer, explanation of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "disclaimer, explanation of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>" : {
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.path">path</a>" : "Lens.explanation",
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.min">min</a>" : 0,
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.max">max</a>" : "1"
+        },
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "string"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.alternative",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.alternative",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "compatible / recommended / alternative lenses",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "compatible / recommended / alternative lenses",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>" : {
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.path">path</a>" : "Lens.alternative",
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.min">min</a>" : 0,
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.max">max</a>" : "*"
+        },
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "Reference",
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.targetProfile">targetProfile</a>" : [
+              <a href="StructureDefinition-Lens.html" style="color: Maroon">&#x1F517;</a> "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lens"
+            ]
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.author",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.author",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "author/owner of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "author/owner of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>" : {
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.path">path</a>" : "Lens.author",
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.min">min</a>" : 1,
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.max">max</a>" : "1"
+        },
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "Reference",
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.targetProfile">targetProfile</a>" : [
+              <a href="http://hl7.org/fhir/R5/organization.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/Organization"
+            ]
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.license",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.license",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "license of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "license of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>" : {
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.path">path</a>" : "Lens.license",
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.min">min</a>" : 1,
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.max">max</a>" : "1"
+        },
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "string"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.documentation",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.documentation",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "documentation of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "documentation of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>" : {
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.path">path</a>" : "Lens.documentation",
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.min">min</a>" : 0,
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.max">max</a>" : "*"
+        },
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.certification",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.certification",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "certification of the lens (if any)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "certification of the lens (if any)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>" : {
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.path">path</a>" : "Lens.certification",
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.min">min</a>" : 0,
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.max">max</a>" : "*"
+        },
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.code",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.code",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "link to the code, if not the code itself (we may have different types of code, in the future)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "link to the code, if not the code itself (we may have different types of code, in the future)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>" : {
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.path">path</a>" : "Lens.code",
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.min">min</a>" : 1,
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.max">max</a>" : "*"
+        },
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "base64Binary"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.version",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.version",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "version of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "version of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>" : {
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.path">path</a>" : "Lens.version",
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.min">min</a>" : 1,
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.max">max</a>" : "1"
+        },
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "string"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.region",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.region",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "region of applicability of the lens (region / juridisdiction of the lens)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "region of applicability of the lens (region / juridisdiction of the lens)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>" : {
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.path">path</a>" : "Lens.region",
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.min">min</a>" : 0,
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.max">max</a>" : "*"
+        },
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.icon",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.icon",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "icon for the lens (compliant with a set of style rules)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "icon for the lens (compliant with a set of style rules)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>" : {
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.path">path</a>" : "Lens.icon",
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.min">min</a>" : 1,
+          "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.base.max">max</a>" : "*"
+        },
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "base64Binary"
+          }
+        ]
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.differential">differential</a>" : {
+    "<a href="http://hl7.org/fhir/R5/structuredefinition.html#StructureDefinition.differential.element">element</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "Gravitate Health Lens - logical model",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "A model for the gravitate health lens"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.name",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.name",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "name of the lense",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "name of the lense",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "string"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.intent",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.intent",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "description of the patients this lens is intented towards",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "description of the patients this lens is intented towards",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "string"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.parameters",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.parameters",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "input parameters (for GDPR enforcement)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "input parameters (for GDPR enforcement)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.explanation",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.explanation",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "disclaimer, explanation of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "disclaimer, explanation of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "string"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.alternative",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.alternative",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "compatible / recommended / alternative lenses",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "compatible / recommended / alternative lenses",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "Reference",
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.targetProfile">targetProfile</a>" : [
+              <a href="StructureDefinition-Lens.html" style="color: Maroon">&#x1F517;</a> "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lens"
+            ]
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.author",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.author",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "author/owner of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "author/owner of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "Reference",
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.targetProfile">targetProfile</a>" : [
+              <a href="http://hl7.org/fhir/R5/organization.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/Organization"
+            ]
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.license",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.license",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "license of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "license of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "string"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.documentation",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.documentation",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "documentation of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "documentation of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.certification",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.certification",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "certification of the lens (if any)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "certification of the lens (if any)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.code",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.code",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "link to the code, if not the code itself (we may have different types of code, in the future)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "link to the code, if not the code itself (we may have different types of code, in the future)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "base64Binary"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.version",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.version",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "version of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "version of the lens",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "string"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.region",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.region",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "region of applicability of the lens (region / juridisdiction of the lens)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "region of applicability of the lens (region / juridisdiction of the lens)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.id">id</a>" : "Lens.icon",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a>" : "Lens.icon",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>" : "icon for the lens (compliant with a set of style rules)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "icon for the lens (compliant with a set of style rules)",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
+        "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "base64Binary"
+          }
+        ]
+      }
+    ]
+  }
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    try {
+      var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
+    } catch(exception) {
+    }
+
+    if (!currentTabIndex)
+      currentTabIndex = '0';
+
+    $( '#tabs' ).tabs({
+      active: currentTabIndex,
+      activate: function( event, ui ) {
+        var active = $('.selector').tabs('option', 'active');
+        currentTabIndex = ui.newTab.index();
+        document.activeElement.blur();
+        try {
+          sessionStorage.setItem('fhir-resource-tab-index', currentTabIndex);
+        } catch(exception) {
+        }
+      }
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Dec 5, 2023 16:37+0000">2023-12-05</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>bundlepackageleaflet-xeljanz - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.144"}
+    h3,h4,h5,h6{--heading-prefix:"16.144"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>bundlepackageleaflet-xeljanz</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-xeljanz.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-xeljanz.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-xeljanz.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Example Bundle: bundlepackageleaflet-xeljanz</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>Pakendi infoleht: teave patsiendile</h3>
+    <p>
+      <div><p style="text-align: center"><b>Pakendi infoleht: teave patsiendile</b></p><p style="text-align: center"><b>XELJANZ 5 mg õhukese polümeerikattega tabletid</b></p><p style="text-align: center"><b>XELJANZ 10 mg õhukese polümeerikattega tabletid</b></p><p style="text-align: center">tofatsitiniib</p><p><b>Enne ravimi kasutamist lugege hoolikalt infolehte, sest siin on teile vajalikku teavet.</b></p><ul><li>Hoidke infoleht alles, et seda vajadusel uuesti lugeda.</li><li>Kui teil on lisaküsimusi, pidage nõu oma arsti või apteekriga.</li><li>Ravim on välja kirjutatud üksnes teile. Ärge andke seda kellelegi teisele. Ravim võib olla neile kahjulik, isegi kui haigusnähud on sarnased.</li><li>Kui teil tekib ükskõik milline kõrvaltoime, pidage nõu oma arsti või apteekriga. Kõrvaltoime võib olla ka selline, mida selles infolehes ei ole nimetatud. Vt lõik 4.</li></ul><p>Lisaks sellele infolehele annab arst teile ka patsiendi teabekaardi, mis sisaldab tähtsat ohutusalat informatsiooni, millest peate teadlik olema enne XELJANZi võtmist ja XELJANZ-ravi ajal. Kandke seda patsiendi teabekaarti endaga kaasas.</p></div></p>
+    
+      
+
+        <h4>Infolehe sisukord</h4>
+        <p>
+          <div><ol><li>Mis ravim on XELJANZ ja milleks seda kasutatakse</li><li>Mida on vaja teada enne XELJANZi võtmist</li><li>Kuidas XELJANZi võtta</li><li>Võimalikud kõrvaltoimed</li><li>Kuidas XELJANZi säilitada</li><li>Pakendi sisu ja muu teave</li></ol></div></p>
+
+      
+    
+  
+    <h3>1. Mis ravim on XELJANZ ja milleks seda kasutatakse</h3>
+    <p>
+      <div><p>XELJANZ on ravim, mis sisaldab toimeainet tofatsitiniib.</p><p>XELJANZi kasutatakse järgmiste põletikuliste haiguste raviks:</p><ul><li>reumatoidartriit;</li><li>psoriaatiline artriit;</li><li>haavandiline koliit;</li><li>anküloseeriv spondüliit;</li><li>polüartikulaarne juveniilne idiopaatiline artriit ja juveniilne psoriaatiline artriit.</li></ul><p><b>Reumatoidartriit</b></p><p>XELJANZi kasutatakse täiskasvanud patsientidel, kellel on mõõdukas kuni raske aktiivne reumatoidartriit, pikaajaline haigus, mis põhjustab peamiselt valu ja turseid teie liigestes.</p><p>XELJANZi kasutatakse koos metotreksaadiga kui eelnev reumatoidartriidi ravi ei olnud piisav või hästi talutav. XELJANZi võib võtta ka ainuravimina juhtudel, kui ravi metotreksaadiga ei taluta või ravi metotreksaadiga ei ole soovitatav.</p><p>XELJANZ vähendab tõestatult valu ja liigeste paistetust ja parandab igapäevategevuste sooritamise võimet, kui seda võetakse üksi või koos metotreksaadiga.</p><p><b>Psoriaatiline artriit</b></p><p>XELJANZi kasutatakse psoriaatiliseks artriidiks nimetatava haigusseisundi raviks täiskasvanutel. Nimetatud seisund kujutab endast põletikulist liigesehaigust, millega kaasneb sageli psoriaas. Kui teil on aktiivne psoriaatiline artriit, antakse teile kõigepealt mõnda teist ravimit psoriaatilise artriidi raviks. Kui teie ravivastus ei ole piisav või kui te ei talu ravimit, võidakse teie aktiivse psoriaatilise artriidi nähtude ja sümptomite raviks ning igapäevaste toimingute tegemise hõlbustamiseks määrata XELJANZi.</p><p>XELJANZi kasutatakse koos metotreksaadiga aktiivse psoriaatilise artriidiga täiskasvanud patsientide raviks.</p><p><b>Anküloseeriv spondüliit</b></p><p>XELJANZi kasutatakse anküloseerivaks spondüliidiks nimetatava põletikulise lülisambahaiguse raviks.</p><p>Kui teil on anküloseeriv spondüliit, võidakse teile esmalt määrata teisi ravimeid. Kui ravivastus nendele ravimitele ei ole piisavalt hea, määratakse teile XELJANZ. XELJANZ võib aidata vähendada seljavalu ja parandada füüsilist funktsiooni. Need mõjud võivad hõlbustada teie tavalisi igapäevaseid tegevusi ja seega parandada teie elukvaliteeti.</p><p><b>Haavandiline koliit</b></p><p>Haavandiline koliit on jämesoole põletikuline haigus. XELJANZi kasutatakse täiskasvanutel haavandilise koliidi nähtude ja sümptomite leevendamiseks, kui teie ravivastus varasemale haavandilise koliidi ravile ei olnud piisav või teil esines selle suhtes talumatus.</p><p><b>Polüartikulaarne juveniilne idiopaatiline artriit ja juveniilne psoriaatiline artriit</b></p><p>XELJANZi kasutatakse polüartikulaarse juveniilse idiopaatilise artriidi – pikaajalise, peamiselt liigeste valu ja paistetust põhjustava haiguse – raviks 2‑aastastel ja vanematel patsientidel.</p><p>XELJANZi kasutatakse ka juveniilse psoriaatilise artriidi – põletikulise liigesehaiguse, millega sageli kaasneb psoriaas –, raviks 2‑aastastel ja vanematel patsientidel.</p><p>XELJANZi võib kasutada koos metotreksaadiga, kui varasem polüartikulaarse juveniilse idiopaatilise artriidi või juveniilse psoriaatilise artriidi ravi ei olnud piisav või hästi talutav. XELJANZi võib võtta ka ainuravimina juhtudel, kui ravi metotreksaadiga ei taluta või ravi metotreksaadiga ei ole soovitatav.</p></div></p>
+    
+  
+    <h3>2. Mida on vaja teada enne XELJANZi võtmist</h3>
+    <p>
+      <div></div></p>
+    
+      
+
+        <h4>XELJANZi ei tohi võtta</h4>
+        <p>
+          <div><ul><li>kui olete tofatsitiniibi või selle ravimi mis tahes koostisosade (loetletud lõigus 6) suhtes allergiline;</li><li>kui teil on raske infektsioon, nt vereringeinfektsioon või aktiivne tuberkuloos;</li><li>kui teid on teavitatud, et teil on raske maksahaigus, sh tsirroos (maksa sidekoestumine);</li><li>kui te olete rase või imetate.</li></ul><p>Kui te ei ole mistahes ülaltoodud teabes kindel, pidage nõu oma arstiga.</p></div></p>
+
+      
+
+        <h4>Hoiatused ja ettevaatusabinõud</h4>
+        <p>
+          <div><p>Enne XELJANZi võtmist pidage nõu oma arsti või apteekriga:</p><ul><li>kui teil on infektsioon või infektsiooni sümptomid, nt palavik, higistamine, külmavärinad, lihasvalud, köha, hingamisraskused, röga teke või selle muutused, kehakaalu langus, soe, punetav või valulik nahk või haavandid kehal, raskused või valu neelamisel, kõhulahtisus või kõhuvalu, põletustunne urineerimisel või tavalisest sagedasem urineerimine, suur väsimustunne;</li><li>kui teil on mõni haigusseisund, mis suurendab teie infektsiooniohtu (nt diabeet, HIV/AIDS või nõrk immuunsüsteem);</li><li>kui teil on olnud mõni infektsioon, teid ravitakse mõne infektsiooni vastu või teil on korduma kippuvad infektsioonid. Teavitage oma arsti viivitamatult, kui te tunnete end halvasti. XELJANZ võib vähendada teie organismi infektsioonidele reageerimise võimet ja põhjustada olemasoleva infektsiooni ägenemist või suurendada uue infektsiooni tekke ohtu.</li><li>kui teil on või on olnud tuberkuloos või te olete olnud lähedases kontaktis tuberkuloosi põdeva isikuga. Teie arst testib teid enne XELJANZiga ravi alustamist tuberkuloosi suhtes ja võib ravi kestel testi korrata.</li><li>kui teil on krooniline kopsuhaigus;</li><li>kui teil on maksaprobleeme;</li><li>kui teil on või on olnud B- või C-hepatiit (maksa mõjutavad viirused). Viirus võib XELJANZi võtmise ajal aktiveeruda. Teie arst võib teha enne XELJANZiga ravi algust ja ravi ajal hepatiidi määramiseks vereanalüüse.</li><li>kui olete 65‑aastane või vanem, kui teil on olnud mõnda tüüpi vähkkasvaja, samuti kui olete praegune või varasem suitsetaja. XELJANZ võib suurendada teatud tüüpi vähkide tekkeriski. XELJANZiga ravitavatel patsientidel on teatatud valgete vererakkude vähist, kopsuvähist ja teistest vähkkasvajatest (nt rinnavähk, nahavähk, eesnäärme- ja pankreasevähk). Kui teil tekib XELJANZi võtmise ajal vähkkasvaja, otsustab arst, kas XELJANZi ravi tuleb lõpetada.</li><li>kui teil on teadaolevalt luumurdude tekkerisk, nt kui olete 65‑aastane või vanem, naissoost või võtate kortikosteroide (nt prednisooni);</li><li>XELJANZit võtvatel patsientidel on täheldatud mittemelanoomse nahavähi juhte. Teie arst võib soovitada XELJANZi võtmise ajal nahka perioodiliselt kontrollida. Kui ravi ajal või pärast seda tekivad uued nahakahjustused või kui olemasolevate kahjustuste välimus muutub, teatage sellest oma arstile;</li><li>kui teil on olnud divertikuliit (üks jämesoolepõletiku tüüpidest) või mao-või soolehaavandid (vt lõik 4);</li><li>kui teil on neeruprobleeme;</li><li><p>kui te planeerite end vaktsineerida, siis rääkige sellest oma arstiga. XELJANZi võtmise ajal ei tohi teatud tüüpi vaktsiine kasutada. Enne XELJANZi võtmise alustamist peate uuendama kõiki soovitatavaid vaktsineerimisi. Teie arst otsustab, kas vajate <i>herpes zoster</i>’i vastast vaktsiini.</p></li><li>kui teil on südameprobleeme, kõrgvererõhutõbi või kõrge kolesteroolitase ning kui te olete praegune või endine suitsetaja.</li></ul><p>On teatatud XELJANZiga ravitud patsientidest, kellel on tekkinud verehüübed (trombid) kopsudes või veenides. Teie arst hindab riski trombide tekkeks teie kopsudes ja veenides ja otsustab, kas XELJANZ on teile sobiv. Kui teil on juba varem olnud probleeme trombide tekkega kopsudes ja veenides või kui teil on suurem risk trombide tekkeks (nt kui te olete tugevalt ülekaaluline, teil on vähk, südameprobleemid, suhkurtõbi, varem (eelneva 3 kuu jooksul) olnud südameinfarkt, hiljutine ulatuslik kirurgiline operatsioon, kui te kasutate suukaudseid rasestumisvastaseid vahendeid / hormoonasendusravi, kui teil või teie lähisugulastel on tuvastatud hüübimishäire), kui te olete eakas või te suitsetate praegu või olete suitsetanud varem, siis arst võib otsustada, et XELJANZ ei sobi teile.</p><p>Teatage kohe oma arstile, kui teil tekib XELJANZi kasutamise ajal äkiline hingeldus või hingamisraskus, rindkerevalu või valu selja ülaosas, käe või jala turse või jalavalu või hellus või jala või käe punetus või värvi muutus, sest need võivad olla kopsudes või veenides oleva trombi nähud.</p><p>Teatage kohe oma arstile, kui teil on ägedalt tekkinud nägemishäired (hägune nägemine, osaline või täielik nägemiskaotus), sest need võivad olla silmades olevate verehüüvete nähud.</p><p>On teatatud XELJANZiga ravitud patsientidest, kellel on tekkinud südameprobleem, sealhulgas südameinfarkt. Teie arst hindab riski südameprobleemide tekkeks ja otsustab, kas XELJANZ on teile sobiv. Teatage kohe oma arstile, kui teil tekivad südameinfarkti nähud ja sümptomid, sealhulgas tugev valu rindkeres või pitsitustunne (mis võib levida kätte, lõuga, kaela, selga), õhupuudus, külm higi, minestustunne või äkiline pearinglus.</p><p><b>Täiendavad jälgimisanalüüsid</b></p><p>Teie arst peab tegema vereanalüüsid, enne kui hakkate XELJANZi võtma, 4...8 nädalat pärast ravi algust ning seejärel iga 3 kuu tagant, et teha kindlaks, kas teie vere valgeliblede (neutrofiilide või lümfotsüütide) või vere punaliblede arv on madal (aneemia).</p><p>Te ei tohi XELJANZi võtta, kui teie vere valgeliblede (neutrofiilide või lümfotsüütide) või punaliblede arv on liiga madal. Kui vaja, võib teie arst teie XELJANZ-ravi katkestada, et vähendada infektsiooni (vere valgeliblede arv) või aneemia (vere punaliblede arv) riski.</p><p>Teie arst võib teha ka teisi analüüse, näiteks kontrollida teie vere kolesteroolitaset või jälgida teie maksa seisundit. Teie arst peab teie kolesteroolitaset kontrollima 8 nädalat pärast seda, kui hakkate XELJANZi võtma. Teie arst peab teie maksa seisundit perioodiliselt kontrollima.</p><p><b>Eakad</b></p><p>65‑aastastel ja vanematel inimestel esineb kõrgem infektsioonide, sealhulgas mõnel juhul tõsiste infektsioonide esinemissagedus. Rääkige kohe oma arstile, kui märkate mingeid infektsioonidele iseloomulikke sümptomeid.</p><p>65‑aastastel ja vanematel patsientidel võib olla infektsioonide, südameinfarkti ja teatud tüüpi vähkkasvajate suurem tekkerisk. Teie arst võib otsustada, et XELJANZ ei sobi teile.</p><p><b>Asiaatidest patsiendid</b></p><p>Jaapani ja Korea päritolu patsientidel esineb sagedamini vöötohatist. Rääkige oma arstile, kui märkate oma nahal valulikke ville.</p><p>Teil võib olla ka suurem teatud kopsuprobleemide oht. Rääkige oma arstile, kui teil tekivad hingamisraskused.</p></div></p>
+
+      
+
+        <h4>Lapsed ja noorukid</h4>
+        <p>
+          <div><p>XELJANZi ohutus ja efektiivsus lastel vanuses alla 2 aasta ei ole veel tõestatud.</p></div></p>
+
+      
+
+        <h4>Muud ravimid ja XELJANZ</h4>
+        <p>
+          <div><p>Teatage oma arstile või apteekrile, kui te võtate või olete hiljuti võtnud või kavatsete võtta mis tahes teisi ravimeid.</p><p>Teatage oma arstile, kui teil on suhkurtõbi või võtate ravimeid suhkurtõve ravimiseks. Arst võib otsustada, et vajate tofatsitiniibi võtmise ajal suhkurtõvevastaste ravimite väikseimaid annuseid.</p><p>Teatud ravimeid ei tohi koos XELJANZiga võtta. XELJANZiga koos võtmisel võivad need muuta XELJANZi sisaldust teie organismis ning XELJANZi annust võib olla vaja kohandada. Öelge kindlasti oma arstile, kui kasutate ravimeid, mis sisaldavad järgmisi toimeaineid:</p><ul><li>antibiootikumid, nt rifampitsiin, millega ravitakse bakteriaalseid infektsioone;</li><li>flukonasool, ketokonasool, millega ravitakse seeninfektsioone.</li></ul><p>XELJANZi ei ole soovitatav kasutada koos ravimitega, mis pärsivad immuunsüsteemi, sh nn bioloogiliste (antikeha) sihtravimitega, nagu ravimid, mis inhibeerivad tuumori nekroosi faktorit, interleukiin‑17, interleukiin‑12/interleukiin‑23, integriinivastased ravimid ning tugevate keemiliste immunosupressantidega, sh asatiopriin, merkaptopuriin, tsüklosporiin ja takroliimus. XELJANZi võtmine koos nende ravimitega võib suurendada kõrvaltoimete, sh infektsiooni tekkeriski.</p><p>Raskeid infektsioone ja luumurde võib esineda sagedamini neil, kes võtavad ka kortikosteroide (nt prednisoon).</p></div></p>
+
+      
+
+        <h4>Rasedus ja imetamine</h4>
+        <p>
+          <div><p>Kui te olete fertiilses eas naine, peate kasutama tõhusat rasestumisvastast vahendit nii XELJANZiga ravi ajal kui ka vähemalt 4 nädalat pärast viimase ravimiannuse manustamist.</p><p>Kui te olete rase, imetate või arvate end olevat rase või kavatsete rasestuda, pidage enne selle ravimi kasutamist nõu oma arstiga. XELJANZi ei tohi kasutada raseduse ajal. Öelge oma arstile kohe, kui te XELJANZi võtmise ajal rasestute.</p><p>Kui te võtate XELJANZi ja imetate last, peate imetamise lõpetama, kuni olete oma arstiga rääkinud XELJANZiga ravi lõpetamisest.</p></div></p>
+
+      
+
+        <h4>Autojuhtimine ja masinatega töötamine</h4>
+        <p>
+          <div><p>XELJANZ ei mõjuta või mõjutab vähesel määra autojuhtimise ja masinate käsitsemise võimet.</p></div></p>
+
+      
+
+        <h4>XELJANZ sisaldab laktoosi</h4>
+        <p>
+          <div><p>Kui arst on teile öelnud, et te ei talu teatud suhkruid, peate te enne ravimi kasutamist konsulteerima arstiga.</p></div></p>
+
+      
+
+        <h4>XELJANZ sisaldab naatriumi</h4>
+        <p>
+          <div><p>Ravim sisaldab vähem kui 1 mmol (23 mg) naatriumi ühes tabletis, see tähendab põhimõtteliselt „naatriumivaba“.</p></div></p>
+
+      
+    
+  
+    <h3>3. Kuidas XELJANZi võtta</h3>
+    <p>
+      <div><p>Selle ravimi kirjutab teile välja ja jälgib selle kasutamist erialaarst, kes teab, kuidas teie haigusseisundit ravida.</p><p>Võtke seda ravimit alati täpselt nii, nagu arst on teile selgitanud. Soovitatavat annust ei tohi ületada. Kui te ei ole milleski kindel, pidage nõu oma arsti või apteekriga.</p><p><b>Reumatoidartriit</b></p><ul><li>Soovitatav annus on 5 mg kaks korda ööpäevas.</li></ul><p><b>Psoriaatiline artriit</b></p><ul><li>Soovitatav annus on 5 mg kaks korda ööpäevas.</li></ul><p>Kui te põete reumatoidartriiti või psoriaatilist artriiti, võib arst teile määrata kaks korda ööpäevas võetavate XELJANZi 5 mg õhukese polümeerikattega tablettide asemel üks kord ööpäevas võetavad XELJANZi 11 mg toimeainet prolongeeritult vabastavad tabletid või vastupidi. Võite alustada üks kord ööpäevas võetavate XELJANZi toimeainet prolongeeritult vabastavate tablettide või kaks korda ööpäevas võetavate XELJANZi õhukese polümeerikattega tablettide võtmist pärast ükskõik kumba tableti viimase annuse võtmist. Ilma arsti korralduseta ei tohi üle minna XELJANZi õhukese polümeerikattega tablettide võtmiselt XELJANZi toimeainet prolongeeritult vabastavate tablettide võtmisele ega vastupidi.</p><p><b>Anküloseeriv spondüliit</b></p><ul><li>Soovitatav annus on 5 mg kaks korda ööpäevas.</li><li>Kui XELJANZ ei ole 16 nädala jooksul toimima hakanud, võib arst otsustada ravi lõpetada.</li></ul><p><b>Haavandiline koliit</b></p><ul><li>Soovitatav annus on 10 mg kaks korda ööpäevas 8 nädala jooksul, millele järgneb 5 mg kaks korda ööpäevas.</li><li>Teie arst võib otsustada pikendada algset ravi annusega 10 mg kaks korda ööpäevas veel 8 nädalaks (kokku 16 nädalat), millele järgneb 5 mg kaks korda ööpäevas.</li><li>Teie arst võib otsustada lõpetada XELJANZiga ravi, kui XELJANZ ei avalda teile toimet 16 nädala jooksul.</li><li>Patsientide puhul, kes on eelnevalt võtnud haavandilise koliidi ravimiseks bioloogilisi ravimeid (nt organismis tuumori nekroosi faktori tegevust blokeerivad ravimid) ja kellele need ravimid ei avaldanud toimet, võib arst otsustada suurendada XELJANZi annust 10 mg‑ni kaks korda ööpäevas, kui 5 mg XELJANZi kaks korda ööpäevas manustamisega ei saadud teil piisavat ravivastust. Teie arst kaalub võimalikke riske, sealhulgas verehüüvete (trombide) tekkimise riski kopsudesse ja veenidesse, ning võimalikku kasu teile. Teie arst annab teile teada, kui see kohaldub teile.</li><li>Kui teie ravi katkestatakse, võib teie arst otsustada teie ravi uuesti alustada.</li></ul></div></p>
+    
+      
+
+        <h4>Kasutamine lastel ja noorukitel</h4>
+        <p>
+          <div><p><b>Polüartikulaarne juveniilne idiopaatiline artriit ja juveniilne psoriaatiline artriit</b></p><ul><li>Soovitatav annus patsientidele kehakaaluga ≥ 40 kg on 5 mg kaks korda ööpäevas.</li></ul><p>Püüdke võtta oma tablett iga päev samal ajal (üks tablett hommikul ja üks tablett õhtul).</p><p>Tofatsitiniibi tablette võib purustada ja võtta koos veega.</p><p>Teie arst võib vähendada annust, kui teil on maksa- või neeruprobleemid või kui teile on välja kirjutatud teatud muud ravimid. Kui teie vereanalüüsid näitavad vere valge- või punaliblede arvu vähenemist, võib arst ravi kas ajutiselt või lõplikult peatada.</p><p>XELJANZ on suukaudseks manustamiseks. Te võite XELJANZi võtta nii koos toiduga või ilma.</p></div></p>
+
+      
+
+        <h4>Kui te võtate XELJANZi rohkem, kui ette nähtud</h4>
+        <p>
+          <div><p>Kui te võtate rohkem tablette kui ette nähtud, teatage sellest <b>viivitamatult </b>oma arstile või apteekrile.</p></div></p>
+
+      
+
+        <h4>Kui te unustate XELJANZi võtta</h4>
+        <p>
+          <div><p>Ärge võtke kahekordset annust, kui tablett jäi eelmisel korral võtmata. Võtke järgmine tablett tavalisel ajal ja jätkake samal viisil.</p></div></p>
+
+      
+
+        <h4>Kui te lõpetate XELJANZi võtmise</h4>
+        <p>
+          <div><p>Ärge lõpetage XELJANZi võtmist oma arstiga nõu pidamata.</p><p>Kui teil on lisaküsimusi selle ravimi kasutamise kohta, pidage nõu oma arsti või apteekriga.</p></div></p>
+
+      
+    
+  
+    <h3>Võimalikud kõrvaltoimed</h3>
+    <p>
+      <div><p>Nagu kõik ravimid, võib ka see ravim põhjustada kõrvaltoimeid, kuigi kõigil neid ei teki.</p><p>Mõned võivad olla tõsised ja vajada arstiabi.</p><p>Polüartikulaarse juveniilse idiopaatilise artriidi ja juveniilse psoriaatilise artriidiga patsientidel olid kõrvaltoimete tüübid ja esinemissagedus samasugused, nagu täheldati reumatoidartriidiga täiskasvanud patsientidel, v.a mõned nakkused (gripp, farüngiit, sinusiit, viirusnakkus) ja seedetrakti või üldised häired (ülakõhuvalu, iiveldus, oksendamine, palavik, peavalu, köha), mis esinesid sagedamini juveniilse idiopaatilise artriidiga laste populatsioonis.</p><p><b>Võimalikud tõsised kõrvaltoimed</b></p><p>Harvadel juhtudel võivad infektsioonid olla eluohtlikud. Teatatud on ka kopsuvähist, valgete vererakkude vähist ja südameinfarktist.</p><p><b>Pöörduge kohe arsti poole, kui märkate mõnda järgmistest tõsistest kõrvaltoimetest.</b></p><p><b>Tõsiste infektsioonide (sage) tunnused on muu hulgas</b></p><ul><li>palavik ja külmavärinad;</li><li>köha;</li><li>villid nahal;</li><li>kõhuvalu;</li><li>püsivad peavalud.</li></ul><p><b>Maohaavandite ja maomulgustuse (perforatsiooni) (aeg-ajalt) tunnused on</b></p><ul><li>palavik;</li><li>kõhu- või ülakõhuvalu;</li><li>veri väljaheites;</li><li>seletamatud muutused sooletühjendamisharjumustes.</li></ul><p>Perforatsioonid maos või soolestikus tekivad kõige sagedamini inimestel, kes võtavad lisaks mittesteroidseid põletikuvastaseid ravimeid või kortikosteroide (nt prednisoon).</p><p><b>Allergiliste reaktsioonide (teadmata) tunnused on</b></p><ul><li>pitsitustunne rindkeres;</li><li>vilistav hingamine;</li><li>raske pearinglus või uimasus;</li><li>huulte-, keele- või kõriturse;</li><li>nõgestõbi (sügelus või nahalööve).</li></ul><p><b>Kopsudes või veenides või silmades olevate verehüüvete (trombide) (aeg-ajalt: venoosse trombemboolia) tunnused on muu hulgas</b></p><ul><li>äkiline hingeldus või hingamisraskus;</li><li>valu rinnus või ülaseljas;</li><li>käe või jala paistetus;</li><li>jala valu või hellus;</li><li>jala või käe punetus või värvi muutus;</li><li>ägedalt tekkinud nägemishäired.</li></ul><p><b>Südameinfarkti (esinemissagedus aeg-ajalt) tunnused on muuhulgas</b></p><ul><li>tugev valu või pitsitustunne rindkeres (võib levida kätte, lõuga, kaela, selga);</li><li>õhupuudustunne;</li><li>külm higi;</li><li>minestustunne või äkiline pearinglus.</li></ul><p><b>Muud kõrvaltoimed,</b> mida on täheldatud XELJANZi manustamisel, on loetletud allpool.</p><p><b>Sageli esinevad kõrvaltoimed </b>(võivad esineda kuni ühel inimesel 10-st): kopsuinfektsioon (kopsupõletik ja bronhiit), vöötohatis (<i>herpes zoster</i>), nina-, kurgu- või ninaneelupõletik (nasofarüngiit), gripp, sinusiit, põiepõletik (tsüstiit), kurguvalu (farüngiit), lihaseensüümide aktiivsuse suurenemine veres (viitab lihase probleemidele), kõhuvalu (mis võib tuleneda maoseina põletikust), oksendamine, kõhulahtisus, iiveldus, seedehäired, vere valgeliblede arvu vähenemine, vere punaliblede arvu vähenemine (aneemia), labajalgade ja käelabade paistetus, peavalu, kõrge vererõhk (hüpertensioon), köha, nahalööve, akne.</p><p><b>Aeg-ajalt esinevad kõrvaltoimed </b>(võivad esineda kuni ühel inimesel 100-st): kopsuvähk, tuberkuloos, neeruinfektsioon, nahainfektsioon, <i>herpes simplex</i> või külmavillid (huuleohatis), vere kreatiniinisisalduse suurenemine (võimalik sümptom neeruprobleemidele), kolesteroolisisalduse suurenemine (sh LDL‑i hulga suurenemine), palavik, kurnatus (väsimus), kehakaalu tõus, dehüdratsioon (veepuudus), lihasevenitus, tendoniit, liigeste paistetus, liigesenihestus, ebatavalised tunnetused, unehäired, siinuste ummistus (ninakinnisus), hingeldus või hingamisraskused, nahapunetus, sügelus, rasvmaks, valulik väikeste soole limaskesta sopistuste põletik (divertikuliit), viirusinfektsioonid, soolestikku mõjutavad viirusinfektsioonid, teatud tüüpi nahavähid (mittemelanoomsed).</p><p><b>Harva esinevad kõrvaltoimed </b>(võivad esineda kuni ühel inimesel 1000-st): vereinfektsioon (sepsis), lümfoom (valgete vererakkude vähk), luid ja teisi organeid hõlmav tuberkuloos (dissemineerunud tuberkuloos), muud ebatavalised infektsioonid, liigeseinfektsioonid, maksaensüümide aktiivsuse suurenemine veres (viitab maksaprobleemidele), lihase- ja liigesevalu.</p><p><b>Väga harva esinevad kõrvaltoimed</b> (võivad esineda kuni ühel inimesel 10 000-st): aju ja selgroogu hõlmav tuberkuloos, meningiit, pehmete kudede ja sidekirme (fastsia) infektsioon.</p><p>Kui reumatoidartriidi ravimisel kasutati ainuüksi XELJANZi, esines kõrvaltoimeid üldjuhul harvem, kui kombinatsioonis metotreksaadiga.</p></div></p>
+    
+      
+
+        <h4>Kõrvaltoimetest teatamine</h4>
+        <p>
+          <div><p>Kui teil tekib ükskõik milline kõrvaltoime, pidage nõu oma arsti või apteekriga. Kõrvaltoime võib olla ka selline, mida selles infolehes ei ole nimetatud. Kõrvaltoimetest võite ka ise teatada riikliku teavitussüsteemi (vt <a href="http://www.ema.europa.eu/docs/en_GB/document_library/Template_or_form/2013/03/WC500139752.doc">V lisa)</a> kaudu. Teatades aitate saada rohkem infot ravimi ohutusest.</p></div></p>
+
+      
+    
+  
+    <h3>5. Kuidas XELJANZi säilitada</h3>
+    <p>
+      <div><p>Hoidke seda ravimit laste eest varjatud ja kättesaamatus kohas.</p><p>Ärge kasutage seda ravimit pärast kõlblikkusaega, mis on märgitud blisterpakendil, pudelil või karbil. Kõlblikkusaeg viitab selle kuu viimasele päevale.</p><p>See ravimpreparaat ei vaja säilitamisel temperatuuri eritingimusi.</p><p>Hoida originaalpakendis, niiskuse eest kaitstult.</p><p>Ärge kasutage seda ravimit, kui täheldate tablettidel nähtavaid kahjustusi (nt tabletid on purunenud või värvi muutnud).</p><p>Ärge visake ravimeid kanalisatsiooni ega olmejäätmete hulka. Küsige oma apteekrilt, kuidas hävitada ravimeid, mida te enam ei kasuta. Need meetmed aitavad kaitsta keskkonda.</p></div></p>
+    
+  
+    <h3>6. Pakendi sisu ja muu teave</h3>
+    <p>
+      <div></div></p>
+    
+      
+
+        <h4>Mida XELJANZ sisaldab</h4>
+        <p>
+          <div><p><b>XELJANZ 5 mg õhukese polümeerikattega tablett</b></p><p>Toimeaine on tofatsitiniib.<i/></p><ul><li>Iga 5 mg õhukese polümeerikattega tablett sisaldab 5 mg tofatsitiniibi (tofatsitiniibtsitraadina).</li><li>Teised koostisosad on mikrokristalliline tselluloos, laktoosmonohüdraat (vt lõik 2 „XELJANZ sisaldab laktoosi“), naatriumkroskarmelloos (vt lõik 2 „XELJANZ sisaldab naatriumi“), magneesiumstearaat, hüpromelloos (E464), titaandioksiid (E171), makrogool ja triatsetiin.</li></ul><p><b>XELJANZ 10 mg õhukese polümeerikattega tablett</b></p><p>Toimeaine on tofatsitiniib.<i/></p><ul><li>Iga 10 mg õhukese polümeerikattega tablett sisaldab 10 mg tofatsitiniibi (tofatsitiniibtsitraadina).</li><li>Teised koostisosad on mikrokristalliline tselluloos, laktoosmonohüdraat (vt lõik 2 „XELJANZ sisaldab laktoosi“), naatriumkroskarmelloos (vt lõik 2 „XELJANZ sisaldab naatriumi“), magneesiumstearaat, hüpromelloos (E464), titaandioksiid (E171), makrogool, triatsetiin, FD&amp;C sinine nr 2 / indigokarmiin alumiiniumlakk (E132) ja FD&amp;C sinine nr 1 / briljantsinine FCF alumiiniumlakk (E133).</li></ul></div></p>
+
+      
+
+        <h4>Kuidas XELJANZ välja näeb ja pakendi sisu</h4>
+        <p>
+          <div><p><b>XELJANZ 5 mg õhukese polümeerikattega tabletid</b></p><p>XELJANZ 5 mg õhukese polümeerikattega tablett on valge ja kujult ümmargune.</p><p>Tabletid on saadaval blistritena, mis sisaldavad 14 tabletti. Iga pakend sisaldab 56, 112 või 182 tabletti ja iga pudel sisaldab 60 või 180 tabletti.</p><p><b>XELJANZ 10 mg õhukese polümeerikattega tabletid</b></p><p>XELJANZ 10 mg õhukese polümeerikattega tablett on sinine ja kujult ümmargune.</p><p>Tabletid on saadaval blistritena, mis sisaldavad 14 tabletti. Iga pakend sisaldab 56, 112 või 182 tabletti ja iga pudel sisaldab 60 või 180 tabletti.</p><p>Kõik pakendi suurused ei pruugi olla müügil.</p></div></p>
+
+      
+
+        <h4>Müügiloa hoidja ja tootja</h4>
+        <p>
+          <div><p><b>Müügiloa hoidja</b></p><p>Pfizer Europe MA EEIG</p><p>Boulevard de la Plaine 17</p><p>1050 Brüssel</p><p>Belgia</p><p><b>Tootja</b></p><p>Pfizer Manufacturing Deutschland GmbH</p><p>Betriebsstätte Freiburg</p><p>Mooswaldallee 1</p><p>79090 Freiburg</p><p>Saksamaa</p><p>Lisaküsimuste tekkimisel selle ravimi kohta pöörduge palun müügiloa hoidja kohaliku esindaja poole:</p><table><tbody><tr><td colspan="1" rowspan="1"><p><b>België /Belgique / Belgien</b></p><p><b>Luxembourg/Luxemburg</b></p></td><td colspan="1" rowspan="1"><p><b>Lietuva</b></p></td></tr><tr><td><p>België /Belgique / Belgien</p><p>Pfizer S.A./N.V.</p><p>Tél/Tel: +32 (0)2 554 62 11</p><p>Luxembourg/Luxemburg</p><p>Pfizer S.A.</p><p>Tél/Tel: +32 (0)2 554 62 11</p></td><td><p>Pfizer Luxembourg SARL filialas Lietuvoje</p><p>Tel. +3705 2514000</p></td></tr><tr><td><p><b>Česká republika</b></p><p>Pfizer, spol. s r.o.</p><p>Tel: +420 283 004 111</p></td><td><p><b>Malta</b></p><p>Vivian Corporation Ltd.</p><p>Tel: +35621 344610</p></td></tr><tr><td><p><b>Danmark</b></p><p>Pfizer ApS</p><p>Tlf: +45 44 20 11 00</p></td><td><p><b>Nederland</b></p><p>Pfizer bv</p><p>Tel: +31 (0)10 406 43 01</p></td></tr><tr><td><p><b>Deutschland</b></p><p>Pfizer Pharma GmbH</p><p>Tel: +49 (0)30 550055-51000</p></td><td><p><b>Norge</b></p><p>Pfizer AS</p><p>Tlf: +47 67 52 61 00</p></td></tr><tr><td><p><b>Eesti</b></p><p>Pfizer Luxembourg SARL Eesti filiaal</p><p>Tel: +372 666 7500</p></td><td><p><b>Österreich</b></p><p>Pfizer Corporation Austria Ges.m.b.H.</p><p>Tel: +43 (0)1 521 15-0</p></td></tr><tr><td><p><b>Ελλάδα</b></p><p>PFIZER ΕΛΛΑΣ A.E.</p><p>Τηλ.: +30 210 67 85 800</p></td><td><p><b>Polska</b></p><p>Pfizer Polska Sp. z o.o.,</p><p>Tel.: +48 22 335 61 00</p></td></tr><tr><td><p><b>España</b></p><p>Pfizer, S.L.</p><p>Tel: +34 91 490 99 00</p></td><td><p><b>Portugal</b></p><p>Laboratórios Pfizer, Lda.</p><p>Tel: +351 21 423 5500</p></td></tr><tr><td><p><b>France</b></p><p>Pfizer</p><p>Tél: +33 (0)1 58 07 34 40</p></td><td><p><b>România</b></p><p>Pfizer Romania S.R.L.</p><p>Tel: +40 21 207 28 00</p></td></tr><tr><td><p><b>Hrvatska</b></p><p>Pfizer Croatia d.o.o.</p><p>Tel: +385 1 3908 777</p></td><td><p><b>Slovenija</b></p><p>Pfizer Luxembourg SARL</p><p>Pfizer, podružnica za svetovanje s področja</p><p>farmacevtske dejavnosti, Ljubljana</p><p>Tel.: +386 (0) 1 52 11 400</p></td></tr><tr><td><p><b>Ireland</b></p><p>Pfizer Healthcare Ireland</p><p>Tel: 1800 633 363 (toll free)</p><p>+44 (0)1304 616161</p></td><td><p><b>Slovenská republika</b></p><p>Pfizer Luxembourg SARL, organizačná zložka</p><p>Tel: +421-2-3355 5500</p><p><b></b></p></td></tr><tr><td><p><b>Ísland</b></p><p>Icepharma hf.</p><p>Sími: +354 540 8000</p></td><td><p><b>Suomi/Finland</b></p><p>Pfizer Oy</p><p>Puh/Tel: +358 (0)9 430 040</p></td></tr><tr><td><p><b>Italia</b></p><p>Pfizer S.r.l.</p><p>Tel: +39 06 33 18 21</p></td><td><p><b>Sverige</b></p><p>Pfizer AB</p><p>Tel: +46 (0)8 550 520 00</p></td></tr><tr><td><p><b>Κύπρος</b></p><p>PFIZER ΕΛΛΑΣ Α.Ε. (CYPRUS BRANCH)</p><p>Τηλ: +357 22 817690</p></td><td><p><b>United Kingdom (Northern Ireland)</b></p><p>Pfizer Limited</p><p>Tel: +44 (0)1304 616161</p></td></tr><tr><td><p><b>Latvija</b></p><p>Pfizer Luxembourg SARL filiāle Latvijā</p><p>Tel.: +371 670 35 775</p></td><td></td></tr></tbody></table></div></p>
+
+      
+    
+  
+    <h3>Infoleht on viimati uuendatud</h3>
+    <p>
+      <div><p><b>Infoleht on viimati uuendatud</b></p></div></p>
+    
+  
+    <h3>Muud teabeallikad</h3>
+    <p>
+      <div><p>Täpne teave selle ravimi kohta on Euroopa Ravimiameti kodulehel: <a href="http://www.ema.europa.eu">http://www.ema.europa.eu</a>.</p></div></p>
+    
+  
+    <h3>7. Juhised XELJANZi suukaudse lahuse kasutamiseks</h3>
+    <p>
+      <div><p><b>Enne XELJANZi suukaudse lahuse võtmist lugege kasutusjuhist. Need võivad sisaldada uut teavet.</b></p><p><b>Oluline teave XELJANZi suukaudse lahuse annuse mõõtmise kohta</b></p><p><b>Kasutage määratud annuse mõõtmiseks ja manustamiseks alati XELJANZi suukaudse lahuse juurde kuuluvat suukaudse manustamise süstalt. </b>Kui te ei ole kindel, paluge tervishoiutöötajal näidata, kuidas määratud annust mõõta.</p><p><b>Kuidas XELJANZi säilitada</b></p><p><b>Hoidke seda ravimit laste eest varjatud ja kättesaamatus kohas.</b></p><p>Visake allesjäänud XELJANZi suukaudne lahus ära pärast 60 päeva möödumist.</p><p>XELJANZi pudeli äraviskamise meelespidamiseks kirjutage esmase kasutamise kuupäev karbile ja siia.</p><p>Esmase kasutamise kuupäev ____.____.____.</p><p><b>Enne iga kasutamist</b></p><p><b>Peske käed seebi ja veega ning asetage karbis olevad esemed puhtale tasasele pinnale.</b></p><b>Üks XELJANZi suukaudse lahuse karp sisaldab järgmist.</b><ul><li><p>1 sissesurutav pudeliadapter</p></li><li><p>1 pudel XELJANZi suukaudse lahusega</p></li><li><p>1 suukaudse manustamise süstal</p></li></ul><p><a name="l1339">​</a><img src="#image000" alt="Üks XELJANZi suukaudse lahuse karp sisaldab järgmist"/></p><p><b>1. toiming: võtke pudel karbist välja.</b></p><p><a name="l1344">​</a><img src="#image001" alt="toiming 1"/></p><p>Võtke XELJANZi suukaudse lahuse pudel karbist välja.</p><p><b>2. toiming: avage pudel.</b></p><p><a name="l1351">​</a><img src="#image002" alt="toiming 2"/></p><p>Avage pudel. Eemaldage pudeli suul olev kleebis (ainult esimesel korral).</p><p><b>Ärge visake ära lapsekindlat korki.</b></p><p><b>Märkus. </b>Pudelit <b>ei </b>pea enne kasutamist loksutama.</p><p><b>3. toiming: paigaldage sissesurutav pudeliadapter.</b></p><p><a name="l1368">​</a><img src="#image003" alt="toiming 3"/></p><p>Eemaldage sissesurutav pudeliadapter ja suukaudse manustamise süstal plastikümbrisest. Asetage pudel tasasele pinnale ja suruge sissesurutava pudeliadapteri rihvatud ots pöialdega lõpuni pudeli kaela sisse, samal ajal pudelit tugevalt kinni hoides.</p><p><b>Märkus: </b>ärge sissesurutavat pudeliadapterit pärast selle paigaldamist eemaldage.</p><p><b>4. toiming: väljutage õhk suukaudse manustamise süstlast.</b></p><p><a name="l1379">​</a><img src="#image004" alt="toiming 4"/></p><p>Liigse õhu eemaldamiseks suruge suukaudse manustamise süstla kolb täielikult sisse kuni süstla silindri otsani.</p><p><b>5. toiming: sisestage suukaudse manustamise süstal.</b></p><p><a name="l1386">​</a><img src="#image005" alt="toiming 5"/></p><p>Sisestage suukaudse manustamise süstal sissesurutavas pudeliadapteris oleva ava kaudu püstiasendis pudelisse, kuni see on kindlalt oma kohal.</p><p><b>6. toiming: tõmmake pudelist annus.</b></p><p><a name="l1393">​</a><img src="#image006" alt="toiming 6"/></p><p>Kui suukaudse manustamise süstal on oma kohal, pöörake pudel tagurpidi. Tõmmake kolb tagasi.</p><p>Kui märkate suukaudse manustamise süstlas õhumulle, lükake kolb täielikult sisse ja suukaudne lahus tagasi pudelisse. Seejärel tõmmake pudelist suukaudse lahuse määratud annus.</p><p><b>7. toiming: eemaldage suukaudse manustamise süstal.</b></p><p><a name="l1402">​</a><img src="#image007" alt="toiming 7"/></p><p>Pöörake pudel püsti ja asetage see tasasele pinnale. Suukaudse manustamise süstla eemaldamiseks pudeliadapterist ja pudelist tõmmake suukaudse manustamise süstal silindrist hoides otse üles.</p><p><b>8. toiming: kontrollige süstlasse tõmmatud annust.</b></p><p><a name="l1409">​</a><img src="#image008" alt="toiming 8"/></p><p>Kontrollige, et suukaudse manustamise süstlasse oleks tõmmatud õige annus.</p><p>Kui annus ei ole õige, sisestage suukaudse manustamise süstla ots tugevalt pudeliadapterisse. Lükake kolb täielikult sisse, nii et suukaudne lahus voolaks tagasi pudelisse. Korrake 6. ja 7. toimingut.</p><p><b>9. toiming: võtke XELJANZi annus.</b></p><p><a name="l1418">​</a><img src="#image009" alt="toiming 9"/></p><p>Asetage suukaudse manustamise süstla ots patsiendi põse siseküljele.</p><p>Kogu suukaudses süstlas oleva ravimi manustamiseks lükake kolb aeglaselt lõpuni sisse. Veenduge, et patsiendile jääks aega ravimi allaneelamiseks.</p><p><b>10. toiming: sulgege pudel.</b></p><p><a name="l1427">​</a><img src="#image010" alt="toiming 10"/></p><p>Pudeli tihedaks sulgemiseks keerake lapsekindlat korki päripäeva sissesurutavat pudeliadapterit eemaldamata.</p><p>XELJANZi suukaudse lahuse kaitsmiseks valguse eest pange pudel karpi tagasi ja sulgege karp.</p><p><b>11. toiming: puhastage suukaudse manustamise süstal.</b></p><p><a name="l1436">​</a><img src="#image011" alt="toiming 11"/></p><p>Kolvi eemaldamiseks silindrist tõmmake kolb ja silinder üksteisest eemale.</p><p>Pärast iga kasutamist loputage mõlemad veega.</p><p>Laske õhu käes kuivada, seejärel pange suukaudse manustamise süstal tagasi karbis oleva suukaudse lahuse juurde.</p><p>Hoidke suukaudse manustamise süstalt koos XELJANZi suukaudse lahusega.</p><p><b>Ärge visake suukaudse manustamise süstalt ära.</b></p></div></p>
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    XELJANZ 10 mg õhukese polümeerikattega tabletid
+  </h4>
+
+  
+  
+    VALITSUS.EE:
+    <b>
+      471bb15-7f52-4fcd-b615-8674ce6eb91e
+    </b>
+    
+  
+  <hr/></div></div></div></div></div></div></body></html>

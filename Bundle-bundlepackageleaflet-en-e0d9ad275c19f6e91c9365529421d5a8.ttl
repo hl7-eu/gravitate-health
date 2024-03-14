@@ -1,0 +1,901 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Bundle/bundlepackageleaflet-en-e0d9ad275c19f6e91c9365529421d5a8> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "bundlepackageleaflet-en-e0d9ad275c19f6e91c9365529421d5a8"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "https://www.gravitatehealth.eu/sid/doc"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "aa4a4793bfd06de750277f993c8c155b" ]
+  ] ; # 
+  fhir:type [ fhir:v "document"] ; # 
+  fhir:timestamp [ fhir:v "2023-06-27T10:09:22Z"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-01eaaf0a81574efda98a52449788e7a2"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-01eaaf0a81574efda98a52449788e7a2> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-ibuprofen-sucrose"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-ibuprofen-sucrose> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-ibuprofen-anhydrousdextrose"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-ibuprofen-anhydrousdextrose> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-ibuprofen-ibuprofen"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-ibuprofen-ibuprofen> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-ibuprofen-lecithinsoybean"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-ibuprofen-lecithinsoybean> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-ibuprofen"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-ibuprofen> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e0d9ad275c19f6e91c9365529421d5a8"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e0d9ad275c19f6e91c9365529421d5a8> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizatione0d9ad275c19f6e91c9365529421d5a80"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizatione0d9ad275c19f6e91c9365529421d5a80> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-fe6b7ee8886997a3f2098e16b925984d"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-fe6b7ee8886997a3f2098e16b925984d> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-1f1356f6a8c19d66c5c3f4e40da7536c"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-1f1356f6a8c19d66c5c3f4e40da7536c> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8> )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-01eaaf0a81574efda98a52449788e7a2> a fhir:Composition ;
+  fhir:id [ fhir:v "composition-en-01eaaf0a81574efda98a52449788e7a2"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><a name=\"Composition_composition-en-01eaaf0a81574efda98a52449788e7a2\"> </a><p><b>Generated Narrative: Composition</b><a name=\"composition-en-01eaaf0a81574efda98a52449788e7a2\"> </a><a name=\"hccomposition-en-01eaaf0a81574efda98a52449788e7a2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;composition-en-01eaaf0a81574efda98a52449788e7a2&quot;  (Language &quot;en&quot;) </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/</code>/5e2a814d6b8ad04f59db5f5c9ee2b642</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000155538)</span></p><p><b>category</b>: Raw <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-epicategory-cs.html\">Category of EPI</a>#R)</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href=\"#Organization_mah-fe6b7ee8886997a3f2098e16b925984d\">See above (Organization/mah-fe6b7ee8886997a3f2098e16b925984d)</a></p><p><b>title</b>: TEST PURPOSES ONLY - Nurofen 100 mg Chewable Capsules</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td>Official <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html\">Composition Attestation Mode</a>#official)</span></td><td>2022-02-16 13:28:17+0000</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "5e2a814d6b8ad04f59db5f5c9ee2b642" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155538" ]
+     ] ) ;
+     fhir:text [ fhir:v "Package Leaflet" ]
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "R" ] ;
+       fhir:display [ fhir:v "Raw" ]
+     ] )
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2022-02-16T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-fe6b7ee8886997a3f2098e16b925984d> ;
+     fhir:reference [ fhir:v "Organization/mah-fe6b7ee8886997a3f2098e16b925984d" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "TEST PURPOSES ONLY - Nurofen 100 mg Chewable Capsules"] ; # 
+  fhir:attester ( [
+     fhir:mode [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/composition-attestation-mode"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "official" ]
+       ] )
+     ] ;
+     fhir:time [ fhir:v "2022-02-16T13:28:17Z"^^xsd:dateTime ]
+  ] ) ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "B. Package Leaflet" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000155538" ]
+       ] ) ;
+       fhir:text [ fhir:v "B. PACKAGE LEAFLET" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "Package leaflet: Information for the user" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "Package leaflet: Information for the user" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "What is in this leaflet" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "What is in this leaflet" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "1. What Nurofen 100 mg Chewable Capsules is and what it is used for" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "1. What Nurofen 100 mg Chewable Capsules is and what it is used for" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "2. What you need to know before you take Nurofen 100 mg Chewable Capsules" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "2. What you need to know before you take Nurofen 100 mg Chewable Capsules" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "3. How to take Nurofen 100 mg Chewable Capsules" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "3. How to take Nurofen 100 mg Chewable Capsules" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "4. Possible side effects" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "4. Possible side effects" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "5. How to store Nurofen 100 mg Chewable Capsules" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "5. How to store Nurofen 100 mg Chewable Capsules" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "6. Contents of the pack and other information" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "6. Contents of the pack and other information" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-ibuprofen-sucrose> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-ibuprofen-sucrose"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-ibuprofen-sucrose\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-ibuprofen-sucrose\"> </a><a name=\"hcingredient-for-ibuprofen-sucrose\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-ibuprofen-sucrose&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/C151H8M554 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-e0d9ad275c19f6e91c9365529421d5a8\">See above (ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8)</a></li><li><a href=\"#MedicinalProductDefinition_mp01eaaf0a81574efda98a52449788e7a2\">See above (MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2)</a></li><li><a href=\"#AdministrableProductDefinition_ap-e0d9ad275c19f6e91c9365529421d5a8\">See above (AdministrableProductDefinition/ap-e0d9ad275c19f6e91c9365529421d5a8)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Sucrose <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#C151H8M554)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "C151H8M554" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e0d9ad275c19f6e91c9365529421d5a8> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-e0d9ad275c19f6e91c9365529421d5a8" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "C151H8M554" ] ;
+           fhir:display [ fhir:v "Sucrose" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-ibuprofen-anhydrousdextrose> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-ibuprofen-anhydrousdextrose"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-ibuprofen-anhydrousdextrose\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-ibuprofen-anhydrousdextrose\"> </a><a name=\"hcingredient-for-ibuprofen-anhydrousdextrose\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-ibuprofen-anhydrousdextrose&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/5SL0G7R0OK (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-e0d9ad275c19f6e91c9365529421d5a8\">See above (ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8)</a></li><li><a href=\"#MedicinalProductDefinition_mp01eaaf0a81574efda98a52449788e7a2\">See above (MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2)</a></li><li><a href=\"#AdministrableProductDefinition_ap-e0d9ad275c19f6e91c9365529421d5a8\">See above (AdministrableProductDefinition/ap-e0d9ad275c19f6e91c9365529421d5a8)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>ANHYDROUS DEXTROSE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#5SL0G7R0OK)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "5SL0G7R0OK" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e0d9ad275c19f6e91c9365529421d5a8> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-e0d9ad275c19f6e91c9365529421d5a8" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "5SL0G7R0OK" ] ;
+           fhir:display [ fhir:v "ANHYDROUS DEXTROSE" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-ibuprofen-ibuprofen> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-ibuprofen-ibuprofen"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-ibuprofen-ibuprofen\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-ibuprofen-ibuprofen\"> </a><a name=\"hcingredient-for-ibuprofen-ibuprofen\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-ibuprofen-ibuprofen&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/WK2XYI10QM (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-e0d9ad275c19f6e91c9365529421d5a8\">See above (ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8)</a></li><li><a href=\"#MedicinalProductDefinition_mp01eaaf0a81574efda98a52449788e7a2\">See above (MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2)</a></li><li><a href=\"#AdministrableProductDefinition_ap-e0d9ad275c19f6e91c9365529421d5a8\">See above (AdministrableProductDefinition/ap-e0d9ad275c19f6e91c9365529421d5a8)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>IBUPROFEN <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#WK2XYI10QM)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>100 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "WK2XYI10QM" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e0d9ad275c19f6e91c9365529421d5a8> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-e0d9ad275c19f6e91c9365529421d5a8" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072072" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "WK2XYI10QM" ] ;
+           fhir:display [ fhir:v "IBUPROFEN" ]
+         ] )
+       ]
+     ] ;
+     fhir:strength ( [
+       fhir:presentation [
+         a fhir:Quantity ;
+         fhir:value [ fhir:v "100"^^xsd:decimal ] ;
+         fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "mg" ]
+       ] ;
+       fhir:basis [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleClass"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ACTIB" ] ;
+           fhir:display [ fhir:v "active ingredient - basis of strength" ]
+         ] )
+       ]
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-ibuprofen-lecithinsoybean> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-ibuprofen-lecithinsoybean"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-ibuprofen-lecithinsoybean\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-ibuprofen-lecithinsoybean\"> </a><a name=\"hcingredient-for-ibuprofen-lecithinsoybean\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-ibuprofen-lecithinsoybean&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/1DI56QDM62 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-e0d9ad275c19f6e91c9365529421d5a8\">See above (ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8)</a></li><li><a href=\"#MedicinalProductDefinition_mp01eaaf0a81574efda98a52449788e7a2\">See above (MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2)</a></li><li><a href=\"#AdministrableProductDefinition_ap-e0d9ad275c19f6e91c9365529421d5a8\">See above (AdministrableProductDefinition/ap-e0d9ad275c19f6e91c9365529421d5a8)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>LECITHIN, SOYBEAN <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#1DI56QDM62)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1DI56QDM62" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e0d9ad275c19f6e91c9365529421d5a8> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-e0d9ad275c19f6e91c9365529421d5a8" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "1DI56QDM62" ] ;
+           fhir:display [ fhir:v "LECITHIN, SOYBEAN" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-ibuprofen> a fhir:SubstanceDefinition ;
+  fhir:id [ fhir:v "substance-ibuprofen"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"SubstanceDefinition_substance-ibuprofen\"> </a><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"substance-ibuprofen\"> </a><a name=\"hcsubstance-ibuprofen\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;substance-ibuprofen&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta/</code>/WK2XYI10QM (use: OFFICIAL)</p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>manufacturer</b>: <a href=\"#Organization_mah-fe6b7ee8886997a3f2098e16b925984d\">See above (Organization/mah-fe6b7ee8886997a3f2098e16b925984d)</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "WK2XYI10QM" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-fe6b7ee8886997a3f2098e16b925984d> ;
+     fhir:reference [ fhir:v "Organization/mah-fe6b7ee8886997a3f2098e16b925984d" ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e0d9ad275c19f6e91c9365529421d5a8> a fhir:AdministrableProductDefinition ;
+  fhir:id [ fhir:v "ap-e0d9ad275c19f6e91c9365529421d5a8"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AdministrableProductDefinition_ap-e0d9ad275c19f6e91c9365529421d5a8\"> </a><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"ap-e0d9ad275c19f6e91c9365529421d5a8\"> </a><a name=\"hcap-e0d9ad275c19f6e91c9365529421d5a8\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;ap-e0d9ad275c19f6e91c9365529421d5a8&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/pt-xx</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_mp01eaaf0a81574efda98a52449788e7a2\">See above (MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2)</a></p><p><b>administrableDoseForm</b>: Chewable capsule, soft <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073377)</span></p><p><b>unitOfPresentation</b>: Capsule <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002113)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_mid-e0d9ad275c19f6e91c9365529421d5a8\">See above (ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8)</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073619)</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>Human <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "pt-xx" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:formOf ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2" ]
+  ] ) ; # 
+  fhir:administrableDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000073377" ] ;
+       fhir:display [ fhir:v "Chewable capsule, soft" ]
+     ] )
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000002113" ] ;
+       fhir:display [ fhir:v "Capsule" ]
+     ] )
+  ] ; # 
+  fhir:producedFrom ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8" ]
+  ] ) ; # 
+  fhir:routeOfAdministration ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073619" ] ;
+         fhir:display [ fhir:v "Oral use" ]
+       ] )
+     ] ;
+     fhir:targetSpecies ( [
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000109093" ] ;
+           fhir:display [ fhir:v "Human" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizatione0d9ad275c19f6e91c9365529421d5a80> a fhir:RegulatedAuthorization ;
+  fhir:id [ fhir:v "authorizatione0d9ad275c19f6e91c9365529421d5a80"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"RegulatedAuthorization_authorizatione0d9ad275c19f6e91c9365529421d5a80\"> </a><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"authorizatione0d9ad275c19f6e91c9365529421d5a80\"> </a><a name=\"hcauthorizatione0d9ad275c19f6e91c9365529421d5a80\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;authorizatione0d9ad275c19f6e91c9365529421d5a80&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/pt-xxx (use: OFFICIAL)</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_mp01eaaf0a81574efda98a52449788e7a2\">See above (MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000061)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2022-05-10 00:00:00+0000</p><p><b>holder</b>: <a href=\"#Organization_mah-fe6b7ee8886997a3f2098e16b925984d\">See above (Organization/mah-fe6b7ee8886997a3f2098e16b925984d)</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "pt-xxx" ]
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000061" ] ;
+       fhir:display [ fhir:v "Marketing Authorisation" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2022-05-10T00:00:00Z"^^xsd:dateTime] ; # 
+  fhir:holder [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-fe6b7ee8886997a3f2098e16b925984d> ;
+     fhir:reference [ fhir:v "Organization/mah-fe6b7ee8886997a3f2098e16b925984d" ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-fe6b7ee8886997a3f2098e16b925984d> a fhir:Organization ;
+  fhir:id [ fhir:v "mah-fe6b7ee8886997a3f2098e16b925984d"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_mah-fe6b7ee8886997a3f2098e16b925984d\"> </a><p><b>Generated Narrative: Organization</b><a name=\"mah-fe6b7ee8886997a3f2098e16b925984d\"> </a><a name=\"hcmah-fe6b7ee8886997a3f2098e16b925984d\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;mah-fe6b7ee8886997a3f2098e16b925984d&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/ORG-100002574 (use: OFFICIAL)</p><p><b>active</b>: true</p><p><b>type</b>: Marketing authorisation holder <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000034)</span></p><p><b>name</b>: Reckitt Benckiser Healthcare, Lda.</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>Rua Dom Cristovao Da Gama 1 1 Andar Lisbon PT(WORK)</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/omswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "ORG-100002574" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000034" ] ;
+       fhir:display [ fhir:v "Marketing authorisation holder" ]
+     ] )
+  ] ) ; # 
+  fhir:name [ fhir:v "Reckitt Benckiser Healthcare, Lda."] ; # 
+  fhir:contact ( [
+     fhir:address [
+       fhir:use [ fhir:v "work" ] ;
+       fhir:type [ fhir:v "physical" ] ;
+       fhir:text [ fhir:v "Rua Dom Cristovao Da Gama 1 1 Andar Lisbon PT" ] ;
+       fhir:line ( [ fhir:v "Rua Dom Cristovao Da Gama 1 1 Andar" ] ) ;
+       fhir:city [ fhir:v "Lisbon" ] ;
+       fhir:country [ fhir:v "PT" ]
+     ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-1f1356f6a8c19d66c5c3f4e40da7536c> a fhir:PackagedProductDefinition ;
+  fhir:id [ fhir:v "ppd-1f1356f6a8c19d66c5c3f4e40da7536c"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-1f1356f6a8c19d66c5c3f4e40da7536c\"> </a><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"ppd-1f1356f6a8c19d66c5c3f4e40da7536c\"> </a><a name=\"hcppd-1f1356f6a8c19d66c5c3f4e40da7536c\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;ppd-1f1356f6a8c19d66c5c3f4e40da7536c&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/5697008 (use: OFFICIAL)</p><p><b>name</b>: Nurofen 100 mg Chewable Capsules 2</p><p><b>type</b>: Chemical Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_mp01eaaf0a81574efda98a52449788e7a2\">See above (MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2)</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 100 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073496)</span></p><p><b>quantity</b>: 2</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003222)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "5697008" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Nurofen 100 mg Chewable Capsules 2"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155527" ] ;
+       fhir:display [ fhir:v "Chemical Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:packageFor ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:containedItemQuantity ( [
+     fhir:value [ fhir:v "100"^^xsd:decimal ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "mg" ]
+  ] ) ; # 
+  fhir:packaging [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073498" ] ;
+         fhir:display [ fhir:v "Box" ]
+       ] )
+     ] ;
+     fhir:quantity [ fhir:v "1"^^xsd:integer ] ;
+     fhir:material ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000003529" ] ;
+         fhir:display [ fhir:v "Cardboard" ]
+       ] )
+     ] ) ;
+     fhir:packaging ( [
+       fhir:identifier ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "123456" ]
+       ] ) ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000073496" ] ;
+           fhir:display [ fhir:v "Blister" ]
+         ] )
+       ] ;
+       fhir:quantity [ fhir:v "2"^^xsd:integer ] ;
+       fhir:material ( [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000003222" ] ;
+           fhir:display [ fhir:v "PolyVinyl Chloride" ]
+         ] )
+       ] ) ;
+       fhir:containedItem ( [
+         fhir:item [
+           fhir:reference [
+             fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8> ;
+             fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8" ]
+           ]
+         ]
+       ] )
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2> a fhir:MedicinalProductDefinition ;
+  fhir:id [ fhir:v "mp01eaaf0a81574efda98a52449788e7a2"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_mp01eaaf0a81574efda98a52449788e7a2\"> </a><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"mp01eaaf0a81574efda98a52449788e7a2\"> </a><a name=\"hcmp01eaaf0a81574efda98a52449788e7a2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;mp01eaaf0a81574efda98a52449788e7a2&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://www.who-umc.org/phpid/1</code>/8B44F06AB13CD28E68DE3255193A4F59, <code>https://www.who-umc.org/phpid/2</code>/946EDA19CD2DB76813237462884BEFD8, <code>https://www.who-umc.org/phpid/3</code>/EBCFAC0D18CA76B872188AA9E85F0F67, <code>https://www.who-umc.org/phpid/4</code>/9DE6782842862A9295DAA3C3B96C4882</p><p><b>type</b>: Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-medicinal-product-type.html\">Medicinal Product Type</a>#MedicinalProduct)</span></p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-medicinal-product-domain.html\">Medicinal Product Domain</a>#Human)</span></p><p><b>status</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072084)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Nurofen 100 mg Chewable Capsules</p><p><b>type</b>: Full name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000001)</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Nurofen</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: Ibruprofen</p><p><b>type</b>: Scientific name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000003)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 100 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: chewable capsule</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style=\"display: none\">*</td><td>Portugal <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#PT)</span></td><td>Portugal <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#PT)</span></td><td>English <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-ietf3066.html\">Tags for the Identification of Languages</a>#en)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://www.who-umc.org/phpid/1"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "8B44F06AB13CD28E68DE3255193A4F59" ]
+  ] [
+     fhir:system [ fhir:v "https://www.who-umc.org/phpid/2"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "946EDA19CD2DB76813237462884BEFD8" ]
+  ] [
+     fhir:system [ fhir:v "https://www.who-umc.org/phpid/3"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EBCFAC0D18CA76B872188AA9E85F0F67" ]
+  ] [
+     fhir:system [ fhir:v "https://www.who-umc.org/phpid/4"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "9DE6782842862A9295DAA3C3B96C4882" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MedicinalProduct" ] ;
+       fhir:display [ fhir:v "Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:domain [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-domain"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Human" ] ;
+       fhir:display [ fhir:v "Human use" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:legalStatusOfSupply [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072084" ] ;
+       fhir:display [ fhir:v "Medicinal product subject to medical prescription" ]
+     ] )
+  ] ; # 
+  fhir:name ( [
+     fhir:productName [ fhir:v "Nurofen 100 mg Chewable Capsules" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "220000000001" ] ;
+         fhir:display [ fhir:v "Full name" ]
+       ] )
+     ] ;
+     fhir:part ( [
+       fhir:part [ fhir:v "Nurofen" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000002" ] ;
+           fhir:display [ fhir:v "Invented name part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "Ibruprofen" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000003" ] ;
+           fhir:display [ fhir:v "Scientific name part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "100 mg" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000004" ] ;
+           fhir:display [ fhir:v "Strength part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "chewable capsule" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000005" ] ;
+           fhir:display [ fhir:v "Pharmaceutical dose form part" ]
+         ] )
+       ]
+     ] ) ;
+     fhir:usage ( [
+       fhir:country [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "PT" ] ;
+           fhir:display [ fhir:v "Portugal" ]
+         ] )
+       ] ;
+       fhir:jurisdiction [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "PT" ] ;
+           fhir:display [ fhir:v "Portugal" ]
+         ] )
+       ] ;
+       fhir:language [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "en" ] ;
+           fhir:display [ fhir:v "English" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e0d9ad275c19f6e91c9365529421d5a8> a fhir:ManufacturedItemDefinition ;
+  fhir:id [ fhir:v "mid-e0d9ad275c19f6e91c9365529421d5a8"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ManufacturedItemDefinition_mid-e0d9ad275c19f6e91c9365529421d5a8\"> </a><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"mid-e0d9ad275c19f6e91c9365529421d5a8\"> </a><a name=\"hcmid-e0d9ad275c19f6e91c9365529421d5a8\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;mid-e0d9ad275c19f6e91c9365529421d5a8&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/pt-xx (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Chewable capsule, soft <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000073377)</span></p><p><b>unitOfPresentation</b>: Capsule <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002113)</span></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "pt-xx" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:manufacturedDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000073377" ] ;
+       fhir:display [ fhir:v "Chewable capsule, soft" ]
+     ] )
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000002113" ] ;
+       fhir:display [ fhir:v "Capsule" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

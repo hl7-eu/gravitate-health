@@ -1,0 +1,48 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/ValueSet/3point-category-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "3point-category-vs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-questi-dimens-cs.html\"><code>http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/questi-dimens-cs</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-questi-dimens-cs.html#questi-dimens-cs-Low\">Low</a></td><td style=\"color: #cccccc\">Low</td><td>Low</td></tr><tr><td><a href=\"CodeSystem-questi-dimens-cs.html#questi-dimens-cs-Medium\">Medium</a></td><td style=\"color: #cccccc\">Medium</td><td>Medium</td></tr><tr><td><a href=\"CodeSystem-questi-dimens-cs.html#questi-dimens-cs-High\">High</a></td><td style=\"color: #cccccc\">High</td><td>High</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/ValueSet/3point-category-vs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ThreepointCategoryVS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2024-03-14T09:41:47+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Gravitate Health Project"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/questi-dimens-cs"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "Low" ]
+       ] [
+         fhir:code [ fhir:v "Medium" ]
+       ] [
+         fhir:code [ fhir:v "High" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

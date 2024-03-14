@@ -1,0 +1,479 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet - TTL Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.160"}
+    h3,h4,h5,h6{--heading-prefix:"16.160"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Composition-composition-en-16598f252d07b4784b82ba43cf9e847e.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Composition-composition-en-16598f252d07b4784b82ba43cf9e847e.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Composition-composition-en-16598f252d07b4784b82ba43cf9e847e.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Composition for Dovato 50 mg/300 mg film-coated tablets Package Leaflet - TTL Representation</h2>
+
+
+<p><a href="Composition-composition-en-16598f252d07b4784b82ba43cf9e847e.ttl" no-download="true">Raw ttl</a> | <a href="Composition-composition-en-16598f252d07b4784b82ba43cf9e847e.ttl" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="rdf" style="white-space: pre; overflow: hidden">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Composition ;
+  <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;composition-en-16598f252d07b4784b82ba43cf9e847e&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;en&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;en\&quot; lang=\&quot;en\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=\&quot;composition-en-16598f252d07b4784b82ba43cf9e847e\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Composition &amp;quot;composition-en-16598f252d07b4784b82ba43cf9e847e&amp;quot;  (Language &amp;quot;en&amp;quot;) &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\&quot;&gt;Composition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: c90d140de2d4ddf3b2a2617fc2fc996c&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Package Leaflet &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: Raw &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-epicategory-cs.html\&quot;&gt;Category of EPI&lt;/a&gt;#R)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-02-16 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;a href=\&quot;Organization-mah-31ff1af739c7dcf77386a86f8dd83d29.html\&quot;&gt;Organization/mah-31ff1af739c7dcf77386a86f8dd83d29&lt;/a&gt; &amp;quot;ViiV Healthcare BV&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: TEST PURPOSES ONLY - Dovato 50 mg/300 mg film-coated tablets&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Official &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html\&quot;&gt;Composition Attestation Mode&lt;/a&gt;#official)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;2022-02-16 13:28:17+0000&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/rmswi/&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;c90d140de2d4ddf3b2a2617fc2fc996c&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;final&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.type">fhir:type</a> [
+    ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/rmswi/&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;100000155538&quot; ]     ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Package Leaflet&quot; ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.category">fhir:category</a> ( [
+    ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;R&quot; ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Raw&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.subject">fhir:subject</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> &quot;2022-02-16T13:28:17Z&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.author">fhir:author</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Organization/mah-31ff1af739c7dcf77386a86f8dd83d29&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;TEST PURPOSES ONLY - Dovato 50 mg/300 mg film-coated tablets&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.attester">fhir:attester</a> ( [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.mode">fhir:mode</a> [
+      ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/composition-attestation-mode&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;official&quot; ]       ] )     ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.time">fhir:time</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> &quot;2022-02-16T13:28:17Z&quot;^^xsd:dateTime ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.section">fhir:section</a> ( [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;B. Package Leaflet&quot; ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+      ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/rmswi/&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;100000155538&quot; ]       ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;B. PACKAGE LEAFLET&quot; ]     ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Package leaflet: Information for the patient Dovato 50 mg/300 mg film-coated tablets dolutegravir/lamivudine Read all of this leaflet carefully before you start taking this medicine because it contains important information for you.&lt;ul&gt;&lt;li&gt;Keep this leaflet. You may need to read it again.&lt;/li&gt;&lt;li&gt;If you have any further questions, ask your doctor or pharmacist.&lt;/li&gt;&lt;li&gt;This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.&lt;/li&gt;&lt;li&gt;If you get any side effects talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;     ] ;
+    ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Package leaflet: Information for the user&quot; ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/rmswi/&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;100000155538&quot; ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Package leaflet: Information for the user&quot; ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;strong&gt;Dovato 50 mg/300 mg film-coated tablets&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;dolutegravir/lamivudine&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Read all of this leaflet carefully before you start taking this medicine because it contains important information for you.&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Keep this leaflet. You may need to read it again.&lt;/li&gt;&lt;li&gt;If you have any further questions, ask your doctor, or pharmacist.&lt;/li&gt;&lt;li&gt;This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.&lt;/li&gt;&lt;li&gt;If you get any side effects, talk to your doctor, or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;What is in this leaflet&quot; ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/rmswi/&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;100000155538&quot; ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;What is in this leaflet&quot; ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;What in this leaflet&lt;ol&gt;&lt;li&gt;What Dovato is and what it is used for&lt;/li&gt;&lt;li&gt;What you need to know before you take Dovato&lt;/li&gt;&lt;li&gt;How to take Dovato&lt;/li&gt;&lt;li&gt;Possible side effects&lt;/li&gt;&lt;li&gt;How to store Dovato&lt;/li&gt;&lt;li&gt;Contents of the pack and other information&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;1. What Dovato 50 mg/300 mg film-coated tablets is and what it is used for&quot; ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/rmswi/&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;100000155538&quot; ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;1. What Dovato 50 mg/300 mg film-coated tablets is and what it is used for&quot; ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;Dovato is a medicine that contains two active ingredients used to treat human immunodeficiency virus (HIV) infection: dolutegravir and lamivudine. Dolutegravir belongs to a group of anti-retroviral medicines called integrase inhibitors (INIs), and lamivudine belongs to a group of anti-retroviral medicines called nucleoside analogue reverse transcriptase inhibitors (NRTIs).&lt;/p&gt;&lt;p&gt;Dovato is used to treat HIV in adults and adolescents over 12 years old who weigh at least 40 kg.&lt;/p&gt;&lt;p&gt;Dovato does not cure HIV infection; it keeps the amount of virus in your body at a low level. This helps maintain the number of CD4 cells in your blood. CD4 cells are a type of white blood cells that are important in helping your body to fight infection.&lt;/p&gt;&lt;p&gt;Not everyone responds to treatment with Dovato in the same way. Your doctor will monitor the effectiveness of your treatment.&lt;/p&gt;&lt;/div&gt;&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;2. What you need to know before you take Dovato 50 mg/300 mg film-coated tablets&quot; ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/rmswi/&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;100000155538&quot; ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;2. What you need to know before you take Dovato 50 mg/300 mg film-coated tablets&quot; ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;Do not take Dovato&lt;/p&gt;&lt;ul&gt;&lt;li&gt;if you are allergic (hypersensitive) to dolutegravir or lamivudine or any of the other ingredients of this medicine (listed in section 6).&lt;/li&gt;&lt;li&gt;If you are taking a medicine called fampridine (also known as dalfampridine; used in multiple sclerosis).&lt;/li&gt;&lt;li&gt;If you think any of these apply to you, tell your doctor. Warnings and precautions Some people taking Dovato or other combination treatments for HIV are more at risk of serious side effects than others. You need to be aware of the extra risks:&lt;/li&gt;&lt;li&gt;if you have moderate or severe liver disease if you have ever had liver disease, including hepatitis B or C (if you have hepatitis B infection, don’t stop Dovato without your doctor’s advice, as your hepatitis may come back) • if you have a kidney problem. → Talk to your doctor before using Dovato if any of these apply to you. You may need extra checkups, including blood tests, while you’re taking your medicine. See section 4 for more information. Allergic reactions Dovato contains dolutegravir. Dolutegravir can cause a serious allergic reaction known as a hypersensitivity reaction. You need to know about important signs and symptoms to look out for while you’re taking Dovato. → Read the information ‘Allergic reactions’ in section 4 of this leaflet. Look out for important symptoms Some people taking medicines for HIV infection develop other conditions, which can be serious. These include: • symptoms of infections and inflammation • joint pain, stiffness and bone problems. You need to know about important signs and symptoms to look out for while you’re taking Dovato. → Read the information ‘Other possible side effects’ in section 4 of this leaflet.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Children&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;This medicine is not for use in children under 12 years of age, because it has not been studied in these patients.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Other medicines and Dovato&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Tell your doctor if you are taking, have recently taken or might take any other medicines.&lt;/p&gt;&lt;p&gt;Don&amp;#39;t take Dovato with the following medicine:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;fampridine (also known as dalfampridine), used in &lt;strong&gt;multiple sclerosis.&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Some medicines can affect how Dovato works or make it more likely that you will have side effects. Dovato can also affect how some other medicines work.&lt;/p&gt;&lt;p&gt;Tell your doctor if you are taking any of the medicines in the following list:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;metformin, to treat diabetes&lt;/li&gt;&lt;li&gt;medicines called antacids, to treat indigestion and heartburn. Do not take an antacid during the 6 hours before you take Dovato, or for at least 2 hours after you take it (see also section 3, ‘How to take Dovato’)&lt;/li&gt;&lt;li&gt;supplements or multivitamins containing calcium, iron or magnesium. If you take Dovato with food, you can take supplements or multivitamins containing calcium, iron or magnesium at the same time as Dovato. If you do not take Dovato with food, do not take a supplement or multivitamin containing calcium, iron or magnesium during the 6 hours before you take Dovato, or for at least 2 hours after you take it (see also section 3, ‘How to take Dovato’)&lt;/li&gt;&lt;li&gt;emtricitabine, etravirine, efavirenz, nevirapine or tipranavir/ritonavir, to treat HIV infection&lt;/li&gt;&lt;li&gt;medicines (usually liquids) containing sorbitol and other sugar alcohols (such as xylitol, mannitol, lactitol or maltitol), if taken regularly&lt;/li&gt;&lt;li&gt;cladribine, to treat leukaemia or multiple sclerosis&lt;/li&gt;&lt;li&gt;rifampicin, to treat tuberculosis (TB) and other bacterial infections&lt;/li&gt;&lt;li&gt;phenytoin and phenobarbital, to treat epilepsy&lt;/li&gt;&lt;li&gt;oxcarbazepine and carbamazepine, to treat epilepsy or bipolar disorder&lt;/li&gt;&lt;li&gt;&lt;p&gt;St. John’s wort (Hypericum perforatum), a herbal remedy to treat depression.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Tell your doctor or pharmacist if you are taking any of these. Your doctor may decide to adjust your dose or that you need extra check ups.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Pregnancy&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;If you are pregnant, think you may be pregnant, or if you are planning to have a baby:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Talk to your doctor about the risks and benefits of taking Dovato.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Taking Dovato at the time of becoming pregnant or during the first six weeks of pregnancy, may increase the risk of a birth defect, called neural tube defect, such as spina bifida (malformed spinal cord).&lt;/p&gt;&lt;p&gt;If you could get pregnant while taking Dovato:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Talk to your doctor and discuss whether there is a need for contraception, such as condom or pills.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tell your doctor immediately if you become pregnant or are planning to become pregnant. Your doctor will review your treatment. Do not stop taking Dovato without consulting your doctor, as this may harm you and your unborn child.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Breast-feeding&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Breast-feeding is not recommended in women living with HIV because HIV infection can be passed on to the baby in breast milk. A small amount of the ingredients in Dovato can also pass into your breast milk. If you are breast-feeding, or thinking about breast-feeding, you should discuss it with your doctor as soon as possible.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Driving and using machines&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Dovato can make you dizzy, and have other side effects that make you less alert.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Don’t drive or operate machinery unless you are sure you’re not affected.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;3. How to take Dovato 50 mg/300 mg film-coated tablets&quot; ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/rmswi/&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;100000155538&quot; ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;3. How to take Dovato 50 mg/300 mg film-coated tablets&quot; ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if you are not sure.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The recommended dose of Dovato is one tablet once a day.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Swallow the tablet with some liquid. Dovato can be taken with or without food.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Use in adolescents&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Adolescents aged between 12 and 17 years and weighing at least 40 kg can take the adult dose of one tablet once a day.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Antacid medicines&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Antacids, to treat indigestion and heartburn, can stop Dovato being absorbed into your body and make it less effective. Do not take an antacid during the 6 hours before you take Dovato, or for at least 2 hours after you take it. You can take other acid-lowering medicines like ranitidine and omeprazole at the same time as Dovato.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Talk to your doctor for further advice on taking acid-lowering medicines with Dovato.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Supplements or multivitamins containing calcium, iron or magnesium&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Supplements or multivitamins containing calcium, iron or magnesium can stop Dovato being absorbed into your body and make it less effective. If you take Dovato with food, you can take supplements or multivitamins containing calcium, iron or magnesium at the same time as Dovato. If you do not take Dovato with food, do not take a supplement or multivitamin containing calcium, iron or magnesium during the 6 hours before you take Dovato, or for at least 2 hours after you take it.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Talk to your doctor for further advice on taking supplements or multivitamins containing calcium, iron or magnesium with Dovato.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;If you take more Dovato than you should&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;If you take too many tablets of Dovato contact your doctor or pharmacist for advice. If possible, show them the Dovato pack.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;If you forget to take Dovato&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;If you miss a dose, take it as soon as you remember. But if your next dose is due within 4 hours, skip the dose you missed and take the next one at the usual time. Then continue your treatment as before.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Do not take a double dose to make up for a forgotten dose.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Don’t stop taking Dovato without advice from your doctor&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Take Dovato for as long as your doctor recommends. Don’t stop unless your doctor tells you to. Stopping Dovato can affect your health and how future treatment works.&lt;/p&gt;&lt;p&gt;If you have any further questions on the use of this medicine, ask your doctor or pharmacist.&lt;/p&gt;&lt;/div&gt;&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;4. Possible side effects&quot; ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/rmswi/&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;100000155538&quot; ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;4. Possible side effects&quot; ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;Like all medicines, this medicine can cause side effects, although not everybody gets them, so it is very important to talk to your doctor about any changes in your health.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Allergic reactions&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Dovato contains dolutegravir. Dolutegravir can cause a serious allergic reaction known as a hypersensitivity reaction. This is an uncommon reaction (may affect up to 1 in 100 people) in people taking dolutegravir. If you get any of the following symptoms:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;skin rash&lt;/li&gt;&lt;li&gt;a high temperature (fever)&lt;/li&gt;&lt;li&gt;lack of energy (fatigue)&lt;/li&gt;&lt;li&gt;swelling, sometimes of the face or mouth (angioedema), causing difficulty in breathing&lt;/li&gt;&lt;li&gt;muscle or joint aches.&lt;/li&gt;&lt;li&gt;See a doctor straight away. Your doctor may decide to carry out tests to check your liver, kidneys or blood, and may tell you to stop taking Dovato.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Very common side effects&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;These may affect more than 1 in 10 people:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;headache&lt;/li&gt;&lt;li&gt;diarrhoea&lt;/li&gt;&lt;li&gt;feeling sick (nausea).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Common side effects&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;These may affect up to 1 in 10 people:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;depression (feelings of deep sadness and unworthiness)&lt;/li&gt;&lt;li&gt;rash&lt;/li&gt;&lt;li&gt;itching (pruritus)&lt;/li&gt;&lt;li&gt;being sick (vomiting)&lt;/li&gt;&lt;li&gt;stomach (abdominal) pain or discomfort&lt;/li&gt;&lt;li&gt;weight gain&lt;/li&gt;&lt;li&gt;wind (flatulence)&lt;/li&gt;&lt;li&gt;dizziness&lt;/li&gt;&lt;li&gt;feeling drowsy&lt;/li&gt;&lt;li&gt;difficulty sleeping (insomnia)&lt;/li&gt;&lt;li&gt;abnormal dreams&lt;/li&gt;&lt;li&gt;lack of energy (fatigue)&lt;/li&gt;&lt;li&gt;hair loss&lt;/li&gt;&lt;li&gt;anxiety&lt;/li&gt;&lt;li&gt;joint pain&lt;/li&gt;&lt;li&gt;muscle pain.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Common side effects that may show up in blood tests are:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;increase in the level of liver enzymes (aminotransferases)&lt;/li&gt;&lt;li&gt;increase in the level of enzymes produced in the muscles (creatine phosphokinase).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Uncommon side effects&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;These may affect up to 1 in 100 people:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;inflammation of the liver (hepatitis)&lt;/li&gt;&lt;li&gt;suicidal attempt (particularly in patients who have had depression or mental health problems before)&lt;/li&gt;&lt;li&gt;suicidal thoughts (particularly in patients who have had depression or mental health problems before).&lt;/li&gt;&lt;li&gt;panic attack&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Uncommon side effects that may show up in blood tests are:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;a decreased number of cells involved in blood clotting (thrombocytopenia)&lt;/li&gt;&lt;li&gt;a low red blood cell count (anaemia) or low white blood cell count (neutropenia).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Rare side effects&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;These may affect up to 1 in 1000 people:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;liver failure (signs may include yellowing of the skin and the whites of the eyes or unusually dark urine)&lt;/li&gt;&lt;li&gt;swelling, sometimes of the face or mouth (angioedema), causing difficulty in breathing&lt;/li&gt;&lt;li&gt;inflammation of the pancreas (pancreatitis)&lt;/li&gt;&lt;li&gt;breakdown of muscle tissue.&lt;/li&gt;&lt;li&gt;suicide (particularly in patients who have had depression or mental health problems before)&lt;/li&gt;&lt;li&gt;Tell your doctor immediately if you experience any mental health problems (see also other mental health problems above).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Rare side effects that may show up in blood tests are:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;increase in bilirubin (a test of liver function)&lt;/li&gt;&lt;li&gt;increase in an enzyme called amylase.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Very rare side effects These may affect up to 1 in 10,000 people:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;lactic acidosis (excess lactic acid in the blood)&lt;/li&gt;&lt;li&gt;numbness, tingly feelings in the skin (pins and needles)&lt;/li&gt;&lt;li&gt;sensation of weakness in the limbs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Very rare side effects that may show up in blood tests are:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;a failure of the bone marrow to produce new red blood cells (pure red cell aplasia).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Other possible side effects&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;People taking combination therapy for HIV may get other side effects.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Symptoms of infection and inflammation&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;People with advanced HIV infection or AIDS have weak immune systems, and are more likely to develop serious infections (opportunistic infections). Such infections may have been “silent” and not detected by the weak immune system before treatment was started. After starting treatment, the immune system becomes stronger, and may attack the infections, which can cause symptoms of infection or inflammation. Symptoms usually include fever, plus some of the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;headache&lt;/li&gt;&lt;li&gt;stomach ache&lt;/li&gt;&lt;li&gt;difficulty breathing. In rare cases, as the immune system becomes stronger, it can also attack healthy body tissue (autoimmune disorders). The symptoms of autoimmune disorders may develop many months after you start taking medicine to treat your HIV infection. Symptoms may include:&lt;/li&gt;&lt;li&gt;palpitations (rapid or irregular heartbeat) or tremor&lt;/li&gt;&lt;li&gt;hyperactivity (excessive restlessness and movement)&lt;/li&gt;&lt;li&gt;weakness beginning in the hands and feet and moving up towards the trunk of the body. If you get any symptoms of infection or if you notice any of the symptoms above:&lt;/li&gt;&lt;li&gt;Tell your doctor immediately. Don’t take other medicines for the infection without your doctor’s advice.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Joint pain, stiffness and bone problems&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Some people taking combination therapy for HIV develop a condition called osteonecrosis. With this condition, parts of the bone tissue are permanently damaged because of reduced blood supply to the bone. People may be more likely to get this condition:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;if they have been taking combination therapy for a long time&lt;/li&gt;&lt;li&gt;if they are also taking anti-inflammatory medicines called corticosteroids&lt;/li&gt;&lt;li&gt;if they drink alcohol&lt;/li&gt;&lt;li&gt;if their immune systems are very weak&lt;/li&gt;&lt;li&gt;if they are overweight.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Signs of osteonecrosis include:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;stiffness in the joints&lt;/li&gt;&lt;li&gt;aches and pains in the joints (especially in the hip, knee or shoulder)&lt;/li&gt;&lt;li&gt;difficulty moving. If you notice any of these symptoms:&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Tell your doctor.&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Weight, blood lipid and blood glucose effects:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;During HIV therapy there may be an increase in weight and in levels of blood lipids and glucose. This is partly linked to restored health and lifestyle, and sometimes to the HIV medicines themselves. Your doctor will test for these changes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Reporting of side effects&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. By reporting side effects you can help provide more information on the safety of this medicine.&lt;/p&gt;&lt;/div&gt;&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;5. How to store Dovato 50 mg/300 mg film-coated tablets&quot; ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/rmswi/&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;100000155538&quot; ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;5. How to store Dovato 50 mg/300 mg film-coated tablets&quot; ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;Keep this medicine out of the sight and reach of children.&lt;/p&gt;&lt;p&gt;Do not use this medicine after the expiry date which is stated on the carton and bottle after EXP. The expiry date refers to the last day of that month.&lt;/p&gt;&lt;p&gt;This medicine does not require any special storage conditions.&lt;/p&gt;&lt;p&gt;Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.&lt;/p&gt;&lt;/div&gt;&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;6. Contents of the pack and other information&quot; ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/rmswi/&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;100000155538&quot; ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;6. Contents of the pack and other information&quot; ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;Contents of the pack and other information What Dovato contains&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The active substances are dolutegravir and lamivudine. Each tablet contains dolutegravir sodium equivalent to 50 mg dolutegravir and 300 mg lamivudine.&lt;/li&gt;&lt;li&gt;The other ingredients are microcrystalline cellulose, sodium starch glycolate, magnesium stearate, mannitol (E421), povidone (K29/32), sodium stearyl fumarate, hypromellose (E464), macrogol, titanium dioxide (E171).&lt;/li&gt;&lt;li&gt;This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodiumfree’.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;What Dovato looks like and contents of the pack&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Dovato film-coated tablets are oval, biconvex, white tablets debossed with &amp;#39;SV 137&amp;#39; on one face.&lt;/p&gt;&lt;p&gt;The film-coated tablets are provided in bottles closed with child-resistant closures.&lt;/p&gt;&lt;p&gt;Each bottle contains 30 film-coated tablets.&lt;/p&gt;&lt;p&gt;Multipacks containing 90 film-coated tablets (3 packs of 30 film-coated tablets) are also available. Not all pack sizes may be available in your c ountry&lt;/p&gt;&lt;/div&gt;&quot;       ]     ] )
+  ] ) . # 
+
+</pre>
+
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Jan 21, 2024 22:55+0000">2024-01-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

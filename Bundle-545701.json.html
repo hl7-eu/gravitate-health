@@ -1,0 +1,887 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Aclasta Sandoz (Bundle) - JSON Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.482"}
+    h3,h4,h5,h6{--heading-prefix:"16.482"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Aclasta Sandoz (Bundle)</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+  <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-545701.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-545701.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-545701.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Aclasta Sandoz (Bundle) - JSON Representation</h2>
+
+
+<p><a href="Bundle-545701.json" no-download="true">Raw json</a> | <a download="null" href="Bundle-545701.json">Download</a></p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <pre style="white-space: pre; text-wrap: nowrap;" class="json"><code style="white-space: pre; text-wrap: nowrap;">
+{
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle">resourceType</a>" : "Bundle",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.id">id</a>" : "545701",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+      <a style="color: Maroon" href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Bundle-uv-epi.html">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.language">language</a>" : "no",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.identifier">identifier</a>" : {
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://felleskatalogen.no/vsid",
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "545701"
+  },
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.type">type</a>" : "document",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.timestamp">timestamp</a>" : "2022-11-09T01:01:01Z",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "https://gravitatehealth.eu/fhir/nordic-epi/Composition/545701",
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/composition.html">resourceType</a>" : "Composition",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.id">id</a>" : "545701",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a style="color: Maroon" href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
+            "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.language">language</a>" : "no",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"no\" lang=\"no\"&gt;&lt;a name=\"Composition_545701\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=\"545701\"&gt; &lt;/a&gt;&lt;a name=\"hc545701\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource Composition &amp;quot;545701&amp;quot;  (Language &amp;quot;no&amp;quot;) &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\"&gt;Composition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://felleskatalogen.no/vsid&lt;/code&gt;/545701&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: 100000155538 &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-11-09&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;span&gt;&lt;code&gt;https://gravitatehealth.eu/organization&lt;/code&gt;/felleskatalogen&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: Aclasta Sandoz&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://felleskatalogen.no/vsid",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "545701"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.status">status</a>" : "final",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.type">type</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/100000155531/terms/",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.subject">subject</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/COPD-MPD-260"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.date">date</a>" : "2022-11-09",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.author">author</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.identifier">identifier</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://gravitatehealth.eu/organization",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "felleskatalogen"
+            }
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.title">title</a>" : "Aclasta Sandoz",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section">section</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Pakningsvedlegg: Informasjon til brukeren",
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029894"
+                }
+              ]
+            },
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+              "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+              "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                     &lt;h1&gt;Pakningsvedlegg: Informasjon til brukeren&lt;/h1&gt;\n                     &lt;h2&gt;Aclasta 5 mg infusjonsvæske, oppløsning&lt;/h2&gt;\n                     &lt;h3&gt;zoledronsyre&lt;/h3&gt;\n                  &lt;/div&gt;"<a name="end-xhtml"></a>
+            },
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg.",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://gravitatehealth.eu/section",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "rules"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg.&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;Ta vare på dette pakningsvedlegget. Du kan få behov for å lese det igjen.&lt;/li&gt;\n                              &lt;li&gt;Spør lege, apotek eller sykepleier hvis du har flere spørsmål eller trenger mer informasjon.&lt;/li&gt;\n                              &lt;li&gt;Kontakt lege, apotek eller sykepleier dersom du opplever bivirkninger, inkludert mulige bivirkninger som ikke er nevnt i dette pakningsvedlegget. Se avsnitt 4.&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "I dette pakningsvedlegget finner du informasjon om",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://gravitatehealth.eu/section",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "toc"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;I dette pakningsvedlegget finner du informasjon om&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ol&gt;\n                              &lt;li&gt;Hva Aclasta er og hva det brukes mot&lt;/li&gt;\n                              &lt;li&gt;Hva du må vite før du får Aclasta&lt;/li&gt;\n                              &lt;li&gt;Hvordan Aclasta gis&lt;/li&gt;\n                              &lt;li&gt;Mulige bivirkninger&lt;/li&gt;\n                              &lt;li&gt;Hvordan du oppbevarer Aclasta&lt;/li&gt;\n                              &lt;li&gt;Innholdet i pakningen og ytterligere informasjon&lt;/li&gt;\n                           &lt;/ol&gt;\n                        &lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "1. Hva Aclasta er og hva det brukes mot",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029895"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;1. Hva Aclasta er og hva det brukes mot&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Aclasta inneholder virkestoffet zoledronsyre. Aclasta tilhører en gruppe legemidler som kalles bisfosfonater og brukes i behandlingen av kvinner etter overgangsalderen og voksne menn med osteoporose, eller osteoporose forårsaket av behandling med kortikosteroider som brukes ved behandling av betennelse, og ved Pagets bensykdom hos voksne.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Osteoporose&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;Osteoporose er en sykdom som innebærer at benvevet blir tynnere og svakere. Det er vanlig hos kvinner etter overgangsalderen, men kan også forekomme hos menn. Ved overgangsalderen slutter kvinnens eggstokker å produsere det kvinnelige hormonet østrogen som medvirker til å beholde et friskt benvev. Etter overgangsalderen reduseres benmassen, og benvevet blir svakere og er mer utsatt for brudd. Osteoporose kan også oppstå hos menn og kvinner som følge av langtidsbruk av steroider, noe som kan påvirke benstyrken. Mange pasienter med osteoporose har ingen symptomer, men har likevel en risiko for benbrudd fordi osteoporosen har gjort benvevet svakere. Reduserte nivåer av sirkulerende kjønnshormoner i kroppen, hovedsakelig østrogen som dannes fra androgener, spiller også en rolle for det gradvise tapet av benvev som observeres hos menn. Aclasta styrker benvevet hos både kvinner og menn og gjør det derfor mindre utsatt for brudd. Aclasta brukes også hos pasienter som nylig har brukket hoften ved et uhell som f.eks. et fall, og som derfor har risiko for senere benbrudd.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Pagets bensykdom&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;Det er normalt at gammelt benvev fjernes og erstattes av ny bensubstans. Prosessen kalles remodellering. Ved Pagets bensykdom er remodelleringen for rask og nytt ben dannes på en uorganisert måte, noe som gjør det svakere enn normalt. Dersom sykdommen ikke behandles, kan misdannelser og smerter i skjelettet oppstå, og benbrudd kan forekomme. Aclasta virker ved å normalisere remodelleringsprosessen, sikrer at normalt ben dannes, og gjenoppretter dermed benstyrken.&lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "2. Hva du må vite før du får Aclasta",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029896"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;2. Hva du må vite før du får Aclasta&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Følg alle instruksjoner fra legen din, apoteket eller sykepleier nøye før du får Aclasta.&lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>" : [
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Du må ikke få Aclasta:",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029897"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Du må ikke få Aclasta:&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;ul&gt;\n                                 &lt;li&gt;dersom du er allergisk overfor zoledronsyre, andre bisfosfonater eller noen av de andre innholdsstoffene i dette legemidlet (listet opp i avsnitt 6).&lt;/li&gt;\n                                 &lt;li&gt;dersom du har hypokalsemi (dvs. for lavt kalsiumnivå i blodet).&lt;/li&gt;\n                                 &lt;li&gt;dersom du har alvorlige nyreproblemer.&lt;/li&gt;\n                                 &lt;li&gt;dersom du er gravid.&lt;/li&gt;\n                                 &lt;li&gt;dersom du ammer.&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Advarsler og forsiktighetsregler",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029898"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Advarsler og forsiktighetsregler&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Snakk med lege før du bruker Aclasta:&lt;ul&gt;\n                                 &lt;li&gt;hvis du blir behandlet med et legemiddel som inneholder zoledronsyre, som også er virkestoffet i Aclasta (zoledronsyre brukes til voksne pasienter med spesifikke krefttyper for å forhindre beinkomplikasjoner eller for å redusere mengden kalsium).&lt;/li&gt;\n                                 &lt;li&gt;hvis du har eller har hatt nyreproblemer.&lt;/li&gt;\n                                 &lt;li&gt;hvis du er forhindret fra å ta et daglig kalsiumtilskudd.&lt;/li&gt;\n                                 &lt;li&gt;hvis du har fått fjernet noen eller alle biskjoldbruskkjertlene i halsen kirurgisk.&lt;/li&gt;\n                                 &lt;li&gt;hvis du har fått fjernet deler av tarmene.&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Hos pasienter som fikk Aclasta (zoledronsyre) for osteoporose er det etter markedsføring rapportert en bivirkning som kalles osteonekrose i kjeven (benskader i kjeven). Osteonekrose i kjeven kan også oppstå etter at behandlingen er avsluttet.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Det er viktig å prøve å hindre utvikling av osteonekrose i kjeven, da det er en smertefull tilstand som kan være vanskelig å behandle. Det er noen forholdsregler du bør ta for å redusere risikoen for å utvikle osteonekrose i kjeven.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Før du blir behandlet med Aclasta, må du fortelle legen din, apotek eller sykepleier dersom&lt;ul&gt;\n                                 &lt;li&gt;\n                                    &lt;span style=\"color: #212121;\"&gt;du har noen problemer med munnen din eller tennene dine, som dårlig tannhelse, tannkjøttsykdommer eller en planlagt tanntrekking&lt;/span&gt;;&lt;/li&gt;\n                                 &lt;li&gt;\n                                    &lt;span style=\"color: #212121;\"&gt;du ikke går regelmessig til tannlege eller ikke har hatt en tannsjekk på lang tid&lt;/span&gt;;&lt;/li&gt;\n                                 &lt;li&gt;\n                                    &lt;span style=\"color: #212121;\"&gt;du røyker (da dette kan øke risikoen for tannproblemer)&lt;/span&gt;;&lt;/li&gt;\n                                 &lt;li&gt;\n                                    &lt;span style=\"color: #212121;\"&gt;du har tidligere vært behandlet med et bisfosfonat (brukes til å behandle eller forebygge skjelettlidelser)&lt;/span&gt;;&lt;/li&gt;\n                                 &lt;li&gt;\n                                    &lt;span style=\"color: #212121;\"&gt;du bruker medisiner som kalles kortikosteroider (f.eks. prednisolon eller deksametason)&lt;/span&gt;\n                                 &lt;/li&gt;\n                                 &lt;li&gt;du har kreft.&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Legen din kan be deg om å gjennomgå en tannundersøkelse før du starter behandlingen med Aclasta.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Samtidig som du blir behandlet med Aclasta, bør du opprettholde god munnhygiene (herunder pusse tennene regelmessig) og ha rutinemessig tannlegesjekk. Hvis du bruker gebiss, bør du sørge for at det er tilpasset ordentlig. Hvis du er under tannbehandling eller skal gjennomgå tannkirurgi (f.eks. tanntrekking), fortell legen din om tannbehandlingen og fortell tannlegen din at du behandles med Aclasta. Ta øyeblikkelig kontakt med legen og tannlegen din hvis du opplever problemer med munnen eller tennene som f.eks. løse tenner, smerte eller hevelse, sår som ikke gror eller væsker, da dette kan være tegn på osteonekrose i kjeven.&lt;/div&gt;\n                           &lt;span class=\"inline-title\"&gt;Undersøkelser&lt;/span&gt;\n                           &lt;div class=\"paragraph\"&gt;Legen din bør ta en blodprøve for å kontrollere nyrefunksjonen din (kreatininnivå) før hver dose Aclasta. Det er viktig at du drikker minst to glass væske (f.eks. vann) i løpet av noen få timer før du får Aclasta, slik som du har fått beskjed om av helsepersonell.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Barn og ungdom",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029899"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Barn og ungdom&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Aclasta anbefales ikke til noen under 18 år.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Andre legemidler og Aclasta",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029900"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Andre legemidler og Aclasta&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Snakk med lege, apotek eller sykepleier dersom du bruker, nylig har brukt eller planlegger å bruke andre legemidler.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Det er viktig at legen vet om alle legemidlene du bruker, spesielt dersom du bruker legemidler som er kjent for å kunne skade nyrene (f.eks. aminoglykosider) eller diuretika (”vanndrivende”) som kan føre til uttørring/dehydrering.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Graviditet og amming",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029902"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Graviditet og amming&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Du skal ikke få Aclasta dersom du er gravid eller ammer, tror at du kan være gravid eller planlegger å bli gravid.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Snakk med lege, apotek eller sykepleier før du tar dette legemidlet.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Kjøring og bruk av maskiner",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029903"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Kjøring og bruk av maskiner&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Dersom du føler deg svimmel mens du bruker Aclasta, skal du ikke kjøre eller bruke maskiner. Vent til du føler deg bedre.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Aclasta inneholder natrium",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029904"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Aclasta inneholder natrium&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Dette legemidlet inneholder mindre enn 1 mmol natrium (23 mg) i hvert 100 ml hetteglass med Aclasta, og er så godt som ”natriumfritt”.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  }
+                ]
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "3. Hvordan Aclasta gis",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029905"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;3. Hvordan Aclasta gis&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Følg nøye alle instruksjoner du får fra lege eller sykepleier. Kontakt lege eller sykepleier hvis du er usikker.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Osteoporose&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;Den vanlige dosen er 5 mg gitt av legen din eller en sykepleier som én årlig enkeltinfusjon i en blodåre (vene). Infusjonen tar minimum 15 minutter.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du nylig har hatt et brudd i hoften, anbefales det at Aclasta gis to eller flere uker etter hofteoperasjonen.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Det er viktig at du tar tilskudd av kalsium og vitamin D (f.eks. tabletter) i henhold til anbefaling fra legen din.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Ved osteoporose virker Aclasta i 1 år. Legen din vil fortelle deg når du skal komme tilbake for å få neste dose.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Pagets bensykdom&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;Ved behandling av Pagets bensykdom, bør Aclasta kun forskrives av leger med erfaring i behandling av Pagets bensykdom.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Den vanlige dosen er 5 mg, gitt av legen din eller en sykepleier, som en initialinfusjon i en blodåre (vene). Infusjonen tar minimum 15 minutter. Aclasta kan virke i mer enn ett år, og legen din vil fortelle deg om du trenger flere behandlinger.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Legen kan anbefale deg å ta kalsium- og vitamin D-tilskudd (f.eks. tabletter) minimum de ti første dagene etter at du har fått Aclasta. Det er viktig at du følger dette rådet nøye slik at nivået av kalsium i blodet ikke blir for lavt (hypokalsemi) i tiden etter infusjonen. Legen vil informere om symptomer som er forbundet med hypokalsemi.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Inntak av Aclasta sammen med mat og drikke&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;Sørg for at du drikker tilstrekkelig væske (minimum ett eller to glass) før og etter behandlingen med Aclasta, slik som legen din sier. Dette vil hjelpe deg å forhindre dehydrering. Du kan spise normalt de dagene du får Aclasta. Dette er spesielt viktig for pasienter som bruker diuretika (”vanndrivende”) og hos eldre pasienter (65 år eller eldre).&lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>" : [
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Dersom du har glemt en dose Aclasta",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029908"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Dersom du har glemt en dose Aclasta&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Kontakt lege eller sykehuset så snart som mulig for å avtale en ny time.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Før Aclasta-behandlingen avsluttes",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029909"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Før Aclasta-behandlingen avsluttes&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Dersom du vurderer å stoppe behandlingen med Aclasta, skal du møte opp til den neste avtalte timen og diskutere dette med legen din. Legen din vil gi deg råd og bestemme hvor lenge du bør behandles med Aclasta.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Spør lege, apotek eller sykepleier dersom du har noen spørsmål om bruken av dette legemidlet.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  }
+                ]
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "4. Mulige bivirkninger",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029910"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;4. Mulige bivirkninger&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Som alle legemidler kan dette legemidlet forårsake bivirkninger, men ikke alle får det.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Bivirkninger relatert til den første infusjonen er svært vanlig (oppstår hos mer enn 30 % av pasientene), men er mindre vanlig ved påfølgende infusjoner. De fleste av bivirkningene, slik som feber og frysninger, smerter i muskler eller ledd og hodepine, oppstår i løpet av de tre første dagene etter en dose Aclasta. Symptomene er vanligvis milde til moderate og opphører i løpet av tre dager. Legen din kan anbefale et mildt smertestillende middel som ibuprofen eller paracetamol for å lindre disse bivirkningene. Sannsynligheten for at du får disse bivirkningene med de påfølgende dosene Aclasta er lavere.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Enkelte bivirkninger kan være alvorlige&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;span class=\"underline\"&gt;Vanlige (kan forekomme hos opp til 1 av 10 personer)&lt;/span&gt;\n                           &lt;br/&gt;Uregelmessig hjerterytme (atrieflimmer) har blitt sett hos pasienter som får Aclasta mot osteoporose etter overgangsalderen. Det er foreløpig uklart om Aclasta forårsaker denne uregelmessige hjerterytmen, men du må si fra til legen din hvis du opplever slike symptomer etter at du har fått Aclasta.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;span class=\"underline\"&gt;Mindre vanlige (kan forekomme hos opp til 1 av 100 personer)&lt;/span&gt; Hevelse, rødhet, smerte og kløe i øynene eller lysfølsomme øyne.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;span class=\"underline\"&gt;Svært sjeldne (kan forekomme hos opp til 1 av 10 000 personer)&lt;/span&gt;\n                           &lt;br/&gt;Snakk med legen din dersom du har smerter i øret, pussdannelse fra øret, og/eller en infeksjon i øret. Dette kan være tegn på benskade i øret.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;span class=\"underline\"&gt;Ikke kjent (frekvens kan ikke estimeres ut ifra tilgjengelige data)&lt;/span&gt;\n                           &lt;br/&gt;Smerte i munnen og/eller kjeven, hevelse eller sår som ikke gror i munnen eller kjeven, væsker, nummenhet eller en følelse av tung kjeve, eller en tann som løsner; dette kan være tegn på skader i kjevebenet (osteonekrose). Ta øyeblikkelig kontakt med legen og tannlegen din dersom du opplever slike symptomer samtidig som du blir behandlet med Aclasta eller etter at behandlingen er avsluttet.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Nyresykdom (f.eks. redusert urinproduksjon) kan oppstå. Legen din bør ta en blodprøve for å sjekke nyrefunksjonen din før hver dose med Aclasta. Det er viktig at du drikker minst to glass væske (f.eks. vann) i løpet av få timer før du får Aclasta, slik som du har fått beskjed om av helsepersonell.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Informer legen din dersom du merker noen av bivirkningene som er nevnt over.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Aclasta kan også gi andre bivirkninger&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;span class=\"underline\"&gt;Svært vanlige (kan forekomme hos flere enn 1 av 10 personer)&lt;/span&gt; Feber&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;span class=\"underline\"&gt;Vanlige (kan forekomme hos opp til 1 av 10 personer)&lt;/span&gt;\n                           &lt;br/&gt;Hodepine, svimmelhet, kvalme, oppkast, diaré, muskelsmerter, smerter i skjelett og/eller ledd, smerter i rygg, armer eller ben, influensalignende symptomer (f.eks. tretthet, frysninger, ledd- og muskelsmerter), frysninger, tretthetsfølelse og manglende tiltakslyst, svakhet, smerter, følelse av uvelhet, hevelse og/eller smerte på infusjonsstedet.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Hos pasienter med Pagets sykdom er symptomer på lite kalsium i blodet, slik som muskelkramper, nummenhet eller en kriblende følelse, spesielt i området rundt munnen, rapportert.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;span class=\"underline\"&gt;Mindre vanlige (kan forekomme hos opp til 1 av 100 personer)&lt;/span&gt;\n                           &lt;br/&gt;Influensa, øvre luftveisinfeksjoner, redusert antall røde blodlegemer, redusert appetitt, søvnløshet, søvnighet som kan omfatte redusert årvåkenhet og oppmerksomhet, kriblende følelse eller nummenhet, ekstrem tretthet, skjelvinger, midlertidig bevisstløshet, øyeinfeksjon eller irritasjon eller betennelse med smerter og rødhet, snurrende følelse, økt blodtrykk, rødming, hoste, kortpustethet, magebesvær, buksmerter, forstoppelse, munntørrhet, halsbrann, hudutslett, kraftig svetting, kløe, rødhet i huden, nakkesmerter, stivhet i muskler, skjelett og/eller ledd, hovne ledd, muskelkramper, skuldersmerter, smerter i brystmuskulaturen og brystkassen, leddbetennelse, muskelsvakhet, unormale nyrefunksjonstester, unormalt hyppig vannlating, hevelser i hender, ankler eller føtter, tørste, tannpine, smaksforstyrrelser.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;span class=\"underline\"&gt;Sjeldne (kan forekomme hos opp til 1 av 1000 personer)&lt;/span&gt;\n                           &lt;br/&gt;Uvanlige brudd i lårbenet kan oppstå i sjeldne tilfeller, spesielt hos pasienter som har vært behandlet for osteoporose lenge. Ta kontakt med legen din dersom du merker smerter, svakhet eller ubehag i låret, hoften eller lysken siden dette kan være tidlige tegn på et mulig lårbensbrudd. &lt;span style=\"color: #212121;\"&gt;Lave fosfatnivåer i blodet.&lt;/span&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;span class=\"underline\"&gt;Ikke kjent (frekvens kan ikke anslås ut ifra tilgjengelige data)&lt;/span&gt;\n                           &lt;br/&gt;Alvorlige allergiske reaksjoner inkludert svimmelhet og pustevansker, hevelse i hovedsakelig ansikt og hals, redusert blodtrykk, dehydrering (uttørring) på grunn av akuttfasereaksjoner (bivirkninger etter dosering, slik som feber, oppkast og diaré).&lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>" : [
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Melding av bivirkninger",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029912"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Melding av bivirkninger&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Kontakt lege, apotek eller sykepleier dersom du opplever bivirkninger. Dette gjelder også bivirkninger som ikke er nevnt\ni pakningsvedlegget. Du kan også melde fra om bivirkninger direkte via meldeskjema som finnes på nettsiden til Statens legemiddelverk:\n&lt;a href=\"https://www.legemiddelverket.no/pasientmelding\" title=\"www.legemiddelverket.no/pasientmelding\"&gt;www.legemiddelverket.no/pasientmelding&lt;/a&gt;. Ved å melde fra om bivirkninger\nbidrar du med informasjon om sikkerheten ved bruk av dette legemidlet.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  }
+                ]
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "5. Hvordan du oppbevarer Aclasta",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029913"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;5. Hvordan du oppbevarer Aclasta&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Legen din, apoteket eller sykepleier vet hvordan Aclasta skal oppbevares.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;Oppbevares utilgjengelig for barn.&lt;/li&gt;\n                              &lt;li&gt;Bruk ikke dette legemidlet etter utløpsdatoen som er angitt på esken og flasken etter EXP.&lt;/li&gt;\n                              &lt;li&gt;Uåpnet flaske krever ingen spesielle oppbevaringsbetingelser.&lt;/li&gt;\n                              &lt;li&gt;Etter at flasken er åpnet bør legemidlet brukes umiddelbart for å unngå forurensning med bakterier. Dersom den ikke brukes umiddelbart, er oppbevaringstid og –betingelser før bruk brukerens ansvar. Tiden bør normalt ikke overskride 24 timer ved 2-8ºC. Den avkjølte oppløsningen bør nå romtemperatur før administrering.&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "6. Innholdet i pakningen og ytterligere informasjon",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029914"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;6. Innholdet i pakningen og ytterligere informasjon&lt;/h2&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>" : [
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Sammensetning av Aclasta",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029915"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Sammensetning av Aclasta&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;ul&gt;\n                                 &lt;li&gt;Virkestoff er zoledronsyre. Hver flaske med 100 ml oppløsning inneholder 5 mg zoledronsyre (som monohydrat).&lt;br/&gt;1 ml oppløsning inneholder 0,05 mg zoledronsyre, (som monohydrat).&lt;/li&gt;\n                                 &lt;li&gt;Andre innholdsstoffer er mannitol, natriumsitrat og vann til injeksjonsvæsker.&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Hvordan Aclasta ser ut og innholdet i pakningen",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029916"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Hvordan Aclasta ser ut og innholdet i pakningen&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Aclasta er en klar og fargeløs oppløsning. Den leveres i 100 ml plastflasker som en bruksklar infusjonsvæske. Den leveres i pakninger som inneholder 1 flaske som enkeltpakning eller i flerpakninger bestående av fem pakninger. Hver av disse inneholder en flaske. Ikke alle pakningsstørrelser vil nødvendigvis bli markedsført.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Innehaver av markedsføringstillatelsen",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029917"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Innehaver av markedsføringstillatelsen&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Sandoz Pharmaceuticals d.d.&lt;br/&gt;Verovškova ulica 57&lt;br/&gt;1000 Ljubljana&lt;br/&gt;Slovenia&lt;/div&gt;\n                           &lt;span class=\"inline-title\"&gt;Tilvirker&lt;/span&gt;\n                           &lt;div class=\"paragraph\"&gt;Novartis Pharma GmbH&lt;br/&gt;Roonstraße 25&lt;br/&gt;D-90429 Nürnberg Tyskland&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Ta kontakt med den lokale representanten for innehaveren av markedsføringstillatelsen for ytterligere informasjon om dette legemidlet:&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Sandoz A/S&lt;br/&gt;Edvard Thomsens Vej 14&lt;br/&gt;DK-2300 København S&lt;br/&gt;Danmark&lt;br/&gt;Tlf: +45 6395 1000&lt;br/&gt;\n                              &lt;a href=\"mailto:info.norge@sandoz.com\" title=\"\n               \n                  info.norge@sandoz.com\n               \n            \"&gt;\n               \n                  info.norge@sandoz.com\n               \n            &lt;/a&gt;\n                           &lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Dette pakningsvedlegget ble sist oppdatert 09.11.2022",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029919"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Dette pakningsvedlegget ble sist oppdatert 09.11.2022&lt;/h3&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Andre informasjonskilder",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029920"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Andre informasjonskilder&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Detaljert informasjon om dette legemidlet er tilgjengelig på nettstedet til Det europeiske legemiddelkontoret (the European Medicines Agency): &lt;a href=\"http://www.ema.europa.eu/\" title=\"\n               \n                  http://www.ema.europa.eu\n               \n            \"&gt;\n               \n                  http://www.ema.europa.eu\n               \n            &lt;/a&gt;\n                           &lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "INFORMASJON TIL HELSEPERSONELL",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029921"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;\n                              &lt;b&gt;INFORMASJON TIL HELSEPERSONELL&lt;/b&gt;\n                           &lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Påfølgende informasjon er bare beregnet på helsepersonell (se pkt. 3):&lt;/div&gt;\n                           &lt;span class=\"inline-title\"&gt;Hvordan tilberede og administrere Aclasta&lt;/span&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;ul&gt;\n                                 &lt;li&gt;Aclasta 5 mg infusjonsvæske, oppløsning er bruksklar.&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Kun til engangsbruk. Ubrukt oppløsning skal kasseres. Kun klar oppløsning uten partikler eller misfarging skal benyttes. Aclasta må ikke blandes eller gis intravenøst sammen med andre legemidler, og må gis gjennom en separat infusjonsslange ved konstant infusjonshastighet. Infusjonstiden må ikke være kortere enn 15 minutter. Aclasta må ikke komme i kontakt med oppløsninger som inneholder kalsium. Oppløsning som oppbevares i kjøleskap må tempereres til romtemperatur før administrering. Aseptisk arbeidsteknikk må benyttes ved tilberedning av infusjonen. Infusjonen må gjennomføres i henhold til standard medisinsk praksis.&lt;/div&gt;\n                           &lt;span class=\"inline-title\"&gt;Oppbevaring av Aclasta&lt;/span&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;ul&gt;\n                                 &lt;li&gt;Oppbevares utilgjengelig for barn.&lt;/li&gt;\n                                 &lt;li&gt;Bruk ikke dette legemidlet etter utløpsdatoen som er angitt på esken og flasken etter EXP.&lt;/li&gt;\n                                 &lt;li&gt;Uåpnet flaske krever ingen spesielle oppbevaringsbetingelser.&lt;/li&gt;\n                                 &lt;li&gt;Preparatet bør tas i bruk umiddelbart etter åpning for å unngå mikrobiell kontaminering.&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Dersom preparatet ikke benyttes umiddelbart, er oppbevaringstid og betingelser før anvendelse brukerens ansvar, og bør ikke overskride 24 timer ved 2-8ºC. Oppløsning som oppbevares i kjøleskap må tempereres til romtemperatur før administrering.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/COPD-MPD-260",
+      "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">resourceType</a>" : "MedicinalProductDefinition",
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.id">id</a>" : "COPD-MPD-260",
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a style="color: Maroon" href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+            "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"MedicinalProductDefinition_COPD-MPD-260\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition&lt;/b&gt;&lt;a name=\"COPD-MPD-260\"&gt; &lt;/a&gt;&lt;a name=\"hcCOPD-MPD-260\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource MedicinalProductDefinition &amp;quot;COPD-MPD-260&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\"&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_834B988C-01D4-471D-AE6A-B32833006AF3&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;*&lt;/td&gt;&lt;td&gt;Aclasta inf, oppl 5 mg/100 ml&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "http://legemiddelverket.no/FEST/LegemiddelMerkevareID",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "ID_834B988C-01D4-471D-AE6A-B32833006AF3"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name">name</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.productName">productName</a>" : "Aclasta inf, oppl 5 mg/100 ml"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/COPD-PPD-356",
+      "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">resourceType</a>" : "PackagedProductDefinition",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.id">id</a>" : "COPD-PPD-356",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a style="color: Maroon" href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+            "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"PackagedProductDefinition_COPD-PPD-356\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;a name=\"COPD-PPD-356\"&gt; &lt;/a&gt;&lt;a name=\"hcCOPD-PPD-356\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource PackagedProductDefinition &amp;quot;COPD-PPD-356&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\"&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_DEA4A057-4B2E-4753-8AC1-F83B0360B6C8, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/113088&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Aclasta inf, oppl 5 mg/100 ml&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_COPD-MPD-260\"&gt;See above (MedicinalProductDefinition/COPD-MPD-260)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "http://legemiddelverket.no/FEST/LegemiddelPakningID",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "ID_DEA4A057-4B2E-4753-8AC1-F83B0360B6C8"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://farmalogg.no/varenummer",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "113088"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.name">name</a>" : "Aclasta inf, oppl 5 mg/100 ml",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packageFor">packageFor</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/COPD-MPD-260"
+          }
+        ]
+      }
+    }
+  ]
+}</code></pre>
+
+
+    <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

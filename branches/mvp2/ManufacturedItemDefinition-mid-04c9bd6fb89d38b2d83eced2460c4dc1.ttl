@@ -1,0 +1,43 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-04c9bd6fb89d38b2d83eced2460c4dc1> a fhir:ManufacturedItemDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mid-04c9bd6fb89d38b2d83eced2460c4dc1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"mid-04c9bd6fb89d38b2d83eced2460c4dc1\"> </a><a name=\"hcmid-04c9bd6fb89d38b2d83eced2460c4dc1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;mid-04c9bd6fb89d38b2d83eced2460c4dc1&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/18/1326/001 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: suspension for injection in pre-filled syringe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000074063)</span></p><p><b>unitOfPresentation</b>: Syringe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002150)</span></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/18/1326/001" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:manufacturedDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000074063" ] ;
+       fhir:display [ fhir:v "suspension for injection in pre-filled syringe" ]
+     ] )
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000002150" ] ;
+       fhir:display [ fhir:v "Syringe" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

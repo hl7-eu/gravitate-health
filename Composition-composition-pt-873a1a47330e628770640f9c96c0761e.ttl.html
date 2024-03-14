@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Composition for Karvea 75 mg tablet Package Leaflet - TTL Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.72"}
+    h3,h4,h5,h6{--heading-prefix:"16.72"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Composition for Karvea 75 mg tablet Package Leaflet</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+  <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Composition-composition-pt-873a1a47330e628770640f9c96c0761e.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Composition-composition-pt-873a1a47330e628770640f9c96c0761e.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Composition-composition-pt-873a1a47330e628770640f9c96c0761e.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Composition for Karvea 75 mg tablet Package Leaflet - TTL Representation</h2>
+
+
+<p><a href="Composition-composition-pt-873a1a47330e628770640f9c96c0761e.ttl" no-download="true">Raw ttl</a> | <a download="null" href="Composition-composition-pt-873a1a47330e628770640f9c96c0761e.ttl">Download</a></p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <pre style="white-space: pre; overflow: hidden" class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Composition ;
+  <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "composition-pt-873a1a47330e628770640f9c96c0761e"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "pt"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt\" lang=\"pt\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=\"composition-pt-873a1a47330e628770640f9c96c0761e\"&gt; &lt;/a&gt;&lt;a name=\"hccomposition-pt-873a1a47330e628770640f9c96c0761e\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource Composition &amp;quot;composition-pt-873a1a47330e628770640f9c96c0761e&amp;quot;  (Language &amp;quot;pt&amp;quot;) &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profile: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\"&gt;Composition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/rmswi/&lt;/code&gt;/karvea-en&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Package Leaflet &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: Raw &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (&lt;a href=\"CodeSystem-epicategory-cs.html\"&gt;Category of EPI&lt;/a&gt;#R)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-02-16 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;a href=\"Organization-mah-511671db37e83e520b00f8a0d817dc96.html\"&gt;Organization/mah-511671db37e83e520b00f8a0d817dc96&lt;/a&gt; &amp;quot;Sanofi Winthrop Industrie	&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: TEST PURPOSES ONLY - Karvea 75 mg tablet&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;*&lt;/td&gt;&lt;td&gt;Official &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (&lt;a href=\"http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html\"&gt;Composition Attestation Mode&lt;/a&gt;#official)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;2022-02-16 13:28:17+0000&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "karvea-en" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "final"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.type">fhir:type</a> [
+    ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]     ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Package Leaflet" ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.category">fhir:category</a> ( [
+    ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "R" ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Raw" ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.subject">fhir:subject</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> "2022-02-16T13:28:17Z"^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.author">fhir:author</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Organization/mah-511671db37e83e520b00f8a0d817dc96" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "TEST PURPOSES ONLY - Karvea 75 mg tablet"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.attester">fhir:attester</a> ( [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.mode">fhir:mode</a> [
+      ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://hl7.org/fhir/composition-attestation-mode"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "official" ]       ] )     ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.time">fhir:time</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> "2022-02-16T13:28:17Z"^^xsd:dateTime ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.section">fhir:section</a> ( [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "B. Package Leaflet" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+      ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]       ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "B. PACKAGE LEAFLET" ]     ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;unavailable&lt;/div&gt;"     ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.emptyReason">fhir:emptyReason</a> [
+      ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "unavailable" ]       ] )     ] ;
+    ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Package leaflet: Information for the user" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Package leaflet: Information for the user" ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;Karvea 300 mg comprimidos&lt;/p&gt;&lt;p&gt;irbesartan&lt;/p&gt;&lt;p&gt;Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois contém informação importante para si.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Conserve este folheto. Pode ter necessidade de o ler novamente.&lt;/li&gt;&lt;li&gt;Caso ainda tenha dúvidas, fale com o seu médico ou farmacêutico.&lt;/li&gt;&lt;li&gt;Este medicamento foi receitado apenas para si. Não deve dá-lo a outros; o medicamento pode serlhes prejudicial mesmo que apresentem os mesmos sinais de doença.&lt;/li&gt;&lt;li&gt;Se tiver quaisquer efeitos secundários, incluindo efeitos secundários não indicados neste folheto, fale com o seu médico ou farmacêutico.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "What is in this leaflet" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "What is in this leaflet" ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;&lt;strong&gt;O que contém este folheto:&lt;/strong&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;O que é Karvea e para que é utilizado&lt;/li&gt;&lt;li&gt;O que precisa de saber antes de tomar Karvea&lt;/li&gt;&lt;li&gt;Como tomar Karvea&lt;/li&gt;&lt;li&gt;Efeitos secundários possíveis&lt;/li&gt;&lt;li&gt;Como conservar Karvea&lt;/li&gt;&lt;li&gt;Conteúdo da embalagem e outras informações&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "1. What Karvea is and what it is used for" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "1. What Karvea is and what it is used for" ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;Karvea pertence a um grupo de medicamentos conhecidos como antagonistas dos recetores da angiotensina-II. A angiotensina-II é uma substância produzida no organismo que se liga a recetores nos vasos sanguíneos, provocando o seu estreitamento, o que conduz ao aumento da pressão arterial. Karvea impede a ligação da angiotensina-II a estes recetores, fazendo com que os vasos sanguíneos se relaxem e a pressão arterial baixe. Karvea atrasa a diminuição da função renal nos doentes com pressão arterial elevada e diabetes do tipo 2. Karvea é usado em doentes adultos&lt;/p&gt;&lt;ul&gt;&lt;li&gt;para tratar a pressão arterial elevada (hipertensão essencial)&lt;/li&gt;&lt;li&gt;para proteger os rins nos doentes com pressão arterial elevada, diabetes do tipo 2 e evidência laboratorial de insuficiência dos rins.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "2. What you need to know before you take Karvea" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "2. What you need to know before you take Karvea" ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;&lt;strong&gt;Não tome Karvea&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;se tem alergia ao irbesartan ou a qualquer outro componente deste medicamento (indicados na secção 6).&lt;/li&gt;&lt;li&gt;se tiver mais do que três meses de gravidez. (Também é preferível não tomar Karvea no início da gravidez - ver secção Gravidez&lt;/li&gt;&lt;li&gt;se tem diabetes ou função renal diminuída e está a ser tratado com um medicamento que contém aliscireno para diminuir a pressão arterial&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Advertências e precauções&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fale com o seu médico antes de tomar Karvea e se alguma das seguintes situações se aplicar a si:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;se tiver vómitos ou diarreia prolongados&lt;/li&gt;&lt;li&gt;se sofrer de problemas nos rins&lt;/li&gt;&lt;li&gt;se sofre de problemas do coração&lt;/li&gt;&lt;li&gt;se receber Karvea para doença nos rins diabética. Neste caso, o seu médico pode efetuar-lhe análises ao sangue com regularidade, especialmente para medir os níveis sanguíneos de potássio em caso de insuficiência dos rins se desenvolver baixos níveis de açúcar no sangue (os sintomas podem incluir sudação, fraqueza, fome, tonturas, tremores, dor de cabeça, rubor ou palidez, dormência, batimento cardíaco acelerado e palpitante), especialmente se estiver a ser tratado para a diabetes.&lt;/li&gt;&lt;li&gt;se vai ser submetido a uma operação (cirurgia) ou se lhe vão ser administrados anestésicos&lt;/li&gt;&lt;li&gt;se está a tomar algum dos seguintes medicamentos para tratar a pressão arterial elevada:&lt;ul&gt;&lt;li&gt;um inibidor da ECA (por exemplo enalapril, lisinopril, ramipril), em particular se tiver problemas nos rins relacionados com diabetes.&lt;/li&gt;&lt;li&gt;aliscireno&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;O seu médico pode verificar a sua função renal, pressão arterial e a quantidade de eletrólitos (por exemplo, o potássio) no seu sangue em intervalos regulares.&lt;/p&gt;&lt;p&gt;Ver também a informação sob o título “Não tome Karvea”&lt;/p&gt;&lt;p&gt;Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. Karvea não está recomendado no início da gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez que pode ser gravemente prejudicial para o bebé se utilizado a partir desta altura (ver secção Gravidez).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Crianças e adolescentes&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Este medicamento não deve ser utilizado em crianças e adolescentes uma vez que não foram ainda completamente estabelecidas a segurança e eficácia.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Outros medicamentos e Karvea&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado ou se vier a tomar outros medicamentos. O seu médico pode precisar de alterar a dose e/ou tomar outras precauções se estiver a tomar aliscireno. Se está a tomar um inibidor da ECA ou aliscireno (ver também informações sob os títulos “Não tome Karvea” e “Advertências e precauções”).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Poderá necessitar de fazer algumas verificações ao sangue caso tome:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;suplementos de potássio&lt;/li&gt;&lt;li&gt;substitutos de sal contendo potássio&lt;/li&gt;&lt;li&gt;medicamentos poupadores de potássio (como sejam alguns diuréticos)&lt;/li&gt;&lt;li&gt;medicamentos contendo lítio&lt;/li&gt;&lt;li&gt;repaglinida (medicamento utilizado para baixar os níveis de açúcar no sangue)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Se tomar alguns medicamentos para as dores, denominados anti-inflamatórios não-esteroides, o efeito do irbesartan poderá ser reduzido.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Karvea com alimentos e bebidas&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Karvea pode ser tomado com ou sem alimentos.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Gravidez e amamentação&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Gravidez&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. O seu médico normalmente aconselha-la-á a interromper Karvea antes de engravidar ou assim que estiver grávida e a tomar outro medicamento em vez de Karvea. Karvea não está recomendado no início da gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez que pode ser gravemente prejudicial para o bebé se utilizado a partir desta altura.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Amamentação&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Deverá informar o seu médico de que se encontra a amamentar ou que está prestes a iniciar o aleitamento. Karvea não está recomendado em mães a amamentar, especialmente se o bebé for recémnascido ou prematuro; nestes casos o seu médico poderá indicar outro tratamento.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Condução de veículos e utilização de máquinas&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Não é provável que Karvea afete a sua capacidade de conduzir e usar máquinas. Contudo, ocasionalmente, podem ocorrer tonturas ou fadiga durante o tratamento da hipertensão. Se sentir estes efeitos, fale com o seu médico antes de tentar conduzir ou utilizar máquinas.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Karvea contém lactose.&lt;/strong&gt; Se foi informado pelo seu médico de que é intolerante a alguns açúcares (por exemplo, a lactose), deverá contactá-lo antes de tomar este medicamento.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Karvea contém sódio.&lt;/strong&gt; Este medicamento contém menos de 1 mmol de sódio (23 mg) por comprimido, ou seja, é praticamente &amp;#39;isento de sódio&amp;#39;.&lt;/p&gt;&lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "3. How to take Karvea" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "3. How to take Karvea" ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;Tomar este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou farmacêutico se tiver dúvidas.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Modo de administração&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Karvea destina-se à via oral. Engolir os comprimidos com uma quantidade suficiente de líquidos (por exemplo um copo com água). Pode tomar Karvea com ou sem alimentos. Tente tomar a dose diária sempre à mesma hora. É importante que continue a tomar Karvea até que o seu médico lhe dê outra indicação.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Doentes com pressão arterial elevada&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;A dose habitual é 150 mg uma vez ao dia. Em função da resposta da pressão arterial, a dose pode ser aumentada para 300 mg, uma vez ao dia.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Doentes com pressão arterial elevada e diabetes do tipo 2 com doença nos rins&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Nos doentes com pressão arterial elevada e diabetes do tipo 2, a dose de manutenção preferível para o tratamento da doença renal associada é de 300 mg uma vez por dia.&lt;/p&gt;&lt;p&gt;O médico pode receitar uma dose mais baixa, sobretudo quando se inicia o tratamento em certos doentes, como sejam os que estão em hemodiálise ou os que têm mais de 75 anos.&lt;/p&gt;&lt;p&gt;O efeito hipotensor máximo deve obter-se às 4 a 6 semanas após o início do tratamento.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Utilização em crianças e adolescentes&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Karvea não deve ser administrado a crianças com idade idade inferior a 18 anos. Se uma criança engolir alguns comprimidos, deve contactar o médico imediatamente.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Se tomar mais Karvea do que deveria&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Se, acidentalmente, tomar demasiados comprimidos, contacte o médico imediatamente. Caso se tenha esquecido de tomar Karvea Se, acidentalmente, não tomar uma dose diária, tome a dose seguinte como planeado. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.&lt;/p&gt;&lt;p&gt;Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.&lt;/p&gt;&lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "4. Possible side effects" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "4. Possible side effects" ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;Como todos os medicamentos, este medicamento pode causar efeitos secundários, embora estes não se manifestem em todas as pessoas. Alguns destes efeitos podem ser graves e requerer cuidados médicos.&lt;/p&gt;&lt;p&gt;Tal como acontece com medicamentos semelhantes, em doentes a tomar irbesartan foram notificados casos raros de reações alérgicas na pele (erupção na pele, erupção na pele com comichão), assim como inchaço localizado da face, lábios e/ou língua. Se tiver algum destes sintomas, ou se tiver dificuldade em respirar, &lt;strong&gt;pare de tomar Karvea e contacte o médico imediatamente.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;A frequência dos efeitos adversos listados abaixo é definida utilizando a seguinte convenção:&lt;/p&gt;&lt;p&gt;Muito frequentes: podem afetar mais de 1 em 10 pessoas&lt;/p&gt;&lt;p&gt;Frequentes: podem afetar até 1 em 10 pessoas&lt;/p&gt;&lt;p&gt;Pouco frequentes: podem afetar até 1 em 100 pessoas&lt;/p&gt;&lt;p&gt;Os efeitos secundários notificados em estudos clínicos para os doentes tratados com Karvea foram:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Muito frequentes (podem afetar mais de 1 em 10 pessoas): se tiver pressão arterial elevada e diabetes do tipo 2 com doença nos rins, as análises ao sangue podem mostrar níveis de potássio aumentados.&lt;/li&gt;&lt;li&gt;Frequentes (podem afetar até 1 em 10 pessoas): tonturas, mal estar/vómitos, fadiga e as análises ao sangue podem mostrar níveis de uma enzima que avalia a função muscular e cardíaca (enzima creatina cinase) aumentados. Em doentes com pressão arterial elevada e diabetes do tipo 2 com doença nos rins foram também notificados tonturas quando se passa da posição deitada ou sentada para a posição de pé, pressão arterial baixa quando se passa da posição deitada ou sentada para a posição de pé, dor nas articulações ou músculos e níveis de uma proteína nos glóbulos vermelhos (hemoglobina) diminuídos.&lt;/li&gt;&lt;li&gt;Pouco frequentes (podem afetar até 1 em 100 pessoas): ritmo cardíaco rápido, rubor (vermelhidão), tosse, diarreia, indigestão/pirose (azia), disfunção sexual (problemas com o desempenho sexual) e dor torácica.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Alguns efeitos indesejáveis foram notificados desde a comercialização de Karvea. Os efeitos indesejáveis em que a frequência não é conhecida são: sensação de girar, cefaleias (dores de cabeça), alteração do paladar, zumbidos, cãimbras musculares, dor nas articulações e músculos, redução do número de glóbulos vermelhos (anemia - os sintomas podem incluir cansaço, dores de cabeça, falta de ar durante a prática de exercício físico, tonturas e aparência pálida), redução do número de plaquetas, função hepática (do fígado) alterada, níveis sanguíneos de potássio aumentados, compromisso da função dos rins e inflamação dos vasos sanguíneos pequenos afetando principalmente a pele (uma situação conhecida como vasculite leucocitoclásica) , reacções alérgicas graves (choque anafiláctico) e baixos níveis de açúcar no sangue. Foram também notificados casos pouco frequentes de icterícia (amarelecimento da pele e/ou da zona branca dos olhos).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Comunicação de efeitos secundários&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos secundários diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.&lt;/p&gt;&lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "5. How to store Karvea" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "5. How to store Karvea" ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;Manter este medicamento fora da vista e do alcance das crianças.&lt;/p&gt;&lt;p&gt;Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, após VAL. O prazo de validade corresponde ao último dia do mês indicado.&lt;/p&gt;&lt;p&gt;Não conservar acima de 30ºC.&lt;/p&gt;&lt;p&gt;Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos que já não necessita. Estas medidas ajudarão a proteger o ambiente.&lt;/p&gt;&lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "6. Contents of the pack and other information" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "6. Contents of the pack and other information" ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;&lt;strong&gt;Qual a composição de Karvea&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;A substância ativa é o irbesartan. Cada comprimido de Karvea 300 mg contém 300 mg de irbesartan.&lt;/li&gt;&lt;li&gt;Os outros componentes são celulose microcristalina, croscarmelose sódica, lactose monohidratada, estearato de magnésio, sílica coloidal hidratada, amido de milho pré-gelificado e poloxamero 188. Por favor ver a secção 2 “Karvea contém lactose”.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Qual o aspeto de Karvea e conteúdo da embalagem&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Os comprimidos de Karvea 300 mg são de cor branca a esbranquiçada, biconvexos, de forma oval, com um coração marcado numa das faces e o número 2773 gravado na outra face.&lt;/p&gt;&lt;p&gt;Os comprimidos de Karvea a 300 mg são fornecidos em embalagens de 14, 28, 56 ou 98 comprimidos acondicionados em blister. Estão também disponíveis, para uso hospitalar, embalagens de 56 x 1 comprimido em blister para dose unitária.&lt;/p&gt;&lt;p&gt;É possível que não sejam comercializadas todas as apresentações.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Titular da Autorização de Introdução no Mercado&lt;/strong&gt; Sanofi Winthrop Industrie 82 avenue Raspail 94250 Gentilly França&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Fabricante&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;SANOFI WINTHROP INDUSTRIE 1, rue de la Vierge Ambarès &amp;amp; Lagrave F-33565 Carbon Blanc Cedex - França&lt;/p&gt;&lt;p&gt;SANOFI WINTHROP INDUSTRIE 30-36 Avenue Gustave Eiffel, BP 7166 F-37071 Tours Cedex 2 - França&lt;/p&gt;&lt;p&gt;Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da Autorização de Introdução no Mercado.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;België/Belgique/Belgien&lt;/strong&gt; Sanofi Belgium Tél/Tel: +32 (0)2 710 54 00&lt;/p&gt;&lt;p&gt;&lt;strong&gt;България&lt;/strong&gt; Swixx Biopharma EOOD Тел.: +359 (0)2 4942 480&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Lietuva&lt;/strong&gt; Swixx Biopharma UAB Tel: +370 5 236 91 40&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Luxembourg/Luxemburg&lt;/strong&gt; Sanofi Belgium Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Česká republika&lt;/strong&gt; sanofi-aventis, s.r.o. Tel: +420 233 086 111&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Magyarország&lt;/strong&gt; SANOFI-AVENTIS Zrt. Tel.: +36 1 505 0050&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Danmark&lt;/strong&gt; Sanofi A/S Tlf: +45 45 16 70 00&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Malta&lt;/strong&gt; Sanofi S.r.l.. Tel: +39 02 39394275&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Deutschland&lt;/strong&gt; Sanofi-Aventis Deutschland GmbH Tel: 0800 52 52 010 Tel. aus dem Ausland: +49 69 305 21 131&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Nederland&lt;/strong&gt; Sanofi B.V. Tel: +31 20 245 4000&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Eesti&lt;/strong&gt; Swixx Biopharma OÜ Tel: +372 640 10 30&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Norge&lt;/strong&gt; sanofi-aventis Norge AS Tlf: +47 67 10 71 00&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Ελλάδα&lt;/strong&gt; Sanofi-Aventis Μονοπρόσωπη AEBE Τηλ: +30 210 900 16 00&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Österreich&lt;/strong&gt; sanofi-aventis GmbH Tel: +43 1 80 185 – 0&lt;/p&gt;&lt;p&gt;&lt;strong&gt;España&lt;/strong&gt; sanofi-aventis, S.A. Tel: +34 93 485 94 00&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Polska&lt;/strong&gt; sanofi-aventis Sp. z o.o. Tel.: +48 22 280 00 00&lt;/p&gt;&lt;p&gt;&lt;strong&gt;France&lt;/strong&gt; Sanofi Winthrop Industrie Tél: 0 800 222 555 Appel depuis l’étranger : +33 1 57 63 23 23&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Portugal&lt;/strong&gt; Sanofi - Produtos Farmacêuticos, Lda Tel: +351 21 35 89 400&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Hrvatska&lt;/strong&gt; Swixx Biopharma d.o.o. Tel: +385 1 2078 500&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Ireland&lt;/strong&gt; sanofi-aventis Ireland Ltd. Tel: +353 (0) 1 403 56 00&lt;/p&gt;&lt;p&gt;&lt;strong&gt;România&lt;/strong&gt; Sanofi Romania SRL Tel: +40 (0) 21 317 31 36&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Slovenija&lt;/strong&gt; Swixx Biopharma d.o.o. Tel: +386 1 235 51 00&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Ísland&lt;/strong&gt; Vistor hf. Sími: +354 535 7000&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Slovenská republika&lt;/strong&gt; Swixx Biopharma s.r.o. Tel: +421 2 208 33 600&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Italia&lt;/strong&gt; Sanofi S.r.l.Tel: 800536389&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Suomi/Finland&lt;/strong&gt; Sanofi Oy Puh/Tel: +358 (0) 201 200 300&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Κύπρος&lt;/strong&gt; C.A. Papaellinas Ltd. Τηλ: +357 22 741741&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Sverige&lt;/strong&gt; Sanofi AB Tel: +46 (0)8 634 50 00&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Latvija&lt;/strong&gt; Swixx Biopharma SIA Tel: +371 6 616 47 50&lt;/p&gt;&lt;p&gt;&lt;strong&gt;United Kingdom (Northern Ireland)&lt;/strong&gt; sanofi-aventis Ireland Ltd. T/A SANOFI Tel: +44 (0) 800 035 2525&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Este folheto foi revisto pela última vez em&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência Europeia de Medicamentos &lt;a href=\"http://www.ema.europa.eu/\"&gt;http://www.ema.europa.eu/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"       ]     ] )
+  ] ) . # 
+
+</pre>
+
+
+
+    <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

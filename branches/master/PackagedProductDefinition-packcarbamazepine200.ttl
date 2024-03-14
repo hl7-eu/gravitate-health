@@ -1,0 +1,77 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/packcarbamazepine200> a fhir:PackagedProductDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "packcarbamazepine200"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"packcarbamazepine200\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;packcarbamazepine200&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: placeholder2 (use: OFFICIAL)</p><p><b>name</b>: Tegretol (carbamazepine) 200 mg for tablet in bottles</p><p><b>type</b>: Chemical Medininal Prodcut <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-medprodcarbamazepine200.html\">MedicinalProductDefinition/medprodcarbamazepine200</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2002-08-01 13:28:17+0000</p><p><b>containedItemQuantity</b>: 200 mg</p><p><b>manufacturer</b>: <a href=\"Organization-orgfujinaga.html\">Organization/orgfujinaga</a> &quot;Fujinaga Pharmaceutical Co., Ltd.&quot;</p><h3>Packagings</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td style=\"display: none\">*</td><td>id: 123456</td><td>Bottle <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073497)</span></td><td>28</td><td>PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003222)</span></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://pmda-packinsertno/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "placeholder2" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Tegretol (carbamazepine) 200 mg for tablet in bottles"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155527" ] ;
+       fhir:display [ fhir:v "Chemical Medininal Prodcut" ]
+     ] )
+  ] ; # 
+  fhir:packageFor ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/medprodcarbamazepine200> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/medprodcarbamazepine200" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2002-08-01T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:containedItemQuantity ( [
+     fhir:value [ fhir:v "200"^^xsd:decimal ] ;
+     fhir:unit [ fhir:v "mg" ]
+  ] ) ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgfujinaga> ;
+     fhir:reference [ fhir:v "Organization/orgfujinaga" ]
+  ] ) ; # 
+  fhir:packaging [
+     fhir:identifier ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "123456" ]
+     ] ) ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073497" ] ;
+         fhir:display [ fhir:v "Bottle" ]
+       ] )
+     ] ;
+     fhir:quantity [ fhir:v "28"^^xsd:integer ] ;
+     fhir:material ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000003222" ] ;
+         fhir:display [ fhir:v "PolyVinyl Chloride" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

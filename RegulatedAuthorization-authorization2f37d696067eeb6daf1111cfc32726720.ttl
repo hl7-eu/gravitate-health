@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization2f37d696067eeb6daf1111cfc32726720> a fhir:RegulatedAuthorization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "authorization2f37d696067eeb6daf1111cfc32726720"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"authorization2f37d696067eeb6daf1111cfc32726720\"> </a><a name=\"hcauthorization2f37d696067eeb6daf1111cfc32726720\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;authorization2f37d696067eeb6daf1111cfc32726720&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/39.955 (use: OFFICIAL)</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-mpac2bb08bb4cc3f51f8c4e3513034c019.html\">MedicinalProductDefinition/mpac2bb08bb4cc3f51f8c4e3513034c019</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072062)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2018-06-21</p><p><b>holder</b>: <a href=\"Organization-mah-990eca26437774887062cfa11ea1d904.html\">Organization/mah-990eca26437774887062cfa11ea1d904</a> &quot;Novartis Farmacéutica, S.A.&quot;</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "39.955" ]
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpac2bb08bb4cc3f51f8c4e3513034c019> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mpac2bb08bb4cc3f51f8c4e3513034c019" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072062" ] ;
+       fhir:display [ fhir:v "Marketing Authorisation" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2018-06-21"^^xsd:date] ; # 
+  fhir:holder [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-990eca26437774887062cfa11ea1d904> ;
+     fhir:reference [ fhir:v "Organization/mah-990eca26437774887062cfa11ea1d904" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

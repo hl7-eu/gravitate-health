@@ -1,0 +1,85 @@
+{
+  "resourceType" : "PackagedProductDefinition",
+  "id" : "ppd-515e8ffbb9f74e0d03d7ec46f9b79d8f",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"ppd-515e8ffbb9f74e0d03d7ec46f9b79d8f\"> </a><a name=\"hcppd-515e8ffbb9f74e0d03d7ec46f9b79d8f\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;ppd-515e8ffbb9f74e0d03d7ec46f9b79d8f&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/13/853/001\u00a0(use:\u00a0OFFICIAL)</p><p><b>name</b>: Remsima 100 mg powder for concentrate for solution for infusion 1</p><p><b>type</b>: Chemical Medicinal Prodcut <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-mpbe76bdf784deea6950583b234f789db2.html\">MedicinalProductDefinition/mpbe76bdf784deea6950583b234f789db2</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2012-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 1 {vial}<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {vial} = '{vial}')</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/654321</p><p><b>type</b>: Child-resistant closure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073504)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://spor.ema.europa.eu/pmswi",
+    "value" : "EU/1/13/853/001"
+  }],
+  "name" : "Remsima 100 mg powder for concentrate for solution for infusion 1",
+  "type" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000155527",
+      "display" : "Chemical Medicinal Prodcut"
+    }]
+  },
+  "packageFor" : [{
+    "reference" : "MedicinalProductDefinition/mpbe76bdf784deea6950583b234f789db2"
+  }],
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active",
+      "display" : "Active"
+    }]
+  },
+  "statusDate" : "2012-02-07T13:28:17Z",
+  "containedItemQuantity" : [{
+    "value" : 1,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "{vial}"
+  }],
+  "packaging" : {
+    "type" : {
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "100000073498",
+        "display" : "Box"
+      }]
+    },
+    "quantity" : 1,
+    "material" : [{
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "200000003529",
+        "display" : "Cardboard"
+      }]
+    }],
+    "packaging" : [{
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "654321"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000073504",
+          "display" : "Child-resistant closure"
+        }]
+      },
+      "quantity" : 1,
+      "material" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000003529",
+          "display" : "Cardboard"
+        }]
+      }],
+      "containedItem" : [{
+        "item" : {
+          "reference" : {
+            "reference" : "ManufacturedItemDefinition/mid-e3e5e78d4e002ed9e15b925cd546e20b"
+          }
+        }
+      }]
+    }]
+  }
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PackagedProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="packherceptinvial"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="packherceptinvial"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;packherceptinvial&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: 4291012F1022 (use: OFFICIAL)</p><p><b>name</b>: Herceptin (trastazumab) 150 mg for Intravenous Use</p><p><b>type</b>: Chemical Medininal Prodcut <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-medprodherceptin150.html">MedicinalProductDefinition/medprodherceptin150</a></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R5/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2002-08-01 13:28:17+0000</p><p><b>containedItemQuantity</b>: 150 mg</p><p><b>manufacturer</b>: <a href="Organization-orgchugai.html">Organization/orgchugai</a> &quot;Chugai Pharmaceutical Co., Ltd.&quot;</p><h3>Packagings</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td style="display: none">*</td><td>id: 123456</td><td>Vial <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073563)</span></td><td>28</td><td>Glass type I <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000003204)</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://pmda-packinsertno/"/>
+    <value value="4291012F1022"/>
+  </identifier>
+  <name value="Herceptin (trastazumab) 150 mg for Intravenous Use"/>
+  <type>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000155527"/>
+      <display value="Chemical Medininal Prodcut"/>
+    </coding>
+  </type>
+  <packageFor>
+    <reference value="MedicinalProductDefinition/medprodherceptin150"/>
+  </packageFor>
+  <status>
+    <coding>
+      <system value="http://hl7.org/fhir/publication-status"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </status>
+  <statusDate value="2002-08-01T13:28:17Z"/>
+  <containedItemQuantity>
+    <value value="150"/>
+    <unit value="mg"/>
+  </containedItemQuantity>
+  <manufacturer>
+    <reference value="Organization/orgchugai"/>
+  </manufacturer>
+  <packaging>
+    <identifier>
+      <system value="https://spor.ema.europa.eu/pmswi"/>
+      <value value="123456"/>
+    </identifier>
+    <type>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="100000073563"/>
+        <display value="Vial"/>
+      </coding>
+    </type>
+    <quantity value="28"/>
+    <material>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="200000003204"/>
+        <display value="Glass type I"/>
+      </coding>
+    </material>
+  </packaging>
+</PackagedProductDefinition>

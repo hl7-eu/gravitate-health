@@ -1,0 +1,633 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Composition for Flucelvax Package Leaflet - preprocessed ES - JSON Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.162"}
+    h3,h4,h5,h6{--heading-prefix:"16.162"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Composition for Flucelvax Package Leaflet - preprocessed ES</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Composition-composition-proc-es-e8bd725f64067aeae7994e2b56cd71c1.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Composition-composition-proc-es-e8bd725f64067aeae7994e2b56cd71c1.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Composition-composition-proc-es-e8bd725f64067aeae7994e2b56cd71c1.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Composition for Flucelvax Package Leaflet - preprocessed ES - JSON Representation</h2>
+
+
+<p><a href="Composition-composition-proc-es-e8bd725f64067aeae7994e2b56cd71c1.json" no-download="true">Raw json</a> | <a href="Composition-composition-proc-es-e8bd725f64067aeae7994e2b56cd71c1.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" style="white-space: pre; text-wrap: nowrap;"><code style="white-space: pre; text-wrap: nowrap;">
+{
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition">resourceType</a>" : "Composition",
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.id">id</a>" : "composition-proc-es-e8bd725f64067aeae7994e2b56cd71c1",
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+      <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.language">language</a>" : "es",
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "extensions",
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;es\&quot; lang=\&quot;es\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=\&quot;composition-proc-es-e8bd725f64067aeae7994e2b56cd71c1\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Composition &amp;quot;composition-proc-es-e8bd725f64067aeae7994e2b56cd71c1&amp;quot;  (Language &amp;quot;es&amp;quot;) &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\&quot;&gt;Composition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;HtmlElementLink&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;elementClass&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: indication&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;concept&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: HIV-infection/AIDS &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#B90)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;HtmlElementLink&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;elementClass&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: pregnancyCategory&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;concept&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: Pregnancy &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#W78)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;HtmlElementLink&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;elementClass&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: breastfeedingCategory&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;concept&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: Normal breast feeding (finding) &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://browser.ihtsdotools.org/\&quot;&gt;SNOMED CT&lt;/a&gt;#69840006)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a0ESprocessed163dd4e7fa7eed938c8bb01cecedf200&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Package Leaflet &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: Processed &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-epicategory-cs.html\&quot;&gt;Category of EPI&lt;/a&gt;#P)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2023-10-26 15:15:46+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;a href=\&quot;Organization-mah-45fe50eae508b5755dd140ab2093eb5e.html\&quot;&gt;Organization/mah-45fe50eae508b5755dd140ab2093eb5e&lt;/a&gt; &amp;quot;Seqirus Netherlands B.V.&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: TEST PURPOSES ONLY - Flucelvax&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Official &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html\&quot;&gt;Composition Attestation Mode&lt;/a&gt;#official)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;2023-10-26 15:15:46+0000&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.extension">extension</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "elementClass",
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "indication"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "concept",
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueCodeableReference</a>" : {
+            "<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.concept">concept</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://icpc2.icd.com/",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "B90",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "HIV-infection/AIDS"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "elementClass",
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "pregnancyCategory"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "concept",
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueCodeableReference</a>" : {
+            "<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.concept">concept</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://icpc2.icd.com/",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "W78",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Pregnancy"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "elementClass",
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "breastfeedingCategory"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "concept",
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueCodeableReference</a>" : {
+            "<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.concept">concept</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://snomed.info/sct",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "69840006",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Normal breast feeding (finding)"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">identifier</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "ESprocessed163dd4e7fa7eed938c8bb01cecedf200"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.status">status</a>" : "final",
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.type">type</a>" : {
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+      }
+    ],
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Package Leaflet"
+  },
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.category">category</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "P",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Processed"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.subject">subject</a>" : [
+    {
+      <a href="MedicinalProductDefinition-mpb6ced64d25ea2c8da6c6099386f14db1.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/mpb6ced64d25ea2c8da6c6099386f14db1"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.date">date</a>" : "2023-10-26T15:15:46Z",
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.author">author</a>" : [
+    {
+      <a href="Organization-mah-45fe50eae508b5755dd140ab2093eb5e.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "Organization/mah-45fe50eae508b5755dd140ab2093eb5e"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.title">title</a>" : "TEST PURPOSES ONLY - Flucelvax",
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester">attester</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.mode">mode</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/composition-attestation-mode",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "official"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.time">time</a>" : "2023-10-26T15:15:46Z"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section">section</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "B. Package Leaflet",
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;unavailable&lt;/div&gt;"<a name="end-xhtml"></a>
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.emptyReason">emptyReason</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "unavailable"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Package leaflet: Information for the user",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Prospecto: información para el usuario"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;margin:3.5pt 0pt 0pt 7.1pt; text-align:center; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Prospecto: informaci&amp;#243;n para el usuario&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.4pt 0pt 0pt 7.1pt; text-align:center; line-height:5pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:5pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 7.1pt; text-align:center; line-height:10pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 7.1pt; text-align:center; line-height:10pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 7.1pt; text-align:center; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Flucelvax Tetra - suspensi&amp;#243;n inyectable en jeringa precargada&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 7.1pt; text-align:center\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Vacuna contra la gripe (ant&amp;#237;geno de superficie, inactivado, preparada en cultivos celulares)&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.4pt 0pt 0pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.8pt 0pt 0pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 31.2pt 0pt 5.9pt; text-align:justify\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Lea todo el prospecto detenidamente antes de empezar a recibir este medicamento, porque contiene&lt;/span&gt;&lt;/strong&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;informaci&amp;#243;n importante para usted.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.9pt; text-align:justify\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;-&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Conserve este prospecto, ya que puede tener que volver a leerlo.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.05pt 0pt 0pt 5.9pt; text-align:justify\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;-&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si tiene alguna duda, consulte a su m&amp;#233;dico, farmac&amp;#233;utico o enfermero.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.1pt 14.1pt 0pt 5.95pt; text-indent:-22.4pt; text-align:justify; padding-left:22.4pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;-&lt;/span&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si experimenta efectos adversos, consulte a su m&amp;#233;dico, farmac&amp;#233;utico o enfermero, incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver secci&amp;#243;n 4.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "What is in this leaflet",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Contenido del prospecto"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Contenido del prospecto&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.45pt 0pt 0pt; text-align:justify\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 6.3pt; text-align:justify\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;1.&amp;#160;&amp;#160;&amp;#160; Qu&amp;#233; es Flucelvax Tetra y para qu&amp;#233; se utiliza&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 6.3pt; text-align:justify\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;2.&amp;#160;&amp;#160;&amp;#160; Qu&amp;#233; necesita saber antes de empezar a recibir Flucelvax Tetra&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 6.3pt; text-align:justify\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;3.&amp;#160;&amp;#160;&amp;#160; C&amp;#243;mo se administra Flucelvax Tetra&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.05pt 0pt 0pt 6.3pt; text-align:justify\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;4.&amp;#160;&amp;#160;&amp;#160; Posibles efectos adversos&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 6.3pt; text-align:justify\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;5.&amp;#160;&amp;#160;&amp;#160; Conservaci&amp;#243;n de Flucelvax Tetra&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.05pt 0pt 0pt 6.3pt; text-align:justify\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;6.&amp;#160;&amp;#160;&amp;#160; Contenido del envase e informaci&amp;#243;n adicional&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "1. What Flucelvax is and what it is used for",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "1. Qué es Flucelvax Tetra y para qué se utiliza"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;margin:0.6pt 0pt 0pt; line-height:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p class=\&quot;indication\&quot; style=\&quot;margin:0pt 11.85pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Flucelvax Tetra es una vacuna contra la gripe. Flucelvax Tetra se prepara en cultivos celulares y, por lo tanto, no contiene huevo.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Cuando una persona recibe la vacuna, el sistema inmunitario (el sistema de defensa natural del organismo) producir&amp;#225; su propia protecci&amp;#243;n frente al virus de la gripe. Ninguno de los componentes de la vacuna puede causar la gripe.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:2.55pt 14.1pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Flucelvax Tetra se usa para prevenir la gripe en adultos y ni&amp;#241;os a partir de los 2 a&amp;#241;os de edad.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:2.55pt 41.05pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;La vacuna va dirigida a cuatro cepas del virus de la gripe siguiendo las recomendaciones de la&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt; vertical-align:0.5pt\&quot;&gt;Organizaci&amp;#243;n Mundial de la Salud para la campa&amp;#241;a&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;2023/2024.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "2. What you need to know before you take Flucelvax",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "2. Qué necesita saber antes de empezar a recibir Flucelvax Tetra"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;margin:0.65pt 0pt 0pt; line-height:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;No debe recibir Flucelvax Tetra:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si es al&amp;#233;rgico a:&lt;/span&gt;&lt;/p&gt;&lt;ul style=\&quot;margin:0pt; padding-left:0pt\&quot;&gt;&lt;li style=\&quot;margin:0.05pt 16.9pt 0pt 23.05pt; text-indent:0pt; text-align:justify; padding-left:19.5pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;los principios activos o alguno de los dem&amp;#225;s componentes de esta vacuna (incluidos en la secci&amp;#243;n 6).&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 23.05pt; text-indent:0pt; text-align:justify; padding-left:19.5pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;la beta-propiolactona, al bromuro de cetiltrimetilamonio o al polisorbato 80, que son residuos del proceso de fabricaci&amp;#243;n que pueden estar presentes en cantidades m&amp;#237;nimas.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=\&quot;margin:0.9pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Advertencias y precauciones&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Consulte a su m&amp;#233;dico, farmac&amp;#233;utico o enfermero antes de empezar a recibir Flucelvax Tetra.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;ANTES DE vacunarse&lt;/span&gt;&lt;/p&gt;&lt;ul style=\&quot;margin:0pt; padding-left:0pt\&quot;&gt;&lt;li style=\&quot;margin:0.9pt 5pt 0pt 13.36pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;su m&amp;#233;dico o enfermero comprobar&amp;#225; la f&amp;#225;cil disponibilidad de tratamiento m&amp;#233;dico y supervisi&amp;#243;n adecuados en el caso raro de que se produjera una reacci&amp;#243;n anafil&amp;#225;ctica (una reacci&amp;#243;n al&amp;#233;rgica muy grave con s&amp;#237;ntomas como dificultad para respirar, mareos, pulso d&amp;#233;bil y r&amp;#225;pido y erupci&amp;#243;n cut&amp;#225;nea) despu&amp;#233;s de la administraci&amp;#243;n. Esta reacci&amp;#243;n puede presentarse con Flucelvax Tetra, al igual que con todas las vacunas que se inyectan.&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 25.35pt 0pt 13.36pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;debe informar a su m&amp;#233;dico si tiene una enfermedad aguda que cursa con fiebre. Su m&amp;#233;dico puede decidir retrasar su vacunaci&amp;#243;n hasta que la fiebre haya desaparecido.&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;list-style: none; display: inline\&quot;&gt;&lt;ul style=\&quot;margin:0pt; padding-left:0pt\&quot;&gt;&lt;li style=\&quot;margin:0pt 5.45pt 0pt 13.36pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;debe informar a su m&amp;#233;dico si su sistema inmunitario est&amp;#225; comprometido o si est&amp;#225; recibiendo un tratamiento que afecte al mismo, por ejemplo, medicamento contra el c&amp;#225;ncer (quimioterapia) o corticoides (ver secci&amp;#243;n &amp;#8220;Otros medicamentos y Flucelvax Tetra&amp;#8221;).&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 13.36pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;debe informar a su m&amp;#233;dico si tiene un problema de sangrado o le salen moretones&amp;#160;&amp;#160;&amp;#160;&amp;#160; f&amp;#225;cilmente.&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 4.6pt 0pt 13.36pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;puede desmayarse despu&amp;#233;s de la inyecci&amp;#243;n con una aguja, o incluso antes, por lo tanto, informe a su m&amp;#233;dico o enfermero si se ha desmayado anteriormente con alguna inyecci&amp;#243;n.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=\&quot;margin:0.7pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 20.05pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Como ocurre con todas las vacunas, Flucelvax Tetra puede no proteger completamente a todas las personas que son vacunadas.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.75pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Otros medicamentos y Flucelvax Tetra&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Informe a su m&amp;#233;dico o enfermero si est&amp;#225; utilizando, ha utilizado recientemente o pudiera tener que utilizar cualquier otro medicamento, incluso los adquiridos sin receta, o si ha recibido recientemente alguna otra vacuna.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.55pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Flucelvax Tetra se puede administrar al mismo tiempo que otras vacunas.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.9pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;div class=\&quot;pregnancyCategory\&quot;&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Embarazo y lactancia&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Embarazo:&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.05pt 14.1pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si est&amp;#225; embarazada, cree que podr&amp;#237;a estar embarazada o tiene intenci&amp;#243;n de quedarse embarazada, consulte a su m&amp;#233;dico. Las vacunas antigripales se pueden administrar en cualquier trimestre del embarazo.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p style=\&quot;margin:0.5pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;div class=\&quot;breastfeedingCategory\&quot;&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Lactancia:&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.15pt 7.5pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;El uso de Flucelvax Tetra durante la lactancia no ha sido estudiado. Flucelvax Tetra se puede administrar durante la lactancia.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p style=\&quot;margin:0.75pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Conducci&amp;#243;n y uso de m&amp;#225;quinas&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 14.1pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;La influencia de Flucelvax Tetra sobre la capacidad para conducir y utilizar m&amp;#225;quinas es nula o insignificante.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.75pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Flucelvax Tetra contiene cloruro de sodio y cloruro de potasio&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Esta vacuna contiene menos de 1 mmol de sodio (23 mg) por dosis; esto es, esencialmente &amp;#8220;exento de sodio&amp;#8221;.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Esta vacuna contiene potasio, menos de 1 mmol (39 mg) por dosis; esto es, esencialmente &amp;#8220;exento de potasio&amp;#8221;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "3. How to take Flucelvax",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "3. Cómo se administra Flucelvax Tetra"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;margin:0.6pt 0pt 0pt; line-height:12pt\&quot;&gt;&lt;a name=\&quot;_Hlk142925114\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 14.1pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Su m&amp;#233;dico o enfermero le administrar&amp;#225; Flucelvax Tetra en forma de inyecci&amp;#243;n en el m&amp;#250;sculo de la parte superior del brazo (m&amp;#250;sculo deltoides).&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.95pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:1.6pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt; vertical-align:-0.5pt\&quot;&gt;Adultos y ni&amp;#241;os a partir de 2 a&amp;#241;os de edad:&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.3pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Una dosis de 0,5 ml&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt; background-color:#ffff00\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si su hijo es menor de 9 a&amp;#241;os y nunca ha sido vacunado contra la gripe, se le debe administrar una segunda dosis despu&amp;#233;s, de al menos, 4 semanas.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "4. Possible side effects",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "4. Posibles efectos adversos"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;margin:0.4pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 13.75pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Los siguientes efectos adversos se han notificado durante los ensayos cl&amp;#237;nicos y durante el uso general:&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.9pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Efectos adversos muy graves&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Consulte inmediatamente con su m&amp;#233;dico o acuda al servicio de urgencias del hospital m&amp;#225;s cercano si presenta el siguiente efecto adverso &amp;#8211; puede necesitar urgentemente atenci&amp;#243;n m&amp;#233;dica u hospitalizaci&amp;#243;n:&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.85pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 20.75pt 0pt 7.95pt; text-indent:-20.4pt; text-align:justify; line-height:115%; padding-left:20.4pt; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#8226;&lt;/span&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Dificultad para respirar, mareos, pulso d&amp;#233;bil y r&amp;#225;pido junto con erupci&amp;#243;n cut&amp;#225;nea, que son los s&amp;#237;ntomas de una reacci&amp;#243;n anafil&amp;#225;ctica (una reacci&amp;#243;n al&amp;#233;rgica muy grave)&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.75pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Efectos adversos graves&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Informe inmediatamente a su m&amp;#233;dico si presenta cualquiera de los efectos adversos siguientes &amp;#8211; puede necesitar atenci&amp;#243;n m&amp;#233;dica:&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;ul style=\&quot;margin:0pt; padding-left:0pt\&quot;&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Se siente d&amp;#233;bil, tiene dificultades para moverse o presenta entumecimiento u hormigueo en las extremidades. Estos pueden ser s&amp;#237;ntomas del s&amp;#237;ndrome de Guillain-Barr&amp;#233; (SGB), una enfermedad autoinmune causada por el propio sistema inmunitario del organismo&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Hinchaz&amp;#243;n extensa del miembro en el que se ha inyectado&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=\&quot;margin:0.45pt 0pt 0pt; text-align:justify; line-height:115%; font-size:14pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:14pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Efectos adversos leves&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Muy frecuentes&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;(pueden afectar a m&amp;#225;s de 1 de cada 10 personas):&lt;/span&gt;&lt;/p&gt;&lt;ul style=\&quot;margin:0pt; padding-left:0pt\&quot;&gt;&lt;li style=\&quot;margin:1.1pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Dolor en la zona de inyecci&amp;#243;n, cardenales, enrojecimiento y endurecimiento o hinchaz&amp;#243;n en la zona de inyecci&amp;#243;n&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Dolor de cabeza&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Dolor muscular&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Cansancio&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;P&amp;#233;rdida de apetito&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Irritabilidad (notificada solo en ni&amp;#241;os de 2 a &amp;#60; 6 a&amp;#241;os)&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Somnolencia (notificada solo en ni&amp;#241;os de 2 a &amp;#60; 6 a&amp;#241;os)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=\&quot;margin:0.1pt 3.2pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;En los pacientes de edad avanzada fueron frecuentes el endurecimiento o la hinchaz&amp;#243;n en el lugar de la inyecci&amp;#243;n, el dolor de cabeza, el dolor muscular y la fatiga.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.95pt 0pt 0pt 7.1pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Los cardenales en el lugar de la inyecci&amp;#243;n fueron frecuentes en adultos, ancianos y ni&amp;#241;os de 9 a &amp;#60; 18 a&amp;#241;os.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.95pt 0pt 0pt 7.1pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;El dolor de cabeza fue frecuente en ancianos.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.95pt 0pt 0pt 7.1pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;La p&amp;#233;rdida de apetito fue frecuente en adultos, ancianos y ni&amp;#241;os de 9 a &amp;#60; 18 a&amp;#241;os.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:1.6pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:1.6pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Frecuentes&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;(pueden afectar hasta 1 de cada 10 personas):&lt;/span&gt;&lt;/p&gt;&lt;ul style=\&quot;margin:0pt; padding-left:0pt\&quot;&gt;&lt;li style=\&quot;margin:0.55pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;N&amp;#225;useas, v&amp;#243;mitos, diarrea&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Dolor articular&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Tiritona&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Cambios en los h&amp;#225;bitos alimenticios (notificados solo en ni&amp;#241;os de 2 a &amp;#60; 6 a&amp;#241;os)&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Fiebre (&amp;#62; 38 &amp;#176;C)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=\&quot;margin:0.55pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Los v&amp;#243;mitos fueron poco frecuentes en los pacientes de edad avanzada&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.55pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;La fiebre fue infrecuente en adultos y ancianos&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.55pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Frecuencia no conocida&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;(no puede estimarse a partir de los datos disponibles):&lt;/span&gt;&lt;/p&gt;&lt;ul style=\&quot;margin:0pt; padding-left:0pt\&quot;&gt;&lt;li style=\&quot;margin:0.7pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Sensaci&amp;#243;n de hormigueo y&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;entumecimiento (parestesia)&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Reacciones cut&amp;#225;neas generalizadas incluyendo picor, ampollas en la piel (prurito, urticaria) o erupci&amp;#243;n cut&amp;#225;nea inespec&amp;#237;fica&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=\&quot;margin:0.7pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:1.6pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Comunicaci&amp;#243;n de efectos adversos&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si experimenta cualquier tipo de efecto adverso, consulte a su profesional sanitario, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto.&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Tambi&amp;#233;n puede comunicarlos directamente a trav&amp;#233;s del Sistema Espa&amp;#241;ol de Farmacovigilancia de Medicamentos de Uso Humano en&lt;/span&gt; &lt;a href=\&quot;http://www.notificaRAM.es\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt; color:#0000ff; background-color:#ffffff\&quot;&gt;www.notificaRAM.es&lt;/span&gt;&lt;/a&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;.&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;M&lt;/span&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;ediante la comunicaci&amp;#243;n de efectos adversos usted puede contribuir a proporcionar m&amp;#225;s informaci&amp;#243;n sobre la seguridad de este medicamento.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "5. How to store Flucelvax",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "5. Conservación de Flucelvax Tetra"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;margin:2.45pt 14.1pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Mantener este medicamento fuera de la vista y del alcance de los ni&amp;#241;os.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:2.45pt 14.1pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:2.45pt 14.1pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Conservar en nevera (entre 2 &amp;#176;C y 8 &amp;#176;C). No congelar.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt; vertical-align:0.5pt\&quot;&gt;Mantener la jeringa precargada en el embalaje exterior para protegerla de la luz.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.55pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 3.15pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;No utilice esta vacuna despu&amp;#233;s de la fecha de caducidad que aparece en la etiqueta y en la caja despu&amp;#233;s de EXP/CAD. La fecha de caducidad es el &amp;#250;ltimo d&amp;#237;a del mes que se indica.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.8pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 8.2pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Los medicamentos no se deben tirar por los desag&amp;#252;es ni a la basura. Pregunte a su farmac&amp;#233;utico c&amp;#243;mo deshacerse de los envases y de los medicamentos que ya no necesita. De esta forma, ayudar&amp;#225; a proteger el medio ambiente.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "6. Contents of the pack and other information",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "6. Contenido del envase e información adicional"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;margin:0.55pt 0pt 0pt; line-height:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Composici&amp;#243;n de Flucelvax Tetra&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.4pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;ul style=\&quot;margin:0pt; padding-left:0pt\&quot;&gt;&lt;li style=\&quot;margin:0pt 14.1pt 0pt 11.96pt; text-indent:0pt; text-align:justify; line-height:115%; padding-left:9.34pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Los principios activos son ant&amp;#237;genos de superficie del virus de la gripe (hemaglutinina y neuraminidasa), inactivados, de las siguientes cepas*:&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=\&quot;margin:0.5pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;a name=\&quot;_Hlk66283421\&quot;&gt;&lt;/a&gt;&lt;a name=\&quot;_Hlk66283267\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Cepa similar a&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;A/Wisconsin/67/2022 (H1N1)pdm09&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;(A/Georgia/12/2022 CVR-167)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;15 microgramos HA**&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;a name=\&quot;_Hlk66283440\&quot;&gt;&lt;/a&gt;&lt;a name=\&quot;_Hlk66283292\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Cepa similar a&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;A/Darwin/6/2021 (H3N2)&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;(A/Darwin/11/2021, wild type)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;15 microgramos HA**&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Cepa similar a B/Austria/1359417/2021&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;(&lt;/span&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Singapore/WUH4618/2021&lt;/span&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;, wild type&lt;/span&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;)&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;15 microgramos HA**&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.55pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Cepa similar a B/Phuket/3073/2013 (B/Singapore/INFTT-16-0610/2016, wild type)&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.55pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;15 microgramos HA**&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.55pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;por dosis de 0,5 ml&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.05pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.05pt 26.05pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;*&lt;/span&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;propagadas en c&amp;#233;lulas Madin Darby Canine Kidney (MDCK) (se trata de un cultivo celular especial en el que crece el virus de la gripe)&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;** hemaglutinina&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.85pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 3.3pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Esta vacuna cumple con la recomendaci&amp;#243;n de la Organizaci&amp;#243;n Mundial de la Salud (OMS) (hemisferio norte) y con la recomendaci&amp;#243;n de la UE para la CAMPA&amp;#209;A 2023/2024.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.7pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;ul style=\&quot;margin:0pt; padding-left:0pt\&quot;&gt;&lt;li style=\&quot;margin:0pt 14.25pt 0pt 15.76pt; text-indent:0pt; text-align:justify; line-height:115%; padding-left:12.59pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Los dem&amp;#225;s componentes son: cloruro de sodio, cloruro de potasio, cloruro de magnesio hexahidrato, fosfato dis&amp;#243;dico dihidrato, dihidrogenofosfato de potasio y agua para preparaciones inyectables.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=\&quot;margin:0.75pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Aspecto del producto y contenido del envase&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.6pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 14.1pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Flucelvax Tetra es una suspensi&amp;#243;n inyectable en jeringa precargada (jeringa lista para usar). Flucelvax Tetra es una suspensi&amp;#243;n de transparente a ligeramente opalescente.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Cada jeringa individual contiene 0,5 ml de suspensi&amp;#243;n inyectable.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 7.1pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Flucelvax Tetra est&amp;#225; disponible en envases de 1 jeringa precargada con o sin aguja o 10 jeringas&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 7.1pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;precargadas con o sin agujas.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Puede que solamente est&amp;#233;n comercializados algunos tama&amp;#241;os de envases.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.9pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Titular de la autorizaci&amp;#243;n de comercializaci&amp;#243;n y responsable de la fabricaci&amp;#243;n&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 14.1pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Seqirus Netherlands B.V.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Paasheuvelweg 28&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;1105BJ Amsterdam&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Pa&amp;#237;ses Bajos&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.85pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 11.4pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Pueden solicitar m&amp;#225;s informaci&amp;#243;n respecto a este medicamento dirigi&amp;#233;ndose al representante local del titular de la autorizaci&amp;#243;n de comercializaci&amp;#243;n:&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 11.4pt 0pt 6.9pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Seqirus Spain, S.L., Barcelona&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Tel: 937 817 884&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.75pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Fecha de la &amp;#250;ltima revisi&amp;#243;n de este prospecto: 07/2023&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Otras fuentes de informaci&amp;#243;n&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.6pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 3.8pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;La informaci&amp;#243;n detallada de este medicamento est&amp;#225; disponible en la p&amp;#225;gina web de la Agencia Europea de Medicamentos:&lt;/span&gt; &lt;a href=\&quot;http://www.ema.europa.eu/\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;http://www.ema.europa.eu/.&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.55pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 18.1pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;------------------------------------------------------------------------------------------------------------- Esta informaci&amp;#243;n est&amp;#225; destinada &amp;#250;nicamente a profesionales del sector sanitario:&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.5pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 4.75pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Debe estar siempre f&amp;#225;cilmente disponible el tratamiento m&amp;#233;dico y la supervisi&amp;#243;n apropiados en caso de un episodio anafil&amp;#225;ctico, que puede aparecer raramente despu&amp;#233;s de administrar la vacuna.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.8pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt 50.45pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Agitar antes de usar. Despu&amp;#233;s de agitar, el aspecto normal de la vacuna es una suspensi&amp;#243;n de transparente a ligeramente opalescente.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0.55pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:12pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Se debe inspeccionar visualmente la vacuna en busca de part&amp;#237;culas extra&amp;#241;as o cambios de color antes de la administraci&amp;#243;n. Si se observan part&amp;#237;culas extra&amp;#241;as y/o cualquier variaci&amp;#243;n del aspecto f&amp;#237;sico, no administre la vacuna.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        }
+      ]
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Jan 21, 2024 22:55+0000">2024-01-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,229 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Bundle/pedro-dimension-collection> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "pedro-dimension-collection"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/persona-collection"^^xsd:anyURI ;
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/persona-collection>
+     ] )
+  ] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/persona-dimension-collection"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "pd-collection-1" ]
+  ] ; # 
+  fhir:type [ fhir:v "collection"] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-1"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-1> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-2"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-2> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-3"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-3> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-4"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-4> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-5"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-5> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-6"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-6> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-7"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-7> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-8"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-8> )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-1> a fhir:Observation ;
+  fhir:id [ fhir:v "pedro-dimension-1"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_pedro-dimension-1\"> </a><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-1\"> </a><a name=\"hcpedro-dimension-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-1&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: employment <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#EMP)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: Currently employed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#currenly-employed)</span></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "EMP" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:display [ fhir:v "Pedro-patient" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2019-01-01T00:00:00Z"^^xsd:dateTime] ; # 
+  fhir:value [
+     a fhir:CodeableConcept ;
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://example.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "currenly-employed" ] ;
+       fhir:display [ fhir:v "Currently employed" ]
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-2> a fhir:Observation ;
+  fhir:id [ fhir:v "pedro-dimension-2"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_pedro-dimension-2\"> </a><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-2\"> </a><a name=\"hcpedro-dimension-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-2&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Share info Willingly <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#SHW)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: Medium willingness <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#Medium)</span></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SHW" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:display [ fhir:v "Pedro-patient" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2019-01-01T00:00:00Z"^^xsd:dateTime] ; # 
+  fhir:value [
+     a fhir:CodeableConcept ;
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://example.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Medium" ] ;
+       fhir:display [ fhir:v "Medium willingness" ]
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-3> a fhir:Observation ;
+  fhir:id [ fhir:v "pedro-dimension-3"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_pedro-dimension-3\"> </a><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-3\"> </a><a name=\"hcpedro-dimension-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-3&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: WorkLife <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#WKL)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: Work Life Balance <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#work-life)</span></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "WKL" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:display [ fhir:v "Pedro-patient" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2019-01-01T00:00:00Z"^^xsd:dateTime] ; # 
+  fhir:value [
+     a fhir:CodeableConcept ;
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://example.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "work-life" ] ;
+       fhir:display [ fhir:v "Work Life Balance" ]
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-4> a fhir:Observation ;
+  fhir:id [ fhir:v "pedro-dimension-4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_pedro-dimension-4\"> </a><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-4\"> </a><a name=\"hcpedro-dimension-4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-4&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Extrovert/introvert <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#EVI)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: Introvert</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "EVI" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:display [ fhir:v "Pedro-patient" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2019-01-01T00:00:00Z"^^xsd:dateTime] ; # 
+  fhir:value [ fhir:v "Introvert"] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-5> a fhir:Observation ;
+  fhir:id [ fhir:v "pedro-dimension-5"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_pedro-dimension-5\"> </a><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-5\"> </a><a name=\"hcpedro-dimension-5\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-5&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Emotional/Rational <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#ER)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: 4</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "ER" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:display [ fhir:v "Pedro-patient" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2019-01-01T00:00:00Z"^^xsd:dateTime] ; # 
+  fhir:value [ fhir:v "4"^^xsd:integer] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-6> a fhir:Observation ;
+  fhir:id [ fhir:v "pedro-dimension-6"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_pedro-dimension-6\"> </a><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-6\"> </a><a name=\"hcpedro-dimension-6\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-6&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Health Literacy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#HL)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: medium-high literacy</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "HL" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:display [ fhir:v "Pedro-patient" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2019-01-01T00:00:00Z"^^xsd:dateTime] ; # 
+  fhir:value [ fhir:v "medium-high literacy"] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-7> a fhir:Observation ;
+  fhir:id [ fhir:v "pedro-dimension-7"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_pedro-dimension-7\"> </a><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-7\"> </a><a name=\"hcpedro-dimension-7\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-7&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Digital Literacy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#DL)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: High literacy</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "DL" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:display [ fhir:v "Pedro-patient" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2019-01-01T00:00:00Z"^^xsd:dateTime] ; # 
+  fhir:value [ fhir:v "High literacy"] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-8> a fhir:Observation ;
+  fhir:id [ fhir:v "pedro-dimension-8"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_pedro-dimension-8\"> </a><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-8\"> </a><a name=\"hcpedro-dimension-8\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-8&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Tool Support Interest <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#TSI)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: Very Willing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#VW)</span></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "TSI" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:display [ fhir:v "Pedro-patient" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2019-01-01T00:00:00Z"^^xsd:dateTime] ; # 
+  fhir:value [
+     a fhir:CodeableConcept ;
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://example.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "VW" ] ;
+       fhir:display [ fhir:v "Very Willing" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

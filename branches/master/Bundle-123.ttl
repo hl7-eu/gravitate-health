@@ -1,0 +1,630 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Bundle/123> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "123"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
+     ] ) ;
+     fhir:security ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "HTEST" ] ;
+       fhir:display [ fhir:v "Please be aware that this electronic product information is for testing and development purposes only. It may not meet production quality standards and must not be relied upon for critical systems and must not be used in production or mission critical applications" ]
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en-GB"] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "https://medicines.org.uk/bundle"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "epi-SMPC-511" ]
+  ] ; # 
+  fhir:type [ fhir:v "document"] ; # 
+  fhir:timestamp [ fhir:v "2023-09-14T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "Composition/d86a2475-98e1-40b6-847b-7b0b1497e5fc"^^xsd:anyURI ] ;
+     fhir:resource ( <Composition/d86a2475-98e1-40b6-847b-7b0b1497e5fc> )
+  ] [
+     fhir:fullUrl [ fhir:v "RegulatedAuthorization/2087102b-56a5-429b-8c9c-47a8e4b0b83c"^^xsd:anyURI ] ;
+     fhir:resource ( <RegulatedAuthorization/2087102b-56a5-429b-8c9c-47a8e4b0b83c> )
+  ] [
+     fhir:fullUrl [ fhir:v "Organization/31309dc8-b83d-40ad-9149-12547f4ac3d1"^^xsd:anyURI ] ;
+     fhir:resource ( <Organization/31309dc8-b83d-40ad-9149-12547f4ac3d1> )
+  ] [
+     fhir:fullUrl [ fhir:v "MedicinalProductDefinition/5d02cfc1-053f-4694-9ce8-d0ee6c658b72"^^xsd:anyURI ] ;
+     fhir:resource ( <MedicinalProductDefinition/5d02cfc1-053f-4694-9ce8-d0ee6c658b72> )
+  ] [
+     fhir:fullUrl [ fhir:v "SubstanceDefinition/d010be1d-93c5-4c0d-a142-516c06eb39ae"^^xsd:anyURI ] ;
+     fhir:resource ( <SubstanceDefinition/d010be1d-93c5-4c0d-a142-516c06eb39ae> )
+  ] [
+     fhir:fullUrl [ fhir:v "Ingredient/54c6c580-5b34-4032-9403-c9d2154ac073"^^xsd:anyURI ] ;
+     fhir:resource ( <Ingredient/54c6c580-5b34-4032-9403-c9d2154ac073> )
+  ] ) . # 
+
+<Composition/d86a2475-98e1-40b6-847b-7b0b1497e5fc> a fhir:Composition ;
+  fhir:id [ fhir:v "d86a2475-98e1-40b6-847b-7b0b1497e5fc"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p><b>Generated Narrative: Composition</b><a name=\"d86a2475-98e1-40b6-847b-7b0b1497e5fc\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;d86a2475-98e1-40b6-847b-7b0b1497e5fc&quot;  (Language &quot;en&quot;) </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: id: 22954</p><p><b>status</b>: final</p><p><b>type</b>: SmPC <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (smpc#22954)</span></p><p><b>date</b>: 2023-09-14 00:00:00+0000</p><p><b>author</b>: <a href=\"#Organization_31309dc8-b83d-40ad-9149-12547f4ac3d1\">See above (Organization/31309dc8-b83d-40ad-9149-12547f4ac3d1: Organisation)</a></p><p><b>title</b>: Methotrexate 2.5mg Tablets</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://medicines.org.uk/composition"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "22954" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://medicines.org.uk/smpc"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "22954" ]
+     ] ) ;
+     fhir:text [ fhir:v "SmPC" ]
+  ] ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/5d02cfc1-053f-4694-9ce8-d0ee6c658b72> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/5d02cfc1-053f-4694-9ce8-d0ee6c658b72" ] ;
+     fhir:display [ fhir:v "Product" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2023-09-14T00:00:00Z"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/31309dc8-b83d-40ad-9149-12547f4ac3d1> ;
+     fhir:reference [ fhir:v "Organization/31309dc8-b83d-40ad-9149-12547f4ac3d1" ] ;
+     fhir:display [ fhir:v "Organisation" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "Methotrexate 2.5mg Tablets"] ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "1. Name of the medicinal product" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000029792" ] ;
+         fhir:display [ fhir:v "1. Name of the medicinal product" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p> <b> </b>Methotrexate 2.5 mg Tablets</p></div>"
+     ]
+  ] [
+     fhir:title [ fhir:v "2. Qualitative and quantitative composition" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000029793" ] ;
+         fhir:display [ fhir:v "2. Qualitative and quantitative composition" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Each tablet contains methotrexate sodium equivalent to 2.5 mg of methotrexate.</p> <p> <b>Excipient(s) with known effect</b> </p> <p>Lactose monohydrate- 66.166 mg per tablet</p> <p>For the full list of excipients, see section 6.1.</p></div>"
+     ]
+  ] [
+     fhir:title [ fhir:v "3. Pharmaceutical form" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000029797" ] ;
+         fhir:display [ fhir:v "3. Pharmaceutical form" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Tablet</p> <p>Round, biconvex, yellow tablets, engraved with &#8220;2.5&#8221; on one side. Scored in half on the other side and engraved with 'M' above the score line and '1' below it.</p> <p>The score line is only to facilitate breaking for ease of swallowing and not to divide into equal doses.</p></div>"
+     ]
+  ] [
+     fhir:title [ fhir:v "4. Clinical particulars" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000029798" ] ;
+         fhir:display [ fhir:v "4. Clinical particulars" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "4.1 Therapeutic indications" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029799" ] ;
+           fhir:display [ fhir:v "4.1 Therapeutic indications" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Methotrexate is a folic acid antagonist and is classified as an antimetabolite cytotoxic agent. </p> <p>Methotrexate has been used to produce regression in a wide range of neoplastic conditions including acute leukaemias, non-Hodgkin's lymphoma, soft-tissue and osteogenic sarcomas, and solid tumours particularly breast, lung, head and neck, bladder, cervical, ovarian, and testicular carcinoma.</p> <p>The treatment of neoplastic disease. Methotrexate has also been used in the treatment of severe cases of uncontrolled psoriasis, unresponsive to conventional therapy.</p> <p>It is also used in the treatment of adults with severe, active, classical or definite rheumatoid arthritis who are unresponsive or intolerant to conventional therapy.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "4.2 Posology and method of administration" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029800" ] ;
+           fhir:display [ fhir:v "4.2 Posology and method of administration" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p> <b>Posology</b> </p> <p>Methotrexate should only be prescribed by physicians with expertise in the use of methotrexate and a full understanding of the risks of methotrexate therapy.</p> <p> <i>Adults and Children</i> </p> <p>Methotrexate may be given by oral, intramuscular, intravenous (bolus injection or infusion), intrathecal and intra-arterial routes of administration. Dosages are based on the patient's body weight or surface area except in the case of intrathecal administration when a maximum dose of 15 mg is recommended. Doses should be reduced in cases of haematological deficiency and hepatic or renal impairment. Larger doses (greater than 100 mg) are usually given by intravenous infusion over periods not exceeding 24 hours. Part of the dose may be given in an initial rapid intravenous injection.</p> <p>Methotrexate has been used with beneficial effects in a wide variety of neoplastic diseases, alone and in combination with other cytotoxic agents, hormones, radiotherapy or surgery. Dosage schedules therefore vary considerably, depending on the clinical use, particularly when intermittent high-dose regimes are followed by the administration of Calcium Leucovorin (calcium folinate) to rescue normal cells from toxic effects.</p> <p>Examples of doses of methotrexate that have been used for particular indications are given below</p> <p> <b> <i>Choriocarcinoma and other trophoblastic tumours:</i> </b> Non-metastatic gestational trophoblastic neoplasms have been treated successfully with 0.25-1 mg /kg up to a maximum of 60 mg intramuscularly every 48 hours for four doses, followed by Calcium Leucovorin rescue. This course of treatment is repeated at seven day intervals until levels of urinary chorionic gonadotrophin hormone return to normal. Not less than four courses of treatment are usually necessary. Patients with complications, such as extensive metastases, may be treated with methotrexate in combination with other cytotoxic drugs.</p> <p>Methotrexate has also been used in similar doses for the treatment of hydatidiform mole and chorio-adenoma destruens.</p> <p> </p> <p> <b> <i>Leukaemia in children:</i> </b> In acute lymphocytic leukaemia remissions are usually best induced with a combination of corticosteroids and other cytotoxic agents.</p> <p>Methotrexate 15 mg/m<sup>2</sup>, given parenterally or orally once weekly, in combination with other drugs appears to be the treatment of choice for maintenance of drug-induced remissions.</p> <p> <b> <i>Meningeal leukaemia in children:</i> </b> Doses up to 15 mg, intrathecally, at weekly intervals, until the CSF appears normal (usually two to three weeks), have been found useful for the treatment of meningeal leukaemia.</p> <p>Although intravenous doses of the order of 50 mg/m<sup>2 </sup>of methotrexate do not appreciably penetrate the CSF, larger doses of the order of 500 mg/ m<sup>2 </sup>or greater do produce cytotoxic levels of methotrexate in the CSF. This type of therapy has been used in short courses, followed by administration of Calcium Leucovorin, as initial maintenance therapy to prevent leukaemic invasion of the central nervous system in children with poor prognosis lymphocytic leukaemia.</p> <p> <b> <i>Lymphoma:</i> </b> Non- Hodgkin's lymphoma, e.g. childhood lymphosarcoma has recently been treated with 3-30 mg/kg (approximately 90-900 mg/m<sup>2</sup>) of methotrexate given by intravenous injection and infusion followed by administration of Calcium Leucovorin with the higher doses. Some cases of Burkitt's lymphoma, when treated in the early stages with courses of 15 mg/m<sup>2</sup> daily orally for five days, have shown prolonged remissions. Combination chemotherapy is also commonly used in all stages of the disease.</p> <p> <b> <i>Breast cancer:</i> </b>Methotrexate, in intravenous doses of 10-60 mg/m<sup>2</sup>, is commonly included in cyclical combination regimes with other cytotoxic drugs in the treatment of advanced breast cancer. Similar regimes have also been used as adjuvant therapy in early cases following mastectomy and/or radiotherapy.</p> <p> <b> <i>Osteogenic sarcoma:</i> </b> The use of methotrexate alone and in cyclical combination regimes has recently been introduced as an adjuvant therapy to the primary treatment of osteogenic sarcoma by amputation with or without prosthetic bone replacement. This has involved the use of intravenous infusions of 20-300 mg/kg (approximately 600-9,000 mg/m<sup>2</sup>) of methotrexate followed by Calcium Leucovorin rescue. Methotrexate has also been used as the sole treatment in metastatic cases of osteogenic sarcoma.</p> <p> <b> <i>Bronchogenic carcinoma:</i> </b> Intravenous infusions of 20-100 mg/m<sup>2</sup> of methotrexate have been included in cyclical combination regimes for the treatment of advanced tumours. High doses with Calcium Leucovorin Rescue have also been employed as the sole treatment.</p> <p> <b> <i>Head and neck cancer:</i> </b> Intravenous infusions of 240-1,080 mg/m<sup>2</sup> with Calcium Leucovorin rescue have been used both as pre-operative adjuvant therapy and in the treatment of advanced tumours. Intra-arterial infusions of methotrexate have been used in the treatment of head and neck cancers.</p> <p> <b> <i>Bladder carcinoma:</i> </b> Intravenous injections or infusions of methotrexate in doses up to 100 mg every one or two weeks have been used in the treatment of bladder carcinoma with promising results, varying from only symptomatic relief to complete though unsustained regressions. The use of high doses of methotrexate with Calcium Leucovorin Rescue is currently being evaluated.</p> <table width=\"691\" cellpadding=\"2\" cellspacing=\"0\" border=\"1\"><tr valign=\"top\"><td width=\"100%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p> <b>Important warning about the dosage of Methotrexate 2.5 mg Tablets (methotrexate) </b> </p> <p> In the treatment of psoriasis and rheumatoid arthritis, Methotrexate 2.5 mg Tablets (methotrexate) <b>must only be taken once a week</b>. Dosage errors in the use of Methotrexate 2.5 mg Tablets (methotrexate) can result in serious adverse reactions, including death. </p> <p> Please read this section of the summary of product characteristics very carefully. </p> </td></tr></table><p></p> <p> <b> <i>Psoriasis: </i> </b>It is recommended that a test dose of 5-10 mg should be administered, one week prior to therapy to detect idiosyncratic adverse reactions.</p> <p>In most cases of severe uncontrolled psoriasis, unresponsive to conventional therapy, 10-25 mg orally once a week and adjusted by the patient's response is recommended. The prescriber should specify the day of intake on the prescription.</p> <p>The use of methotrexate in psoriasis may permit the return to conventional topical therapy which should be encouraged. </p> <p> <b> <i>Rheumatoid arthritis:</i> </b> It is recommended that a test dose of 5-10 mg should be administered, one week prior to therapy to detect idiosyncratic adverse reactions.</p> <p>In adults with severe, active classical or definite rheumatoid arthritis who are unresponsive or intolerant to conventional therapy, the recommended initial dose is 7.5 mg methotrexate once weekly. The schedule may be adjusted gradually to achieve an optimal response but should not exceed a total weekly dose of 20 mg. Once response has been achieved, the schedule should be reduced to the lowest possible effective dose. The prescriber should specify the day of intake on the prescription</p> <p>The prescriber should ensure that patients or their carers will be able to comply with the once weekly regimen.</p> <p> <i>Elderly</i> </p> <p>Due to diminished hepatic and renal function and decreased folate stores, methotrexate should be used with extreme caution in elderly patients, a reduction in dosage should be considered and these patients should be closely monitored for early signs of toxicity.</p> <p> <i>Paediatric population</i> </p> <p>Safety and effectiveness in children have not been established, other than in cancer chemotherapy.</p> <p> <b>Method of Administration</b>: Oral.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "4.3 Contraindications" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029805" ] ;
+           fhir:display [ fhir:v "4.3 Contraindications" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Methotrexate is contra-indicated in the presence of:</p> <p> &#8226; Hypersensitivity to the active substance or to any of the excipients listed in section 6.1</p> <p> &#8226; Significantly impaired hepatic function </p> <p> &#8226; Severe/significantly impaired renal function (creatinine clearance less than 30 ml/min) for methotrexate doses &lt;100 mg/m2, and moderate renal impairment (creatinine clearance less than 60 ml/min) for methotrexate doses &gt;100 mg/m2 (see section 4.2)</p> <p> &#8226; Liver disease including fibrosis, cirrhosis, recent or active hepatitis</p> <p> &#8226; Active infectious disease</p> <p> &#8226; Pre-existing blood dyscrasias, such as bone marrow hypoplasia, significant anaemia, leucopenia, or thrombocytopenia</p> <p> &#8226; Alcoholism </p> <p> &#8226; Severe acute or chronic infections and immunodeficiency syndrome</p> <p> &#8226; Stomatitis, ulcers of the oral cavity and known active gastrointestinal ulcer disease</p> <p> &#8226; During methotrexate therapy concurrent vaccination with live vaccines must not be carried out</p> <p> &#8226; Methotrexate tablets should not be used concomitantly with drugs with antifolate properties (e.g. co-trimoxazole) (see section 4.5)</p> <p> &#8226; Methotrexate is teratogenic and should not be given during pregnancy or to mothers who are breast-feeding (see section 4.6)</p> <p> &#8226; Following administration to a man or woman conception should be avoided by using an effective contraceptive method for at least 6 months after using Methotrexate 2.5 mg tablets (see Section 4.4).</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "4.4 Special warnings and precautions for use" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029806" ] ;
+           fhir:display [ fhir:v "4.4 Special warnings and precautions for use" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The prescriber should specify the day of intake on the prescription.</p> <p>The prescriber should make sure patients understand that Methotrexate 2.5 mg Tablets (methotrexate) should only be taken once a week.</p> <p>Patients should be instructed on the importance of adhering to the once- weekly intakes.</p> <p>Methotrexate must be used only by physicians experienced in antimetabolite</p> <p> Chemotherapy.</p> <p>Because of the possibility of fatal or severe toxicity, the physician should fully inform the patient of the risks involved and provide close medical supervision.</p> <p>Monitoring (prior to starting treatment) &#8211; see also below</p> <p>Before beginning or reinstituting methotrexate after a rest period, the patient's renal, liver and bone marrow function should be assessed by history, physical examination and laboratory tests. A chest X-ray should also be taken (see Respiratory effects below). </p> <p>Monitoring (during and after treatment) &#8211; see also below</p> <p> &#8226; During treatment patients should be appropriately supervised so that toxic signs or symptoms, or adverse reactions may be detected and evaluated with minimal delay</p> <p> &#8226; Full blood count (including haematocrit), hepatic and renal function tests (including urinalysis) should be carried out every week until treatment is stabilized, thereafter every 2 to 3 months throughout treatment. This will include a routine examination of lymph nodes and patients should report any unusual swelling to the doctor</p> <p> &#8226; More frequent check-ups be necessary when</p> <p>- the dose is increased</p> <p>- there is an increased risk of raised methotrexate blood levels (e.g. dehydration, impaired renal function, additional or increased dose of medicines, such as NSAIDs, administered concomitantly (see below &amp; section 4.5) </p> <p> &#8226; Haematopoietic suppression is common and may occur without warning when a patient is on an apparently &#8220;safe&#8221; dose, so full blood counts should be closely monitored during and after treatment. If any clinically significant drop in blood cell count occurs, methotrexate should be stopped immediately and appropriate therapy instituted. Patients should be advised to report all signs and symptoms suggestive of infection or of a blood dyscrasia.</p> <p>Doses exceeding 20 mg week can be associated with a substantial increase in toxicity, especially bone marrow depression.</p> <p> Use in psoriasis</p> <p> &#8226; Deaths have been reported associated with the use of methotrexate in psoriasis, so its use should be restricted to severe recalcitrant, disabling disease which is not adequately responsive to other forms of therapy, and only when the diagnosis has been established by biopsy and/or after dermatological consultation (see also sections 4.1 and 4.2)</p> <p> &#8226; The patient should be clearly informed that, in cases of psoriasis, methotrexate is taken once weekly. The prescriber should specify the day of intake on the prescription. Patients should be aware of the importance of adhering to once weekly intakes which is that daily/more frequent administration can result in severe toxicity</p> <p> &#8226; In longer-term treatment liver biopsies should be performed (see Hepatotoxicity below).</p> <p> Use in rheumatoid arthritis (RA)</p> <p> &#8226; The patient should be clearly informed that, in cases of RA, methotrexate is taken once weekly. The prescriber should specify the day of intake on the prescription. Patients should be aware of the importance of adhering to once weekly intakes which is that daily/more frequent administration can result in severe toxicity</p> <p> &#8226; When to perform a liver biopsy in rheumatological indications (cumulative dose/duration of therapy) has not been clearly established (see also below).</p> <p>Lung manifestations of RA and other connective tissue disorders are recognised to occur. In patients with RA, the physician should be specifically alerted to the potential for methotrexate induced adverse effects on the pulmonary system.</p> <p> Other warnings/precautions</p> <p> &#8226; Pleural effusions and ascites should be drained before methotrexate is started. Methotrexate can accumulate in these fluids and may be re-excreted into the circulation, prolonging the serum half-life and resulting in unexpected toxicity (e.g. myelosuppression &#8211; see below)</p> <p> &#8226; Methotrexate should be used with extreme caution in</p> <p>- debility</p> <p>- extreme youth (see section 4.2)</p> <p>- old age (see section 4.2)</p> <p>- psychiatric disorders</p> <p> &#8226; Adequate hydration prior to and during treatment is required to limit the risk of renal toxicity (see below)</p> <p> &#8226; Folate deficiency may increase methotrexate toxicity</p> <p> &#8226; Systemic toxicity may follow intrathecal use (appropriate monitoring required)</p> <p> &#8226; Tumour lysis syndrome may occur in patients with rapidly growing tumours</p> <p> &#8226; If acute methotrexate toxicity occurs patients may require folinic acid (to neutralise bone marrow effects). In patients with rheumatoid arthritis or psoriasis, folic acid or folinic acid supplementation may reduce methotrexate toxicity, such as gastrointestinal symptoms, stomatitis, alopecia and elevated liver enzymes. Plasma methotrexate levels should be monitored in order to calculate the appropriate dose. </p> <p> &#8226; It is recommended to check levels of vitamin B12 prior to initiating folic acid supplementation, particularly in adults aged over 50 years, as folic acid intake may mask a vitamin B12 deficiency.</p> <p> &#8226; Patients should report all symptoms and signs suggestive of infection, especially sore throat.</p> <p> &#8226; Since cases of encephalopathy/ leukoencephalopathy have occurred in cancer patients treated with methotrexate, this cannot be ruled out either for patients with non-cancer indications.</p> <p> <b>Progressive multifocal leukoencephalopathy (PML)</b> </p> <p>Cases of progressive multifocal leukoencephalopathy (PML) have been reported in patients receiving methotrexate, mostly in combination with other immunosuppressive medication. PML can be fatal and should be considered in the differential diagnosis in immunosuppressed patients with new onset or worsening neurological symptoms.</p> <p>Hepatotoxicity</p> <p> &#8226; Methotrexate is hepatotoxic, particularly at high doses or with prolonged therapy. Liver atrophy, necrosis, cirrhosis, fatty changes, and periportal fibrosis have been reported. Changes may occur without prior signs of toxicity, so it is imperative that hepatic function be determined before treatment is started and monitored regularly throughout therapy (see above)</p> <p> &#8226; Temporary increases in transaminases to twice or three times of the upper limit of normal have been reported by patients at a frequency of 13 - 20 %, however methotrexate should not be started or should be discontinued if there are any clinically relevant abnormalities of liver function tests or liver biopsy. If such abnormalities return to normal within two weeks, the physician may consider it appropriate to re-start methotrexate. Further research is needed to establish whether serial liver function tests or determinations of propeptide of type III collagen are appropriate for detecting hepatotoxicity.</p> <p> &#8226; Additional hepatotoxic drugs should not be taken during treatment with methotrexate unless clearly necessary and the consumption of alcohol should be avoided or greatly reduced (see below and section 4.5)</p> <p> &#8226; Risk factors for the development of hepatotoxicity primarily include</p> <p>- Daily (rather than weekly) dosing</p> <p>- History of alcohol abuse</p> <p>- Persistent increase in liver enzymes</p> <p>- History of liver disease including hepatitis B or C</p> <p>- Family history of hereditary hepatopathy</p> <p> &#8226; Other factors that may indicate an increased risk include</p> <p>- Diabetes mellitus</p> <p>- Adiposity</p> <p>- History of exposure to hepatotoxic medicines or chemicals.</p> <p> Liver biopsies</p> <p> &#8226; Liver biopsies should be considered after cumulative doses &gt; 1.0 to 1.5g, if hepatic impairment is suspected</p> <p> &#8226; In patients with risk factors (see above), liver biopsy is recommended during or shortly after starting methotrexate. Since a small percentage of patients discontinue therapy for various reasons after 2-4 months, the first biopsy can be delayed to a time after this initial phase (i.e. when longer-term therapy is proposed)</p> <p> &#8226; In low risk patients with RA, there is no robust evidence to support use of a liver biopsy to monitor hepatic toxicity (see above)</p> <p> &#8226; In case of longer-term treatment of psoriasis with methotrexate, liver biopsies should be performed.</p> <p> Haematological effects (myelosuppression)</p> <p> &#8226; Methotrexate can suppress haematopoiesis. This can occur abruptly and with apparently &#8220;safe&#8221; doses. Monitoring is therefore required (see above)</p> <p> &#8226; In patients with malignant disease (with existing bone marrow aplasia, leucopenia, thrombocytopenia, and/or anaemia) methotrexate should be used with considerable caution, if at all</p> <p> &#8226; If there are clinically significant falls in white cell or platelet counts, methotrexate should be stopped immediately.</p> <p> Respiratory effects</p> <p> &#8226; A chest X-ray is recommended prior to initiation of methotrexate therapy as acute or chronic interstitial pneumonitis, often associated with blood eosinophilia may occur. Deaths have been reported. Typically symptoms include dyspnoea, cough (especially a dry, non-productive cough), and fever. Patients with RA are particularly at risk</p> <p> &#8226; Patients should be informed of the risk, monitored for relevant symptoms at every visit and advised to contact their doctor immediately should they develop persistent cough or dyspnoea</p> <p> &#8226; Methotrexate should be withdrawn from patients with pulmonary symptoms and a thorough investigation undertaken to exclude infection as potentially fatal opportunistic infections (including Pneumocystis carnii) may occur. Reversible eosinophilic pulmonary reactions may occur, particularly after long-term treatment</p> <p> &#8226; If methotrexate induced lung disease is suspected treatment with corticosteroids should be initiated and treatment with methotrexate should not be restarted</p> <p> &#8226; If interstitial fibrosis develops it may be treatment-resistant.</p> <p> &#8226; In addition, pulmonary alveolar haemorrhage has been reported with methotrexate used in rheumatologic and related indications. This event may also be associated with vasculitis and other comorbidities. Prompt investigations should be considered when pulmonary alveolar haemorrhage is suspected to confirm the diagnosis.</p> <p> Renal effects</p> <p> &#8226; Methotrexate is excreted primarily by the kidneys. Its use in patients with renal impairment should only be undertaken with extreme caution. Renal function should be closely monitored before, during and after treatment. Caution should be exercised if there is significant renal impairment as its use may result in accumulation/toxicity with additional renal damage. Renal lesions may develop if the urinary flow is impeded and urinary pH is low, especially if large doses have been administered</p> <p> &#8226; Renal function should be monitored by renal function tests and urinalyses. If serum creatinine levels are increased, the dose should be reduced. If creatinine clearance is less than 30 ml/min, treatment with methotrexate should not be given. If creatinine clearance is less than 60 ml/min, methotrexate doses &gt;100 mg/m2 not be given (see section 4.2 and 4.3).</p> <p> &#8226; Methotrexate may cause renal damage that may lead to acute renal failure. </p> <p> &#8226; In renal impairment the dose of methotrexate should be reduced. High doses may cause precipitation of it or its metabolites in the renal tubules. A high fluid throughput and alkalinisation of the urine to pH 6.5-7.0 by oral or intravenous administration of sodium bicarbonate (5 x 625 mg tablets every three hours) or acetazolamide 500 mg orally four times a day) is recommended as a preventive measure</p> <p> &#8226; Monitoring of serum methotrexate levels are recommended.</p> <p> &#8226; Methotrexate may cause adverse urinary tract reactions, such as cystitis and haematuria.</p> <p> &#8226; If there is the possibility of renal impairment (e.g. in elderly subjects), monitoring should take place at shorter intervals. This applies in particular when medicinal products that affect the elimination of methotrexate, or that cause kidney damage (e.g. NSAIDs) or that can potentially lead to impairment of haematopoiesis, are administered concomitantly.</p> <p> &#8226; Concomitant use of proton pump inhibitors (PPIs) and high dose methotrexate should be avoided, especially in patients with renal impairment.</p> <p> Gastro-intestinal effects</p> <p> &#8226; Diarrhoea and ulcerative stomatitis are frequent toxic effects and require interruption of therapy, otherwise haemorrhagic enteritis and death from intestinal perforation may occur</p> <p> &#8226; Extreme caution should be exercised if there is peptic ulcer or ulcerative colitis.</p> <p> &#8226; Use in patients with active gastrointestinal ulcer disease is contraindicated.</p> <p> &#8226; Following the occurrence of haematemesis, black coloured stools or blood in the stools, treatment must be discontinued. </p> <p> &#8226; In addition other conditions leading to dehydration such as emesis, can increase the toxicity of methotrexate due to elevated levels of the active substance. In these cases use of methotrexate should be interrupted until symptoms cease. It is important to determine any increase in active substance levels within 48 hours of therapy, otherwise irreversible methotrexate toxicity may occur.</p> <p>Effects on fertility and reproduction (pregnancy &amp; breast-feeding) - see also sections 4.3 and 4.6</p> <p> &#8226; Methotrexate affects gametogenesis and may result in decreased fertility which is thought to be reversible on discontinuation of therapy</p> <p> &#8226; It may impair menstrual function with consequent amenorrhoea, during and for a short period after therapy has stopped</p> <p> &#8226; It causes embryotoxicity, abortion and foetal death and/or congenital anomalies in humans. It is therefore contraindicated in pregnancy. An existing pregnancy should be excluded with certainty before starting methotrexate</p> <p> &#8226; If this drug is used during pregnancy for antineoplastic indications, or if the patient becomes pregnant while taking this drug, the patient should be appraised of the potential hazard to the foetus</p> <p> &#8226; Following administration to man or woman conception should be avoided by using an effective contraceptive method for at least 6 months after stopping methotrexate. (see section 4.3)</p> <p> &#8226; Methotrexate passes into breast milk with consequent toxicity to the baby. Breast feeding is contraindicated during lactation.</p> <p> Immunosuppressive activity</p> <p> &#8226; The immunosuppressive effect of methotrexate should be taken into account when immune responses of patients are important or essential. Special attention should be paid in cases of inactive chronic infections (e.g. herpes zoster, tuberculosis, hepatitis B or C) because of their potential activation</p> <p> &#8226; Extreme caution is required in the presence of acute infection. If infection occurs or becomes a threat during methotrexate use, it should be stopped. Appropriate antibiotic therapy is usually indicated</p> <p> &#8226; Responses to concurrent vaccination may be decreased. Vaccination with live vaccines are contraindicated during methotrexate therapy as severe antigenic reactions may occur (see section 4.3).</p> <p>Development of malignant lymphomas</p> <p>Malignant lymphomas may occur in patients receiving low dose methotrexate, in which case therapy must be discontinued. Failure of the lymphoma to show signs of spontaneous regression requires the initiation of cytotoxic therapy.</p> <p>Serious skin reactions</p> <p>Severe (occasionally fatal) skin reactions such as Stevens-Johnson syndrome, toxic epidermal necrolysis and erythema multiforme have been reported within a few days of a single or multiple doses of methotrexate.</p> <p>Concurrent medication (see also section 4.5)</p> <p>DMARDs (disease-modifying antirheumatic drugs)</p> <p>Concomitant administration of hepatotoxic or haematotoxic DMARDs (e.g. leflunomide) is not advisable. Due to the possibility of fatal or severe toxic reactions, the patient should be fully informed by the physician of the risks involved and be under constant supervision.</p> <p>NSAIDs</p> <p> &#8226; Serious adverse reactions including deaths have been reported with concomitant administration of methotrexate (usually in high doses) and nonsteroidal anti-inflammatory drugs (NSAIDs)</p> <p> &#8226; In the treatment of rheumatoid arthritis, treatment with acetylsalicylic acid and NSAIDs as well as small-dose steroids can be continued, but the possible increased risk of toxicity needs to be borne in mind. The steroid dose can be reduced gradually in patients who exhibit therapeutic response to methotrexate</p> <p> &#8226; Interaction between methotrexate and other antirheumatic agents, such as gold, penicillamine, hydroxychloroquine, sulphasalazine or other cytotoxic agents, have not been studied comprehensively but co-administration may involve an increased frequency of adverse reactions.</p> <p>Folate antagonists</p> <p>Concomitant administration of folate antagonists such as trimethoprim/sulphamethoxazole has been reported to cause an acute megaloblastic pancytopenia in rare instances.</p> <p>Vitamin preparations</p> <p>If these contain folic acid (or its derivatives) they may alter the response to Methotrexate.</p> <p>Other hepatoxic/haematotoxic drugs</p> <p>Closer monitoring of liver enzymes and/or blood counts should be exercised in patients taking other hepatotoxic and/or haematotoxic medicines concomitantly.</p> <p>Binding to albumin</p> <p>Methotrexate is part-bound to serum albumin and toxicity may be increased because of displacement by certain drugs such as salicylates, sulphonamides, phenytoin, and some antibacterials such as tetracycline, chloramphenicol and para-aminobenzoic acid. These drugs, especially salicylates and sulphonamides, whether antibacterial, hypoglycaemic or diuretic, should not be given concurrently until the significance of these findings is established.</p> <p>Concomitant other therapies (radiotherapy: ultraviolet radiation/PUVA)</p> <p> &#8226; Methotrexate used concurrently with radiotherapy may increase the risk of soft tissue necrosis and osteonecrosis</p> <p> &#8226; Radiation induced dermatitis and sun-burn can reappear under methotrexate therapy (recall reaction).</p> <p> &#8226; Psoriatic lesions may get worse if methotrexate is combined with ultraviolet radiation/PUVA.</p> <p>Lactose intolerance</p> <p>The tablets contain lactose monohydrate. Patients with rare hereditary problems of galactose intolerance, total lactase deficiency or glucose-galactose malabsorption should not take this medicine.</p> <p> <b>Fertility</b></p> <p>Methotrexate has been reported to cause impairment of fertility, oligospermia, menstrual dysfunction and amenorrhoea in humans during and for a short period after the discontinuation of treatment, affecting spermatogenesis and oogenesis during the period of its administration - effects that appear to be reversible on discontinuing therapy.</p> <p> <b>Teratogenicity &#8211; Reproductive risk</b> </p> <p>Methotrexate causes embryotoxicity, abortion and foetal malformations in humans. Therefore, the possible effects on reproduction, pregnancy loss and congenital malformations should be discussed with female patients of childbearing age (see section 4.6). In non-oncologic indications, the absence of pregnancy must be confirmed before Methotrexate 2.5 mg Tablets is used. If women of a sexually mature age are treated, effective contraception must be used during treatment and for at least six months after.</p> <p>For contraception advice for men see section 4.6.</p> <p>This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 'sodium-free'.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "4.5 Interaction with other medicinal products and other forms of interaction" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029809" ] ;
+           fhir:display [ fhir:v "4.5 Interaction with other medicinal products and other forms of interaction" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Methotrexate is extensively protein bound and may displace, or be displaced by, other acidic drugs. The concurrent administration of agents such as diphenylhydantoins, acidic anti-inflammatory agents, salicylates, phenylbutazone, phenytoin, barbiturates, tranquilisers, oral contraceptives, amidopyrine derivatives, p-aminobenzoic acid, thiazidediuretics, oral hypoglycaemics, doxorubicin, tetracyclines, probenicid or sulfinpyrazone or oral hypoglycaemics will decrease the methotrexate transport function of renal tubules, thereby reducing excretion and almost certainly increasing methotrexate toxicity.</p> <p>Concurrent use contra-indicated</p> <p>Methotrexate is immunosuppressive and may therefore reduce immunological response to concurrent vaccination. Severe antigenic reactions may occur if a live vaccine is given concurrently (see sections 4.3 and 4.4). On account of its possible effect on the immune system, methotrexate can falsify vaccinal and test results (immunological procedures to record the immune reaction). </p> <p>Avoid concomitant use</p> <p>General anaesthesia &#8211; The use of nitrous oxide potentiates the effect of methotrexate on folate metabolism, yielding increased toxicity such as severe, unpredictable myelosuppression and stomatitis and in case of intrathecal administration increased severe, unpredictable neurotoxicity. Whilst this effect can be reduced by administering calcium folinate, the concomitant use of nitrous oxide and methotrexate should be avoided.</p> <p>Antipsychotics &#8211; increased risk of agranulocytosis with olanzapine.</p> <p>Retinoids &#8211; Acitretin (a treatment for psoriasis) is metabolised to eretinate. plasma concentrations of methotrexate increased by acitretin &#8211; also increased risk of hepatotoxicity.</p> <p>Azopropazone &#8211; excretion of methotrexate reduced.</p> <p>NSAIDs (see also below) should not be administered before or concurrently with high-dose methotrexate - increased and prolonged serum methotrexate concentrations with consequent increased gastrointestinal and haematological toxicity. Methotrexate dosage should be monitored if concomitant treatment with aspirin, ibuprofen or indometacin (NSAIDs) is commenced, as concomitant use of NSAID's has been associated with fatal methotrexate toxicity.</p> <p>Other hepato- , myelo- or nephrotoxic drugs</p> <p>Sulfamethoxazole and folate antagonists such as trimethoprim (as co-trimoxazole) &#8211; increased risk of haematological toxicity.</p> <p>Considerable caution required</p> <p>Probenecid &amp; weak organic acids (e.g. loop diuretics: pyrazoles) - excretion of methotrexate reduced (increased risk of toxicity).</p> <p>Caution required</p> <p>Analgesics</p> <p> &#8226; NSAIDs (see also above) &#8211; In animals low doses of methotrexate with NSAIDs have been found to decrease the tubular secretion of methotrexate and possibly to increase its toxicity. However patients with rheumatoid arthritis (or psoriasis) have been treated concurrently with methotrexate 7.5 - 15 mg/week without significant problems</p> <p> &#8226; Aspirin and other salicylates - possible alteration of the pharmacokinetics of methotrexate/increased risk of toxicity.</p> <p>Antibacterials</p> <p> &#8226; Neomycin (and possibly tetracycline, chloramphenicol: non-absorbable broad spectrum antibiotics) &#8211; reduced absorption of methotrexate or interfere with the enterohepatic circulation, due to inhibition of the intestinal flora or suppression of bacterial metabolism.</p> <p> &#8226; Ciprofloxacin &#8211; excretion of methotrexate possibly reduced (increased risk of toxicity)</p> <p> &#8226; Doxycycline, sulphonamides, tetracyclines - increased risk of methotrexate toxicity</p> <p> &#8226; Antibiotics, like penicillin, glycopeptides, sulfonamides, ciprofloxacin and cefalotin can, in individual cases, reduce the renal clearance of methotrexate, so that increased serum concentrations of methotrexate with simultaneous haematological and gastro-intestinal toxicity may occur.</p> <p>Antiepileptics</p> <p> &#8226; Antifolate effect of methotrexate increased by phenytoin</p> <p> &#8226; Phenytoin &#8211; absorption possible decreased by cytotoxics (risk of exacerbation of convulsions)</p> <p> &#8226; Enzyme-inducing antiepileptics &#8211; increased/altered metabolism and/or clearance of methotrexate</p> <p> &#8226; Carbamazepine, phenytoin and valproate serum levels can be reduced by antineoplastic drugs with seizures if the antiepileptic doses are not raised appropriately.</p> <p>Antimalarials</p> <p>Pyrimethamine &#8211; increased anti-folate effect of methotrexate.</p> <p>Cardiac glycosides</p> <p>Digoxin absorption decreased by cytotoxics.</p> <p>Ciclosporin</p> <p>May potentiate methotrexate efficacy and toxicity. There is a risk of excessive immunosuppression with risk of lymphoproliferation when the combination is used.</p> <p> </p> <p>Corticosteroids</p> <p>Increased risk of haematological toxicity.</p> <p>Cytotoxics</p> <p>Increased risk of pulmonary toxicity (see sections 4.4 &amp; 4.8).</p> <p>Immunosuppressants</p> <p>Leflunomide &#8211; risk of toxicity (pancytopenia) (see also section 4.4).</p> <p>Theophylline</p> <p>Methotrexate possibly increases plasma concentrations of theophylline. Methotrexate may decrease the clearance of theophylline; theophylline levels should be monitored when used concurrently with methotrexate. Excessive consumption of beverages containing caffeine or theophylline (coffee, soft drinks containing caffeine, black tea) should be avoided during methotrexate therapy since the efficacy of methotrexate may be reduced due to possible interaction between methotrexate and methylxanthines at adenosine receptors.</p> <p>Ulcer-healing drugs &#8211; proton pump inhibitors</p> <p>There is evidence that co-administration of methotrexate and omeprazole prolongs the elimination of methotrexate via kidneys. Co-administration of proton pump inhibitors such as omeprazole or pantoprazole can cause interactions. In combination with pantoprazole, inhibited renal elimination of the 7-hydroxymethotrexate metabolite, with myalgia and shivering, was reported in one case. </p> <p>Vitamin preparations</p> <p>Vitamin preparations containing folic acid or its derivatives may change response to methotrexate.</p> <p>Potassium-sparing diuretics</p> <p>Triamterene - bone marrow suppression and reduced folate concentrations have been reported when triamterene and methotrexate were co-administered.</p> <p> <b>Other possible interactions</b> </p> <p>Oral hypoglycaemics &#8211; possible reduced methotrexate excretion.</p> <p>Thiazide diuretics &#8211; possible reduced methotrexate excretion.</p> <p>The concurrent administration of agents such as p-aminobenzoic acid and sulfinpyrazone will decrease the methotrexate transport function of renal tubules, thereby reducing excretion and almost certainly increasing methotrexate toxicity.</p> <p> Concurrent use of other, potentially nephro- hemato or hepatotoxic agents (e.g. sulphasalazine, leflunomide and alcohol) should be avoided. Special caution should be exercised when observing patients receiving methotrexate therapy in combination with azathioprine or retinoids.</p> <p>Enhancement of nephrotoxicity may be seen if high-dose methotrexate is administered in combination with a potentially nephrotoxic chemotherapeutic agent (e.g. cisplatin).</p> <p>Administration of additional haematotoxic medicinal products (e.g. metamizole) increases the probability of severe haematoxic effects of methotrexate.</p> <p>One should be aware of pharmacokinetic interactions between methotrexate, anticonvulsant medicinal products (reduced methotrexate blood levels), and 5-fluorouracil (increased t&#189; of 5--fluorouracil).</p> <p>Colestyramine can increase the non-renal elimination of methotrexate by interrupting the enterohepatic circulation.</p> <p>Delayed methotrexate clearance should be considered in combination with other cytostatic medicinal products</p> <p>The application of procarbazine during high-dose methotrexate therapy increases the risk of impairment or renal function.</p> <p>Radiotherapy during use of methotrexate can increase the risk of soft tissue or bone necrosis</p> <p>Methotrexate increases plasma levels of mercaptopurine. Combinations of methotrexate and mercaptopurine may therefore require dose adjustment.</p> <p>Particularly in the case of orthopaedic surgery where susceptibility to infection is high, a combination of methotrexate with immune-modulating medicinal products must be used with caution.</p> <p>Concomitant administration of levetiracetam and methotrexate has been reported to decrease methotrexate clearance, resulting in increased/prolonged blood methotrexate concentration to potentially toxic levels. Blood methotrexate and levetiracetam levels should be carefully monitored in patients treated concomitantly with the two drugs.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "4.6 Fertility, pregnancy and lactation" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029811" ] ;
+           fhir:display [ fhir:v "4.6 Fertility, pregnancy and lactation" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p> <b>Women of childbearing potential/Contraception in females</b> </p> <p>Women must not get pregnant during methotrexate therapy, and effective contraception must be used during treatment with methotrexate and at least 6 months thereafter (see section 4.4). Prior to initiating therapy, women of childbearing potential must be informed of the risk of malformations associated with methotrexate and any existing pregnancy must be excluded with certainty by taking appropriate measures, e.g. a pregnancy test. During treatment pregnancy tests should be repeated as clinically required (e.g. after any gap of contraception). Female patients of reproductive potential must be counselled regarding pregnancy prevention and planning.</p> <p> <b>Contraception in males</b> </p> <p>It is not known if methotrexate is present in semen. Methotrexate has been shown to be genotoxic in animal studies, such that the risk of genotoxic effects on sperm cells cannot completely be excluded. Limited clinical evidence does not indicate an increased risk of malformations or miscarriage following paternal exposure to low-dose methotrexate (less than 30 mg/week). For higher doses, there is insufficient data to estimate the risks of malformations or miscarriage following paternal exposure.</p> <p>As precautionary measures, sexually active male patients or their female partners are recommended to use reliable contraception during treatment of the male patient and for at least 3 months after cessation of methotrexate. Men should not donate semen during therapy or for 3 months following discontinuation of methotrexate.</p> <p> <b>Pregnancy</b> </p> <p>Methotrexate is contraindicated during pregnancy in non-oncological indications (see section 4.3). If pregnancy occurs during treatment with methotrexate and up to six months thereafter, medical advice should be given regarding the risk of harmful effects on the child associated with treatment and ultrasonography examinations should be performed to confirm normal foetal development.</p> <p>In animal studies, methotrexate has shown reproductive toxicity, especially during the first trimester (see section 5.3). Methotrexate has been shown to be teratogenic to humans; it has been reported to cause foetal death, miscarriages and/or congenital abnormalities (e.g. craniofacial, cardiovascular, central nervous system and extremity-related). </p> <p>Methotrexate is a powerful human teratogen, with an increased risk of spontaneous abortions, intrauterine growth restriction and congenital malformations in case of exposure during pregnancy. </p> <p> &#8226; Spontaneous abortions have been reported in 42.5% of pregnant women exposed to low-dose methotrexate treatment (less than 30 mg/week), compared to a reported rate of 22.5% in disease-matched patients treated with drugs other than methotrexate.</p> <p> &#8226; Major birth defects occurred in 6.6% of live births in women exposed to low-dose methotrexate treatment (less than 30 mg/week) during pregnancy, compared to approximately 4% of live births in disease-matched patients treated with drugs other than methotrexate.</p> <p>Insufficient data is available for methotrexate exposure during pregnancy higher than 30 mg/week, but higher rates of spontaneous abortions and congenital malformations are expected, in particular at doses commonly used in oncologic indications.</p> <p>When methotrexate was discontinued prior to conception, normal pregnancies have been reported. </p> <p>When used in oncological indications, methotrexate should not be administered during pregnancy in particular during the first trimester of pregnancy. In each individual case the benefit of treatment must be weighed up against the possible risk to the foetus. If the drug is used during pregnancy or if the patient becomes pregnant while taking methotrexate, the patient should be informed of the potential risk to the foetus.</p> <p> <b>Breast-feeding</b> </p> <p>As methotrexate passes into breast milk and may cause toxicity in nursing infants, treatment is contraindicated during the lactation period (see section 4.3). Breast-feeding is therefore to be stopped prior to treatment. </p> <p> <b>Fertility</b> </p> <p>Methotrexate affects spermatogenesis and oogenesis and may decrease fertility. In humans, methotrexate has been reported to cause oligospermia, menstrual dysfunction and amenorrhoea. These effects appear to be reversible after discontinuation of therapy in most cases. In oncologic indications, women who are planning to become pregnant are advised to consult a genetic counselling centre, if possible, prior to therapy and men should seek advice about the possibility of sperm preservation before starting therapy as methotrexate can be genotoxic at higher doses (see section 4.4). </p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "4.7 Effects on ability to drive and use machines" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029815" ] ;
+           fhir:display [ fhir:v "4.7 Effects on ability to drive and use machines" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Methotrexate can cause dizziness, fatigue, blurred vision and eye-irritation, which may affect the ability to drive or operate machinery.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "4.8 Undesirable effects" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029816" ] ;
+           fhir:display [ fhir:v "4.8 Undesirable effects" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Generally the frequency and severity of adverse reactions are dependent of the size of the dose, the dosing frequency, the method of administration and the duration of exposure. </p> <p>If adverse reactions occur, the dose should be reduced or therapy discontinued and necessary corrective therapeutic measures undertaken, such as administration of calcium folinate (see sections 4.2 and 4.4). </p> <p>The most common adverse reactions of methotrexate are bone marrow suppression and mucosal damage which manifest as ulcerative stomatitis, leucopenia, nausea and other gastrointestinal disorders. These adverse reactions are generally reversible and corrected in about two weeks after the single dose of methotrexate has been reduced or dose interval increased and/or calcium folinate is used. Other frequently occurring adverse reactions include e.g. malaise, abnormal fatigue, chills and fever, dizziness and reduced immunity to infections. </p> <p>Methotrexate causes adverse reactions most at high and frequently repeated doses, e.g. in the treatment of cancer diseases. Adverse reactions reported on methotrexate are given below according to organ systems. </p> <p>The frequencies of the adverse reactions are classified as follows: Very common (<img src=\"SPC.22954.15_FILES/image1.png\"/> 1/10); common (<img src=\"SPC.22954.15_FILES/image2.png\"/> 1/100 to &lt; 1/10); uncommon (<img src=\"SPC.22954.15_FILES/image3.png\"/> 1/1000 to &lt; 1/100); rare (<img src=\"SPC.22954.15_FILES/image4.png\"/> 1/10,000 to &lt; 1/1,000); very rare (&lt; 1/10,000), not known (cannot be estimated from the available data).</p> <table width=\"691\" cellpadding=\"2\" cellspacing=\"0\" border=\"1\"><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Common</p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Uncommon</p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Rare</p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Very rare</p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Not known</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Infections and infestations</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Infections (Respiratory or cutaneous bacterial)</p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Opportunistic infections</p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Herpes zoster infections</p> <p>Sepsis</p> <p>Neutropenic sepsis leading to fatality</p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Sepsis resulting in death</p> <p> <i>Pneumocystiscarinii</i>/<i>jiroveci </i>pneumonia and other lung infection</p> <p>Reactivation of inactive chronic infection.</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Neoplasms benign, malignant and unspecified (including cysts and polyps)</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Lymphoma<sup>1</sup></p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Blood and lymphatic system disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Leucopenia</p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Bone marrow depression<sup>5</sup>(especially at high-dose of methotrexate) manifested by leucopenia and thrombocytopenia (which are usually reversible)</p> <p>Anaemia</p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Hypogammaglobulinaemia, </p> <p>Lymphoproliferative disorders (partly reversible)</p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Pancytopenia, eosinophilia</p> <p>Megaloblastic anaemia </p> <p>Hematopoietic disorders</p> <p>Neutropenia</p> <p>Agranulocytosis </p> <p>Aplastic anaemia </p> <p>Immunosuppression </p> <p>Haemorrhage from various sites</p> <p>Lymphadenopathy</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Immune system disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Anaphylactic type reaction</p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Allergic reaction</p> <p>Anaphylactic shock.</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Endocrine disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Diabetes mellitus</p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Psychiatric disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Depression</p> <p>Confusion</p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Mood alteration</p> <p>Transient subtle cognitive dysfunction</p> <p>Insomnia </p> <p>Psychoses</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Nervous system disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Headache </p> <p>Dizziness</p> <p>Fatigue</p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Hemiparesis (following administration of higher doses)</p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Irritation </p> <p>Dysarthria</p> <p>Aphasia (following administration of higher doses)</p> <p>Lethargy</p> <p>Paraesthesia </p> <p>Hypoaesthesia</p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Drowsiness</p> <p>Ataxia</p> <p>Paresis &amp; Convulsions (following administration of higher doses)</p> <p>Unusual cranial sensations</p> <p>Vertigo </p> <p>Encephalopathy/leukoencephalopathy</p> <p>Cerebral oedema, </p> <p>Pain</p> <p>Muscular asthenia</p> <p>Changes in sense of taste (metallic taste)</p> <p>Meningism, </p> <p>Acute aseptic meningitis, </p> <p>Paralysis</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Eye disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Conjunctivitis</p> <p>Blurred/ impaired vision</p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Retinopathy</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Ear and labyrinth disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Tinnitus</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Cardiac disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Pericardial effusion</p> <p>Pericarditis</p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Myocardial ischemia</p> <p>Pericardial tamponade</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Vascular disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Nosebleed</p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Hypotension</p> <p>Thromboembolic events (arterial thrombosis, cerebral thrombosis, deep vein thrombosis, retinal vein thrombosis, thrombophlebitis, pulmonary embolus), </p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Vasculitis</p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Respiratory, thoracic and mediastinal disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Pneumonitis </p> <p>acute or chronic interstitial alveolitis/pneumonia (can be fatal) often associated with blood eosinophilia </p> <p>Interstitial fibrosis</p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Dyspnoea</p> <p>Pharyngitis<sup>2</sup></p> <p>Pulmonary fibrosis</p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Pneumocystis carinii &#8211; pneumonia</p> <p>Chronic interstitial obstructive lung disease </p> <p>Pleuritis</p> <p>Dry cough</p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Acute pulmonary oedema (after oral and intrathecal use)</p> <p>Syndrome consisting of pleuritic pain and pleural thickening has been reported following high doses, </p> <p>alveolitis, </p> <p>Pulmonary alveolar haemorrhage<sup>3, </sup></p> <p>Pleurisy, </p> <p>Thoracic pain</p> <p>Pleural effusion</p> <p>Bronchial asthma</p> <p>Respiratory paralysis</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Gastrointestinal disorders<sup>4</sup></p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Stomatitis</p> <p>Anorexia</p> <p>Nausea</p> <p>Vomiting</p> <p>Diarrhoea</p> <p></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Gingivitis</p> <p>Gastrointestinal ulcerations (including oral ulcers) and haemorrhage</p> <p>Enteritis</p> <p>The effect of Methotrexate on the intestinal mucosa has led to malabsorption or toxic megacolon</p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Haematemesis</p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Mucositis </p> <p>Abdominal pain,</p> <p>Melena</p> <p>Pancreatitis</p> <p>Dyspepsia</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Hepatobiliary disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Elevated transaminase concentrations (ASAT, ALAT),</p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Hepatotoxicity resulting in acute liver atrophy, necrosis, fatty metamorphosis, periportal fibrosis, liver cirrhosis or death usually following chronic administration</p> <p>Acute hepatitis </p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Elevated alkaline phosphatase and bilirubin</p> <p>Decrease in serum albumin</p> <p>Hepatic failure</p> <p> Reactivation of chronic hepatitis </p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Skin and subcutaneous tissue disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Erythematous rash</p> <p>Alopecia</p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Pruritus</p> <p>Stevens-Johnson&#180;s syndrome</p> <p>Toxic epidermal necrolysis</p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Photosensitivity</p> <p>Acne</p> <p>Depigmentation</p> <p>Urticaria</p> <p>Erythema multiforme</p> <p>Painful damage to psoriatic lesion</p> <p>Skin ulceration</p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Telangiectasis</p> <p>Furunculosis</p> <p>Ecchymosis</p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Exanthema</p> <p>Onycholysis</p> <p>Pigmentary changes</p> <p>Increased pigmentation</p> <p>Petechia </p> <p>Allergic vasculitis</p> <p>Hidradenitis</p> <p>Herpetiform eruptions of the skin</p> <p>Hyperpigmentation of the nails </p> <p>Acute paronychia</p> <p>Skin exfoliation </p> <p>Dermatitis exfoliative</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Musculoskeletal,connective tissue and bone disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Osteoporosis, </p> <p>Arthralgia </p> <p>Myalgia</p> <p>Increased rheumatic nodules</p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Stress fractures </p> <p>Osteonecrosis of jaw (secondary to lymphoproliferative disorders)</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Renal and urinary disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Renal insufficiency</p> <p>Nephropathy</p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Dysuria </p> <p>Azotaemia</p> <p>Cystitis</p> <p>Haematuria</p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Renal failure and uraemia may follow methotrexate administration, particularly after high doses or prolonged administration</p> <p>Ulceration of the urinary bladder, </p> <p>Disturbed micturition, </p> <p>Oliguria </p> <p>Anuria</p> <p>Proteinuria</p> <p>Electrolyte disturbance</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Pregnancy, puerperium and perinatal conditions</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Miscarriage, </p> <p>fetal damages</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Reproductive system and breast disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p align=\"justify\"></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Vaginal ulceration</p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Decreased libido</p> <p>Impotence</p> <p>Menstrual disorders</p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Formation of defective oocytes or sperm cells</p> <p>Transient oligospermia, </p> <p>Infertility-this effect appears to be reversible after discontinuation of therapy (see section 4.6)</p> <p>Vaginal bleeding</p> <p>Gynaecomastia</p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Vaginitis, </p> <p>Vaginal discharge</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>General disorders</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Fever, chills, wound healing impairment, asthenia. </p> <p>Oedema</p> </td></tr><tr valign=\"top\"><td width=\"13%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Injury, poisoning and procedural complications</p> </td><td width=\"16%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"17%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"15%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"14%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p></p> </td><td width=\"25%\" colspan=\"\" rowspan=\"\" valign=\"\"> <p>Increased risk of toxic reactions (soft tissue necrosis, osteonecrosis) during radiotherapy</p> </td></tr></table> <p> <sup>1</sup>Can be reversible (see section 4.4) Methotrexate may trigger tumour lysis syndrome in patients with rapidly growing tumour.. </p> <p> <sup>2</sup>See section 4.4. </p> <p> <sup>3</sup>(has been reported for methotrexate used in rheumatologic and related indications)</p> <p> <sup>4</sup>Gastrointestinal severe adverse reactions require often dose reduction. Ulcerative stomatitis and diarrhoea require discontinuation of methotrexate therapy because of the risk of ulcerative enteritis and fatal intestinal perforation. </p> <p> <sup>5</sup>Bone marrow depression may lead to decreased resistance to infection and sepsis.</p> <p>The recall phenomenon has been reported in both radiation and solar damaged skin. The psoriatic lesions may get worse from simultaneous exposure to methotrexate and ultraviolet radiation. Radiation dermatitis and sunburn may be &#8220;recalled&#8221;.</p> <p>In the treatment of rheumatoid arthritis, methotrexate induced lung disease is a potentially serious adverse drug reaction which may occur acutely at any time during therapy. It is not always fully reversible. Pulmonary symptoms (especially a dry, non productive cough) may require interruption of treatment and careful investigation.</p> <p>There have been reports of leucoencephalopathy following intravenous methotrexate in high doses, or low doses following cranial-spinal radiation.</p> <p>Other reports include eye irritation, abnormal (usually \"megaloblastic\") red cell morphology, precipitation of diabetes, other metabolic changes, and sudden death in relation to or attributed to the use of methotrexate.</p> <p> </p> <p>In rare cases, following intrathecal administration, a tumour lysis syndrome has been observed. Features include hyperkalaemia, hyperuricaemia and hyperphosphataemia with hypocalcaemia; renal damage and arrhythmias can follow.</p> <p> <b>Reporting of suspected adverse reactions</b> </p> <p>Reporting suspected adverse reactions after authorisation of the medicinal product is important. It allows continued monitoring of the benefit/risk balance of the medicinal product. Healthcare professionals are asked to report any suspected adverse reactions via Yellow Card Scheme Website: www.mhra.gov.uk/yellowcard or search for MHRA Yellow Card in the Google Play or Apple App Store</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "4.9 Overdose" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029819" ] ;
+           fhir:display [ fhir:v "4.9 Overdose" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p> <b> <b>Symptoms and Management</b> </b> </p> <p>Leucovorin is a specific antidote for methotrexate and, following accidental overdosage, should be administered within one hour at a dosage equal to, or greater than, the methotrexate dose. It may be administered by i.v. bolus or infusion. Further doses may be required. The patient should be observed carefully and blood transfusions, renal dialysis and reverse barrier nursing may be necessary. </p> <p>Cases of overdose have been reported, sometimes fatal, due to erroneous daily intake instead of weekly intake of oral methotrexate. In these cases, symptoms that have been commonly reported are haematological and gastrointestinal reactions. For example, leukopenia, thrombocytopenia, anemia, pancytopenia, bone marrow suppression, mucositis, stomatitis, oral ulceration, nausea, vomiting, gastrointestinal ulceration, gastrointestinal bleeding. In some cases, no symptoms were reported. There have been reports of death following chronic overdose in the self-administered dosage for rheumatoid arthritis and psoriasis (see Sections 4.2 and 4.4). In these cases, events such as sepsis or septic shock, renal failure, and aplastic anaemia were also reported. </p> <p>The toxicity of methotrexate affects mainly the haematopoietic organs. Calcium folinate neutralises effectively the immediate haematopoietic toxic effects of methotrexate. Parenteral calcium folinate therapy should be started within one hour after the administration of methotrexate. The dose of calcium folinate should be at least as high as the dose of methotrexate received by the patient. </p> <p>Symptoms of an overdose are mainly the same as the undesirable effects, but stronger</p> <p>Massive overdose requires hydration and alkalinisation of the urine to prevent precipitation of methotrexate and/or its metabolites in the renal tubules. Haemodialysis or peritoneal dialysis has not been found to affect the elimination of methotrexate. Instead, effective clearance of methotrexate has been achieved by intermittent haemodialysis using a so-called &#8220;high-flux&#8221; dialyser. </p> <p>Observation of serum methotrexate concentrations is relevant in determining the right dose of calcium folinate and the duration of the therapy.</p> <p>Treatment measures for methotrexate overdosage can be discontinued when the serum methotrexate level has fallen below the level of 5x10-8 M (10) (see section 4.4).</p></div>"
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "5. Pharmacological properties" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000029821" ] ;
+         fhir:display [ fhir:v "5. Pharmacological properties" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "5.1 Pharmacodynamic properties" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029822" ] ;
+           fhir:display [ fhir:v "5.1 Pharmacodynamic properties" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Pharmacotherapeutic group: Other immunosuppressive agents, ATC code: L04AX03. </p> <p> <b>Mechanism of action </b> </p> <p>Methotrexate (4-amino-10-methylfolic acid) is a folic acid antagonist which inhibits the reduction of folic acid and increase of tissue cells. Its main effect is inhibition of DNA synthesis but it also acts directly both on RNA and protein synthesis.</p> <p>Methotrexate enters the cell through an active transport mechanism of reduced folates. As a result of polyglutamation of methotrexate caused by the folylpolyglutamylate enzyme, the duration of the cytotoxic effect of the drug substance in the cell increases. Methotrexate is a phase-specific substance the main action of which is directed to the S-phase of cell mitosis. It acts generally most effectively on actively increasing tissues, such as malignant cells, bone marrow, fetal cells, skin epithelium, oral and intestinal mucosa as well as urinary bladder cells. As the proliferation of malignant cells is higher than that of most normal cells, methotrexate can slow down the proliferation of malignant cells without causing, irreversible damage to normal tissue. </p> <p>Calcium folinate is a folinic acid which is used to protect normal cells from the toxic effects of methotrexate. Calcium folinate enters the cell through a specific transport mechanism, is converted in the cell into active folates and reverses the inhibition of the precursor synthesis caused by the DNA and RNA. </p> <p>Methotrexate is a folic acid antagonist and its major site of action is the enzyme dihydrofolate reductase. The inhibition of dihydrofolate reductase can be circumvented by the use of leucovorin (folinic acid; citrovorum factor) and protection of normal tissues can be carried out by properly timed administration of leucovorin calcium.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "5.2 Pharmacokinetic properties" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029827" ] ;
+           fhir:display [ fhir:v "5.2 Pharmacokinetic properties" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p> <b>Absorption</b> </p> <p>The effect of orally administered methotrexate seems to be dependent on the size of the dose. When given in low doses, methotrexate is rapidly absorbed from the GI tract giving plasma concentrations equivalent to those achieved after i.v. administration. Peak concentrations in serum are reached within 1&#8211;2 hours. Generally a dose of methotrexate of 30 mg/m<sup>2</sup> or less is absorbed rapidly and completely. The bioavailability of orally administered methotrexate is high (80&#8211;100%) at doses of 30 mg/m<sup>2</sup> or less. Saturation of the absorption starts at doses above 30 mg/m2 and absorption at doses exceeding 80 mg/m<sup>2</sup> is incomplete. </p> <p> <b>Distribution</b> </p> <p>About one half of the absorbed methotrexate binds reversibly to serum protein, but is readily distributed in tissues. </p> <p> <b>Elimination</b>:</p> <p>The elimination follows a triphasic pattern. Excretion takes place mainly via the kidneys. Approximately 41% of the dose is excreted unchanged in the urine within the first six hours, 90% within 24 hours. A minor part of the dose is excreted in the bile of which there is pronounced enterohepatic circulation. </p> <p>The half-life is approximately 3&#8211;10 hours following low dose treatment and 8&#8211;15 hours following high dose treatment. If the renal function is impaired, the concentration of methotrexate in serum and in tissues may increase rapidly.</p> <p>Methotrexate does not enter the cerebrospinal fluid at oral or parenteral therapeutic doses. However, cytotoxic concentrations (&gt;10<sup>-7</sup> M) can be achieved in the CSF with high doses (&gt;500 mg/m2). When high drug concentrations are indicated, direct intrathecal administration should be used.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "5.3 Preclinical safety data" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029834" ] ;
+           fhir:display [ fhir:v "5.3 Preclinical safety data" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Chronic toxicity studies in mice, rats and dogs showed toxic effects in the form of gastrointestinal lesions, myelosuppression and hepatotoxicity. Animal studies show that methotrexate impairs fertility, and is embryo- and foetotoxic. Teratogenic effects have been identified in four species (rats, mice, rabbits, cats). In rhesus monkeys no malformations occurred. Methotrexate is mutagenic in vivo and in vitro. There is evidence that methotrexate causes chromosomal aberrations in animal cells and in human bone marrow cells, but the clinical significance of these findings has not been established. Rodent carcinogenicity studies do not indicate an increased incidence of tumours. </p></div>"
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "6. Pharmaceutical particulars" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000029836" ] ;
+         fhir:display [ fhir:v "6. Pharmaceutical particulars" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "6.1 List of excipients" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029837" ] ;
+           fhir:display [ fhir:v "6.1 List of excipients" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Lactose monohydrate, Magnesium Stearate, Starch Pregelatinised and Sodium Hydroxide.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "6.2 Incompatibilities" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029838" ] ;
+           fhir:display [ fhir:v "6.2 Incompatibilities" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p> Not applicable </p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "6.3 Shelf life" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029839" ] ;
+           fhir:display [ fhir:v "6.3 Shelf life" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>3 years.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "6.4 Special precautions for storage" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029840" ] ;
+           fhir:display [ fhir:v "6.4 Special precautions for storage" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Do not store above 25&#176;C. Store in the original container in order to protect from light.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "6.5 Nature and contents of container" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029841" ] ;
+           fhir:display [ fhir:v "6.5 Nature and contents of container" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Polypropylene bottles -28 or 100 tablets</p> <p>HDPE bottles- 28 or 100 tablets</p> <p>PVC/Aluminium blisters &#8211; 24, 28 or 30 tablets</p> <p>Not all pack sizes may be marketed</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "6.6 Special precautions for disposal and other handling" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000029842" ] ;
+           fhir:display [ fhir:v "6.6 Special precautions for disposal and other handling" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Cytotoxic drugs should only be handled by trained personnel in a designated area. The work surface should be covered with disposable plastic-backed absorbent paper.</p> <p>Protective gloves and goggles should be worn to avoid the drug accidentally coming into contact with the skin or eyes.</p> <p>Methotrexate is not vesicant and should not cause harm if it comes in contact with the skin. It should, of course, be washed off with water immediately. Any transient stinging may be treated with bland cream. If there is any danger of systemic absorption of significant quantities of methotrexate, by any route, Calcium Leucovorin cover should be given.</p> <p>Cytotoxic preparations should not be handled by pregnant staff. </p> <p>Any spillage or waste material may be disposed of by incineration. We do not make any specific recommendations with regards to the temperature of the incinerator.</p> <p>Any unused medicinal product or waste material should be disposed of in accordance with local requirements.</p></div>"
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "7. Marketing authorisation holder" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000029844" ] ;
+         fhir:display [ fhir:v "7. Marketing authorisation holder" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Mercury Pharmaceuticals Ltd.,</p> <p>Dashwood House,</p> <p>69 Old Broad Street,</p> <p>London, EC2M 1QS,</p> <p>United Kingdom</p></div>"
+     ]
+  ] [
+     fhir:title [ fhir:v "8. Marketing authorisation number(s)" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000029845" ] ;
+         fhir:display [ fhir:v "8. Marketing authorisation number(s)" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>PL 12762/0231</p></div>"
+     ]
+  ] [
+     fhir:title [ fhir:v "9. Date of first authorisation/renewal of the authorisation" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "code not found" ] ;
+         fhir:display [ fhir:v "9. Date of first authorisation/renewal of the authorisation" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p> 27<sup>th</sup> September, 1989 </p></div>"
+     ]
+  ] [
+     fhir:title [ fhir:v "10. Date of revision of the text" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000029847" ] ;
+         fhir:display [ fhir:v "10. Date of revision of the text" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>14/09/2023</p></div>"
+     ]
+  ] ) . # 
+
+<RegulatedAuthorization/2087102b-56a5-429b-8c9c-47a8e4b0b83c> a fhir:RegulatedAuthorization ;
+  fhir:id [ fhir:v "2087102b-56a5-429b-8c9c-47a8e4b0b83c"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"2087102b-56a5-429b-8c9c-47a8e4b0b83c\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;2087102b-56a5-429b-8c9c-47a8e4b0b83c&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: id: PL 12762/0231, id: PL127620231</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_5d02cfc1-053f-4694-9ce8-d0ee6c658b72\">See above (MedicinalProductDefinition/5d02cfc1-053f-4694-9ce8-d0ee6c658b72)</a></p><p><b>region</b>: GB-GBN <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#GB-GBN)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>holder</b>: <a href=\"#Organization_31309dc8-b83d-40ad-9149-12547f4ac3d1\">See above (Organization/31309dc8-b83d-40ad-9149-12547f4ac3d1)</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://medicines.org.uk/longMANumber"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "PL 12762/0231" ]
+  ] [
+     fhir:system [ fhir:v "https://medicines.org.uk/shortMANumber"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "PL127620231" ]
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/5d02cfc1-053f-4694-9ce8-d0ee6c658b72> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/5d02cfc1-053f-4694-9ce8-d0ee6c658b72" ]
+  ] ) ; # 
+  fhir:region ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166-2"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "GB-GBN" ]
+     ] )
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:holder [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/31309dc8-b83d-40ad-9149-12547f4ac3d1> ;
+     fhir:reference [ fhir:v "Organization/31309dc8-b83d-40ad-9149-12547f4ac3d1" ]
+  ] . # 
+
+<Organization/31309dc8-b83d-40ad-9149-12547f4ac3d1> a fhir:Organization ;
+  fhir:id [ fhir:v "31309dc8-b83d-40ad-9149-12547f4ac3d1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"31309dc8-b83d-40ad-9149-12547f4ac3d1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;31309dc8-b83d-40ad-9149-12547f4ac3d1&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: id: 2507</p><p><b>name</b>: ADVANZ Pharma</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://medicines.org.uk/organisation"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "2507" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "ADVANZ Pharma"] . # 
+
+<MedicinalProductDefinition/5d02cfc1-053f-4694-9ce8-d0ee6c658b72> a fhir:MedicinalProductDefinition ;
+  fhir:id [ fhir:v "5d02cfc1-053f-4694-9ce8-d0ee6c658b72"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"5d02cfc1-053f-4694-9ce8-d0ee6c658b72\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;5d02cfc1-053f-4694-9ce8-d0ee6c658b72&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: 511, id: 683611000001105, id: 41792011000001100</p><p><b>status</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#active)</span></p><p><b>statusDate</b>: 2020-08-03 15:11:41+0000</p><p><b>classification</b>: methotrexate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-WC.html\">WHO ATC</a>#L04AX03)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Methotrexate 2.5 mg Tablets</p><p><b>type</b>: RegulatorApprovedName <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#RegulatorApprovedName)</span></p></blockquote><blockquote><p><b>name</b></p><p><b>productName</b>: Methotrexate 2.5 mg Tablets</p><p><b>type</b>: DisplayName <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#DisplayName)</span></p></blockquote><blockquote><p><b>name</b></p><p><b>productName</b>: Methotrexate</p><p><b>type</b>: CommonProductName <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#CommonProductName)</span></p></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://medicines.org.uk/product"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "511" ]
+  ] [
+     fhir:system [ fhir:v "https://dmd.nhs.uk/AMP"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "683611000001105" ]
+  ] [
+     fhir:system [ fhir:v "https://dmd.nhs.uk/VMP"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "41792011000001100" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:code [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2020-08-03T15:11:41Z"^^xsd:dateTime] ; # 
+  fhir:classification ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://www.whocc.no/atc"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "L04AX03" ]
+     ] )
+  ] ) ; # 
+  fhir:name ( [
+     fhir:productName [ fhir:v "Methotrexate 2.5 mg Tablets" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:code [ fhir:v "RegulatorApprovedName" ]
+       ] )
+     ]
+  ] [
+     fhir:productName [ fhir:v "Methotrexate 2.5 mg Tablets" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:code [ fhir:v "DisplayName" ]
+       ] )
+     ]
+  ] [
+     fhir:productName [ fhir:v "Methotrexate" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:code [ fhir:v "CommonProductName" ]
+       ] )
+     ]
+  ] ) . # 
+
+<SubstanceDefinition/d010be1d-93c5-4c0d-a142-516c06eb39ae> a fhir:SubstanceDefinition ;
+  fhir:id [ fhir:v "d010be1d-93c5-4c0d-a142-516c06eb39ae"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"d010be1d-93c5-4c0d-a142-516c06eb39ae\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;d010be1d-93c5-4c0d-a142-516c06eb39ae&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id: 2439</p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>methotrexate sodium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#412247000)</span></td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>methotrexate sodium</td><td>scientific <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-substance-name-type.html\">Substance Name Type</a>#Scientific)</span></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://medicines.org.uk/substance"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "2439" ]
+  ] ) ; # 
+  fhir:code ( [
+     fhir:code [
+       fhir:coding ( [
+         a sct:412247000 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "412247000" ]
+       ] ) ;
+       fhir:text [ fhir:v "methotrexate sodium" ]
+     ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:name [ fhir:v "methotrexate sodium" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/substance-name-type"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Scientific" ]
+       ] ) ;
+       fhir:text [ fhir:v "scientific" ]
+     ]
+  ] ) . # 
+
+<Ingredient/54c6c580-5b34-4032-9403-c9d2154ac073> a fhir:Ingredient ;
+  fhir:id [ fhir:v "54c6c580-5b34-4032-9403-c9d2154ac073"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"54c6c580-5b34-4032-9403-c9d2154ac073\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;54c6c580-5b34-4032-9403-c9d2154ac073&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#MedicinalProductDefinition_5d02cfc1-053f-4694-9ce8-d0ee6c658b72\">See above (MedicinalProductDefinition/5d02cfc1-053f-4694-9ce8-d0ee6c658b72)</a></p><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-ingredient-role.html\">Ingredient Role</a>#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Reference</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#SubstanceDefinition_d010be1d-93c5-4c0d-a142-516c06eb39ae\">See above (SubstanceDefinition/d010be1d-93c5-4c0d-a142-516c06eb39ae)</a></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/5d02cfc1-053f-4694-9ce8-d0ee6c658b72> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/5d02cfc1-053f-4694-9ce8-d0ee6c658b72" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/ingredient-role"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072072" ]
+     ] ) ;
+     fhir:text [ fhir:v "Active" ]
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:reference [
+         fhir:link <http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/d010be1d-93c5-4c0d-a142-516c06eb39ae> ;
+         fhir:reference [ fhir:v "SubstanceDefinition/d010be1d-93c5-4c0d-a142-516c06eb39ae" ]
+       ]
+     ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

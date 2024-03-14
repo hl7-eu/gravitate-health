@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="persona-dimension-collection"/>
+  <meta>
+    <profile value="http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/persona-collection"/>
+  </meta>
+  <identifier>
+    <system value="https://myserver.org/persona-dimension-collection"/>
+    <value value="pd-collection-1"/>
+  </identifier>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/Observation/persona-dimension-1"/>
+    <resource>
+      <Observation>
+        <id value="persona-dimension-1"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="persona-dimension-1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;persona-dimension-1&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: employment <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-pd-type-cs.html">Persona Vector Dimensions Code</a>#EMP)</span></p><p><b>subject</b>: <span>: IPS-4</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: Currently employed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#currenly-employed)</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs"/>
+            <code value="EMP"/>
+          </coding>
+        </code>
+        <subject>
+          <display value="IPS-4"/>
+        </subject>
+        <effectiveDateTime value="2019-01-01T00:00:00Z"/>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://example.org"/>
+            <code value="currenly-employed"/>
+            <display value="Currently employed"/>
+          </coding>
+        </valueCodeableConcept>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/Observation/persona-dimension-2"/>
+    <resource>
+      <Observation>
+        <id value="persona-dimension-2"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="persona-dimension-2"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;persona-dimension-2&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Share info Willingly <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-pd-type-cs.html">Persona Vector Dimensions Code</a>#SHW)</span></p><p><b>subject</b>: <span>: IPS-4</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: true</p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs"/>
+            <code value="SHW"/>
+          </coding>
+        </code>
+        <subject>
+          <display value="IPS-4"/>
+        </subject>
+        <effectiveDateTime value="2019-01-01T00:00:00Z"/>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/Observation/persona-dimension-3"/>
+    <resource>
+      <Observation>
+        <id value="persona-dimension-3"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="persona-dimension-3"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;persona-dimension-3&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: WorkLife <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-pd-type-cs.html">Persona Vector Dimensions Code</a>#WKL)</span></p><p><b>subject</b>: <span>: IPS-4</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: Work Life Balance <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#work-life)</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs"/>
+            <code value="WKL"/>
+          </coding>
+        </code>
+        <subject>
+          <display value="IPS-4"/>
+        </subject>
+        <effectiveDateTime value="2019-01-01T00:00:00Z"/>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://example.org"/>
+            <code value="work-life"/>
+            <display value="Work Life Balance"/>
+          </coding>
+        </valueCodeableConcept>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health/Observation/persona-dimension-4"/>
+    <resource>
+      <Observation>
+        <id value="persona-dimension-4"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="persona-dimension-4"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;persona-dimension-4&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Extrovert/introvert <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-pd-type-cs.html">Persona Vector Dimensions Code</a>#EVI)</span></p><p><b>subject</b>: <span>: IPS-4</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: Introvert</p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs"/>
+            <code value="EVI"/>
+          </coding>
+        </code>
+        <subject>
+          <display value="IPS-4"/>
+        </subject>
+        <effectiveDateTime value="2019-01-01T00:00:00Z"/>
+        <valueString value="Introvert"/>
+      </Observation>
+    </resource>
+  </entry>
+</Bundle>

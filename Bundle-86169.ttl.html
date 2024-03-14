@@ -1,0 +1,695 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>JANUMET tabletti, kalvopäällysteinen 50/850 mg, 50/1000 mg (Bundle) - TTL Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.498"}
+    h3,h4,h5,h6{--heading-prefix:"16.498"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>JANUMET tabletti, kalvopäällysteinen 50/850 mg, 50/1000 mg (Bundle)</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+  <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-86169.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-86169.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-86169.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: JANUMET tabletti, kalvopäällysteinen 50/850 mg, 50/1000 mg (Bundle) - TTL Representation</h2>
+
+
+<p><a href="Bundle-86169.ttl" no-download="true">Raw ttl</a> | <a download="null" href="Bundle-86169.ttl">Download</a></p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <pre style="white-space: pre; overflow: hidden" class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Bundle ;
+  <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "86169"] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "fi"] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.identifier">fhir:identifier</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://pharmaca.fi/documentId"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "86169" ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "document"] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.timestamp">fhir:timestamp</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#instant">fhir:v</a> "2023-11-23T12:49:58Z"^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">fhir:entry</a> ( [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/Composition/86169"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/composition.html#Composition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/86169&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-52"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-52&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-58"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-58&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-57"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-57&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-54"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-54&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-60"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-60&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-61"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-61&gt; )
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/86169&gt; <a href="http://hl7.org/fhir/R5/composition.html">a</a> fhir:Composition ;
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "86169"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "fi"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fi\" lang=\"fi\"&gt;&lt;a name=\"Composition_86169\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=\"86169\"&gt; &lt;/a&gt;&lt;a name=\"hc86169\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource Composition &amp;quot;86169&amp;quot;  (Language &amp;quot;fi&amp;quot;) &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\"&gt;Composition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://pharmaca.fi/documentId&lt;/code&gt;/86169&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: 100000155538 &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2023-11-23 12:49:58+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;span&gt;&lt;code&gt;https://gravitatehealth.eu/organization&lt;/code&gt;/Pharmaca Health Intelligence Oy&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: JANUMET tabletti, kalvopäällysteinen 50/850 mg, 50/1000 mg&lt;/p&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://pharmaca.fi/documentId"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "86169" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "final"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.type">fhir:type</a> [
+    ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/100000155531/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.subject">fhir:subject</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/Diabetes-MPD-52" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/Diabetes-MPD-54" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> "2023-11-23T12:49:58Z"^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.author">fhir:author</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.identifier">fhir:identifier</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/organization"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Pharmaca Health Intelligence Oy" ]     ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "JANUMET tabletti, kalvopäällysteinen 50/850 mg, 50/1000 mg"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.section">fhir:section</a> ( [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Lisätietoa" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+      ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029894" ]       ] )     ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                     &lt;p&gt;\n                        &lt;strong&gt;Janumet 50 mg/850 mg kalvopäällysteiset tabletit&lt;br/&gt;\nJanumet 50 mg/1000 mg kalvopäällysteiset tabletit&lt;/strong&gt;\n                        &lt;br/&gt;\nsitagliptiini/metformiinihydrokloridi&lt;/p&gt;\n                  &lt;/div&gt;"     ] ;
+    ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Yleisiä ohjeita" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/section"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "rules" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Yleisiä ohjeita&lt;/h2&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Lue tämä pakkausseloste huolellisesti ennen kuin aloitat tämän lääkkeen ottamisen, sillä se sisältää sinulle tärkeitä tietoja.&lt;/strong&gt;\n                        &lt;/p&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Säilytä tämä pakkausseloste. Voit tarvita sitä myöhemmin.&lt;/li&gt;\n                           &lt;li&gt;Jos sinulla on kysyttävää, käänny lääkärin, apteekkihenkilökunnan tai sairaanhoitajan puoleen.&lt;/li&gt;\n                           &lt;li&gt;Tämä lääke on määrätty vain sinulle eikä sitä pidä antaa muiden käyttöön. Se voi aiheuttaa haittaa muille, vaikka heillä olisikin samanlaiset oireet kuin sinulla. &lt;/li&gt;\n                           &lt;li&gt;Jos havaitset haittavaikutuksia, kerro niistä lääkärille, apteekkihenkilökunnalle tai sairaanhoitajalle. Tämä koskee myös sellaisia mahdollisia haittavaikutuksia, joita ei ole mainittu tässä pakkausselosteessa. Ks. kohta &lt;a class=\"cross-reference\"&gt;Mahdolliset haittavaikutukset&lt;/a&gt;.&lt;/li&gt;\n                        &lt;/ul&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Tässä pakkausselosteessa kerrotaan" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/section"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "toc" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Tässä pakkausselosteessa kerrotaan&lt;/h2&gt;\n                        &lt;p&gt;1. Mitä Janumet on ja mihin sitä käytetään&lt;br/&gt;\n2. Mitä sinun on tiedettävä, ennen kuin otat Janumet-valmistetta&lt;br/&gt;\n3. Miten Janumet-valmistetta otetaan&lt;br/&gt;\n4. Mahdolliset haittavaikutukset&lt;br/&gt;\n5. Janumet-valmisteen säilyttäminen&lt;br/&gt;\n6. Pakkauksen sisältö ja muuta tietoa&lt;/p&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Mitä valmiste on ja mihin sitä käytetään" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029895" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Mitä valmiste on ja mihin sitä käytetään&lt;/h2&gt;\n                        &lt;p&gt;Janumet sisältää kahta eri lääkeainetta, sitagliptiinia ja metformiinia.&lt;/p&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;sitagliptiini kuuluu DPP-4-estäjiksi (dipeptidyylipeptidaasi 4:n estäjiksi) kutsuttujen lääkeaineiden ryhmään&lt;/li&gt;\n                           &lt;li&gt;metformiini kuuluu biguanideiksi kutsuttujen lääkeaineiden ryhmään.&lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;p&gt;Nämä lääkeaineet yhdessä auttavat pitämään verensokeriarvot hallinnassa tyypin 2 diabetesta sairastavilla aikuisilla potilailla. Tämä lääke auttaa nostamaan aterianjälkeisiä insuliinipitoisuuksia ja vähentää elimistön tuottaman sokerin määrää.&lt;/p&gt;\n                        &lt;p&gt;Janumet auttaa alentamaan verensokeriasi yhdessä ruokavalion ja liikunnan kanssa. Tätä lääkettä voidaan käyttää yksinään tai yhdessä tiettyjen muiden diabeteslääkkeiden (insuliinin, sulfonyyliureoiden tai glitatsonien) kanssa.&lt;/p&gt;\n                        &lt;p&gt;Mikä on tyypin 2 diabetes?&lt;/p&gt;\n                        &lt;p&gt;Tyypin 2 diabetes on sairaus, jossa elimistö ei tuota riittävästi insuliinia ja jossa elimistön tuottama insuliini ei vaikuta niin hyvin kuin sen pitäisi. Elimistösi voi myös tuottaa liian paljon sokeria, jolloin sokeria (glukoosia) kertyy vereen. Tämä voi johtaa vakaviin sairauksiin, kuten sydän- tai munuaissairauksiin, sokeuteen tai amputaatioon.&lt;/p&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Mitä sinun on tiedettävä ennen valmisteen käyttöä" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029896" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Mitä sinun on tiedettävä ennen valmisteen käyttöä&lt;/h2&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Älä ota Janumet-valmistetta&lt;/strong&gt;\n                        &lt;/p&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;jos olet allerginen sitagliptiinille tai metformiinille tai tämän lääkkeen jollekin muulle aineelle (lueteltu kohdassa &lt;a class=\"cross-reference\"&gt;Pakkauksen sisältö ja muuta tietoa&lt;/a&gt;)&lt;/li&gt;\n                           &lt;li&gt;jos sinulla on vaikea munuaisten vajaatoiminta&lt;/li&gt;\n                           &lt;li&gt;jos sinulla on huonossa hoitotasapainossa oleva diabetes ja esimerkiksi vaikeaa hyperglykemiaa (korkeita verensokeriarvoja), pahoinvointia, oksentelua, ripulia, nopeaa laihtumista, maitohappoasidoosi (ks. ”Maitohappoasidoosin riski” jäljempänä) tai ketoasidoosi. Ketoasidoosi on tila, jossa vereen kertyy ketoaineita. Se voi johtaa diabeettiseen prekoomaan. Oireita ovat mahakipu, nopea ja syvä hengitys, uneliaisuus tai hengityksen poikkeava, hedelmäinen haju.&lt;/li&gt;\n                           &lt;li&gt;jos sinulla on vaikea infektio tai nestevajaus&lt;/li&gt;\n                           &lt;li&gt;jos olet menossa varjoainekuvaukseen, jossa sinulle annetaan varjoainetta suoneen. Munuaistesi toiminnasta riippuen sinun on lopetettava Janumetin käyttö kuvauksen ajaksi sekä kahden tai useamman päivän ajaksi sen jälkeen, lääkärin ohjeen mukaan&lt;/li&gt;\n                           &lt;li&gt;jos sinulla on äskettäin ollut sydänkohtaus tai jos sinulla on vaikeita verenkiertohäiriöitä, kuten shokki tai hengitysvaikeuksia&lt;/li&gt;\n                           &lt;li&gt;jos sinulla on maksasairaus&lt;/li&gt;\n                           &lt;li&gt;jos käytät runsaasti alkoholia (joko joka päivä tai vain ajoittain)&lt;/li&gt;\n                           &lt;li&gt;jos imetät.&lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;p&gt;Älä ota Janumetia, jos jokin ylläolevista koskee sinua, ja keskustele lääkärin kanssa muista diabeteksen hoitotavoista. Jos olet epävarma, keskustele lääkärin, apteekkihenkilökunnan tai sairaanhoitajan kanssa ennen Janumetin ottamista.&lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Varoitukset ja varotoimet&lt;/strong&gt;\n                           &lt;br/&gt;\nJanumetia saaneilla potilailla on raportoitu esiintyneen haimatulehdusta (pankreatiittia) (ks. kohta &lt;a class=\"cross-reference\"&gt;Mahdolliset haittavaikutukset&lt;/a&gt;).&lt;/p&gt;\n                        &lt;p&gt;Jos huomaat rakkuloita iholla, ne voivat olla merkki sairaudesta, jota kutsutaan rakkulaiseksi pemfigoidiksi. Lääkäri voi pyytää sinua lopettamaan Janumetin käytön.&lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;\n                              &lt;span class=\"underline\"&gt;Maitohappoasidoosin riski&lt;/span&gt;\n                           &lt;/strong&gt;\n                           &lt;br/&gt;\nJanumet voi aiheuttaa hyvin harvinaisena, mutta hyvin vakavana haittavaikutuksena maitohappoasidoosia etenkin, jos munuaiset eivät toimi kunnolla. Maitohappoasidoosin riskiä suurentavat myös huonossa hoitotasapainossa oleva diabetes, vakavat infektiot, pitkittynyt paasto tai alkoholinkäyttö, nestehukka (ks. lisätiedot alta), maksavaivat ja sairaudet, joissa jonkin alueen hapensaanti on heikentynyt (esim. akuutti, vaikea sydäntauti).&lt;br/&gt;\nJos jokin edellä mainituista koskee sinua, pyydä lisäohjeita lääkäriltä.&lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Janumet-valmisteen käyttö on tauotettava joksikin aikaa, jos sinulla on jokin tila, johon voi liittyä nestehukkaa&lt;/strong&gt; (merkittävää nesteiden menetystä). Tällaisia ovat esimerkiksi vaikea oksentelu, ripuli tai kuume, kuumuudelle altistuminen tai normaalia vähäisempi juominen. Pyydä lisäohjeita lääkäriltä.&lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Lopeta Janumet-valmisteen käyttö ja ota heti yhteys lääkäriin tai lähimpään sairaalaan, jos sinulla on maitohappoasidoosin oireita&lt;/strong&gt;, sillä maitohappoasidoosi voi johtaa koomaan.&lt;/p&gt;\n                        &lt;p&gt;Maitohappoasidoosin oireita ovat:&lt;/p&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;oksentelu&lt;/li&gt;\n                           &lt;li&gt;vatsakipu&lt;/li&gt;\n                           &lt;li&gt;lihaskrampit&lt;/li&gt;\n                           &lt;li&gt;yleinen sairaudentunne ja vaikea väsymys&lt;/li&gt;\n                           &lt;li&gt;hengitysvaikeudet&lt;/li&gt;\n                           &lt;li&gt;ruumiinlämmön lasku ja sykkeen hidastuminen.&lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;p&gt;Maitohappoasidoosi on lääketieteellinen hätätilanne ja vaatii sairaalahoitoa.&lt;/p&gt;\n                        &lt;p&gt;Keskustele lääkärin tai apteekkihenkilökunnan kanssa ennen kuin otat Janumet-valmistetta:&lt;/p&gt;\n                        &lt;p&gt;-         jos sinulla on tai on ollut haimasairaus (esim. haimatulehdus)&lt;/p&gt;\n                        &lt;p&gt;-         jos sinulla on tai on ollut sappikiviä, alkoholiriippuvuutta tai hyvin korkeat veren triglyseridiarvot (eräs rasvan muoto). Nämä tilat voivat lisätä haimatulehduksen mahdollisuutta (ks. kohta &lt;a class=\"cross-reference\"&gt;Mahdolliset haittavaikutukset&lt;/a&gt;).&lt;/p&gt;\n                        &lt;p&gt;-         jos sinulla on tyypin 1 diabetes, jota kutsutaan joskus myös insuliinista riippuvaiseksi diabetekseksi&lt;/p&gt;\n                        &lt;p&gt;-         jos sinulla on tai on ollut allergisia reaktioita sitagliptiinille, metformiinille tai Janumetille (ks. kohta &lt;a class=\"cross-reference\"&gt;Mahdolliset haittavaikutukset&lt;/a&gt;)&lt;/p&gt;\n                        &lt;p&gt;-         jos käytät sulfonyyliureaa tai insuliinia, diabeteslääkkeitä, yhdessä Janumetin kanssa, koska sinulla voi esiintyä alhaista verensokeria (hypoglykemiaa). Lääkäri voi pienentää sulfonyyliurea- tai insuliiniannostasi.&lt;/p&gt;\n                        &lt;p&gt;Jos olet menossa suureen leikkaukseen, Janumet-valmisteen käyttö on tauotettava toimenpiteen ajaksi ja joksikin aikaa sen jälkeen. Lääkäri päättää, milloin Janumet-hoito lopetetaan ja milloin se aloitetaan uudelleen.&lt;/p&gt;\n                        &lt;p&gt;Keskustele lääkärin tai apteekkihenkilökunnan kanssa ennen Janumet-valmisteen ottamista, jos olet epävarma, koskeeko jokin ylläolevista sinua.&lt;/p&gt;\n                        &lt;p&gt;Janumet-hoidon aikana lääkäri seuraa munuaistoimintaasi vähintään kerran vuodessa tai useammin, jos olet iäkäs ja/tai jos munuaistoimintasi huonontuu.&lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Lapset ja nuoret&lt;/strong&gt;\n                           &lt;br/&gt;\nAlle 18-vuotiaiden lasten ja nuorten ei pidä käyttää tätä lääkettä. Se ei ole tehokas 10–17‑vuotiailla lapsilla ja nuorilla. Tämän lääkkeen turvallisuudesta ja tehosta alle 10‑vuotiailla lapsilla ei ole tietoa.&lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Muut lääkevalmisteet ja Janumet&lt;/strong&gt;\n                           &lt;br/&gt;\nJos sinulle annetaan jodia sisältävä varjoainepistos verisuoneen esimerkiksi röntgenkuvauksen tai muun kuvantamisen yhteydessä, Janumet-valmisteen käyttö on tauotettava ennen varjoainepistosta tai pistoksen yhteydessä. Lääkäri päättää, milloin Janumet-hoito lopetetaan ja milloin se aloitetaan uudelleen.&lt;/p&gt;\n                        &lt;p&gt;Kerro lääkärille tai apteekkihenkilökunnalle, jos parhaillaan otat, olet äskettäin ottanut tai saatat ottaa muita lääkkeitä. Verensokeria ja munuaistoimintaa on ehkä seurattava tiheämmin tai lääkärin on ehkä muutettava Janumet-lääkkeen annosta. On erityisen tärkeää mainita seuraavien lääkkeiden käytöstä:&lt;/p&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;suun kautta, inhalaationa tai injektiona otettavat lääkkeet, joita käytetään tulehduksellisten sairauksien, kuten astman ja nivelrikon hoitoon (kortikosteroidit)&lt;/li&gt;\n                           &lt;li&gt;virtsaneritystä lisäävät nesteenpoistolääkkeet&lt;/li&gt;\n                           &lt;li&gt;kivun ja tulehduksen hoitoon käytettävät lääkkeet (tulehduskipulääkkeet ja COX-2-estäjät kuten ibuprofeeni ja selekoksibi)&lt;/li&gt;\n                           &lt;li&gt;tietyt verenpainelääkkeet (ACE:n estäjät ja angiotensiini II ‑reseptorin salpaajat)&lt;/li&gt;\n                           &lt;li&gt;tietyt keuhkoastman hoitoon käytettävät lääkkeet (beetasympatomimeetit)&lt;/li&gt;\n                           &lt;li&gt;jodia sisältävät varjoaineet tai alkoholia sisältävät lääkkeet&lt;/li&gt;\n                           &lt;li&gt;tietyt vatsavaivojen hoitoon käytettävät lääkkeet, kuten simetidiini&lt;/li&gt;\n                           &lt;li&gt;ranolatsiini, joka on angina pectoriksen hoitoon käytettävä lääke&lt;/li&gt;\n                           &lt;li&gt;dolutegraviiri, joka on HIV-infektion hoitoon käytettävä lääke&lt;/li&gt;\n                           &lt;li&gt;vandetanibi, joka on tietyn tyyppisen kilpirauhassyövän (medullaarisen kilpirauhassyövän) hoitoon käytettävä lääke&lt;/li&gt;\n                           &lt;li&gt;digoksiini (käytetään sydämen epäsäännöllisen sykkeen ja muiden sydänongelmien hoitoon). Veren digoksiinipitoisuutta saatetaan joutua tarkistamaan, jos Janumetia käytetään samanaikaisesti.&lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Janumet alkoholin kanssa&lt;/strong&gt;\n                           &lt;br/&gt;\nVältä liiallista alkoholinkäyttöä Janumet-hoidon aikana, sillä se voi suurentaa maitohappoasidoosin riskiä (ks. kohta ”Varoitukset ja varotoimet”).&lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Raskaus ja imetys&lt;/strong&gt;\n                           &lt;br/&gt;\nJos olet raskaana tai imetät, epäilet olevasi raskaana tai jos suunnittelet lapsen hankkimista, kysy lääkäriltä tai apteekista neuvoa ennen tämän lääkkeen käyttöä. Älä ota tätä lääkettä raskauden aikana. Älä ota tätä lääkettä, jos imetät. Katso kohta &lt;a class=\"cross-reference\"&gt;Mitä sinun on tiedettävä ennen valmisteen käyttöä&lt;/a&gt;, &lt;strong&gt;Älä ota Janumet-valmistetta.&lt;/strong&gt;\n                        &lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Ajaminen ja koneiden käyttö&lt;/strong&gt;\n                           &lt;br/&gt;\nTällä lääkkeellä ei ole haitallista vaikutusta ajokykyyn eikä koneiden käyttökykyyn. Sitagliptiinin käytön yhteydessä on kuitenkin raportoitu heitehuimausta ja uneliaisuutta, jotka voivat vaikuttaa ajokykyyn tai koneiden käyttökykyyn.&lt;/p&gt;\n                        &lt;p&gt;Tämän lääkkeen käyttäminen yhdessä sulfonyyliureoiden tai insuliinin kanssa voi aiheuttaa hypoglykemiaa, joka voi vaikuttaa ajokykyyn ja koneiden käyttökykyyn tai työskentelyyn epävakaalla alustalla.&lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Janumet sisältää natriumia&lt;/strong&gt;\n                           &lt;br/&gt;\nTämä lääkevalmiste sisältää alle 1 mmol natriumia (23 mg) per tabletti eli sen voidaan sanoa olevan ”natriumiton”.&lt;/p&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Miten valmistetta käytetään" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029905" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Miten valmistetta käytetään&lt;/h2&gt;\n                        &lt;p&gt;Ota tätä lääkettä juuri siten kuin lääkäri on määrännyt. Tarkista ohjeet lääkäriltä tai apteekista, jos olet epävarma.&lt;/p&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Ota yksi tabletti:\n	&lt;ul&gt;\n                                 &lt;li&gt;kahdesti vuorokaudessa suun kautta&lt;/li&gt;\n                                 &lt;li&gt;aterioiden yhteydessä vatsan ärtymisen vaaran pienentämiseksi.&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/li&gt;\n                           &lt;li&gt;Lääkäri voi joutua suurentamaan annostasi, jotta verensokerisi pysyy hallinnassa.&lt;/li&gt;\n                           &lt;li&gt;Jos munuaistoimintasi on heikentynyt, lääkäri saattaa määrätä sinulle pienemmän annoksen.&lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;p&gt;Sinun tulee jatkaa lääkärin suosittelemaa ruokavaliota tämän lääkkeen käytön aikana ja huolehtia hiilihydraattien saannista tasaisesti pitkin päivää.&lt;/p&gt;\n                        &lt;p&gt;Yksinään käytettynä tämä lääke ei todennäköisesti aiheuta liiallista verensokerin laskua (hypoglykemiaa). Kun tätä lääkettä käytetään sulfonyyliurean tai insuliinin kanssa, voi alhaista verensokeria esiintyä, ja lääkäri voi pienentää sulfonyyliurea- tai insuliiniannostasi.&lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Jos otat enemmän Janumet-valmistetta kuin sinun pitäisi&lt;/strong&gt;\n                           &lt;br/&gt;\nJos otat tätä lääkettä enemmän kuin sinulle on määrätty, ota heti yhteys lääkäriin. Mene sairaalaan, jos sinulla on maitohappoasidoosin oireita, esim. kylmyyden tunne tai epämukava olo, voimakas pahoinvointi tai oksentelu, vatsakipu, selittämätön painon lasku, lihaskouristukset tai nopea hengitys (ks. kohta ”Varoitukset ja varotoimet”).&lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Jos unohdat ottaa Janumet-valmistetta&lt;/strong&gt;\n                           &lt;br/&gt;\nJos unohdat ottaa annoksen, ota se heti muistaessasi. Jos huomaat unohtaneesi ottaa annoksen vasta kun on aika ottaa seuraava annos, jätä unohtunut annos väliin ja palaa takaisin normaaliin aikatauluun. Älä ota kaksinkertaista annosta tätä lääkettä.&lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Jos lopetat Janumet-valmisteen käytön&lt;/strong&gt;\n                           &lt;br/&gt;\nJatka tämän lääkkeen ottamista niin kauan kuin lääkäri on määrännyt, jotta verensokeriarvosi pysyvät hallinnassa. Älä lopeta tämän lääkkeen ottamista keskustelematta siitä ensin lääkärin kanssa. Jos lopetat Janumetin käytön, verensokerisi voi kohota uudestaan.&lt;/p&gt;\n                        &lt;p&gt;Jos sinulla on kysymyksiä tämän lääkkeen käytöstä, käänny lääkärin tai apteekkihenkilökunnan puoleen.&lt;/p&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Mahdolliset haittavaikutukset" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029910" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Mahdolliset haittavaikutukset&lt;/h2&gt;\n                        &lt;p&gt;Kuten kaikki lääkkeet, tämäkin lääke voi aiheuttaa haittavaikutuksia. Kaikki eivät kuitenkaan niitä saa.&lt;/p&gt;\n                        &lt;p&gt;LOPETA Janumetin käyttö ja ota heti yhteys lääkäriin, jos havaitset jonkin seuraavista vakavista haittavaikutuksista:&lt;/p&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;voimakas ja jatkuva vatsakipu (mahan alueella), joka saattaa ulottua selkään ja johon voi liittyä pahoinvointia ja oksentelua, koska nämä voivat olla haimatulehduksen (pankreatiitin) oireita.&lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;p&gt;Janumet voi aiheuttaa hyvin harvinaisen (enintään 1 käyttäjällä 10 000:sta esiintyvän) mutta hyvin vakavan haittavaikutuksen, maitohappoasidoosin (ks. kohta ”Varoitukset ja varotoimet”). Jos sinulle käy näin, &lt;strong&gt;lopeta Janumet-lääkkeen käyttö ja ota heti yhteys lääkäriin tai lähimpään sairaalaan&lt;/strong&gt;, sillä maitohappoasidoosi voi johtaa koomaan.&lt;/p&gt;\n                        &lt;p&gt;Jos saat vakavan allergisen reaktion (esiintymistiheys on tuntematon), johon voi kuulua ihottuma, nokkosihottuma, ihorakkuloita/ihon kuoriutumista sekä kasvojen, huulten, kielen ja nielun turvotus, jotka voivat aiheuttaa hengitys- tai nielemisvaikeuksia, lopeta tämän lääkkeen käyttö ja ota heti yhteys lääkäriin. Lääkäri voi määrätä sinulle lääkkeen allergisen reaktion hoitoon sekä vaihtoehtoisen diabeteslääkkeen.&lt;/p&gt;\n                        &lt;p&gt;Joillakin metformiinia käyttävillä potilailla on esiintynyt seuraavia haittavaikutuksia, kun he ovat aloittaneet sitagliptiinihoidon:&lt;br/&gt;\nYleinen (enintään yhdellä potilaalla 10:stä): alhainen verensokeri, pahoinvointi, ilmavaivat, oksentelu&lt;br/&gt;\nMelko harvinainen (enintään yhdellä potilaalla 100:sta): vatsakipu, ripuli, ummetus, uneliaisuus&lt;/p&gt;\n                        &lt;p&gt;Joillakin potilailla on esiintynyt ripulia, pahoinvointia, ilmavaivoja, ummetusta, vatsakipua tai oksentelua, kun he ovat aloittaneet sitagliptiinin käytön yhdessä metformiinin kanssa (esiintymistiheys on yleinen).&lt;/p&gt;\n                        &lt;p&gt;Joillakin potilailla on esiintynyt seuraavia haittavaikutuksia, kun tätä lääkettä on käytetty yhdessä sulfonyyliurean, esim. glimepiridin, kanssa:&lt;br/&gt;\nHyvin yleinen (yli yhdellä potilaalla 10:stä): alhainen verensokeri&lt;br/&gt;\nYleinen: ummetus&lt;/p&gt;\n                        &lt;p&gt;Joillakin potilailla on esiintynyt seuraavia haittavaikutuksia, kun tätä lääkettä on käytetty yhdessä pioglitatsonin kanssa:&lt;br/&gt;\nYleinen: käsien tai jalkojen turvotus&lt;/p&gt;\n                        &lt;p&gt;Joillakin potilailla on esiintynyt seuraavia haittavaikutuksia, kun tätä lääkettä on käytetty yhdessä insuliinin kanssa:&lt;br/&gt;\nHyvin yleinen: alhainen verensokeri&lt;br/&gt;\nMelko harvinainen: suun kuivuminen, päänsärky&lt;/p&gt;\n                        &lt;p&gt;Joillakin potilailla on esiintynyt seuraavia haittavaikutuksia pelkästään sitagliptiinia (toinen Janumetin lääkeaineista) käytettäessä kliinisissä tutkimuksissa tai Janumetin tai sitagliptiinin markkinoille tulemisen jälkeen, kun Janumetia tai sitagliptiinia on käytetty yksin tai yhdessä muiden diabeteslääkkeiden kanssa:&lt;br/&gt;\nYleinen: alhainen verensokeri, päänsärky, ylähengitystieinfektio, tukkoinen tai vuotava nenä ja kurkkukipu, nivelrikko, käsivarsien ja säärten kipu&lt;br/&gt;\nMelko harvinainen: heitehuimaus, ummetus, kutina&lt;br/&gt;\nHarvinainen: verihiutaleiden vähentynyt määrä&lt;br/&gt;\nEsiintymistiheys tuntematon: munuaisongelmat, jotka joissain tapauksissa vaativat keinomunuaishoitoa, oksentelu, nivelsärky, lihassärky, selkäsärky, interstitiaalinen keuhkosairaus, rakkulainen pemfigoidi (eräänlainen rakkulamuodostuma iholla)&lt;br/&gt;\n                           &lt;br/&gt;\nJoillakin potilailla on esiintynyt seuraavia haittavaikutuksia, kun he ovat käyttäneet pelkästään metformiinia:&lt;br/&gt;\nHyvin yleinen: pahoinvointi, oksentelu, ripuli, vatsakipu ja ruokahaluttomuus. Nämä oireet voivat ilmaantua, kun aloitat metformiinihoidon ja häviävät tavallisesti.&lt;br/&gt;\nYleinen: metallin maku suussa, pienentynyt tai pieni B&lt;sub&gt;12&lt;/sub&gt;-vitamiinin pitoisuus veressä (oireena voi olla voimakas väsymys [uupumus], kielen aristus ja punoitus [kielitulehdus], pistelytuntemus [parestesia] tai ihon kalpeus tai keltaisuus). Lääkäri saattaa teettää kokeita oireiden syyn selvittämiseksi, koska jotkin näistä oireista voivat johtua myös diabeteksesta tai muista terveysongelmista.&lt;br/&gt;\nHyvin harvinainen: hepatiitti (maksasairaus), nokkosihottuma, ihon punoitus (ihottuma) tai kutina.&lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Haittavaikutuksista ilmoittaminen&lt;/strong&gt;\n                           &lt;br/&gt;\nJos havaitset haittavaikutuksia, kerro niistä lääkärille, apteekkihenkilökunnalle tai sairaanhoitajalle. Tämä koskee myös sellaisia mahdollisia haittavaikutuksia, joita ei ole mainittu tässä pakkausselosteessa. Voit ilmoittaa haittavaikutuksista myös suoraan (ks. yhteystiedot alla). Ilmoittamalla haittavaikutuksista voit auttaa saamaan enemmän tietoa tämän lääkevalmisteen turvallisuudesta.&lt;/p&gt;\n                        &lt;p&gt;www-sivusto: www.fimea.fi&lt;br/&gt;\nLääkealan turvallisuus- ja kehittämiskeskus Fimea&lt;br/&gt;\nLääkkeiden haittavaikutusrekisteri&lt;br/&gt;\nPL 55&lt;br/&gt;\n00034 FIMEA&lt;/p&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Valmisteen säilyttäminen" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029913" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Valmisteen säilyttäminen&lt;/h2&gt;\n                        &lt;p&gt;Ei lasten ulottuville eikä näkyville.&lt;/p&gt;\n                        &lt;p&gt;Älä käytä tätä lääkettä läpipainopakkauksessa ja ulkopakkauksessa mainitun viimeisen käyttöpäivämäärän (Käyt. viim. tai EXP) jälkeen. Viimeinen käyttöpäivämäärä tarkoittaa kuukauden viimeistä päivää.&lt;/p&gt;\n                        &lt;p&gt;Säilytä alle 25 °C.&lt;/p&gt;\n                        &lt;p&gt;Lääkkeitä ei pidä heittää viemäriin eikä hävittää talousjätteiden mukana. Kysy käyttämättömien lääkkeiden hävittämisestä apteekista. Näin menetellen suojelet luontoa.&lt;/p&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Pakkauksen sisältö ja muuta tietoa" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029914" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Pakkauksen sisältö ja muuta tietoa&lt;/h2&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Mitä Janumet&lt;/strong&gt;\n                           &lt;strong&gt;sisältää&lt;/strong&gt;\n                        &lt;/p&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Vaikuttavat aineet ovat sitagliptiini ja metformiini.\n	&lt;ul&gt;\n                                 &lt;li&gt;Yksi Janumet 50 mg/850 mg kalvopäällysteinen tabletti (tabletti) sisältää sitagliptiinifosfaattimonohydraattia määrän, joka vastaa 50 mg sitagliptiinia, sekä 850 mg metformiinihydrokloridia.&lt;/li&gt;\n                                 &lt;li&gt;Yksi Janumet 50 mg/1000 mg kalvopäällysteinen tabletti (tabletti) sisältää sitagliptiinifosfaattimonohydraattia määrän, joka vastaa 50 mg sitagliptiinia, sekä 1000 mg metformiinihydrokloridia.&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/li&gt;\n                           &lt;li&gt;Muut aineet ovat:\n	&lt;ul&gt;\n                                 &lt;li&gt;Tabletin ydin: mikrokiteinen selluloosa (E460), povidoni K 29/32 (E1201), natriumlauryylisulfaatti ja natriumstearyylifumaraatti.&lt;/li&gt;\n                                 &lt;li&gt;Kalvopäällyste: poly(vinyylialkoholi), makrogoli 3350, talkki (E553b), titaanidioksidi (E171), punainen rautaoksidi (E172) ja musta rautaoksidi (E172).&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Lääkevalmisteen kuvaus ja pakkauskoot&lt;/strong&gt;\n                        &lt;/p&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Janumet 50 mg/850 mg kalvopäällysteinen tabletti on kapselinmuotoinen, vaaleanpunainen kalvopäällysteinen tabletti, jossa on toisella puolella merkintä &amp;quot;515&amp;quot;.&lt;/li&gt;\n                           &lt;li&gt;Janumet 50 mg/1000 mg kalvopäällysteinen tabletti on kapselinmuotoinen, punainen kalvopäällysteinen tabletti, jossa on toisella puolella merkintä &amp;quot;577&amp;quot;.&lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;p&gt;Läpinäkymätön läpipainopakkaus (PVC/PE/PVDC ja alumiini). Pakkaukset, joissa on 14, 28, 56, 60, 112, 168, 180 tai 196 kalvopäällysteistä tablettia. Kerrannaispakkaukset, jotka sisältävät 196 (2 pakkausta, joissa on 98) tai 168 (2 pakkausta, joissa on 84) kalvopäällysteistä tablettia. Pakkaus, jossa on 50 x 1 kalvopäällysteistä tablettia perforoidussa, yksittäispakatussa läpipainopakkauksessa.&lt;/p&gt;\n                        &lt;p&gt;Kaikkia pakkauskokoja ei välttämättä ole myynnissä.&lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Myyntiluvan haltija ja valmistaja&lt;/strong&gt;\n                           &lt;br/&gt;\nMerck Sharp &amp;amp; Dohme B.V.&lt;br/&gt;\nWaarderweg 39&lt;br/&gt;\n2031 BN Haarlem&lt;br/&gt;\nAlankomaat&lt;/p&gt;\n                        &lt;p&gt;Lisätietoja tästä lääkevalmisteesta antaa myyntiluvan haltijan paikallinen edustaja:&lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Suomi/Finland&lt;/strong&gt;\n                           &lt;br/&gt;\nMSD Finland Oy&lt;br/&gt;\nPuh/Tel: +358 (0)9 804 650&lt;br/&gt;\ninfo@msd.fi&lt;/p&gt;\n                        &lt;p&gt;\n                           &lt;strong&gt;Tämä pakkausseloste on tarkistettu viimeksi 08.2023.&lt;/strong&gt;\n                        &lt;/p&gt;\n                        &lt;p&gt;Lisätietoa tästä lääkevalmisteesta on saatavilla Euroopan lääkeviraston verkkosivulla &lt;a href=\"http://www.ema.europa.eu.\"&gt;http://www.ema.europa.eu&lt;/a&gt;\n                        &lt;/p&gt;\n                     &lt;/div&gt;"       ] ;
+      ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Tekstin muuttamispäivämäärä" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029919" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h2&gt;Tekstin muuttamispäivämäärä&lt;/h2&gt;01.08.2023&lt;/div&gt;"         ]       ] )     ] )
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-52&gt; <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">a</a> fhir:MedicinalProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "Diabetes-MPD-52"] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"MedicinalProductDefinition_Diabetes-MPD-52\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition&lt;/b&gt;&lt;a name=\"Diabetes-MPD-52\"&gt; &lt;/a&gt;&lt;a name=\"hcDiabetes-MPD-52\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource MedicinalProductDefinition &amp;quot;Diabetes-MPD-52&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\"&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_A9EEB7A8-CDC8-4B18-882E-7C6F3DA3C5D2&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;*&lt;/td&gt;&lt;td&gt;Janumet tab 50 mg/1000 mg&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelMerkevareID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_A9EEB7A8-CDC8-4B18-882E-7C6F3DA3C5D2" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name">fhir:name</a> ( [
+<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.productName">fhir:productName</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Janumet tab 50 mg/1000 mg" ]
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-58&gt; <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">a</a> fhir:PackagedProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "Diabetes-PPD-58"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"PackagedProductDefinition_Diabetes-PPD-58\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;a name=\"Diabetes-PPD-58\"&gt; &lt;/a&gt;&lt;a name=\"hcDiabetes-PPD-58\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource PackagedProductDefinition &amp;quot;Diabetes-PPD-58&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\"&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_25C5B305-59F9-406B-85C3-563CC18EA51B, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/143631, &lt;code&gt;https://pharmaca.fi/vnr&lt;/code&gt;/143631&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Janumet tab 50 mg/1000 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_Diabetes-MPD-52\"&gt;See above (MedicinalProductDefinition/Diabetes-MPD-52)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelPakningID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_25C5B305-59F9-406B-85C3-563CC18EA51B" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://farmalogg.no/varenummer"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "143631" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://pharmaca.fi/vnr"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "143631" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Janumet tab 50 mg/1000 mg"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packageFor">fhir:packageFor</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/Diabetes-MPD-52" ]
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-57&gt; <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">a</a> fhir:PackagedProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "Diabetes-PPD-57"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"PackagedProductDefinition_Diabetes-PPD-57\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;a name=\"Diabetes-PPD-57\"&gt; &lt;/a&gt;&lt;a name=\"hcDiabetes-PPD-57\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource PackagedProductDefinition &amp;quot;Diabetes-PPD-57&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\"&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_801A0D37-D877-4EA1-906C-7897A95A085B, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/028121, &lt;code&gt;https://pharmaca.fi/vnr&lt;/code&gt;/028121&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Janumet tab 50 mg/1000 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_Diabetes-MPD-52\"&gt;See above (MedicinalProductDefinition/Diabetes-MPD-52)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelPakningID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_801A0D37-D877-4EA1-906C-7897A95A085B" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://farmalogg.no/varenummer"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "028121" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://pharmaca.fi/vnr"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "028121" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Janumet tab 50 mg/1000 mg"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packageFor">fhir:packageFor</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/Diabetes-MPD-52" ]
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-54&gt; <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">a</a> fhir:MedicinalProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "Diabetes-MPD-54"] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"MedicinalProductDefinition_Diabetes-MPD-54\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition&lt;/b&gt;&lt;a name=\"Diabetes-MPD-54\"&gt; &lt;/a&gt;&lt;a name=\"hcDiabetes-MPD-54\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource MedicinalProductDefinition &amp;quot;Diabetes-MPD-54&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\"&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_7D98CA71-7904-4FBD-8098-AA51BC1415F0&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;*&lt;/td&gt;&lt;td&gt;Janumet tab 50 mg/850 mg&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelMerkevareID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_7D98CA71-7904-4FBD-8098-AA51BC1415F0" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name">fhir:name</a> ( [
+<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.productName">fhir:productName</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Janumet tab 50 mg/850 mg" ]
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-60&gt; <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">a</a> fhir:PackagedProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "Diabetes-PPD-60"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"PackagedProductDefinition_Diabetes-PPD-60\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;a name=\"Diabetes-PPD-60\"&gt; &lt;/a&gt;&lt;a name=\"hcDiabetes-PPD-60\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource PackagedProductDefinition &amp;quot;Diabetes-PPD-60&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\"&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_F8957B1E-A284-4B26-BE75-2CA5D4EE28E2, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/028110, &lt;code&gt;https://pharmaca.fi/vnr&lt;/code&gt;/028110&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Janumet tab 50 mg/850 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_Diabetes-MPD-54\"&gt;See above (MedicinalProductDefinition/Diabetes-MPD-54)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelPakningID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_F8957B1E-A284-4B26-BE75-2CA5D4EE28E2" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://farmalogg.no/varenummer"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "028110" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://pharmaca.fi/vnr"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "028110" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Janumet tab 50 mg/850 mg"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packageFor">fhir:packageFor</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/Diabetes-MPD-54" ]
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-61&gt; <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">a</a> fhir:PackagedProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "Diabetes-PPD-61"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"PackagedProductDefinition_Diabetes-PPD-61\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;a name=\"Diabetes-PPD-61\"&gt; &lt;/a&gt;&lt;a name=\"hcDiabetes-PPD-61\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource PackagedProductDefinition &amp;quot;Diabetes-PPD-61&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\"&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_9440FA36-1817-476A-8E5F-5645EDA9715A, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/143609, &lt;code&gt;https://pharmaca.fi/vnr&lt;/code&gt;/143609&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Janumet tab 50 mg/850 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_Diabetes-MPD-54\"&gt;See above (MedicinalProductDefinition/Diabetes-MPD-54)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelPakningID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_9440FA36-1817-476A-8E5F-5645EDA9715A" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://farmalogg.no/varenummer"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "143609" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://pharmaca.fi/vnr"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "143609" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Janumet tab 50 mg/850 mg"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packageFor">fhir:packageFor</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/Diabetes-MPD-54" ]
+  ] ) . # 
+
+</pre>
+
+
+
+    <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

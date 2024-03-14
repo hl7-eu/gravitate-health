@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Scenario-pipeline - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.78"}
+    h3,h4,h5,h6{--heading-prefix:"16.78"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Scenario-pipeline</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ExampleScenario-Scenario-pipeline.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ExampleScenario-Scenario-pipeline.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ExampleScenario-Scenario-pipeline.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+
+  <h2 id="root">ExampleScenario: Scenario-pipeline
+
+  </h2>
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.eu/fhir/ig/gravitate-health/ExampleScenario/Scenario-pipeline<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.eu/fhir/ig/gravitate-health/ExampleScenario/Scenario-pipeline"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.eu/fhir/ig/gravitate-health/ExampleScenario/Scenario-pipeline|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2023-12-21
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;"></span></td>
+    </tr>
+
+
+
+
+  </table>
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+<a name="actors"> </a>
+<h4>Actors</h4>
+  <div><table class="table-striped table-bordered"><tr><th>Name</th><th>Type</th><th>Description</th></tr><tr><td><a name="a_FS"> </a>FHIR Server</td><td>System</td><td style="overflow-wrap:break-word"/></tr><tr><td><a name="a_C"> </a>Client</td><td>System</td><td style="overflow-wrap:break-word"/></tr></table></div>
+
+<a name="diaram"> </a>
+<h4>Diagram</h4>
+  <?xml version="1.0" encoding="us-ascii" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="276px" preserveAspectRatio="none" style="width:332px;height:276px;background:#FFFFFF;" version="1.1" viewBox="0 0 332 276" width="332px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="28" x="153.5" y="27.9951">null</text><rect fill="none" height="133.6641" style="stroke:#000000;stroke-width:1.5;" width="316" x="10" y="90.5938"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="66" x2="66" y1="73.5938" y2="241.2578"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="289" x2="289" y1="73.5938" y2="241.2578"/><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="93" x="20" y="42.2969"/><a href="#a_FS" target="_top" title="#a_FS" xlink:actuate="onRequest" xlink:href="#a_FS" xlink:show="new" xlink:title="#a_FS" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="79" x="27" y="62.292">FHIR Server</text></a><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="93" x="20" y="240.2578"/><a href="#a_FS" target="_top" title="#a_FS" xlink:actuate="onRequest" xlink:href="#a_FS" xlink:show="new" xlink:title="#a_FS" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="79" x="27" y="260.2529">FHIR Server</text></a><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="53" x="263" y="42.2969"/><a href="#a_C" target="_top" title="#a_C" xlink:actuate="onRequest" xlink:href="#a_C" xlink:show="new" xlink:title="#a_C" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="39" x="270" y="62.292">Client</text></a><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="53" x="263" y="240.2578"/><a href="#a_C" target="_top" title="#a_C" xlink:actuate="onRequest" xlink:href="#a_C" xlink:show="new" xlink:title="#a_C" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="39" x="270" y="260.2529">Client</text></a><path d="M10,90.5938 L147,90.5938 L147,97.7266 L137,107.7266 L10,107.7266 L10,90.5938 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="133.6641" style="stroke:#000000;stroke-width:1.5;" width="316" x="10" y="90.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="87" x="25" y="103.6606">ePI Pipeline</text><a href="#p_1" target="_top" title="#p_1" xlink:actuate="onRequest" xlink:href="#p_1" xlink:show="new" xlink:title="#p_1" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="44" x="162" y="102.8042">details</text></a><polygon fill="#181818" points="77.5,124.8594,67.5,128.8594,77.5,132.8594,73.5,128.8594" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="71.5" x2="288.5" y1="128.8594" y2="128.8594"/><a href="#s_1.1" target="_top" title="#s_1.1" xlink:actuate="onRequest" xlink:href="#s_1.1" xlink:show="new" xlink:title="#s_1.1" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="13" lengthAdjust="spacing" text-decoration="underline" textLength="118" x="83.5" y="123.7935">Ask for Annotation</text></a><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="205.5" y="123.7935">(</text><a href="#i_1" target="_top" title="#i_1" xlink:actuate="onRequest" xlink:href="#i_1" xlink:show="new" xlink:title="#i_1" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="13" lengthAdjust="spacing" text-decoration="underline" textLength="50" x="210.5" y="123.7935">payload</text></a><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="260.5" y="123.7935">)</text><polygon fill="#181818" points="277.5,153.9922,287.5,157.9922,277.5,161.9922,281.5,157.9922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="66.5" x2="283.5" y1="157.9922" y2="157.9922"/><a href="#s_1.2" target="_top" title="#s_1.2" xlink:actuate="onRequest" xlink:href="#s_1.2" xlink:show="new" xlink:title="#s_1.2" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="13" lengthAdjust="spacing" text-decoration="underline" textLength="135" x="73.5" y="152.9263">Return annotated ePI</text></a><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="212.5" y="152.9263">(</text><a href="#i_2" target="_top" title="#i_2" xlink:actuate="onRequest" xlink:href="#i_2" xlink:show="new" xlink:title="#i_2" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="13" lengthAdjust="spacing" text-decoration="underline" textLength="50" x="217.5" y="152.9263">payload</text></a><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="267.5" y="152.9263">)</text><polygon fill="#181818" points="77.5,183.125,67.5,187.125,77.5,191.125,73.5,187.125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="71.5" x2="288.5" y1="187.125" y2="187.125"/><a href="#s_1.3" target="_top" title="#s_1.3" xlink:actuate="onRequest" xlink:href="#s_1.3" xlink:show="new" xlink:title="#s_1.3" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="13" lengthAdjust="spacing" text-decoration="underline" textLength="100" x="83.5" y="182.0591">Ask focused ePI</text></a><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="187.5" y="182.0591">(</text><a href="#i_2" target="_top" title="#i_2" xlink:actuate="onRequest" xlink:href="#i_2" xlink:show="new" xlink:title="#i_2" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="13" lengthAdjust="spacing" text-decoration="underline" textLength="50" x="192.5" y="182.0591">payload</text></a><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="242.5" y="182.0591">)</text><polygon fill="#181818" points="277.5,212.2578,287.5,216.2578,277.5,220.2578,281.5,216.2578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="66.5" x2="283.5" y1="216.2578" y2="216.2578"/><a href="#s_1.4" target="_top" title="#s_1.4" xlink:actuate="onRequest" xlink:href="#s_1.4" xlink:show="new" xlink:title="#s_1.4" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="13" lengthAdjust="spacing" text-decoration="underline" textLength="119" x="73.5" y="211.1919">Return focused ePI</text></a><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="196.5" y="211.1919">(</text><a href="#i_3" target="_top" title="#i_3" xlink:actuate="onRequest" xlink:href="#i_3" xlink:show="new" xlink:title="#i_3" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="13" lengthAdjust="spacing" text-decoration="underline" textLength="50" x="201.5" y="211.1919">payload</text></a><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="251.5" y="211.1919">)</text><!--SRC=[VSv1Qm8n48RXUtx5XrxgeONLddeG9B3eJLnl4fR1dShGC0b9jj1_RwHMHAJd-PwysKln31szDoPIAdAKI5emEHocrBSTslLcXuxJDoVd9g2CjdkojB1UMCjrOuqvfJ16y7Q3hKJseeowZ7s3WGk9pyuPYzTbVU_ZSibzyzPWbR_m6H9Mgg5GaQ3EuQMUfS98FpxGuDpCr9zLQczoZXsNCIde5_9mIT_i_Du-LXVNwd7C_x77vFjVyfbSt4lMmPm1]--></g></svg>
+
+<a name="processes"> </a>
+<h4>Processes</h4>
+  <div><div><a name="p_1"> </a><b>Process: ePI Pipeline</b><table style="width:100%" class="table-striped table-bordered"><tr><th>Step</th><th>Name</th><th>Description</th><th>Initator</th><th>Receiver</th><th>Request</th><th>Response</th></tr><tr><td><a name="s_1.1"> </a>1</td><td>Ask for Annotation</td><td/><td><a href="#a_C">Client</a></td><td><a href="#a_FS">FHIR Server</a></td><td><a href="#i_1" title="The epi without any annotations nor personalization: very similar to current pdf ones">Raw ePI</a></td><td/></tr><tr><td><a name="s_1.2"> </a>2</td><td>Return annotated ePI</td><td/><td><a href="#a_FS">FHIR Server</a></td><td><a href="#a_C">Client</a></td><td><a href="#i_2" title="The epi with annotations, however, this is not yet personalized and nothing is different in terms of user interface">Preprocessed ePI</a></td><td/></tr><tr><td><a name="s_1.3"> </a>3</td><td>Ask focused ePI</td><td/><td><a href="#a_C">Client</a></td><td><a href="#a_FS">FHIR Server</a></td><td><a href="#i_2" title="The epi with annotations, however, this is not yet personalized and nothing is different in terms of user interface">Preprocessed ePI</a></td><td/></tr><tr><td><a name="s_1.4"> </a>4</td><td>Return focused ePI</td><td/><td><a href="#a_FS">FHIR Server</a></td><td><a href="#a_C">Client</a></td><td><a href="#i_3" title="The epi with annotations and focused for a person. For this to happen, the IPS and similar artifact are brought in in order to adjust the ePI to the person's needs">Focused ePI</a></td><td/></tr></table></div></div>
+
+<a name="instances"> </a>
+<h4>Instances</h4>
+  <div><table class="table-striped table-bordered"><tr><th>Name</th><th>Type</th><th>Content</th><th>Description</th></tr><tr><td><a name="i_1"> </a>Raw ePI</td><td><a href="http://hl7.org/fhir/R5/bundle.html">Bundle</a></td><td><a href="Bundle-bundlepackageleaflet-en-2d49ae46735143c1323423b7aea24165.html">here</a></td><td><div><p>The epi without any annotations nor personalization: very similar to current pdf ones</p>
+</div></td></tr><tr><td><a name="i_2"> </a>Preprocessed ePI</td><td><a href="http://hl7.org/fhir/R5/bundle.html">Bundle</a></td><td><a href="Bundle-Processedbundlekarvea.html">here</a></td><td><div><p>The epi with annotations, however, this is not yet personalized and nothing is different in terms of user interface</p>
+</div></td></tr><tr><td><a name="i_3"> </a>Focused ePI</td><td><a href="http://hl7.org/fhir/R5/bundle.html">Bundle</a></td><td><a href="Bundle-enhancedddbundlekarvea.html">here</a></td><td><div><p>The epi with annotations and focused for a person. For this to happen, the IPS and similar artifact are brought in in order to adjust the ePI to the person's needs</p>
+</div></td></tr></table></div>
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Dec 21, 2023 23:11+0000">2023-12-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

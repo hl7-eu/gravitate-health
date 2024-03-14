@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AdministrableProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="ap-e762a2f54b0b24fca4744b1bb7524a5b"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="ap-e762a2f54b0b24fca4744b1bb7524a5b"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;ap-e762a2f54b0b24fca4744b1bb7524a5b&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: identifier</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href="MedicinalProductDefinition-mp7a7ff0f4e1993c2fdabba6c8d9931a52.html">MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52</a></p><p><b>administrableDoseForm</b>: Coated tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073380)</span></p><p><b>unitOfPresentation</b>: tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000002152)</span></p><p><b>producedFrom</b>: <a href="ManufacturedItemDefinition-mid-e762a2f54b0b24fca4744b1bb7524a5b.html">ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073619)</span></p><h3>TargetSpecies</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td></tr><tr><td style="display: none">*</td><td>Human <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>
+  </text>
+  <identifier>
+    <system value="https://spor.ema.europa.eu/pmswi"/>
+    <value value="identifier"/>
+  </identifier>
+  <status value="active"/>
+  <formOf>
+    <reference value="MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52"/>
+  </formOf>
+  <administrableDoseForm>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000073380"/>
+      <display value="Coated tablet"/>
+    </coding>
+  </administrableDoseForm>
+  <unitOfPresentation>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="200000002152"/>
+      <display value="tablet"/>
+    </coding>
+  </unitOfPresentation>
+  <producedFrom>
+    <reference value="ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b"/>
+  </producedFrom>
+  <routeOfAdministration>
+    <code>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="100000073619"/>
+        <display value="Oral use"/>
+      </coding>
+    </code>
+    <targetSpecies>
+      <code>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi"/>
+          <code value="100000109093"/>
+          <display value="Human"/>
+        </coding>
+      </code>
+    </targetSpecies>
+  </routeOfAdministration>
+</AdministrableProductDefinition>

@@ -1,0 +1,99 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-bb925abf9dc1f2dd024210a50c0ee14b> a fhir:PackagedProductDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ppd-bb925abf9dc1f2dd024210a50c0ee14b"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"ppd-bb925abf9dc1f2dd024210a50c0ee14b\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;ppd-bb925abf9dc1f2dd024210a50c0ee14b&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/18/1289/001 (use: OFFICIAL)</p><p><b>name</b>: Biktarvy 50 mg/200 mg/25 mg film-coated tablets 90 (3 bottles of 30) film-coated tablets</p><p><b>type</b>: Chemical Medicinal Prodcut <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-mp5fb1761a0a38bea0a9b49f146371c68b.html\">MedicinalProductDefinition/mp5fb1761a0a38bea0a9b49f146371c68b</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2012-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 90 {tablets}<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {tablets} = '{tablets}')</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: id: 654321</p><p><b>type</b>: Child-resistant closure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073504)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/18/1289/001" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Biktarvy 50 mg/200 mg/25 mg film-coated tablets 90 (3 bottles of 30) film-coated tablets"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155527" ] ;
+       fhir:display [ fhir:v "Chemical Medicinal Prodcut" ]
+     ] )
+  ] ; # 
+  fhir:packageFor ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp5fb1761a0a38bea0a9b49f146371c68b> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp5fb1761a0a38bea0a9b49f146371c68b" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2012-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:containedItemQuantity ( [
+     fhir:value [ fhir:v "90"^^xsd:decimal ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "{tablets}" ]
+  ] ) ; # 
+  fhir:packaging [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073498" ] ;
+         fhir:display [ fhir:v "Box" ]
+       ] )
+     ] ;
+     fhir:quantity [ fhir:v "1"^^xsd:integer ] ;
+     fhir:material ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000003529" ] ;
+         fhir:display [ fhir:v "Cardboard" ]
+       ] )
+     ] ) ;
+     fhir:packaging ( [
+       fhir:identifier ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "654321" ]
+       ] ) ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000073504" ] ;
+           fhir:display [ fhir:v "Child-resistant closure" ]
+         ] )
+       ] ;
+       fhir:quantity [ fhir:v "1"^^xsd:integer ] ;
+       fhir:material ( [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000003529" ] ;
+           fhir:display [ fhir:v "Cardboard" ]
+         ] )
+       ] ) ;
+       fhir:containedItem ( [
+         fhir:item [
+           fhir:reference [
+             fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-14ba4cb05b11f838919ef39edd3e0cdf> ;
+             fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-14ba4cb05b11f838919ef39edd3e0cdf" ]
+           ]
+         ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

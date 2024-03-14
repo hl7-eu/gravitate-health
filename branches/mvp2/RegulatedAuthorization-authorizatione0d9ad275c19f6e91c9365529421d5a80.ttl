@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizatione0d9ad275c19f6e91c9365529421d5a80> a fhir:RegulatedAuthorization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "authorizatione0d9ad275c19f6e91c9365529421d5a80"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"authorizatione0d9ad275c19f6e91c9365529421d5a80\"> </a><a name=\"hcauthorizatione0d9ad275c19f6e91c9365529421d5a80\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;authorizatione0d9ad275c19f6e91c9365529421d5a80&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/pt-xxx (use: OFFICIAL)</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-mp01eaaf0a81574efda98a52449788e7a2.html\">MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000061)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2022-05-10 00:00:00+0000</p><p><b>holder</b>: <a href=\"Organization-mah-fe6b7ee8886997a3f2098e16b925984d.html\">Organization/mah-fe6b7ee8886997a3f2098e16b925984d</a> &quot;Reckitt Benckiser Healthcare, Lda.&quot;</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "pt-xxx" ]
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp01eaaf0a81574efda98a52449788e7a2" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000061" ] ;
+       fhir:display [ fhir:v "Marketing Authorisation" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2022-05-10T00:00:00Z"^^xsd:dateTime] ; # 
+  fhir:holder [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-fe6b7ee8886997a3f2098e16b925984d> ;
+     fhir:reference [ fhir:v "Organization/mah-fe6b7ee8886997a3f2098e16b925984d" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

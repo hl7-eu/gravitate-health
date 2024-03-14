@@ -1,0 +1,983 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>VENTOLINE DISKUS inhalaatiojauhe, annosteltu 200 mikrog/annos (Bundle) - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.493"}
+    h3,h4,h5,h6{--heading-prefix:"16.493"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>VENTOLINE DISKUS inhalaatiojauhe, annosteltu 200 mikrog/annos (Bundle)</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-60041.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-60041.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-60041.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Bundle: VENTOLINE DISKUS inhalaatiojauhe, annosteltu 200 mikrog/annos (Bundle)</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>Lisätietoa</h3>
+    <p>
+      <div>
+                     <p>
+                        <strong>Ventoline Diskus 200 mikrog/annos inhalaatiojauhe, annosteltu</strong>
+                     </p>
+                     <p>salbutamolisulfaatti</p>
+                  </div></p>
+    
+      
+
+        <h4>Yleisiä ohjeita</h4>
+        <p>
+          <div>
+                        <h2>Yleisiä ohjeita</h2>
+                        <p>
+                           <b>Lue tämä pakkausseloste huolellisesti, ennen kuin aloitat lääkkeen käyttämisen, sillä se sisältää sinulle tärkeitä tietoja.</b>
+                        </p>
+                        <ul>
+                           <li>Säilytä tämä pakkausseloste. Voit tarvita sitä myöhemmin.</li>
+                           <li>Jos sinulla on kysyttävää, käänny lääkärin tai apteekkihenkilökunnan puoleen.</li>
+                           <li>Tämä lääke on määrätty vain sinulle eikä sitä pidä antaa muiden käyttöön. Se voi aiheuttaa haittaa muille, vaikka heillä olisikin samanlaiset oireet kuin sinulla.</li>
+                           <li>Jos havaitset haittavaikutuksia, kerro niistä lääkärille tai apteekkihenkilökunnalle. Tämä koskee myös sellaisia mahdollisia haittavaikutuksia, joita ei ole mainittu tässä pakkausselosteessa. Ks. kohta <a class="cross-reference">Mahdolliset haittavaikutukset</a>.</li>
+                        </ul>
+                     </div></p>
+
+      
+
+        <h4>Tässä pakkausselosteessa kerrotaan</h4>
+        <p>
+          <div>
+                        <h2>Tässä pakkausselosteessa kerrotaan</h2>
+                        <ol>
+                           <li>Mitä Ventoline Diskus on ja mihin sitä käytetään </li>
+                           <li>Mitä sinun on tiedettävä, ennen kuin käytät Ventoline Diskusta </li>
+                           <li>Miten Ventoline Diskusta käytetään </li>
+                           <li>Mahdolliset haittavaikutukset </li>
+                           <li>Ventoline Diskuksen säilyttäminen </li>
+                           <li>Pakkauksen sisältö ja muuta tietoa</li>
+                        </ol>
+                     </div></p>
+
+      
+
+        <h4>Mitä valmiste on ja mihin sitä käytetään</h4>
+        <p>
+          <div>
+                        <h2>Mitä valmiste on ja mihin sitä käytetään</h2>
+                        <p>Ventoline Diskuksen vaikuttava aine, salbutamoli, vähentää keuhkoputkien seinämien lihasjännitystä ja avartaa keuhkoputkia, jolloin hengitys helpottuu.</p>
+                        <p>Ventoline Diskusta käytetään akuuttien astmakohtausten ja muiden hengityselinsairauksien hoitoon sekä rasitusastman ehkäisyyn.</p>
+                        <p>Ventoline Diskus on tarkoitettu aikuisille, nuorille ja yli 4-vuotiaille lapsille.</p>
+                     </div></p>
+
+      
+
+        <h4>Mitä sinun on tiedettävä ennen valmisteen käyttöä</h4>
+        <p>
+          <div>
+                        <h2>Mitä sinun on tiedettävä ennen valmisteen käyttöä</h2>
+                        <p>
+                           <strong>Älä käytä Ventoline Diskusta</strong>
+                        </p>
+                        <ul>
+                           <li>jos olet allerginen salbutamolille tai laktoosimonohydraatille tai laktoosimonohydraatin sisältämälle maitovalkuaiselle (ks. kohta <a class="cross-reference">Mitä sinun on tiedettävä ennen valmisteen käyttöä</a> ”Ventoline Diskus sisältää laktoosia”).</li>
+                        </ul>
+                        <p>
+                           <strong>Varoitukset ja varotoimet</strong>
+                        </p>
+                        <p>Keskustele lääkärin kanssa ennen kuin käytät Ventoline Diskusta, jos</p>
+                        <ul>
+                           <li>sinulla on tai on ollut sydänsairaus, rytmihäiriöitä tai rintakipua tai</li>
+                           <li>sinulla on todettu kilpirauhasen liikatoimintaa tai veresi kaliumarvot ovat alhaiset.</li>
+                        </ul>
+                        <p>Jos astmaoireesi lisääntyvät tai Ventoline-hoidon teho heikkenee, ota heti yhteys lääkäriin.</p>
+                        <p>
+                           <strong>Muut lääkevalmisteet ja Ventoline Diskus</strong>
+                        </p>
+                        <p>Kerro lääkärille tai apteekkihenkilökunnalle, jos parhaillaan käytät, olet äskettäin käyttänyt tai saatat käyttää muita lääkkeitä.</p>
+                        <p>Eräiden muiden lääkeaineiden samanaikainen käyttö saattaa vaikuttaa Ventoline Diskus -hoidon tehoon. Keskustele sen vuoksi lääkärin kanssa, ennen kuin otat muita lääkkeitä yhtä aikaa Ventoline Diskuksen kanssa. Joillakin verenpainelääkkeillä (beetasalpaajat) saattaa olla Ventoline Diskuksen tehoa heikentävä vaikutus.</p>
+                        <p>
+                           <strong>Raskaus ja imetys</strong>
+                        </p>
+                        <p>Jos olet raskaana tai imetät, epäilet olevasi raskaana tai jos suunnittelet lapsen hankkimista, kysy lääkäriltä neuvoa ennen tämän lääkkeen käyttöä.</p>
+                        <p>On todennäköistä, että salbutamoli erittyy äidinmaitoon. Kysy sen vuoksi neuvoa lääkäriltä, ennen kuin imetät lastasi Ventoline Diskus -hoidon aikana.</p>
+                        <p>
+                           <strong>Ajaminen ja koneiden käyttö</strong>
+                        </p>
+                        <p>Ventoline Diskus ei vaikuta suorituskykyysi liikenteessä eikä kykyysi käyttää koneita.</p>
+                        <p>
+                           <strong>Ventoline Diskus sisältää laktoosia</strong>
+                        </p>
+                        <p>Älä käytä tätä lääkettä, jos olet allerginen laktoosimonohydraatille tai laktoosimonohydraatin sisältämälle maitovalkuaiselle. Sen sijaan tavallisesta laktoosi-intoleranssista kärsiville Ventoline Diskuksen sisältämä laktoosimäärä (enintään 12,5 mg yhdestä annoksesta) ei yleensä aiheuta ongelmia.</p>
+                     </div></p>
+
+      
+
+        <h4>Miten valmistetta käytetään</h4>
+        <p>
+          <div>
+                        <h2>Miten valmistetta käytetään</h2>
+                        <p>Käytä tätä lääkettä juuri siten kuin lääkäri on määrännyt tai apteekkihenkilökunta on neuvonut. Tarkista ohjeet lääkäriltä tai apteekista, jos olet epävarma.</p>
+                        <p>Ventoline Diskusta käytetään yleensä oireenmukaisesti eikä jatkuvana, jokapäiväisenä hoitona.</p>
+                        <p>Tavallinen annostus aikuisille, nuorille ja yli 4‑vuotiaille lapsille on tällöin yksi annos tarvittaessa korkeintaan neljä kertaa päivässä. Lääkäri määrää kuitenkin sinulle sopivan yksilöllisen annostuksen. Noudata aina lääkärin määräämiä annostusohjeita.</p>
+                        <p>Älä ylitä sinulle tai lapsellesi määrättyä annostusta. Lääkkeen annoksen ja annostelutiheyden muuttamisesta on aina keskusteltava lääkärin kanssa. Tarkista annostus lääkäriltä tai apteekkihenkilökunnalta, mikäli olet epävarma.</p>
+                        <p>Lääke on tarkoitettu käytettäväksi vain sisäänhengitettynä eli inhaloituna, ja sen vaikutus alkaa nopeasti. Inhalaatiojauheen käytössä oikea inhalaatiotekniikka on tärkeä, jotta lääkkeestä saataisiin paras mahdollinen hyöty. Ventoline Diskus -laitteen käyttöohje on jäljempänä.</p>
+                        <p>Jos sinusta tuntuu, että Ventoline Diskus -inhalaatiojauheen vaikutus on liian voimakas tai liian heikko, kerro asiasta lääkärille tai apteekkihenkilökunnalle.</p>
+                        <p>
+                           <strong>Diskus-inhalaatiolaitteen käyttöohje </strong>
+                        </p>
+                        <p>Lue käyttöohje läpi huolellisesti, ennen kuin käytät Diskus‑inhalaatiolaitetta. Noudata siinä annettuja neuvoja ja ohjeita.</p>
+                        <p>Diskus on suljettuna, kun otat sen kotelosta. Diskus sisältää 60 yksilöllisesti suojattua lääkeannosta jauhemuodossa.</p>
+                        <p><a name="l721">​</a>
+                           <img src="#6e7f69cf-5e08-4c0f-a773-4c9e26db2035" alt="https://ltkpfst.blob.core.windows.net/images/pil/6e7f69cf-5e08-4c0f-a773-4c9e26db2035.png" width="337" height="215"/>
+                        </p>
+                        <p>Annoslaskin ilmoittaa, kuinka monta annosta on jäljellä. Luvut 5–0 on merkitty PUNAISELLA varoitukseksi siitä, että Diskus tyhjenee pian.</p>
+                        <p>
+                           <strong>1. Avaa Diskus</strong>
+                        </p>
+                        <p>Pidä Diskusta kuvan osoittamalla tavalla ja työnnä peukalonsijaa nuolen suuntaan niin pitkälle kuin mahdollista.</p>
+                        <p><a name="l738">​</a>
+                           <img src="#972ce19e-4557-4d3a-a6e8-0a4d733ee3d9" alt="https://ltkpfst.blob.core.windows.net/images/pil/972ce19e-4557-4d3a-a6e8-0a4d733ee3d9.png" width="123" height="113"/>
+                        </p>
+                        <p>
+                           <strong>2. Saata Diskus käyttövalmiiksi</strong>
+                        </p>
+                        <p>Pidä Diskusta siten, että suukappale on itseesi päin. Työnnä annosvipua itsestäsi poispäin niin pitkälle kuin mahdollista, kunnes kuulet naksahduksen (’klik’). Diskus on nyt valmis käytettäväksi. Joka kerta, kun annosvipua työnnetään, annos vapautuu inhaloitavaksi. Tämä näkyy annoslaskurilla. Älä leiki annosvivulla, sillä tällöin annokset menevät hukkaan.</p>
+                        <p>
+                           <strong><a name="l754">​</a>
+                              <img src="#df860570-d353-49e2-9375-5a06109a1b9c" alt="https://ltkpfst.blob.core.windows.net/images/pil/df860570-d353-49e2-9375-5a06109a1b9c.png" width="127" height="112"/>
+                           </strong>
+                        </p>
+                        <p>
+                           <strong>3. Inhaloi (hengitä sisään)</strong>
+                        </p>
+                        <p>Lue tämä kohta huolellisesti ennen kuin aloitat annoksen inhaloimisen.</p>
+                        <ul>
+                           <li>Pidä Diskus poissa suun edestä ja hengitä ulos niin pitkään kuin vaivatta pystyt. Älä hengitä Diskukseen.</li>
+                           <li>Aseta Diskus huulillesi ja sulje huulet suukappaleen ympärille. Hengitä sisään tasaisesti ja syvään Diskuksen kautta, älä nenän kautta.</li>
+                           <li>Ota Diskus pois suusta.</li>
+                           <li>Pidätä hengitystä noin 10 sekuntia tai niin pitkään kuin mahdollista.</li>
+                           <li>Hengitä hitaasti ulos.</li>
+                        </ul>
+                        <p>
+                           <strong><a name="l789">​</a>
+                              <img src="#fc5095a2-bef6-4a03-849e-4761702a7cf5" alt="https://ltkpfst.blob.core.windows.net/images/pil/fc5095a2-bef6-4a03-849e-4761702a7cf5.png" width="120" height="113"/>
+                           </strong>
+                        </p>
+                        <p>
+                           <strong>4. Sulje Diskus</strong>
+                        </p>
+                        <p>Sulje Diskus työntämällä peukalonsijaa itseesi päin niin pitkälle kuin mahdollista. Kun kuulet naksahduksen, Diskus on suljettu. Annosvipu on nyt palannut alkuasentoonsa. Diskus on valmis käytettäväksi uudelleen. Jos otat kaksi inhalaatiota, sulje Diskus ja toista vaiheet 1-4.</p>
+                        <p><a name="l804">​</a>
+                           <img src="#40ec9fd9-4ff7-4e2c-9ed3-bbc2e65a7fd9" alt="https://ltkpfst.blob.core.windows.net/images/pil/40ec9fd9-4ff7-4e2c-9ed3-bbc2e65a7fd9.png" width="132" height="123"/>
+                        </p>
+                        <p>
+                           <strong>Muista</strong>
+                        </p>
+                        <p>Pidä Diskus kuivana.</p>
+                        <p>Pidä Diskus suljettuna silloin, kun et käytä sitä.</p>
+                        <p>Älä koskaan hengitä ulos Diskuksen kautta.</p>
+                        <p>Työnnä annosvipua ainoastaan silloin, kun olet valmis inhaloimaan (hengittämään sisään).</p>
+                        <p>Diskusta ei tarvitse puhdistaa.</p>
+                        <p>
+                           <strong>Jos otat enemmän Ventoline Diskusta kuin sinun pitäisi </strong>
+                        </p>
+                        <p>Jos olet ottanut liian suuren lääkeannoksen tai vaikkapa lapsi on ottanut lääkettä vahingossa, ota aina yhteyttä lääkäriin, sairaalaan tai Myrkytystietokeskukseen (puh. 0800 147 111) riskien arvioimiseksi ja lisäohjeiden saamiseksi.</p>
+                        <p>Jos sinulla on kysymyksiä tämän lääkkeen käytöstä, käänny lääkärin tai apteekkihenkilökunnan puoleen.</p>
+                     </div></p>
+
+      
+
+        <h4>Mahdolliset haittavaikutukset</h4>
+        <p>
+          <div>
+                        <h2>Mahdolliset haittavaikutukset</h2>
+                        <p>Kuten kaikki lääkkeet, tämäkin lääke voi aiheuttaa haittavaikutuksia. Kaikki eivät kuitenkaan niitä saa.</p>
+                        <p>Tavanomaisessa käytössä Ventoline Diskus ei yleensä aiheuta haittavaikutuksia.</p>
+                        <p>
+                           <i>Ota heti yhteyttä lääkäriin ja lopeta tämän lääkkeen käyttö, jos sinulla ilmenee seuraavia oireita:</i>
+                        </p>
+                        <ul>
+                           <li>jos hengityksesi vaikeutuu tai alkaa vinkua heti lääkkeenoton jälkeen (paradoksinen bronkospasmi). Jos saatavillasi on toinen nopeavaikutteinen astmalääke, kokeile sitä mahdollisimman pian.</li>
+                           <li>jos lääke aiheuttaa sinulle yliherkkyysreaktioita, kuten silmien, kasvojen, huulten ja suunielun turvotusta, ihottumaa, keuhkoputkien supistelua, matalaa verenpainetta tai pyörtymistä.</li>
+                        </ul>
+                        <p>
+                           <i>Yleiset haittavaikutukset (yli 1 potilaalla sadasta):</i>
+                        </p>
+                        <ul>
+                           <li>vapina, päänsärky </li>
+                           <li>sydämen tiheälyöntisyys.</li>
+                        </ul>
+                        <p>
+                           <i>Melko harvinaiset haittavaikutukset (alle 1 potilaalla sadasta): </i>
+                        </p>
+                        <ul>
+                           <li>sydämentykytys </li>
+                           <li>suun ja kurkun ärsytys </li>
+                           <li>lihaskouristelu.</li>
+                        </ul>
+                        <p>
+                           <i>Harvinaiset haittavaikutukset (alle 1 potilaalla tuhannesta):</i>
+                        </p>
+                        <ul>
+                           <li>veren pieni kaliumarvo </li>
+                           <li>ääreisverisuonten laajeneminen.</li>
+                        </ul>
+                        <p>
+                           <i>Hyvin harvinaiset haittavaikutukset (alle 1 potilaalla kymmenestätuhannesta): </i>
+                        </p>
+                        <ul>
+                           <li>yliherkkyysreaktioita, kuten silmien, kasvojen, huulten ja suunielun turvotus, ihottumaa, keuhkoputkien supistelu, matala verenpaine tai pyörtyminen</li>
+                           <li> yliaktiivisuus </li>
+                           <li>sydämen rytmihäiriöt</li>
+                           <li>hengityksen vinkuna lääkkeen käytön jälkeen (paradoksinen bronkospasmi).</li>
+                        </ul>
+                        <p>
+                           <i>Tuntematon (tiedot saatu kliinisen käytön haittavaikutusraporteista, minkä vuoksi yleisyyttä ei tunneta)</i>
+                        </p>
+                        <ul>
+                           <li>rintakipu. </li>
+                        </ul>
+                        <p>Kerro lääkärille, jos sinulla on tällaisia oireita käyttäessäsi salbutamolia. Älä kuitenkaan lopeta lääkkeen käyttöä kysymättä neuvoa lääkäriltä.</p>
+                        <p>
+                           <span class="underline">Haittavaikutuksista ilmoittaminen</span>
+                        </p>
+                        <p>Jos havaitset haittavaikutuksia, kerro niistä lääkärille tai apteekkihenkilökunnalle. Tämä koskee myös sellaisia mahdollisia haittavaikutuksia, joita ei ole mainittu tässä pakkausselosteessa. Voit ilmoittaa haittavaikutuksista myös suoraan (ks. yhteystiedot alla). Ilmoittamalla haittavaikutuksista voit auttaa saamaan enemmän tietoa tämän lääkevalmisteen turvallisuudesta.</p>
+                        <p>www-sivusto: <a href="http://www.fimea.fi">www.fimea.fi</a>
+                        </p>
+                        <p>Lääkealan turvallisuus- ja kehittämiskeskus Fimea</p>
+                        <p>Lääkkeiden haittavaikutusrekisteri</p>
+                        <p>PL 55</p>
+                        <p>00034 FIMEA </p>
+                     </div></p>
+
+      
+
+        <h4>Valmisteen säilyttäminen</h4>
+        <p>
+          <div>
+                        <h2>Valmisteen säilyttäminen</h2>
+                        <p>Säilytä alle 30 °C. Herkkä valolle. Ei saa jäätyä.</p>
+                        <p>Älä käytä tätä lääkettä pakkauksessa mainitun viimeisen käyttöpäivämäärän jälkeen. Viimeinen käyttöpäivämäärä tarkoittaa kuukauden viimeistä päivää.</p>
+                        <p>Ei lasten ulottuville eikä näkyville.</p>
+                        <p>Lääkkeitä ei pidä heittää viemäriin eikä hävittää talousjätteiden mukana. Kysy käyttämättömien lääkkeiden hävittämisestä apteekista. Näin menetellen suojelet luontoa.</p>
+                     </div></p>
+
+      
+
+        <h4>Pakkauksen sisältö ja muuta tietoa</h4>
+        <p>
+          <div>
+                        <h2>Pakkauksen sisältö ja muuta tietoa</h2>
+                        <p>
+                           <strong>Mitä Ventoline Diskus sisältää </strong>
+                        </p>
+                        <ul>
+                           <li>Vaikuttava aine on salbutamolisulfaatti. Sitä on yhdessä annoksessa määrä, joka vastaa 200 mikrogrammaa salbutamolia.</li>
+                           <li>Muu aine on laktoosimonohydraatti (sisältää maitovalkuaista).</li>
+                        </ul>
+                        <p>
+                           <strong>Lääkevalmisteen kuvaus ja pakkauskoko </strong>
+                        </p>
+                        <p>Pakkauksessa on sininen Diskus-inhalaatiolaite, joka sisältää 60 yksittäispakattua inhalaatiojauheannosta.</p>
+                        <p>
+                           <strong>Myyntiluvan haltija ja valmistaja </strong>
+                        </p>
+                        <p>
+                           <em>Myyntiluvan haltija</em>
+                        </p>
+                        <p>GlaxoSmithKline Oy</p>
+                        <p>Porkkalankatu 20 A</p>
+                        <p>00180 Helsinki</p>
+                        <p>puh. 010 303 030</p>
+                        <p>
+                           <em>Valmistaja</em>
+                        </p>
+                        <p>Glaxo Wellcome Production, Evreux, Ranska</p>
+                        <p>
+                           <strong>Tämä pakkausseloste on tarkistettu viimeksi 1.5.2023</strong>
+                        </p>
+                        <p>GSK-konserni omistaa tavaramerkin, tai se on lisensoitu GSK-konsernille. &copy;2023 GSK-konserni tai sen lisenssinantaja.</p>
+                     </div></p>
+
+      
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Ventoline inh pulv, disp 0,2 mg/dose
+  </h4>
+
+  
+  
+    LEGEMIDDELMERKEVAREID:
+    <b>
+      ID_5D69BDAB-E103-4E77-85FD-537ECBFE76A0
+    </b>
+    
+  
+  <hr>
+  
+  <p>Full name: <b>Ventoline inh pulv, disp 0,2 mg/dose</b></p>
+  
+
+
+  
+  
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b></b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b></b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 1</p>
+          
+  <p>LEGEMIDDELPAKNINGID:
+  <b>
+    ID_DD4714E2-ABB5-43B4-92EA-846A03EEF3B5
+  </b>
+  </p>
+
+  <p>VARENUMMER:
+  <b>
+    124347
+  </b>
+  </p>
+
+  <p>VNR:
+  <b>
+    124347
+  </b>
+  </p>
+
+<p>
+  Description:
+  
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b> </b>
+  
+  
+</p>
+
+<p>Containing:
+  
+
+
+
+
+  
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+  
+
+
+
+  <!-- <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Ventoline inh pulv, disp 0,2 mg/dose
+  </h4>
+
+  
+  
+  
+  
+    LEGEMIDDELMERKEVAREID:
+    <b>
+      ID_5D69BDAB-E103-4E77-85FD-537ECBFE76A0
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b></b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 1</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          LEGEMIDDELPAKNINGID:
+          <b>
+            ID_DD4714E2-ABB5-43B4-92EA-846A03EEF3B5
+          </b>
+        
+          VARENUMMER:
+          <b>
+            124347
+          </b>
+        
+          VNR:
+          <b>
+            124347
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          </b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+  
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+    <!-- insert notes if present -->
+  
+
+
+
+
+            <!-- /inner-wrapper -->
+          <!-- /row -->
+        <!-- /container -->
+      <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  
+
+</p></div></hr></hr></hr></div></div></div></div></div></div></body></html>

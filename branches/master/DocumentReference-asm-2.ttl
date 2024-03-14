@@ -1,0 +1,45 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/DocumentReference/asm-2> a fhir:DocumentReference ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "asm-2"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/ASM"^^xsd:anyURI ;
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/ASM>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: DocumentReference</b><a name=\"asm-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource DocumentReference &quot;asm-2&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ASM.html\">Additional Support Material Profile</a></p></div><p><b>identifier</b>: id: 2</p><p><b>version</b>: 1.0</p><p><b>status</b>: current</p><p><b>docStatus</b>: final</p><p><b>subject</b>: <span>: Xarelto</span></p><p><b>author</b>: <span>: X-Plain Patient Education</span></p><p><b>description</b>: This patient education program explains Xarelto. Xarelto is also known as rivaroxaban. The program includes the following sections: what are the benefits of Xarelto, what are the risks of Xarelto, how does one take Xarelto, what are special considerations for Xarelto and when should you call your health care provider.</p><blockquote><p><b>content</b></p><h3>Attachments</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ContentType</b></td><td><b>Language</b></td><td><b>Url</b></td><td><b>Duration</b></td></tr><tr><td style=\"display: none\">*</td><td>audio/mpeg</td><td>en</td><td><a href=\"https://www.youtube.com/watch?v=nJxoFG9Y8xE\">https://www.youtube.com/watch?v=nJxoFG9Y8xE</a></td><td>715</td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://example.org"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "2" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.0"] ; # 
+  fhir:status [ fhir:v "current"] ; # 
+  fhir:docStatus [ fhir:v "final"] ; # 
+  fhir:subject [
+     fhir:display [ fhir:v "Xarelto" ]
+  ] ; # 
+  fhir:author ( [
+     fhir:display [ fhir:v "X-Plain Patient Education" ]
+  ] ) ; # 
+  fhir:description [ fhir:v "This patient education program explains Xarelto. Xarelto is also known as rivaroxaban. The program includes the following sections: what are the benefits of Xarelto, what are the risks of Xarelto, how does one take Xarelto, what are special considerations for Xarelto and when should you call your health care provider."] ; # 
+  fhir:content ( [
+     fhir:attachment [
+       fhir:contentType [ fhir:v "audio/mpeg" ] ;
+       fhir:language [ fhir:v "en" ] ;
+       fhir:url [ fhir:v "https://www.youtube.com/watch?v=nJxoFG9Y8xE"^^xsd:anyURI ] ;
+       fhir:duration [ fhir:v "715"^^xsd:decimal ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

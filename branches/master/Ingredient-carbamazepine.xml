@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Ingredient xmlns="http://hl7.org/fhir">
+  <id value="carbamazepine"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="carbamazepine"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;carbamazepine&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 33CM23913M (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href="ManufacturedItemDefinition-manitemcarbamazepine200.html">ManufacturedItemDefinition/manitemcarbamazepine200</a></p><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072072)</span></p><h3>Manufacturers</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Manufacturer</b></td></tr><tr><td style="display: none">*</td><td><a href="Organization-orgfujinaga.html">Organization/orgfujinaga</a> &quot;Fujinaga Pharmaceutical Co., Ltd.&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Concept</b></td></tr><tr><td style="display: none">*</td><td>carbamazepine <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (beta#33CM23913M)</span></td></tr></table><h3>Strengths</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style="display: none">*</td><td>200 mg</td><td>active ingredient - basis of strength <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+    <value value="33CM23913M"/>
+  </identifier>
+  <status value="active"/>
+  <for>
+    <reference value="ManufacturedItemDefinition/manitemcarbamazepine200"/>
+  </for>
+  <role>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000072072"/>
+      <display value="Active"/>
+    </coding>
+  </role>
+  <manufacturer>
+    <manufacturer>
+      <reference value="Organization/orgfujinaga"/>
+    </manufacturer>
+  </manufacturer>
+  <substance>
+    <code>
+      <concept>
+        <coding>
+          <system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/>
+          <code value="33CM23913M"/>
+          <display value="carbamazepine"/>
+        </coding>
+      </concept>
+    </code>
+    <strength>
+      <presentationQuantity>
+        <value value="200"/>
+        <unit value="mg"/>
+      </presentationQuantity>
+      <basis>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+          <code value="ACTIB"/>
+        </coding>
+        <text value="active ingredient - basis of strength"/>
+      </basis>
+    </strength>
+  </substance>
+</Ingredient>

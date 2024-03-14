@@ -1,0 +1,120 @@
+{
+  "resourceType" : "ExampleScenario",
+  "id" : "Scenario-pipeline",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ExampleScenario</b><a name=\"Scenario-pipeline\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ExampleScenario &quot;Scenario-pipeline&quot; </p></div><p><b>url</b>: <code>http://hl7.eu/fhir/ig/gravitate-health/ExampleScenario/Scenario-pipeline</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 2023-12-21 23:11:28+0000</p><p><b>publisher</b>: Gravitate Health Project</p><p><b>contact</b>: Gravitate Health Project: <a href=\"https://www.gravitatehealth.eu/\">https://www.gravitatehealth.eu/</a>, Gravitate Health Project: <a href=\"https://www.gravitatehealth.eu/\">https://www.gravitatehealth.eu/</a></p><blockquote><p><b>actor</b></p><p><b>key</b>: FS</p><p><b>type</b>: system</p><p><b>title</b>: FHIR Server</p></blockquote><blockquote><p><b>actor</b></p><p><b>key</b>: C</p><p><b>type</b>: system</p><p><b>title</b>: Client</p></blockquote><blockquote><p><b>instance</b></p><p><b>key</b>: 1</p><p><b>structureType</b>: Bundle (Details: http://hl7.org/fhir/fhir-types code Bundle = 'Bundle', stated as 'null')</p><p><b>title</b>: Raw ePI</p><p><b>description</b>: The epi without any annotations nor personalization: very similar to current pdf ones</p><p><b>content</b>: <a href=\"Bundle-bundlepackageleaflet-en-2d49ae46735143c1323423b7aea24165.html\">Bundle/bundlepackageleaflet-en-2d49ae46735143c1323423b7aea24165</a></p></blockquote><blockquote><p><b>instance</b></p><p><b>key</b>: 2</p><p><b>structureType</b>: Bundle (Details: http://hl7.org/fhir/fhir-types code Bundle = 'Bundle', stated as 'null')</p><p><b>title</b>: Preprocessed ePI</p><p><b>description</b>: The epi with annotations, however, this is not yet personalized and nothing is different in terms of user interface</p><p><b>content</b>: <a href=\"Bundle-Processedbundlekarvea.html\">Bundle/Processedbundlekarvea</a></p></blockquote><blockquote><p><b>instance</b></p><p><b>key</b>: 3</p><p><b>structureType</b>: Bundle (Details: http://hl7.org/fhir/fhir-types code Bundle = 'Bundle', stated as 'null')</p><p><b>title</b>: Focused ePI</p><p><b>description</b>: The epi with annotations and focused for a person. For this to happen, the IPS and similar artifact are brought in in order to adjust the ePI to the person's needs</p><p><b>content</b>: <a href=\"Bundle-enhancedddbundlekarvea.html\">Bundle/enhancedddbundlekarvea</a></p></blockquote><blockquote><p><b>process</b></p><p><b>title</b>: ePI Pipeline</p><blockquote><p><b>step</b></p><p><b>number</b>: 1</p><blockquote><p><b>operation</b></p><p><b>title</b>: Ask for Annotation</p><p><b>initiator</b>: C</p><p><b>receiver</b>: FS</p><h3>Requests</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>InstanceReference</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></blockquote></blockquote><blockquote><p><b>step</b></p><p><b>number</b>: 2</p><blockquote><p><b>operation</b></p><p><b>title</b>: Return annotated ePI</p><p><b>initiator</b>: FS</p><p><b>receiver</b>: C</p><h3>Requests</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>InstanceReference</b></td></tr><tr><td style=\"display: none\">*</td><td>2</td></tr></table></blockquote></blockquote><blockquote><p><b>step</b></p><p><b>number</b>: 3</p><blockquote><p><b>operation</b></p><p><b>title</b>: Ask focused ePI</p><p><b>initiator</b>: C</p><p><b>receiver</b>: FS</p><h3>Requests</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>InstanceReference</b></td></tr><tr><td style=\"display: none\">*</td><td>2</td></tr></table></blockquote></blockquote><blockquote><p><b>step</b></p><p><b>number</b>: 4</p><blockquote><p><b>operation</b></p><p><b>title</b>: Return focused ePI</p><p><b>initiator</b>: FS</p><p><b>receiver</b>: C</p><h3>Requests</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>InstanceReference</b></td></tr><tr><td style=\"display: none\">*</td><td>3</td></tr></table></blockquote></blockquote></blockquote></div>"
+  },
+  "url" : "http://hl7.eu/fhir/ig/gravitate-health/ExampleScenario/Scenario-pipeline",
+  "version" : "0.1.0",
+  "status" : "draft",
+  "date" : "2023-12-21T23:11:28+00:00",
+  "publisher" : "Gravitate Health Project",
+  "contact" : [{
+    "name" : "Gravitate Health Project",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.gravitatehealth.eu/"
+    }]
+  },
+  {
+    "name" : "Gravitate Health Project",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.gravitatehealth.eu/"
+    }]
+  }],
+  "actor" : [{
+    "key" : "FS",
+    "type" : "system",
+    "title" : "FHIR Server"
+  },
+  {
+    "key" : "C",
+    "type" : "system",
+    "title" : "Client"
+  }],
+  "instance" : [{
+    "key" : "1",
+    "structureType" : {
+      "system" : "http://hl7.org/fhir/fhir-types",
+      "code" : "Bundle"
+    },
+    "title" : "Raw ePI",
+    "description" : "The epi without any annotations nor personalization: very similar to current pdf ones",
+    "content" : {
+      "reference" : "Bundle/bundlepackageleaflet-en-2d49ae46735143c1323423b7aea24165"
+    }
+  },
+  {
+    "key" : "2",
+    "structureType" : {
+      "system" : "http://hl7.org/fhir/fhir-types",
+      "code" : "Bundle"
+    },
+    "title" : "Preprocessed ePI",
+    "description" : "The epi with annotations, however, this is not yet personalized and nothing is different in terms of user interface",
+    "content" : {
+      "reference" : "Bundle/Processedbundlekarvea"
+    }
+  },
+  {
+    "key" : "3",
+    "structureType" : {
+      "system" : "http://hl7.org/fhir/fhir-types",
+      "code" : "Bundle"
+    },
+    "title" : "Focused ePI",
+    "description" : "The epi with annotations and focused for a person. For this to happen, the IPS and similar artifact are brought in in order to adjust the ePI to the person's needs",
+    "content" : {
+      "reference" : "Bundle/enhancedddbundlekarvea"
+    }
+  }],
+  "process" : [{
+    "title" : "ePI Pipeline",
+    "step" : [{
+      "number" : "1",
+      "operation" : {
+        "title" : "Ask for Annotation",
+        "initiator" : "C",
+        "receiver" : "FS",
+        "request" : {
+          "instanceReference" : "1"
+        }
+      }
+    },
+    {
+      "number" : "2",
+      "operation" : {
+        "title" : "Return annotated ePI",
+        "initiator" : "FS",
+        "receiver" : "C",
+        "request" : {
+          "instanceReference" : "2"
+        }
+      }
+    },
+    {
+      "number" : "3",
+      "operation" : {
+        "title" : "Ask focused ePI",
+        "initiator" : "C",
+        "receiver" : "FS",
+        "request" : {
+          "instanceReference" : "2"
+        }
+      }
+    },
+    {
+      "number" : "4",
+      "operation" : {
+        "title" : "Return focused ePI",
+        "initiator" : "FS",
+        "receiver" : "C",
+        "request" : {
+          "instanceReference" : "3"
+        }
+      }
+    }]
+  }]
+}

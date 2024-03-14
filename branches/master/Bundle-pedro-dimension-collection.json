@@ -1,0 +1,220 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "pedro-dimension-collection",
+  "meta" : {
+    "profile" : ["http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/persona-collection"]
+  },
+  "identifier" : {
+    "system" : "http://hl7.eu/fhir/ig/gravitate-health/persona-dimension-collection",
+    "value" : "pd-collection-1"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-1",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "pedro-dimension-1",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-1&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: employment <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#EMP)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: Currently employed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#currenly-employed)</span></p></div>"
+      },
+      "status" : "final",
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs",
+          "code" : "EMP"
+        }]
+      },
+      "subject" : {
+        "display" : "Pedro-patient"
+      },
+      "effectiveDateTime" : "2019-01-01T00:00:00Z",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://example.org",
+          "code" : "currenly-employed",
+          "display" : "Currently employed"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-2",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "pedro-dimension-2",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-2&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Share info Willingly <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#SHW)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: Medium willingness <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#Medium)</span></p></div>"
+      },
+      "status" : "final",
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs",
+          "code" : "SHW"
+        }]
+      },
+      "subject" : {
+        "display" : "Pedro-patient"
+      },
+      "effectiveDateTime" : "2019-01-01T00:00:00Z",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://example.org",
+          "code" : "Medium",
+          "display" : "Medium willingness"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-3",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "pedro-dimension-3",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-3&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: WorkLife <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#WKL)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: Work Life Balance <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#work-life)</span></p></div>"
+      },
+      "status" : "final",
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs",
+          "code" : "WKL"
+        }]
+      },
+      "subject" : {
+        "display" : "Pedro-patient"
+      },
+      "effectiveDateTime" : "2019-01-01T00:00:00Z",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://example.org",
+          "code" : "work-life",
+          "display" : "Work Life Balance"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-4",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "pedro-dimension-4",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-4&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Extrovert/introvert <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#EVI)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: Introvert</p></div>"
+      },
+      "status" : "final",
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs",
+          "code" : "EVI"
+        }]
+      },
+      "subject" : {
+        "display" : "Pedro-patient"
+      },
+      "effectiveDateTime" : "2019-01-01T00:00:00Z",
+      "valueString" : "Introvert"
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-5",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "pedro-dimension-5",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-5\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-5&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Emotional/Rational <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#ER)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: 4</p></div>"
+      },
+      "status" : "final",
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs",
+          "code" : "ER"
+        }]
+      },
+      "subject" : {
+        "display" : "Pedro-patient"
+      },
+      "effectiveDateTime" : "2019-01-01T00:00:00Z",
+      "valueInteger" : 4
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-6",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "pedro-dimension-6",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-6\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-6&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Health Literacy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#HL)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: medium-high literacy</p></div>"
+      },
+      "status" : "final",
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs",
+          "code" : "HL"
+        }]
+      },
+      "subject" : {
+        "display" : "Pedro-patient"
+      },
+      "effectiveDateTime" : "2019-01-01T00:00:00Z",
+      "valueString" : "medium-high literacy"
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-7",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "pedro-dimension-7",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-7\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-7&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Digital Literacy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#DL)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: High literacy</p></div>"
+      },
+      "status" : "final",
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs",
+          "code" : "DL"
+        }]
+      },
+      "subject" : {
+        "display" : "Pedro-patient"
+      },
+      "effectiveDateTime" : "2019-01-01T00:00:00Z",
+      "valueString" : "High literacy"
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-8",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "pedro-dimension-8",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-8\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-8&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Tool Support Interest <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#TSI)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: Very Willing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#VW)</span></p></div>"
+      },
+      "status" : "final",
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs",
+          "code" : "TSI"
+        }]
+      },
+      "subject" : {
+        "display" : "Pedro-patient"
+      },
+      "effectiveDateTime" : "2019-01-01T00:00:00Z",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://example.org",
+          "code" : "VW",
+          "display" : "Very Willing"
+        }]
+      }
+    }
+  }]
+}

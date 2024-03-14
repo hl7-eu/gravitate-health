@@ -1,0 +1,1989 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Bundle/bundle-processed-pt-2d49ae46735143c1323423b7aea24165> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "bundle-processed-pt-2d49ae46735143c1323423b7aea24165"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "pt"] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "https://www.gravitatehealth.eu/sid/doc"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/97/049/001-pt" ]
+  ] ; # 
+  fhir:type [ fhir:v "document"] ; # 
+  fhir:timestamp [ fhir:v "2023-06-27T10:09:22Z"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-processed-pt-f4d45353edcb21af3718d3a0df94a4d8"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-processed-pt-f4d45353edcb21af3718d3a0df94a4d8> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-a40c2367ed3c1c715eacd432105752a0"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-a40c2367ed3c1c715eacd432105752a0> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-hypromellose"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-hypromellose> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-macrogol3000"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-macrogol3000> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-lactosemonohydrate"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-lactosemonohydrate> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-silicondioxide"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-silicondioxide> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-titaniumdioxide"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-titaniumdioxide> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-irbesartan"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-irbesartan> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-croscarmellosesodium"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-croscarmellosesodium> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-microcrystallinecellulose"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-microcrystallinecellulose> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-magnesiumstearate"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-magnesiumstearate> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-carnaubawax"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-carnaubawax> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-irbesartan"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-irbesartan> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee0"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee0> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee1"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee1> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee2"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee2> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee3"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee3> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-511671db37e83e520b00f8a0d817dc96"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-511671db37e83e520b00f8a0d817dc96> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Organization/man-4bb7a752921434fd5f9921b5b9473eda"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Organization/man-4bb7a752921434fd5f9921b5b9473eda> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-d91b269b209aaa5538a1bfafd1a7434d"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-d91b269b209aaa5538a1bfafd1a7434d> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-f3f2f89544dfc5d20216861bcf90c0c5"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-f3f2f89544dfc5d20216861bcf90c0c5> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-5763619e2b501aeeab53677bd09d5cbf"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-5763619e2b501aeeab53677bd09d5cbf> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-9b1d5d261d22694685deb35714ec08ea"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-9b1d5d261d22694685deb35714ec08ea> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-diabetes-mellitus"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-diabetes-mellitus> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-pregnancy"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-pregnancy> )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-processed-pt-f4d45353edcb21af3718d3a0df94a4d8> a fhir:Composition ;
+  fhir:id [ fhir:v "composition-processed-pt-f4d45353edcb21af3718d3a0df94a4d8"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "pt"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt\" lang=\"pt\"><a name=\"Composition_composition-processed-pt-f4d45353edcb21af3718d3a0df94a4d8\"> </a><p><b>Generated Narrative: Composition</b><a name=\"composition-processed-pt-f4d45353edcb21af3718d3a0df94a4d8\"> </a><a name=\"hccomposition-processed-pt-f4d45353edcb21af3718d3a0df94a4d8\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;composition-processed-pt-f4d45353edcb21af3718d3a0df94a4d8&quot;  (Language &quot;pt&quot;) </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><blockquote><p><b>HtmlElementLink</b></p><blockquote><p><b>url</b></p><code>elementClass</code></blockquote><p><b>value</b>: pregnancyCategory</p><blockquote><p><b>url</b></p><code>concept</code></blockquote><p><b>value</b>: Pregnancy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#77386006)</span></p></blockquote><blockquote><p><b>HtmlElementLink</b></p><blockquote><p><b>url</b></p><code>elementClass</code></blockquote><p><b>value</b>: breastfeedingCategory</p><blockquote><p><b>url</b></p><code>concept</code></blockquote><p><b>value</b>: Normal breast feeding (finding) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#69840006)</span></p></blockquote><blockquote><p><b>HtmlElementLink</b></p><blockquote><p><b>url</b></p><code>elementClass</code></blockquote><p><b>value</b>: indication</p><blockquote><p><b>url</b></p><code>concept</code></blockquote><p><b>value</b>: ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400</p></blockquote><blockquote><p><b>HtmlElementLink</b></p><blockquote><p><b>url</b></p><code>elementClass</code></blockquote><p><b>value</b>: contraindication</p><blockquote><p><b>url</b></p><code>concept</code></blockquote><p><b>value</b>: Contraindicated (qualifier value) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#410536001)</span></p></blockquote><blockquote><p><b>HtmlElementLink</b></p><blockquote><p><b>url</b></p><code>elementClass</code></blockquote><p><b>value</b>: contra-indication-pregnancy</p><blockquote><p><b>url</b></p><code>concept</code></blockquote><p><b>value</b>: ClinicalUseDefinition/contraindication-pregnancy</p></blockquote><blockquote><p><b>HtmlElementLink</b></p><blockquote><p><b>url</b></p><code>elementClass</code></blockquote><p><b>value</b>: contra-indication-kidney</p><blockquote><p><b>url</b></p><code>concept</code></blockquote><p><b>value</b>: ClinicalUseDefinition/contraindication-kidney</p></blockquote><blockquote><p><b>HtmlElementLink</b></p><blockquote><p><b>url</b></p><code>elementClass</code></blockquote><p><b>value</b>: contra-indication-diabetes-mellitus</p><blockquote><p><b>url</b></p><code>concept</code></blockquote><p><b>value</b>: ClinicalUseDefinition/contraindication-diabetes-mellitus</p></blockquote><blockquote><p><b>HtmlElementLink</b></p><blockquote><p><b>url</b></p><code>elementClass</code></blockquote><p><b>value</b>: lactose</p><blockquote><p><b>url</b></p><code>concept</code></blockquote><p><b>value</b>: Primary lactose intolerance <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#190751001)</span></p></blockquote><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/</code>/karvea-pt-processed</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000155538)</span></p><p><b>category</b>: Processed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-epicategory-cs.html\">Category of EPI</a>#P)</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href=\"#Organization_mah-511671db37e83e520b00f8a0d817dc96\">See above (Organization/mah-511671db37e83e520b00f8a0d817dc96)</a></p><p><b>title</b>: TEST PURPOSES ONLY - Karvea</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td>Official <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html\">Composition Attestation Mode</a>#official)</span></td><td>2022-02-16 13:28:17+0000</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "elementClass"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "pregnancyCategory" ]
+     ] [
+       fhir:url [ fhir:v "concept"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableReference ;
+         fhir:concept [
+           fhir:coding ( [
+             a sct:77386006 ;
+             fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "77386006" ] ;
+             fhir:display [ fhir:v "Pregnancy" ]
+           ] )
+         ]
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"^^xsd:anyURI ]
+  ] [
+     fhir:extension ( [
+       fhir:url [ fhir:v "elementClass"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "breastfeedingCategory" ]
+     ] [
+       fhir:url [ fhir:v "concept"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableReference ;
+         fhir:concept [
+           fhir:coding ( [
+             a sct:69840006 ;
+             fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "69840006" ] ;
+             fhir:display [ fhir:v "Normal breast feeding (finding)" ]
+           ] )
+         ]
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"^^xsd:anyURI ]
+  ] [
+     fhir:extension ( [
+       fhir:url [ fhir:v "elementClass"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "indication" ]
+     ] [
+       fhir:url [ fhir:v "concept"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableReference ;
+         fhir:reference [
+           fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400> ;
+           fhir:reference [ fhir:v "ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400" ]
+         ]
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"^^xsd:anyURI ]
+  ] [
+     fhir:extension ( [
+       fhir:url [ fhir:v "elementClass"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "contraindication" ]
+     ] [
+       fhir:url [ fhir:v "concept"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableReference ;
+         fhir:concept [
+           fhir:coding ( [
+             a sct:410536001 ;
+             fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "410536001" ] ;
+             fhir:display [ fhir:v "Contraindicated (qualifier value)" ]
+           ] )
+         ]
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"^^xsd:anyURI ]
+  ] [
+     fhir:extension ( [
+       fhir:url [ fhir:v "elementClass"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "contra-indication-pregnancy" ]
+     ] [
+       fhir:url [ fhir:v "concept"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableReference ;
+         fhir:reference [
+           fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-pregnancy> ;
+           fhir:reference [ fhir:v "ClinicalUseDefinition/contraindication-pregnancy" ]
+         ]
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"^^xsd:anyURI ]
+  ] [
+     fhir:extension ( [
+       fhir:url [ fhir:v "elementClass"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "contra-indication-kidney" ]
+     ] [
+       fhir:url [ fhir:v "concept"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableReference ;
+         fhir:reference [
+           fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney> ;
+           fhir:reference [ fhir:v "ClinicalUseDefinition/contraindication-kidney" ]
+         ]
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"^^xsd:anyURI ]
+  ] [
+     fhir:extension ( [
+       fhir:url [ fhir:v "elementClass"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "contra-indication-diabetes-mellitus" ]
+     ] [
+       fhir:url [ fhir:v "concept"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableReference ;
+         fhir:reference [
+           fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-diabetes-mellitus> ;
+           fhir:reference [ fhir:v "ClinicalUseDefinition/contraindication-diabetes-mellitus" ]
+         ]
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"^^xsd:anyURI ]
+  ] [
+     fhir:extension ( [
+       fhir:url [ fhir:v "elementClass"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "lactose" ]
+     ] [
+       fhir:url [ fhir:v "concept"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableReference ;
+         fhir:concept [
+           fhir:coding ( [
+             a sct:190751001 ;
+             fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "190751001" ] ;
+             fhir:display [ fhir:v "Primary lactose intolerance" ]
+           ] )
+         ]
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "karvea-pt-processed" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155538" ]
+     ] ) ;
+     fhir:text [ fhir:v "Package Leaflet" ]
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "P" ] ;
+       fhir:display [ fhir:v "Processed" ]
+     ] )
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2022-02-16T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-511671db37e83e520b00f8a0d817dc96> ;
+     fhir:reference [ fhir:v "Organization/mah-511671db37e83e520b00f8a0d817dc96" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "TEST PURPOSES ONLY - Karvea"] ; # 
+  fhir:attester ( [
+     fhir:mode [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/composition-attestation-mode"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "official" ]
+       ] )
+     ] ;
+     fhir:time [ fhir:v "2022-02-16T13:28:17Z"^^xsd:dateTime ]
+  ] ) ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "B. Package Leaflet" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000155538" ]
+       ] ) ;
+       fhir:text [ fhir:v "B. PACKAGE LEAFLET" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "Package leaflet: Information for the user" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "Package leaflet: Information for the user" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Karvea 300 mg comprimidos</p><p>irbesartan</p><p>Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois contém informação importante para si.</p><ul><li>Conserve este folheto. Pode ter necessidade de o ler novamente.</li><li>Caso ainda tenha dúvidas, fale com o seu médico ou farmacêutico.</li><li>Este medicamento foi receitado apenas para si. Não deve dá-lo a outros; o medicamento pode serlhes prejudicial mesmo que apresentem os mesmos sinais de doença.</li><li>Se tiver quaisquer efeitos secundários, incluindo efeitos secundários não indicados neste folheto, fale com o seu médico ou farmacêutico.</li></ul></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "What is in this leaflet" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "What is in this leaflet" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>O que contém este folheto:</strong></p><ol><li>O que é Karvea e para que é utilizado</li><li>O que precisa de saber antes de tomar Karvea</li><li>Como tomar Karvea</li><li>Efeitos secundários possíveis</li><li>Como conservar Karvea</li><li>Conteúdo da embalagem e outras informações</li></ol></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "1. What Karvea is and what it is used for" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "1. What Karvea is and what it is used for" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Karvea pertence a um grupo de medicamentos conhecidos como antagonistas dos recetores da angiotensina-II. A angiotensina-II é uma substância produzida no organismo que se liga a recetores nos vasos sanguíneos, provocando o seu estreitamento, o que conduz ao aumento da pressão arterial. Karvea impede a ligação da angiotensina-II a estes recetores, fazendo com que os vasos sanguíneos se relaxem e a pressão arterial baixe. Karvea atrasa a diminuição da função renal nos doentes com pressão arterial elevada e diabetes do tipo 2.</p><div class=\"indication\"><p>Karvea é usado em doentes adultos</p><ul><li>para tratar a pressão arterial elevada (hipertensão essencial)</li><li>para proteger os rins nos doentes com pressão arterial elevada, diabetes do tipo 2 e evidência laboratorial de insuficiência dos rins.</li></ul></div></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "2. What you need to know before you take Karvea" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "2. What you need to know before you take Karvea" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Não tome Karvea</strong></p><ul><li>se tem alergia ao irbesartan ou a qualquer outro componente deste medicamento (indicados na secção 6).</li><li class=\"contra-indication-pregnancy\">se tiver mais do que três meses de gravidez. (Também é preferível não tomar Karvea no início da gravidez - ver secção Gravidez</li><li><span class=\"contra-indication-diabetes-mellitus\">se tem diabetes </span>ou <span class=\"contra-indication-kidney\">função renal diminuída</span> e está a ser tratado com um medicamento que contém aliscireno para diminuir a pressão arterial</li></ul><p><strong>Advertências e precauções</strong></p><p>Fale com o seu médico antes de tomar Karvea e se alguma das seguintes situações se aplicar a si:</p><ul><li>se tiver vómitos ou diarreia prolongados</li><li>se sofrer de problemas nos rins</li><li>se sofre de problemas do coração</li><li>se receber Karvea para doença nos rins diabética. Neste caso, o seu médico pode efetuar-lhe análises ao sangue com regularidade, especialmente para medir os níveis sanguíneos de potássio em caso de insuficiência dos rins se desenvolver baixos níveis de açúcar no sangue (os sintomas podem incluir sudação, fraqueza, fome, tonturas, tremores, dor de cabeça, rubor ou palidez, dormência, batimento cardíaco acelerado e palpitante), especialmente se estiver a ser tratado para a diabetes.</li><li>se vai ser submetido a uma operação (cirurgia) ou se lhe vão ser administrados anestésicos</li><li>se está a tomar algum dos seguintes medicamentos para tratar a pressão arterial elevada:<ul><li>um inibidor da ECA (por exemplo enalapril, lisinopril, ramipril), em particular se tiver problemas nos rins relacionados com diabetes.</li><li>aliscireno</li></ul></li></ul><p>O seu médico pode verificar a sua função renal, pressão arterial e a quantidade de eletrólitos (por exemplo, o potássio) no seu sangue em intervalos regulares.</p><p>Ver também a informação sob o título “Não tome Karvea”</p><p>Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. Karvea não está recomendado no início da gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez que pode ser gravemente prejudicial para o bebé se utilizado a partir desta altura (ver secção Gravidez).</p><p><strong>Crianças e adolescentes</strong></p><p>Este medicamento não deve ser utilizado em crianças e adolescentes uma vez que não foram ainda completamente estabelecidas a segurança e eficácia.</p><p><strong>Outros medicamentos e Karvea</strong></p><p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado ou se vier a tomar outros medicamentos. O seu médico pode precisar de alterar a dose e/ou tomar outras precauções se estiver a tomar aliscireno. Se está a tomar um inibidor da ECA ou aliscireno (ver também informações sob os títulos “Não tome Karvea” e “Advertências e precauções”).</p><p><strong>Poderá necessitar de fazer algumas verificações ao sangue caso tome:</strong></p><ul><li>suplementos de potássio</li><li>substitutos de sal contendo potássio</li><li>medicamentos poupadores de potássio (como sejam alguns diuréticos)</li><li>medicamentos contendo lítio</li><li>repaglinida (medicamento utilizado para baixar os níveis de açúcar no sangue)</li></ul><p>Se tomar alguns medicamentos para as dores, denominados anti-inflamatórios não-esteroides, o efeito do irbesartan poderá ser reduzido.</p><p><strong>Karvea com alimentos e bebidas</strong></p><p>Karvea pode ser tomado com ou sem alimentos.</p><div class=\"pregnancyCategory\"><p><strong>Gravidez e amamentação</strong></p><p><strong>Gravidez</strong></p><p>Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. O seu médico normalmente aconselha-la-á a interromper Karvea antes de engravidar ou assim que estiver grávida e a tomar outro medicamento em vez de Karvea. Karvea não está recomendado no início da gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez que pode ser gravemente prejudicial para o bebé se utilizado a partir desta altura.</p></div><div class=\"breastfeedingCategory\"><p><strong>Amamentação</strong></p><p>Deverá informar o seu médico de que se encontra a amamentar ou que está prestes a iniciar o aleitamento. Karvea não está recomendado em mães a amamentar, especialmente se o bebé for recémnascido ou prematuro; nestes casos o seu médico poderá indicar outro tratamento.</p></div><p><strong>Condução de veículos e utilização de máquinas</strong></p><p>Não é provável que Karvea afete a sua capacidade de conduzir e usar máquinas. Contudo, ocasionalmente, podem ocorrer tonturas ou fadiga durante o tratamento da hipertensão. Se sentir estes efeitos, fale com o seu médico antes de tentar conduzir ou utilizar máquinas.</p><p><strong><span class=\"lactose\">Karvea contém lactose.</span> </strong>Se foi informado pelo seu médico de que é intolerante a alguns açúcares (por exemplo, a lactose), deverá contactá-lo antes de tomar este medicamento.</p><p><strong>Karvea contém sódio.</strong> Este medicamento contém menos de 1 mmol de sódio (23 mg) por comprimido, ou seja, é praticamente &#39;isento de sódio&#39;.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "3. How to take Karvea" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "3. How to take Karvea" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Tomar este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou farmacêutico se tiver dúvidas.</p><p><strong>Modo de administração</strong></p><p>Karvea destina-se à via oral. Engolir os comprimidos com uma quantidade suficiente de líquidos (por exemplo um copo com água). Pode tomar Karvea com ou sem alimentos. Tente tomar a dose diária sempre à mesma hora. É importante que continue a tomar Karvea até que o seu médico lhe dê outra indicação.</p><ul><li>Doentes com pressão arterial elevada</li></ul><p>A dose habitual é 150 mg uma vez ao dia. Em função da resposta da pressão arterial, a dose pode ser aumentada para 300 mg, uma vez ao dia.</p><ul><li>Doentes com pressão arterial elevada e diabetes do tipo 2 com doença nos rins</li></ul><p>Nos doentes com pressão arterial elevada e diabetes do tipo 2, a dose de manutenção preferível para o tratamento da doença renal associada é de 300 mg uma vez por dia.</p><p>O médico pode receitar uma dose mais baixa, sobretudo quando se inicia o tratamento em certos doentes, como sejam os que estão em hemodiálise ou os que têm mais de 75 anos.</p><p>O efeito hipotensor máximo deve obter-se às 4 a 6 semanas após o início do tratamento.</p><p><strong>Utilização em crianças e adolescentes</strong></p><p>Karvea não deve ser administrado a crianças com idade idade inferior a 18 anos. Se uma criança engolir alguns comprimidos, deve contactar o médico imediatamente.</p><p><strong>Se tomar mais Karvea do que deveria</strong></p><p>Se, acidentalmente, tomar demasiados comprimidos, contacte o médico imediatamente. Caso se tenha esquecido de tomar Karvea Se, acidentalmente, não tomar uma dose diária, tome a dose seguinte como planeado. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.</p><p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "4. Possible side effects" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "4. Possible side effects" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Como todos os medicamentos, este medicamento pode causar efeitos secundários, embora estes não se manifestem em todas as pessoas. Alguns destes efeitos podem ser graves e requerer cuidados médicos.</p><p>Tal como acontece com medicamentos semelhantes, em doentes a tomar irbesartan foram notificados casos raros de reações alérgicas na pele (erupção na pele, erupção na pele com comichão), assim como inchaço localizado da face, lábios e/ou língua. Se tiver algum destes sintomas, ou se tiver dificuldade em respirar, <strong>pare de tomar Karvea e contacte o médico imediatamente.</strong></p><p>A frequência dos efeitos adversos listados abaixo é definida utilizando a seguinte convenção:</p><p>Muito frequentes: podem afetar mais de 1 em 10 pessoas</p><p>Frequentes: podem afetar até 1 em 10 pessoas</p><p>Pouco frequentes: podem afetar até 1 em 100 pessoas</p><p>Os efeitos secundários notificados em estudos clínicos para os doentes tratados com Karvea foram:</p><ul><li>Muito frequentes (podem afetar mais de 1 em 10 pessoas): se tiver pressão arterial elevada e diabetes do tipo 2 com doença nos rins, as análises ao sangue podem mostrar níveis de potássio aumentados.</li><li>Frequentes (podem afetar até 1 em 10 pessoas): tonturas, mal estar/vómitos, fadiga e as análises ao sangue podem mostrar níveis de uma enzima que avalia a função muscular e cardíaca (enzima creatina cinase) aumentados. Em doentes com pressão arterial elevada e diabetes do tipo 2 com doença nos rins foram também notificados tonturas quando se passa da posição deitada ou sentada para a posição de pé, pressão arterial baixa quando se passa da posição deitada ou sentada para a posição de pé, dor nas articulações ou músculos e níveis de uma proteína nos glóbulos vermelhos (hemoglobina) diminuídos.</li><li>Pouco frequentes (podem afetar até 1 em 100 pessoas): ritmo cardíaco rápido, rubor (vermelhidão), tosse, diarreia, indigestão/pirose (azia), disfunção sexual (problemas com o desempenho sexual) e dor torácica.</li></ul><p>Alguns efeitos indesejáveis foram notificados desde a comercialização de Karvea. Os efeitos indesejáveis em que a frequência não é conhecida são: sensação de girar, cefaleias (dores de cabeça), alteração do paladar, zumbidos, cãimbras musculares, dor nas articulações e músculos, redução do número de glóbulos vermelhos (anemia - os sintomas podem incluir cansaço, dores de cabeça, falta de ar durante a prática de exercício físico, tonturas e aparência pálida), redução do número de plaquetas, função hepática (do fígado) alterada, níveis sanguíneos de potássio aumentados, compromisso da função dos rins e inflamação dos vasos sanguíneos pequenos afetando principalmente a pele (uma situação conhecida como vasculite leucocitoclásica) , reacções alérgicas graves (choque anafiláctico) e baixos níveis de açúcar no sangue. Foram também notificados casos pouco frequentes de icterícia (amarelecimento da pele e/ou da zona branca dos olhos).</p><p><strong>Comunicação de efeitos secundários</strong></p><p>Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos secundários diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "5. How to store Karvea" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "5. How to store Karvea" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Manter este medicamento fora da vista e do alcance das crianças.</p><p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, após VAL. O prazo de validade corresponde ao último dia do mês indicado.</p><p>Não conservar acima de 30ºC.</p><p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos que já não necessita. Estas medidas ajudarão a proteger o ambiente.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "6. Contents of the pack and other information" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "6. Contents of the pack and other information" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Qual a composição de Karvea</strong></p><ul><li>A substância ativa é o irbesartan. Cada comprimido de Karvea 300 mg contém 300 mg de irbesartan.</li><li>Os outros componentes são celulose microcristalina, croscarmelose sódica, lactose monohidratada, estearato de magnésio, sílica coloidal hidratada, amido de milho pré-gelificado e poloxamero 188. Por favor ver a secção 2 “Karvea contém lactose”.</li></ul><p><strong>Qual o aspeto de Karvea e conteúdo da embalagem</strong></p><p>Os comprimidos de Karvea 300 mg são de cor branca a esbranquiçada, biconvexos, de forma oval, com um coração marcado numa das faces e o número 2773 gravado na outra face.</p><p>Os comprimidos de Karvea a 300 mg são fornecidos em embalagens de 14, 28, 56 ou 98 comprimidos acondicionados em blister. Estão também disponíveis, para uso hospitalar, embalagens de 56 x 1 comprimido em blister para dose unitária.</p><p>É possível que não sejam comercializadas todas as apresentações.</p><p><strong>Titular da Autorização de Introdução no Mercado</strong> Sanofi Winthrop Industrie 82 avenue Raspail 94250 Gentilly França</p><p><strong>Fabricante</strong></p><p>SANOFI WINTHROP INDUSTRIE 1, rue de la Vierge Ambarès &amp; Lagrave F-33565 Carbon Blanc Cedex - França</p><p>SANOFI WINTHROP INDUSTRIE 30-36 Avenue Gustave Eiffel, BP 7166 F-37071 Tours Cedex 2 - França</p><p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da Autorização de Introdução no Mercado.</p><p><strong>België/Belgique/Belgien</strong> Sanofi Belgium Tél/Tel: +32 (0)2 710 54 00</p><p><strong>България</strong> Swixx Biopharma EOOD Тел.: +359 (0)2 4942 480</p><p><strong>Lietuva</strong> Swixx Biopharma UAB Tel: +370 5 236 91 40</p><p><strong>Luxembourg/Luxemburg</strong> Sanofi Belgium Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien)</p><p><strong>Česká republika</strong> sanofi-aventis, s.r.o. Tel: +420 233 086 111</p><p><strong>Magyarország</strong> SANOFI-AVENTIS Zrt. Tel.: +36 1 505 0050</p><p><strong>Danmark</strong> Sanofi A/S Tlf: +45 45 16 70 00</p><p><strong>Malta</strong> Sanofi S.r.l.. Tel: +39 02 39394275</p><p><strong>Deutschland</strong> Sanofi-Aventis Deutschland GmbH Tel: 0800 52 52 010 Tel. aus dem Ausland: +49 69 305 21 131</p><p><strong>Nederland</strong> Sanofi B.V. Tel: +31 20 245 4000</p><p><strong>Eesti</strong> Swixx Biopharma OÜ Tel: +372 640 10 30</p><p><strong>Norge</strong> sanofi-aventis Norge AS Tlf: +47 67 10 71 00</p><p><strong>Ελλάδα</strong> Sanofi-Aventis Μονοπρόσωπη AEBE Τηλ: +30 210 900 16 00</p><p><strong>Österreich</strong> sanofi-aventis GmbH Tel: +43 1 80 185 – 0</p><p><strong>España</strong> sanofi-aventis, S.A. Tel: +34 93 485 94 00</p><p><strong>Polska</strong> sanofi-aventis Sp. z o.o. Tel.: +48 22 280 00 00</p><p><strong>France</strong> Sanofi Winthrop Industrie Tél: 0 800 222 555 Appel depuis l’étranger : +33 1 57 63 23 23</p><p><strong>Portugal</strong> Sanofi - Produtos Farmacêuticos, Lda Tel: +351 21 35 89 400</p><p><strong>Hrvatska</strong> Swixx Biopharma d.o.o. Tel: +385 1 2078 500</p><p><strong>Ireland</strong> sanofi-aventis Ireland Ltd. Tel: +353 (0) 1 403 56 00</p><p><strong>România</strong> Sanofi Romania SRL Tel: +40 (0) 21 317 31 36</p><p><strong>Slovenija</strong> Swixx Biopharma d.o.o. Tel: +386 1 235 51 00</p><p><strong>Ísland</strong> Vistor hf. Sími: +354 535 7000</p><p><strong>Slovenská republika</strong> Swixx Biopharma s.r.o. Tel: +421 2 208 33 600</p><p><strong>Italia</strong> Sanofi S.r.l.Tel: 800536389</p><p><strong>Suomi/Finland</strong> Sanofi Oy Puh/Tel: +358 (0) 201 200 300</p><p><strong>Κύπρος</strong> C.A. Papaellinas Ltd. Τηλ: +357 22 741741</p><p><strong>Sverige</strong> Sanofi AB Tel: +46 (0)8 634 50 00</p><p><strong>Latvija</strong> Swixx Biopharma SIA Tel: +371 6 616 47 50</p><p><strong>United Kingdom (Northern Ireland)</strong> sanofi-aventis Ireland Ltd. T/A SANOFI Tel: +44 (0) 800 035 2525</p><p><strong>Este folheto foi revisto pela última vez em</strong></p><p>Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência Europeia de Medicamentos <a href=\"http://www.ema.europa.eu/\">http://www.ema.europa.eu/</a></p></div>"
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-a40c2367ed3c1c715eacd432105752a0> a fhir:ClinicalUseDefinition ;
+  fhir:id [ fhir:v "cud-a40c2367ed3c1c715eacd432105752a0"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ClinicalUseDefinition_cud-a40c2367ed3c1c715eacd432105752a0\"> </a><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"cud-a40c2367ed3c1c715eacd432105752a0\"> </a><a name=\"hccud-a40c2367ed3c1c715eacd432105752a0\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;cud-a40c2367ed3c1c715eacd432105752a0&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ClinicalUseDefinition-contraindication-uv-epi.html\">ClinicalUseDefinition Contraindication (ePI)</a></p></div><p><b>type</b>: contraindication</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></p><blockquote><p><b>contraindication</b></p><h3>DiseaseSymptomProcedures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Diabetis Mellitus <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (mdr#10012601)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:type [ fhir:v "contraindication"] ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] ) ; # 
+  fhir:contraindication [
+     fhir:diseaseSymptomProcedure [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/mdr"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "10012601" ] ;
+           fhir:display [ fhir:v "Diabetis Mellitus" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400> a fhir:ClinicalUseDefinition ;
+  fhir:id [ fhir:v "cud-585e364c14debe29f6c6b564138aa400"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ClinicalUseDefinition_cud-585e364c14debe29f6c6b564138aa400\"> </a><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"cud-585e364c14debe29f6c6b564138aa400\"> </a><a name=\"hccud-585e364c14debe29f6c6b564138aa400\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;cud-585e364c14debe29f6c6b564138aa400&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ClinicalUseDefinition-indication-uv-epi.html\">ClinicalUseDefinition Indication (ePI)</a></p></div><p><b>type</b>: indication</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></p><blockquote><p><b>indication</b></p><h3>DiseaseSymptomProcedures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Hypertension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (mdr#10020772)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:type [ fhir:v "indication"] ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] ) ; # 
+  fhir:indication [
+     fhir:diseaseSymptomProcedure [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/mdr"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "10020772" ] ;
+           fhir:display [ fhir:v "Hypertension" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8> a fhir:ClinicalUseDefinition ;
+  fhir:id [ fhir:v "cud-4fce9d5258f70f7d605059f97c24efa8"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ClinicalUseDefinition_cud-4fce9d5258f70f7d605059f97c24efa8\"> </a><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"cud-4fce9d5258f70f7d605059f97c24efa8\"> </a><a name=\"hccud-4fce9d5258f70f7d605059f97c24efa8\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;cud-4fce9d5258f70f7d605059f97c24efa8&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ClinicalUseDefinition-interaction-uv-epi.html\">ClinicalUseDefinition Interaction (ePI)</a></p></div><p><b>type</b>: interaction</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></p><blockquote><p><b>interaction</b></p><h3>Interactants</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Item[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>METHOTREXATE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#YL5FZ2Y5U1)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:type [ fhir:v "interaction"] ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] ) ; # 
+  fhir:interaction [
+     fhir:interactant ( [
+       fhir:item [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "YL5FZ2Y5U1" ] ;
+           fhir:display [ fhir:v "METHOTREXATE" ]
+         ] )
+       ]
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-hypromellose> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-karvea-hypromellose"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-karvea-hypromellose\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-karvea-hypromellose\"> </a><a name=\"hcingredient-for-karvea-hypromellose\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-karvea-hypromellose&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/3NXW29V3WO (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-dcaa4d32aa6658a8df831551503e52ee\">See above (ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee)</a></li><li><a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></li><li><a href=\"#AdministrableProductDefinition_ap-dcaa4d32aa6658a8df831551503e52ee\">See above (AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Hypromellose <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#3NXW29V3WO)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "3NXW29V3WO" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "3NXW29V3WO" ] ;
+           fhir:display [ fhir:v "Hypromellose" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-macrogol3000> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-karvea-macrogol3000"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-karvea-macrogol3000\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-karvea-macrogol3000\"> </a><a name=\"hcingredient-for-karvea-macrogol3000\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-karvea-macrogol3000&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/SA1B764746 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-dcaa4d32aa6658a8df831551503e52ee\">See above (ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee)</a></li><li><a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></li><li><a href=\"#AdministrableProductDefinition_ap-dcaa4d32aa6658a8df831551503e52ee\">See above (AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Macrogol 3000 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#SA1B764746)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "SA1B764746" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "SA1B764746" ] ;
+           fhir:display [ fhir:v "Macrogol 3000" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-lactosemonohydrate> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-karvea-lactosemonohydrate"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-karvea-lactosemonohydrate\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-karvea-lactosemonohydrate\"> </a><a name=\"hcingredient-for-karvea-lactosemonohydrate\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-karvea-lactosemonohydrate&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/EWQ57Q8I5X (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-dcaa4d32aa6658a8df831551503e52ee\">See above (ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee)</a></li><li><a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></li><li><a href=\"#AdministrableProductDefinition_ap-dcaa4d32aa6658a8df831551503e52ee\">See above (AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Lactose Monohydrate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#EWQ57Q8I5X)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EWQ57Q8I5X" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "EWQ57Q8I5X" ] ;
+           fhir:display [ fhir:v "Lactose Monohydrate" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-silicondioxide> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-karvea-silicondioxide"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-karvea-silicondioxide\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-karvea-silicondioxide\"> </a><a name=\"hcingredient-for-karvea-silicondioxide\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-karvea-silicondioxide&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/ETJ7Z6XBU4 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-dcaa4d32aa6658a8df831551503e52ee\">See above (ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee)</a></li><li><a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></li><li><a href=\"#AdministrableProductDefinition_ap-dcaa4d32aa6658a8df831551503e52ee\">See above (AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Silicon dioxide <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#ETJ7Z6XBU4)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "ETJ7Z6XBU4" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ETJ7Z6XBU4" ] ;
+           fhir:display [ fhir:v "Silicon dioxide" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-titaniumdioxide> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-karvea-titaniumdioxide"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-karvea-titaniumdioxide\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-karvea-titaniumdioxide\"> </a><a name=\"hcingredient-for-karvea-titaniumdioxide\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-karvea-titaniumdioxide&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/15FIX9V2JP (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-dcaa4d32aa6658a8df831551503e52ee\">See above (ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee)</a></li><li><a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></li><li><a href=\"#AdministrableProductDefinition_ap-dcaa4d32aa6658a8df831551503e52ee\">See above (AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Titanium Dioxide <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#15FIX9V2JP)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "15FIX9V2JP" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "15FIX9V2JP" ] ;
+           fhir:display [ fhir:v "Titanium Dioxide" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-irbesartan> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-karvea-irbesartan"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-karvea-irbesartan\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-karvea-irbesartan\"> </a><a name=\"hcingredient-for-karvea-irbesartan\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-karvea-irbesartan&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/J0E2756Z7N (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-dcaa4d32aa6658a8df831551503e52ee\">See above (ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee)</a></li><li><a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></li><li><a href=\"#AdministrableProductDefinition_ap-dcaa4d32aa6658a8df831551503e52ee\">See above (AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee)</a></li></ul><p><b>role</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>irbesartan <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#J0E2756Z7N)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>75 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "J0E2756Z7N" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072072" ] ;
+       fhir:display [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "J0E2756Z7N" ] ;
+           fhir:display [ fhir:v "irbesartan" ]
+         ] )
+       ]
+     ] ;
+     fhir:strength ( [
+       fhir:presentation [
+         a fhir:Quantity ;
+         fhir:value [ fhir:v "75"^^xsd:decimal ] ;
+         fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "mg" ]
+       ] ;
+       fhir:basis [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleClass"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ACTIB" ] ;
+           fhir:display [ fhir:v "active ingredient - basis of strength" ]
+         ] )
+       ]
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-croscarmellosesodium> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-karvea-croscarmellosesodium"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-karvea-croscarmellosesodium\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-karvea-croscarmellosesodium\"> </a><a name=\"hcingredient-for-karvea-croscarmellosesodium\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-karvea-croscarmellosesodium&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/M28OL1HH48 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-dcaa4d32aa6658a8df831551503e52ee\">See above (ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee)</a></li><li><a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></li><li><a href=\"#AdministrableProductDefinition_ap-dcaa4d32aa6658a8df831551503e52ee\">See above (AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Croscarmellose sodium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#M28OL1HH48)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "M28OL1HH48" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "M28OL1HH48" ] ;
+           fhir:display [ fhir:v "Croscarmellose sodium" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-microcrystallinecellulose> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-karvea-microcrystallinecellulose"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-karvea-microcrystallinecellulose\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-karvea-microcrystallinecellulose\"> </a><a name=\"hcingredient-for-karvea-microcrystallinecellulose\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-karvea-microcrystallinecellulose&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/OP1R32D61U (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-dcaa4d32aa6658a8df831551503e52ee\">See above (ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee)</a></li><li><a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></li><li><a href=\"#AdministrableProductDefinition_ap-dcaa4d32aa6658a8df831551503e52ee\">See above (AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Microcrystalline cellulose <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#OP1R32D61U)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "OP1R32D61U" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "OP1R32D61U" ] ;
+           fhir:display [ fhir:v "Microcrystalline cellulose" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-magnesiumstearate> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-karvea-magnesiumstearate"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-karvea-magnesiumstearate\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-karvea-magnesiumstearate\"> </a><a name=\"hcingredient-for-karvea-magnesiumstearate\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-karvea-magnesiumstearate&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/70097M6I30 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-dcaa4d32aa6658a8df831551503e52ee\">See above (ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee)</a></li><li><a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></li><li><a href=\"#AdministrableProductDefinition_ap-dcaa4d32aa6658a8df831551503e52ee\">See above (AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Magnesium stearate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#70097M6I30)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "70097M6I30" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "70097M6I30" ] ;
+           fhir:display [ fhir:v "Magnesium stearate" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-carnaubawax> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-karvea-carnaubawax"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-karvea-carnaubawax\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-karvea-carnaubawax\"> </a><a name=\"hcingredient-for-karvea-carnaubawax\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-karvea-carnaubawax&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/R12CBM0EIZ (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-dcaa4d32aa6658a8df831551503e52ee\">See above (ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee)</a></li><li><a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></li><li><a href=\"#AdministrableProductDefinition_ap-dcaa4d32aa6658a8df831551503e52ee\">See above (AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Carnauba wax <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#R12CBM0EIZ)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "R12CBM0EIZ" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "R12CBM0EIZ" ] ;
+           fhir:display [ fhir:v "Carnauba wax" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-irbesartan> a fhir:SubstanceDefinition ;
+  fhir:id [ fhir:v "substance-irbesartan"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"SubstanceDefinition_substance-irbesartan\"> </a><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"substance-irbesartan\"> </a><a name=\"hcsubstance-irbesartan\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;substance-irbesartan&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta/</code>/J0E2756Z7N (use: OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>description</b>: White to off-white, biconvex, and oval-shaped with a heart debossed on one side and the number 2771 engraved on the other side.</p><p><b>manufacturer</b>: <a href=\"#Organization_mah-511671db37e83e520b00f8a0d817dc96\">See above (Organization/mah-511671db37e83e520b00f8a0d817dc96)</a></p><h3>MolecularWeights</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td style=\"display: none\">*</td><td>exact <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></td><td>428.53</td></tr></table><h3>Structures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>MolecularFormula</b></td></tr><tr><td style=\"display: none\">*</td><td>C25H28N6O</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>(+)-6-methyleneandrosta-1,4-diene-3,17-dione</td><td>Chemical Name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#x)</span></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "J0E2756Z7N" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1"] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:description [ fhir:v "White to off-white, biconvex, and oval-shaped with a heart debossed on one side and the number 2771 engraved on the other side."] ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-511671db37e83e520b00f8a0d817dc96> ;
+     fhir:reference [ fhir:v "Organization/mah-511671db37e83e520b00f8a0d817dc96" ]
+  ] ) ; # 
+  fhir:molecularWeight ( [
+     fhir:type [
+       fhir:text [ fhir:v "exact" ]
+     ] ;
+     fhir:amount [
+       fhir:value [ fhir:v "428.53"^^xsd:decimal ]
+     ]
+  ] ) ; # 
+  fhir:structure [
+     fhir:molecularFormula [ fhir:v "C25H28N6O" ]
+  ] ; # 
+  fhir:name ( [
+     fhir:name [ fhir:v "(+)-6-methyleneandrosta-1,4-diene-3,17-dione" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "x" ] ;
+         fhir:display [ fhir:v "Chemical Name" ]
+       ] )
+     ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee> a fhir:AdministrableProductDefinition ;
+  fhir:id [ fhir:v "ap-dcaa4d32aa6658a8df831551503e52ee"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AdministrableProductDefinition_ap-dcaa4d32aa6658a8df831551503e52ee\"> </a><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"ap-dcaa4d32aa6658a8df831551503e52ee\"> </a><a name=\"hcap-dcaa4d32aa6658a8df831551503e52ee\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;ap-dcaa4d32aa6658a8df831551503e52ee&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/97/049/001</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></p><p><b>administrableDoseForm</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073664)</span></p><p><b>unitOfPresentation</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002152)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_mid-dcaa4d32aa6658a8df831551503e52ee\">See above (ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee)</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073619)</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>Human <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/97/049/001" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:formOf ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] ) ; # 
+  fhir:administrableDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000073664" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] )
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000002152" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] )
+  ] ; # 
+  fhir:producedFrom ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee" ]
+  ] ) ; # 
+  fhir:routeOfAdministration ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073619" ] ;
+         fhir:display [ fhir:v "Oral use" ]
+       ] )
+     ] ;
+     fhir:targetSpecies ( [
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000109093" ] ;
+           fhir:display [ fhir:v "Human" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee0> a fhir:RegulatedAuthorization ;
+  fhir:id [ fhir:v "authorizationdcaa4d32aa6658a8df831551503e52ee0"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"RegulatedAuthorization_authorizationdcaa4d32aa6658a8df831551503e52ee0\"> </a><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"authorizationdcaa4d32aa6658a8df831551503e52ee0\"> </a><a name=\"hcauthorizationdcaa4d32aa6658a8df831551503e52ee0\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;authorizationdcaa4d32aa6658a8df831551503e52ee0&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/97/049/010 (use: OFFICIAL)</p><p><b>subject</b>: <a href=\"#PackagedProductDefinition_ppd-d91b269b209aaa5538a1bfafd1a7434d\">See above (PackagedProductDefinition/ppd-d91b269b209aaa5538a1bfafd1a7434d)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000061)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>holder</b>: <a href=\"#Organization_mah-511671db37e83e520b00f8a0d817dc96\">See above (Organization/mah-511671db37e83e520b00f8a0d817dc96)</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/97/049/010" ]
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-d91b269b209aaa5538a1bfafd1a7434d> ;
+     fhir:reference [ fhir:v "PackagedProductDefinition/ppd-d91b269b209aaa5538a1bfafd1a7434d" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000061" ] ;
+       fhir:display [ fhir:v "Marketing Authorisation" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:holder [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-511671db37e83e520b00f8a0d817dc96> ;
+     fhir:reference [ fhir:v "Organization/mah-511671db37e83e520b00f8a0d817dc96" ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee1> a fhir:RegulatedAuthorization ;
+  fhir:id [ fhir:v "authorizationdcaa4d32aa6658a8df831551503e52ee1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"RegulatedAuthorization_authorizationdcaa4d32aa6658a8df831551503e52ee1\"> </a><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"authorizationdcaa4d32aa6658a8df831551503e52ee1\"> </a><a name=\"hcauthorizationdcaa4d32aa6658a8df831551503e52ee1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;authorizationdcaa4d32aa6658a8df831551503e52ee1&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/97/049/001 (use: OFFICIAL)</p><p><b>subject</b>: <a href=\"#PackagedProductDefinition_ppd-f3f2f89544dfc5d20216861bcf90c0c5\">See above (PackagedProductDefinition/ppd-f3f2f89544dfc5d20216861bcf90c0c5)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000061)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>holder</b>: <a href=\"#Organization_mah-511671db37e83e520b00f8a0d817dc96\">See above (Organization/mah-511671db37e83e520b00f8a0d817dc96)</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/97/049/001" ]
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-f3f2f89544dfc5d20216861bcf90c0c5> ;
+     fhir:reference [ fhir:v "PackagedProductDefinition/ppd-f3f2f89544dfc5d20216861bcf90c0c5" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000061" ] ;
+       fhir:display [ fhir:v "Marketing Authorisation" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:holder [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-511671db37e83e520b00f8a0d817dc96> ;
+     fhir:reference [ fhir:v "Organization/mah-511671db37e83e520b00f8a0d817dc96" ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee2> a fhir:RegulatedAuthorization ;
+  fhir:id [ fhir:v "authorizationdcaa4d32aa6658a8df831551503e52ee2"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"RegulatedAuthorization_authorizationdcaa4d32aa6658a8df831551503e52ee2\"> </a><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"authorizationdcaa4d32aa6658a8df831551503e52ee2\"> </a><a name=\"hcauthorizationdcaa4d32aa6658a8df831551503e52ee2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;authorizationdcaa4d32aa6658a8df831551503e52ee2&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/97/049/002 (use: OFFICIAL)</p><p><b>subject</b>: <a href=\"#PackagedProductDefinition_ppd-5763619e2b501aeeab53677bd09d5cbf\">See above (PackagedProductDefinition/ppd-5763619e2b501aeeab53677bd09d5cbf)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000061)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>holder</b>: <a href=\"#Organization_mah-511671db37e83e520b00f8a0d817dc96\">See above (Organization/mah-511671db37e83e520b00f8a0d817dc96)</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/97/049/002" ]
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-5763619e2b501aeeab53677bd09d5cbf> ;
+     fhir:reference [ fhir:v "PackagedProductDefinition/ppd-5763619e2b501aeeab53677bd09d5cbf" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000061" ] ;
+       fhir:display [ fhir:v "Marketing Authorisation" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:holder [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-511671db37e83e520b00f8a0d817dc96> ;
+     fhir:reference [ fhir:v "Organization/mah-511671db37e83e520b00f8a0d817dc96" ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee3> a fhir:RegulatedAuthorization ;
+  fhir:id [ fhir:v "authorizationdcaa4d32aa6658a8df831551503e52ee3"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"RegulatedAuthorization_authorizationdcaa4d32aa6658a8df831551503e52ee3\"> </a><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"authorizationdcaa4d32aa6658a8df831551503e52ee3\"> </a><a name=\"hcauthorizationdcaa4d32aa6658a8df831551503e52ee3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;authorizationdcaa4d32aa6658a8df831551503e52ee3&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/97/049/003 (use: OFFICIAL)</p><p><b>subject</b>: <a href=\"#PackagedProductDefinition_ppd-9b1d5d261d22694685deb35714ec08ea\">See above (PackagedProductDefinition/ppd-9b1d5d261d22694685deb35714ec08ea)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000061)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>holder</b>: <a href=\"#Organization_mah-511671db37e83e520b00f8a0d817dc96\">See above (Organization/mah-511671db37e83e520b00f8a0d817dc96)</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/97/049/003" ]
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-9b1d5d261d22694685deb35714ec08ea> ;
+     fhir:reference [ fhir:v "PackagedProductDefinition/ppd-9b1d5d261d22694685deb35714ec08ea" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000061" ] ;
+       fhir:display [ fhir:v "Marketing Authorisation" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:holder [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-511671db37e83e520b00f8a0d817dc96> ;
+     fhir:reference [ fhir:v "Organization/mah-511671db37e83e520b00f8a0d817dc96" ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-511671db37e83e520b00f8a0d817dc96> a fhir:Organization ;
+  fhir:id [ fhir:v "mah-511671db37e83e520b00f8a0d817dc96"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_mah-511671db37e83e520b00f8a0d817dc96\"> </a><p><b>Generated Narrative: Organization</b><a name=\"mah-511671db37e83e520b00f8a0d817dc96\"> </a><a name=\"hcmah-511671db37e83e520b00f8a0d817dc96\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;mah-511671db37e83e520b00f8a0d817dc96&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/ORG-100011564 (use: OFFICIAL)</p><p><b>active</b>: true</p><p><b>type</b>: Marketing authorisation holder <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000034)</span></p><p><b>name</b>: Sanofi Winthrop Industrie	</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>82 avenue Raspail Gentilly FR(WORK)</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/omswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "ORG-100011564" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000034" ] ;
+       fhir:display [ fhir:v "Marketing authorisation holder" ]
+     ] )
+  ] ) ; # 
+  fhir:name [ fhir:v "Sanofi Winthrop Industrie	"] ; # 
+  fhir:contact ( [
+     fhir:address [
+       fhir:use [ fhir:v "work" ] ;
+       fhir:type [ fhir:v "physical" ] ;
+       fhir:text [ fhir:v "82 avenue Raspail Gentilly FR" ] ;
+       fhir:line ( [ fhir:v "82 avenue Raspail" ] ) ;
+       fhir:city [ fhir:v "Gentilly" ] ;
+       fhir:postalCode [ fhir:v "94250" ] ;
+       fhir:country [ fhir:v "FR" ]
+     ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Organization/man-4bb7a752921434fd5f9921b5b9473eda> a fhir:Organization ;
+  fhir:id [ fhir:v "man-4bb7a752921434fd5f9921b5b9473eda"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_man-4bb7a752921434fd5f9921b5b9473eda\"> </a><p><b>Generated Narrative: Organization</b><a name=\"man-4bb7a752921434fd5f9921b5b9473eda\"> </a><a name=\"hcman-4bb7a752921434fd5f9921b5b9473eda\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;man-4bb7a752921434fd5f9921b5b9473eda&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/ORG-100011564 (use: OFFICIAL)</p><p><b>active</b>: true</p><p><b>type</b>: Manufacturer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000033)</span></p><p><b>name</b>: Sanofi Winthrop Industrie</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>1, rue de la Vierge Ambarès &amp; Lagrave FR(WORK)</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/omswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "ORG-100011564" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000033" ] ;
+       fhir:display [ fhir:v "Manufacturer" ]
+     ] )
+  ] ) ; # 
+  fhir:name [ fhir:v "Sanofi Winthrop Industrie"] ; # 
+  fhir:contact ( [
+     fhir:address [
+       fhir:use [ fhir:v "work" ] ;
+       fhir:type [ fhir:v "physical" ] ;
+       fhir:text [ fhir:v "1, rue de la Vierge Ambarès & Lagrave FR" ] ;
+       fhir:line ( [ fhir:v "1, rue de la Vierge" ] ) ;
+       fhir:city [ fhir:v "Ambarès & Lagrave" ] ;
+       fhir:postalCode [ fhir:v "33565" ] ;
+       fhir:country [ fhir:v "FR" ]
+     ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-d91b269b209aaa5538a1bfafd1a7434d> a fhir:PackagedProductDefinition ;
+  fhir:id [ fhir:v "ppd-d91b269b209aaa5538a1bfafd1a7434d"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-d91b269b209aaa5538a1bfafd1a7434d\"> </a><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"ppd-d91b269b209aaa5538a1bfafd1a7434d\"> </a><a name=\"hcppd-d91b269b209aaa5538a1bfafd1a7434d\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;ppd-d91b269b209aaa5538a1bfafd1a7434d&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/97/049/010 (use: OFFICIAL)</p><p><b>name</b>: Karvea 75 mg tablet 14</p><p><b>type</b>: Chemical Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 75 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></p><p><b>manufacturer</b>: <a href=\"#Organization_man-4bb7a752921434fd5f9921b5b9473eda\">See above (Organization/man-4bb7a752921434fd5f9921b5b9473eda)</a></p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073496)</span></p><p><b>quantity</b>: 14</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003222)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/97/049/010" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Karvea 75 mg tablet 14"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155527" ] ;
+       fhir:display [ fhir:v "Chemical Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:packageFor ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:containedItemQuantity ( [
+     fhir:value [ fhir:v "75"^^xsd:decimal ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "mg" ]
+  ] ) ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/man-4bb7a752921434fd5f9921b5b9473eda> ;
+     fhir:reference [ fhir:v "Organization/man-4bb7a752921434fd5f9921b5b9473eda" ]
+  ] ) ; # 
+  fhir:packaging [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073498" ] ;
+         fhir:display [ fhir:v "Box" ]
+       ] )
+     ] ;
+     fhir:quantity [ fhir:v "1"^^xsd:integer ] ;
+     fhir:material ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000003529" ] ;
+         fhir:display [ fhir:v "Cardboard" ]
+       ] )
+     ] ) ;
+     fhir:packaging ( [
+       fhir:identifier ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "123456" ]
+       ] ) ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000073496" ] ;
+           fhir:display [ fhir:v "Blister" ]
+         ] )
+       ] ;
+       fhir:quantity [ fhir:v "14"^^xsd:integer ] ;
+       fhir:material ( [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000003222" ] ;
+           fhir:display [ fhir:v "PolyVinyl Chloride" ]
+         ] )
+       ] ) ;
+       fhir:containedItem ( [
+         fhir:item [
+           fhir:reference [
+             fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> ;
+             fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee" ]
+           ]
+         ]
+       ] )
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-f3f2f89544dfc5d20216861bcf90c0c5> a fhir:PackagedProductDefinition ;
+  fhir:id [ fhir:v "ppd-f3f2f89544dfc5d20216861bcf90c0c5"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-f3f2f89544dfc5d20216861bcf90c0c5\"> </a><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"ppd-f3f2f89544dfc5d20216861bcf90c0c5\"> </a><a name=\"hcppd-f3f2f89544dfc5d20216861bcf90c0c5\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;ppd-f3f2f89544dfc5d20216861bcf90c0c5&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/97/049/001 (use: OFFICIAL)</p><p><b>name</b>: Karvea 75 mg tablet 28</p><p><b>type</b>: Chemical Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 75 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></p><p><b>manufacturer</b>: <a href=\"#Organization_man-4bb7a752921434fd5f9921b5b9473eda\">See above (Organization/man-4bb7a752921434fd5f9921b5b9473eda)</a></p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073496)</span></p><p><b>quantity</b>: 28</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003222)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/97/049/001" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Karvea 75 mg tablet 28"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155527" ] ;
+       fhir:display [ fhir:v "Chemical Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:packageFor ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:containedItemQuantity ( [
+     fhir:value [ fhir:v "75"^^xsd:decimal ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "mg" ]
+  ] ) ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/man-4bb7a752921434fd5f9921b5b9473eda> ;
+     fhir:reference [ fhir:v "Organization/man-4bb7a752921434fd5f9921b5b9473eda" ]
+  ] ) ; # 
+  fhir:packaging [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073498" ] ;
+         fhir:display [ fhir:v "Box" ]
+       ] )
+     ] ;
+     fhir:quantity [ fhir:v "1"^^xsd:integer ] ;
+     fhir:material ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000003529" ] ;
+         fhir:display [ fhir:v "Cardboard" ]
+       ] )
+     ] ) ;
+     fhir:packaging ( [
+       fhir:identifier ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "123456" ]
+       ] ) ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000073496" ] ;
+           fhir:display [ fhir:v "Blister" ]
+         ] )
+       ] ;
+       fhir:quantity [ fhir:v "28"^^xsd:integer ] ;
+       fhir:material ( [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000003222" ] ;
+           fhir:display [ fhir:v "PolyVinyl Chloride" ]
+         ] )
+       ] ) ;
+       fhir:containedItem ( [
+         fhir:item [
+           fhir:reference [
+             fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> ;
+             fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee" ]
+           ]
+         ]
+       ] )
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-5763619e2b501aeeab53677bd09d5cbf> a fhir:PackagedProductDefinition ;
+  fhir:id [ fhir:v "ppd-5763619e2b501aeeab53677bd09d5cbf"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-5763619e2b501aeeab53677bd09d5cbf\"> </a><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"ppd-5763619e2b501aeeab53677bd09d5cbf\"> </a><a name=\"hcppd-5763619e2b501aeeab53677bd09d5cbf\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;ppd-5763619e2b501aeeab53677bd09d5cbf&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/97/049/002 (use: OFFICIAL)</p><p><b>name</b>: Karvea 75 mg tablet 56</p><p><b>type</b>: Chemical Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 75 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></p><p><b>manufacturer</b>: <a href=\"#Organization_man-4bb7a752921434fd5f9921b5b9473eda\">See above (Organization/man-4bb7a752921434fd5f9921b5b9473eda)</a></p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073496)</span></p><p><b>quantity</b>: 56</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003222)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/97/049/002" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Karvea 75 mg tablet 56"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155527" ] ;
+       fhir:display [ fhir:v "Chemical Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:packageFor ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:containedItemQuantity ( [
+     fhir:value [ fhir:v "75"^^xsd:decimal ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "mg" ]
+  ] ) ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/man-4bb7a752921434fd5f9921b5b9473eda> ;
+     fhir:reference [ fhir:v "Organization/man-4bb7a752921434fd5f9921b5b9473eda" ]
+  ] ) ; # 
+  fhir:packaging [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073498" ] ;
+         fhir:display [ fhir:v "Box" ]
+       ] )
+     ] ;
+     fhir:quantity [ fhir:v "1"^^xsd:integer ] ;
+     fhir:material ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000003529" ] ;
+         fhir:display [ fhir:v "Cardboard" ]
+       ] )
+     ] ) ;
+     fhir:packaging ( [
+       fhir:identifier ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "123456" ]
+       ] ) ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000073496" ] ;
+           fhir:display [ fhir:v "Blister" ]
+         ] )
+       ] ;
+       fhir:quantity [ fhir:v "56"^^xsd:integer ] ;
+       fhir:material ( [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000003222" ] ;
+           fhir:display [ fhir:v "PolyVinyl Chloride" ]
+         ] )
+       ] ) ;
+       fhir:containedItem ( [
+         fhir:item [
+           fhir:reference [
+             fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> ;
+             fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee" ]
+           ]
+         ]
+       ] )
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-9b1d5d261d22694685deb35714ec08ea> a fhir:PackagedProductDefinition ;
+  fhir:id [ fhir:v "ppd-9b1d5d261d22694685deb35714ec08ea"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-9b1d5d261d22694685deb35714ec08ea\"> </a><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"ppd-9b1d5d261d22694685deb35714ec08ea\"> </a><a name=\"hcppd-9b1d5d261d22694685deb35714ec08ea\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;ppd-9b1d5d261d22694685deb35714ec08ea&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/97/049/003 (use: OFFICIAL)</p><p><b>name</b>: Karvea 75 mg tablet 98</p><p><b>type</b>: Chemical Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 75 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></p><p><b>manufacturer</b>: <a href=\"#Organization_man-4bb7a752921434fd5f9921b5b9473eda\">See above (Organization/man-4bb7a752921434fd5f9921b5b9473eda)</a></p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073496)</span></p><p><b>quantity</b>: 98</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003222)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/97/049/003" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Karvea 75 mg tablet 98"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155527" ] ;
+       fhir:display [ fhir:v "Chemical Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:packageFor ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:containedItemQuantity ( [
+     fhir:value [ fhir:v "75"^^xsd:decimal ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "mg" ]
+  ] ) ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/man-4bb7a752921434fd5f9921b5b9473eda> ;
+     fhir:reference [ fhir:v "Organization/man-4bb7a752921434fd5f9921b5b9473eda" ]
+  ] ) ; # 
+  fhir:packaging [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073498" ] ;
+         fhir:display [ fhir:v "Box" ]
+       ] )
+     ] ;
+     fhir:quantity [ fhir:v "1"^^xsd:integer ] ;
+     fhir:material ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000003529" ] ;
+         fhir:display [ fhir:v "Cardboard" ]
+       ] )
+     ] ) ;
+     fhir:packaging ( [
+       fhir:identifier ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "123456" ]
+       ] ) ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000073496" ] ;
+           fhir:display [ fhir:v "Blister" ]
+         ] )
+       ] ;
+       fhir:quantity [ fhir:v "98"^^xsd:integer ] ;
+       fhir:material ( [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000003222" ] ;
+           fhir:display [ fhir:v "PolyVinyl Chloride" ]
+         ] )
+       ] ) ;
+       fhir:containedItem ( [
+         fhir:item [
+           fhir:reference [
+             fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> ;
+             fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee" ]
+           ]
+         ]
+       ] )
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> a fhir:MedicinalProductDefinition ;
+  fhir:id [ fhir:v "mp873a1a47330e628770640f9c96c0761e"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\"> </a><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"mp873a1a47330e628770640f9c96c0761e\"> </a><a name=\"hcmp873a1a47330e628770640f9c96c0761e\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;mp873a1a47330e628770640f9c96c0761e&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/97/049/001, <code>https://www.who-umc.org/phpid</code>/0xF79CABF272B6A7EEF104DDDA44E82719</p><p><b>type</b>: Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-medicinal-product-type.html\">Medicinal Product Type</a>#MedicinalProduct)</span></p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-medicinal-product-domain.html\">Medicinal Product Domain</a>#Human)</span></p><p><b>status</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072084)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Karvea 75 mg tablet</p><p><b>type</b>: Full name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000001)</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Karvea</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: irbesartan</p><p><b>type</b>: Scientific name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000003)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 75 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: tablet</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style=\"display: none\">*</td><td>Denmark <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#DK)</span></td><td>Denmark <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#DK)</span></td><td>English <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-ietf3066.html\">Tags for the Identification of Languages</a>#en)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/97/049/001" ]
+  ] [
+     fhir:system [ fhir:v "https://www.who-umc.org/phpid"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "0xF79CABF272B6A7EEF104DDDA44E82719" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MedicinalProduct" ] ;
+       fhir:display [ fhir:v "Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:domain [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-domain"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Human" ] ;
+       fhir:display [ fhir:v "Human use" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:legalStatusOfSupply [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072084" ] ;
+       fhir:display [ fhir:v "Medicinal product subject to medical prescription" ]
+     ] )
+  ] ; # 
+  fhir:name ( [
+     fhir:productName [ fhir:v "Karvea 75 mg tablet" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "220000000001" ] ;
+         fhir:display [ fhir:v "Full name" ]
+       ] )
+     ] ;
+     fhir:part ( [
+       fhir:part [ fhir:v "Karvea" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000002" ] ;
+           fhir:display [ fhir:v "Invented name part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "irbesartan" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000003" ] ;
+           fhir:display [ fhir:v "Scientific name part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "75 mg" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000004" ] ;
+           fhir:display [ fhir:v "Strength part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "tablet" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000005" ] ;
+           fhir:display [ fhir:v "Pharmaceutical dose form part" ]
+         ] )
+       ]
+     ] ) ;
+     fhir:usage ( [
+       fhir:country [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "DK" ] ;
+           fhir:display [ fhir:v "Denmark" ]
+         ] )
+       ] ;
+       fhir:jurisdiction [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "DK" ] ;
+           fhir:display [ fhir:v "Denmark" ]
+         ] )
+       ] ;
+       fhir:language [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "en" ] ;
+           fhir:display [ fhir:v "English" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee> a fhir:ManufacturedItemDefinition ;
+  fhir:id [ fhir:v "mid-dcaa4d32aa6658a8df831551503e52ee"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ManufacturedItemDefinition_mid-dcaa4d32aa6658a8df831551503e52ee\"> </a><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"mid-dcaa4d32aa6658a8df831551503e52ee\"> </a><a name=\"hcmid-dcaa4d32aa6658a8df831551503e52ee\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;mid-dcaa4d32aa6658a8df831551503e52ee&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/97/049/001 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000073664)</span></p><p><b>unitOfPresentation</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002152)</span></p><p><b>manufacturer</b>: <a href=\"#Organization_man-4bb7a752921434fd5f9921b5b9473eda\">See above (Organization/man-4bb7a752921434fd5f9921b5b9473eda)</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/97/049/001" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:manufacturedDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000073664" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] )
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000002152" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/man-4bb7a752921434fd5f9921b5b9473eda> ;
+     fhir:reference [ fhir:v "Organization/man-4bb7a752921434fd5f9921b5b9473eda" ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney> a fhir:ClinicalUseDefinition ;
+  fhir:id [ fhir:v "contraindication-kidney"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ClinicalUseDefinition_contraindication-kidney\"> </a><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"contraindication-kidney\"> </a><a name=\"hccontraindication-kidney\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;contraindication-kidney&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ClinicalUseDefinition-contraindication-uv-epi.html\">ClinicalUseDefinition Contraindication (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/#/</code>/kidney function (use: OFFICIAL)</p><p><b>type</b>: contraindication</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></p><blockquote><p><b>contraindication</b></p><h3>DiseaseSymptomProcedures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Decreased renal function (finding) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#76114004)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/#/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "kidney function" ]
+  ] ) ; # 
+  fhir:type [ fhir:v "contraindication"] ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] ) ; # 
+  fhir:contraindication [
+     fhir:diseaseSymptomProcedure [
+       fhir:concept [
+         fhir:coding ( [
+           a sct:76114004 ;
+           fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "76114004" ] ;
+           fhir:display [ fhir:v "Decreased renal function (finding)" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-diabetes-mellitus> a fhir:ClinicalUseDefinition ;
+  fhir:id [ fhir:v "contraindication-diabetes-mellitus"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ClinicalUseDefinition_contraindication-diabetes-mellitus\"> </a><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"contraindication-diabetes-mellitus\"> </a><a name=\"hccontraindication-diabetes-mellitus\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;contraindication-diabetes-mellitus&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ClinicalUseDefinition-contraindication-uv-epi.html\">ClinicalUseDefinition Contraindication (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/#/</code>/diabetes-mellitus (use: OFFICIAL)</p><p><b>type</b>: contraindication</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></p><blockquote><p><b>contraindication</b></p><h3>DiseaseSymptomProcedures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Diabetes mellitus (disorder) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#73211009)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/#/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "diabetes-mellitus" ]
+  ] ) ; # 
+  fhir:type [ fhir:v "contraindication"] ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] ) ; # 
+  fhir:contraindication [
+     fhir:diseaseSymptomProcedure [
+       fhir:concept [
+         fhir:coding ( [
+           a sct:73211009 ;
+           fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "73211009" ] ;
+           fhir:display [ fhir:v "Diabetes mellitus (disorder)" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-pregnancy> a fhir:ClinicalUseDefinition ;
+  fhir:id [ fhir:v "contraindication-pregnancy"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ClinicalUseDefinition_contraindication-pregnancy\"> </a><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"contraindication-pregnancy\"> </a><a name=\"hccontraindication-pregnancy\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;contraindication-pregnancy&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ClinicalUseDefinition-contraindication-uv-epi.html\">ClinicalUseDefinition Contraindication (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/#/</code>/pregnancy (use: OFFICIAL)</p><p><b>type</b>: contraindication</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_mp873a1a47330e628770640f9c96c0761e\">See above (MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e)</a></p><blockquote><p><b>contraindication</b></p><h3>DiseaseSymptomProcedures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Pregnancy, function (observable entity) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#289908002)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/#/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "pregnancy" ]
+  ] ) ; # 
+  fhir:type [ fhir:v "contraindication"] ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] ) ; # 
+  fhir:contraindication [
+     fhir:diseaseSymptomProcedure [
+       fhir:concept [
+         fhir:coding ( [
+           a sct:289908002 ;
+           fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "289908002" ] ;
+           fhir:display [ fhir:v "Pregnancy, function (observable entity)" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

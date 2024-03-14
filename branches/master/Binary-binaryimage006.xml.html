@@ -1,0 +1,347 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>binaryimage006 - XML Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.125"}
+    h3,h4,h5,h6{--heading-prefix:"16.125"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>binaryimage006</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Binary-binaryimage006.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Binary-binaryimage006.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Binary-binaryimage006.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: binaryimage006 - XML Representation</h2>
+
+
+<p><a href="Binary-binaryimage006.xml" no-download="true">Raw xml</a> | <a href="Binary-binaryimage006.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml" style="white-space: pre; text-wrap: nowrap;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
+
+&lt;<a href="http://hl7.org/fhir/R5/binary.html#Binary">Binary</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/binary.html#Binary.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;binaryimage006&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/binary.html#Binary.contentType">contentType</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;image/jpeg&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/binary.html#Binary.data">data</a>
+        <a href="http://hl7.org/fhir/R5/datatypes.html#base64Binary">value</a>=&quot;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&quot;/&gt;
+&lt;/Binary&gt;</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Jan 21, 2024 22:55+0000">2024-01-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

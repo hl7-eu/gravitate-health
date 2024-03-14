@@ -1,0 +1,136 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/List/listKarveaProc> a fhir:List ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "listKarveaProc"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>List of all processed ePIs associated with Karvea</h2><table class=\"clstu\"><tr><td>Date: Feb 7, 2015, 1:28:17 PMMode: workingStatus: currentCode: ePI Master List</td></tr><tr><td>Subject: <a href=\"MedicinalProductDefinition-mp873a1a47330e628770640f9c96c0761e.html\">MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e</a></td></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td><td>Date</td><td>Flag</td></tr><tr><td><a href=\"Bundle-bundle-processed-pt-2d49ae46735143c1323423b7aea24165.html\">Bundle/bundle-processed-pt-2d49ae46735143c1323423b7aea24165</a></td><td>Feb 7, 2015, 1:28:17 PM</td><td>Unchanged</td></tr><tr><td><a href=\"Bundle-Processedbundlekarvea.html\">Bundle/Processedbundlekarvea</a></td><td>Feb 7, 2016, 1:28:17 PM</td><td>Unchanged</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://spor.ema.europa.eu/v2/medicine-name"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "Karvea" ]
+  ] [
+     fhir:system [ fhir:v "http://spor.ema.europa.eu/v2/marketing-authorisation-numbers"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/97/049/001" ]
+  ] [
+     fhir:system [ fhir:v "https://www.gravitatehealth.eu/sid/doc"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/97/049/001/001" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "current"] ; # 
+  fhir:mode [ fhir:v "working"] ; # 
+  fhir:title [ fhir:v "List of all processed ePIs associated with Karvea"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/example-pi-list-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "00000021213" ] ;
+       fhir:display [ fhir:v "ePI Master List" ]
+     ] )
+  ] ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e> ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/medicine-name"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Karvea" ] ;
+         fhir:display [ fhir:v "Karvea" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "mah-code" ] ;
+         fhir:display [ fhir:v "None" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/active-substance"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "acive-substance-code" ] ;
+         fhir:display [ fhir:v "None" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/domain"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000004"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000000012" ] ;
+         fhir:display [ fhir:v "H" ]
+       ]
+     ] ) ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:flag [
+       fhir:coding ( [
+         fhir:system [ fhir:v "urn:oid:1.2.36.1.2001.1001.101.104.16592"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "01" ]
+       ] ) ;
+       fhir:text [ fhir:v "Unchanged" ]
+     ] ;
+     fhir:date [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime ] ;
+     fhir:item [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Bundle/bundle-processed-pt-2d49ae46735143c1323423b7aea24165> ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/documentType"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000155531"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ] ;
+           fhir:display [ fhir:v "B. PACKAGE LEAFLET" ]
+         ]
+       ] [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/language"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000072057"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000072251" ] ;
+           fhir:display [ fhir:v "pt" ]
+         ]
+       ] ) ;
+       fhir:reference [ fhir:v "Bundle/bundle-processed-pt-2d49ae46735143c1323423b7aea24165" ]
+     ]
+  ] [
+     fhir:flag [
+       fhir:coding ( [
+         fhir:system [ fhir:v "urn:oid:1.2.36.1.2001.1001.101.104.16592"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "01" ]
+       ] ) ;
+       fhir:text [ fhir:v "Unchanged" ]
+     ] ;
+     fhir:date [ fhir:v "2016-02-07T13:28:17Z"^^xsd:dateTime ] ;
+     fhir:item [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Bundle/Processedbundlekarvea> ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/documentType"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000155531"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ] ;
+           fhir:display [ fhir:v "B. FOLHETO INFORMATIVO" ]
+         ]
+       ] [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/language"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000072057"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000072147" ] ;
+           fhir:display [ fhir:v "en" ]
+         ]
+       ] ) ;
+       fhir:reference [ fhir:v "Bundle/Processedbundlekarvea" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,54 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/subsimvastatin20> a fhir:SubstanceDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "subsimvastatin20"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"subsimvastatin20\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;subsimvastatin20&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id: AGG2FN16EV (use: OFFICIAL)</p><p><b>version</b>: 39</p><p><b>status</b>: Validated (UNII) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#1)</span></p><p><b>description</b>: White to pale yellow</p><p><b>manufacturer</b>: <a href=\"Organization-orgohara.html\">Organization/orgohara</a> &quot;Ohara Pharmaceutical Co., Ltd.&quot;</p><h3>Structures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>MolecularFormula</b></td></tr><tr><td style=\"display: none\">*</td><td>C25H38O5</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>simvastatin</td><td>Chemical Name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#1)</span></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "AGG2FN16EV" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "39"] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1" ]
+     ] ) ;
+     fhir:text [ fhir:v "Validated (UNII)" ]
+  ] ; # 
+  fhir:description [ fhir:v "White to pale yellow"] ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgohara> ;
+     fhir:reference [ fhir:v "Organization/orgohara" ]
+  ] ) ; # 
+  fhir:structure [
+     fhir:molecularFormula [ fhir:v "C25H38O5" ]
+  ] ; # 
+  fhir:name ( [
+     fhir:name [ fhir:v "simvastatin" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "1" ]
+       ] ) ;
+       fhir:text [ fhir:v "Chemical Name" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

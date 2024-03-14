@@ -1,0 +1,701 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI document Bundle for zithromax (azithromycin) 250 mg capsules - zithromax (azithromycin) 250 mg capsules -  النشرة الداخلية: معلومات للمريض - كبسولات زيثروماكس® 250 مجم - XML Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.34"}
+    h3,h4,h5,h6{--heading-prefix:"16.34"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for zithromax (azithromycin) 250 mg capsules - zithromax (azithromycin) 250 mg capsules -  النشرة الداخلية: معلومات للمريض - كبسولات زيثروماكس® 250 مجم</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-bundlepackageleaflet-379d610f9c96d541562699215b0864127.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-379d610f9c96d541562699215b0864127.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-379d610f9c96d541562699215b0864127.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: ePI document Bundle for zithromax (azithromycin) 250 mg capsules - zithromax (azithromycin) 250 mg capsules -  النشرة الداخلية: معلومات للمريض - كبسولات زيثروماكس® 250 مجم - XML Representation</h2>
+
+
+<p><a href="Bundle-bundlepackageleaflet-379d610f9c96d541562699215b0864127.xml" no-download="true">Raw xml</a> | <a href="Bundle-bundlepackageleaflet-379d610f9c96d541562699215b0864127.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml" style="white-space: pre; text-wrap: nowrap;"><code style="white-space: pre; text-wrap: nowrap;">
+
+&lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle">Bundle</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;bundlepackageleaflet-379d610f9c96d541562699215b0864127&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&quot;/&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;ar&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.jfda.jo&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;placeholder&quot;/&gt;
+  &lt;/identifier&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;document&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.timestamp">timestamp</a> <a href="http://hl7.org/fhir/R5/datatypes.html#instant">value</a>=&quot;2023-06-20T13:28:17Z&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/Composition/compositionzi1946d2b12fecbbb0310cd8c196c98a59&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition">Composition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;compositionzi1946d2b12fecbbb0310cd8c196c98a59&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&quot;/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;ar&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;ar&quot; lang=&quot;ar&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=&quot;compositionzi1946d2b12fecbbb0310cd8c196c98a59&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Resource Composition &amp;quot;compositionzi1946d2b12fecbbb0310cd8c196c98a59&amp;quot;  (Language &amp;quot;ar&amp;quot;) &lt;/p&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html&quot;&gt;Composition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: placeholder&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Package Leaflet &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2023-06-20 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;a href=&quot;#Organization_org-1135a7374c78f1d40f41885344f06a5a&quot;&gt;See above (Organization/org-1135a7374c78f1d40f41885344f06a5a)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: TEST PURPOSES ONLY - كبسولات زيثروماكس® 250 مجم &lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;Official &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (&lt;a href=&quot;http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html&quot;&gt;Composition Attestation Mode&lt;/a&gt;#official)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;2023-06-20 13:28:17+0000&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.jfda.jo&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;placeholder&quot;/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;final&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.jfda.jo/&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+          &lt;/coding&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Package Leaflet&quot;/&gt;
+        &lt;/type&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.subject">subject</a>&gt;<a href="MedicinalProductDefinition-zi6fb1761a0a38bea0a9b49f146371c68b.html" style="color: Maroon">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/zi6fb1761a0a38bea0a9b49f146371c68b&quot;/&gt;
+        &lt;/subject&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.date">date</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2023-06-20T13:28:17Z&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.author">author</a>&gt;<a href="Organization-org-1135a7374c78f1d40f41885344f06a5a.html" style="color: Maroon">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Organization/org-1135a7374c78f1d40f41885344f06a5a&quot;/&gt;
+        &lt;/author&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;TEST PURPOSES ONLY - كبسولات زيثروماكس® 250 مجم &quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester">attester</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.mode">mode</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+                      <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/composition-attestation-mode&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+            &lt;/coding&gt;
+          &lt;/mode&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.time">time</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2023-06-20T13:28:17Z&quot;/&gt;
+        &lt;/attester&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot; النشرة الداخلية: معلومات للمريض&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.jfda.jo/&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+            &lt;/coding&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;B. PACKAGE LEAFLET&quot;/&gt;
+          &lt;/code&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+            &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;زيثروماكس®&lt;/p&gt;&lt;p&gt;زيثروماكس 250 مجم كبسولات صلبة&lt;/p&gt;&lt;p&gt;أزيثرومايسين&lt;/p&gt;&lt;p&gt;السوق المرجعية: المملكة المتحدة&lt;/p&gt;&lt;p&gt;النشرة الداخلية&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+          &lt;/text&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;النشرة الداخلية: معلومات للمريض&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.jfda.jo/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Package leaflet: Information for the patient&quot;/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;كبسولات زيثروماكس® 250 مجم&lt;/p&gt;&lt;p&gt;أزيثرومايسين&lt;/p&gt;&lt;p&gt;اقرأ هذه النشرة بالكامل بعناية قبل البدء في تناول هذا الدواء لأنها تحتوي على معلومات مهمة لك.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;احتفظ بهذه النشرة. فقد تحتاج إلى قراءتها مرة أخرى.&lt;/li&gt;&lt;li&gt;إذا كانت لديك أي أسئلة أخرى، فاسأل طبيبك أو الصيدلي.&lt;/li&gt;&lt;li&gt;لقد وُصف هذا الدواء لك أنت فقط. فلا تعطه للآخرين. فقد يسبب لهم ضررًا، حتى إذا كانت علامات مرضهم مطابقة لعلامات مرضك.&lt;/li&gt;&lt;li&gt;إذا أصبت بأي آثار جانبية، فتحدث إلى طبيبك أو الصيدلي بشأنها. يتضمن هذا أي آثار جانبية محتملة غير مدرجة في هذه النشرة. انظر القسم 4.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;(صورة للعبوة)&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;محتويات هذه النشرة&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.jfda.jo/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;What is in this leaflet&quot;/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;ol&gt;&lt;li&gt;ما هو زيثروماكس وفيم يستخدم&lt;/li&gt;&lt;li&gt;ما تحتاج إلى معرفته قبل تناول زيثروماكس&lt;/li&gt;&lt;li&gt;كيفية تناول زيثروماكس&lt;/li&gt;&lt;li&gt;الآثار الجانبية المحتملة&lt;/li&gt;&lt;li&gt;كيفية تخزين زيثروماكس&lt;/li&gt;&lt;li&gt;محتويات العبوة ومعلومات أخرى&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;1. ما هو زيثروماكس وفيم يستخدم&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.jfda.jo/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;1. What x is and what it is used for&quot;/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;محتويات هذه النشرة&lt;/p&gt;&lt;ol&gt;&lt;li&gt;ما هو زيثروماكس وفيم يستخدم&lt;/li&gt;&lt;li&gt;ما تحتاج إلى معرفته قبل تناول زيثروماكس&lt;/li&gt;&lt;li&gt;كيفية تناول زيثروماكس&lt;/li&gt;&lt;li&gt;الآثار الجانبية المحتملة&lt;/li&gt;&lt;li&gt;كيفية تخزين زيثروماكس&lt;/li&gt;&lt;li&gt;محتويات العبوة ومعلومات أخرى&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;2. ما تحتاج إلى معرفته قبل تناول زيثروماكس&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.jfda.jo/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;2. What you need to know before you take x&quot;/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;لا تتناول زيثروماكس:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;إذا كنت مصابًا بالحساسية تجاه أزيثرومايسين أو أي مضاد حيوي ماكروليدي آخر مثل إريثرومايسين أو كلاريثرومايسين أو تجاه أي من مكونات هذا الدواء (مدرجة في القسم 6). تفاعل الحساسية قد يؤدي إلى الإصابة بطفح جلدي أو أزيز.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;تحذيرات واحتياطات&lt;/p&gt;&lt;p&gt;تحدث إلى طبيبك أو الصيدلي قبل تناول زيثروماكس إذا كنت تعاني أو قد عانيت من أي من الحالات التالية:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;مشكلات في الكلى&lt;/li&gt;&lt;li&gt;أو حالات قلبية&lt;/li&gt;&lt;li&gt;أو مشكلات في الكبد: قد يحتاج طبيبك إلى مراقبة وظائف كبدك أو إيقاف العلاج&lt;/li&gt;&lt;li&gt;أو الوهن العضلي الوبيل (حالة تتسبب في إصابة عضلات معينة بالضعف)&lt;/li&gt;&lt;li&gt;أو إذا كنت تتناول أي من مشتقات الإرجوت مثل إرجوتامين (يُستخدم لعلاج الصداع النصفي) لأن هذه الأدوية ينبغي ألا يتم تناولها بالتزامن مع زيثروماكس.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;أخبر طبيبك على الفور إذا كنت تشعر بقوة نبضات قلبك في صدرك أو إذا كنت تشعر بأن نبضات القلب غير طبيعية أو إذا أصبت بدوار أو إغماء أو عانيت من أي ضعف عضلي عند تناول زيثروماكس.&lt;/p&gt;&lt;p&gt;إذا أصبت بالإسهال أو بليونة البراز أثناء العلاج أو بعده، فأخبر طبيبك فورًا. لا تتناول أي دواء لعلاج الإسهال الذي تعاني منه دون مراجعة طبيبك أولًا. إذا استمر الإسهال، يُرجى إبلاغ طبيبك بذلك.&lt;/p&gt;&lt;p&gt;الأدوية الأخرى وزيثروماكس&lt;/p&gt;&lt;p&gt;أخبر طبيبك أو الصيدلي إذا كنت تتلقى أو تلقيت مؤخرًا أو قد تتلقى أي أدوية أخرى.&lt;/p&gt;&lt;p&gt;بشكل خاص، قد يتفاعل زيثروماكس مع الأدوية المدرجة أدناه:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;إرجوت أو إرجوتامين – انظر قسم &quot;تحذيرات واحتياطات&quot;&lt;/li&gt;&lt;li&gt;وارفارين أو أي دواء مشابه لمنع الإصابة بجلطات الدم&lt;/li&gt;&lt;li&gt;سيكلوسبورين (يُستخدم لكبت النظام المناعي لمنع رفض عضو أو نخاع عظم مزروع وعلاج هذه الحالة)&lt;/li&gt;&lt;li&gt;مضادات الحموضة (تُستخدم لعلاج عسر الهضم)&lt;/li&gt;&lt;li&gt;ديجوكسين (يُستخدم لعلاج فشل القلب)&lt;/li&gt;&lt;li&gt;كولشيسين (يُستخدم لعلاج النقرس وحمى البحر المتوسط العائلية)&lt;/li&gt;&lt;li&gt;تيرفينادين (لعلاج حمى القش أو حساسية الجلد)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;زيثروماكس مع الطعام والشراب&lt;/p&gt;&lt;p&gt;ينبغي أن تتناول زيثروماكس إما قبل الوجبة بساعة واحدة أو بعد تناولها بساعتين.&lt;/p&gt;&lt;p&gt;الحمل والرضاعة الطبيعية والخصوبة&lt;/p&gt;&lt;p&gt;إذا كنتِ حاملًا أو ترضعين رضاعة طبيعية، أو تعتقدين أنكِ ربما تكونين حاملًا أو تخططين للحمل، فاستشيري طبيبكِ أو الصيدلي قبل تناول هذا الدواء.&lt;/p&gt;&lt;p&gt;القيادة واستخدام الآلات&lt;/p&gt;&lt;p&gt;لا يُتوقع أن يؤثر زيثروماكس على قدرتك على القيادة أو استخدام الآلات.&lt;/p&gt;&lt;p&gt;تحتوي كبسولات زيثروماكس على اللاكتوز، نوع من أنواع السكر. إذا أخبرك طبيبك بأنك لا تستطيع تحمل بعض أنواع السكريات، فاتصل بطبيبك قبل تناول هذا الدواء.&lt;/p&gt;&lt;p&gt;تحتوي كبسولات زيثروماكس على ثاني أكسيد الكبريت، الذي قد يسبب في حالات نادرة الإصابة بتفاعلات حساسية شديدة (فرط الحساسية) وأزيز (التشنج القصبي).&lt;/p&gt;&lt;p&gt;معلومات حول محتوى الصوديوم&lt;/p&gt;&lt;p&gt;يحتوي زيثروماكس على أقل من 1 مليمول من الصوديوم (23 ملجم) لكل كبسولة، أي أنه في الأساس &quot;خالٍ من الصوديوم&quot;.&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;3. كيفية تناول زيثروماكس&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.jfda.jo/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;3. How to take x&quot;/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;احرص دومًا على تناول هذا الدواء بالضبط كما أخبرك طبيبك. راجع طبيبك أو الصيدلي إذا لم تكن متأكدًا مما ينبغي عليك فعله. ينبغي بلع الكبسولات كاملةً.&lt;/p&gt;&lt;p&gt;الجرعة الموصى بها في البالغين والأطفال الذين يزيد وزنهم عن 7 ستون (45 كجم) هي 500 مجم (كبسولتان) يؤخذان معًا، مرة واحدة في اليوم لمدة 3 أيام. بالنسبة لبعض الأمراض مثل المتدثرة، تكون الجرعة الموصى بها هي جرام واحد (4 كبسولات) يتم تناولها جميعًا في يوم واحد فقط. وبالنسبة للسيلان، تكون الجرعة الموصى بها هي جرام واحد أو جرامان من أزيثرومايسين بالتزامن مع 250 مجم أو 500 مجم من سيفترياكسون.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;ينبغي للأطفال الذين يقل وزنهم عن 45 كجم عدم تناول كبسولات زيثروماكس.&lt;/p&gt;&lt;p&gt;ينبغي أن تخبر طبيبك إذا كنت تعاني من مشكلات في الكبد أو الكلى لأنه قد يحتاج إلى تعديل الجرعة العادية.&lt;/p&gt;&lt;p&gt;في بعض الأحيان، يصف الأطباء جرعات مختلفة عن الجرعات الموصى بها. سيخبرك الملصق الموجود على العبوة بالجرعة التي ينبغي أن تتناولها. إذا كنت لا تزال غير متأكد، فاسأل طبيبك أو الصيدلي.&lt;/p&gt;&lt;p&gt;قم دائمًا باستكمال دورة العلاج حتى إذا شعرت بتحسن. إذا تفاقمت العدوى التي تعاني منها أو إذا لم تبدأ في الشعور بتحسن في غضون أيام قليلة أو إذا أصبت بعدوى جديدة، فقم بزيارة طبيبك مجددًا.&lt;/p&gt;&lt;p&gt;في حالة تناولك جرعة من زيثروماكس أكبر مما ينبغي&lt;/p&gt;&lt;p&gt;إذا تناولت كمية أكبر من اللازم من زيثروماكس، فقد تشعر بتوعك. أخبر طبيبك أو تواصل على الفور مع قسم الإصابات بأقرب مستشفى منك.&lt;/p&gt;&lt;p&gt;إذا نسيت تناول زيثروماكس&lt;/p&gt;&lt;p&gt;إذا نسيت أن تتناول زيثروماكس، فتناوله في أٌقرب وقت ممكن. وتناول جرعتك التالية في وقتها الصحيح. لا تتناول جرعة مضاعفة لتعويض جرعة منسية.&lt;/p&gt;&lt;p&gt;إذا أوقفت تناول زيثروماكس&lt;/p&gt;&lt;p&gt;إذا أوقفت تناول زيثروماكس في وقت مبكر جدًا، فقد تصيبك العدوى مجددًا. تناول الكبسولات طوال فترة العلاج بالكامل، حتى عندما تبدأ في الشعور بتحسن.&lt;/p&gt;&lt;p&gt;إذا كان لديك المزيد من الأسئلة حول استخدام هذا الدواء، فاسأل طبيبك أو الصيدلي.&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;4. الآثار الجانبية المحتملة&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.jfda.jo/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;4. Possible side effects&quot;/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;كما هو الحال مع جميع الأدوية، يمكن أن يسبب هذا الدواء آثارًا جانبية، إلا أنها لا تصيب الجميع.&lt;/p&gt;&lt;p&gt;أخبر طبيبك على الفور إذا أصبت بأي من الأعراض التالية بعد تناول هذا الدواء لأن الأعراض قد تكون شديدة.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;أزيز مفاجئ، صعوبة في التنفس، تورم الجفون أو الوجه أو الشفتين، أو الطفح الجلدي، أو الحكة (خاصة التي تصيب الجسم بأكمله)&lt;/li&gt;&lt;li&gt;الإسهال الشديد أو المطول، الذي قد يحتوي على دم أو مخاط، أثناء العلاج بزيثروماكس أو بعده لأن هذا قد يكون علامة على الإصابة بالتهاب خطير في الأمعاء&lt;/li&gt;&lt;li&gt;الطفح الجلد الشديد الذي يتسبب في الاحمرار والتقشر&lt;/li&gt;&lt;li&gt;سرعة نبضات القلب أو عدم انتظامها&lt;/li&gt;&lt;li&gt;ضغط الدم المنخفض&lt;/li&gt;&lt;li&gt;تفاعلات جلدية خطيرة:&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;- تبثر الجلد والفم والعينين والأعضاء التناسلية (متلازمة ستيفنز-جونسون (SJS)(&lt;/li&gt;&lt;li&gt;- تبثر الجلد، التفاعلات الجلدية الشديدة (تقشر الأنسجة المتموتة البشروية التسممي ( ((TEN&lt;/li&gt;&lt;li&gt;- الطفح الجلدي المصحوب بأعراض أخرى مثل الحمى، وتورم الغدد، وزيادة في اليوزينيات (نوع من أنواع خلايا الدم البيضاء). طفح جلدي يظهر في صورة بثور صغيرة حمراء مثيرة للحكة (تفاعل العقار المصحوب بكثرة اليوزينيات وأعراض جهازية (DRESS))&lt;/li&gt;&lt;li&gt;- طفح جلدي يتسم بظهور سريع لمناطق من الجلد الأحمر فوقه حبوب صغيرة (بثور صغيرة ممتلئة بسائل أبيض/أصفر) (البثار الطفحي المعمم الحاد (AGEP)).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;توقف عن تناول أزيثرومايسين إذا أصبت بأعراض الجلد هذه وتواصل مع طبيبك أو اطلب الرعاية الطبية على الفور.&lt;/p&gt;&lt;p&gt;مدرج أدناه أكثر الآثار الجانبية شيوعًا التي تحدث عند تناول زيثروماكس. قد تزول هذه الآثار أثناء العلاج مع تكيف جسمك مع الدواء. أخبر طبيبك إذا استمر أحد هذه الآثار الجانبية في إزعاجك.&lt;/p&gt;&lt;p&gt;شائعة جدًا: قد تصيب أكثر من شخص واحد من بين كل 10 أشخاص&lt;/p&gt;&lt;ul&gt;&lt;li&gt;تقلصات المعدة، الشعور بالغثيان، الإسهال، الغازات&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;شائعة: قد تصيب ما يصل إلى شخص واحد من بين كل 10 أشخاص&lt;/p&gt;&lt;ul&gt;&lt;li&gt;الدوار، الصداع&lt;/li&gt;&lt;li&gt;الخدر أو الشكشكة والوخز&lt;/li&gt;&lt;li&gt;الشعور بالمرض، عسر الهضم&lt;/li&gt;&lt;li&gt;فقدان الشهية، اضطراب التذوق&lt;/li&gt;&lt;li&gt;اضطرابات بصرية، الصمم&lt;/li&gt;&lt;li&gt;الطفح الجلدي و/أو الحكة&lt;/li&gt;&lt;li&gt;ألم المفاصل&lt;/li&gt;&lt;li&gt;أعداد منخفضة من الليمفاويات (نوع من أنواع خلايا الدم البيضاء)، عدد أعلى من اليوزينيات (نوع من أنواع خلايا الدم البيضاء)&lt;/li&gt;&lt;li&gt;انخفاض بيكربونات الدم&lt;/li&gt;&lt;li&gt;التعب أو الضعف&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;غير شائعة: قد تصيب ما يصل إلى شخص واحد من بين كل 100 شخص&lt;/p&gt;&lt;ul&gt;&lt;li&gt;حالات عدوى فطرية في الفم والمهبل (قلاع)&lt;/li&gt;&lt;li&gt;أعداد منخفضة من الكريات البيضاء (نوع من أنواع خلايا الدم البيضاء)، عدد منخفض من العدلات (نوع من أنواع خلايا الدم البيضاء)&lt;/li&gt;&lt;li&gt;تفاعلات حساسية ذات درجات شدة مختلفة&lt;/li&gt;&lt;li&gt;زيادة حساسية الجلد لضوء الشمس بشكل يزيد عن الطبيعي&lt;/li&gt;&lt;li&gt;الشعور بالتوتر&lt;/li&gt;&lt;li&gt;ضعف حاسة اللمس أو القدرة على الإحساس (نقص الحس)&lt;/li&gt;&lt;li&gt;النعاس أو عدم النوم (الأرق)&lt;/li&gt;&lt;li&gt;انخفاض القدرة على السمع أو وجود طنين في الأذنين&lt;/li&gt;&lt;li&gt;خفقان القلب، ألم الصدر&lt;/li&gt;&lt;li&gt;الإمساك، ألم المعدة المرتبط بالإسهال والحمى&lt;/li&gt;&lt;li&gt;التهاب الكبد (الالتهاب الكبدي)، تغيرات في إنزيمات الكبد&lt;/li&gt;&lt;li&gt;فقدان عام للقوة&lt;/li&gt;&lt;li&gt;تورم&lt;/li&gt;&lt;li&gt;انزعاج عام&lt;/li&gt;&lt;li&gt;قيم الاختبارات المعملية غير الطبيعية (مثل فحوصات الدم أو الكبد)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;نادرة: قد تصيب ما يصل إلى شخص واحد من بين كل 1000 شخص&lt;/p&gt;&lt;ul&gt;&lt;li&gt;التهيج&lt;/li&gt;&lt;li&gt;الدوار&lt;/li&gt;&lt;li&gt;تغيرات في وظائف الكبد&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;غير معروف: لا يمكن تقدير معدل التكرار من البيانات المتاحة&lt;/p&gt;&lt;ul&gt;&lt;li&gt;نوبات أو إغماء&lt;/li&gt;&lt;li&gt;العدائية أو القلق&lt;/li&gt;&lt;li&gt;الشعور بفرط النشاط&lt;/li&gt;&lt;li&gt;ضعف موضعي في العضلات&lt;/li&gt;&lt;li&gt;فقدان حاسة الشم أو حدوث تغير فيها، فقدان حاسة التذوق&lt;/li&gt;&lt;li&gt;تغير لون اللسان&lt;/li&gt;&lt;li&gt;التهاب البنكرياس&lt;/li&gt;&lt;li&gt;التهاب الكلى أو الفشل الكلوي&lt;/li&gt;&lt;li&gt;اصفرار الجلد أو العينين (اليرقان) أو فشل الكبد (في حالات نادرة يكون مهددًا للحياة)&lt;/li&gt;&lt;li&gt;تكدم أو نزيف مطول بعد إصابة&lt;/li&gt;&lt;li&gt;مخطط رسم القلب (ECG) غير الطبيعي&lt;/li&gt;&lt;li&gt;انخفاض في أعداد خلايا الدم الحمراء مما قد يؤدي إلى شحوب الجلد وإلى الإصابة بالضعف أو انقطاع النفس&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;الإبلاغ عن الآثار الجانبية&lt;/p&gt;&lt;p&gt;إذا أصبت بأي آثار جانبية، فتحدث إلى طبيبك أو الصيدلي بشأنها. يتضمن هذا أي آثار جانبية محتملة غير مدرجة في هذه النشرة. يمكنك أيضًا الإبلاغ عن الآثار الجانبية مباشرة&lt;/p&gt;&lt;p&gt;بالإبلاغ عن الآثار الجانبية، يمكنك المساعدة في توفير المزيد من المعلومات حول سلامة هذا الدواء.&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;5. كيفية تخزين زيثروماكس&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.jfda.jo/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;5. How to store x&quot;/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;احتفظ بالدواء بعيدًا عن مرأى ومتناول الأطفال.&lt;/p&gt;&lt;p&gt;قم بتخزينه في درجة حرارة أقل من 30 درجة مئوية.&lt;/p&gt;&lt;p&gt;لا تستخدم زيثروماكس بعد تاريخ انتهاء الصلاحية المُدون على العبوة الكرتونية وشرائط البليستر بعد الرمز &quot;EXP&quot;. يشير تاريخ انتهاء الصلاحية إلى آخر يوم من الشهر المذكور.&lt;/p&gt;&lt;p&gt;لا تتخلص من أي أدوية عبر مياه الصرف أو في المخلفات المنزلية. اسأل الصيدلي الذي تتعامل معه عن كيفية التخلص من الأدوية التي لم تعد تستخدمها. ستساعد هذه الإجراءات في حماية البيئة.&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;6. محتويات العبوة ومعلومات أخرى&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.jfda.jo/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;6. Contents of the pack and other information&quot;/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;مكونات زيثروماكس&lt;/p&gt;&lt;p&gt;المادة الفعالة هي أزيثرومايسين (250 مجم).&lt;/p&gt;&lt;p&gt;المكونات الأخرى هي لاكتوز لا مائي (انظر القسم 2، &quot;تحتوي كبسولات زيثروماكس على اللاكتوز&quot;)، وستيارات المغنيسيوم، ونشا الذرة الصفراء، وسلفات لوريل الصوديوم، وجيلاتين، وأكسيد الحديد (أسود) E172، وصمغ اللك، وبروبيلين جليكول، وثاني أكسيد الكبريت (انظر القسم 2 &quot;تحتوي كبسولات زيثروماكس على ثاني أكسيد الكبريت&quot;)، وثاني أكسيد التيتانيوم.&lt;/p&gt;&lt;p&gt;شكل زيثروماكس ومحتويات العبوة&lt;/p&gt;&lt;p&gt;كبسولات زيثروماكس هي كبسولات جيلاتينية صلبة بيضاء اللون عليها علامة &quot;Pfizer&quot; و&quot;ZTM 250&quot;. وتأتي في شرائط بليستر تحتوي على 4 أو 6.&lt;/p&gt;&lt;p&gt;قد لا يتم طرح جميع أحجام العبوات في الأسواق.&lt;/p&gt;&lt;p&gt;مالك تصريح التسويق&lt;/p&gt;&lt;p&gt;شركة فايزر ذات المسؤولية المحدودة، طريق رامسجيت، ساندوتش، كينت، CT13 9NJ، المملكة المتحدة.&lt;/p&gt;&lt;p&gt;التصنيع والتعبئة والتوزيع&lt;/p&gt;&lt;p&gt;شركة هاوبت فارما لاتينا ذات المسؤولية المحدودة، سترادا ستاتال 156، كم 47,600؛ بورجو سان ميشيل، 04100 لاتينا، إيطاليا&lt;/p&gt;&lt;p&gt;تمت آخر مراجعة لهذه النشرة في: نوفمبر/تشرين الثاني 2020&lt;/p&gt;&lt;p&gt;إن هذا دواء&lt;/p&gt;&lt;ul&gt;&lt;li&gt;- الدواء مستحضر يؤثر على صحتك واستهلاكه خلافًا للتعليمات يعرضك للخطر.&lt;/li&gt;&lt;li&gt;- اتبع بدقة وصفة الطبيب وطريقة الاستخدام وتعليمات الصيدلي الذي قام بصرف الدواء.&lt;/li&gt;&lt;li&gt;- الطبيب والصيدلي خبيران في الأدوية ومنافعها والمخاطر المترتبة على تناولها.&lt;/li&gt;&lt;li&gt;- لا تقطع مدة العلاج المحددة لك من تلقاء نفسك.&lt;/li&gt;&lt;li&gt;- لا تكرر صرف نفس الدواء بدون استشارة طبيبك.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;تُحفظ جميع الأدوية بعيدًا عن متناول ومرأى الأطفال&lt;/p&gt;&lt;p&gt;مجلس وزراء الصحة العرب&lt;/p&gt;&lt;p&gt;اتحاد الصيادلة العرب&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+        &lt;/section&gt;
+      &lt;/Composition&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/Organization/org-1135a7374c78f1d40f41885344f06a5a&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization">Organization</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;org-1135a7374c78f1d40f41885344f06a5a&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi&quot;/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Organization&lt;/b&gt;&lt;a name=&quot;org-1135a7374c78f1d40f41885344f06a5a&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Resource Organization &amp;quot;org-1135a7374c78f1d40f41885344f06a5a&amp;quot; &lt;/p&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Organization-uv-epi.html&quot;&gt;Organization (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: ORG-100008368 (use: OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;active&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Marketing authorisation holder &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (rmswi#220000000034)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Pfizer Limited&lt;/p&gt;&lt;h3&gt;Contacts&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Address&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;Ramsgate Road, Sandwich, Kent, CT13 9NJ, United Kingdom(WORK)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/omswi&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;ORG-100008368&quot;/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.active">active</a> <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000034&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Marketing authorisation holder&quot;/&gt;
+          &lt;/coding&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Marketing authorisation holder&quot;/&gt;
+        &lt;/type&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Pfizer Limited&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.contact">contact</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ExtendedContactDetail#ExtendedContactDetail.address">address</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;work&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;physical&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.text">text</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Ramsgate Road, Sandwich, Kent, CT13 9NJ, United Kingdom&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Ramsgate Road, Sandwich, Kent, CT13 9NJ&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Sandwich, Kent&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.country">country</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;UK&quot;/&gt;
+          &lt;/address&gt;
+        &lt;/contact&gt;
+      &lt;/Organization&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/zi6fb1761a0a38bea0a9b49f146371c68b&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition">MedicinalProductDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;zi6fb1761a0a38bea0a9b49f146371c68b&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&quot;/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition&lt;/b&gt;&lt;a name=&quot;zi6fb1761a0a38bea0a9b49f146371c68b&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Resource MedicinalProductDefinition &amp;quot;zi6fb1761a0a38bea0a9b49f146371c68b&amp;quot; &lt;/p&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html&quot;&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: placeholder&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Medicinal Product &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (&lt;a href=&quot;http://hl7.org/fhir/R5/codesystem-medicinal-product-type.html&quot;&gt;Medicinal Product Type&lt;/a&gt;#MedicinalProduct)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;domain&lt;/b&gt;: Human use &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (&lt;a href=&quot;http://hl7.org/fhir/R5/codesystem-medicinal-product-domain.html&quot;&gt;Medicinal Product Domain&lt;/a&gt;#Human)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (&lt;a href=&quot;http://hl7.org/fhir/R5/codesystem-publication-status.html&quot;&gt;PublicationStatus&lt;/a&gt;#active)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;legalStatusOfSupply&lt;/b&gt;: Medicinal product subject to medical prescription &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (rmswi#100000072084)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;productName&lt;/b&gt;: zithromax (azithromycin) 250 mg capsules&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Full name &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (220000000000#220000000001)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: zithromax&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Invented name part &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (220000000000#220000000002)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: azithromycin&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Scientific name part &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (220000000000#220000000003)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: 250 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Strength part &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (220000000000#220000000004)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: Capsule, hard&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Pharmaceutical dose form part &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (220000000000#220000000005)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h3&gt;Usages&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Country&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Jurisdiction&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Language&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;Jordan &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (&lt;a href=&quot;http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html&quot;&gt;ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code&lt;/a&gt;#JO)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Jordan &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (&lt;a href=&quot;http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html&quot;&gt;ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code&lt;/a&gt;#JO)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;English &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (&lt;a href=&quot;http://terminology.hl7.org/5.3.0/CodeSystem-v3-ietf3066.html&quot;&gt;Tags for the Identification of Languages&lt;/a&gt;#en)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://jfda.jo&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;placeholder&quot;/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/medicinal-product-type&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;MedicinalProduct&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Medicinal Product&quot;/&gt;
+          &lt;/coding&gt;
+        &lt;/type&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.domain">domain</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/medicinal-product-domain&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;Human&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Human use&quot;/&gt;
+          &lt;/coding&gt;
+        &lt;/domain&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.status">status</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/publication-status&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;active&quot;/&gt;
+          &lt;/coding&gt;
+        &lt;/status&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.legalStatusOfSupply">legalStatusOfSupply</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000072084&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Medicinal product subject to medical prescription&quot;/&gt;
+          &lt;/coding&gt;
+        &lt;/legalStatusOfSupply&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name">name</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.productName">productName</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;zithromax (azithromycin) 250 mg capsules&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.type">type</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000001&quot;/&gt;
+            &lt;/coding&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Full name&quot;/&gt;
+          &lt;/type&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;zithromax&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000002&quot;/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Invented name part&quot;/&gt;
+            &lt;/type&gt;
+          &lt;/part&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;azithromycin&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000003&quot;/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Scientific name part&quot;/&gt;
+            &lt;/type&gt;
+          &lt;/part&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;250 mg&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000004&quot;/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Strength part&quot;/&gt;
+            &lt;/type&gt;
+          &lt;/part&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Capsule, hard&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000005&quot;/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Pharmaceutical dose form part&quot;/&gt;
+            &lt;/type&gt;
+          &lt;/part&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.usage">usage</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.usage.country">country</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;JO&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Jordan&quot;/&gt;
+              &lt;/coding&gt;
+            &lt;/country&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.usage.jurisdiction">jurisdiction</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;JO&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Jordan&quot;/&gt;
+              &lt;/coding&gt;
+            &lt;/jurisdiction&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.usage.language">language</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:ietf:bcp:47&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;English&quot;/&gt;
+              &lt;/coding&gt;
+            &lt;/language&gt;
+          &lt;/usage&gt;
+        &lt;/name&gt;
+      &lt;/MedicinalProductDefinition&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+&lt;/Bundle&gt;</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Jan 21, 2024 22:55+0000">2024-01-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

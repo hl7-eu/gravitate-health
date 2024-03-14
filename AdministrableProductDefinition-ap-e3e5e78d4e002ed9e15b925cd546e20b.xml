@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AdministrableProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="ap-e3e5e78d4e002ed9e15b925cd546e20b"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="ap-e3e5e78d4e002ed9e15b925cd546e20b"> </a><a name="hcap-e3e5e78d4e002ed9e15b925cd546e20b"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;ap-e3e5e78d4e002ed9e15b925cd546e20b&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/13/853/001</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href="MedicinalProductDefinition-mpbe76bdf784deea6950583b234f789db2.html">MedicinalProductDefinition/mpbe76bdf784deea6950583b234f789db2</a></p><p><b>administrableDoseForm</b>: Powder for concentrate for solution for infusion <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000074029)</span></p><p><b>unitOfPresentation</b>: Vial <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000002158)</span></p><p><b>producedFrom</b>: <a href="ManufacturedItemDefinition-mid-e3e5e78d4e002ed9e15b925cd546e20b.html">ManufacturedItemDefinition/mid-e3e5e78d4e002ed9e15b925cd546e20b</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Intravenous use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073611)</span></p><h3>TargetSpecies</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td></tr><tr><td style="display: none">*</td><td>Human <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>
+  </text>
+  <identifier>
+    <system value="https://spor.ema.europa.eu/pmswi"/>
+    <value value="EU/1/13/853/001"/>
+  </identifier>
+  <status value="active"/>
+  <formOf>
+    <reference value="MedicinalProductDefinition/mpbe76bdf784deea6950583b234f789db2"/>
+  </formOf>
+  <administrableDoseForm>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000074029"/>
+      <display value="Powder for concentrate for solution for infusion"/>
+    </coding>
+  </administrableDoseForm>
+  <unitOfPresentation>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="200000002158"/>
+      <display value="Vial"/>
+    </coding>
+  </unitOfPresentation>
+  <producedFrom>
+    <reference value="ManufacturedItemDefinition/mid-e3e5e78d4e002ed9e15b925cd546e20b"/>
+  </producedFrom>
+  <routeOfAdministration>
+    <code>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="100000073611"/>
+        <display value="Intravenous use"/>
+      </coding>
+    </code>
+    <targetSpecies>
+      <code>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi"/>
+          <code value="100000109093"/>
+          <display value="Human"/>
+        </coding>
+      </code>
+    </targetSpecies>
+  </routeOfAdministration>
+</AdministrableProductDefinition>

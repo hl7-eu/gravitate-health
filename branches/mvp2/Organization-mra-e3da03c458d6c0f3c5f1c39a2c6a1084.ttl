@@ -1,0 +1,48 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Organization/mra-e3da03c458d6c0f3c5f1c39a2c6a1084> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mra-e3da03c458d6c0f3c5f1c39a2c6a1084"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"mra-e3da03c458d6c0f3c5f1c39a2c6a1084\"> </a><a name=\"hcmra-e3da03c458d6c0f3c5f1c39a2c6a1084\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;mra-e3da03c458d6c0f3c5f1c39a2c6a1084&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/ORG-100013412 (use: OFFICIAL)</p><p><b>active</b>: true</p><p><b>type</b>: Medicines Regulatory Authority <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#nan)</span></p><p><b>name</b>: European Medicines Agency</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>Carretera De Martorell 41 61, Poligono Industrial Nord-Est Amsterdam NL(WORK)</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/omswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "ORG-100013412" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "nan" ] ;
+       fhir:display [ fhir:v "Medicines Regulatory Authority" ]
+     ] )
+  ] ) ; # 
+  fhir:name [ fhir:v "European Medicines Agency"] ; # 
+  fhir:contact ( [
+     fhir:address [
+       fhir:use [ fhir:v "work" ] ;
+       fhir:type [ fhir:v "physical" ] ;
+       fhir:text [ fhir:v "Carretera De Martorell 41 61, Poligono Industrial Nord-Est Amsterdam NL" ] ;
+       fhir:line ( [ fhir:v "Carretera De Martorell 41 61, Poligono Industrial Nord-Est" ] ) ;
+       fhir:city [ fhir:v "Amsterdam" ] ;
+       fhir:postalCode [ fhir:v "1083 HS" ] ;
+       fhir:country [ fhir:v "NL" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

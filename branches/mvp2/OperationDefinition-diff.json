@@ -1,0 +1,49 @@
+{
+  "resourceType" : "OperationDefinition",
+  "id" : "diff",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>URL: [base]/$diff</p><p>Parameters</p><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>old</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R5/resource.html\">Resource</a></td><td/><td/></tr><tr><td>IN</td><td>new</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R5/resource.html\">Resource</a></td><td/><td/></tr></table></div>"
+  },
+  "url" : "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/diff",
+  "version" : "0.1.0",
+  "name" : "Diff",
+  "status" : "active",
+  "kind" : "operation",
+  "date" : "2024-03-14T09:41:47+00:00",
+  "publisher" : "Gravitate Health Project",
+  "contact" : [{
+    "name" : "Gravitate Health Project",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.gravitatehealth.eu/"
+    }]
+  },
+  {
+    "name" : "Gravitate Health Project",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.gravitatehealth.eu/"
+    }]
+  }],
+  "description" : "This operation calculates a diff between two FHIR resources - ie. a vanilla ePI FHIR bundle and a focused ePI FHIR bundle. The format follows the one defined at [HAPI](https://hapifhir.io/hapi-fhir/docs/server_jpa/diff.html)",
+  "affectsState" : false,
+  "code" : "diff",
+  "system" : true,
+  "type" : false,
+  "instance" : false,
+  "parameter" : [{
+    "name" : "old",
+    "use" : "in",
+    "min" : 1,
+    "max" : "1",
+    "type" : "Resource"
+  },
+  {
+    "name" : "new",
+    "use" : "in",
+    "min" : 1,
+    "max" : "1",
+    "type" : "Resource"
+  }]
+}

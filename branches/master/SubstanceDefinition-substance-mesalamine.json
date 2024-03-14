@@ -1,0 +1,47 @@
+{
+  "resourceType" : "SubstanceDefinition",
+  "id" : "substance-mesalamine",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"substance-mesalamine\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;substance-mesalamine&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a04Q81I59GXC\u00a0(use:\u00a0OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>manufacturer</b>: <a href=\"Organization-mah-6ade044addd6563de0baefebb1cceb8e.html\">Organization/mah-6ade044addd6563de0baefebb1cceb8e</a> &quot;FERRING S.A.U.&quot;</p><h3>MolecularWeights</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td style=\"display: none\">*</td><td>exact <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></td><td>153.14</td></tr></table><h3>Structures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>MolecularFormula</b></td></tr><tr><td style=\"display: none\">*</td><td>C7H7NO3</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>5-AMINO-2-HYDROXYBENZOIC ACID</td><td>Chemical Name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#x)</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+    "value" : "4Q81I59GXC"
+  }],
+  "version" : "1",
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active"
+    }]
+  },
+  "manufacturer" : [{
+    "reference" : "Organization/mah-6ade044addd6563de0baefebb1cceb8e"
+  }],
+  "molecularWeight" : [{
+    "type" : {
+      "text" : "exact"
+    },
+    "amount" : {
+      "value" : 153.14
+    }
+  }],
+  "structure" : {
+    "molecularFormula" : "C7H7NO3"
+  },
+  "name" : [{
+    "name" : "5-AMINO-2-HYDROXYBENZOIC ACID",
+    "type" : {
+      "coding" : [{
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+        "code" : "x",
+        "display" : "Chemical Name"
+      }]
+    }
+  }]
+}

@@ -1,0 +1,37 @@
+{
+  "resourceType" : "Organization",
+  "id" : "orgchugai",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"orgchugai\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;orgchugai&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0672212\u00a0(use:\u00a0OFFICIAL)</p><p><b>active</b>: true</p><p><b>type</b>: Marketing authorisation holder <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#tbd)</span></p><p><b>name</b>: Chugai Pharmaceutical Co., Ltd.</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>Medical Information Department 2-1-1 Nihonbashi Muromachi, Chuo-ku, Tokyo 103-8324(WORK)</td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://pmda-org-id",
+    "value" : "672212"
+  }],
+  "active" : true,
+  "type" : [{
+    "coding" : [{
+      "system" : "https://PMDA-org-type.jp/",
+      "code" : "tbd",
+      "display" : "Marketing authorisation holder"
+    }],
+    "text" : "Marketing authorisation holder"
+  }],
+  "name" : "Chugai Pharmaceutical Co., Ltd.",
+  "contact" : [{
+    "address" : {
+      "use" : "work",
+      "type" : "physical",
+      "text" : "Medical Information Department 2-1-1 Nihonbashi Muromachi, Chuo-ku, Tokyo 103-8324",
+      "line" : ["2-1-1 Nihonbashi Muromachi"],
+      "city" : "Tokyo",
+      "postalCode" : "103-8324",
+      "country" : "Tokyo"
+    }
+  }]
+}

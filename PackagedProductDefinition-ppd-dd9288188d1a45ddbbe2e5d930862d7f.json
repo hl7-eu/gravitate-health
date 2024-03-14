@@ -1,0 +1,86 @@
+{
+  "resourceType" : "PackagedProductDefinition",
+  "id" : "ppd-dd9288188d1a45ddbbe2e5d930862d7f",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"ppd-dd9288188d1a45ddbbe2e5d930862d7f\"> </a><a name=\"hcppd-dd9288188d1a45ddbbe2e5d930862d7f\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;ppd-dd9288188d1a45ddbbe2e5d930862d7f&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/x\u00a0(use:\u00a0OFFICIAL)</p><p><b>name</b>: Pentasa Slow Release Tablets 1g 28</p><p><b>type</b>: Chemical Medicinal Prodcut <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-mpb3a8d58c709a2281d8ad2a590fe81663.html\">MedicinalProductDefinition/mpb3a8d58c709a2281d8ad2a590fe81663</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2021-01-01</p><p><b>containedItemQuantity</b>: 1 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span></p><p><b>copackagedIndicator</b>: false</p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073496)</span></p><p><b>quantity</b>: 28</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003222)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://spor.ema.europa.eu/pmswi",
+    "value" : "x"
+  }],
+  "name" : "Pentasa Slow Release Tablets 1g 28",
+  "type" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000155527",
+      "display" : "Chemical Medicinal Prodcut"
+    }]
+  },
+  "packageFor" : [{
+    "reference" : "MedicinalProductDefinition/mpb3a8d58c709a2281d8ad2a590fe81663"
+  }],
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active",
+      "display" : "Active"
+    }]
+  },
+  "statusDate" : "2021-01-01",
+  "containedItemQuantity" : [{
+    "value" : 1,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "g"
+  }],
+  "copackagedIndicator" : false,
+  "packaging" : {
+    "type" : {
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "100000073498",
+        "display" : "Box"
+      }]
+    },
+    "quantity" : 1,
+    "material" : [{
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "200000003529",
+        "display" : "Cardboard"
+      }]
+    }],
+    "packaging" : [{
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "123456"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000073496",
+          "display" : "Blister"
+        }]
+      },
+      "quantity" : 28,
+      "material" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000003222",
+          "display" : "PolyVinyl Chloride"
+        }]
+      }],
+      "containedItem" : [{
+        "item" : {
+          "reference" : {
+            "reference" : "ManufacturedItemDefinition/mid-1a7318638ddbbeb084ef416e717b6fdb"
+          }
+        }
+      }]
+    }]
+  }
+}

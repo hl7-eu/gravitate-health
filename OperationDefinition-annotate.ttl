@@ -1,0 +1,73 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/annotate> a fhir:OperationDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "annotate"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>URL: [base]/$annotate</p><p>Parameters</p><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>epi</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R5/bundle.html\">Bundle</a></td><td/><td><div><p>ePI Document Bundle</p>\n</div></td></tr><tr><td>IN</td><td>epi-identifier</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R5/datatypes.html#Identifier\">Identifier</a></td><td/><td><div><p>ePI Document Identifier</p>\n</div></td></tr><tr><td>OUT</td><td>returnEpi</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R5/bundle.html\">Bundle</a></td><td/><td><div><p>Preprocessed epi Bundle</p>\n</div></td></tr><tr><td>OUT</td><td>returnEpiExtracts</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R5/bundle.html\">Bundle</a></td><td/><td><div><p>Preprocessed epi Bundle extracts</p>\n</div></td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/annotate"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "annotate"] ; # 
+  fhir:title [ fhir:v "annotate"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:kind [ fhir:v "operation"] ; # 
+  fhir:date [ fhir:v "2024-03-14T09:41:47+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Gravitate Health Project"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This operation calculates an annotated version of an ePI as well as the separate extracts. \n\nThe ePI can be delivered either as a `Bundle` or by using an `Identifier` of the bundle. Whether the support of both `Identifier` and `Bundle` continues to be supported currently remains unknown.\n\n"] ; # 
+  fhir:affectsState [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:code [ fhir:v "annotate"] ; # 
+  fhir:system [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:type [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:instance [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:parameter ( [
+     fhir:name [ fhir:v "epi" ] ;
+     fhir:use [ fhir:v "in" ] ;
+     fhir:min [ fhir:v "0"^^xsd:integer ] ;
+     fhir:max [ fhir:v "1" ] ;
+     fhir:documentation [ fhir:v "ePI Document Bundle" ] ;
+     fhir:type [ fhir:v "Bundle" ]
+  ] [
+     fhir:name [ fhir:v "epi-identifier" ] ;
+     fhir:use [ fhir:v "in" ] ;
+     fhir:min [ fhir:v "0"^^xsd:integer ] ;
+     fhir:max [ fhir:v "1" ] ;
+     fhir:documentation [ fhir:v "ePI Document Identifier" ] ;
+     fhir:type [ fhir:v "Identifier" ]
+  ] [
+     fhir:name [ fhir:v "returnEpi" ] ;
+     fhir:use [ fhir:v "out" ] ;
+     fhir:min [ fhir:v "1"^^xsd:integer ] ;
+     fhir:max [ fhir:v "1" ] ;
+     fhir:documentation [ fhir:v "Preprocessed epi Bundle" ] ;
+     fhir:type [ fhir:v "Bundle" ]
+  ] [
+     fhir:name [ fhir:v "returnEpiExtracts" ] ;
+     fhir:use [ fhir:v "out" ] ;
+     fhir:min [ fhir:v "1"^^xsd:integer ] ;
+     fhir:max [ fhir:v "1" ] ;
+     fhir:documentation [ fhir:v "Preprocessed epi Bundle extracts" ] ;
+     fhir:type [ fhir:v "Bundle" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

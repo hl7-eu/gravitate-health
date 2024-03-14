@@ -1,0 +1,984 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Asacol Tillotts Pharma enterotabletter (Bundle) - JSON Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.491"}
+    h3,h4,h5,h6{--heading-prefix:"16.491"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Asacol Tillotts Pharma enterotabletter (Bundle)</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+  <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-546487.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-546487.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-546487.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Asacol Tillotts Pharma enterotabletter (Bundle) - JSON Representation</h2>
+
+
+<p><a href="Bundle-546487.json" no-download="true">Raw json</a> | <a download="null" href="Bundle-546487.json">Download</a></p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <pre style="white-space: pre; text-wrap: nowrap;" class="json"><code style="white-space: pre; text-wrap: nowrap;">
+{
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle">resourceType</a>" : "Bundle",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.id">id</a>" : "546487",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+      <a style="color: Maroon" href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Bundle-uv-epi.html">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.language">language</a>" : "no",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.identifier">identifier</a>" : {
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://felleskatalogen.no/vsid",
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "546487"
+  },
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.type">type</a>" : "document",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.timestamp">timestamp</a>" : "2023-05-19T01:01:01Z",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "https://gravitatehealth.eu/fhir/nordic-epi/Composition/546487",
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/composition.html">resourceType</a>" : "Composition",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.id">id</a>" : "546487",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a style="color: Maroon" href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
+            "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.language">language</a>" : "no",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"no\" lang=\"no\"&gt;&lt;a name=\"Composition_546487\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=\"546487\"&gt; &lt;/a&gt;&lt;a name=\"hc546487\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource Composition &amp;quot;546487&amp;quot;  (Language &amp;quot;no&amp;quot;) &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\"&gt;Composition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://felleskatalogen.no/vsid&lt;/code&gt;/546487&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: 100000155538 &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2023-05-19&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;span&gt;&lt;code&gt;https://gravitatehealth.eu/organization&lt;/code&gt;/felleskatalogen&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: Asacol Tillotts Pharma enterotabletter&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://felleskatalogen.no/vsid",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "546487"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.status">status</a>" : "final",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.type">type</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/100000155531/terms/",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.subject">subject</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/IBD-MPD-38"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/IBD-MPD-42"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.date">date</a>" : "2023-05-19",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.author">author</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.identifier">identifier</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://gravitatehealth.eu/organization",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "felleskatalogen"
+            }
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.title">title</a>" : "Asacol Tillotts Pharma enterotabletter",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section">section</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Pakningsvedlegg: Informasjon til pasienten",
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029894"
+                }
+              ]
+            },
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+              "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+              "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                     &lt;h1&gt;Pakningsvedlegg: Informasjon til pasienten&lt;/h1&gt;\n                     &lt;h2&gt;Asacol 400 og 800 mg enterotabletter&lt;/h2&gt;\n                     &lt;h3&gt;mesalazin&lt;/h3&gt;\n                  &lt;/div&gt;"<a name="end-xhtml"></a>
+            },
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg.",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://gravitatehealth.eu/section",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "rules"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg.&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;Ta vare på dette pakningsvedlegget. Du kan få behov for å lese det igjen.&lt;/li&gt;\n                              &lt;li&gt;Spør lege eller apotek hvis du har flere spørsmål eller trenger mer informasjon.&lt;/li&gt;\n                              &lt;li&gt;Dette legemidlet er skrevet ut kun til deg. Ikke gi det videre til andre. Det kan skade dem, selv om de har symptomer på sykdom som ligner dine.&lt;/li&gt;\n                              &lt;li&gt;Kontakt lege eller apotek dersom du opplever bivirkninger. Dette gjelder også bivirkninger som ikke er nevnt i pakningsvedlegget. Se avsnitt 4.&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "I dette pakningsvedlegget finner du informasjon om:",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://gravitatehealth.eu/section",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "toc"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;I dette pakningsvedlegget finner du informasjon om:&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ol&gt;\n                              &lt;li&gt;Hva Asacol er og hva det brukes mot&lt;/li&gt;\n                              &lt;li&gt;Hva du må vite før du bruker Asacol&lt;/li&gt;\n                              &lt;li&gt;Hvordan du bruker Asacol&lt;/li&gt;\n                              &lt;li&gt;Mulige bivirkninger&lt;/li&gt;\n                              &lt;li&gt;Hvordan du oppbevarer Asacol&lt;/li&gt;\n                              &lt;li&gt;Innholdet i pakningen og ytterligere informasjon&lt;/li&gt;\n                           &lt;/ol&gt;\n                        &lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "1. Hva Asacol er og hva det brukes mot",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029895"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;1. Hva Asacol er og hva det brukes mot&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Asacol inneholder virkestoffet mesalazin, som er et antiinflammatorisk legemiddel som brukes til behandling av inflammatoriske sykdommer i tarmen, som Crohns sykdom og ulcerøs kolitt.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Mesalazin (5-aminosalicylsyre) har en lokal virkning i tarmen der det hindrer betennelsesceller fra å feste seg i tarmveggen og reduserer virkningen av inflammatoriske signalsubstanser.&lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "2. Hva du må vite før du bruker Asacol",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029896"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;2. Hva du må vite før du bruker Asacol&lt;/h2&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>" : [
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Bruk ikke Asacol",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029897"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Bruk ikke Asacol&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;ul&gt;\n                                 &lt;li&gt;dersom du er allergisk overfor mesalazin eller noen av de andre innholdsstoffene i dette legemidlet (listet opp i avsnitt 6).&lt;/li&gt;\n                                 &lt;li&gt;dersom du er allergisk overfor salicylater (f.eks. acetylsalisylsyre).&lt;/li&gt;\n                                 &lt;li&gt;dersom du har alvorlig nedsatt leverfunksjon.&lt;/li&gt;\n                                 &lt;li&gt;dersom du har alvorlig nedsatt nyrefunksjon.&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Advarsler og forsiktighetsregler",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029898"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Advarsler og forsiktighetsregler&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Snakk med legen din før du tar Asacol dersom du har en medisinsk tilstand eller sykdommer, dette gjelder spesielt dersom du har:&lt;ul&gt;\n                                 &lt;li&gt;problemer med lungene, f.eks. astma.&lt;/li&gt;\n                                 &lt;li&gt;tidligere har utvist allergi overfor sulfasalazin.&lt;/li&gt;\n                                 &lt;li&gt;hatt en allergisk reaksjon i hjertet som f.eks. en betennelse i hjertemuskelen eller hjerteposen. Hvis du tidligere har hatt allergiske reaksjoner i hjertet som mistenkes å være forårsaket av mesalazin, må du ikke starte behandling med Asacol igjen. Asacol kan tas med forsiktighet hvis du tidligere har hatt en allergisk reaksjon i hjertet som ikke er forårsaket av mesalazin.&lt;/li&gt;\n                                 &lt;li&gt;dersom du noen gang har fått alvorlig utslett eller avskalling av hud, vabler og/eller munnsår etter bruk av mesalazin.&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;I forbindelse med behandling med mesalazin er det rapportert alvorlige hudreaksjoner, herunder legemiddelreaksjon med eosinofili og systemiske symptomer (DRESS), Stevens-Johnson syndrom (SJS) og toksisk epidermal nekrolyse (TEN). Slutt å ta mesalazin og rådfør deg med lege umiddelbart dersom du får noen av symptomene forbundet med alvorlige hudreaksjoner som beskrevet i avsnitt 4.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Vis forsiktighet ved bruk av Asacol dersom du har sår i magen eller tarmene.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Det kan dannes nyrestein ved bruk av mesalazin. Symptomer kan være smerter i sidene av magen og blod i urinen. Pass på å drikke tilstrekkelig mengde væske under behandling med mesalazin.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Mesalazin kan gi rødbrun misfarging av urinen ved kontakt med blekemidler inneholdende natiumhypokloritt i vannet i toalettet. Det skyldes en kjemisk reaksjon mellom mesalazin og blekemidlet og er ufarlig.&lt;/div&gt;\n                           &lt;span class=\"inline-title\"&gt;Test for å undersøke leveren din, nyrene dine og blodet ditt&lt;/span&gt;\n                           &lt;div class=\"paragraph\"&gt;Før og mens du bruker Asacol kan det være at legen din vil undersøke deg ved behov for å sjekke at leveren din, nyrene dine, blodet ditt og lungene dine fungerer som de skal.&lt;/div&gt;\n                           &lt;span class=\"inline-title\"&gt;Tabletter i avføringen&lt;/span&gt;\n                           &lt;div class=\"paragraph\"&gt;Det har vært et begrenset antall rapporter relatert til intakte tabletter i avføringen. Det som tilsynelatende er intakte tabletter kan i enkelte tilfeller være tomme skall av de drasjerte tablettene. Hvis du ofte observerer intakte tabletter i avføringen, bør du rådføre deg med legen din.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Barn og ungdom",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029899"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Barn og ungdom&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Asacol er kun anbefalt for bruk hos barn 6 år eller eldre.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Andre legemidler og Asacol",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029900"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Andre legemidler og Asacol&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Snakk med lege eller apotek dersom du bruker, nylig har brukt eller planlegger å bruke andre legemidler som f.eks.:&lt;ul&gt;\n                                 &lt;li&gt;Legemidler som hemmer aktiviteten til immunforsvaret (f.eks. azatioprin eller 6-merkaptopurin eller tioguanin).&lt;/li&gt;\n                                 &lt;li&gt;Legemidler som forhindrer dannelsen av blodpropper (antikoagulerende, f. eks. warfarin).&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Inntak av Asacol sammen med mat, drikke og alkohol",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029901"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Inntak av Asacol sammen med mat, drikke og alkohol&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Inntak av mat, drikke og alkohol har ingen betydning for bruken av Asacol.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Graviditet og amming",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029902"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Graviditet og amming&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Snakk med lege eller apotek før du tar dette legemidlet dersom du er gravid eller ammer, tror du kan være gravid eller planlegger å bli gravid.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Du bør bare bruke Asacol under graviditet hvis legen din sier det.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Asacol går over i morsmelk hos mennesker, og det er mulig at barn som ammes kan påvirkes. Asacol bør kun brukes under amming hvis legen din sier det.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Kjøring og bruk av maskiner",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029903"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Kjøring og bruk av maskiner&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Asacol har ingen eller ubetydelig effekt på evnen til å kjøre bil eller bruke maskiner. Hvis du påvirkes, skal du imidlertid ikke kjøre eller bruke maskiner.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Asacol inneholder melkesukker (laktose)",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029904"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Asacol inneholder melkesukker (laktose)&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Dersom legen din har fortalt deg at du har intoleranse overfor noen sukkertyper, bør du kontakte legen din før du tar dette legemiddelet.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;b&gt;Asacol inneholder natrium&lt;/b&gt;:&lt;br/&gt;Dette legemidlet inneholder mindre enn 1 mmol natrium (23 mg) i hver doseenhet, og er så godt som “natriumfritt”.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  }
+                ]
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "3. Hvordan du bruker Asacol",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029905"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;3. Hvordan du bruker Asacol&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Bruk alltid dette legemidlet nøyaktig slik legen har fortalt deg. Kontakt lege eller apotek hvis du er usikker.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Den anbefalte dosen er:&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Voksne og eldre personer&lt;/b&gt;\n                           &lt;br/&gt;\n                           &lt;i&gt;Ulcerøs kolitt: &lt;/i&gt;Den vanlige dosen er 1600-2400 mg 1 gang per dag eller fordelt på 2-3 doser daglig. Ved forverring kan dosen økes til 4800 mg fordelt på 2-3 doser.&lt;br/&gt;\n                           &lt;i&gt;Crohns sykdom: &lt;/i&gt;Vedlikeholdsbehandling: 1600-2400 mg per dag fordelt på 2-3 doser. Ved forverring kan dosen økes til 4800 mg fordelt på 2-3 doser.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Bruk hos barn og ungdom&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;Det finnes bare begrenset dokumentasjon for effekt på barn (i alderen 6-18 år).&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;span class=\"underline\"&gt;Barn som er 6 år eller eldre&lt;/span&gt;\n                           &lt;br/&gt;\n                           &lt;i&gt;\n                              &lt;span class=\"underline\"&gt;Ulcerøs kolitt og Crohns sykdom:&lt;/span&gt;\n                           &lt;/i&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;Aktiv sykdom: Skal besluttes individuelt, startdose er 30-50 mg/kg/dag i delte doser. Maksimal dose: 75 mg/kg/dag i delte doser. Den totale dosen bør ikke overstige 4 g/dag.&lt;/li&gt;\n                              &lt;li&gt;Vedlikeholdsbehandling: Skal besluttes individuelt, startdose er 15-30 mg/kg/dag i delte doser. Den totale dosen bør ikke overstige 2 g/dag.&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Det anbefales vanligvis at halv voksendose skal gis til barn med kroppsvekt opp til 40 kg og normal voksendose til de som er over 40 kg.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Legens doseringsanvisning skal alltid følges.&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;Enterotablettene svelges hele. De må ikke tygges, knuses eller deles før de svelges.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du mener at virkningen av Asacol er for kraftig eller for svak, bør du rådføre deg med legen eller apoteket om dette.&lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>" : [
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Dersom du tar for mye av Asacol",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029907"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Dersom du tar for mye av Asacol&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Hvis du bruker mer Asacol enn du burde eller hvis barn har fått i sig legemidlet, snakk umiddelbart med legen din.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Dersom du har glemt å ta Asacol",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029908"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Dersom du har glemt å ta Asacol&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Du skal ikke ta en dobbelt dose som erstatning for en glemt dose. Hvis en eller flere doser har blitt glemt, skal neste dose tas til vanlig tid.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Dersom du avbryter behandling med Asacol",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029909"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Dersom du avbryter behandling med Asacol&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Du må ikke avbryte behandlingen med Asacol uten å ha rådført deg med legen din først, selv om du føler deg bedre. Spør lege eller apotek dersom du har noen spørsmål om bruken av dette legemidlet.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  }
+                ]
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "4. Mulige bivirkninger",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029910"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;4. Mulige bivirkninger&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Som alle legemidler kan dette legemidlet forårsake bivirkninger, men ikke alle får det.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Organspesifikke bivirkninger som påvirker hjertet, lungene, leveren, nyrene, bukspyttkjertelen, huden og underhudsvevet er rapportert.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Slutt å ta mesalazin og rådfør deg med lege umiddelbart dersom du får noen av følgende symptomer:&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;rødlige målskive-lignende eller sirkulære flekker på overkroppen uten hevelse, ofte med blemme i midten, avskalling av hud, sår i munn, hals, nese, kjønnsorganer og øyne, utbredt utslett, feber og forstørrede lymfekjertler. Slike alvorlige hudutslett kan oppstå etter feber eller influensalignende symptomer.&lt;/li&gt;\n                              &lt;li&gt;dersom du opplever akutte symptomer på intoleranse som f.eks. magekramper, akutte magesmerter, feber, alvorlig hodepine og utslett.&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Følgende bivirkninger har blitt rapportert med ca. hyppighet som er vist under:&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Vanlige bivirkninger&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;hudutslett&lt;/li&gt;\n                              &lt;li&gt;fordøyelsesvansker&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Mindre vanlige bivirkninger&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;feber&lt;/li&gt;\n                              &lt;li&gt;økt antall hvite blodceller kalt eosinofile granulocytter&lt;/li&gt;\n                              &lt;li&gt;følelse av kribling, prikking og nummenhet&lt;/li&gt;\n                              &lt;li&gt;elveblest, hudkløe&lt;/li&gt;\n                              &lt;li&gt;brystsmerter&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Sjeldne bivirkninger&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;hodepine&lt;/li&gt;\n                              &lt;li&gt;svimmelhet&lt;/li&gt;\n                              &lt;li&gt;betennelse i hjertet med symptomer som brystsmerter eller hjertebank&lt;/li&gt;\n                              &lt;li&gt;diaré, magesmerter, luft i magen (flatulens), ubehagsfølelse i magen med trang til å kaste opp og oppkast&lt;/li&gt;\n                              &lt;li&gt;økt følsomhet i huden for sol og ultrafiolett lys (lysoverfølsomhet)&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Svært sjeldne bivirkninger&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;reduksjon i antall blodceller som i alvorlige tilfeller kan føre til svakhet, blåmerker eller gjøre det lettere å få infeksjoner, redusert antall blodplater som fører til økt risiko for blødning&lt;/li&gt;\n                              &lt;li&gt;allergiske reaksjoner som f.eks. utslett&lt;/li&gt;\n                              &lt;li&gt;feber som oppstår mens man bruker legemidlet og som forsvinner når man stopper å bruke det (legemiddelindusert feber)&lt;/li&gt;\n                              &lt;li&gt;sykdom i immunforsvaret som kan omfatte organer og ledd&lt;/li&gt;\n                              &lt;li&gt;ulcerøs kolitt som omfatter hele tykktarmen&lt;/li&gt;\n                              &lt;li&gt;følelse av nummenhet eller prikking&lt;/li&gt;\n                              &lt;li&gt;pusteproblemer, hoste, eller piping i brystet og væskeansamling i lungene, lungebetennelse&lt;/li&gt;\n                              &lt;li&gt;betent bukspyttkjertel (forbundet med smerte i øvre mageregion og ryggen samt kvalme)&lt;/li&gt;\n                              &lt;li&gt;unormale leverfunksjonsprøver, hepatitt (betennelse i leveren med influensalignende symptomer og gulsott)&lt;/li&gt;\n                              &lt;li&gt;hårtap&lt;/li&gt;\n                              &lt;li&gt;muskel- eller leddsmerter&lt;/li&gt;\n                              &lt;li&gt;svekket nyrefunksjon, nyresvikt som kan være reverserbar hvis behandlingen avbrytes tidlig nok&lt;/li&gt;\n                              &lt;li&gt;reversibel reduksjon av spermieproduksjonen&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Ikke kjent&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;sykdom i immunforsvaret (lupus-liknende syndrom) som kan føre til betennelse i hjertesekken eller membranen rundt lungene eller hjertet, utslett og/eller leddsmerter&lt;/li&gt;\n                              &lt;li&gt;betennelse i membraner som omgir lungene (pleuritt)&lt;/li&gt;\n                              &lt;li&gt;intoleranse mot mesalazin, noen ganger med forverrende symptomer på underliggende sykdom&lt;/li&gt;\n                              &lt;li&gt;nyrestein og smerter forbundet med nyrestein (se også avsnitt 2)&lt;/li&gt;\n                              &lt;li&gt;vektreduksjon&lt;/li&gt;\n                              &lt;li&gt;laboratorieresultater som er utenfor normalområdet&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Vurdering av bivirkningene er basert på følgende frekvenser:&lt;br/&gt;Vanlige: kan forekomme hos opptil 1 av 10 personer&lt;br/&gt;Mindre vanlige: kan forekomme hos opptil 1 av 100 personer&lt;br/&gt;Sjeldne: kan forekomme hos opptil 1 av 1000 personer&lt;br/&gt;Svært sjeldne: kan forekomme hos opptil 1 av 10 000 personer&lt;br/&gt;Ikke kjent: frekvensen kan ikke anslås utifra tilgjengelige data&lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>" : [
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Melding av bivirkninger",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029912"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Melding av bivirkninger&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Kontakt lege, apotek eller sykepleier dersom du opplever bivirkninger. Dette gjelder også bivirkninger som ikke er nevnt\ni pakningsvedlegget. Du kan også melde fra om bivirkninger direkte via meldeskjema som finnes på nettsiden til Statens legemiddelverk:\n&lt;a href=\"https://www.legemiddelverket.no/pasientmelding\" title=\"www.legemiddelverket.no/pasientmelding\"&gt;www.legemiddelverket.no/pasientmelding&lt;/a&gt;. Ved å melde fra om bivirkninger\nbidrar du med informasjon om sikkerheten ved bruk av dette legemidlet.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  }
+                ]
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "5. Hvordan du oppbevarer Asacol",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029913"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;5. Hvordan du oppbevarer Asacol&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Oppbevares utilgjengelig for barn.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Oppbevares ved høyst 25ºC.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Bruk ikke dette legemidlet etter utløpsdatoen som er angitt på trykkemballasje (blisteren) etter ”EXP” og på esken etter ”Utl.dato”. Utløpsdatoen er den siste dagen i den angitte måneden.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Legemidler skal ikke kastes i avløpsvann eller sammen med husholdningsavfall. Spør på apoteket hvordan du skal kaste legemidler som du ikke lenger bruker. Disse tiltakene bidrar til å beskytte miljøet.&lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "6. Innholdet i pakningen og ytterligere informasjon",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029914"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;6. Innholdet i pakningen og ytterligere informasjon&lt;/h2&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>" : [
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Sammensetning av Asacol",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029915"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Sammensetning av Asacol&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;ul&gt;\n                                 &lt;li&gt;Virkestoff er mesalazin.&lt;/li&gt;\n                                 &lt;li&gt;Andre innholdsstoffer er laktosemonohydrat, natriumstivelseglykolat (Type A), magnesiumstearat, talkum, povidon, metakrylsyre-metylmetakrylatkopolymer, triethylcitrat, gul jernoksid (E 172), rød jernoksid (E 172), makrogol 6000.&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Hvordan Asacol ser ut og innholdet i pakningen",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029916"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Hvordan Asacol ser ut og innholdet i pakningen&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Enterotablettene er rødbrune.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Pakningsstørrelser:&lt;br/&gt;400 mg: En eske inneholder 100 enterotabletter i blisterpakning (PVC/aluminium). Hver blister inneholder 10 enterotabletter.&lt;br/&gt;800 mg: En eske inneholder 60 eller 180 enterotabletter i blisterpakning (PVC/aluminium). Hver blister inneholder 10 enterotabletter.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Ikke alle pakningsstørrelser vil nødvendigvis bli markedsført.&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Innehaver av markedsføringstillatelsen",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029917"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Innehaver av markedsføringstillatelsen&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Tillotts Pharma AB&lt;br/&gt;Gustavslundsvägen 135&lt;br/&gt;SE-167 51 Bromma&lt;br/&gt;Sverige&lt;br/&gt;Kontaktinformasjon: &lt;a href=\"mailto:nordicinfo@tillotts.com\" title=\"nordicinfo@tillotts.com\"&gt;nordicinfo@tillotts.com&lt;/a&gt;\n                           &lt;/div&gt;\n                           &lt;span class=\"inline-title\"&gt;Tilvirker&lt;/span&gt;\n                           &lt;div class=\"paragraph\"&gt;Haupt Pharma Wülfing GmbH&lt;br/&gt;Bethelner Landstr. 18&lt;br/&gt;D-31028 Gronau&lt;br/&gt;Tyskland&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Rottendorf Pharma GmbH&lt;br/&gt;Ostenfelder Strasse 51-61&lt;br/&gt;59320 Ennigerloh&lt;br/&gt;Tyskland&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Dette pakningsvedlegget ble sist oppdatert 19.05.2023",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029919"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Dette pakningsvedlegget ble sist oppdatert 19.05.2023&lt;/h3&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/IBD-MPD-38",
+      "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">resourceType</a>" : "MedicinalProductDefinition",
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.id">id</a>" : "IBD-MPD-38",
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a style="color: Maroon" href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+            "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"MedicinalProductDefinition_IBD-MPD-38\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition&lt;/b&gt;&lt;a name=\"IBD-MPD-38\"&gt; &lt;/a&gt;&lt;a name=\"hcIBD-MPD-38\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource MedicinalProductDefinition &amp;quot;IBD-MPD-38&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\"&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_2D1E23CD-84BD-4243-AD4C-56AB194CA9F2&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;*&lt;/td&gt;&lt;td&gt;Asacol enterotab 400 mg&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "http://legemiddelverket.no/FEST/LegemiddelMerkevareID",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "ID_2D1E23CD-84BD-4243-AD4C-56AB194CA9F2"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name">name</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.productName">productName</a>" : "Asacol enterotab 400 mg"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-42",
+      "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">resourceType</a>" : "PackagedProductDefinition",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.id">id</a>" : "IBD-PPD-42",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a style="color: Maroon" href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+            "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"PackagedProductDefinition_IBD-PPD-42\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;a name=\"IBD-PPD-42\"&gt; &lt;/a&gt;&lt;a name=\"hcIBD-PPD-42\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource PackagedProductDefinition &amp;quot;IBD-PPD-42&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\"&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_1373F78E-0B5C-4EF9-B722-EF54F2FE6E28, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/002071&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Asacol enterotab 400 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_IBD-MPD-38\"&gt;See above (MedicinalProductDefinition/IBD-MPD-38)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "http://legemiddelverket.no/FEST/LegemiddelPakningID",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "ID_1373F78E-0B5C-4EF9-B722-EF54F2FE6E28"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://farmalogg.no/varenummer",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "002071"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.name">name</a>" : "Asacol enterotab 400 mg",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packageFor">packageFor</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/IBD-MPD-38"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/IBD-MPD-42",
+      "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">resourceType</a>" : "MedicinalProductDefinition",
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.id">id</a>" : "IBD-MPD-42",
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a style="color: Maroon" href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+            "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"MedicinalProductDefinition_IBD-MPD-42\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition&lt;/b&gt;&lt;a name=\"IBD-MPD-42\"&gt; &lt;/a&gt;&lt;a name=\"hcIBD-MPD-42\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource MedicinalProductDefinition &amp;quot;IBD-MPD-42&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\"&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_7DE13302-6A27-4F7A-994C-ECCA6BD8EBE5&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;*&lt;/td&gt;&lt;td&gt;Asacol enterotab 800 mg&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "http://legemiddelverket.no/FEST/LegemiddelMerkevareID",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "ID_7DE13302-6A27-4F7A-994C-ECCA6BD8EBE5"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name">name</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.productName">productName</a>" : "Asacol enterotab 800 mg"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-48",
+      "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">resourceType</a>" : "PackagedProductDefinition",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.id">id</a>" : "IBD-PPD-48",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a style="color: Maroon" href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+            "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"PackagedProductDefinition_IBD-PPD-48\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;a name=\"IBD-PPD-48\"&gt; &lt;/a&gt;&lt;a name=\"hcIBD-PPD-48\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource PackagedProductDefinition &amp;quot;IBD-PPD-48&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\"&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_0B7D1CC7-409C-47A1-A208-ECFD4A40DF6E, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/148409&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Asacol enterotab 800 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_IBD-MPD-42\"&gt;See above (MedicinalProductDefinition/IBD-MPD-42)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "http://legemiddelverket.no/FEST/LegemiddelPakningID",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "ID_0B7D1CC7-409C-47A1-A208-ECFD4A40DF6E"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://farmalogg.no/varenummer",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "148409"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.name">name</a>" : "Asacol enterotab 800 mg",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packageFor">packageFor</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/IBD-MPD-42"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-47",
+      "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">resourceType</a>" : "PackagedProductDefinition",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.id">id</a>" : "IBD-PPD-47",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a style="color: Maroon" href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+            "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"PackagedProductDefinition_IBD-PPD-47\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;a name=\"IBD-PPD-47\"&gt; &lt;/a&gt;&lt;a name=\"hcIBD-PPD-47\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource PackagedProductDefinition &amp;quot;IBD-PPD-47&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\"&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_1F13E622-4B51-4DBF-95EC-C0B577A6EA2A, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/010446&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Asacol enterotab 800 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_IBD-MPD-42\"&gt;See above (MedicinalProductDefinition/IBD-MPD-42)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "http://legemiddelverket.no/FEST/LegemiddelPakningID",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "ID_1F13E622-4B51-4DBF-95EC-C0B577A6EA2A"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://farmalogg.no/varenummer",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "010446"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.name">name</a>" : "Asacol enterotab 800 mg",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packageFor">packageFor</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/IBD-MPD-42"
+          }
+        ]
+      }
+    }
+  ]
+}</code></pre>
+
+
+    <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

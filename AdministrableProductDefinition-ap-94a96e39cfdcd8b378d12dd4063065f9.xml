@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AdministrableProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="ap-94a96e39cfdcd8b378d12dd4063065f9"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="ap-94a96e39cfdcd8b378d12dd4063065f9"> </a><a name="hcap-94a96e39cfdcd8b378d12dd4063065f9"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;ap-94a96e39cfdcd8b378d12dd4063065f9&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/18/1289/001</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href="MedicinalProductDefinition-mp2a9c4333cfd126f2e7b73ad3cafd6949.html">MedicinalProductDefinition/mp2a9c4333cfd126f2e7b73ad3cafd6949</a></p><p><b>administrableDoseForm</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073664)</span></p><p><b>unitOfPresentation</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000002152)</span></p><p><b>producedFrom</b>: <a href="ManufacturedItemDefinition-mid-94a96e39cfdcd8b378d12dd4063065f9.html">ManufacturedItemDefinition/mid-94a96e39cfdcd8b378d12dd4063065f9</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073619)</span></p><h3>TargetSpecies</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td></tr><tr><td style="display: none">*</td><td>Human <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>
+  </text>
+  <identifier>
+    <system value="https://spor.ema.europa.eu/pmswi"/>
+    <value value="EU/1/18/1289/001"/>
+  </identifier>
+  <status value="active"/>
+  <formOf>
+    <reference value="MedicinalProductDefinition/mp2a9c4333cfd126f2e7b73ad3cafd6949"/>
+  </formOf>
+  <administrableDoseForm>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000073664"/>
+      <display value="Tablet"/>
+    </coding>
+  </administrableDoseForm>
+  <unitOfPresentation>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="200000002152"/>
+      <display value="Tablet"/>
+    </coding>
+  </unitOfPresentation>
+  <producedFrom>
+    <reference value="ManufacturedItemDefinition/mid-94a96e39cfdcd8b378d12dd4063065f9"/>
+  </producedFrom>
+  <routeOfAdministration>
+    <code>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="100000073619"/>
+        <display value="Oral use"/>
+      </coding>
+    </code>
+    <targetSpecies>
+      <code>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi"/>
+          <code value="100000109093"/>
+          <display value="Human"/>
+        </coding>
+      </code>
+    </targetSpecies>
+  </routeOfAdministration>
+</AdministrableProductDefinition>

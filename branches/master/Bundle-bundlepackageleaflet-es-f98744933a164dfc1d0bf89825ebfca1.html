@@ -1,0 +1,1757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI document Bundle for dovato-es Package Leaflet for language es - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.14"}
+    h3,h4,h5,h6{--heading-prefix:"16.14"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for dovato-es Package Leaflet for language es</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-f98744933a164dfc1d0bf89825ebfca1.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-f98744933a164dfc1d0bf89825ebfca1.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-f98744933a164dfc1d0bf89825ebfca1.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Example Bundle: ePI document Bundle for dovato-es Package Leaflet for language es</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  Raw
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>B. Package Leaflet</h3>
+    <p>
+      <div xmlns="http://www.w3.org/1999/xhtml">unavailable</div></p>
+    
+      
+
+        <h4>Package leaflet: Information for the user</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml">Prospecto: información para el paciente Dovato 50 mg/300 mg comprimidos recubiertos con película dolutegravir/lamivudina <b>Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento, porque contiene información importante para usted.</b><ul><li>Conserve este prospecto, ya que puede tener que volver a leerlo.</li><li>Si tiene alguna duda, consulte a su médico o farmacéutico.</li><li>Este medicamento se le ha recetado solamente a usted, y no debe dárselo a otras personas aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.</li><li>Si experimenta efectos adversos, consulte a su médico o farmacéutico, incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.</li></ul></div></p>
+
+      
+
+        <h4>What is in this leaflet</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml">Contenido del prospecto<ol><li>Qué es Dovato y para qué se utiliza</li><li>Qué necesita saber antes de empezar a tomar Dovato</li><li>Cómo tomar Dovato</li><li>Posibles efectos adversos</li><li>Conservación de Dovato</li><li>Contenido del envase e información adicional</li></ol></div></p>
+
+      
+
+        <h4>1. What Dovato 50 mg/300 mg comprimidos recubiertos con película is and what it is used for</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><b>1. Qué es Dovato y para qué se utiliza</b> Dovato es un medicamento que contiene dos principios activos usados para tratar la infección por el virus de la inmunodeficiencia humana (VIH): dolutegravir y lamivudina. Dolutegravir pertenece al grupo de medicamentos antirretrovirales llamados inhibidores de la integrasa (INI) y lamivudina pertenece a un grupo de medicamentos antirretrovirales denominados inhibidores de la transcriptasa inversa análogos de nucleósido (ITIAN).</div></p>
+
+      
+
+        <h4>2. What you need to know before you take Dovato 50 mg/300 mg comprimidos recubiertos con película</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p><strong>No tome Dovato</strong></p><ul><li>si es alérgico (hipersensible) a dolutegravir o lamivudina o a alguno de los demás componentes de este medicamento (incluidos en la sección 6)</li><li>si está tomando un medicamento llamado fampridina (también conocido como dalfampridina; utilizado para tratar la esclerosis múltiple).</li></ul><p>? Si cree que algo de esto le aplica, consulte a su médico.</p><p><strong>Advertencias y precauciones</strong> Algunas personas que toman Dovato u otros tratamientos combinados frente al VIH tienen un mayor riesgo de desarrollar efectos adversos graves que otras. Usted necesita saber que hay un mayor riesgo:</p><ul><li>si tiene una enfermedad hepática moderada o grave</li><li>si alguna vez ha tenido una enfermedad hepática, incluyendo hepatitis B o C (si tiene hepatitis B no deje de tomar Dovato sin el consejo de su médico, ya que podría empeorar)</li><li>si tiene un problema de riñón.</li></ul><p>? Consulte a su médico antes de empezar a tomar Dovato si le aplica alguna de estas condiciones. Puede necesitar pruebas adicionales, incluyendo análisis de sangre, mientras toma este medicamento. Para más información, ver sección 4.</p><p><em>Reacciones alérgicas</em></p><p>Dovato contiene dolutegravir. Dolutegravir puede producir una reacción alérgica grave conocida como reacción de hipersensibilidad. Usted necesita saber a qué signos y síntomas importantes debe estar atento mientras esté tomando Dovato.</p><p>? Lea la información “Reacciones alérgicas” en la sección 4 de este prospecto.</p><p><em>Esté atento a los síntomas importantes</em></p><p>Algunas personas que toman medicamentos para la infección por el VIH desarrollan otros trastornos, que pueden ser graves. Estos incluyen:</p><ul><li>síntomas de infecciones e inflamación</li><li>dolor en las articulaciones, rigidez y problemas de huesos.</li></ul><p>Usted necesita saber a qué signos y síntomas importantes debe estar atento mientras esté tomando Dovato.</p><p>? Lea la información sobre “Otros posibles efectos adversos” en la sección 4 de este prospecto.</p><p><strong>Niños</strong></p><p>Este medicamento no está indicado en niños menores de 12 años, porque no ha sido estudiado en estos pacientes.</p><p><strong>Otros medicamentos y Dovato</strong> Informe a su médico si está tomando, ha tomado recientemente o pudiera tener que tomar cualquier otro medicamento.</p><p>No tome Dovato con el siguiente medicamento:</p><ul><li>fampridina (también conocido como dalfampridina), utilizado para tratar la esclerosis múltiple.</li></ul><p>Algunos medicamentos pueden afectar al funcionamiento de Dovato o aumentar la probabilidad de sufrir efectos adversos. Dovato también puede afectar al funcionamiento de algunos otros medicamentos.</p><p>Informe a su médico si está tomando alguno de los siguientes medicamentos:</p><ul><li>metformina, para tratar la diabetes</li><li>medicamentos llamados antiácidos, para tratar la indigestión y el ardor de estómago. No tome un antiácido durante las 6 horas antes de tomar Dovato, o por lo menos 2 horas después de tomarlo (ver también sección 3, “Cómo tomar Dovato”).</li><li>suplementos o multivitamínicos que contienen calcio, hierro o magnesio. Si toma Dovato con comida, puede tomar los suplementos o multivitamínicos que contengan calcio, hierro o magnesio a la vez que Dovato. Si no toma Dovato con comida, no puede tomar un suplemento o multivitamínico que contenga calcio, hierro o magnesio durante las 6 horas antes de tomar Dovato, o por lo menos 2 horas después de tomarlo (ver también sección 3, “Cómo tomar Dovato”).</li><li>emtricitabina, etravirina, efavirenz, nevirapina o tipranavir/ritonavir, para tratar la infección por el VIH medicamentos (generalmente líquidos) que contengan sorbitol y otros polialcoholes (como xilitol, manitol, lactitol o maltitol), si se toman con regularidad</li><li>cladribina, utilizada para tratar la leucemia o la esclerosis múltiple</li><li>rifampicina, para tratar la tuberculosis (TB) y otras infecciones bacterianas</li><li>fenitoína y fenobarbital, para tratar la epilepsia</li><li>oxcarbazepina y carbamazepina, para tratar la epilepsia o el trastorno bipolar</li><li>hierba de San Juan (Hypericum perforatum), un medicamento a base de plantas para tratar la depresión.</li></ul><p>? Informe a su médico o farmacéutico si está tomando alguno de estos medicamentos. Su médico puede decidir ajustar su dosis o que usted necesite chequeos adicionales.</p><p><strong>Embarazo</strong></p><p>Si está embarazada, cree que podría estar embarazada o tiene intención de quedarse embarazada:</p><p>? Consulte a su médico sobre los riegos y beneficios de tomar Dovato.</p><p>Tomar Dovato en el momento de quedarse embarazada o durante las primeras seis semanas de embarazo puede aumentar el riesgo de un defecto de nacimiento, denominado defecto del tubo neural, como la espina bífida (malformación de la médula espinal).</p><p>Si existe la posibilidad de quedarse embarazada mientras está tomando Dovato:</p><p>? Consulte a su médico y valore si existe la necesidad de utilizar un método anticonceptivo, como preservativos o anticonceptivos orales.</p><p>Informe a su médico de inmediato si se queda embarazada o tiene intención de quedarse embarazada. Su médico revisará su tratamiento. No interrumpa el tratamiento con Dovato sin consultar a su médico, ya que esto podría dañarles a usted y a su hijo.</p><p><strong>Lactancia</strong></p><p><strong>No se recomienda</strong> que las mujeres que conviven con el VIH den el pecho porque la infección por VIH puede transmitirse al bebé a través de la leche materna.</p><p>Una pequeña cantidad de los componentes de Dovato también pueden pasar a la leche materna.</p><p>Si está dando el pecho o piensa en dar el pecho, debe consultar con su médico lo antes posible.</p><p><strong>Conducción y uso de máquinas</strong> Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos que reduzcan su atención.</p>? No conduzca ni maneje maquinaria, a menos que esté seguro que no está afectado.</div></p>
+
+      
+
+        <h4>3. How to take Dovato 50 mg/300 mg comprimidos recubiertos con película</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><b>3. Cómo tomar Dovato</b><p>Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico. En caso de duda, consulte de nuevo a su médico o farmacéutico.</p><ul><li>La dosis recomendada de Dovato es <b>un comprimido una vez al día.</b></li></ul><p>Trague el comprimido con un poco de líquido. Dovato se puede tomar con o sin alimentos.</p></div></p>
+
+      
+
+        <h4>4. Possible side effects</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p><b>4. Posibles efectos adversos</b></p><p>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran, <b>por lo que es muy importante que le comente a su médico cualquier cambio en su estado de salud.</b></p></div></p>
+
+      
+
+        <h4>5. How to store Dovato 50 mg/300 mg comprimidos recubiertos con película</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><b>5. Conservación de Dovato</b><p>Mantener este medicamento fuera de la vista y del alcance de los niños</p><p>No utilice este medicamento después de la fecha de caducidad que aparece en la caja y el frasco después de CAD. La fecha de caducidad es el último día del mes que se indica.</p><p>Este medicamento no requiere ninguna condición especial de conservación.</p><p>Los medicamentos no se deben tirar por los desagües ni a la basura. Pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que ya no necesita. De esta forma, ayudará a proteger el medio ambiente.</p></div></p>
+
+      
+
+        <h4>6. Contents of the pack and other information</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><b>6. Contenido del envase e información adicional</b> <b>Composición de Dovato</b><ul><li>Los principios activos son dolutegravir y lamivudina. Cada comprimido contiene dolutegravir sódico equivalente a 50 mg de dolutegravir y 300 mg de lamivudina.</li><li>Los demás componentes son celulosa microcristalina, carboximetilalmidón sódico, estearato de magnesio, manitol (E421), povidona (K29/32), fumarato estearilo de sodio, hipromelosa (E464), macrogol, dióxido de titanio (E171).</li><li>Este medicamento contiene menos de 1 mmol de sodio (23 mg) por comprimido; esto es, esencialmente “exento de sodio”.</li></ul></div></p>
+
+      
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Dovato 50 mg/300 mg film-coated tablets
+  </h4>
+
+  
+  
+    PMSWI:
+    <b>
+      EU/1/19/1370/001
+    </b>
+    </br>
+  
+    PHPID:
+    <b>
+      0x073AF2E5B92AE19E8B67635AFFB3D6CA
+    </b>
+    </br>
+  
+  <hr>
+  
+  <p>Full name: <b>Dovato 50 mg/300 mg film-coated tablets</b></p>
+  
+    <p>
+      - Invented name part:
+      <b>
+        Dovato
+      </b>
+    </p>
+  
+    <p>
+      - Scientific name part:
+      <b>
+        dolutegravir/lamivudine
+      </b>
+    </p>
+  
+    <p>
+      - Strength part:
+      <b>
+        50 mg/300 mg
+      </b>
+    </p>
+  
+    <p>
+      - Pharmaceutical dose form part:
+      <b>
+        film-coated tablets
+      </b>
+    </p>
+  
+
+
+  
+  
+  
+    <div>
+      <p>
+        Name usage:
+        
+
+          <b>English (United Kingdom)</b>
+        </p>
+
+      
+    </div>
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b>active</b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+  <p class="divtitle">
+    <b>Marketing Authorisation</b>
+    1 of 1</p>
+
+  <p>Authorisation number:
+    <b>
+      
+        EU/1/19/1370/001
+      
+    </b>
+  </p>
+
+  <p>
+    Region:
+    <b>
+      
+    </b>
+  </p>
+
+  <p>
+
+    
+  </p>
+
+  
+  
+
+    
+    
+    
+    
+
+
+    
+    
+  
+    
+    
+    
+
+
+    
+    
+      <p>Marketing authorisation holder:
+        <b>ViiV Healthcare BV</b>
+      </p>
+      <p>
+        Identifier:
+        <ul>
+          
+            <li>
+              <b>ORG-100012958</b>
+            </li>
+          
+        </ul>
+      </p>
+    
+  
+    
+    
+    
+
+
+    
+    
+  
+
+  <p>
+    Status:
+    <b>
+      Active (2019-07-01T13:28:17Z)
+    </b>
+  </p>
+
+</div>
+    
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 1</p>
+          
+  <p>PMSWI:
+  <b>
+    EU/1/19/1370/001
+  </b>
+  </p>
+
+<p>
+  Description:
+  </br>
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+      <li>
+        <b>30 </li></b>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b>1 Box</b>
+  
+  
+    
+      <b>(Cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+
+
+  <br/>
+  <div class="container rcorners innerpack">
+    
+<p>Package:
+  <b>1 Child-resistant closure</b>
+  
+  
+    
+      <b>(Cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+    <b> 
+      
+    </b>
+  </p>
+  
+  
+  
+    
+    
+
+    
+      <div class="container rcorners mid listcontainer">
+  <p class="divtitle">Manufactured Item</p>
+  <p>
+    Dose form:
+    <b>
+      Film-coated tablet
+    </b>
+  </p>
+  <p>
+    Unit of presentation:
+    <b>
+      Tablet
+    </b>
+  </p>
+
+  
+
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              DOLUTEGRAVIR SODIUM
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              lamivudine
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              microcrystalline cellulose
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              sodium starch glycolate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              magnesium stearate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              mannitol
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+</div>
+      
+  
+
+
+
+
+
+  </div>
+
+
+
+  </div>
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+        
+        
+        
+        
+          
+        <div class="container rcorners apd listcontainer">
+  <p class="divtitle">Administrable Product (1 of 1)</p>
+  <p>
+    Dose form:
+    <b>
+      tablet
+    </b>
+  </p>
+
+  <p>
+    Unit of presentation:
+    <b>
+      tablet
+    </b>
+  </p>
+
+  <p>
+    Route of administration:
+    <ul>
+      
+        <li>
+          <b>
+            Oral use
+          </b>
+        </li>
+      
+    </ul>
+  </p>
+
+  Ingredients:
+  
+
+
+
+  
+
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              DOLUTEGRAVIR SODIUM
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              lamivudine
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              microcrystalline cellulose
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              sodium starch glycolate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              magnesium stearate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              mannitol
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+
+
+</div>
+      
+    
+  
+</div>
+
+
+<!--
+  <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Dovato 50 mg/300 mg film-coated tablets
+  </h4>
+
+  
+  
+  
+  
+    PMSWI:
+    <b>
+      EU/1/19/1370/001
+    </b>
+  
+    PHPID:
+    <b>
+      0x073AF2E5B92AE19E8B67635AFFB3D6CA
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b>active</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+
+        <p class="divtitle">Authorisation 1 of 1</p>
+        Auth id:
+        <b>
+          
+            EU/1/19/1370/001
+          
+        </b>
+
+        <p>
+          Country:
+          <b>
+            
+
+          </b>
+        </p>
+        <p>
+          Type:
+          <b>
+            Marketing Authorisation
+          </b>
+        </p>
+
+        
+      </p>
+
+      
+      
+
+        
+        
+        
+        
+
+
+        
+        
+      
+        
+        
+        
+
+
+        
+        
+          <p>
+            Holder:
+            <b>ViiV Healthcare BV (ORG-100012958)</b>
+
+          </p>
+          <p></p>
+        
+      
+        
+        
+        
+
+
+        
+        
+      
+
+
+
+      <p>
+        Status:
+        <b>
+          Active (2019-07-01T13:28:17Z)
+        </b>
+      </p>
+
+    </div>
+
+  
+
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 1</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          PMSWI:
+          <b>
+            EU/1/19/1370/001
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          active</b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+              <li>
+
+                <b>
+                  30 {tablets}</b>
+              </li>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+            <br/>
+            <div class="container rcorners pack bleft">
+              <p>Package: 1 Box [Cardboard]</p>
+
+
+              
+              
+                <br/>
+                <div class="container rcorners pack bleft">
+                  <p>Inner Package: 1 Child-resistant closure [Cardboard]</p>
+
+                </div>
+              </div>
+            
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+      
+
+      
+      
+      
+        
+          <div class="container bleft rcorners apd"> <p class="divtitle">Administrable Product (1 of 1)</p>
+          <p>
+            Dose form:
+            <b>
+              tablet
+            </b>
+          </p>
+
+          <p>
+            Presentation unit:
+            <b>
+              tablet
+            </b>
+          </p>
+          Route of administration:
+          <ul>
+            
+              <li>
+                <b>
+                  Oral use
+                </b>
+              </li>
+            
+          </ul>
+          Contents (Manuf. Items):
+          <ul>
+            
+            
+
+              
+
+              
+
+              
+                <div class="container   rcorners mid">
+                  <b>mid-49178f16170ee8a6bc2a4361c1748d5f</b>
+                  <p>
+                    Dose form:
+                    <b>Film-coated tablet</b>
+                  </p>
+                  <p>
+                    Presentation unit:
+                    <b>Tablet</b>
+                  </p>
+                  <p>
+                    Manufactured Dose Form:
+                    <b>Film-coated tablet</b>
+                  </p>
+                  Ingredients:
+                  <ul>
+                    
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-dovato-dolutegravirsodium</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              DOLUTEGRAVIR SODIUM
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-dovato-lamivudine</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              lamivudine
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-dovato-microcrystallinecellulose</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              microcrystalline cellulose
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-dovato-sodiumstarchglycolate</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              sodium starch glycolate
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-dovato-magnesiumstearate</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              magnesium stearate
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-dovato-mannitol</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              mannitol
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                  </ul>
+
+                </div>
+              
+            
+          </ul>
+          
+          
+            
+
+
+        </div>
+      
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Jan 21, 2024 22:55+0000">2024-01-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

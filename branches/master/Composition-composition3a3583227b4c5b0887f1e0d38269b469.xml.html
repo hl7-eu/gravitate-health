@@ -1,0 +1,531 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Composition for humira Package Leaflet - XML Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.166"}
+    h3,h4,h5,h6{--heading-prefix:"16.166"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Composition for humira Package Leaflet</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Composition-composition3a3583227b4c5b0887f1e0d38269b469.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Composition-composition3a3583227b4c5b0887f1e0d38269b469.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Composition-composition3a3583227b4c5b0887f1e0d38269b469.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Composition for humira Package Leaflet - XML Representation</h2>
+
+
+<p><a href="Composition-composition3a3583227b4c5b0887f1e0d38269b469.xml" no-download="true">Raw xml</a> | <a href="Composition-composition3a3583227b4c5b0887f1e0d38269b469.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml" style="white-space: pre; overflow: hidden"><code>
+
+&lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition">Composition</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;composition3a3583227b4c5b0887f1e0d38269b469&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&quot;/&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot; lang=&quot;en&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=&quot;composition3a3583227b4c5b0887f1e0d38269b469&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Resource Composition &amp;quot;composition3a3583227b4c5b0887f1e0d38269b469&amp;quot;  (Language &amp;quot;en&amp;quot;) &lt;/p&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html&quot;&gt;Composition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: 2bf0305e7e731bc6f0a8a3ae804fb03a&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Package Leaflet &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: Raw &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (&lt;a href=&quot;CodeSystem-epicategory-cs.html&quot;&gt;Category of EPI&lt;/a&gt;#R)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-02-16 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;a href=&quot;Organization-mah-fda7514c0dcb7b5f0176cb5af274235f.html&quot;&gt;Organization/mah-fda7514c0dcb7b5f0176cb5af274235f&lt;/a&gt; &amp;quot;AbbVie Deutschland GmbH Co. KG&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: TEST PURPOSES ONLY - humira&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;Official &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (&lt;a href=&quot;http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html&quot;&gt;Composition Attestation Mode&lt;/a&gt;#official)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;2022-02-16 13:28:17+0000&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;2bf0305e7e731bc6f0a8a3ae804fb03a&quot;/&gt;
+  &lt;/identifier&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;final&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.type">type</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+    &lt;/coding&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Package Leaflet&quot;/&gt;
+  &lt;/type&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.category">category</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+              <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;R&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Raw&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/category&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.subject">subject</a>&gt;<a href="MedicinalProductDefinition-mpf97db27e6330f77484eb8425ad2913cd.html" style="color: Maroon">&#x1F517;</a> 
+    &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+               <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/mpf97db27e6330f77484eb8425ad2913cd&quot;/&gt;
+  &lt;/subject&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.date">date</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2022-02-16T13:28:17Z&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.author">author</a>&gt;<a href="Organization-mah-fda7514c0dcb7b5f0176cb5af274235f.html" style="color: Maroon">&#x1F517;</a> 
+    &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Organization/mah-fda7514c0dcb7b5f0176cb5af274235f&quot;/&gt;
+  &lt;/author&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;TEST PURPOSES ONLY - humira&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester">attester</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.mode">mode</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/composition-attestation-mode&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/mode&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.time">time</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2022-02-16T13:28:17Z&quot;/&gt;
+  &lt;/attester&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section">section</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;B. Package Leaflet&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+      &lt;/coding&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;B. PACKAGE LEAFLET&quot;/&gt;
+    &lt;/code&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+      &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;unavailable&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;/text&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.emptyReason">emptyReason</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+                <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;unavailable&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/emptyReason&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Package leaflet: Information for the user&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+        &lt;/coding&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Package leaflet: Information for the user&quot;/&gt;
+      &lt;/code&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;Humira 40 mg solution for injection in pre-filled syringe adalimumab&lt;/p&gt;&lt;p&gt;Read all of this leaflet carefully before your child starts using this medicine because it contains important information.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Keep this leaflet. You may need to read it again.&lt;/li&gt;&lt;li&gt;Your doctor will also give you a Patient Reminder Card, which contains important safety information that you need to be aware of before your child begins using Humira and during treatment with Humira. Keep this Patient Reminder Card with you or your child.&lt;/li&gt;&lt;li&gt;If you have any questions, ask your doctor or pharmacist.&lt;/li&gt;&lt;li&gt;This medicine has been prescribed for your child only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as your child.&lt;/li&gt;&lt;li&gt;If your child gets any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+      &lt;/text&gt;
+    &lt;/section&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;What is in this leaflet&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+        &lt;/coding&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;What is in this leaflet&quot;/&gt;
+      &lt;/code&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;What is in this leaflet&lt;/p&gt;&lt;ol&gt;&lt;li&gt;What Humira is and what it is used for&lt;/li&gt;&lt;li&gt;What you need to know before your child uses Humira&lt;/li&gt;&lt;li&gt;How to use Humira&lt;/li&gt;&lt;li&gt;Possible side effects&lt;/li&gt;&lt;li&gt;How to store Humira&lt;/li&gt;&lt;li&gt;Contents of the pack and other information&lt;/li&gt;&lt;li&gt;Injecting Humira&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+      &lt;/text&gt;
+    &lt;/section&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;1. What humira is and what it is used for&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+        &lt;/coding&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;1. What humira is and what it is used for&quot;/&gt;
+      &lt;/code&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;What Humira is and what it is used for Humira contains the active substance adalimumab. Humira is intended for the treatment of the inflammatory diseases described below:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Polyarticular juvenile idiopathic arthritis&lt;/li&gt;&lt;li&gt;Enthesitis-related arthritis&lt;/li&gt;&lt;li&gt;Paediatric plaque psoriasis&lt;/li&gt;&lt;li&gt;Paediatric Crohn’s disease&lt;/li&gt;&lt;li&gt;Paediatric uveitis The active ingredient in Humira, adalimumab, is a human monoclonal antibody. Monoclonal antibodies are proteins that attach to a specific target.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The target of adalimumab is a protein called tumour necrosis factor (TNFα), which is involved in the immune (defence) system and is present at increased levels in the inflammatory diseases listed above. By attaching to TNFα, Humira decreases the process of inflammation in these diseases.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Polyarticular juvenile idiopathic arthritis&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Polyarticular juvenile idiopathic arthritis is an inflammatory disease of the joints that usually first appears in childhood.&lt;/p&gt;&lt;p&gt;Humira is used to treat polyarticular juvenile idiopathic arthritis in patients from 2 years of age. Your child may first be given other disease-modifying medicines, such as methotrexate. If these medicines do not work well enough, your child will be given Humira to treat his/her polyarticular juvenile idiopathic arthritis. Your doctor will decide if Humira should be used with methotrexate or alone.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Enthesitis-related arthritis&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Enthesitis-related arthritis is an inflammatory disease of the joints and the places where tendons join the bone. Humira is used to treat enthesitis-related arthritis in patients from 6 years of age. Your child may first be given other disease-modifying medicines, such as methotrexate. If these medicines do not work well enough, your child will be given Humira to treat his/her enthesitis-related arthritis.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Paediatric plaque psoriasis&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Plaque psoriasis is a skin condition that causes red, flaky, crusty patches of skin covered with silvery scales. Plaque psoriasis can also affect the nails, causing them to crumble, become thickened and lift away from the nail bed which can be painful. Psoriasis is believed to be caused by a problem with the body’s immune system that leads to an increased production of skin cells. Humira is used to treat severe chronic plaque psoriasis in children and adolescents aged 4 to 17 years for whom topical therapy and phototherapies have either not worked very well or are not suitable.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Paediatric Crohn’s disease&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Crohn’s disease is an inflammatory disease of the digestive tract. Humira is used to treat moderate to severe Crohn’s disease in children and adolescents aged 6 to 17 years. Your child may first be given other medicines. If these medicines do not work well enough, your child will be given Humira to reduce the signs and symptoms of his/her disease.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Paediatric uveitis&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Non-infectious uveitis is an inflammatory disease affecting certain parts of the eye. Humira is used to treat children with chronic non-infectious uveitis from 2 years of age with inflammation affecting the front of the eye This inflammation may lead to a decrease of vision and/or the presence of floaters in the eye (black dots or wispy lines that move across the field of vision). Humira works by reducing this inflammation. Your child may first be given other medicines. If these medicines do not work well enough, your child will be given Humira to reduce the signs and symptoms of his/her disease.&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+      &lt;/text&gt;
+    &lt;/section&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;2. What you need to know before you take humira&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+        &lt;/coding&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;2. What you need to know before you take humira&quot;/&gt;
+      &lt;/code&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2 id=&quot;warnings-and-precautions&quot;&gt;Warnings and precautions&lt;/h2&gt;&lt;p&gt;Talk to your doctor or pharmacist before using Humira. &lt;strong&gt;Allergic reactions&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;If your child gets allergic reactions with symptoms such as chest tightness, wheezing, dizziness, swelling or rash do not inject more Humira and contact your doctor immediately since, in rare cases, these reactions can be life threatening.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Infections&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;If your child has an infection, including long-term infection or an infection in one part of the body (for example, leg ulcer) consult your doctor before starting Humira. If you are unsure, contact your doctor.&lt;/li&gt;&lt;li&gt;Your child might get infections more easily while he/she is receiving Humira treatment. This risk may increase if your child has problems with his/her lungs. These infections may be serious and include:&lt;ul&gt;&lt;li&gt;tuberculosis&lt;/li&gt;&lt;li&gt;infections caused by viruses, fungi, parasites or bacteria&lt;/li&gt;&lt;li&gt;severe infection in the blood (sepsis) In rare cases, these infections can be life-threatening. It is important to tell your doctor if your child gets symptoms such as fever, wounds, feeling tired or dental problems. Your doctor may tell you to stop using Humira for some time.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Tell your doctor if your child lives or travels in regions where fungal infections (for example, histoplasmosis, coccidioidomycosis or blastomycosis) are very common.&lt;/li&gt;&lt;li&gt;Tell your doctor if your child has had infections which keep coming back or other conditions that increase the risk of infections.&lt;/li&gt;&lt;li&gt;Your child and his/her doctor should pay special attention to signs of infection while your child is being treated with Humira. It is important to tell your doctor if your child gets symptoms of infections, such as fever, wounds, feeling tired or dental problems.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Tuberculosis&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;As cases of tuberculosis have been reported in patients treated with Humira, your doctor will check your child for signs and symptoms of tuberculosis before starting Humira. This will include a thorough medical evaluation including your child’s medical history and appropriate screening tests (for example, chest X-ray and a tuberculin test). The conduct and results of these tests should be recorded on your child’s Patient Reminder Card.&lt;ul&gt;&lt;li&gt;It is very important that you tell your doctor if your child has ever had tuberculosis, or if your child has been in close contact with someone who has had tuberculosis. If your child has active tuberculosis, do not use Humira.&lt;/li&gt;&lt;li&gt;Tuberculosis can develop during therapy even if your child has received treatment for the prevention of tuberculosis.&lt;/li&gt;&lt;li&gt;If symptoms of tuberculosis (for example, cough that does not go away, weight loss, lack of energy, mild fever), or any other infection appear during or after therapy tell your doctor immediately.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Hepatitis B&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Tell your doctor if your child is a carrier of the hepatitis B virus (HBV), if he/she has active HBV or if you think he/she might be at risk of getting HBV.&lt;/li&gt;&lt;li&gt;Your doctor should test your child for HBV. In people who carry HBV, Humira can cause the virus to become active again.&lt;/li&gt;&lt;li&gt;In some rare cases, especially if your child is taking other medicines that suppress theimmune system, reactivation of HBV can be life-threatening.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Surgery or dental procedure&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;If your child is about to have surgery or dental procedures please inform your doctor that your child is taking Humira. Your doctor may recommend temporary discontinuation of Humira.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Demyelinating disease&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;If your child has or develops a demyelinating disease (a disease that affects the insulating layer around the nerves, such as multiple sclerosis), your doctor will decide if he/she should receive or continue to receive Humira. Tell your doctor immediately if your child experiences symptoms like changes in vision, weakness in arms or legs or numbness or tingling in any part of the body.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Vaccinations&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Certain vaccines may cause infections and should not be given while receiving Humira.&lt;ul&gt;&lt;li&gt;Check with your doctor before your child receives any vaccines.&lt;/li&gt;&lt;li&gt;It is recommended that children, if possible, be given all the scheduled vaccinations for their age before they start treatment with Humira.&lt;/li&gt;&lt;li&gt;If your child received Humira while she was pregnant, her baby may be at higher risk for getting such an infection for up to approximately five months after the last Humira dose she received during pregnancy. It is important that you tell her baby&amp;#39;s doctors and other health care professionals about your child&amp;#39;s Humira use during her pregnancy so they can decide when her baby should receive any vaccine.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Heart failure&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;If your child has mild heart failure and is being treated with Humira, his/her heart failure status must be closely monitored by your doctor. It is important to tell your doctor if your child has had or has a serious heart condition. If he/she develops new or worsening symptoms of heart failure (e.g. shortness of breath, or swelling of your feet), you must contact your doctor immediately. Your doctor will decide if your child should receive Humira. &lt;strong&gt;Fever, bruising, bleeding or looking pale&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;In some patients the body may fail to produce enough of the blood cells that fight off infections or help your child to stop bleeding. Your doctor may decide to stop treatment. If your child develops a fever that does not go away, develops light bruises or bleeds very easily or looks very pale, call your doctor right away.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Cancer&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;There have been very rare cases of certain kinds of cancer in children and adult patients taking Humira or other TNF blockers.&lt;ul&gt;&lt;li&gt;People with more serious rheumatoid arthritis that have had the disease for a long time may have a higher than average risk of getting lymphoma (a cancer that affects the lymph system) and leukaemia (a cancer that affects the blood and bone marrow).&lt;/li&gt;&lt;li&gt;If your child takes Humira the risk of getting lymphoma, leukaemia, or other cancers may increase. On rare occasions, an uncommon and severe type of lymphoma, has been seen in patients taking Humira. Some of those patients were also treated with azathioprine or 6- mercaptopurine.&lt;/li&gt;&lt;li&gt;Tell your doctor if your child is taking azathioprine or 6-mercaptopurine with Humira.&lt;/li&gt;&lt;li&gt;Cases of non-melanoma skin cancer have been observed in patients taking Humira.&lt;/li&gt;&lt;li&gt;If new skin lesions appear during or after therapy or if existing lesions change appearance, tell your doctor.&lt;/li&gt;&lt;li&gt;There have been cases of cancers, other than lymphoma in patients with a specific type of lung disease called Chronic Obstructive Pulmonary Disease (COPD) treated with another TNF blocker. If your child has COPD, or is a heavy smoker, you should discuss with your doctor whether treatment with a TNF blocker is appropriate for your child. &lt;strong&gt;Autoimmune disease&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;On rare occasions, treatment with Humira could result in lupus-like syndrome. Contact your doctor if symptoms such as persistent unexplained rash, fever, joint pain or tiredness occur.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+      &lt;/text&gt;
+    &lt;/section&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;3. How to take humira&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+        &lt;/coding&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;3. How to take humira&quot;/&gt;
+      &lt;/code&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2 id=&quot;how-to-use-humira&quot;&gt;How to use Humira&lt;/h2&gt;&lt;p&gt;Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor or pharmacist if you are not sure. The recommended doses for Humira in each of the approved uses are shown in the following table. Your doctor may prescribe another strength of Humira if your child needs a different dose.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Method and route of administration&lt;/strong&gt; Humira is administered by injection under the skin (by subcutaneous injection). &lt;strong&gt;Detailed instructions on how to inject Humira are provided in section 7 ‘Injecting Humira’.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;If you use more Humira than you should&lt;/strong&gt; If you accidentally inject Humira more frequently than told to by your doctor or pharmacist, call your doctor or pharmacist and tell them that your child has taken more. Always take the outer carton of the medicine with you, even if it is empty. &lt;strong&gt;If you forget to use Humira&lt;/strong&gt; If you forget to give your child an injection, you should inject the next dose of Humira as soon as you remember. Then give your child’s next dose as you would have on the originally scheduled day, had you not forgotten a dose. &lt;strong&gt;If you stop using Humira&lt;/strong&gt; The decision to stop using Humira should be discussed with your doctor. Your child’s symptoms may return if you stop using Humira. If you have any further questions on the use of this medicine, ask your doctor or pharmacist.&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+      &lt;/text&gt;
+    &lt;/section&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;4. Possible side effects&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+        &lt;/coding&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;4. Possible side effects&quot;/&gt;
+      &lt;/code&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2 id=&quot;possible-side-effects&quot;&gt;Possible side effects&lt;/h2&gt;&lt;p&gt;Like all medicines, this medicine can cause side effects, although not everybody gets them. Most side effects are mild to moderate. However, some may be serious and require treatment. Side effects may occur at least up to 4 months after the last Humira injection.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Tell your doctor immediately if you notice any of the following&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;severe rash, hives or other signs of allergic reaction&lt;/li&gt;&lt;li&gt;swollen face, hands, feet&lt;/li&gt;&lt;li&gt;trouble breathing, swallowing&lt;/li&gt;&lt;li&gt;shortness of breath with physical activity or upon lying down or swelling of the feet &lt;strong&gt;Tell your doctor as soon as possible if you notice any of the following&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;signs of infection such as fever, feeling sick, wounds, dental problems, burning on urination&lt;/li&gt;&lt;li&gt;feeling weak or tired&lt;/li&gt;&lt;li&gt;coughing&lt;/li&gt;&lt;li&gt;tingling&lt;/li&gt;&lt;li&gt;numbness&lt;/li&gt;&lt;li&gt;double vision&lt;/li&gt;&lt;li&gt;arm or leg weakness&lt;/li&gt;&lt;li&gt;a bump or open sore that doesn&amp;#39;t heal&lt;/li&gt;&lt;li&gt;signs and symptoms suggestive of blood disorders such as persistent fever, bruising, bleeding, paleness The symptoms described above can be signs of the below listed side effects, which have been observed with Humira.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Very common&lt;/strong&gt; (may affect more than 1 in 10 people)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;injection site reactions (including pain, swelling, redness or itching)&lt;/li&gt;&lt;li&gt;respiratory tract infections (including cold, runny nose, sinus infection, pneumonia)&lt;/li&gt;&lt;li&gt;headache&lt;/li&gt;&lt;li&gt;abdominal pain&lt;/li&gt;&lt;li&gt;nausea and vomiting&lt;/li&gt;&lt;li&gt;rash&lt;/li&gt;&lt;li&gt;musculoskeletal pain&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Common&lt;/strong&gt; (may affect up to 1 in 10 people)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;serious infections (including blood poisoning and influenza)&lt;/li&gt;&lt;li&gt;intestinal infections (including gastroenteritis)&lt;/li&gt;&lt;li&gt;skin infections (including cellulitis and shingles)&lt;/li&gt;&lt;li&gt;ear infections&lt;/li&gt;&lt;li&gt;oral infections (including tooth infections and cold sores)&lt;/li&gt;&lt;li&gt;reproductive tract infections&lt;/li&gt;&lt;li&gt;urinary tract infection&lt;/li&gt;&lt;li&gt;fungal infections&lt;/li&gt;&lt;li&gt;joint infections&lt;/li&gt;&lt;li&gt;benign tumours&lt;/li&gt;&lt;li&gt;skin cancer&lt;/li&gt;&lt;li&gt;allergic reactions (including seasonal allergy)&lt;/li&gt;&lt;li&gt;dehydration&lt;/li&gt;&lt;li&gt;mood swings (including depression)&lt;/li&gt;&lt;li&gt;anxiety&lt;/li&gt;&lt;li&gt;difficulty sleeping&lt;/li&gt;&lt;li&gt;sensation disorders such as tingling, prickling or numbness&lt;/li&gt;&lt;li&gt;migraine&lt;/li&gt;&lt;li&gt;nerve root compression (including low back pain and leg pain)&lt;/li&gt;&lt;li&gt;vision disturbances&lt;/li&gt;&lt;li&gt;eye inflammation&lt;/li&gt;&lt;li&gt;inflammation of the eye lid and eye swelling&lt;/li&gt;&lt;li&gt;vertigo (feeling of dizziness or spinning)&lt;/li&gt;&lt;li&gt;sensation of heart beating rapidly&lt;/li&gt;&lt;li&gt;high blood pressure&lt;/li&gt;&lt;li&gt;flushing&lt;/li&gt;&lt;li&gt;haematoma (collection of blood outside of blood vessels)&lt;/li&gt;&lt;li&gt;cough&lt;/li&gt;&lt;li&gt;asthma&lt;/li&gt;&lt;li&gt;shortness of breath&lt;/li&gt;&lt;li&gt;gastrointestinal bleeding&lt;/li&gt;&lt;li&gt;dyspepsia (indigestion, bloating, heart burn)&lt;/li&gt;&lt;li&gt;acid reflux disease&lt;/li&gt;&lt;li&gt;sicca syndrome (including dry eyes and dry mouth)&lt;/li&gt;&lt;li&gt;itching&lt;/li&gt;&lt;li&gt;itchy rash&lt;/li&gt;&lt;li&gt;bruising&lt;/li&gt;&lt;li&gt;inflammation of the skin (such as eczema)&lt;/li&gt;&lt;li&gt;breaking of finger nails and toe nails&lt;/li&gt;&lt;li&gt;increased sweating&lt;/li&gt;&lt;li&gt;hair loss&lt;/li&gt;&lt;li&gt;new onset or worsening of psoriasis&lt;/li&gt;&lt;li&gt;muscle spasms&lt;/li&gt;&lt;li&gt;blood in urine&lt;/li&gt;&lt;li&gt;kidney problems&lt;/li&gt;&lt;li&gt;chest pain&lt;/li&gt;&lt;li&gt;oedema (swelling)&lt;/li&gt;&lt;li&gt;fever&lt;/li&gt;&lt;li&gt;reduction in blood platelets which increases risk of bleeding or bruising&lt;/li&gt;&lt;li&gt;impaired healing&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Uncommon&lt;/strong&gt; (may affect up to 1 in 100 people)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;opportunistic infections (which include tuberculosis and other infections that occur when resistance to disease is lowered)&lt;/li&gt;&lt;li&gt;neurological infections (including viral meningitis)&lt;/li&gt;&lt;li&gt;eye infections&lt;/li&gt;&lt;li&gt;bacterial infections&lt;/li&gt;&lt;li&gt;diverticulitis (inflammation and infection of the large intestine)&lt;/li&gt;&lt;li&gt;cancer&lt;/li&gt;&lt;li&gt;cancer that affects the lymph system&lt;/li&gt;&lt;li&gt;melanoma&lt;/li&gt;&lt;li&gt;immune disorders that could affect the lungs, skin and lymph nodes (most commonly presenting as sarcoidosis)&lt;/li&gt;&lt;li&gt;vasculitis (inflammation of blood vessels)&lt;/li&gt;&lt;li&gt;tremor (shaking)&lt;/li&gt;&lt;li&gt;neuropathy (disorder of the nerves)&lt;/li&gt;&lt;li&gt;stroke&lt;/li&gt;&lt;li&gt;hearing loss, buzzing&lt;/li&gt;&lt;li&gt;sensation of heart beating irregularly such as skipped beats&lt;/li&gt;&lt;li&gt;heart problems that can cause shortness of breath or ankle swelling&lt;/li&gt;&lt;li&gt;heart attack&lt;/li&gt;&lt;li&gt;a sac in the wall of a major artery, inflammation and clot of a vein, blockage of a blood vessel&lt;/li&gt;&lt;li&gt;lung diseases causing shortness of breath (including inflammation)&lt;/li&gt;&lt;li&gt;pulmonary embolism (blockage in an artery of the lung)&lt;/li&gt;&lt;li&gt;pleural effusion (abnormal collection of fluid in the pleural space)&lt;/li&gt;&lt;li&gt;inflammation of the pancreas which causes severe pain in the abdomen and back&lt;/li&gt;&lt;li&gt;difficulty in swallowing&lt;/li&gt;&lt;li&gt;facial oedema (swelling of the face)&lt;/li&gt;&lt;li&gt;gallbladder inflammation, gallbladder stones&lt;/li&gt;&lt;li&gt;fatty liver&lt;/li&gt;&lt;li&gt;night sweats&lt;/li&gt;&lt;li&gt;scar&lt;/li&gt;&lt;li&gt;abnormal muscle breakdown&lt;/li&gt;&lt;li&gt;systemic lupus erythematosus (including inflammation of skin, heart, lung, joints and other organ systems)&lt;/li&gt;&lt;li&gt;sleep interruptions&lt;/li&gt;&lt;li&gt;impotence&lt;/li&gt;&lt;li&gt;inflammations&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Rare&lt;/strong&gt; (may affect up to 1 in 1,000 people)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;leukaemia (cancer affecting the blood and bone marrow)&lt;/li&gt;&lt;li&gt;severe allergic reaction with shock&lt;/li&gt;&lt;li&gt;multiple sclerosis&lt;/li&gt;&lt;li&gt;nerve disorders (such as eye nerve inflammation and Guillain-Barré syndrome that may cause muscle weakness, abnormal sensations, tingling in the arms and upper body)&lt;/li&gt;&lt;li&gt;heart stops pumping&lt;/li&gt;&lt;li&gt;pulmonary fibrosis (scarring of the lung)&lt;/li&gt;&lt;li&gt;intestinal perforation (hole in the intestine)&lt;/li&gt;&lt;li&gt;hepatitis&lt;/li&gt;&lt;li&gt;reactivation of hepatitis B&lt;/li&gt;&lt;li&gt;autoimmune hepatitis (inflammation of the liver caused by the body&amp;#39;s own immune system)&lt;/li&gt;&lt;li&gt;cutaneous vasculitis (inflammation of blood vessels in the skin)&lt;/li&gt;&lt;li&gt;Stevens-Johnson syndrome (early symptoms include malaise, fever, headache and rash)&lt;/li&gt;&lt;li&gt;facial oedema (swelling of the face) associated with allergic reactions&lt;/li&gt;&lt;li&gt;erythema multiforme (inflammatory skin rash)&lt;/li&gt;&lt;li&gt;lupus-like syndrome&lt;/li&gt;&lt;li&gt;angioedema (localized swelling of the skin)&lt;/li&gt;&lt;li&gt;lichenoid skin reaction (itchy reddish-purple skin rash)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Not known&lt;/strong&gt; (frequency cannot be estimated from the available data)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;hepatosplenic T-cell lymphoma (a rare blood cancer that is often fatal)&lt;/li&gt;&lt;li&gt;Merkel cell carcinoma (a type of skin cancer)&lt;/li&gt;&lt;li&gt;Kaposi’s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi’s sarcoma most commonly appears as purple lesions on the skin&lt;/li&gt;&lt;li&gt;liver failure&lt;/li&gt;&lt;li&gt;worsening of a condition called dermatomyositis (seen as a skin rash accompanying muscle weakness)&lt;/li&gt;&lt;li&gt;weight gain (for most patients, the weight gain was small) Some side effects observed with Humira may not have symptoms and may only be discovered through blood tests. These include: &lt;strong&gt;Very common&lt;/strong&gt; (may affect more than 1 in 10 people)&lt;/li&gt;&lt;li&gt;low blood measurements for white blood cells&lt;/li&gt;&lt;li&gt;low blood measurements for red blood cells&lt;/li&gt;&lt;li&gt;increased lipids in the blood&lt;/li&gt;&lt;li&gt;elevated liver enzymes&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Common&lt;/strong&gt; (may affect up to 1 in 10 people)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;high blood measurements for white blood cells&lt;/li&gt;&lt;li&gt;low blood measurements for platelets&lt;/li&gt;&lt;li&gt;increased uric acid in the blood&lt;/li&gt;&lt;li&gt;abnormal blood measurements for sodium&lt;/li&gt;&lt;li&gt;low blood measurements for calcium&lt;/li&gt;&lt;li&gt;low blood measurements for phosphate&lt;/li&gt;&lt;li&gt;high blood sugar&lt;/li&gt;&lt;li&gt;high blood measurements for lactate dehydrogenase&lt;/li&gt;&lt;li&gt;autoantibodies present in the blood&lt;/li&gt;&lt;li&gt;low blood potassium &lt;strong&gt;Uncommon&lt;/strong&gt; (may affect up to 1 in 100 people)&lt;/li&gt;&lt;li&gt;elevated bilirubin measurement (liver blood test) &lt;strong&gt;Rare&lt;/strong&gt; (may affect up to 1 in 1,000 people)&lt;/li&gt;&lt;li&gt;low blood measurements for white blood cells, red blood cells and platelet count&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Reporting of side effects&lt;/strong&gt; If your child gets any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. By reporting side effects, you can help provide more information on the safety of this medicine.&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+      &lt;/text&gt;
+    &lt;/section&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;5. How to store humira&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+        &lt;/coding&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;5. How to store humira&quot;/&gt;
+      &lt;/code&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2 id=&quot;how-to-store-humira&quot;&gt;How to store Humira&lt;/h2&gt;&lt;p&gt;Keep this medicine out of the sight and reach of children. Do not use this medicine after the expiry date stated on the label/blister/carton after EXP. Store in a refrigerator (2ºC – 8ºC). Do not freeze. Keep the pre-filled syringe in the outer carton in order to protect from light. Alternative Storage: When needed (for example, when you are travelling), a single Humira pre-filled syringe may be stored at room temperature (up to 25°C) for a maximum period of 14 days – be sure to protect it from light. Once removed from the refrigerator for room temperature storage, the syringe &lt;strong&gt;must be used within 14 days or discarded&lt;/strong&gt;, even if it is returned to the refrigerator. You should record the date when the syringe is first removed from refrigerator and the date after which it should be discarded. Do not throw away any medicines via wastewater or household waste. Ask your doctor or pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+      &lt;/text&gt;
+    &lt;/section&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;6. Contents of the pack and other information&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+        &lt;/coding&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;6. Contents of the pack and other information&quot;/&gt;
+      &lt;/code&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;unavailable&lt;/div&gt;<a name="end-xhtml"></a>
+      &lt;/text&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.emptyReason">emptyReason</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;unavailable&quot;/&gt;
+        &lt;/coding&gt;
+      &lt;/emptyReason&gt;
+    &lt;/section&gt;
+  &lt;/section&gt;
+&lt;/Composition&gt;</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Dec 21, 2023 23:11+0000">2023-12-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

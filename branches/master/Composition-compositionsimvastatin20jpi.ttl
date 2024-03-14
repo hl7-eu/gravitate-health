@@ -1,0 +1,1570 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Composition/compositionsimvastatin20jpi> a fhir:Composition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "compositionsimvastatin20jpi"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "ja"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"ja\" lang=\"ja\"><p><b>Generated Narrative: Composition</b><a name=\"compositionsimvastatin20jpi\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;compositionsimvastatin20jpi&quot;  (Language &quot;ja&quot;) </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: id: fcats34placeholder</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000155538)</span></p><p><b>date</b>: 2002-08-01 13:28:17+0000</p><p><b>author</b>: <a href=\"Organization-orgohara.html\">Organization/orgohara</a> &quot;Ohara Pharmaceutical Co., Ltd.&quot;</p><p><b>title</b>: simvastatin20 Package Leaflet - 150 mg for Intravenous Use</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td>Official <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html\">Composition Attestation Mode</a>#official)</span></td><td>2002-08-01 13:28:17+0000</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "fcats34placeholder" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155538" ]
+     ] ) ;
+     fhir:text [ fhir:v "Package Leaflet" ]
+  ] ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/medprodsimvastatin20> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/medprodsimvastatin20" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2002-08-01T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgohara> ;
+     fhir:reference [ fhir:v "Organization/orgohara" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "simvastatin20 Package Leaflet - 150 mg for Intravenous Use"] ; # 
+  fhir:attester ( [
+     fhir:mode [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/composition-attestation-mode"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "official" ]
+       ] )
+     ] ;
+     fhir:time [ fhir:v "2002-08-01T13:28:17Z"^^xsd:dateTime ]
+  ] ) ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "アロマターゼ阻害剤/閉経後乳癌治療剤" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "0" ]
+       ] ) ;
+       fhir:text [ fhir:v "アロマターゼ阻害剤/閉経後乳癌治療剤" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ]
+  ] [
+     fhir:title [ fhir:v "1. 警告" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "1" ]
+       ] ) ;
+       fhir:text [ fhir:v "1. 警告" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "1.1" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "2.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "1.1" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "1.2" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "2.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "1.2" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "1.3" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "2.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "1.3" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "2. 禁忌(次の患者には投与しないこと)" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "2" ]
+       ] ) ;
+       fhir:text [ fhir:v "禁忌(次の患者には投与しないこと)" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "2.1" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "2.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "2.1" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "2.2" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "2.2" ]
+         ] ) ;
+         fhir:text [ fhir:v "2.2" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "2.3" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "2.3" ]
+         ] ) ;
+         fhir:text [ fhir:v "2.3" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "3. 組成・性状" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "3" ]
+       ] ) ;
+       fhir:text [ fhir:v "3. 組成・性状" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "3.1 組成" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "3.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "3.1 組成" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "3.2 製剤の性状" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "3.2" ]
+         ] ) ;
+         fhir:text [ fhir:v "3.2 製剤の性状" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "4. 効能又は効果" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "4" ]
+       ] ) ;
+       fhir:text [ fhir:v "効能又は効果" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "5. 効能又は効果に関連する注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "5" ]
+       ] ) ;
+       fhir:text [ fhir:v "効能又は効果に関連する注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "6. 用法及び用量" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "6" ]
+       ] ) ;
+       fhir:text [ fhir:v "用法及び用量" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "7. 用法及び用量に関連する注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "7" ]
+       ] ) ;
+       fhir:text [ fhir:v "7. 用法及び用量に関連する注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "8. 重要な基本的注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "8" ]
+       ] ) ;
+       fhir:text [ fhir:v "重要な基本的注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "8.1" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "8.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "8.1" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "8.2" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "8.2" ]
+         ] ) ;
+         fhir:text [ fhir:v "8.2" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "8.3" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "8.3" ]
+         ] ) ;
+         fhir:text [ fhir:v "8.3" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "8.4" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "8.4" ]
+         ] ) ;
+         fhir:text [ fhir:v "8.4" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "9. 特定の背景を有する患者に関する注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "9" ]
+       ] ) ;
+       fhir:text [ fhir:v "特定の背景を有する患者に関する注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "9.1" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "9.2" ]
+         ] ) ;
+         fhir:text [ fhir:v "9.1" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "9.2 腎機能障害患者" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "9.2" ]
+         ] ) ;
+         fhir:text [ fhir:v "9.2 腎機能障害患者" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "9.2.1 重度の腎障害のある患者" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "9" ]
+           ] ) ;
+           fhir:text [ fhir:v "9.2.1 重度の腎障害のある患者" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "9.3 肝機能障害患者" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "9.3" ]
+         ] ) ;
+         fhir:text [ fhir:v "9.3 肝機能障害患者" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "9.3.1 重度の肝障害のある患者" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "9.3.1" ]
+           ] ) ;
+           fhir:text [ fhir:v "9.3.1 重度の肝障害のある患者" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "9.4" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "9.4" ]
+         ] ) ;
+         fhir:text [ fhir:v "9.4" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "9.5 妊婦" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "9" ]
+         ] ) ;
+         fhir:text [ fhir:v "9.5 妊婦" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "9.6 授乳婦" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "9.6" ]
+         ] ) ;
+         fhir:text [ fhir:v "9.6 授乳婦" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "10. 相互作用" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "10" ]
+       ] ) ;
+       fhir:text [ fhir:v "10. 相互作用" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "10.1" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "9" ]
+         ] ) ;
+         fhir:text [ fhir:v "10.1" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "10.2 併用注意(併用に注意すること)" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "10" ]
+         ] ) ;
+         fhir:text [ fhir:v "10.2 併用注意(併用に注意すること)" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "11. 副作用" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "11" ]
+       ] ) ;
+       fhir:text [ fhir:v "11. 副作用" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "11.1 重大な副作用" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "11.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "11.1 重大な副作用" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "11.1.1" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "11.1.1" ]
+           ] ) ;
+           fhir:text [ fhir:v "11.1.1" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "11.2 その他の副作用" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "11.2" ]
+         ] ) ;
+         fhir:text [ fhir:v "11.2 その他の副作用" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "12. 臨床検査結果に及ぼす影響" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "12" ]
+       ] ) ;
+       fhir:text [ fhir:v "12. 臨床検査結果に及ぼす影響" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ]
+  ] [
+     fhir:title [ fhir:v "13. 過量投与" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "13" ]
+       ] ) ;
+       fhir:text [ fhir:v "13. 過量投与" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "14. 適用上の注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "14" ]
+       ] ) ;
+       fhir:text [ fhir:v "14. 適用上の注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "14.1 薬剤交付時の注意" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "14.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "14.1 薬剤交付時の注意" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "15. その他の注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "13" ]
+       ] ) ;
+       fhir:text [ fhir:v "15. その他の注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "15.1" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "15.1" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "15.2 非臨床試験に基づく情報" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "15.2 非臨床試験に基づく情報" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "16. 薬物動態" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "13" ]
+       ] ) ;
+       fhir:text [ fhir:v "16. 薬物動態" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "16.1 血中濃度" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "16.1 血中濃度" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "16.2 吸収" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "16.2 吸収" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "16.2.1 食事の影響" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.2.1 食事の影響" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "16.3 分布" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "16.3 分布" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "16.3.1 組織内濃度" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.3.1 組織内濃度" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "16.3.2 胎児・胎盤移行性" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.3.2 胎児・胎盤移行性" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ]
+       ] [
+         fhir:title [ fhir:v "16.3.3 蛋白結合率" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.3.3 蛋白結合率" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "16.5 排泄" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "16.5 排泄" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "16.5.1" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.5.1" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "16.5.2" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.5.2" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "16.6 特定の背景を有する患者" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "16.6 特定の背景を有する患者" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "16.6.1 腎機能障害患者における体内動態" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.6.1 腎機能障害患者における体内動態" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "16.6.2 肝機能障害患者における体内動態" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.6.2 肝機能障害患者における体内動態" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ]
+       ] )
+     ] )
+  ] [
+     fhir:title [ fhir:v "17. 臨床成績" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "17" ]
+       ] ) ;
+       fhir:text [ fhir:v "17. 臨床成績" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "17.1 有効性及び安全性に関する試験" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "17.1 有効性及び安全性に関する試験" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "17.1.1 国内臨床試験" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "17.1.1 国内臨床試験" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "17.1.2 ブリッジング試験" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "17.1.2 ブリッジング試験" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ]
+       ] [
+         fhir:title [ fhir:v "17.1.3 海外臨床試験(第III相試験)" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "17.1.3 海外臨床試験(第III相試験)" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "17.1.4 海外大規模比較試験(第III相試験 術後補助療法)" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "17.1.4 海外大規模比較試験(第III相試験 術後補助療法)" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ]
+       ] [
+         fhir:title [ fhir:v "17.1.5 海外比較試験(術後補助療法)" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "17.1.5 海外比較試験(術後補助療法)" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "17.1.6 非盲検無作為化比較試験(第II/III相試験 転移性乳癌に対する第一次 ホルモン療法)" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "16" ]
+           ] ) ;
+           fhir:text [ fhir:v "17.1.6 非盲検無作為化比較試験(第II/III相試験 転移性乳癌に対する第一次 ホルモン療法)" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] )
+  ] [
+     fhir:title [ fhir:v "18. 薬効薬理" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "18" ]
+       ] ) ;
+       fhir:text [ fhir:v "18. 薬効薬理" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "18.1 作用機序" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "17" ]
+         ] ) ;
+         fhir:text [ fhir:v "18.1 作用機序" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "18.1.1 アロマターゼ阻害作用" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "17" ]
+           ] ) ;
+           fhir:text [ fhir:v "18.1.1 アロマターゼ阻害作用" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "18.2 抗腫瘍効果" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "17" ]
+         ] ) ;
+         fhir:text [ fhir:v "18.2 抗腫瘍効果" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "18.3 エストロゲン抑制作用" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "17" ]
+         ] ) ;
+         fhir:text [ fhir:v "18.3 エストロゲン抑制作用" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "18.3.1" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "17" ]
+           ] ) ;
+           fhir:text [ fhir:v "18.3.1" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "18.3.2" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "17" ]
+           ] ) ;
+           fhir:text [ fhir:v "18.3.2" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] )
+  ] [
+     fhir:title [ fhir:v "19. 有効成分に関する理化学的知見" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "19" ]
+       ] ) ;
+       fhir:text [ fhir:v "19. 有効成分に関する理化学的知見" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "20. 取扱い上の注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "9" ]
+       ] ) ;
+       fhir:text [ fhir:v "20. 取扱い上の注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "21. 承認条件" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "9" ]
+       ] ) ;
+       fhir:text [ fhir:v "21. 承認条件" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "22. 包装" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "22" ]
+       ] ) ;
+       fhir:text [ fhir:v "22. 包装" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "23. 主要文献" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "23" ]
+       ] ) ;
+       fhir:text [ fhir:v "23. 主要文献" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "24. 文献請求先及び問い合わせ先" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "24" ]
+       ] ) ;
+       fhir:text [ fhir:v "24. 文献請求先及び問い合わせ先" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ]
+  ] [
+     fhir:title [ fhir:v "25. 保険給付上の注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "9" ]
+       ] ) ;
+       fhir:text [ fhir:v "25. 保険給付上の注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "26. 製造販売業者等" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "26" ]
+       ] ) ;
+       fhir:text [ fhir:v "26. 製造販売業者等" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "26.1 製造販売元" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "26" ]
+       ] ) ;
+       fhir:text [ fhir:v "26.1 製造販売元" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

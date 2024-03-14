@@ -1,0 +1,66 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-aquilea-humantypeicollagen> a fhir:Ingredient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ingredient-for-aquilea-humantypeicollagen"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-aquilea-humantypeicollagen\"> </a><a name=\"hcingredient-for-aquilea-humantypeicollagen\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-aquilea-humantypeicollagen&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/PT3TGI7OIP (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"ManufacturedItemDefinition-mid-af1953635c28668e0d454e0740fcb36f.html\">ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f</a></li><li><a href=\"MedicinalProductDefinition-mp3b8585822d27945de47423af5de9824d.html\">MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d</a></li><li><a href=\"AdministrableProductDefinition-ap-af1953635c28668e0d454e0740fcb36f.html\">AdministrableProductDefinition/ap-af1953635c28668e0d454e0740fcb36f</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>HUMAN TYPE I COLLAGEN <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#PT3TGI7OIP)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "PT3TGI7OIP" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-af1953635c28668e0d454e0740fcb36f> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-af1953635c28668e0d454e0740fcb36f" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072072" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "PT3TGI7OIP" ] ;
+           fhir:display [ fhir:v "HUMAN TYPE I COLLAGEN" ]
+         ] )
+       ]
+     ] ;
+     fhir:strength ( [
+       fhir:basis [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleClass"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ACTIB" ] ;
+           fhir:display [ fhir:v "active ingredient - basis of strength" ]
+         ] )
+       ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

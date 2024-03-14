@@ -1,0 +1,29 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"Lens","Lens","","","",0,*,"","","","null {[]} {[]}
+","Gravitate Health Lens - logical model","A model for the gravitate health lens","","","","","","","","","",,,,,"",,,,"Base",0,*,"","","n/a"
+"Lens.name","Lens.name","","","",1,1,"","","","string {[]} {[]}
+","name of the lense","name of the lense","","","","","","","","","",,,,,"",,,,"Lens.name",1,1,"",""
+"Lens.intent","Lens.intent","","","",1,1,"","","","string {[]} {[]}
+","description of the patients this lens is intented towards","description of the patients this lens is intented towards","","","","","","","","","",,,,,"",,,,"Lens.intent",1,1,"",""
+"Lens.parameters","Lens.parameters","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","input parameters (for GDPR enforcement)","input parameters (for GDPR enforcement)","","","","","","","","","",,,,,"",,,,"Lens.parameters",0,*,"",""
+"Lens.explanation","Lens.explanation","","","",0,1,"","","","string {[]} {[]}
+","disclaimer, explanation of the lens","disclaimer, explanation of the lens","","","","","","","","","",,,,,"",,,,"Lens.explanation",0,1,"",""
+"Lens.alternative","Lens.alternative","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lens]]}
+","compatible / recommended / alternative lenses","compatible / recommended / alternative lenses","","","","","","","","","",,,,,"",,,,"Lens.alternative",0,*,"",""
+"Lens.author","Lens.author","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
+","author/owner of the lens","author/owner of the lens","","","","","","","","","",,,,,"",,,,"Lens.author",1,1,"",""
+"Lens.license","Lens.license","","","",1,1,"","","","string {[]} {[]}
+","license of the lens","license of the lens","","","","","","","","","",,,,,"",,,,"Lens.license",1,1,"",""
+"Lens.documentation","Lens.documentation","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","documentation of the lens","documentation of the lens","","","","","","","","","",,,,,"",,,,"Lens.documentation",0,*,"",""
+"Lens.certification","Lens.certification","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","certification of the lens (if any)","certification of the lens (if any)","","","","","","","","","",,,,,"",,,,"Lens.certification",0,*,"",""
+"Lens.code","Lens.code","","","",1,*,"","","","base64Binary {[]} {[]}
+","link to the code, if not the code itself (we may have different types of code, in the future)","link to the code, if not the code itself (we may have different types of code, in the future)","","","","","","","","","",,,,,"",,,,"Lens.code",1,*,"",""
+"Lens.version","Lens.version","","","",1,1,"","","","string {[]} {[]}
+","version of the lens","version of the lens","","","","","","","","","",,,,,"",,,,"Lens.version",1,1,"",""
+"Lens.region","Lens.region","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","region of applicability of the lens (region / juridisdiction of the lens)","region of applicability of the lens (region / juridisdiction of the lens)","","","","","","","","","",,,,,"",,,,"Lens.region",0,*,"",""
+"Lens.icon","Lens.icon","","","",1,*,"","","","base64Binary {[]} {[]}
+","icon for the lens (compliant with a set of style rules)","icon for the lens (compliant with a set of style rules)","","","","","","","","","",,,,,"",,,,"Lens.icon",1,*,"",""

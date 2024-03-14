@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PackagedProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="ppd-2977a2afce16a0bd914b8d242dd126b5"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="ppd-2977a2afce16a0bd914b8d242dd126b5"> </a><a name="hcppd-2977a2afce16a0bd914b8d242dd126b5"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;ppd-2977a2afce16a0bd914b8d242dd126b5&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/19/1370/001 (use: OFFICIAL)</p><p><b>name</b>: Dovato 50 mg/300 mg film-coated tablets 30</p><p><b>type</b>: Chemical Medicinal Product <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-mp16598f252d07b4784b82ba43cf9e847e.html">MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e</a></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R5/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2012-02-07 13:28:17+0000</p><p><b>manufacturer</b>: <a href="Organization-man-173fde4cb6b1018cb7ec8ab708d3961c.html">Organization/man-173fde4cb6b1018cb7ec8ab708d3961c</a> &quot;GLAXO WELLCOME, S.A.&quot;</p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: Child-resistant closure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073504)</span></p><p><b>quantity</b>: 30</p><p><b>material</b>: Glass <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000003203)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://spor.ema.europa.eu/pmswi"/>
+    <value value="EU/1/19/1370/001"/>
+  </identifier>
+  <name value="Dovato 50 mg/300 mg film-coated tablets 30"/>
+  <type>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000155527"/>
+      <display value="Chemical Medicinal Product"/>
+    </coding>
+  </type>
+  <packageFor>
+    <reference value="MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"/>
+  </packageFor>
+  <status>
+    <coding>
+      <system value="http://hl7.org/fhir/publication-status"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </status>
+  <statusDate value="2012-02-07T13:28:17Z"/>
+  <manufacturer>
+    <reference value="Organization/man-173fde4cb6b1018cb7ec8ab708d3961c"/>
+  </manufacturer>
+  <packaging>
+    <type>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="100000073498"/>
+        <display value="Box"/>
+      </coding>
+    </type>
+    <quantity value="1"/>
+    <material>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="200000003529"/>
+        <display value="Cardboard"/>
+      </coding>
+    </material>
+    <packaging>
+      <identifier>
+        <system value="https://spor.ema.europa.eu/pmswi"/>
+        <value value="123456"/>
+      </identifier>
+      <type>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi"/>
+          <code value="100000073504"/>
+          <display value="Child-resistant closure"/>
+        </coding>
+      </type>
+      <quantity value="30"/>
+      <material>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi"/>
+          <code value="200000003203"/>
+          <display value="Glass"/>
+        </coding>
+      </material>
+      <containedItem>
+        <item>
+          <reference>
+            <reference value="ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"/>
+          </reference>
+        </item>
+      </containedItem>
+    </packaging>
+  </packaging>
+</PackagedProductDefinition>

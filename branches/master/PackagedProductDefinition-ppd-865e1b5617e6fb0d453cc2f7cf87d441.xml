@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PackagedProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="ppd-865e1b5617e6fb0d453cc2f7cf87d441"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="ppd-865e1b5617e6fb0d453cc2f7cf87d441"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;ppd-865e1b5617e6fb0d453cc2f7cf87d441&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: soria-x (use: OFFICIAL)</p><p><b>name</b>: SORIA NATURAL VITAMINA C 36 COMPRIMIDOS</p><p><b>type</b>: Chemical Medicinal Product <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-mp5aea2ea50d47a8b479a61aec209c957f.html">MedicinalProductDefinition/mp5aea2ea50d47a8b479a61aec209c957f</a></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R5/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 500 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: id: 123456</p><p><b>type</b>: Blister <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073496)</span></p><p><b>quantity</b>: 36</p><p><b>material</b>: PolyVinyl Chloride <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000003222)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://spor.ema.europa.eu/pmswi"/>
+    <value value="soria-x"/>
+  </identifier>
+  <name value="SORIA NATURAL VITAMINA C 36 COMPRIMIDOS"/>
+  <type>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000155527"/>
+      <display value="Chemical Medicinal Product"/>
+    </coding>
+  </type>
+  <packageFor>
+    <reference value="MedicinalProductDefinition/mp5aea2ea50d47a8b479a61aec209c957f"/>
+  </packageFor>
+  <status>
+    <coding>
+      <system value="http://hl7.org/fhir/publication-status"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </status>
+  <statusDate value="2015-02-07T13:28:17Z"/>
+  <containedItemQuantity>
+    <value value="500"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="mg"/>
+  </containedItemQuantity>
+  <packaging>
+    <type>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="100000073498"/>
+        <display value="Box"/>
+      </coding>
+    </type>
+    <quantity value="1"/>
+    <material>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="200000003529"/>
+        <display value="Cardboard"/>
+      </coding>
+    </material>
+    <packaging>
+      <identifier>
+        <system value="https://spor.ema.europa.eu/pmswi"/>
+        <value value="123456"/>
+      </identifier>
+      <type>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi"/>
+          <code value="100000073496"/>
+          <display value="Blister"/>
+        </coding>
+      </type>
+      <quantity value="36"/>
+      <material>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi"/>
+          <code value="200000003222"/>
+          <display value="PolyVinyl Chloride"/>
+        </coding>
+      </material>
+      <containedItem>
+        <item>
+          <reference>
+            <reference value="ManufacturedItemDefinition/mid-865e1b5617e6fb0d453cc2f7cf87d441"/>
+          </reference>
+        </item>
+      </containedItem>
+    </packaging>
+  </packaging>
+</PackagedProductDefinition>
