@@ -1,0 +1,211 @@
+###
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?_summary=true&type=document
+
+######################################################## ALICIA ########################################################################################################
+
+### Biktarvy Raw EPI ####################################################
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?category=R&subject.identifier=EU/1/18/1289/001
+##OK
+
+
+#### BIKTARVT BUNDLE
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?identifier=EU/1/18/1289/001
+
+#### BIKTARVY FOCUSING 
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-manual&patientIdentifier=alicia-1&lenses=lens-selector-mvp2_pregnancy
+
+####ERRROR
+#{
+#  "message": "Error in lens execution",
+#  "reason": "Cannot read properties of undefined (reading 'forEach')"
+#}
+
+
+
+### CALCIO/VITAMINA D3 ROVI  ####################################################
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?category=R&subject.identifier=68290
+##OK
+
+####  BUNDLE
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?identifier=68290
+
+####  FOCUSING 
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-925dad38f0afbba36223a82b3a766438?preprocessors=preprocessing-service-manual&patientIdentifier=alicia-1&lenses=lens-selector-mvp2_pregnancy
+####OK 
+
+
+### Tegretol  ########################################################################################################
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?category=R&subject.identifier=39.955
+##OK
+
+####  BUNDLE
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?identifier=39.955
+
+####  FOCUSING 
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-2f37d696067eeb6daf1111cfc3272672?preprocessors=preprocessing-service-manual&patientIdentifier=alicia-1&lenses=lens-selector-mvp2_pregnancy
+### ERROR
+#{
+#  "message": "Error in lens execution",
+#  "reason": "Cannot read properties of undefined (reading 'forEach')"
+#}
+
+
+
+
+### Xenical  ########################################################################################################
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?category=R&subject.identifier=EU/1/98/071/004
+## (2)
+
+####  BUNDLE
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?identifier=EU/1/98/071/004
+### (2)
+
+
+####  FOCUSING 
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-4fab126d28f65a1084e7b50a23200363?preprocessors=preprocessing-service-manual&patientIdentifier=alicia-1&lenses=lens-selector-mvp2_pregnancy
+### ERROR
+#{
+#  "message": "Error in lens execution",
+#  "reason": "Cannot read properties of undefined (reading 'forEach')"
+#}
+
+
+### HIPÉRICO  ########################################################################################################
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?category=R&subject.identifier=79963
+## ok
+
+####  BUNDLE
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?identifier=79963
+### OK
+
+
+####  FOCUSING 
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-29436a85dac3ea374adb3fa64cfd2578?preprocessors=preprocessing-service-manual&patientIdentifier=alicia-1&lenses=lens-selector-mvp2_pregnancy
+### ERROR
+#{
+#  "message": "Error in lens execution",
+#  "reason": "Cannot read properties of undefined (reading 'forEach')"
+#}
+
+
+### FLUCELVAX  ########################################################################################################
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?category=R&subject.identifier=EU/1/18/1326/001
+## ok
+
+####  BUNDLE
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?identifier=EU/1/18/1326/001
+### OK
+
+
+####  FOCUSING 
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-04c9bd6fb89d38b2d83eced2460c4dc1?preprocessors=preprocessing-service-manual&patientIdentifier=alicia-1&lenses=lens-selector-mvp2_pregnancy
+### ERROR
+
+
+#{
+#  "message": "Error in lens execution",
+#  "reason": "No HTML found in leaflet section"
+#}
+
+
+
+####### PEDRO ########################################################################################################
+### Dovato  ########################################################################################################
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?category=R&subject.identifier=EU/1/19/1370/001
+## ok
+
+####  BUNDLE
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?identifier=EU/1/19/1370/001
+### OK
+
+
+####  FOCUSING 
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-49178f16170ee8a6bc2a4361c1748d5f?preprocessors=preprocessing-service-manual&patientIdentifier=Pedro-1&lenses=lens-selector-mvp2_pregnancy
+### ERROR
+
+#{
+ # "message": "Error in lens execution",
+#  "reason": "Cannot read properties of undefined (reading 'forEach')"
+#}
+
+### Mirtazapine  ########################################################################################################
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?category=R&subject.identifier=67.068
+## ok
+
+####  BUNDLE
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?identifier=67.068
+### NOK - Joao change id 
+
+
+####  FOCUSING 
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-e762a2f54b0b24fca4744b1bb7524a5b?preprocessors=preprocessing-service-manual&patientIdentifier=Pedro-1&lenses=lens-selector-mvp2_pregnancy
+### ERROR
+
+#{
+ # "message": "Error in lens execution",
+#  "reason": "Cannot read properties of undefined (reading 'forEach')"
+#}
+
+### Mirtazapine  ######
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?category=R&subject.identifier=67.068
+## ok
+
+####  BUNDLE
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?identifier=67.068
+### NOK - Joao change id 
+
+
+####  FOCUSING 
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-e762a2f54b0b24fca4744b1bb7524a5b?preprocessors=preprocessing-service-manual&patientIdentifier=Pedro-1&lenses=lens-selector-mvp2_pregnancy
+### NOK
+#{
+#  "message": "Error in lens execution",
+#  "reason": "Cannot read properties of undefined (reading 'forEach')"
+#}
+
+### BLASTON  ######
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?category=R&subject.identifier=59.032
+## ok
+
+####  BUNDLE
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?identifier=59.032
+### NOK - Joao change id 
+
+
+####  FOCUSING 
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1?preprocessors=preprocessing-service-manual&patientIdentifier=Pedro-1&lenses=lens-selector-mvp2_pregnancy
+### NOK
+#{
+#  "message": "Error in lens execution",
+#  "reason": "Cannot read properties of undefined (reading 'forEach')"
+#}
+
+
+
+
+
+
+### TS1 Dovato
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-f98744933a164dfc1d0bf89825ebfca1?preprocessors=preprocessing-service-manual&patientIdentifier=Cecilia-1&lenses=lens-selector-mvp2_pregnancy&lenses=lens-selector-mvp2_interaction
+
+###TS2
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-925dad38f0afbba36223a82b3a766438?preprocessors=preprocessing-service-manual&patientIdentifier=Cecilia-1&lenses=lens-selector-mvp2_pregnancy
+
+###TS3
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-dcaa4d32aa6658a8df831551503e52ee?preprocessors=preprocessing-service-manual&patientIdentifier=Cecilia-1&lenses=lens-selector-mvp2_pregnancy&lenses=lens-selector-mvp2_interaction
+###TS4
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-04c9bd6fb89d38b2d83eced2460c4dc1?preprocessors=preprocessing-service-manual&patientIdentifier=Cecilia-1&lenses=lens-selector-mvp2_pregnancy
+
+
