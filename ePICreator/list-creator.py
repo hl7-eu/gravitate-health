@@ -59,12 +59,20 @@ Description: "List of """
             + product_name
             + """ Package Leaflets"
 
+* contained[+] = """
+            + subject_reference.split("/")[-1]
+            + """
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference("""
+            + subject_reference
+            + """)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#"""
@@ -124,7 +132,3 @@ print(final_doc)
 output_file = "/Users/joaoalmeida/Desktop/hl7Europe/gravitate/gravitate-health/ePICreator/final_doc.txt"
 with open(output_file, "w") as file:
     file.write(final_doc)
-
-# * subject = Reference("""
-#            + subject_reference
-#            + """)

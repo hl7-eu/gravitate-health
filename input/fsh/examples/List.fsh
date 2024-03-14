@@ -1,8 +1,3 @@
-Alias: $100000000005 = http://spor.ema.europa.eu/v1/100000000005
-Alias: $100000000004 = http://spor.ema.europa.eu/v1/100000000004
-Alias: $example-pi-list-types = http://spor.ema.europa.eu/v1/example-pi-list-types
-Alias: $100000155531 = http://spor.ema.europa.eu/v1/100000155531
-Alias: $100000072057 = http://spor.ema.europa.eu/v1/100000072057
 
 
 
@@ -217,12 +212,13 @@ Description: "List of flucelvax Package Leaflets Raw"
 //////////////////////////////////////////////////////////////////////  FK ////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////  FK ////////////////////////////////////////////////////////////////////////////
 
-
 Instance: list-FK86169
 InstanceOf: List
 Usage: #example
 Title: "List of Janumet tab 50 mg/1000 mg Package Leaflets"
 Description: "List of Janumet tab 50 mg/1000 mg Package Leaflets"
+
+* contained[+] = Diabetes-MPD-52
 
 * status = #current
 * mode = #working
@@ -230,6 +226,8 @@ Description: "List of Janumet tab 50 mg/1000 mg Package Leaflets"
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-52)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Janumet "Janumet"
@@ -266,12 +264,16 @@ Usage: #example
 Title: "List of Alendronat Mylan tab 70 mg Package Leaflets"
 Description: "List of Alendronat Mylan tab 70 mg Package Leaflets"
 
+* contained[+] = COPD-MPD-21
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/COPD-MPD-21)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Alendronat "Alendronat"
@@ -308,12 +310,16 @@ Usage: #example
 Title: "List of Imurel tab 25 mg Package Leaflets"
 Description: "List of Imurel tab 25 mg Package Leaflets"
 
+* contained[+] = IBD-MPD-8
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/IBD-MPD-8)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Imurel "Imurel"
@@ -350,12 +356,16 @@ Usage: #example
 Title: "List of Jyseleca tab 100 mg Package Leaflets"
 Description: "List of Jyseleca tab 100 mg Package Leaflets"
 
+* contained[+] = IBD-MPD-14
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/IBD-MPD-14)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Jyseleca "Jyseleca"
@@ -392,12 +402,16 @@ Usage: #example
 Title: "List of Ozempic inj, oppl 0,5 mg/0,37 ml Package Leaflets"
 Description: "List of Ozempic inj, oppl 0,5 mg/0,37 ml Package Leaflets"
 
+* contained[+] = Diabetes-MPD-99
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-99)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Ozempic "Ozempic"
@@ -434,12 +448,16 @@ Usage: #example
 Title: "List of Aprovel tab 300 mg Package Leaflets"
 Description: "List of Aprovel tab 300 mg Package Leaflets"
 
+* contained[+] = Diabetes-MPD-8
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-8)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Aprovel "Aprovel"
@@ -476,12 +494,16 @@ Usage: #example
 Title: "List of DuoResp Spiromax inh pulv 320 mikrog/9 mikrog Package Leaflets"
 Description: "List of DuoResp Spiromax inh pulv 320 mikrog/9 mikrog Package Leaflets"
 
+* contained[+] = COPD-MPD-62
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/COPD-MPD-62)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#DuoResp "DuoResp"
@@ -518,12 +540,16 @@ Usage: #example
 Title: "List of NovoRapid inj, oppl 100 E/ml Package Leaflets"
 Description: "List of NovoRapid inj, oppl 100 E/ml Package Leaflets"
 
+* contained[+] = Diabetes-MPD-93
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-93)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#NovoRapid "NovoRapid"
@@ -560,12 +586,16 @@ Usage: #example
 Title: "List of Ozempic inj, oppl 1 mg/0,74 ml Package Leaflets"
 Description: "List of Ozempic inj, oppl 1 mg/0,74 ml Package Leaflets"
 
+* contained[+] = Diabetes-MPD-100
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-100)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Ozempic "Ozempic"
@@ -602,12 +632,16 @@ Usage: #example
 Title: "List of Xeljanz tab 10 mg Package Leaflets"
 Description: "List of Xeljanz tab 10 mg Package Leaflets"
 
+* contained[+] = IBD-MPD-62
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/IBD-MPD-62)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Xeljanz "Xeljanz"
@@ -644,12 +678,16 @@ Usage: #example
 Title: "List of Ozempic inj, oppl 0,25 mg/0,19 ml Package Leaflets"
 Description: "List of Ozempic inj, oppl 0,25 mg/0,19 ml Package Leaflets"
 
+* contained[+] = Diabetes-MPD-98
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-98)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Ozempic "Ozempic"
@@ -686,12 +724,16 @@ Usage: #example
 Title: "List of Ventoline inh væske, oppl 5 mg/ml Package Leaflets"
 Description: "List of Ventoline inh væske, oppl 5 mg/ml Package Leaflets"
 
+* contained[+] = COPD-MPD-18
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/COPD-MPD-18)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Ventoline "Ventoline"
@@ -722,11 +764,14 @@ Description: "List of Ventoline inh væske, oppl 5 mg/ml Package Leaflets"
   * item.extension[=].valueCoding = $100000072057#100000072147 "fi"
 
 
+
 Instance: list-FK637674
 InstanceOf: List
 Usage: #example
 Title: "List of NovoRapid PumpCart inj, oppl 100 E/ml Package Leaflets"
 Description: "List of NovoRapid PumpCart inj, oppl 100 E/ml Package Leaflets"
+
+* contained[+] = Diabetes-MPD-92
 
 * status = #current
 * mode = #working
@@ -734,6 +779,8 @@ Description: "List of NovoRapid PumpCart inj, oppl 100 E/ml Package Leaflets"
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-92)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#NovoRapid "NovoRapid"
@@ -764,13 +811,13 @@ Description: "List of NovoRapid PumpCart inj, oppl 100 E/ml Package Leaflets"
   * item.extension[=].valueCoding = $100000072057#100000072147 "no"
 
 
-
-
 Instance: list-FK32284
 InstanceOf: List
 Usage: #example
 Title: "List of Prednisolon Unimedic rektalvæske, oppl 31,25 mg Package Leaflets"
 Description: "List of Prednisolon Unimedic rektalvæske, oppl 31,25 mg Package Leaflets"
+
+* contained[+] = IBD-MPD-61
 
 * status = #current
 * mode = #working
@@ -778,6 +825,8 @@ Description: "List of Prednisolon Unimedic rektalvæske, oppl 31,25 mg Package L
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/IBD-MPD-61)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Prednisolon "Prednisolon"
@@ -814,12 +863,16 @@ Usage: #example
 Title: "List of Aerobec Autohaler inh aerosol, oppl 100 mikrog/dose Package Leaflets"
 Description: "List of Aerobec Autohaler inh aerosol, oppl 100 mikrog/dose Package Leaflets"
 
+* contained[+] = COPD-MPD-27
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/COPD-MPD-27)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Aerobec "Aerobec"
@@ -856,12 +909,16 @@ Usage: #example
 Title: "List of Lantus inj, oppl 100 E/ml Package Leaflets"
 Description: "List of Lantus inj, oppl 100 E/ml Package Leaflets"
 
+* contained[+] = Diabetes-MPD-64
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-64)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Lantus "Lantus"
@@ -898,12 +955,16 @@ Usage: #example
 Title: "List of NovoRapid Penfill inj, oppl 100 E/ml Package Leaflets"
 Description: "List of NovoRapid Penfill inj, oppl 100 E/ml Package Leaflets"
 
+* contained[+] = Diabetes-MPD-91
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-91)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#NovoRapid "NovoRapid"
@@ -940,12 +1001,16 @@ Usage: #example
 Title: "List of Aprovel tab 150 mg Package Leaflets"
 Description: "List of Aprovel tab 150 mg Package Leaflets"
 
+* contained[+] = Diabetes-MPD-7
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-7)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Aprovel "Aprovel"
@@ -982,12 +1047,16 @@ Usage: #example
 Title: "List of Ventoline inh pulv, disp 0,2 mg/dose Package Leaflets"
 Description: "List of Ventoline inh pulv, disp 0,2 mg/dose Package Leaflets"
 
+* contained[+] = COPD-MPD-14
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/COPD-MPD-14)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Ventoline "Ventoline"
@@ -1024,12 +1093,16 @@ Usage: #example
 Title: "List of Pentasa depottab 500 mg Package Leaflets"
 Description: "List of Pentasa depottab 500 mg Package Leaflets"
 
+* contained[+] = IBD-MPD-39
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/IBD-MPD-39)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Pentasa "Pentasa"
@@ -1066,12 +1139,16 @@ Usage: #example
 Title: "List of Asacol enterotab 400 mg Package Leaflets"
 Description: "List of Asacol enterotab 400 mg Package Leaflets"
 
+* contained[+] = IBD-MPD-38
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/IBD-MPD-38)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Asacol "Asacol"
@@ -1108,12 +1185,16 @@ Usage: #example
 Title: "List of Aclasta inf, oppl 5 mg/100 ml Package Leaflets"
 Description: "List of Aclasta inf, oppl 5 mg/100 ml Package Leaflets"
 
+* contained[+] = COPD-MPD-260
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/COPD-MPD-260)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Aclasta "Aclasta"
@@ -1150,12 +1231,16 @@ Usage: #example
 Title: "List of Airomir Autohaler inh aerosol, susp 0,1 mg/dose Package Leaflets"
 Description: "List of Airomir Autohaler inh aerosol, susp 0,1 mg/dose Package Leaflets"
 
+* contained[+] = COPD-MPD-6
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/COPD-MPD-6)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Airomir "Airomir"
@@ -1192,12 +1277,16 @@ Usage: #example
 Title: "List of Hyrimoz inj, oppl 40 mg/sprøyte Package Leaflets"
 Description: "List of Hyrimoz inj, oppl 40 mg/sprøyte Package Leaflets"
 
+* contained[+] = IBD-MPD-5
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/IBD-MPD-5)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Hyrimoz "Hyrimoz"
@@ -1234,12 +1323,16 @@ Usage: #example
 Title: "List of Enbrel (etanercept) 50 mg/ml solution for subcutaneous injection Package Leaflets"
 Description: "List of Enbrel (etanercept) 50 mg/ml solution for subcutaneous injection Package Leaflets"
 
+* contained[+] = mp50mg
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/mp50mg)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Enbrel "Enbrel"
@@ -1276,12 +1369,16 @@ Usage: #example
 Title: "List of Januvia tab 100 mg Package Leaflets"
 Description: "List of Januvia tab 100 mg Package Leaflets"
 
+* contained[+] = Diabetes-MPD-55
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-55)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Januvia "Januvia"
@@ -1318,12 +1415,16 @@ Usage: #example
 Title: "List of Cortiment depottab 9 mg Package Leaflets"
 Description: "List of Cortiment depottab 9 mg Package Leaflets"
 
+* contained[+] = IBD-MPD-13
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/IBD-MPD-13)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Cortiment "Cortiment"
@@ -1360,12 +1461,16 @@ Usage: #example
 Title: "List of Lantus inj, oppl 100 E/ml Package Leaflets"
 Description: "List of Lantus inj, oppl 100 E/ml Package Leaflets"
 
+* contained[+] = Diabetes-MPD-65
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-65)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Lantus "Lantus"
@@ -1402,12 +1507,16 @@ Usage: #example
 Title: "List of Actrapid Penfill inj, oppl 100 IE/ml Package Leaflets"
 Description: "List of Actrapid Penfill inj, oppl 100 IE/ml Package Leaflets"
 
+* contained[+] = Diabetes-MPD-4
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-4)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Actrapid "Actrapid"
@@ -1444,12 +1553,16 @@ Usage: #example
 Title: "List of Stelara inj, oppl 45 mg/sprøyte Package Leaflets"
 Description: "List of Stelara inj, oppl 45 mg/sprøyte Package Leaflets"
 
+* contained[+] = IBD-MPD-65
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/IBD-MPD-65)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Stelara "Stelara"
@@ -1486,12 +1599,16 @@ Usage: #example
 Title: "List of Pentasa depottab 1 g Package Leaflets"
 Description: "List of Pentasa depottab 1 g Package Leaflets"
 
+* contained[+] = IBD-MPD-25
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/IBD-MPD-25)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Pentasa "Pentasa"
@@ -1528,12 +1645,16 @@ Usage: #example
 Title: "List of Stelara inj, oppl 90 mg/sprøyte Package Leaflets"
 Description: "List of Stelara inj, oppl 90 mg/sprøyte Package Leaflets"
 
+* contained[+] = IBD-MPD-67
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/IBD-MPD-67)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Stelara "Stelara"
@@ -1570,12 +1691,16 @@ Usage: #example
 Title: "List of Humira inj, oppl 40 mg/sprøyte Package Leaflets"
 Description: "List of Humira inj, oppl 40 mg/sprøyte Package Leaflets"
 
+* contained[+] = IBD-MPD-4
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/IBD-MPD-4)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Humira "Humira"
@@ -1612,12 +1737,16 @@ Usage: #example
 Title: "List of Galvus tab 50 mg Package Leaflets"
 Description: "List of Galvus tab 50 mg Package Leaflets"
 
+* contained[+] = Diabetes-MPD-23
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-23)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Galvus "Galvus"
@@ -1654,12 +1783,16 @@ Usage: #example
 Title: "List of NovoRapid Flexpen inj, oppl 100 E/ml Package Leaflets"
 Description: "List of NovoRapid Flexpen inj, oppl 100 E/ml Package Leaflets"
 
+* contained[+] = Diabetes-MPD-90
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-90)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#NovoRapid "NovoRapid"
@@ -1696,12 +1829,16 @@ Usage: #example
 Title: "List of Hyrimoz inj, oppl 40 mg/penn Package Leaflets"
 Description: "List of Hyrimoz inj, oppl 40 mg/penn Package Leaflets"
 
+* contained[+] = IBD-MPD-2
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/IBD-MPD-2)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Hyrimoz "Hyrimoz"
@@ -1738,12 +1875,16 @@ Usage: #example
 Title: "List of Aerobec inh aerosol, oppl 100 mikrog/dose Package Leaflets"
 Description: "List of Aerobec inh aerosol, oppl 100 mikrog/dose Package Leaflets"
 
+* contained[+] = COPD-MPD-28
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/COPD-MPD-28)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Aerobec "Aerobec"
@@ -1780,12 +1921,16 @@ Usage: #example
 Title: "List of Remicade pulv til kons til inf væske, oppl 100 mg Package Leaflets"
 Description: "List of Remicade pulv til kons til inf væske, oppl 100 mg Package Leaflets"
 
+* contained[+] = IBD-MPD-21
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/IBD-MPD-21)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Remicade "Remicade"
@@ -1822,12 +1967,16 @@ Usage: #example
 Title: "List of DuoResp Spiromax inh pulv 160 mikrog/4,5 mikrog Package Leaflets"
 Description: "List of DuoResp Spiromax inh pulv 160 mikrog/4,5 mikrog Package Leaflets"
 
+* contained[+] = COPD-MPD-53
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/COPD-MPD-53)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#DuoResp "DuoResp"
@@ -1864,12 +2013,16 @@ Usage: #example
 Title: "List of Apidra inj, oppl 100 E/ml Package Leaflets"
 Description: "List of Apidra inj, oppl 100 E/ml Package Leaflets"
 
+* contained[+] = Diabetes-MPD-6
+
 * status = #current
 * mode = #working
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
 
 * code = $example-pi-list-types#00000021213 "ePI Master List"
+
+* subject = Reference(MedicinalProductDefinition/Diabetes-MPD-6)
 
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#Apidra "Apidra"
