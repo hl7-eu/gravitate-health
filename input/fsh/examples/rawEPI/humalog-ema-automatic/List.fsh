@@ -48,16 +48,3 @@ RuleSet: 35570a7ffa4ad1ddf8a920b1728d4cd2ListRuleset
 
 
 
-Instance: list-humalog
-InstanceOf: List
-Usage: #example
-Title: "List of humalog Package Leaflets Raw"
-Description: "List of humalog Package Leaflets Raw"
-
-* status = #current
-* mode = #working
-
-* code = $example-pi-list-types#00000021213 "ePI Master List"
-
-
-* insert 35570a7ffa4ad1ddf8a920b1728d4cd2ListRuleset

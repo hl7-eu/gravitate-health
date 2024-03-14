@@ -5,10 +5,10 @@ Usage: #inline
 * identifier.system = "http://hl7.org/fhir/sid/ndc"
 * identifier.value = "0069-0284"
 * status = #active
-* formOf = Reference(ManufacturedItemDefinition/UUID-MID-PALBOCICLIB75)
+* formOf = Reference(UUID-MPD-PALBOCICLIB75)
 * administrableDoseForm = $ncit#C42931 "Film Coated Tablet Dosage Form"
 * unitOfPresentation = $ncit#C48542 "Tablet Dosing Unit"
-* producedFrom = Reference(ManufacturedItemDefinition/UUID-MID-PALBOCICLIB75)
+* producedFrom = Reference(UUID-MID-PALBOCICLIB75)
 * property[0].type = $ncit#C48556 "Structured Product Labeling Color"
 * property[=].valueCodeableConcept = $ncit#C48327 "Purple"
 * property[+].type = $ncit#C48557 "Structured Product Labeling Shape"

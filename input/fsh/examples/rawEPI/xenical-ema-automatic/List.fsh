@@ -48,16 +48,3 @@ RuleSet: 37d610f9c96d541562699215b0864126ListRuleset
 
 
 
-Instance: list-xenical
-InstanceOf: List
-Usage: #example
-Title: "List of xenical Package Leaflets Raw"
-Description: "List of xenical Package Leaflets Raw"
-
-* status = #current
-* mode = #working
-
-* code = $example-pi-list-types#00000021213 "ePI Master List"
-
-
-* insert 37d610f9c96d541562699215b0864126ListRuleset

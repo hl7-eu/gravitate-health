@@ -212,6 +212,36 @@ Description: "List of flucelvax Package Leaflets Raw"
   * item.extension[=].valueCoding = $100000072057#100000072147 "es"
 
 
+Instance: list-xenical
+InstanceOf: List
+Usage: #example
+Title: "List of xenical Package Leaflets Raw"
+Description: "List of xenical Package Leaflets Raw"
+
+* contained[+] = mpbc60fa1aa0bfe774d11ee13c0c131622
+
+* status = #current
+* mode = #working
+
+* code = $example-pi-list-types#00000021213 "ePI Master List"
+
+
+* insert 37d610f9c96d541562699215b0864126ListRuleset
+
+Instance: list-humalog
+InstanceOf: List
+Usage: #example
+Title: "List of humalog Package Leaflets Raw"
+Description: "List of humalog Package Leaflets Raw"
+
+* contained[+] = mpd33868162d255ced115cecbbf188aab4
+* status = #current
+* mode = #working
+
+* code = $example-pi-list-types#00000021213 "ePI Master List"
+
+
+* insert 35570a7ffa4ad1ddf8a920b1728d4cd2ListRuleset
 //////////////////////////////////////////////////////////////////////  FK ////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////  FK ////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////  FK ////////////////////////////////////////////////////////////////////////////
