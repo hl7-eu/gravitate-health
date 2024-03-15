@@ -6,5 +6,5 @@ Usage: #example
 * identifier.value = "40274"
 * type = #document
 * timestamp = "2022-04-07T01:01:01Z"
-* entry.fullUrl = "https://gravitatehealth.eu/fhir/nordic-epi/Composition/40274"
-* entry.resource = 40274
+* entry.fullUrl = "https://gravitatehealth.eu/fhir/nordic-epi/Composition/FK40274-COMP"
+* entry.resource = FK40274-COMP

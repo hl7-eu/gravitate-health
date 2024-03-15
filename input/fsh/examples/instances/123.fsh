@@ -1,4 +1,4 @@
-Instance: 123
+Instance: DPHARM123
 InstanceOf: BundleUvEpi
 Usage: #example
 * meta.security = $v3-ActReason#HTEST "Please be aware that this electronic product information is for testing"

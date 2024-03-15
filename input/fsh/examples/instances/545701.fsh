@@ -1,4 +1,4 @@
-Instance: 545701
+Instance: FK545701-COMP 
 InstanceOf: Composition
 Usage: #inline
 * meta.profile[0] = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"

@@ -3,6 +3,7 @@ InstanceOf: List
 Usage: #example
 Title: "List of enbrel smpc Package Leaflets"
 Description: "List of enbrel smpc  Package Leaflets"
+
 * contained[+] = mp25bbfa948f4a0b224f9baa1fe481efa8
 
 * status = #current
@@ -33,7 +34,7 @@ Description: "List of enbrel smpc  Package Leaflets"
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
-  * item = Reference(bundlepackageleaflet-f2c90821a14dbdb924eb4be01de36427) // enbrel with smpc
+  * item = Reference(bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5) // enbrel with smpc
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "Full ePI"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
@@ -242,6 +243,8 @@ Description: "List of humalog Package Leaflets Raw"
 
 
 * insert 35570a7ffa4ad1ddf8a920b1728d4cd2ListRuleset
+
+
 //////////////////////////////////////////////////////////////////////  FK ////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////  FK ////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////  FK ////////////////////////////////////////////////////////////////////////////

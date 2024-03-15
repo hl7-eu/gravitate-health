@@ -6,8 +6,8 @@ Usage: #example
 * identifier.value = "589551"
 * type = #document
 * timestamp = "2023-05-04T01:01:01Z"
-* entry[0].fullUrl = "https://gravitatehealth.eu/fhir/nordic-epi/Composition/589551"
-* entry[=].resource = 589551
+* entry[0].fullUrl = "https://gravitatehealth.eu/fhir/nordic-epi/Composition/FK589551-COMP"
+* entry[=].resource = FK589551-COMP
 * entry[+].fullUrl = "https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/COPD-MPD-62"
 * entry[=].resource = COPD-MPD-62
 * entry[+].fullUrl = "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/COPD-PPD-87"
