@@ -1,0 +1,40 @@
+title Gravitate
+
+actor user
+alt case 1 - full data
+user->system X: highlight ePI
+system X->G-Lens-On-FHIR: send full preprocessed ePI + full IPS
+G-Lens-On-FHIR->FocusingManager: full preprocessed ePI + full IPS
+FocusingManager->FocusingManager:focus
+G-Lens-On-FHIR<--FocusingManager: return focused ePI
+system X<--G-Lens-On-FHIR: return focused ePI
+else case 2 - only ID's data
+user->system X: highlight ePI
+system X->G-Lens-On-FHIR: send full preprocessed ePI + full IPS
+G-Lens-On-FHIR->FocusingManager: only send ePI ID + patient ID from IPS
+FocusingManager->FOSPS Infrastructure: fetch stored IPS
+FocusingManager->FOSPS Infrastructure: fetch stored ePI
+FocusingManager->FocusingManager:focus
+G-Lens-On-FHIR<--FocusingManager: return focused ePI
+system X<--G-Lens-On-FHIR: return focused ePI
+
+else case 3 - federated fetch
+user->system X: highlight ePI
+system X->G-Lens-On-FHIR: only send ePI ID + patient ID from IPS
+G-Lens-On-FHIR->FocusingManager: only send ePI ID + patient ID from IPS
+FocusingManager->National infrastructure:Fetch IPS
+FocusingManager->National infrastructure:Fetch ePI
+FocusingManager->FocusingManager:focus
+G-Lens-On-FHIR<--FocusingManager: return focused ePI
+system X<--G-Lens-On-FHIR: return focused ePI
+
+else case 4 - hybrid federated fetch
+user->system X: highlight ePI
+system X->G-Lens-On-FHIR: only send ePI ID + full IPS
+G-Lens-On-FHIR->FocusingManager: only send ePI ID + full IPS
+FocusingManager->FocusingManager:Fetch ePI
+FocusingManager->FocusingManager:focus
+G-Lens-On-FHIR<--FocusingManager: return focused ePI
+system X<--G-Lens-On-FHIR: return focused ePI
+
+end

@@ -1,6 +1,5 @@
 ### WHAT??
 
-
 GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?_language=es&category=R&subject.identifier=EU/1/18/1326/001
 
 
@@ -202,3 +201,11 @@ Accept: application/json
 
 POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=Pedro-1
 Accept: application/json
+
+
+### reindex
+POST https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/$reindex
+
+### data
+
+GET http://gravitate-health.lst.tfo.upm.es/ai/summary/bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1?preprocessors=preprocessing-service-manual&patientIdentifier=Cecilia-1&lenses=lens-summary-2&model=graviting-llama
