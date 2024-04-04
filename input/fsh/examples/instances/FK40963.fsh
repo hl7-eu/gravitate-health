@@ -1,6 +1,7 @@
 Instance: FK40963
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Entocort® 3 mg kapsler med modificeret udløsning"
 * language = #da
 * identifier.system = "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"
 * identifier.value = "40963"

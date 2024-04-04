@@ -1,6 +1,8 @@
 Instance: FK40274
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Entocort® 2 mg tabletter til rektalvæske, susp."
+
 * language = #da
 * identifier.system = "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"
 * identifier.value = "40274"

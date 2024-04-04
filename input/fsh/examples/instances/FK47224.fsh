@@ -1,6 +1,7 @@
 Instance: FK47224
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Xeljanz 5 mg og 10 mg filmovertrukne tabletter"
 * language = #da
 * identifier.system = "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"
 * identifier.value = "47224"

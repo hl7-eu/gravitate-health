@@ -1,6 +1,7 @@
 Instance: FK85746
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "JANUVIA tabletti, kalvopäällysteinen 25 mg, 50 mg, 100 mg"
 * language = #fi
 * identifier.system = "https://pharmaca.fi/documentId"
 * identifier.value = "85746"

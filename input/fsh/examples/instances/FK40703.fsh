@@ -1,6 +1,8 @@
 Instance: FK40703
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Remicade 100 mg pulver til konc. til infusionsvæske"
+
 * language = #da
 * identifier.system = "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"
 * identifier.value = "40703"

@@ -1,6 +1,8 @@
 Instance: FK567097
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Lantus sanofi-aventis sylinderampuller til AllStar PRO/JuniorSTAR"
+
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "567097"

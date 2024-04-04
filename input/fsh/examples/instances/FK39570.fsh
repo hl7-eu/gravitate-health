@@ -1,6 +1,8 @@
 Instance: FK39570
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Imurel® 25 mg og 50 mg filmovertrukne tabletter"
+
 * language = #da
 * identifier.system = "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"
 * identifier.value = "39570"

@@ -1,6 +1,8 @@
 Instance: FK545787
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "AeroBec Teva"
+
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "545787"

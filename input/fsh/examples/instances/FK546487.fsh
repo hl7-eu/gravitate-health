@@ -1,6 +1,8 @@
 Instance: FK546487
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Asacol Tillotts Pharma enterotabletter"
+
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "546487"

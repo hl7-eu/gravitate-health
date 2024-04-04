@@ -1,6 +1,7 @@
 Instance: FK82671
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "REMICADE kuiva-aine välikonsentraatiksi infuusionestettä varten, liuos 100 mg"
 * language = #fi
 * identifier.system = "https://pharmaca.fi/documentId"
 * identifier.value = "82671"

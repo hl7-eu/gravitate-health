@@ -1,6 +1,7 @@
 Instance: FK545701
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Aclasta Sandoz"
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "545701"

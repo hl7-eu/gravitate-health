@@ -1,6 +1,8 @@
 Instance: FK637674
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "NovoRapid PumpCart Novo Nordisk sylinderampuller til bruk i et pumpesystem for insulininfusjon som Accu-Chek Insight og YpsoPump insulinpumper"
+
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "637674"

@@ -1,6 +1,8 @@
 Instance: FK39664
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Prednisolon \"DAK\" 5 mg og 25 mg tabletter"
+
 * language = #da
 * identifier.system = "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"
 * identifier.value = "39664"

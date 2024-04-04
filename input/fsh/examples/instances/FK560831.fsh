@@ -1,6 +1,8 @@
 Instance: FK560831
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Lantus sanofi-aventis ferdigfylt penn, SoloStar"
+
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "560831"

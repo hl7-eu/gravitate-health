@@ -1,6 +1,8 @@
 Instance: FK630702
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "NovoRapid FlexPen Novo Nordisk ferdigfylt penn"
+
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "630702"

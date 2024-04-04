@@ -1,6 +1,7 @@
 Instance: FK32284
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Prednisolon \"Unimedic\" 31,25 mg rektalvæske, opløsning"
 * language = #da
 * identifier.system = "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"
 * identifier.value = "32284"

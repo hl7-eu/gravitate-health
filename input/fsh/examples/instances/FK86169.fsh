@@ -1,6 +1,7 @@
 Instance: FK86169
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "JANUMET tabletti, kalvopäällysteinen 50/850 mg, 50/1000 mg"
 * language = #fi
 * identifier.system = "https://pharmaca.fi/documentId"
 * identifier.value = "86169"

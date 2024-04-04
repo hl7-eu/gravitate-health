@@ -1,6 +1,8 @@
 Instance: FK545731
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Actrapid Penfill Novo Nordisk"
+
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "545731"

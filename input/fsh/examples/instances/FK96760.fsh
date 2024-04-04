@@ -1,6 +1,7 @@
 Instance: FK96760
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "GALVUS tabletti 50 mg"
 * language = #fi
 * identifier.system = "https://pharmaca.fi/documentId"
 * identifier.value = "96760"

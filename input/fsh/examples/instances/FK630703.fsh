@@ -1,6 +1,8 @@
 Instance: FK630703
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "NovoRapid Novo Nordisk hetteglass"
+
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "630703"

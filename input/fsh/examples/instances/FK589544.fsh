@@ -1,6 +1,8 @@
 Instance: FK589544
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "DuoResp Spiromax Teva inhalasjonspulver 160 μg/4,5 μg"
+
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "589544"

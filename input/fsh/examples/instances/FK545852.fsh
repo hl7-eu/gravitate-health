@@ -1,6 +1,8 @@
 Instance: FK545852
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Alendronat Mylan tabletter 70 mg"
+
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "545852"

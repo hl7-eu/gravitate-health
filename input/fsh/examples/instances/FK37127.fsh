@@ -1,6 +1,8 @@
 Instance: FK37127
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Hyrimoz 40 mg injektionsvæske, opl. i sprøjte"
+
 * language = #da
 * identifier.system = "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"
 * identifier.value = "37127"

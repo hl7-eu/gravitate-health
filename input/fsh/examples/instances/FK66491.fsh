@@ -1,6 +1,7 @@
 Instance: FK66491
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "STELARA injektioneste, liuos, esitäytetty ruisku 90 mg"
 * language = #fi
 * identifier.system = "https://pharmaca.fi/documentId"
 * identifier.value = "66491"

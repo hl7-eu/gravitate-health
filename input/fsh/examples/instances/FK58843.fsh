@@ -1,6 +1,7 @@
 Instance: FK58843
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "VENTOLINE sumutinliuos 5 mg/ml"
 * language = #fi
 * identifier.system = "https://pharmaca.fi/documentId"
 * identifier.value = "58843"

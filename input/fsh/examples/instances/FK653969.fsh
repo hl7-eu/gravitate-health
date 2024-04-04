@@ -1,6 +1,8 @@
 Instance: FK653969
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Ozempic Novo Nordisk ferdigfylt penn 0,25 mg"
+
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "653969"

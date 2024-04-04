@@ -1,6 +1,7 @@
 Instance: FK42542
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Cortiment 9 mg depottabletter"
 * language = #da
 * identifier.system = "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"
 * identifier.value = "42542"

@@ -1,6 +1,8 @@
 Instance: FK546114
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Apidra sanofi-aventis ferdigfylt penn, SoloStar"
+
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "546114"

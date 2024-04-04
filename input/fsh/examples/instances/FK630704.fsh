@@ -1,6 +1,8 @@
 Instance: FK630704
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "NovoRapid Penfill Novo Nordisk sylinderampuller til bruk i insulininjeksjonssystemer fra Novo Nordisk og NovoFine eller NovoTwist nåler"
+
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "630704"

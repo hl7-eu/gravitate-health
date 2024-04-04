@@ -1,6 +1,7 @@
 Instance: FK45691
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Jyseleca 100 mg og 200 mg filmovertrukne tabletter"
 * language = #da
 * identifier.system = "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"
 * identifier.value = "45691"

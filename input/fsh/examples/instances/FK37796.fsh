@@ -1,6 +1,8 @@
 Instance: FK37796
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Humira 40mg/0,4 ml injektionsvæske, opl. i pen"
+
 * language = #da
 * identifier.system = "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"
 * identifier.value = "37796"

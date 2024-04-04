@@ -1,6 +1,7 @@
 Instance: FK545806
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Airomir Autohaler Teva"
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "545806"

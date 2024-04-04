@@ -1,6 +1,7 @@
 Instance: FK47338
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "PENTASA depottabletti 1 g"
 * language = #fi
 * identifier.system = "https://pharmaca.fi/documentId"
 * identifier.value = "47338"

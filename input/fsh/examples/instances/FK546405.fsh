@@ -1,6 +1,8 @@
 Instance: FK546405
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "Aprovel Sanofi tabletter 150 mg"
+
 * language = #no
 * identifier.system = "https://felleskatalogen.no/vsid"
 * identifier.value = "546405"

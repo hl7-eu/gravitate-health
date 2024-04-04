@@ -1,6 +1,7 @@
 Instance: FK60041
 InstanceOf: BundleUvEpi
 Usage: #example
+Description: "VENTOLINE DISKUS inhalaatiojauhe, annosteltu 200 mikrog/annos"
 * language = #fi
 * identifier.system = "https://pharmaca.fi/documentId"
 * identifier.value = "60041"
