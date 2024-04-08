@@ -1,43 +1,44 @@
-@startuml wf-full
-
-title Gravitate
+@startuml 
 
 actor user
+participant "system X" as SystemX
+participant "G-Lens-On-FHIR" as GLensOnFHIR
+participant "FocusingManager" as FocusingManager
+participant "FOSPS Infrastructure" as FOSPS
+participant "National infrastructure" as NationalInfra
+
 alt case 1 - full data
-user->system X: highlight ePI
-system X->G-Lens-On-FHIR: send full preprocessed ePI + full IPS
-G-Lens-On-FHIR->FocusingManager: full preprocessed ePI + full IPS
-FocusingManager->FocusingManager:focus
-G-Lens-On-FHIR<--FocusingManager: return focused ePI
-system X<--G-Lens-On-FHIR: return focused ePI
+    user -> SystemX : highlight ePI
+    SystemX -> GLensOnFHIR : send full preprocessed ePI + full IPS
+    GLensOnFHIR -> FocusingManager : full preprocessed ePI + full IPS
+    FocusingManager -> FocusingManager : focus
+    FocusingManager --> GLensOnFHIR : return focused ePI
+    GLensOnFHIR --> SystemX : return focused ePI
 else case 2 - only ID's data
-user->system X: highlight ePI
-system X->G-Lens-On-FHIR: send full preprocessed ePI + full IPS
-G-Lens-On-FHIR->FocusingManager: only send ePI ID + patient ID from IPS
-FocusingManager->FOSPS Infrastructure: fetch stored IPS
-FocusingManager->FOSPS Infrastructure: fetch stored ePI
-FocusingManager->FocusingManager:focus
-G-Lens-On-FHIR<--FocusingManager: return focused ePI
-system X<--G-Lens-On-FHIR: return focused ePI
-
+    user -> SystemX : highlight ePI
+    SystemX -> GLensOnFHIR : send full preprocessed ePI + full IPS
+    GLensOnFHIR -> FocusingManager : only send ePI ID + patient ID from IPS
+    FocusingManager -> FOSPS : fetch stored IPS
+    FocusingManager -> FOSPS : fetch stored ePI
+    FocusingManager -> FocusingManager : focus
+    FocusingManager --> GLensOnFHIR : return focused ePI
+    GLensOnFHIR --> SystemX : return focused ePI
 else case 3 - federated fetch
-user->system X: highlight ePI
-system X->G-Lens-On-FHIR: only send ePI ID + patient ID from IPS
-G-Lens-On-FHIR->FocusingManager: only send ePI ID + patient ID from IPS
-FocusingManager->National infrastructure:Fetch IPS
-FocusingManager->National infrastructure:Fetch ePI
-FocusingManager->FocusingManager:focus
-G-Lens-On-FHIR<--FocusingManager: return focused ePI
-system X<--G-Lens-On-FHIR: return focused ePI
-
+    user -> SystemX : highlight ePI
+    SystemX -> GLensOnFHIR : only send ePI ID + patient ID from IPS
+    GLensOnFHIR -> FocusingManager : only send ePI ID + patient ID from IPS
+    FocusingManager -> NationalInfra : Fetch IPS
+    FocusingManager -> NationalInfra : Fetch ePI
+    FocusingManager -> FocusingManager : focus
+    FocusingManager --> GLensOnFHIR : return focused ePI
+    GLensOnFHIR --> SystemX : return focused ePI
 else case 4 - hybrid federated fetch
-user->system X: highlight ePI
-system X->G-Lens-On-FHIR: only send ePI ID + full IPS
-G-Lens-On-FHIR->FocusingManager: only send ePI ID + full IPS
-FocusingManager->FocusingManager:Fetch ePI
-FocusingManager->FocusingManager:focus
-G-Lens-On-FHIR<--FocusingManager: return focused ePI
-system X<--G-Lens-On-FHIR: return focused ePI
-
-end 
+    user -> SystemX : highlight ePI
+    SystemX -> GLensOnFHIR : only send ePI ID + full IPS
+    GLensOnFHIR -> FocusingManager : only send ePI ID + full IPS
+    FocusingManager -> FocusingManager : Fetch ePI
+    FocusingManager -> FocusingManager : focus
+    FocusingManager --> GLensOnFHIR : return focused ePI
+    GLensOnFHIR --> SystemX : return focused ePI
+end
 @enduml
