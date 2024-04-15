@@ -1,0 +1,16 @@
+@startuml
+:Check ASM;
+if (ASM for the ePI?) then (no)
+:do nothing;
+elseif (ASM relates to a particular condition patient has?) then (no)
+:do nothing;
+
+elseif (ePi is tagged for that condition) then (yes)
+:add link to ASM in the proper section;
+
+else (no)
+:add the link in generic section;
+endif
+stop
+
+@enduml

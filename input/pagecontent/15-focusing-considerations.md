@@ -22,3 +22,12 @@ We could also check the type of information. Whether is a pictogram, a image, a 
 
 <div>{% include detail-focusing.svg %}</div>
 <br clear="all"/>
+
+
+
+# ePI, persona and Additional Support Material (or Risk Minimization Material)
+
+
+<div>{% include 3-way-focusing.svg %}</div>
+<br clear="all"/>
+

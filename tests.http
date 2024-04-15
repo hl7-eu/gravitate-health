@@ -209,3 +209,18 @@ POST https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/$reindex
 ### data
 
 GET http://gravitate-health.lst.tfo.upm.es/ai/summary/bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1?preprocessors=preprocessing-service-manual&patientIdentifier=Cecilia-1&lenses=lens-summary-2&model=graviting-llama
+
+
+### preprocessing dumb
+
+
+POST https://gravitate-health.lst.tfo.upm.es/bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-mvp2&lenses=lens-selector-mvp2_proxy-pregnancy&patientIdentifier=alicia-1
+
+
+### preprocessing dumb
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1?preprocessors=preprocessing-service-mvp2&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1
+
+
+### lens proxy
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_proxy-pregnancy&patientIdentifier=alicia-1
