@@ -45,28 +45,58 @@ Usage: #example
 
 Instance: asm-alicia-example-2
 InstanceOf: ASM
-Title: "Example of additional support material - test match for alicia and flucelvax and a condition"
-Description:  "Example of additional support material - test match for alicia and flucelvax and a condition"
+Title: "Example of additional support material - test match for alicia, HIV and biktarvy"
+Description:  "Example of additional support material - test match for alicia, HIV and biktarvy"
 Usage: #example
 
 * identifier[+].system = "http://example.org"
 * identifier[=].value = "3"
+
 * extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/relatedMedicalIssue"
-* extension.valueCodeableReference.concept =  $sct#86406008
+* extension.valueCodeableReference.concept = $sct#86406008
 
 * version = "1.0"
 
-* author.display = "Ted Ed"
+* author.display = "hypertuny"
 
-* subject = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)
+* subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
 
-* description = "The first vaccine was created when Edward Jenner, an English scientist and doctor, successfully injected small amounts of the cowpox virus into the young boy now the protector of the deadly smallpox virus. But how does this counterintuitive process work? Kelwalin Dhanasarnsom, but details the science behind vaccines."
+* description = "Biktarvy, consisting of bictegravir, emtricitabine and tenofovir alafenamide, is a significant medication in the treatment of HIV and AIDS. This fixed-dose combination antiretroviral drug, approved for use in the United States in February 2018 and in the European Union in June 2018, is a combination therapy, often termed as highly active antiretroviral therapy. This therapy involves using two or more types of antiretroviral drugs. Each tablet of Biktarvy contains 50 milligrams bictegravir, 200 milligrams emtricitabine, and 25 milligrams tenofovir alafenamide, and is taken orally once daily."
 * status = #current
 * docStatus = #final
 * content.attachment.language = #en
 * content.attachment.contentType = #audio/mpeg
-* content.attachment.url = "https://www.youtube.com/watch?v=rb7TVW77ZCs"
+* content.attachment.url = "https://www.youtube.com/watch?v=HpndrPLs1Y8"
 * content.attachment.duration = 715 // in seconds
+
+
+
+Instance: asm-alicia-example-3
+InstanceOf: ASM
+Title: "Example of additional support material - test match for alicia, only condition"
+Description:  "Example of additional support material - test match for alicia, only condition"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "3"
+
+* extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/relatedMedicalIssue"
+* extension.valueCodeableReference.concept = $sct#35489007
+
+* version = "1.0"
+
+* author.display = "NHS"
+
+
+* description = "In this video, a doctor explains a self-help method for those experiencing low mood and depression."
+* status = #current
+* docStatus = #final
+* content.attachment.language = #en
+* content.attachment.contentType = #audio/mpeg
+* content.attachment.url = "https://www.youtube.com/watch?v=qKcRUOWYQ9w"
+* content.attachment.duration = 715 // in seconds
+
+
 
 
 Instance: asm-2
