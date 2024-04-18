@@ -43,6 +43,30 @@ Usage: #example
 * content.attachment.duration = 715 // in seconds
 
 
+Instance: asm-alicia-example-2
+InstanceOf: ASM
+Title: "Example of additional support material - test match for alicia and flucelvax and a condition"
+Description:  "Example of additional support material - test match for alicia and flucelvax and a condition"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "3"
+* extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/relatedMedicalIssue"
+* extension.valueCodeableReference.concept =  $sct#86406008
+
+* version = "1.0"
+
+* author.display = "Ted Ed"
+
+* subject = Reference(mpb6ced64d25ea2c8da6c6099386f14db1)
+
+* description = "The first vaccine was created when Edward Jenner, an English scientist and doctor, successfully injected small amounts of the cowpox virus into the young boy now the protector of the deadly smallpox virus. But how does this counterintuitive process work? Kelwalin Dhanasarnsom, but details the science behind vaccines."
+* status = #current
+* docStatus = #final
+* content.attachment.language = #en
+* content.attachment.contentType = #audio/mpeg
+* content.attachment.url = "https://www.youtube.com/watch?v=rb7TVW77ZCs"
+* content.attachment.duration = 715 // in seconds
 
 
 Instance: asm-2

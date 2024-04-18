@@ -28,3 +28,11 @@ Description: "Adding information to ePIs in the FHIR format. This information ma
 
 * extension[elementClass].value[x] only string
 * extension[elementClass] ^short = "Location in the html. if applicable"
+
+
+Extension: relatedMedicalIssue
+Description: "Adding codeableReference to relate other subject to documentReference"
+* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/relatedMedicalIssue"
+
+* extension.value[x] only CodeableReference
+
