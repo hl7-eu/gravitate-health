@@ -1,0 +1,95 @@
+
+@host = https://fosps.gravitatehealth.eu
+
+@host = https://gravitate-health.lst.tfo.upm.es
+
+###
+
+GET {{host}}/epi/api/fhir/Composition?_language=es&category=R&subject.identifier=EU/1/18/1326/001
+### List all available preprocessors
+
+###
+
+GET {{host}}/epi/api/fhir/Composition
+
+GET  {{host}}/epi/api/fhir/Bundle?composition=https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/Composition/composition-en-b6ced64d25ea2c8da6c6099386f14db1
+
+###
+GET https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/Composition?_language=no
+
+
+####
+GET https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/Composition/FK545806-COMP
+
+
+### get data
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?_language=es&category=R&subject.identifier=EU/1/18/1326/001
+
+
+
+### testing focusing lens pregancy MVP2 with DIV - doesnt work
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?type=document
+
+### get the bundle
+
+GET  https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165
+
+
+### get bundle of raw epi
+
+GET  https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?composition.identifier=dd
+
+### get bundle of raw epi
+
+GET  https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle?composition.subject=MedicinalProductDefinition/mp2412867d9a0e15f82f11047ad93bdbad
+
+
+### testing focusing lens pregancy MVP2 with DIV - doesnt work
+
+GET https://fosps.gravitatehealth.eu/ips/api/fhir/Composition?subject.identifier=alicia-1
+
+
+### testing focusing lens pregancy MVP2 with DIV - doesnt work
+
+GET https://fosps.gravitatehealth.eu/ips/api/fhir/Patient/$summary?identifier=alicia-1
+
+
+
+
+### testing all Ids
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?&category=http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs|R&_elements=identifier,title
+
+
+
+### testing language
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?subject=MedicinalProductDefinition/mp2412867d9a0e15f82f11047ad93bdbad&category=http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs|P&_language=en
+
+### testing language
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?_language=en
+
+
+#### testing 
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition/Processedcompositionf4d45353edcb21af3718d3a0df94a4d8/$document\
+
+
+
+#### testing 
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle/Processedcompositionf4d45353edcb21af3718d3a0df94a4d8/$document
+
+
+
+### reindex
+POST https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/$reindex
+
+
+
+### get bundles
+GET https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/Bundle
+
+

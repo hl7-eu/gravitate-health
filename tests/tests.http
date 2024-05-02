@@ -1,0 +1,177 @@
+
+
+### List all available preprocessors
+
+GET https://fosps.gravitatehealth.eu/focusing/preprocessing
+
+### List All available lenses
+
+GET https://fosps.gravitatehealth.eu/focusing/lenses
+
+
+
+### testing focusing lens pregancy MVP2 with DIV - doesnt work
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1
+
+### testing focusing lens pregancy MVP2 with DIV - doesnt work
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=Cecilia-1
+
+
+
+### testing focusing lens pregancy DIV with DIV - should work
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_pregnancy&patientIdentifier=alicia-1
+
+### testing focusing lens pregancy DIV (epi preprocessed) with DIV - works
+
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/processedbundledovato-en?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_pregnancy&patientIdentifier=alicia-1
+
+
+### testing focusing lens HIV DIV (multiple pedros)
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/processedbundledovato-en?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_HIV&patientIdentifier=Pedro-1
+
+
+### check epi for using in diabetes
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165
+### testing focusing lens diabetes DIV (cecilia)
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-div_diabetes&patientIdentifier=Cecilia-1
+
+
+### Test all the lenses, individually.
+
+### Test Lens: Pregnancy
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1
+
+### Test Lens: Diabetes
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_diabetes&patientIdentifier=Cecilia-1
+
+### Test Lens: Interaction
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-63b15a3bb9d18a00ecd0962bc011c765?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_interaction&patientIdentifier=Cecilia-1
+
+### Test Lens: Intolerance, with Bundle
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_intolerance&patientIdentifier=Cecilia-1
+
+
+
+### Test Lens: Intolerance
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_intolerance&patientIdentifier=Cecilia-1
+Accept: application/json
+
+
+### Test Lenses in groups
+
+### Test Lens: Pregnancy + Diabetes
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&lenses=lens-selector-mvp2_diabetes&patientIdentifier=Cecilia-1
+
+### Test Lens: Pregnancy + Diabetes + Intolerance
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&lenses=lens-selector-mvp2_diabetes&lenses=lens-selector-mvp2_intolerance&patientIdentifier=Cecilia-1
+
+
+### Tests for Spanish TS
+
+### Spanish TS Dovato (Lenses: Pregnancy, Interaction)
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-f98744933a164dfc1d0bf89825ebfca1?preprocessors=preprocessing-service-manual&patientIdentifier=Cecilia-1&lenses=lens-selector-mvp2_pregnancy&lenses=lens-selector-mvp2_interaction
+
+### Spanish TS Biktarvy (Lenses: Pregnancy, Interaction)
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-b44cce291e466626afa836fffe72c350?preprocessors=preprocessing-service-manual&patientIdentifier=Cecilia-1&lenses=lens-selector-mvp2_pregnancy&lenses=lens-selector-mvp2_interaction
+
+### Spanish TS Calcio/Calcium (Lenses: Pregnancy)
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-925dad38f0afbba36223a82b3a766438?preprocessors=preprocessing-service-manual&patientIdentifier=Cecilia-1&lenses=lens-selector-mvp2_pregnancy
+
+### Spanish TS Flucelvax
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-es-56a32a5ee239fc834b47c10db1faa3fd?preprocessors=preprocessing-service-manual&patientIdentifier=Cecilia-1&lenses=lens-selector-mvp2_pregnancy
+
+
+### Collapsse lens FHIR
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=Pedro-1
+Accept: application/json
+
+### Collapse lens to print
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=Pedro-1
+
+### no preprocessor nor lenses and ips added as bundle
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/processedbundledovato-en
+content-type: application/json
+
+< ./examples/dk1.json
+
+
+### another test
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/processedbundledovato-en
+content-type: application/json
+
+< ./examples/dk2.json
+
+
+
+### another test v2
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/processedbundledovato-en
+content-type: application/json
+
+< ./examples/dk3.json
+
+### joao test
+
+POST http://localhost:5005/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp3_adult&patientIdentifier=helen-1
+
+
+
+### Test Lens: Intolerance
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_intolerance&patientIdentifier=Cecilia-1
+Accept: application/json
+
+### collapsing
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=Pedro-1
+Accept: application/json
+
+
+### data
+
+GET http://gravitate-health.lst.tfo.upm.es/ai/summary/bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1?preprocessors=preprocessing-service-manual&patientIdentifier=Cecilia-1&lenses=lens-summary-2&model=graviting-llama
+
+
+### preprocessing dumb
+
+
+POST https://gravitate-health.lst.tfo.upm.es/bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-mvp2&lenses=lens-selector-mvp2_proxy-pregnancy&patientIdentifier=alicia-1
+
+
+### preprocessing dumb
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1?preprocessors=preprocessing-service-mvp2&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1
+
+
+### lens proxy
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_proxy-pregnancy&patientIdentifier=alicia-1
+
+
+### preprocessor "dumb"
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/preprocessing/bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1?preprocessors=preprocessing-service-mvp2
+Accept: application/json
+
+
+
+
+
+### preprocessor dumb
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-mvp2&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1
+
+### 
+### Collapsse lens FHIR
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleafletxyntha?preprocessors=preprocessing-service-mvp2&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=Pedro-1
+
