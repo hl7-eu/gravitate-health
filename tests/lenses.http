@@ -1,0 +1,15 @@
+### List All available lenses
+
+GET https://fosps.gravitatehealth.eu/focusing/lenses
+
+### Test all the lenses, individually.
+
+### Test Lens: Pregnancy
+POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1
+
+
+### condition lens
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_conditions&patientIdentifier=alicia-1
+content-type: application/json
+
+< ./examples/preprocessed-biktarvy.json
