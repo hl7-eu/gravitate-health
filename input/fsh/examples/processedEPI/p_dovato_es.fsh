@@ -26,6 +26,8 @@ Usage: #inline
 * attester.time =  "2022-04-29T13:28:17Z"
 * language = #es
 
+* category = epicategory-cs#P "processed"
+
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "pregnancyCategory"
