@@ -1,0 +1,2223 @@
+{
+    "resourceType": "Bundle",
+    "id": "bundle-processed-pt-2d49ae46735143c1323423b7aea24165",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"
+      ]
+    },
+    "type": "document",
+    "identifier": {
+      "system": "https://www.gravitatehealth.eu/sid/doc",
+      "value": "EU/1/97/049/001-pt"
+    },
+    "timestamp": "2023-06-27T10:09:22Z",
+    "language": "pt",
+    "entry": [
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-processed-pt-f4d45353edcb21af3718d3a0df94a4d8",
+        "resource": {
+          "resourceType": "Composition",
+          "id": "composition-processed-pt-f4d45353edcb21af3718d3a0df94a4d8",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/rmswi/",
+              "value": "karvea-pt-processed"
+            }
+          ],
+          "status": "final",
+          "type": {
+            "coding": [
+              {
+                "code": "100000155538",
+                "system": "https://spor.ema.europa.eu/rmswi/"
+              }
+            ],
+            "text": "Package Leaflet"
+          },
+          "subject": [
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            }
+          ],
+          "date": "2022-02-16T13:28:17Z",
+          "author": [
+            {
+              "reference": "Organization/mah-511671db37e83e520b00f8a0d817dc96"
+            }
+          ],
+          "title": "TEST PURPOSES ONLY - Karvea",
+          "attester": [
+            {
+              "mode": {
+                "coding": [
+                  {
+                    "code": "official",
+                    "system": "http://hl7.org/fhir/composition-attestation-mode"
+                  }
+                ]
+              },
+              "time": "2022-02-16T13:28:17Z"
+            }
+          ],
+          "language": "pt",
+          "category": [
+            {
+              "coding": [
+                {
+                  "code": "P",
+                  "system": "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs",
+                  "display": "Processed"
+                }
+              ]
+            }
+          ],
+          "extension": [
+            {
+              "url": "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink",
+              "extension": [
+                {
+                  "url": "elementClass",
+                  "valueString": "pregnancyCategory"
+                },
+                {
+                  "url": "concept",
+                  "valueCodeableReference": {
+                    "concept": {
+                      "coding": [
+                        {
+                          "code": "77386006",
+                          "system": "http://snomed.info/sct",
+                          "display": "Pregnancy"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink",
+              "extension": [
+                {
+                  "url": "elementClass",
+                  "valueString": "breastfeedingCategory"
+                },
+                {
+                  "url": "concept",
+                  "valueCodeableReference": {
+                    "concept": {
+                      "coding": [
+                        {
+                          "code": "69840006",
+                          "system": "http://snomed.info/sct",
+                          "display": "Normal breast feeding (finding)"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink",
+              "extension": [
+                {
+                  "url": "elementClass",
+                  "valueString": "indication"
+                },
+                {
+                  "url": "concept",
+                  "valueCodeableReference": {
+                    "reference": {
+                      "reference": "ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink",
+              "extension": [
+                {
+                  "url": "elementClass",
+                  "valueString": "contraindication"
+                },
+                {
+                  "url": "concept",
+                  "valueCodeableReference": {
+                    "concept": {
+                      "coding": [
+                        {
+                          "code": "410536001",
+                          "system": "http://snomed.info/sct",
+                          "display": "Contraindicated (qualifier value)"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink",
+              "extension": [
+                {
+                  "url": "elementClass",
+                  "valueString": "contra-indication-pregnancy"
+                },
+                {
+                  "url": "concept",
+                  "valueCodeableReference": {
+                    "reference": {
+                      "reference": "ClinicalUseDefinition/contraindication-pregnancy"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink",
+              "extension": [
+                {
+                  "url": "elementClass",
+                  "valueString": "contra-indication-kidney"
+                },
+                {
+                  "url": "concept",
+                  "valueCodeableReference": {
+                    "reference": {
+                      "reference": "ClinicalUseDefinition/contraindication-kidney"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink",
+              "extension": [
+                {
+                  "url": "elementClass",
+                  "valueString": "contra-indication-diabetes-mellitus"
+                },
+                {
+                  "url": "concept",
+                  "valueCodeableReference": {
+                    "reference": {
+                      "reference": "ClinicalUseDefinition/contraindication-diabetes-mellitus"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink",
+              "extension": [
+                {
+                  "url": "elementClass",
+                  "valueString": "lactose"
+                },
+                {
+                  "url": "concept",
+                  "valueCodeableReference": {
+                    "concept": {
+                      "coding": [
+                        {
+                          "code": "47703008",
+                          "system": "http://snomed.info/sct",
+                          "display": "lactose"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "section": [
+            {
+              "title": "B. Package Leaflet",
+              "code": {
+                "coding": [
+                  {
+                    "code": "100000155538",
+                    "system": "https://spor.ema.europa.eu/rmswi/"
+                  }
+                ],
+                "text": "B. PACKAGE LEAFLET"
+              },
+              "text": {
+                "status": "additional",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+              },
+              "emptyReason": {
+                "coding": [
+                  {
+                    "code": "unavailable",
+                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason"
+                  }
+                ]
+              },
+              "section": [
+                {
+                  "title": "Package leaflet: Information for the user",
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "100000155538",
+                        "system": "https://spor.ema.europa.eu/rmswi/"
+                      }
+                    ],
+                    "text": "Package leaflet: Information for the user"
+                  },
+                  "text": {
+                    "status": "additional",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Karvea 300 mg comprimidos</p><p>irbesartan</p><p>Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois contém informação importante para si.</p><ul><li>Conserve este folheto. Pode ter necessidade de o ler novamente.</li><li>Caso ainda tenha dúvidas, fale com o seu médico ou farmacêutico.</li><li>Este medicamento foi receitado apenas para si. Não deve dá-lo a outros; o medicamento pode serlhes prejudicial mesmo que apresentem os mesmos sinais de doença.</li><li>Se tiver quaisquer efeitos secundários, incluindo efeitos secundários não indicados neste folheto, fale com o seu médico ou farmacêutico.</li></ul></div>"
+                  }
+                },
+                {
+                  "title": "What is in this leaflet",
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "100000155538",
+                        "system": "https://spor.ema.europa.eu/rmswi/"
+                      }
+                    ],
+                    "text": "What is in this leaflet"
+                  },
+                  "text": {
+                    "status": "additional",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>O que contém este folheto:</strong></p><ol><li>O que é Karvea e para que é utilizado</li><li>O que precisa de saber antes de tomar Karvea</li><li>Como tomar Karvea</li><li>Efeitos secundários possíveis</li><li>Como conservar Karvea</li><li>Conteúdo da embalagem e outras informações</li></ol></div>"
+                  }
+                },
+                {
+                  "title": "1. What Karvea is and what it is used for",
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "100000155538",
+                        "system": "https://spor.ema.europa.eu/rmswi/"
+                      }
+                    ],
+                    "text": "1. What Karvea is and what it is used for"
+                  },
+                  "text": {
+                    "status": "additional",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Karvea pertence a um grupo de medicamentos conhecidos como antagonistas dos recetores da angiotensina-II. A angiotensina-II é uma substância produzida no organismo que se liga a recetores nos vasos sanguíneos, provocando o seu estreitamento, o que conduz ao aumento da pressão arterial. Karvea impede a ligação da angiotensina-II a estes recetores, fazendo com que os vasos sanguíneos se relaxem e a pressão arterial baixe. Karvea atrasa a diminuição da função renal nos doentes com pressão arterial elevada e diabetes do tipo 2.</p><div class=\"indication\"><p>Karvea é usado em doentes adultos</p><ul><li>para tratar a pressão arterial elevada (hipertensão essencial)</li><li>para proteger os rins nos doentes com pressão arterial elevada, diabetes do tipo 2 e evidência laboratorial de insuficiência dos rins.</li></ul></div></div>"
+                  }
+                },
+                {
+                  "title": "2. What you need to know before you take Karvea",
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "100000155538",
+                        "system": "https://spor.ema.europa.eu/rmswi/"
+                      }
+                    ],
+                    "text": "2. What you need to know before you take Karvea"
+                  },
+                  "text": {
+                    "status": "additional",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Não tome Karvea</strong></p><ul><li>se tem alergia ao irbesartan ou a qualquer outro componente deste medicamento (indicados na secção 6).</li><li class=\"contra-indication-pregnancy\">se tiver mais do que três meses de gravidez. (Também é preferível não tomar Karvea no início da gravidez - ver secção Gravidez</li><li><span class=\"contra-indication-diabetes-mellitus\">se tem diabetes </span>ou <span class=\"contra-indication-kidney\">função renal diminuída</span> e está a ser tratado com um medicamento que contém aliscireno para diminuir a pressão arterial</li></ul><p><strong>Advertências e precauções</strong></p><p>Fale com o seu médico antes de tomar Karvea e se alguma das seguintes situações se aplicar a si:</p><ul><li>se tiver vómitos ou diarreia prolongados</li><li>se sofrer de problemas nos rins</li><li>se sofre de problemas do coração</li><li>se receber Karvea para doença nos rins diabética. Neste caso, o seu médico pode efetuar-lhe análises ao sangue com regularidade, especialmente para medir os níveis sanguíneos de potássio em caso de insuficiência dos rins se desenvolver baixos níveis de açúcar no sangue (os sintomas podem incluir sudação, fraqueza, fome, tonturas, tremores, dor de cabeça, rubor ou palidez, dormência, batimento cardíaco acelerado e palpitante), especialmente se estiver a ser tratado para a diabetes.</li><li>se vai ser submetido a uma operação (cirurgia) ou se lhe vão ser administrados anestésicos</li><li>se está a tomar algum dos seguintes medicamentos para tratar a pressão arterial elevada:<ul><li>um inibidor da ECA (por exemplo enalapril, lisinopril, ramipril), em particular se tiver problemas nos rins relacionados com diabetes.</li><li>aliscireno</li></ul></li></ul><p>O seu médico pode verificar a sua função renal, pressão arterial e a quantidade de eletrólitos (por exemplo, o potássio) no seu sangue em intervalos regulares.</p><p>Ver também a informação sob o título “Não tome Karvea”</p><p>Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. Karvea não está recomendado no início da gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez que pode ser gravemente prejudicial para o bebé se utilizado a partir desta altura (ver secção Gravidez).</p><p><strong>Crianças e adolescentes</strong></p><p>Este medicamento não deve ser utilizado em crianças e adolescentes uma vez que não foram ainda completamente estabelecidas a segurança e eficácia.</p><p><strong>Outros medicamentos e Karvea</strong></p><p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado ou se vier a tomar outros medicamentos. O seu médico pode precisar de alterar a dose e/ou tomar outras precauções se estiver a tomar aliscireno. Se está a tomar um inibidor da ECA ou aliscireno (ver também informações sob os títulos “Não tome Karvea” e “Advertências e precauções”).</p><p><strong>Poderá necessitar de fazer algumas verificações ao sangue caso tome:</strong></p><ul><li>suplementos de potássio</li><li>substitutos de sal contendo potássio</li><li>medicamentos poupadores de potássio (como sejam alguns diuréticos)</li><li>medicamentos contendo lítio</li><li>repaglinida (medicamento utilizado para baixar os níveis de açúcar no sangue)</li></ul><p>Se tomar alguns medicamentos para as dores, denominados anti-inflamatórios não-esteroides, o efeito do irbesartan poderá ser reduzido.</p><p><strong>Karvea com alimentos e bebidas</strong></p><p>Karvea pode ser tomado com ou sem alimentos.</p><div class=\"pregnancyCategory\"><p><strong>Gravidez e amamentação</strong></p><p><strong>Gravidez</strong></p><p>Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. O seu médico normalmente aconselha-la-á a interromper Karvea antes de engravidar ou assim que estiver grávida e a tomar outro medicamento em vez de Karvea. Karvea não está recomendado no início da gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez que pode ser gravemente prejudicial para o bebé se utilizado a partir desta altura.</p></div><div class=\"breastfeedingCategory\"><p><strong>Amamentação</strong></p><p>Deverá informar o seu médico de que se encontra a amamentar ou que está prestes a iniciar o aleitamento. Karvea não está recomendado em mães a amamentar, especialmente se o bebé for recémnascido ou prematuro; nestes casos o seu médico poderá indicar outro tratamento.</p></div><p><strong>Condução de veículos e utilização de máquinas</strong></p><p>Não é provável que Karvea afete a sua capacidade de conduzir e usar máquinas. Contudo, ocasionalmente, podem ocorrer tonturas ou fadiga durante o tratamento da hipertensão. Se sentir estes efeitos, fale com o seu médico antes de tentar conduzir ou utilizar máquinas.</p><p><strong><span class=\"lactose\">Karvea contém lactose.</span> </strong>Se foi informado pelo seu médico de que é intolerante a alguns açúcares (por exemplo, a lactose), deverá contactá-lo antes de tomar este medicamento.</p><p><strong>Karvea contém sódio.</strong> Este medicamento contém menos de 1 mmol de sódio (23 mg) por comprimido, ou seja, é praticamente &#39;isento de sódio&#39;.</p></div>"
+                  }
+                },
+                {
+                  "title": "3. How to take Karvea",
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "100000155538",
+                        "system": "https://spor.ema.europa.eu/rmswi/"
+                      }
+                    ],
+                    "text": "3. How to take Karvea"
+                  },
+                  "text": {
+                    "status": "additional",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Tomar este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou farmacêutico se tiver dúvidas.</p><p><strong>Modo de administração</strong></p><p>Karvea destina-se à via oral. Engolir os comprimidos com uma quantidade suficiente de líquidos (por exemplo um copo com água). Pode tomar Karvea com ou sem alimentos. Tente tomar a dose diária sempre à mesma hora. É importante que continue a tomar Karvea até que o seu médico lhe dê outra indicação.</p><ul><li>Doentes com pressão arterial elevada</li></ul><p>A dose habitual é 150 mg uma vez ao dia. Em função da resposta da pressão arterial, a dose pode ser aumentada para 300 mg, uma vez ao dia.</p><ul><li>Doentes com pressão arterial elevada e diabetes do tipo 2 com doença nos rins</li></ul><p>Nos doentes com pressão arterial elevada e diabetes do tipo 2, a dose de manutenção preferível para o tratamento da doença renal associada é de 300 mg uma vez por dia.</p><p>O médico pode receitar uma dose mais baixa, sobretudo quando se inicia o tratamento em certos doentes, como sejam os que estão em hemodiálise ou os que têm mais de 75 anos.</p><p>O efeito hipotensor máximo deve obter-se às 4 a 6 semanas após o início do tratamento.</p><p><strong>Utilização em crianças e adolescentes</strong></p><p>Karvea não deve ser administrado a crianças com idade idade inferior a 18 anos. Se uma criança engolir alguns comprimidos, deve contactar o médico imediatamente.</p><p><strong>Se tomar mais Karvea do que deveria</strong></p><p>Se, acidentalmente, tomar demasiados comprimidos, contacte o médico imediatamente. Caso se tenha esquecido de tomar Karvea Se, acidentalmente, não tomar uma dose diária, tome a dose seguinte como planeado. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.</p><p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.</p></div>"
+                  }
+                },
+                {
+                  "title": "4. Possible side effects",
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "100000155538",
+                        "system": "https://spor.ema.europa.eu/rmswi/"
+                      }
+                    ],
+                    "text": "4. Possible side effects"
+                  },
+                  "text": {
+                    "status": "additional",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Como todos os medicamentos, este medicamento pode causar efeitos secundários, embora estes não se manifestem em todas as pessoas. Alguns destes efeitos podem ser graves e requerer cuidados médicos.</p><p>Tal como acontece com medicamentos semelhantes, em doentes a tomar irbesartan foram notificados casos raros de reações alérgicas na pele (erupção na pele, erupção na pele com comichão), assim como inchaço localizado da face, lábios e/ou língua. Se tiver algum destes sintomas, ou se tiver dificuldade em respirar, <strong>pare de tomar Karvea e contacte o médico imediatamente.</strong></p><p>A frequência dos efeitos adversos listados abaixo é definida utilizando a seguinte convenção:</p><p>Muito frequentes: podem afetar mais de 1 em 10 pessoas</p><p>Frequentes: podem afetar até 1 em 10 pessoas</p><p>Pouco frequentes: podem afetar até 1 em 100 pessoas</p><p>Os efeitos secundários notificados em estudos clínicos para os doentes tratados com Karvea foram:</p><ul><li>Muito frequentes (podem afetar mais de 1 em 10 pessoas): se tiver pressão arterial elevada e diabetes do tipo 2 com doença nos rins, as análises ao sangue podem mostrar níveis de potássio aumentados.</li><li>Frequentes (podem afetar até 1 em 10 pessoas): tonturas, mal estar/vómitos, fadiga e as análises ao sangue podem mostrar níveis de uma enzima que avalia a função muscular e cardíaca (enzima creatina cinase) aumentados. Em doentes com pressão arterial elevada e diabetes do tipo 2 com doença nos rins foram também notificados tonturas quando se passa da posição deitada ou sentada para a posição de pé, pressão arterial baixa quando se passa da posição deitada ou sentada para a posição de pé, dor nas articulações ou músculos e níveis de uma proteína nos glóbulos vermelhos (hemoglobina) diminuídos.</li><li>Pouco frequentes (podem afetar até 1 em 100 pessoas): ritmo cardíaco rápido, rubor (vermelhidão), tosse, diarreia, indigestão/pirose (azia), disfunção sexual (problemas com o desempenho sexual) e dor torácica.</li></ul><p>Alguns efeitos indesejáveis foram notificados desde a comercialização de Karvea. Os efeitos indesejáveis em que a frequência não é conhecida são: sensação de girar, cefaleias (dores de cabeça), alteração do paladar, zumbidos, cãimbras musculares, dor nas articulações e músculos, redução do número de glóbulos vermelhos (anemia - os sintomas podem incluir cansaço, dores de cabeça, falta de ar durante a prática de exercício físico, tonturas e aparência pálida), redução do número de plaquetas, função hepática (do fígado) alterada, níveis sanguíneos de potássio aumentados, compromisso da função dos rins e inflamação dos vasos sanguíneos pequenos afetando principalmente a pele (uma situação conhecida como vasculite leucocitoclásica) , reacções alérgicas graves (choque anafiláctico) e baixos níveis de açúcar no sangue. Foram também notificados casos pouco frequentes de icterícia (amarelecimento da pele e/ou da zona branca dos olhos).</p><p><strong>Comunicação de efeitos secundários</strong></p><p>Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos secundários diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p></div>"
+                  }
+                },
+                {
+                  "title": "5. How to store Karvea",
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "100000155538",
+                        "system": "https://spor.ema.europa.eu/rmswi/"
+                      }
+                    ],
+                    "text": "5. How to store Karvea"
+                  },
+                  "text": {
+                    "status": "additional",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Manter este medicamento fora da vista e do alcance das crianças.</p><p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, após VAL. O prazo de validade corresponde ao último dia do mês indicado.</p><p>Não conservar acima de 30ºC.</p><p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos que já não necessita. Estas medidas ajudarão a proteger o ambiente.</p></div>"
+                  }
+                },
+                {
+                  "title": "6. Contents of the pack and other information",
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "100000155538",
+                        "system": "https://spor.ema.europa.eu/rmswi/"
+                      }
+                    ],
+                    "text": "6. Contents of the pack and other information"
+                  },
+                  "text": {
+                    "status": "additional",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Qual a composição de Karvea</strong></p><ul><li>A substância ativa é o irbesartan. Cada comprimido de Karvea 300 mg contém 300 mg de irbesartan.</li><li>Os outros componentes são celulose microcristalina, croscarmelose sódica, lactose monohidratada, estearato de magnésio, sílica coloidal hidratada, amido de milho pré-gelificado e poloxamero 188. Por favor ver a secção 2 “Karvea contém lactose”.</li></ul><p><strong>Qual o aspeto de Karvea e conteúdo da embalagem</strong></p><p>Os comprimidos de Karvea 300 mg são de cor branca a esbranquiçada, biconvexos, de forma oval, com um coração marcado numa das faces e o número 2773 gravado na outra face.</p><p>Os comprimidos de Karvea a 300 mg são fornecidos em embalagens de 14, 28, 56 ou 98 comprimidos acondicionados em blister. Estão também disponíveis, para uso hospitalar, embalagens de 56 x 1 comprimido em blister para dose unitária.</p><p>É possível que não sejam comercializadas todas as apresentações.</p><p><strong>Titular da Autorização de Introdução no Mercado</strong> Sanofi Winthrop Industrie 82 avenue Raspail 94250 Gentilly França</p><p><strong>Fabricante</strong></p><p>SANOFI WINTHROP INDUSTRIE 1, rue de la Vierge Ambarès &amp; Lagrave F-33565 Carbon Blanc Cedex - França</p><p>SANOFI WINTHROP INDUSTRIE 30-36 Avenue Gustave Eiffel, BP 7166 F-37071 Tours Cedex 2 - França</p><p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da Autorização de Introdução no Mercado.</p><p><strong>België/Belgique/Belgien</strong> Sanofi Belgium Tél/Tel: +32 (0)2 710 54 00</p><p><strong>България</strong> Swixx Biopharma EOOD Тел.: +359 (0)2 4942 480</p><p><strong>Lietuva</strong> Swixx Biopharma UAB Tel: +370 5 236 91 40</p><p><strong>Luxembourg/Luxemburg</strong> Sanofi Belgium Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien)</p><p><strong>Česká republika</strong> sanofi-aventis, s.r.o. Tel: +420 233 086 111</p><p><strong>Magyarország</strong> SANOFI-AVENTIS Zrt. Tel.: +36 1 505 0050</p><p><strong>Danmark</strong> Sanofi A/S Tlf: +45 45 16 70 00</p><p><strong>Malta</strong> Sanofi S.r.l.. Tel: +39 02 39394275</p><p><strong>Deutschland</strong> Sanofi-Aventis Deutschland GmbH Tel: 0800 52 52 010 Tel. aus dem Ausland: +49 69 305 21 131</p><p><strong>Nederland</strong> Sanofi B.V. Tel: +31 20 245 4000</p><p><strong>Eesti</strong> Swixx Biopharma OÜ Tel: +372 640 10 30</p><p><strong>Norge</strong> sanofi-aventis Norge AS Tlf: +47 67 10 71 00</p><p><strong>Ελλάδα</strong> Sanofi-Aventis Μονοπρόσωπη AEBE Τηλ: +30 210 900 16 00</p><p><strong>Österreich</strong> sanofi-aventis GmbH Tel: +43 1 80 185 – 0</p><p><strong>España</strong> sanofi-aventis, S.A. Tel: +34 93 485 94 00</p><p><strong>Polska</strong> sanofi-aventis Sp. z o.o. Tel.: +48 22 280 00 00</p><p><strong>France</strong> Sanofi Winthrop Industrie Tél: 0 800 222 555 Appel depuis l’étranger : +33 1 57 63 23 23</p><p><strong>Portugal</strong> Sanofi - Produtos Farmacêuticos, Lda Tel: +351 21 35 89 400</p><p><strong>Hrvatska</strong> Swixx Biopharma d.o.o. Tel: +385 1 2078 500</p><p><strong>Ireland</strong> sanofi-aventis Ireland Ltd. Tel: +353 (0) 1 403 56 00</p><p><strong>România</strong> Sanofi Romania SRL Tel: +40 (0) 21 317 31 36</p><p><strong>Slovenija</strong> Swixx Biopharma d.o.o. Tel: +386 1 235 51 00</p><p><strong>Ísland</strong> Vistor hf. Sími: +354 535 7000</p><p><strong>Slovenská republika</strong> Swixx Biopharma s.r.o. Tel: +421 2 208 33 600</p><p><strong>Italia</strong> Sanofi S.r.l.Tel: 800536389</p><p><strong>Suomi/Finland</strong> Sanofi Oy Puh/Tel: +358 (0) 201 200 300</p><p><strong>Κύπρος</strong> C.A. Papaellinas Ltd. Τηλ: +357 22 741741</p><p><strong>Sverige</strong> Sanofi AB Tel: +46 (0)8 634 50 00</p><p><strong>Latvija</strong> Swixx Biopharma SIA Tel: +371 6 616 47 50</p><p><strong>United Kingdom (Northern Ireland)</strong> sanofi-aventis Ireland Ltd. T/A SANOFI Tel: +44 (0) 800 035 2525</p><p><strong>Este folheto foi revisto pela última vez em</strong></p><p>Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência Europeia de Medicamentos <a href=\"http://www.ema.europa.eu/\">http://www.ema.europa.eu/</a></p></div>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-a40c2367ed3c1c715eacd432105752a0",
+        "resource": {
+          "resourceType": "ClinicalUseDefinition",
+          "id": "cud-a40c2367ed3c1c715eacd432105752a0",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"
+            ]
+          },
+          "type": "contraindication",
+          "subject": [
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            }
+          ],
+          "contraindication": {
+            "diseaseSymptomProcedure": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "10012601",
+                    "system": "http://terminology.hl7.org/CodeSystem/mdr",
+                    "display": "Diabetis Mellitus"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400",
+        "resource": {
+          "resourceType": "ClinicalUseDefinition",
+          "id": "cud-585e364c14debe29f6c6b564138aa400",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"
+            ]
+          },
+          "type": "indication",
+          "subject": [
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            }
+          ],
+          "indication": {
+            "diseaseSymptomProcedure": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "10020772",
+                    "system": "http://terminology.hl7.org/CodeSystem/mdr",
+                    "display": "Hypertension"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8",
+        "resource": {
+          "resourceType": "ClinicalUseDefinition",
+          "id": "cud-4fce9d5258f70f7d605059f97c24efa8",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"
+            ]
+          },
+          "type": "interaction",
+          "subject": [
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            }
+          ],
+          "interaction": {
+            "interactant": [
+              {
+                "itemCodeableConcept": {
+                  "coding": [
+                    {
+                      "code": "YL5FZ2Y5U1",
+                      "system": "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+                      "display": "METHOTREXATE"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-hypromellose",
+        "resource": {
+          "resourceType": "Ingredient",
+          "id": "ingredient-for-karvea-hypromellose",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+            ]
+          },
+          "identifier": {
+            "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+            "value": "3NXW29V3WO",
+            "use": "official"
+          },
+          "role": {
+            "coding": [
+              {
+                "code": "100000072082",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Excipient"
+              }
+            ]
+          },
+          "status": "active",
+          "substance": {
+            "code": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "3NXW29V3WO",
+                    "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                    "display": "Hypromellose"
+                  }
+                ]
+              }
+            }
+          },
+          "for": [
+            {
+              "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+            },
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            },
+            {
+              "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-macrogol3000",
+        "resource": {
+          "resourceType": "Ingredient",
+          "id": "ingredient-for-karvea-macrogol3000",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+            ]
+          },
+          "identifier": {
+            "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+            "value": "SA1B764746",
+            "use": "official"
+          },
+          "role": {
+            "coding": [
+              {
+                "code": "100000072082",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Excipient"
+              }
+            ]
+          },
+          "status": "active",
+          "substance": {
+            "code": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "SA1B764746",
+                    "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                    "display": "Macrogol 3000"
+                  }
+                ]
+              }
+            }
+          },
+          "for": [
+            {
+              "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+            },
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            },
+            {
+              "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-lactosemonohydrate",
+        "resource": {
+          "resourceType": "Ingredient",
+          "id": "ingredient-for-karvea-lactosemonohydrate",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+            ]
+          },
+          "identifier": {
+            "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+            "value": "EWQ57Q8I5X",
+            "use": "official"
+          },
+          "role": {
+            "coding": [
+              {
+                "code": "100000072082",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Excipient"
+              }
+            ]
+          },
+          "status": "active",
+          "substance": {
+            "code": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "EWQ57Q8I5X",
+                    "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                    "display": "Lactose Monohydrate"
+                  }
+                ]
+              }
+            }
+          },
+          "for": [
+            {
+              "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+            },
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            },
+            {
+              "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-silicondioxide",
+        "resource": {
+          "resourceType": "Ingredient",
+          "id": "ingredient-for-karvea-silicondioxide",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+            ]
+          },
+          "identifier": {
+            "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+            "value": "ETJ7Z6XBU4",
+            "use": "official"
+          },
+          "role": {
+            "coding": [
+              {
+                "code": "100000072082",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Excipient"
+              }
+            ]
+          },
+          "status": "active",
+          "substance": {
+            "code": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "ETJ7Z6XBU4",
+                    "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                    "display": "Silicon dioxide"
+                  }
+                ]
+              }
+            }
+          },
+          "for": [
+            {
+              "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+            },
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            },
+            {
+              "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-titaniumdioxide",
+        "resource": {
+          "resourceType": "Ingredient",
+          "id": "ingredient-for-karvea-titaniumdioxide",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+            ]
+          },
+          "identifier": {
+            "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+            "value": "15FIX9V2JP",
+            "use": "official"
+          },
+          "role": {
+            "coding": [
+              {
+                "code": "100000072082",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Excipient"
+              }
+            ]
+          },
+          "status": "active",
+          "substance": {
+            "code": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "15FIX9V2JP",
+                    "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                    "display": "Titanium Dioxide"
+                  }
+                ]
+              }
+            }
+          },
+          "for": [
+            {
+              "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+            },
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            },
+            {
+              "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-irbesartan",
+        "resource": {
+          "resourceType": "Ingredient",
+          "id": "ingredient-for-karvea-irbesartan",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+            ]
+          },
+          "identifier": {
+            "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+            "value": "J0E2756Z7N",
+            "use": "official"
+          },
+          "role": {
+            "coding": [
+              {
+                "code": "100000072072",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "active"
+              }
+            ]
+          },
+          "status": "active",
+          "substance": {
+            "code": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "J0E2756Z7N",
+                    "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                    "display": "irbesartan"
+                  }
+                ]
+              }
+            },
+            "strength": [
+              {
+                "presentationQuantity": {
+                  "value": 75,
+                  "code": "mg",
+                  "system": "http://unitsofmeasure.org"
+                },
+                "basis": {
+                  "coding": [
+                    {
+                      "code": "ACTIB",
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+                      "display": "active ingredient - basis of strength"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "for": [
+            {
+              "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+            },
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            },
+            {
+              "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-croscarmellosesodium",
+        "resource": {
+          "resourceType": "Ingredient",
+          "id": "ingredient-for-karvea-croscarmellosesodium",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+            ]
+          },
+          "identifier": {
+            "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+            "value": "M28OL1HH48",
+            "use": "official"
+          },
+          "role": {
+            "coding": [
+              {
+                "code": "100000072082",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Excipient"
+              }
+            ]
+          },
+          "status": "active",
+          "substance": {
+            "code": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "M28OL1HH48",
+                    "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                    "display": "Croscarmellose sodium"
+                  }
+                ]
+              }
+            }
+          },
+          "for": [
+            {
+              "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+            },
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            },
+            {
+              "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-microcrystallinecellulose",
+        "resource": {
+          "resourceType": "Ingredient",
+          "id": "ingredient-for-karvea-microcrystallinecellulose",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+            ]
+          },
+          "identifier": {
+            "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+            "value": "OP1R32D61U",
+            "use": "official"
+          },
+          "role": {
+            "coding": [
+              {
+                "code": "100000072082",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Excipient"
+              }
+            ]
+          },
+          "status": "active",
+          "substance": {
+            "code": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "OP1R32D61U",
+                    "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                    "display": "Microcrystalline cellulose"
+                  }
+                ]
+              }
+            }
+          },
+          "for": [
+            {
+              "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+            },
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            },
+            {
+              "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-magnesiumstearate",
+        "resource": {
+          "resourceType": "Ingredient",
+          "id": "ingredient-for-karvea-magnesiumstearate",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+            ]
+          },
+          "identifier": {
+            "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+            "value": "70097M6I30",
+            "use": "official"
+          },
+          "role": {
+            "coding": [
+              {
+                "code": "100000072082",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Excipient"
+              }
+            ]
+          },
+          "status": "active",
+          "substance": {
+            "code": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "70097M6I30",
+                    "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                    "display": "Magnesium stearate"
+                  }
+                ]
+              }
+            }
+          },
+          "for": [
+            {
+              "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+            },
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            },
+            {
+              "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-carnaubawax",
+        "resource": {
+          "resourceType": "Ingredient",
+          "id": "ingredient-for-karvea-carnaubawax",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+            ]
+          },
+          "identifier": {
+            "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+            "value": "R12CBM0EIZ",
+            "use": "official"
+          },
+          "role": {
+            "coding": [
+              {
+                "code": "100000072082",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Excipient"
+              }
+            ]
+          },
+          "status": "active",
+          "substance": {
+            "code": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "R12CBM0EIZ",
+                    "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                    "display": "Carnauba wax"
+                  }
+                ]
+              }
+            }
+          },
+          "for": [
+            {
+              "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+            },
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            },
+            {
+              "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-irbesartan",
+        "resource": {
+          "resourceType": "SubstanceDefinition",
+          "id": "substance-irbesartan",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+              "value": "J0E2756Z7N",
+              "use": "official"
+            }
+          ],
+          "version": "1",
+          "status": {
+            "coding": [
+              {
+                "code": "active",
+                "system": "http://hl7.org/fhir/publication-status"
+              }
+            ]
+          },
+          "description": "White to off-white, biconvex, and oval-shaped with a heart debossed on one side and the number 2771 engraved on the other side.",
+          "manufacturer": [
+            {
+              "reference": "Organization/mah-511671db37e83e520b00f8a0d817dc96"
+            }
+          ],
+          "molecularWeight": [
+            {
+              "type": {
+                "text": "exact"
+              },
+              "amount": {
+                "value": 428.53
+              }
+            }
+          ],
+          "structure": {
+            "molecularFormula": "C25H28N6O"
+          },
+          "name": [
+            {
+              "name": "(+)-6-methyleneandrosta-1,4-diene-3,17-dione",
+              "type": {
+                "coding": [
+                  {
+                    "code": "x",
+                    "system": "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+                    "display": "Chemical Name"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee",
+        "resource": {
+          "resourceType": "AdministrableProductDefinition",
+          "id": "ap-dcaa4d32aa6658a8df831551503e52ee",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/pmswi",
+              "value": "EU/1/97/049/001"
+            }
+          ],
+          "status": "active",
+          "formOf": [
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            }
+          ],
+          "administrableDoseForm": {
+            "coding": [
+              {
+                "code": "100000073664",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Tablet"
+              }
+            ]
+          },
+          "unitOfPresentation": {
+            "coding": [
+              {
+                "code": "200000002152",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Tablet"
+              }
+            ]
+          },
+          "producedFrom": [
+            {
+              "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+            }
+          ],
+          "routeOfAdministration": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "code": "100000073619",
+                    "system": "https://spor.ema.europa.eu/rmswi",
+                    "display": "Oral use"
+                  }
+                ]
+              },
+              "targetSpecies": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "100000109093",
+                        "system": "https://spor.ema.europa.eu/rmswi",
+                        "display": "Human"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee0",
+        "resource": {
+          "resourceType": "RegulatedAuthorization",
+          "id": "authorizationdcaa4d32aa6658a8df831551503e52ee0",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/pmswi",
+              "value": "EU/1/97/049/010",
+              "use": "official"
+            }
+          ],
+          "subject": [
+            {
+              "reference": "PackagedProductDefinition/ppd-d91b269b209aaa5538a1bfafd1a7434d"
+            }
+          ],
+          "type": {
+            "coding": [
+              {
+                "code": "220000000061",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Marketing Authorisation"
+              }
+            ]
+          },
+          "status": {
+            "coding": [
+              {
+                "code": "active",
+                "system": "http://hl7.org/fhir/publication-status",
+                "display": "Active"
+              }
+            ]
+          },
+          "statusDate": "2015-02-07T13:28:17Z",
+          "holder": {
+            "reference": "Organization/mah-511671db37e83e520b00f8a0d817dc96"
+          }
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee1",
+        "resource": {
+          "resourceType": "RegulatedAuthorization",
+          "id": "authorizationdcaa4d32aa6658a8df831551503e52ee1",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/pmswi",
+              "value": "EU/1/97/049/001",
+              "use": "official"
+            }
+          ],
+          "subject": [
+            {
+              "reference": "PackagedProductDefinition/ppd-f3f2f89544dfc5d20216861bcf90c0c5"
+            }
+          ],
+          "type": {
+            "coding": [
+              {
+                "code": "220000000061",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Marketing Authorisation"
+              }
+            ]
+          },
+          "status": {
+            "coding": [
+              {
+                "code": "active",
+                "system": "http://hl7.org/fhir/publication-status",
+                "display": "Active"
+              }
+            ]
+          },
+          "statusDate": "2015-02-07T13:28:17Z",
+          "holder": {
+            "reference": "Organization/mah-511671db37e83e520b00f8a0d817dc96"
+          }
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee2",
+        "resource": {
+          "resourceType": "RegulatedAuthorization",
+          "id": "authorizationdcaa4d32aa6658a8df831551503e52ee2",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/pmswi",
+              "value": "EU/1/97/049/002",
+              "use": "official"
+            }
+          ],
+          "subject": [
+            {
+              "reference": "PackagedProductDefinition/ppd-5763619e2b501aeeab53677bd09d5cbf"
+            }
+          ],
+          "type": {
+            "coding": [
+              {
+                "code": "220000000061",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Marketing Authorisation"
+              }
+            ]
+          },
+          "status": {
+            "coding": [
+              {
+                "code": "active",
+                "system": "http://hl7.org/fhir/publication-status",
+                "display": "Active"
+              }
+            ]
+          },
+          "statusDate": "2015-02-07T13:28:17Z",
+          "holder": {
+            "reference": "Organization/mah-511671db37e83e520b00f8a0d817dc96"
+          }
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee3",
+        "resource": {
+          "resourceType": "RegulatedAuthorization",
+          "id": "authorizationdcaa4d32aa6658a8df831551503e52ee3",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/pmswi",
+              "value": "EU/1/97/049/003",
+              "use": "official"
+            }
+          ],
+          "subject": [
+            {
+              "reference": "PackagedProductDefinition/ppd-9b1d5d261d22694685deb35714ec08ea"
+            }
+          ],
+          "type": {
+            "coding": [
+              {
+                "code": "220000000061",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Marketing Authorisation"
+              }
+            ]
+          },
+          "status": {
+            "coding": [
+              {
+                "code": "active",
+                "system": "http://hl7.org/fhir/publication-status",
+                "display": "Active"
+              }
+            ]
+          },
+          "statusDate": "2015-02-07T13:28:17Z",
+          "holder": {
+            "reference": "Organization/mah-511671db37e83e520b00f8a0d817dc96"
+          }
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-511671db37e83e520b00f8a0d817dc96",
+        "resource": {
+          "resourceType": "Organization",
+          "id": "mah-511671db37e83e520b00f8a0d817dc96",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"
+            ]
+          },
+          "contact": [
+            {
+              "address": {
+                "use": "work",
+                "text": "82 avenue Raspail Gentilly FR",
+                "type": "physical",
+                "line": [
+                  "82 avenue Raspail"
+                ],
+                "city": "Gentilly",
+                "country": "FR",
+                "postalCode": "94250"
+              }
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/omswi",
+              "value": "ORG-100011564",
+              "use": "official"
+            }
+          ],
+          "active": true,
+          "type": [
+            {
+              "coding": [
+                {
+                  "code": "220000000034",
+                  "system": "https://spor.ema.europa.eu/rmswi",
+                  "display": "Marketing authorisation holder"
+                }
+              ]
+            }
+          ],
+          "name": "Sanofi Winthrop Industrie\t"
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Organization/man-4bb7a752921434fd5f9921b5b9473eda",
+        "resource": {
+          "resourceType": "Organization",
+          "id": "man-4bb7a752921434fd5f9921b5b9473eda",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"
+            ]
+          },
+          "contact": [
+            {
+              "address": {
+                "use": "work",
+                "text": "1, rue de la Vierge Ambarès & Lagrave FR",
+                "type": "physical",
+                "line": [
+                  "1, rue de la Vierge"
+                ],
+                "city": "Ambarès & Lagrave",
+                "country": "FR",
+                "postalCode": "33565"
+              }
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/omswi",
+              "value": "ORG-100011564",
+              "use": "official"
+            }
+          ],
+          "active": true,
+          "type": [
+            {
+              "coding": [
+                {
+                  "code": "220000000033",
+                  "system": "https://spor.ema.europa.eu/rmswi",
+                  "display": "Manufacturer"
+                }
+              ]
+            }
+          ],
+          "name": "Sanofi Winthrop Industrie"
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-d91b269b209aaa5538a1bfafd1a7434d",
+        "resource": {
+          "resourceType": "PackagedProductDefinition",
+          "id": "ppd-d91b269b209aaa5538a1bfafd1a7434d",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/pmswi",
+              "value": "EU/1/97/049/010",
+              "use": "official"
+            }
+          ],
+          "name": "Karvea 75 mg tablet 14",
+          "type": {
+            "coding": [
+              {
+                "code": "100000155527",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Chemical Medicinal Product"
+              }
+            ]
+          },
+          "status": {
+            "coding": [
+              {
+                "code": "active",
+                "system": "http://hl7.org/fhir/publication-status",
+                "display": "Active"
+              }
+            ]
+          },
+          "statusDate": "2015-02-07T13:28:17Z",
+          "containedItemQuantity": [
+            {
+              "value": 75,
+              "code": "mg",
+              "system": "http://unitsofmeasure.org"
+            }
+          ],
+          "packaging": {
+            "quantity": 1,
+            "type": {
+              "coding": [
+                {
+                  "code": "100000073498",
+                  "system": "https://spor.ema.europa.eu/rmswi",
+                  "display": "Box"
+                }
+              ]
+            },
+            "material": [
+              {
+                "coding": [
+                  {
+                    "code": "200000003529",
+                    "system": "https://spor.ema.europa.eu/rmswi",
+                    "display": "Cardboard"
+                  }
+                ]
+              }
+            ],
+            "packaging": [
+              {
+                "identifier": [
+                  {
+                    "system": "https://spor.ema.europa.eu/pmswi",
+                    "value": "123456"
+                  }
+                ],
+                "containedItem": [
+                  {
+                    "item": {
+                      "reference": {
+                        "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+                      }
+                    }
+                  }
+                ],
+                "type": {
+                  "coding": [
+                    {
+                      "code": "100000073496",
+                      "system": "https://spor.ema.europa.eu/rmswi",
+                      "display": "Blister"
+                    }
+                  ]
+                },
+                "quantity": 14,
+                "material": [
+                  {
+                    "coding": [
+                      {
+                        "code": "200000003222",
+                        "system": "https://spor.ema.europa.eu/rmswi",
+                        "display": "PolyVinyl Chloride"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "packageFor": [
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            }
+          ],
+          "manufacturer": [
+            {
+              "reference": "Organization/man-4bb7a752921434fd5f9921b5b9473eda"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-f3f2f89544dfc5d20216861bcf90c0c5",
+        "resource": {
+          "resourceType": "PackagedProductDefinition",
+          "id": "ppd-f3f2f89544dfc5d20216861bcf90c0c5",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/pmswi",
+              "value": "EU/1/97/049/001",
+              "use": "official"
+            }
+          ],
+          "name": "Karvea 75 mg tablet 28",
+          "type": {
+            "coding": [
+              {
+                "code": "100000155527",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Chemical Medicinal Product"
+              }
+            ]
+          },
+          "status": {
+            "coding": [
+              {
+                "code": "active",
+                "system": "http://hl7.org/fhir/publication-status",
+                "display": "Active"
+              }
+            ]
+          },
+          "statusDate": "2015-02-07T13:28:17Z",
+          "containedItemQuantity": [
+            {
+              "value": 75,
+              "code": "mg",
+              "system": "http://unitsofmeasure.org"
+            }
+          ],
+          "packaging": {
+            "quantity": 1,
+            "type": {
+              "coding": [
+                {
+                  "code": "100000073498",
+                  "system": "https://spor.ema.europa.eu/rmswi",
+                  "display": "Box"
+                }
+              ]
+            },
+            "material": [
+              {
+                "coding": [
+                  {
+                    "code": "200000003529",
+                    "system": "https://spor.ema.europa.eu/rmswi",
+                    "display": "Cardboard"
+                  }
+                ]
+              }
+            ],
+            "packaging": [
+              {
+                "identifier": [
+                  {
+                    "system": "https://spor.ema.europa.eu/pmswi",
+                    "value": "123456"
+                  }
+                ],
+                "containedItem": [
+                  {
+                    "item": {
+                      "reference": {
+                        "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+                      }
+                    }
+                  }
+                ],
+                "type": {
+                  "coding": [
+                    {
+                      "code": "100000073496",
+                      "system": "https://spor.ema.europa.eu/rmswi",
+                      "display": "Blister"
+                    }
+                  ]
+                },
+                "quantity": 28,
+                "material": [
+                  {
+                    "coding": [
+                      {
+                        "code": "200000003222",
+                        "system": "https://spor.ema.europa.eu/rmswi",
+                        "display": "PolyVinyl Chloride"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "packageFor": [
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            }
+          ],
+          "manufacturer": [
+            {
+              "reference": "Organization/man-4bb7a752921434fd5f9921b5b9473eda"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-5763619e2b501aeeab53677bd09d5cbf",
+        "resource": {
+          "resourceType": "PackagedProductDefinition",
+          "id": "ppd-5763619e2b501aeeab53677bd09d5cbf",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/pmswi",
+              "value": "EU/1/97/049/002",
+              "use": "official"
+            }
+          ],
+          "name": "Karvea 75 mg tablet 56",
+          "type": {
+            "coding": [
+              {
+                "code": "100000155527",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Chemical Medicinal Product"
+              }
+            ]
+          },
+          "status": {
+            "coding": [
+              {
+                "code": "active",
+                "system": "http://hl7.org/fhir/publication-status",
+                "display": "Active"
+              }
+            ]
+          },
+          "statusDate": "2015-02-07T13:28:17Z",
+          "containedItemQuantity": [
+            {
+              "value": 75,
+              "code": "mg",
+              "system": "http://unitsofmeasure.org"
+            }
+          ],
+          "packaging": {
+            "quantity": 1,
+            "type": {
+              "coding": [
+                {
+                  "code": "100000073498",
+                  "system": "https://spor.ema.europa.eu/rmswi",
+                  "display": "Box"
+                }
+              ]
+            },
+            "material": [
+              {
+                "coding": [
+                  {
+                    "code": "200000003529",
+                    "system": "https://spor.ema.europa.eu/rmswi",
+                    "display": "Cardboard"
+                  }
+                ]
+              }
+            ],
+            "packaging": [
+              {
+                "identifier": [
+                  {
+                    "system": "https://spor.ema.europa.eu/pmswi",
+                    "value": "123456"
+                  }
+                ],
+                "containedItem": [
+                  {
+                    "item": {
+                      "reference": {
+                        "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+                      }
+                    }
+                  }
+                ],
+                "type": {
+                  "coding": [
+                    {
+                      "code": "100000073496",
+                      "system": "https://spor.ema.europa.eu/rmswi",
+                      "display": "Blister"
+                    }
+                  ]
+                },
+                "quantity": 56,
+                "material": [
+                  {
+                    "coding": [
+                      {
+                        "code": "200000003222",
+                        "system": "https://spor.ema.europa.eu/rmswi",
+                        "display": "PolyVinyl Chloride"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "packageFor": [
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            }
+          ],
+          "manufacturer": [
+            {
+              "reference": "Organization/man-4bb7a752921434fd5f9921b5b9473eda"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-9b1d5d261d22694685deb35714ec08ea",
+        "resource": {
+          "resourceType": "PackagedProductDefinition",
+          "id": "ppd-9b1d5d261d22694685deb35714ec08ea",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/pmswi",
+              "value": "EU/1/97/049/003",
+              "use": "official"
+            }
+          ],
+          "name": "Karvea 75 mg tablet 98",
+          "type": {
+            "coding": [
+              {
+                "code": "100000155527",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Chemical Medicinal Product"
+              }
+            ]
+          },
+          "status": {
+            "coding": [
+              {
+                "code": "active",
+                "system": "http://hl7.org/fhir/publication-status",
+                "display": "Active"
+              }
+            ]
+          },
+          "statusDate": "2015-02-07T13:28:17Z",
+          "containedItemQuantity": [
+            {
+              "value": 75,
+              "code": "mg",
+              "system": "http://unitsofmeasure.org"
+            }
+          ],
+          "packaging": {
+            "quantity": 1,
+            "type": {
+              "coding": [
+                {
+                  "code": "100000073498",
+                  "system": "https://spor.ema.europa.eu/rmswi",
+                  "display": "Box"
+                }
+              ]
+            },
+            "material": [
+              {
+                "coding": [
+                  {
+                    "code": "200000003529",
+                    "system": "https://spor.ema.europa.eu/rmswi",
+                    "display": "Cardboard"
+                  }
+                ]
+              }
+            ],
+            "packaging": [
+              {
+                "identifier": [
+                  {
+                    "system": "https://spor.ema.europa.eu/pmswi",
+                    "value": "123456"
+                  }
+                ],
+                "containedItem": [
+                  {
+                    "item": {
+                      "reference": {
+                        "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+                      }
+                    }
+                  }
+                ],
+                "type": {
+                  "coding": [
+                    {
+                      "code": "100000073496",
+                      "system": "https://spor.ema.europa.eu/rmswi",
+                      "display": "Blister"
+                    }
+                  ]
+                },
+                "quantity": 98,
+                "material": [
+                  {
+                    "coding": [
+                      {
+                        "code": "200000003222",
+                        "system": "https://spor.ema.europa.eu/rmswi",
+                        "display": "PolyVinyl Chloride"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "packageFor": [
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            }
+          ],
+          "manufacturer": [
+            {
+              "reference": "Organization/man-4bb7a752921434fd5f9921b5b9473eda"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e",
+        "resource": {
+          "resourceType": "MedicinalProductDefinition",
+          "id": "mp873a1a47330e628770640f9c96c0761e",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/pmswi",
+              "value": "EU/1/97/049/001"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "value": "0xF79CABF272B6A7EEF104DDDA44E82719"
+            }
+          ],
+          "type": {
+            "coding": [
+              {
+                "code": "MedicinalProduct",
+                "system": "http://hl7.org/fhir/medicinal-product-type",
+                "display": "Medicinal Product"
+              }
+            ]
+          },
+          "domain": {
+            "coding": [
+              {
+                "code": "Human",
+                "system": "http://hl7.org/fhir/medicinal-product-domain",
+                "display": "Human use"
+              }
+            ]
+          },
+          "status": {
+            "coding": [
+              {
+                "code": "active",
+                "system": "http://hl7.org/fhir/publication-status",
+                "display": "active"
+              }
+            ]
+          },
+          "legalStatusOfSupply": {
+            "coding": [
+              {
+                "code": "100000072084",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Medicinal product subject to medical prescription"
+              }
+            ]
+          },
+          "name": [
+            {
+              "productName": "Karvea 75 mg tablet",
+              "type": {
+                "coding": [
+                  {
+                    "code": "220000000001",
+                    "system": "https://spor.ema.europa.eu/lists/220000000000",
+                    "display": "Full name"
+                  }
+                ]
+              },
+              "part": [
+                {
+                  "part": "Karvea",
+                  "type": {
+                    "coding": [
+                      {
+                        "code": "220000000002",
+                        "system": "https://spor.ema.europa.eu/lists/220000000000",
+                        "display": "Invented name part"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "part": "irbesartan",
+                  "type": {
+                    "coding": [
+                      {
+                        "code": "220000000003",
+                        "system": "https://spor.ema.europa.eu/lists/220000000000",
+                        "display": "Scientific name part"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "part": "75 mg",
+                  "type": {
+                    "coding": [
+                      {
+                        "code": "220000000004",
+                        "system": "https://spor.ema.europa.eu/lists/220000000000",
+                        "display": "Strength part"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "part": "tablet",
+                  "type": {
+                    "coding": [
+                      {
+                        "code": "220000000005",
+                        "system": "https://spor.ema.europa.eu/lists/220000000000",
+                        "display": "Pharmaceutical dose form part"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "usage": [
+                {
+                  "country": {
+                    "coding": [
+                      {
+                        "code": "DK",
+                        "system": "urn:iso:std:iso:3166",
+                        "display": "Denmark"
+                      }
+                    ]
+                  },
+                  "jurisdiction": {
+                    "coding": [
+                      {
+                        "code": "DK",
+                        "system": "urn:iso:std:iso:3166",
+                        "display": "Denmark"
+                      }
+                    ]
+                  },
+                  "language": {
+                    "coding": [
+                      {
+                        "code": "en",
+                        "system": "urn:ietf:bcp:47",
+                        "display": "English"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee",
+        "resource": {
+          "resourceType": "ManufacturedItemDefinition",
+          "id": "mid-dcaa4d32aa6658a8df831551503e52ee",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/pmswi",
+              "value": "EU/1/97/049/001",
+              "use": "official"
+            }
+          ],
+          "status": "active",
+          "manufacturedDoseForm": {
+            "coding": [
+              {
+                "code": "100000073664",
+                "system": "https://spor.ema.europa.eu/rmswi/",
+                "display": "Tablet"
+              }
+            ]
+          },
+          "unitOfPresentation": {
+            "coding": [
+              {
+                "code": "200000002152",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Tablet"
+              }
+            ]
+          },
+          "manufacturer": [
+            {
+              "reference": "Organization/man-4bb7a752921434fd5f9921b5b9473eda"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-kidney",
+        "resource": {
+          "resourceType": "ClinicalUseDefinition",
+          "id": "contraindication-kidney",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"
+            ]
+          },
+          "type": "contraindication",
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/rmswi/#/",
+              "value": "kidney function",
+              "use": "official"
+            }
+          ],
+          "subject": [
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            }
+          ],
+          "contraindication": {
+            "diseaseSymptomProcedure": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "76114004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Decreased renal function (finding)"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-diabetes-mellitus",
+        "resource": {
+          "resourceType": "ClinicalUseDefinition",
+          "id": "contraindication-diabetes-mellitus",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"
+            ]
+          },
+          "type": "contraindication",
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/rmswi/#/",
+              "value": "diabetes-mellitus",
+              "use": "official"
+            }
+          ],
+          "subject": [
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            }
+          ],
+          "contraindication": {
+            "diseaseSymptomProcedure": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "73211009",
+                    "system": "http://snomed.info/sct",
+                    "display": "Diabetes mellitus (disorder)"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/contraindication-pregnancy",
+        "resource": {
+          "resourceType": "ClinicalUseDefinition",
+          "id": "contraindication-pregnancy",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"
+            ]
+          },
+          "type": "contraindication",
+          "identifier": [
+            {
+              "system": "https://spor.ema.europa.eu/rmswi/#/",
+              "value": "pregnancy",
+              "use": "official"
+            }
+          ],
+          "subject": [
+            {
+              "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+            }
+          ],
+          "contraindication": {
+            "diseaseSymptomProcedure": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "289908002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Pregnancy, function (observable entity)"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  

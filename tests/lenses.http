@@ -2,6 +2,11 @@
 
 GET https://fosps.gravitatehealth.eu/focusing/lenses
 
+
+### List All available lenses DEV
+
+GET https://gravitate-health.lst.tfo.upm.es/focusing/lenses
+
 ### Test all the lenses, individually.
 
 ### Test Lens: Pregnancy
@@ -9,7 +14,18 @@ POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae
 
 
 ### condition lens
-POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_conditions&patientIdentifier=alicia-1
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_conditions&patientIdentifier=alicia-1
 content-type: application/json
+Accept: application/json
+#Accept: text/html
 
 < ./examples/preprocessed-biktarvy.json
+
+
+### condition lens
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_allergyintollerance&patientIdentifier=helen-1
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+< ./examples/lactose-preproc-karvea.json
