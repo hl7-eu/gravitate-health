@@ -22,10 +22,20 @@ Accept: application/json
 < ./examples/preprocessed-biktarvy.json
 
 
-### condition lens
+### intollerance lens
 POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_allergyintollerance&patientIdentifier=helen-1
 content-type: application/json
 Accept: application/json
 #Accept: text/html
 
 < ./examples/lactose-preproc-karvea.json
+
+
+
+### interaction lens
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_interaction&patientIdentifier=alicia-1
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+< ./examples/preprocessed-biktarvy.json
