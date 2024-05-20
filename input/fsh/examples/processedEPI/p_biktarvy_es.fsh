@@ -129,9 +129,9 @@ Usage: #example
           
 
 * section[=].section[+]
-  * title = "1. What Biktarvy 50 mg/200 mg/25 mg film-coated tablets is and what it is used for"
+  * title =  "1. Qué es Biktarvy y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. Qué es Biktarvy y para qué se utiliza"
+  * code.text =  "1. Qué es Biktarvy y para qué se utiliza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 
@@ -156,7 +156,7 @@ Usage: #example
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * title = "2. Qué necesita saber antes de empezar a tomar Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. Qué necesita saber antes de empezar a tomar Biktarvy"
   * text.status = #additional
@@ -322,7 +322,7 @@ Usage: #example
         </div>"""   
                     
 * section[=].section[+]
-  * title = "3. How to take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * title =  "3. Cómo tomar Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. Cómo tomar Biktarvy"
   * text.status = #additional
@@ -394,7 +394,7 @@ Usage: #example
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Posibles efectos adversos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
@@ -525,7 +525,7 @@ Usage: #example
         </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  * title = "5. Conservación de Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. Conservación de Biktarvy"
   * text.status = #additional
@@ -544,7 +544,7 @@ Usage: #example
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Contenido del envase e información adicional"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
