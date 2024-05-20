@@ -138,8 +138,7 @@ Usage: #example
 
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"
 * identifier[=].value = "EU/1/18/1326/001" 
-* identifier[+].system = "https://www.who-umc.org/phpid"
-* identifier[=].value = "0xF79CABF272B6A7EEF104DDDA44E82717"
+
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -171,8 +170,7 @@ Usage: #example
 
 * identifier[+].system = "https://spor.ema.europa.eu/pmswi"
 * identifier[=].value = "EU/1/18/1326/001" 
-* identifier[+].system = "https://www.who-umc.org/phpid"
-* identifier[=].value = "0xF79CABF272B6A7EEF104DDDA44E82717"
+
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #es
