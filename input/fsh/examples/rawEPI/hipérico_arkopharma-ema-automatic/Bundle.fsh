@@ -82,8 +82,8 @@ Usage: #example
 
 
 
-* identifier[+].system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "f7d0862cd6fcfe527653aec52909bb3e"
+* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
+* identifier[=].value = "79963"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #es
