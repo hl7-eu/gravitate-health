@@ -40,6 +40,21 @@ Accept: application/json
 
 < ./examples/preprocessed-biktarvy.json
 
+### interaction lens app
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-es-04c9bd6fb89d38b2d83eced2460c4dc1?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_interaction&patientIdentifier=alicia-1
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+
+### interaction lens app bik
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_interaction&patientIdentifier=alicia-1
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+
+
 
 ### summary Lens
 GET http://gravitate-health.lst.tfo.upm.es/ai/summary/bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-manual&patientIdentifier=Alicia-1&lenses=lens-summary-2&model=graviting-llama
@@ -53,3 +68,23 @@ GET http://gravitate-health.lst.tfo.upm.es/ai/summary/bundlepackageleaflet-es-29
 
 ### summary Lens biktarvy
 GET http://gravitate-health.lst.tfo.upm.es/ai/summary/bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-manual&patientIdentifier=alicia-1&lenses=lens-summary-2&model=graviting-llama
+
+
+#### 
+
+#bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9 bik
+#bundlepackageleaflet-es-4fab126d28f65a1084e7b50a23200363 xenical
+#    "lens-selector-mvp2_diabetes",
+   # "lens-selector-mvp2_interaction",
+   # "lens-selector-mvp2_pregnancy",
+### interaction lens app bik
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_interaction&patientIdentifier=alicia-1
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+### interaction lens app bik
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-es-4fab126d28f65a1084e7b50a23200363?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1
+content-type: application/json
+Accept: application/json
+#Accept: text/html
