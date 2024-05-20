@@ -430,7 +430,7 @@ Usage: #example
 
 * language = #es
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "P/EU/1/97/049/001"
+* identifier.value = "flucelvax-es-processed"
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
 * language = #es

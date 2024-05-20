@@ -106,7 +106,7 @@ Usage: #inline
     <p><strong><span>No tome HIPÉRICO ARKOPHARMA</span></strong></p>
     <ul>
       <li> <span>Si es menor de 18 años.</span></li>
-      <li> <span>Si usted está embarazada o en periodo de lactancia.</span></li>
+      <li> <span class="pregnancyCategory">Si usted está embarazada o en periodo de lactancia.</span></li>
       <li> <span>Si es alérgico a</span> <em><span>Hypericum perforatum</span></em> <span>L. o a cualquiera de los componentes del medicamento.</span></li>
       <li> <span>Si va a someterse a alguna intervención quirúrgica que requiera tratamiento con otros medicamentos.</span></li>
       <li> <span>Si usted está en tratamiento con alguno de los medicamentos indicados en este prospecto. Algunos componentes del hipérico (</span><em><span>Hypericum perforatum</span></em> <span>L.) pueden producir interacciones farmacocinéticas con gran número de medicamentos, ocasionando un posible descenso de su efectividad; (ver la información sobre la toma de otros medicamentos).</span></li>
@@ -147,7 +147,7 @@ Usage: #inline
 
     <p><strong><span>Embarazo, lactancia y fertilidad</span></strong></p>
 
-    <p><span>Si está embarazada o en periodo de lactancia, cree que pudiera estar embarazada o tiene intención de quedarse embarazada, consulte a su farmacéutico o médico antes de utilizar este medicamento. No se recomienda su administración en estas circunstancias.</span></p>
+    <p><span class="pregnancyCategory">Si está embarazada o en periodo de lactancia, cree que pudiera estar embarazada o tiene intención de quedarse embarazada, consulte a su farmacéutico o médico antes de utilizar este medicamento. No se recomienda su administración en estas circunstancias.</span></p>
 
 
     <p><strong><span>Conducción y uso de máquinas</span></strong></p>
