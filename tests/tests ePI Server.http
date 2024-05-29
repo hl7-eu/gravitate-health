@@ -86,8 +86,14 @@ GET https://fosps.gravitatehealth.eu/epi/api/fhir/Bundle/Processedcompositionf4d
 
 
 
+### mark-all
+POST https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/$mark-all-resources-for-reindexing
+
+
+
 ### reindex
 POST https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/$reindex
+
 
 
 
@@ -97,3 +103,40 @@ GET https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/Bundle
 
 ### get bundles
 GET https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/Bundle/bundlepackageleaflet-es-proc-2f37d696067eeb6daf1111cfc3272672
+
+
+
+
+### POST SEARCH PARAMETER
+
+POST https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/SearchParameter
+content-type: application/json
+Accept: application/json
+
+{
+  "resourceType": "SearchParameter",
+  "id": "Composition-category",
+  "url": "http://gravitate-health.com/SearchParameter/composition-category",
+  "name": "composition-category",
+  "title": "composition-category",
+  "status": "active",
+  "experimental": false,
+  "publisher": "gravitate-health",
+  "description": "Search on composition category",
+  "code": "composition.category",
+  "base": [ "Bundle" ],
+  "type": "token",
+  "expression": "Bundle.entry[0].resource.as(Composition).category"
+}
+
+### searching
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/MedicinalProductDefinition?name:contains=bl
+
+###epi for 
+
+GET  https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?subject=mpb62cc095c7be2116a8a65157286376a3&category=R&_language=en
+
+
+#### epi identifier
+
+GET  https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?subject.identifier=hack-1&category=R&_language=en

@@ -4,14 +4,21 @@
 
 
 
-Instance: composition-en-ibupro
+Instance: composition-en-ibupro-proc
 InstanceOf: CompositionUvEpi
 Title: "Composition for ibuprofen Package Leaflet"
 Description:  "Composition for ibuprofen Package Leaflet"
 Usage: #inline
 
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "pregnancyCategory"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = https://icpc2.icd.com/#W78 "Pregnancy"
+
+
 * identifier.system = "http://ema.europa.eu/identifier"
-* identifier.value = "himss-ibuprofen"
+* identifier.value = "himss-ibuprofen-proc"
 * status = #final
 
 
@@ -29,7 +36,7 @@ Usage: #inline
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en
-* category = epicategory-cs#R "Raw"
+* category = epicategory-cs#P "Processed"
 
 
 * section[+].
@@ -88,7 +95,7 @@ Usage: #inline
     <li>if you have suffered from gastrointestinal bleeding or perforation related to previous use of drugs for pain and inflammation (NSAIDs).</li>
     <li>if you are suffering from an ulcer or bleeding in the stomach or small intestine (duodenum) or if you have had two or more of these episodes in the past.</li>
     <li>if you suffer from severe liver, kidney or heart problems.</li>
-    <li>if you are in the last 3 months of pregnancy.</li>
+    <li class="pregnancyCategory">if you are in the last 3 months of pregnancy.</li>
     <li>if you are suffering from significant dehydration (caused by vomiting, diarrhoea or insufficient fluid intake).</li>
     <li>if you have any active bleeding (including in the brain).</li>
     <li>if you suffer from a condition of unknown origin resulting in abnormal formation of blood cells.</li>
@@ -107,7 +114,7 @@ Usage: #inline
     <li>suffer from allergies, hay fever, asthma, chronic swelling of nasal mucosa, sinuses, adenoids, or chronic obstructive disorders of the respiratory tract because the risk for developing narrowing of the airways with difficulty in breathing (bronchospasm) is greater.</li>
     <li>have liver, kidney or heart problems.</li>
     <li>have just had major surgery.</li>
-    <li>are in the first six months of pregnancy.</li>
+    <li class="pregnancyCategory">are in the first six months of pregnancy.</li>
     <li>are breast-feeding.</li>
     <li>have an infection - please see heading “Infections” below.</li>
     <li>are taking ibuprofen for longer than the recommended time or at higher than recommended doses you are at risk of serious harms. These include serious harms to the stomach/gut and kidneys, as well as very low levels of potassium in your blood. These can be fatal (see section 4).</li>
@@ -145,7 +152,7 @@ Usage: #inline
 <p>Ibuprofen can temporarily inhibit blood platelet function (blood platelet aggregation). Patients with blood clotting disorders should therefore be carefully monitored.</p>
 <p>During long-term, high-dose use of pain killers, headache may occur which should not be treated with high doses of this medicine. The habitual use of painkillers may cause permanent damage to the kidneys and a risk of kidney failure.</p>
 <p>Ibuprofen may hide the symptoms or signs of an infection (fever, pain and swelling) and temporarily prolong bleeding time.</p>
-<p>Ibuprofen may decrease your chance of becoming pregnant. You should inform your doctor if you are planning to become pregnant or if you have problems becoming pregnant.</p>
+<p class="pregnancyCategory">Ibuprofen may decrease your chance of becoming pregnant. You should inform your doctor if you are planning to become pregnant or if you have problems becoming pregnant.</p>
 <p>Ibuprofen is contraindicated in children and adolescents younger than 15 years of age (See section 3). Ibuprofen may cause kidney problems in adolescents who are dehydrated.</p>
 
 <h3 class="subsection-title">Take special care with Ibuprofen film-coated tablets</h3>
@@ -186,12 +193,12 @@ Usage: #inline
 <h3 class="subsection-title">Ibuprofen with alcohol</h3>
 <p>Avoid alcohol since it may enhance the side effects of Ibuprofen, especially those affecting the stomach, intestines or central nervous system.</p>
 
-<h3 class="subsection-title">Pregnancy, breast-feeding and fertility</h3>
+<h3 class="subsection-title pregnancyCategory">Pregnancy, breast-feeding and fertility</h3>
 <p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your doctor or pharmacist for advice before taking this medicine.</p>
 <p>Do not take ibuprofen if you are in the last 3 months of pregnancy as it could harm your unborn child or cause problems at delivery. It can cause kidney, lung and heart problems in your unborn baby. It may affect your and your baby’s tendency to bleed and cause labour to be later or longer than expected. You should not take ibuprofen during the first 6 months of pregnancy unless absolutely necessary and advised by your doctor. If you need treatment during this period or while you are trying to get pregnant, the lowest dose for the shortest time possible should be used. If taken for more than a few days from 20 weeks of pregnancy onward, ibuprofen can cause kidney problems in your unborn baby that may lead to low levels of amniotic fluid that surrounds the baby (oligohydramnios) or narrowing of a blood vessel (ductus arteriosus) in the heart of the baby. If you need treatment for longer than a few days, your doctor may recommend additional monitoring.</p>
 <p>Ibuprofen may make it more difficult to become pregnant. You should inform your doctor if you are planning to become pregnant or if you have problems becoming pregnant.</p>
 
-<h3 class="subsection-title">Breast-feeding</h3>
+<h3 class="subsection-title pregnancyCategory">Breast-feeding</h3>
 <p>Ibuprofen appears in breast milk in a very small amount and breastfeeding will usually not need to be stopped during short-term treatments. If, however, longer treatment is prescribed, early weaning should be considered.</p>
 
 <h3 class="subsection-title">Driving and using machines</h3>
@@ -317,63 +324,7 @@ Usage: #inline
 
 
 
-
-Instance: himss-ibuprofen-mpd
-InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "himss ibuprofen mpd"
-Description: "himss ibuprofen mpd"
-Usage: #inline
-
- 
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "himss-ibuprofen"
-* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
-
-* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
-
-* status = http://hl7.org/fhir/publication-status#active "active"
-
-
-
-
-
-* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
-
-
-* name
-  * productName = "Ibuprofen 600 mg tables"
-  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
-  
-  * part[0]
-    * part = "Ibuprofen"
-    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
-  
-  * part[+]
-    * part = "Ibuprofen"
-    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
-  
-  * part[+]
-    * part = "600 mg"
-    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
-  
-  * part[+]
-    * part = "film-coated tablets"
-    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
-  
-  * usage
-    * country = urn:iso:std:iso:3166#GBR "United Kingdom"
-    * jurisdiction = urn:iso:std:iso:3166#GBR "United Kingdom"
-    * language = urn:ietf:bcp:47#en  "English"
-
-
-
-
-RuleSet: ibuprofen-ruleset 
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/himss-ibuprofen-mpd"
-* entry[=].resource = himss-ibuprofen-mpd
-
-Instance: bundle-ibu-raw
+Instance: bundle-ibu-proc
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Ibuprofen 600 mg tablet Package Leaflet for language en"
 Description: "ePI document Bundle for Ibuprofen 600 mg tablet Package Leaflet for language en"
@@ -387,8 +338,7 @@ Usage: #example
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-ibupro"
-* entry[0].resource = composition-en-ibupro
-
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-ibupro-proc"
+* entry[0].resource = composition-en-ibupro-proc
 
 * insert ibuprofen-ruleset

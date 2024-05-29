@@ -2,15 +2,27 @@
 //bundle-met-raw    ->  bundle-met-proc
 //bundle-novo-raw    ->  bundle-novo-proc
 
-Instance: composition-en-metformin
+Instance: composition-en-metformin-proc
 InstanceOf: CompositionUvEpi
 Title: "Composition for Metformin 500mg tablets Package Leaflet"
 Description:  "Composition for Metformin 500mg tablets Package Leaflet"
 Usage: #inline
 
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "pregnancyCategory"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = https://icpc2.icd.com/#W78 "Pregnancy"
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "contra-indication-ibuprofen"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = $ginas#WK2XYI10QM "IBUPROFEN"
+
 
 * identifier.system = "http://ema.europa.eu/identifier"
-* identifier.value = "himss-metformin"
+* identifier.value = "himss-metformin-proc"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -24,7 +36,7 @@ Usage: #inline
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en
-* category = epicategory-cs#R "Raw"
+* category = epicategory-cs#P "Preprocessed"
 
 
 * section[+].
@@ -138,7 +150,7 @@ Usage: #inline
     <li>corticosteroids (used to treat a variety of conditions, such as severe inflammation of the skin or in asthma)</li>
     <li>medicines that may change the amount of Metformin Tablets in your blood, especially if you have reduced kidney function (such as verapamil, rifampicin, cimetidine, dolutegravir, ranolazine, trimethoprime, vandetanib, isavuconazole, crizotinib, olaparib)</li>
     <li>other medicines used to treat diabetes</li>
-    <li>medicines used to treat pain and inflammation (NSAID and COX-2-inhibitors, such as ibuprofen and celecoxib)</li>
+    <li class="contra-indication-ibuprofen">medicines used to treat pain and inflammation (NSAID and COX-2-inhibitors, such as ibuprofen and celecoxib)</li>
     <li>certain medicines for the treatment of high blood pressure (ACE inhibitors and angiotensin II receptor antagonists)</li>
 </ul>
 
@@ -276,74 +288,21 @@ Usage: #inline
 
 
 
-
-Instance: himss-metformin-mpd
-InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "himss metformin mpd"
-Description: "himss metformin mpd"
-Usage: #inline
-
- 
-* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "himss-metformin"
-* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
-
-* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
-
-* status = http://hl7.org/fhir/publication-status#active "active"
-
-
-* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
-
-
-* name
-  * productName = "Metformin 500 mg tables"
-  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
-  
-  * part[0]
-    * part = "Metformin"
-    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
-  
-  * part[+]
-    * part = "Metformin"
-    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
-  
-  * part[+]
-    * part = "500 mg"
-    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
-  
-  * part[+]
-    * part = "film-coated tablets"
-    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
-  
-  * usage
-    * country = urn:iso:std:iso:3166#GBR "United Kingdom"
-    * jurisdiction = urn:iso:std:iso:3166#GBR "United Kingdom"
-    * language = urn:ietf:bcp:47#en  "English"
-
-
-
-RuleSet: metformin-ruleset 
-
-
-* entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/himss-metformin-mpd"
-* entry[=].resource = himss-metformin-mpd
-
-Instance: bundle-met-raw
+Instance: bundle-met-proc
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Ibuprofen 600 mg tablet Package Leaflet for language en"
-Description: "ePI document Bundle for Ibuprofen 600 mg tablet Package Leaflet for language en"
+Title: "ePI document Bundle for Metformin 500 mg tablet Package Leaflet for language en"
+Description: "ePI document Bundle for Metformin 500 mg tablet Package Leaflet for language en"
 Usage: #example
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "himss-metformin"
+* identifier.value = "himss-metformin-proc"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-metformin"
-* entry[0].resource = composition-en-metformin
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-metformin-proc"
+* entry[0].resource = composition-en-metformin-proc
 
 * insert metformin-ruleset
