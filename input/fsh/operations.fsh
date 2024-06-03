@@ -161,3 +161,49 @@ Usage: #definition
 * parameter[=].type = #Resource
 
 * description = "This operation calculates a diff between two FHIR resources - ie. a vanilla ePI FHIR bundle and a focused ePI FHIR bundle. The format follows the one defined at [HAPI](https://hapifhir.io/hapi-fhir/docs/server_jpa/diff.html)"
+
+
+Instance: ai-summary
+InstanceOf: OperationDefinition
+Usage: #definition
+* url = "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/-s-ai-summary"
+* name = "Ai-summary"
+* status = #active
+* kind = #operation
+* affectsState = true
+* code = #ai-summary
+* system = true
+* type = false
+* instance = false
+* parameter[0].name = #ips
+* parameter[=].use = #in
+* parameter[=].min = 0
+* parameter[=].max = "1"
+* parameter[=].type = #base64Binary
+* parameter[+].name = #ips-identifier
+* parameter[=].use = #in
+* parameter[=].min = 0
+* parameter[=].max = "1"
+* parameter[=].type = #Identifier
+* parameter[+].name = #epi
+* parameter[=].use = #in
+* parameter[=].min = 0
+* parameter[=].max = "1"
+* parameter[=].type = #Bundle
+* parameter[+].name = #epi-identifier
+* parameter[=].use = #in
+* parameter[=].min = 0
+* parameter[=].max = "1"
+* parameter[=].type = #Identifier
+* parameter[+].name = #language
+* parameter[=].use = #in
+* parameter[=].min = 0
+* parameter[=].max = "1"
+* parameter[=].type = #Coding
+* parameter[+].name = #returnEpi
+* parameter[=].use = #out
+* parameter[=].min = 0
+* parameter[=].max = "1"
+* parameter[=].type = #Bundle
+
+* description = "This operation generates a cut down version of the ePI."
