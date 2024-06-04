@@ -11,10 +11,6 @@ Usage: #inline
 
 * status = #final
 
-
-
-
-
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
@@ -22,6 +18,7 @@ Usage: #inline
 * date = "2022-02-16T13:28:17Z"
 
  
+
  // Reference to Organization: MAH
 * author = Reference(mah-990eca26437774887062cfa11ea1d904)
 
@@ -49,6 +46,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
+   
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
 
     <p><span ></span></p>
@@ -72,7 +70,9 @@ Usage: #inline
 
       <li><span >Si</span> <span >experimenta efectos adversos, consulte a su médico, farmacéutico o enfermero, incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.</span></li>
     </ul>
-</div>         </div>"""   
+</div>         </div>"""
+
+   
 
 
 
@@ -81,6 +81,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Contenido del prospecto"
   * text.status = #additional
+   
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p><strong><u><span >Contenido del prospecto:</span></u></strong></p>
     <p><span >1. Qué es Tegretol y para qué se utiliza</span></p>
@@ -89,7 +90,9 @@ Usage: #inline
     <p><span >4. Posibles efectos adversos</span></p>
     <p><span >5. Conservación de Tegretol</span></p>
     <p><span >6. Contenido del envase e información adicional</span></p>
-  </div>         </div>"""   
+  </div>         </div>"""
+
+   
           
 
 * section[=].section[+]
@@ -97,11 +100,14 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. Qué es Tegretol 200 mg  comprimidos  y para qué se utiliza"
   * text.status = #additional
+   
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p><span >El principio activo es carbamazepina.</span></p>
 
     <p><span >Carbamazepina pertenece al grupo de medicamentos denominados antiepilépticos. Se utiliza para el tratamiento de ciertos tipos de epilepsia. También se utiliza en el tratamiento de la manía y en la prevención de los trastornos maníaco-depresivos (bipolares); en el síndrome de abstinencia al alcohol, en la neuralgia esencial de trigémino y en la neuralgia esencial del glosofaríngeo.</span></p>
-  </div>         </div>"""   
+  </div>         </div>"""
+
+   
           
 
              
@@ -110,6 +116,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. Qué necesita saber antes de empezar a tomar Tegretol 200 mg  comprimidos "
   * text.status = #additional
+   
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p><span >Siga las instrucciones que le ha dado su médico. Éstas pueden ser diferentes de la información contenida en este prospecto.</span></p>
 
@@ -292,13 +299,16 @@ Usage: #inline
     <p><strong><span >Tegretol contiene sodio</span></strong></p>
 
     <p><span >Este medicamento contiene menos de 23 mg de sodio (1mmol) por comprimido; esto es, esencialmente “exento de sodio”.</span></p>
-  </div>         </div>"""   
+  </div>         </div>"""
+
+   
                     
 * section[=].section[+]
   * title =  "3. Cómo tomar Tegretol 200 mg  comprimidos "
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. Cómo tomar Tegretol 200 mg  comprimidos "
   * text.status = #additional
+   
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p><strong><span >Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico cuidadosamente. En caso de duda, consulte de nuevo a su médico o farmacéutico. No exceda la dosis recomendada.</span></strong></p>
 
@@ -347,7 +357,9 @@ Usage: #inline
     <p><strong><span >Si interrumpe el tratamiento con Tegretol</span></strong></p>
 
     <p><span >No cambie o interrumpa su tratamiento sin antes consultarlo con su médico. Si se interrumpe el tratamiento bruscamente pueden aparecer crisis epilépticas.</span></p>
-  </div>         </div>"""         
+  </div>         </div>"""
+
+         
 
         
 * section[=].section[+]
@@ -355,6 +367,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
+   
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p><span >Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</span></p>
 
@@ -433,13 +446,16 @@ Usage: #inline
     <p><span >Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del</span> <span >Sistema Español de Farmacovigilancia de medicamentos de Uso Humano</span><span >:</span> <a href="https://www.notificaRAM.es"><u><span>https://www.notificaRAM.es</span></u></a><span >.</span> <span >Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</span></p>
 
     <p><span ></span></p>
-  </div>         </div>"""      
+  </div>         </div>"""
+
+      
         
 * section[=].section[+]
   * title = "5. Conservación de Tegretol 200 mg  comprimidos "
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. Conservación de Tegretol 200 mg  comprimidos "
   * text.status = #additional
+   
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p><span >Mantener</span> <span >este medicamento</span> <span >fuera de la vista y del alcance de los niños</span><span >.</span></p>
 
@@ -460,7 +476,9 @@ Usage: #inline
     <p><span ></span></p>
 
     <p><span >Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesita en el Punto SIGRE</span>  <span >de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma, ayudará a proteger el medio ambiente.</span></p>
-  </div>         </div>"""      
+  </div>         </div>"""
+
+      
         
         
 * section[=].section[+]
@@ -468,6 +486,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
+   
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p><strong><span >Composición de Tegretol 200 mg comprimidos</span></strong></p>
 
@@ -530,5 +549,9 @@ Usage: #inline
     <p><span ></span></p>
 
     <p><span >Fecha de la última revisión de este prospecto: enero 2022</span></p>
-  </div>         </div>"""      
+  </div>         </div>"""
+
+      
+
+
 

@@ -5,7 +5,7 @@
 RuleSet: {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}ListRuleset
 
 
-* title = "List of all raw ePIs associated with {{data["dictionary"]["MajorName"]}}"
+* title = "List of all ePIs associated with {{data["dictionary"]["MajorName"]}}"
 
 
 

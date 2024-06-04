@@ -92,6 +92,8 @@ Usage: #inline
 * extension[=].extension[=].valueString = "indication"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.reference = Reference(cud-585e364c14debe29f6c6b564138aa400)
+* extension[=].extension[=].valueCodeableReference.concept.coding = $sct#38341003  "Hypertensive disorder, systemic arterial (disorder)"
+
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
@@ -124,7 +126,7 @@ Usage: #inline
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "lactose"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#190751001 "Primary lactose intolerance"
+* extension[=].extension[=].valueCodeableReference.concept.coding =  $sct#47703008 "Lactose"
 
 
 * section[+].
