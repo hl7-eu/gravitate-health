@@ -207,3 +207,21 @@ Usage: #definition
 * parameter[=].type = #Bundle
 
 * description = "This operation generates a cut down version of the ePI."
+
+
+
+
+Instance: Composition-category
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "http://gravitate-health.com/SearchParameter/composition-category"
+* name = "composition-category"
+* title = "composition-category"
+* status = #active
+* experimental = false
+* publisher = "gravitate-health"
+* description = "Search on composition category"
+* code = #composition.category
+* base = #Bundle
+* type = #token
+* expression = "Bundle.entry[0].resource.as(Composition).category"
