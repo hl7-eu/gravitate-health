@@ -161,3 +161,19 @@ Usage: #definition
 * parameter[=].type = #Resource
 
 * description = "This operation calculates a diff between two FHIR resources - ie. a vanilla ePI FHIR bundle and a focused ePI FHIR bundle. The format follows the one defined at [HAPI](https://hapifhir.io/hapi-fhir/docs/server_jpa/diff.html)"
+
+
+Instance: Composition-category
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "http://gravitate-health.com/SearchParameter/composition-category"
+* name = "composition-category"
+* title = "composition-category"
+* status = #active
+* experimental = false
+* publisher = "gravitate-health"
+* description = "Search on composition category"
+* code = #composition.category
+* base = #Bundle
+* type = #token
+* expression = "Bundle.entry[0].resource.as(Composition).category"

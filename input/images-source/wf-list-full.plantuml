@@ -1,0 +1,68 @@
+@startuml
+actor       patient       as pat
+
+participant Frontend as fe
+participant Backend as be
+/'
+actor       Physician       as phy
+
+boundary    Boundary    as Foo2
+control     Control     as Foo3
+entity      Entity      as Foo4
+collections Collections as Foo6
+queue       Queue       as Foo7
+Foo -> Foo5 : To database
+Foo -> Foo6 : To collections
+Foo -> Foo7: To queue
+database    MPI    as mpi
+
+'/
+/'phy -> ehr : add information across several appointments
+'/
+group Registration
+
+pat -> fe : register
+fe -> be : create profile
+fe -> be : get ips 
+note left of fe : <URL>/Patient?$summary={identifier}
+
+end
+
+
+group Usage
+fe -> pat: presents medication list based on ips
+pat -> fe : asks for information for specific one drug
+fe -> fe : gets medication resource code
+fe -> be: searchs for epi using code as identifier for Medicinal Product
+note left of fe
+ <URL>/List?subject.identifier=<code>
+ end note
+fe -> fe: gets bundle and composition for language <language> and category == "R"
+
+note right of fe
+ <URL>/Bundle?_list.identifier=<code>
+ &_language=<language>
+ &composition.category=R
+ end note
+end
+
+group focusing
+fe -> be: ask for focusing
+note right of pat 
+<URL>/focusing/focus/<bundle>
+?preprocessors=preprocessing-service-manual
+&lenses=<lenses>
+&patientIdentifier=<pat_id>
+end note
+
+note left of be 
+<URL>/Bundle?_list.identifier=<code>
+&_language=<language>
+&composition.category=P
+end note
+
+be -> fe: returns epi bundle
+
+
+end
+@enduml

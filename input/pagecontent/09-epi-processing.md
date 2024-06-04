@@ -21,7 +21,7 @@ Diagram:
 <div>{% include e2e-focusing.svg %}</div>
 <br clear="all"/>
 
-## Current developments
+### Current developments
 
 The current definition for the FOSPS is here:
 
@@ -29,18 +29,42 @@ https://fosps.gravitatehealth.eu/swagger-fosps/?urls.primaryName=Focusing%20Mana
 
 Example requests in the github.
 
-## Example lenses
+### Currently existing lenses
 
-* **Pregancy:**  
-FOR ALL \<pregancy precautions\> IF patient is Pregnant THEN add Highlight CSS class
+#### Pregnancy
 
-* **Diabetes**  
-FOR ALL \<hiperglucemia\> IF patient’s IPS contains \<diabetes\>  THEN add Highlight CSS Class
+IF gender==female and age>18, highlight section about pregnancy. IF gender==male, collapse those sections
 
-* **Intake**  
+#### Conditions
+IF IPS has conditions and ePI has sections related to any code of the condition(s), then highlight section;
+
+#### Allergies
+
+IF IPS has allergies and intollerances and ePI has sections related to any code of the allergy, then highlight section;
+
+#### Interaction
+
+1. check all medication on the IPS
+2. check the ingredient of all of them 
+3. check any preprocessed section in the epi
+4. highlight if related to any ingredient or medication. 
+
+
+#### Summary
+
+IF IPS has age, gender and conditions and medication, use that and ePI to summarize;
+
+
+
+#### Diabetes
+
+IF patient’s IPS contains \<diabetes\> or \<Diabetes medication\> (list) THEN add Highlight CSS Class for it.
+Also add RMM in specific sections for linking to RMM.
+
+### Other examples
+#### Intake
 1. FOR ALL \<injectable\> add multimedia video
 2. FOR ALL \<oral intake\> IF patient.literacy is not high THEN add hover overlay with oral intake advice
 3. FOR ALL \<injectable\> IF patient.literacy is low THEN add icon 
 4. FOR ALL \<oral intake\> IF patient.literacy is low THEN add icon
-
 
