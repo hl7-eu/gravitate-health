@@ -1,13 +1,16 @@
-from os import listdir, getcwd, mkdir, remove
+from os import listdir, getcwd, mkdir
 from os.path import exists
-from jinja2 import Environment, FileSystemLoader
 import pandas as pd
 import sys
 import uuid
-import re
+
 from datetime import datetime
-from validator import pre_validation
-import hashlib
+from support_functions import (
+    get_preprocessed_data,
+    create_env,
+    split_compositions,
+    quality_checks,
+)
 
 context = {"now": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")}
 CANONICAL_URL = "http://hl7.eu/fhir/ig/gravitate-health/"
@@ -24,103 +27,20 @@ DATA_FILE = sys.argv[1]
 TEMPLATE_FOLDER = sys.argv[2]
 OUTPUT_FOLDER = sys.argv[3]
 
+PROCESSED_FOLDER = "../input/fsh/examples/processedEPI"
 if TEMPLATE_FOLDER[-1] != "/":
     TEMPLATE_FOLDER += "/"
 if OUTPUT_FOLDER[-1] != "/":
     OUTPUT_FOLDER += "/"
 
 
-def homogenize_text(composition):
-    # print(composition)
-    composition = re.sub(
-        r'style="font-family:Times New Roman; font-size:1\d{1}pt\S*"', "", composition
-    )
-    composition = re.sub(
-        r"font-family:Times New Roman; font-size:1\d{1}pt", "", composition
-    )
-
-    composition = composition.replace("font-family:serif;", "")
-    return composition
+preprocessed_data = get_preprocessed_data(PROCESSED_FOLDER)
+# print(preprocessed_data)
 
 
-def split_compositions(OUTPUT_FOLDER, major_name):
-    print("splitting compositions")
-    print(OUTPUT_FOLDER)
-    idxs = []
-    names = []
-    with open(OUTPUT_FOLDER + "Composition.fsh", "r") as file1:
-        Lines = file1.readlines()
-        for idx, line in enumerate(Lines):
-            if "Instance:" in line:
-                print(line)
-                print(idx)
-                idxs.append(idx)
-                names.append(line.replace("Instance: ", "").strip())
-    idxs.append(len(Lines))
-    for nidx, name in enumerate(names):
-        with open(OUTPUT_FOLDER + name + ".fsh", "w") as file2:
-            file2.write(homogenize_text("".join(Lines[idxs[nidx] : idxs[nidx + 1]])))
-    remove(OUTPUT_FOLDER + "Composition.fsh")
-
-
-def create_env(TEMPLATE_FOLDER):
-    env = Environment(loader=FileSystemLoader(TEMPLATE_FOLDER), trim_blocks=True)
-
-    # Custom filter method
-    def regex_replace(s, find, replace):
-        """A non-optimal implementation of a regex filter"""
-        return re.sub(find, replace, s)
-
-    env.filters["regex_replace"] = regex_replace
-
-    def html_unescape(s):
-        return (
-            s.replace("&nbsp;", "")
-            .replace("<br>", "")
-            .replace("&oacute;", "ó")
-            .replace("&aacute;", "á")
-            .replace("&eacute;", "é")
-            .replace("&iacute;", "í")
-            .replace("&ntilde;", "ñ")
-            .replace("&rsquo;", "'")
-            .replace("&uacute;", "ú")
-            .replace("&uuml;", "ü")
-        )
-
-    env.filters["html_unescape"] = html_unescape
-
-    def hash_id(string):
-        hash_object = hashlib.md5(bytes(string, "utf-8"))
-        return str(hash_object.hexdigest())
-
-    env.filters["create_hash_id"] = hash_id
-    return env
-
-
-def quality_checks(DATA_FILE, OUTPUT_FOLDER, major_name):
-    if OUTPUT_FOLDER[-1] != "/":
-        OUTPUT_FOLDER += "/"
-
-    # writing to file
-
-    for path in listdir(OUTPUT_FOLDER):
-        print(path)
-        file = open(OUTPUT_FOLDER + "/" + path, "r")
-        # with open(file) as f:
-        lines = file.readlines()
-        for idx, line in enumerate(lines):
-            if "None" in line:
-                print("ISSUE on line: ", str(idx), "file ->", path)
-                print(line)
-            if '"nan"' in line:
-                print("ANOTHER ISSUE on line: ", str(idx), "file ->", path)
-                print(line)
-            if ".0" in line:
-                print("ANOTHER ISSUE on line: ", str(idx), "file ->", path)
-                print(line)
-
-
-def create_from_template(env, DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER, major_name):
+def create_from_template(
+    env, DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER, major_name, preprocessed_data
+):
     elements = [
         "AdministrableProductDefinition",
         "Substance",
@@ -230,6 +150,7 @@ def create_from_template(env, DATA_FILE, TEMPLATE_FOLDER, OUTPUT_FOLDER, major_n
     df = df.astype(str)
     data["data"] = df
     data["turn"] = "2"
+    data["processed_data"] = preprocessed_data
     t = env.get_template("List.fsh")
     t.stream(data=data, **context).dump(OUTPUT_FOLDER + "List.fsh")
 
@@ -245,6 +166,7 @@ if __name__ == "__main__":
         TEMPLATE_FOLDER=TEMPLATE_FOLDER,
         OUTPUT_FOLDER=real_output_folder,
         major_name=major_name,
+        preprocessed_data=preprocessed_data,
     )
     split_compositions(OUTPUT_FOLDER=real_output_folder, major_name=major_name)
     quality_checks(

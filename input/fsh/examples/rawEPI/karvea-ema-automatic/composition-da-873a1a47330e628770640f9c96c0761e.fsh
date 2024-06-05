@@ -1,4 +1,4 @@
-Instance: composition-dk-873a1a47330e628770640f9c96c0761e
+Instance: composition-da-873a1a47330e628770640f9c96c0761e
 InstanceOf: CompositionUvEpi
 Title: "Composition for Karvea 75 mg tablet Package Leaflet"
 Description:  "Composition for Karvea 75 mg tablet Package Leaflet"
@@ -6,12 +6,8 @@ Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
-* identifier.value = "karvea-dk"
+* identifier.value = "EU/1/97/049/001"
 * status = #final
-
-
-
-
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
@@ -20,22 +16,24 @@ Usage: #inline
 * date = "2022-02-16T13:28:17Z"
 
  
+
  // Reference to Organization: MAH
 * author = Reference(mah-511671db37e83e520b00f8a0d817dc96) 
+
 
 
 
 * title = "TEST PURPOSES ONLY - Karvea 75 mg tablet"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
-* language = #dk
+* language = #da
 * category = epicategory-cs#R "Raw"
 
 
 * section[+].
-  * title = "B. INDLÆGSSEDDEL"
+  * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. INDLÆGSSEDDEL"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -44,9 +42,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Indlægsseddel: Information til brugeren"
+  * title = "Package leaflet: Information for the user"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Indlægsseddel: Information til brugeren"
+  * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>B. INDLÆGSSEDDEL </p>
 <p>Indlægsseddel: Information til brugeren 
@@ -65,9 +63,9 @@ Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""
 
 
 * section[=].section[+]
-  * title = "Oversigt over indlægssedlen"
+  * title = "What is in this leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Oversigt over indlægssedlen"
+  * code.text = "What is in this leaflet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
 1. Virkning og anvendelse 
@@ -79,9 +77,9 @@ Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""
           
 
 * section[=].section[+]
-  * title =  "1. Virkning og anvendelse"
+  * title =  "1. What Karvea is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. Virkning og anvendelse"
+  * code.text =  "1. What Karvea is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Karvea tilhører en medicingruppe, der kaldes angiotensin-II receptorantagonister. Angiotensin-II er et 
 stof, der produceres i kroppen, og som binder sig til receptorer i blodårerne og får dem til at trække sig 
@@ -102,9 +100,9 @@ nedsat nyrefunktion. </p>
 
              
 * section[=].section[+]
-  * title = "2. Det skal du vide, før du begynder at tage  Karvea"
+  * title = "2. What you need to know before you take Karvea"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. Det skal du vide, før du begynder at tage  Karvea"
+  * code.text = "2. What you need to know before you take Karvea"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Karvea: </p>
 <ul>
@@ -213,9 +211,9 @@ Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. 
 væsentlige natriumfrit. </p>         </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. Sådan skal du tage Karvea"
+  * title =  "3. How to take Karvea"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. Sådan skal du tage Karvea"
+  * code.text = "3. How to take Karvea"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid Karvea nøjagtigt efter lægen anvisning. Er du i tvivl, så spørg lægen eller på apoteket. </p>
 <p>Sådan tages tabletterne 
@@ -250,9 +248,9 @@ som erstatning for den glemte dosis. </p>
 
         
 * section[=].section[+]
-  * title = "4. Bivirkninger"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Bivirkninger"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. 
 Nogle af disse bivirkninger kan være alvorlige og kan kræve medicinsk behandling. </p>
@@ -300,9 +298,9 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. Opbevaring"
+  * title = "5. How to store Karvea"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. Opbevaring"
+  * code.text = "5. How to store Karvea"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterpakningen efter Exp. 
@@ -313,9 +311,9 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Pakningsstørrelser og yderligere oplysninger"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Karvea indeholder: </p>
 <ul>

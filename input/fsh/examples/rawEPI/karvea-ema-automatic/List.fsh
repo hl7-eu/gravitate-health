@@ -4,7 +4,13 @@
 RuleSet: d99852efa4d4976d99a584078a2ca48cListRuleset
 
 
-* title = "List of all raw ePIs associated with karvea"
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "EU/1/97/049/001"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with karvea"
 
 
 
@@ -31,37 +37,77 @@ RuleSet: d99852efa4d4976d99a584078a2ca48cListRuleset
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
-  * item = Reference(bundlepackageleaflet-en-dcaa4d32aa6658a8df831551503e52ee) // dovato en
+  * item = Reference(bundlepackageleaflet-en-dcaa4d32aa6658a8df831551503e52ee) // Karvea 75 mg tablet en
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
 * entry
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
-  * item = Reference(bundlepackageleaflet-pt-dcaa4d32aa6658a8df831551503e52ee) // dovato en
+  * item = Reference(bundlepackageleaflet-pt-dcaa4d32aa6658a8df831551503e52ee) // Karvea 75 mg tablet pt
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
+
+
+
 * entry
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
-  * item = Reference(bundlepackageleaflet-es-dcaa4d32aa6658a8df831551503e52ee) // dovato en
+  * item = Reference(bundlepackageleaflet-es-dcaa4d32aa6658a8df831551503e52ee) // Karvea 75 mg tablet es
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "es"
+
+
+
 * entry
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
-  * item = Reference(bundlepackageleaflet-dk-dcaa4d32aa6658a8df831551503e52ee) // dovato en
+  * item = Reference(bundlepackageleaflet-da-dcaa4d32aa6658a8df831551503e52ee) // Karvea 75 mg tablet da
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "dk"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
 
 
+
+
+//flucelvax-es-processed
+//('processedbundleflucelvaxES', 'es')
+
+//calcium-es-preprocessed
+//('processedbundlekarveacalcium', 'es')
+
+//EU/1/97/049/001
+//('processedbundlekarveabik', 'en')
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#02
+  * flag.text = "preprocessed"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(processedbundlekarveabik)
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+//P/EU/1/97/049/001
+//('processedbundleflucelvax', 'en')
+
+
+
+
+Instance: List-dcaa4d32aa6658a8df831551503e52ee
+InstanceOf: List
+
+* insert d99852efa4d4976d99a584078a2ca48cListRuleset

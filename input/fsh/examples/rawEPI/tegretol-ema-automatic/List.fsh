@@ -4,6 +4,12 @@
 RuleSet: 38fbd67f0d3e64f32230141d1621df57ListRuleset
 
 
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "39.955"
+
+* status = #current
+* mode = #working
+
 * title = "List of all ePIs associated with tegretol"
 
 
@@ -36,6 +42,9 @@ RuleSet: 38fbd67f0d3e64f32230141d1621df57ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "es"
+
+
+
 * entry
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
@@ -45,3 +54,9 @@ RuleSet: 38fbd67f0d3e64f32230141d1621df57ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+Instance: List-2f37d696067eeb6daf1111cfc3272672
+InstanceOf: List
+* insert 38fbd67f0d3e64f32230141d1621df57ListRuleset

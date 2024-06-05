@@ -6,12 +6,8 @@ Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
-* identifier.value = "karvea-en"
+* identifier.value = "EU/1/97/049/001"
 * status = #final
-
-
-
-
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
@@ -20,8 +16,10 @@ Usage: #inline
 * date = "2022-02-16T13:28:17Z"
 
  
+
  // Reference to Organization: MAH
 * author = Reference(mah-511671db37e83e520b00f8a0d817dc96) 
+
 
 
 
