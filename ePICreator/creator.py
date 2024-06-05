@@ -26,8 +26,9 @@ if n < 3:
 DATA_FILE = sys.argv[1]
 TEMPLATE_FOLDER = sys.argv[2]
 OUTPUT_FOLDER = sys.argv[3]
-
 PROCESSED_FOLDER = "../input/fsh/examples/processedEPI"
+
+
 if TEMPLATE_FOLDER[-1] != "/":
     TEMPLATE_FOLDER += "/"
 if OUTPUT_FOLDER[-1] != "/":

@@ -6,14 +6,12 @@ import hashlib
 
 def homogenize_text(composition):
     # print(composition)
-    composition = re.sub(
-        r'style="font-family:Times New Roman; font-size:1\d{1}pt\S*"', "", composition
-    )
-    composition = re.sub(
-        r"font-family:Times New Roman; font-size:1\d{1}pt", "", composition
-    )
 
-    composition = composition.replace("font-family:serif;", "")
+    composition = re.sub(r'\sstyle="[^"]*">', ">", composition)
+    composition = re.sub(r'l type="\S+">', "l>", composition)
+
+    # composition = composition.replace("font-family:serif;", "")
+    composition = composition.replace("<p><span>&#xa0;</span></p>", "")
     return composition
 
 
@@ -116,5 +114,6 @@ def get_preprocessed_data(FOLDER):
             #  print(f"Language: {language}")
             data_proc[identifier_system] = (instance_word, language)
         else:
-            print(file, "No matches found")
+            # print(file, "No matches found")
+            pass
     return data_proc

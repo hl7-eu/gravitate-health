@@ -2,10 +2,13 @@ import sys
 from os import listdir, getcwd, mkdir, rmdir
 from creator import (
     create_from_template,
+)
+from support_functions import (
     quality_checks,
     create_env,
     split_compositions,
     homogenize_text,
+    get_preprocessed_data,
 )
 
 # total arguments
@@ -19,6 +22,7 @@ if n < 3:
 DATA_FOLDER = sys.argv[1]
 TEMPLATE_FOLDER = sys.argv[2]
 OUTPUT_FOLDER = sys.argv[3]
+PROCESSED_FOLDER = "../input/fsh/examples/processedEPI"
 
 
 if TEMPLATE_FOLDER[-1] != "/":
@@ -27,6 +31,10 @@ if OUTPUT_FOLDER[-1] != "/":
     OUTPUT_FOLDER += "/"
 if DATA_FOLDER[-1] != "/":
     DATA_FOLDER += "/"
+
+preprocessed_data = get_preprocessed_data(PROCESSED_FOLDER)
+# print(preprocessed_data)
+
 for file in listdir(DATA_FOLDER):
     if (
         file.endswith(".xlsx")
@@ -49,6 +57,7 @@ for file in listdir(DATA_FOLDER):
             TEMPLATE_FOLDER=TEMPLATE_FOLDER,
             OUTPUT_FOLDER=real_output_folder,
             major_name=major_name,
+            preprocessed_data=preprocessed_data,
         )
         split_compositions(OUTPUT_FOLDER=real_output_folder, major_name=major_name)
 
