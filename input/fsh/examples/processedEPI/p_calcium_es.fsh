@@ -334,7 +334,8 @@ Usage: #example
 
 * language = #en
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "calcium-es-preprocessed"
+* identifier.value = "68290" 
+
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
 * language = #es

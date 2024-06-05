@@ -479,8 +479,6 @@ Usage: #example
 * identifier.value = "EU/1/97/049/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
-
-
 * language = #pt
 
 

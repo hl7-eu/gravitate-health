@@ -2,6 +2,7 @@ from os import listdir, remove
 from jinja2 import Environment, FileSystemLoader
 import re
 import hashlib
+from collections import defaultdict
 
 
 def homogenize_text(composition):
@@ -93,14 +94,15 @@ def quality_checks(DATA_FILE, OUTPUT_FOLDER, major_name):
 
 
 def get_preprocessed_data(FOLDER):
-    data_proc = {}
+    data_proc = defaultdict(list)
+
     for file in listdir(FOLDER):
         f = open(FOLDER + "/" + file)
 
         content = f.read()
         # print(content)
         f.close()
-        pattern = r"Instance:\s*(\w+)\nInstanceOf: BundleUvEpi.*identifier\.value\s*=\s*\"([^\"]+)\".*language\s*=\s*#(\w+)"
+        pattern = r"Instance:\s*(\S+)\nInstanceOf: BundleUvEpi.*identifier\.value\s*=\s*\"([^\"]+)\".*language\s*=\s*#(\w+)"
 
         # Find matches
         matches = re.search(pattern, content, re.DOTALL)
@@ -112,7 +114,7 @@ def get_preprocessed_data(FOLDER):
             # print(f"Word after 'Instance': {instance_word}")
             #  print(f"Identifier system: {identifier_system}")
             #  print(f"Language: {language}")
-            data_proc[identifier_system] = (instance_word, language)
+            data_proc[identifier_system].append((instance_word, language))
         else:
             # print(file, "No matches found")
             pass

@@ -205,10 +205,10 @@ Usage: #example
 
 
 
-Instance: bundlepackageleaflet-dk-94a96e39cfdcd8b378d12dd4063065f9
+Instance: bundlepackageleaflet-da-94a96e39cfdcd8b378d12dd4063065f9
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language dk"
-Description: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language dk"
+Title: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language da"
+Description: "ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language da"
 Usage: #example
 
 
@@ -218,14 +218,14 @@ Usage: #example
 * identifier.value = "EU/1/18/1289/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
-* language = #dk
+* language = #da
 
 
 
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-dk-2a9c4333cfd126f2e7b73ad3cafd6949"
-* entry[0].resource = composition-dk-2a9c4333cfd126f2e7b73ad3cafd6949
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-da-2a9c4333cfd126f2e7b73ad3cafd6949"
+* entry[0].resource = composition-da-2a9c4333cfd126f2e7b73ad3cafd6949
 
 * insert 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset

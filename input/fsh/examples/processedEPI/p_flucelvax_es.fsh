@@ -428,9 +428,8 @@ Title: "[Preprocessed] ePI document for Flucelvax Package Leaflet in ES"
 Description: "[Preprocessed] Bundle for Flucelvax Package Leaflet ePI document in ES"
 Usage: #example
 
-* language = #es
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "flucelvax-es-processed"
+* identifier.value = "EU/1/18/1326/001" 
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
 * language = #es

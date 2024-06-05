@@ -449,11 +449,11 @@ Title: "[Preprocessed] ePI document for Dovato 50 mg/300 mg comprimidos Package 
 Description: "[Preprocessed] Bundle for Dovato 50 mg/300 mg comprimidos Package Leaflet ePI document"
 Usage: #example
 
-* language = #es
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "P/EU/1/19/1370/001"
+* identifier.value =  "EU/1/19/1370/001"
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
+* language = #es
 
 // Composition
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/compositione722f6782d3f34f86982e14386c8811dll"

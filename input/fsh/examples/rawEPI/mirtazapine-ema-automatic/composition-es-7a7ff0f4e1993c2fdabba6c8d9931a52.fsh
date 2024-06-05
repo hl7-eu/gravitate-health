@@ -4,17 +4,12 @@ Title: "Composition for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet"
 Description:  "Composition for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet"
 Usage: #inline
 
-
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
 * identifier.value = "21c15cbfff3522085d2493e5acc90334"
 
 * status = #final
-
-
-
-
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
@@ -23,6 +18,7 @@ Usage: #inline
 * date = "2022-02-16T13:28:17Z"
 
  
+
  // Reference to Organization: MAH
 * author = Reference(mah-dbf32c7ed470ffbeb6060201f32edb29)
 

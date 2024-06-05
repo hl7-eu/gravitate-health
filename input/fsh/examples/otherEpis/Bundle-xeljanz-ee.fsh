@@ -2,7 +2,6 @@ Alias: $valitsus = https://valitsus.ee/
 Alias: $rmswi = https://spor.ema.europa.eu/rmswi
 Alias: $beta = https://gsrs.ncats.nih.gov/ginas/app/beta
 Alias: $v3-RoleClass = http://terminology.hl7.org/CodeSystem/v3-RoleClass
-Alias: $ = https://gsrs.ncats.nih.gov/ginas/app/beta/
 Alias: $_1 = https://spor.ema.europa.eu/rmswi/
 Alias: $publication-status = http://hl7.org/fhir/publication-status
 Alias: $medicinal-product-type = http://hl7.org/fhir/medicinal-product-type
@@ -494,13 +493,13 @@ Usage: #inline
 * identifier.system = "https://gsrs.ncats.nih.gov/ginas/app/beta/"
 * identifier.value = "O1FF4DIV0D"
 * version = "1"
-* status = $#1 "Validated (UNII)"
+* status = $ginas#1 "Validated (UNII)"
 * manufacturer = Reference(orgpfizereuropemaeeig)
 * molecularWeight.type.text = "exact"
 * molecularWeight.amount.value = 504.49
 * structure.molecularFormula = "C16H20N6O.C6H8O7"
 * name.name = "1-PIPERIDINEPROPANENITRILE, 4-METHYL-3-(METHYL-7H-PYRROLO(2,3-D)PYRIMIDIN-4-YLAMINO)-.BETA.-OXO-, (3R,4R)-, 2-HYDROXY-1,2,3-PROPANETRICARBOXYLATE (1:1)          3-((3R,4R)-4-METHYL-3-(METHYL(7H-PYRROLO(2,3-D)PYRIMIDIN-4-YL)AMINO)PIPERIDIN-1-YL)-3-OXO-PROPANENITRILE2-HYDROXYPROPANE-1,2,3-TRICARBOXYLATE (1:1)          CP-690"
-* name.type = $#x "Chemical Name"
+* name.type = $ginas#x "Chemical Name"
 
 Instance: xeljanzmid10mg
 InstanceOf: ManufacturedItemDefinitionUvEpi

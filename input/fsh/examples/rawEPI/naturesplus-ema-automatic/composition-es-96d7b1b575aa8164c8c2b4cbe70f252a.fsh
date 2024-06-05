@@ -4,17 +4,12 @@ Title: "Composition for Natures Plus Spiru-Tein Package Leaflet"
 Description:  "Composition for Natures Plus Spiru-Tein Package Leaflet"
 Usage: #inline
 
-
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
 
 * identifier.value = "3008f49140c0c226266b50684f1c8b17"
 
 * status = #final
-
-
-
-
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
@@ -23,6 +18,7 @@ Usage: #inline
 * date = "2022-02-16T13:28:17Z"
 
  
+
  // Reference to Organization: MAH
 * author = Reference(mah-0932dbba1d0482c4518be4a7c874cb91)
 

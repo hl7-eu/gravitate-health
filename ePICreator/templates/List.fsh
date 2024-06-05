@@ -1,4 +1,4 @@
-{% if data["data"]|length> 1%}
+{% if data["data"]|length> 0%}
 
 
 
@@ -7,6 +7,8 @@ RuleSet: {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]
 
 * identifier.system = "{{data["data"].iloc[0]['identifier_system']}}" 
 * identifier.value = "{{data["data"].iloc[0]["identifier_value"]|trim}}"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "{{data["dictionary"]["MajorName"]}}"
 
 * status = #current
 * mode = #working
@@ -26,12 +28,6 @@ RuleSet: {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]
 * subject.extension[=].valueCoding = $100000000004#100000000012 "H"
 
 * date = "2015-02-07T13:28:17Z"
-
-
-* identifier[0].system = "http://spor.ema.europa.eu/v2/medicine-name"
-* identifier[=].value = "{{data["dictionary"]["MajorName"]}}"
-
-
 
 {% for index,row in data["data"].iterrows() %}
 {% if row["skip"] not in ['y', 'Y', 'x', 'X'] %}
@@ -55,16 +51,19 @@ RuleSet: {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]
 //{{k}}
 //{{v}}
 {% if k==data["data"].iloc[0]["identifier_value"]|trim %}
+{% for ids in v %}
 
 * entry
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#02
   * flag.text = "preprocessed"
   * date = "2015-02-07T13:28:17Z"
-  * item = Reference({{v[0]}})
+  * item = Reference({{ids[0]}})
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "{{v[1]}}"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "{{ids[1]}}"
+{% endfor %}
+
 {% endif %}
 
 {% endfor %}

@@ -1,9 +1,3 @@
-//bundle-ibu-raw    ->  bundle-ibu-proc
-//bundle-met-raw    ->  bundle-met-proc
-//bundle-novo-raw    ->  bundle-novo-proc
-
-
-
 Instance: composition-en-ibupro-proc
 InstanceOf: CompositionUvEpi
 Title: "Composition for ibuprofen Package Leaflet"

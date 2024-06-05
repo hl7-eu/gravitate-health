@@ -10,6 +10,9 @@ RuleSet: 2e9b255d9b94b05d362748d5716e558cBundleRuleset
  
 
 
+ 
+
+
 // Ingredient
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-hipricoarkopharma-hypericumperforatuml"
 * entry[=].resource = ingredient-for-hipricoarkopharma-hypericumperforatuml 
@@ -50,6 +53,9 @@ RuleSet: 2e9b255d9b94b05d362748d5716e558cBundleRuleset
 * entry[=].resource = authorization29436a85dac3ea374adb3fa64cfd25780 
 
 
+ 
+
+
 // Organization
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-c2a5378488511eaedce26dde272c2290"
 * entry[=].resource = mah-c2a5378488511eaedce26dde272c2290 
@@ -70,6 +76,9 @@ RuleSet: 2e9b255d9b94b05d362748d5716e558cBundleRuleset
 * entry[=].resource = mid-29436a85dac3ea374adb3fa64cfd2578 
 
 
+ 
+
+
 
 
 
@@ -82,8 +91,8 @@ Usage: #example
 
 
 
-* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
-* identifier[=].value = "79963"
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "79963"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #es

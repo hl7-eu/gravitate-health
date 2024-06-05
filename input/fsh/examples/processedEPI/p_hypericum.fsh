@@ -322,7 +322,7 @@ Description: "[Preprocessed] Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Pac
 Usage: #example
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "P/EU/1/97/049/001"
+* identifier.value = "79963"
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
 * language = #es

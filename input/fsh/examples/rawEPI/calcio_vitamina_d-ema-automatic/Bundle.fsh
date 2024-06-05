@@ -105,6 +105,9 @@ RuleSet: bdfe699962879d1b1d2adb6ccf20a5cbBundleRuleset
 * entry[=].resource = mid-925dad38f0afbba36223a82b3a766438 
 
 
+ 
+
+
 
 
 
@@ -117,8 +120,8 @@ Usage: #example
 
 
 
-* identifier[+].system = "https://spor.ema.europa.eu/pmswi"
-* identifier[=].value = "68290" 
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "68290"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #es

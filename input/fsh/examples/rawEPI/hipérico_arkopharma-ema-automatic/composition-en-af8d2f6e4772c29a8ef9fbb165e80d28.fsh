@@ -1,29 +1,27 @@
-Instance: composition-en-aae8d931abe2f2d9085b87555b9bb088
+Instance: composition-en-af8d2f6e4772c29a8ef9fbb165e80d28
 InstanceOf: CompositionUvEpi
-Title: "Composition for Ogivri 150 mg powder for concentrate for solution for infusion  Package Leaflet"
-Description:  "Composition for Ogivri 150 mg powder for concentrate for solution for infusion  Package Leaflet"
+Title: "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
+Description:  "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
 Usage: #inline
 
-* identifier.system = "nan"
+* identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
-
-* identifier.value = "eb2d55ad5005be64271cb8d7a8411595"
-
+* identifier.value = "79963"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpaae8d931abe2f2d9085b87555b9bb088)
+* subject = Reference(mpaf8d2f6e4772c29a8ef9fbb165e80d28)
 * date = "2022-02-16T13:28:17Z"
 
  
 
  // Reference to Organization: MAH
-* author = Reference(mah-5192019d531d0f82a0e8d8ffcb39b68a)
+* author = Reference(mah-c2a5378488511eaedce26dde272c2290)
 
 
-* title = "TEST PURPOSES ONLY - Ogivri 150 mg powder for concentrate for solution for infusion "
+* title = "TEST PURPOSES ONLY - HIPÉRICO ARKOPHARMA cápsulas duras"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en
@@ -63,9 +61,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What 0 is and what it is used for"
+  * title =  "1. What HIPÉRICO ARKOPHARMA hard capsules is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What 0 is and what it is used for"
+  * code.text =  "1. What HIPÉRICO ARKOPHARMA hard capsules is and what it is used for"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -74,18 +72,18 @@ Usage: #inline
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take 0"
+  * title = "2. What you need to know before you take HIPÉRICO ARKOPHARMA hard capsules"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take 0"
+  * code.text = "2. What you need to know before you take HIPÉRICO ARKOPHARMA hard capsules"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
                     
 * section[=].section[+]
-  * title =  "3. How to take 0"
+  * title =  "3. How to take HIPÉRICO ARKOPHARMA hard capsules"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take 0"
+  * code.text = "3. How to take HIPÉRICO ARKOPHARMA hard capsules"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -102,9 +100,9 @@ Usage: #inline
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable      
         
 * section[=].section[+]
-  * title = "5. How to store 0"
+  * title = "5. How to store HIPÉRICO ARKOPHARMA hard capsules"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store 0"
+  * code.text = "5. How to store HIPÉRICO ARKOPHARMA hard capsules"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""

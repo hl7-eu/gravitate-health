@@ -6,14 +6,8 @@ Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
-
-* identifier.value = "15c796b3d17f2310cd94b6867ae47c71"
-
+* identifier.value = "68290"
 * status = #final
-
-
-
-
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
@@ -22,6 +16,7 @@ Usage: #inline
 * date = "2022-02-16T13:28:17Z"
 
  
+
  // Reference to Organization: MAH
 * author = Reference(mah-b7afabe350ac415f70e662ba6c703030)
 
@@ -111,6 +106,7 @@ Usage: #inline
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>No tome Calcio/Vitamina D</strong><strong>3</strong> <strong>ROVI:</strong></p>
+<p></p>
 <div>
 <ul>
 <li>si es alérgico a los principios activos o a alguno de los demás componentes de este medicamento (incluidos en la sección 6),</li>
@@ -122,7 +118,7 @@ Usage: #inline
 </ul>
 </div>
 <p></p>
-
+<p></p>
 <p>Este medicamento contiene aceite de soja. No debe utilizarse en caso de alergia al cacahuete o a la soja.</p>
 <p></p>
 <p><strong>Advertencias y precauciones:</strong></p>

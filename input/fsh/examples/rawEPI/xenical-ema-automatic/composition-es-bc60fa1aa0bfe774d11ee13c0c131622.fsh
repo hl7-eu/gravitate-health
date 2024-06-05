@@ -9,10 +9,6 @@ Usage: #inline
 * identifier.value = "EU/1/13/853/001"
 * status = #final
 
-
-
-
-
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
@@ -20,6 +16,7 @@ Usage: #inline
 * date = "2022-02-16T13:28:17Z"
 
  
+
  // Reference to Organization: MAH
 * author = Reference(mah-4aaf055c3c7bab96579cd18496b045eb)
 
@@ -101,9 +98,8 @@ tracto digestivo). </li>
 <li>Si tiene colestasis (trastorno del hígado). </li>
 <li>Si está en periodo de lactancia </li>
 </ul>
-<p>Advertencias y precauciones</p>
-
-<p>La pérdida de peso puede también afectar a la dosis de los medicamentos que tome para otras 
+<p>Advertencias y precauciones 
+La pérdida de peso puede también afectar a la dosis de los medicamentos que tome para otras 
 situaciones (p. ej. colesterol alto o diabetes). Asegúrese de informar a su médico si está tomando éstos 
 u otros medicamentos. La pérdida de peso puede significar que usted necesite un ajuste de la dosis de 
 estos medicamentos. </p>
@@ -122,8 +118,7 @@ el uso de un método anticonceptivo adicional. </p>
 Informe a su médico si tiene problemas de riñón. </p>
 <p>Este medicamento contiene menos de 1 mmol de sodio (23 mg) por cápsula; esto es, esencialmente 
 “exento de sodio”. </p>
-<p><strong>Niños</strong></p>
-<p>Xenical no está indicado para su uso en niños. </p>
+<p><strong>Niños</strong>Xenical no está indicado para su uso en niños. </p>
 <p>Toma de XENICAL con otros medicamentos 
 Informe a su médico o farmacéutico si está tomando o ha tomado recientemente o podría tener que 
 tomar cualquier otro medicamento. </p>
@@ -161,12 +156,10 @@ diabetes Tipo 2). </p>
 <p>Toma de XENICAL con alimentos, bebida y alcohol 
 Xenical se puede tomar inmediatamente antes, durante la comida o hasta una hora después.  Se debe 
 tragar la cápsula con agua. </p>
-<p><strong>Embarazo y lactancia</strong></p>
-<p>No se recomienda tomar Xenical durante el embarazo. 
+<p><strong>Embarazo y lactancia</strong>No se recomienda tomar Xenical durante el embarazo. 
 No debe amamantar a su hijo durante el tratamiento con Xenical, ya que se desconoce si Xenical pasa 
 a la leche materna. </p>
-<p><strong>Conducción y uso de máquinas</strong></p>
-<p>Xenical no tiene ningún efecto conocido sobre la capacidad para conducir o utilizar maquinas. </p>         </div>"""   
+<p><strong>Conducción y uso de máquinas</strong>Xenical no tiene ningún efecto conocido sobre la capacidad para conducir o utilizar maquinas. </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Cómo tomar XENICAL 120 mg cápsulas duras "

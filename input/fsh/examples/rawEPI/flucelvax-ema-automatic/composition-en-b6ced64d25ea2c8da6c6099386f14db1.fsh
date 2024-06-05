@@ -8,14 +8,8 @@ Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
 
-
-* identifier.value = "c9572598c41e29b90725676aab503d61"
-
+* identifier.value = "EU/1/18/1326/001 "
 * status = #final
-
-
-
-
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
@@ -24,6 +18,7 @@ Usage: #inline
 * date = "2023-04-22T15:15:46Z"
 
  
+
  // Reference to Organization: MAH
 * author = Reference(mah-45fe50eae508b5755dd140ab2093eb5e)
 

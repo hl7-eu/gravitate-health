@@ -11,10 +11,6 @@ Usage: #inline
 
 * status = #final
 
-
-
-
-
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
@@ -22,6 +18,7 @@ Usage: #inline
 * date = "2022-02-16T13:28:17Z"
 
  
+
  // Reference to Organization: MAH
 * author = Reference(mah-9800de324c3962f6f767647a95e0c17e)
 

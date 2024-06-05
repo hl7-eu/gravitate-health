@@ -1,4 +1,4 @@
-Instance: composition-dk-2a9c4333cfd126f2e7b73ad3cafd6949
+Instance: composition-da-2a9c4333cfd126f2e7b73ad3cafd6949
 InstanceOf: CompositionUvEpi
 Title: "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet"
 Description:  "Composition for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet"
@@ -28,14 +28,14 @@ Usage: #inline
 * title = "TEST PURPOSES ONLY - Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
-* language = #dk
+* language = #da
 * category = epicategory-cs#R "Raw"
 
 
 * section[+].
-  * title = "B. INDLÆGSSEDDEL"
+  * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. INDLÆGSSEDDEL"
+  * code.text = "B. Package Leaflet"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -44,9 +44,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Indlægsseddel: Information til brugeren"
+  * title = "Package leaflet: Information for the user"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Indlægsseddel: Information til brugeren"
+  * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>B. INDLÆGSSEDDEL </p>
 <p>Indlægsseddel: Information til brugeren </p>
@@ -67,9 +67,9 @@ indlægsseddel er rettet mod dit barn (i det tilfælde skal du læse ”dit barn
 
 
 * section[=].section[+]
-  * title = "Oversigt over indlægssedlen"
+  * title = "What is in this leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Oversigt over indlægssedlen"
+  * code.text = "What is in this leaflet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -83,9 +83,9 @@ indlægsseddel er rettet mod dit barn (i det tilfælde skal du læse ”dit barn
           
 
 * section[=].section[+]
-  * title =  "1. Virkning og anvendelse"
+  * title =  "1. What Biktarvy is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. Virkning og anvendelse"
+  * code.text =  "1. What Biktarvy is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Biktarvy indeholder tre aktive stoffer: </p>
 <ul>
@@ -110,9 +110,9 @@ risikoen for at udvikle sygdomme forbundet med hiv-infektionen. </p>         </d
 
              
 * section[=].section[+]
-  * title = "2. Det skal du vide, før du begynder at tage  Biktarvy"
+  * title = "2. What you need to know before you take Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. Det skal du vide, før du begynder at tage  Biktarvy"
+  * code.text = "2. What you need to know before you take Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Biktarvy </p>
 <ul>
@@ -265,9 +265,9 @@ med værktøj eller maskiner, hvis du bliver svimmel, når du tager Biktarvy. </
 væsentlige natriumfrit. </p>         </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. Sådan skal du tage Biktarvy"
+  * title =  "3. How to take Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. Sådan skal du tage Biktarvy"
+  * code.text = "3. How to take Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
 lægen eller apotekspersonalet. </p>
@@ -334,9 +334,9 @@ forbinde med hepatitis B-infektion. </p>
 
         
 * section[=].section[+]
-  * title = "4. Bivirkninger"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Bivirkninger"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
 <p>Mulige bivirkninger: Fortæl det straks til lægen </p>
@@ -472,9 +472,9 @@ Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe 
 om sikkerheden af dette lægemiddel. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. Opbevaring"
+  * title = "5. How to store Biktarvy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. Opbevaring"
+  * code.text = "5. How to store Biktarvy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og tabletbeholderen eller blisterkortene 
@@ -486,9 +486,9 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>   
         
         
 * section[=].section[+]
-  * title = "6. Pakningsstørrelser og yderligere oplysninger"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Biktarvy indeholder </p>
 <p>Aktive stoffer: bictegravir, emtricitabin og tenofoviralafenamid. Hver Biktarvy-tablet indeholder 

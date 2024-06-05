@@ -552,7 +552,7 @@ Usage: #example
 
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "tegretol-es-processed"
+* identifier.value = "39.955"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #es
