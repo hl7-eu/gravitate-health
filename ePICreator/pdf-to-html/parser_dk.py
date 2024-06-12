@@ -262,7 +262,14 @@ def clean_aspas(piece):
         "–",
         "-",
     )
-
+    clean_piece = clean_piece.replace(
+        "<",
+        "&lt;",
+    )
+    clean_piece = clean_piece.replace(
+        ">",
+        "&gt;",
+    )
     return clean_piece
 
 
