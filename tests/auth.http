@@ -9,3 +9,11 @@ GET https://gravitate-health.lst.tfo.upm.es/ips/api/fhir/Patient/alicia-patient
 
 ### get patients
 DELETE https://gravitate-health.lst.tfo.upm.es/ips/api/fhir/Patient/506
+
+
+
+#### auth
+POST https://gravitate-health.lst.tfo.upm.es/auth/api/auth
+Content-Type: application/x-www-form-urlencoded
+
+client_id=GravitateHealth&grant_type=password&username=alicia@gravitatehealth.eu&password=alicia_password4321

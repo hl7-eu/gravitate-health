@@ -1,5 +1,5 @@
 import fitz  # PyMuPDF
-import re
+
 import markdown
 from os import mkdir
 from os.path import exists
@@ -44,13 +44,23 @@ pdf_path = (
     "../../../../chatwithepi/epi-gather/epis-ema/avonex-epar-product-information_en.pdf"
 )
 
+pdf_path = "/Users/joaoalmeida/Desktop/hl7Europe/Other projects/chatwithepi/epi-gather/epis-ema/avonex-epar-product-information_en.pdf"
+
 
 def parser_html(language, pdf_path, html_folder="../temp_html/"):
     if not exists(html_folder):
         mkdir(html_folder)
 
-    if language == "dk":
-        from parser_dk import parse_html, cleanhtml, split_parts
+    if language == "da":
+        from parser_dk import (
+            parse_html,
+            cleanhtml,
+            split_parts,
+            create_list,
+            clean_aspas,
+            create_mpd,
+            parse_second_part,
+        )
     if language == "pt":
         from parser_pt import parse_html, cleanhtml, split_parts
     if language == "es":
@@ -65,6 +75,7 @@ def parser_html(language, pdf_path, html_folder="../temp_html/"):
             create_list,
             parse_second_part,
             clean_aspas,
+            create_mpd,
         )
     if language == "uk":
         from parser_uk import parse_html, cleanhtml, split_parts
@@ -82,6 +93,8 @@ def parser_html(language, pdf_path, html_folder="../temp_html/"):
     doc.close()
 
     #### language dependent
+    # print(html_content)
+    # html_content = html_content.encode("utf-8").decode("utf-8")
 
     with open(html_folder + "/" + "start-full.md", "w") as file:
         file.write(html_content)
@@ -97,10 +110,16 @@ def parser_html(language, pdf_path, html_folder="../temp_html/"):
 
     list_content, headers = create_list(third_part)
     print("headers:", headers)
+    if language == "en":
+        mpd_data = create_mpd(html_content)
+    else:
+        mpd_data = "mpddata"
+    # print(mpd_data)
     # print(list_content[0])
     # print("list_content:", len(list_content))
     # print(html_content)
     for idx, piece in enumerate(list_content):
+        #   print(piece)
         # Save the extracted HTML to a file
         with open(html_folder + "/" + str(idx) + ".md", "w") as file:
             file.write(piece)
@@ -122,6 +141,7 @@ def parser_html(language, pdf_path, html_folder="../temp_html/"):
         markdown.markdown(parse_second_part(second_part)),
         markdown.markdown(third_part),
         list_parts,
+        mpd_data,
     )
 
 
