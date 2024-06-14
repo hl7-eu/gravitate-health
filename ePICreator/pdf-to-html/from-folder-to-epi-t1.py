@@ -82,35 +82,77 @@ def create_composition(env, OUTPUT_FOLDER, productname, data):
     return True
 
 
-def create_mpd(env, mpd_part, productname, OUTPUT_FOLDER):
-    t = env.get_template("MedicinalProductDefinition.fsh")
-    # print(t)
+def create_mpd(TEMPLATE_FOLDER, mpd_part, productname, OUTPUT_FOLDER):
+    rtemplate = create_env(TEMPLATE_FOLDER=TEMPLATE_FOLDER, type="string").from_string("""
+{% for index,row in data["data"].iterrows() %}
+Instance: mp{{ row["productname"]| regex_replace('[^A-Za-z0-9]+', '') | create_hash_id }}
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product {{ row["fullname"]}}"
+Description: "{{ row["fullname"]}}"
+Usage: #inline
+
+{% for idx in range(0,row["identifier_system"].count("|")+1) %} 
+* identifier[+].system = "{{ row["identifier_system"].split("|")[idx]}}"
+* identifier[=].value = "{{ row["identifier_value"].split("|")[idx]}}"
+{%- endfor %}
+
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+* name
+  * productName = "{{ row["fullname"]|trim  }}"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "{{ row["inventedNamePart"]|trim  }}"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "{{ row["ScientificNamePart"] |trim }}"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "{{ row["StrengthPart"] |trim }}"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "{{ row["PharmaceuticalDosePart"]|trim  }}"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#{{ row["countryCode"]  }} "{{ row["country"]  }}"
+    * jurisdiction = urn:iso:std:iso:3166#{{ row["countryCode"]  }} "{{ row["country"]  }}"
+    * language = urn:ietf:bcp:47#{{ row["languageID"]  }}  "{{ row["language"]  }}"
+{% endfor %}
+""")
+
     mpddf_content = {
         "identifier_system": "http://ema.europa.eu/identifier",
         "identifier_value": mpd_part["number"],
         "indication": mpd_part["t"],
+        "fullname": mpd_part["name"],
         "date": "2022-02-16T13:28:17Z",
         "language": "en",
         "productname": productname,
-        "countryCode": "DK",
-        "country": "DK",
+        "countryCode": "EU",
+        "country": "EU",
         "languageID": "en",
         "PharmaceuticalDosePart": "nan",
         "inventedNamePart": "nan",
         "ScientificNamePart": "nan",
         "StrengthPart": "nan",
-        "classification_ids": "nan",
-        "classification_texts": "nan",
-        "statusSuply": "Medicinal product subject to medical prescription",
-        "statusSuplyID": "100000072084",
     }
 
     mpddf = pd.DataFrame(mpddf_content, index=[0])
-    # print(df)
-    #   df = df.astype(str)
     mpddata = {"data": mpddf}
-    mpdfsh = t.render(data=mpddata)
-    #  print(mpddata)
+    mpdfsh = rtemplate.render(data=mpddata)
 
     with open(OUTPUT_FOLDER + productname + ".fsh", "a") as file:
         file.write("\n\n\n")
@@ -137,8 +179,6 @@ Usage: #example
 {% set ns.one =row["language"] %}
 {% set ns.two = data["dictionary"]["productname"]| regex_replace('[^A-Za-z0-9]+', '') %}
 {% set ns.name_to_has= ns.one ~ ns.two   %}
-
-
 
 {% if row["identifier_value"]=="nan"  %}
 * identifier[+].system = "{{row['identifier_system']}}" 
@@ -173,7 +213,7 @@ Usage: #example
     return True
 
 
-for idx, filename in enumerate(sorted(os.listdir(lang_folder["en"]))[350:450]):
+for idx, filename in enumerate(sorted(os.listdir(lang_folder["en"]))[930:]):
     print(idx, "-----" * 60)
     try:
         file_path = os.path.join(lang_folder["en"], filename)
@@ -271,7 +311,7 @@ for idx, filename in enumerate(sorted(os.listdir(lang_folder["en"]))[350:450]):
         ################################################## MPD ##################################################
         #   print(data)
 
-        create_mpd(env, mpd_part, productname, OUTPUT_FOLDER)
+        create_mpd(TEMPLATE_FOLDER, mpd_part, productname, OUTPUT_FOLDER)
 
         ################################################## BUNDLE ##################################################
 
@@ -347,4 +387,4 @@ InstanceOf: List
             log_file.write("Error processing file: " + file_path + ": " + str(e) + "\n")
         #  print("Error processing file: " + file_path + ": " + str(e))
 
-        # raise Exception("Error processing file: " + file_path + ": " + str(e))
+        raise Exception("Error processing file: " + file_path + ": " + str(e))

@@ -40,6 +40,7 @@ Usage: #example
 * extension[=].extension[=].valueString = "indication"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = https://icpc2.icd.com/#B90 "HIV-infection/AIDS"
+* extension[=].extension[=].valueCodeableReference.concept.coding[+] = http://snomed.info/sct#86406008 "HIV-infection/AIDS"
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"

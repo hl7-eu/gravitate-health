@@ -159,6 +159,7 @@ def create_list(clean_content):
         "Pakningsstørrelser og yderligere oplysninger\s*",
         "Pakningstørrelser og yderligere oplysninger\s*",
         "Pakningsstørrelser og yderligere oplysninger .+ indeholder\:\s*",
+        "Det skal De vide, før De begynder at få .+\s*",
         "Det skal du vide før du begynder at bruge .+\s*",
         "Det skal du vide, før du begynder at give .+\s*",
         "Det skal du vide, før du eller dit barn begynder at tage .+\s*",
@@ -220,7 +221,7 @@ def create_list(clean_content):
         "Sådan skal du tage .+\s*",
         "Sådan skal de tage .+\s*",
     ]
-    pattern = r"\n?[1234567]\.\s?\s?\n?\s?(?:" + "|".join(parts) + ")\n"
+    pattern = r"\n?[1234567]\.?\s?\s?\n?\s?(?:" + "|".join(parts) + ")\n"
     print(pattern)
     list_ = re.split(pattern, clean_content, flags=re.IGNORECASE)
     headers = re.findall(pattern, clean_content, flags=re.IGNORECASE)

@@ -1,7 +1,7 @@
 import fitz  # PyMuPDF
 
 import markdown
-from os import mkdir
+from os import mkdir, remove, listdir
 from os.path import exists
 
 
@@ -50,7 +50,9 @@ pdf_path = "/Users/joaoalmeida/Desktop/hl7Europe/Other projects/chatwithepi/epi-
 def parser_html(language, pdf_path, html_folder="../temp_html/"):
     if not exists(html_folder):
         mkdir(html_folder)
-
+    else:
+        for file in listdir(html_folder):
+            remove(html_folder + file)
     if language == "da":
         from parser_dk import (
             parse_html,
@@ -103,7 +105,7 @@ def parser_html(language, pdf_path, html_folder="../temp_html/"):
 
     clean_content = cleanhtml(parsed_content)
 
-    with open(html_folder + "/" + "mid-full.md", "w") as file:
+    with open(html_folder + "/" + "000-mid-full.md", "w") as file:
         file.write(clean_content)
 
     first_part, second_part, third_part = split_parts(clean_content)

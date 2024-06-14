@@ -166,6 +166,11 @@ def cleanhtml(raw_html):
         raw_html,
     )
     raw_html = re.sub(
+        r"6\s*\nContent of the pack and other information",
+        r"6. Content of the pack and other information",
+        raw_html,
+    )
+    raw_html = re.sub(
         r"2\s*\nWhat you need to know before your child receives (.+)",
         r"2. What you need to know before your child receives \1",
         raw_html,
@@ -225,59 +230,63 @@ def split_parts(clean_content):
 
 
 def create_list(clean_content):
-    pattern = r"\n?[1234567]\.\s*\s?\n?\s?(?:What you need to know before .+ is given to (?:your child|you)\s*|What do you need to know before you take .+\s*|How you will be given .+|What .+ is and what it is used for\s*|What .+ is and what is it used for\s*|How .+ is given to you\s*|How .+ will be given\s*|What you need to know before .+ is given\s*|How .+ is used\s*|How to use .+\s*|What you need to know before you or your child takes .+\s*|What you need to know before your child receives .+\s*|How .+ is given\s*|What you need to know before you \w+ .+\s*|How to take .+\s*|Possible side effects\s*|How to store .+\s*|Contents? of the pack and other information\s*|How .+ is given\s*|How .+ is stored\s*|What you need to know before your child uses .+\s*|Contents of the pack and further information\s*|What you need to know before .+ is used\s*|How you are given .+\s*|How .+ injections are given\s*|How .+ is to be given\s*|What you need to know before your child (?:is given|takes) .+\s*|What you need to know before .+ is given to your child\s*|How will my child receive .+\s*|What is .+ and what it is used for\s*|What you or your child need to know before you or your child use .+\s*)\n"
+    # pattern = r"\n?[1234567]\.\s*\s?\n?\s?(?:What you need to know before .+ is given to (?:your child|you)\s*|What do you need to know before you take .+\s*|How you will be given .+|What .+ is and what it is used for\s*|What .+ is and what is it used for\s*|How .+ is given to you\s*|How .+ will be given\s*|What you need to know before .+ is given\s*|How .+ is used\s*|How to use .+\s*|What you need to know before you or your child takes .+\s*|What you need to know before your child receives .+\s*|How .+ is given\s*|What you need to know before you \w+ .+\s*|How to take .+\s*|Possible side effects\s*|How to store .+\s*|Contents? of the pack and other information\s*|How .+ is given\s*|How .+ is stored\s*|What you need to know before your child uses .+\s*|Contents of the pack and further information\s*|What you need to know before .+ is used\s*|How you are given .+\s*|How .+ injections are given\s*|How .+ is to be given\s*|What you need to know before your child (?:is given|takes) .+\s*|What you need to know before .+ is given to your child\s*|How will my child receive .+\s*|What is .+ and what it is used for\s*|What you or your child need to know before you or your child use .+\s*)\n"
 
     partterns_list = [
-        "What you need to know before .+ is given to (?:your child|you)\s*",
-        "What do you need to know before you take .+\s*",
-        "How you will be given .+",
         "What .+ is and what it is used for\s*",
+        "What .+ is and what is used for\s*",
+        "What is .+ and what it is used for\s*",
         "What .+ is and what is it used for\s*",
-        "How .+ is given to you\s*",
-        "How .+ will be given\s*",
+        "What .+ are and what they are used for\s*",
+        "What do you need to know before you use .+\s*",
+        "What you need to know when you receive .+\s*",
+        "What you need to know before .+ is given to (?:your child|you)\s*",
         "What you need to know before .+ is given\s*",
-        "How .+ is used\s*",
         "What you need to know before you \(or your child\) use .+\s*",
-        "How to use .+\s*",
         "What you need to know before you or your child takes .+\s*",
         "What you need to know before your child receives .+\s*",
-        "How .+ is given\s*",
         "What you need to know before you \w+ .+\s*",
-        "How to take .+\s*",
         "What you need to know before your baby is given .+\s*",
-        "Possible side effects\s*",
-        "How to store .+\s*",
-        "Contents? of the pack and other information\s*",
+        "What you need to know before your child uses .+\s*",
+        "What you need to know before .+ is used\s*",
+        "What you need to know before your child (?:is given|takes) .+\s*",
+        "What you need to know before .+ is given to your child\s*",
+        "What you or your child need to know before you or your child use .+\s*",
+        "What you or the patient need to know before taking .+\s*",
+        "Before Pedea is administered to your baby\s*",
+        "Before you take\s*",
+        "Before you use\s*",
+        "How you will be given .+",
+        "How .+ is given to you\s*",
+        "How .+ will be given\s*",
+        "How .+ is used\s*",
+        "How to use .+\s*",
+        "How to take .+\s*",
         "How .+ is given\s*",
         "How .+ is made and given\s*",
         "How .+ is stored\s*",
         "How .+ will be given to you\s*",
         "How .+ will be stored\s*",
-        "What you need to know before your child uses .+\s*",
-        "Contents of the pack and further information\s*",
-        "What you need to know before .+ is used\s*",
         "How you are given .+\s*",
         "How .+ injections are given\s*",
         "How .+ is to be given\s*",
-        "What you need to know before your child (?:is given|takes) .+\s*",
-        "What you need to know before .+ is given to your child\s*",
-        "How will my child receive .+\s*",
-        "What is .+ and what it is used for\s*",
-        "What you or your child need to know before you or your child use .+\s*",
         "How to give .+\s*",
         "How to receive .+\s*",
-        "What .+ is and what is used for\s*",
-        "What you or the patient need to know before taking .+\s*",
         "How you or the patient should take .+\s*",
+        "How will my child receive .+\s*",
+        "Possible side effects\s*",
+        "Contents? of the pack and other information\s*",
+        "Contents of the pack and further information\s*",
+        "How to store .+\s*",
+        "Further information\s*",
     ]
-    pattern = r"\n?[1234567]\.\s?\s?\n?\s?(?:" + "|".join(partterns_list) + ")\n"
+    pattern = r"\n?[1234567]\.\s*\s?\n?\s?(?:" + "|".join(partterns_list) + ")\n"
     print(pattern)
 
-    list_ = re.split(
-        pattern,
-        clean_content,
-    )
-    headers = re.findall(pattern, clean_content)
+    list_ = re.split(pattern, clean_content)
+    print(len(list_))
+    # print(list_)
+    headers = re.findall(pattern, clean_content, re.IGNORECASE)
     if len(headers) != 6:
         print("POSSIBLE ERROR PARSING SECTIONSSSSS!")
 
