@@ -213,7 +213,7 @@ Usage: #example
     return True
 
 
-for idx, filename in enumerate(sorted(os.listdir(lang_folder["en"]))[930:]):
+for idx, filename in enumerate(sorted(os.listdir(lang_folder["en"]))):
     print(idx, "-----" * 60)
     try:
         file_path = os.path.join(lang_folder["en"], filename)
@@ -231,7 +231,7 @@ for idx, filename in enumerate(sorted(os.listdir(lang_folder["en"]))[930:]):
         }  # if needed
         with open(OUTPUT_FOLDER + productname + ".fsh", "w") as file:
             file.write("")
-        mpd_id = "mp" + hash_id(regex_replace(mpd_part["name"], "[^A-Za-z0-9]+", ""))
+        mpd_id = "mp" + hash_id(regex_replace(productname, "[^A-Za-z0-9]+", ""))
         # print(mpd_id)
         df_content = [
             {
@@ -387,4 +387,4 @@ InstanceOf: List
             log_file.write("Error processing file: " + file_path + ": " + str(e) + "\n")
         #  print("Error processing file: " + file_path + ": " + str(e))
 
-        raise Exception("Error processing file: " + file_path + ": " + str(e))
+        # raise Exception("Error processing file: " + file_path + ": " + str(e))

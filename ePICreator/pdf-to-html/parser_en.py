@@ -176,6 +176,12 @@ def cleanhtml(raw_html):
         raw_html,
     )
     raw_html = re.sub(
+        r"2\s*\nWhat you need to know before (.+) is given\s*",
+        r"2. What you need to know before \1 is given\n",
+        raw_html,
+    )
+
+    raw_html = re.sub(
         r"3\s*\nHow to give (.+) to your child",
         r"3. How to give \1 to your child",
         raw_html,
@@ -238,11 +244,14 @@ def create_list(clean_content):
         "What is .+ and what it is used for\s*",
         "What .+ is and what is it used for\s*",
         "What .+ are and what they are used for\s*",
+        "What .+ is and What it is used for\s*",
+        "What is .+ and what is it used for\s*",
         "What do you need to know before you use .+\s*",
         "What you need to know when you receive .+\s*",
         "What you need to know before .+ is given to (?:your child|you)\s*",
         "What you need to know before .+ is given\s*",
         "What you need to know before you \(or your child\) use .+\s*",
+        "What you need to know before you \(or your child\) are given .+\s*",
         "What you need to know before you or your child takes .+\s*",
         "What you need to know before your child receives .+\s*",
         "What you need to know before you \w+ .+\s*",
@@ -253,9 +262,11 @@ def create_list(clean_content):
         "What you need to know before .+ is given to your child\s*",
         "What you or your child need to know before you or your child use .+\s*",
         "What you or the patient need to know before taking .+\s*",
+        "What you need to know before giving .+\s*",
         "Before Pedea is administered to your baby\s*",
         "Before you take\s*",
         "Before you use\s*",
+        "How .+ is given to you or your child\s*",
         "How you will be given .+",
         "How .+ is given to you\s*",
         "How .+ will be given\s*",
@@ -263,6 +274,7 @@ def create_list(clean_content):
         "How to use .+\s*",
         "How to take .+\s*",
         "How .+ is given\s*",
+        "How .+ will be used\s*",
         "How .+ is made and given\s*",
         "How .+ is stored\s*",
         "How .+ will be given to you\s*",
@@ -287,7 +299,8 @@ def create_list(clean_content):
     print(len(list_))
     # print(list_)
     headers = re.findall(pattern, clean_content, re.IGNORECASE)
-    if len(headers) != 6:
+    if len(headers) != 6 or len(list_) != 7:
+        print("Headers:", len(headers), "sections", len(list_))
         print("POSSIBLE ERROR PARSING SECTIONSSSSS!")
 
     return list_, headers
