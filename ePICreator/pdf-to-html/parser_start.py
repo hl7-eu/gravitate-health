@@ -64,7 +64,15 @@ def parser_html(language, pdf_path, html_folder="../temp_html/"):
             parse_second_part,
         )
     if language == "pt":
-        from parser_pt import parse_html, cleanhtml, split_parts
+        from parser_pt import (
+            parse_html,
+            cleanhtml,
+            split_parts,
+            create_list,
+            parse_second_part,
+            clean_aspas,
+            create_mpd,
+        )
     if language == "es":
         from parser_es import parse_html, cleanhtml, split_parts
     if language == "fr":
