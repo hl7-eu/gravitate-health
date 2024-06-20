@@ -6,7 +6,7 @@ Description:  "Composition for Flucelvax Package Leaflet - Preprocessed"
 Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
-* identifier.value = "asdasd"
+* identifier.value = "EU/1/18/1326/001"
 
 * status = #final
 
@@ -235,7 +235,7 @@ Description: "[Preprocessed] Bundle for Flucelvax Package Leaflet ePI document"
 Usage: #example
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "EU/1/97/049/001"
+* identifier.value = "EU/1/18/1326/001"
 * type = #document
 * timestamp = "2023-04-25T11:55:27Z"
 * language = #en
