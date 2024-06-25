@@ -293,10 +293,10 @@ def create_list(clean_content):
         "Further information\s*",
     ]
     pattern = r"\n?[1234567]\.\s*\s?\n?\s?(?:" + "|".join(partterns_list) + ")\n"
-    print(pattern)
+    # print(pattern)
 
     list_ = re.split(pattern, clean_content)
-    print(len(list_))
+    # print(len(list_))
     # print(list_)
     headers = re.findall(pattern, clean_content, re.IGNORECASE)
     if len(headers) != 6 or len(list_) != 7:

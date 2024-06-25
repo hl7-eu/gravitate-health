@@ -242,7 +242,7 @@ def create_list(clean_content):
         "Sådan skal de tage .+\s*",
     ]
     pattern = r"\n?[1234567]\.?\s?\s?\n?\s?(?:" + "|".join(parts) + ")\n"
-    print(pattern)
+    # print(pattern)
     list_ = re.split(pattern, clean_content, flags=re.IGNORECASE)
     headers = re.findall(pattern, clean_content, flags=re.IGNORECASE)
     if len(headers) != 6:

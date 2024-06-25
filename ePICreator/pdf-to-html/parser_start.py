@@ -46,6 +46,11 @@ pdf_path = (
 
 pdf_path = "/Users/joaoalmeida/Desktop/hl7Europe/Other projects/chatwithepi/epi-gather/epis-ema/avonex-epar-product-information_en.pdf"
 
+pdf_path = [
+    "/Users/joaoalmeida/Desktop/hl7Europe/Other projects/chatwithepi/epi-gather/epis-ema/avonex-epar-product-information_en.pdf",
+    "",
+]
+
 
 def parser_html(language, pdf_path, html_folder="../temp_html/"):
     if not exists(html_folder):
@@ -157,4 +162,8 @@ def parser_html(language, pdf_path, html_folder="../temp_html/"):
 
 if __name__ == "__main__":
     print("sssss")
-    parser_html(LANGUAGE, pdf_path)
+    if pdf_path is list:
+        for path in pdf_path:
+            parser_html(LANGUAGE, path)
+    else:
+        parser_html(LANGUAGE, pdf_path)

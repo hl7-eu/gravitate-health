@@ -8,13 +8,14 @@ import pandas as pd
 
 OUTPUT_FOLDER = "../../../test-epi-composition/input/fsh/examples/"
 TEMPLATE_FOLDER = "../templates/"
-
+idx_list = []
 with open("log.txt", "w") as log_file:
     log_file.write("Start...." + "\n")
 # Iterate over each file in the folders
 lang_folder = {
     "en": "/Users/joaoalmeida/Desktop/hl7Europe/Other projects/chatwithepi/epi-gather/epis-ema",
     "da": "/Users/joaoalmeida/Desktop/hl7Europe/Other projects/chatwithepi/epi-gather/epis-ema-da",
+    "pt": "/Users/joaoalmeida/Desktop/hl7Europe/Other projects/chatwithepi/epi-gather/epis-ema-pt",
 }
 
 
@@ -40,13 +41,14 @@ def html_unescape(s):
 
 
 def check_other_languages(folders, filename):
-    print(folders, filename)
+    # print(folders, filename)
     file_list = []
     for lang, folder in folders.items():
+        # print(lang, folder)
         if lang != "en":
-            filename = filename.replace("_en.pdf", "_" + lang + ".pdf")
-            if os.path.exists(os.path.join(folder, filename)):
-                file_list.append((os.path.join(folder, filename), lang))
+            nfilename = filename.replace("_en.pdf", "_" + lang + ".pdf")
+            if os.path.exists(os.path.join(folder, nfilename)):
+                file_list.append((os.path.join(folder, nfilename), lang))
     return file_list
 
 
@@ -160,6 +162,66 @@ Usage: #inline
     return True
 
 
+def create_list(TEMPLATE_FOLDER, data, OUTPUT_FOLDER, productname):
+    rtemplate = create_env(TEMPLATE_FOLDER=TEMPLATE_FOLDER, type="string").from_string("""{% if data["data"]|length> 0%}
+RuleSet: {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}ListRuleset
+
+* identifier.system = "{{data["data"].iloc[0]['identifier_system']}}" 
+* identifier.value = "{{data["data"].iloc[0]["identifier_value"]|trim}}"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "{{data["dictionary"]["MajorName"]}}"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with {{data["dictionary"]["MajorName"]}}"
+
+* subject = Reference({{data["references"]["MedicinalProductDefinition"][0][0]}})
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#{{data["dictionary"]["MajorName"]}} "{{data["dictionary"]["MajorName"]}}"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+{% for index,row in data["data"].iterrows() %}
+{% if row["skip"] not in ['y', 'Y', 'x', 'X'] %}
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-{{row["language"]}}-{{data["dictionary"]["productname"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}) // {{data["dictionary"]["productname"][:20]}} {{row["language"]}}
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "{{row["language"]}}"
+
+
+{% endif %}
+{% endfor %}
+
+
+Instance: List-{{data["dictionary"]["productname"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}
+InstanceOf: List
+
+* insert {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}ListRuleset
+{%- endif %}
+
+    """)
+    listdata = rtemplate.render(data=data)
+    # print(data)
+    # Write the modified content back to the file
+    with open(OUTPUT_FOLDER + productname + ".fsh", "a") as file:
+        file.write("\n\n\n")
+        file.write(listdata)
+    return True
+
+
 def create_bundle(
     TEMPLATE_FOLDER,
     OUTPUT_FOLDER,
@@ -266,7 +328,7 @@ for idx, filename in enumerate(sorted(os.listdir(lang_folder["en"]))):
         ################################################## COMPOSITION ##################################################
 
         file_list = check_other_languages(lang_folder, filename)
-        # print(file_list)
+        # print("file_list", file_list)
 
         for files in file_list:
             first_part, second_part, third_part, list_parts, _ = parser_html(
@@ -300,6 +362,7 @@ for idx, filename in enumerate(sorted(os.listdir(lang_folder["en"]))):
         #   print(data)
         # df.to_csv("test.csv")
         create_composition(env, OUTPUT_FOLDER, productname, data)
+        ################################################## BUNDLE ##################################################
 
         create_bundle(
             TEMPLATE_FOLDER,
@@ -309,82 +372,28 @@ for idx, filename in enumerate(sorted(os.listdir(lang_folder["en"]))):
         )
 
         ################################################## MPD ##################################################
-        #   print(data)
 
         create_mpd(TEMPLATE_FOLDER, mpd_part, productname, OUTPUT_FOLDER)
 
-        ################################################## BUNDLE ##################################################
-
         ###### LIST #########
+        create_list(TEMPLATE_FOLDER, data, OUTPUT_FOLDER, productname)
 
-        rtemplate = create_env(
-            TEMPLATE_FOLDER=TEMPLATE_FOLDER, type="string"
-        ).from_string("""{% if data["data"]|length> 0%}
-RuleSet: {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}ListRuleset
-
-* identifier.system = "{{data["data"].iloc[0]['identifier_system']}}" 
-* identifier.value = "{{data["data"].iloc[0]["identifier_value"]|trim}}"
-* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
-* identifier[=].value = "{{data["dictionary"]["MajorName"]}}"
-
-* status = #current
-* mode = #working
-
-* title = "List of all ePIs associated with {{data["dictionary"]["MajorName"]}}"
-
-* subject = Reference({{data["references"]["MedicinalProductDefinition"][0][0]}})
-* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
-* subject.extension[=].valueCoding = $100000000005#{{data["dictionary"]["MajorName"]}} "{{data["dictionary"]["MajorName"]}}"
-* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
-* subject.extension[=].valueCoding = $100000000005#mah-code "None"
-* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
-* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
-* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
-* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
-
-* date = "2015-02-07T13:28:17Z"
-
-{% for index,row in data["data"].iterrows() %}
-{% if row["skip"] not in ['y', 'Y', 'x', 'X'] %}
-
-* entry
-  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
-  * flag.text = "Unchanged"
-  * date = "2015-02-07T13:28:17Z"
-  * item = Reference(bundlepackageleaflet-{{row["language"]}}-{{data["dictionary"]["productname"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}) // {{data["dictionary"]["productname"][:20]}} {{row["language"]}}
-  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
-  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
-  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "{{row["language"]}}"
-
-
-{% endif %}
-{% endfor %}
-
-
-Instance: List-{{data["dictionary"]["productname"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}
-InstanceOf: List
-
-* insert {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}ListRuleset
-{%- endif %}
-
-    """)
-        listdata = rtemplate.render(data=data)
-        # print(data)
-        # Write the modified content back to the file
-        with open(OUTPUT_FOLDER + productname + ".fsh", "a") as file:
-            file.write("\n\n\n")
-            file.write(listdata)
-
-    except TypeError as e:
-        print("type error")
-    except UnboundLocalError as e:
-        print("UnboundLocalError")
     except Exception as e:
         print(e)
+        idx_list.append(idx)
         with open("log.txt", "a") as log_file:
             # log_file.write("Processed file: " + file_path + "\n")
-            log_file.write("Error processing file: " + file_path + ": " + str(e) + "\n")
-        #  print("Error processing file: " + file_path + ": " + str(e))
+            log_file.write(
+                "Error: ["
+                + str(idx)
+                + "] "
+                + file_path
+                + " "
+                + files[1]
+                + ": "
+                + str(e)
+                + "\n"
+            )
 
-        # raise Exception("Error processing file: " + file_path + ": " + str(e))
+print(idx_list)
+# raise Exception("Error processing file: " + file_path + ": " + str(e))

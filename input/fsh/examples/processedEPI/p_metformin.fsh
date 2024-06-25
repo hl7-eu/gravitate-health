@@ -295,7 +295,7 @@ Description: "ePI document Bundle for Metformin 500 mg tablet Package Leaflet fo
 Usage: #example
 
 * identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "himss-metformin-proc"
+* identifier.value = "himss-metformin"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
