@@ -18,7 +18,7 @@ Usage: #inline
 * packaging.identifier.value = "NDC:0069-0688-07"
 * packaging.type = $ncit#C43192 "Dose Pack"
 * packaging.quantity = 1
-* packaging.shelfLifeStorage.periodDuration = 48 https://unitsofmeasure.org#mo "mo"
+//* packaging.shelfLifeStorage.periodDuration = 48 https://unitsofmeasure.org#mo "mo"
 * packaging.shelfLifeStorage.specialPrecautionsForStorage = $ncit#C101707 "Recommended Storage Temperature"
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.text = "Store at 20°C to 25°C (68°F to 77°F); excursions permitted between 15°C to 30°C (59°F to 86°F) [see USP Controlled Room Temperature]. Store in the original blister pack."
 * packaging.manufacturer = Reference(ORG3)
