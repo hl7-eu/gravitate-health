@@ -284,7 +284,7 @@ for idx, filename in enumerate(sorted(os.listdir(lang_folder["en"]))):
         first_part, second_part, third_part, list_parts, mpd_part = parser_html(
             "en", file_path
         )
-        #  print(mpd_part)
+        print(mpd_part)
 
         productname = filename.split("-")[0]
         data_dict = {
@@ -298,7 +298,7 @@ for idx, filename in enumerate(sorted(os.listdir(lang_folder["en"]))):
         df_content = [
             {
                 "identifier_system": "http://ema.europa.eu/identifier",
-                "identifier": "identifier",
+                "identifier": mpd_part["number"],
                 "date": "2022-02-16T13:28:17Z",
                 "language": "en",
                 "name": productname,
@@ -337,7 +337,7 @@ for idx, filename in enumerate(sorted(os.listdir(lang_folder["en"]))):
             df_content.append(
                 {
                     "identifier_system": "http://ema.europa.eu/identifier",
-                    "identifier": "identifier",
+                    "identifier": mpd_part["number"],
                     "date": "2022-02-16T13:28:17Z",
                     "language": files[1],
                     "name": productname,

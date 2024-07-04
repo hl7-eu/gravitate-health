@@ -111,3 +111,19 @@ GET http://gravitate-health.lst.tfo.upm.es/focusing/lenses/pregnancy-lens
 ### a lens
 
 GET https://gravitate-health.lst.tfo.upm.es/ips/api/fhir/Library/588
+
+
+### troubleshoot app
+
+GET https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/Composition?subject.identifier=EU/1/20/1457/002&_language=en
+
+
+###EU/1/20/1457/002
+### first query
+
+GET https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/MedicinalProductDefinition?name%3Acontains=xen
+
+
+### troubleshoot app
+
+GET https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/Composition?subject=mp962167f0883d517c612253bd6d108856

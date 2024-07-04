@@ -2,6 +2,12 @@ import re
 
 
 def create_mpd(html_content):
+    def validate_manumber(mylist, idx, limit=5):
+        for i in range(idx, idx + limit):
+            if "EU/" in mylist[i]:
+                return mylist[i]
+        return None
+
     def check_space(mylist, nr):
         if mylist[nr] == " ":
             return check_space(mylist, nr + 1)
@@ -16,7 +22,8 @@ def create_mpd(html_content):
             # print("MAH", idx, line)
 
             # print(pasr[idx + 1], pasr[idx + 2], pasr[idx + 3])
-            manumber = check_space(pasr, idx + 1)
+            manumber = validate_manumber(pasr, idx)
+            # manumber = check_space(pasr, idx + 1)
             # pass
         if (
             "DATE OF FIRST AUTHORISATION/RENEWAL OF THE AUTHORISATION" in line

@@ -21,6 +21,8 @@ Description:  "Additional Support Material Profile"
 * content.attachment.url MS
 * content.attachment.hash MS
 * content.attachment.title MS
+* content.attachment.title 1..1
+
 * content.attachment.creation MS
 
 * relatesTo MS
