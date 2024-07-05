@@ -39,7 +39,7 @@ Usage: #example
 * status = #current
 * docStatus = #final
 * content.attachment.language = #en
-* content.attachment.contentType = #audio/mpeg
+* content.attachment.contentType = #video/mp4
 * content.attachment.url = "https://www.youtube.com/watch?v=rb7TVW77ZCs"
 * content.attachment.duration = 715 // in seconds
 * content.attachment.title = "Vaccination: How does it work? - Kelwalin Dhanasarnsom"
@@ -47,8 +47,8 @@ Usage: #example
 
 Instance: asm-alicia-example-2
 InstanceOf: ASM
-Title: "Example of additional support material - test match for alicia, HIV and biktarvy"
-Description:  "Example of additional support material - test match for alicia, HIV and biktarvy"
+Title: "Example of additional support material - test match for alicia, HIV and biktarvy - test video"
+Description:  "Example of additional support material - test match for alicia, HIV and biktarvy - test video"
 Usage: #example
 
 * identifier[+].system = "http://example.org"
@@ -67,10 +67,99 @@ Usage: #example
 * status = #current
 * docStatus = #final
 * content.attachment.language = #en
-* content.attachment.contentType = #audio/mpeg
+* content.attachment.contentType = #video/mp4
 * content.attachment.url = "https://www.youtube.com/watch?v=HpndrPLs1Y8"
 * content.attachment.duration = 715 // in seconds
 * content.attachment.title = "Support on Biktarvy for HIV and AIDS - Dr. John Doe"
+
+
+
+Instance: asm-biktarvy-example-4
+InstanceOf: ASM
+Title: "Example of additional support material - test match for alicia, HIV and biktarvy - test audio"
+Description:  "Example of additional support material - test match for alicia, HIV and biktarvy - test audio"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "teste1"
+
+* extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/relatedMedicalIssue"
+* extension.valueCodeableReference.concept = $sct#86406008
+
+* version = "1.0"
+
+* author.display = "test"
+
+* subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
+
+* description = "Test-audio"
+* status = #current
+* docStatus = #final
+* content.attachment.language = #en
+* content.attachment.contentType = #audio/mpeg
+* content.attachment.url = "https://soundcloud.com/duo-wine-and-roses/just-the-two-of-us?in=trending-music-ibe/sets/jazz&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+* content.attachment.duration = 715 // in seconds
+* content.attachment.title = "Support on Biktarvy for HIV and AIDS - Dr. John Doe"
+
+
+
+
+Instance: asm-biktarvy-example-6
+InstanceOf: ASM
+Title: "Example of additional support material - test match for alicia, HIV and biktarvy - test document"
+Description:  "Example of additional support material - test match for alicia, HIV and biktarvy - test document"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "teste1"
+
+* extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/relatedMedicalIssue"
+* extension.valueCodeableReference.concept = $sct#86406008
+
+* version = "1.0"
+
+* author.display = "test"
+
+* subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
+
+* description = "Test-teste-pdf"
+* status = #current
+* docStatus = #final
+* content.attachment.language = #en
+* content.attachment.contentType = #application/pdf
+* content.attachment.url = "https://www.gilead.com/-/media/files/pdfs/other/biktarvy_br_bula-paciente.pdf"
+* content.attachment.duration = 715 // in seconds
+* content.attachment.title = "Support on Biktarvy for HIV and AIDS - Dr. John Doe"
+
+Instance: asm-biktarvy-example-5
+InstanceOf: ASM
+Title: "Example of additional support material - test match for alicia, HIV and biktarvy - test image"
+Description:  "Example of additional support material - test match for alicia, HIV and biktarvy - test image"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "teste1-image"
+
+* extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/relatedMedicalIssue"
+* extension.valueCodeableReference.concept = $sct#86406008
+
+* version = "1.0"
+
+* author.display = "test"
+
+* subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
+
+* description = "Test-teste-image"
+* status = #current
+* docStatus = #final
+* content.attachment.language = #en
+* content.attachment.contentType = #image/jpeg
+* content.attachment.url = "https://www.drugs.com/images/pills/fio/GIL25010/biktarvy.JPG"
+* content.attachment.duration = 715 // in seconds
+* content.attachment.title = "Support on Biktarvy for HIV and AIDS - Dr. John Doe"
+
+
+
 
 
 
@@ -95,11 +184,10 @@ Usage: #example
 * status = #current
 * docStatus = #final
 * content.attachment.language = #en
-* content.attachment.contentType = #audio/mpeg
+* content.attachment.contentType = #video/mp4
 * content.attachment.url = "https://www.youtube.com/watch?v=qKcRUOWYQ9w"
 * content.attachment.duration = 715 // in seconds
 * content.attachment.title = "self-help method for those experiencing low mood and depression."
-
 
 
 
@@ -121,7 +209,7 @@ Usage: #example
 * status = #current
 * docStatus = #final
 * content.attachment.language = #en
-* content.attachment.contentType = #audio/mpeg
+* content.attachment.contentType = #video/mp4
 * content.attachment.url = "https://www.youtube.com/watch?v=nJxoFG9Y8xE"
 * content.attachment.duration = 715 // in seconds
 * content.attachment.title = "Patient education program explaining Xarelto"
