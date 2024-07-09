@@ -19,8 +19,8 @@ Description: "Adding information to ePIs in the FHIR format. This information ma
 * extension contains
     elementClass 0..1 and
     concept 1..1 and type 0..1
-* extension[concept] ^short = "Data to be used, can be a reference to a resourc, a CodeableConcept, or a base64 encoded string or a URL"
-* extension[concept].value[x] only CodeableReference or base64Binary or url
+* extension[concept] ^short = "Data to be used, can be a reference to a resource, a CodeableConcept, or a base64 encoded string, a URL or a string"
+* extension[concept].value[x] only CodeableReference or base64Binary or url or string
 
 * extension[type].value[x] only CodeableConcept 
 * extension[type].value[x] from TypeOfDataVS (preferred)

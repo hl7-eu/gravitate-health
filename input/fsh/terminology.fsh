@@ -257,8 +257,13 @@ Description:  "Type of information to be added in epi CS"
 * #VIDEO
     "Video"
     "Video"
-
-
+* #TXT
+    "Text"
+    "Text"
+* #URL
+    "URL"
+    "URL"
+    
 ValueSet: TypeOfDataVS
 Id:         type-of-data-vs
 
