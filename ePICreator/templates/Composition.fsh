@@ -98,7 +98,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "{{ns.title}}"
   * text.status = #additional
-{% if row["package_leaflet"]|string == "nan" %}
+{% if row["package_leaflet"]|string == "nan"  or row["package_leaflet"]|string == "" %}
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable
@@ -106,7 +106,7 @@ Usage: #inline
   * text.div = """{{row['package_leaflet']|html_unescape}}"""
 
 {% else %}
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['package_leaflet']|html_unescape}}         </div>"""
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['package_leaflet']|html_unescape}} </div>"""
 {%- endif %}   
 
 
@@ -116,15 +116,15 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "{{ns.user}}"
   * text.status = #additional
-{% if row["information_user"]|string == "nan" %}
-
+  {{row["information_user"]|string == ""}}
+{% if row["information_user"]|string == "nan"  or row["information_user"]|string == "" %}
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable
 {%- elif row["information_user"].startswith("<div xmlns='http://www.w3.org/1999/xhtml'>")  %}   
   * text.div = """{{row['information_user']|html_unescape}}"""
 
 {% else %}
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['information_user']|html_unescape}}         </div>"""
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['information_user']|html_unescape}}  </div>"""
 {%- endif %}   
 
 
@@ -134,7 +134,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "{{ns.leaflet}}"
   * text.status = #additional
-{% if row["what_in_leaflet"]|string == "nan" %}
+{% if row["what_in_leaflet"]|string == "nan"  or row["what_in_leaflet"]|string == "" %}
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable
@@ -142,7 +142,7 @@ Usage: #inline
   * text.div = """{{row['what_in_leaflet']|html_unescape}}"""
 
 {% else %}
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['what_in_leaflet']|html_unescape}}         </div>"""
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['what_in_leaflet']|html_unescape}} </div>"""
 {%- endif %}   
           
 
@@ -151,7 +151,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "{{ns.h1}}"
   * text.status = #additional
-{% if row["what_product_is"]|string == "nan" %}
+{% if row["what_product_is"]|string == "nan" or row["what_product_is"]|string == ""%}
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable
@@ -160,7 +160,7 @@ Usage: #inline
   * text.div = """{{row['what_product_is']|html_unescape}}"""
 
 {% else %}
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['what_product_is']|html_unescape}}         </div>"""
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['what_product_is']|html_unescape}} </div>"""
 {%- endif %}   
           
 
@@ -170,7 +170,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "{{ns.h2}}"
   * text.status = #additional
-{% if row["before_take"]|string == "nan" %}
+{% if row["before_take"]|string == "nan" or row["before_take"]|string == "" %}
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable
@@ -178,7 +178,7 @@ Usage: #inline
   * text.div = """{{row['before_take']|html_unescape}}"""
 
 {% else %}
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['before_take']|html_unescape}}         </div>"""
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['before_take']|html_unescape}} </div>"""
 {%- endif %}   
                     
 * section[=].section[+]
@@ -186,7 +186,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "{{ns.h3}}"
   * text.status = #additional
-{% if row["how_to_take"]|string == "nan" %}
+{% if row["how_to_take"]|string == "nan" or row["how_to_take"]|string == "" %}
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable 
@@ -194,7 +194,7 @@ Usage: #inline
   * text.div = """{{row['how_to_take']|html_unescape}}"""
 
 {% else %}
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['how_to_take']|html_unescape}}         </div>"""
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['how_to_take']|html_unescape}} </div>"""
 {%- endif %}         
 
         
@@ -203,7 +203,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "{{ns.h4}}"
   * text.status = #additional
-{% if row["side_effects"]|string == "nan" %}
+{% if row["side_effects"]|string == "nan" or row["side_effects"]|string == "" %}
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable  
@@ -211,7 +211,7 @@ Usage: #inline
   * text.div = """{{row['side_effects']|html_unescape}}"""
 
 {% else %}
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['side_effects']|html_unescape}}         </div>"""
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['side_effects']|html_unescape}} </div>"""
 {%- endif %}      
         
 * section[=].section[+]
@@ -219,7 +219,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "{{ns.h5}}"
   * text.status = #additional
-{% if row["how_to_store"]|string == "nan" %}
+{% if row["how_to_store"]|string == "nan" or row["how_to_store"]|string == ""  %}
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable
@@ -227,7 +227,7 @@ Usage: #inline
   * text.div = """{{row['how_to_store']|html_unescape}}"""
 
 {% else %}
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['how_to_store']|html_unescape}}         </div>"""
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['how_to_store']|html_unescape}} </div>"""
 {%- endif %}      
         
         
@@ -236,7 +236,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "{{ns.h6}}"
   * text.status = #additional
-{% if row["other_info"]|string == "nan" %}
+{% if row["other_info"]|string == "nan" or row["other_info"]|string == ""  %}
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable
@@ -244,7 +244,7 @@ Usage: #inline
   * text.div = """{{row['other_info']|html_unescape}}"""
 
 {% else %}
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['other_info']|html_unescape}}         </div>"""
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  {{row['other_info']|html_unescape}} </div>"""
 {%- endif %}      
 
 {% endif %}
