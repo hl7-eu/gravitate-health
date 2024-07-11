@@ -116,7 +116,6 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "{{ns.user}}"
   * text.status = #additional
-  {{row["information_user"]|string == ""}}
 {% if row["information_user"]|string == "nan"  or row["information_user"]|string == "" %}
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable
