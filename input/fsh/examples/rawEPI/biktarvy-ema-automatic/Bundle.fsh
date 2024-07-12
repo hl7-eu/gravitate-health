@@ -98,6 +98,9 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
 * entry[=].resource = mp2a9c4333cfd126f2e7b73ad3cafd6949 
 
 
+ 
+
+
 // ManufacturedItemDefinition
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-94a96e39cfdcd8b378d12dd4063065f9"
 * entry[=].resource = mid-94a96e39cfdcd8b378d12dd4063065f9 

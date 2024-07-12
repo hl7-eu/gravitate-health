@@ -56,7 +56,7 @@ informação importante para si.</p>
 <li>Este medicamento foi receitado apenas para si. Não deve dá-lo a outros; o medicamento pode serlhes prejudicial mesmo que apresentem os mesmos sinais de doença.</li>
 <li>Se tiver quaisquer efeitos secundários, incluindo efeitos secundários não indicados neste folheto,
 fale com o seu médico ou farmacêutico. </li>
-</ul>         </div>"""   
+</ul>  </div>"""   
 
 
 
@@ -73,7 +73,7 @@ fale com o seu médico ou farmacêutico. </li>
 <li>Efeitos secundários possíveis</li>
 <li>Como conservar Karvea</li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -92,7 +92,7 @@ Karvea é usado em doentes adultos</p>
 <li>para tratar a pressão arterial elevada (hipertensão essencial)</li>
 <li>para proteger os rins nos doentes com pressão arterial elevada, diabetes do tipo 2 e evidência
 laboratorial de insuficiência dos rins. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -176,7 +176,7 @@ efeitos, fale com o seu médico antes de tentar conduzir ou utilizar máquinas.<
 <p><strong>Karvea contém lactose.</strong> Se foi informado pelo seu médico de que é intolerante a alguns açúcares (por
 exemplo, a lactose), deverá contactá-lo antes de tomar este medicamento.</p>
 <p><strong>Karvea contém sódio.</strong> Este medicamento contém menos de 1 mmol de sódio (23 mg) por
-comprimido, ou seja, é praticamente &#39;isento de sódio&#39;. </p>         </div>"""   
+comprimido, ou seja, é praticamente &#39;isento de sódio&#39;. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar Karvea"
@@ -212,7 +212,7 @@ Caso se tenha esquecido de tomar Karvea
 Se, acidentalmente, não tomar uma dose diária, tome a dose seguinte como planeado. Não tome uma
 dose a dobrar para compensar uma dose que se esqueceu de tomar.</p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -260,7 +260,7 @@ baixos níveis de açúcar no sangue. Foram também notificados casos pouco freq
 <p>Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos secundários
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar
-efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar Karvea"
@@ -273,7 +273,7 @@ após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Não conservar acima de 30ºC.</p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
 farmacêutico como deitar fora os medicamentos que já não necessita. Estas medidas ajudarão a
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -402,7 +402,7 @@ sanofi-aventis Ireland Ltd. T/A SANOFI
 Tel: +44 (0) 800 035 2525</p>
 <p><strong>Este folheto foi revisto pela última vez em</strong></p>
 <p>Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência
-Europeia de Medicamentos <a href="http://www.ema.europa.eu/">http://www.ema.europa.eu/</a> </p>         </div>"""      
+Europeia de Medicamentos <a href="http://www.ema.europa.eu/">http://www.ema.europa.eu/</a> </p> </div>"""      
 
 
 

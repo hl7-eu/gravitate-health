@@ -73,7 +73,7 @@ information for you.</strong></p>
 their signs of illness are the same as yours.</li>
 <li>If you get any side effects, talk to your doctor, or pharmacist. This includes any possible side effects
 not listed in this leaflet. See section 4.</li>
-</ul>         </div>"""   
+</ul>  </div>"""   
 
 
 
@@ -112,7 +112,7 @@ analogue reverse transcriptase inhibitors (NRTIs).</p>
 maintain the number of CD4 cells in your blood. CD4 cells are a type of white blood cells that are important
 in helping your body to fight infection.</p>
 <p>Not everyone responds to treatment with Dovato in the same way. Your doctor will monitor the effectiveness
-of your treatment.</p>         </div>"""   
+of your treatment.</p> </div>"""   
           
 
              
@@ -208,7 +208,7 @@ as possible.</p>
 <p>Dovato can make you dizzy, and have other side effects that make you less alert.</p>
 <ul>
 <li>Don’t drive or operate machinery unless you are sure you’re not affected.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take Dovato"
@@ -255,7 +255,7 @@ dose you missed and take the next one at the usual time. Then continue your trea
 <p><strong>Don’t stop taking Dovato without advice from your doctor</strong></p>
 <p>Take Dovato for as long as your doctor recommends. Don’t stop unless your doctor tells you to. Stopping
 Dovato can affect your health and how future treatment works.</p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -398,7 +398,7 @@ will test for these changes.</p>
 <p><strong>Reporting of side effects</strong></p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed
 in this leaflet. You can also report side effects directly via the national reporting system listed in
-Appendix V. By reporting side effects you can help provide more information on the safety of this medicine.</p>         </div>"""      
+Appendix V. By reporting side effects you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store Dovato"
@@ -410,7 +410,7 @@ Appendix V. By reporting side effects you can help provide more information on t
 date refers to the last day of that month.</p>
 <p>This medicine does not require any special storage conditions.</p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw
-away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -434,7 +434,7 @@ titanium dioxide (E171).</li>
 <p>Each bottle contains 30 film-coated tablets.</p>
 <p>Multipacks containing 90 film-coated tablets (3 packs of 30 film-coated tablets) are also available.
 Not all pack sizes may be available in your c
-ountry</p>         </div>"""      
+ountry</p> </div>"""      
 
 
 

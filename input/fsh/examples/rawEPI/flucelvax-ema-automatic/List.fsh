@@ -29,7 +29,7 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -41,7 +41,7 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -64,9 +64,9 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdListRuleset
 //[('processedbundledovato-en', 'en'), ('processedbundledovato-es', 'es')]
 
 //EU/1/18/1326/001
-//[('processedbundleflucelvaxES', 'es')]
+//[('processedbundleflucelvaxES', 'es'), ('processedbundleflucelvax', 'en')]
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#02
   * flag.text = "preprocessed"
   * date = "2015-02-07T13:28:17Z"
@@ -75,6 +75,16 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "es"
+
+* entry[+]
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#02
+  * flag.text = "preprocessed"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(processedbundleflucelvax)
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
 
 
 //EU/1/18/1289/001
@@ -86,11 +96,11 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdListRuleset
 //68290
 //[('processedbundlekarveacalcium', 'es')]
 
-//himss-metformin-proc
+//himss-metformin
 //[('bundle-met-proc', 'en')]
 
 //EU/1/97/049/001
-//[('Processedbundlekarvea', 'en'), ('bundle-processed-pt-2d49ae46735143c1323423b7aea24165', 'pt'), ('processedbundleflucelvax', 'en')]
+//[('Processedbundlekarvea', 'en'), ('bundle-processed-pt-2d49ae46735143c1323423b7aea24165', 'pt')]
 
 //EU/1/98/071/004
 //[('bundlepackageleaflet-es-proc-4fab126d28f65a1084e7b50a23200363', 'es')]

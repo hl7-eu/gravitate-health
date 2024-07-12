@@ -52,7 +52,7 @@ contiene información importante para usted. </p>
 <p>• Si tiene alguna duda, consulte a su médico* farmacéutico. </p>
 <p>• Este medicamento se le ha recetado solamente a usted y no debe dárselo a otras personas, 
 aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.  </p>
-<p>• Si experimenta efectos adversos, consulte a su médico* farmacéutico, incluso si se trata deefectos adversos que no aparecen en este prospecto. Ver sección 4 </p>         </div>"""   
+<p>• Si experimenta efectos adversos, consulte a su médico* farmacéutico, incluso si se trata deefectos adversos que no aparecen en este prospecto. Ver sección 4 </p>  </div>"""   
 
 
 
@@ -69,7 +69,7 @@ aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.  </p>
 <li>Posibles efectos adversos </li>
 <li>Conservación de Xenical </li>
 <li>Contenido del envase e información adicional </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +81,7 @@ aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.  </p>
 evitando que se digiera alrededor de un tercio de la grasa contenida en la comida que ingiere.Xenical se une a enzimas de su sistema digestivo (lipasas) evitando que hidrolicen parte de las grasas 
 que ha ingerido durante la comida. La grasa no digerida no puede absorberse y su cuerpo la elimina. </p>
 <p>Xenical está indicado para el tratamiento de la obesidad, junto con una dieta con bajo contenido en 
-calorías.  </p>         </div>"""   
+calorías.  </p> </div>"""   
           
 
              
@@ -159,7 +159,7 @@ tragar la cápsula con agua. </p>
 <p><strong>Embarazo y lactancia</strong>No se recomienda tomar Xenical durante el embarazo. 
 No debe amamantar a su hijo durante el tratamiento con Xenical, ya que se desconoce si Xenical pasa 
 a la leche materna. </p>
-<p><strong>Conducción y uso de máquinas</strong>Xenical no tiene ningún efecto conocido sobre la capacidad para conducir o utilizar maquinas. </p>         </div>"""   
+<p><strong>Conducción y uso de máquinas</strong>Xenical no tiene ningún efecto conocido sobre la capacidad para conducir o utilizar maquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Cómo tomar XENICAL 120 mg cápsulas duras "
@@ -194,7 +194,7 @@ condición de que sea hasta una hora después de ingerir su comida y a continuac
 tomándolo a los intervalos habituales. No tome una dosis doble para compensar las dosis olvidadas. Si 
 ha dejado de tomar varias dosis, por favor, informe a su médico y siga el consejo que éste le dé.  </p>
 <p>No cambie por sí mismo la dosis prescrita a menos que se lo diga su médico. </p>
-<p>Si tiene cualquier duda sobre el uso de este producto, pregunte a su medico o farmacéutico. </p>         </div>"""         
+<p>Si tiene cualquier duda sobre el uso de este producto, pregunte a su medico o farmacéutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -235,7 +235,7 @@ especial cuidado con Xenical.Interacciones con anticoagulantes. </p>
 trata de  posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos 
 directamente a través del sistema nacional de notificación incluido en el Anexo V*. Mediante la 
 comunicación de efectos adversos usted puede contribuir a  proporcionar más información sobre la 
-seguridad de este medicamento. </p>         </div>"""      
+seguridad de este medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Conservación de XENICAL 120 mg cápsulas duras "
@@ -252,7 +252,7 @@ No conservar a temperatura superior a 30 ºC
 Mantener el envase perfectamente cerrado para protegerlo de la humedad </p>
 <p>Los medicamentos no se deben tirar por los desagües ni a la basura. Pregunte a su farmacéutico cómo 
 deshacerse de los envases y de los medicamentos que ya no necesita. De esta forma ayudará a proteger 
-el medio ambiente. </p>         </div>"""      
+el medio ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -283,5 +283,5 @@ Alemania </p>
 Ziegelhof 23-17489 GreifswaldAlemania </p>
 <p>Fecha de la última revisión de este prospecto </p>
 <p>La información detallada de este medicamento está disponible en la página web de la Agencia 
-Europea de Medicamentos <a href="http://www.ema.europa.eu/">http://www.ema.europa.eu/</a>. </p>         </div>"""      
+Europea de Medicamentos <a href="http://www.ema.europa.eu/">http://www.ema.europa.eu/</a>. </p> </div>"""      
 

@@ -50,7 +50,7 @@ Usage: #inline
 <li>If you have any further questions, please ask your doctor or your pharmacist.</li>
 <li>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.</li>
 <li>If you get any of the side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.</li>
-</ul>         </div>"""   
+</ul>  </div>"""   
 
 
 
@@ -66,7 +66,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Xenical</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +76,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xenical is a medicine used to treat obesity. It works in your digestive system to block about one-third of the fat in the food you eat from being digested.
 Xenical attaches to the enzymes in your digestive system (lipases) and blocks them from breaking down some of the fat you have eaten during your meal. The undigested fat cannot be absorbed and is eliminated by your body.</p>
-<p>Xenical is indicated in the treatment of obesity in conjunction with a low calorie intake diet.</p>         </div>"""   
+<p>Xenical is indicated in the treatment of obesity in conjunction with a low calorie intake diet.</p> </div>"""   
           
 
              
@@ -123,7 +123,7 @@ alimentary tract),</li>
 Taking Xenical during pregnancy is not recommended.
 You must not breast-feed your infant during treatment with Xenical as it is not known whether Xenical passes into human milk.</p>
 <p><strong>Driving and using machines</strong>
-Xenical has no known effect on your ability to drive a car or operate machinery.</p>         </div>"""   
+Xenical has no known effect on your ability to drive a car or operate machinery.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take Xenical 120mg hard capsules 12 capsules"
@@ -140,7 +140,7 @@ Xenical has no known effect on your ability to drive a car or operate machinery.
 <p>If you take more capsules than you have been told to take, or if someone else accidentally takes your medicine, contact a doctor, pharmacist or hospital as you may need medical attention.</p>
 <p><strong>If you forget to take XENICAL</strong></p>
 <p>If you forget to take your medicine at any time, take it as soon as you remember provided this is within one hour of your last meal, then continue to take it at the usual times. Do not take a double dose. If you have missed several doses, please inform your doctor and follow the advice given to you. Do not change the prescribed dose yourself unless your doctor tells you to.</p>
-<p>If you have further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+<p>If you have further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -159,7 +159,7 @@ type 2 diabetes), tooth/gum disorder, irregularity of menstrual cycle, tiredness
 <p>The following side effects have also been reported but their frequency cannot be estimated from the available data:</p>
 <p>Allergic reactions. The main symptoms are itching, rash, wheals (slightly elevated, itchy skin patches that are paler or redder than surrounding skin), severe difficulty in breathing, nausea, vomiting and feeling unwell. Skin blistering (including blisters that burst). Diverticulitis. Bleeding from the back passage (rectum). Increases in the levels of some liver enzymes may be found in blood tests. Hepatitis (inflammation of the liver). Symptoms can include yellowing skin and eyes, itching, dark coloured urine, stomach pain and liver tenderness (indicated by pain under the front of the rib cage on your right hand side), sometimes with loss of appetite. Stop Xenical if such symptoms occur and tell your doctor. Gallstones. Pancreatitis (inflammation of the pancreas). Oxalate nephropathy (build up of calcium oxalate which may lead to kidney stones). See Chapter 2, take special care with Xenical. Effects on clotting with anti-coagulants.</p>
 <p><strong>Reporting of side effects</strong></p>
-<p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix V*. By reporting side effects you can help provide more information on the safety of this medicine.</p>         </div>"""      
+<p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix V*. By reporting side effects you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store Xenical 120mg hard capsules 12 capsules"
@@ -171,7 +171,7 @@ type 2 diabetes), tooth/gum disorder, irregularity of menstrual cycle, tiredness
 <p>Do not use Xenical after the expiry date stated on the carton.</p><p>Do not store above 25 °C.</p><p>Store in original package and keep the blister in the outer carton in order to protect from light and moisture.  </p>
 <p><strong>Glass bottles</strong></p>
 <p>Do not use Xenical after the expiry date stated on the bottle. Do not store above 30 °C.</p><p>Keep container tightly closed in order to protect from moisture.  </p>
-<p>Medicines should not be disposed via wastewater or household waste. Ask your pharmacist how to dispose of medicines no longer required. These measures will help to protect the environment.</p>         </div>"""      
+<p>Medicines should not be disposed via wastewater or household waste. Ask your pharmacist how to dispose of medicines no longer required. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -202,7 +202,7 @@ CHEPLAPHARM Arzneimittel GmbH Bahnhofstr. 1a  </p>
 <p>Germany  </p>
 <p>This leaflet was last revised in &lt;{MM/YYYY}&gt; &lt;{month YYYY}&gt;.</p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site:
-<a href="http://www.ema.europa.eu">http://www.ema.europa.eu</a></p>         </div>"""      
+<a href="http://www.ema.europa.eu">http://www.ema.europa.eu</a></p> </div>"""      
 
 
 

@@ -56,7 +56,7 @@ adalimumab</p>
 <li>This medicine has been prescribed for your child only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as your child.</li>
 <li>If your child gets any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.</li>
 </ul>
-         </div>"""   
+  </div>"""   
 
 
 
@@ -74,7 +74,7 @@ adalimumab</p>
 <li>How to store Humira</li>
 <li>Contents of the pack and other information</li>
 <li>Injecting Humira</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -129,7 +129,7 @@ affecting the front of the eye
 This inflammation may lead to a decrease of vision and/or the presence of floaters in the eye (black dots or
 wispy lines that move across the field of vision). Humira works by reducing this inflammation.
 Your child may first be given other medicines. If these medicines do not work well enough, your child
-will be given Humira to reduce the signs and symptoms of his/her disease.</p>         </div>"""   
+will be given Humira to reduce the signs and symptoms of his/her disease.</p> </div>"""   
           
 
              
@@ -249,7 +249,7 @@ treatment with a TNF blocker is appropriate for your child.
 </li>
 <li>On rare occasions, treatment with Humira could result in lupus-like syndrome. Contact your
 doctor if symptoms such as persistent unexplained rash, fever, joint pain or tiredness occur.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take 0"
@@ -275,7 +275,7 @@ not forgotten a dose.
 <strong>If you stop using Humira</strong>
 The decision to stop using Humira should be discussed with your doctor. Your child’s symptoms may
 return if you stop using Humira.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -465,7 +465,7 @@ blood tests. These include:
 If your child gets any side effects, talk to your doctor or pharmacist. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting system
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety of
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store 0"
@@ -485,7 +485,7 @@ discarded</strong>, even if it is returned to the refrigerator.
 You should record the date when the syringe is first removed from refrigerator and the date after which it
 should be discarded.
 Do not throw away any medicines via wastewater or household waste. Ask your doctor or pharmacist how
-to throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+to throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]

@@ -58,7 +58,7 @@ indeholder vigtige oplysninger.
 Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger, 
 som ikke er nævnt her. Se punkt 4.<br />
-Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""   
+Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>  </div>"""   
 
 
 
@@ -73,7 +73,7 @@ Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""
 3. Sådan skal du tage Karvea 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -95,7 +95,7 @@ nyrefunktion hos patienter med forhøjet blodtryk og type 2 diabetes (sukkersyge
 <p>til at beskytte nyrerne hos patienter med for højt blodtryk, type 2 diabetes og blodprøver, der viser 
 nedsat nyrefunktion. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -208,7 +208,7 @@ Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at
 sukkerarter. </p>
 <p>Karvea indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take Karvea"
@@ -244,7 +244,7 @@ Hvis du ved et uheld har taget for mange tabletter, skal du omgående kontakte l
 <p>Hvis du har glemt at tage Karvea 
 Hvis du har glemt at tage en dosis, skal du blot tage den næste til sædvanlig tid. Tag ikke dobbeltdosis 
 som erstatning for den glemte dosis. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -295,7 +295,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store Karvea"
@@ -307,7 +307,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30°C. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -437,5 +437,5 @@ United Kingdom (Northern Ireland)
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2 
 Denne indlægsseddel blev senest ændret  </p>
-<p>Du kan finde yderligere information om Karvea på Det Europæiske Lægemiddelagenturs hjemmeside </p>         </div>"""      
+<p>Du kan finde yderligere information om Karvea på Det Europæiske Lægemiddelagenturs hjemmeside </p> </div>"""      
 

@@ -54,7 +54,7 @@ Usage: #inline
 los mismos síntomas que usted, ya que puede perjudicarles.</li>
 <li>Si experimenta efectos adversos, consulte a su médico o farmacéutico, incluso si se trata de efectos
 adversos que no aparecen en este prospecto. Ver sección 4.</li>
-</ul>         </div>"""   
+</ul>  </div>"""   
 
 
 
@@ -71,7 +71,7 @@ adversos que no aparecen en este prospecto. Ver sección 4.</li>
 <li>Posibles efectos adversos</li>
 <li>Conservación de Blaston 1 mg Comprimidos</li>
 <li>Contenido del envase e información adicional</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +83,7 @@ adversos que no aparecen en este prospecto. Ver sección 4.</li>
 motilidad gastrointestinal.</p>
 <p>Blaston está indicado para el tratamiento del reflujo gastroesofágico para potenciar el efecto de los
 inhibidores de la bomba de protones (medicamentos que reducen la producción de acidez gástrica) y de
-los trastornos funcionales de la motilidad gastrointestinal leve-moderada.</p>         </div>"""   
+los trastornos funcionales de la motilidad gastrointestinal leve-moderada.</p> </div>"""   
           
 
              
@@ -139,7 +139,7 @@ evitar el uso de este medicamento durante la lactancia.</p>
 <p>Este medicamento contiene lactosa. Si su médico le ha indicado que padece una intolerancia a ciertos
 azúcares, consulte con él antes de tomar este medicamento.</p>
 <p>Este medicamento contiene menos de 23 mg de sodio (1 mmol) por comprimido; esto es, esencialmente
-“exento de sodio”.</p>         </div>"""   
+“exento de sodio”.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Cómo tomar Blaston 1 mg"
@@ -171,7 +171,7 @@ suspender el tratamiento.</p>
 <p>No tome una dosis doble para compensar las dosis olvidadas. Tome la dosis olvidada cuando se acuerde
 y luego siga con el horario habitual. Sin embargo, si faltan pocas horas para la siguiente dosis no tome
 la dosis olvidada y espere a tomar la siguiente dosis a la hora que le corresponda.</p>
-<p>Si tiene cualquier otra duda sobre el uso de este medicamento, pregunte a su médico o farmacéutico.</p>         </div>"""         
+<p>Si tiene cualquier otra duda sobre el uso de este medicamento, pregunte a su médico o farmacéutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -202,7 +202,7 @@ si se trata de posibles efectos adversos que no aparecen en este prospecto. Tamb
 directamente a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano:
 <a href="https://www.notificaram.es">https://www.notificaram.es</a></p>
 <p>Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información
-sobre la seguridad de este medicamento.</p>         </div>"""      
+sobre la seguridad de este medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Conservación de Blaston 1 mg"
@@ -215,7 +215,7 @@ sobre la seguridad de este medicamento.</p>         </div>"""
 <p>Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los
 medicamentos que no necesita en el Punto SIGRE de la farmacia. En caso de duda pregunte a su
 farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma
-ayudará a proteger el medio ambiente.</p>         </div>"""      
+ayudará a proteger el medio ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -241,5 +241,5 @@ Ctra. de Martorell, 41-61
 08740 Sant Andreu de la Barca – Barcelona (España)</p>
 <p><strong>Fecha de la última revisión de este prospecto: Marzo 2019</strong></p>
 <p>La información detallada y actualizada de este medicamento está disponible en la página Web de
-la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) <a href="http://www.aemps.gob.es/">http://www.aemps.gob.es/</a></p>         </div>"""      
+la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) <a href="http://www.aemps.gob.es/">http://www.aemps.gob.es/</a></p> </div>"""      
 

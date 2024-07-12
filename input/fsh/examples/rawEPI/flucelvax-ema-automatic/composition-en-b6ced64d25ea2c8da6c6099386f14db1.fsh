@@ -52,7 +52,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 <li>Keep this leaflet. You may need to read it again.</li>
 <li>If you have any further questions, ask your doctor, pharmacist or nurse.</li>
 <li>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects not listed in this leaflet. See section 4.</li>
-</ul>         </div>"""   
+</ul>  </div>"""   
 
 
 
@@ -69,7 +69,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 <li>Possible side effects</li>
 <li>How to store Flucelvax Tetra</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +80,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Flucelvax Tetra is a vaccine against flu (influenza). Flucelvax Tetra is prepared in cell cultures, and, therefore, is egg-free. </p>
 <p>When a person is given the vaccine, the immune system (the body’s natural defence system) will produce its own protection against the influenza virus. None of the ingredients in the vaccine can cause flu.</p>
 <p>Flucelvax Tetra is used to prevent flu in adults and children from 2 years of age.</p>
-<p>The vaccine targets four strains of influenza virus following the recommendations by the World Health Organisation for the 2022/2023 SEASON.</p>         </div>"""   
+<p>The vaccine targets four strains of influenza virus following the recommendations by the World Health Organisation for the 2022/2023 SEASON.</p> </div>"""   
           
 
              
@@ -126,7 +126,7 @@ Flucelvax Tetra may be given at the same time as other vaccines.</p>
 <p>Flucelvax Tetra has no or negligible effect on your ability to drive and use machines.</p>
 <p><strong>Flucelvax Tetra contains sodium chloride and potassium chloride</strong> </p>
 <p>This vaccine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially ‘sodium free’.
-This vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essentially ‘potassium free’</p>         </div>"""   
+This vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essentially ‘potassium free’</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take Flucelvax"
@@ -136,7 +136,7 @@ This vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essenti
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Flucelvax Tetra is given to you by your doctor or nurse as an injection into the muscle at the top of the upper arm (deltoid muscle).</p>
 <p><em>Adults and children from 2 years of age:</em> </p>
 <p>One dose of 0.5 ml</p>
-<p>If your child is younger than 9 years of age and has not been previously vaccinated against flu, a second dose should be given after at least 4 weeks.</p>         </div>"""         
+<p>If your child is younger than 9 years of age and has not been previously vaccinated against flu, a second dose should be given after at least 4 weeks.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -187,7 +187,7 @@ Fever was uncommon in adults and the elderly.</li>
 rash</li>
 </ul>
 <p><strong>Reporting of side effects</strong></p>
-<p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix V.* By reporting side effects, you can help provide more information on the safety of this medicine.</p>         </div>"""      
+<p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix V.* By reporting side effects, you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store Flucelvax"
@@ -198,7 +198,7 @@ rash</li>
 <p>Do not freeze.</p>
 <p>Keep the pre-filled syringe in the outer carton in order to protect from light.</p>
 <p>Do not use this vaccine after the expiry date which is stated on the label and carton after EXP. The expiry date refers to the last day of that month.</p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -220,7 +220,7 @@ which the influenza virus is grown); </p>
 <p>This vaccine complies with the World Health Organisation (WHO) recommendation (northern hemisphere) and EU recommendation for the 2022/2023 SEASON.</p>
 <p>The other ingredients are: sodium chloride, potassium chloride, magnesium chloride hexahydrate, disodium phosphate dihydrate, potassium dihydrogen phosphate and water for injections.</p>
 <p><strong>What Flucelvax Tetra looks like and contents of the pack</strong></p>
-<p>Flucelvax Tetra is a suspension for injection in a pre-filled syringe (ready to use syringe).</p><p>Flucelvax Tetra is a clear to slightly opalescent suspension.A single syringe contains 0.5 ml of suspension for injection.Flucelvax Tetra is available in packs containing 1 pre-filled syringe with or without needle or 10 pre- filled syringes with or without needles.</p><p>Not all pack sizes may be marketed.  </p>         </div>"""      
+<p>Flucelvax Tetra is a suspension for injection in a pre-filled syringe (ready to use syringe).</p><p>Flucelvax Tetra is a clear to slightly opalescent suspension.A single syringe contains 0.5 ml of suspension for injection.Flucelvax Tetra is available in packs containing 1 pre-filled syringe with or without needle or 10 pre- filled syringes with or without needles.</p><p>Not all pack sizes may be marketed.  </p> </div>"""      
 
 
 

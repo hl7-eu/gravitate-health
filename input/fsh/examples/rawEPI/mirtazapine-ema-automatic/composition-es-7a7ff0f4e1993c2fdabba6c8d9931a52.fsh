@@ -55,7 +55,7 @@ información importante para usted.</strong></p>
 los mismos síntomas que usted, ya que puede perjudicarles.</li>
 <li>Si experimenta efectos adversos, consulte a su médico o farmacéutico, incluso si se trata de efectos
 adversos que no aparecen en este prospecto. Ver sección 4. </li>
-</ul>         </div>"""   
+</ul>  </div>"""   
 
 
 
@@ -72,7 +72,7 @@ adversos que no aparecen en este prospecto. Ver sección 4. </li>
 <li>Posibles efectos adversos</li>
 <li>Conservación de mirtazapina cinfa</li>
 <li>Contenido del envase e información adicional</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +84,7 @@ adversos que no aparecen en este prospecto. Ver sección 4. </li>
 <p>Mirtazapina se utiliza para tratar la depresión en adultos.</p>
 <p>Se requieren de 1 a 2 semanas antes de que mirtazapina empiece a hacer efecto. Después de 2 a 4 semanas usted puede empezar a encontrarse mejor. Debe consultar a su médico si empeora o si no mejora después
 de 2 a 4 semanas.</p>
-<p>Para más información ver la sección 3 &quot;Cuándo puede esperar encontrarse mejor&quot;</p>         </div>"""   
+<p>Para más información ver la sección 3 &quot;Cuándo puede esperar encontrarse mejor&quot;</p> </div>"""   
           
 
              
@@ -245,7 +245,7 @@ somnoliento o mareado. No conduzca ni
 maneje herramientas o máquinas hasta que sepa cómo le afecta el tratamiento con mirtazapina.</p>
 <p><strong>mirtazapina cinfa contiene lactosa.</strong></p>
 <p>Este medicamento contiene lactosa. Si su médico le ha indicado que padece una intolerancia a ciertos
-azúcares, consulte con él antes de tomar este medicamento.</p>         </div>"""   
+azúcares, consulte con él antes de tomar este medicamento.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Cómo tomar MIRTAZAPINA CINFA "
@@ -305,7 +305,7 @@ No deje de tomar mirtazapina bruscamente, aun cuando la depresión haya desapare
 mirtazapina de forma brusca, puede sentirse enfermo, mareado, agitado o ansioso y tener dolores de
 cabeza. Estos síntomas pueden evitarse dejando el tratamiento gradualmente. Su médico le indicará cómo
 disminuir la dosis gradualmente.</p>
-<p>Si tiene cualquier otra duda sobre el uso de este medicamento, pregunte a su médico o farmacéutico.</p>         </div>"""         
+<p>Si tiene cualquier otra duda sobre el uso de este medicamento, pregunte a su médico o farmacéutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -424,7 +424,7 @@ clínicos: un considerable aumento de peso, urticaria y un aumento de triglicér
 posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a
 través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano:
 <a href="https://www.notificaram.es">https://www.notificaram.es</a>. Mediante la comunicación de efectos adversos usted puede contribuir a
-proporcionar más información sobre la seguridad de este medicamento.</p>         </div>"""      
+proporcionar más información sobre la seguridad de este medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Conservación de MIRTAZAPINA CINFA "
@@ -438,7 +438,7 @@ después de CAD. La fecha de caducidad es el último día del mes que se indica.
 <p>Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los
 medicamentos que no necesita en el Punto SIGRE de la farmacia. En caso de duda, pregunte a su
 farmacéutico cómo deshacerse de los envases y de los medicamentos que ya no necesita. De esta forma,
-ayudará a proteger el medio ambiente.</p>         </div>"""      
+ayudará a proteger el medio ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -472,5 +472,5 @@ cara y marcados con el código “30” por la otra cara.</p>
 <p>31620 Huarte (Navarra) - España  </p>
 <p><strong>Fecha de la última revisión de este prospecto: Noviembre 2021</strong></p>
 <p>La información detallada y actualizada de este medicamento está disponible en la página web de la Agencia
-Española de Medicamentos y Productos Sanitarios (AEMPS) www.aemps.gob.es/</p>         </div>"""      
+Española de Medicamentos y Productos Sanitarios (AEMPS) www.aemps.gob.es/</p> </div>"""      
 

@@ -56,7 +56,7 @@ information for you or your child.</p>
 <li>This vaccine has been prescribed for you or your child only. Do not pass it on to others.</li>
 <li>If any of the side effects gets serious, talk to your doctor, nurse or pharmacist. This includes any
 possible side effects not listed in this leaflet. See section 4.</li>
-</ul>         </div>"""   
+</ul>  </div>"""   
 
 
 
@@ -73,7 +73,7 @@ possible side effects not listed in this leaflet. See section 4.</li>
 <li>Possible side effects</li>
 <li>How to store Fluenz Tetra</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +89,7 @@ the vaccine, and other strains closely related to them.</p>
 produce its own protection against the influenza virus. None of the ingredients in the vaccine can
 cause the flu.
 Fluenz Tetra vaccine viruses are grown in chicken eggs. Each year the vaccine targets four strains of
-influenza, following the annual recommendations by the World Health Organisation.</p>         </div>"""   
+influenza, following the annual recommendations by the World Health Organisation.</p> </div>"""   
           
 
              
@@ -143,7 +143,7 @@ Tetra is not recommended for women who are pregnant or are breast-feeding.</li>
 <p><strong>Driving and using machines</strong></p>
 <ul>
 <li>Fluenz Tetra has no or negligible influence on the ability to drive and use machines.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take 0"
@@ -160,7 +160,7 @@ Fluenz Tetra. You do not need to actively inhale or sniff.</p>
 in each nostril. Children who have not previously had an influenza vaccine will receive a second,
 follow-up dose after an interval of at least 4 weeks. Follow your doctor, nurse or pharmacist’s
 instructions about if and when your child should return for the second dose.</p>
-<p>If you have any further questions on this vaccine, ask your doctor, nurse or pharmacist.</p>         </div>"""         
+<p>If you have any further questions on this vaccine, ask your doctor, nurse or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -201,7 +201,7 @@ above.</p>
 <p>If you get any side effects, talk to your doctor, nurse or pharmacist. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store 0"
@@ -216,7 +216,7 @@ safety of this medicine.</p>         </div>"""
 a temperature not above 25°C. If the vaccine has not been used after this 12 hour period, it should be
 discarded.</p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how
-to throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+to throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -284,5 +284,5 @@ injections.</p>
 <p>This vaccine is presented as a nasal spray suspension in a single-use nasal applicator (0.2 ml) in a pack
 size of 1 and 10. Not all pack sizes may be available in your country.</p>
 <p>The suspension is colourless to pale yellow, clear to slightly cloudy. Small white particles may
-be present.</p>         </div>"""      
+be present.</p> </div>"""      
 

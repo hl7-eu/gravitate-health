@@ -56,7 +56,7 @@ Usage: #inline
 <li>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados
 neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.</li>
 </ul>
-<p><strong>Se Biktarvy foi prescrito para a criança a seu cargo, tenha em atenção que todas as informações neste folheto são dirigidas à criança a seu cargo (neste caso, leia “a criança a seu cargo” em vez de “você”).</strong></p>         </div>"""   
+<p><strong>Se Biktarvy foi prescrito para a criança a seu cargo, tenha em atenção que todas as informações neste folheto são dirigidas à criança a seu cargo (neste caso, leia “a criança a seu cargo” em vez de “você”).</strong></p>  </div>"""   
 
 
 
@@ -73,7 +73,7 @@ neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.</li>
 <li>Efeitos indesejáveis possíveis</li>
 <li>Como conservar Biktarvy</li>
 <li>Conteúdo da embalagem e outras informações</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -94,7 +94,7 @@ nucleotídeo da transcriptase reversa (INtTR)</li>
 humana 1 (VIH-1) em adultos, adolescentes e crianças com idade igual ou superior a 2 anos, que
 pesem pelo menos 14 kg.</p>
 <p>Biktarvy diminui a quantidade de VIH no seu corpo. Isto irá melhorar o seu sistema imunológico e
-diminuir o risco de desenvolvimento de doenças ligadas à infeção pelo VIH.</p>         </div>"""   
+diminuir o risco de desenvolvimento de doenças ligadas à infeção pelo VIH.</p> </div>"""   
           
 
              
@@ -218,7 +218,7 @@ o seu médico o mais rapidamente possível.</p>
 ande de bicicleta e não utilize quaisquer ferramentas ou máquinas.</p>
 <p><strong>Biktarvy contém sódio</strong></p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é
-praticamente “isento de sódio”.</p>         </div>"""   
+praticamente “isento de sódio”.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar Biktarvy"
@@ -281,7 +281,7 @@ avançada ou cirrose, a interrupção do tratamento não é recomendada, uma vez
 agravamento da sua hepatite, que pode ser potencialmente fatal.</p>
 <p><em>Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouco habituais após parar o tratamento, particularmente sintomas que associaria à sua hepatite B.</em></p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -380,7 +380,7 @@ para determinar estas alterações.</p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar Biktarvy"
@@ -394,7 +394,7 @@ fita blister, após {VAL}. O prazo de validade corresponde ao último dia do mê
 utilizar se o selo por cima da abertura do frasco estiver partido ou ausente.</p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -432,7 +432,7 @@ Irlanda</p>
 IDA Business &amp; Technology Park
 Carrigtohill
 County Cork
-Irlanda</p>         </div>"""      
+Irlanda</p> </div>"""      
 
 
 

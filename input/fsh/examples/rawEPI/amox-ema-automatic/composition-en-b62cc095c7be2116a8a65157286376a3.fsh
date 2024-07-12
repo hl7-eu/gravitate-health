@@ -53,7 +53,7 @@ information for you.</p>
 even if their sign of illness are the same as yours.</li>
 <li>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects
 not listed in this leaflet. See section 4.</li>
-</ul>         </div>"""   
+</ul>  </div>"""   
 
 
 
@@ -70,7 +70,7 @@ not listed in this leaflet. See section 4.</li>
 <li>Possible side effects</li>
 <li>How to store Amoxicillin capsules</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +84,7 @@ Amoxicillin 250 mg and 500 mg Capsules is an antibiotic. The active ingredient i
 belongs to a group of medicines called ‘penicillins’.</p>
 <p>What Amoxicillin Capsule is used for
 Amoxicillin Capsule is used to treat infections caused by bacteria in different parts of the body.
-Amoxicillin Capsule may also be used in combination with other medicines to treat stomach ulcers.</p>         </div>"""   
+Amoxicillin Capsule may also be used in combination with other medicines to treat stomach ulcers.</p> </div>"""   
           
 
              
@@ -139,7 +139,7 @@ doctor or pharmacist for advice before taking this medicine.</p>
 <p><strong>Driving and using machines</strong></p>
 <p>Amoxicillin Capsules can have side effects and the symptoms (such as allergic reactions, dizziness and
 convulsions) may make you unfit to drive.
-Do not drive or operate machinery unless you are feeling well.</p>         </div>"""   
+Do not drive or operate machinery unless you are feeling well.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take amoxicillin"
@@ -198,7 +198,7 @@ discharge) may develop if Amoxicillin Capsules is used for a long time. If this 
 If you take Amoxicillin Capsules for a long time, your doctor may perform additional tests to check your
 kidneys, liver and blood are working normally.
 If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -297,7 +297,7 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 listed in this leaflet. You can also report side effects directly via Yellow Card Scheme, Website:
 www.mhra.gov.uk/yellowcard. By reporting side effects you can help provide more information on the
 safety of this medicine.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store amoxicillin"
@@ -309,7 +309,7 @@ safety of this medicine.</li>
 <p>Store in the original pack below 30°C.</p>
 <p>Do not use this medicine if you notice visible signs of deterioration.</p>
 <p>Do not throw away any medicines via waste water or household waste. Ask your pharmacist how to throw
-away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]

@@ -54,7 +54,7 @@ information for you.
 • This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their 
 signs of illness are the same as yours.
 • If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not 
-listed in this leaflet (see section 4).</p>         </div>"""   
+listed in this leaflet (see section 4).</p>  </div>"""   
 
 
 
@@ -69,7 +69,7 @@ listed in this leaflet (see section 4).</p>         </div>"""
 3. How to take Motilium
 4. Possible side effects
 5. How to store Motilium 
-6. Contents of the pack and other information</p>         </div>"""   
+6. Contents of the pack and other information</p> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +82,7 @@ listed in this leaflet (see section 4).</p>         </div>"""
 The name of your medicine is Motilium 10mg Film-Coated Tablets (called Motilium in this leaflet). Motilium 
 contains a medicine called domperidone. This belongs to a group of medicines called ‘dopamine antagonists’.
 This medicine is used to treat nausea (feeling sick) and vomiting (being sick) in adults and adolescents (years of age and older weighting 35 kg or more). </li>
-</ol>"         </div>"""   
+</ol>" </div>"""   
           
 
              
@@ -181,7 +181,7 @@ fold here
 3380
 3380
 fold here
-fold here</p>         </div>"""   
+fold here</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take Domperidone"
@@ -218,7 +218,7 @@ neck).
 If you forget to take Motilium:
 • If you forget to take Motilium, take it as soon as you remember. 
 • However if it is almost time for the next dose, wait until that is due and then continue as normal.
-• Do not take a double dose to make up for a forgotten dose.</p>         </div>"""         
+• Do not take a double dose to make up for a forgotten dose.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -272,7 +272,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the Yellow card Scheme at: www.mhra.gov.uk/
 yellowcard or search for MHRA Yellow Card in the Google Play or Apple App Store. By reporting side effects, 
-you can help provide more information on the safety of this medicine.</p>         </div>"""      
+you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store Domperidone"
@@ -283,7 +283,7 @@ you can help provide more information on the safety of this medicine.</p>       
 • Do not store above 25°C.
 • Do not use this medicine after the expiry date which is stated on the pack.
 • Do not throw away any medicines via wastewater or household water. Ask your pharmacist how to throw 
-away medicines you no longer use. These medicines will help protect the environment.</p>         </div>"""      
+away medicines you no longer use. These medicines will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -304,5 +304,5 @@ S.C. Zentiva S.A., 50 Theodor Pallady Blvd, District 3, Bucharest, 032266, Roman
 This leaflet was last revised in: November 2023
 Motilium® is a registered Trademark of Johnson &amp; Johnson Inc. 
 ‘Zentiva is a registered trademark © 2023 Zentiva.
-942329</p>         </div>"""      
+942329</p> </div>"""      
 

@@ -62,7 +62,7 @@ indeholder vigtige oplysninger.
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
 ikke er nævnt i denne indlægsseddel. Se punkt 4.<br />
-Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""   
+Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>  </div>"""   
 
 
 
@@ -79,7 +79,7 @@ Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -96,7 +96,7 @@ antiretrovirale lægemidler, der kaldes nukleosidanalog revers transkriptasehæm
 Dette hjælper din krop til at bevare antallet af CD4-celler i dit blod. CD4-celler er en type hvide 
 blodceller, der spiller en vigtig rolle, når kroppen skal bekæmpe infektioner. </p>
 <p>Behandlingen med Dovato virker ikke ens på alle. Lægen vil holde øje med, hvor effektiv din 
-behandling er. </p>         </div>"""   
+behandling er. </p> </div>"""   
           
 
              
@@ -232,7 +232,7 @@ gennem modermælken. </p>
 <p>Trafik- og arbejdssikkerhed<br />
 Dovato kan gøre dig svimmel og give dig andre bivirkninger, der gør dig mindre opmærksom. 
 → Du må ikke føre motorkøretøjer eller betjene maskiner, medmindre du er sikker på, at du 
-ikke er påvirket.  </p>         </div>"""   
+ikke er påvirket.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Sådan skal du tage Dovato"
@@ -275,7 +275,7 @@ tidspunkt. Fortsæt derefter med behandlingen som normalt.
 <p>Du må ikke stoppe med at tage Dovato, medmindre lægen har sagt det. 
 Tag Dovato så længe, som lægen anbefaler. Du må ikke stoppe, medmindre lægen har sagt det. Hvis 
 du stopper med Dovato, kan det påvirke dit helbred, og hvordan din behandling vil virke i fremtiden. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -543,7 +543,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Opbevaring"
@@ -555,7 +555,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.   </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.   </p> </div>"""      
         
         
 * section[=].section[+]
@@ -704,7 +704,7 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ}. </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu.  </p> </div>"""      
 
 
 

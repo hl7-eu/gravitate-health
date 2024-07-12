@@ -57,7 +57,7 @@ told you.<br />
 - Ask your pharmacist if you need more information or advice. 
 - You must talk to a doctor if you do not feel better or if you feel worse after two weeks. 
 - If you get any side effects talk to your pharmacist.  This includes any possible side 
-effects not listed in this leaflet.  See section 4.  </p>         </div>"""   
+effects not listed in this leaflet.  See section 4.  </p>  </div>"""   
 
 
 
@@ -72,7 +72,7 @@ effects not listed in this leaflet.  See section 4.  </p>         </div>"""
 3. How to take Calcichew-D3 Forte<br />
 4. Possible side effects 
 5. How to store Calcichew-D3 Forte<br />
-6. Contents of the pack and other information </p>         </div>"""   
+6. Contents of the pack and other information </p> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +87,7 @@ found in the diet and vitamin D is also produced in the skin after exposure to t
 <p>Calcichew-D3 Forte is used to treat and prevent vitamin D/calcium deficiency, which may 
 occur when your diet or lifestyle does not provide enough, or when body requirements are 
 increased. This medicine may also be prescribed or recommended for certain bone 
-conditions, for example osteoporosis, or during pregnancy.  </p>         </div>"""   
+conditions, for example osteoporosis, or during pregnancy.  </p> </div>"""   
           
 
              
@@ -168,7 +168,7 @@ Calcichew- D3 Forte  has no known influence on the ability to drive or use machi
 <p>Calcichew- D3 Forte contains isomalt and sucrose.<br />
 Calcichew-D3 Forte contains isomalt (E953) and sucrose (E420): if you have been told by 
 your doctor that you have an intolerance to some sugars, contact your doctor before taking 
-this medicine.  May be harmful to teeth.   </p>         </div>"""   
+this medicine.  May be harmful to teeth.   </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take Calcichew-D3 Forte"
@@ -188,7 +188,7 @@ If you have taken more Calcichew- D3 Forte than you should, talk to your pharmac
 immediately.  </p>
 <p>If you forget to take Calcichew- D3 Forte Chewable Tablets 
 Do not take a double dose to make up for a forgotten tablet.   </p>
-<p>If you have any further questions on the use of this medicine, ask your pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -236,7 +236,7 @@ kidneys. </p>
 If you get any side effects, talk to your pharmacist.  This includes any possible side effects not listed 
 in this leaflet.  You can also report side effects directly via the Yellow Card Scheme at: 
 www.mhra.gov.uk/yellowcard or search for MHRA Yellow Card in the Google Play or Apple App 
-Store.  By reporting side effects you can help provide more information on the safety of this medicine.   </p>         </div>"""      
+Store.  By reporting side effects you can help provide more information on the safety of this medicine.   </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store Calcichew-D3 Forte"
@@ -252,7 +252,7 @@ EXP.  The expiry date refers to the last day of that month.  If the tablets have
 or colour do not use. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -305,5 +305,5 @@ and treatment of osteoporosis.  The Royal Osteoporosis Society offers support to
 osteoporosis and raises awareness of the importance of healthy bones.   </p>
 <p>If you are concerned about osteoporosis, please contact the Royal Osteoporosis Society, Camerton, 
 Bath BA2 0PJ.  Tel: 01761 471 771  or email: info@theros.org.uk. <br />
-*Registered Trademark </p>         </div>"""      
+*Registered Trademark </p> </div>"""      
 

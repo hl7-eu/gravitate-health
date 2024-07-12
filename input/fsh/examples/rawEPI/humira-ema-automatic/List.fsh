@@ -29,7 +29,7 @@ RuleSet: 3a3583227b4c5b0887f1e0d38269b469ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -52,7 +52,7 @@ RuleSet: 3a3583227b4c5b0887f1e0d38269b469ListRuleset
 //[('processedbundledovato-en', 'en'), ('processedbundledovato-es', 'es')]
 
 //EU/1/18/1326/001
-//[('processedbundleflucelvaxES', 'es')]
+//[('processedbundleflucelvaxES', 'es'), ('processedbundleflucelvax', 'en')]
 
 //EU/1/18/1289/001
 //[('bundleprocessed-pt-b44cce291e466626afa836fffe72c350', 'pt'), ('bundleprocessed-es-b44cce291e466626afa836fffe72c350', 'es'), ('processedbundlekarveabik', 'en')]
@@ -63,11 +63,11 @@ RuleSet: 3a3583227b4c5b0887f1e0d38269b469ListRuleset
 //68290
 //[('processedbundlekarveacalcium', 'es')]
 
-//himss-metformin-proc
+//himss-metformin
 //[('bundle-met-proc', 'en')]
 
 //EU/1/97/049/001
-//[('Processedbundlekarvea', 'en'), ('bundle-processed-pt-2d49ae46735143c1323423b7aea24165', 'pt'), ('processedbundleflucelvax', 'en')]
+//[('Processedbundlekarvea', 'en'), ('bundle-processed-pt-2d49ae46735143c1323423b7aea24165', 'pt')]
 
 //EU/1/98/071/004
 //[('bundlepackageleaflet-es-proc-4fab126d28f65a1084e7b50a23200363', 'es')]

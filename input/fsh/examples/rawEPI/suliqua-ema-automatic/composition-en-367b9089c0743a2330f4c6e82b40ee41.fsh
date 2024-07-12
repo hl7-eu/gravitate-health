@@ -56,7 +56,7 @@ Usage: #inline
 <li>If you have any further questions, ask your doctor or pharmacist or nurse.</li>
 <li>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.</li>
 <li>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.</li>
-</ul>         </div>"""   
+</ul>  </div>"""   
 
 
 
@@ -72,7 +72,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Suliqua</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +88,7 @@ Usage: #inline
 response to increases in blood sugar, and slows the absorption of sugar from foods.</p>
 </li>
 </ul>
-<p>Suliqua is used to treat adults with type 2 diabetes, to help control blood sugar levels when they are too high, it is an adjunct to diet and exercise. It is given, with metformin with or without sodium- glucose co-transporter-2 (SGLT2) inhibitors (gliflozin products), when other medicines are not enough on their own to control your blood sugar levels.</p>         </div>"""   
+<p>Suliqua is used to treat adults with type 2 diabetes, to help control blood sugar levels when they are too high, it is an adjunct to diet and exercise. It is given, with metformin with or without sodium- glucose co-transporter-2 (SGLT2) inhibitors (gliflozin products), when other medicines are not enough on their own to control your blood sugar levels.</p> </div>"""   
           
 
              
@@ -205,7 +205,7 @@ Having too low or too high blood sugar (see information in the box at the end of
 <p><strong>Suliqua contains sodium</strong></p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-free’.</p>
 <p><strong>Suliqua contains metacresol</strong></p>
-<p>This medicine contains metacresol which may cause allergic reactions.</p>         </div>"""   
+<p>This medicine contains metacresol which may cause allergic reactions.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take 0"
@@ -282,7 +282,7 @@ When needed, Suliqua can be injected before the next meal.</p>
 </ul>
 <p><strong>If you stop using Suliqua</strong></p>
 <p>Do not stop using this medicine without talking to your doctor. If you do, it could lead to very high blood sugar (hyperglycaemia) and a build-up of acid in the blood (ketoacidosis).</p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -324,7 +324,7 @@ intense pain when injecting, itching, hives, swelling or inflammation. This can 
 </ul>
 <p><strong>Reporting of side effects</strong></p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side
-effects not listed in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. By reporting side effects you can help provide more information on the safety of this medicine.</p>         </div>"""      
+effects not listed in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. By reporting side effects you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store 0"
@@ -341,7 +341,7 @@ Do not freeze or place next to the freezer compartment or a freezer pack. Keep t
 Do not return the pen to a refrigerator and do not freeze. Store the pen away from direct heat or direct light. Always keep the cap on the pen when you are not using it in order to protect it from light.
 Do not leave the pen in a car on an exceptionally warm or cold day.</p>
 <p>Do not store the pen with the needle attached.</p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer used. These measures will help protect the environment.</p>         </div>"""      
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer used. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -368,5 +368,5 @@ Each dose step of Suliqua contains 1 unit of insulin glargine and 0.5 micrograms
 <p><strong>Manufacturer</strong></p>
 <p>Sanofi-Aventis Deutschland GmbH </p>
 <p>Industriepark Höchst - 65926 Frankfurt am Main</p>
-<p>Germany</p>         </div>"""      
+<p>Germany</p> </div>"""      
 

@@ -57,7 +57,7 @@ important information for you.</strong></p>
   even if their signs of illness are the same as yours.</li>
 <li>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side
   effects not li sted in this leaflet. See section 4.</li>
-</ul>         </div>"""   
+</ul>  </div>"""   
 
 
 
@@ -74,7 +74,7 @@ important information for you.</strong></p>
 <li>Possible side effects</li>
 <li>How to store Skilarence</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -91,7 +91,7 @@ Skilarence tablets are used to treat moderate to severe plaque psoriasis in adul
 causing thickened, inflamed, red areas on the skin, often covered by silvery scales.</p>
 <p>Response to Skilarence can be generally seen as early as week 3 and improves over time. Experience
 with related products containing dimethyl fumarate shows treatment benefit for at least up to
-24 months.</p>         </div>"""   
+24 months.</p> </div>"""   
           
 
              
@@ -172,7 +172,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicinal product.</p>
 <p><strong>Skilarence contains sodium</strong>
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-
-free’.</p>         </div>"""   
+free’.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take skilarence"
@@ -222,7 +222,7 @@ If you think you have taken too many Skilarence tablets, contact your doctor or 
 Do not take a double dose to make up for a forgotten dose. Take the next dose at the usual time and
 continue taking the medicine exactly as described in this leaflet or exactly as agreed with your doctor.
 Please ask your doctor or pharmacist if you are not sure.</p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -306,7 +306,7 @@ possible so that this can be investigated further.</p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects
 not listed in this leaflet. You can also report side effects directly via the national reporting system
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store skilarence"
@@ -318,7 +318,7 @@ this medicine.</p>         </div>"""
 The expiry date refers to the last day of that month.</p>
 <p>This medicine does not require any special storage conditions.</p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -391,5 +391,5 @@ Orion Pharma, Puh/Tel: +358 10 4261</p>
 <p><strong>This leaflet was last revised in</strong>.</p>
 <p><strong>Other sources of information</strong>
 Detailed information on this medicine is available on the European Medicines Agency web site:
-<a href="http://www.ema.europa.eu.">http://www.ema.europa.eu.</a></p>         </div>"""      
+<a href="http://www.ema.europa.eu.">http://www.ema.europa.eu.</a></p> </div>"""      
 

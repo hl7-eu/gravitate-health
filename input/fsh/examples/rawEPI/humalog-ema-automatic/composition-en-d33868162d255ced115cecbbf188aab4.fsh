@@ -103,7 +103,7 @@ use Humalog within 15 minutes of a meal.</p>
 <p>Your doctor may tell you to use Humalog as well as a longer-acting insulin. Each kind of insulin
 comes with another patient information leaflet to tell you about it. Do not change your insulin unless
 your doctor tells you to. Be very careful if you do change insulin.</p>
-<p>Humalog is suitable for use in adults and children.</p>         </div>"""   
+<p>Humalog is suitable for use in adults and children.</p> </div>"""   
           
 
              
@@ -364,7 +364,7 @@ Severe symptoms are heavy breathing and a rapid pulse. <strong>Get medical help 
 <p><strong>C. Illness</strong></p>
 <p>If you are ill, especially if you feel sick or are sick, the amount of insulin you need may change. Even
 when you are not eating normally, you still need insulin. Test your urine or blood, follow your
-‘sick rules’, and tell your doctor.</p>         </div>"""      
+‘sick rules’, and tell your doctor.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store Humalog"

@@ -59,7 +59,7 @@ Remsima.  </li>
 <li>If you have any further questions, ask your doctor, pharmacist or nurse.  </li>
 <li>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.  </li>
 <li>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side efects not listed in this leaflet. See section 4.</li>
-</ul>         </div>"""   
+</ul>  </div>"""   
 
 
 
@@ -77,7 +77,7 @@ Remsima.  </li>
 <li>How to store Remsima</li>
 <li>Contents of the pack and other information</li>
 <li>Instructions for use</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -354,7 +354,7 @@ contact your baby’s doctor immediately.</li>
 <p>Remsima is not likely to affect your ability to drive or use tools or machines. If you feel tired, dizzy, or
 unwell after having Remsima, do not drive or use any tools or machines.</p>
 <p><strong>Remsima contains sodium and sorbitol</strong></p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially ‘sodium-free’ and 45 mg sorbitol in each 120 mg dose. </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially ‘sodium-free’ and 45 mg sorbitol in each 120 mg dose. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take Remsima 100 mg powder for concentrate for solution for infusion"
@@ -421,7 +421,7 @@ original dosing schedule.</p>
 the missed dose. Take your next dose on the next originally planned date and then follow the original
 dosing schedule.
 If you are not sure when to inject Remsima, call your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -593,7 +593,7 @@ weakness)</li>
 <p>If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store Remsima 100 mg powder for concentrate for solution for infusion"
@@ -614,7 +614,7 @@ the expiry date printed on the carton, whichever is earlier.</li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist
 how to throw away medicines you no longer use. These measures will help protect the
 environment.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -637,5 +637,5 @@ pre-filled syringe.</p>
 <p>Each pack contains 1 pre-filled syringe with automatic needle guard with 2 alcohol pads, 2 pre-filled
 syringes with automatic needle guard with 2 alcohol pads, 4 pre-filled syringes with automatic needle
 guard with 4 alcohol pads or 6 pre-filled syringes with automatic needle guard with 6 alcohol pads.</p>
-<p>Not all pack sizes may be marketed</p>         </div>"""      
+<p>Not all pack sizes may be marketed</p> </div>"""      
 

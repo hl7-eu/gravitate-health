@@ -61,7 +61,7 @@ informação importante para si.
 - Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode 
 ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença.<br />
 - Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
-neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.  </p>         </div>"""   
+neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.  </p>  </div>"""   
 
 
 
@@ -78,7 +78,7 @@ neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.  </p>   
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Dovato  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -97,7 +97,7 @@ pesem pelo menos 40 kg. </p>
 Isto contribui para manter o número de células CD4 no seu sangue. As células CD4 são um tipo de 
 glóbulo branco e são importantes para ajudar o seu organismo no combate à infeção. </p>
 <p>Nem todas as pessoas respondem da mesma forma ao tratamento com Dovato. O seu médico 
-monitorizará a eficácia do tratamento. </p>         </div>"""   
+monitorizará a eficácia do tratamento. </p> </div>"""   
           
 
              
@@ -236,7 +236,7 @@ possível. </p>
 <p>Condução de veículos e utilização de máquinas 
 Dovato pode provocar-lhe tonturas e outros efeitos indesejáveis que o tornam menos alerta. </p>
 <p>→ Não conduza ou utilize máquinas a não ser que tenha a certeza que o seu estado de alerta não 
-é afetado.  </p>         </div>"""   
+é afetado.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar Dovato"
@@ -282,7 +282,7 @@ Tome Dovato durante o período de tempo recomendado pelo seu médico. Não pare 
 ser por indicação do seu médico. Parar Dovato pode afetar a sua saúde e a eficácia de tratamentos 
 futuros. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -548,7 +548,7 @@ vezes, com os próprios medicamentos para a infeção VIH. O seu medico avaliar�
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar Dovato"
@@ -561,7 +561,7 @@ fitas contentoras blister, após EXP. O prazo de validade corresponde ao último
 <p>Este medicamento não necessita de quaisquer condições especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -710,5 +710,5 @@ ViiV Healthcare BV
 Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>Este folheto foi revisto pela última vez em {mês de AAAA}. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 

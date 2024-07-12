@@ -62,7 +62,7 @@ indeholder vigtige oplysninger.
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
 er nævnt i denne indlægsseddel. Se punkt 4.<br />
-Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""   
+Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>  </div>"""   
 
 
 
@@ -77,7 +77,7 @@ Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""
 3. Sådan skal du bruge Humalog 
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -95,7 +95,7 @@ Du bør normalt anvende Humalog indenfor 15 minutter før eller efter et måltid
 insulintype hører en separat indlægsseddel med oplysninger om den enkelte insulintype. Du må ikke 
 ændre din insulinbehandling, medmindre din læge beder dig om det. Vær meget forsigtig, hvis du skal 
 ændre insulin. </p>
-<p>Humalog kan bruges af voksne og børn. </p>         </div>"""   
+<p>Humalog kan bruges af voksne og børn. </p> </div>"""   
           
 
              
@@ -228,7 +228,7 @@ du har: </p>
 </ul>
 <p>Humalog indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Sådan skal du tage Humalog"
@@ -359,7 +359,7 @@ bevidstløshed, koma og i værste fald medføre døden (se afsnit A og B under p
 <p>Hvis du holder op med at tage Humalog 
 Hvis du holder op med at tage Humalog, kan det ske, at dit blodsukker bliver for højt. Du må ikke 
 ændre din insulinbehandling, medmindre din læge beder dig om det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -500,7 +500,7 @@ mange timer eller dage. Symptomerne inkluderer følgende: </p>
 Sygdom 
 Hvis du er syg, særligt hvis du har kvalme eller opkastning, kan dit insulinbehov ændre sig. Selv når 
 du ikke spiser normalt, har du stadig brug for insulin. Test din urin eller dit blod, følg de 
-almindelige regler ved sygdom og informér din læge. </p>         </div>"""      
+almindelige regler ved sygdom og informér din læge. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Opbevaring"
@@ -516,7 +516,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Brug ikke lægemidlet, hvis du ser en farvning af produktet, eller hvis der er faste partikler i produktet. 
 Du må kun bruge det, hvis det ser ud som vand. Kontrollér det hver gang du skal injicere dig selv. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -636,5 +636,5 @@ indeholder vigtige oplysninger.
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
 er nævnt i denne indlægsseddel. Se punkt 4.<br />
-Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 

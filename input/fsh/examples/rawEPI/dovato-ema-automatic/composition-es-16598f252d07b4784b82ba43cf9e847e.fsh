@@ -178,7 +178,7 @@ medicamentos (generalmente líquidos) que contengan sorbitol y otros polialcohol
 <p><strong>Conducción y uso de máquinas</strong>
 Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos que reduzcan su atención.</p>
           ? No conduzca ni maneje maquinaria, a menos que esté seguro  que no está afectado.
-         </div>"""   
+ </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Cómo tomar Dovato"

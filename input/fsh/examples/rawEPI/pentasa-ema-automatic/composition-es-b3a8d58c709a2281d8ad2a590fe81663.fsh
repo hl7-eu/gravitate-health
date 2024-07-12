@@ -50,7 +50,7 @@ Usage: #inline
 <p>Conserve este prospecto, ya que puede tener que volver a leerlo.</p>
 <p>Si tiene alguna duda, consulte a su médico o farmacéutico.</p>
 <p>Este medicamento se le ha recetado solamente a usted y no debe dárselo a otras personas aunque presenten los mismos síntomas de enfermedad que usted, ya que puede perjudicarles.</p>
-<p>Si experimentaefectos adversos consulte a su médico o farmacéutico,incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.0</p>         </div>"""   
+<p>Si experimentaefectos adversos consulte a su médico o farmacéutico,incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.0</p>  </div>"""   
 
 
 
@@ -73,7 +73,7 @@ Usage: #inline
 </li>
 <li><p>Contenido del envase e información adicional</p>
 </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +83,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pentasa comprimidos está indicado para ayudarle a mantenerle libre de nuevos brotes de colitis ulcerosa.</p>
 <p>La colitis ulcerosa es una enfermedad inflamatoria intestinal en la que el revestimiento del intestino está inflamado y desarrolla muchas roturas diminutas en su superficie (úlceras) que pueden sangrar.</p>
-<p>Pentasa contiene el principio activo mesalazina, que pertenece al grupo de medicamentos llamados antiinflamatorios intestinales que ayudan a reducir la inflamación y los síntomas dolorosos.</p>         </div>"""   
+<p>Pentasa contiene el principio activo mesalazina, que pertenece al grupo de medicamentos llamados antiinflamatorios intestinales que ayudan a reducir la inflamación y los síntomas dolorosos.</p> </div>"""   
           
 
              
@@ -131,7 +131,7 @@ se deberá interrumpir el tratamiento inmediatamente en caso de calambres, dolor
 <p><em>Fertilidad:</em></p>
 <p>Los datos de mesalazina en animales muestran que no tiene efecto sobre la fertilidad masculina o femenina.</p>
 <p><strong>Conducción y uso de máquinas:</strong></p>
-<p>El tratamiento con Pentasacomprimidos no parece ejercer ninguna influencia en la capacidad de conducir y/o manejar máquinas.</p>         </div>"""   
+<p>El tratamiento con Pentasacomprimidos no parece ejercer ninguna influencia en la capacidad de conducir y/o manejar máquinas.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Cómo tomar Pentasa Slow Release Tablets 1g"
@@ -156,7 +156,7 @@ Para facilitar la administración se pueden suspender en agua o zumo de naranja,
 <p>No tome una dosis doble para compensar las dosis olvidadas.</p>
 <p><strong>Si interrumpe el tratamiento con Pentasa comprimidos</strong></p>
 <p>Su médico le indicará la duración de su tratamiento con Pentasa comprimidos. No suspenda el tratamiento antes aunque se encuentre mejor ya que los síntomas podrían volver a aparecer si termina el tratamiento demasiado pronto. Siga rigurosamente el tratamiento según las instrucciones de su médico en el tiempo de mantenimiento que establezca.</p>
-<p>Si tiene cualquier otra duda sobre el uso de </p>         </div>"""         
+<p>Si tiene cualquier otra duda sobre el uso de </p> </div>"""         
 
         
 * section[=].section[+]
@@ -231,7 +231,7 @@ semen con baja concentración de espermatozoides (oligospermia) (ésta es revers
 posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a
 través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano:
 http;//www.notificaram.es. Mediante la comunicación de efectos adversos usted puede contribuir a
-proporcionar más información sobre la seguridad de este medicamento.</p>         </div>"""      
+proporcionar más información sobre la seguridad de este medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Conservación de Pentasa Slow Release Tablets 1g"
@@ -245,7 +245,7 @@ fecha de caducidad es el último día del mes que se indica.</p>
 <p>Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los
 medicamentos que no necesita en el Punto SIGRE de la farmacia. En caso de duda pregunte a su
 farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma,
-ayudará a proteger el medio ambiente.</p>         </div>"""      
+ayudará a proteger el medio ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -267,5 +267,5 @@ Se presenta en blisters de doble aluminio conteniendo un total de 60 comprimidos
 <p>FERRING GmbH Wittland 1124109 Kiel, Alemania.  </p>
 <p>Fecha de la última revisión de este prospecto en enero 2021
 La información detallada y actualizada de este medicamento está disponible en la página Web de la
-Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) <a href="http://www.aemps.gob.es/">http://www.aemps.gob.es/</a></p>         </div>"""      
+Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) <a href="http://www.aemps.gob.es/">http://www.aemps.gob.es/</a></p> </div>"""      
 

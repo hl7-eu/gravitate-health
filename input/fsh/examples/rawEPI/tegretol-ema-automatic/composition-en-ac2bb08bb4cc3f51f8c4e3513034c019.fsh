@@ -53,7 +53,7 @@ Usage: #inline
         <li><a href="#section4">Possible side effects</a></li>
         <li><a href="#section5">How to store Tegretol Tablets</a></li>
         <li><a href="#section6">Contents of the pack and other information</a></li>
-    </ol>         </div>"""   
+    </ol>  </div>"""   
 
 
 
@@ -78,7 +78,7 @@ Usage: #inline
         <li>To treat some forms of epilepsy</li>
         <li>To treat a painful condition of the face called trigeminal neuralgia</li>
         <li>To help control serious mood disorders when some other medicines don’t work</li>
-    </ul>         </div>"""   
+    </ul> </div>"""   
           
 
              
@@ -177,7 +177,7 @@ Usage: #inline
         <li>Drinking alcohol may affect you more than usual. Discuss whether you should stop drinking with your doctor.</li>
         <li>Eating grapefruit, or drinking grapefruit juice, may increase your chance of experiencing side effects.</li>
         <li>Your doctor may want you to have a number of blood tests before you start taking Tegretol and from time to time during your treatment. This is quite usual and nothing to worry about.</li>
-    </ul>         </div>"""   
+    </ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take Tegretol 200 mg  Tablets "
@@ -199,7 +199,7 @@ Usage: #inline
     <h3>What if you forget to take a dose?</h3>
     <p>If you forget to take a dose, take one as soon as you remember. If it is nearly time for your next dose, though, just take the next dose and forget about the one you missed.</p>
     <h3>What if you take too many tablets?</h3>
-    <p>If you accidentally take too many Tegretol Tablets, tell your doctor or your nearest hospital casualty department. Take your medicine pack with you so that people can see what you have taken.</p>         </div>"""         
+    <p>If you accidentally take too many Tegretol Tablets, tell your doctor or your nearest hospital casualty department. Take your medicine pack with you so that people can see what you have taken.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -252,7 +252,7 @@ Usage: #inline
     <p>If any of the symptoms become troublesome, or if you notice anything else not mentioned here, please go and see your doctor. He/she may want to give you a different medicine.</p>
     <p>There have been reports of bone disorders including osteopenia and osteoporosis (thinning of the bone) and fractures. Check with your doctor or pharmacist if you are on long-term antiepileptic medication, have a history of osteoporosis, or take steroids.</p>
     <h3>Reporting of side effects</h3>
-    <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the Yellow Card Scheme at: <a href="http://www.mhra.gov.uk/yellowcard" target="_blank">www.mhra.gov.uk/yellowcard</a> or search for MHRA Yellow Card in the Google Play or Apple App Store. By reporting side effects you can help provide more information on the safety of this medicine.</p>         </div>"""      
+    <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the Yellow Card Scheme at: <a href="http://www.mhra.gov.uk/yellowcard" target="_blank">www.mhra.gov.uk/yellowcard</a> or search for MHRA Yellow Card in the Google Play or Apple App Store. By reporting side effects you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store Tegretol 200 mg  Tablets "
@@ -265,7 +265,7 @@ Usage: #inline
         <li>Keep out of the sight and reach of children.</li>
         <li>Do not take Tegretol Tablets after the expiry date which is printed on the outside of the pack.</li>
         <li>If your doctor tells you to stop taking the tablets, please take any unused tablets back to your pharmacist to be destroyed. Do not throw them away with your normal household water or waste. This will help to protect the environment.</li>
-    </ul>         </div>"""      
+    </ul> </div>"""      
         
         
 * section[=].section[+]
@@ -286,5 +286,5 @@ Usage: #inline
     <p>This leaflet was last revised in 11/2023.</p>
     <p>If you would like any more information, or would like the leaflet in a different format, please contact Medical Information at Novartis Pharmaceuticals UK Ltd, telephone number 01276 698370.</p>
     <p>TEGRETOL is a registered trade mark</p>
-    <p>Copyright Novartis Pharmaceuticals UK Limited</p>         </div>"""      
+    <p>Copyright Novartis Pharmaceuticals UK Limited</p> </div>"""      
 

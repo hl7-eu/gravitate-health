@@ -48,7 +48,7 @@ even if their signs of illness are the same as yours.</li>
 effects not listed in this leaflet. See section 4.</li>
 </ul>
 <p><strong>If Biktarvy has been prescribed for your child, please note that all the information in this leaflet
-is addressed to your child (in this case please read “your child” instead of “you”).</strong></p>         </div>"""   
+is addressed to your child (in this case please read “your child” instead of “you”).</strong></p> </div>"""   
 
 
       
@@ -68,7 +68,7 @@ even if their signs of illness are the same as yours.</li>
 effects not listed in this leaflet. See section 4.</li>
 </ul>
 <p><strong>If Biktarvy has been prescribed for your child, please note that all the information in this leaflet
-is addressed to your child (in this case please read “your child” instead of “you”).</strong></p>         </div>"""   
+is addressed to your child (in this case please read “your child” instead of “you”).</strong></p>  </div>"""   
 
 
 
@@ -85,7 +85,7 @@ is addressed to your child (in this case please read “your child” instead of
 <li>Possible side effects</li>
 <li>How to store Biktarvy</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -104,7 +104,7 @@ transcriptase inhibitor (NtRTI)</li>
 <p>Biktarvy is a single tablet for the treatment of human immunodeficiency virus 1 (HIV-1) infection in
 adults, adolescents and children 2 years of age and older, who weigh at least 14 kg.</p>
 <p>Biktarvy reduces the amount of HIV in your body. This will improve your immune system and reduce
-the risk of developing illnesses linked to HIV infection.</p>         </div>"""   
+the risk of developing illnesses linked to HIV infection.</p> </div>"""   
           
 
              
@@ -236,7 +236,7 @@ possible.</p>
 and do not use any tools or machines.</p>
 <p><strong>Biktarvy contains sodium</strong></p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially
-‘sodium-free’.</p>         </div>"""   
+‘sodium-free’.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take Biktarvy"
@@ -295,7 +295,7 @@ not recommended as this may lead to worsening of your hepatitis, which may be li
 <li>Tell your doctor immediately about new or unusual symptoms after you stop treatment,
 particularly symptoms you associate with hepatitis B infection.
 If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -392,7 +392,7 @@ medicines themselves. Your doctor will test for these changes.</p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects
 not listed in this leaflet. You can also report side effects directly via the national reporting system
 listed in Appendix V. By reporting side effects you can help provide more information on the safety
-of this medicine.</p>         </div>"""      
+of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store Biktarvy"
@@ -405,7 +405,7 @@ after {EXP}. The expiry date refers to the last day of that month.</p>
 <p>Store in the original package in order to protect from moisture. Keep the bottle tightly closed. Do not
 use if the seal over the bottle opening is broken or missing.</p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -426,7 +426,7 @@ debossed with “BVY” on one side and a score line on the other side of the ta
 <p>The tablets are supplied in a bottle. Not all pack sizes may be marketed.</p>
 <p>Biktarvy comes in bottles of 30 tablets and in packs made up of 3 bottles, each containing 30 tablets.
 Each bottle contains a silica gel desiccant that must be kept in the bottle to help protect your tablets.
-The silica gel desiccant is contained in a separate sachet or canister and should not be swallowed.</p>             </div>"""      
+The silica gel desiccant is contained in a separate sachet or canister and should not be swallowed.</p>     </div>"""      
 
 
 

@@ -62,7 +62,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 ikke er nævnt i denne indlægsseddel. Se punkt 4.<br />
 Hvis Biktarvy er ordineret til dit barn, skal du bemærke, at alle oplysninger i denne 
 indlægsseddel er rettet mod dit barn (i det tilfælde skal du læse ”dit barn” i stedet for ”du/dig”). </p>
-<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""   
+<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>  </div>"""   
 
 
 
@@ -79,7 +79,7 @@ indlægsseddel er rettet mod dit barn (i det tilfælde skal du læse ”dit barn
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -105,7 +105,7 @@ transkriptase-hæmmer (NtRTI) </p>
 <p>Biktarvy er en enkelt tablet til behandling af infektion med humant immundefekt virus 1 (hiv 1) hos 
 voksne, børn og unge på 2 år og ældre, som vejer mindst 14 kg. </p>
 <p>Biktarvy nedsætter mængden af hiv i din krop. Dette vil forbedre dit immunsystem og nedsætte 
-risikoen for at udvikle sygdomme forbundet med hiv-infektionen. </p>         </div>"""   
+risikoen for at udvikle sygdomme forbundet med hiv-infektionen. </p> </div>"""   
           
 
              
@@ -262,7 +262,7 @@ påtænker at amme, bør du drøfte det med lægen hurtigst muligt. </p>
 med værktøj eller maskiner, hvis du bliver svimmel, når du tager Biktarvy. </p>
 <p>Biktarvy indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take Biktarvy"
@@ -330,7 +330,7 @@ være livstruende. </p>
 <p>→ Bemærker du nogle nye eller usædvanlige symptomer efter behandlingens ophør, skal du 
 omgående oplyse din læge herom, især hvis det drejer sig om symptomer, som du normalt ville 
 forbinde med hepatitis B-infektion. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -469,7 +469,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store Biktarvy"
@@ -482,7 +482,7 @@ efter {EXP}. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod fugt. Hold tabletbeholderen tæt tillukket. 
 Må ikke anvendes, hvis forseglingen over beholderens åbning er brudt eller mangler. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -624,5 +624,5 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 ikke er nævnt i denne indlægsseddel. Se punkt 4.<br />
 Hvis Biktarvy er ordineret til dit barn, skal du bemærke, at alle oplysninger i denne 
 indlægsseddel er rettet mod dit barn (i det tilfælde skal du læse ”dit barn” i stedet for ”du/dig”). </p>
-<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 

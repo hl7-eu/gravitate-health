@@ -55,7 +55,7 @@ información importante para usted.</p>
 síntomas, ya que puede perjudicarles.</li>
 <li>Si experimienta efectos adversos, consulte a su médico o farmacéutico incluso si se trata de efectos
 adversos que no aparecen en este prospecto. Ver sección 4.</li>
-</ul>         </div>"""   
+</ul>  </div>"""   
 
 
 
@@ -72,7 +72,7 @@ adversos que no aparecen en este prospecto. Ver sección 4.</li>
 <li>Posibles efectos adversos</li>
 <li>Conservación de Dolocatil</li>
 <li>Contenido del envase e información adicional.</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +81,7 @@ adversos que no aparecen en este prospecto. Ver sección 4.</li>
   * code.text =  "1. Qué es paracetamol y para qué se utiliza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dolocatil pertenece al grupo de medicamentos llamados analgésicos y antipiréticos.</p>
-<p>Se utiliza para el tratamiento de los síntomas del dolor y la fiebre.</p>         </div>"""   
+<p>Se utiliza para el tratamiento de los síntomas del dolor y la fiebre.</p> </div>"""   
           
 
              
@@ -157,7 +157,7 @@ dolor o la fiebre no disminuyen o si necesita tomar el medicamento con más frec
 Pueden aparecer pequeñas cantidades de paracetamol en la leche materna, por lo tanto se recomienda que
 consulte a su médico o farmacéutico antes de tomar este medicamento.</p>
 <p><strong>Conducción y uso de máquinas:</strong></p>
-<p>La influencia del paracetamol sobre la capacidad de conducir y utilizar máquinas es nula o insignificante.</p>         </div>"""   
+<p>La influencia del paracetamol sobre la capacidad de conducir y utilizar máquinas es nula o insignificante.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Cómo tomar paracetamol"
@@ -204,7 +204,7 @@ toxicidad de una sobredosis de paracetamol.</p>
 <p><strong>Si olvidó tomar Dolocatil</strong></p>
 <p>No tome una dosis doble para compensar las dosis olvidadas, simplemente tome la dosis olvidada cuando
 se acuerde, tomando las siguientes dosis con la separación entre tomas indicada en cada caso (al menos 4
-horas).</p>         </div>"""         
+horas).</p> </div>"""         
 
         
 * section[=].section[+]
@@ -227,7 +227,7 @@ reacciones graves en la piel.</p>
 posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a
 través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano:
 <a href="https://www.notificaram.es">https://www.notificaram.es</a>. Mediante la comunicación de efectos adversos usted puede contribuir a
-proporcionar más información sobre la seguridad de este medicamento.</p>         </div>"""      
+proporcionar más información sobre la seguridad de este medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Conservación de paracetamol"
@@ -241,7 +241,7 @@ CAD.). La fecha de caducidad es el último día del mes que se indica.</p>
 <p>Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los
 medicamentos que no necesita en el Punto SIGRE de la farmacia. En caso de duda pregunte a su
 farmacéutico cómo deshacerse de los envases y de los medicamentos que ya no necesita. De esta forma,
-ayudará a proteger el medio ambiente.</p>         </div>"""      
+ayudará a proteger el medio ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -272,5 +272,5 @@ Joan Buscallá, 1-9
 08173 - Sant Cugat del Vallés (Barcelona)</p>
 <p><strong>Fecha de la última revisión de este prospecto: diciembre 2022</strong></p>
 <p>La información detallada y actualizada de este medicamento está disponible en la página Web de la
-Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) <a href="http://www.aemps.gob.es/">http://www.aemps.gob.es/</a></p>         </div>"""      
+Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) <a href="http://www.aemps.gob.es/">http://www.aemps.gob.es/</a></p> </div>"""      
 
