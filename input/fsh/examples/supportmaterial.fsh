@@ -67,7 +67,9 @@ Usage: #example
 * status = #current
 * docStatus = #final
 * content.attachment.language = #en
-* content.attachment.contentType = #video/mp4
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #video
+* content.attachment.contentType = #text/html
 * content.attachment.url = "https://www.youtube.com/watch?v=HpndrPLs1Y8"
 * content.attachment.duration = 715 // in seconds
 * content.attachment.title = "Support on Biktarvy for HIV and AIDS - Dr. John Doe"
@@ -96,7 +98,9 @@ Usage: #example
 * status = #current
 * docStatus = #final
 * content.attachment.language = #en
-* content.attachment.contentType = #audio/mpeg
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #audio
+* content.attachment.contentType = #text/html
 * content.attachment.url = "https://soundcloud.com/duo-wine-and-roses/just-the-two-of-us?in=trending-music-ibe/sets/jazz&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
 * content.attachment.duration = 715 // in seconds
 * content.attachment.title = "Support on Biktarvy for HIV and AIDS - Dr. John Doe"
@@ -188,7 +192,6 @@ Usage: #example
 * content.attachment.url = "https://www.youtube.com/watch?v=qKcRUOWYQ9w"
 * content.attachment.duration = 715 // in seconds
 * content.attachment.title = "self-help method for those experiencing low mood and depression."
-
 
 
 Instance: asm-2

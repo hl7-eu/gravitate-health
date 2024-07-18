@@ -1,5 +1,5 @@
-Profile:    Lens
-Id:        lens
+Profile:  Lens
+Id: lens
 Parent: Library
 Title:     "Lens Profile"
 Description:  "Lens Profile"

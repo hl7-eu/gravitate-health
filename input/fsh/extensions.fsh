@@ -1,4 +1,5 @@
 Extension: HtmlElementLink
+Context: CompositionUvEpi
 * extension contains
     elementClass 1..1 and
     concept 1..1 
@@ -8,12 +9,14 @@ Extension: HtmlElementLink
 
 
 Extension: LensesApplied
+Context: CompositionUvEpi
 Description: "Conveying Lens Information in the FHIR format"
 * ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
 * value[x] only Reference(Lens)
 
 
 Extension: AdditionalInformation
+Context: CompositionUvEpi
 Description: "Adding information to ePIs in the FHIR format. This information may be pictograms, images, video or something else. Flexible to enable a lot of different types of information to be added."
 * ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalInformation"
 * extension contains
@@ -31,8 +34,18 @@ Description: "Adding information to ePIs in the FHIR format. This information ma
 
 
 Extension: RelatedMedicalIssue
+Context: ASM
+
 Description: "Adding codeableReference to relate other subject to documentReference"
 * ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/relatedMedicalIssue"
 
 * extension.value[x] only CodeableReference
 
+
+
+Extension: VisualizationMethod
+Context: Attachment
+
+Description: "Additional information for how to visualize the content in the attachment datatype"
+* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* value[x] only code
