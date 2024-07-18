@@ -4,6 +4,11 @@ Parent: DocumentReference
 Title:     "Additional Support Material Profile"
 Description:  "Additional Support Material Profile"
 
+* extension  MS
+* extension contains RelatedMedicalIssue named RelatedMedicalIssue 0..* 
+* extension[RelatedMedicalIssue] ^short = "RelatedMedicalIssue - link to condition / disease"
+
+
 * identifier 1..* MS 
 * language MS
 * version MS
