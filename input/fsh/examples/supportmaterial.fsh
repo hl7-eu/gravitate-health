@@ -17,7 +17,7 @@ Usage: #example
 * content.attachment.language = #en
 * content.attachment.contentType = #application/json+fhir
 * content.attachment.url = "Composition/Example"
-* content.attachment.title = "example of Additional material in strucutred  format"
+* content.attachment.title = "Example of Additional material in strucutred format"
 
 
 Instance: asm-alicia-example
@@ -38,8 +38,11 @@ Usage: #example
 * description = "The first vaccine was created when Edward Jenner, an English scientist and doctor, successfully injected small amounts of the cowpox virus into the young boy now the protector of the deadly smallpox virus. But how does this counterintuitive process work? Kelwalin Dhanasarnsom, but details the science behind vaccines."
 * status = #current
 * docStatus = #final
+
 * content.attachment.language = #en
-* content.attachment.contentType = #video/mp4
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #video
+* content.attachment.contentType = #text/html
 * content.attachment.url = "https://www.youtube.com/watch?v=rb7TVW77ZCs"
 * content.attachment.duration = 715 // in seconds
 * content.attachment.title = "Vaccination: How does it work? - Kelwalin Dhanasarnsom"
@@ -72,7 +75,7 @@ Usage: #example
 * content.attachment.contentType = #text/html
 * content.attachment.url = "https://www.youtube.com/watch?v=HpndrPLs1Y8"
 * content.attachment.duration = 715 // in seconds
-* content.attachment.title = "Support on Biktarvy for HIV and AIDS - Dr. John Doe"
+* content.attachment.title = "Biktarvy - Video explaining the medication and how it works."
 
 
 
@@ -103,7 +106,7 @@ Usage: #example
 * content.attachment.contentType = #text/html
 * content.attachment.url = "https://soundcloud.com/duo-wine-and-roses/just-the-two-of-us?in=trending-music-ibe/sets/jazz&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
 * content.attachment.duration = 715 // in seconds
-* content.attachment.title = "Support on Biktarvy for HIV and AIDS - Dr. John Doe"
+* content.attachment.title = "Biktarvy - Sound clip on support for the medication usage"
 
 
 
@@ -129,11 +132,13 @@ Usage: #example
 * description = "Test-teste-pdf"
 * status = #current
 * docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #document
 * content.attachment.language = #en
 * content.attachment.contentType = #application/pdf
 * content.attachment.url = "https://www.gilead.com/-/media/files/pdfs/other/biktarvy_br_bula-paciente.pdf"
 * content.attachment.duration = 715 // in seconds
-* content.attachment.title = "Support on Biktarvy for HIV and AIDS - Dr. John Doe"
+* content.attachment.title = "Biktarvy - Support document with additional information"
 
 Instance: asm-biktarvy-example-5
 InstanceOf: ASM
@@ -157,10 +162,12 @@ Usage: #example
 * status = #current
 * docStatus = #final
 * content.attachment.language = #en
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #image
 * content.attachment.contentType = #image/jpeg
 * content.attachment.url = "https://www.drugs.com/images/pills/fio/GIL25010/biktarvy.JPG"
 * content.attachment.duration = 715 // in seconds
-* content.attachment.title = "Support on Biktarvy for HIV and AIDS - Dr. John Doe"
+* content.attachment.title = "Biktarvy - Pill Image"
 
 
 
@@ -187,11 +194,13 @@ Usage: #example
 * description = "In this video, a doctor explains a self-help method for those experiencing low mood and depression."
 * status = #current
 * docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #video
 * content.attachment.language = #en
-* content.attachment.contentType = #video/mp4
+* content.attachment.contentType = #text/html
 * content.attachment.url = "https://www.youtube.com/watch?v=qKcRUOWYQ9w"
 * content.attachment.duration = 715 // in seconds
-* content.attachment.title = "self-help method for those experiencing low mood and depression."
+* content.attachment.title = "Self-help method for those experiencing low mood and depression."
 
 
 Instance: asm-2
@@ -211,8 +220,10 @@ Usage: #example
 * description = "This patient education program explains Xarelto. Xarelto is also known as rivaroxaban. The program includes the following sections: what are the benefits of Xarelto, what are the risks of Xarelto, how does one take Xarelto, what are special considerations for Xarelto and when should you call your health care provider."
 * status = #current
 * docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #video
 * content.attachment.language = #en
-* content.attachment.contentType = #video/mp4
+* content.attachment.contentType = #text/html
 * content.attachment.url = "https://www.youtube.com/watch?v=nJxoFG9Y8xE"
 * content.attachment.duration = 715 // in seconds
 * content.attachment.title = "Patient education program explaining Xarelto"
@@ -236,6 +247,8 @@ Usage: #example
 * description = "Patient/Caregiver Guide about treatment with Vabysmo (faricimab) For the treatment of age-related neovascular Macular Degeneration or Diabetic Macular Edema"
 * status = #current
 * docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #document
 * content.attachment.language = #pt
 * content.attachment.contentType = #application/pdf
 * content.attachment.title = "Patient/Caregiver Guide about treatment with Vabysmo (faricimab)"
