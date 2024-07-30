@@ -8,13 +8,14 @@ Description:  "Additional Support Material Profile"
 * extension contains RelatedMedicalIssue named RelatedMedicalIssue 0..* 
 * extension[RelatedMedicalIssue] ^short = "RelatedMedicalIssue - link to condition / disease"
 
+* type MS
+* category MS
 
 * identifier 1..* MS 
 * language MS
 * version MS
 * docStatus MS
 * modality 0..0
-* type MS
 * bodySite 0..0
 * subject MS
 * author MS
@@ -27,6 +28,9 @@ Description:  "Additional Support Material Profile"
 * content.attachment.hash MS
 * content.attachment.title MS
 * content.attachment.title 1..1
+* content.extension  MS
+* content.extension contains VisualizationMethod named VisualizationMethod 0..1 
+* content.extension[VisualizationMethod] ^short = "VisualizationMethod - how to check the visualization"
 
 * content.attachment.creation MS
 
