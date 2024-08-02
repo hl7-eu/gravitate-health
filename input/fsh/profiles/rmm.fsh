@@ -32,7 +32,7 @@ Description:  "Additional Support Material Profile"
 //* content.extension contains VisualizationMethod named VisualizationMethod 0..1 
 //* content.extension[VisualizationMethod] ^short = "VisualizationMethod - how to check the visualization"
 * content.profile.value[x] only Coding
-* content.profile.valueCoding from type-of-data-vs (example)
+* content.profile.valueCoding from type-of-data-vs (preferred)
 * content.attachment.creation MS
 
 * relatesTo MS

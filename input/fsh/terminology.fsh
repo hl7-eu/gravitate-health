@@ -269,3 +269,31 @@ Id:         type-of-data-vs
 
 
 * include codes from system type-of-data-cs
+
+
+CodeSystem: ASMCategoryCS
+Id:         asm-category-cs
+Title:     "Category of ASM"
+Description: "Category of ASM"
+* ^experimental = true
+* ^caseSensitive = true
+* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/ASMCategoryCS
+
+* #SA
+    "Support Administration"
+    "Support Administration"
+* #MDM
+    "Medication and Disease Management"
+    "Medication and Disease Management"
+* #AE
+    "Adverse Effects Management"
+    "Adverse Effects Management"
+* #MU
+    "Medication Usage"
+    "Medication Usage"
+
+ValueSet: ASMCategoryVS
+Id:         asm-category-vs
+
+
+* include codes from system asm-category-cs
