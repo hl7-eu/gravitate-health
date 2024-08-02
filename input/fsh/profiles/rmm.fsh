@@ -1,5 +1,5 @@
-Profile:    ASM
-Id:        ASM
+Profile:    AdditionalSupportMaterial
+Id:        AdditionalSupportMaterial
 Parent: DocumentReference
 Title:     "Additional Support Material Profile"
 Description:  "Additional Support Material Profile"
@@ -28,10 +28,11 @@ Description:  "Additional Support Material Profile"
 * content.attachment.hash MS
 * content.attachment.title MS
 * content.attachment.title 1..1
-* content.extension  MS
-* content.extension contains VisualizationMethod named VisualizationMethod 0..1 
-* content.extension[VisualizationMethod] ^short = "VisualizationMethod - how to check the visualization"
-
+//* content.extension  MS
+//* content.extension contains VisualizationMethod named VisualizationMethod 0..1 
+//* content.extension[VisualizationMethod] ^short = "VisualizationMethod - how to check the visualization"
+* content.profile.value[x] only Coding
+* content.profile.valueCoding from type-of-data-vs (example)
 * content.attachment.creation MS
 
 * relatesTo MS

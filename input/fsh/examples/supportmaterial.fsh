@@ -1,5 +1,5 @@
 Instance: asm-3
-InstanceOf: ASM
+InstanceOf: AdditionalSupportMaterial
 Title: "Example of additional support material - Structured Content"
 Description:  "Example of additional support material - Structured Content"
 Usage: #example
@@ -21,7 +21,7 @@ Usage: #example
 
 
 Instance: asm-alicia-example
-InstanceOf: ASM
+InstanceOf: AdditionalSupportMaterial
 Title: "Example of additional support material - test match for alicia and flucelvax"
 Description:  "Example of additional support material - test match for alicia and flucelvax"
 Usage: #example
@@ -49,7 +49,7 @@ Usage: #example
 
 
 Instance: asm-alicia-example-2
-InstanceOf: ASM
+InstanceOf: AdditionalSupportMaterial
 Title: "Example of additional support material - test match for alicia, HIV and biktarvy - test video"
 Description:  "Example of additional support material - test match for alicia, HIV and biktarvy - test video"
 Usage: #example
@@ -80,7 +80,7 @@ Usage: #example
 
 
 Instance: asm-biktarvy-example-4
-InstanceOf: ASM
+InstanceOf: AdditionalSupportMaterial
 Title: "Example of additional support material - test match for alicia, HIV and biktarvy - test audio"
 Description:  "Example of additional support material - test match for alicia, HIV and biktarvy - test audio"
 Usage: #example
@@ -112,7 +112,7 @@ Usage: #example
 
 
 Instance: asm-biktarvy-example-6
-InstanceOf: ASM
+InstanceOf: AdditionalSupportMaterial
 Title: "Example of additional support material - test match for alicia, HIV and biktarvy - test document"
 Description:  "Example of additional support material - test match for alicia, HIV and biktarvy - test document"
 Usage: #example
@@ -141,7 +141,7 @@ Usage: #example
 * content.attachment.title = "Biktarvy - Support document with additional information"
 
 Instance: asm-biktarvy-example-5
-InstanceOf: ASM
+InstanceOf: AdditionalSupportMaterial
 Title: "Example of additional support material - test match for alicia, HIV and biktarvy - test image"
 Description:  "Example of additional support material - test match for alicia, HIV and biktarvy - test image"
 Usage: #example
@@ -175,7 +175,7 @@ Usage: #example
 
 
 Instance: asm-alicia-example-3
-InstanceOf: ASM
+InstanceOf: AdditionalSupportMaterial
 Title: "Example of additional support material - test match for alicia, only condition"
 Description:  "Example of additional support material - test match for alicia, only condition"
 Usage: #example
@@ -204,7 +204,7 @@ Usage: #example
 
 
 Instance: asm-2
-InstanceOf: ASM
+InstanceOf: AdditionalSupportMaterial
 Title: "Example of additional support material - URL"
 Description:  "Example of additional support material - URL"
 Usage: #example
@@ -230,7 +230,7 @@ Usage: #example
 
 
 Instance: asm-1
-InstanceOf: ASM
+InstanceOf: AdditionalSupportMaterial
 Title: "Example of additional support material - BUILTIN PDF"
 Description:  "Example of additional support material - BUILTIN PDF"
 Usage: #example
