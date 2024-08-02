@@ -5,7 +5,7 @@ GET https://fosps.gravitatehealth.eu/epi/api/fhir/Condition?_text=diabetes
 
 ### test with MP
 
-GET https://fosps.gravitatehealth.eu/epi/api/fhir/MedicinalProductDefinition?name:contains=biktarvy
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/MedicinalProductDefinition?name:contains=ja
 
 ### then get the composition 
 GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?subject.identifier=EU/1/18/1289/001&_language=en&category=http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs|R
@@ -18,3 +18,16 @@ GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?_elements=subject,
 ### test with MP
 
 GET https://fosps.gravitatehealth.eu/epi/api/fhir/MedicinalProductDefinition?identifier=EU/1/18/1289/001
+
+
+### test with MP
+
+GET https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/MedicinalProductDefinition?name:contains=ja
+
+### then get the composition 
+GET https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/Composition?subject.identifier=EU/1/08/455/001
+
+### then get the composition 
+GET https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/Bundle
+
+

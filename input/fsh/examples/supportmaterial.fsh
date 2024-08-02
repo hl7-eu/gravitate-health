@@ -94,7 +94,8 @@ Usage: #example
 * extension.valueCodeableReference.concept = $sct#86406008
 
 * version = "1.0"
-* category = asm-category-cs#MDM
+* category = asm-category-cs#MDM  "Medication and Disease Management"
+
 
 * author.display = "test"
 

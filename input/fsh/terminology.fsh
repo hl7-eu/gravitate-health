@@ -292,6 +292,14 @@ Description: "Category of ASM"
     "Medication Usage"
     "Medication Usage"
 
+* #STO
+    "Storage"
+    "Storage"
+
+* #OTHER
+    "Other Information"
+    "Other Information"
+
 ValueSet: ASMCategoryVS
 Id:         asm-category-vs
 
