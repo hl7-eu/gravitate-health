@@ -277,7 +277,7 @@ Title:     "Category of ASM"
 Description: "Category of ASM"
 * ^experimental = true
 * ^caseSensitive = true
-* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/ASMCategoryCS
+//* ^url = http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/ASMCategoryCS
 
 * #SA
     "Support Administration"
