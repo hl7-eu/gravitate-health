@@ -7,7 +7,7 @@ Usage: #example
 * identifier[+].system = "http://example.org"
 * identifier[=].value = "1"
 * version = "1.0"
-
+* category = asm-category-cs#SA
 * author.display = "GH"
 
 * subject.display = "ACME DRUG" // add MP if applicable
@@ -28,6 +28,7 @@ Usage: #example
 
 * identifier[+].system = "http://example.org"
 * identifier[=].value = "3"
+* category = asm-category-cs#SA
 
 * version = "1.0"
 
@@ -59,6 +60,7 @@ Usage: #example
 
 * extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/relatedMedicalIssue"
 * extension.valueCodeableReference.concept = $sct#86406008
+* category = asm-category-cs#AE
 
 * version = "1.0"
 
@@ -92,6 +94,7 @@ Usage: #example
 * extension.valueCodeableReference.concept = $sct#86406008
 
 * version = "1.0"
+* category = asm-category-cs#MDM
 
 * author.display = "test"
 
@@ -128,6 +131,7 @@ Usage: #example
 * author.display = "test"
 
 * subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
+* category = asm-category-cs#MDM
 
 * description = "Test-teste-pdf"
 * status = #current
@@ -189,6 +193,7 @@ Usage: #example
 * version = "1.0"
 
 * author.display = "NHS"
+* category = asm-category-cs#MU
 
 
 * description = "In this video, a doctor explains a self-help method for those experiencing low mood and depression."
@@ -239,6 +244,7 @@ Usage: #example
 * identifier[=].value = "3"
 
 * version = "1.0"
+* category = asm-category-cs#SA
 
 * author.display = "Roche"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
