@@ -264,11 +264,13 @@ Description:  "Type of information to be added in epi CS"
     "URL"
     "URL"
     
+
+
 ValueSet: TypeOfDataVS
 Id:         type-of-data-vs
 
-
 * include codes from system type-of-data-cs
+
 
 
 CodeSystem: ASMCategoryCS

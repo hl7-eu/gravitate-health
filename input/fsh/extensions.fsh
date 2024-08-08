@@ -49,3 +49,9 @@ Context: Attachment
 Description: "Additional information for how to visualize the content in the attachment datatype"
 * ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
 * value[x] only code
+
+
+Extension: LEEversion
+Id:        lee-version
+Description: "Version of the Lens Execution Environment (LEE)"
+* value[x] only string
