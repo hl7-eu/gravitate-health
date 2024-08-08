@@ -4,9 +4,9 @@ Parent: Library
 Title:     "Lens Profile"
 Description:  "Lens Profile"
 
-//* extension 0..* MS
-//* extension contains lee-version named lee-version 1..1 
-//* extension[lee-version] ^short = "LEE version - string "
+* extension  MS
+* extension contains lee-version named lee-version 1..1 
+* extension[lee-version] ^short = "LEE version - string "
 
 * version 1..1 MS //version
 * identifier 1..* MS 
