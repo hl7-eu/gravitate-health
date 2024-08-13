@@ -37,7 +37,7 @@ Extension: RelatedMedicalIssue
 Context: AdditionalSupportMaterial
 
 Description: "Adding codeableReference to relate other subject to documentReference"
-* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/relatedMedicalIssue"
+* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/RelatedMedicalIssue"
 
 * extension.value[x] only CodeableReference
 
