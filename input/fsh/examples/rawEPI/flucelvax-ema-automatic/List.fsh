@@ -37,7 +37,8 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdListRuleset
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "English"
+  //* item.extension[=].valueCoding = $100000072057#100000072147 "English"
+  * item.extension[=].valueCoding = $100000072057#en "en"
 
 
 
@@ -49,7 +50,8 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdListRuleset
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072264 "Spanish"
+  //* item.extension[=].valueCoding = $100000072057#100000072264 "Spanish"
+  * item.extension[=].valueCoding = $100000072057#es "es"
 
 
 
@@ -74,7 +76,8 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdListRuleset
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072264 "Spanish"
+ // * item.extension[=].valueCoding = $100000072057#100000072264 "Spanish"
+  * item.extension[=].valueCoding = $100000072057#es "es"
 
 
 * entry[+]
@@ -85,7 +88,8 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdListRuleset
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "English"
+ // * item.extension[=].valueCoding = $100000072057#100000072147 "English"
+  * item.extension[=].valueCoding = $100000072057#en "en"
 
 
 
