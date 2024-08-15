@@ -58,7 +58,7 @@ Usage: #example
 * identifier[+].system = "http://example.org"
 * identifier[=].value = "3"
 
-* extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/relatedMedicalIssue"
+* extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/RelatedMedicalIssue"
 * extension.valueCodeableReference.concept = $sct#86406008
 * category = asm-category-cs#AE
 
@@ -90,7 +90,7 @@ Usage: #example
 * identifier[+].system = "http://example.org"
 * identifier[=].value = "teste1"
 
-* extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/relatedMedicalIssue"
+* extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/RelatedMedicalIssue"
 * extension.valueCodeableReference.concept = $sct#86406008
 
 * version = "1.0"
@@ -124,7 +124,7 @@ Usage: #example
 * identifier[+].system = "http://example.org"
 * identifier[=].value = "teste1"
 
-* extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/relatedMedicalIssue"
+* extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/RelatedMedicalIssue"
 * extension.valueCodeableReference.concept = $sct#86406008
 
 * version = "1.0"
@@ -154,7 +154,7 @@ Usage: #example
 * identifier[+].system = "http://example.org"
 * identifier[=].value = "teste1-image"
 
-* extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/relatedMedicalIssue"
+* extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/RelatedMedicalIssue"
 * extension.valueCodeableReference.concept = $sct#86406008
 
 * version = "1.0"
@@ -188,7 +188,7 @@ Usage: #example
 * identifier[+].system = "http://example.org"
 * identifier[=].value = "3"
 
-* extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/relatedMedicalIssue"
+* extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/RelatedMedicalIssue"
 * extension.valueCodeableReference.concept = $sct#35489007
 
 * version = "1.0"
