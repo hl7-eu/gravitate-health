@@ -33,11 +33,11 @@ RuleSet: 87263ad77afb6e39aa59e421ea0b6b37ListRuleset
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
-  * item = Reference(bundlepackageleaflet-en-1a7318638ddbbeb084ef416e717b6fdb) // Pentasa Slow Release en
+  * item = Reference(bundlepackageleaflet-es-1a7318638ddbbeb084ef416e717b6fdb) // Pentasa Slow Release es
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+  * item.extension[=].valueCoding = $100000072057#100000072264 "Spanish"
 
 
 

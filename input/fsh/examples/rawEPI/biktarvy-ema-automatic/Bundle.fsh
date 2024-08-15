@@ -77,9 +77,6 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765BundleRuleset
  
 
 
- 
-
-
 // PackagedProductDefinition
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-e34e4b65abd3fd8e667db05606cc25a9"
 * entry[=].resource = ppd-e34e4b65abd3fd8e667db05606cc25a9 

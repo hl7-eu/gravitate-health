@@ -37,7 +37,7 @@ RuleSet: bdfe699962879d1b1d2adb6ccf20a5cbListRuleset
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "es"
+  * item.extension[=].valueCoding = $100000072057#100000072264 "Spanish"
 
 
 
@@ -71,7 +71,8 @@ RuleSet: bdfe699962879d1b1d2adb6ccf20a5cbListRuleset
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "es"
+  * item.extension[=].valueCoding = $100000072057#100000072264 "Spanish"
+
 
 
 //himss-metformin

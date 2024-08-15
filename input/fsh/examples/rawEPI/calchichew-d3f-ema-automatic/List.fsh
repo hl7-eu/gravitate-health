@@ -37,7 +37,7 @@ RuleSet: 9e23fbe86c1f883dff598a2d9fed332eListRuleset
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "English"
 
 
 

@@ -90,9 +90,6 @@ RuleSet: 6eb523b7a88cd6dcee848368833cbd08BundleRuleset
  
 
 
- 
-
-
 // PackagedProductDefinition
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-2977a2afce16a0bd914b8d242dd126b5"
 * entry[=].resource = ppd-2977a2afce16a0bd914b8d242dd126b5 
@@ -101,6 +98,9 @@ RuleSet: 6eb523b7a88cd6dcee848368833cbd08BundleRuleset
 // MedicinalProductDefinition
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
 * entry[=].resource = mp16598f252d07b4784b82ba43cf9e847e 
+
+
+ 
 
 
 // ManufacturedItemDefinition
@@ -181,10 +181,10 @@ Usage: #example
 
 
 
-Instance: bundlepackageleaflet-dk-49178f16170ee8a6bc2a4361c1748d5f
+Instance: bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Dovato 50 mg/300 mg film-coated tablets Package Leaflet for language dk"
-Description: "ePI document Bundle for Dovato 50 mg/300 mg film-coated tablets Package Leaflet for language dk"
+Title: "ePI document Bundle for Dovato 50 mg/300 mg film-coated tablets Package Leaflet for language da"
+Description: "ePI document Bundle for Dovato 50 mg/300 mg film-coated tablets Package Leaflet for language da"
 Usage: #example
 
 
@@ -194,15 +194,15 @@ Usage: #example
 * identifier.value = "EU/1/19/1370/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
-* language = #dk
+* language = #da
 
 
 
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-dk-16598f252d07b4784b82ba43cf9e847e"
-* entry[0].resource = composition-dk-16598f252d07b4784b82ba43cf9e847e
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-da-16598f252d07b4784b82ba43cf9e847e"
+* entry[0].resource = composition-da-16598f252d07b4784b82ba43cf9e847e
 
 * insert 6eb523b7a88cd6dcee848368833cbd08BundleRuleset
 

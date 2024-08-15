@@ -37,7 +37,7 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765ListRuleset
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "English"
 
 
 
@@ -49,7 +49,7 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765ListRuleset
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
+  * item.extension[=].valueCoding = $100000072057#100000072251 "Portuguese"
 
 
 
@@ -61,7 +61,7 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765ListRuleset
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "es"
+  * item.extension[=].valueCoding = $100000072057#100000072264 "Spanish"
 
 
 
@@ -73,7 +73,7 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765ListRuleset
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+  * item.extension[=].valueCoding = $100000072057#100000072168 "Danish"
 
 
 
@@ -101,7 +101,8 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765ListRuleset
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
+  * item.extension[=].valueCoding = $100000072057#100000072251 "Portuguese"
+
 
 * entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#02
@@ -111,7 +112,8 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765ListRuleset
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "es"
+  * item.extension[=].valueCoding = $100000072057#100000072264 "Spanish"
+
 
 * entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#02
@@ -121,7 +123,8 @@ RuleSet: 63b15a3bb9d18a00ecd0962bc011c765ListRuleset
   * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
-  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "English"
+
 
 
 //himss-novorapid

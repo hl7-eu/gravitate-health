@@ -81,20 +81,20 @@ RuleSet: 87263ad77afb6e39aa59e421ea0b6b37BundleRuleset
 
 
 
-Instance: bundlepackageleaflet-en-1a7318638ddbbeb084ef416e717b6fdb
+Instance: bundlepackageleaflet-es-1a7318638ddbbeb084ef416e717b6fdb
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Pentasa Slow Release Tablets 1g Package Leaflet for language en"
-Description: "ePI document Bundle for Pentasa Slow Release Tablets 1g Package Leaflet for language en"
+Title: "ePI document Bundle for Pentasa Slow Release Tablets 1g Package Leaflet for language es"
+Description: "ePI document Bundle for Pentasa Slow Release Tablets 1g Package Leaflet for language es"
 Usage: #example
 
 
 
 
 * identifier[+].system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "abec73f25c4907beac907dc574ca8c69"
+* identifier.value = "3fb9f44727c11d7023622a40870fbba0"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* language = #es
 
 
 

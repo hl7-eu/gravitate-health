@@ -22,7 +22,7 @@
 {% set ns.h4 = "4. Efeitos indesejáveis possíveis" %}
 {% set ns.h5 = "5. Como conservar "~row['name'] %}
 {% set ns.h6 = "6. Conteúdo da embalagem e outras informações" %}
-{% elif  row["language"] == "dk"%}
+{% elif  row["language"] == "da"%}
 {% set ns.title = "B. INDLÆGSSEDDEL" %}
 {% set ns.user = "Indlægsseddel: Information til brugeren" %}
 {% set ns.leaflet = "Oversigt over indlægssedlen" %}

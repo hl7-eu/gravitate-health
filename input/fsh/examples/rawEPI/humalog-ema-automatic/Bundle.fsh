@@ -139,27 +139,27 @@ Usage: #example
 
 
 
-Instance: bundlepackageleaflet-dk-a38f06714db0c27b2ba704652e3f08c5
+Instance: bundlepackageleaflet-da-a38f06714db0c27b2ba704652e3f08c5
 InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet for language dk"
-Description: "ePI document Bundle for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet for language dk"
+Title: "ePI document Bundle for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet for language da"
+Description: "ePI document Bundle for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet for language da"
 Usage: #example
 
 
 
 
 * identifier[+].system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier.value = "ead66ba9b718bc52a45f29a519e8e302"
+* identifier.value = "9149cfc20259b235d55d8b514cfdf6c7"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
-* language = #dk
+* language = #da
 
 
 
 
 
 // Composition
-* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-dk-d33868162d255ced115cecbbf188aab4"
-* entry[0].resource = composition-dk-d33868162d255ced115cecbbf188aab4
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-da-d33868162d255ced115cecbbf188aab4"
+* entry[0].resource = composition-da-d33868162d255ced115cecbbf188aab4
 
 * insert 35570a7ffa4ad1ddf8a920b1728d4cd2BundleRuleset

@@ -67,6 +67,19 @@ def create_env(TEMPLATE_FOLDER):
         return str(hash_object.hexdigest())
 
     env.filters["create_hash_id"] = hash_id
+
+    def get_language_code(string):
+        LANGUAGE_CODES = {
+            "da": ("100000072168", "Danish"),
+            "en": ("100000072147", "English"),
+            "es": ("100000072264", "Spanish"),
+            "pt": ("100000072251", "Portuguese"),
+            "sv": ("100000072288", "Swedish"),
+        }
+
+        return LANGUAGE_CODES[string][0] + ' "' + LANGUAGE_CODES[string][1] + '"'
+
+    env.filters["get_language_code"] = get_language_code
     return env
 
 
