@@ -307,3 +307,13 @@ Id:         asm-category-vs
 
 
 * include codes from system asm-category-cs
+
+
+CodeSystem: LensCategoriesCodes
+* ^experimental = true
+* ^caseSensitive = false
+* #pregnancyCategory
+* #conditionCategory
+
+ValueSet: LensCategories
+* include codes from system LensCategoriesCodes

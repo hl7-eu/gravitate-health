@@ -10,6 +10,13 @@ Description:  "Lens Profile"
 
 * version 1..1 MS //version
 * identifier 1..* MS 
+  * ^slicing.discriminator.type = #value
+  * ^slicing.discriminator.path = "system"
+  * ^slicing.rules = #open
+* identifier contains 
+    gravitateIdentifier 0..1
+* identifier[gravitateIdentifier].system = "http://gravitate-health.lst.tfo.upm.es"
+* identifier[gravitateIdentifier].value from LensCategories
 * name 1..1 MS //name
 * type = #logical-library
 * content 1..* MS //code
