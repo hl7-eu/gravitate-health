@@ -1,0 +1,67 @@
+### condition lens
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/?preprocessors=preprocessing-service-manual&lenses=conditions-lens&patientIdentifier=alicia-1
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+< ./examples/preprocessed-biktarvy.json
+
+
+### intollerance lens
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/?preprocessors=preprocessing-service-manual&lenses=allergyintollerance-lens&patientIdentifier=helen-1
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+< ./examples/lactose-preproc-karvea.json
+
+
+### condi lens
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/?preprocessors=preprocessing-service-manual&lenses=pregnancy-lens&patientIdentifier=alicia-1
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+< ./examples/preprocessed-biktarvy.json
+
+
+
+
+####  LENSES
+{
+  "lenses": [
+    "pregnancy-lens",
+    "allergyintollerance-lens",
+    "conditions-lens",
+    "diabetes-lens",
+    "interaction-lens"
+  ]
+}
+### interaction lens app bik
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/processedbundlekarveabik?preprocessors=preprocessing-service-manual&lenses=interaction-lens&patientIdentifier=alicia-1
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+ #### NO PREPROC ####################################################################################################
+
+### condi lens
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-en-94a96e39cfdcd8b378d12dd4063065f9?lenses=pregnancy-lens&patientIdentifier=alicia-1
+Accept: application/json
+#Accept: text/html
+
+### without preproc
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-en-94a96e39cfdcd8b378d12dd4063065f9?patientIdentifier=Pedro-1
+Accept: application/json
+
+### without preproc
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-en-94a96e39cfdcd8b378d12dd4063065f9?patientIdentifier=alicia-1
+Accept: application/json
+
+
+### without preproc
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-en-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-mvp2&preprocessors=preprocessing-service-manual&patientIdentifier=alicia-1
+Accept: application/json

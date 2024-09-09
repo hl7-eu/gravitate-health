@@ -6,7 +6,7 @@ participant Backend as be
 fe -> be: ask for focusing
 note left of fe
 <URL>/focusing/focus/<bundle>
-?preprocessors=preprocessing-service-manual
+?preprocessors=<preprocessors>
 &lenses=<lenses>
 &patientIdentifier=<pat_id>
 end note
@@ -16,7 +16,11 @@ be -> fe: returns epi bundle
 fe -> fe: checks lenses in extension
 fe -> be: ask for lenses description and metada
 note right of be
-<URL>/focusing/lenses?_id=<l1>,<l2>,..
+<URL>/fhir/Library?_id=<l1>,<l2>,..
+OR 
+Have lenses in the first response
+OR
+have cache of lenses already
 end note
 be -> fe: returns lenses description and metadata in a searchset
 fe -> fe: checks data on extensions per section for aditional data.
