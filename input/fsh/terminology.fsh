@@ -314,6 +314,12 @@ CodeSystem: LensCategoriesCodes
 * ^caseSensitive = false
 * #pregnancyCategory
 * #conditionCategory
+* #interaction
+* #allergy
+* #condition
+* #summary
+
+nteraction-lens, pregnancy-lens, allergy-lens, summary-lens, condition-lens ?
 
 ValueSet: LensCategories
 * include codes from system LensCategoriesCodes
