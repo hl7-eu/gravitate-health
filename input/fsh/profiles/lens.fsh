@@ -57,12 +57,12 @@ Description:  "Lens Profile"
 * content ^short = "The code of the lens - base64"
 * content.contentType MS
 * content.language MS
-* content.data 1..1 MS
+* content.data MS
 * content.hash MS
 * content.url MS
 * content.creation MS
 * content.title MS
-//* content.title.extension contains http://hl7.org/fhir/StructureDefinition/translation named translation 0..* MS
+* content.title.extension contains http://hl7.org/fhir/StructureDefinition/translation named translation 0..* MS
 
 
 
