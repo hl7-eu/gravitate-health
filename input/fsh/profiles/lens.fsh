@@ -34,10 +34,14 @@ Description:  "Lens Profile"
 * usage.extension contains http://hl7.org/fhir/StructureDefinition/translation named translation 0..* MS
 
 * parameter 1..* MS //parameters
+* parameter.documentation.extension contains http://hl7.org/fhir/StructureDefinition/translation named translation 0..* MS
+
 * relatedArtifact MS //alternative
 * relatedArtifact ^short = "alternative"
 
 * copyright 1..1 MS
+* copyright.extension contains http://hl7.org/fhir/StructureDefinition/translation named translation 0..* MS
+
 * description 1..1 MS //documentation
 * description ^short = "documentation"
 * description.extension contains http://hl7.org/fhir/StructureDefinition/translation named translation 0..* MS
