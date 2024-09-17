@@ -48,7 +48,7 @@ def create_env(TEMPLATE_FOLDER):
 
     def html_unescape(s):
         return (
-            s.replace("&nbsp;", "")
+            s.replace("&nbsp;", "&#160;")
             .replace("<br>", "")
             .replace("&oacute;", "ó")
             .replace("&aacute;", "á")
