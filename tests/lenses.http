@@ -14,7 +14,7 @@ POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-2d49ae
 
 
 ### condition lens
-POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_conditions&patientIdentifier=alicia-1
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_conditionsxx&patientIdentifier=alicia-1
 content-type: application/json
 Accept: application/json
 #Accept: text/html
@@ -165,5 +165,30 @@ Accept: application/json
 ### without preproc
 
 POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-en-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=alicia-1
+Accept: application/json
+
+#### chatbot
+
+POST https://gravitate-health.lst.tfo.upm.es/chatbot/chat?epiIdentifier=EU%2F1%2F96%2F007%2F035&patientIdentifier=Cecilia-1&chatbotId=chat-with-epi
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJVWEtjb1E5ME1QWmhyeDVyQThPR3NMQS10SE5hb1dqRGRIV2NIY21wNXJrIn0.eyJleHAiOjE3MjY1ODc0NTIsImlhdCI6MTcyNjU4NzE1MiwianRpIjoiMTM3OGI0ZWQtZTNlOS00MjhjLWJkY2ItZjc0ZWYwYjk4Y2U1IiwiaXNzIjoiaHR0cHM6Ly9ncmF2aXRhdGUtaGVhbHRoLmxzdC50Zm8udXBtLmVzL2F1dGgvcmVhbG1zL0dyYXZpdGF0ZUhlYWx0aCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIzMTI5N2FkMS1jYjNjLTQxMzgtYTEzMi1lNjQwMTYxNzBlMWQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJHcmF2aXRhdGVIZWFsdGgiLCJzZXNzaW9uX3N0YXRlIjoiNGU0NWRjYzUtN2YzYS00MGQxLWE2YmMtNjQxZGRjMmE2YWJlIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL2dyYXZpdGF0ZS1oZWFsdGgubHN0LnRmby51cG0uZXMiLCIqIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtZ3Jhdml0YXRlaGVhbHRoIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJzaWQiOiI0ZTQ1ZGNjNS03ZjNhLTQwZDEtYTZiYy02NDFkZGMyYTZhYmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6IkFsaWNpYSIsInByZWZlcnJlZF91c2VybmFtZSI6ImFsaWNpYUBncmF2aXRhdGVoZWFsdGguZXUiLCJnaXZlbl9uYW1lIjoiQWxpY2lhIiwiZmFtaWx5X25hbWUiOiIiLCJlbWFpbCI6ImFsaWNpYUBncmF2aXRhdGVoZWFsdGguZXUifQ.HKtdi_w2eiI2ownbDLSC9vmymVU7tNUcbwW0P1-ZSRLUm6gaVXYZqXBFLw_zcK9hyUJG18e66H3iCF_elApdsvxljeD9o97iZhDjLS-xTfmTNlJyTZ9hN69nQQA0RWV4xqULvPDJ34-uYApnc0FmHPC47zPqO4Mu0iQz0COvJ6-mBJl7v_8H3CPfIEY6V00muMag03-q0D427JUDNDbdxEZnjRWG7piVghBDEsaaRS0K7u0yYbUaOwOofXlFuLpLCRmfUaoC7E9BOt91WNQIZNZKQdUNNXIFXvbj5eghrJIo0DCtzUP1lIbaU8C6F_WzbmqluOSZKgHFOmhPe29T8A
+Accept: application/json
+
+{"question":"I have a headache. I have taken 3 pills of blaston. What should I do? What could happen to me?"}
+
+
+
+### test
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/?preprocessors=preprocessing-service-mvp2&preprocessors=preprocessing-service-manual
+content-type: application/json
+Accept: application/json
+
+< ./examples/test.json
+
+
+### without preproc
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-en-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-mvp2&preprocessors=preprocessing-service-manual&patientIdentifier=Pedro-1
 Accept: application/json
 

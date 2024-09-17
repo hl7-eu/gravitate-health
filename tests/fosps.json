@@ -1,0 +1,456 @@
+{
+    "info": {
+      "title": "Gravitate Health Focusing API Interface",
+      "version": "MVP2",
+      "description": "Gravitate Health focusing. Preprocessing and lens selection",
+      "contact": {}
+    },
+    "paths": {
+      "/focusing/preprocessing": {
+        "get": {
+          "tags": [
+            "Preprocessing"
+          ],
+          "description": "Lists all available preprocessors.",
+          "responses": {
+            "200": {
+              "description": "OK",
+              "schema": {
+                "$ref": "#/definitions/PreprocessingList"
+              }
+            }
+          },
+          "parameters": [],
+          "produces": [
+            "application/json"
+          ]
+        }
+      },
+      "/focusing/preprocessing/{epiId}": {
+        "post": {
+          "tags": [
+            "Preprocessing"
+          ],
+          "description": "Executes preprocessing on an ePI, adding semantic annotation to the ePI's leaflet sections. Desired response \"Content-Type\" (JSON or HTML) must be sent in the \"Accept\" header.",
+          "parameters": [
+            {
+              "in": "path",
+              "name": "epiId",
+              "description": "ePI id to preprocess.",
+              "required": true,
+              "type": "string"
+            },
+            {
+              "in": "query",
+              "name": "preprocessors",
+              "description": "List of preprocessors to be executed on the ePI. If parameter is absent, all preprocessors will be executed.",
+              "required": false,
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "collectionFormat": "multi"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "OK",
+              "schema": {
+                "$ref": "#/definitions/ePI-json"
+              }
+            },
+            "422": {
+              "description": "Invalid Data",
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "messsage": {
+                    "type": "string",
+                    "default": "Given data is invalid"
+                  },
+                  "reason": {
+                    "type": "string",
+                    "default": "Reason"
+                  }
+                }
+              }
+            }
+          },
+          "produces": [
+            "application/json",
+            "text/html"
+          ]
+        }
+      },
+      "/focusing/lenses": {
+        "get": {
+          "tags": [
+            "Lenses"
+          ],
+          "description": "Lists all available lenses.",
+          "responses": {
+            "200": {
+              "description": "OK",
+              "schema": {
+                "$ref": "#/definitions/LensesList"
+              }
+            }
+          },
+          "parameters": [],
+          "produces": [
+            "application/json"
+          ]
+        }
+      },
+      "/focusing/focus/{epiId}": {
+        "post": {
+          "tags": [
+            "Lenses"
+          ],
+          "description": "Preprocesses and focuses an ePI based on a Patient's IPS. The epiId must exist, and you can specify the Patient's IPS in 2 ways:\n\n  1. Writing the patientId on query param.\n  2. Passing all the IPS JSON Document through the request's body.\n\nDesired response \"Content-Type\" (JSON or HTML) must be sent in the \"Accept\" header. The response contains the ePI with HTML tags and the following CSS classes: \"highlight\", \"collapse\". \"Highlight\" CSS class is used to remark information. It has precedence over the collapse class. \"Collapse\" CSS class is used to hide information.\n",
+          "parameters": [
+            {
+              "in": "path",
+              "name": "epiId",
+              "description": "ePI id to preprocess.",
+              "required": true,
+              "type": "string"
+            },
+            {
+              "in": "query",
+              "name": "preprocessors",
+              "description": "List of preprocessors to be executed on the ePI. If parameter is absent, all preprocessors will be executed.",
+              "required": false,
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "collectionFormat": "multi"
+            },
+            {
+              "in": "query",
+              "name": "lenses",
+              "description": "List of lenses to be applied.",
+              "required": false,
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "collectionFormat": "multi"
+            },
+            {
+              "in": "query",
+              "name": "patientIdentifier",
+              "description": "Patient identifier, that is required only if you dont't specify a full IPS JSON Document on request's body.",
+              "required": false,
+              "type": "string"
+            },
+            {
+              "description": "This could have an IPS JSON Document if you dont specify patientId",
+              "name": "body",
+              "in": "body",
+              "schema": {
+                "$ref": "#/definitions/ipsFocusing"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "OK",
+              "schema": {
+                "$ref": "#/definitions/ePI-json"
+              }
+            },
+            "400": {
+              "description": "Bad Request",
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string",
+                    "default": "Bad request"
+                  },
+                  "reason": {
+                    "type": "string",
+                    "default": "Reason"
+                  }
+                }
+              }
+            },
+            "422": {
+              "description": "Invalid Data",
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "messsage": {
+                    "type": "string",
+                    "default": "Given data is invalid"
+                  },
+                  "reason": {
+                    "type": "string",
+                    "default": "Reason"
+                  }
+                }
+              }
+            }
+          },
+          "consumes": [
+            "application/json"
+          ],
+          "produces": [
+            "application/json"
+          ]
+        }
+      },
+      "/focusing/focus": {
+        "post": {
+          "tags": [
+            "Lenses"
+          ],
+          "description": "Preprocesses and focuses an ePI based on a Patients's IPS. You must introduce the full ePI JSON Document on the request's body, and you can specify the Patient's IPS in 2 ways:\n\n  1. Writing the patientId on query param.\n  2. Passing all the IPS JSON Document through the request's body.\n\nDesired response \"Content-Type\" (JSON or HTML) must be sent in the \"Accept\" header. The response contains the ePI with HTML tags and the following CSS classes: \"highlight\", \"collapse\". \"Highlight\" CSS class is used to remark information. It has precedence over the collapse class. \"Collapse\" CSS class is used to hide information.\n",
+          "parameters": [
+            {
+              "in": "query",
+              "name": "preprocessors",
+              "description": "List of preprocessors to be executed on the ePI. If parameter is absent, all preprocessors will be executed.",
+              "required": false,
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "collectionFormat": "multi"
+            },
+            {
+              "in": "query",
+              "name": "lenses",
+              "description": "List of lenses to be applied.",
+              "required": false,
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "collectionFormat": "multi"
+            },
+            {
+              "in": "query",
+              "name": "patientIdentifier",
+              "description": "Patient identifier, that is required only if you dont't specify a full IPS JSON Document on request's body.",
+              "required": false,
+              "type": "string"
+            },
+            {
+              "description": "The body must have an ePI JSON Document, and could have an IPS JSON Document in case you dont specify a patientID on query params. Body should be written this way in case you have ePI and IPS Documents. In case you write a patientId on query parameter, you should delete IPS field from body.",
+              "name": "body",
+              "in": "body",
+              "schema": {}
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "OK",
+              "schema": {
+                "$ref": "#/definitions/ePI-json"
+              }
+            },
+            "400": {
+              "description": "Bad Request",
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string",
+                    "default": "Bad request"
+                  },
+                  "reason": {
+                    "type": "string",
+                    "default": "Reason"
+                  }
+                }
+              }
+            },
+            "422": {
+              "description": "Invalid Data",
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "messsage": {
+                    "type": "string",
+                    "default": "Given data is invalid"
+                  },
+                  "reason": {
+                    "type": "string",
+                    "default": "Reason"
+                  }
+                }
+              }
+            }
+          },
+          "consumes": [
+            "application/json"
+          ]
+        }
+      }
+    },
+    "swagger": "2.0",
+    "host": "fosps.gravitatehealth.eu",
+    "schemes": [
+      "https"
+    ],
+    "basePath": "/",
+    "definitions": {
+      "bodyWithIPSandEPI": {
+        "type": "object",
+        "properties": {
+          "epi": {
+            "type": "string",
+            "example": "Full ePI JSON Document should be inside this parameter"
+          },
+          "ips": {
+            "type": "string",
+            "example": "Full IPS JSON Document should be inside this parameter"
+          }
+        }
+      },
+      "PreprocessingList": {
+        "type": "object",
+        "properties": {
+          "preprocessors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "example": [
+              "preprocessor1",
+              "preprocessor2",
+              "preprocessor3"
+            ]
+          }
+        }
+      },
+      "LensesList": {
+        "type": "object",
+        "properties": {
+          "lenses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "example": [
+              "lense-name1",
+              "lense-name2",
+              "lense-name3"
+            ]
+          }
+        }
+      },
+      "ipsFocusing": {
+        "type": "object",
+        "properties": {
+          "ips": {
+            "type": "object",
+            "example": "Full IPS JSON Document should be inside this parameter"
+          }
+        }
+      },
+      "ePI-html": {
+        "type": "string",
+        "example": "<html> ePI in HTML format </html>"
+      },
+      "ePI-json": {
+        "type": "object"
+      }
+    },
+    "x-components": {
+      "parameters": {
+        "epiId": {
+          "in": "path",
+          "name": "epiId",
+          "description": "ePI id to preprocess.",
+          "required": true,
+          "type": "string"
+        },
+        "patientIdentifierquery": {
+          "in": "query",
+          "name": "patientIdentifier",
+          "description": "Patient identifier, that is required only if you dont't specify a full IPS JSON Document on request's body.",
+          "required": false,
+          "type": "string"
+        },
+        "preprocessorsList": {
+          "in": "query",
+          "name": "preprocessors",
+          "description": "List of preprocessors to be executed on the ePI. If parameter is absent, all preprocessors will be executed.",
+          "required": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "collectionFormat": "multi"
+        },
+        "lensesList": {
+          "in": "query",
+          "name": "lenses",
+          "description": "List of lenses to be applied.",
+          "required": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "collectionFormat": "multi"
+        },
+        "responseContentType": {
+          "in": "query",
+          "name": "responseContentType",
+          "description": "Select response format in JSON or HTML.",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "html",
+              "json"
+            ]
+          }
+        }
+      },
+      "responses": {
+        "200focus": {
+          "description": "OK",
+          "schema": {
+            "$ref": "#/definitions/ePI-json"
+          }
+        },
+        "422InvalidData": {
+          "description": "Invalid Data",
+          "schema": {
+            "type": "object",
+            "properties": {
+              "messsage": {
+                "type": "string",
+                "default": "Given data is invalid"
+              },
+              "reason": {
+                "type": "string",
+                "default": "Reason"
+              }
+            }
+          }
+        },
+        "400BadRequest": {
+          "description": "Bad Request",
+          "schema": {
+            "type": "object",
+            "properties": {
+              "message": {
+                "type": "string",
+                "default": "Bad request"
+              },
+              "reason": {
+                "type": "string",
+                "default": "Reason"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
