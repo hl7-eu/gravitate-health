@@ -52,3 +52,79 @@ Usage: #definition
 * group.element[=].target.relationship = #equivalent
 
 
+Instance: legalstatussupply-hl7-spor
+InstanceOf: ConceptMap
+Usage: #definition
+* extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
+* extension.valueCode = #vocab
+* name = "SNOMEDCTToICD10CMMappingsForFractureOfUlna"
+* title = "SNOMED CT to ICD-10-CM mappings for fracture of ulna"
+* status = #draft
+* experimental = true
+* date = "2012-06-13"
+* publisher = "HL7 International / Terminology Infrastructure"
+* description = "Example rule-based mappings between SNOMED CT to ICD-10-CM for fracture of ulna"
+* purpose = "Show example rule based mappings"
+* copyright = "Creative Commons 0"
+* sourceScopeCanonical = "http://snomed.info/sct?fhir_vs"
+* group.source = "http://hl7.org/fhir/legal-status-of-supply"
+* group.target = "https://spor.ema.europa.eu/v1/lists/100000072051"
+
+* group.element[+].code = #100000072076
+* group.element[=].display = "Medicinal product not subject to medical prescription"
+* group.element[=].target.code = #100000072076
+* group.element[=].target.display = "Medicinal product not subject to medical prescription"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #100000072077
+* group.element[=].display = "Medicinal product on medical prescription for renewable or non-renewable delivery"
+* group.element[=].target.code = #100000072077
+* group.element[=].target.display = "Medicinal product on medical prescription for renewable or non-renewable delivery"
+* group.element[=].target.relationship = #equivalent
+
+
+* group.element[+].code = #100000072079
+* group.element[=].display = "Medicinal product on medical prescription for non-renewable delivery"
+* group.element[=].target.code = #100000072079
+* group.element[=].target.display = "Medicinal product on medical prescription for non-renewable delivery"
+* group.element[=].target.relationship = #equivalent
+
+* group.element[+].code = #100000072078
+* group.element[=].display = "Medicinal product subject to restricted medical prescription"
+* group.element[=].target.code = #100000072078
+* group.element[=].target.display = "Medicinal product subject to restricted medical prescription"
+* group.element[=].target.relationship = #equivalent
+
+
+* group.element[+].code = #100000072084
+* group.element[=].display = "Medicinal product subject to medical prescription"
+* group.element[=].target.code = #100000072084
+* group.element[=].target.display = "Medicinal product subject to medical prescription"
+* group.element[=].target.relationship = #equivalent
+
+
+* group.element[+].code = #100000072085
+* group.element[=].display = "Medicinal product subject to special medical prescription"
+* group.element[=].target.code = #100000072085
+* group.element[=].target.display = "Medicinal product subject to special medical prescription"
+* group.element[=].target.relationship = #equivalent
+
+
+
+* group.element[+].code = #100000072086
+* group.element[=].display = "Medicinal product on medical prescription for renewable delivery"
+* group.element[=].target.code = #100000072086
+* group.element[=].target.display = "Medicinal product on medical prescription for renewable delivery"
+* group.element[=].target.relationship = #equivalent
+
+
+
+
+* group.element[+].code = #100000157313
+* group.element[=].display = "Medicinal product subject to special and restricted medical prescription"
+* group.element[=].target.code = #100000157313
+* group.element[=].target.display = "Medicinal product subject to special and restricted medical prescription"
+* group.element[=].target.relationship = #equivalent
+
+
+
