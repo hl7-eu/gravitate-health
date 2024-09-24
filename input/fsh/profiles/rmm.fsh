@@ -11,6 +11,8 @@ Description:  "Additional Support Material Profile"
 * type MS
 * category MS
 
+* category from asm-category-vs (preferred)
+
 * identifier 1..* MS 
 * language MS
 * version MS
