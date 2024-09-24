@@ -32,9 +32,7 @@ There has been a work on the mapping between the 3:
 | 7. Marketing authorisation holder                                            | 26. Marketing authorization holder, etc.                     | N/A                                              |
 | 8. Marketing authorisation number(s)                                         | 26. Marketing authorization holder, etc.                     | N/A                                              |
 | 9. Date of first authorisation/renewal of the authorisation                  | N/A                                                          | N/A                                              |
-| 10. Date of revision of the text                                             | beginning of document                                        | N/A                                              |
-| Spell out abbreviations !                                                    |                                                              |                                                  |
-| WHY is there a mix of Capital letters and regular text                       |                                                              |                                                  |
+| 10. Date of revision of the text                                             | beginning of document                       | N/A                                       |
 
 ## USPI - FHIR SPL
 
