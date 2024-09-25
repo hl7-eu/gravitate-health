@@ -150,3 +150,4 @@ Usage: #inline
 * section.section[=].code = $loinc#42229-5 "SPL UNCLASSIFIED SECTION"
 * section.section[=].text.status = #generated
 * section.section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t\t\t\t\t\t<p>Pfizer</p>\n\t\t\t\t\t\t\t\t<p>NDC 0069-0688-03</p>\n\t\t\t\t\t\t\t\t<p>IBRANCE® </p>\n\t\t\t\t\t\t\t\t<p>(palbociclib)</p>\n\t\t\t\t\t\t\t\t<p>tablets</p>\n\t\t\t\t\t\t\t\t<p>125 mg</p>\n\t\t\t\t\t\t\t\t<p>21 tablets</p>\n\t\t\t\t\t\t\t\t<p>Monthly Box Contains: 3 individual weekly</p>\n\t\t\t\t\t\t\t\t<p>packs. Each pack contains 7 IBRANCE tablets</p>\n\t\t\t\t\t\t\t\t<p>(125 mg per tablet).</p>\n\t\t\t\t\t\t\t\t<p>Rx only</p>\n\t\t\t\t\t\t\t\t<p>Safety</p>\n\t\t\t\t\t\t\t\t<p>Label</p>\n\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t<img src=\"#UUID-IBRANCE-13\" alt=\"125 MG TABLET DOSE PACK CARTON\"/>\n\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</div>"
+
