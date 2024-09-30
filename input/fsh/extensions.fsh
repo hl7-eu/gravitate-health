@@ -56,3 +56,14 @@ Extension: LEEversion
 Id:        lee-version
 Description: "Version of the Lens Execution Environment (LEE)"
 * value[x] only string
+
+
+Extension: BlockchainTransactionId
+Id: blockchain-transaction-id
+Title: "Blockchain Transaction ID"
+Description: "An extension to record the blockchain transaction ID associated with a FHIR resource."
+Status: draft
+* valueString 1..1
+* valueString ^short = "Blockchain Transaction ID"
+* context[0].type = "Resource"
+* context[0].expression = "Provenance"
