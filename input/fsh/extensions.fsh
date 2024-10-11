@@ -12,7 +12,16 @@ Extension: LensesApplied
 Context: CompositionUvEpi
 Description: "Conveying Lens Information in the FHIR format"
 * ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
-* value[x] only Reference(Lens)
+* extension contains
+    lens 1..1 and
+    elementClass 1..* and
+    explanation 1..1
+* extension[lens] ^short = "Reference to the lens"
+* extension[lens].value[x] only Reference(Lens)
+* extension[elementClass] ^short = "Class in the text linked to the action of this lens"
+* extension[elementClass].value[x] only string
+* extension[explanation] ^short = "Why this lens was applied"
+* extension[explanation].value[x] only string or markdown
 
 
 Extension: AdditionalInformation
