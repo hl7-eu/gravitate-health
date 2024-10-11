@@ -11,7 +11,7 @@ Context: CompositionUvEpi
 Extension: LensesApplied
 Context: CompositionUvEpi
 Description: "Conveying Lens Information in the FHIR format"
-* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
+* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
 * extension contains
     lens 1..1 and
     elementClass 1..* and
