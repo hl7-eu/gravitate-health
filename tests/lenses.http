@@ -202,9 +202,17 @@ content-type: application/json
 
 {
   "resourceType" : "Parameters",
-  "id" : "example",
   "parameter" : [{
     "name" : "identifier",
     "valueIdentifier" : {"value":"alicia-1"}
   }]
 }
+### test prod
+POST https://fosps.gravitatehealth.eu/focusing/focus/processedbundlekarveabik?preprocessors=preprocessing-service-mvp2&preprocessors=preprocessing-service-manual&patientIdentifier=alicia-1
+Accept: application/json
+content-type: application/json
+
+### test prod
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/processedbundlekarveabik?preprocessors=preprocessing-service-mvp2&preprocessors=preprocessing-service-manual&patientIdentifier=alicia-1
+Accept: application/json
+content-type: application/json

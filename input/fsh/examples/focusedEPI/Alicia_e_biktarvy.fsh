@@ -76,6 +76,11 @@ Usage: #inline
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#66071002 "Viral hepatitis type B (disorder)"
 
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "hepatitisB"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#66071002 "Viral hepatitis type B (disorder)"
 
 
 
@@ -153,9 +158,9 @@ transcriptase inhibitor (NtRTI)</li>
 adults, adolescents and children 2 years of age and older, who weigh at least 14 kg.</span></p>
 <p>Biktarvy reduces the amount of HIV in your body. This will improve your immune system and reduce
 the risk of developing illnesses linked to HIV infection.</p><img alt="How to take medication" class="mock-lib" src="#binary1"/>        </div>"""   
-          
 
-             
+
+
 * section[=].section[+]
   * extension.url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalInformation"
   * extension[=].extension[+].url = "type"
@@ -184,11 +189,11 @@ anxiety, or products that contain it.</span></li>
 <p><strong>Warnings and precautions</strong></p>
 <p><strong>Talk to your doctor before taking Biktarvy:</strong></p>
 <ul>
-<li><span class="liver collapse mock-lib">If you have liver problems or a history of liver disease, including hepatitis. Patients with
+<li><span class="liver collapse mock-lib2">If you have liver problems or a history of liver disease, including hepatitis. Patients with
 liver disease including chronic hepatitis B or C, who are treated with antiretrovirals, have a
 higher risk of severe and potentially fatal liver complications. If you have hepatitis B infection,
 your doctor will carefully consider the best treatment regimen for you.</span></li>
-<li><p><span class="hepatitisB collapse mock-lib">If you have hepatitis B infection. Liver problems may become worse after you stop taking
+<li><p><span class="hepatitisB collapse mock-lib2">If you have hepatitis B infection. Liver problems may become worse after you stop taking
 Biktarvy</span></p>
 </li>
 <li><p>Do not stop taking Biktarvy if you have hepatitis B. Talk to your doctor first. For more details, see
@@ -269,7 +274,7 @@ antacids or supplements containing aluminium and/or magnesium. Or you can take B
 food at least 2 hours after.</p>
 <p>Iron supplements: you will need to take Biktarvy at least 2 hours before iron supplements, or you
 can take them together with food.</p>
-<div class="pregnancyCategory highlight mock-lib"><p><strong>Pregnancy and breast-feeding</strong></p>
+<div class="pregnancyCategory highlight mock-lib2"><p><strong>Pregnancy and breast-feeding</strong></p>
 <ul>
 <li>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby,
 ask your doctor or pharmacist for advice before taking this medicine.</li>
@@ -280,7 +285,7 @@ risks of your antiretroviral therapy to you and your child.</li>
 other diagnostic tests to monitor the development of your child. In children whose mothers took
 nucleoside reverse transcriptase inhibitors (NRTIs) during pregnancy, the benefit from the protection
 against HIV outweighed the risk of side effects.</p>
-<div class="breastfeedingCategory highlight mock-lib"><p><strong>Do not breast-feed during treatment with Biktarvy.</strong> This is because some of the active substances
+<div class="breastfeedingCategory highlight mock-lib2"><p><strong>Do not breast-feed during treatment with Biktarvy.</strong> This is because some of the active substances
 in this medicine pass into human breast milk. Breast-feeding is not recommended in women living
 with HIV because HIV infection can be passed on to the baby in breast milk. If you are
 breast-feeding, or thinking about breast-feeding, you should discuss it with your doctor as soon as
