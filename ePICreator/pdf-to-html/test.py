@@ -1,18 +1,37 @@
 import markdown
+from markdown.extensions import sane_lists
+import pandoc
+import pypandoc
 
-
-test = """  How to inhale Bemrist Breezhaler 
-- Bemrist Breezhaler is for inhalation use. 
-- In this pack, you will find an inhaler and capsules that contain the medicine. The inhaler enables 
-you to inhale the medicine in the capsule. Only use the capsules with the inhaler provided in this 
-pack. The capsules should remain in the blister until you need to use them. 
-- Peel the backing away from the blister to open it, do not push the capsule through the foil. 
-- When you start a new pack, use the new inhaler supplied in this new pack. 
-- Dispose of the inhaler in each pack after all capsules in that pack have been used. 
-- Do not swallow the capsules. 
-- Please read the instructions for use on the other side of this leaflet for more information 
-on how to use the inhaler.
+test = """  Não tome Rydapt  
+* se tem alergia à midostaurina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Se pensa que pode ser alérgico, aconselhe-se com o seu médico. 
+* Se já estiver a tomar algum dos seguintes medicamentos: 
+* medicamentos usados para tratar a tuberculose, tal como rifampicina; 
+* medicamentos para tratar a epilepsia, tais como carbamazepina ou fenitoína; 
+* enzalutamida, um medicamento usado para tratar o cancro da próstata; 
+* hipericão (também conhecido por Hypericum perforatum), um medicamento à base de 
+plantas medicinais usado para tratar a depressão. 
+Estes medicamentos têm de ser evitados durante o tratamento com Rydapt. Fale com o seu médico se 
+lhe disserem que deve começar a tomar um deles durante o tratamento com Rydapt. 
+ 
+Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Rydapt: 
+* se tiver alguma infeção. 
+* se tiver um problema cardíaco. 
+* se tiver problemas nos pulmões ou problemas respiratórios. 
+* se tiver problemas nos rins. 
 """
 
 
-print(markdown.markdown(test))
+print(
+    markdown.markdown(
+        test,
+    )
+)
+
+html_output = pandoc.read(test, format="markdown_github")
+print(pandoc.write(html_output, format="html"))
+
+output = pypandoc.convert_text(test, "html", "gfm")
+print(output)
