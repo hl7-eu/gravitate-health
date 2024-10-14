@@ -13,6 +13,7 @@ LANGUAGE = "en"
 
 pdf_path = "/Users/joaoalmeida/Desktop/hl7Europe/Other projects/chatwithepi/epi-gather/epis-ema/akynzeo-epar-product-information_en.pdf"
 pdf_path = "/Users/joaoalmeida/Desktop/hl7Europe/Other projects/chatwithepi/epi-gather/epis-ema/rydapt-epar-product-information_en.pdf"
+pdf_path = "/Users/joaoalmeida/Desktop/hl7Europe/Other projects/chatwithepi/epi-gather/epis-ema/norvir-epar-product-information_en.pdf"
 
 
 def single_process(file_path, OUTPUT_FOLDER, TEMPLATE_FOLDER, lang_folder):

@@ -51,6 +51,7 @@ def cleanhtml(raw_html):
     raw_html = re.sub(r"(\d\.)\s\n", r"\1 ", raw_html)
     # raw_html = re.sub(r"\so\s", "* ", raw_html)
     raw_html = re.sub(r"\n\*", "\n\n*", raw_html)
+    raw_html = re.sub(r"^-\n", "-", raw_html)
 
     # raw_html = re.sub(r"\n- ", "\n* ", raw_html)
     return raw_html
