@@ -83,6 +83,14 @@ Usage: #inline
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#66071002 "Viral hepatitis type B (disorder)"
 
 
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+* extension[=].extension[+].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(pregnancy-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "pregnancyCategory"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "This paragraph was highlight because you are a female of 18+ years and this sections refers to potential issues with pregnancy or breastfeeding."
+
 
 
 * section[+].
@@ -162,7 +170,7 @@ the risk of developing illnesses linked to HIV infection.</p><img alt="How to ta
 
 
 * section[=].section[+]
-  * extension.url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalInformation"
+  * extension.url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
   * extension[=].extension[+].url = "type"
   * extension[=].extension[=].valueCodeableConcept = TypeOfDataCS#PCT "Pictogram"
   * extension[=].extension[+].url = "concept"
@@ -299,7 +307,12 @@ and do not use any tools or machines.</p>
 ‘sodium-free’.</p>        
 <img alt="How to take medication" class="mock-lib" src="https://github.com/hl7-eu/gravitate-health/blob/master/input/images/test-image.jpeg?raw=true"/> </div>"""   
                     
-* section[=].section[+]
+* section[=].section[+].
+  * extension.url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+  * extension[=].extension[+].url = "type"
+  * extension[=].extension[=].valueCodeableConcept = TypeOfDataCS#PCT "Pictogram"
+  * extension[=].extension[+].url = "concept"
+  * extension[=].extension[=].valueUrl = "https://www.aidsmap.com/sites/default/files/styles/medium/public/2019-07/Biktarvy.png?itok=Cw7BoVdg"
   * title = "3. How to take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"

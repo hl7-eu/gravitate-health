@@ -2,8 +2,8 @@ Extension: HtmlElementLink
 Context: CompositionUvEpi
 Description: "Adding information to ePIs in the FHIR format. This information may be pictograms, images, video or something else. Flexible to enable a lot of different types of information to be added."
 * extension contains
-    elementClass 1..1 and
-    concept 1..1 
+    elementClass 0..1 and
+    concept 1..1 and type 1..1
 * extension[concept] ^short = "Data to be used, can be a reference to a resource, a CodeableConcept, or a base64 encoded string, a URL or a string"
 * extension[concept].value[x] only CodeableReference or base64Binary or url or string
 
