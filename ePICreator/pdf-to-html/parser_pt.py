@@ -43,7 +43,7 @@ def replace_unicode_character(input_string, character_to_replace, replacement_ch
 def cleanhtml(raw_html):
     raw_html = re.sub(r"\*\n", "* ", raw_html)
     raw_html = re.sub(r"\d{2,3}\s\n", "", raw_html)
-    raw_html = re.sub(r"-\s\n", "- ", raw_html)
+    raw_html = re.sub(r"\n-\s?\n", "\n- ", raw_html)
     raw_html = re.sub(r"•\s\n", "* ", raw_html)
     raw_html = re.sub(r"•\s", "* ", raw_html)
     raw_html = re.sub(r"([123456]\.)\n", r"\1 ", raw_html)
@@ -51,7 +51,6 @@ def cleanhtml(raw_html):
     raw_html = re.sub(r"(\d\.)\s\n", r"\1 ", raw_html)
     # raw_html = re.sub(r"\so\s", "* ", raw_html)
     raw_html = re.sub(r"\n\*", "\n\n*", raw_html)
-    raw_html = re.sub(r"^-\n", "-", raw_html)
 
     # raw_html = re.sub(r"\n- ", "\n* ", raw_html)
     return raw_html

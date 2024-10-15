@@ -25,14 +25,12 @@ Diagram:
 ### FHIR Considerations
 
 1. The raw ePI:
-This artifact composed of several FHIR resources, being the composition the central piece. It can already have additional data in it from the get go such as multimedia in the format of binary or [additionalInformation](https://build.fhir.org/ig/hl7-eu/gravitate-health/StructureDefinition-AdditionalInformation.html) extension.
+This artifact composed of several FHIR resources, being the composition the central piece. It can already have additional data in it from the get go such as multimedia in the format of binary or [HtmlElementLink](https://build.fhir.org/ig/hl7-eu/gravitate-health/StructureDefinition-HtmlElementLink.html) extension.
 
 2. The preprocessed ePI:
 The annotation is done through the linkage of sentences, paragraphs or words to concepts, through the [HtmlElementLink](https://build.fhir.org/ig/hl7-eu/gravitate-health/StructureDefinition-HtmlElementLink.html).
-We can also add more information through the [additionalInformation](https://build.fhir.org/ig/hl7-eu/gravitate-health/StructureDefinition-AdditionalInformation.html)
 
 3. The focused ePI:
-
 After the focusing, the focused version should contain the information from the previous two, personalized for the patient.
 The applied lenses that made any change will be mentioned in the extension [https://build.fhir.org/ig/hl7-eu/gravitate-health/StructureDefinition-LensesApplied.html](https://build.fhir.org/ig/hl7-eu/gravitate-health/StructureDefinition-LensesApplied.html)
 The lens that made any change will be added to the tag as well.
@@ -68,7 +66,8 @@ IF IPS has allergies and intollerances and ePI has sections related to any code 
 
 #### Summary
 
-IF IPS has age, gender and conditions and medication, use that and ePI to summarize;
+IF IPS has age, gender and conditions and medication, use that and ePI to summarize in a personalized way;
+IF no IPS, then just summarize the ePI.
 
 
 

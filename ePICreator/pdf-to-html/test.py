@@ -1,7 +1,7 @@
 import markdown
-from markdown.extensions import sane_lists
 import pandoc
 import pypandoc
+import re
 
 test = """2. O que precisa de saber antes de tomar ou o seu filho tomar Norvir
 Não tome Norvir

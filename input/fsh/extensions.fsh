@@ -1,11 +1,18 @@
 Extension: HtmlElementLink
 Context: CompositionUvEpi
+Description: "Adding information to ePIs in the FHIR format. This information may be pictograms, images, video or something else. Flexible to enable a lot of different types of information to be added."
 * extension contains
     elementClass 1..1 and
     concept 1..1 
-* extension[concept] ^short = "Codes from different code systems"
-* extension[concept].value[x] only CodeableReference
+* extension[concept] ^short = "Data to be used, can be a reference to a resource, a CodeableConcept, or a base64 encoded string, a URL or a string"
+* extension[concept].value[x] only CodeableReference or base64Binary or url or string
+
 * extension[elementClass].value[x] only string
+* extension[elementClass] ^short = "Location in the html. if applicable"
+
+* extension[type].value[x] only CodeableConcept 
+* extension[type].value[x] from TypeOfDataVS (preferred)
+* extension[type] ^short = "Type of data, e.g. image, video, text, etc."
 
 
 Extension: LensesApplied
@@ -22,24 +29,6 @@ Description: "Conveying Lens Information in the FHIR format"
 * extension[elementClass].value[x] only string
 * extension[explanation] ^short = "Why this lens was applied"
 * extension[explanation].value[x] only string or markdown
-
-
-Extension: AdditionalInformation
-Context: CompositionUvEpi
-Description: "Adding information to ePIs in the FHIR format. This information may be pictograms, images, video or something else. Flexible to enable a lot of different types of information to be added."
-* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalInformation"
-* extension contains
-    elementClass 0..1 and
-    concept 1..1 and type 0..1
-* extension[concept] ^short = "Data to be used, can be a reference to a resource, a CodeableConcept, or a base64 encoded string, a URL or a string"
-* extension[concept].value[x] only CodeableReference or base64Binary or url or string
-
-* extension[type].value[x] only CodeableConcept 
-* extension[type].value[x] from TypeOfDataVS (preferred)
-* extension[type] ^short = "Type of data, e.g. image, video, text, etc."
-
-* extension[elementClass].value[x] only string
-* extension[elementClass] ^short = "Location in the html. if applicable"
 
 
 Extension: RelatedMedicalIssue
