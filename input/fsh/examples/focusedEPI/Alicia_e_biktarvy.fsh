@@ -89,7 +89,16 @@ Usage: #inline
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "pregnancyCategory"
 * extension[=].extension[+].url = "explanation"
-* extension[=].extension[=].valueString = "This paragraph was highlight because you are a female of 18+ years and this sections refers to potential issues with pregnancy or breastfeeding."
+* extension[=].extension[=].valueString = "This paragraph was highlighted because you are a female of 18+ years and this sections refers to potential issues with pregnancy or breastfeeding."
+
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+* extension[=].extension[+].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(indication-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "indication"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "This paragraph was highlight because you have stated in your IPS the diagnostic of HIV-1"
 
 
 
