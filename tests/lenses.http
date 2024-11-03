@@ -187,6 +187,7 @@ Accept: application/json
 < ./examples/test.json
 
 
+
 ### without preproc
 
 POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-en-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-mvp2&preprocessors=preprocessing-service-manual&patientIdentifier=Pedro-1
@@ -223,3 +224,21 @@ content-type: application/json
 
 ### summary Lens
 GET http://gravitate-health.lst.tfo.upm.es/ai/summary/bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-manual&lenses=lens-summary-2&model=graviting-llama
+
+
+### PT Scenario
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/?patientIdentifier=alicia-1
+content-type: application/json
+Accept: application/json
+
+< /Users/joaoalmeida/Desktop/hl7Europe/gravitate/gravitate-health/tests/examples/pt-scenario.json
+
+
+### PT Scenario
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/?patientIdentifier=alicia-1
+content-type: application/json
+Accept: application/json
+
+< /Users/joaoalmeida/Desktop/hl7Europe/gravitate/gravitate-health/tests/examples/pt-scenario.json

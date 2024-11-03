@@ -1,0 +1,392 @@
+{"epi":{
+  "resourceType": "Bundle",
+  "id": "PT-GLUCOPHAGE-processed-bundle",
+  "identifier": {
+    "system": "https://infarmed.pt/INFOMED/fi",
+    "value": "GLUCOPHAGE"
+  },
+  "type": "document",
+  "timestamp": "2023-11-20T09:00:00Z",
+  "entry": [
+    {
+      "fullUrl": "https://infarmed.pt/INFOMED/fhir/Composition/PT-GLUCOPHAGE-1-processed-composition",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "PT-GLUCOPHAGE-1-processed-composition",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink",
+            "extension": [
+              {
+                "url": "elementClass",
+                "valueString": "pregnancyCategory"
+              },
+              {
+                "url": "concept",
+                "valueCodeableReference": {
+                  "concept": {
+                    "coding": [
+                      {
+                        "code": "77386006",
+                        "system": "http://snomed.info/sct",
+                        "display": "Pregnancy"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "language": "pt",
+        "identifier": [
+          {
+            "system": "https://infarmed.pt/INFOMED/fi",
+            "value": "GLUCOPHAGE"
+          }
+        ],
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "code": "100000155538",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000155531/terms/"
+            }
+          ]
+        },
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/3975"
+          }
+        ],
+        "date": "2022-10-26",
+        "author": [
+          {
+            "reference": "Organization/Infarmed"
+          }
+        ],
+        "title": "GLUCOPHAGE",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "P",
+                "system": "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs",
+                "display": "processed"
+              }
+            ]
+          }
+        ],
+        "section": [
+          {
+            "title": "Folheto informativo: Informação para o utilizador",
+            "code": {
+              "coding": [
+                {
+                  "code": "200000029894",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"
+                }
+              ]
+            },
+            "text": {
+              "status": "additional",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Folheto informativo: Informação para o utilizador</h1><h2>GLUCOPHAGE 500 mg comprimidos revestidos por película</h2><h3>cloridrato de metformina</h3></div>"
+            },
+            "section": [
+              {
+                "title": "Leia com atenção todo este folheto antes de começar a tomar este medicamento pois contém informação importante para si.",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "rules",
+                      "system": "https://gravitatehealth.eu/section"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "additional",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Leia com atenção todo este folheto antes de começar a tomar este medicamento pois contém informação importante para si.</h2><div class=\"paragraph\"><ul><li>Conserve este folheto. Pode ter necessidade de o ler novamente.</li><li>Caso ainda tenha dúvidas, fale com o seu médico ou farmacêutico.</li><li>Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença.</li><li>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.</li></ul></div></div>"
+                }
+              },
+              {
+                "title": "O que contém este folheto:",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "toc",
+                      "system": "https://gravitatehealth.eu/section"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "additional",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>O que contém este folheto:</h2><div class=\"paragraph\"><ol><li>O que é Glucophage e para que é utilizado</li><li>O que precisa de saber antes de tomar Glucophage</li><li>Como tomar Glucophage</li><li>Efeitos indesejáveis possíveis</li><li>Como conservar Glucophage</li><li>Conteúdo da embalagem e outras informações</li></ol></div></div>"
+                }
+              },
+              {
+                "title": "1. O que é Glucophage e para que é utilizado",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "200000029895",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "additional",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>1. O que é Glucophage e para que é utilizado</h2><div class=\"paragraph\">O Glucophage contém metformina, um medicamento para tratar a diabetes. A metformina pertence a um grupo de medicamentos denominados biguanidas.</div><div class=\"paragraph\">A insulina é uma hormona produzida pelo pâncreas que faz com que o seu corpo absorva a glicose (açúcar) do sangue. O seu corpo utiliza a glicose para produzir energia ou para armazená-la para utilização futura.<br/>Se tiver diabetes, o seu pâncreas não produz insulina suficiente ou o seu corpo não é capaz de utilizar adequadamente a insulina que produz. Isto leva a um nível elevado de glicose no sangue. O Glucophage ajuda a baixar o nível de glicose no sangue para um nível tão normal quanto possível.</div><div class=\"paragraph\">Se for um adulto com excesso de peso, tomar Glucophage durante um longo período de tempo também ajuda a diminuir o risco de complicações associadas à diabetes. O Glucophage está associado a um peso estável ou a uma ligeira perda de peso.</div><div class=\"paragraph\">O Glucophage é utilizado no tratamento de doentes com diabetes tipo 2 (também denominada “diabetes não-insulinodependente”) quando a dieta e o exercício por si só não forem suficientes para controlar os níveis de glicose no sangue. É particularmente utilizado em doentes com excesso de peso.</div><div class=\"paragraph\">Os adultos podem tomar Glucophage sozinho ou juntamente com outros medicamentos para o tratamento da diabetes (medicamentos tomados oralmente ou insulina).</div><div class=\"paragraph\">As crianças com 10 anos de idade ou mais e os adolescentes podem tomar Glucophage sozinho ou juntamente com insulina.</div></div>"
+                }
+              },
+              {
+                "title": "2. O que precisa de saber antes de tomar Glucophage",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "200000029896",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "additional",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>2. O que precisa de saber antes de tomar Glucophage</h2><div><h3>Não tome Glucophage</h3><div class=\"paragraph\"><ul><li>se tem alergia à metformina ou a qualquer outro componente deste medicamento (indicados na secção 6).</li><li>se tem problemas hepáticos.</li><li>se tem função renal gravemente reduzida.</li><li>se tem diabetes não controlada, com, por exemplo, hiperglicemia grave (glicose elevada no sangue), náuseas, vómitos, diarreia, rápida perda de peso, acidose láctica (ver &quot;Risco de acidose láctica&quot; abaixo) ou cetoacidose. A cetoacidose é um problema que ocorre quando substâncias chamadas “corpos cetónicos” se acumulam no sangue, podendo provocar pré-coma diabético. Os sintomas incluem dores de estômago, respiração rápida e profunda, sonolência ou aparecimento no hálito de um cheiro frutado invulgar.</li><li>se tiver perdido demasiada água do seu corpo (desidratação), tal como devido a uma diarreia persistente ou grave ou se tiver vomitado várias vezes seguidas. A desidratação pode conduzir a problemas renais que podem pô-lo em risco de acidose láctica (ver &quot;Advertências e precauções&quot;).</li><li>se tiver uma infeção grave, tal como uma infeção que afete os pulmões ou o sistema brônquico ou o rim. Infeções graves podem conduzir a problemas renais que podem pô- lo em risco de acidose láctica (ver &quot;Advertências e precauções&quot;).</li><li>se estiver em tratamento para insuficiência cardíaca aguda ou tiver tido recentemente um ataque cardíaco, se tiver problemas circulatórios graves (tais como choque) ou dificuldades respiratórias. Isto pode conduzir a falta de oxigenação dos tecidos que pode pô-lo em risco de acidose láctica (ver &quot;Advertências e precauções&quot;).</li><li>se beber muito álcool.</li></ul></div><div class=\"paragraph\">Se algum dos pontos mencionados anteriormente se aplicar a si, informe o seu médico antes de começar a tomar este medicamento.</div><span class=\"inline-title\">Consulte o seu médico se:</span><div class=\"paragraph\"><ul><li>necessitar de realizar um exame, tal como um raio-X ou uma tomografia, que envolva a injeção na sua corrente sanguínea de meios de contraste que contenham iodo</li><li>tiver de ser submetido a uma grande cirurgia</li></ul></div><div class=\"paragraph\">Tem de parar de tomar Glucophage durante um determinado período de tempo antes e depois do exame ou da cirurgia. O seu médico decidirá se necessita de outro tratamento durante este período. É importante que siga as instruções do seu médico com precisão.</div></div><div><h3>Advertências e precauções</h3><div class=\"paragraph\">Risco de acidose láctica<br/>Glucophage pode causar um efeito indesejável muito raro, mas muito grave, chamado acidose láctica, particularmente se os seus rins não funcionam bem. O risco de sofrer acidose láctica aumenta também em caso de diabetes não controlada, infeção grave, jejum prolongado ou consumo de álcool, desidratação (ver mais informações abaixo), problemas de fígado, e quaisquer problemas médicos em que uma zona do corpo receba menos oxigénio (como nas doenças graves e agudas do coração).</div><div class=\"paragraph\">Se estiver em alguma destas situações, fale com o seu médico para que lhe dê mais indicações.</div><div class=\"paragraph\">Pare de tomar Glucophage durante um curto intervalo de tempo se tiver algum problema que possa estar associado a desidratação (grande perda de líquidos), tal como vómitos graves, diarreia, febre, exposição ao calor ou se beber menos líquidos do que o normal. Fale com o seu médico para que lhe dê mais indicações.</div><div class=\"paragraph\">Pare de tomar Glucophage e contacte imediatamente um médico ou o hospital mais próximo se tiver um ou mais sintomas de acidose láctica, pois este problema pode levar ao coma.</div><div class=\"paragraph\">Os sintomas de acidose láctica incluem:<ul><li>vómitos</li><li>dor de barriga (dor abdominal)</li><li>cãibras musculares</li><li>sensação de mal-estar geral, com grande cansaço</li><li>dificuldade em respirar</li><li>diminuição da temperatura do corpo e dos batimentos cardíacos</li></ul></div><div class=\"paragraph\">A acidose láctica é uma emergência médica e tem de ser tratada no hospital.</div><div class=\"paragraph\">Se necessitar de efetuar uma grande cirurgia, tem de parar de tomar Glucophage durante a intervenção e por algum tempo depois desta. O seu médico decidirá quando tem de parar e quando prosseguir o seu tratamento com Glucophage.</div><div class=\"paragraph\">Glucophage por si só não provoca hipoglicemia (um nível de glicose no sangue demasiado baixo). Contudo, se tomar Glucophage juntamente com outros medicamentos para o tratamento da diabetes que possam causar hipoglicemia (tais como sulfonilureias, insulina, meglitinidas), existe um risco de hipoglicemia. Se sentir sintomas de hipoglicemia tais como fraqueza, tonturas, transpiração aumentada,</div><div class=\"paragraph\">batimento cardíaco acelerado, perturbações da visão ou dificuldades de concentração, é habitualmente útil comer ou beber algo contendo açúcar.</div><div class=\"paragraph\">Durante o tratamento com Glucophage, o médico irá verificar o funcionamento dos seus rins uma vez por ano, ou com mais frequência se for idoso e/ou se os seus rins estiverem a funcionar pior.</div></div><div><h3>Outros medicamentos e Glucophage</h3><div class=\"paragraph\">Se necessitar de levar uma injeção na corrente sanguínea de um meio de contraste que contenha iodo, por exemplo, no contexto de uma radiografia ou cintigrafia, tem de parar de tomar Glucophage antes ou no momento da injeção. O seu médico decidirá quando tem de parar e quando prosseguir o seu tratamento com Glucophage.</div><div class=\"paragraph\">Informe o seu médico se estiver a tomar, ou tiver tomado recentemente, ou se vier a tomar outros medicamentos. Pode necessitar de análises mais frequentes da glicemia e da função renal, ou o médico pode necessitar de ajustar a dosagem de Glucophage. É especialmente importante mencionar o seguinte:<ul><li>Medicamentos que aumentam a produção de urina (diuréticos).</li><li>Medicamentos utilizados para tratar a dor e a inflamação (AINE e inibidores da COX- 2, tais como o ibuprofeno e celecoxib).</li><li>Determinados medicamentos para o tratamento da tensão arterial elevada (inibidores da ECA e antagonistas do recetor da angiotensina II).</li><li>Agonistas beta-2 tais como o salbutamol ou a terbutalina (utilizados no tratamento da asma).</li><li>Corticosteroides (utilizados no tratamento de uma variedade de doenças, tais como inflamação grave da pele ou asma).</li><li>Medicamentos que podem alterar a quantidade de Glucophage no sangue, especialmente se tiver uma função renal diminuída (tais como verapamilo, rifampicina, cimetidina, dolutegravir, ranolazina, trimetoprim, vandetanib, isavuconazol, crizotinib, olaparib).</li><li>Outros medicamentos utilizados para tratar a diabetes.</li></ul></div></div><div><h3>Glucophage com álcool</h3><div class=\"paragraph\">Evite o consumo excessivo de álcool enquanto estiver a tomar Glucophage, uma vez que tal pode aumentar o risco de acidose láctica (ver a secção &quot;Advertências e precauções&quot;).</div></div><div class=\"pregnancyCategory\"><h3>Gravidez e amamentação</h3><div class=\"paragraph\">Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico caso sejam necessárias quaisquer alterações ao seu tratamento ou monitorização dos seus níveis de glicose no sangue.<br/>Este medicamento não é recomendado se está a amamentar ou planeia amamentar o seu bebé.</div></div><div><h3>Condução de veículos e utilização de máquinas</h3><div class=\"paragraph\">Glucophage por si só não provoca hipoglicemia (um nível de glicose no sangue demasiado baixo). Isto significa que Glucophage não afetará a sua capacidade de conduzir ou utilizar máquinas.</div><div class=\"paragraph\">Contudo, tome especial cuidado se estiver a tomar Glucophage juntamente com outros medicamentos para o tratamento da diabetes que possam causar hipoglicemia (tais como sulfonilureias, insulina, meglitinidas). Os sintomas da hipoglicemia incluem fraqueza, tonturas, transpiração aumentada, batimento cardíaco acelerado, perturbações da visão ou dificuldade de concentração. Não conduza nem utilize máquinas se começar a sentir estes sintomas.</div></div></div>"
+                }
+              },
+              {
+                "title": "3. Como tomar Glucophage",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "200000029905",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "additional",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>3. Como tomar Glucophage</h2><div class=\"paragraph\">Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou farmacêutico se tiver dúvidas.</div><div class=\"paragraph\">O Glucophage não pode substituir os benefícios de um modo de vida saudável. Continue a seguir os conselhos dietéticos que o seu médico lhe deu e faça algum exercício físico regular.</div><div class=\"paragraph\">Dose recomendada<br/>As crianças com 10 anos de idade ou mais e os adolescentes começam habitualmente com 500 mg ou 850 mg de cloridrato de metformina uma vez por dia. A dose diária máxima é de 2000 mg tomada em 2 ou 3 doses divididas. O tratamento de crianças entre os 10 e 12 anos de idade é recomendado apenas após aconselhamento específico do seu médico, uma vez que a experiência neste grupo é limitada.</div><div class=\"paragraph\">Os adultos começam habitualmente com 500 mg ou 850 mg de cloridrato de metformina duas ou três vezes por dia. A dose diária máxima é de 3000 mg tomada em 3 doses divididas.<br/>Se tiver uma função renal diminuída, o seu médico pode receitar-lhe uma dose menor.<br/>Se também tomar insulina, o seu médico informá-lo-á sobre como iniciar o Glucophage.<br/>Vigilância<ul><li>O seu médico analisará regularmente os seus níveis de glicose no sangue e adaptará a sua dose de Glucophage aos seus níveis de glicose no sangue. Certifique-se de que consulta o seu médico regularmente. Isto é particularmente importante para crianças e adolescentes ou se for uma pessoa idosa.</li><li>O seu médico também verificará, pelo menos uma vez por ano, se os seus rins estão a funcionar bem. Pode necessitar de exames mais frequentes se for uma pessoa idosa ou se os seus rins não funcionarem normalmente.</li></ul></div><div class=\"paragraph\">Como tomar Glucophage<br/>Tome Glucophage durante ou depois de uma refeição. Isto evitará que tenha efeitos indesejáveis que afetem a sua digestão.</div><div class=\"paragraph\">Não esmague nem mastigue os comprimidos. Engula cada comprimido com um copo de água.<ul><li>Se tomar uma dose por dia, tome-a de manhã (pequeno-almoço).</li><li>Se tomar duas doses por dia, tome-as de manhã (pequeno-almoço) e à noite (jantar).</li><li>Se tomar três doses por dia, tome-as de manhã (pequeno-almoço), à tarde (almoço) e à noite (jantar).</li></ul></div><div class=\"paragraph\">Se, após algum tempo, achar que o efeito de Glucophage é demasiado forte ou demasiado fraco, fale com o seu médico ou farmacêutico.</div></div>"
+                },
+                "section": [
+                  {
+                    "title": "Se tomar mais Glucophage do que deveria",
+                    "code": {
+                      "coding": [
+                        {
+                          "code": "200000029907",
+                          "system": "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "status": "additional",
+                      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Se tomar mais Glucophage do que deveria</h3><div class=\"paragraph\">Se tiver tomado mais Glucophage do que deveria, poderá desenvolver acidose láctica. Os sintomas de acidose láctica são inespecíficos, tais como vómitos, dores de barriga (dores abdominais) com cãibras musculares, uma sensação geral de mal-estar com cansaço extremo e dificuldade em respirar. Outros sintomas são redução da temperatura corporal e do batimento cardíaco. Se tiver alguns destes sintomas consulte imediatamente um médico, uma vez que a acidose láctica pode levar ao coma. Pare imediatamente de tomar Glucophage e contacte de seguida um médico ou a urgência hospitalar mais próxima.</div></div>"
+                    }
+                  },
+                  {
+                    "title": "Caso se tenha esquecido de tomar Glucophage",
+                    "code": {
+                      "coding": [
+                        {
+                          "code": "200000029908",
+                          "system": "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "status": "additional",
+                      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Caso se tenha esquecido de tomar Glucophage</h3><div class=\"paragraph\">Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Tome a dose seguinte à hora habitual.</div><div class=\"paragraph\">Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.</div></div>"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "4. Efeitos indesejáveis possíveis",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "200000029910",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "additional",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>4. Efeitos indesejáveis possíveis</h2><div class=\"paragraph\">Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se manifestem em todas as pessoas. Podem ocorrer os seguintes efeitos indesejáveis:</div><div class=\"paragraph\">Glucophage pode causar um efeito indesejável muito raro (pode afetar até 1 utilizador em cada 10 000), mas muito grave, chamado acidose láctica (ver secção &quot;Advertências e precauções&quot;). Se isto acontecer, tem de parar de tomar Glucophage e contactar imediatamente um médico ou o hospital mais próximo, pois a acidose láctica pode provocar coma.</div><div class=\"paragraph\">Efeitos indesejáveis muito frequentes (pode afetar mais de 1 em 10 pessoas)<ul><li>Problemas digestivos, tais como sensação de enjoo (náuseas), enjoos (vómitos), diarreia, dor de barriga (dor abdominal) e perda de apetite. Estes efeitos indesejáveis acontecem mais frequentemente no início do tratamento com Glucophage. Distribuir as doses ao longo do dia ou tomar Glucophage durante ou imediatamente depois de uma refeição pode ajudar. Se os sintomas continuarem, pare de tomar Glucophage e consulte o seu médico.</li></ul></div><span class=\"inline-title\">Efeitos indesejáveis frequentes (pode afetar até 1 em 10 pessoas)</span><div class=\"paragraph\"><ul><li>Alterações no paladar.</li><li>Níveis reduzidos ou baixos de vitamina B12 no sangue (os sintomas podem incluir cansaço extremo (fadiga), língua dorida e vermelha (glossite), picadas e formigueiro (parestesia) ou pele pálida ou amarelada). O seu médico pode solicitar alguns exames para descobrir a causa dos seus sintomas, pois alguns deles podem também ser causados pela diabetes ou por outros problemas de saúde não relacionados.</li></ul></div><span class=\"inline-title\">Efeitos indesejáveis muito raros (pode afetar até 1 em 10.000 pessoas)</span><div class=\"paragraph\"><ul><li>Acidose láctica. Esta é uma complicação muito rara mas grave, particularmente se os seus rins não estiverem a funcionar adequadamente. Os sintomas da acidose láctica são inespecíficos (ver secção &quot;Advertências e precauções&quot;).</li><li>Alterações nos resultados da sua função hepática ou hepatite (inflamação do fígado; esta situação pode provocar cansaço, perda de apetite, perda de peso, com ou sem amarelecimento da pele ou do branco dos olhos). Caso apresente estes sintomas, pare de tomar Glucophage e informe o seu médico.</li><li>Reações cutâneas tais como vermelhidão da pele (eritema), comichão ou uma erupção cutânea com comichão (urticária).</li></ul></div><span class=\"inline-title\">Crianças e adolescentes</span><div class=\"paragraph\">Dados limitados em crianças e adolescentes demonstraram que os efeitos indesejáveis foram similares, em natureza e gravidade, aos notificados em adultos.</div><span class=\"inline-title\">Comunicação de efeitos indesejáveis</span><div class=\"paragraph\">Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente ao INFARMED, I.P. através dos contactos abaixo. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</div><div class=\"paragraph\">Sítio da internet: <a href=\"http://www.infarmed.pt/web/infarmed/submissaoram\" title=\"http://www.infarmed.pt/web/infarmed/submissaoram\">http://www.infarmed.pt/web/infarmed/submissaoram</a> (preferencialmente)<br/>ou através dos seguintes contactos:<br/>Direção de Gestão do Risco de Medicamentos Parque da Saúde de Lisboa, Av. Brasil 53 1749-004 Lisboa<br/>Tel: +351 21 798 73 73</div><div class=\"paragraph\">Linha do Medicamento: 800222444 (gratuita) e-mail: <a href=\"mailto:farmacovigilancia@infarmed.pt\" title=\"farmacovigilancia@infarmed.pt\">farmacovigilancia@infarmed.pt</a></div></div>"
+                }
+              },
+              {
+                "title": "5. Como conservar Glucophage",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "200000029913",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "additional",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>5. Como conservar Glucophage</h2><div class=\"paragraph\">Manter este medicamento fora da vista e do alcance das crianças. Se uma criança estiver a ser tratada com Glucophage, os pais e os prestadores de cuidados são aconselhados a supervisionarem o modo como este medicamento é utilizado.</div><div class=\"paragraph\">O medicamento não necessita de quaisquer precauções especiais de conservação.</div><div class=\"paragraph\">Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, no frasco ou no blister após “EXP”. O prazo de validade corresponde ao último dia do mês indicado.</div><div class=\"paragraph\">Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</div></div>"
+                }
+              },
+              {
+                "title": "6. Conteúdo da embalagem e outras informações",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "200000029914",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "additional",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>6. Conteúdo da embalagem e outras informações</h2></div>"
+                },
+                "section": [
+                  {
+                    "title": "Qual a composição de Glucophage",
+                    "code": {
+                      "coding": [
+                        {
+                          "code": "200000029915",
+                          "system": "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "status": "additional",
+                      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Qual a composição de Glucophage</h3><div class=\"paragraph\"><ul><li>A substância ativa é cloridrato de metformina. Um comprimido revestido por película de Glucophage 500 mg contém 500 mg de cloridrato de metformina correspondentes a 390 mg de metformina base.</li><li>Os outros componentes são povidona K 30, estearato de magnésio, hipromelose.</li></ul></div></div>"
+                    }
+                  },
+                  {
+                    "title": "Qual o aspeto de Glucophage e conteúdo da embalagem",
+                    "code": {
+                      "coding": [
+                        {
+                          "code": "200000029916",
+                          "system": "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "status": "additional",
+                      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Qual o aspeto de Glucophage e conteúdo da embalagem</h3><div class=\"paragraph\">Os comprimidos revestidos por película de Glucophage 500 mg são brancos, circulares e convexos.<br/>Os comprimidos são fornecidos em embalagens com blister de 1 (x100), 9, 20, 21, 30,<br/>40, 50, 56, 60, 84, 90, 100, 120, 200, 500, 600 ou 1000 comprimidos ou em frascos de<br/>plástico, com tampa resistente à abertura por crianças, de 21, 30, 40, 50, 60, 100, 120,<br/>300, 400, 500, 600 ou 1000 comprimidos.</div><div class=\"paragraph\">É possível que não sejam comercializadas todas as apresentações.</div></div>"
+                    }
+                  },
+                  {
+                    "title": "Titular da Autorização de Introdução no Mercado e Fabricante",
+                    "code": {
+                      "coding": [
+                        {
+                          "code": "200000029917",
+                          "system": "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "status": "additional",
+                      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Titular da Autorização de Introdução no Mercado e Fabricante</h3><div class=\"paragraph\">Titular da Autorização de Introdução no Mercado</div><div class=\"paragraph\">Merck, S.A.<br/>Edifício DUO Miraflores<br/>Alameda Fernão Lopes, nº 12, 4º B 1495-190 Algés<br/>Portugal</div><span class=\"inline-title\">Fabricante</span><div class=\"paragraph\">Merck Santé s.a.s.<br/>2 rue du Pressoir Vert 45400 Semoy<br/>França ou<br/>Merck Healthcare KGaA Frankfurter Strasse 250<br/>64293 Darmstadt Alemanha</div><div class=\"paragraph\">ou</div><div class=\"paragraph\">Merck S.L. Poligono Merck<br/>Mollet Del Vallès 08100 Barcelona Espanha</div></div>"
+                    }
+                  },
+                  {
+                    "title": "Este medicamento encontra-se autorizado nos Estados Membros do Espaço Económico Europeu (EEE) e no Reino Unido (Irlanda do Norte) com os seguintes nomes:",
+                    "code": {
+                      "coding": [
+                        {
+                          "code": "200000029918",
+                          "system": "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "status": "additional",
+                      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Este medicamento encontra-se autorizado nos Estados Membros do Espaço Económico Europeu (EEE) e no Reino Unido (Irlanda do Norte) com os seguintes nomes:</h3><div class=\"paragraph\">Alemanha, Áustria, Bélgica, Bulgária, Chipre, Eslováquia, Eslovénia, Finlândia, França, Grécia, Irlanda, Islândia, Itália, Letónia, Luxemburgo, Noruega, Polónia, Portugal, Reino Unido (Irlanda do Norte), República Checa, Roménia, Suécia: Glucophage</div><div class=\"paragraph\">Hungria: Merckformin</div></div>"
+                    }
+                  },
+                  {
+                    "title": "Este folheto foi revisto pela última vez em 26.10.2022",
+                    "code": {
+                      "coding": [
+                        {
+                          "code": "200000029919",
+                          "system": "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "status": "additional",
+                      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Este folheto foi revisto pela última vez em 26.10.2022</h3></div>"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://infarmed.pt/INFOMED/fhir/MedicinalProductDefinition/3975",
+      "resource": {
+        "resourceType": "MedicinalProductDefinition",
+        "id": "3975",
+        "identifier": [
+          {
+            "system": "https://infarmed.pt/INFOMED/MED_ID",
+            "value": "3975"
+          }
+        ],
+        "name": [
+          {
+            "productName": "GLUCOPHAGE 500 mg, film-coated tablets"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://infarmed.pt/INFOMED/fhir/Organization/Infarmed",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Infarmed",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://gravitatehealth.eu/organization",
+            "value": "infarmed"
+          }
+        ],
+        "name": "Infarmed",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "infarmed@infarmed.pt"
+              }
+            ],
+            "address": {
+              "line": [
+                "Parque de Saúde de Lisboa - Avenida do Brasil, 53"
+              ],
+              "city": "Lisboa",
+              "postalCode": "1749-004",
+              "country": "PT"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+}
