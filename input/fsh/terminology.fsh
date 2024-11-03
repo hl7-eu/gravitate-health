@@ -312,12 +312,43 @@ Id:         asm-category-vs
 CodeSystem: LensCategoriesCodes
 * ^experimental = true
 * ^caseSensitive = false
-* #pregnancyCategory
-* #conditionCategory
-* #interaction
-* #allergy
-* #condition
-* #summary
+* #pregnancyCategory "Pregnancy"
+* #pregnancyCategory ^designation[0].language = #en
+* #pregnancyCategory ^designation[=].value = "Pregnancy"
+* #pregnancyCategory ^designation[+].language = #da
+* #pregnancyCategory ^designation[=].value = "Graviditet"
+
+* #conditionCategory "Condition"
+* #conditionCategory ^designation[0].language = #en
+* #conditionCategory ^designation[=].value = "Condition"
+* #conditionCategory ^designation[+].language = #da
+* #conditionCategory ^designation[=].value = "Medicinsk tilstand"
+
+* #interaction "Interaction"
+* #interaction ^designation[0].language = #en
+* #interaction ^designation[=].value = "Interaction"
+* #interaction ^designation[+].language = #da
+* #interaction ^designation[=].value = "Interaktion"
+
+* #allergy "Allergy"
+* #allergy ^designation[0].language = #en
+* #allergy ^designation[=].value = "Allergy"
+* #allergy ^designation[+].language = #da
+* #allergy ^designation[=].value = "Allergi"
+
+* #condition "Condition"
+* #condition ^designation[0].language = #en
+* #condition ^designation[=].value = "Condition"
+* #condition ^designation[+].language = #da
+* #condition ^designation[=].value = "Medicinsk tilstand"
+
+* #summary "Summary"
+* #summary ^designation[0].language = #en
+* #summary ^designation[=].value = "Summary"
+* #summary ^designation[+].language = #da
+* #summary ^designation[=].value = "Resumé"
+
+
 
 
 ValueSet: LensCategories
