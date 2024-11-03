@@ -1,8 +1,8 @@
 import os
+
 from parser_start import (
     single_process,
 )
-
 
 OUTPUT_FOLDER = "../../../test-epi-composition/input/fsh/examples/"
 TEMPLATE_FOLDER = "../templates/"

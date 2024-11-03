@@ -1,7 +1,7 @@
 import os
+import re
 
 import fitz  # PyMuPDF
-import re
 
 LANGUAGE = "pt"
 lang_folder = {
@@ -12,22 +12,22 @@ lang_folder = {
 
 if LANGUAGE == "da":
     from parser_dk import (
-        parse_html,
         cleanhtml,
+        parse_html,
     )
 if LANGUAGE == "pt":
     from parser_pt import (
-        parse_html,
         cleanhtml,
+        parse_html,
     )
 if LANGUAGE == "es":
-    from parser_es import parse_html, cleanhtml
+    from parser_es import cleanhtml, parse_html
 if LANGUAGE == "fr":
-    from parser_fr import parse_html, cleanhtml
+    from parser_fr import cleanhtml, parse_html
 if LANGUAGE == "en":
-    from parser_en import parse_html, cleanhtml
+    from parser_en import cleanhtml, parse_html
 if LANGUAGE == "uk":
-    from parser_uk import parse_html, cleanhtml
+    from parser_uk import cleanhtml, parse_html
 
 
 header_list = []
