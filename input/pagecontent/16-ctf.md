@@ -10,7 +10,7 @@ The key elements are:
 The transactionID is stored in the extension and not signature. Which lets that space to be used for further information or proper signature usage.
 
 The workflow can go as:
-<div>{% include ctf-example-wf.png %}</div>
+
+<br>
+<img src="ctf-example-wf.png" alt="CTF Workflow"/>
 <br clear="all"/>
-
-
