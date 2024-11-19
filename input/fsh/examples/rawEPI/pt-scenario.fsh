@@ -133,8 +133,8 @@ Usage: #example
 * timestamp = "2023-11-20T09:00:00Z"
 * entry[0].fullUrl = "https://infarmed.pt/INFOMED/fhir/Composition/PT-GLUCOPHAGE"
 * entry[=].resource = Inline-Instance-for-PT-GLUCOPHAGE-1
-* entry[+].fullUrl = "https://infarmed.pt/INFOMED/fhir/MedicinalProductDefinition/3975"
-* entry[=].resource = 3975
+* entry[+].fullUrl = "https://infarmed.pt/INFOMED/fhir/MedicinalProductDefinition/MPD-3975"
+* entry[=].resource = MPD-3975
 * entry[+].fullUrl = "https://infarmed.pt/INFOMED/fhir/Organization/Infarmed"
 * entry[=].resource = Infarmed
 
@@ -148,7 +148,7 @@ Usage: #example
 * identifier.value = "GLUCOPHAGE"
 * status = #final
 * type = $terms#100000155538
-* subject = Reference(3975)
+* subject = Reference(MPD-3975)
 * date = "2022-10-26"
 * author = Reference(Infarmed)
 * title = "GLUCOPHAGE"
@@ -251,8 +251,8 @@ Usage: #example
 * timestamp = "2023-11-20T09:00:00Z"
 * entry[0].fullUrl = "https://infarmed.pt/INFOMED/fhir/Composition/PT-Glimepirida-Generis"
 * entry[=].resource = Inline-Instance-for-PT-Glimepirida-Generis-1
-* entry[+].fullUrl = "https://infarmed.pt/INFOMED/fhir/MedicinalProductDefinition/619944"
-* entry[=].resource = 619944
+* entry[+].fullUrl = "https://infarmed.pt/INFOMED/fhir/MedicinalProductDefinition/MPD-619944"
+* entry[=].resource = MPD-619944
 * entry[+].fullUrl = "https://infarmed.pt/INFOMED/fhir/Organization/Infarmed"
 * entry[=].resource = Infarmed
 
@@ -266,7 +266,7 @@ Usage: #example
 * identifier.value = "Glimepirida-Generis"
 * status = #final
 * type = $terms#100000155538
-* subject = Reference(619944)
+* subject = Reference(MPD-619944)
 * date = "2022-11-14"
 * author = Reference(Infarmed)
 * title = "Glimepirida Generis"
