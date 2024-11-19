@@ -226,7 +226,7 @@ Usage: #example
 * section.section[=].section[=].text.status = #additional
 * section.section[=].section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n                           <h3>Este folheto foi revisto pela última vez em 26.10.2022</h3>\n                        </div>"
 
-Instance: 3975
+Instance: MPD-3975
 InstanceOf: MedicinalProductDefinition
 Usage: #example
 * identifier.system = "https://infarmed.pt/INFOMED/MED_ID"
@@ -347,7 +347,7 @@ Usage: #example
 * section.section[=].section[=].text.status = #additional
 * section.section[=].section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n                           <h3>Este folheto foi aprovado pela última vez em 14.11.2022</h3>\n                        </div>"
 
-Instance: 619944
+Instance: MPD-619944
 InstanceOf: MedicinalProductDefinition
 Usage: #example
 * identifier.system = "https://infarmed.pt/INFOMED/MED_ID"
