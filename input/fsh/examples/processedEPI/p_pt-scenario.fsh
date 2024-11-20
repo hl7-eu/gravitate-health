@@ -20,7 +20,7 @@ Usage: #example
 * date = "2022-10-26"
 * author = Reference(Infarmed)
 * title = "GLUCOPHAGE"
-* category = epicategory-cs#P "processed"
+* category = epicategory-cs#P "Processed"
 
 * section.title = "Folheto informativo: Informação para o utilizador"
 * section.code = $terms_1#200000029894
@@ -137,7 +137,7 @@ Usage: #example
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#77386006 "Pregnancy"
 
-* category = epicategory-cs#P "processed"
+* category = epicategory-cs#P "Processed"
 
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 * language = #pt
@@ -259,7 +259,7 @@ Usage: #example
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#77386006 "Pregnancy"
 
-* category = epicategory-cs#P "processed"
+* category = epicategory-cs#P "Processed"
 
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
 * language = #pt

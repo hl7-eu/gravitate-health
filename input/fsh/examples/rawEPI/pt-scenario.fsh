@@ -29,6 +29,8 @@ Usage: #example
 * subject = Reference(MPD-33095)
 * date = "2020-09-24"
 * author = Reference(Infarmed)
+* category = epicategory-cs#R "Raw"
+
 * title = "Actrapid 100 UI/ml (unidades internacionais/ml) solução injetável em frasco para injetáveis"
 * section.title = "Folheto informativo: Informação para o utilizador"
 * section.code = $terms_1#200000029894
@@ -152,6 +154,8 @@ Usage: #example
 * date = "2022-10-26"
 * author = Reference(Infarmed)
 * title = "GLUCOPHAGE"
+* category = epicategory-cs#R "Raw"
+
 * section.title = "Folheto informativo: Informação para o utilizador"
 * section.code = $terms_1#200000029894
 * section.text.status = #additional
@@ -267,6 +271,8 @@ Usage: #example
 * status = #final
 * type = $terms#100000155538
 * subject = Reference(MPD-619944)
+* category = epicategory-cs#R "Raw"
+
 * date = "2022-11-14"
 * author = Reference(Infarmed)
 * title = "Glimepirida Generis"
