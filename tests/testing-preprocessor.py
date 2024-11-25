@@ -4,9 +4,6 @@ import requests
 
 headers = {"Content-Type": "application/json", "Accept": "application/json"}
 
-file = open("output.csv", "w")
-file.write("epid" + ",extension+\n")
-
 
 def test_preprocessor(epiid, language):
     url = (
@@ -28,14 +25,17 @@ def test_preprocessor(epiid, language):
         in json_string
     )
 
+    extension_count = json_string.count(
+        "https://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+    )
     # print(extension_exist)  # Output: ?
     # print(word_in_json(composition, "composition"))  # Output: True
     # print(word_in_json(composition, "whites"))  # Output: True
-    if not extension_exist:
+    if extension_count == 0:
         print(epiid, "No extension")
         file.write(epiid + ", No extension\n")
-    else:
-        file.write(epiid + ", Has extension\n")
+    elif extension_count > 0:
+        file.write(epiid + ", " + str(extension_count) + "\n")
 
     return 1
 
@@ -67,7 +67,7 @@ def fetch_paginated_data(
             #  print(id_)
             language = composition.get("language")
             # print(language)
-            if not language or language in ["no", "fi", "ja"]:
+            if not language or language in ["no", "fi", "ja", "pt", "en", "da"]:
                 continue
             category = composition.get("category")
             if category is None:
@@ -84,13 +84,19 @@ def fetch_paginated_data(
         for l in link:
             if l["relation"] == "next":
                 url = l["url"]
+                if url == l["url"]:
+                    final = True
                 break
         # Update the URL to the next page
-        if not url:
+        if not url or final:
             print("No more pages. Finished processing.")
             break
 
 
+file = open("output.csv", "w")
+file.write("epid" + ",extension\n")
+
 fetch_paginated_data()
-# test_preprocessor("bundlepackageleaflet-en-b62cc095c7be2116a8a65157286376a3", "en")
+# test_preprocessor("bundlepackageleaflet-es-29436a85dac3ea374adb3fa64cfd2578", "es")
+# bundlepackageleaflet-es-29436a85dac3ea374adb3fa64cfd2578
 file.close()

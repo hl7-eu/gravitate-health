@@ -153,31 +153,6 @@ LENSES = [
 ]
 
 
-def word_in_json(json_obj, word):
-    """
-    Check if a word exists anywhere in a JSON object/dict.
-
-    Args:
-        json_obj (dict or list): The JSON object to search.
-        word (str): The word to search for.
-
-    Returns:
-        bool: True if the word is found, False otherwise.
-    """
-    if isinstance(json_obj, dict):
-        for key, value in json_obj.items():
-            if word_in_json(value, word):  # Recursive check in value
-                return True
-    elif isinstance(json_obj, list):
-        for item in json_obj:
-            if word_in_json(item, word):  # Recursive check in each item
-                return True
-    elif isinstance(json_obj, str):  # Check if word is in string
-        if word in json_obj:
-            return True
-    return False
-
-
 def check_website_status(url, body=None):
     """
     Checks the status code of a website.
@@ -206,24 +181,31 @@ def check_website_status(url, body=None):
 
         composition = result["entry"][0]
         ##  print(composition)
-        extension_exist = word_in_json(composition, "extension")
-        has_extensions_preproc = word_in_json(
-            composition,
-            "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink",
+        json_string = json.dumps(composition)
+        extension_exist = (
+            "https://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+            in json_string
+        )
+
+        extension_count = json_string.count(
+            "https://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+        )
+        extension_count_applied = json_string.count(
+            "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
         )
 
         if response.status_code == 400:
             # logger.debug(f"Warning: {response.status_code} and {response.text}")
-            return response.status_code, {}
+            return response.status_code, {}, None, None
 
         elif focusing_warnings:
             #    print(response.text)
             #    print(focusing_warnings)
-            return response.status_code, eval(focusing_warnings)
+            return response.status_code, eval(focusing_warnings), None, None
         else:
             # print(response.status_code)
 
-            return response.status_code, {}
+            return response.status_code, {}, extension_count, extension_count_applied
     except requests.RequestException as e:
         print(f"Error checking website status: {e}")
         return None
