@@ -76,7 +76,29 @@ Usage: #inline
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#66071002 "Viral hepatitis type B (disorder)"
 
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "hepatitisB"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#66071002 "Viral hepatitis type B (disorder)"
 
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+* extension[=].extension[+].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(pregnancy-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "pregnancyCategory"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "This paragraph was highlighted because you are a female of 18+ years and this sections refers to potential issues with pregnancy or breastfeeding."
+
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+* extension[=].extension[+].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(indication-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "indication"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "This paragraph was highlight because you have stated in your IPS the diagnostic of HIV-1"
 
 
 
@@ -153,11 +175,11 @@ transcriptase inhibitor (NtRTI)</li>
 adults, adolescents and children 2 years of age and older, who weigh at least 14 kg.</span></p>
 <p>Biktarvy reduces the amount of HIV in your body. This will improve your immune system and reduce
 the risk of developing illnesses linked to HIV infection.</p><img alt="How to take medication" class="mock-lib" src="#binary1"/>        </div>"""   
-          
 
-             
+
+
 * section[=].section[+]
-  * extension.url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalInformation"
+  * extension.url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
   * extension[=].extension[+].url = "type"
   * extension[=].extension[=].valueCodeableConcept = TypeOfDataCS#PCT "Pictogram"
   * extension[=].extension[+].url = "concept"
@@ -184,11 +206,11 @@ anxiety, or products that contain it.</span></li>
 <p><strong>Warnings and precautions</strong></p>
 <p><strong>Talk to your doctor before taking Biktarvy:</strong></p>
 <ul>
-<li><span class="liver collapse mock-lib">If you have liver problems or a history of liver disease, including hepatitis. Patients with
+<li><span class="liver collapse mock-lib2">If you have liver problems or a history of liver disease, including hepatitis. Patients with
 liver disease including chronic hepatitis B or C, who are treated with antiretrovirals, have a
 higher risk of severe and potentially fatal liver complications. If you have hepatitis B infection,
 your doctor will carefully consider the best treatment regimen for you.</span></li>
-<li><p><span class="hepatitisB collapse mock-lib">If you have hepatitis B infection. Liver problems may become worse after you stop taking
+<li><p><span class="hepatitisB collapse mock-lib2">If you have hepatitis B infection. Liver problems may become worse after you stop taking
 Biktarvy</span></p>
 </li>
 <li><p>Do not stop taking Biktarvy if you have hepatitis B. Talk to your doctor first. For more details, see
@@ -269,7 +291,7 @@ antacids or supplements containing aluminium and/or magnesium. Or you can take B
 food at least 2 hours after.</p>
 <p>Iron supplements: you will need to take Biktarvy at least 2 hours before iron supplements, or you
 can take them together with food.</p>
-<div class="pregnancyCategory highlight mock-lib"><p><strong>Pregnancy and breast-feeding</strong></p>
+<div class="pregnancyCategory highlight mock-lib2"><p><strong>Pregnancy and breast-feeding</strong></p>
 <ul>
 <li>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby,
 ask your doctor or pharmacist for advice before taking this medicine.</li>
@@ -280,7 +302,7 @@ risks of your antiretroviral therapy to you and your child.</li>
 other diagnostic tests to monitor the development of your child. In children whose mothers took
 nucleoside reverse transcriptase inhibitors (NRTIs) during pregnancy, the benefit from the protection
 against HIV outweighed the risk of side effects.</p>
-<div class="breastfeedingCategory highlight mock-lib"><p><strong>Do not breast-feed during treatment with Biktarvy.</strong> This is because some of the active substances
+<div class="breastfeedingCategory highlight mock-lib2"><p><strong>Do not breast-feed during treatment with Biktarvy.</strong> This is because some of the active substances
 in this medicine pass into human breast milk. Breast-feeding is not recommended in women living
 with HIV because HIV infection can be passed on to the baby in breast milk. If you are
 breast-feeding, or thinking about breast-feeding, you should discuss it with your doctor as soon as
@@ -294,7 +316,12 @@ and do not use any tools or machines.</p>
 ‘sodium-free’.</p>        
 <img alt="How to take medication" class="mock-lib" src="https://github.com/hl7-eu/gravitate-health/blob/master/input/images/test-image.jpeg?raw=true"/> </div>"""   
                     
-* section[=].section[+]
+* section[=].section[+].
+  * extension.url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+  * extension[=].extension[+].url = "type"
+  * extension[=].extension[=].valueCodeableConcept = TypeOfDataCS#PCT "Pictogram"
+  * extension[=].extension[+].url = "concept"
+  * extension[=].extension[=].valueUrl = "https://www.aidsmap.com/sites/default/files/styles/medium/public/2019-07/Biktarvy.png?itok=Cw7BoVdg"
   * title = "3. How to take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take Biktarvy 50 mg/200 mg/25 mg film-coated tablets"

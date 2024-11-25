@@ -133,6 +133,7 @@ GET https://gravitate-health.lst.tfo.upm.es/epi/api/fhir/Composition?subject=mp9
 
 ### Test Lens: Pregnancy
 POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/processedbundledovato-en-49178f16170ee8a6bc2a4361c1748d5f?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_pregnancy&patientIdentifier=Pedro-1
+Accept: application/json
 
 
 ### that worked
@@ -187,6 +188,7 @@ Accept: application/json
 < ./examples/test.json
 
 
+
 ### without preproc
 
 POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-en-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-mvp2&preprocessors=preprocessing-service-manual&patientIdentifier=Pedro-1
@@ -202,9 +204,75 @@ content-type: application/json
 
 {
   "resourceType" : "Parameters",
-  "id" : "example",
   "parameter" : [{
     "name" : "identifier",
     "valueIdentifier" : {"value":"alicia-1"}
   }]
 }
+### test prod
+POST https://fosps.gravitatehealth.eu/focusing/focus/processedbundlekarveabik?preprocessors=preprocessing-service-mvp2&preprocessors=preprocessing-service-manual&patientIdentifier=alicia-1
+Accept: application/json
+content-type: application/json
+
+### test prod
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/processedbundlekarveabik?preprocessors=preprocessing-service-mvp2&preprocessors=preprocessing-service-manual&patientIdentifier=alicia-1
+Accept: application/json
+content-type: application/json
+
+
+
+
+
+### summary Lens
+GET http://gravitate-health.lst.tfo.upm.es/ai/summary/bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-manual&lenses=lens-summary-2&model=graviting-llama
+
+
+### PT Scenario
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus?patientIdentifier=alicia-1
+content-type: application/json
+Accept: application/json
+
+< /Users/joaoalmeida/Desktop/hl7Europe/gravitate/gravitate-health/tests/examples/pt-scenario.json
+
+
+### PT Scenario
+
+POST https://fosps.gravitatehealth.eu/focusing/focus/?patientIdentifier=alicia-1
+content-type: application/json
+Accept: application/json
+
+< /Users/joaoalmeida/Desktop/hl7Europe/gravitate/gravitate-health/tests/examples/pt-scenario.json
+
+### testing 
+POST http://gravitate-health.lst.tfo.upm.es/focusing/focus/PT-Glimepirida-Generis-processed-bundle?patientIdentifier=alicia-1
+
+
+### testing 
+POST  https://fosps.gravitatehealth.eu/focusing/focus/PT-Glimepirida-Generis-processed-bundle?patientIdentifier=alicia-1
+
+
+
+##### tttt
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9?preprocessors=preprocessing-service-manual&patientIdentifier=alicia-1
+Accept: application/json
+
+
+
+### preproc
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/preprocessing/bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1?preprocessors=preprocessing-service-mvp2
+Accept: application/json
+
+
+##### testing testing-preprocessor.py
+POST https://gravitate-health.lst.tfo.upm.es/focusing/preprocessing/bundlepackageleaflet-es-29436a85dac3ea374adb3fa64cfd2578?preprocessors=preprocessing-service-mvp2
+Accept: application/json
+
+
+### preproc
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/preprocessing/bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f?preprocessors=preprocessing-service-mvp2
+Accept: application/json
+
+

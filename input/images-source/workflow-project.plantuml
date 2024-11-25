@@ -57,5 +57,22 @@ end note
 be -> fe: returns epi bundle
 
 
+
+fe -> fe: checks lenses in extension
+fe -> be: ask for lenses description and metada
+note right of be
+<URL>/fhir/Library?_id=<l1>,<l2>,..
+OR 
+Have lenses in the first response
+OR
+have cache of lenses already
+end note
+be -> fe: returns lenses description and metadata in a searchset
+fe -> fe: checks data on extensions per section for aditional data.
+
+
+fe -> fe: uses lenses and epi data to render the focused epi bundle with explanation
+
+
 end
 @enduml

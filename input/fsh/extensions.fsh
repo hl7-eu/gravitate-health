@@ -1,37 +1,34 @@
 Extension: HtmlElementLink
 Context: CompositionUvEpi
-* extension contains
-    elementClass 1..1 and
-    concept 1..1 
-* extension[concept] ^short = "Codes from different code systems"
-* extension[concept].value[x] only CodeableReference
-* extension[elementClass].value[x] from LensCategories
-* extension[elementClass].value[x] only string
-
-
-Extension: LensesApplied
-Context: CompositionUvEpi
-Description: "Conveying Lens Information in the FHIR format"
-* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/Lenses"
-* value[x] only Reference(Lens)
-
-
-Extension: AdditionalInformation
-Context: CompositionUvEpi
 Description: "Adding information to ePIs in the FHIR format. This information may be pictograms, images, video or something else. Flexible to enable a lot of different types of information to be added."
-* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalInformation"
 * extension contains
     elementClass 0..1 and
-    concept 1..1 and type 0..1
+    concept 1..1 and type 1..1
 * extension[concept] ^short = "Data to be used, can be a reference to a resource, a CodeableConcept, or a base64 encoded string, a URL or a string"
 * extension[concept].value[x] only CodeableReference or base64Binary or url or string
+
+* extension[elementClass].value[x] only string
+* extension[elementClass] ^short = "Location in the html. if applicable"
 
 * extension[type].value[x] only CodeableConcept 
 * extension[type].value[x] from TypeOfDataVS (preferred)
 * extension[type] ^short = "Type of data, e.g. image, video, text, etc."
 
+
+Extension: LensesApplied
+Context: CompositionUvEpi
+Description: "Conveying Lens Information in the FHIR format"
+* ^url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+* extension contains
+    lens 1..1 and
+    elementClass 1..* and
+    explanation 1..1
+* extension[lens] ^short = "Reference to the lens"
+* extension[lens].value[x] only Reference(Lens)
+* extension[elementClass] ^short = "Class in the text linked to the action of this lens"
 * extension[elementClass].value[x] only string
-* extension[elementClass] ^short = "Location in the html. if applicable"
+* extension[explanation] ^short = "Why this lens was applied"
+* extension[explanation].value[x] only string or markdown
 
 
 Extension: RelatedMedicalIssue
