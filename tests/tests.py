@@ -159,12 +159,18 @@ def check_website_status(url, body=None):
     """
     #  print(body)
 
-    with open("data.json", "w") as json_file:
-        json.dump(body, json_file, indent=4)  # indent=4 makes the output more readable
+    # with open("data.json", "w") as json_file:
+    #    json.dump(body, json_file, indent=4)  # indent=4 makes the output more readable
 
     try:
         if not body:
-            response = requests.post(url)
+            response = requests.post(
+                url,
+                headers={
+                    "content-type": "application/json",
+                    "Accept": "application/json",
+                },
+            )
         else:
             # print(body)
             response = requests.post(
@@ -178,7 +184,7 @@ def check_website_status(url, body=None):
 
         focusing_warnings = response.headers.get("gh-focusing-warnings")
         result = response.json()
-
+        print(response.status_code)
         composition = result["entry"][0]
         ##  print(composition)
         json_string = json.dumps(composition)
@@ -227,9 +233,47 @@ def chek_preprocessor_data(BUNDLES, LENSES, PATIENT_IDS, BASE_URL):
                 print(WEBSITE_URL)
                 # WEBSITE_URL = WEBSITE_DATA["url"]
                 #  WEBSITE_DESC = WEBSITE_DATA["desc"]
-                status_code, warnings = check_website_status(WEBSITE_URL)
-                print(bundleid["id"], pid, lens, status_code, warnings)
+                status_code, warnings, countext, countapplied = check_website_status(
+                    WEBSITE_URL
+                )
+                print(
+                    bundleid["id"],
+                    pid,
+                    lens,
+                    status_code,
+                    warnings,
+                    countext,
+                    countapplied,
+                )
+                epid = bundleid["id"]
+                print(epid)
+                file.write(
+                    epid
+                    + ","
+                    + str(pid)
+                    + ","
+                    + lens
+                    + ","
+                    + str(status_code)
+                    + ","
+                    + str(warnings)
+                    + ","
+                    + str(countext)
+                    + ","
+                    + str(countapplied)
+                    + ","
+                    + "\n",
+                )
+
     return 1
 
 
+file = open("output-lenses.csv", "w")
+file.write(
+    "epid,pid,lens,status_code,warnings,extension_proc_count,extension_applied_count,extension\n"
+)
+
 chek_preprocessor_data(BUNDLES, LENSES, PATIENT_IDS, BASE_URL)
+# test_preprocessor("bundlepackageleaflet-es-29436a85dac3ea374adb3fa64cfd2578", "es")
+# bundlepackageleaflet-es-29436a85dac3ea374adb3fa64cfd2578
+file.close()
