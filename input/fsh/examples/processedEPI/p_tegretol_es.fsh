@@ -105,9 +105,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. Qué es Tegretol 200 mg  comprimidos  y para qué se utiliza"
+  * title =  "1. Qué es Tegretol 200 mg comprimidos  y para qué se utiliza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. Qué es Tegretol 200 mg  comprimidos  y para qué se utiliza"
+  * code.text =  "1. Qué es Tegretol 200 mg comprimidos  y para qué se utiliza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p><span >El principio activo es carbamazepina.</span></p>
@@ -118,9 +118,9 @@ Usage: #inline
 
              
 * section[=].section[+]
-  * title = "2. Qué necesita saber antes de empezar a tomar Tegretol 200 mg  comprimidos "
+  * title = "2. Qué necesita saber antes de empezar a tomar Tegretol 200 mg comprimidos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. Qué necesita saber antes de empezar a tomar Tegretol 200 mg  comprimidos "
+  * code.text = "2. Qué necesita saber antes de empezar a tomar Tegretol 200 mg comprimidos"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p><span >Siga las instrucciones que le ha dado su médico. Éstas pueden ser diferentes de la información contenida en este prospecto.</span></p>
@@ -307,9 +307,9 @@ Usage: #inline
   </div>         </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. Cómo tomar Tegretol 200 mg  comprimidos "
+  * title =  "3. Cómo tomar Tegretol 200 mg comprimidos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. Cómo tomar Tegretol 200 mg  comprimidos "
+  * code.text = "3. Cómo tomar Tegretol 200 mg comprimidos"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p><strong><span >Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico cuidadosamente. En caso de duda, consulte de nuevo a su médico o farmacéutico. No exceda la dosis recomendada.</span></strong></p>
@@ -448,9 +448,9 @@ Usage: #inline
   </div>         </div>"""      
         
 * section[=].section[+]
-  * title = "5. Conservación de Tegretol 200 mg  comprimidos "
+  * title = "5. Conservación de Tegretol 200 mg comprimidos"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. Conservación de Tegretol 200 mg  comprimidos "
+  * code.text = "5. Conservación de Tegretol 200 mg comprimidos"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p><span >Mantener</span> <span >este medicamento</span> <span >fuera de la vista y del alcance de los niños</span><span >.</span></p>

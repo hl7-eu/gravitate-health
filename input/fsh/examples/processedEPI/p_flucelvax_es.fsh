@@ -201,14 +201,9 @@ Usage: #example
   * code.text = "3. Cómo se administra Flucelvax Tetra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  
-
     <p><span>Su m&#233;dico o enfermero le administrar&#225; Flucelvax Tetra en forma de inyecci&#243;n en el m&#250;sculo de la parte superior del brazo (m&#250;sculo deltoides).</span></p>
-
-
     <p><span>Adultos y ni&#241;os a partir de 2 a&#241;os de edad:</span></p>
     <p><span>Una dosis de 0,5 ml</span></p>
-
-
     <p><span>Si su hijo es menor de 9 a&#241;os y nunca ha sido vacunado contra la gripe, se le debe administrar una segunda dosis despu&#233;s, de al menos, 4 semanas.</span></p>
         </div>"""         
 
@@ -249,7 +244,7 @@ Usage: #example
 
     <p><span>Muy frecuentes</span> <span>(pueden afectar a m&#225;s de 1 de cada 10 personas):</span></p>
 
-    <ul >
+   <ul>
       <li><span>Dolor en la zona de inyecci&#243;n, cardenales, enrojecimiento y endurecimiento o hinchaz&#243;n en la zona de inyecci&#243;n</span></li>
 
       <li><span>Dolor de cabeza</span></li>
@@ -328,7 +323,7 @@ Usage: #example
     <p><strong><span>Composici&#243;n de Flucelvax Tetra</span></strong></p>
 
 
-    <ul >
+   <ul>
       <li><span>Los principios activos son ant&#237;genos de superficie del virus de la gripe (hemaglutinina y neuraminidasa), inactivados, de las siguientes cepas*:</span></li>
     </ul>
 
@@ -360,7 +355,7 @@ Usage: #example
     <p><span>Esta vacuna cumple con la recomendaci&#243;n de la Organizaci&#243;n Mundial de la Salud (OMS) (hemisferio norte) y con la recomendaci&#243;n de la UE para la CAMPA&#209;A 2023/2024.</span></p>
 
 
-    <ul >
+   <ul>
       <li><span>Los dem&#225;s componentes son: cloruro de sodio, cloruro de potasio, cloruro de magnesio hexahidrato, fosfato dis&#243;dico dihidrato, dihidrogenofosfato de potasio y agua para preparaciones inyectables.</span></li>
     </ul>
 

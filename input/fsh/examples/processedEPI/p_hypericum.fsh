@@ -37,7 +37,7 @@ Usage: #inline
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. PROSPECTO"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -48,7 +48,7 @@ Usage: #inline
 * section[=].section[+]
   * title = "Package leaflet: Information for the user"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -72,7 +72,7 @@ Usage: #inline
 * section[=].section[+]
   * title = "What is in this leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Contenido del prospecto"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 

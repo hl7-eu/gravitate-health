@@ -45,7 +45,7 @@ Usage: #inline
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. PROSPECTO"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -56,7 +56,7 @@ Usage: #inline
 * section[=].section[+]
   * title = "Package leaflet: Information for the user"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -122,7 +122,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>No tome Calcio/Vitamina D</strong><strong>3</strong> <strong>ROVI:</strong></p>
 
 <div>
-<ul >
+<ul>
 <li>si es alérgico a los principios activos o a alguno de los dem ás componentes de este medicamento (incluidos en la sección 6),</li>
 <li>si usted presenta hipercalcemia (nivel de calcio anormalmente elevado en sangre),</li>
 <li>si usted presenta hipercalciuria (eliminación exagerada de calcio en orina),</li>
@@ -149,7 +149,7 @@ Usage: #inline
 <p>Informe a su médico o farmacéutico si est á utilizando, ha utilizado recientemente o pudiera tener que utilizar cualquier otro medicamento. Ciertos medicamentos pueden interferir con Calcio/Vitamina D3 ROVI; en estos casos puede ser necesario cambiar la dosis, interrumpir el tratamiento con alguno de ellos o esperar al menos unas horas entre la administración de ambos.</p>
 <p>Es importante que informe a su médico si est á tomando o ha tomado recientemente alguno de los siguientes medicamentos:</p>
 <div>
-<ul >
+<ul>
 <li> Glucósidos cardíacos (medicamentos para el corazón).</li>
 <li> Tetraciclinas (ciertos antibióticos), esperar un intervalo de al menos 3 horas.</li>
 <li> Diuréticos tiazídicos (medicamentos que aumentan la eliminación de orina).</li>
@@ -240,14 +240,14 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
            <p>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</p>
 
-<p><strong>- Poco frecuente</strong>s (pueden afectar a entre 1 y 10 de cada 1.000 pacientes ):</p>
+<p><strong>- Poco frecuentes</strong> (pueden afectar a entre 1 y 10 de cada 1.000 pacientes):</p>
 <ul>
 <li>niveles altos de calcio en sangre hipercalcemia,</li>
 <li>niveles altos de calcio en orina hipercalciuria.</li>
 </ul>
 
-<p><strong>- Raros</strong> (pueden afectar a entre 1 y 10 de cada 10.000 pacientes ):</p>
-<ul >
+<p><strong>- Raros</strong> (pueden afectar a entre 1 y 10 de cada 10.000 pacientes):</p>
+<ul>
 <li>estreñimiento,</li>
 <li>flatulencia,</li>
 <li>n áuseas,</li>
@@ -255,8 +255,8 @@ Usage: #inline
 <li>diarrea.</li>
 </ul>
 
-<p>- <strong>Muy raros</strong> (pueden afectar a menos de 1 de cada 10.000 pacientes):):</p>
-<ul >
+<p>- <strong>Muy raros</strong> (pueden afectar a menos de 1 de cada 10.000 pacientes):</p>
+<ul>
 <li>picor (prurito),</li>
 <li>erupción de la piel (exantema),</li>
 <li>ronchas (urticaria).</li>

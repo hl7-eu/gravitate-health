@@ -69,7 +69,7 @@ Usage: #inline
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. PACKAGE LEAFLET"
+  * code.text = "B. PROSPECTO"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -80,7 +80,7 @@ Usage: #inline
 * section[=].section[+]
   * title = "Package leaflet: Information for the user"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -106,7 +106,7 @@ Usage: #inline
 * section[=].section[+]
   * title = "What is in this leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Contenido del prospecto"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -126,7 +126,7 @@ Usage: #inline
 * section[=].section[+]
   * title = "1. What Dovato 50 mg/300 mg comprimidos recubiertos con película is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What Dovato 50 mg/300 mg comprimidos recubiertos con película is and what it is used for"
+  * code.text =  "1. Qué es Dovato y para qué se utiliza"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -144,7 +144,7 @@ Usage: #inline
 * section[=].section[+]
   * title = "2. What you need to know before you take Dovato 50 mg/300 mg comprimidos recubiertos con película"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take Dovato 50 mg/300 mg comprimidos recubiertos con película"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar Dovato"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -218,7 +218,7 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
 * section[=].section[+]
   * title = "3. How to take Dovato 50 mg/300 mg comprimidos recubiertos con película"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take Dovato 50 mg/300 mg comprimidos recubiertos con película"
+  * code.text = "3. Cómo tomar Dovato"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -261,7 +261,7 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
 * section[=].section[+]
   * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -407,7 +407,7 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
 * section[=].section[+]
   * title = "5. How to store Dovato 50 mg/300 mg comprimidos recubiertos con película"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store Dovato 50 mg/300 mg comprimidos recubiertos con película"
+  * code.text = "5. Conservación de Dovato"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
@@ -424,7 +424,7 @@ Dovato puede hacer que se sienta mareado y puede tener otros efectos adversos qu
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>

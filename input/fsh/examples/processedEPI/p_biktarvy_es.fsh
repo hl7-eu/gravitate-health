@@ -115,15 +115,10 @@ Usage: #example
 
     <ol>
       <li><span>Qu&#233; es Biktarvy y para qu&#233; se utiliza</span></li>
-
       <li><span>Qu&#233; necesita saber antes de empezar a tomar Biktarvy</span></li>
-
       <li><span>C&#243;mo tomar Biktarvy</span></li>
-
       <li><span>Posibles efectos adversos</span></li>
-
       <li><span>Conservaci&#243;n de Biktarvy</span></li>
-
       <li><span>Contenido del envase e informaci&#243;n adicional</span></li>
     </ol>     </div>"""   
           
@@ -134,21 +129,15 @@ Usage: #example
   * code.text =  "1. Qué es Biktarvy y para qué se utiliza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-
     <p><span>Biktarvy contiene tres principios activos:</span></p>
 
     <ul>
       <li><strong><span>bictegravir,</span></strong> <span>un medicamento antirretroviral conocido como inhibidor de la transferencia de las</span> <span>hebras de la integrasa (INI)</span></li>
-
       <li><strong><span>emtricitabina,</span></strong> <span>un medicamento antirretroviral de un tipo conocido como nucle&#243;sido inhibidor</span> <span>de la transcriptasa inversa (ITIAN)</span></li>
-
       <li><strong><span>tenofovir alafenamida,</span></strong> <span>un medicamento antirretroviral de un tipo conocido como nucle&#243;tido</span> <span>inhibidor de la transcriptasa inversa (ITIANt)</span></li>
     </ul>
 
-
     <p><span class="indication">Biktarvy es un comprimido &#250;nico para el tratamiento de la infecci&#243;n por el virus de la inmunodeficiencia humana 1 (VIH-1) en adultos.</span></p>
-
-
     <p><span>Biktarvy reduce la cantidad de VIH presente en el organismo. Esto mejora el sistema inmunitario y disminuye el riesgo de desarrollar enfermedades asociadas con la infecci&#243;n por el VIH.</span></p>
 
 </div>"""   
@@ -163,30 +152,19 @@ Usage: #example
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  
     <p><strong><span>No tome Biktarvy</span></strong></p>
 
-
     <ul>
-      <li><strong><span>Si es al&#233;rgico a bictegravir, emtricitabina, tenofovir alafenamida</span></strong> <span>o a alguno de los dem&#225;s</span> <span>componentes de este medicamento (incluidos en la secci&#243;n 6 de este prospecto).</span></li>
-    
+      <li><strong><span>Si es al&#233;rgico a bictegravir, emtricitabina, tenofovir alafenamida</span></strong> <span>o a alguno de los dem&#225;s</span> <span>componentes de este medicamento (incluidos en la secci&#243;n 6 de este prospecto).</span></li>    
       <li><a name="page2" id="page2"></a><strong><span>Si actualmente est&#225; tomando alguno de los siguientes medicamentos:</span></strong></li>
         <ul>
           <li><strong><span>rifampicina</span></strong> <span>utilizada para tratar algunas infecciones bacterianas como la tuberculosis</span></li>
-
           <li class="contra-indication-hypericum"><strong><span>hierba de San Juan</span></strong> <span>(</span><em><span>Hypericum perforatum</span></em><span>, hip&#233;rico), un medicamento a base de</span> <span>plantas utilizado para la depresi&#243;n y la ansiedad, o productos que la contengan.</span></li>
         </ul>
-     
     </ul>
-
-
 
 <span>Si est&#225; tomando alguno de estos medicamentos,</span> <strong><span>no tome Biktarvy y consulte a su m&#233;dico</span></strong> <strong><span>inmediatamente.</span></strong>
 
-
-
     <p><strong><span>Advertencias y precauciones</span></strong></p>
-
-
     <p><strong><span>Consulte a su m&#233;dico antes de empezar a tomar Biktarvy:</span></strong></p>
-
 
     <ul>
       <li class="liver"><strong><span>Si tiene problemas hep&#225;ticos o antecedentes de enfermedad hep&#225;tica, incluida la hepatitis.</span></strong> <span>Los pacientes que padecen de enfermedades hep&#225;ticas, como la hepatitis B o C cr&#243;nica, y est&#225;n en tratamiento con antirretrovirales tienen m&#225;s riesgo de presentar complicaciones hep&#225;ticas graves y potencialmente mortales. Si tiene infecci&#243;n por el virus de la hepatitis B, su m&#233;dico evaluar&#225; detenidamente la mejor pauta terap&#233;utica para usted.</span></li>
@@ -194,91 +172,56 @@ Usage: #example
       <li><span>No deje de tomar Biktarvy si tiene hepatitis B. Hable antes con su m&#233;dico. Puede consultar m&#225;s detalles en la secci&#243;n 3,</span> <em><span>No interrumpa el tratamiento con Biktarvy.</span></em></li>
     </ul>
 
-
     <p><strong><span>Mientras est&#233; tomando Biktarvy</span></strong></p>
-
     <p><span>Una vez que empiece a tomar Biktarvy, est&#233; atento a:</span></p>
-
-
     <ul>
       <li><strong><span>Signos de inflamaci&#243;n o infecci&#243;n</span></strong></li>
       <li><strong><span>Dolor articular, rigidez o problemas &#243;seos</span></strong></li>
     </ul>
 
-
-
 <strong><span>Si nota cualquiera de estos s&#237;ntomas, informe a su m&#233;dico inmediatamente.</span></strong> <span>Puede consultar</span> <span>m&#225;s informaci&#243;n en la secci&#243;n 4,</span> <em><span>Posibles efectos adversos</span></em><span>.</span>
-
-
-
     <p><span>Aunque no se han observado problemas renales con Biktarvy, existe la posibilidad de que pueda experimentar problemas renales si toma Biktarvy durante un periodo de tiempo prolongado.</span></p>
-
-
     <p><span>Mientras est&#233; tomando este medicamento</span> <strong><span>a&#250;n puede transmitir el VIH a los dem&#225;s,</span></strong> <span>aunque un tratamiento antirretroviral eficaz reduzca el riesgo. Consulte a su m&#233;dico sobre qu&#233; precauciones son necesarias para no infectar a otras personas. Este medicamento no es una cura para la infecci&#243;n por el VIH. Mientras usted est&#233; tomando Biktarvy podr&#225; seguir padeciendo infecciones u otras enfermedades asociadas con la infecci&#243;n por el VIH.</span></p>
 
-
     <p><strong><span>Ni&#241;os y adolescentes</span></strong></p>
-
-
     <p><strong><span>No administre este medicamento a ni&#241;os y adolescentes menores de 18 a&#241;os de edad.</span></strong> <span>No se ha</span> <span>estudiado todav&#237;a el uso de Biktarvy en ni&#241;os y adolescentes menores de 18 a&#241;os de edad.</span></p>
 
-
     <p><strong><span>Otros medicamentos y Biktarvy</span></strong></p>
-
-
     <p><strong><span>Informe a su m&#233;dico o farmac&#233;utico si est&#225; tomando, ha tomado recientemente o pudiera tener que tomar cualquier otro medicamento.</span></strong> <span>Biktarvy puede interaccionar con otros medicamentos.</span> <span>Como consecuencia, los niveles sangu&#237;neos de Biktarvy o de otros medicamentos se pueden ver afectados. Esto puede impedir que sus medicamentos funcionen correctamente o empeorar sus posibles efectos adversos. En algunos casos, su m&#233;dico puede tener que ajustar la dosis o comprobar sus concentraciones sangu&#237;neas.</span></p>
-
-
     <p><a name="page3" id="page3"></a><strong><span>Medicamentos que nunca se deben tomar con Biktarvy:</span></strong></p>
 
-
-    <ul >
+    <ul>
       <li><strong><span>rifampicina</span></strong> <span>utilizada para tratar algunas infecciones bacterianas como la tuberculosis</span></li>
-
       <li class="contra-indication-hypericum"><strong><span>hierba de San Juan</span></strong> <span>(</span><em><span>Hypericum perforatum</span></em><span>, hip&#233;rico), un medicamento a base de plantas</span> <span>utilizado para la depresi&#243;n y la ansiedad, o productos que lo contengan</span><strong><span>.</span></strong></li>
     </ul>
 
-
-
       <span>Si est&#225; tomando alguno de estos medicamentos,</span> <strong><span>no tome Biktarvy e informe a su m&#233;dico</span></strong> <strong><span>inmediatamente.</span></strong>
-
-
-
     <p><strong><span>Consulte con su m&#233;dico si est&#225; tomando:</span></strong></p>
-
 
     <ul>
       <li><strong><span>medicamentos utilizados para tratar el VIH y/o la hepatitis B</span></strong> <span>que contengan:</span></li>
-        <ul >
+        <ul>
           <li><span>adefovir dipivoxil, atazanavir, bictegravir, emtricitabina, lamivudina, tenofovir alafenamida o tenofovir disoproxilo</span></li>
         </ul>
       <li><strong><span>antibi&#243;ticos, utilizados para tratar las infecciones bacterianas</span></strong><span>, que contengan:</span></li>
-          <ul >
+          <ul>
             <li><span>azitromicina, claritromicina, rifabutina o rifapentina</span></li>
           </ul>
 
-      <li><strong><span>antiepil&#233;pticos,</span></strong> <span>utilizados para tratar la epilepsia, que contengan:</span></li>
-
-     
-        <ul >
+      <li><strong><span>antiepil&#233;pticos,</span></strong> <span>utilizados para tratar la epilepsia, que contengan:</span></li>     
+        <ul>
           <li><span>carbamazepina, oxcarbazepina, fenobarbital o fenito&#237;na</span></li>
         </ul>
-    
-
       <li><strong><span>inmunosupresores,</span></strong> <span>utilizados para controlar la respuesta inmunitaria del organismo tras un</span> <span>trasplante, que contengan ciclosporina</span></li>
-
       <li><strong><span>medicamentos para la curaci&#243;n de &#250;lceras</span></strong> <span>que contengan sucralfato</span></li>
     </ul>
-
-
-
- <strong><span>Informe a su m&#233;dico si est&#225; tomando alguno de estos medicamentos.</span></strong> <span>No interrumpa su</span> <span>tratamiento sin consultar con su m&#233;dico.</span>
+<strong><span>Informe a su m&#233;dico si est&#225; tomando alguno de estos medicamentos.</span></strong> <span>No interrumpa su</span> <span>tratamiento sin consultar con su m&#233;dico.</span>
 
 
 
     <p><strong><span>Consulte a su m&#233;dico o farmac&#233;utico si est&#225; tomando:</span></strong></p>
 
-    <ul >
+    <ul>
       <li><strong><span>anti&#225;cidos</span></strong> <span>para tratar &#250;lceras estomacales, acidez estomacal o reflujo &#225;cido, que contengan</span> <span>hidr&#243;xido de aluminio y/o de magnesio</span></li>
 
       <li><strong><span>suplementos de minerales</span></strong> <span>o</span> <strong><span>de vitaminas,</span></strong> <span>que contengan magnesio o hierro</span></li>
@@ -295,7 +238,7 @@ Usage: #example
 <div class="pregnancyCategory">
     <p><strong><span>Embarazo y lactancia</span></strong></p>
 
-    <ul >
+    <ul>
       <li><span>Si est&#225; embarazada o en periodo de lactancia, cree que podr&#237;a estar embarazada o tiene intenci&#243;n de quedarse embarazada, consulte a su m&#233;dico o farmac&#233;utico antes de utilizar este medicamento.</span></li>
 
       <li><span>Informe a su m&#233;dico inmediatamente si se queda embarazada y pregunte sobre los posibles beneficios y riesgos de su tratamiento antirretroviral para usted y para su hijo.</span></li>
@@ -363,7 +306,7 @@ Usage: #example
 
     <p><span>Si olvida una dosis:</span></p>
 
-    <ul >
+    <ul>
       <li><strong><span>Si se da cuenta en las 18 horas</span></strong> <span>posteriores a la hora a la que normalmente toma Biktarvy, debe</span> <span>tomar el comprimido tan pronto como sea posible. Luego tome la dosis siguiente de la forma habitual.</span></li>
 
       <li><strong><span>Si se da cuenta despu&#233;s de 18 horas o m&#225;s</span></strong> <span>de la hora a la que normalmente toma Biktarvy, no</span> <span>tome la dosis olvidada. Espere y tome la siguiente dosis a la hora habitual.</span></li>
@@ -414,7 +357,7 @@ Usage: #example
 
 
   
-      <ul >
+      <ul>
         <li><span>debilidad muscular</span></li>
 
         <li><span>debilidad que se inicia en las manos y los pies y se desplaza hacia el tronco</span></li>
@@ -431,7 +374,7 @@ Usage: #example
 
     <p><em><span>(pueden afectar hasta 1 de cada 10 personas)</span></em></p>
 
-    <ul >
+    <ul>
       <li><span>depresi&#243;n</span></li>
 
       <li><span>sue&#241;os anormales</span></li>
@@ -452,7 +395,7 @@ Usage: #example
 
     <p><span>(</span><em><span>pueden afectar hasta 1 de cada 100 personas</span></em><span>)</span></p>
 
-    <ul >
+    <ul>
       <li><span>anemia</span></li>
 
       <li><a name="page6" id="page6"></a><span>v&#243;mitos</span></li>
