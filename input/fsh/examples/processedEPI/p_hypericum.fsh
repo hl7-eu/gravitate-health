@@ -88,7 +88,7 @@ Usage: #inline
 * section[=].section[+]
   * title = "1. What HIPÉRICO ARKOPHARMA cápsulas duras is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "1. What HIPÉRICO ARKOPHARMA cápsulas duras is and what it is used for"
+  * code.text =  "1. Qué es HIPÉRICO ARKOPHARMA cápsulas duras y para qué se utiliza"
   * text.status = #additional   
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <div>
@@ -100,9 +100,9 @@ Usage: #inline
 * section[=].section[+]
   * title = "2. What you need to know before you take HIPÉRICO ARKOPHARMA cápsulas duras"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take HIPÉRICO ARKOPHARMA cápsulas duras"
+  * code.text = "2. Qué necesita saber antes de empezar a tomar HIPÉRICO ARKOPHARMA cápsulas duras"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <div>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
     <p><strong><span>No tome HIPÉRICO ARKOPHARMA</span></strong></p>
     <ul>
       <li> <span>Si es menor de 18 años.</span></li>
@@ -137,7 +137,39 @@ Usage: #inline
     </ul>
     <p><span>Para mayor información, consulte la siguiente lista:</span></p>
     <p><span>No tome este medicamento si usted está en tratamiento con cualquier medicamento de los indicados en este listado:</span></p>
-    <p><strong><span>•Agonistas 5HT (Triptanes):</span></strong> <span>tales como almotriptan, eleptriptan, frovatriptan, naratriptan, rizatriptan, sumatriptan, zolmitriptan;</span> <strong><span>•Analgésicos:</span></strong> <span>tales como tramadol;</span> <strong><span>•Anestésicos/ medicamentos para la preparación de una intervención quirúrgica</span></strong><span>: tales como fentanilo, propofol, midazolam, sevoflurano;</span> <strong><span>•Ansiolíticos</span></strong><span>: tales como buspirona;</span> <strong><span>•Antagonistas hormonales:</span></strong><span>; tales como exemestano;</span> <strong><span>•Antianginosos:</span></strong> <span>tales como ivabradina;</span> <strong><span>•Antiarrítmicos</span></strong><span>: tales como amiodarona;</span> <strong><span>Antibacterianos</span></strong><span>: tales como eritromicina, claritromicina, telitromicina;</span> <strong><span>•Anticoagulantes:</span></strong> <span>tales como warfarina, acenocumarol;</span> <strong><span>•Anticonceptivos Hormonales:</span></strong> <span>anticonceptivos orales, anticonceptivos hormonales de emergencia (Píldora del día después), implantes e inyecciones hormonales, parches transdérmicos, dispositivos intrauterinos con hormonas;</span> <strong><span>•Anticonvulsivantes (Antiepilépticos):</span></strong> <span>tales como carbamazepina, fenobarbital, fenitoína, primidona, valproato sódico;</span> <strong><span>•Antidepresivos Tricíclicos</span></strong><span>: tales como amitriptilina, clomipramina;</span> <strong><span>IMAO:</span></strong> <span>tales como moclobemida;</span> <strong><span>ISRS</span></strong> <span>(inhibidores selectivos de la recaptación de serotonina) tales como citalopram, fluoxetina, fluvoxamina, paroxetina, sertralina;</span> <strong><span>Otros antidepresivos</span></strong> <span>como duloxetina, venlafaxina;</span> <strong><span>•Antifúngicos:</span></strong><span>; tales como itraconazol, voriconazol;</span> <strong><span>•Antimaláricos:</span></strong> <span>tales como lumefantrina;</span> <strong><span>•Antiparkinsonianos:</span></strong> <span>tales como rasagilina;</span> <strong><span>•Antisicóticos:</span></strong><span>; tales como aripiprazol;</span> <strong><span>•Todos los Antivirales:</span></strong><span>; tales como</span> <strong><span>Inhibidores de Proteasa</span></strong> <span>(amprenavir, atazanavir, darunavir, fosamprenavir indinavir, lopinavir, nelfinavir, ritonavir, saquinavir, tipranavir);</span> <strong><span>Inhibidores de transcriptasa inversa no nucleósidos</span></strong> <span>(efavirenz, nevirapina, delavirdina);</span> <strong><span>•Aprepitant</span></strong> <strong><span>(</span></strong><span>se utiliza para evitar vómitos, tras un tratamiento con quimioterapia);</span> <strong><span>•Barbituratos</span></strong> <span>tales como butobarbital, fenobarbital;</span> <strong><span>•Bloqueadores de los canales del Calcio:</span></strong> <span>tales como amlodipina, nifedipina, verapamilo, felodipina;</span> <strong><span>•Citotóxicos:</span></strong> <span>como irinotecan, dasatinib, erlotinib, imatinib, sorafenib, sunitinib, etoposido, mitotano;</span> <strong><span>•Diuréticos:</span></strong> <span>tales como eplerenona;</span> <strong><span>•Estimulantes de SNC:</span></strong><span>; tales como metilfenidato;</span> <strong><span>•Glucósidos cardiacos:</span></strong> <span>tales como digoxina;</span> <strong><span>•Hipoglucemiantes orales</span></strong> <span>(antidiabéticos orales): tales como gliclazida;</span> <strong><span>•Hipolipemiantes:</span></strong> <span>tales como; simvastatina, atorvastatina;</span> <strong><span>•Hormonas tiroideas:</span></strong> <span>todos los medicamentos de esta clase incluido Tiroxina;</span> <strong><span>•Inhibidores de la bomba de protones:</span></strong> <span>tales como lansoprazol, omeprazol;</span> <strong><span>•Inmunosupresores:</span></strong> <span>tales como ciclosporina, tacrolimus;</span> <strong><span>•Litio; •Teofilina; •Terapia hormonal de remplazo:</span></strong> <span>tales como los parches, geles, anillo vaginal)</span></p>
+<ul>
+<li>Agonistas 5HT (Triptanes): tales como almotriptan, eleptriptan, frovatriptan, naratriptan, rizatriptan, sumatriptan, zolmitriptan;</li>
+<li>Analgésicos: tales como tramadol;</li>
+<li>Anestésicos/ medicamentos para la preparación de una intervención quirúrgica: tales como fentanilo, propofol, midazolam, sevoflurano;</li>
+<li>Ansiolíticos: tales como buspirona;</li>
+<li>Antagonistas hormonales:; tales como exemestano;</li>
+<li>Antianginosos: tales como ivabradina;</li>
+<li>Antiarrítmicos: tales como amiodarona; Antibacterianos: tales como eritromicina, claritromicina, telitromicina;</li>
+<li>Anticoagulantes: tales como warfarina, acenocumarol;</li>
+<li>Anticonceptivos Hormonales: anticonceptivos orales, anticonceptivos hormonales de emergencia (Píldora del día después), implantes e inyecciones hormonales, parches transdérmicos, dispositivos intrauterinos con hormonas;</li>
+<li>Anticonvulsivantes (Antiepilépticos): tales como carbamazepina, fenobarbital, fenitoína, primidona, valproato sódico;</li>
+<li>Antidepresivos Tricíclicos: tales como amitriptilina, clomipramina; IMAO: tales como moclobemida; ISRS (inhibidores selectivos de la recaptación de serotonina) tales como citalopram, fluoxetina, fluvoxamina, paroxetina, sertralina; Otros antidepresivos como duloxetina, venlafaxina;</li>
+<li>Antifúngicos:; tales como itraconazol, voriconazol;</li>
+<li>Antimaláricos: tales como lumefantrina;</li>
+<li>Antiparkinsonianos: tales como rasagilina;</li>
+<li>Antisicóticos:; tales como aripiprazol;</li>
+<li>Todos los Antivirales:; tales como Inhibidores de Proteasa (amprenavir, atazanavir, darunavir, fosamprenavir indinavir, lopinavir, nelfinavir, ritonavir, saquinavir, tipranavir); Inhibidores de transcriptasa inversa no nucleósidos (efavirenz, nevirapina, delavirdina);</li>
+<li>Aprepitant (se utiliza para evitar vómitos, tras un tratamiento con quimioterapia);</li>
+<li>Barbituratos tales como butobarbital, fenobarbital;</li>
+<li>Bloqueadores de los canales del Calcio: tales como amlodipina, nifedipina, verapamilo, felodipina;</li>
+<li>Citotóxicos: como irinotecan, dasatinib, erlotinib, imatinib, sorafenib, sunitinib, etoposido, mitotano;</li>
+<li>Diuréticos: tales como eplerenona;</li>
+<li>Estimulantes de SNC:; tales como metilfenidato;</li>
+<li>Glucósidos cardiacos: tales como digoxina;</li>
+<li>Hipoglucemiantes orales (antidiabéticos orales): tales como gliclazida;</li>
+<li>Hipolipemiantes: tales como; simvastatina, atorvastatina;</li>
+<li>Hormonas tiroideas: todos los medicamentos de esta clase incluido Tiroxina;</li>
+<li>Inhibidores de la bomba de protones: tales como lansoprazol, omeprazol;</li>
+<li>Inmunosupresores: tales como ciclosporina, tacrolimus;</li>
+<li>Litio;</li>
+<li>Teofilina;</li>
+<li>Terapia hormonal de remplazo: tales como los parches, geles, anillo vaginal)</li>
+</ul>
     <p><span>En caso de tratamiento concomitante de HIPÉRICO ARKOPHARMA con medicamentos anticoagulantes (como fenprocumona, warfarina, clopidogrel, ácido acetilsalicílico y otros antireumáticos no esteroideos) no puede excluirse que el efecto de estas preparaciones se vea aumentado</span><span>.</span></p>
     <p><span>No puede excluirse que HIPÉRICO ARKOPHARMA actúe sobre la metabolización de otros medicamentos lo que puede afectar a la potencia y/o duración del efecto de los medicamentos a los que se refiere. Por esta razón, consulte con su médico o farmacéutico antes de tomar HIPÉRICO ARKOPHARMA con otros tratamientos.</span></p>
     <p><span>Informe a su médico o farmacéutico si está tomando o ha tomado recientemente cualquier otro medicamento, incluso los adquiridos sin receta médica.</span></p>
@@ -153,8 +185,6 @@ Usage: #inline
     <p><strong><span>Conducción y uso de máquinas</span></strong></p>
 
     <p><span>No se han realizado estudios sobre la capacidad de conducir y el uso de máquinas</span><span>.</span></p>
-
-  </div>
         </div>"""
 
    
@@ -162,7 +192,7 @@ Usage: #inline
 * section[=].section[+]
   * title = "3. How to take HIPÉRICO ARKOPHARMA cápsulas duras"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take HIPÉRICO ARKOPHARMA cápsulas duras"
+  * code.text = "3. Cómo tomar HIPÉRICO ARKOPHARMA cápsulas duras"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -210,7 +240,7 @@ Usage: #inline
 * section[=].section[+]
   * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -236,7 +266,7 @@ Usage: #inline
 * section[=].section[+]
   * title = "5. How to store HIPÉRICO ARKOPHARMA cápsulas duras"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store HIPÉRICO ARKOPHARMA cápsulas duras"
+  * code.text = "5. Conservación de HIPÉRICO ARKOPHARMA cápsulas duras"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -255,7 +285,7 @@ Usage: #inline
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Contenido del envase e información adicional"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
@@ -293,7 +323,6 @@ Usage: #inline
 
     <p><span>28045 MADRID</span></p>
 
-
     <p><strong><span>Responsable de la fabricaci&#243;n</span></strong></p>
 
     <p><strong><span>ARKOPHARMA</span></strong></p>
@@ -301,11 +330,7 @@ Usage: #inline
     <p><span>LABORATOIRES PHARMACEUTIQUES</span></p>
 
     <p><span>BP 28 &#8211; 06511 CARROS Cedex - FRANCE</span></p>
-
-
     <p><strong><span>Fecha de la &#250;ltima revisi&#243;n de este prospecto: septiembre 2016</span></strong></p>
-
-
     <p><span>La informaci&#243;n detallada y actualizada de este medicamento est&#225; disponible en la p&#225;gina web de la Agencia Espa&#241;ola de Medicamentos y Productos Sanitarios (AEMPS)</span> <a href="http://www.aemps.gob.es/"><span>http://www.aemps.gob.es/</span></a></p>
 
   </div>
