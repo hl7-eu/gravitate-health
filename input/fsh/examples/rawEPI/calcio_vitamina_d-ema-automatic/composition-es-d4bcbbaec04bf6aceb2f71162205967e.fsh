@@ -47,13 +47,13 @@ Usage: #inline
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <p><strong>Prospecto: información para el usuario</strong></p>
-<p></p>
+<p>&#160;</p>
 <p><strong>Calcio/Vitamina D</strong><strong>3</strong> <strong>ROVI 1000 mg / 880 UI comprimidos efervescentes</strong></p>
-<p></p>
+<p>&#160;</p>
 <p>Carbonato cálcico/colecalciferol (Vitamina D3)</p>
-<p><strong></strong></p>
+<p><strong>&#160;</strong></p>
 <p><strong>Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento, porque contiene información importante para usted.</strong></p>
-<p>-Conserve este prospecto, ya que puede tener que volver a leerlo.</p>
+<p>-Conserve este prospecto, ya que&#160; puede tener que volver a leerlo.</p>
 <p>-Si tiene alguna duda, consulte a su médico o farmacéutico.</p>
 <p>-Este medicamento se le ha recetado solamente a usted, y no debe dárselo a otras personas aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.</p>
 <p>-Si experimenta efectos adversos, consulte a su médico o farmacéutico, incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.</p>
@@ -130,7 +130,7 @@ Usage: #inline
 <p>- si padece una enfermedad del corazón, sarcoidosis (inflamación a nivel de los ganglios linfáticos, los pulmones, el hígado, los ojos, la piel y otros tejidos), o se encuentra en tratamiento con glucósidos cardíacos (medicamentos utilizados cuando existe una incapacidad del corazón para realizar correctamente su función),</p>
 <p>- si recibe un tratamiento conjunto con otros productos con vitamina D, o está sometido a un tratamiento prolongado o con dosis elevadas de suplementos de calcio. En este caso es posible que su médico deba efectuar controles clínicos de forma regular. Su médico le indicará la frecuencia de estos controles.</p>
 <p></p>
-<p><strong>Toma de Calcio/Vitamina D</strong><strong>3</strong> <strong>ROVI con otros medicamentos:</strong></p>
+<p><strong>Toma de Calcio/Vitamina D3 ROVI con otros medicamentos:</strong></p>
 <p></p>
 <p>Informe a su médico o farmacéutico si está utilizando, ha utilizado recientemente o pudiera tener que utilizar cualquier otro medicamento. Ciertos medicamentos pueden interferir con Calcio/Vitamina D3 ROVI; en estos casos puede ser necesario cambiar la dosis, interrumpir el tratamiento con alguno de ellos o esperar al menos unas horas entre la administración de ambos.</p>
 <p>Es importante que informe a su médico si está tomando o ha tomado recientemente alguno de los siguientes medicamentos:</p>
@@ -145,9 +145,7 @@ Usage: #inline
 <li> Barbitúricos o fenitoína.</li>
 </ul>
 </div>
-<p><strong></strong></p>
-<p><strong>Toma de Calcio / Vitamina D</strong><strong>3</strong> <strong>ROVI con alimentos y, bebidas:</strong></p>
-<p><strong></strong></p>
+<p><strong>Toma de Calcio / Vitamina D3 ROVI con alimentos y, bebidas:</strong></p>
 <p>Si toma este medicamento juntamente con alimentos y bebidas que contengan ácido oxálico (un compuesto presente en espinacas y ruibarbos) o ácido fítico (presente en el pan integral y cereales) y el fósforo que se encuentra en la leche pueden producirse interacciones, por lo que se aconseja no tomar este medicamento durante las 2 horas siguientes después de haber tomado este tipo de alimentos.</p>
 <p></p>
 <p><strong>Embarazo y lactancia</strong></p>
@@ -160,7 +158,7 @@ Usage: #inline
 <p></p>
 <p>No se han descrito efectos sobre la conducción o uso de máquinas.</p>
 <p></p>
-<p><strong>Calcio/Vitamina D</strong><strong>3</strong> <strong>ROVI contiene sacarosa, sodio, lactosa y glucosa.</strong></p>
+<p><strong>Calcio/Vitamina D3 ROVI contiene sacarosa, sodio, lactosa y glucosa.</strong></p>
 <p></p>
 <p>Este medicamento contiene sacarosa. Si su médico le ha indicado que padece una intolerancia a ciertos azúcares, consulte con él antes de tomar este medicamento. Puede producir caries.</p>
 <p></p>
@@ -310,4 +308,6 @@ Usage: #inline
         </div>"""
 
       
+
+
 

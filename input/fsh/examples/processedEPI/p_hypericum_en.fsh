@@ -1,32 +1,38 @@
-Instance: composition-en-af8d2f6e4772c29a8ef9fbb165e80d28
+
+Instance: processed-en-compositionaf8d2f6e4772c29a8ef9fbb165e80d28
 InstanceOf: CompositionUvEpi
-Title: "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
-Description:  "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
+Title: "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet - Preprocessed"
+Description:  "Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet - Preprocessed"
 Usage: #inline
 
 * identifier.system = "https://spor.ema.europa.eu/rmswi/"
+* identifier.value = "hip-arkop-en"
 
-* identifier.value = "79963"
 * status = #final
+
+* category = epicategory-cs#P "Processed"
+
+
+
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
 * subject = Reference(mpaf8d2f6e4772c29a8ef9fbb165e80d28)
 * date = "2022-02-16T13:28:17Z"
-
- 
-
- // Reference to Organization: MAH
 * author = Reference(mah-c2a5378488511eaedce26dde272c2290)
-
 
 * title = "TEST PURPOSES ONLY - HIPÉRICO ARKOPHARMA cápsulas duras"
 * attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
 * attester.time =  "2022-02-16T13:28:17Z"
 * language = #en
-* category = epicategory-cs#R "Raw"
 
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "pregnancyCategory"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#77386006 "Pregnancy"
 
 * section[+].
   * title = "B. Package Leaflet"
@@ -101,15 +107,12 @@ Usage: #inline
     <p><span>5. Storage of</span> <strong><span>HYPERICUM ARKOPHARMA</span></strong> <span>6. Package contents and additional information.</span></p>
         </div>"""
 
-   
-          
 
 * section[=].section[+]
-  * title =  "1. What HIPÉRICO ARKOPHARMA hard capsules is and what it is used for"
+  * title = "1. What HIPÉRICO ARKOPHARMA cápsulas duras is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What HIPÉRICO ARKOPHARMA hard capsules is and what it is used for"
-  * text.status = #additional
-   
+  * text.status = #additional   
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <div>
 
@@ -120,21 +123,17 @@ Usage: #inline
   </div>
 </div>"""
 
-   
-          
-
-             
 * section[=].section[+]
-  * title = "2. What you need to know before you take HIPÉRICO ARKOPHARMA hard capsules"
+  * title = "2. What you need to know before you take HIPÉRICO ARKOPHARMA cápsulas duras"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take HIPÉRICO ARKOPHARMA hard capsules"
   * text.status = #additional
-   
+
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
     <p><strong><span>Do not take HYPERICUM ARKOPHARMA</span></strong></p>
     <ul>
       <li> <span>If you are under 18 years old.</span></li>
-      <li> <span>If you are pregnant or breastfeeding.</span></li>
+      <li> <span class="pregnancyCategory">If you are pregnant or breastfeeding.</span></li>
       <li> <span>If you are allergic to</span> <em><span>Hypericum perforatum</span></em> <span>L. or any of the components of the medicine.</span></li>
       <li> <span>If you are undergoing surgery requiring treatment with other medications.</span></li>
       <li> <span>If you are being treated with any of the medicines listed in this leaflet. Some components of hypericum (<em>Hypericum perforatum</em> L.) can cause pharmacokinetic interactions with numerous medicines, potentially reducing their effectiveness (see information on taking other medicines).</span></li>
@@ -205,17 +204,16 @@ Usage: #inline
     <p><strong><span>Taking HYPERICUM ARKOPHARMA with food and drinks</span></strong></p>
     <p><span>Food and beverages have no influence on the effect of the medicine.</span></p>
 
-    <p><strong><span>Pregnancy, breastfeeding, and fertility</span></strong></p>
-    <p><span>If you are pregnant, breastfeeding, think you may be pregnant, or are planning to have a baby, consult your pharmacist or doctor before using this medicine. Its use is not recommended in these circumstances.</span></p>
+    <p class="pregnancyCategory"><strong><span>Pregnancy, breastfeeding, and fertility</span></strong></p>
+    <p class="pregnancyCategory"><span>If you are pregnant, breastfeeding, think you may be pregnant, or are planning to have a baby, consult your pharmacist or doctor before using this medicine. Its use is not recommended in these circumstances.</span></p>
 
     <p><strong><span>Driving and using machines</span></strong></p>
     <p><span>No studies have been conducted on the ability to drive and use machines.</span></p>
 </div>"""
-
    
                     
 * section[=].section[+]
-  * title =  "3. How to take HIPÉRICO ARKOPHARMA hard capsules"
+  * title = "3. How to take HIPÉRICO ARKOPHARMA cápsulas duras"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take HIPÉRICO ARKOPHARMA hard capsules"
   * text.status = #additional
@@ -256,7 +254,6 @@ Usage: #inline
         <p><span>If you forget a dose, take the medicine as soon as possible and continue the treatment as prescribed. However, if it is close to the time for the next dose, it is better to skip the missed dose and wait for the next one. Never take a double dose to make up for the missed dose.</span><span>.</span></p>   
     </div>
 </div>"""
-
          
 
         
@@ -285,7 +282,7 @@ Usage: #inline
       
         
 * section[=].section[+]
-  * title = "5. How to store HIPÉRICO ARKOPHARMA hard capsules"
+  * title = "5. How to store HIPÉRICO ARKOPHARMA cápsulas duras"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store HIPÉRICO ARKOPHARMA hard capsules"
   * text.status = #additional
@@ -371,5 +368,25 @@ Usage: #inline
     </div>
 </div>"""
 
-      
 
+
+
+
+Instance: processed-en-bundlehypericum
+InstanceOf: BundleUvEpi
+Title: "[Preprocessed] ePI document for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet"
+Description: "[Preprocessed] Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet ePI document"
+Usage: #example
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "79963"
+* type = #document
+* timestamp = "2023-04-25T11:55:27Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/processed-compositionaf8d2f6e4772c29a8ef9fbb165e80d28"
+* entry[0].resource =  processed-en-compositionaf8d2f6e4772c29a8ef9fbb165e80d28
+
+
+* insert 2e9b255d9b94b05d362748d5716e558cBundleRuleset

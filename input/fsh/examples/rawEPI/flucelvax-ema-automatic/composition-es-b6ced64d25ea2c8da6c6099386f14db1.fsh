@@ -141,53 +141,39 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
     <p><span>Si es al&#233;rgico a:</span></p>
 
-    <ul >
+    <ul>
       <li><span>los principios activos o alguno de los dem&#225;s componentes de esta vacuna (incluidos en la secci&#243;n 6).</span></li>
 
       <li><span>la beta-propiolactona, al bromuro de cetiltrimetilamonio o al polisorbato 80, que son residuos del proceso de fabricaci&#243;n que pueden estar presentes en cantidades m&#237;nimas.</span></li>
     </ul>
 
-    
-
     <p><strong><span>Advertencias y precauciones</span></strong></p>
 
     <p><span>Consulte a su m&#233;dico, farmac&#233;utico o enfermero antes de empezar a recibir Flucelvax Tetra.</span></p>
 
-    
-
     <p><span>ANTES DE vacunarse</span></p>
 
-    <ul >
+    <ul>
       <li><span>su m&#233;dico o enfermero comprobar&#225; la f&#225;cil disponibilidad de tratamiento m&#233;dico y supervisi&#243;n adecuados en el caso raro de que se produjera una reacci&#243;n anafil&#225;ctica (una reacci&#243;n al&#233;rgica muy grave con s&#237;ntomas como dificultad para respirar, mareos, pulso d&#233;bil y r&#225;pido y erupci&#243;n cut&#225;nea) despu&#233;s de la administraci&#243;n. Esta reacci&#243;n puede presentarse con Flucelvax Tetra, al igual que con todas las vacunas que se inyectan.</span></li>
 
       <li><span>debe informar a su m&#233;dico si tiene una enfermedad aguda que cursa con fiebre. Su m&#233;dico puede decidir retrasar su vacunaci&#243;n hasta que la fiebre haya desaparecido.</span></li>
 
-      <li>
-        <ul >
+        <ul>
           <li><span>debe informar a su m&#233;dico si su sistema inmunitario est&#225; comprometido o si est&#225; recibiendo un tratamiento que afecte al mismo, por ejemplo, medicamento contra el c&#225;ncer (quimioterapia) o corticoides (ver secci&#243;n &#8220;Otros medicamentos y Flucelvax Tetra&#8221;).</span></li>
         </ul>
-      </li>
 
       <li><span>debe informar a su m&#233;dico si tiene un problema de sangrado o le salen moretones&#160;&#160;&#160;&#160; f&#225;cilmente.</span></li>
 
       <li><span>puede desmayarse despu&#233;s de la inyecci&#243;n con una aguja, o incluso antes, por lo tanto, informe a su m&#233;dico o enfermero si se ha desmayado anteriormente con alguna inyecci&#243;n.</span></li>
     </ul>
 
-    
-
     <p><span>Como ocurre con todas las vacunas, Flucelvax Tetra puede no proteger completamente a todas las personas que son vacunadas.</span></p>
-
-    
 
     <p><strong><span>Otros medicamentos y Flucelvax Tetra</span></strong></p>
 
     <p><span>Informe a su m&#233;dico o enfermero si est&#225; utilizando, ha utilizado recientemente o pudiera tener que utilizar cualquier otro medicamento, incluso los adquiridos sin receta, o si ha recibido recientemente alguna otra vacuna.</span></p>
 
-    
-
     <p><span>Flucelvax Tetra se puede administrar al mismo tiempo que otras vacunas.</span></p>
-
-    
 
     <p><strong><span>Embarazo y lactancia</span></strong></p>
 
@@ -195,27 +181,19 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
     <p><span>Si est&#225; embarazada, cree que podr&#237;a estar embarazada o tiene intenci&#243;n de quedarse embarazada, consulte a su m&#233;dico. Las vacunas antigripales se pueden administrar en cualquier trimestre del embarazo.</span></p>
 
-    
-
     <p><span>Lactancia:</span></p>
 
     <p><span>El uso de Flucelvax Tetra durante la lactancia no ha sido estudiado. Flucelvax Tetra se puede administrar durante la lactancia.</span></p>
 
-    
-
     <p><strong><span>Conducci&#243;n y uso de m&#225;quinas</span></strong></p>
 
     <p><span>La influencia de Flucelvax Tetra sobre la capacidad para conducir y utilizar m&#225;quinas es nula o insignificante.</span></p>
-
-    
 
     <p><strong><span>Flucelvax Tetra contiene cloruro de sodio y cloruro de potasio</span></strong></p>
 
     <p><span>Esta vacuna contiene menos de 1 mmol de sodio (23 mg) por dosis; esto es, esencialmente &#8220;exento de sodio&#8221;.</span></p>
 
     <p><span>Esta vacuna contiene potasio, menos de 1 mmol (39 mg) por dosis; esto es, esencialmente &#8220;exento de potasio&#8221;.</span></p>         </div>"""
-
-   
                     
 * section[=].section[+]
   * title =  "3. Cómo tomar Flucelvax"
@@ -223,20 +201,12 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
   * code.text = "3. Cómo tomar Flucelvax"
   * text.status = #additional
    
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><a name="_Hlk142925114"><span>&#xa0;</span></a></p>
-
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
     <p><span>Su m&#233;dico o enfermero le administrar&#225; Flucelvax Tetra en forma de inyecci&#243;n en el m&#250;sculo de la parte superior del brazo (m&#250;sculo deltoides).</span></p>
-
-    
 
     <p><span>Adultos y ni&#241;os a partir de 2 a&#241;os de edad:</span></p>
 
-    
-
     <p><span>Una dosis de 0,5 ml</span></p>
-
-    
-
     <p><span>Si su hijo es menor de 9 a&#241;os y nunca ha sido vacunado contra la gripe, se le debe administrar una segunda dosis despu&#233;s, de al menos, 4 semanas.</span></p>
 
              </div>"""
@@ -250,7 +220,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
   * code.text = "4. Posibles efectos adversos"
   * text.status = #additional
    
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>
 
     <p><span>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</span></p>
 
@@ -264,7 +234,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
     
 
-    <p><span>&#8226;</span><span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span> <span>Dificultad para respirar, mareos, pulso d&#233;bil y r&#225;pido junto con erupci&#243;n cut&#225;nea, que son los s&#237;ntomas de una reacci&#243;n anafil&#225;ctica (una reacci&#243;n al&#233;rgica muy grave)</span></p>
+    <p><span>Dificultad para respirar, mareos, pulso d&#233;bil y r&#225;pido junto con erupci&#243;n cut&#225;nea, que son los s&#237;ntomas de una reacci&#243;n anafil&#225;ctica (una reacci&#243;n al&#233;rgica muy grave)</span></p>
 
     
 
@@ -274,7 +244,7 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
     
 
-    <ul >
+    <ul>
       <li><span>Se siente d&#233;bil, tiene dificultades para moverse o presenta entumecimiento u hormigueo en las extremidades. Estos pueden ser s&#237;ntomas del s&#237;ndrome de Guillain-Barr&#233; (SGB), una enfermedad autoinmune causada por el propio sistema inmunitario del organismo</span></li>
 
       <li><span>Hinchaz&#243;n extensa del miembro en el que se ha inyectado</span></li>
@@ -284,9 +254,9 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
     <p><strong><span>Efectos adversos leves</span></strong></p>
 
-    <p><span>Muy frecuentes</span> <span>(pueden afectar a m&#225;s de 1 de cada 10 personas):</span></p>
+    <p><span>Muy frecuentes (pueden afectar a m&#225;s de 1 de cada 10 personas):</span></p>
 
-    <ul >
+    <ul>
       <li><span>Dolor en la zona de inyecci&#243;n, cardenales, enrojecimiento y endurecimiento o hinchaz&#243;n en la zona de inyecci&#243;n</span></li>
 
       <li><span>Dolor de cabeza</span></li>
@@ -314,15 +284,11 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
     <p><span>Frecuentes</span> <span>(pueden afectar hasta 1 de cada 10 personas):</span></p>
 
-    <ul >
+    <ul>
       <li><span>N&#225;useas, v&#243;mitos, diarrea</span></li>
-
       <li><span>Dolor articular</span></li>
-
       <li><span>Tiritona</span></li>
-
       <li><span>Cambios en los h&#225;bitos alimenticios (notificados solo en ni&#241;os de 2 a &#60; 6 a&#241;os)</span></li>
-
       <li><span>Fiebre (&#62; 38 &#176;C)</span></li>
     </ul>
 
@@ -330,17 +296,13 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
     <p><span>La fiebre fue infrecuente en adultos y ancianos</span></p>
 
-    
+    <p><span>Frecuencia no conocida (no puede estimarse a partir de los datos disponibles):</span></p>
 
-    <p><span>Frecuencia no conocida</span> <span>(no puede estimarse a partir de los datos disponibles):</span></p>
-
-    <ul >
-      <li><span>Sensaci&#243;n de hormigueo y</span> <span>entumecimiento (parestesia)</span></li>
+    <ul>
+      <li><span>Sensaci&#243;n de hormigueo y entumecimiento (parestesia)</span></li>
 
       <li><span>Reacciones cut&#225;neas generalizadas incluyendo picor, ampollas en la piel (prurito, urticaria) o erupci&#243;n cut&#225;nea inespec&#237;fica</span></li>
     </ul>
-
-    
 
     <p><strong><span>Comunicaci&#243;n de efectos adversos</span></strong></p>
 
@@ -355,21 +317,10 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
   * text.status = #additional
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><span>Mantener este medicamento fuera de la vista y del alcance de los ni&#241;os.</span></p>
-
-    
-
     <p><span>Conservar en nevera (entre 2 &#176;C y 8 &#176;C). No congelar.</span></p>
-
     <p><span>Mantener la jeringa precargada en el embalaje exterior para protegerla de la luz.</span></p>
-
-    
-
     <p><span>No utilice esta vacuna despu&#233;s de la fecha de caducidad que aparece en la etiqueta y en la caja despu&#233;s de EXP/CAD. La fecha de caducidad es el &#250;ltimo d&#237;a del mes que se indica.</span></p>
-
-    
-
     <p><span>Los medicamentos no se deben tirar por los desag&#252;es ni a la basura. Pregunte a su farmac&#233;utico c&#243;mo deshacerse de los envases y de los medicamentos que ya no necesita. De esta forma, ayudar&#225; a proteger el medio ambiente.</span></p>
-
             </div>"""
 
       
@@ -385,53 +336,25 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
     <p><strong><span>Composici&#243;n de Flucelvax Tetra</span></strong></p>
 
-    
-
-    <ul >
+    <ul>
       <li><span>Los principios activos son ant&#237;genos de superficie del virus de la gripe (hemaglutinina y neuraminidasa), inactivados, de las siguientes cepas*:</span></li>
     </ul>
-
-    
-
     <p><a name="_Hlk66283421"></a><a name="_Hlk66283267"><span>Cepa similar a</span> <span>A/Wisconsin/67/2022 (H1N1)pdm09</span> <span>(A/Georgia/12/2022 CVR-167)</span></a></p>
-
     <p><span>15 microgramos HA**</span></p>
-
     <p><a name="_Hlk66283440"></a><a name="_Hlk66283292"><span>Cepa similar a</span> <span>A/Darwin/6/2021 (H3N2)</span> <span>(A/Darwin/11/2021, wild type)</span></a></p>
-
     <p><span>15 microgramos HA**</span></p>
-
     <p><span>Cepa similar a B/Austria/1359417/2021</span> <span>(</span><span>Singapore/WUH4618/2021</span><span>, wild type</span><span>)</span> <span>15 microgramos HA**</span></p>
-
     <p><span>Cepa similar a B/Phuket/3073/2013 (B/Singapore/INFTT-16-0610/2016, wild type)</span></p>
-
     <p><span>15 microgramos HA**</span></p>
-
-    
-
     <p><span>por dosis de 0,5 ml</span></p>
-
     <p><span>&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.</span></p>
-
     <p><span>*</span><span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span> <span>propagadas en c&#233;lulas Madin Darby Canine Kidney (MDCK) (se trata de un cultivo celular especial en el que crece el virus de la gripe)</span></p>
-
     <p><span>** hemaglutinina</span></p>
-
-    
-
     <p><span>Esta vacuna cumple con la recomendaci&#243;n de la Organizaci&#243;n Mundial de la Salud (OMS) (hemisferio norte) y con la recomendaci&#243;n de la UE para la CAMPA&#209;A 2023/2024.</span></p>
-
-    
-
-    <ul >
+    <ul>
       <li><span>Los dem&#225;s componentes son: cloruro de sodio, cloruro de potasio, cloruro de magnesio hexahidrato, fosfato dis&#243;dico dihidrato, dihidrogenofosfato de potasio y agua para preparaciones inyectables.</span></li>
     </ul>
-
-    
-
     <p><strong><span>Aspecto del producto y contenido del envase</span></strong></p>
-
-    
 
     <p><span>Flucelvax Tetra es una suspensi&#243;n inyectable en jeringa precargada (jeringa lista para usar). Flucelvax Tetra es una suspensi&#243;n de transparente a ligeramente opalescente.</span></p>
 
@@ -443,8 +366,6 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
     <p><span>Puede que solamente est&#233;n comercializados algunos tama&#241;os de envases.</span></p>
 
-    
-
     <p><strong><span>Titular de la autorizaci&#243;n de comercializaci&#243;n y responsable de la fabricaci&#243;n</span></strong></p>
 
     <p><span>Seqirus Netherlands B.V.</span></p>
@@ -455,43 +376,22 @@ Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)"
 
     <p><span>Pa&#237;ses Bajos</span></p>
 
-    
-
     <p><span>Pueden solicitar m&#225;s informaci&#243;n respecto a este medicamento dirigi&#233;ndose al representante local del titular de la autorizaci&#243;n de comercializaci&#243;n:</span></p>
-
-    
 
     <p><span>Seqirus Spain, S.L., Barcelona</span></p>
 
     <p><span>Tel: 937 817 884</span></p>
 
-    
-
     <p><strong><span>Fecha de la &#250;ltima revisi&#243;n de este prospecto: 07/2023</span></strong></p>
 
-    
-
-    
-
     <p><strong><span>Otras fuentes de informaci&#243;n</span></strong></p>
-
-    
-
     <p><span>La informaci&#243;n detallada de este medicamento est&#225; disponible en la p&#225;gina web de la Agencia Europea de Medicamentos:</span> <a href="http://www.ema.europa.eu/"><span>http://www.ema.europa.eu/.</span></a></p>
 
-    
-
-    <p><span>------------------------------------------------------------------------------------------------------------- Esta informaci&#243;n est&#225; destinada &#250;nicamente a profesionales del sector sanitario:</span></p>
-
-    
+    <p><span> Esta informaci&#243;n est&#225; destinada &#250;nicamente a profesionales del sector sanitario:</span></p>
 
     <p><span>Debe estar siempre f&#225;cilmente disponible el tratamiento m&#233;dico y la supervisi&#243;n apropiados en caso de un episodio anafil&#225;ctico, que puede aparecer raramente despu&#233;s de administrar la vacuna.</span></p>
 
-    
-
     <p><span>Agitar antes de usar. Despu&#233;s de agitar, el aspecto normal de la vacuna es una suspensi&#243;n de transparente a ligeramente opalescente.</span></p>
-
-    
 
     <p><span>Se debe inspeccionar visualmente la vacuna en busca de part&#237;culas extra&#241;as o cambios de color antes de la administraci&#243;n. Si se observan part&#237;culas extra&#241;as y/o cualquier variaci&#243;n del aspecto f&#237;sico, no administre la vacuna.</span></p>
 </div>"""

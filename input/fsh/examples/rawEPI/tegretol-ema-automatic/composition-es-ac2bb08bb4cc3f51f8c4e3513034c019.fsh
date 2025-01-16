@@ -124,7 +124,6 @@ Usage: #inline
 
     <p><span >El riesgo de reacciones cutáneas graves en pacientes de origen chinos Han o tailandés relacionado con carbamazepina o compuestos químicamente relacionados puede predecirse por medio de un análisis de sangre de estos pacientes. Su médico debe indicarle si necesita que se haga estos análisis antes de tomar Tegretol.</span></p>
 
-    <p><span ></span></p>
 
     <p><strong><span >No tome Tegretol:</span></strong></p>
 
@@ -140,11 +139,9 @@ Usage: #inline
       <li><span >Si está tomando medicamentos pertenecientes a un grupo especial de antidepresivos llamados inhibidores de la monoamino-oxidasa (IMAOs).</span></li>
     </ul>
 
-    <p><span ></span></p>
 
-    <p><span >Si se encuentra en alguna de estas situaciones, consulte a su médico antes de tomar Tegretol. Si piensa que puede ser alérgico, consulte a su médico.</span></p>
+    <p><span>Si se encuentra en alguna de estas situaciones, consulte a su médico antes de tomar Tegretol. Si piensa que puede ser alérgico, consulte a su médico.</span></p>
 
-    <p><span ></span></p>
 
     <p><strong><span >Advertencias y precauciones</span></strong></p>
 
@@ -168,22 +165,17 @@ Usage: #inline
       <li><span >Informe a su médico si usted está embarazada o tiene intención de quedarse embarazada. Su médico le informará sobre el riesgo potencial de tomar Tegretol durante el embarazo ya que puede producir daños o anormalidades en el feto. Existe riesgo de daños para el feto si se utiliza Tegretol durante el embarazo. Las mujeres en edad fértil deben utilizar un método anticonceptivo eficaz durante el tratamiento con Tegretol y durante dos semanas después de la última dosis (ver sección embarazo, lactancia y fertilidad).</span></li>
     </ul>
 
-    <p><span ></span></p>
-
-    <p><span ></span></p>
 
     <p><span >Si se encuentra con alguna de las siguientes situaciones, consulte inmediatamente con su médico:</span></p>
-
-    <p><span ></span></p>
 
     <ul>
       <li><span >En caso de aparición de fiebre, dolor de garganta, erupción en la piel, úlceras en la boca, magulladuras de forma fácil y sin motivo aparente o manchas violáceas en la piel (ver Sección 4 “Posibles efectos adversos”).</span></li>
     </ul>
 
-    <p><span >Es muy importante que el médico controle el tratamiento en visitas periódicas y, le haga análisis de sangre y orina al principio del tratamiento y de forma regular a lo largo del mismo para descartar la aparición de alteraciones de la sangre y de la función de su hígado y riñón, y también en algunas ocasiones para controlar la dosis de Tegretol más adecuada.</span></p>
+    <p><span>Es muy importante que el médico controle el tratamiento en visitas periódicas y, le haga análisis de sangre y orina al principio del tratamiento y de forma regular a lo largo del mismo para descartar la aparición de alteraciones de la sangre y de la función de su hígado y riñón, y también en algunas ocasiones para controlar la dosis de Tegretol más adecuada.</span></p>
 
     <ul>
-      <li><span >Se han descrito erupciones cutáneas que pueden amenazar la vida del paciente (síndrome de Stevens Johnson y necrólisis epidérmica tóxica) con el uso de Tegretol, inicialmente aparecen como puntos o machas circulares rojizas, a menudo con una ampolla central. Otros signos adicionales que pueden aparecer son llagas en la boca, garganta, nariz, genitales y conjuntivitis (ojos hinchados y rojos). Estas erupciones en la piel que pueden amenazar la vida del paciente, a menudo van acompañadas de síntomas de gripe. La erupción puede progresar a la formación de ampollas generalizadas o descamación de la piel. El periodo de mayor riesgo de aparición de reacciones cutáneas graves es durante los primeros meses de tratamiento con Tegretol.</span> <span >Si aparece una reacción en la piel como erupción, enrojecimiento, ampollas en labios, ojos o boca o descamación acompañada de fiebre, deje de tomar Tegretol e informe inmediatamente a su médico. Estas reacciones pueden ser más frecuentes en pacientes de países asiáticos (p. ej. Taiwán, Malasia y Filipinas). Pueden aparecer raramente efectos adversos graves en piel mientras esté en tratamiento con Tegretol. Las personas de origen chino y tailandés se les puede estimar el riesgo con un análisis de sangre. Si es de dicha procedencia, hable de ello con su médico antes de tomar Tegretol.</span> <span >Si usted ha desarrollado síndrome de Steve Johnson o necrólisis epidérmica tóxica con el uso de Tegretol, no debe utilizar Tegretol de nuevo en ningún momento.</span></li>
+      <li><span>Se han descrito erupciones cutáneas que pueden amenazar la vida del paciente (síndrome de Stevens Johnson y necrólisis epidérmica tóxica) con el uso de Tegretol, inicialmente aparecen como puntos o machas circulares rojizas, a menudo con una ampolla central. Otros signos adicionales que pueden aparecer son llagas en la boca, garganta, nariz, genitales y conjuntivitis (ojos hinchados y rojos). Estas erupciones en la piel que pueden amenazar la vida del paciente, a menudo van acompañadas de síntomas de gripe. La erupción puede progresar a la formación de ampollas generalizadas o descamación de la piel. El periodo de mayor riesgo de aparición de reacciones cutáneas graves es durante los primeros meses de tratamiento con Tegretol.</span> <span >Si aparece una reacción en la piel como erupción, enrojecimiento, ampollas en labios, ojos o boca o descamación acompañada de fiebre, deje de tomar Tegretol e informe inmediatamente a su médico. Estas reacciones pueden ser más frecuentes en pacientes de países asiáticos (p. ej. Taiwán, Malasia y Filipinas). Pueden aparecer raramente efectos adversos graves en piel mientras esté en tratamiento con Tegretol. Las personas de origen chino y tailandés se les puede estimar el riesgo con un análisis de sangre. Si es de dicha procedencia, hable de ello con su médico antes de tomar Tegretol.</span> <span >Si usted ha desarrollado síndrome de Steve Johnson o necrólisis epidérmica tóxica con el uso de Tegretol, no debe utilizar Tegretol de nuevo en ningún momento.</span></li>
     </ul>
 
     <ul>
@@ -200,29 +192,22 @@ Usage: #inline
       <li><span >Si experimenta mareos, somnolencia, disminución de la presión sanguínea, confusión, sedación y ataxia a causa de del tratamiento con Tegretol, ya que puede producir que se caiga.</span></li>
     </ul>
 
-    <p><span ></span></p>
 
     <p><span >No interrumpa el tratamiento con Tegretol sin antes consultar con su médico. Para prevenir un empeoramiento de las crisis epilépticas, no discontinúe el tratamiento bruscamente.</span></p>
 
-    <p><span ></span></p>
 
     <p><span >Antes de cualquier intervención quirúrgica, incluso dental o en un tratamiento de emergencia, comunique al médico que le atiende que está tomando Tegretol.</span></p>
 
-    <p><strong><span ></span></strong></p>
-
-    <p><span ></span></p>
 
     <p><strong><span >Uso en ancianos</span></strong></p>
 
     <p><span >Tegretol se puede emplear de forma segura en pacientes de edad avanzada ateniéndose a las instrucciones del médico. Si es necesario se dará información especial sobre dosificación y medidas a tener en cuenta (ver también Sección 3 “Cómo tomar Tegretol” y Sección 4 “Posibles efectos adversos”).</span></p>
 
-    <p><strong><span ></span></strong></p>
 
     <p><strong><span >Uso en niños</span></strong></p>
 
     <p><span >Tegretol se puede emplear de forma segura en niños ateniéndose a las instrucciones del médico. Si es necesario se dará información especial sobre dosificación y medidas a tener en cuenta (ver también Sección 3 “Cómo tomar Tegretol” y Sección 4 “Posibles efectos adversos”).</span></p>
 
-    <p><span ></span></p>
 
     <p><strong><span >Otros medicamentos y Tegretol</span></strong></p>
 
@@ -234,7 +219,6 @@ Usage: #inline
 
     <p><span >Tegretol puede afectar al funcionamiento de los anticonceptivos hormonales, haciendo que sean menos eficaces para prevenir el embarazo. Consulte a su médico, quien le explicará el tipo de anticonceptivo más adecuado que puede usar mientras esté tomando Tegretol.</span></p>
 
-    <p><strong><span ></span></strong></p>
 
     <p><strong><span >Uso de Tegretol con alimentos y bebidas</span></strong></p>
 
@@ -244,17 +228,15 @@ Usage: #inline
 
     <p><span >No beba zumo de pomelo ni coma pomelo ya que puede incrementar el efecto de Tegretol. Otros zumos, como el de naranja o de manzana, no tienen este efecto</span></p>
 
-    <p><strong><span ></span></strong></p>
 
     <p><strong><span >Embarazo, lactancia y fertilidad</span></strong></p>
 
-    <p><span ></span></p>
 
-    <p><u><span >Embarazo</span></u> <a name="_Hlk90458730"><u><span >y mujeres en edad fértil</span></u></a></p>
+    <p><u><span >Embarazo</span></u> <a><u><span >y mujeres en edad fértil</span></u></a></p>
 
     <p><span >Si está embarazada o en periodo de lactancia, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte</span> <span >a su médico o farmacéutico antes de utilizar este medicamento.</span> <span >Si bien la epilepsia ya conlleva un riesgo de trastornos del desarrollo en su descendencia, incluyendo malformaciones congénitas, mayor que en la población general, los diferentes tratamientos disponibles pueden aumentar en general este riesgo. En concreto para carbamazepina existe la posibilidad de que aumente el riesgo de espina bífida, malformaciones en el cráneo y en la cara, cardiovasculares y en el sistema urinario, además del posible síndrome de abstinencia al tratamiento que se puede presentar en el recién nacido.</span></p>
 
-    <p><a name="_Hlk90458755"><span ></span></a></p>
+    <p><a><span ></span></a></p>
 
     <p><span >Tegretol puede causar defectos congénitos importantes. Si toma Tegretol durante el embarazo, su bebé tendrá un riesgo hasta 3 veces mayor de padecer un defecto congénito en comparación con las mujeres que no toman un fármaco antiepiléptico. Se han notificado defectos congénitos importantes, como defectos del tubo neural (abertura en la columna vertebral), defectos congénitos de la cara, como labio leporino o fisura palatina, defectos congénitos de la cabeza, defectos cardíacos, defectos congénitos del pene relacionados con la abertura de la vía urinaria (hipospadias) y defectos en los dedos. Si ha tomado Tegretol durante el embarazo, se deberá vigilar de cerca al feto.</span></p>
 
@@ -268,7 +250,6 @@ Usage: #inline
 
     <p><span >Si toma Tegretol durante el embarazo, el bebé también tiene riesgo de sufrir problemas hemorrágicos justo después de nacer. Su médico puede administrarle a usted y al bebé un medicamento para prevenir esto</span><span >.</span></p>
 
-    <p><span ></span></p>
 
     <p><span >Por lo tanto, le aconsejamos:</span></p>
 
@@ -280,7 +261,6 @@ Usage: #inline
 
     <p><span >En estas situaciones, es posible que el médico le recete un tratamiento suplementario con ácido fólico antes y durante el embarazo y vitamina K1 en las últimas semanas del mismo (en este último caso también al recién nacido). Además, el embarazo será controlado de forma más estrecha.</span></p>
 
-    <p><span ></span></p>
 
     <p><u><span >Lactancia</span></u></p>
 
@@ -288,13 +268,11 @@ Usage: #inline
 
     <p><span >La sustancia activa que contiene Tegretol pasa a la leche materna. Mientras su médico esté de acuerdo y el niño esté controlado en cuanto a la aparición de efectos secundarios, usted puede dar de mamar. Sin embargo, si aparecen efectos adversos en el lactante, p.ej. somnolencia o erupciones en la piel, interrumpa la lactancia y consulte con su médico.</span></p>
 
-    <p><strong><em><span ></span></em></strong></p>
 
     <p><strong><span>Conducción y uso de máquinas</span></strong></p>
 
     <p><span >Tegretol puede provocar somnolencia, mareos o visión borrosa,</span> <span >visión doble o falta de coordinación muscular</span> <span >especialmente al iniciar el tratamiento o al aumentar la dosis</span> <span >y disminuir la capacidad de reacción. Estos efectos así como la propia enfermedad pueden dificultar su capacidad para conducir vehículos o manejar máquinas. Por lo tanto no conduzca, ni maneje máquinas, ni practique otras actividades que requieran especial atención, hasta que su médico valore su respuesta a este medicamento</span><span >.</span></p>
 
-    <p><span ></span></p>
 
     <p><strong><span >Tegretol contiene sodio</span></strong></p>
 
@@ -391,9 +369,7 @@ Usage: #inline
       <li><span >si padece dolor intenso en la parte alta del abdomen, vómitos, pérdida de apetito (signos de pancreatitis)</span></li>
 
       <li><span >si presenta erupción cutánea, enrojecimiento de la piel, ampollas en los labios, boca u ojos, descamación de piel, acompañado de fiebre, escalofríos, dolor de cabeza, tos o dolor en el cuerpo (signos de reacciones graves en la piel). Ver sección 2</span></li>
-    </ul>
 
-    <ul>
       <li><span >si padece hinchazón en la cara, ojos, o lengua, dificultad para tragar, jadeos, urticaria y picor generalizado, erupción cutánea, fiebre, calambres abdominales, molestias u opresión en el pecho, dificultad para respirar, inconsciencia (signos de angioedema y de reacciones alérgicas graves)</span></li>
 
       <li><span >si presenta letargia, confusión, tics musculares o empeoramiento significativo de las convulsiones (signos que pueden estar asociados a niveles bajos de sodio en la sangre)</span></li>
@@ -411,7 +387,6 @@ Usage: #inline
       <li><span >si experimenta una caída causada por mareos, somnolencia, descenso de la presión arterial, confusión</span></li>
     </ul>
 
-    <p><span ></span></p>
 
     <p><strong><span >Otros efectos adversos</span></strong></p>
 
@@ -437,15 +412,10 @@ Usage: #inline
 
     <p><em><span >Efectos adversos de frecuencia no conocida (no puede estimarse a partir de los datos disponibles):</span></em> <span >reactivación de la infección del virus del herpes (puede ser grave con el sistema inmunitario deprimido), pérdida completa de las uñas, fractura de huesos, disminución de la densidad ósea, sedación</span><span >, pérdida de memoria, pápulas de color morado o granate que pueden producir picor,</span> <a name="_Hlk90459140"><span >niveles elevados de amoniaco en sangre (hiperamonemia). Los síntomas de hiperamonemia pueden consistir en irritabilidad, confusión, vómitos, pérdida del apetito y somnolencia</span></a><span >.</span></p>
 
-    <p><span ></span></p>
-
-    <p><span ></span></p>
-
     <p><strong><span >Comunicación de efectos adversos</span></strong></p>
 
     <p><span >Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del</span> <span >Sistema Español de Farmacovigilancia de medicamentos de Uso Humano</span><span >:</span> <a href="https://www.notificaRAM.es"><u><span>https://www.notificaRAM.es</span></u></a><span >.</span> <span >Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</span></p>
 
-    <p><span ></span></p>
   </div>         </div>"""
 
       
@@ -459,21 +429,17 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <div>
     <p><span >Mantener</span> <span >este medicamento</span> <span >fuera de la vista y del alcance de los niños</span><span >.</span></p>
 
-    <p><span ></span></p>
 
     <p><span >Conservar por debajo de 25ºC.</span></p>
 
     <p><span >Conservar en el embalaje original para protegerlo de la humedad.</span></p>
 
-    <p><span ></span></p>
 
     <p><span >No utilice</span> <span >este medicamento</span> <span >después de la fecha de caducidad que aparece en el</span> <span >envase</span> <span >después de CAD. La fecha de caducidad es el último día del mes que se indica.</span></p>
 
-    <p><span ></span></p>
 
     <p><span >No utilice</span> <span >este medicamento</span> <span >si observa</span> <span >que el envase está dañado o muestra signos de manipulación.</span></p>
 
-    <p><span ></span></p>
 
     <p><span >Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesita en el Punto SIGRE</span>  <span >de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma, ayudará a proteger el medio ambiente.</span></p>
   </div>         </div>"""

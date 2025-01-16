@@ -42,9 +42,22 @@ RuleSet: bdfe699962879d1b1d2adb6ccf20a5cbListRuleset
 
 
 
+* entry[+]
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438) // Calcio/Vitamina D3 R en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  //* item.extension[=].valueCoding = $100000072057#100000072147 "English"
+  * item.extension[=].valueCoding = $100000072057#en "en"
+
+
+
 
 //39.955
-//[('bundlepackageleaflet-es-proc-2f37d696067eeb6daf1111cfc3272672', 'es')]
+//[('bundlepackageleaflet-es-proc-2f37d696067eeb6daf1111cfc3272672', 'es'), ('bundlepackageleaflet-en-proc-2f37d696067eeb6daf1111cfc3272672', 'en')]
 
 //himss-ibuprofen
 //[('bundle-ibu-proc', 'en')]
@@ -61,8 +74,11 @@ RuleSet: bdfe699962879d1b1d2adb6ccf20a5cbListRuleset
 //himss-novorapid
 //[('bundle-novo-proc', 'en')]
 
+//EU/1/98/071/004
+//[('bundlepackageleaflet-en-proc-4fab126d28f65a1084e7b50a23200363', 'en'), ('bundlepackageleaflet-es-proc-4fab126d28f65a1084e7b50a23200363', 'es')]
+
 //68290
-//[('processedbundlekarveacalcium', 'es')]
+//[('processedbundlekarveacalcium', 'es'), ('processed-en-bundlekarveacalcium', 'en')]
 
 * entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#02
@@ -76,6 +92,21 @@ RuleSet: bdfe699962879d1b1d2adb6ccf20a5cbListRuleset
   * item.extension[=].valueCoding = $100000072057#es "es"
 
 
+* entry[+]
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#02
+  * flag.text = "preprocessed"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(processed-en-bundlekarveacalcium)
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+ // * item.extension[=].valueCoding = $100000072057#100000072147 "English"
+  * item.extension[=].valueCoding = $100000072057#en "en"
+
+
+
+//79963
+//[('processedbundlehypericum', 'es'), ('processed-en-bundlehypericum', 'en')]
 
 //himss-metformin
 //[('bundle-met-proc', 'en')]
@@ -83,11 +114,11 @@ RuleSet: bdfe699962879d1b1d2adb6ccf20a5cbListRuleset
 //EU/1/97/049/001
 //[('Processedbundlekarvea', 'en'), ('bundle-processed-pt-2d49ae46735143c1323423b7aea24165', 'pt')]
 
-//EU/1/98/071/004
-//[('bundlepackageleaflet-es-proc-4fab126d28f65a1084e7b50a23200363', 'es')]
+//EU/1/96/007/035
+//[('bundlepackageleaflet-es-proc-da0fc2395ce219262dfd4f0c9a9f72e1', 'es')]
 
-//79963
-//[('processedbundlehypericum', 'es')]
+//x
+//[('bundlepackageleaflet-es-proc-e762a2f54b0b24fca4744b1bb7524a5b', 'es')]
 
 
 

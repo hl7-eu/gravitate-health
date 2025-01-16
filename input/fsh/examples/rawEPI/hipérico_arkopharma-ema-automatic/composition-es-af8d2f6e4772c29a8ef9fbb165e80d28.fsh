@@ -15,6 +15,8 @@ Usage: #inline
 * subject = Reference(mpaf8d2f6e4772c29a8ef9fbb165e80d28)
 * date = "2022-02-16T13:28:17Z"
 
+ 
+
  // Reference to Organization: MAH
 * author = Reference(mah-c2a5378488511eaedce26dde272c2290)
 
@@ -131,11 +133,11 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
     <p><strong><span>No tome HIPÉRICO ARKOPHARMA</span></strong></p>
     <ul>
-      <li> <span>Si es menor de 18 años.</span></li>
-      <li> <span>Si usted está embarazada o en periodo de lactancia.</span></li>
-      <li> <span>Si es alérgico a</span> <em><span>Hypericum perforatum</span></em> <span>L. o a cualquiera de los componentes del medicamento.</span></li>
-      <li> <span>Si va a someterse a alguna intervención quirúrgica que requiera tratamiento con otros medicamentos.</span></li>
-      <li> <span>Si usted está en tratamiento con alguno de los medicamentos indicados en este prospecto. Algunos componentes del hipérico (</span><em><span>Hypericum perforatum</span></em> <span>L.) pueden producir interacciones farmacocinéticas con gran número de medicamentos, ocasionando un posible descenso de su efectividad; (ver la información sobre la toma de otros medicamentos).</span></li>
+      <li><span>Si es menor de 18 años.</span></li>
+      <li><span>Si usted está embarazada o en periodo de lactancia.</span></li>
+      <li><span>Si es alérgico a</span> <em><span>Hypericum perforatum</span></em> <span>L. o a cualquiera de los componentes del medicamento.</span></li>
+      <li><span>Si va a someterse a alguna intervención quirúrgica que requiera tratamiento con otros medicamentos.</span></li>
+      <li><span>Si usted está en tratamiento con alguno de los medicamentos indicados en este prospecto. Algunos componentes del hipérico (</span><em><span>Hypericum perforatum</span></em> <span>L.) pueden producir interacciones farmacocinéticas con gran número de medicamentos, ocasionando un posible descenso de su efectividad; (ver la información sobre la toma de otros medicamentos).</span></li>
     </ul>
     <p><strong><span>Advertencias y precauciones</span></strong></p>
     <p><span>Consulte a su farmacéutico, médico o enfermero antes de empezar a tomar HIPÉRICO ARKOPHARMA.</span></p>
@@ -163,6 +165,7 @@ Usage: #inline
     </ul>
     <p><span>Para mayor información, consulte la siguiente lista:</span></p>
     <p><span>No tome este medicamento si usted está en tratamiento con cualquier medicamento de los indicados en este listado:</span></p>
+
 <ul>
 <li>Agonistas 5HT (Triptanes): tales como almotriptan, eleptriptan, frovatriptan, naratriptan, rizatriptan, sumatriptan, zolmitriptan;</li>
 <li>Analgésicos: tales como tramadol;</li>

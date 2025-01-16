@@ -70,6 +70,16 @@ RuleSet: 38fbd67f0d3e64f32230141d1621df57ListRuleset
  // * item.extension[=].valueCoding = $100000072057#100000072264 "Spanish"
   * item.extension[=].valueCoding = $100000072057#es "es"
 
+* entry[+]
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#02
+  * flag.text = "preprocessed"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-proc-2f37d696067eeb6daf1111cfc3272672)
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+ // * item.extension[=].valueCoding = $100000072057#100000072264 "Spanish"
+  * item.extension[=].valueCoding = $100000072057#en "en"
 
 
 //himss-ibuprofen

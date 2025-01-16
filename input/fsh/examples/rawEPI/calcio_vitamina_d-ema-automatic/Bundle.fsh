@@ -7,6 +7,9 @@ RuleSet: bdfe699962879d1b1d2adb6ccf20a5cbBundleRuleset
  
 
 
+ 
+
+
 // Ingredient
 * entry[+].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-calciovitaminad-calciumcarbonate"
 * entry[=].resource = ingredient-for-calciovitaminad-calciumcarbonate 
@@ -108,6 +111,9 @@ RuleSet: bdfe699962879d1b1d2adb6ccf20a5cbBundleRuleset
  
 
 
+ 
+
+
 
 
 
@@ -133,5 +139,34 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-d4bcbbaec04bf6aceb2f71162205967e"
 * entry[0].resource = composition-es-d4bcbbaec04bf6aceb2f71162205967e
+
+* insert bdfe699962879d1b1d2adb6ccf20a5cbBundleRuleset
+
+
+
+
+
+Instance: bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes Package Leaflet for language en"
+Description: "ePI document Bundle for Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "68290"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+
+
+
+
+// Composition
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-d4bcbbaec04bf6aceb2f71162205967e"
+* entry[0].resource = composition-en-d4bcbbaec04bf6aceb2f71162205967e
 
 * insert bdfe699962879d1b1d2adb6ccf20a5cbBundleRuleset

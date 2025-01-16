@@ -79,6 +79,9 @@ RuleSet: 2e9b255d9b94b05d362748d5716e558cBundleRuleset
  
 
 
+ 
+
+
 
 
 
@@ -104,5 +107,34 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-af8d2f6e4772c29a8ef9fbb165e80d28"
 * entry[0].resource = composition-es-af8d2f6e4772c29a8ef9fbb165e80d28
+
+* insert 2e9b255d9b94b05d362748d5716e558cBundleRuleset
+
+
+
+
+
+Instance: bundlepackageleaflet-en-29436a85dac3ea374adb3fa64cfd2578
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet for language en"
+Description: "ePI document Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "79963"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+
+
+
+
+// Composition
+* entry[0].fullUrl = "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-af8d2f6e4772c29a8ef9fbb165e80d28"
+* entry[0].resource = composition-en-af8d2f6e4772c29a8ef9fbb165e80d28
 
 * insert 2e9b255d9b94b05d362748d5716e558cBundleRuleset
