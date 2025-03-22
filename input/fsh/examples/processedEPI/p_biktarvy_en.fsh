@@ -115,6 +115,15 @@ Usage: #inline
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "contra-indication-carbamazepine"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = $ginas#33CM23913M "CARBAMAZEPINE"
+
+
+
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "hepatitisB"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#66071002 "Viral hepatitis type B (disorder)"
@@ -264,7 +273,7 @@ blood levels.</p>
 <p><strong>Medicines that must never be taken with Biktarvy:</strong></p>
 <ul>
 <li>rifampicin used to treat some bacterial infections such as tuberculosis</li>
-<li>St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and anxiety, or
+<li class="contra-indication-hypericum">St. John’s wort (Hypericum perforatum), a herbal remedy used for depression and anxiety, or
 products that contain it.</li>
 <li>If you are taking any of these medicines, do not take Biktarvy and tell your doctor immediately.</li>
 </ul>
@@ -280,7 +289,7 @@ alafenamide, or tenofovir disoproxil</li>
 </ul>
 </li>
 <li>anticonvulsants used to treat epilepsy, containing:<ul>
-<li>carbamazepine, oxcarbazepine, phenobarbital or phenytoin</li>
+<li class="contra-indication-carbamazepine">carbamazepine, oxcarbazepine, phenobarbital or phenytoin</li>
 </ul>
 </li>
 <li>immunosuppressants used to control your body’s immune response after a transplant,

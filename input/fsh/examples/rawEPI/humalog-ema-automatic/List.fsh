@@ -57,7 +57,7 @@ RuleSet: 35570a7ffa4ad1ddf8a920b1728d4cd2ListRuleset
 
 
 //39.955
-//[('bundlepackageleaflet-es-proc-2f37d696067eeb6daf1111cfc3272672', 'es')]
+//[('bundlepackageleaflet-es-proc-2f37d696067eeb6daf1111cfc3272672', 'es'), ('bundlepackageleaflet-en-proc-2f37d696067eeb6daf1111cfc3272672', 'en')]
 
 //himss-ibuprofen
 //[('bundle-ibu-proc', 'en')]
@@ -74,8 +74,14 @@ RuleSet: 35570a7ffa4ad1ddf8a920b1728d4cd2ListRuleset
 //himss-novorapid
 //[('bundle-novo-proc', 'en')]
 
+//EU/1/98/071/004
+//[('bundlepackageleaflet-en-proc-4fab126d28f65a1084e7b50a23200363', 'en'), ('bundlepackageleaflet-es-proc-4fab126d28f65a1084e7b50a23200363', 'es')]
+
 //68290
-//[('processedbundlekarveacalcium', 'es')]
+//[('processedbundlekarveacalcium', 'es'), ('processed-en-bundlekarveacalcium', 'en')]
+
+//79963
+//[('processedbundlehypericum', 'es'), ('processed-en-bundlehypericum', 'en')]
 
 //himss-metformin
 //[('bundle-met-proc', 'en')]
@@ -83,11 +89,11 @@ RuleSet: 35570a7ffa4ad1ddf8a920b1728d4cd2ListRuleset
 //EU/1/97/049/001
 //[('Processedbundlekarvea', 'en'), ('bundle-processed-pt-2d49ae46735143c1323423b7aea24165', 'pt')]
 
-//EU/1/98/071/004
-//[('bundlepackageleaflet-es-proc-4fab126d28f65a1084e7b50a23200363', 'es')]
+//EU/1/96/007/035
+//[('bundlepackageleaflet-es-proc-da0fc2395ce219262dfd4f0c9a9f72e1', 'es')]
 
-//79963
-//[('processedbundlehypericum', 'es')]
+//x
+//[('bundlepackageleaflet-es-proc-e762a2f54b0b24fca4744b1bb7524a5b', 'es')]
 
 
 

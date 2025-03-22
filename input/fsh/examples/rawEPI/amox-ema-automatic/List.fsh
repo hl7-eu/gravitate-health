@@ -40,6 +40,19 @@ RuleSet: 2d6b74860092f2b27363e070e7cc20eaListRuleset
   //* item.extension[=].valueCoding = $100000072057#100000072147 "English"
   * item.extension[=].valueCoding = $100000072057#en "en"
 
+// just added to enable AI Summary - needs preprocessor
+* entry[+]
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#02
+  * flag.text = "preprocessed"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-b62cc095c7be2116a8a65157286376a3) // amoxicillin 250 mg t en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  //* item.extension[=].valueCoding = $100000072057#100000072147 "English"
+  * item.extension[=].valueCoding = $100000072057#en "en"
+
+
 
 
 

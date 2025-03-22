@@ -44,6 +44,19 @@ Usage: #inline
 * extension[=].extension[=].valueCodeableReference.concept.coding = https://icpc2.icd.com/#W78 "Pregnancy"
 * extension[=].extension[=].valueCodeableReference.concept.coding[+] = http://snomed.info/sct#69840006 "Normal breast feeding (finding)"
 
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "contra-indication-hypericum"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = $ginas#XK4IUX8MNB "Hypericum perforatum L."
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "contra-indication-biktarvy"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = https://spor.ema.europa.eu/rmswi/#P/EU/1/18/1289/001 "biktarvy"
+
+
 
 * section[+].
   * title = "B. Package Leaflet"
@@ -158,12 +171,12 @@ Usage: #inline
         <li>Drugs to treat schizophrenia (e.g. paliperidone, aripiprazole).</li>
         <li>Cancer drugs (e.g. temsirolimus, cyclophasphamide, lapatinib).</li>
         <li>The anti-malarial drug, mefloquine.</li>
-        <li>Drugs to treat HIV.</li>
+        <li class="contra-indication-biktarvy">Drugs to treat HIV.</li>
         <li>Levothyroxine (used to treat hypothyroidism).</li>
         <li>Tadalafil (used to treat impotence).</li>
         <li>Albendazole (used to treat worms).</li>
         <li>Bupropion (used to help stop smoking).</li>
-        <li>A herbal remedy called St John’s Wort or Hypericum.</li>
+        <li class="contra-indication-hypericum">A herbal remedy called St John’s Wort or Hypericum.</li>
         <li>Drugs or supplements containing Vitamin B (nicotinamide).</li>
     </ul>
     <h3 class="pregnancyCategory">Pregnancy, breastfeeding and fertility</h3>

@@ -392,3 +392,72 @@ Usage: #example
 
 
 * insert ibuprofen-ruleset
+
+
+
+
+
+
+RuleSet: 10daca0041c9b151561aea3f8524ae71ListRuleset-himms
+
+
+* identifier.system = "https://www.gravitatehealth.eu/sid/doc" 
+* identifier.value = "xx"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ibuprofen"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with ibuprofen"
+
+
+
+* subject = Reference(himss-ibuprofen-mpd)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ibuprofen "ibuprofen"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry[+]
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundle-ibu-raw) // Nurofen 100 mg Chewa en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  //* item.extension[=].valueCoding = $100000072057#100000072147 "English"
+  * item.extension[=].valueCoding = $100000072057#en "en"
+
+
+* entry[+]
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#02
+  * flag.text = "preprocessed"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundle-ibu-proc)
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+ // * item.extension[=].valueCoding = $100000072057#100000072147 "English"
+  * item.extension[=].valueCoding = $100000072057#en "en"
+
+
+
+
+
+
+
+
+
+Instance: List-e0d9ad275c19f6e91c9365529421d5a8-himms
+InstanceOf: List
+
+* insert 10daca0041c9b151561aea3f8524ae71ListRuleset-himms
