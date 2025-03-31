@@ -39,6 +39,11 @@ Usage: #inline
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = https://icpc2.icd.com/#W78 "Pregnancy"
 
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "contra-indication-biktarvy"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = https://gsrs.ncats.nih.gov/ginas/app/beta#8GB79LOJ07 "bictegravir"
 
 * section[+].
   * title = "B. Package Leaflet"
@@ -123,7 +128,7 @@ alimentary tract),</li>
 <li>Ciclosporin. Co-administration with ciclosporin is not recommended. Your doctor may need to monitor your ciclosporin blood levels more frequently than usual.</li>
 <li>Iodine salts and/or levothyroxine. Cases of hypothyroidism and/or reduced control of hypothyroidism may occur.</li>
 <li>Amiodarone. You may ask your doctor for advice.</li>
-<li>Medicines to treat HIV .</li>
+<li class="contra-indication-biktarvy">Medicines to treat HIV .</li>
 <li>Medicines for depression, psychiatric disorders or anxiousness</li>
 </ul>
 <p>Xenical reduces the absorption of supplements of some fat soluble nutrients, particularly beta-carotene and vitamin E. You should therefore follow your doctor’s advice in taking a well balanced diet rich in fruit and vegetables. Your doctor may suggest you take a multivitamin supplement.</p>

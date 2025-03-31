@@ -34,6 +34,14 @@ Usage: #inline
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#77386006 "Pregnancy"
 
 
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "contra-indication-biktarvy"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = https://gsrs.ncats.nih.gov/ginas/app/beta#8GB79LOJ07 "bictegravir"
+
+
+
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -83,7 +91,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Flucelvax Tetra is a vaccine against flu (influenza). Flucelvax Tetra is prepared in cell cultures, and, therefore, is egg-free. </p>
 <p>When a person is given the vaccine, the immune system (the body’s natural defence system) will produce its own protection against the influenza virus. None of the ingredients in the vaccine can cause flu.</p>
 <p>Flucelvax Tetra is used to prevent flu in adults and children from 2 years of age.</p>
-<p>The vaccine targets four strains of influenza virus following the recommendations by the World Health Organisation for the 2022/2023 SEASON.</p>         </div>"""   
+<p>The vaccine targets four strains of influenza virus following the recommendations by the World Health Organisation for the 2022/2023 SEASON.</p></div>"""   
           
 
              
@@ -92,7 +100,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take Flucelvax"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>You should not receive Flucelvax Tetra:</strong></p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p><strong>You should not receive Flucelvax Tetra:</strong></p>  
 <p>If you are allergic to:</p>
 <ul>
 <li>the active ingredients or any of the other ingredients of this medicine (listed in section 6)</li>
@@ -109,7 +117,7 @@ such as difficulty in breathing, dizziness, a weak and rapid pulse and skin rash
 administration. This reaction may occur with Flucelvax Tetra as with all vaccines that are injected.</li>
 <li>You should tell your doctor if you have an acute illness associated with fever. Your doctor may
 decide to delay your vaccination until your fever is gone.</li>
-<li>You should tell your doctor if your immune system is impaired, or if you are undergoing treatment
+<li class="contra-indication-biktarvy">You should tell your doctor if your immune system is impaired, or if you are undergoing treatment
 which affects the immune system, e.g. with medicine against cancer (chemotherapy) or
 corticosteroid medicines (see section “Other medicines and Flucelvax Tetra”).</li>
 <li>You should tell your doctor if you have a bleeding problem or bruise easily.</li>
@@ -125,8 +133,8 @@ Flucelvax Tetra may be given at the same time as other vaccines.</p>
 <p><strong>Pregnancy:</strong> </p>
 <p>Tell your doctor if you are pregnant, think you may be pregnant or are planning to have a baby. Influenza vaccines may be given in any trimester of pregnancy.</p>
 </div>
-<p><strong>Breast-feeding:</strong> </p>
-<p>Use of Flucelvax Tetra during breast-feeding has not been studied. Flucelvax Tetra may be given during breast-feeding.</p>
+<p class="pregnancyCategory"><strong>Breast-feeding:</strong> </p>
+<p class="pregnancyCategory">Use of Flucelvax Tetra during breast-feeding has not been studied. Flucelvax Tetra may be given during breast-feeding.</p>
 <p><strong>Driving and using machines</strong></p>
 <p>Flucelvax Tetra has no or negligible effect on your ability to drive and use machines.</p>
 <p><strong>Flucelvax Tetra contains sodium chloride and potassium chloride</strong> </p>

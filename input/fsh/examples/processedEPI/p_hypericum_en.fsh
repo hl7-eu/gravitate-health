@@ -34,6 +34,24 @@ Usage: #inline
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#77386006 "Pregnancy"
 
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "contra-indication-biktarvy"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = https://gsrs.ncats.nih.gov/ginas/app/beta#8GB79LOJ07 "bictegravir"
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "contra-indication-hypericum"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = $ginas#XK4IUX8MNB "Hypericum perforatum L."
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "contra-indication-carbamazepine"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = $ginas#33CM23913M "CARBAMAZEPINE"
+
 * section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -55,25 +73,15 @@ Usage: #inline
 <div>
 
     <p><strong><span>LEAFLET: INFORMATION FOR THE USER</span></strong></p>
-
    <p><strong><span>HYPERICUM ARKOPHARMA hard capsules</span></strong></p>
-
     <p><strong><em><span>Hypericum perforatum</span></em></strong> <strong><span>L.</span></strong></p>
-
     <p><strong><span>&#xa0;</span></strong></p>
-
     <p><strong><span>Read the entire leaflet carefully before you start taking this medicine, as it contains important information for you.</span></strong></p>
-
     <p><span>Follow the exact administration instructions contained in this leaflet or as directed by your pharmacist, doctor, or nurse.</span></p>
-
     <p><span>- Keep this leaflet, as you may need to read it again.</span></p>
-
     <p><span>- If you need advice or more information, consult your pharmacist.</span></p>
-
     <p><span>- If you experience adverse effects, consult your doctor, pharmacist, or nurse, even if they are not listed in this leaflet.</span></p>
-
     <p><span>- You should consult a doctor if your condition worsens or does not improve after 28 days of treatment.</span></p>
-
     <p><strong><span>&#xa0;</span></strong></p>
 
    
@@ -93,17 +101,11 @@ Usage: #inline
    
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
       <p><strong><span>Contents of the leaflet</span></strong></p>
-
     <p><strong><span>&#xa0;</span></strong></p>
-
     <p><span>1. What</span> <strong><span>HYPERICUM ARKOPHARMA</span></strong> <span>is and what it is used for</span></p>
-
     <p><span>2. What you need to know before you start taking</span> <strong><span>HYPERICUM ARKOPHARMA</span></strong></p>
-
     <p><span>3. How to take</span> <strong><span>HYPERICUM ARKOPHARMA</span></strong></p>
-
     <p><span>4. Possible side effects</span></p>
-
     <p><span>5. Storage of</span> <strong><span>HYPERICUM ARKOPHARMA</span></strong> <span>6. Package contents and additional information.</span></p>
         </div>"""
 
@@ -115,11 +117,8 @@ Usage: #inline
   * text.status = #additional   
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 <div>
-
     <p><span>Herbal medicine for the symptomatic treatment of low mood, lack of interest, fatigue, and sleep disturbances.</span></p>
-
     <p><span>You should consult a doctor if your condition worsens or does not improve after 28 days.</span></p>
-
   </div>
 </div>"""
 
@@ -152,7 +151,7 @@ Usage: #inline
     <p><span>Some components of hypericum (<em>Hypericum perforatum</em> L.) may reduce the therapeutic effects of other medicines when taken simultaneously. These include medicines recommended by your doctor and over-the-counter medications.</span></p>
     <p><span>Patients taking the following medicines should not start hypericum preparations without consulting their doctor or pharmacist:</span></p>
     <ul>
-      <li><span>For AIDS (antiretrovirals)</span></li>
+      <li><span class="contra-indication-biktarvy">For AIDS (antiretrovirals)</span></li>
       <li><span>For transplant rejection (cyclosporine)</span></li>
       <li><span>For epilepsy</span></li>
       <li><span>For the heart (digoxin)</span></li>
@@ -174,7 +173,7 @@ Usage: #inline
 <li>Antiarrhythmics: such as amiodarone; Antibiotics: such as erythromycin, clarithromycin, telithromycin;</li>
 <li>Anticoagulants: such as warfarin, acenocoumarol;</li>
 <li>Hormonal contraceptives: oral contraceptives, emergency hormonal contraceptives (morning-after pill), implants and hormonal injections, transdermal patches, intrauterine devices with hormones;</li>
-<li>Anticonvulsants (antiepileptics): such as carbamazepine, phenobarbital, phenytoin, primidone, sodium valproate;</li>
+<li class="contra-indication-carbamazepine">Anticonvulsants (antiepileptics): such as carbamazepine, phenobarbital, phenytoin, primidone, sodium valproate;</li>
 <li>Tricyclic antidepressants: such as amitriptyline, clomipramine; MAOIs: such as moclobemide; SSRIs: such as citalopram, fluoxetine, fluvoxamine, paroxetine, sertraline; Other antidepressants: such as duloxetine, venlafaxine;</li>
 <li>Antifungals: such as itraconazole, voriconazole;</li>
 <li>Antimalarials: such as lumefantrine;</li>
@@ -203,7 +202,6 @@ Usage: #inline
     <p><span>Also inform your doctor or pharmacist about any suspected changes in the effects of medications you are taking alongside HYPERICUM ARKOPHARMA.</span></p>
     <p><strong><span>Taking HYPERICUM ARKOPHARMA with food and drinks</span></strong></p>
     <p><span>Food and beverages have no influence on the effect of the medicine.</span></p>
-
     <p class="pregnancyCategory"><strong><span>Pregnancy, breastfeeding, and fertility</span></strong></p>
     <p class="pregnancyCategory"><span>If you are pregnant, breastfeeding, think you may be pregnant, or are planning to have a baby, consult your pharmacist or doctor before using this medicine. Its use is not recommended in these circumstances.</span></p>
 

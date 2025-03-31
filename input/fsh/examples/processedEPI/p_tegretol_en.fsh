@@ -54,7 +54,7 @@ Usage: #inline
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "contra-indication-biktarvy"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = https://spor.ema.europa.eu/rmswi/#P/EU/1/18/1289/001 "biktarvy"
+* extension[=].extension[=].valueCodeableReference.concept.coding = https://gsrs.ncats.nih.gov/ginas/app/beta#8GB79LOJ07 "bictegravir"
 
 
 
