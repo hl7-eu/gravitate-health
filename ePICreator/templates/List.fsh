@@ -51,7 +51,21 @@ RuleSet: {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]
 {% for k,v in data["processed_data"].items() %}
 //{{k}}
 //{{v}}
-{% if k==data["data"].iloc[0]["identifier_value"]|trim %}
+//identifier?: {{data["data"].iloc[0]["identifier_value"]}}
+{% set match_id = data["dictionary"]["productname"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id %}
+{% set ns = namespace(found_match=false) %}
+
+//{{match_id}}
+{% for s in v %}
+  {% set first_val = s | list | first %}
+  //first_val {{first_val}}
+  {% if match_id in first_val %}
+    {% set ns.found_match = true %}
+  {% endif %}
+{% endfor %}
+    // match {{found_match}}
+
+{% if k==data["data"].iloc[0]["identifier_value"]|trim or ns.found_match %}
 {% for ids in v %}
 
 * entry[+]

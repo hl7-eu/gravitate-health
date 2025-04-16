@@ -1,17 +1,21 @@
-from os import listdir, getcwd, mkdir
-from os.path import exists
-import pandas as pd
+# %%
 import sys
 import uuid
 
+# %%
 from datetime import datetime
+from os import getcwd, listdir, mkdir
+from os.path import exists
+
+import pandas as pd
 from support_functions import (
-    get_preprocessed_data,
     create_env,
-    split_compositions,
+    get_preprocessed_data,
     quality_checks,
+    split_compositions,
 )
 
+# %%
 context = {"now": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")}
 CANONICAL_URL = "http://hl7.eu/fhir/ig/gravitate-health/"
 
@@ -36,7 +40,7 @@ if OUTPUT_FOLDER[-1] != "/":
 
 
 preprocessed_data = get_preprocessed_data(PROCESSED_FOLDER)
-# print(preprocessed_data)
+print("preprocessed data", preprocessed_data)
 
 
 def create_from_template(
@@ -72,7 +76,8 @@ def create_from_template(
         df = pd.DataFrame(pd.read_excel(DATA_FILE, sheet_name=sheet))
         #   pre_validation(df, sheet)
         df["id_hash"] = df["id"].apply(lambda x: uuid.uuid4())
-        df["id"].fillna(df["id_hash"], inplace=True)
+        # df["id"].fillna(df["id_hash"], inplace=True)
+        df["id"] = df["id"].fillna(df["id_hash"])
         # show the dataframe
         #   print(df)
         df.to_csv(temp_folder + sheet + ".csv", index=True)
@@ -152,6 +157,7 @@ def create_from_template(
     data["data"] = df
     data["turn"] = "2"
     data["processed_data"] = preprocessed_data
+    # print(preprocessed_data)
     t = env.get_template("List.fsh")
     t.stream(data=data, **context).dump(OUTPUT_FOLDER + "List.fsh")
 

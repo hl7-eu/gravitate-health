@@ -392,8 +392,8 @@ away medicines you no longer use. These measures will help protect the environme
 
 
 // Referenced and patched Bundle Instances
-Instance: bundlepackageleaflet-en-b62cc095c7be2116a8a65157286376a3-pproc
 // originally: bundlepackageleaflet-en-b62cc095c7be2116a8a65157286376a3
+Instance: bundlepackageleaflet-en-b62cc095c7be2116a8a65157286376a3-pproc
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for amoxicillin 250 mg tablets Package Leaflet for language en"
 Description: "ePI document Bundle for amoxicillin 250 mg tablets Package Leaflet for language en"

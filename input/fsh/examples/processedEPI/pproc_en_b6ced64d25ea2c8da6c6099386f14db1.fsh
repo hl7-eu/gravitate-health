@@ -295,8 +295,8 @@ which the influenza virus is grown); </p>
 
 
 // Referenced and patched Bundle Instances
-Instance: bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1-pproc
 // originally: bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1
+Instance: bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1-pproc
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Flucelvax Tetra - suspension for injection in pre-filled syringe
 Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) Package Leaflet for language en"

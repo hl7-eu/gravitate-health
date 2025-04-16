@@ -377,8 +377,8 @@ Motilium® is a registered Trademark of Johnson &amp; Johnson Inc.
 
 
 // Referenced and patched Bundle Instances
-Instance: bundlepackageleaflet-en-27c9d5187cd283f8d160ec1ed2b5ac89-pproc
 // originally: bundlepackageleaflet-en-27c9d5187cd283f8d160ec1ed2b5ac89
+Instance: bundlepackageleaflet-en-27c9d5187cd283f8d160ec1ed2b5ac89-pproc
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Mo Package Leaflet for language en"
 Description: "ePI document Bundle for Mo Package Leaflet for language en"

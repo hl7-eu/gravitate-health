@@ -289,8 +289,8 @@ CHEPLAPHARM Arzneimittel GmbH Bahnhofstr. 1a  </p>
 
 
 // Referenced and patched Bundle Instances
-Instance: bundlepackageleaflet-en-4fab126d28f65a1084e7b50a23200363-pproc
 // originally: bundlepackageleaflet-en-4fab126d28f65a1084e7b50a23200363
+Instance: bundlepackageleaflet-en-4fab126d28f65a1084e7b50a23200363-pproc
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Xenical 120mg hard capsules Package Leaflet for language en"
 Description: "ePI document Bundle for Xenical 120mg hard capsules Package Leaflet for language en"

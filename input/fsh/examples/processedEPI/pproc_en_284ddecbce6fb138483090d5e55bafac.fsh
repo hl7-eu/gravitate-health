@@ -458,8 +458,8 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 // Referenced and patched Bundle Instances
-Instance: bundlepackageleaflet-en-6a3c9768548036f502739419bacb2482-pproc
 // originally: bundlepackageleaflet-en-6a3c9768548036f502739419bacb2482
+Instance: bundlepackageleaflet-en-6a3c9768548036f502739419bacb2482-pproc
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for Skilarence 120 mg gastro-resistant tablets Package Leaflet for language en"
 Description: "ePI document Bundle for Skilarence 120 mg gastro-resistant tablets Package Leaflet for language en"

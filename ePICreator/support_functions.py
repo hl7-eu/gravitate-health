@@ -1,8 +1,9 @@
-from os import listdir, remove
-from jinja2 import Environment, FileSystemLoader
-import re
 import hashlib
+import re
 from collections import defaultdict
+from os import listdir, remove
+
+from jinja2 import Environment, FileSystemLoader
 
 
 def homogenize_text(composition):
@@ -110,6 +111,7 @@ def get_preprocessed_data(FOLDER):
     data_proc = defaultdict(list)
 
     for file in listdir(FOLDER):
+        print(file)
         f = open(FOLDER + "/" + file)
 
         content = f.read()
