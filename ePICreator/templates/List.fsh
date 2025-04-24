@@ -18,7 +18,7 @@ RuleSet: {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]
 
 
 * subject = Reference({{data["references"]["MedicinalProductDefinition"][0][0]}})
-* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#{{data["dictionary"]["MajorName"]}} "{{data["dictionary"]["MajorName"]}}"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
 * subject.extension[=].valueCoding = $100000000005#mah-code "None"
@@ -37,7 +37,7 @@ RuleSet: {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
   * item = Reference(bundlepackageleaflet-{{row["language"]}}-{{data["dictionary"]["productname"] | lower | regex_replace('[^A-Za-z0-9]+', '') | create_hash_id}}) // {{data["dictionary"]["productname"][:20]}} {{row["language"]}}
-  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   //* item.extension[=].valueCoding = $100000072057#{{row["language"]|get_language_code}}
@@ -58,12 +58,11 @@ RuleSet: {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]
 //{{match_id}}
 {% for s in v %}
   {% set first_val = s | list | first %}
-  //first_val {{first_val}}
   {% if match_id in first_val %}
     {% set ns.found_match = true %}
   {% endif %}
 {% endfor %}
-    // match {{found_match}}
+
 
 {% if k==data["data"].iloc[0]["identifier_value"]|trim or ns.found_match %}
 {% for ids in v %}
@@ -73,7 +72,7 @@ RuleSet: {{data["dictionary"]["MajorName"] | lower | regex_replace('[^A-Za-z0-9]
   * flag.text = "preprocessed"
   * date = "2015-02-07T13:28:17Z"
   * item = Reference({{ids[0]}})
-  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/documentType"
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
  // * item.extension[=].valueCoding = $100000072057#{{ids[1]|get_language_code}}
