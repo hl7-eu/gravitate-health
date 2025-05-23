@@ -23,7 +23,7 @@ Accept: application/json
 
 
 ### intollerance lens
-POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/?preprocessors=preprocessing-service-manual&lenses=lens-selector-mvp2_allergyintollerance&patientIdentifier=helen-1
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/?preprocessors=preprocessing-service-manual&lenses=allergyintollerance-lens&patientIdentifier=helen-1
 content-type: application/json
 Accept: application/json
 #Accept: text/html
@@ -290,3 +290,13 @@ Accept: application/json
 POST https://fosps.gravitatehealth.eu/focusing/focus/bundlepackageleaflet-en-proc-2f37d696067eeb6daf1111cfc3272672?preprocessors=preprocessing-service-manual&patientIdentifier=alicia-1
 Accept: application/json
 
+
+
+
+### interaction lens
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/?preprocessors=preprocessing-service-manual&patientIdentifier=alicia-1
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+< ./examples/preprocessed-biktarvy.json
