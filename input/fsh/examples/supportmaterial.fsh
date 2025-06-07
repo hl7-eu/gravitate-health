@@ -174,11 +174,6 @@ Usage: #example
 * content.attachment.duration = 715 // in seconds
 * content.attachment.title = "Biktarvy - Pill Image"
 
-
-
-
-
-
 Instance: asm-alicia-example-3
 InstanceOf: AdditionalSupportMaterial
 Title: "Example of additional support material - test match for alicia, only condition"
@@ -187,16 +182,11 @@ Usage: #example
 
 * identifier[+].system = "http://example.org"
 * identifier[=].value = "3"
-
 * extension.url =  "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/RelatedMedicalIssue"
 * extension.valueCodeableReference.concept = $sct#35489007
-
 * version = "1.0"
-
 * author.display = "NHS"
 * category = asm-category-cs#MU
-
-
 * description = "In this video, a doctor explains a self-help method for those experiencing low mood and depression."
 * status = #current
 * docStatus = #final
@@ -235,3 +225,167 @@ Usage: #example
 * content.attachment.title = "Patient education program explaining Xarelto"
 
 
+Instance: asm-metformin-himss25-1
+InstanceOf: AdditionalSupportMaterial
+Title: "Additional support material - Xenical - English"
+Description: "Additional support material - Xenical - English"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "testscript2"
+
+
+* version = "1.0"
+
+* author.display = "WEBMD"
+
+* subject = Reference(himss-metformin-mpd)
+* category = asm-category-cs#MDM
+
+* description = "Our online communities are all about real-life. We talk about the nitty-gritty details that make living with diabetes both challenging and unique."
+* status = #current
+* docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #URL
+* content.attachment.language = #en
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://thediabeteslink.org/join-the-community/online-communities/"
+* content.attachment.title = "Our online communities are all about real-life. We talk about the nitty-gritty details that make living with diabetes both challenging and unique."
+
+
+/*HIMSS*/
+
+Instance: asm-semaglutide-himss25-1
+InstanceOf: AdditionalSupportMaterial
+Title: "Additional support material - Xenical - English"
+Description: "Additional support material - Xenical - English"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "testscript1"
+
+
+* version = "1.0"
+
+* author.display = "WEBMD"
+
+* subject = Reference(himss-semaglutide-mpd)
+* category = asm-category-cs#MDM
+
+* description = "Calories and Weight Loss: The Dos and Don’ts"
+* status = #current
+* docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #URL
+* content.attachment.language = #en
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.webmd.com/diet/cm/how-many-calories-should-eat"
+* content.attachment.title = "Calories and Weight Loss: The Dos and Don’ts"
+
+Instance: asm-semaglutide-himss25-2
+InstanceOf: AdditionalSupportMaterial
+Title: "Additional support material - Xenical - English"
+Description: "Additional support material - Xenical - English"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "testscript2"
+
+
+* version = "1.0"
+
+* author.display = "WEBMD"
+
+* subject = Reference(himss-semaglutide-mpd)
+* category = asm-category-cs#MDM
+
+* description = "Why Can't I Lose Weight?"
+* status = #current
+* docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #URL
+* content.attachment.language = #en
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.webmd.com/obesity/why-cant-i-lose-weight?mmtrack=16478-26891-20-1-5-0-2"
+* content.attachment.title = "Why Can't I Lose Weight?"
+
+Instance: asm-semaglutide-himss25-3
+InstanceOf: AdditionalSupportMaterial
+Title: "Additional support material - Xenical - English"
+Description: "Additional support material - Xenical - English"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "testscript3"
+
+
+* version = "1.0"
+
+* author.display = "WEBMD"
+
+* subject = Reference(himss-semaglutide-mpd)
+* category = asm-category-cs#MDM
+
+* description = "You Can Lose Weight, One Small Habit at a Time"
+* status = #current
+* docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #URL
+* content.attachment.language = #en
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.webmd.com/obesity/weight-loss-with-small-behavior-changes"
+* content.attachment.title = "You Can Lose Weight, One Small Habit at a Time"
+
+Instance: asm-semaglutide-himss25-4
+InstanceOf: AdditionalSupportMaterial
+Title: "Additional support material - Xenical - English"
+Description: "Additional support material - Xenical - English"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "testscript4"
+
+
+* version = "1.0"
+
+* author.display = "WEBMD"
+
+* subject = Reference(himss-semaglutide-mpd)
+* category = asm-category-cs#MDM
+
+* description = "Your Weight Loss Checklist"
+* status = #current
+* docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #URL
+* content.attachment.language = #en
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.webmd.com/obesity/weight-loss-checklist"
+* content.attachment.title = "Your Weight Loss Checklist"
+
+Instance: asm-ramipril-himss25-1
+InstanceOf: AdditionalSupportMaterial
+Title: "Additional support material - Xenical - English"
+Description: "Additional support material - Xenical - English"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "testscript4"
+
+
+* version = "1.0"
+
+* author.display = "WEBMD"
+
+* subject = Reference(himss-ramipril-mpd)
+* category = asm-category-cs#MDM
+
+* description = "Ramipril Emergency Safety Check"
+* status = #current
+* docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #URL
+* content.attachment.language = #en
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://sandbox.hl7europe.eu/himss.html"
+* content.attachment.title = "Ramipril Emergency Safety Check"

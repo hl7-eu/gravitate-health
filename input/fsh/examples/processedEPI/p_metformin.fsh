@@ -8,17 +8,50 @@ Title: "Composition for Metformin 500mg tablets Package Leaflet"
 Description:  "Composition for Metformin 500mg tablets Package Leaflet"
 Usage: #inline
 
+/*
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "pregnancyCategory"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = https://icpc2.icd.com/#W78 "Pregnancy"
-
+*/
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "contra-indication-ibuprofen"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = $ginas#WK2XYI10QM "IBUPROFEN"
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "indication"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#44054006 ""
+
+
+//HIMSS to delete later
+* extension[+].extension[0].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/pregnancy-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "pregnancy-lens"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "This section was collapsed because its not important for you."
+* extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+
+* extension[+].extension[0].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/conditions-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "conditions-lens"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "This section was highlighted because you have a diagnosis of diabetes"
+* extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+
+* extension[+].extension[0].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/interaction-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "interaction-lens"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "Link added to online community to support patients with diabetes"
+* extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
 
 
 * identifier.system = "http://ema.europa.eu/identifier"
@@ -65,7 +98,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
+  
+   <ol class="">
     <li><a>What Metformin Tablets is and what it is used for</a></li>
     <li><a>What you need to know before you take Metformin Tablets</a></li>
     <li><a>How to take Metformin Tablets</a></li>
@@ -81,11 +116,13 @@ Usage: #inline
   * code.text =  "1. What Metformin is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-  <p>Metformin film-coated Tablets contain metformin, a medicine to treat diabetes. It belongs to a group of medicines called biguanides.</p>
+
+
+  <p class="indication conditions-lens highlight">Metformin film-coated Tablets contain metformin, a medicine to treat diabetes. It belongs to a group of medicines called biguanides.</p>
 <p>Insulin is a hormone produced by the pancreas that makes your body take in glucose (sugar) from the blood. Your body uses glucose to produce energy or stores it for future use.</p>
 <p>If you have diabetes, your pancreas does not make enough insulin or your body is not able to use properly the insulin it produces. This leads to a high level of glucose in your blood. Metformin helps to lower your blood glucose to as normal a level as possible.</p>
 <p>If you are an overweight adult, taking Metformin Tablets over a long period of time also helps to lower the risk of complications associated with diabetes. Metformin Tablets is associated with either a stable body weight or modest weight loss.</p>
-<p>Metformin Tablets is used to treat patients with type 2 diabetes (also called 'non-insulin dependent diabetes') when diet and exercise alone have not been enough to control your blood glucose levels. It is used particularly in overweight patients.</p>
+<p class="indication conditions-lens highlight">Metformin Tablets is used to treat patients with type 2 diabetes (also called 'non-insulin dependent diabetes') when diet and exercise alone have not been enough to control your blood glucose levels. It is used particularly in overweight patients.</p>
 <p>Adults can take Metformin Tablets on its own or together with other medicines to treat diabetes (medicines taken by mouth or insulin).</p>
 <p>Children 10 years and over and adolescents can take Metformin Tablets on its own or together with insulin.</p>
 
@@ -157,7 +194,7 @@ Usage: #inline
 <h3 class="subsection-title">Metformin Tablets with alcohol</h3>
 <p>Avoid excessive alcohol intake while taking Metformin Tablets since this may increase the risk of lactic acidosis (see section “Warnings and precautions”).</p>
 
-<h3 class="subsection-title pregnancyCategory">Pregnancy, breast-feeding and fertility</h3>
+<h3 class="subsection-title pregnancyCategory collapse pregnancy-lens">Pregnancy, breast-feeding and fertility</h3>
 <p>If you are pregnant, think you may be pregnant or are planning to have a baby, speak to your doctor in case any changes will be needed to your treatment or monitoring of your blood glucose levels. This medicine is not recommended if you are breast-feeding or if you are planning to breast-feed your baby.</p>
 
 <h3 class="subsection-title">Driving and using machines</h3>

@@ -596,7 +596,12 @@ Usage: #inline
 <li>Reducing the risk or delaying worsening of kidney problems (with or without diabetes)</li>
 <li>Treating heart failure</li>
 <li>Treatment following a heart attack complicated with heart failure</li>
-</ul> </div>
+</ul> 
+
+<div id="banner" style="background-color:#f9edbe;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
+  📢 Please check this!</div>
+
+</div>
 """   
           
 

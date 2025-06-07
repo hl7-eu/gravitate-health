@@ -587,6 +587,13 @@ Usage: #inline
 * category = epicategory-cs#P "Processed"
 * subject = Reference(himss-semaglutide-mpd)
 
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "indication"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#238131007 ""
+
+
 
 * section[+].
   * title = "B. Package Leaflet"
@@ -642,10 +649,10 @@ Usage: #inline
   * code.text =  "1. What semaglutide is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h3>What wegovy® is</h3>
-  <p>wegovy® is a medicine for weight loss and weight maintenance that contains the active substance semaglutide. It is similar to a natural hormone called glucagon-like peptide-1 (GLP-1) that is released from the intestine after a meal. wegovy® works by acting on receptors in the brain that control your appetite, causing you to feel fuller and less hungry and experience less craving for food. This will help you eat less food and reduce your body weight. wegovy® should be used with a reduced calorie meal plan and increased physical activity.</p>
+  <p class="indication">wegovy® is a medicine for weight loss and weight maintenance that contains the active substance semaglutide. It is similar to a natural hormone called glucagon-like peptide-1 (GLP-1) that is released from the intestine after a meal. wegovy® works by acting on receptors in the brain that control your appetite, causing you to feel fuller and less hungry and experience less craving for food. This will help you eat less food and reduce your body weight. wegovy® should be used with a reduced calorie meal plan and increased physical activity.</p>
 
   <h3>What wegovy® is used for</h3>
-  <p><strong>Weight management</strong></p><p>
+  <p><strong>Weight management</strong></p><p class="indication">
   wegovy® is used for weight loss and weight maintenance in addition to diet and physical activity in adults, who have:
   <ul>
     <li>a BMI of 30 kg/m² or greater (obesity), or</li>
