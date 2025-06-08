@@ -389,3 +389,67 @@ Usage: #example
 * content.attachment.contentType = #text/html
 * content.attachment.url = "https://sandbox.hl7europe.eu/himss.html"
 * content.attachment.title = "Ramipril Emergency Safety Check"
+
+
+
+
+
+Instance: asm-semaglutide-himss25-5
+InstanceOf: AdditionalSupportMaterial
+Title: "Additional support material - Xenical - English"
+Description: "Additional support material - Xenical - English"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "testscript4"
+
+
+* version = "1.0"
+
+* author.display = "WEBMD"
+
+* subject = Reference(himss-semaglutide-mpd)
+* category = asm-category-cs#SA
+
+* description = "How to Take Semaglutide"
+* status = #current
+* docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #URL
+* content.attachment.language = #en
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.wegovy.com/taking-wegovy/how-to-use-the-wegovy-pen.html"
+* content.attachment.title = "How to Take Semaglutide"
+
+
+Instance: asm-metformin-himss25-2
+InstanceOf: AdditionalSupportMaterial
+Title: "Additional support material - Xenical - English"
+Description: "Additional support material - Xenical - English"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "testscript4"
+
+
+* version = "1.0"
+
+* author.display = "WEBMD"
+
+* subject = Reference(himss-metformin-mpd)
+* category = asm-category-cs#OTHER
+
+* description = "Overcoming barriers to the use of metformin:
+patient and provider perspectives"
+* status = #current
+* docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #document
+* content.attachment.language = #en
+* content.attachment.contentType = #application/pdf
+* content.attachment.url = "https://pmc.ncbi.nlm.nih.gov/articles/PMC6709787/pdf/ppa-13-1433.pdf"
+* content.attachment.title = "Overcoming barriers to the use of metformin:
+patient and provider perspectives"
+
+
+

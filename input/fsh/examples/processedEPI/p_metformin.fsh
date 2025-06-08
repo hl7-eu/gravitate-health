@@ -46,11 +46,28 @@ Usage: #inline
 * extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
 
 * extension[+].extension[0].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/community-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "community-lens"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "Link added to online community to support patients with diabetes"
+* extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+
+* extension[+].extension[0].url = "lens"
 * extension[=].extension[=].valueCodeableReference.reference = Reference(Library/interaction-lens)
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "interaction-lens"
 * extension[=].extension[+].url = "explanation"
-* extension[=].extension[=].valueString = "Link added to online community to support patients with diabetes"
+* extension[=].extension[=].valueString = "Highlighted section because you have an history of high blood pressure"
+* extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+
+
+* extension[+].extension[0].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/lab-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "lab-lens"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "Highlighted section because you have a lab test schedule for next week that may interfere with the medication"
 * extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
 
 
@@ -140,7 +157,7 @@ Usage: #inline
 <ul>
     <li>if you are allergic (hypersensitive) to metformin or any of the other ingredients of this medicine (listed in section 6).</li>
     <li>if you have liver problems.</li>
-    <li>if you lost too much water from your body (dehydration), such as due to long-lasting or severe diarrhoea, or if you have vomited several times in a row. Dehydration may lead to kidney problems, which can put you at risk for lactic acidosis (see 'Warnings and precautions’).</li>
+    <li class="highlight lab-lens">if you lost too much water from your body (dehydration), such as due to long-lasting or severe diarrhoea, or if you have vomited several times in a row. Dehydration may lead to kidney problems, which can put you at risk for lactic acidosis (see 'Warnings and precautions’).</li>
     <li>if you have a severe infection, such as an infection affecting your lung or bronchial system or your kidney. Severe infections may lead to kidney problems, which can put you at risk for lactic acidosis (see 'Warnings and precautions’).</li>
     <li>if you have severely reduced kidney function.</li>
     <li>if you have uncontrolled diabetes, with, for example, severe hyperglycemia (high blood glucose), nausea, vomiting, diarrhoea, rapid weight loss, lactic acidosis (see “Risk of lactic acidosis” below) or ketoacidosis. Ketoacidosis is a condition in which substances called ‘ketone bodies’ accumulate in the blood and which can lead to diabetic pre-coma. Symptoms include stomach pain, fast and deep breathing, sleepiness or your breath developing an unusual fruity smell.</li>
@@ -188,7 +205,7 @@ Usage: #inline
     <li>medicines that may change the amount of Metformin Tablets in your blood, especially if you have reduced kidney function (such as verapamil, rifampicin, cimetidine, dolutegravir, ranolazine, trimethoprime, vandetanib, isavuconazole, crizotinib, olaparib)</li>
     <li>other medicines used to treat diabetes</li>
     <li class="contra-indication-ibuprofen">medicines used to treat pain and inflammation (NSAID and COX-2-inhibitors, such as ibuprofen and celecoxib)</li>
-    <li>certain medicines for the treatment of high blood pressure (ACE inhibitors and angiotensin II receptor antagonists)</li>
+    <li class="highlight interaction-lens">certain medicines for the treatment of high blood pressure (ACE inhibitors and angiotensin II receptor antagonists)</li>
 </ul>
 
 <h3 class="subsection-title">Metformin Tablets with alcohol</h3>
