@@ -363,6 +363,8 @@ Usage: #example
 * content.attachment.url = "https://www.webmd.com/obesity/weight-loss-checklist"
 * content.attachment.title = "Your Weight Loss Checklist"
 
+
+/*
 Instance: asm-ramipril-himss25-1
 InstanceOf: AdditionalSupportMaterial
 Title: "Additional support material - Xenical - English"
@@ -387,9 +389,9 @@ Usage: #example
 * content.attachment.extension[=].valueCode = #URL
 * content.attachment.language = #en
 * content.attachment.contentType = #text/html
-* content.attachment.url = "https://sandbox.hl7europe.eu/himss.html"
+* content.attachment.url = ""
 * content.attachment.title = "Ramipril Emergency Safety Check"
-
+*/
 
 
 
@@ -452,9 +454,150 @@ patient and provider perspectives"
 patient and provider perspectives"
 
 
+Instance: asm-loratadine-himss25-1
+InstanceOf: AdditionalSupportMaterial
+Title: "Additional support material - Xenical - English"
+Description: "Additional support material - Xenical - English"
+Usage: #example
 
-//https://zerocancer.org/help-and-support/online-peer-support
-//https://www.cancerresearchuk.org/about-cancer/prostate-cancer/treatment
-//https://www.webmd.com/prostate-cancer/coping-prostate-cancer
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "testscript4"
+
+
+* version = "1.0"
+
+* author.display = "WEBMD"
+
+* subject = Reference(himss-loradatine-mpd)
+* category = asm-category-cs#MDM
+
+* description = "Overcoming barriers to the use of metformin:
+patient and provider perspectives"
+* status = #current
+* docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #video
+* content.attachment.language = #en
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.youtube.com/watch?v=YhoufMcZ3bk"
+* content.attachment.title = "How Loratadine works"
+
+
+
+Instance: asm-loratadine-himss25-2
+InstanceOf: AdditionalSupportMaterial
+Title: "Additional support material - Xenical - English"
+Description: "Additional support material - Xenical - English"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "testscript4"
+
+
+* version = "1.0"
+
+* author.display = "WEBMD"
+
+* subject = Reference(himss-loratadine-mpd)
+* category = asm-category-cs#MDM
+
+* description = "Everything You Need to Know About Hay Fever"
+* status = #current
+* docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #URL
+* content.attachment.language = #en
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.britishallergyclinic.com/post/everything-you-need-to-know-about-hay-fever-causes-symptoms-and-solutions"
+* content.attachment.title = "Everything You Need to Know About Hay Fever"
+
+
+Instance: asm-finasteride-himss25-1
+InstanceOf: AdditionalSupportMaterial
+Title: "Additional support material - Xenical - English"
+Description: "Additional support material - Xenical - English"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "testscript4"
+
+
+* version = "1.0"
+
+* author.display = "WEBMD"
+
+* subject = Reference(himss-finasteride-mpd)
+* category = asm-category-cs#MDM
+
+* description = "Prostate Cancer treatment"
+* status = #current
+* docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #URL
+* content.attachment.language = #en
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.cancerresearchuk.org/about-cancer/prostate-cancer/treatment"
+* content.attachment.title = "Prostate Cancer treatment"
+
+
+Instance: asm-finasteride-himss25-2
+InstanceOf: AdditionalSupportMaterial
+Title: "Additional support material - Xenical - English"
+Description: "Additional support material - Xenical - English"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "testscript4"
+
+
+* version = "1.0"
+
+* author.display = "WEBMD"
+
+* subject = Reference(himss-finasteride-mpd)
+* category = asm-category-cs#MDM
+
+* description = "Prostate Cancer treatment"
+* status = #current
+* docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #URL
+* content.attachment.language = #en
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.webmd.com/prostate-cancer/coping-prostate-cancer"
+* content.attachment.title = "Coping with prostate Cancer"
+
+
+Instance: asm-finasteride-himss25-3
+InstanceOf: AdditionalSupportMaterial
+Title: "Additional support material - Xenical - English"
+Description: "Additional support material - Xenical - English"
+Usage: #example
+
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "testscript4"
+
+
+* version = "1.0"
+
+* author.display = "WEBMD"
+
+* subject = Reference(himss-finasteride-mpd)
+* category = asm-category-cs#MDM
+
+* description = "Feeling down? Check here to call for help."
+* status = #current
+* docStatus = #final
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #URL
+* content.attachment.language = #en
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.mind-diagnostics.org/depression-test"
+* content.attachment.title = "Feeling down? Check here to call for help."
+
+
+
+//
+//
 //https://www.urmc.rochester.edu/news/story/tips-for-managing-prostate-cancer-treatment
-//https://www.mind-diagnostics.org/depression-test
+//

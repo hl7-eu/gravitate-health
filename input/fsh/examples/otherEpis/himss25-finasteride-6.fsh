@@ -468,7 +468,7 @@ Usage: #inline
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "interaction-lens"
 * extension[=].extension[+].url = "explanation"
-* extension[=].extension[=].valueString = "Highlighted section because you have an history of high blood pressure"
+* extension[=].extension[=].valueString = "Highlighted section because your medication may interact with your mood. Double-check how you feel."
 * extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
 
 
@@ -535,8 +535,8 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <p>Finasteride contains the active substance finasteride which belongs to the group of medicines called 5-alpha reductase inhibitors. They act by reducing the size of the prostate gland in men.</p>
   <p class="indication highlight conditions-lens">Finasteride is used in the treatment and control of benign (non-cancerous) enlargement of the prostate (benign prostatic hyperplasia BPH). It reduces the risk of you developing a sudden inability to pass urine (acute urinary retention) and the need for surgery.</p><!--  [oai_citation:2‡pil.13543.pdf](file-service://file-JCS7gTrRt25FFSUPp8bKGr) -->
 
-<p class="community-lens" id="banner" style="background-color:#f9edbe;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
-  📢 Please check this!</p>
+<p class="community-lens"  style="background-color:#f9edbe;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
+  <a href="https://zerocancer.org/help-and-support/online-peer-support">You are not alone! 📢 Please check this community!</a></p>
 
      </div>"""   
           

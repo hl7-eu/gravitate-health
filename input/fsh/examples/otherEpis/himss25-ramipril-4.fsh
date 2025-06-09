@@ -619,8 +619,8 @@ Usage: #inline
 <li>Treatment following a heart attack complicated with heart failure</li>
 </ul> 
 
-<div class="highlight preadmission-lens" id="banner" style="background-color:#f9edbe;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
-  📢 Please check this if you are experiencing rapid heart rate 👇👇👇👇👇</div>
+<div class="highlight preadmission-lens" id="banner" style="background-color:red ;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
+  <a href="https://sandbox.hl7europe.eu/himss.html">📢 Please check this if you are experiencing rapid heart rate! </a></div>
 
 </div>
 """   
