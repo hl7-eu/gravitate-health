@@ -480,6 +480,7 @@ Usage: #inline
 
 
 // Auto-tagged extensions
+/*
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "breastfeeding"
@@ -491,7 +492,7 @@ Usage: #inline
 * extension[=].extension[=].valueString = "pregnancy"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = $sct#77386006 "Pregnancy"
-
+*/
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "difficult_text"

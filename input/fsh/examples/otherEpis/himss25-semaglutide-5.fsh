@@ -40,7 +40,7 @@ Usage: #inline
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  
-  <h2>wegovy® FlexTouch 0.25 mg, 0.5 mg, 1 mg, 1.7 mg and 2.4 mg</h2><h2>
+  <h2>semaglutide FlexTouch 0.25 mg, 0.5 mg, 1 mg, 1.7 mg and 2.4 mg</h2><h2>
   Solution for injection in pre-filled pen</h2><h2>
   Semaglutide</h2>
 
@@ -63,11 +63,11 @@ Usage: #inline
   * code.text = "What is in this leaflet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>    <ol>
-    <li>What wegovy® is and what it is used for</li>
-    <li>What you need to know before you use wegovy®</li>
-    <li>How to use wegovy®</li>
+    <li>What semaglutide is and what it is used for</li>
+    <li>What you need to know before you use semaglutide</li>
+    <li>How to use semaglutide</li>
     <li>Possible side effects</li>
-    <li>How to store wegovy®</li>
+    <li>How to store semaglutide</li>
     <li>Contents of the pack and other information</li>
   </ol>
    </div>"""   
@@ -78,26 +78,26 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What semaglutide is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h3>What wegovy® is</h3>
-  <p>wegovy® is a medicine for weight loss and weight maintenance that contains the active substance semaglutide. It is similar to a natural hormone called glucagon-like peptide-1 (GLP-1) that is released from the intestine after a meal. wegovy® works by acting on receptors in the brain that control your appetite, causing you to feel fuller and less hungry and experience less craving for food. This will help you eat less food and reduce your body weight. wegovy® should be used with a reduced calorie meal plan and increased physical activity.</p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h3>What semaglutide is</h3>
+  <p>semaglutide is a medicine for weight loss and weight maintenance that contains the active substance semaglutide. It is similar to a natural hormone called glucagon-like peptide-1 (GLP-1) that is released from the intestine after a meal. semaglutide works by acting on receptors in the brain that control your appetite, causing you to feel fuller and less hungry and experience less craving for food. This will help you eat less food and reduce your body weight. semaglutide should be used with a reduced calorie meal plan and increased physical activity.</p>
 
-  <h3>What wegovy® is used for</h3>
+  <h3>What semaglutide is used for</h3>
   <p><strong>Weight management</strong>
-  wegovy® is used for weight loss and weight maintenance in addition to diet and physical activity in adults, who have:
+  semaglutide is used for weight loss and weight maintenance in addition to diet and physical activity in adults, who have:
   <ul>
     <li>a BMI of 30 kg/m² or greater (obesity), or</li>
     <li>a BMI of 27 kg/m² and less than 30 kg/m² (overweight) and weight-related health problems.</li>
   </ul>
   BMI (Body Mass Index) is a measure of your weight in relation to your height.</p>
-  <p>wegovy® is used together with diet and physical activity for weight management in adolescents aged 12 years and above, who have:
+  <p>semaglutide is used together with diet and physical activity for weight management in adolescents aged 12 years and above, who have:
   <ul>
     <li>obesity, and</li>
     <li>body weight &gt; 60 kg.</li>
   </ul>
-  As an adolescent patient, you should only continue using wegovy® if you have lost at least 5% of your BMI after 12 weeks on the 2.4 mg dose or maximum tolerated dose (see Section 3). Consult your doctor before you continue.</p>
+  As an adolescent patient, you should only continue using semaglutide if you have lost at least 5% of your BMI after 12 weeks on the 2.4 mg dose or maximum tolerated dose (see Section 3). Consult your doctor before you continue.</p>
 
   <p><strong>Risk reduction of serious heart issues in adults</strong></p><p>
-  wegovy® is used in addition to diet and physical activity to reduce the risk of serious heart issues (heart-related death, heart attacks, strokes) in adults with a history of heart disease (like a heart attack, stroke or poor blood flow to the limbs) and either obesity or overweight (BMI ≥ 27 kg/m²).</p>
+  semaglutide is used in addition to diet and physical activity to reduce the risk of serious heart issues (heart-related death, heart attacks, strokes) in adults with a history of heart disease (like a heart attack, stroke or poor blood flow to the limbs) and either obesity or overweight (BMI ≥ 27 kg/m²).</p>
 
      </div>"""   
           
@@ -109,36 +109,36 @@ Usage: #inline
   * code.text = "2. What you need to know before you take semaglutide"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-  <p><strong>Do not use wegovy® if you are:</strong></p>
+  <p><strong>Do not use semaglutide if you are:</strong></p>
   <ul>
     <li>allergic to semaglutide or any of the other ingredients of this medicine (listed in Section 6).</li>
   </ul>
 
   <h3>Warnings and precautions</h3>
-  <p>Talk to your doctor, pharmacist or nurse before using wegovy® or during treatment if you have:</p>
+  <p>Talk to your doctor, pharmacist or nurse before using semaglutide or during treatment if you have:</p>
   <ul>
     <li><strong>Effects on the digestive system</strong>
-      During treatment with wegovy®, you may feel sick (nausea) or be sick (vomiting), or have diarrhoea. These side effects can cause dehydration (loss of fluids). It is important that you drink enough fluids to prevent dehydration. This is especially important if you have kidney problems. Talk to your doctor if you have any questions or concerns.</li>
+      During treatment with semaglutide, you may feel sick (nausea) or be sick (vomiting), or have diarrhoea. These side effects can cause dehydration (loss of fluids). It is important that you drink enough fluids to prevent dehydration. This is especially important if you have kidney problems. Talk to your doctor if you have any questions or concerns.</li>
 
     <li><strong>Inflammation of the pancreas</strong>
       If you have severe and ongoing pain in the stomach area, see a doctor straight away as this could be a sign of inflamed pancreas (acute pancreatitis).</li>
 
     <li><strong>Diabetes</strong>
-      wegovy® must not be used as a substitute for insulin.</li>
+      semaglutide must not be used as a substitute for insulin.</li>
 
     <li><strong>Low blood sugar (hypoglycaemia)</strong>
-      wegovy® can cause low blood sugar. Please see Section 4 for the warning signs of low blood sugar levels. If you have diabetes and are taking a sulfonylurea or insulin with wegovy®, the risk of getting low blood sugar levels (hypoglycaemia) might increase. Your doctor may ask you to test your blood sugar levels. This will help your doctor decide if the dose of the sulfonylurea or insulin needs to be changed to reduce the risk of low blood sugar.</li>
+      semaglutide can cause low blood sugar. Please see Section 4 for the warning signs of low blood sugar levels. If you have diabetes and are taking a sulfonylurea or insulin with semaglutide, the risk of getting low blood sugar levels (hypoglycaemia) might increase. Your doctor may ask you to test your blood sugar levels. This will help your doctor decide if the dose of the sulfonylurea or insulin needs to be changed to reduce the risk of low blood sugar.</li>
 
     <li><strong>Diabetic eye disease (retinopathy)</strong>
       Fast improvements in blood sugar control may lead to a temporary worsening of diabetic eye disease. If you have diabetic eye disease and experience eye problems while taking this medicine, talk to your doctor.</li>
 
-    <li>If you know that you are due to have surgery where you will be under anaesthesia (sleeping), please tell your doctor that you are taking wegovy®.</li>
+    <li>If you know that you are due to have surgery where you will be under anaesthesia (sleeping), please tell your doctor that you are taking semaglutide.</li>
   </ul>
 
   <h3>Children and adolescents</h3>
-  <p>The safety and efficacy of wegovy® in children below 12 years of age have not been studied and are not recommended for use in this population.</p>
+  <p>The safety and efficacy of semaglutide in children below 12 years of age have not been studied and are not recommended for use in this population.</p>
 
-  <h3>Other medicines and wegovy®</h3>
+  <h3>Other medicines and semaglutide</h3>
   <p>Tell your doctor, pharmacist or nurse if you are using, have recently used or might use any other medicines.</p>
 
   <h3>Pregnancy and breast-feeding</h3>
@@ -146,7 +146,7 @@ Usage: #inline
   <p>You should not use this medicine if you are breastfeeding, as it is unknown if it passes into breast milk.</p>
 
   <h3>Driving and using machines</h3>
-  <p>wegovy® is unlikely to affect your ability to drive and use machines. Some patients may feel dizzy when taking wegovy® mainly during the first 3 months of treatment (see Section 4). If you feel dizzy you should not drive or operate machines until you feel better. If you need any further information, talk to your doctor, pharmacist or nurse.</p>
+  <p>semaglutide is unlikely to affect your ability to drive and use machines. Some patients may feel dizzy when taking semaglutide mainly during the first 3 months of treatment (see Section 4). If you feel dizzy you should not drive or operate machines until you feel better. If you need any further information, talk to your doctor, pharmacist or nurse.</p>
   <p>For diabetics using this medicine in combination with a sulfonylurea or insulin, low blood sugar (hypoglycaemia) may occur which may reduce your ability to concentrate. Do not drive or use machines if you get any signs of low blood sugar. See Section 2, ‘Warnings and precautions’ for information on increased risk of low blood sugar and Section 4 for the warning signs of low blood sugar. Talk to your doctor for further information.</p>
 
   <h3>Sodium content</h3>
@@ -167,7 +167,7 @@ Usage: #inline
   <p>The recommended dose is 2.4 mg once weekly.</p><p>
   Your treatment will start at a low dose which will be gradually increased over 16 weeks of treatment as follows:
   <ul>
-    <li>When you first start using wegovy®, the starting dose is 0.25 mg once weekly.</li>
+    <li>When you first start using semaglutide, the starting dose is 0.25 mg once weekly.</li>
     <li>Your doctor will instruct you to gradually increase your dose every 4 weeks until you reach the recommended dose of 2.4 mg once weekly.</li>
     <li>Once you reach the recommended dose of 2.4 mg, do not increase this dose further.</li>
   </ul>
@@ -209,8 +209,8 @@ Usage: #inline
   <h4>Adolescents (aged 12 years and above)</h4>
   <p>For adolescents, the same dose escalation schedule as for adults should be applied (see above). The dose should be increased until 2.4 mg (maintenance dose) or maximum tolerated dose has been reached. Weekly doses higher than 2.4 mg are not recommended.</p>
 
-  <h3>How wegovy® is given</h3>
-  <p>wegovy® is given as an injection under the skin (subcutaneous injection). Do not inject it into a vein or muscle.</p>
+  <h3>How semaglutide is given</h3>
+  <p>semaglutide is given as an injection under the skin (subcutaneous injection). Do not inject it into a vein or muscle.</p>
   <ul>
     <li>The best places to give the injection are the upper arms, stomach or upper legs.</li>
     <li>Before you use the pen for the first time, ask your doctor or nurse how to use it.</li>
@@ -220,28 +220,28 @@ Usage: #inline
   <h3>People with diabetes</h3>
   <p>Tell your doctor if you have diabetes. Your doctor may adjust the dose of your diabetes medicines to prevent you from getting low blood sugar.</p>
   <ul>
-    <li>Do not mix wegovy® with other medicines that you inject (e.g. insulins).</li>
-    <li>Do not use wegovy® in combination with other medicines that contain GLP-1 receptor agonists (such as liraglutide, dulaglutide, exenatide or lixisenatide).</li>
+    <li>Do not mix semaglutide with other medicines that you inject (e.g. insulins).</li>
+    <li>Do not use semaglutide in combination with other medicines that contain GLP-1 receptor agonists (such as liraglutide, dulaglutide, exenatide or lixisenatide).</li>
   </ul>
 
-  <h3>When to use wegovy®</h3>
+  <h3>When to use semaglutide</h3>
   <ul>
     <li>You should use this medicine once a week and, if possible, on the same day each week.</li>
     <li>You can give yourself the injection at any time of the day – regardless of meals.</li>
   </ul>
   <p>If necessary, you can change the day of your weekly injection of this medicine as long as it has been at least 3 days since your last injection. After selecting a new dosing day, continue with once-a-week dosing.</p>
 
-  <h3>If you use more wegovy® than you should</h3>
+  <h3>If you use more semaglutide than you should</h3>
   <p>Talk to your doctor straight away. You may get side effects such as feeling sick (nausea).</p>
 
-  <h3>If you forget to use wegovy®</h3>
+  <h3>If you forget to use semaglutide</h3>
   <p>If you forgot to inject a dose and:</p>
   <ul>
-    <li>It is 5 days or less since you should have used wegovy®, use it as soon as you remember. Then inject your next dose as usual on your scheduled day.</li>
-    <li>It is more than 5 days since you should have used wegovy®, skip the missed dose. Then inject your next dose as usual on your next scheduled day. Do not take a double dose to make up for a forgotten dose.</li>
+    <li>It is 5 days or less since you should have used semaglutide, use it as soon as you remember. Then inject your next dose as usual on your scheduled day.</li>
+    <li>It is more than 5 days since you should have used semaglutide, skip the missed dose. Then inject your next dose as usual on your next scheduled day. Do not take a double dose to make up for a forgotten dose.</li>
   </ul>
 
-  <h3>If you stop using wegovy®</h3>
+  <h3>If you stop using semaglutide</h3>
   <p>Do not stop using this medicine without talking to your doctor.</p>
   <p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>
         </div>"""         
@@ -335,7 +335,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
     <li>Keep this medicine out of the sight and reach of children.</li>
     <li>Do not use this medicine after the expiry date which is stated on the pen label and carton after ‘EXP’. The expiry date refers to the last day of that month.</li>
-    <li>Do not freeze wegovy® and do not use it if it has been frozen.</li>
+    <li>Do not freeze semaglutide and do not use it if it has been frozen.</li>
     <li>Keep the pen cap on in order to protect from light.</li>
   </ul>
 
@@ -356,30 +356,30 @@ Usage: #inline
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-  <h3>What wegovy® contains</h3>
+  <h3>What semaglutide contains</h3>
   <ul>
     <li><strong>The active substance</strong> is semaglutide.</li>
     <li><strong>The other ingredients</strong> are disodium phosphate dihydrate, propylene glycol, phenol, sodium hydroxide/hydrochloric acid (for pH adjustment), water for injection.</li>
   </ul>
 
-  <h4>wegovy® 0.25 mg FlexTouch solution for injection</h4>
+  <h4>semaglutide 0.25 mg FlexTouch solution for injection</h4>
   <p>One mL of solution contains 0.68 mg of semaglutide. One pre-filled pen contains 1.0 mg semaglutide in 1.5 mL solution.</p>
 
-  <h4>wegovy® 0.5 mg FlexTouch solution for injection</h4>
+  <h4>semaglutide 0.5 mg FlexTouch solution for injection</h4>
   <p>One mL of solution contains 1.34 mg of semaglutide. One pre-filled pen contains 2.0 mg semaglutide in 1.5 mL solution.</p>
 
-  <h4>wegovy® 1 mg FlexTouch solution for injection</h4>
+  <h4>semaglutide 1 mg FlexTouch solution for injection</h4>
   <p>One mL of solution contains 1.34 mg of semaglutide. One pre-filled pen contains 4.0 mg semaglutide in 3 mL solution.</p>
 
-  <h4>wegovy® 1.7 mg FlexTouch solution for injection</h4>
+  <h4>semaglutide 1.7 mg FlexTouch solution for injection</h4>
   <p>One mL of solution contains 2.27 mg of semaglutide. One pre-filled pen contains 6.8 mg semaglutide in 3 mL solution.</p>
 
-  <h4>wegovy® 2.4 mg FlexTouch solution for injection</h4>
+  <h4>semaglutide 2.4 mg FlexTouch solution for injection</h4>
   <p>One mL of solution contains 3.2 mg of semaglutide. One pre-filled pen contains 9.6 mg of semaglutide in 3 mL solution.</p>
 
-  <h3>What wegovy® looks like and contents of the pack</h3>
-  <p>wegovy® is a clear and colourless solution for injection in a pre-filled disposable pen.</p>
-  <p>Each FlexTouch pen contains four doses. The pack size of each strength of wegovy® contains 1 pre-filled pen and 4 disposable NovoFine® Plus needles.</p>
+  <h3>What semaglutide looks like and contents of the pack</h3>
+  <p>semaglutide is a clear and colourless solution for injection in a pre-filled disposable pen.</p>
+  <p>Each FlexTouch pen contains four doses. The pack size of each strength of semaglutide contains 1 pre-filled pen and 4 disposable NovoFine® Plus needles.</p>
   <p>Your pen is designed to be used with NovoFine® Plus, NovoFine® or NovoTwist® disposable needles up to a length of 8 mm.</p>
 
   <h3>Marketing Authorisation Holder</h3>
@@ -593,6 +593,14 @@ Usage: #inline
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#238131007 ""
 
+* extension[+].extension[0].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/conditions-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "conditions-lens"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "This section was highlighted because you have diabetes and overweigth. This will help you!"
+* extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+
 
 
 * section[+].
@@ -610,7 +618,7 @@ Usage: #inline
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  
-  <h2>wegovy® FlexTouch 0.25 mg, 0.5 mg, 1 mg, 1.7 mg and 2.4 mg</h2><h2>
+  <h2>semaglutide FlexTouch 0.25 mg, 0.5 mg, 1 mg, 1.7 mg and 2.4 mg</h2><h2>
   Solution for injection in pre-filled pen</h2><h2>
   Semaglutide</h2>
 
@@ -633,11 +641,11 @@ Usage: #inline
   * code.text = "What is in this leaflet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>    <ol>
-    <li>What wegovy® is and what it is used for</li>
-    <li>What you need to know before you use wegovy®</li>
-    <li>How to use wegovy®</li>
+    <li>What semaglutide is and what it is used for</li>
+    <li>What you need to know before you use semaglutide</li>
+    <li>How to use semaglutide</li>
     <li>Possible side effects</li>
-    <li>How to store wegovy®</li>
+    <li>How to store semaglutide</li>
     <li>Contents of the pack and other information</li>
   </ol>
    </div>"""   
@@ -648,26 +656,26 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What semaglutide is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h3>What wegovy® is</h3>
-  <p class="indication">wegovy® is a medicine for weight loss and weight maintenance that contains the active substance semaglutide. It is similar to a natural hormone called glucagon-like peptide-1 (GLP-1) that is released from the intestine after a meal. wegovy® works by acting on receptors in the brain that control your appetite, causing you to feel fuller and less hungry and experience less craving for food. This will help you eat less food and reduce your body weight. wegovy® should be used with a reduced calorie meal plan and increased physical activity.</p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h3>What semaglutide is</h3>
+  <p class="indication highlight conditions-lens">semaglutide is a medicine for weight loss and weight maintenance that contains the active substance semaglutide. It is similar to a natural hormone called glucagon-like peptide-1 (GLP-1) that is released from the intestine after a meal. semaglutide works by acting on receptors in the brain that control your appetite, causing you to feel fuller and less hungry and experience less craving for food. This will help you eat less food and reduce your body weight. semaglutide should be used with a reduced calorie meal plan and increased physical activity.</p>
 
-  <h3>What wegovy® is used for</h3>
-  <p><strong>Weight management</strong></p><p class="indication">
-  wegovy® is used for weight loss and weight maintenance in addition to diet and physical activity in adults, who have:
+  <h3>What semaglutide is used for</h3>
+  <p><strong>Weight management</strong></p><p>
+  semaglutide is used for weight loss and weight maintenance in addition to diet and physical activity in adults, who have:
   <ul>
     <li>a BMI of 30 kg/m² or greater (obesity), or</li>
     <li>a BMI of 27 kg/m² and less than 30 kg/m² (overweight) and weight-related health problems.</li>
   </ul>
   BMI (Body Mass Index) is a measure of your weight in relation to your height.</p>
-  <p>wegovy® is used together with diet and physical activity for weight management in adolescents aged 12 years and above, who have:
+  <p>semaglutide is used together with diet and physical activity for weight management in adolescents aged 12 years and above, who have:
   <ul>
     <li>obesity, and</li>
     <li>body weight &gt; 60 kg.</li>
   </ul>
-  As an adolescent patient, you should only continue using wegovy® if you have lost at least 5% of your BMI after 12 weeks on the 2.4 mg dose or maximum tolerated dose (see Section 3). Consult your doctor before you continue.</p>
+  As an adolescent patient, you should only continue using semaglutide if you have lost at least 5% of your BMI after 12 weeks on the 2.4 mg dose or maximum tolerated dose (see Section 3). Consult your doctor before you continue.</p>
 
   <p><strong>Risk reduction of serious heart issues in adults</strong></p><p>
-  wegovy® is used in addition to diet and physical activity to reduce the risk of serious heart issues (heart-related death, heart attacks, strokes) in adults with a history of heart disease (like a heart attack, stroke or poor blood flow to the limbs) and either obesity or overweight (BMI ≥ 27 kg/m²).</p>
+  semaglutide is used in addition to diet and physical activity to reduce the risk of serious heart issues (heart-related death, heart attacks, strokes) in adults with a history of heart disease (like a heart attack, stroke or poor blood flow to the limbs) and either obesity or overweight (BMI ≥ 27 kg/m²).</p>
 
      </div>"""   
           
@@ -679,36 +687,36 @@ Usage: #inline
   * code.text = "2. What you need to know before you take semaglutide"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-  <p><strong>Do not use wegovy® if you are:</strong></p>
+  <p><strong>Do not use semaglutide if you are:</strong></p>
   <ul>
     <li>allergic to semaglutide or any of the other ingredients of this medicine (listed in Section 6).</li>
   </ul>
 
   <h3>Warnings and precautions</h3>
-  <p>Talk to your doctor, pharmacist or nurse before using wegovy® or during treatment if you have:</p>
+  <p>Talk to your doctor, pharmacist or nurse before using semaglutide or during treatment if you have:</p>
   <ul>
     <li><strong>Effects on the digestive system</strong>
-      During treatment with wegovy®, you may feel sick (nausea) or be sick (vomiting), or have diarrhoea. These side effects can cause dehydration (loss of fluids). It is important that you drink enough fluids to prevent dehydration. This is especially important if you have kidney problems. Talk to your doctor if you have any questions or concerns.</li>
+      During treatment with semaglutide, you may feel sick (nausea) or be sick (vomiting), or have diarrhoea. These side effects can cause dehydration (loss of fluids). It is important that you drink enough fluids to prevent dehydration. This is especially important if you have kidney problems. Talk to your doctor if you have any questions or concerns.</li>
 
     <li><strong>Inflammation of the pancreas</strong>
       If you have severe and ongoing pain in the stomach area, see a doctor straight away as this could be a sign of inflamed pancreas (acute pancreatitis).</li>
 
     <li><strong>Diabetes</strong>
-      wegovy® must not be used as a substitute for insulin.</li>
+      semaglutide must not be used as a substitute for insulin.</li>
 
     <li><strong>Low blood sugar (hypoglycaemia)</strong>
-      wegovy® can cause low blood sugar. Please see Section 4 for the warning signs of low blood sugar levels. If you have diabetes and are taking a sulfonylurea or insulin with wegovy®, the risk of getting low blood sugar levels (hypoglycaemia) might increase. Your doctor may ask you to test your blood sugar levels. This will help your doctor decide if the dose of the sulfonylurea or insulin needs to be changed to reduce the risk of low blood sugar.</li>
+      semaglutide can cause low blood sugar. Please see Section 4 for the warning signs of low blood sugar levels. If you have diabetes and are taking a sulfonylurea or insulin with semaglutide, the risk of getting low blood sugar levels (hypoglycaemia) might increase. Your doctor may ask you to test your blood sugar levels. This will help your doctor decide if the dose of the sulfonylurea or insulin needs to be changed to reduce the risk of low blood sugar.</li>
 
     <li><strong>Diabetic eye disease (retinopathy)</strong>
       Fast improvements in blood sugar control may lead to a temporary worsening of diabetic eye disease. If you have diabetic eye disease and experience eye problems while taking this medicine, talk to your doctor.</li>
 
-    <li>If you know that you are due to have surgery where you will be under anaesthesia (sleeping), please tell your doctor that you are taking wegovy®.</li>
+    <li>If you know that you are due to have surgery where you will be under anaesthesia (sleeping), please tell your doctor that you are taking semaglutide.</li>
   </ul>
 
   <h3>Children and adolescents</h3>
-  <p>The safety and efficacy of wegovy® in children below 12 years of age have not been studied and are not recommended for use in this population.</p>
+  <p>The safety and efficacy of semaglutide in children below 12 years of age have not been studied and are not recommended for use in this population.</p>
 
-  <h3>Other medicines and wegovy®</h3>
+  <h3>Other medicines and semaglutide</h3>
   <p>Tell your doctor, pharmacist or nurse if you are using, have recently used or might use any other medicines.</p>
 
   <h3>Pregnancy and breast-feeding</h3>
@@ -716,7 +724,7 @@ Usage: #inline
   <p>You should not use this medicine if you are breastfeeding, as it is unknown if it passes into breast milk.</p>
 
   <h3>Driving and using machines</h3>
-  <p>wegovy® is unlikely to affect your ability to drive and use machines. Some patients may feel dizzy when taking wegovy® mainly during the first 3 months of treatment (see Section 4). If you feel dizzy you should not drive or operate machines until you feel better. If you need any further information, talk to your doctor, pharmacist or nurse.</p>
+  <p>semaglutide is unlikely to affect your ability to drive and use machines. Some patients may feel dizzy when taking semaglutide mainly during the first 3 months of treatment (see Section 4). If you feel dizzy you should not drive or operate machines until you feel better. If you need any further information, talk to your doctor, pharmacist or nurse.</p>
   <p>For diabetics using this medicine in combination with a sulfonylurea or insulin, low blood sugar (hypoglycaemia) may occur which may reduce your ability to concentrate. Do not drive or use machines if you get any signs of low blood sugar. See Section 2, ‘Warnings and precautions’ for information on increased risk of low blood sugar and Section 4 for the warning signs of low blood sugar. Talk to your doctor for further information.</p>
 
   <h3>Sodium content</h3>
@@ -737,7 +745,7 @@ Usage: #inline
   <p>The recommended dose is 2.4 mg once weekly.
   Your treatment will start at a low dose which will be gradually increased over 16 weeks of treatment as follows:
   <ul>
-    <li>When you first start using wegovy®, the starting dose is 0.25 mg once weekly.</li>
+    <li>When you first start using semaglutide, the starting dose is 0.25 mg once weekly.</li>
     <li>Your doctor will instruct you to gradually increase your dose every 4 weeks until you reach the recommended dose of 2.4 mg once weekly.</li>
     <li>Once you reach the recommended dose of 2.4 mg, do not increase this dose further.</li>
   </ul>
@@ -779,8 +787,8 @@ Usage: #inline
   <h4>Adolescents (aged 12 years and above)</h4>
   <p>For adolescents, the same dose escalation schedule as for adults should be applied (see above). The dose should be increased until 2.4 mg (maintenance dose) or maximum tolerated dose has been reached. Weekly doses higher than 2.4 mg are not recommended.</p>
 
-  <h3>How wegovy® is given</h3>
-  <p>wegovy® is given as an injection under the skin (subcutaneous injection). Do not inject it into a vein or muscle.</p>
+  <h3>How semaglutide is given</h3>
+  <p>semaglutide is given as an injection under the skin (subcutaneous injection). Do not inject it into a vein or muscle.</p>
   <ul>
     <li>The best places to give the injection are the upper arms, stomach or upper legs.</li>
     <li>Before you use the pen for the first time, ask your doctor or nurse how to use it.</li>
@@ -790,28 +798,28 @@ Usage: #inline
   <h3>People with diabetes</h3>
   <p>Tell your doctor if you have diabetes. Your doctor may adjust the dose of your diabetes medicines to prevent you from getting low blood sugar.</p>
   <ul>
-    <li>Do not mix wegovy® with other medicines that you inject (e.g. insulins).</li>
-    <li>Do not use wegovy® in combination with other medicines that contain GLP-1 receptor agonists (such as liraglutide, dulaglutide, exenatide or lixisenatide).</li>
+    <li>Do not mix semaglutide with other medicines that you inject (e.g. insulins).</li>
+    <li>Do not use semaglutide in combination with other medicines that contain GLP-1 receptor agonists (such as liraglutide, dulaglutide, exenatide or lixisenatide).</li>
   </ul>
 
-  <h3>When to use wegovy®</h3>
+  <h3>When to use semaglutide</h3>
   <ul>
     <li>You should use this medicine once a week and, if possible, on the same day each week.</li>
     <li>You can give yourself the injection at any time of the day – regardless of meals.</li>
   </ul>
   <p>If necessary, you can change the day of your weekly injection of this medicine as long as it has been at least 3 days since your last injection. After selecting a new dosing day, continue with once-a-week dosing.</p>
 
-  <h3>If you use more wegovy® than you should</h3>
+  <h3>If you use more semaglutide than you should</h3>
   <p>Talk to your doctor straight away. You may get side effects such as feeling sick (nausea).</p>
 
-  <h3>If you forget to use wegovy®</h3>
+  <h3>If you forget to use semaglutide</h3>
   <p>If you forgot to inject a dose and:</p>
   <ul>
-    <li>It is 5 days or less since you should have used wegovy®, use it as soon as you remember. Then inject your next dose as usual on your scheduled day.</li>
-    <li>It is more than 5 days since you should have used wegovy®, skip the missed dose. Then inject your next dose as usual on your next scheduled day. Do not take a double dose to make up for a forgotten dose.</li>
+    <li>It is 5 days or less since you should have used semaglutide, use it as soon as you remember. Then inject your next dose as usual on your scheduled day.</li>
+    <li>It is more than 5 days since you should have used semaglutide, skip the missed dose. Then inject your next dose as usual on your next scheduled day. Do not take a double dose to make up for a forgotten dose.</li>
   </ul>
 
-  <h3>If you stop using wegovy®</h3>
+  <h3>If you stop using semaglutide</h3>
   <p>Do not stop using this medicine without talking to your doctor.</p>
   <p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>
         </div>"""         
@@ -905,7 +913,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
     <li>Keep this medicine out of the sight and reach of children.</li>
     <li>Do not use this medicine after the expiry date which is stated on the pen label and carton after ‘EXP’. The expiry date refers to the last day of that month.</li>
-    <li>Do not freeze wegovy® and do not use it if it has been frozen.</li>
+    <li>Do not freeze semaglutide and do not use it if it has been frozen.</li>
     <li>Keep the pen cap on in order to protect from light.</li>
   </ul>
 
@@ -926,30 +934,30 @@ Usage: #inline
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
-  <h3>What wegovy® contains</h3>
+  <h3>What semaglutide contains</h3>
   <ul>
     <li><strong>The active substance</strong> is semaglutide.</li>
     <li><strong>The other ingredients</strong> are disodium phosphate dihydrate, propylene glycol, phenol, sodium hydroxide/hydrochloric acid (for pH adjustment), water for injection.</li>
   </ul>
 
-  <h4>wegovy® 0.25 mg FlexTouch solution for injection</h4>
+  <h4>semaglutide 0.25 mg FlexTouch solution for injection</h4>
   <p>One mL of solution contains 0.68 mg of semaglutide. One pre-filled pen contains 1.0 mg semaglutide in 1.5 mL solution.</p>
 
-  <h4>wegovy® 0.5 mg FlexTouch solution for injection</h4>
+  <h4>semaglutide 0.5 mg FlexTouch solution for injection</h4>
   <p>One mL of solution contains 1.34 mg of semaglutide. One pre-filled pen contains 2.0 mg semaglutide in 1.5 mL solution.</p>
 
-  <h4>wegovy® 1 mg FlexTouch solution for injection</h4>
+  <h4>semaglutide 1 mg FlexTouch solution for injection</h4>
   <p>One mL of solution contains 1.34 mg of semaglutide. One pre-filled pen contains 4.0 mg semaglutide in 3 mL solution.</p>
 
-  <h4>wegovy® 1.7 mg FlexTouch solution for injection</h4>
+  <h4>semaglutide 1.7 mg FlexTouch solution for injection</h4>
   <p>One mL of solution contains 2.27 mg of semaglutide. One pre-filled pen contains 6.8 mg semaglutide in 3 mL solution.</p>
 
-  <h4>wegovy® 2.4 mg FlexTouch solution for injection</h4>
+  <h4>semaglutide 2.4 mg FlexTouch solution for injection</h4>
   <p>One mL of solution contains 3.2 mg of semaglutide. One pre-filled pen contains 9.6 mg of semaglutide in 3 mL solution.</p>
 
-  <h3>What wegovy® looks like and contents of the pack</h3>
-  <p>wegovy® is a clear and colourless solution for injection in a pre-filled disposable pen.</p>
-  <p>Each FlexTouch pen contains four doses. The pack size of each strength of wegovy® contains 1 pre-filled pen and 4 disposable NovoFine® Plus needles.</p>
+  <h3>What semaglutide looks like and contents of the pack</h3>
+  <p>semaglutide is a clear and colourless solution for injection in a pre-filled disposable pen.</p>
+  <p>Each FlexTouch pen contains four doses. The pack size of each strength of semaglutide contains 1 pre-filled pen and 4 disposable NovoFine® Plus needles.</p>
   <p>Your pen is designed to be used with NovoFine® Plus, NovoFine® or NovoTwist® disposable needles up to a length of 8 mm.</p>
 
   <h3>Marketing Authorisation Holder</h3>

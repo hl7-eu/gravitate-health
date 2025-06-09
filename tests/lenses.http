@@ -305,3 +305,18 @@ Accept: application/json
 POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundle-met-proc?preprocessors=preprocessing-service-manual&lenses=pregnancy-lens&lenses=questionnaire-lens&lenses=interaction-lens&lenses=preadmission-lens&lenses=contact-lens&lenses=diabetes-lens&lenses=doping-lens&lenses=lab-lens&lenses=pregnancy-lens&lenses=qt-prolongation-lens&patientIdentifier=Alex-1&language=en
 content-type: application/json
 Accept: application/json
+
+
+
+### issue AI
+GET https://gravitate-health.lst.tfo.upm.es/ai/summary/bundle-semaglutide-proc?preprocessors=preprocessing-service-manual&patientIdentifier=66dfc284-c19e-427b-914e-b3156bdc86d6&lenses=lens-summary-2&model=graviting-llama
+content-type: application/json
+Accept: application/json
+
+
+
+###  etet
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus/bundle-finasteride-proc?preprocessors=preprocessing-service-manual&lenses=lab-lens&lenses=pregnancy-lens&lenses=rmm-lens&lenses=allergyintollerance-lens&lenses=interaction-lens&lenses=diabetes-lens&lenses=contact-lens&lenses=questionnaire-lens&lenses=doping-lens&lenses=qt-prolongation-lens&lenses=preadmission-lens&lenses=community-lens&patientIdentifier=Alex-1&language=en
+content-type: application/json
+Accept: application/json

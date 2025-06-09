@@ -453,3 +453,8 @@ patient and provider perspectives"
 
 
 
+//https://zerocancer.org/help-and-support/online-peer-support
+//https://www.cancerresearchuk.org/about-cancer/prostate-cancer/treatment
+//https://www.webmd.com/prostate-cancer/coping-prostate-cancer
+//https://www.urmc.rochester.edu/news/story/tips-for-managing-prostate-cancer-treatment
+//https://www.mind-diagnostics.org/depression-test

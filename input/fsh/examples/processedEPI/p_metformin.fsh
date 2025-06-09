@@ -29,6 +29,7 @@ Usage: #inline
 
 
 //HIMSS to delete later
+/*
 * extension[+].extension[0].url = "lens"
 * extension[=].extension[=].valueCodeableReference.reference = Reference(Library/pregnancy-lens)
 * extension[=].extension[+].url = "elementClass"
@@ -36,7 +37,7 @@ Usage: #inline
 * extension[=].extension[+].url = "explanation"
 * extension[=].extension[=].valueString = "This section was collapsed because its not important for you."
 * extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
-
+*/
 * extension[+].extension[0].url = "lens"
 * extension[=].extension[=].valueCodeableReference.reference = Reference(Library/conditions-lens)
 * extension[=].extension[+].url = "elementClass"
@@ -135,14 +136,17 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 
 
-  <p class="indication conditions-lens highlight">Metformin film-coated Tablets contain metformin, a medicine to treat diabetes. It belongs to a group of medicines called biguanides.</p>
+  <p class="highlight conditions-lens">Metformin film-coated Tablets contain metformin, a medicine to treat diabetes. It belongs to a group of medicines called biguanides.</p>
 <p>Insulin is a hormone produced by the pancreas that makes your body take in glucose (sugar) from the blood. Your body uses glucose to produce energy or stores it for future use.</p>
 <p>If you have diabetes, your pancreas does not make enough insulin or your body is not able to use properly the insulin it produces. This leads to a high level of glucose in your blood. Metformin helps to lower your blood glucose to as normal a level as possible.</p>
 <p>If you are an overweight adult, taking Metformin Tablets over a long period of time also helps to lower the risk of complications associated with diabetes. Metformin Tablets is associated with either a stable body weight or modest weight loss.</p>
-<p class="indication conditions-lens highlight">Metformin Tablets is used to treat patients with type 2 diabetes (also called 'non-insulin dependent diabetes') when diet and exercise alone have not been enough to control your blood glucose levels. It is used particularly in overweight patients.</p>
+<p class="highlight conditions-lens">Metformin Tablets is used to treat patients with type 2 diabetes (also called 'non-insulin dependent diabetes') when diet and exercise alone have not been enough to control your blood glucose levels. It is used particularly in overweight patients.</p>
 <p>Adults can take Metformin Tablets on its own or together with other medicines to treat diabetes (medicines taken by mouth or insulin).</p>
 <p>Children 10 years and over and adolescents can take Metformin Tablets on its own or together with insulin.</p>
 
+<div class="community-lens" style="background-color:#f9edbe;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
+ <a href="http://example.org">Check this online community to support you and your condition!!</a>
+ </div>
      </div>"""   
           
 

@@ -437,6 +437,50 @@ Usage: #inline
 * category = epicategory-cs#P "Processed"
 * subject = Reference(himss-finasteride-mpd)
 
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "indication"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = http://snomed.info/sct#1259388006 "Primary carcinoma of prostate"
+
+
+//HIMSS to delete later
+
+* extension[+].extension[0].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/conditions-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "conditions-lens"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "This section was highlighted because you have a diagnosis of prostate cancer"
+* extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+
+* extension[+].extension[0].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/community-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "community-lens"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "Link added to online community to support patients with prostate cancer"
+* extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+
+
+* extension[+].extension[0].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/interaction-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "interaction-lens"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "Highlighted section because you have an history of high blood pressure"
+* extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+
+
+* extension[+].extension[0].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/allergyintollerance-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "allergyintollerance-lens"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "Highlighted section because you have a unconfirmed lactose intolerance"
+* extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+
+
 
 * section[+].
   * title = "B. Package Leaflet"
@@ -489,7 +533,10 @@ Usage: #inline
   * code.text =  "1. What finasteride is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <p>Finasteride contains the active substance finasteride which belongs to the group of medicines called 5-alpha reductase inhibitors. They act by reducing the size of the prostate gland in men.</p>
-  <p>Finasteride is used in the treatment and control of benign (non-cancerous) enlargement of the prostate (benign prostatic hyperplasia BPH). It reduces the risk of you developing a sudden inability to pass urine (acute urinary retention) and the need for surgery.</p><!--  [oai_citation:2‡pil.13543.pdf](file-service://file-JCS7gTrRt25FFSUPp8bKGr) -->
+  <p class="indication highlight conditions-lens">Finasteride is used in the treatment and control of benign (non-cancerous) enlargement of the prostate (benign prostatic hyperplasia BPH). It reduces the risk of you developing a sudden inability to pass urine (acute urinary retention) and the need for surgery.</p><!--  [oai_citation:2‡pil.13543.pdf](file-service://file-JCS7gTrRt25FFSUPp8bKGr) -->
+
+<p class="community-lens" id="banner" style="background-color:#f9edbe;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
+  📢 Please check this!</p>
 
      </div>"""   
           
@@ -518,7 +565,7 @@ Usage: #inline
   <p>If your sexual partner is or may be pregnant, avoid exposing her to your semen which could contain a tiny amount of the drug.</p><!--  [oai_citation:5‡pil.13543.pdf](file-service://file-JCS7gTrRt25FFSUPp8bKGr) -->
 
   <h3>Mood alterations and depression</h3>
-  <p>Mood alterations such as depressed mood, depression and, less frequently, suicidal thoughts have been reported. If you experience these, contact your doctor as soon as possible.</p><!--  [oai_citation:6‡pil.13543.pdf](file-service://file-JCS7gTrRt25FFSUPp8bKGr) -->
+  <p class="interaction-lens highlight">Mood alterations such as depressed mood, depression and, less frequently, suicidal thoughts have been reported. If you experience these, contact your doctor as soon as possible.</p><!--  [oai_citation:6‡pil.13543.pdf](file-service://file-JCS7gTrRt25FFSUPp8bKGr) -->
 
   <h3>Other medicines and Finasteride</h3>
   <p>Finasteride does not usually interfere with other medicines. Tell your doctor or pharmacist if you are taking any other medicines.</p><!--  [oai_citation:7‡pil.13543.pdf](file-service://file-JCS7gTrRt25FFSUPp8bKGr) -->
@@ -535,7 +582,7 @@ Usage: #inline
   <h3>Driving and using machines</h3>
   <p>No evidence suggests Finasteride affects driving or machine use.</p><!--  [oai_citation:10‡pil.13543.pdf](file-service://file-JCS7gTrRt25FFSUPp8bKGr) -->
 
-  <h3>Finasteride contains lactose</h3>
+  <h3 class="allergy highlight allergyintollerance-lens">Finasteride contains lactose</h3>
   <p>If you have an intolerance to some sugars, contact your doctor before taking this medicine.</p><!--  [oai_citation:11‡pil.13543.pdf](file-service://file-JCS7gTrRt25FFSUPp8bKGr) -->
 
   <h3>Finasteride contains sodium</h3>
