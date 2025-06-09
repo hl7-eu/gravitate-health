@@ -489,6 +489,7 @@ Usage: #inline
 
 
 // Auto-tagged extensions
+/*
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "pregnancy"
@@ -524,6 +525,26 @@ Usage: #inline
 * extension[=].extension[=].valueString = "pediatric"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = $sct#376171000221106 "Pediatric population (qualifier value)"
+*/
+
+* extension[+].extension[0].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/conditions-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "conditions-lens"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "This drug is used to treat your heart failure"
+* extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+
+
+* extension[+].extension[0].url = "lens"
+* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/pre-admission-lens)
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "preadmission-lens"
+* extension[=].extension[+].url = "explanation"
+* extension[=].extension[=].valueString = "Serious Symptons checker. Connected to Hospital and ambulance"
+* extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+
+
 
 * section[+].
   * title = "B. Package Leaflet"
@@ -594,12 +615,12 @@ Usage: #inline
 <li>Treating high blood pressure (hypertension)</li>
 <li>Reducing the risk of having a heart attack or stroke</li>
 <li>Reducing the risk or delaying worsening of kidney problems (with or without diabetes)</li>
-<li>Treating heart failure</li>
+<li class="indication highlight conditions-lens">Treating heart failure</li>
 <li>Treatment following a heart attack complicated with heart failure</li>
 </ul> 
 
-<div id="banner" style="background-color:#f9edbe;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
-  📢 Please check this!</div>
+<div class="highlight preadmission-lens" id="banner" style="background-color:#f9edbe;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
+  📢 Please check this if you are experiencing rapid heart rate 👇👇👇👇👇</div>
 
 </div>
 """   

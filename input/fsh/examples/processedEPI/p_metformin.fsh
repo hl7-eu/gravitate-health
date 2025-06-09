@@ -145,7 +145,7 @@ Usage: #inline
 <p>Children 10 years and over and adolescents can take Metformin Tablets on its own or together with insulin.</p>
 
 <div class="community-lens" style="background-color:#f9edbe;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
- <a href="http://example.org">Check this online community to support you and your condition!!</a>
+ <a href="https://thediabeteslink.org/join-the-community/online-communities/">Check this online community to support you and many other with diabetes!!</a>
  </div>
      </div>"""   
           
