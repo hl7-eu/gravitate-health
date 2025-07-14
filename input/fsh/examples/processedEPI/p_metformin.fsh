@@ -47,9 +47,9 @@ Usage: #inline
 * extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
 
 * extension[+].extension[0].url = "lens"
-* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/community-lens)
+* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/rmm-lens)
 * extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "community-lens"
+* extension[=].extension[=].valueString = "rmm-lens"
 * extension[=].extension[+].url = "explanation"
 * extension[=].extension[=].valueString = "Link added to online community to support patients with diabetes"
 * extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
@@ -144,7 +144,7 @@ Usage: #inline
 <p>Adults can take Metformin Tablets on its own or together with other medicines to treat diabetes (medicines taken by mouth or insulin).</p>
 <p>Children 10 years and over and adolescents can take Metformin Tablets on its own or together with insulin.</p>
 
-<div class="community-lens" style="background-color:#f9edbe;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
+<div class="rmm-lens" style="background-color:#f9edbe;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
  <a href="https://thediabeteslink.org/join-the-community/online-communities/">Check this online community to support you and many other with diabetes!!</a>
  </div>
      </div>"""   

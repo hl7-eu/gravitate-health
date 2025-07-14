@@ -225,7 +225,7 @@ Usage: #example
 * content.attachment.title = "Patient education program explaining Xarelto"
 
 
-Instance: asm-metformin-himss25-1
+/*Instance: asm-metformin-himss25-1
 InstanceOf: AdditionalSupportMaterial
 Title: "Additional support material - Xenical - English"
 Description: "Additional support material - Xenical - English"
@@ -251,7 +251,7 @@ Usage: #example
 * content.attachment.contentType = #text/html
 * content.attachment.url = "https://thediabeteslink.org/join-the-community/online-communities/"
 * content.attachment.title = "Our online communities are all about real-life. We talk about the nitty-gritty details that make living with diabetes both challenging and unique."
-
+*/
 
 /*HIMSS*/
 
@@ -468,7 +468,7 @@ Usage: #example
 
 * author.display = "WEBMD"
 
-* subject = Reference(himss-loradatine-mpd)
+* subject = Reference(himss-loratadine-mpd)
 * category = asm-category-cs#MDM
 
 * description = "Overcoming barriers to the use of metformin:

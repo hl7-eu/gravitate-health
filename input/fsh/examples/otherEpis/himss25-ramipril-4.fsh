@@ -537,9 +537,9 @@ Usage: #inline
 
 
 * extension[+].extension[0].url = "lens"
-* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/pre-admission-lens)
+* extension[=].extension[=].valueCodeableReference.reference = Reference(Library/rmm-lens)
 * extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "preadmission-lens"
+* extension[=].extension[=].valueString = "rmm-lens"
 * extension[=].extension[+].url = "explanation"
 * extension[=].extension[=].valueString = "Serious Symptons checker. Connected to Hospital and ambulance"
 * extension[=].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
@@ -615,11 +615,11 @@ Usage: #inline
 <li>Treating high blood pressure (hypertension)</li>
 <li>Reducing the risk of having a heart attack or stroke</li>
 <li>Reducing the risk or delaying worsening of kidney problems (with or without diabetes)</li>
-<li class="indication highlight conditions-lens">Treating heart failure</li>
+<li class="highlight conditions-lens">Treating heart failure</li>
 <li>Treatment following a heart attack complicated with heart failure</li>
 </ul> 
 
-<div class="highlight preadmission-lens" id="banner" style="background-color:red ;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
+<div class="highlight rmm-lens" id="banner" style="background-color:red ;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
   <a href="https://sandbox.hl7europe.eu/himss.html">📢 Please check this if you are experiencing rapid heart rate! </a></div>
 
 </div>

@@ -525,7 +525,7 @@ Usage: #inline
   <p>You must talk to a doctor if you do not feel better or if you feel worse after 7 days.</p>
 
 <p class="interaction-lens" style="background-color:#f9edbe;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
-  <a>🚨 High Pollen count in your area!</a></p>
+  <a>🚨 High Pollen count in your area!</a><a href="https://www.health.harvard.edu/diseases-and-conditions/how-to-cope-with-worsening-allergy-seasons">check this website to learn how to manage it.</a></p>
 
      </div>"""   
           
