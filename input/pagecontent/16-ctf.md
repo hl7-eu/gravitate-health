@@ -12,5 +12,5 @@ The transactionID is stored in the extension and not signature. Which lets that 
 The workflow can go as:
 
 <br>
-<img src="ctf-example-wf.png" alt="CTF Workflow" style="width: 400px;"/>
+<img src="ctf-example-wf.png" alt="CTF Workflow" style="width: 800px;"/>
 <br clear="all"/>
