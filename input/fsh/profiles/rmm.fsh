@@ -19,6 +19,7 @@ Description:  "Additional Support Material Profile"
 * docStatus MS
 * modality 0..0
 * bodySite 0..0
+* subject only Reference(BundleUvEpi or MedicinalProductDefinition)
 * subject MS
 * author MS
 * attester MS

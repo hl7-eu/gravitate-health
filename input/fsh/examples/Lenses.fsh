@@ -16,12 +16,25 @@ Usage: #example
 * name.extension[=].extension[+].url = "content"
 * name.extension[=].extension[=].valueString = "Lente para el embarazo"
 
+* name.extension[+].url = "http://hl7.org/fhir/StructureDefinition/translation"
+* name.extension[=].extension[+].url = "lang"
+* name.extension[=].extension[=].valueCode = #da
+* name.extension[=].extension[+].url = "content"
+* name.extension[=].extension[=].valueString = "Graviditetslinse"
+
 * title = "pregnancy-lens"
 * title.extension[+].url = "http://hl7.org/fhir/StructureDefinition/translation"
 * title.extension[=].extension[+].url = "lang"
 * title.extension[=].extension[=].valueCode = #es
 * title.extension[=].extension[+].url = "content"
 * title.extension[=].extension[=].valueString = "Lente para el embarazo"
+
+* title.extension[+].url = "http://hl7.org/fhir/StructureDefinition/translation"
+* title.extension[=].extension[+].url = "lang"
+* title.extension[=].extension[=].valueCode = #da
+* title.extension[=].extension[+].url = "content"
+* title.extension[=].extension[=].valueString = "Graviditetslinse"
+
 
 * status = #draft
 * experimental = true
@@ -39,6 +52,12 @@ Usage: #example
 * description.extension[=].extension[+].url = "content"
 * description.extension[=].extension[=].valueString = "Lente que resalta o colapsa la información relacionada con el embarazo"
 
+* description.extension[+].url = "http://hl7.org/fhir/StructureDefinition/translation"
+* description.extension[=].extension[+].url = "lang"
+* description.extension[=].extension[=].valueCode = #da
+* description.extension[=].extension[+].url = "content"
+* description.extension[=].extension[=].valueString = "Linse, der fremhæver eller kollapser graviditetsrelateret information"
+
 
 * jurisdiction = urn:iso:std:iso:3166#US
 * purpose = "Collapse or highlight pregnancy related information on a preprocessed ePI."
@@ -48,12 +67,24 @@ Usage: #example
 * purpose.extension[=].extension[+].url = "content"
 * purpose.extension[=].extension[=].valueString = "Colapsar o resaltar la información relacionada con el embarazo en un ePI preprocesado."
 
+* purpose.extension[+].url = "http://hl7.org/fhir/StructureDefinition/translation"
+* purpose.extension[=].extension[+].url = "lang"
+* purpose.extension[=].extension[=].valueCode = #da
+* purpose.extension[=].extension[+].url = "content"
+* purpose.extension[=].extension[=].valueString = "Skjul eller fremhæve graviditetsrelaterede oplysninger i en forbehandlet ePI."
+
 * usage = "You can import this lens directly to your FHIR Server which suports Library Resource type."
 * usage.extension[+].url = "http://hl7.org/fhir/StructureDefinition/translation"
 * usage.extension[=].extension[+].url = "lang"
 * usage.extension[=].extension[=].valueCode = #es
 * usage.extension[=].extension[+].url = "content"
 * usage.extension[=].extension[=].valueString = "Puedes importar esta lente directamente a tu servidor FHIR que soporte el tipo de recurso Library."
+
+* usage.extension[+].url = "http://hl7.org/fhir/StructureDefinition/translation"
+* usage.extension[=].extension[+].url = "lang"
+* usage.extension[=].extension[=].valueCode = #da
+* usage.extension[=].extension[+].url = "content"
+* usage.extension[=].extension[=].valueString = "Du kan importere denne linse direkte til din FHIR-server, der understøtter biblioteksressourcetypen."
 
 * copyright = "© 2024 Gravitate Health"
 * parameter.use = #in
@@ -67,6 +98,12 @@ Usage: #example
 * content.title.extension[=].extension[=].valueCode = #es
 * content.title.extension[=].extension[+].url = "content"
 * content.title.extension[=].extension[=].valueString = "Lente para el embarazo"
+
+* content.title.extension[+].url = "http://hl7.org/fhir/StructureDefinition/translation"
+* content.title.extension[=].extension[+].url = "lang"
+* content.title.extension[=].extension[=].valueCode = #da
+* content.title.extension[=].extension[+].url = "content"
+* content.title.extension[=].extension[=].valueString = "Graviditetslinse"
 
 
 Instance: interaction-lens
