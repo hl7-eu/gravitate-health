@@ -51,6 +51,7 @@ or the alternative without questionnaire:
 | Health Literacy        | N/A                                      | 85450-5 Health literacy and communication total                              |   1. European Health Literacy Survey Questionnaire (HLS-EU-Q)   2.[example paper](https://journals.lww.com/cancernursingonline/Abstract/2018/03000/Validation_of_the_European_Health_Literacy_Survey.14.aspx)                      |
 | Digital Literacy       | N/A                                      |                                                                              |   \+ 1.[revision](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7889415/) 1.[paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9394541/)                         |
 | Tool Support Interest  | N/A                                      |                                                                              |                            |
+{:.table-bordered}
 
 
 ## Possible rules to test

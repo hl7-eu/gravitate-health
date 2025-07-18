@@ -1,23 +1,4 @@
-
-The current designed lenses are described below.
-
-| Lens Name                       | Description | Repository                                                        |
-|---------------------------------|-------------|-------------------------------------------------------------------|
-| Pregnancy Lens                  |    Highlights pregnancy, childbearing age or breastfeeding information         | https://github.com/Gravitate-Health/pregnancy-lens                |
-| Condition Lens                  | highlights information about specific condition            | https://github.com/Gravitate-Health/conditions-lens               |
-| RMM Lens                        |             | https://github.com/Gravitate-Health/rmm-lens                      |
-| Contact Lens                    | adds GP or similar contact information directly into epi             | https://github.com/Gravitate-Health/gh-contact-lens               |
-| Diabetes Lens                   | add checklist for diabetes medication             | https://github.com/Gravitate-Health/diabetes-lens                 |
-| Questionnaire Lens              | adds a questionnaire link             | https://github.com/Gravitate-Health/gh-questionnaire-lens         |
-| Medication-Lab-Interaction Lens | highlight interaction with medication and lab result             | https://github.com/Gravitate-Health/gh-med-lab-lens               |
-| Drug-Drug-Interaction Lens      | highlights drug-drug interaction             | https://github.com/Gravitate-Health/interaction-lens              |
-| Doping Lens                     | provied warning regarding doping properties if professional athelte             | https://github.com/Gravitate-Health/gh-doping-lens                |
-| Lab Test Lens                   | highlights information about renal adjustment with lab result with that (eGFR)             | https://github.com/Gravitate-Health/gh-test-lab-lens              |
-| Summary Lens                    | summarizes epi with AI             | https://github.com/Gravitate-Health/summary-lens-service          |
-| Allergy and Intollerance Lens   | highlights allergy or intollerance information (.i.e. lactose)             | https://github.com/Gravitate-Health/allergy-and-intollerance-lens |
-| Plain Language Lens             | provides plain language translation to difficult text             | https://github.com/Gravitate-Health/plain-language-lens           |
-| Community Lens                  | provides information about online communities             | https://github.com/joofio/gh-community-lens                       |
-
+Example of Lenses
 
 #### Pregnancy
 
@@ -60,3 +41,24 @@ Add RMM in specific sections for better understanding
 3. FOR ALL \<injectable\> IF patient.literacy is low THEN add icon 
 4. FOR ALL \<oral intake\> IF patient.literacy is low THEN add icon
 
+
+## Current lenses
+The current designed lenses are described below.
+
+| Lens Name                       | Description | Repository                                                        |
+|---------------------------------|-------------|-------------------------------------------------------------------|
+| Pregnancy Lens                  |    Highlights pregnancy, childbearing age or breastfeeding information         | https://github.com/Gravitate-Health/pregnancy-lens                |
+| Condition Lens                  | highlights information about specific condition            | https://github.com/Gravitate-Health/conditions-lens               |
+| RMM Lens                        |             | https://github.com/Gravitate-Health/rmm-lens                      |
+| Contact Lens                    | adds GP or similar contact information directly into epi             | https://github.com/Gravitate-Health/gh-contact-lens               |
+| Diabetes Lens                   | add checklist for diabetes medication             | https://github.com/Gravitate-Health/diabetes-lens                 |
+| Questionnaire Lens              | adds a questionnaire link             | https://github.com/Gravitate-Health/gh-questionnaire-lens         |
+| Medication-Lab-Interaction Lens | highlight interaction with medication and lab result             | https://github.com/Gravitate-Health/gh-med-lab-lens               |
+| Drug-Drug-Interaction Lens      | highlights drug-drug interaction             | https://github.com/Gravitate-Health/interaction-lens              |
+| Doping Lens                     | provied warning regarding doping properties if professional athelte             | https://github.com/Gravitate-Health/gh-doping-lens                |
+| Lab Test Lens                   | highlights information about renal adjustment with lab result with that (eGFR)             | https://github.com/Gravitate-Health/gh-test-lab-lens              |
+| Summary Lens                    | summarizes epi with AI             | https://github.com/Gravitate-Health/summary-lens-service          |
+| Allergy and Intollerance Lens   | highlights allergy or intollerance information (.i.e. lactose)             | https://github.com/Gravitate-Health/allergy-and-intollerance-lens |
+| Plain Language Lens             | provides plain language translation to difficult text             | https://github.com/Gravitate-Health/plain-language-lens           |
+| Community Lens                  | provides information about online communities             | https://github.com/joofio/gh-community-lens                       |
+{:.table-bordered}

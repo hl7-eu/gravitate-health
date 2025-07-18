@@ -16,7 +16,7 @@ see [here](https://build.fhir.org/ig/hl7-eu/gravitate-health/branches/master/Str
 In Gravitate-Health, we may also want to add more information. This can be a wide variety of information, like text, images, video, sound. The possibilities are virtually infinite.
 The idea is to add this information as an extension to the section they are referenced.
 We could also check the type of information. Whether is a pictogram, a image, a explanation of something...
-
+There should be a logic for adding content, trying to harmonize information types. Check the [here](17-semantic-styling.html)
 
 
 #### ePI, persona and Additional Support Material (or Risk Minimization Material)
