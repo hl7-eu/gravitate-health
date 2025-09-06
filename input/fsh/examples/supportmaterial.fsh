@@ -160,6 +160,7 @@ Usage: #example
 * version = "1.0"
 
 * author.display = "test"
+* category = asm-category-cs#MDM
 
 * subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949)
 
@@ -209,6 +210,7 @@ Usage: #example
 * identifier[=].value = "2"
 
 * version = "1.0"
+* category = asm-category-cs#MDM
 
 * author.display = "X-Plain Patient Education"
 
@@ -601,3 +603,24 @@ Usage: #example
 //
 //https://www.urmc.rochester.edu/news/story/tips-for-managing-prostate-cancer-treatment
 //
+
+Instance: rota358a36ba4e4e4b37ace3bd7eda5268a140deb388afa547c9a2bb9cc3282
+InstanceOf: AdditionalSupportMaterial
+Usage: #example
+* identifier[+].system = "http://example.org"
+* identifier[=].value = "testscript4ssss"
+
+* version = "1.0"
+
+* status = #current
+* category = asm-category-cs#MDM
+
+* docStatus = #final
+* subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949) "TEST PURPOSES ONLY - Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+* description = "Información general sobre el VIH"
+* content.attachment.extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"
+* content.attachment.extension[=].valueCode = #URL
+* content.attachment.contentType = #text/html
+* content.attachment.language = #es
+* content.attachment.url = "https://hivinfo.nih.gov/"
+* content.attachment.title = "sss"
