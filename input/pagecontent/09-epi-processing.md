@@ -46,13 +46,13 @@ But more than that, we need to have traceability for the lens that applied the c
 
 The idea of a lens also adding its own id to the classes, is a way of securing traceability of the change that was made.
 Then, the composition refers to them by extension to provide the possibility of getting more information from them.
-see [here](https://build.fhir.org/ig/hl7-eu/gravitate-health/branches/master/StructureDefinition-LensesApplied.html) for the spec.
+see [here](StructureDefinition-LensesApplied.html) for the spec.
 
 ### Focusing
 
 The focusing is an important part - arguably the most important one in the whole pipeline. Its where the logic is applied to the preprocessed data and creates personalized content.
 
-#### Adding Stuff
+#### Adding more information
 
 In Gravitate-Health, we may also want to add more information. This can be a wide variety of information, like text, images, video, sound. The possibilities are virtually infinite.
 The idea is to add this information as an extension to the section they are referenced.

@@ -7,12 +7,12 @@ This page explains the main sections of the Gravitate Health FHIR Implementation
 
 ### Top-Level Sections
 
-#### 1) Introduction
+#### Introduction
 
 - **Overview** — Project vision, purpose, objectives, scope, and relationships. Start here to understand why GH connects **IPS** and **ePI** and what problems it solves.  [oai_citation:1‡build.fhir.org](https://build.fhir.org/ig/hl7-eu/gravitate-health/index.html)  
 - **Functional Analysis** — User-centric view of how ePI is used (not just technical architecture).  [oai_citation:2‡build.fhir.org](https://build.fhir.org/ig/hl7-eu/gravitate-health/toc.html)
 
-#### 2) ePI Focusing
+#### ePI Focusing
 
 Guidance around turning raw, regulator-approved ePI into **focused, user-personalized** ePI.
 
@@ -24,7 +24,7 @@ Guidance around turning raw, regulator-approved ePI into **focused, user-persona
 - **Semantic Styling** — Styling hooks/classes to surface focused content consistently.  [oai_citation:8‡build.fhir.org](https://build.fhir.org/ig/hl7-eu/gravitate-health/toc.html)
 - **Lenses** — Concept and catalog pointers for the “Lens” mechanism used to tailor ePI.  [oai_citation:9‡build.fhir.org](https://build.fhir.org/ig/hl7-eu/gravitate-health/toc.html)
 
-#### 3) The Project
+#### The Project
 
 Background and cross-cutting materials that situate GH in the broader ecosystem.
 
@@ -33,12 +33,12 @@ Background and cross-cutting materials that situate GH in the broader ecosystem.
 - **Persona Dimensions** — Audience attributes (e.g., patient/HCP) informing lens behavior.  [oai_citation:12‡build.fhir.org](https://build.fhir.org/ig/hl7-eu/gravitate-health/toc.html)
 - **Content Trust Framework** — Principles and signals for source trustworthiness.  [oai_citation:13‡build.fhir.org](https://build.fhir.org/ig/hl7-eu/gravitate-health/toc.html)
 
-#### 4) Cooperation
+#### Cooperation
 
 - **Internationally** — Where GH cooperates outside the project.  [oai_citation:14‡build.fhir.org](https://build.fhir.org/ig/hl7-eu/gravitate-health/toc.html)
 - **Projects** — Related initiatives and collaborations.  [oai_citation:15‡build.fhir.org](https://build.fhir.org/ig/hl7-eu/gravitate-health/toc.html)
 
-#### 5) Technical
+#### Technical
 
 - **Capability** — Capabilities the guide expects/defines at a high level.  [oai_citation:16‡build.fhir.org](https://build.fhir.org/ig/hl7-eu/gravitate-health/toc.html)
 - **Requirements** — General technical conformance requirements.  [oai_citation:17‡build.fhir.org](https://build.fhir.org/ig/hl7-eu/gravitate-health/toc.html)

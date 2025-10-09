@@ -33,6 +33,7 @@ There has been a work on the mapping between the 3:
 | 8. Marketing authorisation number(s)                                         | 26. Marketing authorization holder, etc.                     | N/A |
 | 9. Date of first authorisation/renewal of the authorisation                  | N/A             | N/A |
 | 10. Date of revision of the text| beginning of document                       | N/A                                       |
+{:.table-bordered}
 
 ## USPI - FHIR SPL
 
@@ -41,4 +42,3 @@ The data for the SPL related IG is present [here](http://build.fhir.org/ig/HL7/f
 So in terms of FHIR document, is also possible to create a mapping between sections in the Composition.
 
 So..
-
