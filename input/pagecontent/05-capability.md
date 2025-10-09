@@ -2,4 +2,3 @@
 {% include list-capabilitystatements.xhtml %}
 <div>
 <br />
-

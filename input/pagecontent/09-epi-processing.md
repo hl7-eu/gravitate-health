@@ -42,15 +42,15 @@ The most common type of lens is about adding special categories to the text. Its
 
 But more than that, we need to have traceability for the lens that applied the class. So we also need to add an identification of the lens.
 
+### Focusing
+
+The focusing is an important part - arguably the most important one in the whole pipeline. Its where the logic is applied to the preprocessed data and creates personalized content.
+
 #### Traceability
 
 The idea of a lens also adding its own id to the classes, is a way of securing traceability of the change that was made.
 Then, the composition refers to them by extension to provide the possibility of getting more information from them.
 see [here](StructureDefinition-LensesApplied.html) for the spec.
-
-### Focusing
-
-The focusing is an important part - arguably the most important one in the whole pipeline. Its where the logic is applied to the preprocessed data and creates personalized content.
 
 #### Adding more information
 

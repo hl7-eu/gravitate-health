@@ -16,7 +16,7 @@ Persona dimensions were elements listed within the project as potentially useful
    2. Use them as is
 2. Third parties (Social Worker, phycologist, physician, nurse, etc) asserts the observations/Condition directly for all/part of the dimensions.
 
-Then, in both cases, observation can be coupled together and transmitted along with IPS or instead of IPS - [persona Vector](StructureDefinition-persona-collection.html). The diagram below for the alternative with questionnaire:  
+Then, in both cases, observation can be coupled together and transmitted along with IPS or instead of IPS - [persona Vector](). The diagram below for the alternative with questionnaire:  
 
 <div>{% include dimension-source.svg %}</div>
 <br clear="all"/>
