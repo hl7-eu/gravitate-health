@@ -4,7 +4,7 @@ It focuses on how ePI is discovered, accessed, interpreted, and personalized for
 
 ---
 
-## 1. Purpose
+### Purpose
 
 The **Gravitate Health Functional Analysis** examines how the ePI — a trusted, regulator-approved source of information about medicines — can be **leveraged in daily practice** by patients, healthcare professionals (HCPs), and caregivers.  
 
@@ -14,7 +14,7 @@ This is achieved through the **Lens concept**, which filters, emphasizes, and pr
 
 ---
 
-## 2. Functional Use of ePI
+### Functional Use of ePI
 
 The ePI provides structured and standardized information about a medicine, such as:
 
@@ -29,12 +29,12 @@ In the Gravitate Health framework, ePI becomes **dynamic and user-centered**, en
 
 ---
 
-## 3. The Lens Concept in Functional Context
+### The Lens Concept in Functional Context
 
 The **Lens** acts as a **functional layer** between the user and the ePI.  
 It does not modify the original content but **personalizes its presentation** based on user-specific parameters and context.  
 
-### Example functions
+#### Example functions
 
 - **Filtering:** Only show sections relevant to a user’s condition (e.g., pregnancy, diabetes).  
 - **Highlighting:** Emphasize warnings, dosage details, or interactions pertinent to a user’s medications.  
@@ -49,7 +49,7 @@ Each Lens configuration reflects a **functional goal** — for instance:
 
 ---
 
-## 4. Key Functional Scenarios
+### Key Functional Scenarios
 
 | Scenario | Description | Primary Users |
 |-----------|--------------|----------------|
@@ -58,10 +58,9 @@ Each Lens configuration reflects a **functional goal** — for instance:
 | **Medicine Use Education** | A caregiver views simplified, visual, or multilingual ePI formats to support safe administration. | Caregiver |
 | **Digital Leaflet Access** | A user scans a QR code or link to access the ePI, ensuring they always see the latest, regulator-approved version. | All |
 | **Feedback Loop** | User feedback helps improve Lens configurations and understand which information is most useful or confusing. | All |
+{:.table-bordered}
 
----
-
-## 5. Functional Benefits
+### Functional Benefits
 
 The functional design of Gravitate Health supports several key outcomes:
 
@@ -72,10 +71,9 @@ The functional design of Gravitate Health supports several key outcomes:
 | **Safety** | Helps prevent misuse or misunderstanding by emphasizing critical warnings. |
 | **Empowerment** | Encourages active participation in treatment decisions and self-management. |
 | **Continuity of Care** | Enables consistent understanding of medicine information across patients, caregivers, and professionals. |
+{:.table-bordered}
 
----
-
-## 6. Non-Functional Aspects (Supporting Conditions)
+### Non-Functional Aspects (Supporting Conditions)
 
 While the focus of this analysis is functional, certain enabling conditions are critical for success:
 
@@ -86,7 +84,7 @@ While the focus of this analysis is functional, certain enabling conditions are 
 
 ---
 
-## 7. Summary
+### Summary
 
 The **functional perspective** of Gravitate Health emphasizes how ePI is **used in practice** — not just how it is stored or transmitted.  
 Through the **Lens concept**, Gravitate Health enables **meaningful personalization** of trusted information, supporting:
@@ -96,7 +94,3 @@ Through the **Lens concept**, Gravitate Health enables **meaningful personalizat
 - Informed, empowered healthcare decisions  
 
 In this way, the ePI becomes not just a document, but a **living, user-centered information service**.
-
----
-
-*Part of the Gravitate Health Implementation Guide.*

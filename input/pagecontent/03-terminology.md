@@ -51,5 +51,4 @@ The current state of codeable elements in the ePI.
 | RegulatedAuthorization.type                                               | RMS (220000000060) | Regulatory Entitlement Type            |
 | RegulatedAuthorization.region                                             | RMS (100000000002) | Country            |
 | RegulatedAuthorization.status                                             | RMS (100000072049) |Regulatory Entitlement Status            |
-
 {:.table-bordered}
