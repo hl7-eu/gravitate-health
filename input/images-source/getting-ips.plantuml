@@ -1,0 +1,29 @@
+@startuml 
+
+actor user
+participant "App" as app
+participant "IPS Server" as ips
+participant "PV Server" as pv
+
+
+alt case 1 - store locally
+    user -> app : login 
+    app -> ips : Retrieve IPS
+    app -> app : copy and store IPS locally
+    user -> app : edit profile 
+    app -> app : applies changes on local copy
+    user -> app : Resets ips 
+    app -> app : Deletes copy and re-fetches from ips server
+
+else case 2 - store on server
+    user -> app : login 
+    app -> ips : Retrieve IPS
+    user -> app : edit profile 
+    app -> pv : Store changes on ips server as Persona Vector Collection
+    user -> app : Resets ips 
+    app -> ips : re-fetches from ips server 
+    app -> pv : deletes persona vector collection
+    
+end
+
+@enduml
