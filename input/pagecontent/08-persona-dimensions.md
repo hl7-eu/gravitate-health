@@ -9,16 +9,14 @@ For G-lens purposes, we need 4 main aspects:
 
 ### Persona's Dimensions checklist
 
-These are the persona's dimensions. It is true that some could be inferred from IPS directly or indirectly. But only some take part in the mandatory sections of IPS as can be seen below. For the ones not possible to be inferred from IPS, there are at least two paths:
+Persona dimensions were elements listed within the project as potentially usefull for the focusing process. They are listed in the table below. It is true that some could be inferred from IPS directly or indirectly, but only some take part in the mandatory/formally defined sections of IPS as can be seen below. For the ones not possible to be inferred from IPS or not existing in it, there are at least two paths:
 
 1. Assuming a lot of data comes from validated questionnaires, we can represent it as a pair of Questionnaire/QuestionnaireResponse
    1. Transform them into Observations/Conditions
    2. Use them as is
 2. Third parties (Social Worker, phycologist, physician, nurse, etc) asserts the observations/Condition directly for all/part of the dimensions.
 
-Then, in both cases, observation can be coupled together as a document or message to be transmitted along with IPS.
-
-check the diagram below for the alternative with questionnaire:  
+Then, in both cases, observation can be coupled together and transmitted along with IPS or instead of IPS - [persona Vector](StructureDefinition-persona-collection.html). The diagram below for the alternative with questionnaire:  
 
 <div>{% include dimension-source.svg %}</div>
 <br clear="all"/>
@@ -27,6 +25,8 @@ or the alternative without questionnaire:
 
 <div>{% include dimension-observation.svg %}</div>
 <br clear="all"/>
+
+**Table with persona dimension listing**
 
 | Dimension              | IPS                                      | Terminology Examples                                                         | (validity) Questionnaire suggestion   |
 |------------------------|------------------------------------------|------------------------------------------------------------------------------|----------------------------|
