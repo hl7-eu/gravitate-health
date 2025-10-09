@@ -19,22 +19,12 @@ Description:  "Additional Support Material Profile"
 * docStatus MS
 * modality 0..0
 * bodySite 0..0
-<<<<<<< HEAD
-* subject 1..1 MS
+* subject 0..1 MS
 * author 1..1 MS
 * attester 0..* MS
 * content 1..1 MS
 * content.attachment.language 1..1 MS
 * content.attachment.contentType 1..1 MS
-=======
-* subject only Reference(BundleUvEpi or MedicinalProductDefinition)
-* subject MS
-* author MS
-* attester MS
-* content MS
-* content.attachment.language MS
-* content.attachment.contentType MS
->>>>>>> 399b3f98418127678c1c6e466fda1761db1b0184
 * content.attachment.data MS
 * content.attachment.url MS
 * content.attachment.hash MS
@@ -54,3 +44,10 @@ Description:  "Additional Support Material Profile"
 * custodian MS
 
 * content 1..1
+
+* obeys gh-docref-1
+
+Invariant: gh-docref-1
+Description: "A DocumentReference must have either a subject or an extension 'relatedMedicalIssue'."
+Severity: #error
+Expression: "subject.exists() or extension.where(url = 'http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/RelatedMedicalIssue').exists()"

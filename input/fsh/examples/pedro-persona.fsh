@@ -126,7 +126,7 @@ Usage: #inline
 
 
 Instance: pedro-dimension-collection
-InstanceOf: PersonaDimensionCollection
+InstanceOf: PersonaVectorCollection
 Title: "Pedro Persona Vector - Collection"
 Description:  "Pedro Persona Vector - Collection"
 Usage: #example

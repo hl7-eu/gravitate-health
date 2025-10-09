@@ -63,7 +63,7 @@ Usage: #inline
 
 
 Instance: persona-dimension-collection
-InstanceOf: PersonaDimensionCollection
+InstanceOf: PersonaVectorCollection
 Title: "Persona Dimension - Collection"
 Description:  "Persona Dimension - Collection"
 Usage: #example

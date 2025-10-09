@@ -614,7 +614,7 @@ Usage: #example
 
 * status = #current
 * category = asm-category-cs#MDM
-
+* author.display = "Test Author"
 * docStatus = #final
 * subject = Reference(mp2a9c4333cfd126f2e7b73ad3cafd6949) "TEST PURPOSES ONLY - Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
 * description = "Información general sobre el VIH"
