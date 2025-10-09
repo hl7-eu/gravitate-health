@@ -1,38 +1,38 @@
 Example of Lenses
 
-#### Pregnancy
+### Pregnancy
 
 IF gender==female and age>18, highlight section about pregnancy. IF gender==male, collapse those sections
 
-#### Conditions
+### Conditions
 
 IF IPS has conditions and ePI has sections related to any code of the condition(s), then highlight section;
 
-#### Allergies
+### Allergies
 
 IF IPS has allergies and intollerances and ePI has sections related to any code of the allergy, then highlight section;
 
-#### Interaction
+### Interaction
 
 1. check all medication on the IPS
 2. check the ingredient of all of them
 3. check any preprocessed section in the epi
 4. highlight if related to any ingredient or medication.
 
-#### Summary
+### Summary
 
 IF IPS has age, gender and conditions and medication, use that and ePI to summarize in a personalized way;
 IF no IPS, then just summarize the ePI.
 
-#### Plain Language
+### Plain Language
 
 IF word or sentence is difficult - translate to plain language.
 
-#### RMM
+### RMM
 
 Add RMM in specific sections for better understanding
 
-#### Other examples
+### Other examples
 
 1. FOR ALL \<injectable\> add multimedia video
 2. FOR ALL \<oral intake\> IF patient.literacy is not high THEN add hover overlay with oral intake advice
