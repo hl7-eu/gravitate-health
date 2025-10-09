@@ -1,21 +1,21 @@
-## Taking data to G-lens
+### Taking data to G-lens
 
 For G-lens purposes, we need 4 main aspects:
+
 1. ePI
 2. IPS
 3. Persona Vector
 4. Query
-   
-   
-## Persona's Dimensions checklist
+
+### Persona's Dimensions checklist
 
 These are the persona's dimensions. It is true that some could be inferred from IPS directly or indirectly. But only some take part in the mandatory sections of IPS as can be seen below. For the ones not possible to be inferred from IPS, there are at least two paths:
 
-1. Assuming a lot of data comes from validated questionnaires, we can represent it as a pair of Questionnaire/QuestionnaireResponse 
+1. Assuming a lot of data comes from validated questionnaires, we can represent it as a pair of Questionnaire/QuestionnaireResponse
    1. Transform them into Observations/Conditions
    2. Use them as is
-2. Third parties (Social Worker, phycologist, physician, nurse, etc) asserts the observations/Condition directly for all/part of the dimensions. 
-   
+2. Third parties (Social Worker, phycologist, physician, nurse, etc) asserts the observations/Condition directly for all/part of the dimensions.
+
 Then, in both cases, observation can be coupled together as a document or message to be transmitted along with IPS.
 
 check the diagram below for the alternative with questionnaire:  
@@ -27,7 +27,6 @@ or the alternative without questionnaire:
 
 <div>{% include dimension-observation.svg %}</div>
 <br clear="all"/>
-
 
 | Dimension              | IPS                                      | Terminology Examples                                                         | (validity) Questionnaire suggestion   |
 |------------------------|------------------------------------------|------------------------------------------------------------------------------|----------------------------|
@@ -53,16 +52,11 @@ or the alternative without questionnaire:
 | Tool Support Interest  | N/A                                      |                                                                              |                            |
 {:.table-bordered}
 
+### Persona Vector
 
-## Possible rules to test
-1. Pedro has a prescription of Dovato (dolutegravir / lamivudine), Biktarvy (bictegravir / emtricitabine / tenofovir alafenamide) which are contraindicated (both for HIV and reduce efficacy)
-2. Pedro has a prescription of Pentasa (mesalamine), Biktarvy (bictegravir / emtricitabine / tenofovir alafenamide) which are contraindicated (kidney impact)
+Persona Vector acts a method for conveying information that is not on the official IPS and that can be used to support the focusing operations.
 
-3. Person A has lactose intolerance and is prescribed Karvea which has lactose as excipient
-4. Person B has been prescribed Humalog and Furosemide which are contraindicated since sulfonamides can cause hypoglycaemia
-5. Person C has a pregnancy and has been prescribed Diplexil (Valproate) which is contraindicated due to harm to fetus
-6. Person D has psoriasis and was prescribed Bisoprolol which is contraindicated, since it could worse the symptons
-7. Person E has a prescription of AB and adalimumab, since AB indicates a possible infection and AB is contraindicated with adalimumab.
-8. *Generic rule for same ATC in active medication*
+1. User edits/additions based the official IPS
+2. Additional information not conveyed on the IPS
 
-
+These sets of information can be used as a FHIR collection as depicted in [persona Vector](StructureDefinition-persona-collection.html)

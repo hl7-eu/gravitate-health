@@ -1,12 +1,11 @@
-Profile:    PersonaDimensionCollection
+Profile:    PersonaVectorCollection
 Id:        persona-collection
 Parent: Bundle
-Title:     "Persona Dimension Collection"
-Description: "Persona Dimension Collection"
+Title:     "Persona Vector Collection"
+Description: "Persona Vector Collection"
 
 * identifier 1..1
 * type = #collection
-* entry.resource only Observation or QuestionnaireResponse or Condition
 
 
 
