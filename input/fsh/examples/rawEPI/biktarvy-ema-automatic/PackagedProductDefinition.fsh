@@ -10,6 +10,9 @@ Usage: #inline
 * identifier.system = $spor-prod
 * identifier.value = "EU/1/18/1289/001"
 * identifier.use = #official
+* identifier[+].system = "https://www.gs1.org/gtin"
+* identifier[=].value = "07612345678904"
+* identifier[=].use = #official
 
 * name = "Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion 90"
 
