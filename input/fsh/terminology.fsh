@@ -358,25 +358,28 @@ Id:         lens-identifier-vs
 
 
 CodeSystem: LensCategoriesCS
+Id:         lens-categories-cs
+Title:     "Lens Categories Code System"
+Description:  "Lens Categories Code System"
 * ^experimental = true
 * ^caseSensitive = false
-* #pregnancyCategory "IPS"
-* #pregnancyCategory ^designation[0].language = #en
-* #pregnancyCategory ^designation[=].value = "IPS"
-* #pregnancyCategory ^designation[+].language = #da
-* #pregnancyCategory ^designation[=].value = "IPS"
+* #IPS "IPS"
+* #IPS ^designation[0].language = #en
+* #IPS ^designation[=].value = "IPS"
+* #IPS ^designation[+].language = #da
+* #IPS ^designation[=].value = "IPS"
 
-* #conditionCategory "AI"
-* #conditionCategory ^designation[0].language = #en
-* #conditionCategory ^designation[=].value = "AI"
-* #conditionCategory ^designation[+].language = #da
-* #conditionCategory ^designation[=].value = "AI"
+* #AI "AI"
+* #AI ^designation[0].language = #en
+* #AI ^designation[=].value = "AI"
+* #AI ^designation[+].language = #da
+* #AI ^designation[=].value = "AI"
 
-* #interaction "Support Material"
-* #interaction ^designation[0].language = #en
-* #interaction ^designation[=].value = "Support Material"
-* #interaction ^designation[+].language = #da
-* #interaction ^designation[=].value = "Support Material"
+* #SM "Support Material"
+* #SM ^designation[0].language = #en
+* #SM ^designation[=].value = "Support Material"
+* #SM ^designation[+].language = #da
+* #SM ^designation[=].value = "Support Material"
 
 * #allergy "Allergy"
 * #allergy ^designation[0].language = #en

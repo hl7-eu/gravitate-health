@@ -16,7 +16,7 @@ Description:  "Lens Profile"
 * identifier contains 
     gravitateIdentifier 0..1
 * identifier[gravitateIdentifier].system = "http://gravitate-health.lst.tfo.upm.es"
-* identifier[gravitateIdentifier].value from LensCategories (extensible)
+* identifier[gravitateIdentifier].value from LensIdentifierVS (extensible)
 * name 1..1 MS //name
 * name.extension contains http://hl7.org/fhir/StructureDefinition/translation named translation 0..* MS
 
