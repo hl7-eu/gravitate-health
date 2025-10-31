@@ -35,6 +35,7 @@ Usage: #example
 * title.extension[=].extension[+].url = "content"
 * title.extension[=].extension[=].valueString = "Graviditetslinse"
 
+* topic = LensCategoriesCS#IPS "IPS"
 
 * status = #draft
 * experimental = true

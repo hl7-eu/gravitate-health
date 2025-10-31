@@ -309,7 +309,7 @@ Id:         asm-category-vs
 * include codes from system asm-category-cs
 
 
-CodeSystem: LensCategoriesCodes
+CodeSystem: LensIdentifierCodes
 * ^experimental = true
 * ^caseSensitive = false
 * #pregnancyCategory "Pregnancy"
@@ -351,5 +351,43 @@ CodeSystem: LensCategoriesCodes
 
 
 
-ValueSet: LensCategories
-* include codes from system LensCategoriesCodes
+ValueSet: LensIdentifierVS
+Id:         lens-identifier-vs
+* include codes from system LensIdentifierCodes
+
+
+
+CodeSystem: LensCategoriesCS
+* ^experimental = true
+* ^caseSensitive = false
+* #pregnancyCategory "IPS"
+* #pregnancyCategory ^designation[0].language = #en
+* #pregnancyCategory ^designation[=].value = "IPS"
+* #pregnancyCategory ^designation[+].language = #da
+* #pregnancyCategory ^designation[=].value = "IPS"
+
+* #conditionCategory "AI"
+* #conditionCategory ^designation[0].language = #en
+* #conditionCategory ^designation[=].value = "AI"
+* #conditionCategory ^designation[+].language = #da
+* #conditionCategory ^designation[=].value = "AI"
+
+* #interaction "Support Material"
+* #interaction ^designation[0].language = #en
+* #interaction ^designation[=].value = "Support Material"
+* #interaction ^designation[+].language = #da
+* #interaction ^designation[=].value = "Support Material"
+
+* #allergy "Allergy"
+* #allergy ^designation[0].language = #en
+* #allergy ^designation[=].value = "Allergies"
+* #allergy ^designation[+].language = #da
+* #allergy ^designation[=].value = "Allergies"
+
+
+
+
+
+ValueSet: LensCategoryVS
+Id:         lens-category-vs
+* include codes from system LensCategoriesCS
