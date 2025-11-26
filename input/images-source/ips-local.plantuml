@@ -1,0 +1,22 @@
+@startuml 
+
+actor user
+participant "App" as app
+participant "IPS Server" as ips
+participant "PV Server" as pv
+
+
+
+user -> app : login 
+app <- ips : Retrieve IPS
+app -> pv : Create "overlay" IPS on a server
+user -> app : edit profile 
+app -> pv : Store changes on overlay IPS
+user -> app : asks for focusing
+app -> pv : Sends the id of the overlay IPS to be focused
+user -> app : Resets ips 
+app -> ips : re-fetches from ips server 
+app -> pv : deletes persona vector collection
+    
+
+@enduml

@@ -1,0 +1,30 @@
+#### HTPP
+
+
+GET https://fosps.gravitatehealth.eu/epi/api/fhir/Composition?_elements=subject,title
+
+
+### test with MP
+
+GET https://fosps.gravitatehealth.eu/ips/api/fhir/Composition?_elements=subject,title
+
+### test with MP
+
+GET https://fosps.gravitatehealth.eu/ips/api/fhir/Bundle
+
+### test with MP
+
+GET https://fosps.gravitatehealth.eu/ips/api/fhir/Patient
+
+
+####
+
+#### IPS
+POST https://gravitate-health.lst.tfo.upm.es/ips/api/fhir/Patient/$summary
+content-type: application/json
+Accept: application/json
+
+{"resourceType":"Parameters","parameter":[{"name":"identifier","valueIdentifier":"alicia-1"}]}
+
+#### IPS
+GET https://gravitate-health.lst.tfo.upm.es/ips/api/fhir/Patient?identifier=alicia-1
