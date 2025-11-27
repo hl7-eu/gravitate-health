@@ -24,3 +24,32 @@ Accept: application/json
 #Accept: text/html
 
 < ./examples/qt-prolongation.json
+
+
+
+### Test Lens: community
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus?preprocessors=preprocessing-service-manual&lenses=community-lens
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+< ./examples/community-lens.json
+
+
+### Test Lens: contact
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus?preprocessors=preprocessing-service-manual&lenses=contact-lens
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+< ./examples/contact-lens.json
+
+
+
+### Test Lens: doping
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus?preprocessors=preprocessing-service-manual&lenses=doping-lens
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+< ./examples/doping-lens.json
