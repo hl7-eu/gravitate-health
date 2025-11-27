@@ -1,0 +1,1840 @@
+{
+    "ips": {
+        "resourceType": "Bundle",
+        "id": "Ovl-gravitate-Alicia",
+        "meta": {
+            "profile": [
+                "http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips"
+            ]
+        },
+        "type": "document",
+        "identifier": {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "alicia-ips-1"
+        },
+        "timestamp": "2023-04-18T09:22:00+02:00",
+        "entry": [
+            {
+                "fullUrl": "https://myserver.org/Composition/Ovl-alicia-comp",
+                "resource": {
+                    "resourceType": "Composition",
+                    "id": "Ovl-alicia-comp",
+                    "status": "final",
+                    "type": {
+                        "coding": [
+                            {
+                                "code": "60591-5",
+                                "system": "http://loinc.org",
+                                "display": "Patient summary Document"
+                            }
+                        ]
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient",
+                        "display": "Alicia Gravitate"
+                    },
+                    "date": "2018-07-10T15:22:00+02:00",
+                    "author": [
+                        {
+                            "reference": "Patient/Ovl-alicia-patient",
+                            "display": "Alicia Gravitate"
+                        }
+                    ],
+                    "title": "Patient Summary (Alicia Gravitate)",
+                    "confidentiality": "N",
+                    "section": [
+                        {
+                            "title": "Problem List",
+                            "code": {
+                                "coding": [
+                                    {
+                                        "code": "11450-4",
+                                        "system": "http://loinc.org",
+                                        "display": "Problem list Reported"
+                                    }
+                                ]
+                            },
+                            "text": {
+                                "div": "<div>Problem List</div>",
+                                "status": "additional"
+                            },
+                            "entry": [
+                                {
+                                    "reference": "Condition/Ovl-alicia-cond-1",
+                                    "display": "Depression"
+                                },
+                                {
+                                    "reference": "Condition/Ovl-alicia-cond-2",
+                                    "display": "HIV"
+                                },
+                                {
+                                    "reference": "Condition/Ovl-alicia-cond-3",
+                                    "display": "Trigeminal neuralgia"
+                                },
+                                {
+                                    "reference": "Condition/Ovl-alicia-cond-4",
+                                    "display": "Overweight"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Medication Summary",
+                            "code": {
+                                "coding": [
+                                    {
+                                        "code": "10160-0",
+                                        "system": "http://loinc.org",
+                                        "display": "Hx of Medication use"
+                                    }
+                                ]
+                            },
+                            "text": {
+                                "div": "<div>Medication list Reported</div>",
+                                "status": "additional"
+                            },
+                            "entry": [
+                                {
+                                    "reference": "MedicationStatement/Ovl-alicia-med-stat-1",
+                                    "display": "BIKTARVY Bictegravir/Emtricitabine/Tenofovir Alafenamide 1 t QD"
+                                },
+                                {
+                                    "reference": "MedicationStatement/Ovl-alicia-med-stat-3",
+                                    "display": "CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+                                },
+                                {
+                                    "reference": "MedicationStatement/Ovl-alicia-med-stat-4",
+                                    "display": "Carbamazepine  1 t TID"
+                                },
+                                {
+                                    "reference": "MedicationStatement/Ovl-alicia-med-stat-5",
+                                    "display": "Orlistat 1 cp TID"
+                                },
+                                {
+                                    "reference": "MedicationStatement/Ovl-alicia-med-stat-6",
+                                    "display": "St. John’s Wort 2 cp BID"
+                                },
+                                {
+                                    "reference": "MedicationStatement/Ovl-alicia-med-stat-8",
+                                    "display": "Flucelvax"
+                                },
+                                {
+                                    "reference": "MedicationStatement/Ovl-alicia-med-stat-added",
+                                    "display": "Flucelvax"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Allergies and Intolerances",
+                            "code": {
+                                "coding": [
+                                    {
+                                        "code": "48765-2",
+                                        "system": "http://loinc.org",
+                                        "display": "Allergies and adverse reactions Document"
+                                    }
+                                ]
+                            },
+                            "text": {
+                                "status": "generated",
+                                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allergies</div>"
+                            },
+                            "entry": [
+                                {
+                                    "reference": "AllergyIntolerance/Ovl-Alicia-medication-allergy"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Pregnancy",
+                            "code": {
+                                "coding": [
+                                    {
+                                        "code": "10162-6",
+                                        "system": "http://loinc.org",
+                                        "display": "Pregnancy history"
+                                    }
+                                ]
+                            },
+                            "text": {
+                                "status": "generated",
+                                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Pregnancy</div>"
+                            },
+                            "entry": [
+                                {
+                                    "reference": "Ovl-Alicia-pregnancy",
+                                    "display": "Pregnancy Observation"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Social History",
+                            "code": {
+                                "coding": [
+                                    {
+                                        "code": "129762-2",
+                                        "system": "http://loinc.org",
+                                        "display": "Social history"
+                                    }
+                                ]
+                            },
+                            "text": {
+                                "status": "generated",
+                                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Social History</div>"
+                            },
+                            "entry": [
+                                {
+                                    "reference": "Observation/tobacco-use-example",
+                                    "display": "Tobacco Use Observation"
+                                },
+                                {
+                                    "reference": "Observation/alcohol-use-example",
+                                    "display": "Alcohol Use Observation"
+                                },
+                                {
+                                    "reference": "Observation/Ovl-alicia-physical-activity",
+                                    "display": "Physical Activity Observation"
+                                },
+                                {
+                                    "reference": "Observation/Ovl-alicia-Digital-Literacy-Scale",
+                                    "display": "Digital Literacy Scale Observation"
+                                },
+                                {
+                                    "reference": "Observation/Ovl-alicia-Health-Literacy-YesNo",
+                                    "display": "Health Literacy Observation"
+                                },
+                                {
+                                    "reference": "QuestionnaireResponse/Ovl-alicia-QR-EQ5D-5L",
+                                    "display": "EQ-5D-5L Observation"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Vital Signs",
+                            "code": {
+                                "coding": [
+                                    {
+                                        "code": "18716-3",
+                                        "system": "http://loinc.org"
+                                    }
+                                ]
+                            },
+                            "text": {
+                                "status": "generated",
+                                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Vital Signs</div>"
+                            },
+                            "entry": [
+                                {
+                                    "reference": "Observation/Ovl-alicia-bw",
+                                    "display": "Vital Signs Observation"
+                                },
+                                {
+                                    "reference": "Observation/Ovl-alicia-bh",
+                                    "display": "Vital Signs Observation"
+                                },
+                                {
+                                    "reference": "Observation/Ovl-alicia-bp",
+                                    "display": "Vital Signs Observation"
+                                },
+                                {
+                                    "reference": "Observation/Ovl-alicia-glucose",
+                                    "display": "Vital Signs Observation"
+                                },
+                                {
+                                    "reference": "Observation/Ovl-alicia-egfr",
+                                    "display": "Vital Signs Observation"
+                                },
+                                {
+                                    "reference": "Observation/Ovl-alicia-potassium",
+                                    "display": "Vital Signs Observation"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Patient/Ovl-alicia-patient",
+                "resource": {
+                    "resourceType": "Patient",
+                    "id": "Ovl-alicia-patient",
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "code",
+                                    "valueCodeableConcept": {
+                                        "coding": [
+                                            {
+                                                "code": "ES",
+                                                "system": "urn:iso:std:iso:3166",
+                                                "display": "Spain"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship"
+                        }
+                    ],
+                    "identifier": [
+                        {
+                            "system": "https://www.gravitatehealth.eu/sid/doc",
+                            "value": "alicia-1-local"
+                        }
+                    ],
+                    "active": true,
+                    "name": [
+                        {
+                            "family": "Gravitate",
+                            "given": [
+                                "Alicia"
+                            ]
+                        }
+                    ],
+                    "gender": "female",
+                    "birthDate": "1998-10-05"
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Practitioner/Ovl-alicia-pract",
+                "resource": {
+                    "resourceType": "Practitioner",
+                    "id": "Ovl-alicia-pract",
+                    "name": [
+                        {
+                            "family": "Waltz",
+                            "given": [
+                                "Walter"
+                            ],
+                            "prefix": [
+                                "Dr."
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Condition/Ovl-alicia-cond-1",
+                "resource": {
+                    "resourceType": "Condition",
+                    "id": "Ovl-alicia-cond-1",
+                    "meta": {
+                        "profile": [
+                            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+                        ]
+                    },
+                    "clinicalStatus": {
+                        "coding": [
+                            {
+                                "code": "active",
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+                            }
+                        ]
+                    },
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "35489007",
+                                "system": "http://snomed.info/sct",
+                                "display": "Depressive disorder (disorder)"
+                            }
+                        ],
+                        "text": "Depressive disorder (disorder)"
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient",
+                        "display": "alicia Gravitate"
+                    }
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Condition/Ovl-alicia-cond-2",
+                "resource": {
+                    "resourceType": "Condition",
+                    "id": "Ovl-alicia-cond-2",
+                    "meta": {
+                        "profile": [
+                            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+                        ]
+                    },
+                    "clinicalStatus": {
+                        "coding": [
+                            {
+                                "code": "active",
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+                            }
+                        ]
+                    },
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "86406008",
+                                "system": "http://snomed.info/sct",
+                                "display": "Human immunodeficiency virus infection"
+                            }
+                        ],
+                        "text": "Human immunodeficiency virus infection"
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient",
+                        "display": "alicia Gravitate"
+                    },
+                    "onsetDateTime": "2018",
+                    "asserter": {
+                        "reference": "Practitioner/Ovl-alicia-pract",
+                        "display": "Dr. Walter Waltz"
+                    }
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Condition/Ovl-alicia-cond-3",
+                "resource": {
+                    "resourceType": "Condition",
+                    "id": "Ovl-alicia-cond-3",
+                    "clinicalStatus": {
+                        "coding": [
+                            {
+                                "code": "active",
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+                            }
+                        ]
+                    },
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "31681005",
+                                "system": "http://snomed.info/sct",
+                                "display": "Trigeminal neuralgia (disorder)"
+                            }
+                        ],
+                        "text": "Trigeminal neuralgia (disorder)"
+                    },
+                    "subject": {
+                        "identifier": {
+                            "system": "https://www.gravitatehealth.eu/sid/doc",
+                            "value": "alicia-1"
+                        }
+                    },
+                    "onsetDateTime": "2018",
+                    "asserter": {
+                        "reference": "Practitioner/Ovl-alicia-pract",
+                        "display": "Dr. Walter Waltz"
+                    }
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Condition/Ovl-alicia-cond-4",
+                "resource": {
+                    "resourceType": "Condition",
+                    "id": "Ovl-alicia-cond-4",
+                    "meta": {
+                        "profile": [
+                            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+                        ]
+                    },
+                    "clinicalStatus": {
+                        "coding": [
+                            {
+                                "code": "active",
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+                            }
+                        ]
+                    },
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "238131007",
+                                "system": "http://snomed.info/sct",
+                                "display": "Overweight (finding)"
+                            }
+                        ],
+                        "text": "Overweight (finding)"
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient",
+                        "display": "Alicia Gravitate"
+                    },
+                    "onsetDateTime": "2018",
+                    "asserter": {
+                        "reference": "Practitioner/Ovl-alicia-pract",
+                        "display": "Dr. Walter Waltz"
+                    }
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/MedicationStatement/Ovl-alicia-med-stat-1",
+                "resource": {
+                    "resourceType": "MedicationStatement",
+                    "id": "Ovl-alicia-med-stat-1",
+                    "status": "active",
+                    "medicationReference": {
+                        "reference": "Medication/Ovl-9d7be868-8264-4d94-ad04-ef04ecc92i99",
+                        "display": "BIKTARVY Bictegravir/Emtricitabine/Tenofovir Alafenamide 1 t QD"
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient",
+                        "display": "Alicia Gravitate"
+                    },
+                    "dosage": [
+                        {
+                            "route": {
+                                "coding": [
+                                    {
+                                        "code": "20053000",
+                                        "system": "http://standardterms.edqm.eu",
+                                        "display": "Oral use"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/MedicationStatement/Ovl-alicia-med-stat-3",
+                "resource": {
+                    "resourceType": "MedicationStatement",
+                    "id": "Ovl-alicia-med-stat-3",
+                    "status": "active",
+                    "medicationReference": {
+                        "reference": "Medication/Ovl-6f4151e9-91f6-4f1e-adc3-fb94dda7785h",
+                        "display": "CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient",
+                        "display": "Alicia Gravitate"
+                    },
+                    "dosage": [
+                        {
+                            "route": {
+                                "coding": [
+                                    {
+                                        "code": "20053000",
+                                        "system": "http://standardterms.edqm.eu",
+                                        "display": "Oral use"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/MedicationStatement/Ovl-alicia-med-stat-4",
+                "resource": {
+                    "resourceType": "MedicationStatement",
+                    "id": "Ovl-alicia-med-stat-4",
+                    "status": "active",
+                    "medicationReference": {
+                        "reference": "Medication/Ovl-6f4151e9-91f6-4f1e-adc3-fb94dda78356",
+                        "display": "Carbamazepine  1 t TID"
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient",
+                        "display": "alicia Gravitate"
+                    },
+                    "dosage": [
+                        {
+                            "route": {
+                                "coding": [
+                                    {
+                                        "code": "20053000",
+                                        "system": "http://standardterms.edqm.eu",
+                                        "display": "Oral use"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/MedicationStatement/Ovl-alicia-med-stat-5",
+                "resource": {
+                    "resourceType": "MedicationStatement",
+                    "id": "Ovl-alicia-med-stat-5",
+                    "status": "active",
+                    "medicationReference": {
+                        "reference": "Medication/Ovl-6f4151e9-91f6-4f1e-adc3-fb94dda78333",
+                        "display": "Orlistat 1 cp TID"
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient",
+                        "display": "Alicia Gravitate"
+                    },
+                    "dosage": [
+                        {
+                            "route": {
+                                "coding": [
+                                    {
+                                        "code": "20053000",
+                                        "system": "http://standardterms.edqm.eu",
+                                        "display": "Oral use"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/MedicationStatement/Ovl-alicia-med-stat-6",
+                "resource": {
+                    "resourceType": "MedicationStatement",
+                    "id": "Ovl-alicia-med-stat-6",
+                    "status": "active",
+                    "medicationReference": {
+                        "reference": "Medication/Ovl-6f4151e9-91f6-4f1e-adc3-fb94dda79261",
+                        "display": "St. John’s Wort 2 cp BID"
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient",
+                        "display": "Alicia Gravitate"
+                    },
+                    "dosage": [
+                        {
+                            "route": {
+                                "coding": [
+                                    {
+                                        "code": "20053000",
+                                        "system": "http://standardterms.edqm.eu",
+                                        "display": "Oral use"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/MedicationStatement/Ovl-alicia-med-stat-8",
+                "resource": {
+                    "resourceType": "MedicationStatement",
+                    "id": "Ovl-alicia-med-stat-8",
+                    "status": "active",
+                    "medicationReference": {
+                        "reference": "Medication/Ovl-6f4151e9-91f6-4f1e-adc3-fb94dda78367",
+                        "display": "Flucelvax"
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient",
+                        "display": "Alicia Gravitate"
+                    },
+                    "dosage": [
+                        {
+                            "route": {
+                                "coding": [
+                                    {
+                                        "code": "20035000",
+                                        "system": "http://standardterms.edqm.eu",
+                                        "display": "Intramuscular use"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/MedicationStatement/Ovl-alicia-med-stat-added",
+                "resource": {
+                    "resourceType": "MedicationStatement",
+                    "id": "Ovl-alicia-med-stat-added",
+                    "status": "active",
+                    "medicationReference": {
+                        "reference": "Medication/b50ae644-e0b7-4007-809f-26f493cbe362",
+                        "display": "Remsima 100 mg powder for concentrate for solution for infusion"
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient",
+                        "display": "Alicia Gravitate"
+                    },
+                    "dosage": [
+                        {
+                            "route": {
+                                "coding": [
+                                    {
+                                        "code": "20045000",
+                                        "system": "http://standardterms.edqm.eu",
+                                        "display": "Intravenous use"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "informationSource": {
+                        "reference": "Patient/Ovl-alicia-patient",
+                        "display": "Alicia Gravitate"
+                    }
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda78367",
+                "resource": {
+                    "resourceType": "Medication",
+                    "id": "6f4151e9-91f6-4f1e-adc3-fb94dda78367",
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "EU/1/18/1326/001",
+                                "system": "https://spor.ema.europa.eu/pmswi",
+                                "display": "Flucelvax"
+                            },
+                            {
+                                "code": "0xbb82cd10ab2add752b2b9224931000k2",
+                                "system": "https://www.who-umc.org/phpid",
+                                "display": "Flucelvax"
+                            },
+                            {
+                                "code": "A03ku92",
+                                "system": "http://www.whocc.no/atc",
+                                "display": "Flucelvax"
+                            }
+                        ]
+                    },
+                    "form": {
+                        "coding": [
+                            {
+                                "code": "10219999",
+                                "system": "http://standardterms.edqm.eu",
+                                "display": "suspension for injection in pre-filled syringe"
+                            }
+                        ],
+                        "text": "suspension for injection in pre-filled syringe"
+                    },
+                    "ingredient": [
+                        {
+                            "itemCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "code": "TU2UN5CG9C",
+                                        "system": "http://fdasis.nlm.nih.gov",
+                                        "display": "INFLUENZA A VIRUS A/WISCONSIN/588/2019 (H1N1) WHOLE"
+                                    }
+                                ],
+                                "text": "INFLUENZA A VIRUS A/WISCONSIN/588/2019 (H1N1) WHOLE"
+                            },
+                            "strength": {
+                                "numerator": {
+                                    "value": 15,
+                                    "code": "mcg",
+                                    "system": "http://unitsofmeasure.org"
+                                },
+                                "denominator": {
+                                    "value": 1,
+                                    "code": "15054000",
+                                    "system": "http://standardterms.edqm.eu",
+                                    "unit": "suspension for injection in pre-filled syringe"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda79261",
+                "resource": {
+                    "resourceType": "Medication",
+                    "id": "6f4151e9-91f6-4f1e-adc3-fb94dda79261",
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "79963",
+                                "system": "https://spor.ema.europa.eu/pmswi",
+                                "display": "HIPÉRICO ARKOPHARMA cápsulas duras"
+                            },
+                            {
+                                "code": "0xbb82cd10ab2add752b2b9224931099j1",
+                                "system": "https://www.who-umc.org/phpid",
+                                "display": "St. John's Wort (HIPÉRICO ARKOPHARMA) hard tablet"
+                            },
+                            {
+                                "code": "A03FA02",
+                                "system": "http://www.whocc.no/atc",
+                                "display": "HYPERICUM PERFORATUM WHOLE"
+                            }
+                        ]
+                    },
+                    "form": {
+                        "coding": [
+                            {
+                                "code": "10219000",
+                                "system": "http://standardterms.edqm.eu",
+                                "display": "Tablet"
+                            }
+                        ],
+                        "text": "Tablet"
+                    },
+                    "ingredient": [
+                        {
+                            "itemCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "code": "XK4IUX8MNB",
+                                        "system": "http://fdasis.nlm.nih.gov",
+                                        "display": "HYPERICUM PERFORATUM WHOLE"
+                                    }
+                                ],
+                                "text": "HYPERICUM PERFORATUM WHOLE"
+                            },
+                            "strength": {
+                                "numerator": {
+                                    "value": 175,
+                                    "code": "mg",
+                                    "system": "http://unitsofmeasure.org"
+                                },
+                                "denominator": {
+                                    "value": 1,
+                                    "code": "15054000",
+                                    "system": "http://standardterms.edqm.eu",
+                                    "unit": "Tablet"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785h",
+                "resource": {
+                    "resourceType": "Medication",
+                    "id": "6f4151e9-91f6-4f1e-adc3-fb94dda7785h",
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "68290",
+                                "system": "https://spor.ema.europa.eu/pmswi",
+                                "display": "CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+                            },
+                            {
+                                "code": "0xF79CABF272B6A7EEF104DDDA44E82716",
+                                "system": "https://www.who-umc.org/phpid",
+                                "display": "Calcium Vitamin D"
+                            }
+                        ]
+                    },
+                    "form": {
+                        "coding": [
+                            {
+                                "code": "10222000",
+                                "system": "http://standardterms.edqm.eu",
+                                "display": "Effervescent tablet"
+                            }
+                        ],
+                        "text": "Effervescent tablet"
+                    },
+                    "ingredient": [
+                        {
+                            "itemCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "code": "H0G9379FGK",
+                                        "system": "http://fdasis.nlm.nih.gov",
+                                        "display": "Calcium carbonate"
+                                    }
+                                ],
+                                "text": "calcium carbonate"
+                            },
+                            "strength": {
+                                "numerator": {
+                                    "value": 1000,
+                                    "code": "mg",
+                                    "system": "http://unitsofmeasure.org"
+                                },
+                                "denominator": {
+                                    "value": 1,
+                                    "code": "15054000",
+                                    "system": "http://standardterms.edqm.eu",
+                                    "unit": "Tablet"
+                                }
+                            }
+                        },
+                        {
+                            "itemCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "code": "1C6V77QF41",
+                                        "system": "http://fdasis.nlm.nih.gov",
+                                        "display": "cholecalciferol"
+                                    }
+                                ],
+                                "text": "cholecalciferol"
+                            },
+                            "strength": {
+                                "numerator": {
+                                    "value": 880,
+                                    "code": "{UI}",
+                                    "system": "http://unitsofmeasure.org"
+                                },
+                                "denominator": {
+                                    "value": 1,
+                                    "code": "15054000",
+                                    "system": "http://standardterms.edqm.eu",
+                                    "unit": "Tablet"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Medication/Ovl-9d7be868-8264-4d94-ad04-ef04ecc92i99",
+                "resource": {
+                    "resourceType": "Medication",
+                    "id": "Ovl-9d7be868-8264-4d94-ad04-ef04ecc92i99",
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "EU/1/18/1289/001",
+                                "system": "https://spor.ema.europa.eu/pmswi",
+                                "display": "Biktarvy 30 mg/120 mg/15 mg film-coated tablets"
+                            },
+                            {
+                                "code": "0x073AF2E5B92AE19E8B67635AFFB3D9nq",
+                                "system": "https://www.who-umc.org/phpid",
+                                "display": "Biktarvy 30 mg/120 mg/15 mg film-coated tablets"
+                            },
+                            {
+                                "code": "774856007",
+                                "system": "http://snomed.info/sct",
+                                "display": "Product containing only bictegravir and emtricitabine and tenofovir (medicinal product)"
+                            },
+                            {
+                                "code": "J05AR20",
+                                "system": "http://www.whocc.no/atc",
+                                "display": "emtricitabine, tenofovir alafenamide and bictegravir"
+                            }
+                        ]
+                    },
+                    "form": {
+                        "coding": [
+                            {
+                                "code": "10220000",
+                                "system": "http://standardterms.edqm.eu",
+                                "display": "Coated tablet"
+                            }
+                        ]
+                    },
+                    "ingredient": [
+                        {
+                            "itemCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "code": "8GB79LOJ07",
+                                        "system": "http://fdasis.nlm.nih.gov",
+                                        "display": "bictegravir"
+                                    }
+                                ],
+                                "text": "bictegravir"
+                            },
+                            "strength": {
+                                "numerator": {
+                                    "value": 30,
+                                    "code": "mg",
+                                    "system": "http://unitsofmeasure.org"
+                                },
+                                "denominator": {
+                                    "value": 1,
+                                    "code": "15054000",
+                                    "system": "http://standardterms.edqm.eu",
+                                    "unit": "Tablet"
+                                }
+                            }
+                        },
+                        {
+                            "itemCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "code": "G70B4ETF4S",
+                                        "system": "http://fdasis.nlm.nih.gov",
+                                        "display": "emtricitabine"
+                                    }
+                                ],
+                                "text": "emtricitabine"
+                            },
+                            "strength": {
+                                "numerator": {
+                                    "value": 120,
+                                    "code": "mg",
+                                    "system": "http://unitsofmeasure.org"
+                                },
+                                "denominator": {
+                                    "value": 1,
+                                    "code": "15054000",
+                                    "system": "http://standardterms.edqm.eu",
+                                    "unit": "Tablet"
+                                }
+                            }
+                        },
+                        {
+                            "itemCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "code": "EL9943AG5J",
+                                        "system": "http://fdasis.nlm.nih.gov",
+                                        "display": "tenofovir alafenamida"
+                                    }
+                                ],
+                                "text": "tenofovir alafenamida"
+                            },
+                            "strength": {
+                                "numerator": {
+                                    "value": 15,
+                                    "code": "mg",
+                                    "system": "http://unitsofmeasure.org"
+                                },
+                                "denominator": {
+                                    "value": 1,
+                                    "code": "15054000",
+                                    "system": "http://standardterms.edqm.eu",
+                                    "unit": "Tablet"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Medication/Ovl-6f4151e9-91f6-4f1e-adc3-fb94dda78356",
+                "resource": {
+                    "resourceType": "Medication",
+                    "id": "Ovl-6f4151e9-91f6-4f1e-adc3-fb94dda78356",
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "39.955",
+                                "system": "https://spor.ema.europa.eu/pmswi",
+                                "display": "Tegretol (Carbamazepine) 200 mg tablets"
+                            },
+                            {
+                                "code": "0x6e5dd079852edc5c3b8efce075c80a2e",
+                                "system": "https://www.who-umc.org/phpid",
+                                "display": "Carbamazepine 200 mg tablets"
+                            }
+                        ]
+                    },
+                    "form": {
+                        "coding": [
+                            {
+                                "code": "10219000",
+                                "system": "http://standardterms.edqm.eu",
+                                "display": "Tablet"
+                            }
+                        ],
+                        "text": "Tablet"
+                    },
+                    "ingredient": [
+                        {
+                            "itemCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "code": "33CM23913M",
+                                        "system": "http://fdasis.nlm.nih.gov",
+                                        "display": "CARBAMAZEPINE"
+                                    }
+                                ],
+                                "text": "CARBAMAZEPINE"
+                            },
+                            "strength": {
+                                "numerator": {
+                                    "value": 200,
+                                    "code": "mg",
+                                    "system": "http://unitsofmeasure.org"
+                                },
+                                "denominator": {
+                                    "value": 1,
+                                    "code": "15054000",
+                                    "system": "http://standardterms.edqm.eu",
+                                    "unit": "Tablet"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Medication/Ovl-6f4151e9-91f6-4f1e-adc3-fb94dda78333",
+                "resource": {
+                    "resourceType": "Medication",
+                    "id": "Ovl-6f4151e9-91f6-4f1e-adc3-fb94dda78333",
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "EU/1/98/071/004",
+                                "system": "https://spor.ema.europa.eu/pmswi",
+                                "display": "Xenical (Orlistat) 60 mg capsule"
+                            },
+                            {
+                                "code": "0xc805ef896d1c2f5f17f84f34c909a9db",
+                                "system": "https://www.who-umc.org/phpid",
+                                "display": "Xenical (Orlistat) 60 mg capsule"
+                            }
+                        ]
+                    },
+                    "form": {
+                        "coding": [
+                            {
+                                "code": "10210000",
+                                "system": "http://standardterms.edqm.eu",
+                                "display": "Capsule, hard"
+                            }
+                        ],
+                        "text": "Capsule, hard"
+                    },
+                    "ingredient": [
+                        {
+                            "itemCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "code": "95M8R751W8",
+                                        "system": "http://fdasis.nlm.nih.gov",
+                                        "display": "ORLISTAT"
+                                    }
+                                ],
+                                "text": "ORLISTAT"
+                            },
+                            "strength": {
+                                "numerator": {
+                                    "value": 60,
+                                    "code": "mg",
+                                    "system": "http://unitsofmeasure.org"
+                                },
+                                "denominator": {
+                                    "value": 1,
+                                    "code": "15054000",
+                                    "system": "http://standardterms.edqm.eu",
+                                    "unit": "Tablet"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Medication/Ovl-6f4151e9-91f6-4f1e-adc3-fb94dda78367",
+                "resource": {
+                    "resourceType": "Medication",
+                    "id": "Ovl-6f4151e9-91f6-4f1e-adc3-fb94dda78367",
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "EU/1/18/1326/001",
+                                "system": "https://spor.ema.europa.eu/pmswi",
+                                "display": "Flucelvax"
+                            },
+                            {
+                                "code": "0xbb82cd10ab2add752b2b9224931000k2",
+                                "system": "https://www.who-umc.org/phpid",
+                                "display": "Flucelvax"
+                            },
+                            {
+                                "code": "A03ku92",
+                                "system": "http://www.whocc.no/atc",
+                                "display": "Flucelvax"
+                            }
+                        ]
+                    },
+                    "form": {
+                        "coding": [
+                            {
+                                "code": "10219999",
+                                "system": "http://standardterms.edqm.eu",
+                                "display": "suspension for injection in pre-filled syringe"
+                            }
+                        ],
+                        "text": "suspension for injection in pre-filled syringe"
+                    },
+                    "ingredient": [
+                        {
+                            "itemCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "code": "TU2UN5CG9C",
+                                        "system": "http://fdasis.nlm.nih.gov",
+                                        "display": "INFLUENZA A VIRUS A/WISCONSIN/588/2019 (H1N1) WHOLE"
+                                    }
+                                ],
+                                "text": "INFLUENZA A VIRUS A/WISCONSIN/588/2019 (H1N1) WHOLE"
+                            },
+                            "strength": {
+                                "numerator": {
+                                    "value": 15,
+                                    "code": "mcg",
+                                    "system": "http://unitsofmeasure.org"
+                                },
+                                "denominator": {
+                                    "value": 1,
+                                    "code": "15054000",
+                                    "system": "http://standardterms.edqm.eu",
+                                    "unit": "suspension for injection in pre-filled syringe"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Medication/Ovl-6f4151e9-91f6-4f1e-adc3-fb94dda7785h",
+                "resource": {
+                    "resourceType": "Medication",
+                    "id": "Ovl-6f4151e9-91f6-4f1e-adc3-fb94dda7785h",
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "68290",
+                                "system": "https://spor.ema.europa.eu/pmswi",
+                                "display": "CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+                            },
+                            {
+                                "code": "0xF79CABF272B6A7EEF104DDDA44E82716",
+                                "system": "https://www.who-umc.org/phpid",
+                                "display": "Calcium Vitamin D"
+                            }
+                        ]
+                    },
+                    "form": {
+                        "coding": [
+                            {
+                                "code": "10222000",
+                                "system": "http://standardterms.edqm.eu",
+                                "display": "Effervescent tablet"
+                            }
+                        ],
+                        "text": "Effervescent tablet"
+                    },
+                    "ingredient": [
+                        {
+                            "itemCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "code": "H0G9379FGK",
+                                        "system": "http://fdasis.nlm.nih.gov",
+                                        "display": "Calcium carbonate"
+                                    }
+                                ],
+                                "text": "calcium carbonate"
+                            },
+                            "strength": {
+                                "numerator": {
+                                    "value": 1000,
+                                    "code": "mg",
+                                    "system": "http://unitsofmeasure.org"
+                                },
+                                "denominator": {
+                                    "value": 1,
+                                    "code": "15054000",
+                                    "system": "http://standardterms.edqm.eu",
+                                    "unit": "Tablet"
+                                }
+                            }
+                        },
+                        {
+                            "itemCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "code": "1C6V77QF41",
+                                        "system": "http://fdasis.nlm.nih.gov",
+                                        "display": "cholecalciferol"
+                                    }
+                                ],
+                                "text": "cholecalciferol"
+                            },
+                            "strength": {
+                                "numerator": {
+                                    "value": 880,
+                                    "code": "{UI}",
+                                    "system": "http://unitsofmeasure.org"
+                                },
+                                "denominator": {
+                                    "value": 1,
+                                    "code": "15054000",
+                                    "system": "http://standardterms.edqm.eu",
+                                    "unit": "Tablet"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Medication/Ovl-6f4151e9-91f6-4f1e-adc3-fb94dda79261",
+                "resource": {
+                    "resourceType": "Medication",
+                    "id": "Ovl-6f4151e9-91f6-4f1e-adc3-fb94dda79261",
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "79963",
+                                "system": "https://spor.ema.europa.eu/pmswi",
+                                "display": "HIPÉRICO ARKOPHARMA cápsulas duras"
+                            },
+                            {
+                                "code": "0xbb82cd10ab2add752b2b9224931099j1",
+                                "system": "https://www.who-umc.org/phpid",
+                                "display": "St. John's Wort (HIPÉRICO ARKOPHARMA) hard tablet"
+                            },
+                            {
+                                "code": "A03FA02",
+                                "system": "http://www.whocc.no/atc",
+                                "display": "HYPERICUM PERFORATUM WHOLE"
+                            }
+                        ]
+                    },
+                    "form": {
+                        "coding": [
+                            {
+                                "code": "10219000",
+                                "system": "http://standardterms.edqm.eu",
+                                "display": "Tablet"
+                            }
+                        ],
+                        "text": "Tablet"
+                    },
+                    "ingredient": [
+                        {
+                            "itemCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "code": "XK4IUX8MNB",
+                                        "system": "http://fdasis.nlm.nih.gov",
+                                        "display": "HYPERICUM PERFORATUM WHOLE"
+                                    }
+                                ],
+                                "text": "HYPERICUM PERFORATUM WHOLE"
+                            },
+                            "strength": {
+                                "numerator": {
+                                    "value": 175,
+                                    "code": "mg",
+                                    "system": "http://unitsofmeasure.org"
+                                },
+                                "denominator": {
+                                    "value": 1,
+                                    "code": "15054000",
+                                    "system": "http://standardterms.edqm.eu",
+                                    "unit": "Tablet"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Observation/Ovl-alicia-pregnancy",
+                "resource": {
+                    "resourceType": "Observation",
+                    "id": "Ovl-alicia-pregnancy",
+                    "status": "final",
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "82810-3",
+                                "system": "http://loinc.org",
+                                "display": "Pregnancy status"
+                            }
+                        ]
+                    },
+                    "subject": {
+                        "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2",
+                        "display": "IPS 4 Gravitate"
+                    },
+                    "effectiveDateTime": "2020-01-10",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "code": "LA15173-0",
+                                "system": "http://loinc.org",
+                                "display": "Pregnant"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Observation/Ovl-alicia-bw",
+                "resource": {
+                    "resourceType": "Observation",
+                    "id": "Ovl-alicia-bw",
+                    "status": "final",
+                    "category": [
+                        {
+                            "coding": [
+                                {
+                                    "code": "vital-signs",
+                                    "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                                }
+                            ]
+                        }
+                    ],
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "29463-7",
+                                "system": "http://loinc.org",
+                                "display": "Body weight"
+                            }
+                        ]
+                    },
+                    "subject": {
+                        "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2",
+                        "display": "IPS 4 Gravitate"
+                    },
+                    "effectiveDateTime": "2009-10-09",
+                    "valueQuantity": {
+                        "value": 70,
+                        "code": "kg",
+                        "system": "http://unitsofmeasure.org"
+                    }
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Observation/Ovl-alicia-bh",
+                "resource": {
+                    "resourceType": "Observation",
+                    "id": "Ovl-alicia-bh",
+                    "status": "final",
+                    "category": [
+                        {
+                            "coding": [
+                                {
+                                    "code": "vital-signs",
+                                    "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                                }
+                            ]
+                        }
+                    ],
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "8302-2",
+                                "system": "http://loinc.org",
+                                "display": "Body height"
+                            }
+                        ]
+                    },
+                    "subject": {
+                        "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2",
+                        "display": "IPS 4 Gravitate"
+                    },
+                    "effectiveDateTime": "2009-10-09",
+                    "valueQuantity": {
+                        "value": 170,
+                        "code": "cm",
+                        "system": "http://unitsofmeasure.org"
+                    }
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Observation/Ovl-alicia-bp",
+                "resource": {
+                    "resourceType": "Observation",
+                    "id": "Ovl-alicia-bp",
+                    "status": "final",
+                    "category": [
+                        {
+                            "coding": [
+                                {
+                                    "code": "vital-signs",
+                                    "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                                }
+                            ]
+                        }
+                    ],
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "85354-9",
+                                "system": "http://loinc.org",
+                                "display": "Blood pressure panel with all children optional"
+                            }
+                        ]
+                    },
+                    "subject": {
+                        "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2",
+                        "display": "IPS 4 Gravitate"
+                    },
+                    "effectiveDateTime": "2009-10-09",
+                    "component": [
+                        {
+                            "code": {
+                                "coding": [
+                                    {
+                                        "code": "8462-4",
+                                        "system": "http://loinc.org",
+                                        "display": "Diastolic blood pressure"
+                                    }
+                                ]
+                            },
+                            "valueQuantity": {
+                                "value": 80,
+                                "code": "mm[Hg]",
+                                "system": "http://unitsofmeasure.org"
+                            }
+                        },
+                        {
+                            "code": {
+                                "coding": [
+                                    {
+                                        "code": "8480-6",
+                                        "system": "http://loinc.org",
+                                        "display": "Systolic blood pressure"
+                                    }
+                                ]
+                            },
+                            "valueQuantity": {
+                                "value": 120,
+                                "code": "mm[Hg]",
+                                "system": "http://unitsofmeasure.org"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Observation/Ovl-alicia-glucose",
+                "resource": {
+                    "resourceType": "Observation",
+                    "id": "Ovl-alicia-glucose",
+                    "status": "final",
+                    "category": [
+                        {
+                            "coding": [
+                                {
+                                    "code": "vital-signs",
+                                    "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                                }
+                            ]
+                        }
+                    ],
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "15074-8",
+                                "system": "http://loinc.org",
+                                "display": "Glucose [Moles/volume] in Blood"
+                            }
+                        ]
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient"
+                    },
+                    "effectiveDateTime": "2013-04-02T09:30:10+01:00",
+                    "valueQuantity": {
+                        "value": 6.3,
+                        "code": "mmol/L",
+                        "system": "http://unitsofmeasure.org",
+                        "unit": "mmol/l"
+                    },
+                    "interpretation": [
+                        {
+                            "coding": [
+                                {
+                                    "code": "H",
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                                    "display": "High"
+                                }
+                            ]
+                        }
+                    ],
+                    "referenceRange": [
+                        {
+                            "low": {
+                                "value": 3.1,
+                                "code": "mmol/L",
+                                "system": "http://unitsofmeasure.org",
+                                "unit": "mmol/l"
+                            },
+                            "high": {
+                                "value": 6.2,
+                                "code": "mmol/L",
+                                "system": "http://unitsofmeasure.org",
+                                "unit": "mmol/l"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Observation/Ovl-alicia-egfr",
+                "resource": {
+                    "resourceType": "Observation",
+                    "id": "Ovl-alicia-egfr",
+                    "status": "final",
+                    "category": [
+                        {
+                            "coding": [
+                                {
+                                    "code": "vital-signs",
+                                    "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                                }
+                            ]
+                        }
+                    ],
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "48643-1",
+                                "system": "http://loinc.org",
+                                "display": "Glomerular filtration rate [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)/1.73 sq M among black population"
+                            }
+                        ]
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient"
+                    },
+                    "effectiveDateTime": "2013-04-02T09:30:10+01:00",
+                    "valueQuantity": {
+                        "value": 29,
+                        "code": "mL/min/1.73m2",
+                        "system": "http://unitsofmeasure.org",
+                        "unit": "mL/min/1.73m2"
+                    }
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Observation/Ovl-alicia-potassium",
+                "resource": {
+                    "resourceType": "Observation",
+                    "id": "Ovl-alicia-potassium",
+                    "status": "final",
+                    "category": [
+                        {
+                            "coding": [
+                                {
+                                    "code": "vital-signs",
+                                    "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                                }
+                            ]
+                        }
+                    ],
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "6298-4",
+                                "system": "http://loinc.org",
+                                "display": "Potassium [Moles/volume] in Blood"
+                            }
+                        ]
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient"
+                    },
+                    "effectiveDateTime": "2013-04-02T09:30:10+01:00",
+                    "valueQuantity": {
+                        "value": 2.5,
+                        "code": "mmol/L",
+                        "system": "http://unitsofmeasure.org",
+                        "unit": "mmol/L"
+                    }
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Observation/Ovl-alicia-QR-EQ5D-5L",
+                "resource": {
+                    "resourceType": "QuestionnaireResponse",
+                    "id": "Ovl-alicia-QR-EQ5D-5L",
+                    "status": "completed",
+                    "questionnaire": "http://hl7.eu/fhir/ig/gravitate-health-ips/Questionnaire/Questionnaire-EQ5D-5L",
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient"
+                    },
+                    "authored": "2025-10-08T10:35:00Z",
+                    "item": [
+                        {
+                            "linkId": "d1",
+                            "answer": [
+                                {
+                                    "valueCoding": {
+                                        "code": "2",
+                                        "system": "http://hl7.eu/fhir/ig/gravitate-health-ips/CodeSystem/eq5d-levels-cs",
+                                        "display": "Slight problems"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "d2",
+                            "answer": [
+                                {
+                                    "valueCoding": {
+                                        "code": "1",
+                                        "system": "http://hl7.eu/fhir/ig/gravitate-health-ips/CodeSystem/eq5d-levels-cs",
+                                        "display": "No problems"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "d3",
+                            "answer": [
+                                {
+                                    "valueCoding": {
+                                        "code": "3",
+                                        "system": "http://hl7.eu/fhir/ig/gravitate-health-ips/CodeSystem/eq5d-levels-cs",
+                                        "display": "Moderate problems"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "d4",
+                            "answer": [
+                                {
+                                    "valueCoding": {
+                                        "code": "2",
+                                        "system": "http://hl7.eu/fhir/ig/gravitate-health-ips/CodeSystem/eq5d-levels-cs",
+                                        "display": "Slight problems"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "d5",
+                            "answer": [
+                                {
+                                    "valueCoding": {
+                                        "code": "1",
+                                        "system": "http://hl7.eu/fhir/ig/gravitate-health-ips/CodeSystem/eq5d-levels-cs",
+                                        "display": "No problems"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "linkId": "vas",
+                            "answer": [
+                                {
+                                    "valueInteger": 78
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Observation/Ovl-alicia-Health-Literacy-YesNo",
+                "resource": {
+                    "resourceType": "Observation",
+                    "id": "Ovl-alicia-Health-Literacy-YesNo",
+                    "status": "final",
+                    "category": [
+                        {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                    "code": "social-history"
+                                }
+                            ]
+                        }
+                    ],
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://example.org/fhir/CodeSystem/literacy",
+                                "code": "health-literacy",
+                                "display": "Health literacy (self-reported)"
+                            }
+                        ]
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient"
+                    },
+                    "effectiveDateTime": "2025-10-08",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://example.org/fhir/CodeSystem/literacy",
+                                "code": "yes",
+                                "display": "Yes"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Observation/Ovl-alicia-Digital-Literacy-Scale",
+                "resource": {
+                    "resourceType": "Observation",
+                    "id": "Ovl-alicia-Digital-Literacy-Scale",
+                    "status": "final",
+                    "category": [
+                        {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                    "code": "social-history"
+                                }
+                            ]
+                        }
+                    ],
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://example.org/fhir/CodeSystem/literacy",
+                                "code": "digital-literacy",
+                                "display": "Digital literacy (self-reported)"
+                            }
+                        ]
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient"
+                    },
+                    "effectiveDateTime": "2025-10-08",
+                    "valueInteger": 2,
+                    "interpretation": [
+                        {
+                            "coding": [
+                                {
+                                    "system": "http://example.org/fhir/CodeSystem/literacy",
+                                    "code": "medium",
+                                    "display": "Medium"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "fullUrl": "https://myserver.org/Observation/Ovl-alicia-physical-activity",
+                "resource": {
+                    "resourceType": "Observation",
+                    "id": "Ovl-alicia-physical-activity",
+                    "status": "final",
+                    "category": [
+                        {
+                            "coding": [
+                                {
+                                    "code": "activity",
+                                    "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                    "display": "Activity"
+                                }
+                            ]
+                        }
+                    ],
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "89555-7",
+                                "system": "http://loinc.org",
+                                "display": "Physical activity level"
+                            }
+                        ]
+                    },
+                    "subject": {
+                        "reference": "Patient/Ovl-alicia-patient"
+                    },
+                    "effectiveDateTime": "2013-04-02T09:30:10+01:00",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "code": "228400000",
+                                "system": "http://snomed.info/sct",
+                                "display": "Moderately active physical exercise level"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

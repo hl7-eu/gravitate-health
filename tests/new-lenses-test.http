@@ -1,0 +1,26 @@
+### Test all the lenses, individually.
+
+### Test Lens: LAB (EFGR)
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus?preprocessors=preprocessing-service-manual&lenses=lab-lens
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+< ./examples/lab-lens.json
+
+### Test Lens: QUESTIONNAIRE 
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus?preprocessors=preprocessing-service-manual&lenses=questionnaire-lens
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+< ./examples/questionnaire-lens.json
+
+
+### Test Lens: QT 
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus?preprocessors=preprocessing-service-manual&lenses=qt-prolongation-lens
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+< ./examples/qt-prolongation.json
