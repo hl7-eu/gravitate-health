@@ -64,16 +64,19 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What amlodipine-italy is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>amlodipine-italy is a modern insulin (insulin analogue) with a rapid-acting effect. Modern insulin products 
-are improved versions of human insulin. </p>
-<p>amlodipine-italy is used to reduce the high blood sugar level in adults, adolescents and children aged 1 year 
-and above with diabetes mellitus (diabetes). Diabetes is a disease where your body does not produce 
-enough insulin to control the level of your blood sugar. Treatment with amlodipine-italy helps to prevent 
-complications from your diabetes. </p>
-<p>amlodipine-italy will start to lower your blood sugar 10 20 minutes after you inject it, a maximum effect 
-occurs between 1 and 3 hours after the injection and the effect lasts for 3 5 hours. Due to this short 
-action amlodipine-italy should normally be taken in combination with intermediate-acting or long-acting 
-insulin preparations. Moreover amlodipine-italy can be used for continuous infusion in a pump system. </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Che cos'è Amlodipina DOC Generici e a cosa serve</h2>
+  <p>
+    Amlodipina DOC Generici contiene il principio attivo amlodipina, un calcio–antagonista
+    della classe dei diidropiridinici. Appartiene al gruppo dei medicinali usati per
+    trattare la pressione arteriosa alta (antipertensivi) e il dolore toracico dovuto a
+    ridotto apporto di sangue al cuore (antianginosi).  [oai_citation:0‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+  </p>
+  <p>Amlodipina DOC Generici è indicato negli adulti per il trattamento di:  [oai_citation:1‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)</p>
+  <ul>
+    <li>ipertensione arteriosa</li>
+    <li>angina pectoris cronica stabile</li>
+    <li>angina dovuta a vasospasmo (angina di Prinzmetal)</li>
+  </ul>      </div>"""   
           
 
              
@@ -82,181 +85,142 @@ insulin preparations. Moreover amlodipine-italy can be used for continuous infus
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take amlodipine-italy"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use amlodipine-italy  </p>
-<p>If you are allergic to insulin aspart, or any of the other ingredients in this medicine (see section 
-6, Contents of the pack and other information). </p>
-<p>If you suspect hypoglycaemia (low blood sugar) is starting (see a) Summary of serious and very 
-common side effects in section 4). </p>
-<p>If the protective cap is loose or missing. Each vial has a protective, tamper-proof plastic cap. If 
-it is not in perfect condition when you get the vial, return the vial to your supplier. </p>
-<p>If it has not been stored correctly or been frozen (see section 5, How to store amlodipine-italy). </p>
-<p>If the insulin does not appear clear and colourless. </p>
-<p>If any of these applies, do not use amlodipine-italy. Talk with your doctor, nurse or pharmacist for advice. </p>
-<p>Before using amlodipine-italy </p>
-<p>Check the label to make sure it is the right type of insulin. </p>
-<p>Remove the protective cap. </p>
-<p>Always use a new needle for each injection to prevent contamination. </p>
-<p>Needles and syringes must not be shared. </p>
-<p>Warnings and precautions </p>
-<p>Some conditions and activities can affect your need for insulin. Consult your doctor: </p>
-<p>If you have trouble with your kidneys or liver, or with your adrenal, pituitary or thyroid glands.  </p>
-<p>If you exercise more than usual or if you want to change your usual diet, as this may affect your 
-blood sugar level. </p>
-<p>If you are ill, carry on taking your insulin and consult your doctor. </p>
-<p>If you are going abroad, travelling over time zones may affect your insulin needs and the timing 
-of your injections. </p>
-<p>Skin changes at the injection site </p>
-<p>The injection site should be rotated to help prevent changes to the fatty tissue under the skin, such as 
-skin thickening, skin shrinking or lumps under the skin. The insulin may not work very well if you 
-inject into a lumpy, shrunken or thickened area (see section 3, How to use amlodipine-italy). Tell your 
-doctor if you notice any skin changes at the injection site. Tell your doctor if you are currently 
-injecting into these affected areas before you start injecting in a different area. Your doctor may tell 
-you to check your blood sugar more closely, and to adjust your insulin or your other antidiabetic 
-medications dose. </p>
-<p>Children and adolescents </p>
-<p>Do not give this medicine to children below 1 year of age since no clinical studies have been carried 
-out in children below the age of 1 year. </p>
-<p>Other medicines and amlodipine-italy </p>
-<p>Tell your doctor, nurse or pharmacist if you are taking, have recently taken or might take any other 
-medicines. 
-Some medicines affect your blood sugar level and this may mean that your insulin dose has to change. 
-Listed below are the most common medicines which may affect your insulin treatment. </p>
-<p>Your blood sugar level may fall (hypoglycaemia) if you take: 
-* Other medicines for the treatment of diabetes 
-* Monoamine oxidase inhibitors (MAOI) (used to treat depression) 
-* Beta-blockers (used to treat high blood pressure) 
-* Angiotensin converting enzyme (ACE) inhibitors (used to treat certain heart conditions or high 
-blood pressure) 
-* Salicylates (used to relieve pain and lower fever) 
-* Anabolic steroids (such as testosterone) 
-* Sulphonamides (used to treat infections). </p>
-<p>Your blood sugar level may rise (hyperglycaemia) if you take: 
-* Oral contraceptives (birth control pills) 
-* Thiazides (used to treat high blood pressure or excessive fluid retention) 
-* Glucocorticoids (such as  cortisone  used to treat inflammation) 
-* Thyroid hormones (used to treat thyroid gland disorders) 
-* Sympathomimetics (such as epinephrine [adrenaline], or salbutamol, terbutaline used to treat 
-asthma) 
-* Growth hormone (medicine for stimulation of skeletal and somatic growth and pronounced 
-influence on the body s metabolic processes) 
-* Danazol (medicine acting on ovulation). </p>
-<p>Octreotide and lanreotide (used for treatment of acromegaly, a rare hormonal disorder that usually 
-occurs in middle-aged adults, caused by the pituitary gland producing excess growth hormone) may 
-either increase or decrease your blood sugar level. </p>
-<p>Beta-blockers (used to treat high blood pressure) may weaken or suppress entirely the first warning 
-symptoms which help you to recognise low blood sugar. </p>
-<p>Pioglitazone (tablets used for the treatment of type 2 diabetes) 
-Some patients with long-standing type 2 diabetes and heart disease or previous stroke who were 
-treated with pioglitazone and insulin experienced the development of heart failure. Inform your doctor 
-as soon as possible if you experience signs of heart failure such as unusual shortness of breath or rapid 
-increase in weight or localised swelling (oedema). </p>
-<p>If you have taken any of the medicines listed here, tell your doctor, nurse or pharmacist. </p>
-<p>Drinking alcohol and taking amlodipine-italy </p>
-<p>If you drink alcohol, your need for insulin may change as your blood sugar level may either rise 
-or fall. Careful monitoring is recommended. </p>
-<p>Pregnancy and breast-feeding </p>
-<p>If you are pregnant, think you may be pregnant or are planning to have a baby, ask your doctor 
-for advice before taking this medicine. amlodipine-italy can be used during pregnancy. Your insulin 
-dose may need to be changed during pregnancy and after delivery. Careful control of your 
-diabetes, particularly prevention of hypoglycaemia, is important for the health of your baby. </p>
-<p>There are no restrictions on treatment with amlodipine-italy during breast-feeding. </p>
-<p>Ask your doctor, nurse or pharmacist for advice before taking this medicine while pregnant or breast-
-feeding. </p>
-<p>Driving and using machines </p>
-<p>Please ask your doctor whether you can drive a car or operate a machine: 
-* If you have frequent hypoglycaemia.<br />
-* If you find it hard to recognise hypoglycaemia. </p>
-<p>If your blood sugar is low or high, your concentration and ability to react might be affected and 
-therefore also your ability to drive or operate a machine. Bear in mind that you could endanger 
-yourself or others. </p>
-<p>amlodipine-italy has a rapid onset of effect therefore if hypoglycaemia occurs, you may experience it earlier 
-after an injection when compared to soluble human insulin. </p>
-<p>Important information about some of the ingredients of amlodipine-italy </p>
-<p>amlodipine-italy contains less than 1 mmol sodium (23 mg) per dose, i.e. amlodipine-italy is essentially 
- sodium-free . </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <h2>Cosa deve sapere prima di prendere Amlodipina DOC Generici</h2>
+
+  <h3>Non prenda Amlodipina DOC Generici se</h3>
+  <ul>
+    <li>è allergico ad amlodipina, ad altri derivati diidropiridinici o a uno qualsiasi degli eccipienti</li>
+    <li>ha una pressione del sangue molto bassa (ipotensione grave)</li>
+    <li>è in stato di shock (incluso shock cardiogeno)</li>
+    <li>presenta un’ostruzione importante all’uscita del sangue dal cuore (ad es. stenosi aortica severa)</li>
+    <li>ha insufficienza cardiaca con instabilità emodinamica dopo un recente infarto miocardico</li>
+  </ul>
+
+  <h3>Avvertenze e precauzioni</h3>
+  <p>Si rivolga al medico prima di prendere questo medicinale se:  [oai_citation:2‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)</p>
+  <ul>
+    <li>soffre di insufficienza cardiaca: nei pazienti con scompenso grave è stato osservato un aumento dei casi di edema polmonare</li>
+    <li>ha problemi al fegato: l’amlodipina rimane più a lungo nel sangue, può essere necessario iniziare con la dose più bassa e un controllo più frequente</li>
+    <li>ha problemi ai reni: in genere non è necessario modificare la dose, ma il medico la controllerà regolarmente; l’amlodipina non è eliminata con la dialisi</li>
+    <li>è anziano: l’aumento della dose va valutato con particolare cautela</li>
+  </ul>
+  <p>
+    La sicurezza e l’efficacia di amlodipina nelle crisi ipertensive (aumento improvviso e grave della
+    pressione) non sono state stabilite.  [oai_citation:3‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+  </p>
+  <p>
+    Questo medicinale contiene lattosio: se il medico le ha diagnosticato una intolleranza a
+    determinati zuccheri, lo consulti prima di assumere il medicinale.  [oai_citation:4‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+  </p>
+
+  <h3>Altri medicinali e Amlodipina DOC Generici</h3>
+  <p>
+    Informi il medico o il farmacista se sta assumendo, ha recentemente assunto o potrebbe assumere
+    qualsiasi altro medicinale. In particolare, informi il medico se prende:  [oai_citation:5‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+  </p>
+  <ul>
+    <li>
+      <strong>Inibitori del CYP3A4 potenti o moderati</strong>
+      (ad es. inibitori della proteasi, antimicotici azolici, antibiotici macrolidi come eritromicina o
+      claritromicina, verapamil o diltiazem), che possono aumentare la quantità di amlodipina nel sangue e
+      il rischio di ipotensione
+    </li>
+    <li>
+      <strong>Induttori del CYP3A4</strong>
+      (come rifampicina, erba di San Giovanni), che possono ridurre l’effetto di amlodipina; può essere
+      necessario controllare la pressione e adeguare la dose
+    </li>
+    <li>
+      altri medicinali per la pressione alta (diuretici, beta–bloccanti, ACE–inibitori, alfa–bloccanti), poiché
+      l’effetto ipotensivo può sommarsi
+    </li>
+    <li>
+      pompelmo o succo di pompelmo, che possono aumentare la biodisponibilità di amlodipina; l’associazione
+      non è raccomandata
+    </li>
+    <li>
+      dantrolene per infusione endovenosa, per il rischio di gravi problemi cardiaci; l’associazione deve
+      essere evitata
+    </li>
+  </ul>
+
+  <h3>Gravidanza, allattamento e fertilità</h3>
+  <ul>
+    <li>
+      <strong>Gravidanza:</strong> la sicurezza di amlodipina in gravidanza non è stata stabilita. L’uso è
+      raccomandato solo se non esistono alternative più sicure e se la malattia rappresenta un rischio importante
+      per la madre e il feto.  [oai_citation:6‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    </li>
+    <li>
+      <strong>Allattamento:</strong> amlodipina passa nel latte materno; la quota ricevuta dal neonato è in
+      genere bassa, ma l’effetto sul bambino non è noto. Il medico valuterà se interrompere l’allattamento o
+      la terapia.  [oai_citation:7‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    </li>
+    <li>
+      <strong>Fertilità:</strong> con i calcio–antagonisti sono state osservate alterazioni reversibili degli
+      spermatozoi; negli animali sono stati riportati effetti sulla fertilità maschile, mentre i dati clinici
+      nell’uomo sono limitati.  [oai_citation:8‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    </li>
+  </ul>
+
+  <h3>Guida di veicoli e uso di macchinari</h3>
+  <p>
+    Amlodipina può alterare lievemente o moderatamente la capacità di guidare veicoli o usare macchinari.
+    Se durante il trattamento compaiono capogiri, mal di testa, stanchezza o nausea, la sua capacità di
+    reazione può essere ridotta; usi cautela, soprattutto all’inizio della terapia.  [oai_citation:9‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+  </p>    </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take amlodipine-italy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take amlodipine-italy"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dose and when to take your insulin </p>
-<p>Always use your insulin and adjust your dose exactly as your doctor has told you. Check with your 
-doctor, nurse or pharmacist if you are not sure. </p>
-<p>amlodipine-italy is generally taken immediately before a meal. Eat a meal or snack within 10 minutes of the 
-injection to avoid low blood sugar. When necessary, amlodipine-italy can be given soon after a meal. See 
-How and where to inject below for information. </p>
-<p>Do not change your insulin unless your doctor tells you to. If your doctor has switched you from one 
-type or brand of insulin to another, your dose may have to be adjusted by your doctor.  </p>
-<p>Use in children and adolescents </p>
-<p>amlodipine-italy can be used in adolescents and children aged 1 year and above instead of soluble human 
-insulin when a rapid onset of effect is preferred. For example, when it is difficult to dose the child in 
-relation to meals.  </p>
-<p>Use in special patient groups </p>
-<p>If you have reduced kidney or liver function, or if you are above 65 years of age, you need to check 
-your blood sugar more regularly and discuss changes in your insulin dose with your doctor. </p>
-<p>How and where to inject </p>
-<p>amlodipine-italy is for injection under the skin (subcutaneously) or for continuous infusion in a pump 
-system. Administration in a pump system will require a comprehensive instruction by your healthcare 
-professional. You must never inject yourself directly into a vein (intravenously) or muscle 
-(intramuscularly). If necessary amlodipine-italy can be given directly into a vein but this must only be done 
-by physicians or other healthcare staff. </p>
-<p>With each injection, change the injection site within the particular area of skin that you use. This may 
-reduce the risk of developing lumps or skin pitting (see section 4, Possible side effects). The best 
-places to give yourself an injection are: the front of your waist (abdomen), the upper arm or the front 
-of your thighs. The insulin will work more quickly if injected into the front of your waist. You should 
-always measure your blood sugar regularly. </p>
-<p>NPH (Neutral Protamine Hagedorn) insulin is the only type of insulin that can be mixed with 
-amlodipine-italy and the mixture must be injected immediately under your skin (subcutaneously). 
-amlodipine-italy should be drawn into the syringe before you draw your NPH insulin. </p>
-<p>How to take amlodipine-italy </p>
-<p>If you use only one type of insulin 
-1. Draw into the syringe the same amount of air as the dose of insulin you are going to inject. 
-Inject the air into the vial. 
-2. Turn the vial and syringe upside down and draw the correct insulin dose into the syringe. Pull 
-the needle out of the vial. Then expel the air from the syringe and check that the dose is correct. </p>
-<p>If you have to mix two types of insulin 
-1. Just before use, roll the NPH insulin between your hands until the liquid is uniformly white and 
-cloudy. 
-2. Draw into the syringe the same amount of air as the dose of the NPH insulin. Inject the air into 
-the vial containing the NPH insulin and pull out the needle. 
-3. Draw into the syringe the same amount of air as the dose of amlodipine-italy. Inject the air into the 
-vial containing amlodipine-italy. Turn the vial and syringe upside down and draw up the prescribed 
-dose of amlodipine-italy. Expel any air from the syringe and check that the dose is correct. 
-4. Push the needle into the vial of the NPH insulin, turn the vial and syringe upside down and draw 
-out the dose you have been prescribed. Expel any air from the syringe and check the dose. Inject 
-the mixture immediately. 
-5. Always mix amlodipine-italy and the NPH insulin in the same sequence. </p>
-<p>How to inject amlodipine-italy </p>
-<p>Inject the insulin under the skin. Use the injection technique advised by your doctor or nurse. </p>
-<p>Keep the needle under your skin for at least 6 seconds to make sure you have injected all the 
-insulin. </p>
-<p>Discard the needle after each injection. </p>
-<p>For use in an infusion pump system </p>
-<p>amlodipine-italy should never be mixed with any other insulin when used in a pump.<br />
-Follow the instructions and recommendations from your doctor regarding the use of amlodipine-italy in a 
-pump. Before use of amlodipine-italy in the pump system, you must have received a comprehensive 
-instruction in the use and information about any actions to be taken in case of illness, too high or too 
-low blood sugar or failure of the pump system.<br />
-* Before inserting the needle, use soap and water to clean your hands and the skin where the 
-needle is inserted to avoid any infection at the infusion site. 
-* When you fill a new reservoir, be certain not to leave large air bubbles in either the syringe or 
-the tubing. 
-* Changing of the infusion set (tubing and needle) must be done according to the instructions in 
-the product information supplied with the infusion set. </p>
-<p>To get the benefit of insulin infusion, and to detect possible malfunction of the insulin pump, it is 
-recommended that you measure your blood sugar level regularly. </p>
-<p>What to do in case of pump system failure </p>
-<p>You should always have an alternative delivery method for your insulin available for injection under 
-the skin in case of pump system failure. </p>
-<p>If you take more insulin than you should </p>
-<p>If you take too much insulin your blood sugar gets too low (hypoglycaemia). See a) Summary of 
-serious and very common side effects in section 4. If you forget to take your insulin </p>
-<p>If you forget to take your insulin your blood sugar may get too high (hyperglycaemia). See c) Effects 
-from diabetes in section 4. If you stop taking your insulin </p>
-<p>Do not stop taking your insulin without speaking with a doctor, who will tell you what needs to be 
-done. This could lead to very high blood sugar (severe hyperglycaemia) and ketoacidosis. See c) 
-Effects from diabetes in section 4. If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p>         </div>"""         
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Come prendere Amlodipina DOC Generici</h2>
+
+  <h3>Posologia</h3>
+  <ul>
+    <li>
+      <strong>Adulti (ipertensione e angina):</strong>
+      la dose iniziale raccomandata è 5&nbsp;mg una volta al giorno; se necessario, il medico può aumentare la dose
+      fino a un massimo di 10&nbsp;mg una volta al giorno, in base alla risposta individuale.  [oai_citation:10‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    </li>
+    <li>
+      <strong>Associazioni:</strong>
+      Amlodipina DOC Generici può essere usato da solo o in associazione con altri medicinali per la pressione
+      o per l’angina (diuretici tiazidici, alfa–bloccanti, beta–bloccanti, ACE–inibitori, altri antianginosi). In
+      genere non è necessario modificare la dose degli altri farmaci.  [oai_citation:11‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    </li>
+    <li>
+      <strong>Anziani:</strong>
+      si usano le stesse dosi degli adulti, ma l’aumento della dose deve essere valutato con maggiore cautela.  [oai_citation:12‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    </li>
+    <li>
+      <strong>Pazienti con funzionalità epatica ridotta:</strong>
+      non esistono schemi di dosaggio precisi; in questi pazienti il trattamento deve iniziare con la dose più
+      bassa e procedere con aggiustamenti graduali sotto stretto controllo medico.  [oai_citation:13‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    </li>
+  </ul>
+
+  <h3>Modo di somministrazione</h3>
+  <p>
+    Prenda le compresse alla stessa ora ogni giorno, con un po’ d’acqua. Il medicinale può essere assunto
+    indipendentemente dai pasti. Non mastichi le compresse.
+  </p>
+
+  <h3>Se prende più Amlodipina DOC Generici di quanto deve</h3>
+  <p>
+    Un sovradosaggio può causare una marcata e prolungata riduzione della pressione del sangue, con
+    vasodilatazione periferica, tachicardia riflessa e, nei casi più gravi, shock potenzialmente fatale.
+    In caso di assunzione accidentale di dosi elevate contatti immediatamente il medico o il pronto soccorso,
+    portando con sé la confezione del medicinale.  [oai_citation:14‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+  </p>
+
+  <h3>Se dimentica di prendere Amlodipina DOC Generici</h3>
+  <p>
+    Se dimentica una dose, la prenda appena se ne ricorda, a meno che non sia quasi l’ora della dose successiva.
+    In tal caso salti la dose dimenticata e prenda la successiva all’ora abituale. Non prenda una dose doppia
+    per compensare la dose dimenticata.
+  </p>   </div>"""         
 
         
 * section[=].section[+]
@@ -264,108 +228,69 @@ Effects from diabetes in section 4. If you have any further questions on the use
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>a) 
-Summary of serious and very common side effects  </p>
-<p>Low blood sugar (hypoglycaemia) is a very common side effect. It may affect more than 1 in people. </p>
-<p>Low blood sugar may occur if you: 
-* Inject too much insulin. 
-* Eat too little or miss a meal. 
-* Exercise more than usual. 
-* Drink alcohol (see Drinking alcohol and taking amlodipine-italy in section 2). </p>
-<p>Signs of low blood sugar: Cold sweat; cool pale skin; headache; rapid heartbeat; feeling sick; feeling 
-very hungry; temporary changes in vision; drowsiness; unusual tiredness and weakness; nervousness 
-or tremor; feeling anxious; feeling confused; difficulty in concentrating. </p>
-<p>Severe low blood sugar can lead to unconsciousness. If prolonged severe low blood sugar is not 
-treated, it can cause brain damage (temporary or permanent) and even death. You may recover more 
-quickly from unconsciousness with an injection of the hormone glucagon by someone who knows how 
-to use it. If you are given glucagon, you will need glucose or a sugar snack as soon as you are 
-conscious. If you do not respond to glucagon treatment, you will have to be treated in a hospital. </p>
-<p>What to do if you experience low blood sugar: </p>
-<p>If you experience low blood sugar, eat glucose tablets or another high sugar snack (e.g. sweets, 
-biscuits, fruit juice). Measure your blood sugar if possible and rest. Always carry glucose tablets 
-or high sugar snacks with you, just in case. </p>
-<p>When symptoms of low blood sugar have disappeared or when blood sugar level is stabilised, 
-continue insulin treatment as usual. </p>
-<p>If you have such a low blood sugar that it makes you pass out, if you have had need for injection 
-of glucagon, or if you have experienced many incidents of low blood sugar, talk with a doctor. 
-The amount or timing of insulin, food or exercise may need to be adjusted. </p>
-<p>Tell relevant people that you have diabetes and what the consequences may be, including the risk of 
-passing out (become unconscious) due to low blood sugar. Let them know that if you pass out, they 
-must turn you on your side and get medical help straight away. They must not give you any food or 
-drink due to risk of suffocation. </p>
-<p>Serious allergic reactions to amlodipine-italy or one of its ingredients (called a systemic allergic reaction) 
-is a very rare side effect but can potentially be life threatening. It may affect less than 1 in 10,people. </p>
-<p>Seek medical advice immediately: 
-* If signs of allergy spread to other parts of your body. 
-* If you suddenly feel unwell, and you: start sweating; start being sick (vomiting); have difficulty 
-in breathing; have a rapid heartbeat; feel dizzy. </p>
-<p>If you notice any of these signs, seek medical advice immediately. </p>
-<p>Skin changes at the injection site: If you inject insulin at the same place, the fatty tissue may shrink 
-(lipoatrophy) or thicken (lipohypertrophy) (may affect less than 1 in 100 people). Lumps under the 
-skin may also be caused by build-up of a protein called amyloid (cutaneous amyloidosis; how often 
-this occurs is not known). The insulin may not work very well if you inject into a lumpy, shrunken or 
-thickened area. Change the injection site with each injection to help prevent these skin changes. </p>
-<p>b) 
-List of other side effects </p>
-<p>Uncommon side effects 
-May affect less than 1 in 100 people. </p>
-<p>Signs of allergy: Local allergic reactions (pain, redness, hives, inflammation, bruising, swelling and 
-itching) at the injection site may occur. These usually disappear after a few weeks of taking your 
-insulin. If they do not disappear, or if they spread throughout your body, talk to your doctor 
-immediately. See also Serious allergic reactions above. </p>
-<p>Vision problems: When you first start your insulin treatment, it may disturb your vision, but the 
-disturbance is usually temporary. </p>
-<p>Swollen joints: When you start taking insulin, water retention may cause swelling around your ankles 
-and other joints. Normally this soon disappears. If not, talk to your doctor. </p>
-<p>Diabetic retinopathy (an eye disease related to diabetes which can lead to loss of vision): If you have 
-diabetic retinopathy and your blood sugar level improves very fast, the retinopathy may get worse. 
-Ask your doctor about this. </p>
-<p>Rare side effects<br />
-May affect less than 1 in 1,000 people. </p>
-<p>Painful neuropathy (pain due to nerve damage): If your blood sugar level improves very fast, you may 
-get nerve related pain. This is called acute painful neuropathy and is usually transient. </p>
-<p>Reporting of side effects </p>
-<p>If you get any side effects, talk with your doctor, nurse or pharmacist. This includes any possible side 
-effects not listed in this leaflet. You can also report side effects directly via the national reporting 
-system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>
-<p>c) 
-Effects from diabetes  </p>
-<p>High blood sugar (hyperglycaemia) </p>
-<p>High blood sugar may occur if you: 
-* Have not injected enough insulin. 
-* Forget to inject your insulin or stop taking insulin. 
-* Repeatedly inject less insulin than you need. 
-* Get an infection and/or a fever. 
-* Eat more than usual. 
-* Exercise less than usual. </p>
-<p>Warning signs of high blood sugar: 
-The warning signs appear gradually. They include: increased urination; feeling thirsty; losing your 
-appetite; feeling sick (nausea or vomiting); feeling drowsy or tired; flushed; dry skin; dry mouth and a 
-fruity (acetone) smell of the breath. </p>
-<p>What to do if you experience high blood sugar: </p>
-<p>If you get any of the above signs: test your blood sugar level, test your urine for ketones if you 
-can, then seek medical advice immediately. </p>
-<p>These may be signs of a very serious condition called diabetic ketoacidosis (build-up of acid in 
-the blood because the body is breaking down fat instead of sugar). If you do not treat it, this 
-could lead to diabetic coma and eventually death. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <h2>Possibili effetti indesiderati</h2>
+
+  <p>
+    Come tutti i medicinali, Amlodipina DOC Generici può causare effetti indesiderati, sebbene non tutte le persone
+    li manifestino. Le reazioni segnalate più spesso durante il trattamento comprendono sonnolenza, capogiri,
+    mal di testa, palpitazioni, vampate di calore, dolore addominale, nausea, gonfiore alle caviglie, edema
+    e affaticabilità.  [oai_citation:15‡Cercafarmaco](https://cercafarmaco.it/prodotti-e-farmaci/amlodipina-doc-28-compresse-5mg-038092019?utm_source=chatgpt.com)
+  </p>
+
+  <h3>Effetti indesiderati molto comuni (possono interessare più di 1 persona su 10)</h3>
+  <ul>
+    <li>gonfiore alle caviglie o ad altre parti del corpo (edema periferico)</li>
+  </ul>
+
+  <h3>Effetti indesiderati comuni (possono interessare fino a 1 persona su 10)</h3>
+  <ul>
+    <li>sonnolenza, capogiri, mal di testa</li>
+    <li>palpitazioni, vampate di calore</li>
+    <li>dolore addominale, nausea, disturbi gastrointestinali lievi</li>
+    <li>gonfiore alle caviglie, edema, senso di affaticamento</li>
+  </ul>
+
+  <h3>Effetti indesiderati non comuni o rari</h3>
+  <ul>
+    <li>alterazioni dell’umore, ansia, depressione, insonnia</li>
+    <li>tremori, formicolii o intorpidimento, svenimento, alterazioni del gusto</li>
+    <li>disturbi visivi, ronzii nelle orecchie (tinnito)</li>
+    <li>riduzione della pressione del sangue, difficoltà respiratorie, mancanza di fiato</li>
+    <li>vomito, diarrea o stipsi, secchezza delle fauci</li>
+    <li>dolori muscolari o articolari, crampi</li>
+    <li>aumento o diminuzione del peso corporeo</li>
+  </ul>
+
+  <p>
+    Possono verificarsi anche altre reazioni avverse meno frequenti, incluse reazioni allergiche, alterazioni
+    della funzionalità epatica o della conta delle cellule del sangue. Se nota qualsiasi sintomo insolito,
+    informi il medico o il farmacista.
+  </p>
+
+  <p>
+    Interrompa il trattamento e contatti immediatamente il medico se compaiono segni di reazione allergica
+    grave, come difficoltà a respirare, gonfiore del viso, delle labbra, della lingua o della gola, o un’eruzione
+    cutanea estesa.
+  </p>  </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store amlodipine-italy"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store amlodipine-italy"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
-Do not use this medicine after the expiry date which is stated on the vial label and carton, after  EXP . 
-The expiry date refers to the last day of that month. 
-Keep the vial in the outer carton in order to protect it from light.  </p>
-<p>Before opening: Store in a refrigerator at 2 C to 8 C, away from the cooling element. Do not freeze. </p>
-<p>During use or when carried as a spare: The product may be stored for a maximum of 4 weeks. Store 
-below 30 C. Do not refrigerate or freeze. </p>
-<p>Discard the needle after each injection. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Come conservare Amlodipina DOC Generici</h2>
+  <ul>
+    <li>Conservi questo medicinale fuori dalla vista e dalla portata dei bambini.</li>
+    <li>Non usi il medicinale dopo la data di scadenza riportata sulla confezione (SCAD.).  [oai_citation:16‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)</li>
+    <li>
+      Periodo di validità: 36&nbsp;mesi. Conservare nella confezione originale per proteggere il medicinale
+      dalla luce.  [oai_citation:17‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    </li>
+    <li>
+      Non getti i medicinali nell’acqua di scarico o nei rifiuti domestici; chieda al farmacista come eliminare
+      i medicinali che non utilizza più. Questo aiuta a proteggere l’ambiente.
+    </li>
+  </ul>    </div>"""      
         
         
 * section[=].section[+]
@@ -373,37 +298,37 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What amlodipine-italy contains </p>
-<ul>
-<li>The active substance is insulin aspart. Each ml contains 100 units of insulin aspart. Each vial 
-contains 1,000 units of insulin aspart in 10 ml solution for injection. </li>
-<li>The other ingredients are glycerol, phenol, metacresol, zinc chloride, disodium phosphate 
-dihydrate, sodium chloride, hydrochloric acid, sodium hydroxide and water for injections. </li>
-</ul>
-<p>What amlodipine-italy looks like and contents of the pack </p>
-<p>amlodipine-italy is presented as a solution for injection. </p>
-<p>Pack sizes of 1 or 5 vials of 10 ml or a multipack of 5 packs of 1 x 10 ml vial. Not all pack sizes may 
-be marketed. </p>
-<p>The solution is clear and colourless.  </p>
-<p>Marketing Authorisation Holder and Manufacturer </p>
-<p>Novo Nordisk A/S, Novo All , DK-2880 Bagsv rd, Denmark </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. 
-Package leaflet: Information for the user </p>
-<p>amlodipine-italy Penfill 100 units/ml solution for injection in cartridge<br />
-insulin aspart </p>
-<p>Read all of this leaflet carefully before you start using this medicine because it contains 
-important information for you. </p>
-<ul>
-<li>Keep this leaflet. You may need to read it again. </li>
-<li>If you have any further questions, ask your doctor, nurse or pharmacist. </li>
-<li>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
-even if their signs of illness are the same as yours. </li>
-<li>If you get any side effects, talk with your doctor, nurse or pharmacist. This includes any 
-possible side effects not listed in this leaflet. See section 4.</li>
-</ul>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Contenuto della confezione e altre informazioni</h2>
+
+  <h3>Cosa contiene Amlodipina DOC Generici</h3>
+  <ul>
+    <li>
+      <strong>Principio attivo:</strong>
+      ogni compressa contiene 5&nbsp;mg o 10&nbsp;mg di amlodipina (come amlodipina besilato).  [oai_citation:18‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    </li>
+    <li>
+      <strong>Eccipienti:</strong>
+      cellulosa microcristallina (E460), lattosio monoidrato, amido di mais, magnesio stearato (E470b).  [oai_citation:19‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    </li>
+  </ul>
+
+  <h3>Descrizione dell’aspetto e confezioni</h3>
+  <ul>
+    <li>
+      Amlodipina DOC Generici si presenta in compresse per uso orale da 5&nbsp;mg o 10&nbsp;mg, confezionate in
+      blister di alluminio/PVC/PVDC.
+    </li>
+    <li>
+      Confezioni disponibili: blister da 14, 28 o 30 compresse, a seconda del dosaggio e del canale di
+      distribuzione. Potrebbe non essere commercializzata ogni confezione descritta.  [oai_citation:20‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    </li>
+  </ul>
+
+  <h3>Titolare dell’autorizzazione all’immissione in commercio</h3>
+  <p>
+    DOC Generici S.r.l.<br>
+    Italia
+  </p>   </div>"""      
 
 
 
