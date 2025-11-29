@@ -415,11 +415,8 @@ Usage: #inline
 
  
 * identifier[+].system = "https://www.gravitatehealth.eu/sid/doc" 
-* identifier[=].value = "test-amlodipine-italy"
-* identifier[+].system = $spor-man
-* identifier[=].value = "204447"
-* identifier[+].system = $spor-man
-* identifier[=].value = "1115009" // WADA
+* identifier[=].value = "AMLODIPINA-DOC-GENERICI-tablet-10mg--71-ITA-MPD"
+
 
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
