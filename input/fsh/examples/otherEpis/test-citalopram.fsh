@@ -831,7 +831,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
           <div class="alert-banner questionnaire-lens" style="background-color:#ffdddd;padding:1em;border:1px solid #ff8888;margin-bottom:1em;">
           ⚠️ This medication may cause high-risk side effects.
-          <a href="https://sandbox.hl7europe.org/questionnaire/high-risk" target="_blank" style="margin-left: 1em;">Fill out safety questionnaire</a>
+          <a href="https://sandbox.hl7europe.eu/gh-questionnaire.html" target="_blank" style="margin-left: 1em;">Fill out safety questionnaire</a>
         </div>
 
   <p><strong>Do not use semaglutide if you are:</strong></p>

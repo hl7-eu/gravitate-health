@@ -60,11 +60,11 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What amlodipine-norway is and what it is used for"
+  * title =  "1. Hva amlodipin er og hva det brukes til"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What amlodipin is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>   <p>What amlodipine is and what it is used for</p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  
   <p>
     Amlodipin Sandoz inneholder virkestoffet amlodipin, som tilhører en gruppe legemidler som kalles
     kalsiumkanalblokkere av dihydropyridin-type. Det virker ved å få blodårene til å slappe av, slik at blodet
@@ -80,9 +80,9 @@ Usage: #inline
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take amlodipine-norway"
+  * title = "2. Hva du må vite før du tar amlodipin Sandoz"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take amlodipine-norway"
+  * code.text = "2. What you need to know before you take amlodipin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ikke ta Amlodipin Sandoz</p>
   <ul>
@@ -148,9 +148,9 @@ Usage: #inline
   </p>     </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take amlodipine-norway"
+  * title =  "3. Hvordan du skal ta amlodipin Sandoz"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take amlodipine-norway"
+  * code.text = "3. Hvordan du skal ta amlodipin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>   <p>Anbefalt dose</p>
   <ul>
@@ -185,11 +185,11 @@ Usage: #inline
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Mulige bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Mulige bivirkninger"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Possible side effects</p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  
 
   <p>
     Som alle legemidler kan Amlodipin Sandoz forårsake bivirkninger, men ikke alle får dem. De
@@ -242,9 +242,9 @@ Usage: #inline
    </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store amlodipine-norway"
+  * title = "5. Hvordan du oppbevarer amlodipin Sandoz"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store amlodipine-norway"
+  * code.text = "5. Hvordan du oppbevarer amlodipin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <ul>
     <li>Oppbevares utilgjengelig for barn.</li>
@@ -258,11 +258,11 @@ Usage: #inline
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Innholdet i pakningen og annen informasjon"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Innholdet i pakningen og annen informasjon"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <p>Contents of the pack and other information</p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> 
 
   <p>Hva Amlodipin Sandoz inneholder</p>
   <ul>
@@ -321,7 +321,7 @@ Usage: #inline
 
 
 * name
-  * productName = "amlodipine-norway Flexpen 100 units/ml solution for injection in pre-filled pens"
+  * productName = "Amlodipin sandoz 10 mg TABLETTER"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
