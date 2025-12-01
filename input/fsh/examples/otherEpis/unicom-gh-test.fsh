@@ -69,9 +69,9 @@ Usage: #inline
     Amlodipina DOC Generici contiene il principio attivo amlodipina, un calcio–antagonista
     della classe dei diidropiridinici. Appartiene al gruppo dei medicinali usati per
     trattare la pressione arteriosa alta (antipertensivi) e il dolore toracico dovuto a
-    ridotto apporto di sangue al cuore (antianginosi).  [oai_citation:0‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    ridotto apporto di sangue al cuore (antianginosi).  
   </p>
-  <p>Amlodipina DOC Generici è indicato negli adulti per il trattamento di:  [oai_citation:1‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)</p>
+  <p>Amlodipina DOC Generici è indicato negli adulti per il trattamento di:  </p>
   <ul>
     <li>ipertensione arteriosa</li>
     <li>angina pectoris cronica stabile</li>
@@ -97,7 +97,7 @@ Usage: #inline
   </ul>
 
   <p>Avvertenze e precauzioni</p>
-  <p>Si rivolga al medico prima di prendere questo medicinale se:  [oai_citation:2‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)</p>
+  <p>Si rivolga al medico prima di prendere questo medicinale se: </p> 
   <ul>
     <li>soffre di insufficienza cardiaca: nei pazienti con scompenso grave è stato osservato un aumento dei casi di edema polmonare</li>
     <li>ha problemi al fegato: l’amlodipina rimane più a lungo nel sangue, può essere necessario iniziare con la dose più bassa e un controllo più frequente</li>
@@ -106,17 +106,17 @@ Usage: #inline
   </ul>
   <p>
     La sicurezza e l’efficacia di amlodipina nelle crisi ipertensive (aumento improvviso e grave della
-    pressione) non sono state stabilite.  [oai_citation:3‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    pressione) non sono state stabilite.  
   </p>
   <p>
     Questo medicinale contiene lattosio: se il medico le ha diagnosticato una intolleranza a
-    determinati zuccheri, lo consulti prima di assumere il medicinale.  [oai_citation:4‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    determinati zuccheri, lo consulti prima di assumere il medicinale.  
   </p>
 
   <p>Altri medicinali e Amlodipina DOC Generici</p>
   <p>
     Informi il medico o il farmacista se sta assumendo, ha recentemente assunto o potrebbe assumere
-    qualsiasi altro medicinale. In particolare, informi il medico se prende:  [oai_citation:5‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    qualsiasi altro medicinale. In particolare, informi il medico se prende:  
   </p>
   <ul>
     <li>
@@ -149,17 +149,17 @@ Usage: #inline
     <li>
       <strong>Gravidanza:</strong> la sicurezza di amlodipina in gravidanza non è stata stabilita. L’uso è
       raccomandato solo se non esistono alternative più sicure e se la malattia rappresenta un rischio importante
-      per la madre e il feto.  [oai_citation:6‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+      per la madre e il feto.  
     </li>
     <li>
       <strong>Allattamento:</strong> amlodipina passa nel latte materno; la quota ricevuta dal neonato è in
       genere bassa, ma l’effetto sul bambino non è noto. Il medico valuterà se interrompere l’allattamento o
-      la terapia.  [oai_citation:7‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+      la terapia.  
     </li>
     <li>
       <strong>Fertilità:</strong> con i calcio–antagonisti sono state osservate alterazioni reversibili degli
       spermatozoi; negli animali sono stati riportati effetti sulla fertilità maschile, mentre i dati clinici
-      nell’uomo sono limitati.  [oai_citation:8‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+      nell’uomo sono limitati.  
     </li>
   </ul>
 
@@ -167,7 +167,7 @@ Usage: #inline
   <p>
     Amlodipina può alterare lievemente o moderatamente la capacità di guidare veicoli o usare macchinari.
     Se durante il trattamento compaiono capogiri, mal di testa, stanchezza o nausea, la sua capacità di
-    reazione può essere ridotta; usi cautela, soprattutto all’inizio della terapia.  [oai_citation:9‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    reazione può essere ridotta; usi cautela, soprattutto all’inizio della terapia.  
   </p>    </div>"""   
                     
 * section[=].section[+]
@@ -182,22 +182,20 @@ Usage: #inline
     <li>
       <strong>Adulti (ipertensione e angina):</strong>
       la dose iniziale raccomandata è 5&nbsp;mg una volta al giorno; se necessario, il medico può aumentare la dose
-      fino a un massimo di 10&nbsp;mg una volta al giorno, in base alla risposta individuale.  [oai_citation:10‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
-    </li>
+      fino a un massimo di 10&nbsp;mg una volta al giorno, in base alla risposta individuale. 
+      </li>
     <li>
       <strong>Associazioni:</strong>
       Amlodipina DOC Generici può essere usato da solo o in associazione con altri medicinali per la pressione
       o per l’angina (diuretici tiazidici, alfa–bloccanti, beta–bloccanti, ACE–inibitori, altri antianginosi). In
-      genere non è necessario modificare la dose degli altri farmaci.  [oai_citation:11‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
-    </li>
-    <li>
+      genere non è necessario modificare la dose degli altri farmaci.  
       <strong>Anziani:</strong>
-      si usano le stesse dosi degli adulti, ma l’aumento della dose deve essere valutato con maggiore cautela.  [oai_citation:12‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+      si usano le stesse dosi degli adulti, ma l’aumento della dose deve essere valutato con maggiore cautela.  
     </li>
     <li>
       <strong>Pazienti con funzionalità epatica ridotta:</strong>
       non esistono schemi di dosaggio precisi; in questi pazienti il trattamento deve iniziare con la dose più
-      bassa e procedere con aggiustamenti graduali sotto stretto controllo medico.  [oai_citation:13‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+      bassa e procedere con aggiustamenti graduali sotto stretto controllo medico.  
     </li>
   </ul>
 
@@ -212,7 +210,7 @@ Usage: #inline
     Un sovradosaggio può causare una marcata e prolungata riduzione della pressione del sangue, con
     vasodilatazione periferica, tachicardia riflessa e, nei casi più gravi, shock potenzialmente fatale.
     In caso di assunzione accidentale di dosi elevate contatti immediatamente il medico o il pronto soccorso,
-    portando con sé la confezione del medicinale.  [oai_citation:14‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+    portando con sé la confezione del medicinale.  
   </p>
 
   <p>Se dimentica di prendere Amlodipina DOC Generici</p>
@@ -234,7 +232,7 @@ Usage: #inline
     Come tutti i medicinali, Amlodipina DOC Generici può causare effetti indesiderati, sebbene non tutte le persone
     li manifestino. Le reazioni segnalate più spesso durante il trattamento comprendono sonnolenza, capogiri,
     mal di testa, palpitazioni, vampate di calore, dolore addominale, nausea, gonfiore alle caviglie, edema
-    e affaticabilità.  [oai_citation:15‡Cercafarmaco](https://cercafarmaco.it/prodotti-e-farmaci/amlodipina-doc-28-compresse-5mg-038092019?utm_source=chatgpt.com)
+    e affaticabilità.  
   </p>
 
   <p>Effetti indesiderati molto comuni (possono interessare più di 1 persona su 10)</p>
@@ -281,10 +279,10 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  
   <ul>
     <li>Conservi questo medicinale fuori dalla vista e dalla portata dei bambini.</li>
-    <li>Non usi il medicinale dopo la data di scadenza riportata sulla confezione (SCAD.).  [oai_citation:16‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)</li>
+    <li>Non usi il medicinale dopo la data di scadenza riportata sulla confezione (SCAD.).  </li>
     <li>
       Periodo di validità: 36&nbsp;mesi. Conservare nella confezione originale per proteggere il medicinale
-      dalla luce.  [oai_citation:17‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+      dalla luce.  
     </li>
     <li>
       Non getti i medicinali nell’acqua di scarico o nei rifiuti domestici; chieda al farmacista come eliminare
@@ -304,11 +302,11 @@ Usage: #inline
   <ul>
     <li>
       <strong>Principio attivo:</strong>
-      ogni compressa contiene 5&nbsp;mg o 10&nbsp;mg di amlodipina (come amlodipina besilato).  [oai_citation:18‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+      ogni compressa contiene 5&nbsp;mg o 10&nbsp;mg di amlodipina (come amlodipina besilato).  
     </li>
     <li>
       <strong>Eccipienti:</strong>
-      cellulosa microcristallina (E460), lattosio monoidrato, amido di mais, magnesio stearato (E470b).  [oai_citation:19‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+      cellulosa microcristallina (E460), lattosio monoidrato, amido di mais, magnesio stearato (E470b).  
     </li>
   </ul>
 
@@ -320,7 +318,7 @@ Usage: #inline
     </li>
     <li>
       Confezioni disponibili: blister da 14, 28 o 30 compresse, a seconda del dosaggio e del canale di
-      distribuzione. Potrebbe non essere commercializzata ogni confezione descritta.  [oai_citation:20‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
+      distribuzione. Potrebbe non essere commercializzata ogni confezione descritta.  
     </li>
   </ul>
 
