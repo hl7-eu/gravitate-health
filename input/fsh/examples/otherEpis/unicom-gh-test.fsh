@@ -1,4 +1,4 @@
-
+//https://www.codifa.it/foglietti-illustrativi/Amlodipina-DOC-Generici
 
 Instance: composition-en-test-amlodipine-italy
 InstanceOf: CompositionUvEpi
@@ -64,7 +64,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What amlodipine-italy is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Che cos'è Amlodipina DOC Generici e a cosa serve</h2>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Che cos'è Amlodipina DOC Generici e a cosa serve</p>
   <p>
     Amlodipina DOC Generici contiene il principio attivo amlodipina, un calcio–antagonista
     della classe dei diidropiridinici. Appartiene al gruppo dei medicinali usati per
@@ -85,9 +85,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take amlodipine-italy"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <h2>Cosa deve sapere prima di prendere Amlodipina DOC Generici</h2>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <p>Cosa deve sapere prima di prendere Amlodipina DOC Generici</p>
 
-  <h3>Non prenda Amlodipina DOC Generici se</h3>
+  <p>Non prenda Amlodipina DOC Generici se</p>
   <ul>
     <li>è allergico ad amlodipina, ad altri derivati diidropiridinici o a uno qualsiasi degli eccipienti</li>
     <li>ha una pressione del sangue molto bassa (ipotensione grave)</li>
@@ -96,7 +96,7 @@ Usage: #inline
     <li>ha insufficienza cardiaca con instabilità emodinamica dopo un recente infarto miocardico</li>
   </ul>
 
-  <h3>Avvertenze e precauzioni</h3>
+  <p>Avvertenze e precauzioni</p>
   <p>Si rivolga al medico prima di prendere questo medicinale se:  [oai_citation:2‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)</p>
   <ul>
     <li>soffre di insufficienza cardiaca: nei pazienti con scompenso grave è stato osservato un aumento dei casi di edema polmonare</li>
@@ -113,7 +113,7 @@ Usage: #inline
     determinati zuccheri, lo consulti prima di assumere il medicinale.  [oai_citation:4‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
   </p>
 
-  <h3>Altri medicinali e Amlodipina DOC Generici</h3>
+  <p>Altri medicinali e Amlodipina DOC Generici</p>
   <p>
     Informi il medico o il farmacista se sta assumendo, ha recentemente assunto o potrebbe assumere
     qualsiasi altro medicinale. In particolare, informi il medico se prende:  [oai_citation:5‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
@@ -144,7 +144,7 @@ Usage: #inline
     </li>
   </ul>
 
-  <h3>Gravidanza, allattamento e fertilità</h3>
+  <p>Gravidanza, allattamento e fertilità</p>
   <ul>
     <li>
       <strong>Gravidanza:</strong> la sicurezza di amlodipina in gravidanza non è stata stabilita. L’uso è
@@ -163,7 +163,7 @@ Usage: #inline
     </li>
   </ul>
 
-  <h3>Guida di veicoli e uso di macchinari</h3>
+  <p>Guida di veicoli e uso di macchinari</p>
   <p>
     Amlodipina può alterare lievemente o moderatamente la capacità di guidare veicoli o usare macchinari.
     Se durante il trattamento compaiono capogiri, mal di testa, stanchezza o nausea, la sua capacità di
@@ -175,9 +175,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take amlodipine-italy"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Come prendere Amlodipina DOC Generici</h2>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Come prendere Amlodipina DOC Generici</p>
 
-  <h3>Posologia</h3>
+  <p>Posologia</p>
   <ul>
     <li>
       <strong>Adulti (ipertensione e angina):</strong>
@@ -201,13 +201,13 @@ Usage: #inline
     </li>
   </ul>
 
-  <h3>Modo di somministrazione</h3>
+  <p>Modo di somministrazione</p>
   <p>
     Prenda le compresse alla stessa ora ogni giorno, con un po’ d’acqua. Il medicinale può essere assunto
     indipendentemente dai pasti. Non mastichi le compresse.
   </p>
 
-  <h3>Se prende più Amlodipina DOC Generici di quanto deve</h3>
+  <p>Se prende più Amlodipina DOC Generici di quanto deve</p>
   <p>
     Un sovradosaggio può causare una marcata e prolungata riduzione della pressione del sangue, con
     vasodilatazione periferica, tachicardia riflessa e, nei casi più gravi, shock potenzialmente fatale.
@@ -215,7 +215,7 @@ Usage: #inline
     portando con sé la confezione del medicinale.  [oai_citation:14‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)
   </p>
 
-  <h3>Se dimentica di prendere Amlodipina DOC Generici</h3>
+  <p>Se dimentica di prendere Amlodipina DOC Generici</p>
   <p>
     Se dimentica una dose, la prenda appena se ne ricorda, a meno che non sia quasi l’ora della dose successiva.
     In tal caso salti la dose dimenticata e prenda la successiva all’ora abituale. Non prenda una dose doppia
@@ -228,7 +228,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <h2>Possibili effetti indesiderati</h2>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <p>Possibili effetti indesiderati</p>
 
   <p>
     Come tutti i medicinali, Amlodipina DOC Generici può causare effetti indesiderati, sebbene non tutte le persone
@@ -237,12 +237,12 @@ Usage: #inline
     e affaticabilità.  [oai_citation:15‡Cercafarmaco](https://cercafarmaco.it/prodotti-e-farmaci/amlodipina-doc-28-compresse-5mg-038092019?utm_source=chatgpt.com)
   </p>
 
-  <h3>Effetti indesiderati molto comuni (possono interessare più di 1 persona su 10)</h3>
+  <p>Effetti indesiderati molto comuni (possono interessare più di 1 persona su 10)</p>
   <ul>
     <li>gonfiore alle caviglie o ad altre parti del corpo (edema periferico)</li>
   </ul>
 
-  <h3>Effetti indesiderati comuni (possono interessare fino a 1 persona su 10)</h3>
+  <p>Effetti indesiderati comuni (possono interessare fino a 1 persona su 10)</p>
   <ul>
     <li>sonnolenza, capogiri, mal di testa</li>
     <li>palpitazioni, vampate di calore</li>
@@ -250,7 +250,7 @@ Usage: #inline
     <li>gonfiore alle caviglie, edema, senso di affaticamento</li>
   </ul>
 
-  <h3>Effetti indesiderati non comuni o rari</h3>
+  <p>Effetti indesiderati non comuni o rari</p>
   <ul>
     <li>alterazioni dell’umore, ansia, depressione, insonnia</li>
     <li>tremori, formicolii o intorpidimento, svenimento, alterazioni del gusto</li>
@@ -278,7 +278,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store amlodipine-italy"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Come conservare Amlodipina DOC Generici</h2>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Come conservare Amlodipina DOC Generici</p>
   <ul>
     <li>Conservi questo medicinale fuori dalla vista e dalla portata dei bambini.</li>
     <li>Non usi il medicinale dopo la data di scadenza riportata sulla confezione (SCAD.).  [oai_citation:16‡dica33.it](https://www.dica33.it/prontuario-farmaci/foglietto-illustrativo-amlodipina-doc-generici-1289789.asp?utm_source=chatgpt.com)</li>
@@ -298,9 +298,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Contenuto della confezione e altre informazioni</h2>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Contenuto della confezione e altre informazioni</p>
 
-  <h3>Cosa contiene Amlodipina DOC Generici</h3>
+  <p>Cosa contiene Amlodipina DOC Generici</p>
   <ul>
     <li>
       <strong>Principio attivo:</strong>
@@ -312,7 +312,7 @@ Usage: #inline
     </li>
   </ul>
 
-  <h3>Descrizione dell’aspetto e confezioni</h3>
+  <p>Descrizione dell’aspetto e confezioni</p>
   <ul>
     <li>
       Amlodipina DOC Generici si presenta in compresse per uso orale da 5&nbsp;mg o 10&nbsp;mg, confezionate in
@@ -324,9 +324,9 @@ Usage: #inline
     </li>
   </ul>
 
-  <h3>Titolare dell’autorizzazione all’immissione in commercio</h3>
+  <p>Titolare dell’autorizzazione all’immissione in commercio</p>
   <p>
-    DOC Generici S.r.l.<br>
+    DOC Generici S.r.l.<br/>
     Italia
   </p>   </div>"""      
 

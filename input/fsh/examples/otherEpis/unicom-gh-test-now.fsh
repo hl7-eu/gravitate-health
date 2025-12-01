@@ -1,4 +1,4 @@
-
+//https://preparatomtaler.blob.core.windows.net/spc/06-4159.pdf
 
 Instance: composition-en-test-amlodipine-norway
 InstanceOf: CompositionUvEpi
@@ -64,7 +64,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What amlodipin is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>   <h2>What amlodipine is and what it is used for</h2>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>   <p>What amlodipine is and what it is used for</p>
   <p>
     Amlodipin Sandoz inneholder virkestoffet amlodipin, som tilhører en gruppe legemidler som kalles
     kalsiumkanalblokkere av dihydropyridin-type. Det virker ved å få blodårene til å slappe av, slik at blodet
@@ -84,7 +84,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take amlodipine-norway"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h3>Ikke ta Amlodipin Sandoz</h3>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ikke ta Amlodipin Sandoz</p>
   <ul>
     <li>hvis du er allergisk overfor amlodipin, andre dihydropyridiner eller noen av de andre innholdsstoffene</li>
     <li>hvis du har svært lavt blodtrykk</li>
@@ -93,7 +93,7 @@ Usage: #inline
     <li>hvis du har ustabil hjertesvikt etter nylig hjerteinfarkt</li>
   </ul>
 
-  <h3>Advarsler og forsiktighetsregler</h3>
+  <p>Advarsler og forsiktighetsregler</p>
   <p>Snakk med lege før du bruker Amlodipin Sandoz dersom du:</p>
   <ul>
     <li>har hjertesvikt; kalsiumkanalblokkere kan øke risikoen for væske i lungene og kardiovaskulære hendelser ved alvorlig svikt</li>
@@ -110,7 +110,7 @@ Usage: #inline
     «natriumfritt».
   </p>
 
-  <h3>Andre legemidler og Amlodipin Sandoz</h3>
+  <p>Andre legemidler og Amlodipin Sandoz</p>
   <p>Fortell alltid legen eller apoteket hvilke andre legemidler du bruker, nylig har brukt eller planlegger å bruke.</p>
   <p>Særlig viktig er det å informere om:</p>
   <ul>
@@ -128,7 +128,7 @@ Usage: #inline
     <li>simvastatin; legen kan redusere simvastatindosen når det brukes sammen med amlodipin</li>
   </ul>
 
-  <h3>Graviditet, amming og fertilitet</h3>
+  <p>Graviditet, amming og fertilitet</p>
   <ul>
     <li><strong>Graviditet:</strong> Erfaring med bruk av amlodipin hos gravide er begrenset. Bruk under graviditet
         anbefales bare hvis det ikke finnes tryggere alternativer og dersom sykdommen i seg selv utgjør større
@@ -140,7 +140,7 @@ Usage: #inline
         forandringer i sædceller. Klinisk betydning for fruktbarhet med amlodipin er ikke klarlagt.</li>
   </ul>
 
-  <h3>Kjøring og bruk av maskiner</h3>
+  <p>Kjøring og bruk av maskiner</p>
   <p>
     Amlodipin kan i noen tilfeller gi svimmelhet, hodepine, tretthet eller kvalme. Dersom du får slike
     symptomer, kan reaksjonsevnen bli nedsatt. Vær derfor forsiktig ved bilkjøring og bruk av maskiner,
@@ -152,7 +152,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take amlodipine-norway"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>   <h3>Anbefalt dose</h3>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>   <p>Anbefalt dose</p>
   <ul>
     <li><strong>Voksne (hypertensjon og angina):</strong> Vanlig startdose er 5 mg én gang daglig.
         Dosen kan økes til maksimalt 10 mg én gang daglig avhengig av hvordan du responderer.</li>
@@ -162,7 +162,7 @@ Usage: #inline
     <li><strong>Barn under 6 år:</strong> Amlodipin anbefales ikke da det mangler data for denne aldersgruppen.</li>
   </ul>
 
-  <h3>Spesielle pasientgrupper</h3>
+  <p>Spesielle pasientgrupper</p>
   <ul>
     <li><strong>Eldre:</strong> Vanlige doseområder kan brukes, men doseøkning skal gjøres forsiktig.</li>
     <li><strong>Nedsatt nyrefunksjon:</strong> Vanlig dose kan vanligvis brukes. Amlodipin fjernes ikke ved dialyse.</li>
@@ -170,13 +170,13 @@ Usage: #inline
         alvorlig nedsatt leverfunksjon.</li>
   </ul>
 
-  <h3>Administrasjonsmåte</h3>
+  <p>Administrasjonsmåte</p>
   <p>
     Tablettene tas gjennom munnen én gang daglig, med et glass vann. De kan tas med eller uten mat. Prøv
     å ta tabletten til samme tid hver dag.
   </p>
 
-  <h3>Hvis du tar for mye eller glemmer en dose</h3>
+  <p>Hvis du tar for mye eller glemmer en dose</p>
   <p>
     Ved inntak av for stor dose kan blodtrykket falle kraftig. Kontakt lege eller akuttmottak umiddelbart og
     ta med pakningen. Dersom du glemmer en dose, ta den så snart du husker det, med mindre det nesten er
@@ -189,7 +189,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Possible side effects</h2>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Possible side effects</p>
 
   <p>
     Som alle legemidler kan Amlodipin Sandoz forårsake bivirkninger, men ikke alle får dem. De
@@ -197,12 +197,12 @@ Usage: #inline
     magesmerter, kvalme, hovne ankler, ødem (væskeansamling) og tretthet.
   </p>
 
-  <h3>Svært vanlige bivirkninger (kan forekomme hos mer enn 1 av 10)</h3>
+  <p>Svært vanlige bivirkninger (kan forekomme hos mer enn 1 av 10)</p>
   <ul>
     <li>hevelser, spesielt i ankler og føtter (ødem)</li>
   </ul>
 
-  <h3>Vanlige bivirkninger (kan forekomme hos opptil 1 av 10)</h3>
+  <p>Vanlige bivirkninger (kan forekomme hos opptil 1 av 10)</p>
   <ul>
     <li>hodepine, svimmelhet, søvnighet</li>
     <li>hjertebank, rødme</li>
@@ -210,7 +210,7 @@ Usage: #inline
     <li>trette og slitne muskler, tretthet og uvelhetsfølelse</li>
   </ul>
 
-  <h3>Mindre vanlige bivirkninger</h3>
+  <p>Mindre vanlige bivirkninger</p>
   <ul>
     <li>søvnproblemer, humørsvingninger, angst eller depresjon</li>
     <li>skjelvinger, nummenhet eller prikking, besvimelse, smaksforstyrrelser</li>
@@ -222,7 +222,7 @@ Usage: #inline
     <li>brystsmerter, vektøkning eller vekttap</li>
   </ul>
 
-  <h3>Sjeldne og svært sjeldne bivirkninger</h3>
+  <p>Sjeldne og svært sjeldne bivirkninger</p>
   <ul>
     <li>forstyrrelser i blodceller (lavt antall hvite blodlegemer eller blodplater)</li>
     <li>allergiske reaksjoner, inkludert hudutslett, kløe, elveblest, alvorlige hudreaksjoner</li>
@@ -237,12 +237,16 @@ Usage: #inline
     Kontakt lege umiddelbart dersom du opplever symptomer på alvorlig allergisk reaksjon, som
     pustevansker, hevelser i ansikt, lepper, tunge eller svelg, eller kraftig hudreaksjon.
   </p>
-</section>
 
-<section id="how-to-store-amlodipine">
-  <h2>How to store amlodipine</h2>
 
-  <ul>
+   </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store amlodipine-norway"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store amlodipine-norway"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <ul>
     <li>Oppbevares utilgjengelig for barn.</li>
     <li>Bruk ikke legemidlet etter utløpsdatoen som er angitt på pakningen.</li>
     <li><strong>Holdbarhet:</strong> 3 år.</li>
@@ -250,23 +254,7 @@ Usage: #inline
     <li><strong>HDPE-bokser:</strong> Oppbevares i originalpakningen for å beskytte mot lys.</li>
     <li>Legemidler skal ikke kastes i avløpsvann eller sammen med vanlig husholdningsavfall. Spør apoteket
         hvordan legemidler som ikke lenger brukes skal kastes. Dette bidrar til å beskytte miljøet.</li>
-  </ul>      </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store amlodipine-norway"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store amlodipine-norway"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
-Do not use this medicine after the expiry date which is stated on the vial label and carton, after  EXP . 
-The expiry date refers to the last day of that month. 
-Keep the vial in the outer carton in order to protect it from light.  </p>
-<p>Before opening: Store in a refrigerator at 2 C to 8 C, away from the cooling element. Do not freeze. </p>
-<p>During use or when carried as a spare: The product may be stored for a maximum of 4 weeks. Store 
-below 30 C. Do not refrigerate or freeze. </p>
-<p>Discard the needle after each injection. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  </ul>          </div>"""      
         
         
 * section[=].section[+]
@@ -274,16 +262,16 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <h2>Contents of the pack and other information</h2>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'> <p>Contents of the pack and other information</p>
 
-  <h3>Hva Amlodipin Sandoz inneholder</h3>
+  <p>Hva Amlodipin Sandoz inneholder</p>
   <ul>
     <li><strong>Virkestoff:</strong> amlodipin (som besilat) 5 mg eller 10 mg per tablett.</li>
     <li><strong>Andre innholdsstoffer:</strong> natriumstivelsesglykolat (type A), kalsiumhydrogenfosfat (vannfritt),
         mikrokrystallinsk cellulose og magnesiumstearat.</li>
   </ul>
 
-  <h3>Hvordan Amlodipin Sandoz ser ut og innholdet i pakningen</h3>
+  <p>Hvordan Amlodipin Sandoz ser ut og innholdet i pakningen</p>
   <ul>
     <li><strong>Legemiddelform:</strong> tablett.</li>
     <li><strong>5 mg-tabletter:</strong> hvite eller nesten hvite, avlange tabletter med faset kant, delestrek på den ene
@@ -295,15 +283,15 @@ throw away medicines you no longer use. These measures will help protect the env
     <li>Ikke alle pakningsstørrelser vil nødvendigvis bli markedsført.</li>
   </ul>
 
-  <h3>Innehaver av markedsføringstillatelsen</h3>
+  <p>Innehaver av markedsføringstillatelsen</p>
   <p>
-    Sandoz A/S<br>
-    Edvard Thomsens Vej 14<br>
-    2300 København S<br>
+    Sandoz A/S<br/>
+    Edvard Thomsens Vej 14<br/>
+    2300 København S<br/>
     Danmark
   </p>
 
-  <h3>Markedsføringstillatelsesnummer</h3>
+  <p>Markedsføringstillatelsesnummer</p>
   <ul>
     <li>Amlodipin Sandoz 5 mg tabletter: 06-4159</li>
     <li>Amlodipin Sandoz 10 mg tabletter: 06-4161</li>

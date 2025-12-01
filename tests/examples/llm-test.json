@@ -1,0 +1,431 @@
+{
+    "resourceType": "Composition",
+    "id": "composition-amlodipin-sandoz-no",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/Composition"
+        ]
+    },
+    "language": "no",
+    "status": "final",
+    "type": {
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "code": "55108-5",
+                "display": "Product monograph"
+            }
+        ],
+        "text": "Preparatomtale (SPC)"
+    },
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://ema.europa.eu/fhir/sid/document-category",
+                    "code": "SPC",
+                    "display": "Preparatomtale"
+                }
+            ],
+            "text": "Preparatomtale"
+        }
+    ],
+    "date": "2022-07-04",
+    "title": "Preparatomtale – Amlodipin Sandoz",
+    "confidentiality": "N",
+    "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:8f7b0f3c-4c1e-4b9e-9b12-amlodipin-sandoz-smPC-no"
+    },
+    "author": [
+        {
+            "reference": "#org-sandoz-as",
+            "display": "Sandoz A/S"
+        }
+    ],
+    "attester": [
+        {
+            "mode": "official",
+            "time": "2022-07-04T00:00:00+01:00",
+            "party": {
+                "reference": "#org-sandoz-as",
+                "display": "Sandoz A/S"
+            }
+        }
+    ],
+    "custodian": {
+        "reference": "#org-sandoz-as",
+        "display": "Sandoz A/S"
+    },
+    "contained": [
+        {
+            "resourceType": "Medication",
+            "id": "med-amlodipin-sandoz",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://www.whocc.no/atc",
+                        "code": "C08CA01",
+                        "display": "Amlodipin"
+                    },
+                    {
+                        "system": "http://ema.europa.eu/fhir/sid/product-code",
+                        "code": "AML-SANDOZ-NO",
+                        "display": "Amlodipin Sandoz"
+                    }
+                ],
+                "text": "Amlodipin Sandoz 5 mg og 10 mg tabletter"
+            },
+            "status": "active",
+            "manufacturer": {
+                "reference": "#org-sandoz-as",
+                "display": "Sandoz A/S"
+            },
+            "ingredient": [
+                {
+                    "itemCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://www.whocc.no/atc",
+                                "code": "C08CA01",
+                                "display": "Amlodipin"
+                            }
+                        ],
+                        "text": "Amlodipin (som besilat)"
+                    },
+                    "strength": {
+                        "numerator": {
+                            "value": 5,
+                            "unit": "mg",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mg"
+                        },
+                        "denominator": {
+                            "value": 1,
+                            "unit": "tablett",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "1"
+                        }
+                    }
+                },
+                {
+                    "itemCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://www.whocc.no/atc",
+                                "code": "C08CA01",
+                                "display": "Amlodipin"
+                            }
+                        ],
+                        "text": "Amlodipin (som besilat)"
+                    },
+                    "strength": {
+                        "numerator": {
+                            "value": 10,
+                            "unit": "mg",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mg"
+                        },
+                        "denominator": {
+                            "value": 1,
+                            "unit": "tablett",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "1"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "resourceType": "Organization",
+            "id": "org-sandoz-as",
+            "name": "Sandoz A/S",
+            "address": [
+                {
+                    "line": [
+                        "Edvard Thomsens Vej 14"
+                    ],
+                    "city": "København S",
+                    "postalCode": "2300",
+                    "country": "DK"
+                }
+            ]
+        }
+    ],
+    "section": [
+        {
+            "title": "1. LEGEMIDLETS NAVN",
+            "code": {
+                "text": "Legemidlets navn"
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Amlodipin Sandoz 5 mg tabletter.</p><p>Amlodipin Sandoz 10 mg tabletter.</p></div>"
+            }
+        },
+        {
+            "title": "2. KVALITATIV OG KVANTITATIV SAMMENSETNING",
+            "code": {
+                "text": "Kvalitativ og kvantitativ sammensetning"
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Hver 5 mg tablett inneholder 5 mg amlodipin (som besilat).</p><p>Hver 10 mg tablett inneholder 10 mg amlodipin (som besilat).</p><p>For fullstendig liste over hjelpestoffer, se punkt 6.1.</p></div>"
+            }
+        },
+        {
+            "title": "3. LEGEMIDDELFORM",
+            "code": {
+                "text": "Legemiddelform"
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Tablett.</p><p>5 mg: Hvite eller nesten hvite, avlange tabletter med skåret kant, delestrek på den ene siden og med «5» preget på den andre.</p><p>10 mg: Hvite eller nesten hvite, avlange tabletter med skåret kant, delestrek på den ene siden og med «10» preget på den andre.</p><p>Tabletten kan deles i like doser.</p></div>"
+            }
+        },
+        {
+            "title": "4. KLINISKE OPPLYSNINGER",
+            "code": {
+                "text": "Kliniske opplysninger"
+            },
+            "section": [
+                {
+                    "title": "4.1 Indikasjoner",
+                    "code": {
+                        "text": "Indikasjoner"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hypertensjon.</li><li>Kronisk stabil angina pectoris.</li><li>Vasospastisk (Prinzmetals) angina.</li></ul></div>"
+                    }
+                },
+                {
+                    "title": "4.2 Dosering og administrasjonsmåte",
+                    "code": {
+                        "text": "Dosering og administrasjonsmåte"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Voksne: Startdose 5 mg én gang daglig ved hypertensjon og angina; kan økes til maks 10 mg én gang daglig avhengig av klinisk respons.</p><p>Amlodipin kan brukes som monoterapi eller i kombinasjon med tiazid-diuretika, alfa-blokkere, beta-blokkere eller ACE-hemmere.</p><p>Barn 6–17 år: Anbefalt startdose 2,5 mg én gang daglig, kan økes til 5 mg etter 4 uker hvis nødvendig. Doser over 5 mg er ikke studert.</p><p>Eldre: Vanlige doseregimer, men doseøkning med forsiktighet.</p><p>Nedsatt nyrefunksjon: Vanlig dosering, amlodipin er ikke dialyserbart.</p><p>Nedsatt leverfunksjon: Start med laveste dose og titrer langsomt, særlig ved alvorlig nedsatt leverfunksjon.</p><p>Administrasjonsmåte: Tabletter til oral bruk.</p></div>"
+                    }
+                },
+                {
+                    "title": "4.3 Kontraindikasjoner",
+                    "code": {
+                        "text": "Kontraindikasjoner"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Overfølsomhet overfor dihydropyridiner, amlodipin eller noen hjelpestoffer.</li><li>Alvorlig hypotensjon.</li><li>Sjokk (inkludert kardiogent sjokk).</li><li>Outflow-obstruksjon i venstre ventrikkel (f.eks. alvorlig aortastenose).</li><li>Hemodynamisk ustabil hjertesvikt etter akutt hjerteinfarkt.</li></ul></div>"
+                    }
+                },
+                {
+                    "title": "4.4 Advarsler og forsiktighetsregler",
+                    "code": {
+                        "text": "Advarsler og forsiktighetsregler"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Sikkerhet og effekt ved hypertensiv krise er ikke kjent.</p><p>Pasienter med hjertesvikt skal behandles med forsiktighet; økt forekomst av lungeødem er rapportert i studier.</p><p>Ved nedsatt leverfunksjon er halveringstid forlenget og AUC økt; behandling bør startes med lav dose og titreres langsomt.</p><p>Ved nedsatt nyrefunksjon kan vanlig dosering brukes; amlodipin er ikke dialyserbart.</p><p>Inneholder mindre enn 1 mmol natrium (23 mg) per tablett og er praktisk talt natriumfritt.</p></div>"
+                    }
+                },
+                {
+                    "title": "4.5 Interaksjon med andre legemidler og andre former for interaksjon",
+                    "code": {
+                        "text": "Interaksjoner"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Sterke og moderate CYP3A4-hemmere (f.eks. proteasehemmere, azol-antimykotika, makrolider, verapamil, diltiazem) kan øke eksponeringen for amlodipin og risiko for hypotensjon.</p><p>CYP3A4-induktorer (f.eks. rifampicin, johannesurt) kan redusere plasmakonsentrasjonen; blodtrykk bør overvåkes.</p><p>Grapefrukt/grapefruktjuice anbefales ikke.</p><p>Amlodipin kan øke nivåer av takrolimus og mTOR-hemmere; terapeutisk monitorering anbefales.</p><p>Variabel økning i ciklosporinnivå er observert hos nyretransplanterte; monitorering og dosejustering kan være nødvendig.</p><p>Samtidig bruk med simvastatin 80 mg ga økt eksponering for simvastatin; dose av simvastatin bør begrenses til 20 mg daglig.</p></div>"
+                    }
+                },
+                {
+                    "title": "4.6 Fertilitet, graviditet og amming",
+                    "code": {
+                        "text": "Fertilitet, graviditet og amming"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Bruk under graviditet anbefales kun når ingen tryggere alternativer finnes og sykdommen utgjør større risiko for mor og foster.</p><p>Amlodipin skilles ut i morsmelk; andel av maternal dose til barnet er anslått til 3–7 % (maksimalt 15 %). Amming eller behandling må vurderes individuelt.</p><p>Reversible biokjemiske endringer i sædceller er rapportert med kalsiumkanalblokkere; rottestudier har vist negativ effekt på hanners fertilitet.</p></div>"
+                    }
+                },
+                {
+                    "title": "4.7 Påvirkning av evnen til å kjøre bil og bruke maskiner",
+                    "code": {
+                        "text": "Evne til å kjøre bil og bruke maskiner"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Amlodipin kan ha liten til moderat påvirkning på evnen til å kjøre bil og bruke maskiner. Svimmelhet, hodepine, fatigue eller kvalme kan svekke reaksjonsevnen, særlig i starten av behandlingen.</p></div>"
+                    }
+                },
+                {
+                    "title": "4.8 Bivirkninger",
+                    "code": {
+                        "text": "Bivirkninger"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>De vanligst rapporterte bivirkningene er somnolens, svimmelhet, hodepine, palpitasjoner, rødming, magesmerter, kvalme, hovne ankler, ødem og fatigue.</p><p>Svært vanlige: Ødem.</p><p>Vanlige: Somnolens, svimmelhet, hodepine, synsforstyrrelser, palpitasjoner, rødming, dyspné, magesmerter, kvalme, dyspepsi, endrede tarmvaner, opphovne ankler, muskelkramper, tretthet, asteni.</p><p>Mindre vanlige til svært sjeldne: Blod- og lymfesykdommer, psykiatriske lidelser, nevrologiske, gastrointestinale og hepatobiliære reaksjoner, hud- og underhudssykdommer inkl. angioødem og alvorlige kutane reaksjoner.</p><p>Helsepersonell oppfordres til å melde mistenkte bivirkninger til Statens legemiddelverk.</p></div>"
+                    }
+                },
+                {
+                    "title": "4.9 Overdosering",
+                    "code": {
+                        "text": "Overdosering"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Grov overdosering kan gi betydelig perifer vasodilatasjon, reflektorisk takykardi og uttalt, langvarig hypotensjon opptil sjokk med mulig fatalt utfall.</p><p>Ikke-kardiogent lungeødem er sjelden rapportert, med mulig forsinket debut (24–48 timer).</p><p>Behandling: Aktiv kardiovaskulær støtte, overvåking av hjerte- og respirasjonsfunksjon, heving av ekstremiteter, kontroll av væske- og diurese. Vasokonstriktor og intravenøs kalsiumglukonat kan være aktuelt. Aktivt kull innen 2 timer kan redusere absorpsjon. Amlodipin er sterkt proteinbundet og dialyse forventes å ha liten effekt.</p></div>"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "5. FARMAKOLOGISKE EGENSKAPER",
+            "code": {
+                "text": "Farmakologiske egenskaper"
+            },
+            "section": [
+                {
+                    "title": "5.1 Farmakodynamiske egenskaper",
+                    "code": {
+                        "text": "Farmakodynamikk"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Farmakoterapeutisk gruppe: Kalsiumantagonister, selektive kalsiumantagonister med primært vaskulær virkning. ATC-kode: C08CA01.</p><p>Amlodipin er en dihydropyridin-kalsiumkanalblokker som hemmer influks av kalsium i glatt muskulatur i hjerte og blodkar og gir vasodilatasjon og blodtrykksreduksjon.</p><p>Ved angina reduseres iskemi ved dilatasjon av perifere arterioler (redusert afterload) og dilatasjon av koronarkar i normale og iskemiske områder.</p><p>Amlodipin har ingen ugunstig metabolsk effekt og påvirker ikke plasmalipider; egnet ved astma, diabetes og urinsyregikt.</p></div>"
+                    }
+                },
+                {
+                    "title": "5.2 Farmakokinetiske egenskaper",
+                    "code": {
+                        "text": "Farmakokinetikk"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Etter peroral administrasjon er biotilgjengeligheten 64–80 %, med maksimal plasmakonsentrasjon etter 6–12 timer. Biotilgjengelighet påvirkes ikke av mat.</p><p>Distribusjonsvolum ca. 21 l/kg, ca. 97,5 % proteinbundet.</p><p>Terminal halveringstid 35–50 timer, konsistent med dosering én gang daglig. Metaboliseres i leveren til inaktive metabolitter; ca. 10 % uforandret og 60 % som metabolitter utskilles i urin.</p><p>Hos pasienter med leverinsuffisiens er clearance redusert og AUC økt med ca. 40–60 %.</p></div>"
+                    }
+                },
+                {
+                    "title": "5.3 Prekliniske sikkerhetsdata",
+                    "code": {
+                        "text": "Prekliniske sikkerhetsdata"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Reproduksjonsstudier hos rotter og mus viste forsinket fødsel, forlenget fødsel og redusert overlevelse av avkom ved doser omtrent 50 ganger høyere enn anbefalt maksimaldose hos mennesker (mg/kg).</p><p>Effekt på hannfertilitet hos rotter er sett ved dose tilsvarende human dose (mg/kg) med reduksjon i FSH, testosteron og spermtetthet.</p><p>Langtidsstudier hos rotter og mus viste ingen tegn til karsinogenitet. Mutagenitetsstudier viste ingen legemiddelrelaterte gen- eller kromosomskader.</p></div>"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "6. FARMASØYTISKE OPPLYSNINGER",
+            "code": {
+                "text": "Farmasøytiske opplysninger"
+            },
+            "section": [
+                {
+                    "title": "6.1 Hjelpestoffer",
+                    "code": {
+                        "text": "Hjelpestoffer"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Natriumstivelsesglykolat (type A).</li><li>Kalsiumhydrogenfosfat, vannfritt.</li><li>Cellulose, mikrokrystallinsk.</li><li>Magnesiumstearat.</li></ul></div>"
+                    }
+                },
+                {
+                    "title": "6.2 Uforlikeligheter",
+                    "code": {
+                        "text": "Uforlikeligheter"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Ikke relevant.</p></div>"
+                    }
+                },
+                {
+                    "title": "6.3 Holdbarhet",
+                    "code": {
+                        "text": "Holdbarhet"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>3 år.</p></div>"
+                    }
+                },
+                {
+                    "title": "6.4 Oppbevaringsbetingelser",
+                    "code": {
+                        "text": "Oppbevaringsbetingelser"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Blister: Oppbevares ved høyst 30 °C. Oppbevares i originalpakningen for å beskytte mot lys.</p><p>HDPE-boks: Oppbevares i originalpakningen for å beskytte mot lys.</p></div>"
+                    }
+                },
+                {
+                    "title": "6.5 Emballasje (type og innhold)",
+                    "code": {
+                        "text": "Emballasje"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Tablettene er pakket i Alu/PVC blister eller Alu/OPA/Alu/PVC blister, eller i HDPE-boks med skrukork.</p><p>Pakningsstørrelser inkluderer blant annet 10, 14, 20, 28, 30, 50, 60, 100 og 120 tabletter for blister, og 20 til 250 tabletter for HDPE-boks. Ikke alle pakningsstørrelser markedsføres nødvendigvis.</p></div>"
+                    }
+                },
+                {
+                    "title": "6.6 Spesielle forholdsregler for destruksjon",
+                    "code": {
+                        "text": "Destruksjon"
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Ikke anvendt legemiddel samt avfall skal destrueres i overensstemmelse med lokale krav.</p></div>"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "7. INNEHAVER AV MARKEDSFØRINGSTILLATELSEN",
+            "code": {
+                "text": "Innehaver av markedsføringstillatelsen"
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Sandoz A/S, Edvard Thomsens Vej 14, 2300 København S, Danmark.</p></div>"
+            }
+        },
+        {
+            "title": "8. MARKEDSFØRINGSTILLATELSESNUMMER(NUMRE)",
+            "code": {
+                "text": "Markedsføringstillatelsesnummer"
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Amlodipin Sandoz 5 mg tabletter: 06-4159.</p><p>Amlodipin Sandoz 10 mg tabletter: 06-4161.</p></div>"
+            }
+        },
+        {
+            "title": "9. DATO FOR FØRSTE MARKEDSFØRINGSTILLATELSE / SISTE FORNYELSE",
+            "code": {
+                "text": "Datoer for MT"
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Første markedsføringstillatelse: 29.11.2006.</p><p>Siste fornyelse: 20.02.2011.</p></div>"
+            }
+        },
+        {
+            "title": "10. OPPDATERINGSDATO",
+            "code": {
+                "text": "Oppdateringsdato"
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Oppdateringsdato for denne preparatomtalen: 04.07.2022.</p></div>"
+            }
+        }
+    ]
+}
