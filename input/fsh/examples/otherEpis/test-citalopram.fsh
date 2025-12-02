@@ -432,7 +432,7 @@ Usage: #inline
 
 
 * name
-  * productName = "citalopram Flexpen 100 units/ml solution for injection in pre-filled pens"
+  * productName = "citalopram 20 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -811,13 +811,17 @@ Usage: #inline
   BMI (Body Mass Index) is a measure of your weight in relation to your height.</p>
   <p>semaglutide is used together with diet and physical activity for weight management in adolescents aged 12 years and above, who have:
   <ul>
-    <li class="doping-properties highlight doping-lens">obesity, and</li>
+    <li>obesity, and</li>
     <li>body weight &gt; 60 kg.</li>
   </ul>
   As an adolescent patient, you should only continue using semaglutide if you have lost at least 5% of your BMI after 12 weeks on the 2.4 mg dose or maximum tolerated dose (see Section 3). Consult your doctor before you continue.</p>
 
   <p><strong>Risk reduction of serious heart issues in adults</strong></p><p>
   semaglutide is used in addition to diet and physical activity to reduce the risk of serious heart issues (heart-related death, heart attacks, strokes) in adults with a history of heart disease (like a heart attack, stroke or poor blood flow to the limbs) and either obesity or overweight (BMI ≥ 27 kg/m²).</p>
+
+<p class="community-lens"  style="background-color:#f9edbe;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;">
+  <a href="https://www.diabetesteam.com/">You are not alone! 📢 Please check this community to connect with peers!</a></p>
+
 
      </div>"""   
           

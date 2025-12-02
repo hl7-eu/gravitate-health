@@ -53,3 +53,13 @@ Accept: application/json
 #Accept: text/html
 
 < ./examples/doping-lens.json
+
+
+### Test Lens: pregnancy and explanation
+
+POST https://gravitate-health.lst.tfo.upm.es/focusing/focus?preprocessors=preprocessing-service-manual&lenses=pregnancy-lens&patientIdentifier=alicia-1
+content-type: application/json
+Accept: application/json
+#Accept: text/html
+
+< ./examples/preprocessed-biktarvy.json
