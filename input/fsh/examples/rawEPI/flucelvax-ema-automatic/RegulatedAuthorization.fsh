@@ -1,6 +1,6 @@
 
 Instance: authorization04c9bd6fb89d38b2d83eced2460c4dc10
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Flucelvax Tetra - suspension for injection in pre-filled syringe
 Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) 0"
 Description: "Regulated Authorization for Flucelvax Tetra - suspension for injection in pre-filled syringe

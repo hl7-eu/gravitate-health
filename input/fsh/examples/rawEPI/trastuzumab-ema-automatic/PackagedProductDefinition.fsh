@@ -2,7 +2,7 @@
 
 
 Instance: ppd-e7c391536e9fc6ff50198d09558da8c0
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Ogivri 150 mg powder for concentrate for solution for infusion  1"
 Description: "Packaged Product Definition: Ogivri 150 mg powder for concentrate for solution for infusion  1"
 Usage: #inline

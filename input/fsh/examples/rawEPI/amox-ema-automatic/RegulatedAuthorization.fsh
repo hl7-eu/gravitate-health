@@ -1,6 +1,6 @@
 
 Instance: authorizationb62cc095c7be2116a8a65157286376a30
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for amoxicillin 250 mg tablets 0"
 Description: "Regulated Authorization for amoxicillin 250 mg tablets 0"
 Usage: #inline

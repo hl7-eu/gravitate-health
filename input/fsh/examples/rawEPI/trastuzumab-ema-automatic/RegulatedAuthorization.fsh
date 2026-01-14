@@ -1,6 +1,6 @@
 
 Instance: authorization5af3df1132d20d744a88dab06e924e5e0
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Ogivri 150 mg powder for concentrate for solution for infusion  0"
 Description: "Regulated Authorization for Ogivri 150 mg powder for concentrate for solution for infusion  0"
 Usage: #inline

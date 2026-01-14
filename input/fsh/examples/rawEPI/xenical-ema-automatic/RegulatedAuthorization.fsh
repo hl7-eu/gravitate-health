@@ -1,6 +1,6 @@
 
 Instance: authorization4fab126d28f65a1084e7b50a232003630
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Xenical 120mg hard capsules 0"
 Description: "Regulated Authorization for Xenical 120mg hard capsules 0"
 Usage: #inline

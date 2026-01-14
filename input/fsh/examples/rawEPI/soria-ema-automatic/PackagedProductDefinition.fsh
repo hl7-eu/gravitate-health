@@ -2,7 +2,7 @@
 
 
 Instance: ppd-f75e85a736ba2c6abc7778f42f422723
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: SORIA NATURAL VITAMINA C 36 COMPRIMIDOS 36"
 Description: "Packaged Product Definition: SORIA NATURAL VITAMINA C 36 COMPRIMIDOS 36"
 Usage: #inline

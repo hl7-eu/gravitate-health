@@ -2,7 +2,7 @@
 
 
 Instance: ppd-951de5ac0ea34819d959a1b4321a915b
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: DOLOCATIL 1 g tablets 20"
 Description: "Packaged Product Definition: DOLOCATIL 1 g tablets 20"
 Usage: #inline

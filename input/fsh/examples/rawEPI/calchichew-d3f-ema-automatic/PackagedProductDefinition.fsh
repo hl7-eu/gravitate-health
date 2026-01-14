@@ -2,7 +2,7 @@
 
 
 Instance: ppd-a46ff5cb1a9568d59a1669fd597f58bf
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Calcichew-D3 Forte 28"
 Description: "Packaged Product Definition: Calcichew-D3 Forte 28"
 Usage: #inline

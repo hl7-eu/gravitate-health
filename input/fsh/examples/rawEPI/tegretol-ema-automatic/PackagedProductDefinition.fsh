@@ -2,7 +2,7 @@
 
 
 Instance: ppd-1618faf0346b4539ed1e3d6b23353e60
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Tegretol 200 mg tablets 28"
 Description: "Packaged Product Definition: Tegretol 200 mg tablets 28"
 Usage: #inline

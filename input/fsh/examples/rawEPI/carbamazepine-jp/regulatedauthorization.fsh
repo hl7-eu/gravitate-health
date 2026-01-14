@@ -1,5 +1,5 @@
 Instance: authcarbamazepine200
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization - Tegretol (carbamazepine) 200 mg for tablet"
 Description: "Regulated Authorization - Tegretol (carbamazepine) 200 mg for tablet"
 Usage: #inline

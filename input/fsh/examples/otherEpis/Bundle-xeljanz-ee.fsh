@@ -554,7 +554,7 @@ Usage: #inline
 * routeOfAdministration.targetSpecies.code = $rmswi#100000109093 "Human"
 
 Instance: authorizationxeljanz5mg
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"
 * identifier.use = #official
@@ -568,7 +568,7 @@ Usage: #inline
 * holder = Reference(orgpfizereuropemaeeig)
 
 Instance: authorizationxeljanz10mg
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"
 * identifier.use = #official
@@ -618,7 +618,7 @@ Usage: #inline
 * contact.address.country = "BE"
 
 Instance: ppdblister182
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"
 * identifier.use = #official
@@ -638,7 +638,7 @@ Usage: #inline
 * packaging.material = $rmswi#200000003222 "PolyVinyl Chloride"
 
 Instance: Inline-Instance-for-bundlepackageleaflet-xeljanz-1
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Usage: #inline
 * id = "ppdblister182"
 * meta.profile = "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"

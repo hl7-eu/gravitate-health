@@ -2,7 +2,7 @@
 
 
 Instance: ppd-51ddf55f89e2cd74ee3392c14c809976
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Enbrel 25 mg powder for solution for injection 28"
 Description: "Packaged Product Definition: Enbrel 25 mg powder for solution for injection 28"
 Usage: #inline

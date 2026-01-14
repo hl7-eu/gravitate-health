@@ -1,6 +1,6 @@
 
 Instance: authorizationa64c0ccb066e7fdf6ba2d86dcd8bda5e0
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Calcichew-D3 Forte 0"
 Description: "Regulated Authorization for Calcichew-D3 Forte 0"
 Usage: #inline

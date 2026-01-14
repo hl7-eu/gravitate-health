@@ -2,7 +2,7 @@
 
 
 Instance: ppd-c46dbb6b3c5d5b6e1f1f6020e6af1b5e
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: BLASTON 1 mg tablets 50"
 Description: "Packaged Product Definition: BLASTON 1 mg tablets 50"
 Usage: #inline

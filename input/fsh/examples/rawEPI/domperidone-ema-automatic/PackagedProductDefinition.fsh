@@ -2,7 +2,7 @@
 
 
 Instance: ppd-c40decbddc475d768d3f1dad1c6f77a4
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Mo 28"
 Description: "Packaged Product Definition: Mo 28"
 Usage: #inline

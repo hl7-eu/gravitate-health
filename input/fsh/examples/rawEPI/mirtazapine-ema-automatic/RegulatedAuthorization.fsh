@@ -1,6 +1,6 @@
 
 Instance: authorizatione762a2f54b0b24fca4744b1bb7524a5b0
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for MIRTAZAPINA CINFA 30 mg Coated Tablet 0"
 Description: "Regulated Authorization for MIRTAZAPINA CINFA 30 mg Coated Tablet 0"
 Usage: #inline

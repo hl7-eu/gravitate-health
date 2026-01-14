@@ -1,6 +1,6 @@
 
 Instance: authorizationda0fc2395ce219262dfd4f0c9a9f72e10
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for BLASTON 1 mg tablets 0"
 Description: "Regulated Authorization for BLASTON 1 mg tablets 0"
 Usage: #inline

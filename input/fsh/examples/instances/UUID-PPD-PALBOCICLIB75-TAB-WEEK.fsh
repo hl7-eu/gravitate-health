@@ -1,5 +1,5 @@
 Instance: UUID-PPD-PALBOCICLIB75-TAB-WEEK
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Usage: #inline
 * identifier.use = #official
 * identifier.system = "http://hl7.org/fhir/sid/ndc"

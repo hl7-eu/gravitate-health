@@ -2,7 +2,7 @@
 
 
 Instance: ppd-dd9288188d1a45ddbbe2e5d930862d7f
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Pentasa Slow Release Tablets 1g 28"
 Description: "Packaged Product Definition: Pentasa Slow Release Tablets 1g 28"
 Usage: #inline

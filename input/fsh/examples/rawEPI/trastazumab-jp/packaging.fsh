@@ -1,5 +1,5 @@
 Instance: packherceptinvial
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Description: "28 tablets"
 Usage: #example
 

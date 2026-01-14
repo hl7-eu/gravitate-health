@@ -1,6 +1,6 @@
 
 Instance: authorizatione2464a7d3d627b9df9bef5bc3b263fb40
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen 0"
 Description: "Regulated Authorization for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen 0"
 Usage: #inline
@@ -31,7 +31,7 @@ Usage: #inline
 
 
 Instance: authorizatione2464a7d3d627b9df9bef5bc3b263fb41
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen 1"
 Description: "Regulated Authorization for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen 1"
 Usage: #inline
@@ -62,7 +62,7 @@ Usage: #inline
 
 
 Instance: authorizatione2464a7d3d627b9df9bef5bc3b263fb42
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen 2"
 Description: "Regulated Authorization for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen 2"
 Usage: #inline

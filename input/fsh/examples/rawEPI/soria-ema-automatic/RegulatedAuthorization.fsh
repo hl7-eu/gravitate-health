@@ -1,6 +1,6 @@
 
 Instance: authorization865e1b5617e6fb0d453cc2f7cf87d4410
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for SORIA NATURAL VITAMINA C 36 COMPRIMIDOS 0"
 Description: "Regulated Authorization for SORIA NATURAL VITAMINA C 36 COMPRIMIDOS 0"
 Usage: #inline

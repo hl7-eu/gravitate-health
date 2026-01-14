@@ -1,6 +1,6 @@
 
 Instance: authorization2f37d696067eeb6daf1111cfc32726720
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Tegretol 200 mg tablets 0"
 Description: "Regulated Authorization for Tegretol 200 mg tablets 0"
 Usage: #inline

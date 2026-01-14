@@ -2,7 +2,7 @@
 
 
 Instance: ppd-f22a97fafd26aa7001d9fe6a30afa7b2
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Fluenz Tetra nasal spray suspension 1"
 Description: "Packaged Product Definition: Fluenz Tetra nasal spray suspension 1"
 Usage: #inline
@@ -51,7 +51,7 @@ Usage: #inline
 
 
 Instance: ppd-533038a0a634e664ced4f999f6a95f85
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Fluenz Tetra nasal spray suspension 10"
 Description: "Packaged Product Definition: Fluenz Tetra nasal spray suspension 10"
 Usage: #inline

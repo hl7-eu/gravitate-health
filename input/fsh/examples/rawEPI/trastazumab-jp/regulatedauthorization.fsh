@@ -1,5 +1,5 @@
 Instance: authherceptin150
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization - Herceptin (trastazumab) 150 mg for Intravenous Use"
 Description: "Regulated Authorization - Herceptin (trastazumab) 150 mg for Intravenous Use"
 Usage: #example

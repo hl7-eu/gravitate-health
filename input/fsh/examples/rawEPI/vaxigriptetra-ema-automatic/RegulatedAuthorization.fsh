@@ -1,6 +1,6 @@
 
 Instance: authorization635d47ee543a5a9e15fcd321ee5fe6bb0
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Fluenz Tetra nasal spray suspension 0"
 Description: "Regulated Authorization for Fluenz Tetra nasal spray suspension 0"
 Usage: #inline
@@ -30,7 +30,7 @@ Usage: #inline
 * holder = Reference(mah-46a3afc149c080384b82a9e476e79f76)
 
 Instance: authorization635d47ee543a5a9e15fcd321ee5fe6bb1
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Fluenz Tetra nasal spray suspension 1"
 Description: "Regulated Authorization for Fluenz Tetra nasal spray suspension 1"
 Usage: #inline

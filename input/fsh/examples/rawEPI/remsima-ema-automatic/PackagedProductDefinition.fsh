@@ -2,7 +2,7 @@
 
 
 Instance: ppd-515e8ffbb9f74e0d03d7ec46f9b79d8f
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Remsima 100 mg powder for concentrate for solution for infusion 1"
 Description: "Packaged Product Definition: Remsima 100 mg powder for concentrate for solution for infusion 1"
 Usage: #inline

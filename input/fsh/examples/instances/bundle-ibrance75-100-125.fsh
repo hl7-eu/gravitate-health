@@ -6,6 +6,7 @@ Usage: #example
 * identifier.system = "https://www.fda.gov/"
 * identifier.value = "ibrance"
 * type = #document
+* language = #en
 * timestamp = "2022-09-08T00:00:00Z"
 * entry[0].fullUrl = "Composition/compositionusen"
 * entry[=].resource = compositionusen

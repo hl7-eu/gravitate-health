@@ -1,6 +1,6 @@
 
 Instance: authorization6a3c9768548036f502739419bacb24820
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Skilarence 120 mg gastro-resistant tablets 0"
 Description: "Regulated Authorization for Skilarence 120 mg gastro-resistant tablets 0"
 Usage: #inline

@@ -2,7 +2,7 @@
 
 
 Instance: ppd-2977a2afce16a0bd914b8d242dd126b5
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Dovato 50 mg/300 mg film-coated tablets 30"
 Description: "Packaged Product Definition: Dovato 50 mg/300 mg film-coated tablets 30"
 Usage: #inline

@@ -1,6 +1,6 @@
 
 Instance: authorization94a96e39cfdcd8b378d12dd4063065f90
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion 0"
 Description: "Regulated Authorization for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion 0"
 Usage: #inline

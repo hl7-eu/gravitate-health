@@ -1,5 +1,5 @@
 Instance: packsimvastatin20
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Description: "28 tablets"
 Usage: #inline
 

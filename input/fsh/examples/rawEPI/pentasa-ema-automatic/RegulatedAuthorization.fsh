@@ -1,6 +1,6 @@
 
 Instance: authorization1a7318638ddbbeb084ef416e717b6fdb0
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Pentasa Slow Release Tablets 1g 0"
 Description: "Regulated Authorization for Pentasa Slow Release Tablets 1g 0"
 Usage: #inline

@@ -1,6 +1,6 @@
 
 Instance: authorizatione3e5e78d4e002ed9e15b925cd546e20b0
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Remsima 100 mg powder for concentrate for solution for infusion 0"
 Description: "Regulated Authorization for Remsima 100 mg powder for concentrate for solution for infusion 0"
 Usage: #inline

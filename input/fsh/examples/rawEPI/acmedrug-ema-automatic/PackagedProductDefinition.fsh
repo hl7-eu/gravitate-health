@@ -2,7 +2,7 @@
 
 
 Instance: ppd-8b2a2f9f4892591c2caef29c58ff5446
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: acmedrug-man 28"
 Description: "Packaged Product Definition: acmedrug-man 28"
 Usage: #inline
@@ -54,7 +54,7 @@ Usage: #inline
 
 
 Instance: ppd-212c4b6e1e9a95ef54fb8f6ac1394307
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: acmedrug-man 96"
 Description: "Packaged Product Definition: acmedrug-man 96"
 Usage: #inline

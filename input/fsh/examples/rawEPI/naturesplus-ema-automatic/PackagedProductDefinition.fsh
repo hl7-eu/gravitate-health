@@ -2,7 +2,7 @@
 
 
 Instance: ppd-2f26bab76fe91bd9c2223496b450fc96
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Natures Plus Spiru-Tein nan"
 Description: "Packaged Product Definition: Natures Plus Spiru-Tein nan"
 Usage: #inline

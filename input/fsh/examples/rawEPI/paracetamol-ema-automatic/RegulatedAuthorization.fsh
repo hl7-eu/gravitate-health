@@ -1,6 +1,6 @@
 
 Instance: authorization08ac066220d4d68a3933a9c94bef32ff0
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for DOLOCATIL 1 g tablets 0"
 Description: "Regulated Authorization for DOLOCATIL 1 g tablets 0"
 Usage: #inline

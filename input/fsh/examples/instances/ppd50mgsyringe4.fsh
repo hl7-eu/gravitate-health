@@ -1,5 +1,5 @@
 Instance: ppd50mgsyringe4
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Usage: #inline
 * identifier.use = #official
 * identifier.system = "https://spor.ema.europa.eu/pmswi"

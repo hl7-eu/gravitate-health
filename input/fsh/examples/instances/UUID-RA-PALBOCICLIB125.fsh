@@ -1,5 +1,5 @@
 Instance: UUID-RA-PALBOCICLIB125
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Usage: #inline
 * identifier.use = #official
 * identifier.system = "http://hl7.org/fhir/sid/ndc"

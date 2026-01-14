@@ -1,6 +1,6 @@
 
 Instance: authorizatione0d9ad275c19f6e91c9365529421d5a80
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Nurofen 100 mg Chewable Capsules 0"
 Description: "Regulated Authorization for Nurofen 100 mg Chewable Capsules 0"
 Usage: #inline

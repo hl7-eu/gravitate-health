@@ -2,7 +2,7 @@
 
 
 Instance: ppd-eac96261823092966bc3d7659feb5d7a
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Lipcut Simvastatin 5 mg Tablet 28"
 Description: "Packaged Product Definition: Lipcut Simvastatin 5 mg Tablet 28"
 Usage: #inline

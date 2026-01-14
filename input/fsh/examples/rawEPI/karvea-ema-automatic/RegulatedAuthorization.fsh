@@ -1,6 +1,6 @@
 
 Instance: authorizationdcaa4d32aa6658a8df831551503e52ee0
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Karvea 75 mg tablet 0"
 Description: "Regulated Authorization for Karvea 75 mg tablet 0"
 Usage: #inline
@@ -30,7 +30,7 @@ Usage: #inline
 
 
 Instance: authorizationdcaa4d32aa6658a8df831551503e52ee1
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Karvea 75 mg tablet 1"
 Description: "Regulated Authorization for Karvea 75 mg tablet 1"
 Usage: #inline
@@ -60,7 +60,7 @@ Usage: #inline
 
 
 Instance: authorizationdcaa4d32aa6658a8df831551503e52ee2
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Karvea 75 mg tablet 2"
 Description: "Regulated Authorization for Karvea 75 mg tablet 2"
 Usage: #inline
@@ -90,7 +90,7 @@ Usage: #inline
 
 
 Instance: authorizationdcaa4d32aa6658a8df831551503e52ee3
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Karvea 75 mg tablet 3"
 Description: "Regulated Authorization for Karvea 75 mg tablet 3"
 Usage: #inline

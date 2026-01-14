@@ -2,7 +2,7 @@
 
 
 Instance: ppd-d91b269b209aaa5538a1bfafd1a7434d
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Karvea 75 mg tablet 14"
 Description: "Packaged Product Definition: Karvea 75 mg tablet 14"
 Usage: #inline
@@ -54,7 +54,7 @@ Usage: #inline
 
 
 Instance: ppd-f3f2f89544dfc5d20216861bcf90c0c5
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Karvea 75 mg tablet 28"
 Description: "Packaged Product Definition: Karvea 75 mg tablet 28"
 Usage: #inline
@@ -106,7 +106,7 @@ Usage: #inline
 
 
 Instance: ppd-5763619e2b501aeeab53677bd09d5cbf
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Karvea 75 mg tablet 56"
 Description: "Packaged Product Definition: Karvea 75 mg tablet 56"
 Usage: #inline
@@ -158,7 +158,7 @@ Usage: #inline
 
 
 Instance: ppd-9b1d5d261d22694685deb35714ec08ea
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Karvea 75 mg tablet 98"
 Description: "Packaged Product Definition: Karvea 75 mg tablet 98"
 Usage: #inline

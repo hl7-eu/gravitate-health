@@ -2,7 +2,7 @@
 
 
 Instance: ppd-f1cc049dd00785b744b0e0fb928c8569
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen 3"
 Description: "Packaged Product Definition: Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen 3"
 Usage: #inline
@@ -52,7 +52,7 @@ Usage: #inline
 
 
 Instance: ppd-4ac56d6ecc2aa4ab4110553333662248
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen 5"
 Description: "Packaged Product Definition: Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen 5"
 Usage: #inline
@@ -99,7 +99,7 @@ Usage: #inline
 
 
 Instance: ppd-5a560e54e674db16fdd59f328eff5f5a
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen 10"
 Description: "Packaged Product Definition: Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen 10"
 Usage: #inline

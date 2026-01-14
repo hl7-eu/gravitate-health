@@ -1,5 +1,5 @@
 Instance: packcarbamazepine200
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "28 tablets in bottle"
 Description: "28 tablets in bottle"
 Usage: #inline

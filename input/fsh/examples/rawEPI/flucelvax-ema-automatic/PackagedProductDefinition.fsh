@@ -2,7 +2,7 @@
 
 
 Instance: ppd-a854b6fee6a8536c78c604a4b9f6c395
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: Flucelvax Tetra - suspension for injection in pre-filled syringe
 Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) 1"
 Description: "Packaged Product Definition: Flucelvax Tetra - suspension for injection in pre-filled syringe

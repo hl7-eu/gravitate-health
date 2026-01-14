@@ -1,6 +1,6 @@
 
 Instance: authorization27c9d5187cd283f8d160ec1ed2b5ac890
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Mo 0"
 Description: "Regulated Authorization for Mo 0"
 Usage: #inline

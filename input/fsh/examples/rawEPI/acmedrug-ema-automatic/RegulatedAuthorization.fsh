@@ -1,6 +1,6 @@
 
 Instance: authorization534e209eb0a3ff60437639cb2015316f0
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for acmedrug-man 0"
 Description: "Regulated Authorization for acmedrug-man 0"
 Usage: #inline

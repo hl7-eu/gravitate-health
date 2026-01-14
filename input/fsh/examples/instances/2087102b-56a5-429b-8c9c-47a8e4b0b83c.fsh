@@ -1,5 +1,5 @@
 Instance: 2087102b-56a5-429b-8c9c-47a8e4b0b83c
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Usage: #inline
 * identifier[0].system = "https://medicines.org.uk/longMANumber"
 * identifier[=].value = "PL 12762/0231"

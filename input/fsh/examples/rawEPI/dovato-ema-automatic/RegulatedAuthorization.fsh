@@ -1,6 +1,6 @@
 
 Instance: authorization49178f16170ee8a6bc2a4361c1748d5f0
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Dovato 50 mg/300 mg film-coated tablets 0"
 Description: "Regulated Authorization for Dovato 50 mg/300 mg film-coated tablets 0"
 Usage: #inline

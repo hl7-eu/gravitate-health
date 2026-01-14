@@ -1,5 +1,5 @@
 Instance: authsimvastatin20
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization - Herceptin (trastazumab) 150 mg for Intravenous Use"
 Description: "Regulated Authorization - Herceptin (trastazumab) 150 mg for Intravenous Use"
 Usage: #inline

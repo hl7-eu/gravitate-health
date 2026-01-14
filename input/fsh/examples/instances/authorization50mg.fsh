@@ -1,5 +1,5 @@
 Instance: authorization50mg
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Usage: #inline
 * identifier.use = #official
 * identifier.system = "https://spor.ema.europa.eu/pmswi"

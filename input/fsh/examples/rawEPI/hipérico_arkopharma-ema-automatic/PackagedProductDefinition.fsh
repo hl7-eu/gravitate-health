@@ -2,7 +2,7 @@
 
 
 Instance: ppd-ee8bd93e975dcd04f4824ba8d24a8944
-InstanceOf: PackagedProductDefinitionUvEpi
+InstanceOf: PackagedProductDefinition
 Title: "Packaged Product Definition: HIPÉRICO ARKOPHARMA cápsulas duras 30"
 Description: "Packaged Product Definition: HIPÉRICO ARKOPHARMA cápsulas duras 30"
 Usage: #inline

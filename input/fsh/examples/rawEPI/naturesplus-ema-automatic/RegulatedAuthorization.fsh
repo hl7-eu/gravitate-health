@@ -1,6 +1,6 @@
 
 Instance: authorizationb5a6ac2496348cb06663deb81c55cb370
-InstanceOf: RegulatedAuthorizationUvEpi
+InstanceOf: RegulatedAuthorization
 Title: "Regulated Authorization for Natures Plus Spiru-Tein 0"
 Description: "Regulated Authorization for Natures Plus Spiru-Tein 0"
 Usage: #inline
