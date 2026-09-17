@@ -1,0 +1,37 @@
+{
+  "resourceType" : "RegulatedAuthorization",
+  "id" : "authorization10d33efea61c4345dfc56683a4e61e97",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"authorization10d33efea61c4345dfc56683a4e61e97\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;authorization10d33efea61c4345dfc56683a4e61e97&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0EU/1/03/256/022\u00a0(use:\u00a0OFFICIAL)</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-mpf97db27e6330f77484eb8425ad2913cd.html\">MedicinalProductDefinition/mpf97db27e6330f77484eb8425ad2913cd</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072062)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2008-09-08</p><p><b>holder</b>: <a href=\"Organization-mah-fda7514c0dcb7b5f0176cb5af274235f.html\">Organization/mah-fda7514c0dcb7b5f0176cb5af274235f</a> &quot;AbbVie Deutschland GmbH Co. KG&quot;</p></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://spor.ema.europa.eu/pmswi",
+    "value" : "EU/1/03/256/022"
+  }],
+  "subject" : [{
+    "reference" : "MedicinalProductDefinition/mpf97db27e6330f77484eb8425ad2913cd"
+  }],
+  "type" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000072062",
+      "display" : "Marketing Authorisation"
+    }]
+  },
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active",
+      "display" : "Active"
+    }]
+  },
+  "statusDate" : "2008-09-08",
+  "holder" : {
+    "reference" : "Organization/mah-fda7514c0dcb7b5f0176cb5af274235f"
+  }
+}

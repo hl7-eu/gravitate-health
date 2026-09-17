@@ -1,0 +1,808 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>FK545731 - TTL Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.35"}
+    h3,h4,h5,h6{--heading-prefix:"20.35"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>FK545731</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-FK545731.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-FK545731.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-FK545731.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: FK545731 - TTL Representation</h2>
+
+
+<p><a href="Bundle-FK545731.ttl" no-download="true">Raw ttl</a> | <a href="Bundle-FK545731.ttl" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+&lt;http://hl7.org/fhir/Bundle/FK545731&gt; a fhir:Bundle ;
+  <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R5/resource.html#XBundle.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;FK545731&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XBundle.meta">fhir:meta</a> [
+     <a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">fhir:profile</a> ( [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&gt;
+     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XBundle.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;no&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.identifier">fhir:identifier</a> [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://felleskatalogen.no/vsid&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;545731&quot; ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;document&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.timestamp">fhir:timestamp</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#instant">fhir:v</a> &quot;2020-09-24T01:01:01Z&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">fhir:entry</a> ( [
+     <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi/Composition/FK545731-COMP&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/composition.html#XComposition">fhir:resource</a> ( &lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/FK545731-COMP&gt; )
+  ] [
+     <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-4&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">fhir:resource</a> ( &lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-4&gt; )
+  ] [
+     <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-4&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">fhir:resource</a> ( &lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-4&gt; )
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/FK545731-COMP&gt; <a href="http://hl7.org/fhir/R5/composition.html">a</a> fhir:Composition ;
+  <a href="http://hl7.org/fhir/R5/resource.html#XComposition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;FK545731-COMP&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">fhir:meta</a> [
+     <a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">fhir:profile</a> ( [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&gt;
+     ] [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&gt;
+     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XComposition.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;no&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">fhir:text</a> [
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;no\&quot; lang=\&quot;no\&quot;&gt;&lt;a name=\&quot;Composition_FK545731-COMP\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Composition FK545731-COMP&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;FK545731-COMP\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcFK545731-COMP\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Language: no&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profiles: &lt;a href=\&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\&quot;&gt;Composition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://felleskatalogen.no/vsid&lt;/code&gt;/545731&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://spor.ema.europa.eu/v1/lists/100000155531/terms/ 100000155538}\&quot;&gt;100000155538&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2020-09-24&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: Identifier: &lt;code&gt;https://gravitatehealth.eu/organization&lt;/code&gt;/felleskatalogen&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: Actrapid Penfill Novo Nordisk&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">fhir:identifier</a> ( [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://felleskatalogen.no/vsid&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;545731&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;final&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">fhir:type</a> [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/100000155531/terms/&quot;^^xsd:anyURI ] ;
+       <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;100000155538&quot; ]
+     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">fhir:subject</a> ( [
+     <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/MedicinalProductDefinition/Diabetes-MPD-4&gt; ;
+     <a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;MedicinalProductDefinition/Diabetes-MPD-4&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> &quot;2020-09-24&quot;^^xsd:date] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">fhir:author</a> ( [
+     <a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.identifier">fhir:identifier</a> [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/organization&quot;^^xsd:anyURI ] ;
+       <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;felleskatalogen&quot; ]
+     ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Actrapid Penfill Novo Nordisk&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">fhir:section</a> ( [
+     <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Pakningsvedlegg: Informasjon til brukeren&quot; ] ;
+     <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+         <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029894&quot; ]
+       ] )
+     ] ;
+     <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+       <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h1&gt;Pakningsvedlegg: Informasjon til brukeren&lt;/h1&gt;&lt;h2&gt;Actrapid Penfill 100 IE/ml (internasjonale enheter/ml) injeksjonsvæske, oppløsning i sylinderampulle&lt;/h2&gt;&lt;h3&gt;insulin, human&lt;/h3&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+     ] ;
+     <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">fhir:section</a> ( [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg.&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/section&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;rules&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg.&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Ta vare på dette pakningsvedlegget. Du kan få behov for å lese det igjen.&lt;/li&gt;&lt;li&gt;Spør lege, apotek eller sykepleier hvis du har flere spørsmål eller trenger mer informasjon.&lt;/li&gt;&lt;li&gt;Dette legemidlet er skrevet ut kun til deg. Ikke gi det videre til andre. Det kan skade dem, selv om de har symptomer på sykdom som ligner dine.&lt;/li&gt;&lt;li&gt;Kontakt lege, apotek eller sykepleier dersom du opplever bivirkninger, inkludert mulige bivirkninger som ikke er nevnt i dette pakningsvedlegget. Se avsnitt 4.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ]
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;I dette pakningsvedlegget finner du informasjon om:&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/section&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;toc&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;I dette pakningsvedlegget finner du informasjon om:&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ol&gt;&lt;li&gt;Hva Actrapid er og hva det brukes mot&lt;/li&gt;&lt;li&gt;Hva du må vite før du bruker Actrapid&lt;/li&gt;&lt;li&gt;Hvordan du bruker Actrapid&lt;/li&gt;&lt;li&gt;Mulige bivirkninger&lt;/li&gt;&lt;li&gt;Hvordan du oppbevarer Actrapid&lt;/li&gt;&lt;li&gt;Innholdet i pakningen og ytterligere informasjon&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ]
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Hva Actrapid er og hva det brukes mot&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029895&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Hva Actrapid er og hva det brukes mot&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Actrapid er et humant insulin med en hurtigvirkende effekt.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Actrapid brukes til å senke det høye blodsukkernivået hos pasienter med diabetes mellitus (diabetes). Diabetes er en sykdom hvor kroppen ikke produserer nok insulin til å kontrollere blodsukkernivået. Behandling med Actrapid hjelper med å forebygge komplikasjoner i forbindelse med din diabetes.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Actrapid vil begynne å senke blodsukkeret ditt ca. time etter injeksjon. Effekten varer omtrent 8 timer. Actrapid gis ofte i kombinasjon med middels langtidsvirkende eller langtidsvirkende insulinpreparater.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ]
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Hva du må vite før du bruker Actrapid&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029896&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Hva du må vite før du bruker Actrapid&lt;/h2&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">fhir:section</a> ( [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Bruk ikke Actrapid&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029897&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Bruk ikke Actrapid&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Dersom du er allergisk overfor humant insulin eller noen av de andre innholdsstoffene i dette legemidlet listet opp i avsnitt 6.&lt;/li&gt;&lt;li&gt;Dersom du tror at du begynner å få føling (hypoglykemi, lavt blodsukker), se Sammendrag av alvorlige og svært vanlige bivirkninger i avsnitt 4.&lt;/li&gt;&lt;li&gt;I insulininfusjonspumper.&lt;/li&gt;&lt;li&gt;Dersom sylinderampullen eller injeksjonssystemet som inneholder sylinderampullen utsettes for støt, skades eller klemmes.&lt;/li&gt;&lt;li&gt;Dersom det ikke har vært riktig oppbevart, eller dersom det har vært frosset, se avsnitt 5.&lt;/li&gt;&lt;li&gt;Dersom insulinet ikke fremstår som klart og fargeløst.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Bruk ikke Actrapid hvis noe av dette forekommer. Snakk med lege, apotek eller sykepleier.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Før du bruker Actrapid&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029898&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Før du bruker Actrapid&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Kontroller etiketten for å forsikre deg om at det er riktig type insulin.&lt;/li&gt;&lt;li&gt;Du må alltid kontrollere sylinderampullen samt gummistempelet i bunnen av sylinderampullen. Ikke bruk den hvis det er synlig skade på den, eller hvis gummistempelet er trukket over det hvite etikettbåndet i bunnen av sylinderampullen. Dette kan være resultatet av en insulinlekkasje. Hvis du tror at sylinderampullen er skadet, returneres preparatet til apoteket. Se pennens bruksanvisning for nærmere instruksjoner.&lt;/li&gt;&lt;li&gt;Bruk alltid en ny nål til hver injeksjon for å unngå urenheter.&lt;/li&gt;&lt;li&gt;Nåler og Actrapid Penfill må ikke deles med andre.&lt;/li&gt;&lt;li&gt;Actrapid Penfill er kun tilpasset injeksjon under huden ved bruk av en flergangspenn. Rådfør deg med legen din dersom du trenger å injisere insulinet ved hjelp av en annen metode.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Advarsler og forsiktighetsregler&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029898&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Advarsler og forsiktighetsregler&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Noen tilstander og aktiviteter kan påvirke insulinbehovet ditt. Rådfør deg med lege:&lt;ul&gt;&lt;li&gt;Dersom du har nyre- eller leverproblemer, eller problemer med binyrer, hypofysen eller skjoldbruskkjertelen.&lt;/li&gt;&lt;li&gt;Dersom du mosjonerer mer enn vanlig, eller hvis du ønsker å endre ditt vanlige kosthold, da dette kan påvirke blodsukkernivået ditt.&lt;/li&gt;&lt;li&gt;Dersom du er syk, fortsett å ta insulin og rådfør deg med lege.&lt;/li&gt;&lt;li&gt;Dersom du skal reise utenlands, tidsforskjellen mellom de ulike land kan påvirke insulinbehovet og tidspunktene for injeksjoner.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Hudforandringer på injeksjonsstedet&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Injeksjonsstedet bør roteres for å bidra til å forebygge forandringer i fettvevet under huden, som f.eks. fortykning av huden, innskrumping av huden eller kuler under huden. Det kan hende at insulinet ikke virker så godt hvis du injiserer det på et klumpete, innskrumpet eller fortykket sted på huden (se avsnitt 3). Snakk med legen din hvis du merker noen hudforandringer på injeksjonsstedet. Hvis du pleier å injisere på områder med reaksjoner og vil endre injeksjonssted til et annet område, må du snakke med legen din først. Legen din kan gi deg beskjed om å kontrollere blodsukkeret ditt mer nøye og å justere dosen på insulinet ditt eller andre legemidler du bruker mot diabetes.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Andre legemidler og Actrapid&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029900&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Andre legemidler og Actrapid&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Snakk med lege, apotek eller sykepleier dersom du bruker, nylig har brukt eller planlegger å bruke andre legemidler.&lt;br/&gt;Noen legemidler påvirker blodsukkernivået, og dette kan bety at insulindosen må endres. Nedenfor følger en oversikt over de vanligste legemidlene som kan påvirke insulinbehandlingen din.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Blodsukkernivået ditt kan synke (hypoglykemi, føling) dersom du bruker:&lt;/span&gt;&lt;ul&gt;&lt;li&gt;Andre medisiner til behandling av diabetes&lt;/li&gt;&lt;li&gt;Monoaminoksidasehemmere (MAOH) (brukes til behandling av depresjon)&lt;/li&gt;&lt;li&gt;Betablokkere (brukes til behandling av høyt blodtrykk)&lt;/li&gt;&lt;li&gt;Angiotensinkonverterende enzym(ACE)hemmere (brukes til behandling av visse hjertelidelser eller høyt blodtrykk)&lt;/li&gt;&lt;li&gt;Salisylater (brukes til å lindre smerte og som febernedsettende)&lt;/li&gt;&lt;li&gt;Anabole steroider (slik som testosteron)&lt;/li&gt;&lt;li&gt;Sulfonamider (brukes til behandling av infeksjoner).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Blodsukkernivået ditt kan stige (hyperglykemi) dersom du bruker:&lt;/span&gt;&lt;ul&gt;&lt;li&gt;Orale antikonsepsjonsmidler (p-piller)&lt;/li&gt;&lt;li&gt;Tiazider (brukes til behandling av høyt blodtrykk eller ved omfattende væskeopphopning)&lt;/li&gt;&lt;li&gt;Glukokortikoider (slik som ”kortison”, som brukes til behandling av inflammasjon)&lt;/li&gt;&lt;li&gt;Thyreoideahormoner (brukes til behandling av sykdommer i skjoldbruskkjertelen)&lt;/li&gt;&lt;li&gt;Sympatomimetika (som adrenalin, salbutamol eller terbutalin som brukes til behandling av astma)&lt;/li&gt;&lt;li&gt;Veksthormon (legemiddel til stimulering av skjelett- og kroppslig vekst og med omfattende påvirkning på kroppens stoffskifteprosesser)&lt;/li&gt;&lt;li&gt;Danazol (legemiddel som påvirker eggløsningen).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Oktreotid og lanreotid (brukes til behandling av akromegali, en sjelden hormonell sykdom som vanligvis oppstår hos middelaldrende voksne og som kommer av at hypofysen produserer for mye veksthormon) kan enten øke eller senke blodsukkernivået ditt.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Betablokkere (brukes til behandling av høyt blodtrykk) kan svekke eller fullstendig dempe de første varselsymptomene som hjelper deg til å gjenkjenne lavt blodsukker.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Pioglitazon (tabletter brukt til behandling av type 2 diabetes)&lt;/span&gt;&lt;br/&gt;Noen pasienter med mangeårig type 2 diabetes og hjertesykdom eller som har hatt slag, og som ble behandlet med pioglitazon og insulin, utviklet hjertesvikt. Snakk med lege så snart som mulig hvis du opplever tegn på hjertesvikt slik som uvanlig kortpustethet eller rask vektøkning eller lokale væskeansamlinger (hevelse i bena, ødem).&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Snakk med lege, apotek eller sykepleier dersom du har brukt noen av legemidlene som er nevnt her.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Inntak av Actrapid sammen med alkohol&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029901&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Inntak av Actrapid sammen med alkohol&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Dersom du drikker alkohol, kan behovet for insulin endre seg fordi blodsukkernivået enten kan stige eller synke. Nøye kontroll anbefales.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Graviditet og amming&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029902&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Graviditet og amming&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Snakk med lege før du tar dette legemidlet dersom du er gravid, tror at du kan være gravid eller planlegger å bli gravid. Actrapid kan brukes under graviditet. Det kan være behov for å endre insulindosen under svangerskapet og etter fødselen. Det er viktig med nøye kontroll av din diabetes, særlig er det viktig å forhindre føling, dette for ditt barns helse.&lt;/li&gt;&lt;li&gt;Det er ingen restriksjoner for behandling med Actrapid under amming.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Snakk med lege, apotek eller sykepleier før du tar dette legemidlet dersom du er gravid eller ammer.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Kjøring og bruk av maskiner&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029903&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Kjøring og bruk av maskiner&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Spør legen om du kan kjøre bil eller betjene en maskin:&lt;ul&gt;&lt;li&gt;Dersom du ofte får føling.&lt;/li&gt;&lt;li&gt;Dersom du har problemer med å gjenkjenne føling.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Dersom blodsukkeret ditt er lavt eller høyt, kan det påvirke konsentrasjons- og reaksjonsevnen og derfor også evnen til å kjøre eller betjene en maskin. Tenk på at du kan utsette deg selv eller andre for fare.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Actrapid inneholder natrium&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029904&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Actrapid inneholder natrium&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Actrapid inneholder mindre enn 1 mmol natrium (23 mg) pr. dose, det vil si at Actrapid praktisk talt er ”natriumfritt”.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] )
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Hvordan du bruker Actrapid&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029905&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Hvordan du bruker Actrapid&lt;/h2&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Dose og når du skal ta insulin&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Bruk alltid insulinet og innstill dosen din nøyaktig slik legen har fortalt deg. Kontakt lege, apotek eller sykepleier hvis du er usikker.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Spis et måltid eller mellommåltid som inneholder karbohydrater innen 30 minutter etter injeksjonen for å unngå lavt blodsukker (føling).&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Ikke skift insulinet ditt med mindre legen din har gitt deg beskjed om det. Skifte av insulintype eller -merke, kan medføre at legen vil justere dosen.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Bruk hos barn og ungdom&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Actrapid kan brukes av barn og ungdom.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Bruk hos spesielle pasientgrupper&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Dersom du har redusert nyre- eller leverfunksjon, eller dersom du er over 65 år, må du kontrollere blodsukkeret ditt mer regelmessig og diskutere endringer av insulindosen med legen.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Hvordan og hvor skal det injiseres&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Actrapid er beregnet til injeksjon under huden (subkutant). Du må aldri selv injisere direkte i en blodåre (intravenøst) eller muskel (intramuskulært). Actrapid Penfill er kun tilpasset injeksjon under huden ved bruk av en flergangspenn. Rådfør deg med legen din dersom du trenger å injisere insulinet ved hjelp av en annen metode.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;For hver injeksjon bytt injeksjonssted innenfor det bestemte hudområdet du bruker. Dette kan redusere risikoen for utvikling av kuler eller fordypninger i huden, se avsnitt 4. De stedene på kroppen som egner seg best for injeksjon er: foran ved midjen (magen), bakenden, foran på lårene eller på overarmene.&lt;br/&gt;Effekten av insulinet inntrer raskere hvis det injiseres rundt midjen (magen). Du bør alltid måle blodsukkeret regelmessig.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Du må ikke etterfylle sylinderampullen. Når den er tom, skal den kastes.&lt;/li&gt;&lt;li&gt;Actrapid Penfill sylinderampuller er utformet til bruk sammen med insulininjeksjonssystemer fra Novo Nordisk og NovoFine eller NovoTwist nåler.&lt;/li&gt;&lt;li&gt;Dersom du behandles med Actrapid Penfill og en annen insulintype i Penfill sylinderampulle, må du bruke to insulininjeksjonssystemer, ett for hver insulintype.&lt;/li&gt;&lt;li&gt;Ha alltid med deg en ekstra Penfill sylinderampulle i tilfelle den du bruker mistes eller ødelegges.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Hvordan injisere Actrapid&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Injiser insulinet under huden. Følg legens eller sykepleierens råd angående injeksjonsteknikk, og som beskrevet i pennens bruksanvisning.&lt;/li&gt;&lt;li&gt;Hold nålen under huden i minst 6 sekunder. Hold trykknappen helt inne inntil nålen er trukket ut av huden. Dette vil sikre at korrekt dose er injisert og begrenser muligheten for at det kommer blod inn i nålen eller i insulinbeholderen.&lt;/li&gt;&lt;li&gt;Fjern og kast nålen etter hver injeksjon, og oppbevar Actrapid uten påsatt nål. Hvis ikke, kan det lekke ut væske som kan medføre feil dosering.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">fhir:section</a> ( [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Dersom du tar for mye insulin&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029907&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Dersom du tar for mye insulin&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Dersom du tar for mye insulin blir blodsukkeret for lavt (hypoglykemi). Se Sammendrag av alvorlige og svært vanlige bivirkninger i avsnitt 4.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Dersom du har glemt å ta insulin&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029908&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Dersom du har glemt å ta insulin&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Dersom du glemmer å ta insulinet ditt kan blodsukkeret bli for høyt (hyperglykemi). Se Følger ved diabetes i avsnitt 4.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Dersom du avbryter behandling med insulin&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029909&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Dersom du avbryter behandling med insulin&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Ikke slutt med å ta insulin uten å snakke med en lege, som vil fortelle deg hva som må gjøres. Dette kan føre til veldig høyt blodsukker (alvorlig hyperglykemi) og ketoacidose. Se Følger ved diabetes i avsnitt 4.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Spør lege, apotek eller sykepleier dersom du har noen spørsmål om bruken av dette legemidlet.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] )
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Mulige bivirkninger&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029910&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Mulige bivirkninger&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Som alle legemidler kan dette legemidlet forårsake bivirkninger, men ikke alle får det.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Sammendrag av alvorlige og svært vanlige bivirkninger&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Lavt blodsukker (føling, hypoglykemi) &lt;/b&gt;er en svært vanlig bivirkning. Den kan berøre flere enn 1 av 10 brukere.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Lavt blodsukker kan inntreffe hvis du:&lt;/span&gt;&lt;ul&gt;&lt;li&gt;Injiserer for mye insulin.&lt;/li&gt;&lt;li&gt;Spiser for lite eller hopper over et måltid.&lt;/li&gt;&lt;li&gt;Mosjonerer mer enn vanlig.&lt;/li&gt;&lt;li&gt;Drikker alkohol, se Inntak av Actrapid sammen med alkohol i avsnitt 2.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Symptomer på lavt blodsukker:&lt;/span&gt; Kaldsvetting, kald og blek hud, hodepine, hjertebank, kvalme, usedvanlig stor sultfølelse, forbigående synsforstyrrelser, døsighet, unormal tretthet og svakhet, nervøsitet eller skjelving, angst, forvirring og konsentrasjonsproblemer.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Alvorlig lavt blodsukker kan føre til bevisstløshet. Dersom langvarig alvorlig lavt blodsukker ikke behandles, kan det føre til hjerneskade (midlertidig eller livsvarig) og til og med død. Du kan komme raskere til bevissthet igjen hvis du får en injeksjon av hormonet glukagon av en person som er blitt instruert i hvordan det skal brukes. Dersom glukagon er injisert, må du så snart du kommer til bevissthet få glukose eller et sukkerholdig mellommåltid. Hvis du ikke reagerer på glukagonbehandling, må du behandles ved et sykehus.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Hva skal du gjøre hvis du får lavt blodsukker:&lt;/span&gt;&lt;ul&gt;&lt;li&gt;Dersom du opplever lavt blodsukker, spis glukosetabletter eller et annet mellommåltid med høyt sukkerinnhold (for eksempel søtsaker, kjeks, fruktjuice). Hvis mulig, mål blodsukkeret ditt og ta en hvil. For sikkerhets skyld må du alltid ha med deg glukosetabletter eller et mellommåltid med høyt sukkerinnhold.&lt;/li&gt;&lt;li&gt;Når symptomene på lavt blodsukker har forsvunnet, eller når blodsukkernivået ditt er stabilisert, fortsettes insulinbehandlingen som vanlig.&lt;/li&gt;&lt;li&gt;Dersom du får så lavt blodsukker at det fører til at du besvimer, dersom du har hatt behov for en injeksjon av glukagon, eller dersom du har hatt gjentatte episoder med lavt blodsukker skal du snakke med en lege. Det kan være nødvendig å justere insulindosen, tidspunktet for insulindosering, matinntak eller mengde fysisk aktivitet.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Fortell relevante personer at du har diabetes og hva konsekvensene kan være, inkludert risikoen for å besvime (bli bevisstløs) på grunn av lavt blodsukker. La dem få vite at hvis du besvimer må de legge deg i stabilt sideleie og tilkalle lege med det samme. De må ikke gi deg noe å spise eller drikke fordi du kan bli kvalt.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Alvorlig allergisk reaksjon &lt;/b&gt;overfor Actrapid eller et av innholdsstoffene i preparatet (en såkalt systemisk allergisk reaksjon) er en svært sjelden bivirkning, men den kan potensielt være livstruende. Den kan berøre færre enn 1 av 10 000 brukere.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Søk råd hos helsepersonell omgående:&lt;ul&gt;&lt;li&gt;Dersom symptomene på allergi sprer seg til andre deler av kroppen.&lt;/li&gt;&lt;li&gt;Dersom du plutselig føler deg dårlig og du: begynner å svette, blir kvalm (kaster opp), får pustebesvær, får hjertebank, føler deg svimmel.&lt;/li&gt;&lt;/ul&gt;➔Dersom du merker noen av disse symptomene, søk råd hos helsepersonell omgående.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Hudforandringer på injeksjonsstedet: &lt;/b&gt;Fettvevet kan skrumpe (lipoatrofi) eller fortykkes (lipohypertrofi) (noe som kan forekomme hos færre enn 1 av 100 personer) hvis du injiserer insulin på samme sted.&lt;br/&gt;Opphopning av et protein kalt amyloid kan også forårsake kuler under huden (kutan amyloidose; det er ikke kjent hvor ofte dette forekommer). Det kan hende at insulinet ikke virker så godt hvis du injiserer det i et klumpete, innskrumpet eller fortykket område. Bytt injeksjonssted for hver injeksjon for å bidra til å forebygge disse hudforandringene.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Liste over andre bivirkninger&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Mindre vanlige bivirkninger&lt;/b&gt;&lt;br/&gt;Kan berøre færre enn 1 av 100 personer.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Symptomer på allergi: &lt;/b&gt;Lokale allergiske reaksjoner (smerte, rødhet, elveblest, inflammasjon, blåmerker, hevelse og kløe) på injeksjonsstedet kan forekomme. Disse forsvinner vanligvis i løpet av få uker ved fortsatt bruk av insulinet. Hvis de ikke forsvinner, eller det sprer seg over hele kroppen, snakk med lege omgående. Se også Alvorlig allergisk reaksjon ovenfor.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Synsforstyrrelser: &lt;/b&gt;Synsforstyrrelser kan oppstå i begynnelsen av en insulinbehandling, men er normalt av forbigående karakter.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Hovne ledd: &lt;/b&gt;Når du begynner insulinbehandlingen, kan væskeansamling forårsake hevelser rundt ankler og andre ledd. Dette er normalt av forbigående karakter, hvis ikke, snakk med legen.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Smertefull neuropati &lt;/b&gt;(smerte som skyldes nerveskade): Hvis blodsukkernivået ditt forbedres veldig raskt kan du få en nerverelatert smerte. Dette kalles akutt smertefull neuropati og er vanligvis forbigående.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Svært sjeldne bivirkninger&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Kan berøre færre enn 1 av 10 000 personer.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Diabetisk retinopati &lt;/b&gt;(en øyesykdom relatert til diabetes som kan føre til synstap): Dersom du har diabetisk retinopati og blodsukkernivået ditt forbedres veldig raskt, kan retinopatien bli verre. Spør legen om dette.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Følger ved diabetes&lt;/span&gt; &lt;span class=\&quot;inline-title\&quot;&gt;Høyt blodsukker (hyperglykemi)&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Høyt blodsukker kan inntreffe hvis du:&lt;/span&gt;&lt;ul&gt;&lt;li&gt;Ikke har injisert nok insulin.&lt;/li&gt;&lt;li&gt;Glemmer å ta insulin eller avbryter behandlingen med insulin.&lt;/li&gt;&lt;li&gt;Gjentatte ganger tar mindre insulin enn det du trenger.&lt;/li&gt;&lt;li&gt;Får en infeksjon og/eller feber.&lt;/li&gt;&lt;li&gt;Spiser mer enn vanlig.&lt;/li&gt;&lt;li&gt;Mosjonerer mindre enn vanlig.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Varselsymptomer på høyt blodsukker:&lt;/span&gt;&lt;br/&gt;Varselsymptomene utvikler seg gradvis. De inkluderer: økt vannlating, tørste, manglende appetitt, uvelhet (kvalme eller oppkast), døsighet eller tretthet, rødmende hud, tørr hud, munntørrhet og fruktluktende (acetonluktende) ånde.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Hva gjør du hvis du får høyt blodsukker:&lt;/span&gt;&lt;ul&gt;&lt;li&gt;Dersom du får noen av symptomene nevnt ovenfor: kontroller blodsukkernivået, hvis mulig kontroller urinen for ketoner, søk deretter råd hos helsepersonell omgående.&lt;/li&gt;&lt;li&gt;Dette kan være symptomer på en meget alvorlig tilstand kalt diabetisk ketoacidose (opphopning av syre i blodet fordi kroppen bryter ned fett i stedet for sukker). Dersom den ikke behandles, kan den føre til diabetisk koma og til slutt død.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">fhir:section</a> ( [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Melding av bivirkninger&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029912&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Melding av bivirkninger&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Kontakt lege, apotek eller sykepleier dersom du opplever bivirkninger, inkludert mulige bivirkninger som ikke er nevnt i dette pakningsvedlegget. Du kan også melde fra om bivirkninger direkte via meldeskjema som finnes på nettsiden til Statens legemiddelverk: &lt;a href=\&quot;https://www.legemiddelverket.no/pasientmelding\&quot; title=\&quot;www.legemiddelverket.no/pasientmelding\&quot;&gt;www.legemiddelverket.no/pasientmelding&lt;/a&gt;. Ved å melde fra om bivirkninger bidrar du med informasjon om sikkerheten ved bruk av dette legemidlet.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] )
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Hvordan du oppbevarer Actrapid&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029913&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Hvordan du oppbevarer Actrapid&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Oppbevares utilgjengelig for barn.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Bruk ikke dette legemidlet etter utløpsdatoen som er angitt på sylinderampullens etikett og eske etter “Utl. dato”. Utløpsdatoen er den siste dagen i den angitte måneden.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Før anbrudd: &lt;/b&gt;Oppbevares i kjøleskap ved 2-8ºC. Holdes borte fra kjøleelementet. Skal ikke fryses.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Under bruk eller medbrakt som reserve: &lt;/b&gt;Skal ikke oppbevares i kjøleskap eller fryses. Den kan medbringes og oppbevares i romtemperatur (ved høyst 30ºC) i opptil 6 uker.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;For å beskytte mot lys, oppbevares alltid sylinderampullen i ytteremballasjen når den ikke er i bruk.&lt;br/&gt;Kast nålen etter hver injeksjon.&lt;br/&gt;Legemidler skal ikke kastes i avløpsvann eller sammen med husholdningsavfall. Spør på apoteket hvordan du skal kaste legemidler som du ikke lenger bruker. Disse tiltakene bidrar til å beskytte miljøet.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ]
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Innholdet i pakningen og ytterligere informasjon&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029914&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Innholdet i pakningen og ytterligere informasjon&lt;/h2&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">fhir:section</a> ( [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Sammensetning av Actrapid&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029915&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Sammensetning av Actrapid&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Virkestoff er humant insulin. Hver ml inneholder 100 IE humant insulin. Hver sylinderampulle inneholder 300 IE humant insulin à 3 ml injeksjonsvæske, oppløsning.&lt;/li&gt;&lt;li&gt;Andre innholdsstoffer er sinkklorid, glyserol, metakresol, natriumhydroksid, saltsyre og vann til injeksjonsvæsker.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Hvordan Actrapid ser ut og innholdet i pakningen&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029916&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Hvordan Actrapid ser ut og innholdet i pakningen&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Actrapid finnes som injeksjonsvæske, oppløsning.&lt;br/&gt;Pakningsstørrelser på 1, 5 og 10 sylinderampuller à 3 ml. Ikke alle pakningsstørrelser vil bli markedsført.&lt;br/&gt;Oppløsningen er klar og fargeløs.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Innehaver av markedsføringstillatelsen og tilvirker&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029917&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Innehaver av markedsføringstillatelsen og tilvirker&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Innehaver av markedsføringstillatelsen&lt;/span&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Novo Nordisk A/S, Novo Allé, DK-2880 Bagsværd, Danmark&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Tilvirker&lt;/span&gt;&lt;br/&gt;Tilvirkeren kan identifiseres via batchnummeret som er trykket på kartongfliken og på etiketten:&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Hvis andre og tredje tegn er S6, P5, K7, R7, VG, FG eller ZF er tilvirkeren Novo Nordisk A/S, Novo Allé, DK-2880 Bagsværd, Danmark.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Hvis andre og tredje tegn er H7 eller T6 er tilvirkeren Novo Nordisk Production SAS, 45 Avenue d’Orléans, F-28000 Chartres, Frankrike.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Dette pakningsvedlegget ble sist oppdatert 24.09.2020&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029919&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Dette pakningsvedlegget ble sist oppdatert 24.09.2020&lt;/h3&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Andre informasjonskilder&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029920&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Andre informasjonskilder&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Detaljert informasjon om dette legemidlet er tilgjengelig på nettstedet til Det europeiske legemiddelkontoret (the European Medicines Agency): &lt;a href=\&quot;http://www.ema.europa.eu/\&quot; title=\&quot;\n               http://www.ema.europa.eu\n            \&quot;&gt;http://www.ema.europa.eu &lt;/a&gt;&lt;a href=\&quot;http://www.ema.europa.eu/\&quot; title=\&quot;/.\&quot;&gt;/.&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] )
+     ] )
+  ] ) . # 
+
+&lt;http://hl7.org/fhir/MedicinalProductDefinition/Diabetes-MPD-4&gt; a fhir:MedicinalProductDefinition .
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-4&gt; <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">a</a> fhir:MedicinalProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;Diabetes-MPD-4&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">fhir:meta</a> [
+     <a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">fhir:profile</a> ( [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&gt;
+     ] [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&gt;
+     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">fhir:text</a> [
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;MedicinalProductDefinition_Diabetes-MPD-4\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition Diabetes-MPD-4&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;Diabetes-MPD-4\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcDiabetes-MPD-4\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profiles: &lt;a href=\&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\&quot;&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_DB67B960-0E88-46E3-8935-A90F2A18AE2E&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Actrapid Penfill inj, oppl 100 IE/ml&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">fhir:identifier</a> ( [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;ID_DB67B960-0E88-46E3-8935-A90F2A18AE2E&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">fhir:name</a> ( [
+     <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.productName">fhir:productName</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Actrapid Penfill inj, oppl 100 IE/ml&quot; ]
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-4&gt; <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">a</a> fhir:PackagedProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;Diabetes-PPD-4&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.meta">fhir:meta</a> [
+     <a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">fhir:profile</a> ( [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&gt;
+     ] [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&gt;
+     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/domainresource.html#XPackagedProductDefinition.text">fhir:text</a> [
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;PackagedProductDefinition_Diabetes-PPD-4\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition Diabetes-PPD-4&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;Diabetes-PPD-4\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcDiabetes-PPD-4\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profiles: &lt;a href=\&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-PackagedProductDefinition-uv-epi.html\&quot;&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_1090FDF5-3215-42D2-BA40-0A2BE53B7042, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/014398&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Actrapid Penfill inj, oppl 100 IE/ml&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\&quot;Bundle-FK545731.html#MedicinalProductDefinition_Diabetes-MPD-4\&quot;&gt;MedicinalProductDefinition: identifier = http://legemiddelverket.no/FEST/LegemiddelMerkevareID#ID_DB67B960-0E88-46E3-8935-A90F2A18AE2E&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">fhir:identifier</a> ( [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://legemiddelverket.no/FEST/LegemiddelPakningID&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;ID_1090FDF5-3215-42D2-BA40-0A2BE53B7042&quot; ]
+  ] [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://farmalogg.no/varenummer&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;014398&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Actrapid Penfill inj, oppl 100 IE/ml&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packageFor">fhir:packageFor</a> ( [
+     <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/MedicinalProductDefinition/Diabetes-MPD-4&gt; ;
+     <a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;MedicinalProductDefinition/Diabetes-MPD-4&quot; ]
+  ] ) . # 
+
+</pre>
+
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

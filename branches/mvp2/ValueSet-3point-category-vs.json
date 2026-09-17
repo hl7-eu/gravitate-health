@@ -1,0 +1,42 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "3point-category-vs",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-questi-dimens-cs.html\"><code>http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/questi-dimens-cs</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-questi-dimens-cs.html#questi-dimens-cs-Low\">Low</a></td><td style=\"color: #cccccc\">Low</td><td>Low</td></tr><tr><td><a href=\"CodeSystem-questi-dimens-cs.html#questi-dimens-cs-Medium\">Medium</a></td><td style=\"color: #cccccc\">Medium</td><td>Medium</td></tr><tr><td><a href=\"CodeSystem-questi-dimens-cs.html#questi-dimens-cs-High\">High</a></td><td style=\"color: #cccccc\">High</td><td>High</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://hl7.eu/fhir/ig/gravitate-health/ValueSet/3point-category-vs",
+  "version" : "0.1.0",
+  "name" : "ThreepointCategoryVS",
+  "status" : "active",
+  "date" : "2024-03-14T09:41:47+00:00",
+  "publisher" : "Gravitate Health Project",
+  "contact" : [{
+    "name" : "Gravitate Health Project",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.gravitatehealth.eu/"
+    }]
+  },
+  {
+    "name" : "Gravitate Health Project",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.gravitatehealth.eu/"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/questi-dimens-cs",
+      "concept" : [{
+        "code" : "Low"
+      },
+      {
+        "code" : "Medium"
+      },
+      {
+        "code" : "High"
+      }]
+    }]
+  }
+}

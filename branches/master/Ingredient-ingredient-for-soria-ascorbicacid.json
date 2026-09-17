@@ -1,0 +1,58 @@
+{
+  "resourceType" : "Ingredient",
+  "id" : "ingredient-for-soria-ascorbicacid",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-soria-ascorbicacid\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-soria-ascorbicacid&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0PQ6CK8PD0R\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"ManufacturedItemDefinition-mid-865e1b5617e6fb0d453cc2f7cf87d441.html\">ManufacturedItemDefinition/mid-865e1b5617e6fb0d453cc2f7cf87d441</a></li><li><a href=\"MedicinalProductDefinition-mp5aea2ea50d47a8b479a61aec209c957f.html\">MedicinalProductDefinition/mp5aea2ea50d47a8b479a61aec209c957f</a></li><li><a href=\"AdministrableProductDefinition-ap-865e1b5617e6fb0d453cc2f7cf87d441.html\">AdministrableProductDefinition/ap-865e1b5617e6fb0d453cc2f7cf87d441</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>ASCORBIC ACID <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#PQ6CK8PD0R)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>500 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+  },
+  "identifier" : {
+    "use" : "official",
+    "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+    "value" : "PQ6CK8PD0R"
+  },
+  "status" : "active",
+  "for" : [{
+    "reference" : "ManufacturedItemDefinition/mid-865e1b5617e6fb0d453cc2f7cf87d441"
+  },
+  {
+    "reference" : "MedicinalProductDefinition/mp5aea2ea50d47a8b479a61aec209c957f"
+  },
+  {
+    "reference" : "AdministrableProductDefinition/ap-865e1b5617e6fb0d453cc2f7cf87d441"
+  }],
+  "role" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000072072",
+      "display" : "Active"
+    }]
+  },
+  "substance" : {
+    "code" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+          "code" : "PQ6CK8PD0R",
+          "display" : "ASCORBIC ACID"
+        }]
+      }
+    },
+    "strength" : [{
+      "presentationQuantity" : {
+        "value" : 500,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      },
+      "basis" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+          "code" : "ACTIB",
+          "display" : "active ingredient - basis of strength"
+        }]
+      }
+    }]
+  }
+}

@@ -1,0 +1,838 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Aclasta Sandoz (Bundle) - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.482"}
+    h3,h4,h5,h6{--heading-prefix:"16.482"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Aclasta Sandoz (Bundle)</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-545701.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-545701.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-545701.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Bundle: Aclasta Sandoz (Bundle)</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>Pakningsvedlegg: Informasjon til brukeren</h3>
+    <p>
+      <div>
+                     <h1>Pakningsvedlegg: Informasjon til brukeren</h1>
+                     <h2>Aclasta 5 mg infusjonsvæske, oppløsning</h2>
+                     <h3>zoledronsyre</h3>
+                  </div></p>
+    
+      
+
+        <h4>Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg.</h4>
+        <p>
+          <div>
+                        <h2>Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg.</h2>
+                        <div class="paragraph">
+                           <ul>
+                              <li>Ta vare på dette pakningsvedlegget. Du kan få behov for å lese det igjen.</li>
+                              <li>Spør lege, apotek eller sykepleier hvis du har flere spørsmål eller trenger mer informasjon.</li>
+                              <li>Kontakt lege, apotek eller sykepleier dersom du opplever bivirkninger, inkludert mulige bivirkninger som ikke er nevnt i dette pakningsvedlegget. Se avsnitt 4.</li>
+                           </ul>
+                        </div>
+                     </div></p>
+
+      
+
+        <h4>I dette pakningsvedlegget finner du informasjon om</h4>
+        <p>
+          <div>
+                        <h2>I dette pakningsvedlegget finner du informasjon om</h2>
+                        <div class="paragraph">
+                           <ol>
+                              <li>Hva Aclasta er og hva det brukes mot</li>
+                              <li>Hva du må vite før du får Aclasta</li>
+                              <li>Hvordan Aclasta gis</li>
+                              <li>Mulige bivirkninger</li>
+                              <li>Hvordan du oppbevarer Aclasta</li>
+                              <li>Innholdet i pakningen og ytterligere informasjon</li>
+                           </ol>
+                        </div>
+                     </div></p>
+
+      
+
+        <h4>1. Hva Aclasta er og hva det brukes mot</h4>
+        <p>
+          <div>
+                        <h2>1. Hva Aclasta er og hva det brukes mot</h2>
+                        <div class="paragraph">Aclasta inneholder virkestoffet zoledronsyre. Aclasta tilhører en gruppe legemidler som kalles bisfosfonater og brukes i behandlingen av kvinner etter overgangsalderen og voksne menn med osteoporose, eller osteoporose forårsaket av behandling med kortikosteroider som brukes ved behandling av betennelse, og ved Pagets bensykdom hos voksne.</div>
+                        <span class="inline-title">Osteoporose</span>
+                        <div class="paragraph">Osteoporose er en sykdom som innebærer at benvevet blir tynnere og svakere. Det er vanlig hos kvinner etter overgangsalderen, men kan også forekomme hos menn. Ved overgangsalderen slutter kvinnens eggstokker å produsere det kvinnelige hormonet østrogen som medvirker til å beholde et friskt benvev. Etter overgangsalderen reduseres benmassen, og benvevet blir svakere og er mer utsatt for brudd. Osteoporose kan også oppstå hos menn og kvinner som følge av langtidsbruk av steroider, noe som kan påvirke benstyrken. Mange pasienter med osteoporose har ingen symptomer, men har likevel en risiko for benbrudd fordi osteoporosen har gjort benvevet svakere. Reduserte nivåer av sirkulerende kjønnshormoner i kroppen, hovedsakelig østrogen som dannes fra androgener, spiller også en rolle for det gradvise tapet av benvev som observeres hos menn. Aclasta styrker benvevet hos både kvinner og menn og gjør det derfor mindre utsatt for brudd. Aclasta brukes også hos pasienter som nylig har brukket hoften ved et uhell som f.eks. et fall, og som derfor har risiko for senere benbrudd.</div>
+                        <span class="inline-title">Pagets bensykdom</span>
+                        <div class="paragraph">Det er normalt at gammelt benvev fjernes og erstattes av ny bensubstans. Prosessen kalles remodellering. Ved Pagets bensykdom er remodelleringen for rask og nytt ben dannes på en uorganisert måte, noe som gjør det svakere enn normalt. Dersom sykdommen ikke behandles, kan misdannelser og smerter i skjelettet oppstå, og benbrudd kan forekomme. Aclasta virker ved å normalisere remodelleringsprosessen, sikrer at normalt ben dannes, og gjenoppretter dermed benstyrken.</div>
+                     </div></p>
+
+      
+
+        <h4>2. Hva du må vite før du får Aclasta</h4>
+        <p>
+          <div>
+                        <h2>2. Hva du må vite før du får Aclasta</h2>
+                        <div class="paragraph">Følg alle instruksjoner fra legen din, apoteket eller sykepleier nøye før du får Aclasta.</div>
+                     </div></p>
+
+      
+
+        <h4>3. Hvordan Aclasta gis</h4>
+        <p>
+          <div>
+                        <h2>3. Hvordan Aclasta gis</h2>
+                        <div class="paragraph">Følg nøye alle instruksjoner du får fra lege eller sykepleier. Kontakt lege eller sykepleier hvis du er usikker.</div>
+                        <span class="inline-title">Osteoporose</span>
+                        <div class="paragraph">Den vanlige dosen er 5 mg gitt av legen din eller en sykepleier som én årlig enkeltinfusjon i en blodåre (vene). Infusjonen tar minimum 15 minutter.</div>
+                        <div class="paragraph">Hvis du nylig har hatt et brudd i hoften, anbefales det at Aclasta gis to eller flere uker etter hofteoperasjonen.</div>
+                        <div class="paragraph">Det er viktig at du tar tilskudd av kalsium og vitamin D (f.eks. tabletter) i henhold til anbefaling fra legen din.</div>
+                        <div class="paragraph">Ved osteoporose virker Aclasta i 1 år. Legen din vil fortelle deg når du skal komme tilbake for å få neste dose.</div>
+                        <span class="inline-title">Pagets bensykdom</span>
+                        <div class="paragraph">Ved behandling av Pagets bensykdom, bør Aclasta kun forskrives av leger med erfaring i behandling av Pagets bensykdom.</div>
+                        <div class="paragraph">Den vanlige dosen er 5 mg, gitt av legen din eller en sykepleier, som en initialinfusjon i en blodåre (vene). Infusjonen tar minimum 15 minutter. Aclasta kan virke i mer enn ett år, og legen din vil fortelle deg om du trenger flere behandlinger.</div>
+                        <div class="paragraph">Legen kan anbefale deg å ta kalsium- og vitamin D-tilskudd (f.eks. tabletter) minimum de ti første dagene etter at du har fått Aclasta. Det er viktig at du følger dette rådet nøye slik at nivået av kalsium i blodet ikke blir for lavt (hypokalsemi) i tiden etter infusjonen. Legen vil informere om symptomer som er forbundet med hypokalsemi.</div>
+                        <span class="inline-title">Inntak av Aclasta sammen med mat og drikke</span>
+                        <div class="paragraph">Sørg for at du drikker tilstrekkelig væske (minimum ett eller to glass) før og etter behandlingen med Aclasta, slik som legen din sier. Dette vil hjelpe deg å forhindre dehydrering. Du kan spise normalt de dagene du får Aclasta. Dette er spesielt viktig for pasienter som bruker diuretika (”vanndrivende”) og hos eldre pasienter (65 år eller eldre).</div>
+                     </div></p>
+
+      
+
+        <h4>4. Mulige bivirkninger</h4>
+        <p>
+          <div>
+                        <h2>4. Mulige bivirkninger</h2>
+                        <div class="paragraph">Som alle legemidler kan dette legemidlet forårsake bivirkninger, men ikke alle får det.</div>
+                        <div class="paragraph">Bivirkninger relatert til den første infusjonen er svært vanlig (oppstår hos mer enn 30 % av pasientene), men er mindre vanlig ved påfølgende infusjoner. De fleste av bivirkningene, slik som feber og frysninger, smerter i muskler eller ledd og hodepine, oppstår i løpet av de tre første dagene etter en dose Aclasta. Symptomene er vanligvis milde til moderate og opphører i løpet av tre dager. Legen din kan anbefale et mildt smertestillende middel som ibuprofen eller paracetamol for å lindre disse bivirkningene. Sannsynligheten for at du får disse bivirkningene med de påfølgende dosene Aclasta er lavere.</div>
+                        <span class="inline-title">Enkelte bivirkninger kan være alvorlige</span>
+                        <div class="paragraph">
+                           <span class="underline">Vanlige (kan forekomme hos opp til 1 av 10 personer)</span>
+                           <br/>Uregelmessig hjerterytme (atrieflimmer) har blitt sett hos pasienter som får Aclasta mot osteoporose etter overgangsalderen. Det er foreløpig uklart om Aclasta forårsaker denne uregelmessige hjerterytmen, men du må si fra til legen din hvis du opplever slike symptomer etter at du har fått Aclasta.</div>
+                        <div class="paragraph">
+                           <span class="underline">Mindre vanlige (kan forekomme hos opp til 1 av 100 personer)</span> Hevelse, rødhet, smerte og kløe i øynene eller lysfølsomme øyne.</div>
+                        <div class="paragraph">
+                           <span class="underline">Svært sjeldne (kan forekomme hos opp til 1 av 10 000 personer)</span>
+                           <br/>Snakk med legen din dersom du har smerter i øret, pussdannelse fra øret, og/eller en infeksjon i øret. Dette kan være tegn på benskade i øret.</div>
+                        <div class="paragraph">
+                           <span class="underline">Ikke kjent (frekvens kan ikke estimeres ut ifra tilgjengelige data)</span>
+                           <br/>Smerte i munnen og/eller kjeven, hevelse eller sår som ikke gror i munnen eller kjeven, væsker, nummenhet eller en følelse av tung kjeve, eller en tann som løsner; dette kan være tegn på skader i kjevebenet (osteonekrose). Ta øyeblikkelig kontakt med legen og tannlegen din dersom du opplever slike symptomer samtidig som du blir behandlet med Aclasta eller etter at behandlingen er avsluttet.</div>
+                        <div class="paragraph">Nyresykdom (f.eks. redusert urinproduksjon) kan oppstå. Legen din bør ta en blodprøve for å sjekke nyrefunksjonen din før hver dose med Aclasta. Det er viktig at du drikker minst to glass væske (f.eks. vann) i løpet av få timer før du får Aclasta, slik som du har fått beskjed om av helsepersonell.</div>
+                        <div class="paragraph">Informer legen din dersom du merker noen av bivirkningene som er nevnt over.</div>
+                        <span class="inline-title">Aclasta kan også gi andre bivirkninger</span>
+                        <div class="paragraph">
+                           <span class="underline">Svært vanlige (kan forekomme hos flere enn 1 av 10 personer)</span> Feber</div>
+                        <div class="paragraph">
+                           <span class="underline">Vanlige (kan forekomme hos opp til 1 av 10 personer)</span>
+                           <br/>Hodepine, svimmelhet, kvalme, oppkast, diaré, muskelsmerter, smerter i skjelett og/eller ledd, smerter i rygg, armer eller ben, influensalignende symptomer (f.eks. tretthet, frysninger, ledd- og muskelsmerter), frysninger, tretthetsfølelse og manglende tiltakslyst, svakhet, smerter, følelse av uvelhet, hevelse og/eller smerte på infusjonsstedet.</div>
+                        <div class="paragraph">Hos pasienter med Pagets sykdom er symptomer på lite kalsium i blodet, slik som muskelkramper, nummenhet eller en kriblende følelse, spesielt i området rundt munnen, rapportert.</div>
+                        <div class="paragraph">
+                           <span class="underline">Mindre vanlige (kan forekomme hos opp til 1 av 100 personer)</span>
+                           <br/>Influensa, øvre luftveisinfeksjoner, redusert antall røde blodlegemer, redusert appetitt, søvnløshet, søvnighet som kan omfatte redusert årvåkenhet og oppmerksomhet, kriblende følelse eller nummenhet, ekstrem tretthet, skjelvinger, midlertidig bevisstløshet, øyeinfeksjon eller irritasjon eller betennelse med smerter og rødhet, snurrende følelse, økt blodtrykk, rødming, hoste, kortpustethet, magebesvær, buksmerter, forstoppelse, munntørrhet, halsbrann, hudutslett, kraftig svetting, kløe, rødhet i huden, nakkesmerter, stivhet i muskler, skjelett og/eller ledd, hovne ledd, muskelkramper, skuldersmerter, smerter i brystmuskulaturen og brystkassen, leddbetennelse, muskelsvakhet, unormale nyrefunksjonstester, unormalt hyppig vannlating, hevelser i hender, ankler eller føtter, tørste, tannpine, smaksforstyrrelser.</div>
+                        <div class="paragraph">
+                           <span class="underline">Sjeldne (kan forekomme hos opp til 1 av 1000 personer)</span>
+                           <br/>Uvanlige brudd i lårbenet kan oppstå i sjeldne tilfeller, spesielt hos pasienter som har vært behandlet for osteoporose lenge. Ta kontakt med legen din dersom du merker smerter, svakhet eller ubehag i låret, hoften eller lysken siden dette kan være tidlige tegn på et mulig lårbensbrudd. <span style="color: #212121;">Lave fosfatnivåer i blodet.</span>
+                        </div>
+                        <div class="paragraph">
+                           <span class="underline">Ikke kjent (frekvens kan ikke anslås ut ifra tilgjengelige data)</span>
+                           <br/>Alvorlige allergiske reaksjoner inkludert svimmelhet og pustevansker, hevelse i hovedsakelig ansikt og hals, redusert blodtrykk, dehydrering (uttørring) på grunn av akuttfasereaksjoner (bivirkninger etter dosering, slik som feber, oppkast og diaré).</div>
+                     </div></p>
+
+      
+
+        <h4>5. Hvordan du oppbevarer Aclasta</h4>
+        <p>
+          <div>
+                        <h2>5. Hvordan du oppbevarer Aclasta</h2>
+                        <div class="paragraph">Legen din, apoteket eller sykepleier vet hvordan Aclasta skal oppbevares.</div>
+                        <div class="paragraph">
+                           <ul>
+                              <li>Oppbevares utilgjengelig for barn.</li>
+                              <li>Bruk ikke dette legemidlet etter utløpsdatoen som er angitt på esken og flasken etter EXP.</li>
+                              <li>Uåpnet flaske krever ingen spesielle oppbevaringsbetingelser.</li>
+                              <li>Etter at flasken er åpnet bør legemidlet brukes umiddelbart for å unngå forurensning med bakterier. Dersom den ikke brukes umiddelbart, er oppbevaringstid og –betingelser før bruk brukerens ansvar. Tiden bør normalt ikke overskride 24 timer ved 2-8ºC. Den avkjølte oppløsningen bør nå romtemperatur før administrering.</li>
+                           </ul>
+                        </div>
+                     </div></p>
+
+      
+
+        <h4>6. Innholdet i pakningen og ytterligere informasjon</h4>
+        <p>
+          <div>
+                        <h2>6. Innholdet i pakningen og ytterligere informasjon</h2>
+                     </div></p>
+
+      
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Aclasta inf, oppl 5 mg/100 ml
+  </h4>
+
+  
+  
+    LEGEMIDDELMERKEVAREID:
+    <b>
+      ID_834B988C-01D4-471D-AE6A-B32833006AF3
+    </b>
+    
+  
+  <hr>
+  
+  <p>Full name: <b>Aclasta inf, oppl 5 mg/100 ml</b></p>
+  
+
+
+  
+  
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b></b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b></b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 1</p>
+          
+  <p>LEGEMIDDELPAKNINGID:
+  <b>
+    ID_DEA4A057-4B2E-4753-8AC1-F83B0360B6C8
+  </b>
+  </p>
+
+  <p>VARENUMMER:
+  <b>
+    113088
+  </b>
+  </p>
+
+<p>
+  Description:
+  
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b> </b>
+  
+  
+</p>
+
+<p>Containing:
+  
+
+
+
+
+  
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+  
+
+
+
+  <!-- <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Aclasta inf, oppl 5 mg/100 ml
+  </h4>
+
+  
+  
+  
+  
+    LEGEMIDDELMERKEVAREID:
+    <b>
+      ID_834B988C-01D4-471D-AE6A-B32833006AF3
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b></b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 1</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          LEGEMIDDELPAKNINGID:
+          <b>
+            ID_DEA4A057-4B2E-4753-8AC1-F83B0360B6C8
+          </b>
+        
+          VARENUMMER:
+          <b>
+            113088
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          </b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+  
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+    <!-- insert notes if present -->
+  
+
+
+
+
+            <!-- /inner-wrapper -->
+          <!-- /row -->
+        <!-- /container -->
+      <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  
+
+</p></div></hr></hr></hr></div></div></div></div></div></div></body></html>

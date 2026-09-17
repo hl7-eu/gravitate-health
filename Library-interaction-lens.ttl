@@ -1,0 +1,73 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Library/interaction-lens> a fhir:Library ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "interaction-lens"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/lens"^^xsd:anyURI ;
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/lens>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<div>\n    <table class=\"grid dict\">\n        \n        \n        <tr>\n            <th scope=\"row\"><b>Title: </b></th>\n            <td style=\"padding-left: 4px;\">interaction-lens</td>\n        </tr>\n        \n\n        \n        \n        <tr>\n            <th scope=\"row\"><b>Id: </b></th>\n            <td style=\"padding-left: 4px;\">interaction-lens</td>\n        </tr>\n        \n\n        \n        \n        <tr>\n            <th scope=\"row\"><b>Version: </b></th>\n            <td style=\"padding-left: 4px;\">0.1.0</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Url: </b></th>\n            <td style=\"padding-left: 4px;\"><a href=\"Library-allergy-lens.html\">allergy-lens</a></td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\">\n                <b>\n                    \n                        \n                    \n                </b>\n            </th>\n            <td style=\"padding-left: 4px;\">\n                \n                <p style=\"margin-bottom: 5px;\">\n                    <span>interaction-lens</span>\n                </p>\n                \n            </td>\n        </tr>\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Status: </b></th>\n            <td style=\"padding-left: 4px;\">draft</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Experimental: </b></th>\n            <td style=\"padding-left: 4px;\">true</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Type: </b></th>\n            <td style=\"padding-left: 4px;\">\n                \n                    \n                        \n                        \n                        <p style=\"margin-bottom: 5px;\">\n                            <b>code: </b> <span>logical-library</span>\n                        </p>\n                        \n                        \n                    \n                \n                \n            </td>\n        </tr>\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Date: </b></th>\n            <td style=\"padding-left: 4px;\">2024-06-12 12:23:10+0000</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Publisher: </b></th>\n            <td style=\"padding-left: 4px;\">Gravitate Health Project</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Description: </b></th>\n            <td style=\"padding-left: 4px;\"><div><p>Lens that highlight or collapses pregnancy related information</p>\n</div></td>\n        </tr>\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Purpose: </b></th>\n            <td style=\"padding-left: 4px;\"><div><p>Collapse or highlight interactions between drugs to related information on a preprocessed ePI.</p>\n</div></td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Usage: </b></th>\n            <td style=\"padding-left: 4px;\"><div><p>You can import this lens directly to your FHIR Server which suports Library Resource type.</p>\n</div></td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Copyright: </b></th>\n            <td style=\"padding-left: 4px;\"><div><p>© 2024 Gravitate Health</p>\n</div></td>\n        </tr>\n        \n\n        \n\n        \n\n        \n\n        \n        <tr>\n          <th scope=\"row\"><b>Parameters: </b></th>\n          <td style=\"padding-left: 4px;\">\n            <table class=\"grid-dict\">\n              <tr><th><b>Name</b></th><th><b>Type</b></th><th><b>Min</b></th><th><b>Max</b></th><th><b>In/Out</b></th></tr>\n              \n                <tr><th/><th>CodeableConcept</th><th/><th/><th>In</th></tr>\n              \n            </table>\n          </td>\n        </tr>\n        \n\n        \n\n        \n        \n        \n        <tr>\n          <td colspan=\"2\">\n            <table>\n              <tr><th><b>Content: </b> application/javascript</th></tr>\n              <tr><td><pre><code/></pre></td></tr>\n            </table>\n          </td>\n        </tr>\n        \n        \n    </table>\n</div>\n</div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/lee-version"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "dev"
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Library/mock-lib"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://gravitate-health.lst.tfo.upm.es"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "interaction-lens" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "interaction-lens"] ; # 
+  fhir:title [ fhir:v "interaction-lens"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:code [ fhir:v "logical-library" ]
+     ] )
+  ] ; # 
+  fhir:date [ fhir:v "2024-06-12T12:23:10.005Z"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Gravitate Health Project"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Lens that highlight or collapses pregnancy related information"] ; # 
+  fhir:purpose [ fhir:v "Collapse or highlight interactions between drugs to related information on a preprocessed ePI."] ; # 
+  fhir:usage [ fhir:v "You can import this lens directly to your FHIR Server which suports Library Resource type."] ; # 
+  fhir:copyright [ fhir:v "© 2024 Gravitate Health"] ; # 
+  fhir:parameter ( [
+     fhir:use [ fhir:v "in" ] ;
+     fhir:documentation [ fhir:v "parameter if it exists" ] ;
+     fhir:type [ fhir:v "CodeableConcept" ]
+  ] ) ; # 
+  fhir:content ( [
+     fhir:contentType [ fhir:v "application/javascript" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

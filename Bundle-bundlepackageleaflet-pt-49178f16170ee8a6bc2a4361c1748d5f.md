@@ -1,0 +1,1613 @@
+# ePI document Bundle for Dovato 50 mg/300 mg film-coated tablets Package Leaflet for language pt - Gravitate Health FHIR Implementation Guide v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **ePI document Bundle for Dovato 50 mg/300 mg film-coated tablets Package Leaflet for language pt**
+
+## Example Bundle: ePI document Bundle for Dovato 50 mg/300 mg film-coated tablets Package Leaflet for language pt
+
+**Composition category:**Raw
+
+**Composition status:**final
+
+### B. FOLHETO INFORMATIVO
+
+ 
+
+unavailable
+
+
+#### Folheto informativo: Informação para o utilizador
+
+ 
+
+B. FOLHETO INFORMATIVO Folheto informativo: Informação para o doente
+
+Dovato 50 mg/300 mg comprimidos revestidos por película
+dolutegravir/lamivudina
+
+Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois contém informação importante para si. - Conserve este folheto. Pode ter necessidade de o ler novamente.
+- Caso ainda tenha dúvidas, fale com o seu médico ou farmacêutico. - Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença.
+- Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.
+
+
+#### O que contém este folheto
+
+ 
+
+O que contém este folheto:
+
+1. O que é Dovato e para que é utilizado
+1. O que precisa de saber antes de tomar Dovato
+1. Como tomar Dovato
+1. Efeitos indesejáveis possíveis
+1. Como conservar Dovato
+1. Conteúdo da embalagem e outras informações
+
+
+#### 1. O que é Dovato e para que é utilizado
+
+ 
+
+Dovato é um medicamento que contém duas substâncias ativas utilizadas para tratar a infeção por VIH: dolutegravir e lamivudina. O dolutegravir pertence a um grupo de medicamentos antirretrovíricos chamados inibidores da integrase (INIs) e a lamivudina pertence a um grupo de medicamentos antirretrovíricos chamados análogos nucleosídeos inibidores da transcriptase reversa (NITRs).
+
+Dovato é utilizado para tratar o VIH em adultos e adolescentes com mais de 12 anos de idade que pesem pelo menos 40 kg.
+
+Dovato não cura a infeção por VIH; mantém a quantidade de vírus no seu organismo num nível baixo. Isto contribui para manter o número de células CD4 no seu sangue. As células CD4 são um tipo de glóbulo branco e são importantes para ajudar o seu organismo no combate à infeção.
+
+Nem todas as pessoas respondem da mesma forma ao tratamento com Dovato. O seu médico monitorizará a eficácia do tratamento.
+
+
+#### 2. O que precisa de saber antes de tomar Dovato
+
+ 
+
+Não tome Dovato
+
+* se tem alergia (hipersensibilidade) ao dolutegravir ou à lamivudina ou a qualquer outro componente deste medicamento (indicados na secção 6).
+* Se está a tomar um medicamento chamado fampridina (também conhecida como dalfampridina; utilizado na esclerose múltipla).
+
+→ Se acha que alguma destas situações se aplica a si, informe o seu médico.
+
+Advertências e Precauções
+Algumas pessoas que tomam Dovato ou outras combinações terapêuticas para o VIH estão mais em risco de sofrer efeitos indesejáveis graves do que outras. Precisa de ter conhecimento dos riscos acrescidos:
+
+* se tem doença moderada ou grave do fígado
+* se tiver antecedentes de doença do fígado, incluindo hepatite B ou C (se tiver infeção por hepatite B, não pare Dovato sem o conselho do seu médico, uma vez que a hepatite pode regressar)
+* se tem um problema dos rins → Fale com o seu médico antes de utilizar Dovato se alguma destas situações se aplica a si. Pode necessitar de acompanhamento extra, incluindo análises ao sangue, enquanto estiver a tomar o medicamento. Consulte a Secção 4 para mais informação.
+
+Reações alérgicas Dovato contém dolutegravir. O dolutegravir pode causar uma reação alérgica grave conhecida como reação de hipersensibilidade. Precisa de saber quais os sinais e sintomas importantes a que deve estar atento enquanto estiver a tomar Dovato. →Leia a informação “Reações alérgicas” na secção 4 deste folheto informativo.
+
+Fique atento a sintomas importantes Algumas pessoas que tomam medicamentos para a infeção por VIH desenvolvem outras doenças, que podem ser graves. Estas incluem:
+
+* sintomas de infeções e inflamação
+* dor nas articulações, rigidez e problemas dos ossos. Precisa de saber quais os sinais e sintomas importantes a que deve ficar atento enquanto estiver a tomar Dovato. → Leia a informação “Outros efeitos indesejáveis possíveis” na secção 4 deste folheto informativo.
+
+Crianças Este medicamento não se destina a crianças com menos de 12 anos de idade, porque não foi estudado nestes doentes.
+
+Outros medicamentos e Dovato Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros medicamentos.
+
+Não tome Dovato com o seguinte medicamento:
+
+* fampridina (também conhecida como dalfampridina), utilizado na esclerose múltipla.
+
+Alguns medicamentos podem afetar a forma como Dovato funciona ou tornar mais provável que venha a ter efeitos indesejáveis. Dovato também pode afetar a forma como outros medicamentos funcionam.
+Informe o seu médico se estiver a tomar algum dos medicamentos da lista seguinte:
+
+* metformina, para tratar diabetes
+* medicamentos chamados antiácidos, para tratar a indigestão e a azia. Não tome um antiácido durante as 6 horas anteriores a tomar Dovato ou por pelo menos 2 horas depois de o ter tomado (ver também secção 3, “Como tomar Dovato”)
+* suplementos ou multivitamínicos de cálcio, ferro ou magnésio. Se tomar Dovato com comida, pode tomar suplementos ou multivitamínicos de cálcio, ferro ou magnésio ao mesmo tempo que Dovato. Se não tomar Dovato com comida, não tome um suplemento ou multivitamínico de cálcio, ferro ou magnésio durante as 6 horas anteriores a tomar Dovato ou por pelo menos 2 horas depois de o ter tomado (ver também secção 3, “Como tomar Dovato”)
+* emtricitabina, etravirina, efavirenz, nevirapina ou tipranavir/ritonavir, para tratar a infeção por VIH
+* medicamentos contendo sorbitol (normalmente líquidos) e outros álcoois açucarados (como o xilitol, manitol, lactitol ou maltitol), se tomados regularmente
+* cladribina, usada para tratar a leucemia ou esclerose múltipla
+* rifampicina, para tratar a tuberculose (TB) e outras infeções bacterianas
+* fenitoína e fenobarbital, para tratar a epilepsia
+* oxcarbazepina e carbamazepina, para tratar a epilepsia e a doença bipolar
+* erva de S. João (Hypericum perforatum), um medicamento à base de plantas para tratar a depressão.
+
+→ Informe o seu médico ou farmacêutico se estiver a tomar algum destes medicamentos. O seu médico pode decidir ou ajustar a sua dose ou que necessita de exames de rotina extra.
+
+Gravidez
+Se está grávida, se pensa estar grávida ou planeia engravidar:
+
+→ Fale com o seu médico sobre os benefícios e riscos de tomar Dovato
+Tomar Dovato no momento da conceção ou durante as primeiras seis semanas de gestação pode aumentar o risco de uma malformação congénita denominada defeito do tubo neural, tal como espinha bífida (malformação da espinal medula).
+
+Se tem potencial para engravidar enquanto toma Dovato: → Fale com o seu médico sobre a eventual necessidade de contraceção, tal como preservativo ou a pílula.
+Informe imediamente o seu médico se está grávida ou se planeia engravidar. O médico irá rever o seu tratamento. Não pare de tomar Dovato sem consultar o seu médico, uma vez que isso pode ser prejudicial para si e para a criança em gestação.
+
+Amamentação A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção peloVIH pode ser transmitida ao bebé através do leite materno.
+
+Uma pequena quantidade dos componentes de Dovato pode também passar para o leite materno.
+
+Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais rapidamente possível.
+
+Condução de veículos e utilização de máquinas Dovato pode provocar-lhe tonturas e outros efeitos indesejáveis que o tornam menos alerta.
+
+→ Não conduza ou utilize máquinas a não ser que tenha a certeza que o seu estado de alerta não é afetado.
+
+
+#### 3. Como tomar Dovato
+
+ 
+
+Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou farmacêutico se tiver dúvidas.
+
+* A dose recomendada de Dovato é de um comprimido uma vez por dia.
+
+Engula o comprimido com um pouco de líquido. Dovato pode ser tomado com ou sem alimentos.
+
+Utilização em adolescentes Adolescentes com idades compreendidas entre os 12 e os 17 anos e que pesem pelo menos 40 kg podem tomar a dose de adulto de um comprimido uma vez por dia.
+
+Medicamentos antiácidos Os antiácidos, para tratar a indigestão e a azia, podem impedir que Dovato seja absorvido pelo seu organismo e podem torná-lo menos eficaz. Não tome um antiácido durante as 6 horas anteriores a tomar Dovato ou por pelo menos 2 horas depois de o ter tomado. Pode tomar outros medicamentos que reduzem a acidez como a ranitidina e o omeprazol ao mesmo tempo que Dovato.
+
+→ Fale com o seu médico para mais aconselhamento sobre como tomar medicamentos antiácidos com Dovato.
+
+Suplementos ou multivitamínicos de cálcio, ferro ou magnésio Os suplementos ou multivitamínicos de cálcio, ferro ou magnésio podem impedir que Dovato seja absorvido pelo seu organismo e torná-lo menos eficaz. Se tomar Dovato com comida, pode tomar suplementos ou multivitamínicos de cálcio, ferro ou magnésio ao mesmo tempo que Dovato. Se não tomar Dovato com comida, não tome um suplemento ou multivitamínico de cálcio, ferro ou magnésio durante as 6 horas anteriores a tomar Dovato ou por pelo menos 2 horas depois de o ter tomado.
+
+→ Fale com o seu médico para mais aconselhamento sobre como tomar suplementos ou multivitamínicos de cálcio, ferro ou magnésio com Dovato.
+
+Se tomar mais Dovato do que deveria Se tomar demasiados comprimidos de Dovato, contacte o seu médico ou farmacêutico para aconselhamento. Se possível, mostre-lhes a embalagem de Dovato.
+
+Caso se tenha esquecido de tomar Dovato Se se esqueceu de tomar uma dose, tome-a assim que se lembrar. Porém, se a sua dose seguinte estiver prevista no prazo de 4 horas, não tome a dose esquecida e tome a próxima dose à hora habitual. Depois continue o seu tratamento como antes.
+
+→ Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+
+Não pare de tomar Dovato sem o conselho do seu médico Tome Dovato durante o período de tempo recomendado pelo seu médico. Não pare o tratamento, a não ser por indicação do seu médico. Parar Dovato pode afetar a sua saúde e a eficácia de tratamentos futuros.
+
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.
+
+
+#### 4. Efeitos indesejáveis possíveis
+
+ 
+
+Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se manifestem em todas as pessoas por isso, é muito importante que fale com o seu médico sobre quaisquer alterações na sua saúde.
+
+Reações alérgicas Dovato contém dolutegravir. O dolutegravir pode causar uma reação alérgica grave conhecida como reação de hipersensibilidade. Esta é uma reação pouco frequente (pode afetar até 1 em 100 pessoas) em pessoas a tomar dolutegravir. Se notar algum dos seguintes sintomas:
+
+* erupção da pele
+* temperatura elevada (febre)
+* falta de energia (fadiga)
+* inchaço, por vezes da face ou boca (angioedema), causando dificuldade em respirar
+* dores musculares ou articulares. → Consulte um médico imediatamente. O seu médico pode decidir realizar testes para verificar o seu fígado, rins ou sangue, e pode dizer-lhe para parar de tomar Dovato.
+
+Efeitos indesejáveis muito frequentes
+Estes podem afetar mais de 1 em 10 pessoas:
+
+* dor de cabeça
+* diarreia
+* sentir-se enjoado (náuseas).
+
+Efeitos indesejáveis frequentes
+Estes podem afetar até 1 em 10 pessoas:
+
+* depressão (sentimentos de tristeza profunda e de falta de confiança)
+* erupção da pele
+* comichão (prurido)
+* estar enjoado (vómitos)
+* dor ou desconforto no estômago (dor abdominal)
+* ganho de peso
+* gases (flatulência)
+* tonturas
+* sentir-se sonolento
+* dificuldades em dormir (insónia)
+* sonhos anormais
+* falta de energia (fadiga)
+* queda de cabelo
+* ansiedade
+* dor nas articulações
+* dores musculares.
+
+Efeitos indesejáveis frequentes que podem aparecer nas análises ao sangue são:
+
+* aumento nos níveis das enzimas do fígado (transaminases)
+* aumento no nível das enzimas produzidas nos músculos (creatinafosfoquinase).
+
+Efeitos indesejáveis pouco frequentes
+Estes podem afetar até 1 em 100 pessoas:
+
+* inflamação do fígado (hepatite)
+* tentativa de suicídio (principalmente em doentes que já tiveram anteriormente depressão ou problemas de saúde mental)
+* pensamentos suicidas (principalmente em doentes que já tiveram anteriormente depressão ou problemas de saúde mental).
+* ataque de pânico
+
+Efeitos indesejáveis pouco frequentes que podem aparecer nas análises ao sangue são:
+
+* uma diminuição no número de células sanguíneas envolvidas na coagulação (trombocitopenia)
+* uma contagem de glóbulos vermelhos baixa (anemia) ou uma contagem de glóbulos brancos baixa (neutropenia).
+
+Efeitos indesejáveis raros
+Estes podem afetar até 1 em 1000 pessoas:
+
+* insuficiência hepática (pode incluir sinais de amarelecimento da pele e da parte branca dos olhos ou urina excecionalmente escura)
+* inchaço, por vezes da cara ou boca (angioedema), causando dificuldade em respirar
+* inflamação do pâncreas (pancreatite)
+* destruição do tecido muscular.
+* Suicídio (principalmente em doentes que já tiveram anteriormente depressão ou problemas de saúde mental).
+
+→ Informe o seu médico imediatamente se tiver quaisquer problemas de saúde mental (ver também outros problemas de saúde mental acima).
+
+Efeitos indesejáveis raros que podem aparecer nas análises ao sangue são:
+
+* aumento da bilirrubina (uma análise da função do fígado)
+* aumento numa enzima chamada amilase.
+
+Efeitos indesejáveis muito raros Estes podem afetar até 1 em 10.000 pessoas:
+
+* acidose láctica (excesso de ácido láctico no sangue)
+* adormecimento, sensação de formigueiro na pele (alfinetes, agulhas)
+* sensação de fraqueza nos membros.
+
+Efeitos indesejáveis muito raros que podem aparecer nas análises ao sangue são:
+
+* falência da medula óssea em produzir novos glóbulos vermelhos (aplasia pura dos glóbulos vermelhos).
+
+Outros efeitos indesejáveis possíveis
+
+As pessoas a tomar terapêutica combinada para o VIH podem ter outros efeitos indesejáveis.
+
+Sintomas de infeção e inflamação
+
+Pessoas com infeção avançada por VIH ou SIDA têm sistemas imunitários debilitados e estão mais predispostas a desenvolver infeções graves (infeções oportunistas). Estas infeções podem ter estado “silenciosas” e não ter sido detetadas pelo sistema imunitário enfraquecido antes do tratamento ter sido iniciado. Depois de iniciar o tratamento, o sistema imunitário torna-se mais forte, e pode atacar as infeções, o que pode causar sintomas de infeção ou inflamação. Os sintomas normalmente incluem febre, e mais alguns dos seguintes:
+
+* dor de cabeça
+* dor de estômago
+* dificuldade em respirar. Em casos raros, à medida que o sistema imunitário se torna mais forte, este pode também atacar os tecidos corporais saudáveis (perturbações autoimunes). Os sintomas de perturbações autoimunes podem desenvolver-se muitos meses após ter iniciado a toma do medicamento para tratar a sua infeção por VIH. Os sintomas podem incluir:
+* palpitações (batimento cardíaco rápido ou irregular) ou tremor
+* hiperatividade (inquietação e movimentos excessivos)
+* fraqueza que tem início nas mãos e nos pés e que se move em direção ao tronco.
+
+Se tiver quaisquer sintomas de infeção ou se notar qualquer um dos sintomas acima:
+
+→ Informe o seu médico imediatamente. Não tome outros medicamentos para a infeção sem o conselho do seu médico.
+
+Dor nas articulações, rigidez e problemas nos ossos Algumas pessoas a tomar terapêutica combinada para o VIH desenvolvem uma doença chamada osteonecrose. Com esta doença, partes do tecido ósseo são permanentemente afetadas, devido à diminuição do fornecimento de sangue ao osso. As pessoas podem ter maior probabilidade de ter esta doença:
+
+* se estiverem a tomar terapêutica combinada há muito tempo
+* se também estiverem a tomar medicamentos anti-inflamatórios chamados corticosteroides
+* se consomem álcool
+* se os seus sistemas imunitários estiverem muito fracos
+* se tiverem excesso de peso.
+
+Os sinais de osteonecrose incluem:
+
+* rigidez nas articulações
+* mal-estar e dores (especialmente na anca, joelho ou ombro)
+* dificuldade de movimentos. Se notar qualquer um destes sintomas:
+
+→ Informe o seu médico.
+
+Peso, efeitos nos lípidos e glucose sanguíneos: Durante a terapêutica VIH poderá ocorrer um aumento do peso e dos níveis de lípidos e glucose sanguíneos. Isto está parcialmente relacionado com a recuperação da saúde e do estilo de vida e, por vezes, com os próprios medicamentos para a infeção VIH. O seu medico avaliará estas alterações.
+
+Comunicação de efeitos indesejáveis Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.
+
+
+#### 5. Como conservar Dovato
+
+ 
+
+Manter este medicamento fora da vista e do alcance das crianças.
+
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco ou fitas contentoras blister, após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+
+Este medicamento não necessita de quaisquer condições especiais de conservação.
+
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.
+
+
+#### 6. Conteúdo da embalagem e outras informações
+
+ 
+
+Qual a composição de Dovato
+
+* As substâncias ativas são dolutegravir e lamivudina. Cada comprimido contém dolutegravir sob a forma de sódio equivalente a 50 mg de dolutegravir e 300 mg de lamivudina.
+* Os outros componentes são celulose microcristalina, glicolato de amido de milho, estearato de magnésio, manitol (E421), povidona (K29/32), fumarato sódico de estearilo, hipromelose (E464), macrogol, dióxido de titânio (E171).
+* Este medicamento contém menos de 1 mmol (23 mg) de sódio por comprimido, ou seja, é praticamente “isento de sódio”.
+
+Qual o aspeto de Dovato e conteúdo da embalagem
+
+Dovato comprimidos revestidos por película são ovais, biconvexos, brancos gravados com “SV 137” numa das faces.
+
+Os comprimidos revestidos por película são disponibilizados em frascos com fecho resistente à abertura por crianças ou em fitas contentoras blister resistentes à abertura por crianças.
+
+Embalagem frasco Cada frasco contém 30 comprimidos revestidos por película.
+
+Também estão disponíveis embalagens múltiplas contendo 90 comprimidos revestidos por película (3 embalagens de 30 comprimidos revestidos por película em frasco).
+
+Embalagem blister
+Cada embalagem blister contém 30 comprimidos revestidos por película consistindo em 4 fitas contentoras blister contendo 7 comprimidos revestidos por película e 1 fita contentora blister contendo 2 comprimidos revestidos por película.
+
+Também estão disponíveis embalagens múltiplas contendo 90 comprimidos revestidos por película (3 embalagens blister de 30 comprimidos revestidos por película).
+
+É possível que não sejam comercializadas todas as apresentações no seu país.
+
+Titular da Autorização de Introdução no Mercado e Fabricante ViiV Healthcare BV Van Asch van Wijckstraat 55H 3811 LP Amersfoort Holanda
+
+Fabricante Glaxo Wellcome, S.A.
+Avda. Extremadura, 3 09400 Aranda De Duero Burgos Espanha
+
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da Autorização de Introdução no Mercado:
+
+België/Belgique/Belgien ViiV Healthcare sprl/bvba
+Tél/Tel: + 32 (0) 10 85 65 Lietuva ViiV Healthcare BV Tel: + 370 80000 България ViiV Healthcare BV Teл.: + 359 80018 Luxembourg/Luxemburg ViiV Healthcare sprl/bvba
+Belgique/Belgien Tél/Tel: + 32 (0) 10 85 65
+Česká republika GlaxoSmithKline, s.r.o. Tel: + 420 222 001 cz.info@gsk.com
+
+Magyarország ViiV Healthcare BV Tel.: + 36 80088 Danmark GlaxoSmithKline Pharma A/S Tlf: + 45 36 35 91 dk-info@gsk.com
+
+Malta ViiV Healthcare BV Tel: + 356 80065 Deutschland ViiV Healthcare GmbH
+Tel.: + 49 (0)89 203 0038-10
+viiv.med.info@viivhealthcare.com
+
+Nederland ViiV Healthcare BV
+Tel: + 31 (0)33 2081
+
+Eesti ViiV Healthcare BV Tel: + 372 8002estonia@gsk.com
+
+Norge GlaxoSmithKline AS Tlf: + 47 22 70 20
+
+Ελλάδα GlaxoSmithKline Μονοπρόσωπη A.E.B.E. Τηλ: + 30 210 68 82
+
+Österreich GlaxoSmithKline Pharma GmbH Tel: + 43 (0)1 97075 0 at.info@gsk.com
+
+España Laboratorios ViiV Healthcare, S.L.
+Tel: + 34 900 923 501
+es-ci@viivhealthcare.com
+
+Polska GSK Services Sp. z o.o. Tel.: + 48 (0)22 576 9
+
+France ViiV Healthcare SAS
+Tél.: + 33 (0)1 39 17 69 Infomed@viivhealthcare.com
+
+Portugal VIIVHIV HEALTHCARE, UNIPESSOAL, LDA
+Tel: + 351 21 094 08 01
+viiv.fi.pt@viivhealthcare.com
+
+Hrvatska ViiV Healthcare BV Tel: + 385 800787 România ViiV Healthcare BV Tel: + 40800672 Ireland GlaxoSmithKline (Ireland) Limited Tel: + 353 (0)1 4955 Slovenija ViiV Healthcare BV Tel: + 386 80688
+
+Ísland Vistor hf. Sími: +354 535 7 Slovenská republika ViiV Healthcare BV Tel: + 421 800500
+
+Italia ViiV Healthcare S.r.l
+Tel: + 39 (0)45 7741 Suomi/Finland GlaxoSmithKline Oy Puh/Tel: + 358 (0)10 30 30
+
+Κύπρος ViiV Healthcare BV Τηλ: + 357 80070
+
+Sverige GlaxoSmithKline AB Tel: + 46 (0)8 638 93 info.produkt@gsk.com
+
+Latvija ViiV Healthcare BV Tel: + 371 80205
+
+United Kingdom (Northern Ireland) ViiV Healthcare BV Tel: + 44 (0)800 221customercontactuk@gsk.com
+
+Este folheto foi revisto pela última vez em {mês de AAAA}.
+
+Outras fontes de informação
+
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência
+
+
+####  Dovato 50 mg/300 mg film-coated tablets 
+PMSWI:
+** EU/1/19/1370/001 **PHPID:
+** 0x073AF2E5B92AE19E8B67635AFFB3D6CA **
+-------
+
+Full name: **Dovato 50 mg/300 mg film-coated tablets**
+
+ - Invented name part: ** Dovato ** 
+
+ - Scientific name part: ** dolutegravir/lamivudine ** 
+
+ - Strength part: ** 50 mg/300 mg ** 
+
+ - Pharmaceutical dose form part: ** film-coated tablets ** 
+
+ Name usage: **English (United Kingdom)** 
+
+-------
+
+ Authorised dose form: **** 
+
+ Legal status of supply: **Medicinal product subject to medical prescription** 
+
+ Domain: **Human use** 
+
+ Resource status: **active** 
+
+-------
+
+ Product classification: 
+
+ **Marketing Authorisation** 1 of 1
+
+Authorisation number: ** EU/1/19/1370/001 ** 
+
+ Region: ** ** 
+
+Marketing authorisation holder: **ViiV Healthcare BV** 
+
+ Identifier: 
+*  **ORG-100012958** 
+ 
+
+ Status: ** Active (2019-07-01T13:28:17Z) ** 
+
+ Package 1 of 1
+
+PMSWI: ** EU/1/19/1370/001 ** 
+
+ Description:  * * 
+
+ Marketing status: 
+ 
+
+ Pack size: 
+ 
+
+Package: **1 Box** **(Cardboard)** 
+
+Containing:
+
+Package: **30 Child-resistant closure** **(Glass)** 
+
+Containing: ** ** 
+
+Manufactured Item
+
+ Dose form: ** Film-coated tablet ** 
+
+ Unit of presentation: ** Tablet ** 
+
+Ingredient
+
+ Role: ** Active ** 
+
+ Substance: ** DOLUTEGRAVIR SODIUM ** 
+
+Ingredient
+
+ Role: ** Active ** 
+
+ Substance: ** lamivudine ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** microcrystalline cellulose ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** sodium starch glycolate ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** magnesium stearate ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** mannitol ** 
+
+Administrable Product (1 of 1)
+
+ Dose form: ** Tablet ** 
+
+ Unit of presentation: ** Tablet ** 
+
+ Route of administration: 
+*  ** Oral use ** 
+ 
+Ingredients:
+
+Ingredient
+
+ Role: ** Active ** 
+
+ Substance: ** DOLUTEGRAVIR SODIUM ** 
+
+Ingredient
+
+ Role: ** Active ** 
+
+ Substance: ** lamivudine ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** microcrystalline cellulose ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** sodium starch glycolate ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** magnesium stearate ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** mannitol ** 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Bundle",
+  "id" : "bundlepackageleaflet-pt-49178f16170ee8a6bc2a4361c1748d5f",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"]
+  },
+  "language" : "pt",
+  "identifier" : {
+    "system" : "https://www.gravitatehealth.eu/sid/doc",
+    "value" : "EU/1/19/1370/001"
+  },
+  "type" : "document",
+  "timestamp" : "2023-06-27T10:09:22Z",
+  "entry" : [{
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-pt-16598f252d07b4784b82ba43cf9e847e",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "composition-pt-16598f252d07b4784b82ba43cf9e847e",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"]
+      },
+      "language" : "pt",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt\" lang=\"pt\"><a name=\"Composition_composition-pt-16598f252d07b4784b82ba43cf9e847e\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition composition-pt-16598f252d07b4784b82ba43cf9e847e</b></p><a name=\"composition-pt-16598f252d07b4784b82ba43cf9e847e\"> </a><a name=\"hccomposition-pt-16598f252d07b4784b82ba43cf9e847e\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: pt</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: <code>nan</code>/c90d140de2d4ddf3b2a2617fc2fc996c</p><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000155538}\">Package Leaflet</span></p><p><b>category</b>: <span title=\"Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs R}\">Raw</span></p><p><b>date</b>: 2022-04-29 13:28:17+0000</p><p><b>author</b>: <a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#Organization_mah-31ff1af739c7dcf77386a86f8dd83d29\">Organization ViiV Healthcare BV</a></p><p><b>title</b>: TEST PURPOSES ONLY - Dovato 50 mg/300 mg film-coated tablets</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://hl7.org/fhir/composition-attestation-mode official}\">Official</span></td><td>2022-04-29 13:28:17+0000</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "system" : "nan",
+        "value" : "c90d140de2d4ddf3b2a2617fc2fc996c"
+      }],
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000155538"
+        }],
+        "text" : "Package Leaflet"
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs",
+          "code" : "R",
+          "display" : "Raw"
+        }]
+      }],
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+      }],
+      "date" : "2022-04-29T13:28:17Z",
+      "author" : [{
+        "reference" : "Organization/mah-31ff1af739c7dcf77386a86f8dd83d29"
+      }],
+      "title" : "TEST PURPOSES ONLY - Dovato 50 mg/300 mg film-coated tablets",
+      "attester" : [{
+        "mode" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/composition-attestation-mode",
+            "code" : "official"
+          }]
+        },
+        "time" : "2022-04-29T13:28:17Z"
+      }],
+      "section" : [{
+        "title" : "B. FOLHETO INFORMATIVO",
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi/",
+            "code" : "100000155538"
+          }],
+          "text" : "B. FOLHETO INFORMATIVO"
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "unavailable"
+          }]
+        },
+        "section" : [{
+          "title" : "Folheto informativo: Informação para o utilizador",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "Folheto informativo: Informação para o utilizador"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>B. FOLHETO INFORMATIVO Folheto informativo: Informação para o doente</p><p>Dovato 50 mg/300 mg comprimidos revestidos por película<br/>dolutegravir/lamivudina</p><p>Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois contém informação importante para si. - Conserve este folheto. Pode ter necessidade de o ler novamente.<br/>- Caso ainda tenha dúvidas, fale com o seu médico ou farmacêutico. - Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença.<br/>- Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.</p></div>"
+          }
+        },
+        {
+          "title" : "O que contém este folheto",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "O que contém este folheto"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>O que contém este folheto:</p><ol><li>O que é Dovato e para que é utilizado</li><li>O que precisa de saber antes de tomar Dovato</li><li>Como tomar Dovato</li><li>Efeitos indesejáveis possíveis</li><li>Como conservar Dovato</li><li>Conteúdo da embalagem e outras informações</li></ol></div>"
+          }
+        },
+        {
+          "title" : "1. O que é Dovato e para que é utilizado",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "1. O que é Dovato e para que é utilizado"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Dovato é um medicamento que contém duas substâncias ativas utilizadas para tratar a infeção por VIH: dolutegravir e lamivudina. O dolutegravir pertence a um grupo de medicamentos antirretrovíricos chamados inibidores da integrase (INIs) e a lamivudina pertence a um grupo de medicamentos antirretrovíricos chamados análogos nucleosídeos inibidores da transcriptase reversa (NITRs).</p><p>Dovato é utilizado para tratar o VIH em adultos e adolescentes com mais de 12 anos de idade que pesem pelo menos 40 kg.</p><p>Dovato não cura a infeção por VIH; mantém a quantidade de vírus no seu organismo num nível baixo. Isto contribui para manter o número de células CD4 no seu sangue. As células CD4 são um tipo de glóbulo branco e são importantes para ajudar o seu organismo no combate à infeção.</p><p>Nem todas as pessoas respondem da mesma forma ao tratamento com Dovato. O seu médico monitorizará a eficácia do tratamento.</p></div>"
+          }
+        },
+        {
+          "title" : "2. O que precisa de saber antes de tomar Dovato",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "2. O que precisa de saber antes de tomar Dovato"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Não tome Dovato</p><ul><li><p>se tem alergia (hipersensibilidade) ao dolutegravir ou à lamivudina ou a qualquer outro componente deste medicamento (indicados na secção 6).</p></li><li><p>Se está a tomar um medicamento chamado fampridina (também conhecida como dalfampridina; utilizado na esclerose múltipla).</p></li></ul><p>→ Se acha que alguma destas situações se aplica a si, informe o seu médico.</p><p>Advertências e Precauções<br/>Algumas pessoas que tomam Dovato ou outras combinações terapêuticas para o VIH estão mais em risco de sofrer efeitos indesejáveis graves do que outras. Precisa de ter conhecimento dos riscos acrescidos:</p><ul><li><p>se tem doença moderada ou grave do fígado</p></li><li><p>se tiver antecedentes de doença do fígado, incluindo hepatite B ou C (se tiver infeção por hepatite B, não pare Dovato sem o conselho do seu médico, uma vez que a hepatite pode regressar)</p></li><li><p>se tem um problema dos rins → Fale com o seu médico antes de utilizar Dovato se alguma destas situações se aplica a si. Pode necessitar de acompanhamento extra, incluindo análises ao sangue, enquanto estiver a tomar o medicamento. Consulte a Secção 4 para mais informação.</p></li></ul><p>Reações alérgicas Dovato contém dolutegravir. O dolutegravir pode causar uma reação alérgica grave conhecida como reação de hipersensibilidade. Precisa de saber quais os sinais e sintomas importantes a que deve estar atento enquanto estiver a tomar Dovato. →Leia a informação “Reações alérgicas” na secção 4 deste folheto informativo.</p><p>Fique atento a sintomas importantes Algumas pessoas que tomam medicamentos para a infeção por VIH desenvolvem outras doenças, que podem ser graves. Estas incluem:</p><ul><li><p>sintomas de infeções e inflamação</p></li><li><p>dor nas articulações, rigidez e problemas dos ossos. Precisa de saber quais os sinais e sintomas importantes a que deve ficar atento enquanto estiver a tomar Dovato. → Leia a informação “Outros efeitos indesejáveis possíveis” na secção 4 deste folheto informativo.</p></li></ul><p>Crianças Este medicamento não se destina a crianças com menos de 12 anos de idade, porque não foi estudado nestes doentes.</p><p>Outros medicamentos e Dovato Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros medicamentos.</p><p>Não tome Dovato com o seguinte medicamento:</p><ul><li>fampridina (também conhecida como dalfampridina), utilizado na esclerose múltipla.</li></ul><p>Alguns medicamentos podem afetar a forma como Dovato funciona ou tornar mais provável que venha a ter efeitos indesejáveis. Dovato também pode afetar a forma como outros medicamentos funcionam.<br/>Informe o seu médico se estiver a tomar algum dos medicamentos da lista seguinte:</p><ul><li><p>metformina, para tratar diabetes</p></li><li><p>medicamentos chamados antiácidos, para tratar a indigestão e a azia. Não tome um antiácido durante as 6 horas anteriores a tomar Dovato ou por pelo menos 2 horas depois de o ter tomado (ver também secção 3, “Como tomar Dovato”)</p></li><li><p>suplementos ou multivitamínicos de cálcio, ferro ou magnésio. Se tomar Dovato com comida, pode tomar suplementos ou multivitamínicos de cálcio, ferro ou magnésio ao mesmo tempo que Dovato. Se não tomar Dovato com comida, não tome um suplemento ou multivitamínico de cálcio, ferro ou magnésio durante as 6 horas anteriores a tomar Dovato ou por pelo menos 2 horas depois de o ter tomado (ver também secção 3, “Como tomar Dovato”)</p></li><li><p>emtricitabina, etravirina, efavirenz, nevirapina ou tipranavir/ritonavir, para tratar a infeção por VIH</p></li><li><p>medicamentos contendo sorbitol (normalmente líquidos) e outros álcoois açucarados (como o xilitol, manitol, lactitol ou maltitol), se tomados regularmente</p></li><li><p>cladribina, usada para tratar a leucemia ou esclerose múltipla</p></li><li><p>rifampicina, para tratar a tuberculose (TB) e outras infeções bacterianas</p></li><li><p>fenitoína e fenobarbital, para tratar a epilepsia</p></li><li><p>oxcarbazepina e carbamazepina, para tratar a epilepsia e a doença bipolar</p></li><li><p>erva de S. João (Hypericum perforatum), um medicamento à base de plantas para tratar a depressão.</p></li></ul><p>→ Informe o seu médico ou farmacêutico se estiver a tomar algum destes medicamentos. O seu médico pode decidir ou ajustar a sua dose ou que necessita de exames de rotina extra.</p><p>Gravidez<br/>Se está grávida, se pensa estar grávida ou planeia engravidar:</p><p>→ Fale com o seu médico sobre os benefícios e riscos de tomar Dovato<br/>Tomar Dovato no momento da conceção ou durante as primeiras seis semanas de gestação pode aumentar o risco de uma malformação congénita denominada defeito do tubo neural, tal como espinha bífida (malformação da espinal medula).</p><p>Se tem potencial para engravidar enquanto toma Dovato: → Fale com o seu médico sobre a eventual necessidade de contraceção, tal como preservativo ou a pílula.<br/>Informe imediamente o seu médico se está grávida ou se planeia engravidar. O médico irá rever o seu tratamento. Não pare de tomar Dovato sem consultar o seu médico, uma vez que isso pode ser prejudicial para si e para a criança em gestação.</p><p>Amamentação A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção peloVIH pode ser transmitida ao bebé através do leite materno.</p><p>Uma pequena quantidade dos componentes de Dovato pode também passar para o leite materno.</p><p>Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais rapidamente possível.</p><p>Condução de veículos e utilização de máquinas Dovato pode provocar-lhe tonturas e outros efeitos indesejáveis que o tornam menos alerta.</p><p>→ Não conduza ou utilize máquinas a não ser que tenha a certeza que o seu estado de alerta não é afetado.</p></div>"
+          }
+        },
+        {
+          "title" : "3. Como tomar Dovato",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "3. Como tomar Dovato"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou farmacêutico se tiver dúvidas.</p><ul><li>A dose recomendada de Dovato é de um comprimido uma vez por dia.</li></ul><p>Engula o comprimido com um pouco de líquido. Dovato pode ser tomado com ou sem alimentos.</p><p>Utilização em adolescentes Adolescentes com idades compreendidas entre os 12 e os 17 anos e que pesem pelo menos 40 kg podem tomar a dose de adulto de um comprimido uma vez por dia.</p><p>Medicamentos antiácidos Os antiácidos, para tratar a indigestão e a azia, podem impedir que Dovato seja absorvido pelo seu organismo e podem torná-lo menos eficaz. Não tome um antiácido durante as 6 horas anteriores a tomar Dovato ou por pelo menos 2 horas depois de o ter tomado. Pode tomar outros medicamentos que reduzem a acidez como a ranitidina e o omeprazol ao mesmo tempo que Dovato.</p><p>→ Fale com o seu médico para mais aconselhamento sobre como tomar medicamentos antiácidos com Dovato.</p><p>Suplementos ou multivitamínicos de cálcio, ferro ou magnésio Os suplementos ou multivitamínicos de cálcio, ferro ou magnésio podem impedir que Dovato seja absorvido pelo seu organismo e torná-lo menos eficaz. Se tomar Dovato com comida, pode tomar suplementos ou multivitamínicos de cálcio, ferro ou magnésio ao mesmo tempo que Dovato. Se não tomar Dovato com comida, não tome um suplemento ou multivitamínico de cálcio, ferro ou magnésio durante as 6 horas anteriores a tomar Dovato ou por pelo menos 2 horas depois de o ter tomado.</p><p>→ Fale com o seu médico para mais aconselhamento sobre como tomar suplementos ou multivitamínicos de cálcio, ferro ou magnésio com Dovato.</p><p>Se tomar mais Dovato do que deveria Se tomar demasiados comprimidos de Dovato, contacte o seu médico ou farmacêutico para aconselhamento. Se possível, mostre-lhes a embalagem de Dovato.</p><p>Caso se tenha esquecido de tomar Dovato Se se esqueceu de tomar uma dose, tome-a assim que se lembrar. Porém, se a sua dose seguinte estiver prevista no prazo de 4 horas, não tome a dose esquecida e tome a próxima dose à hora habitual. Depois continue o seu tratamento como antes.</p><p>→ Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.</p><p>Não pare de tomar Dovato sem o conselho do seu médico Tome Dovato durante o período de tempo recomendado pelo seu médico. Não pare o tratamento, a não ser por indicação do seu médico. Parar Dovato pode afetar a sua saúde e a eficácia de tratamentos futuros.</p><p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.</p></div>"
+          }
+        },
+        {
+          "title" : "4. Efeitos indesejáveis possíveis",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "4. Efeitos indesejáveis possíveis"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se manifestem em todas as pessoas por isso, é muito importante que fale com o seu médico sobre quaisquer alterações na sua saúde.</p><p>Reações alérgicas Dovato contém dolutegravir. O dolutegravir pode causar uma reação alérgica grave conhecida como reação de hipersensibilidade. Esta é uma reação pouco frequente (pode afetar até 1 em 100 pessoas) em pessoas a tomar dolutegravir. Se notar algum dos seguintes sintomas:</p><ul><li><p>erupção da pele</p></li><li><p>temperatura elevada (febre)</p></li><li><p>falta de energia (fadiga)</p></li><li><p>inchaço, por vezes da face ou boca (angioedema), causando dificuldade em respirar</p></li><li><p>dores musculares ou articulares. → Consulte um médico imediatamente. O seu médico pode decidir realizar testes para verificar o seu fígado, rins ou sangue, e pode dizer-lhe para parar de tomar Dovato.</p></li></ul><p>Efeitos indesejáveis muito frequentes<br/>Estes podem afetar mais de 1 em 10 pessoas:</p><ul><li><p>dor de cabeça</p></li><li><p>diarreia</p></li><li><p>sentir-se enjoado (náuseas).</p></li></ul><p>Efeitos indesejáveis frequentes<br/>Estes podem afetar até 1 em 10 pessoas:</p><ul><li><p>depressão (sentimentos de tristeza profunda e de falta de confiança)</p></li><li><p>erupção da pele</p></li><li><p>comichão (prurido)</p></li><li><p>estar enjoado (vómitos)</p></li><li><p>dor ou desconforto no estômago (dor abdominal)</p></li><li><p>ganho de peso</p></li><li><p>gases (flatulência)</p></li><li><p>tonturas</p></li><li><p>sentir-se sonolento</p></li><li><p>dificuldades em dormir (insónia)</p></li><li><p>sonhos anormais</p></li><li><p>falta de energia (fadiga)</p></li><li><p>queda de cabelo</p></li><li><p>ansiedade</p></li><li><p>dor nas articulações</p></li><li><p>dores musculares.</p></li></ul><p>Efeitos indesejáveis frequentes que podem aparecer nas análises ao sangue são:</p><ul><li><p>aumento nos níveis das enzimas do fígado (transaminases)</p></li><li><p>aumento no nível das enzimas produzidas nos músculos (creatinafosfoquinase).</p></li></ul><p>Efeitos indesejáveis pouco frequentes<br/>Estes podem afetar até 1 em 100 pessoas:</p><ul><li><p>inflamação do fígado (hepatite)</p></li><li><p>tentativa de suicídio (principalmente em doentes que já tiveram anteriormente depressão ou problemas de saúde mental)</p></li><li><p>pensamentos suicidas (principalmente em doentes que já tiveram anteriormente depressão ou problemas de saúde mental).</p></li><li><p>ataque de pânico</p></li></ul><p>Efeitos indesejáveis pouco frequentes que podem aparecer nas análises ao sangue são:</p><ul><li><p>uma diminuição no número de células sanguíneas envolvidas na coagulação (trombocitopenia)</p></li><li><p>uma contagem de glóbulos vermelhos baixa (anemia) ou uma contagem de glóbulos brancos baixa (neutropenia).</p></li></ul><p>Efeitos indesejáveis raros<br/>Estes podem afetar até 1 em 1000 pessoas:</p><ul><li><p>insuficiência hepática (pode incluir sinais de amarelecimento da pele e da parte branca dos olhos ou urina excecionalmente escura)</p></li><li><p>inchaço, por vezes da cara ou boca (angioedema), causando dificuldade em respirar</p></li><li><p>inflamação do pâncreas (pancreatite)</p></li><li><p>destruição do tecido muscular.</p></li><li><p>Suicídio (principalmente em doentes que já tiveram anteriormente depressão ou problemas de saúde mental).</p></li></ul><p>→ Informe o seu médico imediatamente se tiver quaisquer problemas de saúde mental (ver também outros problemas de saúde mental acima).</p><p>Efeitos indesejáveis raros que podem aparecer nas análises ao sangue são:</p><ul><li><p>aumento da bilirrubina (uma análise da função do fígado)</p></li><li><p>aumento numa enzima chamada amilase.</p></li></ul><p>Efeitos indesejáveis muito raros Estes podem afetar até 1 em 10.000 pessoas:</p><ul><li><p>acidose láctica (excesso de ácido láctico no sangue)</p></li><li><p>adormecimento, sensação de formigueiro na pele (alfinetes, agulhas)</p></li><li><p>sensação de fraqueza nos membros.</p></li></ul><p>Efeitos indesejáveis muito raros que podem aparecer nas análises ao sangue são:</p><ul><li>falência da medula óssea em produzir novos glóbulos vermelhos (aplasia pura dos glóbulos vermelhos).</li></ul><p>Outros efeitos indesejáveis possíveis</p><p>As pessoas a tomar terapêutica combinada para o VIH podem ter outros efeitos indesejáveis.</p><p>Sintomas de infeção e inflamação</p><p>Pessoas com infeção avançada por VIH ou SIDA têm sistemas imunitários debilitados e estão mais predispostas a desenvolver infeções graves (infeções oportunistas). Estas infeções podem ter estado “silenciosas” e não ter sido detetadas pelo sistema imunitário enfraquecido antes do tratamento ter sido iniciado. Depois de iniciar o tratamento, o sistema imunitário torna-se mais forte, e pode atacar as infeções, o que pode causar sintomas de infeção ou inflamação. Os sintomas normalmente incluem febre, e mais alguns dos seguintes:</p><ul><li><p>dor de cabeça</p></li><li><p>dor de estômago</p></li><li><p>dificuldade em respirar. Em casos raros, à medida que o sistema imunitário se torna mais forte, este pode também atacar os tecidos corporais saudáveis (perturbações autoimunes). Os sintomas de perturbações autoimunes podem desenvolver-se muitos meses após ter iniciado a toma do medicamento para tratar a sua infeção por VIH. Os sintomas podem incluir:</p></li><li><p>palpitações (batimento cardíaco rápido ou irregular) ou tremor</p></li><li><p>hiperatividade (inquietação e movimentos excessivos)</p></li><li><p>fraqueza que tem início nas mãos e nos pés e que se move em direção ao tronco.</p></li></ul><p>Se tiver quaisquer sintomas de infeção ou se notar qualquer um dos sintomas acima:</p><p>→ Informe o seu médico imediatamente. Não tome outros medicamentos para a infeção sem o conselho do seu médico.</p><p>Dor nas articulações, rigidez e problemas nos ossos Algumas pessoas a tomar terapêutica combinada para o VIH desenvolvem uma doença chamada osteonecrose. Com esta doença, partes do tecido ósseo são permanentemente afetadas, devido à diminuição do fornecimento de sangue ao osso. As pessoas podem ter maior probabilidade de ter esta doença:</p><ul><li><p>se estiverem a tomar terapêutica combinada há muito tempo</p></li><li><p>se também estiverem a tomar medicamentos anti-inflamatórios chamados corticosteroides</p></li><li><p>se consomem álcool</p></li><li><p>se os seus sistemas imunitários estiverem muito fracos</p></li><li><p>se tiverem excesso de peso.</p></li></ul><p>Os sinais de osteonecrose incluem:</p><ul><li><p>rigidez nas articulações</p></li><li><p>mal-estar e dores (especialmente na anca, joelho ou ombro)</p></li><li><p>dificuldade de movimentos. Se notar qualquer um destes sintomas:</p></li></ul><p>→ Informe o seu médico.</p><p>Peso, efeitos nos lípidos e glucose sanguíneos: Durante a terapêutica VIH poderá ocorrer um aumento do peso e dos níveis de lípidos e glucose sanguíneos. Isto está parcialmente relacionado com a recuperação da saúde e do estilo de vida e, por vezes, com os próprios medicamentos para a infeção VIH. O seu medico avaliará estas alterações.</p><p>Comunicação de efeitos indesejáveis Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p></div>"
+          }
+        },
+        {
+          "title" : "5. Como conservar Dovato",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "5. Como conservar Dovato"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Manter este medicamento fora da vista e do alcance das crianças.</p><p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco ou fitas contentoras blister, após EXP. O prazo de validade corresponde ao último dia do mês indicado.</p><p>Este medicamento não necessita de quaisquer condições especiais de conservação.</p><p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p></div>"
+          }
+        },
+        {
+          "title" : "6. Conteúdo da embalagem e outras informações",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "6. Conteúdo da embalagem e outras informações"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Qual a composição de Dovato</p><ul><li><p>As substâncias ativas são dolutegravir e lamivudina. Cada comprimido contém dolutegravir sob a forma de sódio equivalente a 50 mg de dolutegravir e 300 mg de lamivudina.</p></li><li><p>Os outros componentes são celulose microcristalina, glicolato de amido de milho, estearato de magnésio, manitol (E421), povidona (K29/32), fumarato sódico de estearilo, hipromelose (E464), macrogol, dióxido de titânio (E171).</p></li><li><p>Este medicamento contém menos de 1 mmol (23 mg) de sódio por comprimido, ou seja, é praticamente “isento de sódio”.</p></li></ul><p>Qual o aspeto de Dovato e conteúdo da embalagem</p><p>Dovato comprimidos revestidos por película são ovais, biconvexos, brancos gravados com “SV 137” numa das faces.</p><p>Os comprimidos revestidos por película são disponibilizados em frascos com fecho resistente à abertura por crianças ou em fitas contentoras blister resistentes à abertura por crianças.</p><p>Embalagem frasco Cada frasco contém 30 comprimidos revestidos por película.</p><p>Também estão disponíveis embalagens múltiplas contendo 90 comprimidos revestidos por película (3 embalagens de 30 comprimidos revestidos por película em frasco).</p><p>Embalagem blister<br/>Cada embalagem blister contém 30 comprimidos revestidos por película consistindo em 4 fitas contentoras blister contendo 7 comprimidos revestidos por película e 1 fita contentora blister contendo 2 comprimidos revestidos por película.</p><p>Também estão disponíveis embalagens múltiplas contendo 90 comprimidos revestidos por película (3 embalagens blister de 30 comprimidos revestidos por película).</p><p>É possível que não sejam comercializadas todas as apresentações no seu país.</p><p>Titular da Autorização de Introdução no Mercado e Fabricante ViiV Healthcare BV Van Asch van Wijckstraat 55H 3811 LP Amersfoort Holanda</p><p>Fabricante Glaxo Wellcome, S.A.<br/>Avda. Extremadura, 3 09400 Aranda De Duero Burgos Espanha</p><p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da Autorização de Introdução no Mercado:</p><p>België/Belgique/Belgien ViiV Healthcare sprl/bvba<br/>Tél/Tel: + 32 (0) 10 85 65 Lietuva ViiV Healthcare BV Tel: + 370 80000 България ViiV Healthcare BV Teл.: + 359 80018 Luxembourg/Luxemburg ViiV Healthcare sprl/bvba<br/>Belgique/Belgien Tél/Tel: + 32 (0) 10 85 65<br/>Česká republika GlaxoSmithKline, s.r.o. Tel: + 420 222 001 cz.info@gsk.com</p><p>Magyarország ViiV Healthcare BV Tel.: + 36 80088 Danmark GlaxoSmithKline Pharma A/S Tlf: + 45 36 35 91 dk-info@gsk.com</p><p>Malta ViiV Healthcare BV Tel: + 356 80065 Deutschland ViiV Healthcare GmbH<br/>Tel.: + 49 (0)89 203 0038-10<br/>viiv.med.info@viivhealthcare.com</p><p>Nederland ViiV Healthcare BV<br/>Tel: + 31 (0)33 2081</p><p>Eesti ViiV Healthcare BV Tel: + 372 8002estonia@gsk.com</p><p>Norge GlaxoSmithKline AS Tlf: + 47 22 70 20</p><p>Ελλάδα GlaxoSmithKline Μονοπρόσωπη A.E.B.E. Τηλ: + 30 210 68 82</p><p>Österreich GlaxoSmithKline Pharma GmbH Tel: + 43 (0)1 97075 0 at.info@gsk.com</p><p>España Laboratorios ViiV Healthcare, S.L.<br/>Tel: + 34 900 923 501<br/>es-ci@viivhealthcare.com</p><p>Polska GSK Services Sp. z o.o. Tel.: + 48 (0)22 576 9</p><p>France ViiV Healthcare SAS<br/>Tél.: + 33 (0)1 39 17 69 Infomed@viivhealthcare.com</p><p>Portugal VIIVHIV HEALTHCARE, UNIPESSOAL, LDA<br/>Tel: + 351 21 094 08 01<br/>viiv.fi.pt@viivhealthcare.com</p><p>Hrvatska ViiV Healthcare BV Tel: + 385 800787 România ViiV Healthcare BV Tel: + 40800672 Ireland GlaxoSmithKline (Ireland) Limited Tel: + 353 (0)1 4955 Slovenija ViiV Healthcare BV Tel: + 386 80688</p><p>Ísland Vistor hf. Sími: +354 535 7 Slovenská republika ViiV Healthcare BV Tel: + 421 800500</p><p>Italia ViiV Healthcare S.r.l<br/>Tel: + 39 (0)45 7741 Suomi/Finland GlaxoSmithKline Oy Puh/Tel: + 358 (0)10 30 30</p><p>Κύπρος ViiV Healthcare BV Τηλ: + 357 80070</p><p>Sverige GlaxoSmithKline AB Tel: + 46 (0)8 638 93 info.produkt@gsk.com</p><p>Latvija ViiV Healthcare BV Tel: + 371 80205</p><p>United Kingdom (Northern Ireland) ViiV Healthcare BV Tel: + 44 (0)800 221customercontactuk@gsk.com</p><p>Este folheto foi revisto pela última vez em {mês de AAAA}.</p><p>Outras fontes de informação</p><p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p></div>"
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-dovato-dolutegravirsodium",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-dovato-dolutegravirsodium",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-dovato-dolutegravirsodium\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-dovato-dolutegravirsodium</b></p><a name=\"ingredient-for-dovato-dolutegravirsodium\"> </a><a name=\"hcingredient-for-dovato-dolutegravirsodium\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/1Q1V9V5WYQ (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#ManufacturedItemDefinition_mid-49178f16170ee8a6bc2a4361c1748d5f\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001 (use: official, ); status = active; manufacturedDoseForm = Film-coated tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#MedicinalProductDefinition_mp16598f252d07b4784b82ba43cf9e847e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001,https://www.who-umc.org/phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#AdministrableProductDefinition_ap-49178f16170ee8a6bc2a4361c1748d5f\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#123456; status = active; administrableDoseForm = Tablet; unitOfPresentation = Tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072072}\">Active</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 1Q1V9V5WYQ}\">DOLUTEGRAVIR SODIUM</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>50 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ACTIB}\">active ingredient - basis of strength</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "1Q1V9V5WYQ"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072072",
+          "display" : "Active"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "1Q1V9V5WYQ",
+              "display" : "DOLUTEGRAVIR SODIUM"
+            }]
+          }
+        },
+        "strength" : [{
+          "presentationQuantity" : {
+            "value" : 50,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "basis" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+              "code" : "ACTIB",
+              "display" : "active ingredient - basis of strength"
+            }]
+          }
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-dovato-lamivudine",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-dovato-lamivudine",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-dovato-lamivudine\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-dovato-lamivudine</b></p><a name=\"ingredient-for-dovato-lamivudine\"> </a><a name=\"hcingredient-for-dovato-lamivudine\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/2T8Q726O95 (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#ManufacturedItemDefinition_mid-49178f16170ee8a6bc2a4361c1748d5f\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001 (use: official, ); status = active; manufacturedDoseForm = Film-coated tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#MedicinalProductDefinition_mp16598f252d07b4784b82ba43cf9e847e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001,https://www.who-umc.org/phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#AdministrableProductDefinition_ap-49178f16170ee8a6bc2a4361c1748d5f\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#123456; status = active; administrableDoseForm = Tablet; unitOfPresentation = Tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072072}\">Active</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 2T8Q726O95}\">lamivudine</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>300 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ACTIB}\">active ingredient - basis of strength</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "2T8Q726O95"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072072",
+          "display" : "Active"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "2T8Q726O95",
+              "display" : "lamivudine"
+            }]
+          }
+        },
+        "strength" : [{
+          "presentationQuantity" : {
+            "value" : 300,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "basis" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+              "code" : "ACTIB",
+              "display" : "active ingredient - basis of strength"
+            }]
+          }
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-dovato-microcrystallinecellulose",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-dovato-microcrystallinecellulose",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-dovato-microcrystallinecellulose\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-dovato-microcrystallinecellulose</b></p><a name=\"ingredient-for-dovato-microcrystallinecellulose\"> </a><a name=\"hcingredient-for-dovato-microcrystallinecellulose\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/OP1R32D61U (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#ManufacturedItemDefinition_mid-49178f16170ee8a6bc2a4361c1748d5f\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001 (use: official, ); status = active; manufacturedDoseForm = Film-coated tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#MedicinalProductDefinition_mp16598f252d07b4784b82ba43cf9e847e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001,https://www.who-umc.org/phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#AdministrableProductDefinition_ap-49178f16170ee8a6bc2a4361c1748d5f\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#123456; status = active; administrableDoseForm = Tablet; unitOfPresentation = Tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta OP1R32D61U}\">microcrystalline cellulose</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "OP1R32D61U"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "OP1R32D61U",
+              "display" : "microcrystalline cellulose"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-dovato-sodiumstarchglycolate",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-dovato-sodiumstarchglycolate",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-dovato-sodiumstarchglycolate\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-dovato-sodiumstarchglycolate</b></p><a name=\"ingredient-for-dovato-sodiumstarchglycolate\"> </a><a name=\"hcingredient-for-dovato-sodiumstarchglycolate\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/H8AV0SQX4D (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#ManufacturedItemDefinition_mid-49178f16170ee8a6bc2a4361c1748d5f\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001 (use: official, ); status = active; manufacturedDoseForm = Film-coated tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#MedicinalProductDefinition_mp16598f252d07b4784b82ba43cf9e847e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001,https://www.who-umc.org/phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#AdministrableProductDefinition_ap-49178f16170ee8a6bc2a4361c1748d5f\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#123456; status = active; administrableDoseForm = Tablet; unitOfPresentation = Tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta H8AV0SQX4D}\">sodium starch glycolate</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "H8AV0SQX4D"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "H8AV0SQX4D",
+              "display" : "sodium starch glycolate"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-dovato-magnesiumstearate",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-dovato-magnesiumstearate",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-dovato-magnesiumstearate\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-dovato-magnesiumstearate</b></p><a name=\"ingredient-for-dovato-magnesiumstearate\"> </a><a name=\"hcingredient-for-dovato-magnesiumstearate\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/70097M6I30 (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#ManufacturedItemDefinition_mid-49178f16170ee8a6bc2a4361c1748d5f\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001 (use: official, ); status = active; manufacturedDoseForm = Film-coated tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#MedicinalProductDefinition_mp16598f252d07b4784b82ba43cf9e847e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001,https://www.who-umc.org/phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#AdministrableProductDefinition_ap-49178f16170ee8a6bc2a4361c1748d5f\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#123456; status = active; administrableDoseForm = Tablet; unitOfPresentation = Tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 70097M6I30}\">magnesium stearate</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "70097M6I30"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "70097M6I30",
+              "display" : "magnesium stearate"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-dovato-mannitol",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-dovato-mannitol",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-dovato-mannitol\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-dovato-mannitol</b></p><a name=\"ingredient-for-dovato-mannitol\"> </a><a name=\"hcingredient-for-dovato-mannitol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/3OWL53L36A (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#ManufacturedItemDefinition_mid-49178f16170ee8a6bc2a4361c1748d5f\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001 (use: official, ); status = active; manufacturedDoseForm = Film-coated tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#MedicinalProductDefinition_mp16598f252d07b4784b82ba43cf9e847e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001,https://www.who-umc.org/phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#AdministrableProductDefinition_ap-49178f16170ee8a6bc2a4361c1748d5f\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#123456; status = active; administrableDoseForm = Tablet; unitOfPresentation = Tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 3OWL53L36A}\">mannitol</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "3OWL53L36A"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "3OWL53L36A",
+              "display" : "mannitol"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-dolutegravirsodium",
+    "resource" : {
+      "resourceType" : "SubstanceDefinition",
+      "id" : "substance-dolutegravirsodium",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"SubstanceDefinition_substance-dolutegravirsodium\"> </a><p class=\"res-header-id\"><b>Generated Narrative: SubstanceDefinition substance-dolutegravirsodium</b></p><a name=\"substance-dolutegravirsodium\"> </a><a name=\"hcsubstance-dolutegravirsodium\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta/</code>/1Q1V9V5WYQ (use: official, )</p><p><b>version</b>: 1</p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>manufacturer</b>: <a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#Organization_man-173fde4cb6b1018cb7ec8ab708d3961c\">Organization GLAXO WELLCOME, S.A.</a></p><h3>MolecularWeights</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">exact</span></td><td>441.36</td></tr></table><h3>Structures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>MolecularFormula</b></td></tr><tr><td style=\"display: none\">*</td><td>C20H18F2N305.Na</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>(4R,12.ALPHA.S)-N-((2,4-DIFLUOROPHENYL)METHYL)-7-HYDROXY-4-METHYL-6,8-DIOXO-3,4,6,8,12,12.ALPHA.-HEXAHYDRO-2H-PYRIDO(1',2':4,5)PYRAZINO(2,1-.BETA.)(1,3)OXAZINE-9-CARBOXAMIDE</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta/ x}\">Chemical Name</span></td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+        "value" : "1Q1V9V5WYQ"
+      }],
+      "version" : "1",
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active"
+        }]
+      },
+      "manufacturer" : [{
+        "reference" : "Organization/man-173fde4cb6b1018cb7ec8ab708d3961c"
+      }],
+      "molecularWeight" : [{
+        "type" : {
+          "text" : "exact"
+        },
+        "amount" : {
+          "value" : 441.36
+        }
+      }],
+      "structure" : {
+        "molecularFormula" : "C20H18F2N305.Na"
+      },
+      "name" : [{
+        "name" : "(4R,12.ALPHA.S)-N-((2,4-DIFLUOROPHENYL)METHYL)-7-HYDROXY-4-METHYL-6,8-DIOXO-3,4,6,8,12,12.ALPHA.-HEXAHYDRO-2H-PYRIDO(1',2':4,5)PYRAZINO(2,1-.BETA.)(1,3)OXAZINE-9-CARBOXAMIDE",
+        "type" : {
+          "coding" : [{
+            "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+            "code" : "x",
+            "display" : "Chemical Name"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-lamivudine",
+    "resource" : {
+      "resourceType" : "SubstanceDefinition",
+      "id" : "substance-lamivudine",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"SubstanceDefinition_substance-lamivudine\"> </a><p class=\"res-header-id\"><b>Generated Narrative: SubstanceDefinition substance-lamivudine</b></p><a name=\"substance-lamivudine\"> </a><a name=\"hcsubstance-lamivudine\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta/</code>/2T8Q726O95 (use: official, )</p><p><b>version</b>: 1</p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>manufacturer</b>: <a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#Organization_man-173fde4cb6b1018cb7ec8ab708d3961c\">Organization GLAXO WELLCOME, S.A.</a></p><h3>MolecularWeights</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">exact</span></td><td>229.26</td></tr></table><h3>Structures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>MolecularFormula</b></td></tr><tr><td style=\"display: none\">*</td><td>C8H11N303S</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>(-)-1-((2R,5S)-2-(HYDROXYMETHYL)-1,3-OXATHIOLAN-5-YL)CYTOSINE</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta/ x}\">Chemical Name</span></td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+        "value" : "2T8Q726O95"
+      }],
+      "version" : "1",
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active"
+        }]
+      },
+      "manufacturer" : [{
+        "reference" : "Organization/man-173fde4cb6b1018cb7ec8ab708d3961c"
+      }],
+      "molecularWeight" : [{
+        "type" : {
+          "text" : "exact"
+        },
+        "amount" : {
+          "value" : 229.26
+        }
+      }],
+      "structure" : {
+        "molecularFormula" : "C8H11N303S"
+      },
+      "name" : [{
+        "name" : "(-)-1-((2R,5S)-2-(HYDROXYMETHYL)-1,3-OXATHIOLAN-5-YL)CYTOSINE",
+        "type" : {
+          "coding" : [{
+            "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+            "code" : "x",
+            "display" : "Chemical Name"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f",
+    "resource" : {
+      "resourceType" : "AdministrableProductDefinition",
+      "id" : "ap-49178f16170ee8a6bc2a4361c1748d5f",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AdministrableProductDefinition_ap-49178f16170ee8a6bc2a4361c1748d5f\"> </a><p class=\"res-header-id\"><b>Generated Narrative: AdministrableProductDefinition ap-49178f16170ee8a6bc2a4361c1748d5f</b></p><a name=\"ap-49178f16170ee8a6bc2a4361c1748d5f\"> </a><a name=\"hcap-49178f16170ee8a6bc2a4361c1748d5f\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>status</b>: Active</p><p><b>formOf</b>: <a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#MedicinalProductDefinition_mp16598f252d07b4784b82ba43cf9e847e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001,https://www.who-umc.org/phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>administrableDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073664}\">Tablet</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002152}\">Tablet</span></p><p><b>producedFrom</b>: <a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#ManufacturedItemDefinition_mid-49178f16170ee8a6bc2a4361c1748d5f\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001 (use: official, ); status = active; manufacturedDoseForm = Film-coated tablet; unitOfPresentation = Tablet</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073619}\">Oral use</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000109093}\">Human</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "123456"
+      }],
+      "status" : "active",
+      "formOf" : [{
+        "reference" : "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+      }],
+      "administrableDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000073664",
+          "display" : "Tablet"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002152",
+          "display" : "Tablet"
+        }]
+      },
+      "producedFrom" : [{
+        "reference" : "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
+      }],
+      "routeOfAdministration" : [{
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073619",
+            "display" : "Oral use"
+          }]
+        },
+        "targetSpecies" : [{
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000109093",
+              "display" : "Human"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization49178f16170ee8a6bc2a4361c1748d5f0",
+    "resource" : {
+      "resourceType" : "RegulatedAuthorization",
+      "id" : "authorization49178f16170ee8a6bc2a4361c1748d5f0",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"RegulatedAuthorization_authorization49178f16170ee8a6bc2a4361c1748d5f0\"> </a><p class=\"res-header-id\"><b>Generated Narrative: RegulatedAuthorization authorization49178f16170ee8a6bc2a4361c1748d5f0</b></p><a name=\"authorization49178f16170ee8a6bc2a4361c1748d5f0\"> </a><a name=\"hcauthorization49178f16170ee8a6bc2a4361c1748d5f0\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/19/1370/001 (use: official, )</p><p><b>subject</b>: <a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#MedicinalProductDefinition_mp16598f252d07b4784b82ba43cf9e847e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001,https://www.who-umc.org/phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 220000000061}\">Marketing Authorisation</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2019-07-01 13:28:17+0000</p><p><b>holder</b>: <a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#Organization_mah-31ff1af739c7dcf77386a86f8dd83d29\">Organization ViiV Healthcare BV</a></p><p><b>regulator</b>: <a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#Organization_mra-7c9b97127f73ff3605a10eb1c2cc24d1\">Organization European Medicines Agency</a></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "EU/1/19/1370/001"
+      }],
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000061",
+          "display" : "Marketing Authorisation"
+        }]
+      },
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2019-07-01T13:28:17Z",
+      "holder" : {
+        "reference" : "Organization/mah-31ff1af739c7dcf77386a86f8dd83d29"
+      },
+      "regulator" : {
+        "reference" : "Organization/mra-7c9b97127f73ff3605a10eb1c2cc24d1"
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Organization/man-173fde4cb6b1018cb7ec8ab708d3961c",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "man-173fde4cb6b1018cb7ec8ab708d3961c",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_man-173fde4cb6b1018cb7ec8ab708d3961c\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization man-173fde4cb6b1018cb7ec8ab708d3961c</b></p><a name=\"man-173fde4cb6b1018cb7ec8ab708d3961c\"> </a><a name=\"hcman-173fde4cb6b1018cb7ec8ab708d3961c\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/ORG-100004538 (use: official, )</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 220000000033}\">Manufacturer</span></p><p><b>name</b>: GLAXO WELLCOME, S.A.</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>Avda. Extremadura 3, 09400 Aranda De Duero Aranda De Duero ES(work)</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/omswi",
+        "value" : "ORG-100004538"
+      }],
+      "active" : true,
+      "type" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000033",
+          "display" : "Manufacturer"
+        }]
+      }],
+      "name" : "GLAXO WELLCOME, S.A.",
+      "contact" : [{
+        "address" : {
+          "use" : "work",
+          "type" : "physical",
+          "text" : "Avda. Extremadura 3, 09400 Aranda De Duero Aranda De Duero ES",
+          "line" : ["Avda. Extremadura 3, 09400 Aranda De Duero"],
+          "city" : "Aranda De Duero",
+          "country" : "ES"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-31ff1af739c7dcf77386a86f8dd83d29",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "mah-31ff1af739c7dcf77386a86f8dd83d29",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_mah-31ff1af739c7dcf77386a86f8dd83d29\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization mah-31ff1af739c7dcf77386a86f8dd83d29</b></p><a name=\"mah-31ff1af739c7dcf77386a86f8dd83d29\"> </a><a name=\"hcmah-31ff1af739c7dcf77386a86f8dd83d29\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/ORG-100012958 (use: official, )</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 220000000034}\">Marketing authorisation holder</span></p><p><b>name</b>: ViiV Healthcare BV</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>Van Asch van Wijckstraat 55H Amersfoort NL(work)</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/omswi",
+        "value" : "ORG-100012958"
+      }],
+      "active" : true,
+      "type" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000034",
+          "display" : "Marketing authorisation holder"
+        }]
+      }],
+      "name" : "ViiV Healthcare BV",
+      "contact" : [{
+        "address" : {
+          "use" : "work",
+          "type" : "physical",
+          "text" : "Van Asch van Wijckstraat 55H Amersfoort NL",
+          "line" : ["Van Asch van Wijckstraat 55H"],
+          "city" : "Amersfoort",
+          "country" : "NL"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Organization/mra-7c9b97127f73ff3605a10eb1c2cc24d1",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "mra-7c9b97127f73ff3605a10eb1c2cc24d1",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_mra-7c9b97127f73ff3605a10eb1c2cc24d1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization mra-7c9b97127f73ff3605a10eb1c2cc24d1</b></p><a name=\"mra-7c9b97127f73ff3605a10eb1c2cc24d1\"> </a><a name=\"hcmra-7c9b97127f73ff3605a10eb1c2cc24d1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/ORG-100013412 (use: official, )</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 220000000032}\">Medicines Regulatory Authority</span></p><p><b>name</b>: European Medicines Agency</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>Carretera De Martorell 41 61, Poligono Industrial Nord-Est Amsterdam NL(work)</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/omswi",
+        "value" : "ORG-100013412"
+      }],
+      "active" : true,
+      "type" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000032",
+          "display" : "Medicines Regulatory Authority"
+        }]
+      }],
+      "name" : "European Medicines Agency",
+      "contact" : [{
+        "address" : {
+          "use" : "work",
+          "type" : "physical",
+          "text" : "Carretera De Martorell 41 61, Poligono Industrial Nord-Est Amsterdam NL",
+          "line" : ["Carretera De Martorell 41 61, Poligono Industrial Nord-Est"],
+          "city" : "Amsterdam",
+          "postalCode" : "1083 HS",
+          "country" : "NL"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-2977a2afce16a0bd914b8d242dd126b5",
+    "resource" : {
+      "resourceType" : "PackagedProductDefinition",
+      "id" : "ppd-2977a2afce16a0bd914b8d242dd126b5",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-2977a2afce16a0bd914b8d242dd126b5\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PackagedProductDefinition ppd-2977a2afce16a0bd914b8d242dd126b5</b></p><a name=\"ppd-2977a2afce16a0bd914b8d242dd126b5\"> </a><a name=\"hcppd-2977a2afce16a0bd914b8d242dd126b5\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/19/1370/001 (use: official, )</p><p><b>name</b>: Dovato 50 mg/300 mg film-coated tablets 30</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000155527}\">Chemical Medicinal Product</span></p><p><b>packageFor</b>: <a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#MedicinalProductDefinition_mp16598f252d07b4784b82ba43cf9e847e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001,https://www.who-umc.org/phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2012-02-07 13:28:17+0000</p><p><b>manufacturer</b>: <a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#Organization_man-173fde4cb6b1018cb7ec8ab708d3961c\">Organization GLAXO WELLCOME, S.A.</a></p><blockquote><p><b>packaging</b></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073498}\">Box</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003529}\">Cardboard</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073504}\">Child-resistant closure</span></p><p><b>quantity</b>: 30</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003203}\">Glass</span></p><blockquote><p><b>containedItem</b></p><h3>Items</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Reference</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#ManufacturedItemDefinition_mid-49178f16170ee8a6bc2a4361c1748d5f\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/19/1370/001 (use: official, ); status = active; manufacturedDoseForm = Film-coated tablet; unitOfPresentation = Tablet</a></td></tr></table></blockquote></blockquote></blockquote></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "EU/1/19/1370/001"
+      }],
+      "name" : "Dovato 50 mg/300 mg film-coated tablets 30",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000155527",
+          "display" : "Chemical Medicinal Product"
+        }]
+      },
+      "packageFor" : [{
+        "reference" : "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+      }],
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2012-02-07T13:28:17Z",
+      "manufacturer" : [{
+        "reference" : "Organization/man-173fde4cb6b1018cb7ec8ab708d3961c"
+      }],
+      "packaging" : {
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073498",
+            "display" : "Box"
+          }]
+        },
+        "quantity" : 1,
+        "material" : [{
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "200000003529",
+            "display" : "Cardboard"
+          }]
+        }],
+        "packaging" : [{
+          "identifier" : [{
+            "system" : "https://spor.ema.europa.eu/pmswi",
+            "value" : "123456"
+          }],
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000073504",
+              "display" : "Child-resistant closure"
+            }]
+          },
+          "quantity" : 30,
+          "material" : [{
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "200000003203",
+              "display" : "Glass"
+            }]
+          }],
+          "containedItem" : [{
+            "item" : {
+              "reference" : {
+                "reference" : "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
+              }
+            }
+          }]
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e",
+    "resource" : {
+      "resourceType" : "MedicinalProductDefinition",
+      "id" : "mp16598f252d07b4784b82ba43cf9e847e",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_mp16598f252d07b4784b82ba43cf9e847e\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicinalProductDefinition mp16598f252d07b4784b82ba43cf9e847e</b></p><a name=\"mp16598f252d07b4784b82ba43cf9e847e\"> </a><a name=\"hcmp16598f252d07b4784b82ba43cf9e847e\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/19/1370/001, <code>https://www.who-umc.org/phpid</code>/0x073AF2E5B92AE19E8B67635AFFB3D6CA</p><p><b>type</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-type MedicinalProduct}\">Medicinal Product</span></p><p><b>domain</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-domain Human}\">Human use</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">active</span></p><p><b>legalStatusOfSupply</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072084}\">Medicinal product subject to medical prescription</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Dovato 50 mg/300 mg film-coated tablets</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000001}\">Full name</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Dovato</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000002}\">Invented name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: dolutegravir/lamivudine</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000003}\">Scientific name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 50 mg/300 mg</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000004}\">Strength part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: film-coated tablets</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000005}\">Pharmaceutical dose form part</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{urn:iso:std:iso:3166 GBR}\">United Kingdom</span></td><td><span title=\"Codes:{urn:iso:std:iso:3166 GBR}\">United Kingdom</span></td><td><span title=\"Codes:{urn:ietf:bcp:47 en}\">English</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "EU/1/19/1370/001"
+      },
+      {
+        "system" : "https://www.who-umc.org/phpid",
+        "value" : "0x073AF2E5B92AE19E8B67635AFFB3D6CA"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-type",
+          "code" : "MedicinalProduct",
+          "display" : "Medicinal Product"
+        }]
+      },
+      "domain" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-domain",
+          "code" : "Human",
+          "display" : "Human use"
+        }]
+      },
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "active"
+        }]
+      },
+      "legalStatusOfSupply" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072084",
+          "display" : "Medicinal product subject to medical prescription"
+        }]
+      },
+      "name" : [{
+        "productName" : "Dovato 50 mg/300 mg film-coated tablets",
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/lists/220000000000",
+            "code" : "220000000001",
+            "display" : "Full name"
+          }]
+        },
+        "part" : [{
+          "part" : "Dovato",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000002",
+              "display" : "Invented name part"
+            }]
+          }
+        },
+        {
+          "part" : "dolutegravir/lamivudine",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000003",
+              "display" : "Scientific name part"
+            }]
+          }
+        },
+        {
+          "part" : "50 mg/300 mg",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000004",
+              "display" : "Strength part"
+            }]
+          }
+        },
+        {
+          "part" : "film-coated tablets",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000005",
+              "display" : "Pharmaceutical dose form part"
+            }]
+          }
+        }],
+        "usage" : [{
+          "country" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "GBR",
+              "display" : "United Kingdom"
+            }]
+          },
+          "jurisdiction" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "GBR",
+              "display" : "United Kingdom"
+            }]
+          },
+          "language" : {
+            "coding" : [{
+              "system" : "urn:ietf:bcp:47",
+              "code" : "en",
+              "display" : "English"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f",
+    "resource" : {
+      "resourceType" : "ManufacturedItemDefinition",
+      "id" : "mid-49178f16170ee8a6bc2a4361c1748d5f",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ManufacturedItemDefinition_mid-49178f16170ee8a6bc2a4361c1748d5f\"> </a><p class=\"res-header-id\"><b>Generated Narrative: ManufacturedItemDefinition mid-49178f16170ee8a6bc2a4361c1748d5f</b></p><a name=\"mid-49178f16170ee8a6bc2a4361c1748d5f\"> </a><a name=\"hcmid-49178f16170ee8a6bc2a4361c1748d5f\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/19/1370/001 (use: official, )</p><p><b>status</b>: Active</p><p><b>manufacturedDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000073665}\">Film-coated tablet</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002152}\">Tablet</span></p><p><b>manufacturer</b>: <a href=\"Bundle-bundlepackageleaflet-da-49178f16170ee8a6bc2a4361c1748d5f.html#Organization_man-173fde4cb6b1018cb7ec8ab708d3961c\">Organization GLAXO WELLCOME, S.A.</a></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "EU/1/19/1370/001"
+      }],
+      "status" : "active",
+      "manufacturedDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000073665",
+          "display" : "Film-coated tablet"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002152",
+          "display" : "Tablet"
+        }]
+      },
+      "manufacturer" : [{
+        "reference" : "Organization/man-173fde4cb6b1018cb7ec8ab708d3961c"
+      }]
+    }
+  }]
+}
+
+```

@@ -1,0 +1,1151 @@
+# ePI document Bundle for acmedrug-man Package Leaflet for language en - Gravitate Health FHIR Implementation Guide v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **ePI document Bundle for acmedrug-man Package Leaflet for language en**
+
+Package: **1 Box** **(Cardboard)** 
+
+Containing:
+
+Package: **28 Blister** **(PolyVinyl Chloride)** 
+
+Containing: ** ** 
+
+Manufactured Item
+
+ Dose form: ** Aerosol ** 
+
+ Unit of presentation: ** Bead ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** acmedrug-ing3 ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** acmedrug-ing2 ** 
+
+Ingredient
+
+ Role: ** Active ** 
+
+ Substance: ** acmedrug-ing1 ** 
+
+## Example Bundle: ePI document Bundle for acmedrug-man Package Leaflet for language en
+
+**Composition category:**Raw
+
+**Composition status:**final
+
+### B. Package Leaflet
+
+ 
+
+unavailable
+
+
+#### Package leaflet: Information for the user
+
+ 
+
+unavailable
+
+
+#### What is in this leaflet
+
+ 
+
+unavailable
+
+
+#### 1. What acme is and what it is used for
+
+ 
+
+unavailable
+
+
+#### 2. What you need to know before you take acme
+
+ 
+
+unavailable
+
+
+#### 3. How to take acme
+
+ 
+
+unavailable
+
+
+#### 4. Possible side effects
+
+ 
+
+unavailable
+
+
+#### 5. How to store acme
+
+ 
+
+unavailable
+
+
+#### 6. Contents of the pack and other information
+
+ 
+
+unavailable
+
+
+####  acmedrug-man 
+IDS:
+** ididid **
+-------
+
+Full name: **acmedrug-man**
+
+ - Invented name part: ** acme ** 
+
+ - Scientific name part: ** acmedrug ** 
+
+ - Strength part: ** 75 mg ** 
+
+ - Pharmaceutical dose form part: ** tablet ** 
+
+ Name usage: **English (Denmark)** 
+
+-------
+
+ Authorised dose form: **** 
+
+ Legal status of supply: **Medicinal product subject to medical prescription** 
+
+ Domain: **Human use** 
+
+ Resource status: **active** 
+
+-------
+
+ Product classification: 
+
+ **Marketing Authorisation** 1 of 1
+
+Authorisation number: ** EU/1/96/007/035 ** 
+
+ Region: ** ** 
+
+Marketing authorisation holder: **ACME industry** 
+
+ Identifier: 
+*  **ORG-100000789** 
+ 
+
+ Status: ** Active (2015-02-07T13:28:17Z) ** 
+
+ Package 1 of 2
+
+PMSWI: ** dd ** 
+
+ Description:  * * 
+
+ Marketing status: 
+ 
+
+Pack size:
+
+*  ****75 
+
+Package: **1 Box** **(Cardboard)** 
+
+Containing:
+
+Package: **96 Blister** **(PolyVinyl Chloride)** 
+
+Containing: ** ** 
+
+Manufactured Item
+
+ Dose form: ** Aerosol ** 
+
+ Unit of presentation: ** Bead ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** acmedrug-ing3 ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** acmedrug-ing2 ** 
+
+Ingredient
+
+ Role: ** Active ** 
+
+ Substance: ** acmedrug-ing1 ** 
+
+ Package 2 of 2
+
+PMSWI: ** dd ** 
+
+Description:
+ Marketing status: 
+ 
+
+Pack size:
+
+*  ****75 
+
+Administrable Product (1 of 1)
+
+ Dose form: ** Tablet ** 
+
+ Unit of presentation: ** Tablet ** 
+
+ Route of administration: 
+*  ** Oral use ** 
+ 
+Ingredients:
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** acmedrug-ing3 ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** acmedrug-ing2 ** 
+
+Ingredient
+
+ Role: ** Active ** 
+
+ Substance: ** acmedrug-ing1 ** 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Bundle",
+  "id" : "bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"]
+  },
+  "language" : "en",
+  "identifier" : {
+    "system" : "https://www.gravitatehealth.eu/sid/doc",
+    "value" : "acmedrug-xx"
+  },
+  "type" : "document",
+  "timestamp" : "2023-06-27T10:09:22Z",
+  "entry" : [{
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-534e209eb0a3ff60437639cb2015316f",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "composition-en-534e209eb0a3ff60437639cb2015316f",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><a name=\"Composition_composition-en-534e209eb0a3ff60437639cb2015316f\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition composition-en-534e209eb0a3ff60437639cb2015316f</b></p><a name=\"composition-en-534e209eb0a3ff60437639cb2015316f\"> </a><a name=\"hccomposition-en-534e209eb0a3ff60437639cb2015316f\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/</code>/c5848bd9bdfc9ac72d12e6dc6dcddf4a</p><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000155538}\">Package Leaflet</span></p><p><b>category</b>: <span title=\"Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs R}\">Raw</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#Organization_mah-2aff7154a8d952c895e8a03849a25108\">Organization ACME industry</a></p><p><b>title</b>: TEST PURPOSES ONLY - acmedrug-man</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://hl7.org/fhir/composition-attestation-mode official}\">Official</span></td><td>2022-02-16 13:28:17+0000</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi/",
+        "value" : "c5848bd9bdfc9ac72d12e6dc6dcddf4a"
+      }],
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000155538"
+        }],
+        "text" : "Package Leaflet"
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs",
+          "code" : "R",
+          "display" : "Raw"
+        }]
+      }],
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mp534e209eb0a3ff60437639cb2015316f"
+      }],
+      "date" : "2022-02-16T13:28:17Z",
+      "author" : [{
+        "reference" : "Organization/mah-2aff7154a8d952c895e8a03849a25108"
+      }],
+      "title" : "TEST PURPOSES ONLY - acmedrug-man",
+      "attester" : [{
+        "mode" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/composition-attestation-mode",
+            "code" : "official"
+          }]
+        },
+        "time" : "2022-02-16T13:28:17Z"
+      }],
+      "section" : [{
+        "title" : "B. Package Leaflet",
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi/",
+            "code" : "100000155538"
+          }],
+          "text" : "B. Package Leaflet"
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "unavailable"
+          }]
+        },
+        "section" : [{
+          "title" : "Package leaflet: Information for the user",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "Package leaflet: Information for the user"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        },
+        {
+          "title" : "What is in this leaflet",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "What is in this leaflet"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        },
+        {
+          "title" : "1. What acme is and what it is used for",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "1. What acme is and what it is used for"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        },
+        {
+          "title" : "2. What you need to know before you take acme",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "2. What you need to know before you take acme"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        },
+        {
+          "title" : "3. How to take acme",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "3. How to take acme"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        },
+        {
+          "title" : "4. Possible side effects",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "4. Possible side effects"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        },
+        {
+          "title" : "5. How to store acme",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "5. How to store acme"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        },
+        {
+          "title" : "6. Contents of the pack and other information",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "6. Contents of the pack and other information"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-acmedrug-acmedruging3",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-acmedrug-acmedruging3",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-acmedrug-acmedruging3\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-acmedrug-acmedruging3</b></p><a name=\"ingredient-for-acmedrug-acmedruging3\"> </a><a name=\"hcingredient-for-acmedrug-acmedruging3\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/ETJ7Z6XBU4 (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#ManufacturedItemDefinition_mid-534e209eb0a3ff60437639cb2015316f\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/96/007/035 (use: official, ); status = active; manufacturedDoseForm = Aerosol; unitOfPresentation = Bead</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#MedicinalProductDefinition_mp534e209eb0a3ff60437639cb2015316f\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#ididid; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#AdministrableProductDefinition_ap-534e209eb0a3ff60437639cb2015316f\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#id; status = active; administrableDoseForm = Tablet; unitOfPresentation = Tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta ETJ7Z6XBU4}\">acmedrug-ing3</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "ETJ7Z6XBU4"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp534e209eb0a3ff60437639cb2015316f"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-534e209eb0a3ff60437639cb2015316f"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "ETJ7Z6XBU4",
+              "display" : "acmedrug-ing3"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-acmedrug-acmedruging2",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-acmedrug-acmedruging2",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-acmedrug-acmedruging2\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-acmedrug-acmedruging2</b></p><a name=\"ingredient-for-acmedrug-acmedruging2\"> </a><a name=\"hcingredient-for-acmedrug-acmedruging2\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/15FIX9V2JP (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#ManufacturedItemDefinition_mid-534e209eb0a3ff60437639cb2015316f\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/96/007/035 (use: official, ); status = active; manufacturedDoseForm = Aerosol; unitOfPresentation = Bead</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#MedicinalProductDefinition_mp534e209eb0a3ff60437639cb2015316f\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#ididid; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#AdministrableProductDefinition_ap-534e209eb0a3ff60437639cb2015316f\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#id; status = active; administrableDoseForm = Tablet; unitOfPresentation = Tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 15FIX9V2JP}\">acmedrug-ing2</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "15FIX9V2JP"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp534e209eb0a3ff60437639cb2015316f"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-534e209eb0a3ff60437639cb2015316f"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "15FIX9V2JP",
+              "display" : "acmedrug-ing2"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-acmedrug-acmedruging1",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-acmedrug-acmedruging1",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-acmedrug-acmedruging1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-acmedrug-acmedruging1</b></p><a name=\"ingredient-for-acmedrug-acmedruging1\"> </a><a name=\"hcingredient-for-acmedrug-acmedruging1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/J0E2756Z7N (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#ManufacturedItemDefinition_mid-534e209eb0a3ff60437639cb2015316f\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/96/007/035 (use: official, ); status = active; manufacturedDoseForm = Aerosol; unitOfPresentation = Bead</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#MedicinalProductDefinition_mp534e209eb0a3ff60437639cb2015316f\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#ididid; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#AdministrableProductDefinition_ap-534e209eb0a3ff60437639cb2015316f\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#id; status = active; administrableDoseForm = Tablet; unitOfPresentation = Tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072072}\">Active</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta J0E2756Z7N}\">acmedrug-ing1</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>75 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ACTIB}\">active ingredient - basis of strength</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "J0E2756Z7N"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp534e209eb0a3ff60437639cb2015316f"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-534e209eb0a3ff60437639cb2015316f"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072072",
+          "display" : "Active"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "J0E2756Z7N",
+              "display" : "acmedrug-ing1"
+            }]
+          }
+        },
+        "strength" : [{
+          "presentationQuantity" : {
+            "value" : 75,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "basis" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+              "code" : "ACTIB",
+              "display" : "active ingredient - basis of strength"
+            }]
+          }
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-acmesub",
+    "resource" : {
+      "resourceType" : "SubstanceDefinition",
+      "id" : "substance-acmesub",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"SubstanceDefinition_substance-acmesub\"> </a><p class=\"res-header-id\"><b>Generated Narrative: SubstanceDefinition substance-acmesub</b></p><a name=\"substance-acmesub\"> </a><a name=\"hcsubstance-acmesub\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta/</code>/J0E2756Z7N (use: official, )</p><p><b>version</b>: 1</p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>description</b>: </p><div><p>White to off-white, biconvex, and oval-shaped with a heart debossed on one side and the number 2771 engraved on the other side.</p>\n</div><p><b>manufacturer</b>: <a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#Organization_mah-2aff7154a8d952c895e8a03849a25108\">Organization ACME industry</a></p><h3>MolecularWeights</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">exact</span></td><td>428.53</td></tr></table><h3>Structures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>MolecularFormula</b></td></tr><tr><td style=\"display: none\">*</td><td>C25H28N6O</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>(+)-6-methyleneandrosta-1,4-diene-3,17-dione</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta/ x}\">Chemical Name</span></td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+        "value" : "J0E2756Z7N"
+      }],
+      "version" : "1",
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active"
+        }]
+      },
+      "description" : "White to off-white, biconvex, and oval-shaped with a heart debossed on one side and the number 2771 engraved on the other side.",
+      "manufacturer" : [{
+        "reference" : "Organization/mah-2aff7154a8d952c895e8a03849a25108"
+      }],
+      "molecularWeight" : [{
+        "type" : {
+          "text" : "exact"
+        },
+        "amount" : {
+          "value" : 428.53
+        }
+      }],
+      "structure" : {
+        "molecularFormula" : "C25H28N6O"
+      },
+      "name" : [{
+        "name" : "(+)-6-methyleneandrosta-1,4-diene-3,17-dione",
+        "type" : {
+          "coding" : [{
+            "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+            "code" : "x",
+            "display" : "Chemical Name"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-534e209eb0a3ff60437639cb2015316f",
+    "resource" : {
+      "resourceType" : "AdministrableProductDefinition",
+      "id" : "ap-534e209eb0a3ff60437639cb2015316f",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AdministrableProductDefinition_ap-534e209eb0a3ff60437639cb2015316f\"> </a><p class=\"res-header-id\"><b>Generated Narrative: AdministrableProductDefinition ap-534e209eb0a3ff60437639cb2015316f</b></p><a name=\"ap-534e209eb0a3ff60437639cb2015316f\"> </a><a name=\"hcap-534e209eb0a3ff60437639cb2015316f\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/id</p><p><b>status</b>: Active</p><p><b>formOf</b>: <a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#MedicinalProductDefinition_mp534e209eb0a3ff60437639cb2015316f\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#ididid; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>administrableDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073664}\">Tablet</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002152}\">Tablet</span></p><p><b>producedFrom</b>: <a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#ManufacturedItemDefinition_mid-534e209eb0a3ff60437639cb2015316f\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/96/007/035 (use: official, ); status = active; manufacturedDoseForm = Aerosol; unitOfPresentation = Bead</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073619}\">Oral use</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000109093}\">Human</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "id"
+      }],
+      "status" : "active",
+      "formOf" : [{
+        "reference" : "MedicinalProductDefinition/mp534e209eb0a3ff60437639cb2015316f"
+      }],
+      "administrableDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000073664",
+          "display" : "Tablet"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002152",
+          "display" : "Tablet"
+        }]
+      },
+      "producedFrom" : [{
+        "reference" : "ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f"
+      }],
+      "routeOfAdministration" : [{
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073619",
+            "display" : "Oral use"
+          }]
+        },
+        "targetSpecies" : [{
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000109093",
+              "display" : "Human"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization534e209eb0a3ff60437639cb2015316f0",
+    "resource" : {
+      "resourceType" : "RegulatedAuthorization",
+      "id" : "authorization534e209eb0a3ff60437639cb2015316f0",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"RegulatedAuthorization_authorization534e209eb0a3ff60437639cb2015316f0\"> </a><p class=\"res-header-id\"><b>Generated Narrative: RegulatedAuthorization authorization534e209eb0a3ff60437639cb2015316f0</b></p><a name=\"authorization534e209eb0a3ff60437639cb2015316f0\"> </a><a name=\"hcauthorization534e209eb0a3ff60437639cb2015316f0\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/96/007/035 (use: official, )</p><p><b>subject</b>: <a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#MedicinalProductDefinition_mp534e209eb0a3ff60437639cb2015316f\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#ididid; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 220000000061}\">Marketing Authorisation</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>holder</b>: <a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#Organization_mah-2aff7154a8d952c895e8a03849a25108\">Organization ACME industry</a></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "EU/1/96/007/035"
+      }],
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mp534e209eb0a3ff60437639cb2015316f"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000061",
+          "display" : "Marketing Authorisation"
+        }]
+      },
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2015-02-07T13:28:17Z",
+      "holder" : {
+        "reference" : "Organization/mah-2aff7154a8d952c895e8a03849a25108"
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-2aff7154a8d952c895e8a03849a25108",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "mah-2aff7154a8d952c895e8a03849a25108",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_mah-2aff7154a8d952c895e8a03849a25108\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization mah-2aff7154a8d952c895e8a03849a25108</b></p><a name=\"mah-2aff7154a8d952c895e8a03849a25108\"> </a><a name=\"hcmah-2aff7154a8d952c895e8a03849a25108\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/ORG-100000789 (use: official, )</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 220000000034}\">Marketing authorisation holder</span></p><p><b>name</b>: ACME industry</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>street x and y Paris FR(work)</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/omswi",
+        "value" : "ORG-100000789"
+      }],
+      "active" : true,
+      "type" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000034",
+          "display" : "Marketing authorisation holder"
+        }]
+      }],
+      "name" : "ACME industry",
+      "contact" : [{
+        "address" : {
+          "use" : "work",
+          "type" : "physical",
+          "text" : "street x and y Paris FR",
+          "line" : ["street x and y"],
+          "city" : "Paris",
+          "country" : "FR"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-8b2a2f9f4892591c2caef29c58ff5446",
+    "resource" : {
+      "resourceType" : "PackagedProductDefinition",
+      "id" : "ppd-8b2a2f9f4892591c2caef29c58ff5446",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-8b2a2f9f4892591c2caef29c58ff5446\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PackagedProductDefinition ppd-8b2a2f9f4892591c2caef29c58ff5446</b></p><a name=\"ppd-8b2a2f9f4892591c2caef29c58ff5446\"> </a><a name=\"hcppd-8b2a2f9f4892591c2caef29c58ff5446\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/dd (use: official, )</p><p><b>name</b>: acmedrug-man 28</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000155527}\">Chemical Medicinal Product</span></p><p><b>packageFor</b>: <a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#MedicinalProductDefinition_mp534e209eb0a3ff60437639cb2015316f\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#ididid; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 75 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073498}\">Box</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003529}\">Cardboard</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073496}\">Blister</span></p><p><b>quantity</b>: 28</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003222}\">PolyVinyl Chloride</span></p><blockquote><p><b>containedItem</b></p><h3>Items</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Reference</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#ManufacturedItemDefinition_mid-534e209eb0a3ff60437639cb2015316f\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/96/007/035 (use: official, ); status = active; manufacturedDoseForm = Aerosol; unitOfPresentation = Bead</a></td></tr></table></blockquote></blockquote></blockquote></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "dd"
+      }],
+      "name" : "acmedrug-man 28",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000155527",
+          "display" : "Chemical Medicinal Product"
+        }]
+      },
+      "packageFor" : [{
+        "reference" : "MedicinalProductDefinition/mp534e209eb0a3ff60437639cb2015316f"
+      }],
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2015-02-07T13:28:17Z",
+      "containedItemQuantity" : [{
+        "value" : 75,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      }],
+      "packaging" : {
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073498",
+            "display" : "Box"
+          }]
+        },
+        "quantity" : 1,
+        "material" : [{
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "200000003529",
+            "display" : "Cardboard"
+          }]
+        }],
+        "packaging" : [{
+          "identifier" : [{
+            "system" : "https://spor.ema.europa.eu/pmswi",
+            "value" : "123456"
+          }],
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000073496",
+              "display" : "Blister"
+            }]
+          },
+          "quantity" : 28,
+          "material" : [{
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "200000003222",
+              "display" : "PolyVinyl Chloride"
+            }]
+          }],
+          "containedItem" : [{
+            "item" : {
+              "reference" : {
+                "reference" : "ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f"
+              }
+            }
+          }]
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-212c4b6e1e9a95ef54fb8f6ac1394307",
+    "resource" : {
+      "resourceType" : "PackagedProductDefinition",
+      "id" : "ppd-212c4b6e1e9a95ef54fb8f6ac1394307",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-212c4b6e1e9a95ef54fb8f6ac1394307\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PackagedProductDefinition ppd-212c4b6e1e9a95ef54fb8f6ac1394307</b></p><a name=\"ppd-212c4b6e1e9a95ef54fb8f6ac1394307\"> </a><a name=\"hcppd-212c4b6e1e9a95ef54fb8f6ac1394307\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/dd (use: official, )</p><p><b>name</b>: acmedrug-man 96</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000155527}\">Chemical Medicinal Product</span></p><p><b>packageFor</b>: <a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#MedicinalProductDefinition_mp534e209eb0a3ff60437639cb2015316f\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#ididid; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 75 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073498}\">Box</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003529}\">Cardboard</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073496}\">Blister</span></p><p><b>quantity</b>: 96</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003222}\">PolyVinyl Chloride</span></p><blockquote><p><b>containedItem</b></p><h3>Items</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Reference</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Bundle-bundlepackageleaflet-en-534e209eb0a3ff60437639cb2015316f.html#ManufacturedItemDefinition_mid-534e209eb0a3ff60437639cb2015316f\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/96/007/035 (use: official, ); status = active; manufacturedDoseForm = Aerosol; unitOfPresentation = Bead</a></td></tr></table></blockquote></blockquote></blockquote></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "dd"
+      }],
+      "name" : "acmedrug-man 96",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000155527",
+          "display" : "Chemical Medicinal Product"
+        }]
+      },
+      "packageFor" : [{
+        "reference" : "MedicinalProductDefinition/mp534e209eb0a3ff60437639cb2015316f"
+      }],
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2015-02-07T13:28:17Z",
+      "containedItemQuantity" : [{
+        "value" : 75,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      }],
+      "packaging" : {
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073498",
+            "display" : "Box"
+          }]
+        },
+        "quantity" : 1,
+        "material" : [{
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "200000003529",
+            "display" : "Cardboard"
+          }]
+        }],
+        "packaging" : [{
+          "identifier" : [{
+            "system" : "https://spor.ema.europa.eu/pmswi",
+            "value" : "123456"
+          }],
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000073496",
+              "display" : "Blister"
+            }]
+          },
+          "quantity" : 96,
+          "material" : [{
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "200000003222",
+              "display" : "PolyVinyl Chloride"
+            }]
+          }],
+          "containedItem" : [{
+            "item" : {
+              "reference" : {
+                "reference" : "ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f"
+              }
+            }
+          }]
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp534e209eb0a3ff60437639cb2015316f",
+    "resource" : {
+      "resourceType" : "MedicinalProductDefinition",
+      "id" : "mp534e209eb0a3ff60437639cb2015316f",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_mp534e209eb0a3ff60437639cb2015316f\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicinalProductDefinition mp534e209eb0a3ff60437639cb2015316f</b></p><a name=\"mp534e209eb0a3ff60437639cb2015316f\"> </a><a name=\"hcmp534e209eb0a3ff60437639cb2015316f\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>http://fakesys.com/ids</code>/ididid</p><p><b>type</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-type MedicinalProduct}\">Medicinal Product</span></p><p><b>domain</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-domain Human}\">Human use</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">active</span></p><p><b>legalStatusOfSupply</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072084}\">Medicinal product subject to medical prescription</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: acmedrug-man</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000001}\">Full name</span></p><blockquote><p><b>part</b></p><p><b>part</b>: acme</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000002}\">Invented name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: acmedrug</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000003}\">Scientific name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 75 mg</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000004}\">Strength part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: tablet</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000005}\">Pharmaceutical dose form part</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{urn:iso:std:iso:3166 DK}\">Denmark</span></td><td><span title=\"Codes:{urn:iso:std:iso:3166 DK}\">Denmark</span></td><td><span title=\"Codes:{urn:ietf:bcp:47 en}\">English</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "http://fakesys.com/ids",
+        "value" : "ididid"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-type",
+          "code" : "MedicinalProduct",
+          "display" : "Medicinal Product"
+        }]
+      },
+      "domain" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-domain",
+          "code" : "Human",
+          "display" : "Human use"
+        }]
+      },
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "active"
+        }]
+      },
+      "legalStatusOfSupply" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072084",
+          "display" : "Medicinal product subject to medical prescription"
+        }]
+      },
+      "name" : [{
+        "productName" : "acmedrug-man",
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/lists/220000000000",
+            "code" : "220000000001",
+            "display" : "Full name"
+          }]
+        },
+        "part" : [{
+          "part" : "acme",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000002",
+              "display" : "Invented name part"
+            }]
+          }
+        },
+        {
+          "part" : "acmedrug",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000003",
+              "display" : "Scientific name part"
+            }]
+          }
+        },
+        {
+          "part" : "75 mg",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000004",
+              "display" : "Strength part"
+            }]
+          }
+        },
+        {
+          "part" : "tablet",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000005",
+              "display" : "Pharmaceutical dose form part"
+            }]
+          }
+        }],
+        "usage" : [{
+          "country" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "DK",
+              "display" : "Denmark"
+            }]
+          },
+          "jurisdiction" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "DK",
+              "display" : "Denmark"
+            }]
+          },
+          "language" : {
+            "coding" : [{
+              "system" : "urn:ietf:bcp:47",
+              "code" : "en",
+              "display" : "English"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f",
+    "resource" : {
+      "resourceType" : "ManufacturedItemDefinition",
+      "id" : "mid-534e209eb0a3ff60437639cb2015316f",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ManufacturedItemDefinition_mid-534e209eb0a3ff60437639cb2015316f\"> </a><p class=\"res-header-id\"><b>Generated Narrative: ManufacturedItemDefinition mid-534e209eb0a3ff60437639cb2015316f</b></p><a name=\"mid-534e209eb0a3ff60437639cb2015316f\"> </a><a name=\"hcmid-534e209eb0a3ff60437639cb2015316f\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/96/007/035 (use: official, )</p><p><b>status</b>: Active</p><p><b>manufacturedDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000143522}\">Aerosol</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000022797}\">Bead</span></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "EU/1/96/007/035"
+      }],
+      "status" : "active",
+      "manufacturedDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000143522",
+          "display" : "Aerosol"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000022797",
+          "display" : "Bead"
+        }]
+      }
+    }
+  }]
+}
+
+```

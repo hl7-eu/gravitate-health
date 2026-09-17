@@ -1,0 +1,937 @@
+# eca83c7f-4cb0-4b0d-8f7a-5f9d433f5ea3 - Gravitate Health FHIR Implementation Guide v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **eca83c7f-4cb0-4b0d-8f7a-5f9d433f5ea3**
+
+## Bundle: eca83c7f-4cb0-4b0d-8f7a-5f9d433f5ea3
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Bundle",
+  "id" : "eca83c7f-4cb0-4b0d-8f7a-5f9d433f5ea3",
+  "identifier" : {
+    "system" : "http://ema.europa.eu/fhir/epiGuid",
+    "value" : "eca83c7f-4cb0-4b0d-8f7a-5f9d433f5ea3"
+  },
+  "type" : "collection",
+  "timestamp" : "2024-12-13T18:58:39.4885692+01:00",
+  "entry" : [{
+    "fullUrl" : "109064a4-3cbe-4f88-a7b4-17f4977335dd",
+    "resource" : {
+      "resourceType" : "List",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"List_null\"> </a>electronic Product Information (ePI) master document list</div>"
+      },
+      "identifier" : [{
+        "system" : "http://ema.europa.eu/fhir/epiId",
+        "value" : "EPI/24/129"
+      }],
+      "status" : "current",
+      "mode" : "working",
+      "title" : "all sections Spanish document",
+      "code" : {
+        "coding" : [{
+          "system" : "http://ema.europa.eu/fhir/documentType",
+          "code" : "00001",
+          "display" : "epiMasterList"
+        }]
+      },
+      "subject" : [{
+        "reference" : "subjectReference"
+      }],
+      "entry" : [{
+        "item" : {
+          "reference" : "referenceToDocument",
+          "display" : "Ficha técnica o resumen de las características del producto"
+        }
+      },
+      {
+        "item" : {
+          "reference" : "referenceToDocument",
+          "display" : "Prospecto"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "dde8ae9b-9e37-41ed-bab4-545399ef35f9",
+    "resource" : {
+      "resourceType" : "Bundle",
+      "id" : "dde8ae9b-9e37-41ed-bab4-545399ef35f9",
+      "identifier" : {
+        "system" : "http://ema.europa.eu/fhir/epiDocument",
+        "value" : "dde8ae9b-9e37-41ed-bab4-545399ef35f9"
+      },
+      "type" : "document",
+      "timestamp" : "2024-12-13T18:58:39.4885692+01:00",
+      "entry" : [{
+        "fullUrl" : "dde8ae9b-9e37-41ed-bab4-545399ef35f9",
+        "resource" : {
+          "resourceType" : "Composition",
+          "language" : "es",
+          "text" : {
+            "status" : "generated",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">electronic Product Information (ePI) document</div>"
+          },
+          "status" : "final",
+          "type" : {
+            "coding" : [{
+              "system" : "http://spor.ema.europa.eu/v1/lists/100000155531",
+              "code" : "100000155532",
+              "display" : "Ficha técnica o resumen de las características del producto"
+            }]
+          },
+          "subject" : [{
+            "reference" : "subjectReference"
+          }],
+          "date" : "2024-12-13",
+          "author" : [{
+            "reference" : "systemUser"
+          }],
+          "title" : "Ficha técnica o resumen de las características del producto",
+          "section" : [{
+            "title" : "Ficha técnica o resumen de las características del producto",
+            "code" : {
+              "coding" : [{
+                "system" : "http://spor.ema.europa.eu/v1/lists/100000155531",
+                "code" : "200000029791",
+                "display" : "Ficha técnica o resumen de las características del producto"
+              }]
+            },
+            "text" : {
+              "status" : "generated",
+              "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p> </p></div>"
+            },
+            "section" : [{
+              "id" : "52daed76-9cf2-47ed-a57a-720ac438d45d",
+              "title" : "0. Advertencia triángulo negro",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "XXXXXXXXXXXX",
+                  "display" : "Advertencia triángulo negro"
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span>             </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span> </span></strong></p><p><strong><span>FICHA TÉCNICA O</span></strong><strong><span>RESUMEN DE LAS CARACTERISTÍCAS DEL PRODUCTO</span></strong></p></div>"
+              }
+            },
+            {
+              "id" : "1a77213f-aeca-42be-bd47-375eb80ac0bf",
+              "title" : "1. Nombre del medicamento",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029792",
+                  "display" : "Nombre del medicamento"
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><em><span> </span></em></p><p><span>Recto Menaderm 0,125 mg/g pomada rectal</span></p><p><span> </span></p></div>"
+              }
+            },
+            {
+              "id" : "ad33fec4-9e35-4eb2-8cc8-928287f174fd",
+              "title" : "2. Composición cualitativa y cuantitativa",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029793",
+                  "display" : "Composición cualitativa y cuantitativa"
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Cada g de pomada contiene:</span></p><p><span> </span></p><p><span>Beclometasona dipropionato ….. 0,125 mg (0,0125%).</span></p><p><span> </span></p><p><span><span>Excipientes con efecto conocido</span></span><span>:</span></p><p><span>Parahidroxibenzoato de metilo (E-218) (1,2 mg)</span></p><p><span>Parahidroxibenzoato de propilo (0,3 mg)</span></p><p><span>Lanolina (75 mg)</span></p><p><span>Alcohol cetílico (75 mg)</span></p><p><span>Alcohol estearílico (50 mg).</span></p><p><span> </span></p><p><span>Para</span><span>consultar</span><span>la lista completa de excipientes, ver sección 6.1.</span></p><p><span> </span></p></div>"
+              }
+            },
+            {
+              "id" : "975be067-e467-4fbb-9e69-f84c35c75b28",
+              "title" : "3. Forma farmacéutica",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029797",
+                  "display" : "Forma farmacéutica"
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Pomada rectal.</span></p><p><span>Pomada de aspecto uniforme y color amarillento.</span></p><p><span> </span></p></div>"
+              }
+            },
+            {
+              "id" : "e4471a36-9157-453d-97f6-2e486682d4dc",
+              "title" : "4. Datos clínicos",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029798",
+                  "display" : "Datos clínicos"
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p> </p></div>"
+              },
+              "section" : [{
+                "id" : "61461f2f-fc93-4fac-9aac-3ffed4e66a2b",
+                "title" : "4.1. Indicaciones terapéuticas",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029799",
+                    "display" : "Indicaciones terapéuticas"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Tratamiento local sintomático de las manifestaciones inflamatorias ano-rectales y el prurito anal asociados con hemorroides.</span></p></div>"
+                }
+              },
+              {
+                "id" : "a4b73ffc-5e2c-4f0a-80d8-95f5800e02dd",
+                "title" : "4.2. Posología y forma de administración",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029800",
+                    "display" : "Posología y forma de administración"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p></div>"
+                },
+                "section" : [{
+                  "id" : "e1ae6e54-7998-4f61-8023-65b711d03e58",
+                  "title" : "4.2.1. Posología",
+                  "code" : {
+                    "coding" : [{
+                      "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                      "code" : "200000029801",
+                      "display" : "Posología"
+                    }]
+                  },
+                  "text" : {
+                    "status" : "generated",
+                    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><em><span>Adultos a partir de 12 años</span></em></p><p><span>De una a dos aplicaciones al día sobre la zona afectada con una cantidad de pomada equivalente a</span><span>2 cm</span><span>. Si los síntomas empeoran o no mejoran en 7 días se deberá reevaluar la situación clínica.  </span></p><p><em><span> </span></em></p><p><em><span>Población pediátrica</span></em></p><p><span>Recto Menaderm no se debe utilizar en niños menores de 12 años por motivos de seguridad.</span></p><p><span> </span></p></div>"
+                  }
+                },
+                {
+                  "id" : "d3cc0140-6cdb-419e-b6a8-f7e4a006b6be",
+                  "title" : "4.2.2. Forma de administración",
+                  "code" : {
+                    "coding" : [{
+                      "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                      "code" : "200000029803",
+                      "display" : "Forma de administración"
+                    }]
+                  },
+                  "text" : {
+                    "status" : "generated",
+                    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Uso anal y/o rectal.</span></p><p><span>Aplicar en la zona afectada, tras lavar y secar cuidadosamente la zona.</span></p><p><span> </span></p><p><span>Es conveniente hacer las aplicaciones después de la evacuación intestinal.</span></p><p><span> </span></p><p><span>En caso de hemorroides internas puede utilizarse por vía rectal mediante la cánula que se adjunta en el envase.</span></p></div>"
+                  }
+                }]
+              },
+              {
+                "id" : "78795469-697a-482d-9bb8-bf678bc7e5b3",
+                "title" : "4.3. Contraindicaciones",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029805",
+                    "display" : "Contraindicaciones"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><ul><li><span>Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la sección 6.1.</span></li><li><span>Infecciones bacterianas, fúngicas o víricas de la zona a tratar.</span></li><li><span>Hemorragia hemorroidal.</span></li><li><span>No administrar en niños menores de 12 años</span></li></ul></div>"
+                }
+              },
+              {
+                "id" : "ae1ae622-587d-4d8e-8015-5c7d73235fc3",
+                "title" : "4.4. Advertencias y precauciones especiales de empleo",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029806",
+                    "display" : "Advertencias y precauciones especiales de empleo"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>La aplicación de corticosteroides sobre áreas de gran superficie, su uso prolongado y la aplicación con vendajes oclusivos aumenta significativamente el riesgo de efectos adversos y puede ocasionar absorción sistémica con efectos sistémicos (ej., síndrome de Cushing) (ver sección 4.8).</span></p><p><span> </span></p><p><span>Si este medicamento causa hipersensibilidad debe interrumpirse el tratamiento al primer signo.</span></p><p><span> </span></p><p><span>El uso de corticosteroides puede potenciar las infecciones de la piel (fúngicas, víricas, bacterianas), incluyendo infecciones en el lugar de la aplicación.</span></p><p><span>Si se produce infección, debe instaurarse una terapia específica. De no tener lugar una rápida mejoría, debe suspenderse el tratamiento con Recto Menaderm hasta que se haya controlado la infección.</span></p><p><span> </span></p><p><span>Evitar el contacto con los ojos y zonas próximas a los mismos, así como con otras mucosas.</span></p><p><span>Como es conocido para los corticoides sistémicos, también puede desarrollarse glaucoma por el uso de</span></p><p><span>corticosteroides tópicos (p. ej.: tras una aplicación excesiva, con la utilización de técnicas de vendaje oclusivo).</span></p><p><span> </span></p><p><span>Recto Menaderm debe ser utilizado con precaución en ancianos y enfermos en fase aguda debilitados ya que pueden ser más sensibles a los efectos de este medicamento.</span></p><p><span> </span></p><p><span>Población pediátrica</span></p><p><span>Los niños pueden absorber mayores cantidades de corticosteroides a nivel sistémico que</span><span>los adultos</span><span>y por tanto son más susceptibles a la toxicidad de Recto Menaderm.</span></p><p><em><span> </span></em></p><p><span><span>Alteraciones visuales</span></span></p><p><span>Se pueden producir alteraciones visuales con el uso sistémico y tópico de corticosteroides. Si un paciente presenta síntomas como visión borrosa u otras alteraciones visuales, se debe consultar con un oftalmólogo para que evalúe las posibles causas, que pueden ser cataratas, glaucoma o enfermedades raras como coriorretinopatía serosa central (CRSC), que se ha notificado tras el uso de corticosteroides sistémicos y tópicos.</span></p><p><span> </span></p><p><span><span>Advertencia</span></span><span><span>a los deportistas</span></span></p><p><span>Se debe informar a los deportistas que este medicamento contiene un componente, beclometasona, que puede establecer un resultado analítico de control del dopaje como positivo.</span></p><p><em><span> </span></em></p><p><span><span>Advertencias sobre excipientes</span></span></p><p><span>Este medicamento puede provocar reacciones alérgicas (posiblemente retardadas) porque contiene parahidroxibenzoato de metilo (E 218) y parahidroxibenzoato de propilo.</span></p><p><span>Puede provocar reacciones locales en la piel (como dermatitis de contacto) porque contiene lanolina, alcohol cetílico y alcohol estearílico.</span></p></div>"
+                }
+              },
+              {
+                "id" : "001ab4ce-bfa5-464b-93ce-211586ba0b81",
+                "title" : "4.5. Interacción con otros medicamentos y otras formas de interacción",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029809",
+                    "display" : "Interacción con otros medicamentos y otras formas de interacción"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>La beclometasona es menos dependiente del metabolismo por CYP3A que algunos otros corticosteroides y, por lo general, las interacciones son poco probables; no obstante, no puede descartarse la posibilidad de que se produzcan reacciones sistémicas con el uso concomitante de inhibidores potentes del CYP3A (p. ej., ritonavir, cobicistat) y, por tanto, se recomienda precaución y un control adecuado con el uso de estos fármacos. Ver también sección 6.2.</span></p></div>"
+                }
+              },
+              {
+                "id" : "59390359-7b32-4df8-9ab4-4fac99df5516",
+                "title" : "4.6. Fertilidad, embarazo y lactancia",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029811",
+                    "display" : "Fertilidad, embarazo y lactancia"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span><span>Embarazo</span></span></p><p><span>No hay datos, o éstos son limitados, relativos al uso de beclometasona</span><span>en mujeres embarazadas.</span></p><p><span>Los estudios realizados en animales con corticosteroides</span><span>han mostrado toxicidad para la reproducción</span><span>(ver sección 5.3)</span><span>.</span></p><p><span> </span></p><p><span>No se recomienda utilizar Recto Menaderm durante el embarazo.</span></p><p><span>El empleo de Recto Menaderm durante el embarazo se reservará únicamente para aquellos casos en los que el beneficio potencial justifique posibles riesgos para el feto. En cualquier caso, no debe usarse en grandes cantidades o durante largos periodos de tiempo en mujeres embarazadas.</span></p><p><span> </span></p><p><span><span>Lactancia</span></span></p><p><span>Los corticosteroides administrados sistémicamente se excretan en la leche materna en cantidades mínimas. Con</span><span>la administración rectal no se puede excluir el riesgo en</span><span>recién nacidos/niños</span><span>.</span></p><p><span> </span></p><p><span>Se debe decidir si es necesario interrumpir la lactancia o interrumpir el tratamiento tras considerar el beneficio de la lactancia para el niño y el beneficio del tratamiento para la madre.</span></p></div>"
+                }
+              },
+              {
+                "id" : "7817675f-8701-47cb-ac84-c1340ce14374",
+                "title" : "4.7. Efectos sobre la capacidad para conducir y utilizar máquinas",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029815",
+                    "display" : "Efectos sobre la capacidad para conducir y utilizar máquinas"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>La influencia de Recto Menaderm sobre la capacidad para conducir y utilizar máquinas es nula.</span></p><p><span> </span></p><div><ol><li><strong><span>Reacciones adversas</span></strong></li></ol></div><p><strong><span> </span></strong></p><p><span>Al igual que con otros corticosteroides tópicos, el uso prolongado de grandes cantidades o el tratamiento de áreas extensas puede dar lugar a efectos sistémicos del corticoide debido a su absorción. Si esto ocurre el tratamiento deberá discontinuarse. La frecuencia de las reacciones adversas no puede estimarse a partir de los datos disponibles.</span></p><p><span> </span></p><p><span><span>Infecciones e infestaciones</span></span></p><p><span>Infecciones (fúngicas, víricas, bacterianas), incluyendo infecciones en el lugar de la aplicación.</span></p><p><span> </span></p><p><span><span>Trastornos del sistema inmunológico</span></span></p><p><span>Hipersensibilidad</span></p><p><span> </span></p><p><span><span>Trastornos endocrinos</span></span></p><p><span>Insuficiencia adrenal (supresión reversible del eje hipotálamo-hipófisis-adrenal), síndrome de Cushing (obesidad en el tronco, cara redondeada, joroba, retraso en la cicatrización,</span><span>síntomas psiquiátricos, etc.).</span></p><p><span> </span></p><p><span><span>Trastornos oculares</span></span></p><p><span>Cataratas (subcapsular), visión borrosa (ver también seción 4.4).</span></p><p><span> </span></p><p><span><span>Trastornos vasculares</span></span></p><p><span>Hipertensión, edema.</span></p><p><span> </span></p><p><span><span>Trastornos de la piel y del tejido subcutáneo</span></span></p><p><span>Atrofia de la piel, estrías dérmicas, telangiectasias, picor, dermatitis de contacto, quemazón, maceración, acné, irritación, sequedad en la zona de aplicación, hematoma, foliculitis, pérdida de pelo.</span></p><p><span> </span></p><p><span><span>Notificación de sospechas de reacciones adversas</span></span></p><p><span>Es importante notificar sospechas de reacciones adversas al medicamento tras su  autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del</span><span>Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: www.notificaRAM.es.</span></p></div>"
+                }
+              },
+              {
+                "id" : "55181846-f87a-4e13-800a-0cf19204c80a",
+                "title" : "4.9. Sobredosis",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029819",
+                    "display" : "Sobredosis"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Es poco probable la posibilidad de intoxicación dada la vía de administración.</span></p><p><span> </span></p><p><span>Una sobredosificación de corticosteroides (cantidades superiores a las recomendadas) aumenta el riesgo de efectos adversos y podría causar los efectos sistémicos de los mismos (ver sección 4.8).</span></p><p><em><span>Síntomas:</span></em><span>El empleo excesivo o prolongado de los corticosteroides tópicos puede suprimir la función hipotálamo-hipófisis-suprarrenal, produciendo una insuficiencia suprarrenal secundaria y manifestaciones del síndrome de Cushing.</span></p><p><span> </span></p><p><span>Si se observa supresión del eje</span><span>hipotálamo-hipófisis-suprarrenal</span><span>, se debe intentar retirar el fármaco, reducir la frecuencia de aplicación, o sustituirlo por un esteroide menos potente. La recuperación de la función del eje</span><span>hipotálamo-hipófisis-suprarrenal</span><span>es generalmente rápida y completa tras la interrupción del fármaco.</span></p><p><span> </span></p></div>"
+                }
+              }]
+            },
+            {
+              "id" : "a6603e64-9e49-410e-9eb2-bea4f6845e75",
+              "title" : "5. Propiedades farmacológicas",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029821",
+                  "display" : "Propiedades farmacológicas"
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p> </p></div>"
+              },
+              "section" : [{
+                "id" : "7e60006f-be36-4df9-9bb9-0f3a0963e94d",
+                "title" : "5.1. Propiedades farmacodinámicas",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029822",
+                    "display" : "Propiedades farmacodinámicas"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Grupo farmacoterapéutico: Agentes de uso tópico para el tratamiento de hemorroides y fisuras anales. Corticosteroides, código ATC: C05AA</span><span>.</span></p><p><span> </span></p><p><span>La beclometasona dipropionato tiene actividad antiinflamatoria local.</span><span>Los corticosteroides en general, en uso local, tienen propiedades inmunosupresivas e inhiben las reacciones inflamatorias y alérgicas de la piel, así como las reacciones asociadas con hiperproliferación, dando lugar a remisión de los síntomas objetivos (eritema, edema, exudación) y alivio de las molestias subjetivas (prurito, sensación de quemazón y dolor).</span></p><p><span> </span></p><p><span>Este medicamento, administrado por vía rectal, actúa sobre la mucosa ano-rectal inhibiendo los efectos inflamatorios.</span></p><p><span>La actividad de los corticosteroides se produce en parte mediante enlace con un receptor esteroideo.</span></p><p><span>Los corticosteroides inhiben la formación de mediadores de la inflamación, como las prostaglandinas, los leucotrienos y las citocinas, lo que reduce las manifestaciones de los procesos inflamatorios, que incluyen inhibición de la marginación y subsiguiente migración celular al área afectada y revierten la dilatación y la permeabilidad de los vasos.</span></p><p><span> </span></p><p><span>La inhibición de la síntesis de prostaglandinas vasodilatadoras o la potenciación del efecto vasoconstrictor de la adrenalina dan lugar a la actividad vasoconstrictora de los glucocorticoides y sus propiedades inmunosupresoras hacen que se reduzca la respuesta de las reacciones de hipersensibilidad retardada e inmediata. </span></p></div>"
+                }
+              },
+              {
+                "id" : "6ab5431d-b1d2-4f45-ae89-e31e200a4f25",
+                "title" : "5.2. Propiedades farmacocinéticas",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029827",
+                    "display" : "Propiedades farmacocinéticas"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Los corticosteroides tópicos pueden absorberse en la piel sana intacta. El grado de absorción percutánea está afectado por varios factores como son la estructura química del compuesto, el vehículo, la concentración del fármaco, las condiciones de exposición</span><span>(área tratada, duración) y el estado de la piel (tipo y gravedad de la enfermedad cutánea, situación anatómica, etc.).</span><span>La inflamación, la temperatura corporal aumentada y/u otros trastornos de la piel incrementan la absorción de los corticosteroides tópicos.</span></p><p><span> </span></p><p><span>Una vez se han absorbido a través de la piel, los corticosteroides tópicos se someten a vías farmacocinéticas similares a las de los corticosteroides administrados por vía sistémica.</span><span>Beclometasona se absorbe rápidamente tras su aplicación tópica y</span><span>se distribuye por todos los tejidos corporales</span><span>. Se metaboliza principalmente en el hígado, pero también en otros tejidos. La hidrólisis enzimática produce</span><span>el</span><span>monopropionato, con actividad glucocorticoide, y</span><span>más lentamente,</span><span>alcohol libre, exento de actividad. Sólo una pequeña cantidad de la dosis absorbida es excretada en orina, el resto se excreta por las heces, principalmente como metabolitos. Atraviesa la placenta y puede ser excretada en la leche materna.</span></p><p><span> </span></p><p><span>Los corticosteroides aplicados tópicamente pueden pasar a la circulación y producir efectos sistémicos. La mayoría de los corticosteroides en circulación se unen a las proteínas plasmáticas, principalmente globulina y albúmina. Sólo la fracción disuelta en plasma pasa libremente a los tejidos y actúa sobre ellos.</span></p></div>"
+                }
+              },
+              {
+                "id" : "366814c8-6980-4128-b914-00a17d6222a9",
+                "title" : "5.3. Datos preclínicos sobre seguridad",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029834",
+                    "display" : "Datos preclínicos sobre seguridad"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Como otros corticosteroides, la beclometasona dipropionato administrada por vía parenteral ha mostrado efectos teratogénicos en el ratón y el conejo cuando se administra una dosis 10 veces superior a la recomendada en humanos.</span></p><p><span> </span></p><p><span>La administración parenteral, oral o tópica de corticosteroides a hembras gestantes puede producir anomalías en el desarrollo fetal (efectos teratogénicos, embriotóxicos u otros), tales como hendidura del paladar y retraso del crecimiento intrauterino. Los estudios en animales han indicado que la exposición intrauterina a los corticosteroides puede contribuir al desarrollo de enfermedades metabólicas y cardiovasculares en la vida adulta, pero se desconoce que ocurran tales efectos en humanos.</span></p><p><span>No se han realizado estudios en animales a largo plazo para determinar la carcinogenicidad de los corticosteroides tópicos.</span></p><p><span> </span></p></div>"
+                }
+              }]
+            },
+            {
+              "id" : "5c1b17f4-27ee-4c18-9569-e3caa6dca5a0",
+              "title" : "6. Datos farmacéuticos",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029836",
+                  "display" : "Datos farmacéuticos"
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p> </p></div>"
+              },
+              "section" : [{
+                "id" : "546eb48c-b0f0-4a7c-87b4-504561c7dfe2",
+                "title" : "6.1. Lista de excipientes",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029837",
+                    "display" : "Lista de excipientes"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Parafina sólida, parafina líquida ligera, aceite de hígado de bacalao, alcohol cetílico, ácido esteárico, alcohol estearílico, lanolina, cetomacrogol 700, parahidroxibenzoato de metilo (E218), parahidroxibenzoato de propilo, cera blanca de abeja, agua purificada.</span></p></div>"
+                }
+              },
+              {
+                "id" : "5270f6d5-8763-4300-9174-4746d45ff07d",
+                "title" : "6.2. Incompatibilidades",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029838",
+                    "display" : "Incompatibilidades"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>No se deben aplicar otros preparados en la zona a tratar.</span></p></div>"
+                }
+              },
+              {
+                "id" : "0fbfc047-4913-4699-b8f0-3b5a9018085f",
+                "title" : "6.3. Periodo de validez",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029839",
+                    "display" : "Periodo de validez"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>3 años.</span></p></div>"
+                }
+              },
+              {
+                "id" : "7ac669d0-3069-4dae-8bd1-7b99601cbaf7",
+                "title" : "6.4. Precauciones especiales de conservación",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029840",
+                    "display" : "Precauciones especiales de conservación"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>No requiere condiciones especiales de conservación.</span></p></div>"
+                }
+              },
+              {
+                "id" : "a7a5b81c-98d9-4592-bac5-5222b61bb065",
+                "title" : "6.5. Naturaleza y contenido del envase",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029841",
+                    "display" : "Naturaleza y contenido del envase"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Recto Menaderm se presenta en tubo de aluminio con barniz interior oro. Cada envase contiene una cánula de polietileno.</span></p><p><span> </span></p><p><span>Tamaños de envase:</span></p><p><span>Tubo con</span><span>30 g</span><span>de pomada rectal.</span></p><p><span>Tubo con 60 g de pomada rectal.</span></p><p><span> </span></p><p><span>Puede que solamente estén comercializados</span><span>algunos tamaños de envases.</span></p></div>"
+                }
+              },
+              {
+                "id" : "d1778897-248b-4f78-80d9-b353ad790d8e",
+                "title" : "6.6. Precauciones especiales de eliminación y otras manipulaciones",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029842",
+                    "display" : "Precauciones especiales de eliminación y otras manipulaciones"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Ninguna especial.</span></p><p><span>La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local.</span></p><p><span> </span></p></div>"
+                }
+              }]
+            },
+            {
+              "id" : "bf2f01c9-dc0a-4c48-be75-7f55a574bc56",
+              "title" : "7. Titular de la autorización de comercialización",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029844",
+                  "display" : "Titular de la autorización de comercialización"
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>LABORATORIOS FERMON, S.L.U.</span></p><p><span>Alfonso XII, 587 – E 08918 Badalona (Barcelona) España</span></p><p><span>T. +34 934 628 800 – e-mail:</span><a href=\"mailto:info@menarini.es\"><span><span>info@menarini.es</span></span></a></p></div>"
+              }
+            },
+            {
+              "id" : "57c4f4cd-97ee-4b90-bfbe-f6effceb6647",
+              "title" : "8. Número(s) de autorización de comercialización",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029845",
+                  "display" : "Número(s) de autorización de comercialización"
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>53508</span></p><p><span> </span></p></div>"
+              }
+            },
+            {
+              "id" : "d66f6533-2587-42e4-bba3-d6973e7f6e11",
+              "title" : "9. Fecha de la primera autorización/ renovación de la autorización",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029846",
+                  "display" : "Fecha de la primera autorización/ renovación de la autorización"
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Fecha de la primera autorización: 07</span><span>/05/1976</span></p><p><span>Fecha de la última renovación: 30/05/2011</span></p><p><span> </span></p></div>"
+              }
+            },
+            {
+              "id" : "791615eb-f950-4722-8e6e-5adf859a864c",
+              "title" : "10. Fecha de la revisión del texto",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029847",
+                  "display" : "Fecha de la revisión del texto"
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Noviembre 2017</span></p></div>"
+              }
+            }]
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "4d114500-b7d1-41ef-9601-9f9ea2a5f2de",
+    "resource" : {
+      "resourceType" : "Bundle",
+      "id" : "4d114500-b7d1-41ef-9601-9f9ea2a5f2de",
+      "identifier" : {
+        "system" : "http://ema.europa.eu/fhir/epiDocument",
+        "value" : "4d114500-b7d1-41ef-9601-9f9ea2a5f2de"
+      },
+      "type" : "document",
+      "timestamp" : "2024-12-13T18:58:39.4885692+01:00",
+      "entry" : [{
+        "fullUrl" : "4d114500-b7d1-41ef-9601-9f9ea2a5f2de",
+        "resource" : {
+          "resourceType" : "Composition",
+          "language" : "es",
+          "text" : {
+            "status" : "generated",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">electronic Product Information (ePI) document</div>"
+          },
+          "status" : "final",
+          "type" : {
+            "coding" : [{
+              "system" : "http://spor.ema.europa.eu/v1/lists/100000155531",
+              "code" : "100000155538",
+              "display" : "Prospecto"
+            }]
+          },
+          "subject" : [{
+            "reference" : "subjectReference"
+          }],
+          "date" : "2024-12-13",
+          "author" : [{
+            "reference" : "systemUser"
+          }],
+          "title" : "Prospecto",
+          "section" : [{
+            "title" : "Prospecto",
+            "code" : {
+              "coding" : [{
+                "system" : "http://spor.ema.europa.eu/v1/lists/100000155531",
+                "code" : "200000029894",
+                "display" : "Prospecto"
+              }]
+            },
+            "text" : {
+              "status" : "generated",
+              "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><strong><span>PROSPECTO</span></strong></p><p><br/><strong><span>Prospecto: información para el usuario</span></strong></p><p><strong><span> </span></strong></p><p><strong><span>Recto Menaderm 0,125 mg</span></strong><strong><span>/</span></strong><strong><span>g pomada rectal</span></strong></p><p><span>Beclometasona dipropionato</span></p><p><span> </span></p><p><span> </span></p><p><span>Lea todo el prospecto detenidamente antes de empezar a usar</span><span>este</span><span>medicamento</span><span>,</span><span>porque contiene información importante para usted.</span></p><p><span>-      </span><span>Conserve este prospecto, ya que puede tener que volver a leerlo.</span></p><ul><li><span>Si tiene alguna duda, consulte a su médico o farmacéutico.</span></li><li><span>Este medicamento se le ha recetado a usted</span><span>,</span><span>y no debe dárselo a otras personas aunque tengan los mismos síntomas</span><span>que usted</span><span>, ya que puede perjudicarles.</span></li><li><span>Si experimenta efectos adversos, consulte a su médico o farmacéutico, incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.</span></li></ul><p><span> </span></p><p><span> </span></p><p><strong><span>Contenido del prospecto</span></strong></p><p><span> </span></p><p><span>1.</span><span>             </span><span>Qué es Recto Menaderm y para qué se utiliza</span></p><p><span>2.</span><span>             </span><span>Qué necesita saber</span><span>antes</span><span>de</span><span>empezar a usar Recto Menaderm</span></p><p><span>3.</span><span>             </span><span>Cómo usar Recto Menaderm</span></p><p><span>4.</span><span>             </span><span>Posibles efectos adversos</span></p><p><span>5</span><span>             </span><span>Conservación de Recto Menaderm</span></p><p><span>6.</span><span>             </span><span>Contenido del envase e</span><span>información</span><span>adicional</span></p><p><span> </span></p><p><span> </span></p></div>"
+            },
+            "section" : [{
+              "id" : "7bd3e88d-6c29-42eb-8f0c-00f60d5042fe",
+              "title" : "1. Qué es Recto Menaderm y para qué se utiliza",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029895",
+                  "display" : "Qué es \"X\" y para qué se utiliza"
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Contiene como principio activo</span><span>beclometasona dipropionato,</span><span>un corticosteroide,</span><span>y</span><span>pertenece a un grupo de medicamentos de aplicación local</span><span>para algunos síntomas de hemorroides, por tener</span><span>el principio activo actividad antiinflamatoria y</span><span>eliminar</span><span>el picor</span><span>.</span></p><p><span> </span></p><p><span>Recto Menaderm está indicado en el tratamiento local sintomático de las manifestaciones inflamatorias ano-rectales y el prurito (picor) anal asociados con hemorroides.</span></p><p><span> </span></p></div>"
+              }
+            },
+            {
+              "id" : "1d02127c-b2b0-4a52-a910-2b6523a94060",
+              "title" : "2. Qué necesita saber antes de empezar a <tomar><usar> Qué necesita saber antes de empezar a usar Recto Menaderm",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029896",
+                  "display" : "Qué necesita saber antes de empezar a <tomar><usar> \"X\""
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p> </p></div>"
+              },
+              "section" : [{
+                "id" : "e6ba94ea-1785-4239-ac67-b4680a1598e8",
+                "title" : "No use Recto Menaderm:",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029897",
+                    "display" : "No use Recto Menaderm:"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><span>si es alérgico a la beclometasona o a alguno de los demás componentes de</span><span>este medicamento</span><span>(</span><span>incluidos en la sección 6)</span><span>.</span></li><li><span>si padece alguna infección por bacterias, hongos o virus en la zona a tratar.</span></li></ul><ul><li><span>si tiene hemorroides sangrantes.</span></li><li><span>no debe ser administrado en niños menores de 12 años.</span></li></ul><p><strong><span> </span></strong></p></div>"
+                }
+              },
+              {
+                "id" : "470b5ee5-3598-4588-b9b9-cd8dd5e4fce9",
+                "title" : "Advertencias y precauciones",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029898",
+                    "display" : "Advertencias y precauciones"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>Consulte a su médico o farmacéutico antes de empezar a usar</span><span>Recto Menaderm</span><span>.</span></p><p><span> </span></p><ul><li><span>El uso de corticosteroides, como beclometasona, en uso local, en dosis excesivas o durante periodos prolongados, con vendajes oclusivos o pañales aumenta significativamente el riesgo de efectos adversos.</span></li><li><span>Si presenta sensibilización (una reacción alérgica),</span><span>deberá suspender el tratamiento y consultar al médico.</span></li><li><span>Si</span><span>desarrolla una infección durante el uso</span><span>de</span><span>este medicamento, debe consultar al médico sobre</span><span>su</span><span>tratamiento y</span><span>le indicará si debe suspender el tratamiento con Recto Menaderm.</span></li></ul><p><span>-    Evite el contacto con los ojos y zonas próximas a los mismos, así como otras zonas distintas de las indicadas.</span></p><p><span>-     Los pacientes ancianos y enfermos en fase aguda debilitados deben tener precaución ya que pueden ser más sensibles a los efectos del medicamento.</span></p><p><span>-      Póngase en contacto con su médico si presenta visión borrosa u otras alteraciones visuales.</span></p><p><span><span>Uso en deportistas</span></span></p><p><span>Este medicamento contiene un componente, beclometasona, que puede producir un resultado positivo en las pruebas de control de dopaje.</span></p><p><span> </span></p></div>"
+                }
+              },
+              {
+                "id" : "2762e2a7-1265-4649-8cf2-5739dd67a510",
+                "title" : "Niños y adolescentes",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029899",
+                    "display" : "Niños y adolescentes"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>Recto Menaderm no se debe utilizar en niños menores de 12 años por motivos de seguridad.</span></p><p><span>En los niños es más probable que el corticoide pueda tener efectos adversos en otras áreas del cuerpo</span><span>.</span></p><p><strong><span> </span></strong></p></div>"
+                }
+              },
+              {
+                "id" : "c224de00-e7e7-45ff-8ec3-9f1c5453db6e",
+                "title" : "Otros medicamentos y Recto Menaderm",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029900",
+                    "display" : "Otros medicamentos y Recto Menaderm"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>Informe</span><span>a su médico o farmacéutico si está utilizando</span><span>,</span><span>ha utilizado recientemente</span><span>o</span><span>pudiera tener que utilizar cualquier</span><span>otro medicamento</span><span>.</span></p><p><span> </span></p><p><span>Algunos medicamentos pueden aumentar los efectos de Recto Menaderm, por lo que su médico le hará controles minuciosos si está tomando estos medicamentos (incluidos algunos para el VIH: ritonavir, cobicistat).</span></p><p><span> </span></p><p><span>No se deben aplicar a la vez otros preparados en la zona a tratar.</span></p><p><span> </span></p></div>"
+                }
+              },
+              {
+                "id" : "4fe22acd-8115-48b0-9246-92095c647616",
+                "title" : "Embarazo,lactanciay fertilidad",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "XXXXXXXXXXXX",
+                    "display" : "Embarazo,lactanciay fertilidad"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>Si está embarazada o en periodo de lactancia, cree que podría estar embarazada o tiene intención de quedarse embarazada,</span><span>consulte</span><span>a su médico o farmacéutico antes de utilizar</span><span>este</span><span>medicamento.</span></p><p><span> </span></p><p><span>No se recomienda utilizar Recto Menaderm durante el embarazo.</span></p><p><span>No</span><span>deberá utilizarse</span><span>durante el embarazo</span><span>a menos que su médico lo considere claramente necesario y</span><span>el beneficio potencial supere el riesgo potencial para el feto/niño</span><span>. En cualquier caso, no debe usarse en grandes cantidades o durante largos periodos de tiempo.</span></p><p><span> </span></p><p><span>El médico debe decidir si es necesario interrumpir la lactancia o interrumpir el tratamiento tras considerar el beneficio de la lactancia para el niño y el beneficio del tratamiento para la madre.</span></p><p><span> </span></p></div>"
+                }
+              },
+              {
+                "id" : "178a8b95-6bc3-41a2-a065-604b029ef6ed",
+                "title" : "Conducción y uso de máquinas",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029903",
+                    "display" : "Conducción y uso de máquinas"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>El uso de este medicamento</span><span>no</span><span>afecta</span><span>a la capacidad para conducir o utilizar máquinas</span><span>.</span></p><p><span> </span></p><p><strong><span>Recto Menaderm contiene</span></strong><strong><span>parahidroxibenzoato de metilo (E-218), parahidroxibenzoato de propilo, lanolina, alcohol cetílico y alcohol estearílico.</span></strong></p><p><span> </span></p><p><span>Puede provocar reacciones alérgicas (posiblemente retardadas) porque contiene parahidroxibenzoato de metilo y parahidroxibenzoato de propilo.</span></p><p><span>Este medicamento puede provocar reacciones locales en la piel (como dermatitis de contacto) porque contiene lanolina, alcohol cetílico y alcohol estearílico.</span></p><p><span> </span></p></div>"
+                }
+              }]
+            },
+            {
+              "id" : "329ddb2f-357b-405f-96c5-2dcb55220b69",
+              "title" : "3. Cómo usar Recto Menaderm",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029905",
+                  "display" : "Cómo \"<tomar><usar> X\""
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Siga exactamente las instrucciones de administración de este medicamento</span><span>indicadas por su médico.</span><span>En caso de duda, consulte de nuevo</span><span>a su médico o farmacéutico.</span></p><p><span> </span></p><p><span>La dosis</span><span>recomendada</span><span>es:</span></p><p><span> </span></p><p><span><span>- Adultos y niños a partir de 12 años</span></span><span>: de 1 a 2 aplicaciones al día sobre la zona afectada con una cantidad de pomada equivalente a</span><span>2 cm</span><span>.</span></p><p><span> </span></p><p><span>Uso anal y/o rectal.</span></p><p><span>Se aconseja hacer las aplicaciones después de la evacuación intestinal y lavar y secar previamente la zona a tratar.</span></p><p><span> </span></p><p><span>En caso de hemorroides internas puede aplicarse mediante la cánula que se adjunta en el envase.</span></p><p><span> </span></p><p><span>Si los síntomas empeoran o no mejoran a los 7 días de tratamiento debe interrumpirlo y consultar al médico.</span></p></div>"
+              },
+              "section" : [{
+                "id" : "d458914f-d598-41e5-9fd0-9c23f1833a2a",
+                "title" : "Uso en niños y adolescentes",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029906",
+                    "display" : "Uso en niños y adolescentes"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Recto Menaderm no debe</span><span>utilizarse</span><span>en niños menores</span><span>de</span><span>12 años</span><span>.</span></p><p><span> </span></p><p><strong><span>Si usa más Recto Menaderm del que</span></strong><strong><span>debe</span></strong></p><p><span> </span></p><p><span>El empleo excesivo de los corticoides tópicos (sobredosis repetidas) puede producir efectos adversos (ver apartado 4).</span></p><p><span> </span></p><p><span>En caso de sobredosis o ingestión accidental, consulte inmediatamente a su médico o farmacéutico o acuda a un centro médico, o llame al Servicio de Información Toxicológica, Teléfono 91 562 04 20, indicando el medicamento y la cantidad ingerida.</span></p><p><span> </span></p></div>"
+                }
+              },
+              {
+                "id" : "568dd360-c992-4174-b50f-b9496bc3f3f8",
+                "title" : "Si olvidó usar Recto Menaderm",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029908",
+                    "display" : "Si olvidó usar Recto Menaderm"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>No</span><span>use</span><span>una dosis doble para compensar las dosis olvidadas.</span></p><p><span>Si ha olvidado una dosis, continúe con su horario habitual según las instrucciones de su médico o las que se describen en este prospecto.</span></p><p><span> </span></p><p><strong><span> </span></strong></p><p><span>Si tiene cualquier otra duda sobre el uso de este medicamento, pregunte a su médico o farmacéutico.</span></p><p><span> </span></p></div>"
+                }
+              }]
+            },
+            {
+              "id" : "53fe3e31-22ca-4a59-87f9-5ea928a69c2c",
+              "title" : "4. Posibles efectos adversos",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029910",
+                  "display" : "Posibles efectos adversos"
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</span></p><p><span> </span></p><p><span>Con la aplicación de corticoides tópicos, se han comunicado los siguientes efectos, especialmente tras su aplicación prolongada o en áreas extensas o con vendajes. La frecuencia no puede estimarse a partir de los datos disponibles. A continuación se citan los efectos adversos que han sido comunicados</span><em><span>:</span></em></p><p><span> </span></p><ul><li><span>Adelgazamiento de la piel (atrofia)</span></li><li><span>Estrías dérmicas</span></li><li><span>Enrojecimiento (eritema)</span></li><li><span>Acné</span></li><li><span>Pequeños vasos sanguíneos en la piel (telangiectasia)</span></li><li><span>Reacción de hipersensibilidad (alérgica) de la piel, como dermatitis de contacto</span></li><li><span>Infecciones por hongos, virus o bacterias</span></li><li><span>Hematomas (cardenales)</span></li><li><span>Quemazón, picor, irritación y sequedad en el lugar de aplicación</span></li><li><span>Maceración</span></li><li><span>Inflamación de folículos pilosos (foliculitis)</span></li><li><span>Pérdida de pelo</span></li><li><span>Visión borrosa.</span></li></ul><p><span> </span></p><p><span>Los efectos adversos pueden ocurrir no sólo en el área tratada, sino también en áreas completamente distintas del cuerpo sobre todo con el uso prolongado de corticosteroides o el tratamiento de áreas extensas. Unos de estos efectos es supresión reversible del eje hipotálamo-hipófisis-adrenal con manifestaciones del Síndrome de Cushing caracterizado, entre otros síntomas, por cara redondeada, acumulación de grasa, retraso en la cicatrización, síntomas psiquiátricos, etc. Otros efectos que podrían producirse son: cataratas (subcapsular), hipertensión o edema (acumulación de líquido). </span></p></div>"
+              },
+              "section" : [{
+                "id" : "8a3f6c5d-850e-4940-b4d0-8f9370ea838f",
+                "title" : "Comunicación de efectos adversos",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029912",
+                    "display" : "Comunicación de efectos adversos"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p> </p></div>"
+                }
+              },
+              {
+                "id" : "085cd5d3-0909-47e6-a46d-cb434ed0bfa5",
+                "title" : "Si experimenta cualquier tipo de efecto adverso consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto.También puede comunicarlos directamente a través delSistema Español de Farmacovigilancia de Medicamentos de Uso Humano:www.notificaRAM.es. Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "XXXXXXXXXXXX",
+                    "display" : "Si experimenta cualquier tipo de efecto adverso consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto.También puede comunicarlos directamente a través delSistema Español de Farmacovigilancia de Medicamentos de Uso Humano:www.notificaRAM.es. Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento."
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p></div>"
+                }
+              }]
+            },
+            {
+              "id" : "a62d6d9d-8456-4891-b814-8d5347ac26c7",
+              "title" : "5. Conservación de Recto Menaderm",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029913",
+                  "display" : "Conservación de \"X\""
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Mantener este medicamento</span><span>fuera</span><span>de la vista y</span><span>del alcance de los niños.</span></p><p><span> </span></p><p><span>No requiere condiciones especiales de conservación.</span></p><p><span> </span></p><p><span>No utilice este medicamento después de la fecha de caducidad que aparece en el envase después de CAD. La fecha de caducidad es el último día del mes que se indica.</span></p><p><span> </span></p><p><span>No utilice Recto Menaderm si observa indicios visibles de deterioro.</span></p><p><span> </span></p><p><img src=\"data:image/jpg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUEBAQEAwUEBAQGBQUGCA0ICAcHCBALDAkNExAUExIQEhIUFx0ZFBYcFhISGiMaHB4fISEhFBkkJyQgJh0gISD/2wBDAQUGBggHCA8ICA8gFRIVICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wAARCAAWABYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD6k1PU9V1DXX8PeH5EtpIEWS8vpE3iAN91VX+JzyfQD8Ac6GxhfV30m08cay2rwKZGWVldOMZyuwKR8w4z3qTSIrsjxlYW8gTVXvJJIyzkYV418o5HQcfhXm8Nh4un8YXmlWOoQpr6ws00pumUbflz8wXJ6r2HSgD1Dwrrer6hqmp2OsWksD2oQRu8DRCYZYFgD9FPBI5orTvtUuk12DSbCOOSZrd7iTzAcIoZVXp65b8qKAItY0K4ub+PWNHvBY6pEnl7nXdHMnXY4/r29+KzI5vFEl/LFDpuhQX+3D3IkkPH02AntwT2oooA29G0VdLFxcT3TXuoXbBri6ddpfHRQP4VGThe2T60UUUAf//Z\" alt=\"null\" width=\"22\" height=\"22\"/><span>Los medicamentos no se deben tirar por los desagües ni a la basura.</span><span>Deposite los envases y los medicamentos que no necesita en el Punto SIGRE        de la farmacia. En caso de duda</span><span>pregunte</span><span>a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma ayudará a proteger el medio ambiente.</span></p><p><span> </span></p></div>"
+              }
+            },
+            {
+              "id" : "71a91f4e-fa27-4e7e-b7ec-bd420be3bbf1",
+              "title" : "6. Contenido del envase e información adicional",
+              "code" : {
+                "coding" : [{
+                  "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                  "code" : "200000029914",
+                  "display" : "Contenido del envase e información adicional"
+                }]
+              },
+              "text" : {
+                "status" : "generated",
+                "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p> </p></div>"
+              },
+              "section" : [{
+                "id" : "e61bc00b-3b5b-4e2b-b610-707fe2400df5",
+                "title" : "Composición de Recto Menaderm0,125 mg/g pomada rectal",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029915",
+                    "display" : "Composición de Recto Menaderm0,125 mg/g pomada rectal"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong><span> </span></strong></p><ul><li><span>El principio activo es beclometasona dipropionato.</span><span>Cada</span><span>g de pomada contiene 0,125 mg de</span><span>beclometasona dipropionato (0,0125%).</span></li><li><span>Los demás componentes</span><span>(excipientes)</span><span>son: parafina sólida, parafina líquida ligera, aceite de hígado de bacalao, alcohol cetílico, ácido esteárico, alcohol estearílico, lanolina, cetomacrogol 700, parahidroxibenzoato de metilo (E 218), parahidroxibenzoato de propilo, cera blanca de abeja, agua purificada.</span></li></ul><p><span> </span></p></div>"
+                }
+              },
+              {
+                "id" : "a54e800f-e6b8-4701-a671-6367152e05b0",
+                "title" : "Aspecto del producto y contenido del envase",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029916",
+                    "display" : "Aspecto del producto y contenido del envase"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p><p><span>Recto Menaderm es una pomada rectal</span><span>de aspecto uniforme y color amarillento.</span></p><p><span> </span></p><p><span>Se presenta en tubo de aluminio. Cada envase contiene una cánula de polietileno.</span></p><p><span> </span></p><p><span>Tamaños de envase:</span></p><p><span>Tubo con 30 g de pomada rectal.</span></p><p><span>Tubo con 60 g de pomada rectal.</span></p><p><span> </span></p><p><span>Puede que solamente estén comercializados algunos tamaños de envases.</span></p><p><span> </span></p></div>"
+                }
+              },
+              {
+                "id" : "a3dd0d20-8baf-42e1-b8d4-f5e33fe85fce",
+                "title" : "Titular de la autorización de comercialización y responsable de la fabricación",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029917",
+                    "display" : "Titular de la autorización de comercialización y responsable de la fabricación"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span> </span></p></div>"
+                }
+              },
+              {
+                "id" : "ae3bf55a-d365-49e1-95df-c212528ba703",
+                "title" : "Titular de la autorización de comercialización:",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "200000029917",
+                    "display" : "Titular de la autorización de comercialización:"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>LABORATORIOS FERMON, S.L.U.</span></p><p><span>Alfons</span><span>o</span><span>XII, 587 – E 08918 Badalona (Barcelona) España</span></p><p><span>T. +34 934 628 800</span><span>–</span><span>e-mail:</span><a href=\"mailto:info@menarini.es\"><span><span>info@menarini.es</span></span></a></p><p><span> </span></p><p><strong><span> </span></strong></p><p><strong><span>Responsable de fabricación:</span></strong></p><p><span>LABORATORIOS MENARINI, S.A.</span></p><p><span>Alfonso XII, 587. Badalona (Barcelona) ESPAÑA</span></p><p><span> </span></p></div>"
+                }
+              },
+              {
+                "id" : "09ae75ca-b22e-4686-b9f8-9a608bcba750",
+                "title" : "Pueden solicitar más información respecto a este medicamento dirigiéndose al representante local del titular de la autorización de comercialización:",
+                "code" : {
+                  "coding" : [{
+                    "system" : "http://spor.ema.europa.eu/v1/lists/200000029659",
+                    "code" : "XXXXXXXXXXXX",
+                    "display" : "Pueden solicitar más información respecto a este medicamento dirigiéndose al representante local del titular de la autorización de comercialización:"
+                  }]
+                },
+                "text" : {
+                  "status" : "generated",
+                  "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>LABORATORIOS MENARINI, S.A.</span></p><p><span>Alfons</span><span>o</span><span>XII, 587 – E 08918 Badalona (Barcelona) España</span></p><p><span>T. +34 934 628 800 – e-mail:</span><a href=\"mailto:info@menarini.es\"><span><span>info@menarini.es</span></span></a></p><p><span> </span></p><p><span> </span></p><p><strong><span>Fecha de la última revisión de</span></strong><strong><span>e</span></strong><strong><span>ste</span></strong><strong><span>prospecto</span></strong><strong><span>:</span></strong><span>Noviembre 2017</span></p><p><span> </span></p><p><span> </span></p><p><span>La información detallada de este medicamento está disponible en la página web de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS)</span><span><span>http://www.aemps.es/</span></span></p><p><strong><span> </span></strong></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p></div>"
+                }
+              }]
+            }]
+          }]
+        }
+      }]
+    }
+  }]
+}
+
+```

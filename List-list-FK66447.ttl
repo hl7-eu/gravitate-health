@@ -1,0 +1,122 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/List/list-FK66447> a fhir:List ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "list-FK66447"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: List list-FK66447</b></p><a name=\"list-FK66447\"> </a><a name=\"hclist-FK66447\"> </a><table class=\"clstu\"><tr><td>Date: 2015-02-07 13:28:17+0000 </td><td>Mode: Working List </td><td>Status: Current </td><td>Code: ePI Master List </td></tr><tr><td>Subject: <a href=\"#hclist-FK66447/IBD-MPD-65\">MedicinalProductDefinition: identifier = http://legemiddelverket.no/FEST/LegemiddelMerkevareID#ID_29A19A64-761A-42C9-9F1A-7C133DB6A6A4</a></td></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td><td>Date</td><td>Flag</td></tr><tr><td><a href=\"Bundle-FK66447.html\">Bundle: identifier = https://pharmaca.fi/documentId#66447; type = document; timestamp = 2023-11-01 01:17:13+0000</a></td><td>2016-02-07 13:28:17+0000</td><td>Unchanged</td></tr></table><hr/><p><b>Contained Resource</b></p><hr/><a name=\"list-FK66447/IBD-MPD-65\"> </a><p class=\"res-header-id\"><b>MedicinalProductDefinition #IBD-MPD-65</b></p><a name=\"hclist-FK66447/IBD-MPD-65\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a>, <code>https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition</code></p></div><p><b>identifier</b>: <code>http://legemiddelverket.no/FEST/LegemiddelMerkevareID</code>/ID_29A19A64-761A-42C9-9F1A-7C133DB6A6A4</p><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ProductName</b></td></tr><tr><td style=\"display: none\">*</td><td>Stelara inj, oppl 45 mg/sprøyte</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:contained ( [
+     a fhir:MedicinalProductDefinition ;
+     fhir:id [ fhir:v "IBD-MPD-65" ] ;
+     fhir:meta [
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ] [
+         fhir:v "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"^^xsd:anyURI ;
+         fhir:link <https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition>
+       ] )
+     ] ;
+     fhir:identifier ( [
+       fhir:system [ fhir:v "http://legemiddelverket.no/FEST/LegemiddelMerkevareID"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "ID_29A19A64-761A-42C9-9F1A-7C133DB6A6A4" ]
+     ] ) ;
+     fhir:name ( [
+       fhir:productName [ fhir:v "Stelara inj, oppl 45 mg/sprøyte" ]
+     ] )
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://spor.ema.europa.eu/v2/medicine-name"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "Stelara inj, oppl 45 mg/sprøyte" ]
+  ] [
+     fhir:system [ fhir:v "http://spor.ema.europa.eu/v2/marketing-authorisation-numbers"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "FK66447" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "current"] ; # 
+  fhir:mode [ fhir:v "working"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/example-pi-list-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "00000021213" ] ;
+       fhir:display [ fhir:v "ePI Master List" ]
+     ] )
+  ] ; # 
+  fhir:subject ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/medicine-name"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Stelara" ] ;
+         fhir:display [ fhir:v "Stelara" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "mah-code" ] ;
+         fhir:display [ fhir:v "None" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/active-substance"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "acive-substance-code" ] ;
+         fhir:display [ fhir:v "None" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/domain"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000004"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000000012" ] ;
+         fhir:display [ fhir:v "H" ]
+       ]
+     ] ) ;
+     fhir:reference [ fhir:v "#IBD-MPD-65" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:flag [
+       fhir:coding ( [
+         fhir:system [ fhir:v "urn:oid:1.2.36.1.2001.1001.101.104.16592"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "01" ]
+       ] ) ;
+       fhir:text [ fhir:v "Unchanged" ]
+     ] ;
+     fhir:date [ fhir:v "2016-02-07T13:28:17Z"^^xsd:dateTime ] ;
+     fhir:item [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Bundle/FK66447> ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/documentType"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/100000155531/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ] ;
+           fhir:display [ fhir:v "B. PACKAGE LEAFLET" ]
+         ]
+       ] [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/language"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000072057"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000072147" ] ;
+           fhir:display [ fhir:v "fi" ]
+         ]
+       ] ) ;
+       fhir:reference [ fhir:v "Bundle/FK66447" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

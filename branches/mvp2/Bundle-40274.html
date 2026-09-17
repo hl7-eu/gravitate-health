@@ -1,0 +1,788 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>40274 - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.472"}
+    h3,h4,h5,h6{--heading-prefix:"16.472"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>40274</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-40274.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-40274.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-40274.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Bundle: 40274</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>Indlægsseddel: Information til patienten</h3>
+    <p>
+      <div>
+                     <a name="Section0"></a>
+                     <h2>  Indlægsseddel: Information til brugeren  </h2>
+                     <h3>Entocort, 2 mg, tabletter og solvens til rektalvæske, suspension budesonid</h3>
+                     <h3>  Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den indeholder vigtige oplysninger.  </h3>
+                     <ul>
+                        <li>Gem indlægssedlen. Du kan få brug for at læse den igen. </li>
+                        <li>Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. </li>
+                        <li>Lægen har ordineret Entocort til dig personligt. Lad derfor være med at give det til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. </li>
+                        <li>Tal med lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger, som ikke er nævnt her. </li>
+                     </ul>
+                     <div class="paragraph">Den nyeste indlægsseddel kan findes på <a href="https://www.indlaegsseddel.dk" title="null">www.indlaegsseddel.dk</a>.</div>
+                     <h3>  Oversigt over indlægssedlen  </h3>
+                     <ol>
+                        <li>Virkning og anvendelse </li>
+                        <li>Det skal du vide, før du begynder at bruge Entocort </li>
+                        <li>Sådan skal du bruge Entocort </li>
+                        <li>Bivirkninger </li>
+                        <li>Opbevaring </li>
+                        <li>Pakningsstørrelser og yderligere oplysninger </li>
+                     </ol>
+                  </div></p>
+    
+      
+
+        <h4>1. Virkning og anvendelse</h4>
+        <p>
+          <div>
+                        <a name="Section1"></a>
+                        <div>&nbsp;</div>
+                        <h2>1. Virkning og anvendelse</h2>
+                        <div class="paragraph">Entocort er et binyrebarkhormon.<br/>Entocort dæmper den hævelse og irritation, der ses ved kronisk blødende tarmbetændelse (colitis ulcerosa).<br/>Du kan bruge Entocort til behandling af colitis ulcerosa i den nedre del af tyktarmen og endetarmen.<br/>
+                           <br/>Lægen kan have givet dig Entocort for noget andet. Følg altid lægens anvisning.</div>
+                     </div></p>
+
+      
+
+        <h4>2. Det skal du vide, før du begynder at bruge Entocort</h4>
+        <p>
+          <div>
+                        <a name="Section2"></a>
+                        <div>&nbsp;</div>
+                        <h2>2. Det skal du vide, før du begynder at bruge Entocort</h2>
+                        <h3>  Brug ikke Entocort  </h3>
+                        <ul>
+                           <li>hvis du er allergisk over for budesonid eller et af de øvrige indholdsstoffer i Entocort (angivet i <a href="#Section6" title="Anchor link til afsnit - pkt. 6">pkt. 6</a>) </li>
+                           <li>hvis du har forstoppelse </li>
+                           <li>hvis du har hul i eller bylder på tarmvæggen eller fistler ved tarmen </li>
+                           <li>hvis du har svamp, virus- eller bakterieinfektioner i endetarmen </li>
+                           <li>hvis du har fået foretaget tarmoperationer for nylig </li>
+                        </ul>
+                        <h3>  Advarsler og forsigtighedsregler  </h3>
+                        <div class="paragraph">Kontakt lægen eller apoteket, før du tager Entocort:</div>
+                        <ul>
+                           <li>hvis du har svamp, virus- eller bakterieinfektioner </li>
+                           <li>hvis du har leversygdomme </li>
+                        </ul>
+                        <div class="paragraph">&nbsp;</div>
+                        <div class="paragraph">Sig det til lægen, hvis du oplever sløret syn eller andre synsforstyrrelser.</div>
+                        <div class="paragraph">
+                           <br/>Kontakt lægen hvis du skifter fra anden medicin med binyrebarkhormon til Entocort, eller når du slutter din behandling med Entocort. Du kan få udslæt, høfeber eller smerter i muskler og led, træthed, hovedpine, kvalme og opkastning.<br/>
+                           <br/>Hvis du ved en fejl har slugt en af tabletterne, skal du straks søge læge eller skadestue.</div>
+                        <h3>  Brug af anden medicin sammen med Entocort  </h3>
+                        <div class="paragraph">Fortæl altid lægen eller på apoteket, hvis du bruger anden medicin eller har gjort det for nylig. Det gælder også medicin, som ikke er købt på recept, f.eks. naturlægemidler, vitaminer og mineraler.<br/>
+                           <br/>Entocort kan påvirke virkningen af anden medicin, ligesom anden medicin kan ændre virkningen af Entocort. Tal med din læge, hvis du tager:</div>
+                        <ul>
+                           <li>ketoconazol eller itrakonazol (svampemiddel) </li>
+                           <li>østrogener og p-piller (kvindeligt kønshormon) </li>
+                           <li>carbamazepin (mod epilepsi) </li>
+                           <li>nogle lægemidler kan øge virkningen af Entocort, og din læge vil overvåge dig omhyggeligt, hvis du tager sådanne lægemidler (inklusive visse former for HIV-medicin, herunder ritonavir (eller andre HIV-proteasehæmmere) og cobicistat). </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>På grund af hæmning af binyrebarkfunktionen kan diagnostiske test af hypofyse-aktiviteten vise fejlagtige lave værdier.</div>
+                        <h3>  Brug af Entocort sammen med mad og drikke  </h3>
+                        <div class="paragraph">Du kan bruge Entocort sammen med mad og drikke, dog må du ikke drikke grapefrugtjuice mens du er i behandling med Entocort.</div>
+                        <h3>  Graviditet, amning og fertilitet  </h3>
+                        <div class="paragraph">Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din læge eller apoteket til råds, før du bruger Entocort.</div>
+                        <h3>  Trafik- og arbejdssikkerhed  </h3>
+                        <div class="paragraph">Entocort påvirker ikke arbejdssikkerheden eller evnen til at færdes sikkert i trafikken.</div>
+                        <h3>  Entocort indeholder methylparahydroxybenzoat (E218) og propylparahydroxybenzoat (E216)  </h3>
+                        <div class="paragraph">Entocort tabletter indeholder methylparahydroxybenzoat (E218) og propylparahydroxybenzoat (E216), der kan give allergiske reaktioner, også efter du er holdt op med at bruge Entocort.</div>
+                     </div></p>
+
+      
+
+        <h4>3. Sådan skal du bruge Entocort</h4>
+        <p>
+          <div>
+                        <a name="Section3"></a>
+                        <div>&nbsp;</div>
+                        <h2>3. Sådan skal du bruge Entocort</h2>
+                        <div class="paragraph">Brug altid Entocort nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller på apoteket. Ændring eller stop af behandlingen bør kun ske i samråd med lægen.</div>
+                        <div class="paragraph">&nbsp;</div>
+                        <div class="paragraph">Én Entocort tablet indeholder 2,3 mg budesonid. Indholdet af plastflasken er 115 ml. Når du tager rektalsuspensionen vil noget af den forblive i flasken, fordi det er svært at tømme den helt. Dette betyder, at du vil få tilført ca. 2 mg budesonid, som er den ønskede dosis.</div>
+                        <h3>  Den sædvanlige dosering er:  </h3>
+                        <div class="paragraph">
+                           <b>Voksne</b>
+                        </div>
+                        <div class="paragraph">Sædvanlig dosis er 1 tablet (2 mg) i opløsning som indføres i endetarmen daglig ved sengetid i 4 uger. Fuld effekt opnås sædvanligvis efter 2-4 uger. Hvis bedring ikke er opnået efter 4 uger, kan behandlingen forlænges i op til 8 uger.</div>
+                        <div class="paragraph">&nbsp;</div>
+                        <div class="paragraph">
+                           <b>Ældre</b>
+                        </div>
+                        <div class="paragraph">Det er ikke nødvendigt at ændre dosis. Følg lægens anvisning.</div>
+                        <div class="paragraph">&nbsp;</div>
+                        <div class="paragraph">
+                           <b>Brug til børn</b>
+                        </div>
+                        <div class="paragraph">Du må ikke give Entocort til børn. Følg lægens anvisning.</div>
+                        <h3>  Brugsanvisning  </h3>
+                        <div class="paragraph">Entocort rektalvæske består af to dele: én tablet og en flaske med opløsningsvæske.</div>
+                        <div class="paragraph">&nbsp;</div>
+                        <div class="paragraph">Du skal opslæmme tabletten i flaskens indhold før brugen. Herefter skal du tømme flaskens indhold i tarmen ved hjælp af plastikflasken og medfølgende applikator.</div>
+                        <div class="paragraph">&nbsp;</div>
+                        <div class="paragraph">Se <a href="#Section0" title="Anchor link til afsnit - brugsanvisning">brugsanvisning</a> sidst i denne vejledning, før du starter med en behandling.</div>
+                        <h3>  Hvis du har brugt for mange Entocort  </h3>
+                        <div class="paragraph">Kontakt lægen, skadestuen eller apoteket, hvis du har brugt flere Entocort, end der står i denne information, eller mere end lægen har foreskrevet, og du føler dig utilpas.</div>
+                        <div class="paragraph">&nbsp;</div>
+                        <div class="paragraph">
+                           <b>Symptomer ved overdosering</b>
+                        </div>
+                        <div class="paragraph">Hvis du gennem længere tid bruger for mange tabletter, kan der opstå symptomer, der er nævnt under afsnittet om bivirkninger.</div>
+                        <h3>  Hvis du har glemt at bruge Entocort  </h3>
+                        <div class="paragraph">Du må ikke bruge en dobbeltdosis som erstatning for den glemte dosis. Fortsæt blot med den sædvanlige dosis.</div>
+                     </div></p>
+
+      
+
+        <h4>4. Bivirkninger</h4>
+        <p>
+          <div>
+                        <a name="Section4"></a>
+                        <div>&nbsp;</div>
+                        <h2>4. Bivirkninger</h2>
+                        <div class="paragraph">Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.</div>
+                        <div class="paragraph">&nbsp;</div>
+                        <div class="paragraph">
+                           <b>Almindelige bivirkninger (forekommer hos mellem 1 og 10 ud af 100 behandlede):</b>
+                        </div>
+                        <ul>
+                           <li>fordøjelsesbesvær som luft i maven, kvalme og diarré </li>
+                           <li>hududslæt og nældefeber </li>
+                           <li>depression </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Ikke almindelige bivirkninger (forekommer hos mellem 1 og 10 ud af 1000 behandlede):</b>
+                        </div>
+                        <ul>
+                           <li>rastløshed, uro og søvnløshed. </li>
+                           <li>utilsigtede bevægelser eller ekstrem rastløshed eventuelt med muskelspasmer eller trækninger </li>
+                           <li>angst </li>
+                           <li>sår i mavesæk eller tolvfingertarm </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Sjældne bivirkninger (forekommer hos mellem 1 og 10 ud af 10.000 behandlede):</b>
+                        </div>
+                        <ul>
+                           <li>træthed, svækket modstandskraft pga. nedsat funktion af binyrebarken. Kontakt lægen. </li>
+                           <li>aggression </li>
+                           <li>hovedpine, kvalme, synsnedsættelse og regnbuesyn pga. forhøjet tryk i øjet (grøn stær). Kontakt straks læge eller skadestue </li>
+                           <li>uklarhed af øjets naturlige linse herunder bagsiden af linsen, sløret syn </li>
+                           <li>misfarvning af huden, som følge af blødning under huden </li>
+                           <li>betændt bugspytkirtel (forbundet med smerter i øvre maveregion og ryggen samt kvalme) </li>
+                           <li>knoglevævsdød på grund af nedsat blodtilførsel til knoglen </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Meget sjældne bivirkninger (forekommer hos færre end 1 ud af 10.000 behandlede):</b>
+                        </div>
+                        <ul>
+                           <li>pludseligt hududslæt, åndedrætsbesvær og besvimelse (inden for minutter til timer) pga. overfølsomhed (anafylaktisk reaktion). <b>Kan være livsfarligt. Ring 112.</b>
+                           </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>De fleste bivirkninger, nævnt i denne liste, kan også forventes for andre behandlinger med glukokortikoider.</div>
+                        <h3>  Indberetning af bivirkninger  </h3>
+                        <div class="paragraph">Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via de oplysninger, der fremgår herunder.<br/>
+                           <br/>Lægemiddelstyrelsen <br/>Axel Heides Gade 1 <br/>DK-2300 København S<br/>Websted: www.meldenbivirkning.dk<br/>
+                           <br/>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel.</div>
+                        <div class="paragraph">
+                           <a href="https://www.meldenbivirkning.dk" title="Meld en bivirkning">
+								Meld en bivirkning.
+							</a>
+                        </div>
+                     </div></p>
+
+      
+
+        <h4>5. Opbevaring</h4>
+        <p>
+          <div>
+                        <a name="Section5"></a>
+                        <div>&nbsp;</div>
+                        <h2>5. Opbevaring</h2>
+                        <div class="paragraph">Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.</div>
+                        <div class="paragraph">Opbevar Entocort utilgængeligt for børn.<br/>Brug ikke Entocort efter den udløbsdato, der står på pakningen. Udløbsdatoen er den sidste dag i den nævnte måned.<br/>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.</div>
+                     </div></p>
+
+      
+
+        <h4>6. Pakningsstørrelser og yderligere oplysninger</h4>
+        <p>
+          <div>
+                        <a name="Section6"></a>
+                        <div>&nbsp;</div>
+                        <h2>6. Pakningsstørrelser og yderligere oplysninger</h2>
+                        <h3>  Entocort 2 mg, tabletter og solvens til rektalvæske, suspension indeholder:   </h3>
+                        <div class="paragraph"> Aktivt stof: Budesonid. </div>
+                        <ul>
+                           <li>Øvrige indholdsstoffer: <br/>- Tabletten indeholder: Vandfri lactose; lactosemonohydrat; povidon; vandfri silica kolloid; magnesiumstearat; riboflavinnatriumphosphat (E101). <br/>- Opløsningen indeholder: Natriumchlorid; renset vand; methylparahydroxybenzoat (E218); propylparahydroxybenzoat (E216). </li>
+                        </ul>
+                        <h3>  Udseende  </h3>
+                        <div class="paragraph">Entocort 2 mg er en lysegul, rund tablet med en diameter på 9 mm.</div>
+                        <div class="paragraph">Opløsningen er klar og farveløs.</div>
+                        <h3>  Pakningsstørrelse  </h3>
+                        <div class="paragraph">7 x 1 stk</div>
+                        <div class="paragraph">&nbsp;</div>
+                        <div class="paragraph">Tabletter i aluminiumblister. Opløsningsvæske i polyethylenflaske.<br/>Pakningen indeholder individuelt emballerede applikatorer og plastposer.<br/>Pakningen består af 7 tabletter budesonid 2,3 mg, 7 flasker med 115 ml isoton væske, 7 applikatorer og 7 plastikposer, der skal bruges som håndbeskyttelse.</div>
+                     </div></p>
+
+      
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    
+  </h4>
+
+  
+  
+  <hr>
+  
+  <p>Full name: <b></b></p>
+  
+
+
+  
+  
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b></b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b></b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+
+  
+  
+    
+
+  
+
+  
+
+
+      
+  
+
+
+
+  <!-- <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    
+  </h4>
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b></b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+  
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+    <!-- insert notes if present -->
+  
+
+
+
+
+            <!-- /inner-wrapper -->
+          <!-- /row -->
+        <!-- /container -->
+      <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  
+
+</hr></hr></hr></div></div></div></div></div></div></body></html>

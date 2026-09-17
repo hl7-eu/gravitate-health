@@ -1,0 +1,55 @@
+{
+  "resourceType" : "DocumentReference",
+  "id" : "asm-carbamazepine-test-script-1",
+  "meta" : {
+    "profile" : ["http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalSupportMaterial"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DocumentReference asm-carbamazepine-test-script-1</b></p><a name=\"asm-carbamazepine-test-script-1\"> </a><a name=\"hcasm-carbamazepine-test-script-1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-AdditionalSupportMaterial.html\">Additional Support Material Profile</a></p></div><p><b>RelatedMedicalIssue</b>: <span title=\"Codes:{http://snomed.info/sct 86406008}\">Human immunodeficiency virus infection (disorder)</span></p><p><b>identifier</b>: <code>http://example.org</code>/testscript7</p><p><b>version</b>: 1.0</p><p><b>status</b>: Current</p><p><b>docStatus</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs MDM}\">Medication and Disease Management</span></p><p><b>subject</b>: <a href=\"Bundle-bundlepackageleaflet-en-2f37d696067eeb6daf1111cfc3272672.html#MedicinalProductDefinition_mpac2bb08bb4cc3f51f8c4e3513034c019\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#39.955,https://www.who-umc.org/phpid_4#FB9808F4FED210183F412F9998622287,https://www.who-umc.org/phpid_3#5C62673C79E096D37914D32A45AA8F4D; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>author</b>: National Alliance on Mental Illness</p><p><b>description</b>: </p><div><p>Additional Information for Carbamazepine and Depression</p>\n</div><blockquote><p><b>content</b></p><h3>Attachments</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>ContentType</b></td><td><b>Language</b></td><td><b>Url</b></td><td><b>Title</b></td></tr><tr><td style=\"display: none\">*</td><td/><td>text/html</td><td>English</td><td><a href=\"https://www.nami.org/about-mental-illness/treatments/mental-health-medications/types-of-medication/carbamazepine-tegretol/\">https://www.nami.org/about-mental-illness/treatments/mental-health-medications/types-of-medication/carbamazepine-tegretol/</a></td><td>Additional Information for Carbamazepine and Depression</td></tr></table></blockquote></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/RelatedMedicalIssue",
+    "valueCodeableReference" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "86406008",
+          "display" : "Human immunodeficiency virus infection (disorder)"
+        }]
+      }
+    }
+  }],
+  "identifier" : [{
+    "system" : "http://example.org",
+    "value" : "testscript7"
+  }],
+  "version" : "1.0",
+  "status" : "current",
+  "docStatus" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs",
+      "code" : "MDM"
+    }]
+  }],
+  "subject" : {
+    "reference" : "MedicinalProductDefinition/mpac2bb08bb4cc3f51f8c4e3513034c019"
+  },
+  "author" : [{
+    "display" : "National Alliance on Mental Illness"
+  }],
+  "description" : "Additional Information for Carbamazepine and Depression",
+  "content" : [{
+    "attachment" : {
+      "extension" : [{
+        "url" : "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod",
+        "valueCode" : "URL"
+      }],
+      "contentType" : "text/html",
+      "language" : "en",
+      "url" : "https://www.nami.org/about-mental-illness/treatments/mental-health-medications/types-of-medication/carbamazepine-tegretol/",
+      "title" : "Additional Information for Carbamazepine and Depression"
+    }
+  }]
+}

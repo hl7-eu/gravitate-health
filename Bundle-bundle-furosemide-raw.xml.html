@@ -1,0 +1,686 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI document Bundle for Furosemide Flexpen 100 units/ml solution for injection in pre-filled pen Package Leaflet for language en - XML Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.182"}
+    h3,h4,h5,h6{--heading-prefix:"20.182"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for Furosemide Flexpen 100 units/ml solution for injection in pre-filled pen Package Leaflet for language en</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-bundle-furosemide-raw.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundle-furosemide-raw.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundle-furosemide-raw.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: ePI document Bundle for Furosemide Flexpen 100 units/ml solution for injection in pre-filled pen Package Leaflet for language en - XML Representation</h2>
+
+
+<p><a href="Bundle-bundle-furosemide-raw.xml" no-download="true">Raw xml</a> | <a href="Bundle-bundle-furosemide-raw.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle">Bundle</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XBundle.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;bundle-furosemide-raw&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XBundle.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XBundle.meta">meta</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XBundle.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.gravitatehealth.eu/sid/doc&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;himss-Furosemide&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.identifier">identifier</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;document&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.timestamp">timestamp</a> <a href="http://hl7.org/fhir/R5/datatypes.html#instant">value</a>=&quot;2023-06-27T10:09:22Z&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-Furosemide&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition">Composition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;composition-en-Furosemide&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot; lang=&quot;en&quot;&gt;&lt;a name=&quot;Composition_composition-en-Furosemide&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Composition composition-en-Furosemide&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;composition-en-Furosemide&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hccomposition-en-Furosemide&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Language: en&lt;/p&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html&quot;&gt;Composition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://ema.europa.eu/identifier&lt;/code&gt;/himss-Furosemide&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi/ 100000155538}&quot;&gt;Package Leaflet&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs R}&quot;&gt;Raw&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-02-16 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: EMA&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: TEST PURPOSES ONLY - Furosemide&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{http://hl7.org/fhir/composition-attestation-mode official}&quot;&gt;Official&lt;/span&gt;&lt;/td&gt;&lt;td&gt;2022-02-16 13:28:17+0000&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://ema.europa.eu/identifier&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;himss-Furosemide&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;final&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Package Leaflet&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">type</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.category">category</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                    <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;R&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Raw&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.category">category</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">subject</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/himss-Furosemide-mpd&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">subject</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.date">date</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2022-02-16T13:28:17Z&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">author</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;EMA&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">author</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;TEST PURPOSES ONLY - Furosemide&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester">attester</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester.mode">mode</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                      <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/composition-attestation-mode&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester.mode">mode</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester.time">time</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2022-02-16T13:28:17Z&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester">attester</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;B. Package Leaflet&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;B. Package Leaflet&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+            &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Package leaflet: Information for the user&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Package leaflet: Information for the user&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;Furosemide 20 mg and 40 mg Tablets&lt;/h2&gt;&lt;p&gt;Read all of this leaflet carefully before you start taking this medicine because it contains important information for you.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Keep this leaflet. You may need to read it again.&lt;/li&gt;&lt;li&gt;If you have any further questions, ask your doctor or pharmacist.&lt;/li&gt;&lt;li&gt;This medicine has been prescribed for you. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.&lt;/li&gt;&lt;li&gt;If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;What is in this leaflet&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;What is in this leaflet&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;ol&gt;&lt;li&gt;What Furosemide is and what it is used for&lt;/li&gt;&lt;li&gt;What you need to know before you take Furosemide&lt;/li&gt;&lt;li&gt;How to take Furosemide&lt;/li&gt;&lt;li&gt;Possible side effects&lt;/li&gt;&lt;li&gt;How to store Furosemide&lt;/li&gt;&lt;li&gt;Contents of the pack and other information&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;1. What Furosemide is and what it is used for&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;1. What Furosemide is and what it is used for&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;Furosemide belongs to a group of medicines called diuretics (also called water tablets). It works by interfering with the filtration process of the kidneys to reduce the amount of sodium and water taken back into the bloodstream, thus increasing the volume of urine produced.&lt;/p&gt;&lt;p&gt;Furosemide is used to treat oedema (fluid retention) caused by heart failure, certain liver and kidney disorders, blood vessel problems or high blood pressure.&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;2. What you need to know before you take Furosemide&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a>
+                    <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;2. What you need to know before you take Furosemide&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;&lt;strong&gt;Do not take Furosemide if you:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;are allergic to Furosemide, other sulphonamide-related medicines or any of the other ingredients (listed in section 6)&lt;/li&gt;&lt;li&gt;have severe kidney damage which has stopped your kidneys working properly and producing urine&lt;/li&gt;&lt;li&gt;have very low levels of potassium, sodium or other electrolytes in your blood, or low blood volume&lt;/li&gt;&lt;li&gt;are dehydrated&lt;/li&gt;&lt;li&gt;have low blood pressure&lt;/li&gt;&lt;li&gt;take potassium supplements or potassium-sparing diuretics for high blood pressure (e.g. amiloride or spironolactone)&lt;/li&gt;&lt;li&gt;have liver cirrhosis or liver encephalopathy&lt;/li&gt;&lt;li&gt;have Addison’s disease&lt;/li&gt;&lt;li&gt;have digitalis poisoning&lt;/li&gt;&lt;li&gt;are breast-feeding&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Warnings and precautions&lt;/h3&gt;&lt;p&gt;Talk to your doctor before taking Furosemide if you:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;have low blood volume (hypovolaemia) or are at risk of developing low blood pressure&lt;/li&gt;&lt;li&gt;have low levels of protein in the blood (hypoproteinaemia)&lt;/li&gt;&lt;li&gt;have liver congestion or other liver problems&lt;/li&gt;&lt;li&gt;have kidney problems&lt;/li&gt;&lt;li&gt;may have diabetes (your insulin dose may need adjusting)&lt;/li&gt;&lt;li&gt;are elderly&lt;/li&gt;&lt;li&gt;are on other medications that can lower blood pressure&lt;/li&gt;&lt;li&gt;have prostate trouble or difficulty passing urine&lt;/li&gt;&lt;li&gt;have had gout&lt;/li&gt;&lt;li&gt;have an abnormal blood condition&lt;/li&gt;&lt;li&gt;are about to undergo any blood or urine tests&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Other medicines and Furosemide&lt;/h3&gt;&lt;p&gt;Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines, including those obtained without a prescription, and herbal products. In particular:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ACE inhibitors, renin inhibitors, alpha blockers, calcium channel blockers, other diuretics, phenothiazines&lt;/li&gt;&lt;li&gt;Antibiotics or antifungals (e.g. aminoglycosides, vancomycin, rifampicin, fusidic acid)&lt;/li&gt;&lt;li&gt;Digoxin&lt;/li&gt;&lt;li&gt;Nitrates (for angina)&lt;/li&gt;&lt;li&gt;Lithium&lt;/li&gt;&lt;li&gt;Sucralfate, cholestyramine or colestipol (separate doses by 2 hours)&lt;/li&gt;&lt;li&gt;NSAIDs (e.g. ibuprofen, naproxen, aspirin)&lt;/li&gt;&lt;li&gt;Antiepileptics (e.g. phenytoin, carbamazepine)&lt;/li&gt;&lt;li&gt;Corticosteroids or antihistamines&lt;/li&gt;&lt;li&gt;Theophylline, salbutamol&lt;/li&gt;&lt;li&gt;Probenecid, alprostadil&lt;/li&gt;&lt;li&gt;Any medicines or food containing liquorice&lt;/li&gt;&lt;li&gt;If undergoing anaesthesia, tell your anaesthetist/dentist&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Furosemide and alcohol&lt;/h3&gt;&lt;p&gt;You should avoid drinking alcohol while taking Furosemide, as this may lower your blood pressure further.&lt;/p&gt;&lt;h3&gt;Pregnancy and breast-feeding&lt;/h3&gt;&lt;p&gt;If you are pregnant, think you may be pregnant or are breast-feeding, ask your doctor for advice before taking this medicine.&lt;/p&gt;&lt;h3&gt;Driving and using machines&lt;/h3&gt;&lt;p&gt;Do not drive or operate machinery if you feel less alert after taking Furosemide.&lt;/p&gt;&lt;h3&gt;Furosemide contains lactose&lt;/h3&gt;&lt;p&gt;If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor before taking this medicine.&lt;/p&gt;&lt;h3&gt;Furosemide contains sodium&lt;/h3&gt;&lt;p&gt;This medicine contains less than 1 mmol sodium (23 mg) per tablet, i.e. essentially ‘sodium-free’.&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;3. How to take Furosemide&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;3. How to take Furosemide&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;Always take this medicine exactly as your doctor has told you.&lt;/p&gt;&lt;p&gt;Swallow the tablet whole with a glass of water.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Doses:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Adults and children over 12 years:&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Water retention:&lt;/strong&gt; the usual starting dose is 40 mg in the morning, then 20 mg a day or 40 mg on alternate days; up to 80 mg a day may be given.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;High blood pressure:&lt;/strong&gt; 20–40 mg twice a day.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Elderly:&lt;/strong&gt; dose may be reduced.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Children under 12 years:&lt;/strong&gt; 1–3 mg per kg of body weight; a suitable oral solution may be used.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Dosage adjustment may be necessary in patients with:&lt;/strong&gt; hypoproteinaemia, liver congestion/dysfunction.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;If you take more Furosemide than you should&lt;/h3&gt;&lt;p&gt;Contact your doctor or nearest hospital emergency department immediately. Symptoms of overdose include dehydration, electrolyte depletion and low blood pressure.&lt;/p&gt;&lt;h3&gt;If you forget to take Furosemide&lt;/h3&gt;&lt;p&gt;Take it as soon as you remember, unless it is almost time for your next dose. Do not take a double dose to make up for a forgotten dose.&lt;/p&gt;&lt;h3&gt;If you stop taking Furosemide&lt;/h3&gt;&lt;p&gt;Do not stop taking this medicine without talking to your doctor.&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;4. Possible side effects&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;4. Possible side effects&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;Like all medicines, Furosemide can cause side effects, although not everybody gets them.&lt;/p&gt;&lt;h3&gt;Seek medical advice immediately if you develop the following symptoms&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Allergic reactions: swelling of the face, throat or tongue, difficulty breathing or dizziness&lt;/li&gt;&lt;li&gt;Frequent wheezing, breathlessness, abdominal pain, diarrhoea, fever, cough and rashes (eosinophilia)&lt;/li&gt;&lt;li&gt;General ill feeling, itching, joint aches, multiple skin lesions (erythema multiforme)&lt;/li&gt;&lt;li&gt;Severe blistering of the skin, mouth, eyes and genitals (Stevens–Johnson syndrome)&lt;/li&gt;&lt;li&gt;Small raised bumps on the skin filled with fluid or pus (AGEP)&lt;/li&gt;&lt;li&gt;Fever, swollen lymph nodes, skin eruption (DRESS)&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Other side effects&lt;/h3&gt;&lt;h4&gt;Uncommon (may affect up to 1 in 100 people)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Thrombocytopenia (low blood platelets)&lt;/li&gt;&lt;li&gt;Arrhythmias&lt;/li&gt;&lt;li&gt;Deafness (sometimes irreversible)&lt;/li&gt;&lt;li&gt;Visual disturbances&lt;/li&gt;&lt;li&gt;Tiredness, dry mouth, thirst&lt;/li&gt;&lt;li&gt;Nausea, vomiting, diarrhoea, constipation&lt;/li&gt;&lt;li&gt;Photosensitivity&lt;/li&gt;&lt;li&gt;Increased creatinine and blood urea&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Rare (may affect up to 1 in 1,000 people)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Leucopenia&lt;/li&gt;&lt;li&gt;Bone marrow depression&lt;/li&gt;&lt;li&gt;Paraesthesia&lt;/li&gt;&lt;li&gt;Hyperosmolar coma&lt;/li&gt;&lt;li&gt;Tinnitus&lt;/li&gt;&lt;li&gt;Malaise, vasculitis, pancreatitis&lt;/li&gt;&lt;li&gt;Urticaria, exfoliative dermatitis, purpura&lt;/li&gt;&lt;li&gt;Interstitial nephritis, kidney failure&lt;/li&gt;&lt;li&gt;Minor mental disturbances&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Very rare (may affect up to 1 in 10,000 people)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Agranulocytosis&lt;/li&gt;&lt;li&gt;Aplastic anaemia&lt;/li&gt;&lt;li&gt;Haemolytic anaemia&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Not known (frequency cannot be estimated from the available data)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Dizziness, fainting and loss of consciousness (symptomatic hypotension)&lt;/li&gt;&lt;li&gt;Bullous pemphigoid&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Furosemide may also cause:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;A reduction in blood pressure&lt;/li&gt;&lt;li&gt;A decrease in glucose tolerance&lt;/li&gt;&lt;li&gt;Cholestasis, increased liver enzymes&lt;/li&gt;&lt;li&gt;Encephalopathy in liver insufficiency&lt;/li&gt;&lt;li&gt;Electrolyte and water balance disturbances&lt;/li&gt;&lt;li&gt;Changes in blood lipid and renal function tests&lt;/li&gt;&lt;li&gt;Hypovolaemia, muscle spasm&lt;/li&gt;&lt;li&gt;Increased urine production, incontinence, retention&lt;/li&gt;&lt;li&gt;Risk of congenital heart defects and kidney stones in premature infants&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Reporting of side effects&lt;/h3&gt;&lt;p&gt;If you get any side effects, talk to your doctor or pharmacist. You can also report side effects via the Yellow Card Scheme at &lt;a rel=&quot;noopener&quot; href=&quot;https://www.mhra.gov.uk/yellowcard&quot; target=&quot;_blank&quot;&gt;www.mhra.gov.uk/yellowcard&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;5. How to store Furosemide&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;5. How to store Furosemide&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;ul&gt;&lt;li&gt;Keep this medicine out of the sight and reach of children.&lt;/li&gt;&lt;li&gt;Do not use after the expiry date shown on the package (EXP = last day of that month).&lt;/li&gt;&lt;li&gt;Do not store above 25 °C. Store in the original packaging.&lt;/li&gt;&lt;li&gt;Do not dispose via wastewater or household waste; ask your pharmacist how to throw away medicines you no longer use.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;6. Contents of the pack and other information&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;6. Contents of the pack and other information&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h3&gt;What Furosemide contains&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Active substance:&lt;/strong&gt; Each tablet contains 20 mg or 40 mg of furosemide.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Other ingredients:&lt;/strong&gt; lactose, magnesium stearate, sodium starch glycollate and maize starch.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;What Furosemide tablets look like and pack sizes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;20 mg:&lt;/strong&gt; White, circular, flat, bevelled-edge tablets marked FIL/F20 (6 mm diameter). Available in containers of 28, 56, 100, 250, 500 or 1 000 tablets; blister packs of 28 or 56.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;40 mg:&lt;/strong&gt; White, circular, flat, bevelled-edge tablets marked FIL/F40 (8 mm diameter). Available in containers of 28, 56, 100, 250, 500, 504, 1 000 or 1 008 tablets; blister packs of 28, 56 or 1 008.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Not all pack sizes or types may be marketed.&lt;/p&gt;&lt;h3&gt;Product Licence Numbers&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Furosemide 20 mg Tablets: PL 11311/0710&lt;/li&gt;&lt;li&gt;Furosemide 40 mg Tablets: PL 11311/0711&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Marketing Authorisation Holder&lt;/h3&gt;&lt;p&gt;Tillomed Laboratories Ltd&lt;/p&gt;&lt;p&gt;220 Butterfield, Great Marlings, Luton, LU2 8DL, United Kingdom&lt;/p&gt;&lt;h3&gt;Manufacturer&lt;/h3&gt;&lt;p&gt;Tillomed Laboratories Ltd&lt;/p&gt;&lt;p&gt;220 Butterfield, Great Marlings, Luton, LU2 8DL, United Kingdom&lt;/p&gt;&lt;p&gt;Tillomed Malta Limited&lt;/p&gt;&lt;p&gt;Malta Life Sciences Park, LS2.01.06 Industrial Estate, San Gwann SGN 3000, Malta&lt;/p&gt;&lt;p&gt;This leaflet was last revised in January 2024.&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition">Composition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/Composition/himss-Furosemide-mpd&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">MedicinalProductDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;himss-Furosemide-mpd&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;MedicinalProductDefinition_himss-Furosemide-mpd&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition himss-Furosemide-mpd&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;himss-Furosemide-mpd&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hchimss-Furosemide-mpd&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html&quot;&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://www.gravitatehealth.eu/sid/doc&lt;/code&gt;/himss-Furosemide&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/medicinal-product-type MedicinalProduct}&quot;&gt;Medicinal Product&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;domain&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/medicinal-product-domain Human}&quot;&gt;Human use&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/publication-status active}&quot;&gt;active&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;legalStatusOfSupply&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 100000072084}&quot;&gt;Medicinal product subject to medical prescription&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;productName&lt;/b&gt;: Furosemide Flexpen 100 units/ml solution for injection in pre-filled pens&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000001}&quot;&gt;Full name&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: Furosemide FlexPen&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000002}&quot;&gt;Invented name part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: Insulin&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000003}&quot;&gt;Scientific name part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: 100 units/ml&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000004}&quot;&gt;Strength part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: solution for injection in pre-filled pens&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000005}&quot;&gt;Pharmaceutical dose form part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h3&gt;Usages&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Country&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Jurisdiction&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Language&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{urn:iso:std:iso:3166 GBR}&quot;&gt;United Kingdom&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{urn:iso:std:iso:3166 GBR}&quot;&gt;United Kingdom&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{urn:ietf:bcp:47 en}&quot;&gt;English&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.gravitatehealth.eu/sid/doc&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;himss-Furosemide&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/medicinal-product-type&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;MedicinalProduct&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Medicinal Product&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.type">type</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.domain">domain</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/medicinal-product-domain&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;Human&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Human use&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.domain">domain</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.status">status</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/publication-status&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;active&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.status">status</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.legalStatusOfSupply">legalStatusOfSupply</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000072084&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Medicinal product subject to medical prescription&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.legalStatusOfSupply">legalStatusOfSupply</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">name</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.productName">productName</a>
+                       <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Furosemide Flexpen 100 units/ml solution for injection in pre-filled pens&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.type">type</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000001&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Full name&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Furosemide FlexPen&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000002&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Invented name part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Insulin&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000003&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Scientific name part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;100 units/ml&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000004&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Strength part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;solution for injection in pre-filled pens&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000005&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Pharmaceutical dose form part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage">usage</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.country">country</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;GBR&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;United Kingdom&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.country">country</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.jurisdiction">jurisdiction</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;GBR&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;United Kingdom&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.jurisdiction">jurisdiction</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.language">language</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:ietf:bcp:47&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;English&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.language">language</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage">usage</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">name</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">MedicinalProductDefinition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle">Bundle</a>&gt;</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

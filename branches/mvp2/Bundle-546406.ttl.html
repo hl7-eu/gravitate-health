@@ -1,0 +1,696 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Aprovel Sanofi tabletter 300 mg (Bundle) - TTL Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.490"}
+    h3,h4,h5,h6{--heading-prefix:"16.490"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Aprovel Sanofi tabletter 300 mg (Bundle)</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+  <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-546406.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-546406.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-546406.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Aprovel Sanofi tabletter 300 mg (Bundle) - TTL Representation</h2>
+
+
+<p><a href="Bundle-546406.ttl" no-download="true">Raw ttl</a> | <a download="null" href="Bundle-546406.ttl">Download</a></p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <pre style="white-space: pre; overflow: hidden" class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Bundle ;
+  <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "546406"] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "no"] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.identifier">fhir:identifier</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://felleskatalogen.no/vsid"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "546406" ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "document"] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.timestamp">fhir:timestamp</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#instant">fhir:v</a> "2023-01-30T01:01:01Z"^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">fhir:entry</a> ( [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/Composition/546406"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/composition.html#Composition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/546406&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-8"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-8&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-8"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-8&gt; )
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/546406&gt; <a href="http://hl7.org/fhir/R5/composition.html">a</a> fhir:Composition ;
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "546406"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "no"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"no\" lang=\"no\"&gt;&lt;a name=\"Composition_546406\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=\"546406\"&gt; &lt;/a&gt;&lt;a name=\"hc546406\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource Composition &amp;quot;546406&amp;quot;  (Language &amp;quot;no&amp;quot;) &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\"&gt;Composition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://felleskatalogen.no/vsid&lt;/code&gt;/546406&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: 100000155538 &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2023-01-30&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;span&gt;&lt;code&gt;https://gravitatehealth.eu/organization&lt;/code&gt;/felleskatalogen&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: Aprovel Sanofi tabletter 300 mg&lt;/p&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://felleskatalogen.no/vsid"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "546406" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "final"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.type">fhir:type</a> [
+    ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/100000155531/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.subject">fhir:subject</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/Diabetes-MPD-8" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> "2023-01-30"^^xsd:date] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.author">fhir:author</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.identifier">fhir:identifier</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/organization"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "felleskatalogen" ]     ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Aprovel Sanofi tabletter 300 mg"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.section">fhir:section</a> ( [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Pakningsvedlegg: informasjon til brukeren" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+      ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029894" ]       ] )     ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                     &lt;h1&gt;Pakningsvedlegg: informasjon til brukeren&lt;/h1&gt;\n                     &lt;h2&gt;Aprovel 300 mg filmdrasjerte tabletter&lt;/h2&gt;\n                     &lt;h3&gt;irbesartan&lt;/h3&gt;\n                  &lt;/div&gt;"     ] ;
+    ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg." ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/section"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "rules" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg.&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;Ta vare på dette pakningsvedlegget. Du kan få behov for å lese det igjen.&lt;/li&gt;\n                              &lt;li&gt;Spør lege eller apotek hvis du har flere spørsmål eller trenger mer informasjon.&lt;/li&gt;\n                              &lt;li&gt;Dette legemidlet er skrevet ut kun til deg. Ikke gi det videre til andre. Det kan skade dem, selv om de har symptomer på sykdom som ligner dine.&lt;/li&gt;\n                              &lt;li&gt;Kontakt lege eller apotek dersom du opplever bivirkninger, inkludert mulige bivirkninger som ikke er nevnt i dette pakningsvedlegget. Se avsnitt 4.&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "I dette pakningsvedlegget finner du informasjon om:" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/section"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "toc" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;I dette pakningsvedlegget finner du informasjon om:&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ol&gt;\n                              &lt;li&gt;Hva Aprovel er og hva det brukes mot&lt;/li&gt;\n                              &lt;li&gt;Hva du må vite før du bruker Aprovel&lt;/li&gt;\n                              &lt;li&gt;Hvordan du bruker Aprovel&lt;/li&gt;\n                              &lt;li&gt;Mulige bivirkninger&lt;/li&gt;\n                              &lt;li&gt;Hvordan du oppbevarer Aprovel&lt;/li&gt;\n                              &lt;li&gt;Innholdet i pakningen og ytterligere informasjon&lt;/li&gt;\n                           &lt;/ol&gt;\n                        &lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "1. Hva Aprovel er og hva det brukes mot" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029895" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;1. Hva Aprovel er og hva det brukes mot&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Aprovel tilhører en gruppe legemidler som heter angiotensin II-reseptor antagonister. Angiotensin II produseres i kroppen og binder seg til reseptorer i blodårene, noe som får dem til å trekke seg sammen. Dette fører til økning i blodtrykk. Aprovel hindrer bindingen av angiotensin II til disse reseptorene. Dermed slapper blodårene av og blodtrykket reduseres. Aprovel forsinker reduksjon av nyrefunksjon hos pasienter med høyt blodtrykk og type 2 diabetes.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Aprovel brukes hos voksne pastienter&lt;ul&gt;\n                              &lt;li&gt;til å behandle høyt blodtrykk (&lt;i&gt;essensiell hypertensjon&lt;/i&gt;)&lt;/li&gt;\n                              &lt;li&gt;til å beskytte nyrene hos pasienter med høyt blodtrykk, type 2 diabetes og når laboratorieprøver har påvist nedsatt nyrefunksjon.&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "2. Hva du må vite før du bruker Aprovel" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029896" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;2. Hva du må vite før du bruker Aprovel&lt;/h2&gt;\n                     &lt;/div&gt;"       ] ;
+      ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Bruk ikke Aprovel" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029897" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Bruk ikke Aprovel&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;ul&gt;\n                                 &lt;li&gt;dersom du er &lt;b&gt;allergisk &lt;/b&gt;overfor irbesartan eller noen av de andre innholdsstoffene i dette legemidlet (listet opp i avsnitt 6).&lt;/li&gt;\n                                 &lt;li&gt;dersom du er &lt;b&gt;gravid i tredje måned eller mer. &lt;/b&gt;(Det er også best å unngå Aprovel tidlig i svangerskapet - se ”Graviditet og amming”).&lt;/li&gt;\n                                 &lt;li&gt;dersom du har &lt;b&gt;diabetes eller nedsatt nyrefunksjon &lt;/b&gt;og du får behandling med et legemiddel mot høyt blodtrykk som inneholder aliskiren.&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Advarsler og forsiktighetsregler" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029898" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Advarsler og forsiktighetsregler&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Snakk med legefør du bruker Aprovel og &lt;b&gt;hvis noe av det følgende gjelder for deg&lt;/b&gt;:&lt;ul&gt;\n                                 &lt;li&gt;dersom du får &lt;b&gt;mye oppkast og diaré&lt;/b&gt;\n                                 &lt;/li&gt;\n                                 &lt;li&gt;dersom du har &lt;b&gt;nyreproblemer&lt;/b&gt;\n                                 &lt;/li&gt;\n                                 &lt;li&gt;dersom du har &lt;b&gt;hjerteproblemer&lt;/b&gt;\n                                 &lt;/li&gt;\n                                 &lt;li&gt;dersom du får Aprovel for &lt;b&gt;diabetisk nyresykdom&lt;/b&gt;. I så tilfelle kan det hende at legen tar blodprøver, spesielt for å måle kaliumnivået ved dårlig nyrefunksjon&lt;/li&gt;\n                                 &lt;li&gt;dersom du får lave blodsukkernivåer (syptomene kan være svette, svakhet, sult, svimmelhet, skjelving, hodepine, rødme eller blekhet, nummenhet, rask, bankende hjerterytme), spesielt hvis du blir behandlet for diabetes.&lt;/li&gt;\n                                 &lt;li&gt;dersom du &lt;b&gt;skal ha en operasjon &lt;/b&gt;eller &lt;b&gt;bli gitt narkose&lt;/b&gt;.&lt;/li&gt;\n                                 &lt;li&gt;dersom du bruker noen av følgende legemidler mot høyt blodtrykk:&lt;ul&gt;\n                                       &lt;li&gt;en ACE-hemmer (f.eks. enalapril, lisinopril, ramipril), særlig hvis du har diabetisk nyresykdom&lt;/li&gt;\n                                       &lt;li&gt;aliskiren&lt;/li&gt;\n                                    &lt;/ul&gt;\n                                 &lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Legen kan utføre regelmessige kontroller av nyrefunksjonen din, blodtrykket og nivået av elektrolytter (f.eks. kalium) i blodet ditt.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Se også informasjon i avsnittet «Bruk ikke Aprovel».&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Du må fortelle legen hvis du tror du er gravid (&lt;span class=\"underline\"&gt;eller om du tror du kan komme til å bli gravid&lt;/span&gt;). Aprovel er ikke anbefalt tidlig i svangerskapet, og må ikke benyttes hvis du er mer enn tre måneder gravid, ettersom det kan føre til alvorlige skader på barnet dersom det blir brukt på dette stadiet av svangerskapet (se avsnitt om graviditet).&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Barn og ungdom" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029899" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Barn og ungdom&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Dette legemidlet skal ikke brukes av barn og ungdom da effekt og sikkerhet enda ikke er fullstendig fastslått.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Andre legemidler og Aprovel" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029900" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Andre legemidler og Aprovel&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Snakk med lege eller apotek dersom du bruker, nylig har brukt eller planlegger å bruke andre legemidler.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Legen kan endre dosen din og/eller ta andre forholdsregler:&lt;/div&gt;\n                           &lt;span class=\"inline-title\"&gt;hvis du bruker en ACE-hemmer eller aliskiren (se også informasjon i avsnittene «Bruk ikke Aprovel» og «Advarsler og forsiktighetsregler»).&lt;/span&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;b&gt;Det kan være nødvendig å ta blodprøver dersom du tar:&lt;/b&gt;\n                              &lt;ul&gt;\n                                 &lt;li&gt;kaliumtilskudd&lt;/li&gt;\n                                 &lt;li&gt;salterstatninger som inneholder kalium&lt;/li&gt;\n                                 &lt;li&gt;kaliumsparende legemidler (blant annet enkelte vanndrivende legemidler)&lt;/li&gt;\n                                 &lt;li&gt;legemidler som inneholder litium&lt;/li&gt;\n                                 &lt;li&gt;repaglinid (legemiddel som brukes til å senke blodsukkernivået)&lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Hvis du tar visse smertestillende midler som kalles ikke-steroide antiinflammatoriske legemidler, kan effekten av irbesartan reduseres.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Inntak av Aprovel sammen med mat og drikke" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029901" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Inntak av Aprovel sammen med mat og drikke&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Aprovel kan tas sammen med eller uten mat.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Graviditet og amming" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029902" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Graviditet og amming&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;b&gt;Graviditet&lt;/b&gt;:&lt;br/&gt;Du må informere din lege dersom du tror du er gravid (&lt;span class=\"underline\"&gt;eller om du tror du kan komme til å bli gravid&lt;/span&gt;). Din lege vil vanligvis råde deg til å slutte med Aprovel før du blir gravid, eller så snart du vet du er gravid, og vil anbefale deg å bruke et annet legemiddel istedenfor Aprovel. Aprovel er ikke anbefalt tidlig i svangerskapet, og må ikke benyttes når du er mer enn 3 måneder gravid, ettersom det kan føre til alvorlige skader på barnet dersom det blir brukt etter graviditetens tredje måned.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;b&gt;Amming&lt;/b&gt;:&lt;br/&gt;Informer legen dersom du ammer eller skal begynne å amme. Aprovel er ikke anbefalt for mødre som ammer, og din lege vil kanskje velge en annen behandling for deg, dersom du ønsker å amme, spesielt hvis barnet er nyfødt eller ble født for tidlig.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Kjøring og bruk av maskiner" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029903" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Kjøring og bruk av maskiner&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Det er ikke sannsynlig at Aprovel påvirker evnen til å kjøre bil eller bruke maskiner. Noen ganger kan imidlertid svimmelhet eller tretthet forekomme ved behandling av høyt blodtrykk. Dersom du opplever disse, snakk med legen før du prøver å kjøre bil eller bruke maskiner.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Aprovel inneholder laktose" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029904" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Aprovel inneholder laktose&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Dersom du ikke tåler visse sukkertyper (for eksempel laktose), kontakt legen før du tar dette legemidlet.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;b&gt;Aprovel inneholder natrium&lt;/b&gt;.&lt;br/&gt;Dette legemidlet inneholder mindre enn 1 mmol natrium (23 mg) i hver tablett, og er så godt som “natriumfritt”.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] )     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "3. Hvordan du bruker Aprovel" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029905" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;3. Hvordan du bruker Aprovel&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Bruk alltid dette legemidlet nøyaktig slik legen har fortalt deg. Kontakt lege eller apotek hvis du er usikker.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Hvordan du tar medisinen&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;Aprovel er til &lt;b&gt;oral &lt;/b&gt;bruk. Tablettene bør svelges sammen med en tilstrekkelig mengde væske (f.eks. et glass vann). Du kan ta Aprovel med eller uten mat. Dosen bør tas på samme tid hver dag. Det er viktig at du fortsetter å ta Aprovel inntil legen bestemmer noe annet.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;\n                                 &lt;b&gt;Pasienter med høyt blodtrykk&lt;/b&gt;\n                                 &lt;br/&gt;Den vanlige dosen er 150 mg en gang daglig. Dosen kan økes senere til 300 mg en gang daglig, avhengig av effekten på blodtrykket.&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;\n                                 &lt;b&gt;Pasienter med høyt blodtrykk og type 2 diabetes med nyresykdom&lt;/b&gt;\n                                 &lt;br/&gt;Hos pasienter med høyt blodtrykk og type 2 diabetes foretrekkes 300 mg en gang daglig som vedlikeholdsdose i behandling av diabetesrelatert nyresykdom.&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Legen anbefaler muligens en lavere dose, spesielt hos visse pasientgrupper, slik som de som får &lt;b&gt;hemodialyse &lt;/b&gt;eller de &lt;b&gt;over 75 år&lt;/b&gt;.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Maksimal blodtrykkssenkende effekt bør oppnås 4-6 uker etter behandlingsstart.&lt;/div&gt;\n                        &lt;span class=\"inline-title\"&gt;Bruk av Aprovel hos barn og ungdom&lt;/span&gt;\n                        &lt;div class=\"paragraph\"&gt;Aprovel skal ikke gis til barn under 18 år. Hvis et barn ved et uhell svelger noen tabletter, kontakt lege umiddelbart.&lt;/div&gt;\n                     &lt;/div&gt;"       ] ;
+      ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Dersom du tar for mye av Aprovel" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029907" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Dersom du tar for mye av Aprovel&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Kontakt lege eller apotek umiddelbart dersom du ved en feil har tatt for mange tabletter.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Dersom du har glemt å ta Aprovel" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029908" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Dersom du har glemt å ta Aprovel&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Dersom du glemmer å ta en dose, ta neste dose som vanlig. Du må ikke ta en dobbelt dose som erstatning for en glemt dose.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Spør lege eller apotek dersom du har noen spørsmål om bruken av dette legemidlet&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] )     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "4. Mulige bivirkninger" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029910" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;4. Mulige bivirkninger&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Som alle legemidler kan dette legemidlet forårsake bivirkninger, men ikke alle får det. Noen av disse bivirkningene kan være alvorlige og kan kreve medisinsk behandling.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Som med lignende legemidler er det rapportert sjeldne tilfeller av allergiske hudreaksjoner (utslett, elveblest), samt lokal hevelse i ansiktet, lepper og/eller tungen hos pasienter som tar irbesartan. Viss du får noen av disse symptomene eller blir tungpustet, &lt;b&gt;slutt å ta Aprovel og kontakt legen umiddelbart.&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Frekvensen av bivirkningene som er listet opp nedenfor er definert på følgende måte:&lt;br/&gt;Svært vanlige: kan inntreffe hos flere enn 1 av 10 personer&lt;br/&gt;Vanlige: kan inntreffe hos opptil 1 av 10 personer&lt;br/&gt;Mindre vanlige: kan inntreffe hos opptil 1 av 100 personer&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Bivirkninger som ble rapportert i kliniske studier hos pasienter som ble behandlet med Aprovel var:&lt;ul&gt;\n                              &lt;li&gt;Svært vanlige (kan inntreffe hos flere enn 1 av 10 personer): hvis du lider av høyt blodtrykk og type 2 diabetes med nyresykdom, kan blodprøver vise en økning i kaliumnivået.&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;Vanlige (kan inntreffe hos opptil 1 av 10 personer): svimmelhet, kvalme/oppkast, tretthet og blodprøver kan vise økte nivåer av et enzym som er et mål på muskel- og hjertefunksjonen (kreatininkinaseenzym). Hos pasienter med høyt blodtrykk og type 2 diabetes med nyresykdom ble det også rapportert svimmelhet når man reiser seg fra liggende eller sittende stilling, lavt blodtrykk når man reiser seg fra liggende eller sittende stilling, smerter i ledd eller muskler og nedsatt nivå av et protein i de røde blodcellene (hemoglobin) ble også rapportert.&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;ul&gt;\n                              &lt;li&gt;Mindre vanlige (kan inntreffe hos opptil 1 av 100 personer): økt hjerterytme, rødming, hoste, diaré, fordøyelsesbesvær/halsbrann, seksuell dysfunksjon (problemer med seksuell prestasjon), brystsmerte.&lt;/li&gt;\n                           &lt;/ul&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Enkelte bivirkninger er rapportert siden markedsføringen av Aprovel. Bivirkninger der hyppigheten ikke er kjent er: følelse av at omgivelsene spinner rundt, hodepine, endret smaksopplevelse, øresus, muskelkramper, smerter i ledd og muskler, redusert antall røde blodceller (anemi – symptomer kan være tretthet, hodepine, kortpustethet når du trener, svimmelhet og blekhet), redusert antall blodplater, unormal leverfunksjon, økt kaliumnivå i blodet, redusert nyrefunksjon, betennelse i små blodårer hovedsakelig i huden (tilstanden kalles leukocytoklastisk vaskulitt) og alvorlige allergiske reaksjoner (anafylaktisk sjokk). Uvanlige tilfeller av gulsott (gulfarging av huden og/eller det hvite i øynene) er også rapportert.&lt;/div&gt;\n                     &lt;/div&gt;"       ] ;
+      ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Melding av bivirkninger" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029912" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Melding av bivirkninger&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Kontakt lege, apotek eller sykepleier dersom du opplever bivirkninger. Dette gjelder også bivirkninger som ikke er nevnt\ni pakningsvedlegget. Du kan også melde fra om bivirkninger direkte via meldeskjema som finnes på nettsiden til Statens legemiddelverk:\n&lt;a href=\"https://www.legemiddelverket.no/pasientmelding\" title=\"www.legemiddelverket.no/pasientmelding\"&gt;www.legemiddelverket.no/pasientmelding&lt;/a&gt;. Ved å melde fra om bivirkninger\nbidrar du med informasjon om sikkerheten ved bruk av dette legemidlet.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] )     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "5. Hvordan du oppbevarer Aprovel" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029913" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;5. Hvordan du oppbevarer Aprovel&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Oppbevares utilgjengelig for barn.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Bruk ikke dette legemidlet etter utløpsdatoen som er angitt på esken og blisterpakningen etter EXP. Utløpsdatoen er den siste dagen i den angitte måneden.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Oppbevares ved høyst 30ºC.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Legemidler skal ikke kastes i avløpsvann eller sammen med husholdningsavfall. Spør på apoteket hvordan du skal kaste legemidler som du ikke lenger bruker. Disse tiltakene bidrar til å beskytte miljøet.&lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "6. Innholdet i pakningen og ytterligere informasjon" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029914" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;h2&gt;6. Innholdet i pakningen og ytterligere informasjon&lt;/h2&gt;\n                     &lt;/div&gt;"       ] ;
+      ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Sammensetning av Aprovel" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029915" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Sammensetning av Aprovel&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Virkestoff er irbesartan. Hver tablett Aprovel 300 mg inneholder 300 mg irbesartan.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Andre innholdsstoffer er laktosemonohydrat, mikrokrystallinsk cellulose, krysskarmellosenatrium, hypromellose, silikondioksid, magnesiumstearat, titandioksid, makrogol 3000, karnaubavoks. Se avsnitt 2 «Aprovel inneholder laktose»&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Hvordan Aprovel ser ut og innholdet i pakningen" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029916" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Hvordan Aprovel ser ut og innholdet i pakningen&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Aprovel 300 mg filmdrasjerte tabletter er hvite til &amp;quot;off-white&amp;quot;, bikonvekse og oval-formede med et hjerte trykt på den ene siden og tallet 2873 trykt på den andre siden.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Aprovel 300 mg filmdrasjerte tabletter leveres i blisterpakninger på 14, 28, 30, 56, 84, 90 eller 98 filmdrasjerte tabletter. Endose blisterpakninger på 56 × 1 filmdrasjerte tabletter kan leveres til sykehus.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Ikke alle pakningsstørrelser vil nødvendigvis bli markedsført.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Innehaver av markedsføringstillatelsen:" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029917" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Innehaver av markedsføringstillatelsen:&lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Sanofi Winthrop Industrie&lt;br/&gt;82 avenue Raspail&lt;br/&gt;94250 Gentilly&lt;br/&gt;Frankrike&lt;/div&gt;\n                           &lt;span class=\"inline-title\"&gt;Tilvirker:&lt;/span&gt;\n                           &lt;div class=\"paragraph\"&gt;SANOFI WINTHROP INDUSTRIE&lt;br/&gt;1, rue de la Vierge&lt;br/&gt;Ambarès &amp;amp; Lagrave&lt;br/&gt;F-33565 Carbon Blanc Cedex - Frankrike&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;SANOFI WINTHROP INDUSTRIE&lt;br/&gt;30-36 Avenue Gustave Eiffel, BP 7166&lt;br/&gt;F-37071 Tours Cedex 2 - Frankrike&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Sanofi-Aventis, S.A.&lt;br/&gt;Ctra. C-35 (La Batlloria-Hostalric), km. 63.09&lt;br/&gt;17404 Riells i Viabrea (Girona)&lt;br/&gt;Spania&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Ta kontakt med den lokale representanten for innehaveren av markedsføringstillatelsen for ytterligere informasjon om dette legemidlet:&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;sanofi-aventis Norge AS&lt;br/&gt;Tlf: +47 67 10 71 00&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Dette pakningsvedlegget ble sist oppdatert 30.01.2023" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029919" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h3&gt;Dette pakningsvedlegget ble sist oppdatert 30.01.2023&lt;/h3&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Andre informasjonskilder" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029920" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;div class=\"paragraph\"&gt;Detaljert informasjon om dette legemiddel er tilgjengelig på nettstedet til Det europeiske legemiddelkontoret (the European Medicines Agency): &lt;a href=\"http://www.ema.europa.eu/\" title=\"\n               \n                  http://www.ema.europa.eu/\n               \n            \"&gt;\n               \n                  http://www.ema.europa.eu/\n               \n            &lt;/a&gt; og på nettstedet til &lt;a href=\"http://www.felleskatalogen.no\" title=\"\n               \n                  www.felleskatalogen.no\n               \n            \"&gt;\n               \n                  www.felleskatalogen.no\n               \n            &lt;/a&gt;\n                           &lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] )     ] )
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-8&gt; <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">a</a> fhir:MedicinalProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "Diabetes-MPD-8"] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"MedicinalProductDefinition_Diabetes-MPD-8\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition&lt;/b&gt;&lt;a name=\"Diabetes-MPD-8\"&gt; &lt;/a&gt;&lt;a name=\"hcDiabetes-MPD-8\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource MedicinalProductDefinition &amp;quot;Diabetes-MPD-8&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\"&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_AAC5FC7D-F44D-43E6-AF98-9E730D3097BA&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;*&lt;/td&gt;&lt;td&gt;Aprovel tab 300 mg&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelMerkevareID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_AAC5FC7D-F44D-43E6-AF98-9E730D3097BA" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name">fhir:name</a> ( [
+<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.productName">fhir:productName</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Aprovel tab 300 mg" ]
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-8&gt; <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">a</a> fhir:PackagedProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "Diabetes-PPD-8"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"PackagedProductDefinition_Diabetes-PPD-8\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;a name=\"Diabetes-PPD-8\"&gt; &lt;/a&gt;&lt;a name=\"hcDiabetes-PPD-8\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource PackagedProductDefinition &amp;quot;Diabetes-PPD-8&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\"&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_AABC42A4-F392-4AD3-8777-BB7E11DCED02, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/019688&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Aprovel tab 300 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_Diabetes-MPD-8\"&gt;See above (MedicinalProductDefinition/Diabetes-MPD-8)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelPakningID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_AABC42A4-F392-4AD3-8777-BB7E11DCED02" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://farmalogg.no/varenummer"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "019688" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Aprovel tab 300 mg"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packageFor">fhir:packageFor</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/Diabetes-MPD-8" ]
+  ] ) . # 
+
+</pre>
+
+
+
+    <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

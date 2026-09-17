@@ -1,0 +1,832 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Bundle/bundlepackageleaflet-en-660952efa1b907b97e182807063ac261> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "bundlepackageleaflet-en-660952efa1b907b97e182807063ac261"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "https://www.gravitatehealth.eu/sid/doc"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "ffbe86a335f8d8796862a46d498f55a4" ]
+  ] ; # 
+  fhir:type [ fhir:v "document"] ; # 
+  fhir:timestamp [ fhir:v "2023-06-27T10:09:22Z"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-245a2b4a9e3ee4304e5e6cf2b1a252b4"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-245a2b4a9e3ee4304e5e6cf2b1a252b4> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-simvastatine-titaniumdioxide"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-simvastatine-titaniumdioxide> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-simvastatine-hypromelloseunspecified"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-simvastatine-hypromelloseunspecified> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-simvastatine-simvastatin"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-simvastatine-simvastatin> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-simvastatin"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-simvastatin> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-660952efa1b907b97e182807063ac261"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-660952efa1b907b97e182807063ac261> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization660952efa1b907b97e182807063ac2610"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization660952efa1b907b97e182807063ac2610> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-1f2bde1de64d7b561417b3a3d4313827"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-1f2bde1de64d7b561417b3a3d4313827> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-eac96261823092966bc3d7659feb5d7a"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-eac96261823092966bc3d7659feb5d7a> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-660952efa1b907b97e182807063ac261"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-660952efa1b907b97e182807063ac261> )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-245a2b4a9e3ee4304e5e6cf2b1a252b4> a fhir:Composition ;
+  fhir:id [ fhir:v "composition-en-245a2b4a9e3ee4304e5e6cf2b1a252b4"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><a name=\"Composition_composition-en-245a2b4a9e3ee4304e5e6cf2b1a252b4\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition composition-en-245a2b4a9e3ee4304e5e6cf2b1a252b4</b></p><a name=\"composition-en-245a2b4a9e3ee4304e5e6cf2b1a252b4\"> </a><a name=\"hccomposition-en-245a2b4a9e3ee4304e5e6cf2b1a252b4\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/</code>/33baa39274e4f9e04535de6e365fb5af</p><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000155538}\">Package Leaflet</span></p><p><b>category</b>: <span title=\"Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs R}\">Raw</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#Organization_mah-1f2bde1de64d7b561417b3a3d4313827\">Organization Sandoz A/S</a></p><p><b>title</b>: TEST PURPOSES ONLY - Lipcut Simvastatin 5 mg Tablet</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://hl7.org/fhir/composition-attestation-mode official}\">Official</span></td><td>2022-02-16 13:28:17+0000</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "33baa39274e4f9e04535de6e365fb5af" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155538" ]
+     ] ) ;
+     fhir:text [ fhir:v "Package Leaflet" ]
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "R" ] ;
+       fhir:display [ fhir:v "Raw" ]
+     ] )
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2022-02-16T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-1f2bde1de64d7b561417b3a3d4313827> ;
+     fhir:reference [ fhir:v "Organization/mah-1f2bde1de64d7b561417b3a3d4313827" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "TEST PURPOSES ONLY - Lipcut Simvastatin 5 mg Tablet"] ; # 
+  fhir:attester ( [
+     fhir:mode [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/composition-attestation-mode"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "official" ]
+       ] )
+     ] ;
+     fhir:time [ fhir:v "2022-02-16T13:28:17Z"^^xsd:dateTime ]
+  ] ) ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "B. Package Leaflet" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000155538" ]
+       ] ) ;
+       fhir:text [ fhir:v "B. Package Leaflet" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"^^rdf:XMLLiteral ]
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "Package leaflet: Information for the user" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "Package leaflet: Information for the user" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "What is in this leaflet" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "What is in this leaflet" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "1. What Lipcut Simvastatin 5 mg Tablet is and what it is used for" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "1. What Lipcut Simvastatin 5 mg Tablet is and what it is used for" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "2. What you need to know before you take Lipcut Simvastatin 5 mg Tablet" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "2. What you need to know before you take Lipcut Simvastatin 5 mg Tablet" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "3. How to take Lipcut Simvastatin 5 mg Tablet" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "3. How to take Lipcut Simvastatin 5 mg Tablet" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "4. Possible side effects" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "4. Possible side effects" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "5. How to store Lipcut Simvastatin 5 mg Tablet" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "5. How to store Lipcut Simvastatin 5 mg Tablet" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "6. Contents of the pack and other information" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "6. Contents of the pack and other information" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-simvastatine-titaniumdioxide> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-simvastatine-titaniumdioxide"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-simvastatine-titaniumdioxide\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-simvastatine-titaniumdioxide</b></p><a name=\"ingredient-for-simvastatine-titaniumdioxide\"> </a><a name=\"hcingredient-for-simvastatine-titaniumdioxide\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/15FIX9V2JP (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#ManufacturedItemDefinition_mid-660952efa1b907b97e182807063ac261\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#fin-x (use: official, ); status = active; manufacturedDoseForm = Tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#MedicinalProductDefinition_mp245a2b4a9e3ee4304e5e6cf2b1a252b4\">MedicinalProductDefinition: identifier = https://www.who-umc.org/phpid#F92168108C432D63DACDD70444176BB3; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#AdministrableProductDefinition_ap-660952efa1b907b97e182807063ac261\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#fin-x; status = active; administrableDoseForm = Tablet; unitOfPresentation = Tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 15FIX9V2JP}\">TITANIUM DIOXIDE</span></td></tr></table></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "15FIX9V2JP" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-660952efa1b907b97e182807063ac261> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-660952efa1b907b97e182807063ac261" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-660952efa1b907b97e182807063ac261> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-660952efa1b907b97e182807063ac261" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "15FIX9V2JP" ] ;
+           fhir:display [ fhir:v "TITANIUM DIOXIDE" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-simvastatine-hypromelloseunspecified> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-simvastatine-hypromelloseunspecified"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-simvastatine-hypromelloseunspecified\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-simvastatine-hypromelloseunspecified</b></p><a name=\"ingredient-for-simvastatine-hypromelloseunspecified\"> </a><a name=\"hcingredient-for-simvastatine-hypromelloseunspecified\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/3NXW29V3WO (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#ManufacturedItemDefinition_mid-660952efa1b907b97e182807063ac261\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#fin-x (use: official, ); status = active; manufacturedDoseForm = Tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#MedicinalProductDefinition_mp245a2b4a9e3ee4304e5e6cf2b1a252b4\">MedicinalProductDefinition: identifier = https://www.who-umc.org/phpid#F92168108C432D63DACDD70444176BB3; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#AdministrableProductDefinition_ap-660952efa1b907b97e182807063ac261\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#fin-x; status = active; administrableDoseForm = Tablet; unitOfPresentation = Tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 3NXW29V3WO}\">HYPROMELLOSE, UNSPECIFIED</span></td></tr></table></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "3NXW29V3WO" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-660952efa1b907b97e182807063ac261> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-660952efa1b907b97e182807063ac261" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-660952efa1b907b97e182807063ac261> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-660952efa1b907b97e182807063ac261" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "3NXW29V3WO" ] ;
+           fhir:display [ fhir:v "HYPROMELLOSE, UNSPECIFIED" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-simvastatine-simvastatin> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-simvastatine-simvastatin"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-simvastatine-simvastatin\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-simvastatine-simvastatin</b></p><a name=\"ingredient-for-simvastatine-simvastatin\"> </a><a name=\"hcingredient-for-simvastatine-simvastatin\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/AGG2FN16EV (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#ManufacturedItemDefinition_mid-660952efa1b907b97e182807063ac261\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#fin-x (use: official, ); status = active; manufacturedDoseForm = Tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#MedicinalProductDefinition_mp245a2b4a9e3ee4304e5e6cf2b1a252b4\">MedicinalProductDefinition: identifier = https://www.who-umc.org/phpid#F92168108C432D63DACDD70444176BB3; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#AdministrableProductDefinition_ap-660952efa1b907b97e182807063ac261\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#fin-x; status = active; administrableDoseForm = Tablet; unitOfPresentation = Tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072072}\">Active</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta AGG2FN16EV}\">SIMVASTATIN</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>5 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ACTIB}\">active ingredient - basis of strength</span></td></tr></table></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "AGG2FN16EV" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-660952efa1b907b97e182807063ac261> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-660952efa1b907b97e182807063ac261" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-660952efa1b907b97e182807063ac261> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-660952efa1b907b97e182807063ac261" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072072" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "AGG2FN16EV" ] ;
+           fhir:display [ fhir:v "SIMVASTATIN" ]
+         ] )
+       ]
+     ] ;
+     fhir:strength ( [
+       fhir:presentation [
+         a fhir:Quantity ;
+         fhir:value [ fhir:v "5"^^xsd:decimal ] ;
+         fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "mg" ]
+       ] ;
+       fhir:basis [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleClass"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ACTIB" ] ;
+           fhir:display [ fhir:v "active ingredient - basis of strength" ]
+         ] )
+       ]
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-simvastatin> a fhir:SubstanceDefinition ;
+  fhir:id [ fhir:v "substance-simvastatin"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"SubstanceDefinition_substance-simvastatin\"> </a><p class=\"res-header-id\"><b>Generated Narrative: SubstanceDefinition substance-simvastatin</b></p><a name=\"substance-simvastatin\"> </a><a name=\"hcsubstance-simvastatin\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta/</code>/AGG2FN16EV (use: official, )</p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>manufacturer</b>: <a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#Organization_mah-1f2bde1de64d7b561417b3a3d4313827\">Organization Sandoz A/S</a></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "AGG2FN16EV" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-1f2bde1de64d7b561417b3a3d4313827> ;
+     fhir:reference [ fhir:v "Organization/mah-1f2bde1de64d7b561417b3a3d4313827" ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-660952efa1b907b97e182807063ac261> a fhir:AdministrableProductDefinition ;
+  fhir:id [ fhir:v "ap-660952efa1b907b97e182807063ac261"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AdministrableProductDefinition_ap-660952efa1b907b97e182807063ac261\"> </a><p class=\"res-header-id\"><b>Generated Narrative: AdministrableProductDefinition ap-660952efa1b907b97e182807063ac261</b></p><a name=\"ap-660952efa1b907b97e182807063ac261\"> </a><a name=\"hcap-660952efa1b907b97e182807063ac261\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/fin-x</p><p><b>status</b>: Active</p><p><b>formOf</b>: <a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#MedicinalProductDefinition_mp245a2b4a9e3ee4304e5e6cf2b1a252b4\">MedicinalProductDefinition: identifier = https://www.who-umc.org/phpid#F92168108C432D63DACDD70444176BB3; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>administrableDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073664}\">Tablet</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002152}\">Tablet</span></p><p><b>producedFrom</b>: <a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#ManufacturedItemDefinition_mid-660952efa1b907b97e182807063ac261\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#fin-x (use: official, ); status = active; manufacturedDoseForm = Tablet; unitOfPresentation = Tablet</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073619}\">Oral use</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000109093}\">Human</span></td></tr></table></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "fin-x" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:formOf ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4" ]
+  ] ) ; # 
+  fhir:administrableDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000073664" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] )
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000002152" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] )
+  ] ; # 
+  fhir:producedFrom ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-660952efa1b907b97e182807063ac261> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-660952efa1b907b97e182807063ac261" ]
+  ] ) ; # 
+  fhir:routeOfAdministration ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073619" ] ;
+         fhir:display [ fhir:v "Oral use" ]
+       ] )
+     ] ;
+     fhir:targetSpecies ( [
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000109093" ] ;
+           fhir:display [ fhir:v "Human" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization660952efa1b907b97e182807063ac2610> a fhir:RegulatedAuthorization ;
+  fhir:id [ fhir:v "authorization660952efa1b907b97e182807063ac2610"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"RegulatedAuthorization_authorization660952efa1b907b97e182807063ac2610\"> </a><p class=\"res-header-id\"><b>Generated Narrative: RegulatedAuthorization authorization660952efa1b907b97e182807063ac2610</b></p><a name=\"authorization660952efa1b907b97e182807063ac2610\"> </a><a name=\"hcauthorization660952efa1b907b97e182807063ac2610\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/fin-x (use: official, )</p><p><b>subject</b>: <a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#MedicinalProductDefinition_mp245a2b4a9e3ee4304e5e6cf2b1a252b4\">MedicinalProductDefinition: identifier = https://www.who-umc.org/phpid#F92168108C432D63DACDD70444176BB3; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 220000000061}\">Marketing Authorisation</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>holder</b>: <a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#Organization_mah-1f2bde1de64d7b561417b3a3d4313827\">Organization Sandoz A/S</a></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "fin-x" ]
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000061" ] ;
+       fhir:display [ fhir:v "Marketing Authorisation" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:holder [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-1f2bde1de64d7b561417b3a3d4313827> ;
+     fhir:reference [ fhir:v "Organization/mah-1f2bde1de64d7b561417b3a3d4313827" ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-1f2bde1de64d7b561417b3a3d4313827> a fhir:Organization ;
+  fhir:id [ fhir:v "mah-1f2bde1de64d7b561417b3a3d4313827"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_mah-1f2bde1de64d7b561417b3a3d4313827\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization mah-1f2bde1de64d7b561417b3a3d4313827</b></p><a name=\"mah-1f2bde1de64d7b561417b3a3d4313827\"> </a><a name=\"hcmah-1f2bde1de64d7b561417b3a3d4313827\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/ORG-100000848 (use: official, )</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 220000000034}\">Marketing authorisation holder</span></p><p><b>name</b>: Sandoz A/S</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>Edvard Thomsens Vej 14 Copenhagen S DK(work)</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/omswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "ORG-100000848" ]
+  ] ) ; # 
+  fhir:active [ fhir:v true] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000034" ] ;
+       fhir:display [ fhir:v "Marketing authorisation holder" ]
+     ] )
+  ] ) ; # 
+  fhir:name [ fhir:v "Sandoz A/S"] ; # 
+  fhir:contact ( [
+     fhir:address [
+       fhir:use [ fhir:v "work" ] ;
+       fhir:type [ fhir:v "physical" ] ;
+       fhir:text [ fhir:v "Edvard Thomsens Vej 14 Copenhagen S DK" ] ;
+       fhir:line ( [ fhir:v "Edvard Thomsens Vej 14" ] ) ;
+       fhir:city [ fhir:v "Copenhagen S" ] ;
+       fhir:postalCode [ fhir:v "2300" ] ;
+       fhir:country [ fhir:v "DK" ]
+     ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-eac96261823092966bc3d7659feb5d7a> a fhir:PackagedProductDefinition ;
+  fhir:id [ fhir:v "ppd-eac96261823092966bc3d7659feb5d7a"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-eac96261823092966bc3d7659feb5d7a\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PackagedProductDefinition ppd-eac96261823092966bc3d7659feb5d7a</b></p><a name=\"ppd-eac96261823092966bc3d7659feb5d7a\"> </a><a name=\"hcppd-eac96261823092966bc3d7659feb5d7a\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/fin-x (use: official, )</p><p><b>name</b>: Lipcut Simvastatin 5 mg Tablet 28</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000155527}\">Chemical Medicinal Product</span></p><p><b>packageFor</b>: <a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#MedicinalProductDefinition_mp245a2b4a9e3ee4304e5e6cf2b1a252b4\">MedicinalProductDefinition: identifier = https://www.who-umc.org/phpid#F92168108C432D63DACDD70444176BB3; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 5 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073498}\">Box</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003529}\">Cardboard</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073496}\">Blister</span></p><p><b>quantity</b>: 28</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003222}\">PolyVinyl Chloride</span></p><blockquote><p><b>containedItem</b></p><h3>Items</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Reference</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Bundle-bundlepackageleaflet-en-660952efa1b907b97e182807063ac261.html#ManufacturedItemDefinition_mid-660952efa1b907b97e182807063ac261\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#fin-x (use: official, ); status = active; manufacturedDoseForm = Tablet; unitOfPresentation = Tablet</a></td></tr></table></blockquote></blockquote></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "fin-x" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Lipcut Simvastatin 5 mg Tablet 28"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155527" ] ;
+       fhir:display [ fhir:v "Chemical Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:packageFor ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:containedItemQuantity ( [
+     fhir:value [ fhir:v "5"^^xsd:decimal ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "mg" ]
+  ] ) ; # 
+  fhir:packaging [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073498" ] ;
+         fhir:display [ fhir:v "Box" ]
+       ] )
+     ] ;
+     fhir:quantity [ fhir:v 1 ] ;
+     fhir:material ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000003529" ] ;
+         fhir:display [ fhir:v "Cardboard" ]
+       ] )
+     ] ) ;
+     fhir:packaging ( [
+       fhir:identifier ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "123456" ]
+       ] ) ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000073496" ] ;
+           fhir:display [ fhir:v "Blister" ]
+         ] )
+       ] ;
+       fhir:quantity [ fhir:v 28 ] ;
+       fhir:material ( [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000003222" ] ;
+           fhir:display [ fhir:v "PolyVinyl Chloride" ]
+         ] )
+       ] ) ;
+       fhir:containedItem ( [
+         fhir:item [
+           fhir:reference [
+             fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-660952efa1b907b97e182807063ac261> ;
+             fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-660952efa1b907b97e182807063ac261" ]
+           ]
+         ]
+       ] )
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp245a2b4a9e3ee4304e5e6cf2b1a252b4> a fhir:MedicinalProductDefinition ;
+  fhir:id [ fhir:v "mp245a2b4a9e3ee4304e5e6cf2b1a252b4"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_mp245a2b4a9e3ee4304e5e6cf2b1a252b4\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicinalProductDefinition mp245a2b4a9e3ee4304e5e6cf2b1a252b4</b></p><a name=\"mp245a2b4a9e3ee4304e5e6cf2b1a252b4\"> </a><a name=\"hcmp245a2b4a9e3ee4304e5e6cf2b1a252b4\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://www.who-umc.org/phpid</code>/F92168108C432D63DACDD70444176BB3</p><p><b>type</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-type MedicinalProduct}\">Medicinal Product</span></p><p><b>domain</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-domain Human}\">Human use</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">active</span></p><p><b>legalStatusOfSupply</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072084}\">Medicinal product subject to medical prescription</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Lipcut Simvastatin 5 mg Tablet</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000001}\">Full name</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Lipcut</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000002}\">Invented name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: Simvastatin</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000003}\">Scientific name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 5 mg</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000004}\">Strength part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: tablet</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000005}\">Pharmaceutical dose form part</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{urn:iso:std:iso:3166 FIN}\">Finland</span></td><td><span title=\"Codes:{urn:iso:std:iso:3166 FIN}\">Finland</span></td><td><span title=\"Codes:{urn:ietf:bcp:47 en}\">English</span></td></tr></table></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://www.who-umc.org/phpid"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "F92168108C432D63DACDD70444176BB3" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MedicinalProduct" ] ;
+       fhir:display [ fhir:v "Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:domain [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-domain"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Human" ] ;
+       fhir:display [ fhir:v "Human use" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:legalStatusOfSupply [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072084" ] ;
+       fhir:display [ fhir:v "Medicinal product subject to medical prescription" ]
+     ] )
+  ] ; # 
+  fhir:name ( [
+     fhir:productName [ fhir:v "Lipcut Simvastatin 5 mg Tablet" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "220000000001" ] ;
+         fhir:display [ fhir:v "Full name" ]
+       ] )
+     ] ;
+     fhir:part ( [
+       fhir:part [ fhir:v "Lipcut" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000002" ] ;
+           fhir:display [ fhir:v "Invented name part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "Simvastatin" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000003" ] ;
+           fhir:display [ fhir:v "Scientific name part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "5 mg" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000004" ] ;
+           fhir:display [ fhir:v "Strength part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "tablet" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000005" ] ;
+           fhir:display [ fhir:v "Pharmaceutical dose form part" ]
+         ] )
+       ]
+     ] ) ;
+     fhir:usage ( [
+       fhir:country [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "FIN" ] ;
+           fhir:display [ fhir:v "Finland" ]
+         ] )
+       ] ;
+       fhir:jurisdiction [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "FIN" ] ;
+           fhir:display [ fhir:v "Finland" ]
+         ] )
+       ] ;
+       fhir:language [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "en" ] ;
+           fhir:display [ fhir:v "English" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-660952efa1b907b97e182807063ac261> a fhir:ManufacturedItemDefinition ;
+  fhir:id [ fhir:v "mid-660952efa1b907b97e182807063ac261"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ManufacturedItemDefinition_mid-660952efa1b907b97e182807063ac261\"> </a><p class=\"res-header-id\"><b>Generated Narrative: ManufacturedItemDefinition mid-660952efa1b907b97e182807063ac261</b></p><a name=\"mid-660952efa1b907b97e182807063ac261\"> </a><a name=\"hcmid-660952efa1b907b97e182807063ac261\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/fin-x (use: official, )</p><p><b>status</b>: Active</p><p><b>manufacturedDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000073664}\">Tablet</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002152}\">Tablet</span></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "fin-x" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:manufacturedDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000073664" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] )
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000002152" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

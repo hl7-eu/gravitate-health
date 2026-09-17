@@ -1,0 +1,77 @@
+{
+  "resourceType" : "OperationDefinition",
+  "id" : "ai-summary",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: OperationDefinition ai-summary</b></p><a name=\"ai-summary\"> </a><a name=\"hcai-summary\"> </a><p>URL: [base]/$ai-summary</p><h3>Parameters</h3><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>ips</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R5/datatypes.html#base64Binary\">base64Binary</a></td><td/><td/></tr><tr><td>IN</td><td>ips-identifier</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R5/datatypes.html#Identifier\">Identifier</a></td><td/><td/></tr><tr><td>IN</td><td>epi</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R5/bundle.html\">Bundle</a></td><td/><td/></tr><tr><td>IN</td><td>epi-identifier</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R5/datatypes.html#Identifier\">Identifier</a></td><td/><td/></tr><tr><td>IN</td><td>language</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R5/datatypes.html#Coding\">Coding</a></td><td/><td/></tr><tr><td>OUT</td><td>returnEpi</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R5/bundle.html\">Bundle</a></td><td/><td/></tr></table></div>"
+  },
+  "url" : "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/-s-ai-summary",
+  "version" : "0.1.0",
+  "name" : "Ai-summary",
+  "status" : "active",
+  "kind" : "operation",
+  "date" : "2026-09-17T14:07:28+00:00",
+  "publisher" : "Gravitate Health Project",
+  "contact" : [{
+    "name" : "Gravitate Health Project",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.gravitatehealth.eu/"
+    }]
+  },
+  {
+    "name" : "Gravitate Health Project",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.gravitatehealth.eu/"
+    }]
+  }],
+  "description" : "This operation generates a cut down version of the ePI.",
+  "affectsState" : true,
+  "code" : "ai-summary",
+  "system" : true,
+  "type" : false,
+  "instance" : false,
+  "parameter" : [{
+    "name" : "ips",
+    "use" : "in",
+    "min" : 0,
+    "max" : "1",
+    "type" : "base64Binary"
+  },
+  {
+    "name" : "ips-identifier",
+    "use" : "in",
+    "min" : 0,
+    "max" : "1",
+    "type" : "Identifier"
+  },
+  {
+    "name" : "epi",
+    "use" : "in",
+    "min" : 0,
+    "max" : "1",
+    "type" : "Bundle"
+  },
+  {
+    "name" : "epi-identifier",
+    "use" : "in",
+    "min" : 0,
+    "max" : "1",
+    "type" : "Identifier"
+  },
+  {
+    "name" : "language",
+    "use" : "in",
+    "min" : 0,
+    "max" : "1",
+    "type" : "Coding"
+  },
+  {
+    "name" : "returnEpi",
+    "use" : "out",
+    "min" : 0,
+    "max" : "1",
+    "type" : "Bundle"
+  }]
+}

@@ -1,0 +1,101 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/List/list-test-smpc> a fhir:List ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "list-test-smpc"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"clstu\"><tr><td>Date: Feb 7, 2015, 1:28:17 PMMode: workingStatus: currentCode: ePI Master List</td></tr><tr><td>Subject: <a href=\"MedicinalProductDefinition-mp25bbfa948f4a0b224f9baa1fe481efa8.html\">MedicinalProductDefinition/mp25bbfa948f4a0b224f9baa1fe481efa8</a></td></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td><td>Date</td><td>Flag</td></tr><tr><td>bundlepackageleaflet-f2c90821a14dbdb924eb4be01de36427</td><td>Feb 7, 2015, 1:28:17 PM</td><td>Unchanged</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://spor.ema.europa.eu/v2/medicine-name"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "Enbrel" ]
+  ] [
+     fhir:system [ fhir:v "http://spor.ema.europa.eu/v2/marketing-authorisation-numbers"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/99/126/003" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "current"] ; # 
+  fhir:mode [ fhir:v "working"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/example-pi-list-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "00000021213" ] ;
+       fhir:display [ fhir:v "ePI Master List" ]
+     ] )
+  ] ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp25bbfa948f4a0b224f9baa1fe481efa8> ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/medicine-name"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Enbrel" ] ;
+         fhir:display [ fhir:v "Enbrel" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "mah-code" ] ;
+         fhir:display [ fhir:v "None" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/active-substance"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "acive-substance-code" ] ;
+         fhir:display [ fhir:v "None" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/domain"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000004"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000000012" ] ;
+         fhir:display [ fhir:v "H" ]
+       ]
+     ] ) ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp25bbfa948f4a0b224f9baa1fe481efa8" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:flag [
+       fhir:coding ( [
+         fhir:system [ fhir:v "urn:oid:1.2.36.1.2001.1001.101.104.16592"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "01" ]
+       ] ) ;
+       fhir:text [ fhir:v "Unchanged" ]
+     ] ;
+     fhir:date [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime ] ;
+     fhir:item [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/documentType"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000155531"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ] ;
+           fhir:display [ fhir:v "Full ePI" ]
+         ]
+       ] [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/language"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000072057"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000072147" ] ;
+           fhir:display [ fhir:v "en" ]
+         ]
+       ] ) ;
+       fhir:reference [ fhir:v "bundlepackageleaflet-f2c90821a14dbdb924eb4be01de36427" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

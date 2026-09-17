@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Imurel&reg; 25 mg og 50 mg filmovertrukne tabletter (Bundle) - TTL Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.479"}
+    h3,h4,h5,h6{--heading-prefix:"16.479"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Imurel&reg; 25 mg og 50 mg filmovertrukne tabletter (Bundle)</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+  <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-39570.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-39570.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-39570.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Imurel&reg; 25 mg og 50 mg filmovertrukne tabletter (Bundle) - TTL Representation</h2>
+
+
+<p><a href="Bundle-39570.ttl" no-download="true">Raw ttl</a> | <a download="null" href="Bundle-39570.ttl">Download</a></p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <pre style="white-space: pre; overflow: hidden" class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Bundle ;
+  <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "39570"] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "da"] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.identifier">fhir:identifier</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "39570" ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "document"] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.timestamp">fhir:timestamp</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#instant">fhir:v</a> "2022-04-20T01:01:01Z"^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">fhir:entry</a> ( [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/Composition/39570"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/composition.html#Composition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/39570&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/IBD-MPD-8"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/IBD-MPD-8&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-8"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-8&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/IBD-MPD-10"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/IBD-MPD-10&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-10"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-10&gt; )
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/39570&gt; <a href="http://hl7.org/fhir/R5/composition.html">a</a> fhir:Composition ;
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "39570"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "da"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"da\" lang=\"da\"&gt;&lt;a name=\"Composition_39570\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=\"39570\"&gt; &lt;/a&gt;&lt;a name=\"hc39570\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource Composition &amp;quot;39570&amp;quot;  (Language &amp;quot;da&amp;quot;) &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\"&gt;Composition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/&lt;/code&gt;/39570&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: 100000155538 &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-04-20&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;span&gt;&lt;code&gt;https://medicin.dk&lt;/code&gt;/medicin.dk&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: Imurel&reg; 25 mg og 50 mg filmovertrukne tabletter&lt;/p&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "39570" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "final"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.type">fhir:type</a> [
+    ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/100000155531/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.subject">fhir:subject</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/IBD-MPD-8" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/IBD-MPD-10" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> "2022-04-20"^^xsd:date] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.author">fhir:author</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.identifier">fhir:identifier</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://medicin.dk"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "medicin.dk" ]     ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Imurel&reg; 25 mg og 50 mg filmovertrukne tabletter"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.section">fhir:section</a> ( [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Indlægsseddel: Information til patienten" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+      ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029894" ]       ] )     ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                     &lt;a name=\"Section0\"/&gt;\n                     &lt;h2&gt;  Indlægsseddel: Information til patienten  &lt;/h2&gt;\n                     &lt;h3&gt;Imurel 25 mg og 50 mg filmovertrukne tabletter &lt;/h3&gt;\n                     &lt;div class=\"paragraph\"&gt;azathioprin&lt;/div&gt;\n                     &lt;h3&gt;  Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den indeholder vigtige oplysninger.  &lt;/h3&gt;\n                     &lt;ul&gt;\n                        &lt;li&gt;Gem indlægssedlen. Du kan få brug for at læse den igen. &lt;/li&gt;\n                        &lt;li&gt;Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er mere, du vil vide. &lt;/li&gt;\n                        &lt;li&gt;Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. &lt;/li&gt;\n                        &lt;li&gt;Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt her. Se &lt;a href=\"#Section4\" title=\"Anchor link til afsnit - punkt 4\"&gt;punkt 4&lt;/a&gt;. &lt;/li&gt;\n                     &lt;/ul&gt;\n                     &lt;div class=\"paragraph\"&gt;Se den nyeste indlægsseddel på &lt;a href=\"https://www.indlaegsseddel.dk\" title=\"null\"&gt;www.indlaegsseddel.dk&lt;/a&gt;\n                     &lt;/div&gt;\n                     &lt;h3&gt;  Oversigt over indlægssedlen  &lt;/h3&gt;\n                     &lt;ol&gt;\n                        &lt;li&gt;Virkning og anvendelse &lt;/li&gt;\n                        &lt;li&gt;Det skal du vide, før du begynder at tage Imurel &lt;/li&gt;\n                        &lt;li&gt;Sådan skal du tage Imurel &lt;/li&gt;\n                        &lt;li&gt;Bivirkninger &lt;/li&gt;\n                        &lt;li&gt;Opbevaring &lt;/li&gt;\n                        &lt;li&gt;Pakningsstørrelser og yderligere oplysninger &lt;/li&gt;\n                     &lt;/ol&gt;\n                  &lt;/div&gt;"     ] ;
+    ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "1. Virkning og anvendelse" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029895" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section1\"/&gt;\n                        &lt;div&gt;&nbsp;&lt;/div&gt;\n                        &lt;h2&gt;1. Virkning og anvendelse&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Imurel indeholder det aktive stof azathioprin. Det tilhører en gruppe af lægemidler, som kaldes immunsuppressiva. Dette betyder, at de gør dit immunforsvar svagere.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Imurel kan anvendes for at hjælpe din krop med at acceptere et transplanteret organ, såsom en ny nyre, et nyt hjerte eller en ny lever, eller til at behandle nogle sygdomme, hvor dit immunsystem reagerer mod din egen krop (autoimmune sygdomme).&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Autoimmune sygdomme kan omfatte:&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;svær reumatoid artritis (en sygdom, hvor immunsystemet angriber celler i slimhinden i leddene, hvilket forårsager hævelse, smerte og stivhed i leddene),&lt;/li&gt;\n                           &lt;li&gt;systemisk lupus erythematosus (en sygdom, hvor immunsystemet angriber mange af kroppens organer og væv, herunder hud, led, nyrer, hjerne og andre organer, hvilket forårsager svær træthed, feber, stivhed og ledsmerter),&lt;/li&gt;\n                           &lt;li&gt;dermatomyositis og polymyositis (en gruppe af sygdomme, som forårsager betændelse i musklerne, muskelsvaghed og hududslæt),&lt;/li&gt;\n                           &lt;li&gt;autoimmun kronisk aktiv hepatitis (en sygdom, hvor immunsystemet angriber levercellerne, hvilket forårsager leverbetændelse, træthed, muskelsmerter, gulfarvning af huden og feber),&lt;/li&gt;\n                           &lt;li&gt;pemphigus vulgaris (en sygdom, hvor immunsystemet angriber hudceller, hvilket forårsager alvorlig blisterdannelse i huden, munden, næsen, svælget og på kønsdelene),&lt;/li&gt;\n                           &lt;li&gt;polyarteritis nodosa (en sjælden sygdom, som forårsager betændelse i blodårerne),&lt;/li&gt;\n                           &lt;li&gt;autoimmun hæmolytisk anæmi (en alvorlig blodsygdom, hvor kroppen nedbryder røde blodlegemer hurtigere end den kan producere nye, med symptomer som svaghed og åndenød),&lt;/li&gt;\n                           &lt;li&gt;kronisk refraktær idiopatisk trombocytopenisk purpura (en lidelse med et lavt antal blodplader, der kan forårsage, at det er lettere at få voldsomme blå mærker og blødning).&lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Imurel kan også anvendes til behandling af inflammatorisk tarmsygdom (Crohns sygdom eller colitis ulcerosa).&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Lægen har valgt denne medicin, så den passer til dig og din sygdom.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Imurel kan anvendes alene, men i de fleste tilfælde anvendes det sammen med andre lægemidler.&lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "2. Det skal du vide, før du begynder at tage Imurel" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029896" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section2\"/&gt;\n                        &lt;div&gt;&nbsp;&lt;/div&gt;\n                        &lt;h2&gt;2. Det skal du vide, før du begynder at tage Imurel&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Lægen kan have foreskrevet anden anvendelse eller dosering end angivet i denne information. Følg altid lægens anvisning og oplysningerne på doseringsetiketten.&lt;/div&gt;\n                        &lt;h3&gt;  Tag ikke Imurel:  &lt;/h3&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;hvis du er allergisk over for azathioprin eller et af de øvrige indholdsstoffer i Imurel (angivet i &lt;a href=\"#Section6\" title=\"Anchor link til afsnit - punkt 6\"&gt;punkt 6&lt;/a&gt;) &lt;/li&gt;\n                           &lt;li&gt;hvis du er allergisk over for mercaptopurin (et lægemiddel, som ligner azathioprin, som er det aktive stof i Imurel) &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;h3&gt;  Advarsler og forsigtighedsregler  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Kontakt lægen eller apotekspersonalet før du tager Imurel:&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;hvis du lige har fået eller snart skal have en vaccination (vaccine). Hvis du tager Imurel, bør du ikke få en vaccine med levende organismer (f.eks. influenzavaccine, mæslingevaccine, BCG-vaccine, osv.), før din læge siger, at det er sikkert. Dette skyldes, at nogle vacciner kan give dig en infektion, hvis du får dem, mens du tager Imurel &lt;/li&gt;\n                           &lt;li&gt;hvis du har en genetisk sygdom, som kaldes LeschNyhans syndrom. Dette er en sjælden arvelig sygdom, som skyldes mangel på noget, som kaldes HPRT eller “hypoxantin-guanin-fosforibosyltransferase” &lt;/li&gt;\n                           &lt;li&gt;hvis du har lever- eller nyreproblemer &lt;/li&gt;\n                           &lt;li&gt;hvis du har en genetisk sygdom, som kaldes TPMT-mangel (hvor din krop producerer for lidt af et enzym, som kaldes thiopurinmethyltransferase) &lt;/li&gt;\n                           &lt;li&gt;hvis du nogensinde har haft skoldkopper eller helvedesild &lt;/li&gt;\n                           &lt;li&gt;hvis du har haft hepatitis B (en leversygdom, som skyldes en virus) &lt;/li&gt;\n                           &lt;li&gt;hvis du skal have foretaget en operation (dette skyldes at lægemidler, herunder tubocurarin eller succinylcholin, som anvendes som muskelafslappende midler under en operation, kan interagere med Imurel. Før operationen skal du fortælle den læge, som skal bedøve dig, at du får behandling med Imurel. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;NUDT15-genmutation&lt;/b&gt;\n                           &lt;br/&gt;Hvis du har en nedarvet mutation i NUDT15-genet (et gen, som er medvirkende til nedbrydningen af Imurel i kroppen), har du en højere risiko for infektioner og hårtab, og din læge kan derfor give dig en lavere dosis.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;br/&gt;Hvis du er usikker på, om noget af det ovenstående gælder for dig, skal du tale med lægen, sundhedspersonalet eller apotekspersonalet, før du tager Imurel.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;br/&gt;Din læge vil &lt;b&gt;regelmæssigt tage blodprøver &lt;/b&gt;under behandlingen med Imurel for at tjekke for ændringer (se &lt;a href=\"#Section3\" title=\"Anchor link til afsnit - punkt 3\"&gt;punkt 3&lt;/a&gt; ”Sådan skal du tage Imurel”). Hyppigheden af blodprøverne vil normalt nedsættes, des længere du tager Imurel.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;br/&gt;Hvis du får behandling, som undertrykker immunsystemet, kan behandling med Imurel medføre en øget risiko for:&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;tumorer, herunder hudkræft. Når du tager Imurel, skal du derfor undgå for megen eksponering for sollys, og du skal bruge beskyttende påklædning og solcreme med en høj beskyttelsesfaktor. &lt;/li&gt;\n                           &lt;li&gt;lymfoproliferative sygdomme &lt;ul&gt;\n                                 &lt;li&gt;behandling med Imurel øger risikoen for at få en type kræft, der kaldes ”lymfoproliferativ sygdom”. Ved behandlingsregimer, der består af flere immunsupprimerende lægemidler, herunder thiopuriner, kan dette medføre dødsfald. &lt;/li&gt;\n                                 &lt;li&gt;en kombination af flere immunsupprimerende lægemidler, der gives samtidigt, øger risikoen for sygdomme i lymfesystemet på grund af en virusinfektion (Epstein-Barr-virus-relaterede lymfoproliferative sygdomme). &lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/li&gt;\n                           &lt;li&gt;udvikling af en alvorlig lidelse, der hedder makrofag-aktiveringssyndrom (kraftig aktivering af hvide blodlegemer forbundet med en betændelseslignende reaktion (inflammation)). Denne lidelse ses typisk hos personer, der har visse typer leddegigt. &lt;/li&gt;\n                           &lt;li&gt;alvorlig infektion med skoldkopper eller helvedesild. Derfor skal du undgå kontakt med personer, der har skoldkopper eller helvedesild, mens du tager Imurel. &lt;/li&gt;\n                           &lt;li&gt;en tidligere infektion med hepatitis B, som bliver aktiv igen. &lt;/li&gt;\n                           &lt;li&gt;andre infektioner, såsom PML (progressiv multifokal leukoencefalopati), som er en opportunistisk infektion. Hvis du får tegn på infektion, skal du kontakte din læge (se &lt;a href=\"#Section4\" title=\"Anchor link til afsnit - punkt 4\"&gt;punkt 4&lt;/a&gt; “Bivirkninger”). &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;h3&gt;  Brug af anden medicin sammen med Imurel  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin eller har brugt det for nylig. Dette skyldes at Imurel kan påvirke den måde, som andre lægemidler virker på. Andre lægemidler kan også påvirke den måde, som Imurel virker på. Det er især vigtigt, at du fortæller det til lægen, hvis du tager eller planlægger at tage: &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;ribavirin (anvendes til behandling af virusinfektioner) &lt;/li&gt;\n                           &lt;li&gt;methotrexat (anvendes primært til behandling af kræft) &lt;/li&gt;\n                           &lt;li&gt;allopurinol, oxipurinol, thiopurinol eller andre xanthinoxidasehæmmere, såsom febuxostat (anvendes primært til behandling af gigt) &lt;/li&gt;\n                           &lt;li&gt;penicillamin (anvendes primært til behandling af reumatoid artritis) &lt;/li&gt;\n                           &lt;li&gt;ACE-hæmmer (anvendes primært til behandling af højt blodtryk - hypertension) &lt;/li&gt;\n                           &lt;li&gt;antikoagulantia, såsom warfarin eller acenocoumarol (anvendes til at forebygge blodpropper) &lt;/li&gt;\n                           &lt;li&gt;cimetidin (anvendes til behandling af mavesår og fordøjelsesproblemer) &lt;/li&gt;\n                           &lt;li&gt;indomethacin (anvendes som smertestillende og antiinflammatorisk (betændelseshæmmende) middel) &lt;/li&gt;\n                           &lt;li&gt;cytostatiske lægemidler (lægemidler, som anvendes til behandling af forskellige former for kræft) &lt;/li&gt;\n                           &lt;li&gt;aminosalicylater, f.eks. olsalazin, mesalazin eller sulfasalazin (anvendes primært til behandling af colitis ulcerosa og Crohns sygdom) &lt;/li&gt;\n                           &lt;li&gt;co-trimoxazol (antibiotikum, anvendes til behandling af infektioner forårsaget af bakterier) &lt;/li&gt;\n                           &lt;li&gt;infliximab (anvendes primært til behandling af colitis ulcerosa og Crohns sygdom) &lt;/li&gt;\n                           &lt;li&gt;muskelafslappende midler, f.eks. tubocurarin eller succinylcholin (anvendes under operationer), da de kan interagere med Imurel. Før en operation skal du fortælle den læge, som skal bedøve dig, at du får behandling med azathioprin, da de muskelafslappende midler, der bliver anvendt til bedøvelse, kan interagere med azathioprin. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du er usikker på, om noget af det ovenstående gælder for dig, skal du tale med lægen eller apotekspersonalet, før du tager Imurel.&lt;/div&gt;\n                        &lt;h3&gt;  Vaccination under behandlingen med Imurel  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du skal have en vaccination (vaccine), skal du tale med lægen eller sundhedspersonalet, før du får den. Hvis du tager Imurel, bør du ikke få en vaccine med levende organismer (f.eks. influenzavaccine, mæslingevaccine, BCG-vaccine, osv.), før lægen siger, at det er sikkert. Dette skyldes, at nogle vacciner kan give dig en infektion, hvis du får dem, mens du tager Imurel.&lt;/div&gt;\n                        &lt;h3&gt;  Brug af Imurel sammen med mad og drikke  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Du skal tage lægemidlet mindst 1 time før eller 2 timer efter, du har indtaget mælk eller mælkeprodukter.&lt;/div&gt;\n                        &lt;h3&gt;  Graviditet, amning og frugtbarhed  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Graviditet&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;For at undgå graviditet skal du og din partner skal anvende sikker prævention under behandlingen med Imurel.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du er gravid, vil din læge nøje overveje, om du skal tage dette lægemiddel, ved at vurdere fordele og ulemper ved behandlingen.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Amning&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Der kan udskilles små mængder af Imurel i modermælken. Det anbefales, at kvinder, som får Imurel, undlader at amme, medmindre fordelene ved amning overstiger de mulige risici for barnet. Spørg din læge til råds, før du ammer.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Frugtbarhed&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Virkningen af Imurel på frugtbarheden er ikke kendt.&lt;/div&gt;\n                        &lt;h3&gt;  Trafik- og arbejdssikkerhed  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Imurel menes ikke at påvirke evnen til at føre motorkøretøj eller betjene maskiner. Hvis du oplever bivirkninger af lægemidlet, kan det være, at du ikke kan føre motorkøretøj eller betjene maskiner.&lt;/div&gt;\n                        &lt;h3&gt;  Imurel indeholder lactose  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter.&lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "3. Sådan skal du tage Imurel" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029905" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section3\"/&gt;\n                        &lt;div&gt;&nbsp;&lt;/div&gt;\n                        &lt;h2&gt;3. Sådan skal du tage Imurel&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Tag altid Imurel nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller apotekspersonalet.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Mængden af Imurel varierer fra patient til patient, og ordineres af din læge. Dosis afhænger af, hvilken sygdom du behandles for.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Du kan tage Imurel sammen med mad eller på tom mave, men du skal tage Imurel på samme måde hver dag. Nogle patienter får kvalme, når de starter med at tage Imurel. Dette kan mindskes ved at tage tabletterne efter maden.&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Når du tager Imurel, vil din læge tage regelmæssige blodprøver. Dette er for at tjekke antallet og typen af celler i blodet, og for at sikre, at din lever fungerer, som den skal&lt;/li&gt;\n                           &lt;li&gt;Din læge vil måske også foretage andre blod- og urinprøver, for at holde øje med, hvordan dine nyrer fungerer og for at måle urinsyreniveauet. Urinsyre er et naturligt stof, som produceres i kroppen, og niveauet af urinsyre kan stige, når du tager Imurel. Et højt niveau af urinsyre kan skade dine nyrer&lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Det kan være, at din læge ændrer din dosis af Imurel, på baggrund af resultaterne af disse prøver. &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Synk tabletterne hele. Du må ikke tygge tabletterne. Tabletterne må ikke deles eller knuses.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;br/&gt;Det er vigtigt, at omsorgspersoner er opmærksomme på nødvendigheden af sikker håndtering af lægemidlet. Hvis du eller din omsorgsperson håndterer delte tabletter, skal du eller din omsorgsperson omgående vaske hænder. Spørg din læge eller apotekspersonalet til råds.&lt;/div&gt;\n                        &lt;h3&gt;  Den anbefalede dosis er: &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Voksne, som har fået foretaget en organtransplantation&lt;/b&gt;: Den første behandlingsdag er den sædvanlige dosis op til 5 mg pr. kilo kropsvægt, herefter er den sædvanlige daglige dosis 1 mg til 4 mg pr. kilo kropsvægt. Lægen vil justere dosis under behandlingen, dette afhænger af, hvordan du reagerer på medicinen.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Voksne med andre sygdomme:&lt;/b&gt; Den sædvanlige startdosis er 1 mg til 3 mg pr. kilo kropsvægt, herefter er den sædvanlige daglige dosis mindre end 1 mg til 3 mg pr. kilo kropsvægt. Lægen vil justere dosis under behandlingen, dette afhænger af, hvordan du reagerer på medicinen. &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Det kan være nødvendigt at reducere dosis til ældre patienter.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;br/&gt;Det kan være nødvendigt at reducere dosis til patienter, som har nyre- eller leverproblemer.&lt;/div&gt;\n                        &lt;h3&gt;  Brug til børn &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Børn, som har fået foretaget en organtransplantation:&lt;/b&gt; Doseringen til børn, som har fået foretaget en organtransplantation, er den samme som til voksne. &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Børn med andre sygdomme: &lt;/b&gt;Doseringen til børn med andre sygdomme er den samme som til voksne. &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Børn, som er overvægtige, kan have brug for en højere dosis.&lt;/div&gt;\n                        &lt;h3&gt;  Hvis du har taget for meget Imurel &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Kontakt &lt;b&gt;omgående &lt;/b&gt;lægen, skadestuen eller apotekspersonalet, hvis du har taget mere af Imurel, end der står i denne information, eller mere end lægen har foreskrevet, og du føler dig utilpas.&lt;/div&gt;\n                        &lt;h3&gt;  Hvis du har glemt at tage Imurel &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Fortæl det til lægen, hvis du har glemt at tage en dosis.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;br/&gt;Hvis det er ved at være tid til den næste dosis, skal du springe den glemte dosis over, og tage den næste dosis, som du plejer. Ellers skal du tage den glemte dosis, så snart du kommer i tanker om det, og herefter tage Imurel, som du plejer.&lt;/div&gt;\n                        &lt;h3&gt;  Hvis du holder op med at tage Imurel &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Kontakt lægen eller apotekspersonalet før du stopper med at tage Imurel. Du må ikke stoppe med at tage Imurel, før din læge har sagt, at det er sikkert for dig at stoppe.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. &lt;/b&gt;\n                        &lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "4. Bivirkninger" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029910" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section4\"/&gt;\n                        &lt;div&gt;&nbsp;&lt;/div&gt;\n                        &lt;h2&gt;4. Bivirkninger&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. Følgende bivirkninger kan forekomme med dette lægemiddel:&lt;/div&gt;\n                        &lt;h3&gt;  Stop med at tage Imurel og kontakt omgående en læge, hvis du får en eller flere af de følgende alvorlige bivirkninger, da du kan have brug for akut lægehjælp:  &lt;/h3&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;allergiske reaktioner (disse er ikke almindelige bivirkninger, som kan forekomme hos op til 1 ud af 100 personer), symptomerne kan omfatte: &lt;ul&gt;\n                                 &lt;li&gt;generel træthed, svimmelhed, kvalme, opkastning, diarré eller mavesmerter &lt;/li&gt;\n                                 &lt;li&gt;hævelse af øjenlågene, ansigtet eller læberne &lt;/li&gt;\n                                 &lt;li&gt;rødme af huden, knuder under huden eller hududslæt (herunder blistere, kløe eller afskalning af huden)&lt;/li&gt;\n                                 &lt;li&gt;smerter i musklerne eller leddene &lt;/li&gt;\n                                 &lt;li&gt;pludselig hvæsende vejrtrækning, hoste eller vejrtrækningsbesvær&lt;br/&gt;I alvorlige tilfælde kan disse reaktioner være livstruende (dette er sjældent, og kan forekomme hos op til 1 ud af 1000 personer). &lt;/li&gt;\n                              &lt;/ul&gt;\n                           &lt;/li&gt;\n                           &lt;li&gt;hududslæt eller rødme, hvilket kan udvikle sig til livstruende hudreaktioner, herunder udbredt udslæt med blistere og afskalning af huden, som især optræder omkring munden, næsen, øjnene eller kønsdelene (Stevens-Johnson syndrom), voldsom afskalning af huden (toksisk epidermal nekrolyse) (disse kan være meget sjældne bivirkninger, som kan forekomme hos op til 1 ud af 10.000 personer) &lt;/li&gt;\n                           &lt;li&gt;reversibel pneumonitis (lungebetændelse - forårsager åndenød, hoste og feber) (disse kan være meget sjældne bivirkninger, som kan forekomme hos op til 1 ud af 10.000 personer) &lt;/li&gt;\n                           &lt;li&gt;problemer med dit blod eller din knoglemarv, symptomerne omfatter svaghed, træthed, bleghed, du let får blå mærker, usædvanlig blødning eller infektioner (disse kan være meget almindelige bivirkninger, som kan forekomme hos flere end 1 ud af 10 personer) &lt;/li&gt;\n                           &lt;li&gt;når azathioprin anvendes samtidig med andre lægemidler, som undertrykker immunsystemet, kan du få en virus, som kan forårsage skade på din hjerne. Dette kan medføre hovedpine, adfærdsændringer, taleforstyrrelser, nedsatte færdigheder, såsom nedsat hukommelse, nedsat opmærksomhed og nedsat evne til at tage beslutninger (kognitiv tilbagegang), og det kan være dødeligt (tilstand kaldet JC-virus associeret progressiv multifokal leukoencefalopati) (disse kan være meget sjældne bivirkninger, som kan forekomme hos op til 1 ud af 10.000 personer) &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;h3&gt;  Kontakt omgående en læge eller specialist, hvis du får en eller flere af de følgende alvorlige bivirkninger, da du kan have brug for akut lægehjælp:  &lt;/h3&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;du har feber eller andre tegn på en infektion, såsom øm hals, øm mund, vandladningsproblemer eller infektion i luftvejene, som forårsager åndenød og hoste (disse kan være meget almindelige bivirkninger, som kan forekomme hos flere end 1 ud af 10 personer) &lt;/li&gt;\n                           &lt;li&gt;problemer med din lever, symptomerne omfatter gulfarvning af huden eller det hvide i øjnene (gulsot) (disse kan være ikke almindelige bivirkninger, som kan forekomme hos op til 1 ud af 100 personer) &lt;/li&gt;\n                           &lt;li&gt;forskellige former for kræft, herunder blodkræft, lymfekræft eller hudkræft (se &lt;a href=\"#Section2\" title=\"Anchor link til afsnit - punkt 2\"&gt;punkt 2&lt;/a&gt; ”Advarsler og forsigtighedsregler”) (disse kan være sjældne bivirkninger, som kan forekomme hos op til 1 ud af 1000 personer) &lt;/li&gt;\n                           &lt;li&gt;Sweets syndrom (også kendt som akut febril neutrofil dermatose). Du kan udvikle et udslæt (hævede røde, lyserøde eller lilla knuder, som er ømme, når de berøres), især på armene, hænderne, fingrene, ansigtet eller halsen, hvilket også kan ledsages af feber (det vides ikke, hvor ofte disse bivirkninger forekommer - kan ikke bestemmes ud fra de tilgængelige data) &lt;/li&gt;\n                           &lt;li&gt;en bestemt form for lymfomer (hepatosplenisk T-celle lymfom). Du kan opleve næseblod, træthed, voldsom nattesved, vægttab og uforklarlig feber (det vides ikke, hvor ofte disse bivirkninger forekommer - kan ikke bestemmes ud fra de tilgængelige data) &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du oplever noget af det ovenstående, skal du stoppe med at tage Imurel og kontakte en læge omgående.&lt;/div&gt;\n                        &lt;h3&gt;  Andre bivirkninger omfatter:  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;lavt antal hvide blodlegemer i blodet, hvilket kan forårsage en infektion &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Almindelig (kan forekomme hos op til 1 ud af 10 personer) &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;kvalme &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;anæmi (lavt antal røde blodlegemer i blodet) &lt;/li&gt;\n                           &lt;li&gt;pancreatitis (betændelse i bugspytkirtlen), hvilket kan forårsage svære smerter i den øvre del af maven &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Sjælden (kan forekomme hos op til 1 ud af 1000 personer) &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Du kan opleve hårtab, mens du tager Imurel. Oftest gror håret ud igen, også selvom du fortsætter med at tage Imurel. Tal med din læge, hvis du er bekymret. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Meget sjælden (kan forekomme hos op til 1 ud af 10.000 personer) &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;tarmproblemer, som kan forårsage diarré, mavesmerter, forstoppelse, kvalme eller opkastninger (hul på tarmen) &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Ikke kendt (hyppigheden kan ikke bestemmes ud fra de tilgængelige data) &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;fotosensitivitet (følsomhed over for lys eller sollys) &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;h3&gt;  Indberetning af bivirkninger  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via:&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;br/&gt;Lægemiddelstyrelsen &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Axel Heides Gade 1 &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;DK-2300 København S&lt;br/&gt;Websted: www.meldenbivirkning.dk &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;a href=\"https://www.meldenbivirkning.dk\" title=\"Meld en bivirkning\"&gt;\n								Meld en bivirkning.\n							&lt;/a&gt;\n                        &lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "5. Opbevaring" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029913" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section5\"/&gt;\n                        &lt;div&gt;&nbsp;&lt;/div&gt;\n                        &lt;h2&gt;5. Opbevaring&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Opbevar lægemidlet utilgængeligt for børn.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Brug ikke Imurel efter den udløbsdato, der står på pakningen. Udløbsdatoen er den sidste dag i den nævnte måned.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.&lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "6. Pakningsstørrelser og yderligere oplysninger" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029914" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section6\"/&gt;\n                        &lt;div&gt;&nbsp;&lt;/div&gt;\n                        &lt;h2&gt;6. Pakningsstørrelser og yderligere oplysninger&lt;/h2&gt;\n                        &lt;h3&gt;  Imurel 25 og 50 mg overtrukne tabletter indeholder:  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Aktivt stof: Azathioprin.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Øvrige indholdsstoffer: Lactose, majsstivelse, pregelatineret stivelse, stearinsyre, magnesiumstearat, hypromellose og macrogol.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Imurel 25 mg filmovertrukne tabletter indeholder også titandioxid (E171) og jernoxid (E172).&lt;/div&gt;\n                        &lt;h3&gt;  Udseende og pakningsstørrelser  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Udseende &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Imurel 25 mg er en rund, orange bikonveks filmovertrukket tablet. Tabletten er præget IM 2 på den ene side.&lt;br/&gt;Imurel 50 mg er en rund, gul bikonveks filmovertrukket tablet. Tabletten er præget IM 5 på den ene side.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Pakningsstørrelser &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Imurel 25 mg findes i blisterpakninger med 50 tabletter.&lt;br/&gt;Imurel 50 mg findes i blisterpakninger med 50 og 100 tabletter.&lt;br/&gt;Ikke alle pakningsstørrelser er nødvendigvis markedsført.&lt;/div&gt;\n                     &lt;/div&gt;"       ] ;
+      ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Indehaver af markedsføringstilladelsen og fremstiller" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029917" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h2&gt;Indehaver af markedsføringstilladelsen og fremstiller&lt;/h2&gt;\n                           &lt;h3&gt;  Indehaveren af markedsføringstilladelsen &lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Aspen Pharma Trading Limited&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;3016 Lake Drive,&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Citywest Business Campus, &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Dublin 24, Irland&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Tel: +45 78 77 28 87&lt;/div&gt;\n                           &lt;h3&gt;  Fremstiller  &lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Excella GmbH &amp;amp;amp; Co. KG &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Nürnberger Strasse 12&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;90537 Feucht &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Tyskland&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Aspen Bad Oldesloe GmbH &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;32-36 Industriestrasse &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;23843 Bad Oldesloe &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Tyskland&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale repræsentant for indehaveren af markedsføringstilladelsen:&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;\n                              &lt;b&gt;Repræsentant &lt;/b&gt;\n                           &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Aspen Nordic&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Branch Office of Aspen Pharma Ireland Ltd. &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Borupvang 3&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;2750 Ballerup &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Danmark&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Tlf.: +45 78 77 28 87&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Denne indlægsseddel blev senest ændret December 2021" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029919" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h2&gt;Denne indlægsseddel blev senest ændret December 2021&lt;/h2&gt;\n                        &lt;/div&gt;"         ]       ] )     ] )
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/IBD-MPD-8&gt; <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">a</a> fhir:MedicinalProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "IBD-MPD-8"] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"MedicinalProductDefinition_IBD-MPD-8\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition&lt;/b&gt;&lt;a name=\"IBD-MPD-8\"&gt; &lt;/a&gt;&lt;a name=\"hcIBD-MPD-8\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource MedicinalProductDefinition &amp;quot;IBD-MPD-8&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\"&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_72CA1852-ECDA-4096-A284-C4EDDA63602D&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;*&lt;/td&gt;&lt;td&gt;Imurel tab 25 mg&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelMerkevareID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_72CA1852-ECDA-4096-A284-C4EDDA63602D" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name">fhir:name</a> ( [
+<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.productName">fhir:productName</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Imurel tab 25 mg" ]
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-8&gt; <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">a</a> fhir:PackagedProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "IBD-PPD-8"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"PackagedProductDefinition_IBD-PPD-8\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;a name=\"IBD-PPD-8\"&gt; &lt;/a&gt;&lt;a name=\"hcIBD-PPD-8\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource PackagedProductDefinition &amp;quot;IBD-PPD-8&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\"&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_B896FBA6-8A32-4436-9644-0295166F6E2C, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/073947, &lt;code&gt;https://pharmaca.fi/vnr&lt;/code&gt;/073947&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Imurel tab 25 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_IBD-MPD-8\"&gt;See above (MedicinalProductDefinition/IBD-MPD-8)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelPakningID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_B896FBA6-8A32-4436-9644-0295166F6E2C" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://farmalogg.no/varenummer"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "073947" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://pharmaca.fi/vnr"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "073947" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Imurel tab 25 mg"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packageFor">fhir:packageFor</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/IBD-MPD-8" ]
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/IBD-MPD-10&gt; <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">a</a> fhir:MedicinalProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "IBD-MPD-10"] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"MedicinalProductDefinition_IBD-MPD-10\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition&lt;/b&gt;&lt;a name=\"IBD-MPD-10\"&gt; &lt;/a&gt;&lt;a name=\"hcIBD-MPD-10\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource MedicinalProductDefinition &amp;quot;IBD-MPD-10&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\"&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_065A4A9B-3A00-47F8-9FE0-AD9BB3559E6B&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;*&lt;/td&gt;&lt;td&gt;Imurel tab 50 mg&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelMerkevareID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_065A4A9B-3A00-47F8-9FE0-AD9BB3559E6B" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name">fhir:name</a> ( [
+<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.productName">fhir:productName</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Imurel tab 50 mg" ]
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-10&gt; <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">a</a> fhir:PackagedProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "IBD-PPD-10"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;a name=\"PackagedProductDefinition_IBD-PPD-10\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;a name=\"IBD-PPD-10\"&gt; &lt;/a&gt;&lt;a name=\"hcIBD-PPD-10\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource PackagedProductDefinition &amp;quot;IBD-PPD-10&amp;quot; &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\"&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_FFD056BC-F52D-49A2-9399-303ED4030849, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/075009, &lt;code&gt;https://pharmaca.fi/vnr&lt;/code&gt;/075009&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Imurel tab 50 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_IBD-MPD-10\"&gt;See above (MedicinalProductDefinition/IBD-MPD-10)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://legemiddelverket.no/FEST/LegemiddelPakningID"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "ID_FFD056BC-F52D-49A2-9399-303ED4030849" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://farmalogg.no/varenummer"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "075009" ]
+  ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://pharmaca.fi/vnr"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "075009" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Imurel tab 50 mg"] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packageFor">fhir:packageFor</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/IBD-MPD-10" ]
+  ] ) . # 
+
+</pre>
+
+
+
+    <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

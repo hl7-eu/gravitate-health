@@ -1,0 +1,599 @@
+# FK45691 - Gravitate Health FHIR Implementation Guide v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **FK45691**
+
+## Example Bundle: FK45691
+
+**Composition category:**
+
+**Composition status:**final
+
+### Indlægsseddel: Information til patienten
+
+ 
+
+## Indlægsseddel: Information til patienten
+
+### Jyseleca 100 mg filmovertrukne tabletter Jyseleca 200 mg filmovertrukne tabletter filgotinib ▼Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i punkt 4 angående, hvordan du indberetter bivirkninger.
+
+### Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den indeholder vigtige oplysninger.
+
+* Gem indlægssedlen. Du kan få brug for at læse den igen.
+* Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide.
+* Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
+* Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se [afsnit 4](#Section4).
+
+### Oversigt over indlægssedlen
+
+1. Virkning og anvendelse
+1. Det skal du vide, før du begynder at tage Jyseleca
+1. Sådan skal du tage Jyseleca
+1. Bivirkninger
+1. Opbevaring
+1. Pakningsstørrelser og yderligere oplysninger
+
+ 
+
+Se den nyeste indlægsseddel på
+[www.indlaegsseddel.dk](https://www.indlaegsseddel.dk).
+
+
+#### 1. Virkning og anvendelse
+
+ 
+
+ 
+
+## 1. Virkning og anvendelse
+
+Jyseleca indeholder det aktive stof filgotinib. Det tilhører en gruppe lægemidler, der kaldes Janus kinase-hæmmere, som hjælper med at reducere inflammation.
+
+**Reumatoid artritis**
+
+Jyseleca anvendes til at behandle voksne med reumatoid artritis, en inflammationssygdom i leddene. Det kan anvendes, hvis tidligere behandling ikke virkede godt nok, eller ikke var tolereret. Jyseleca kan anvendes alene eller sammen med et andet lægemiddel mod artritis, methotrexat.
+
+Jyseleca reducerer inflammation i kroppen. Det hjælper med at reducere smerter, træthed, stivhed og hævelse i leddene, og det forsinker skader på leddenes knogler og brusk. Disse virkninger kan hjælpe dig med at udføre dine normale daglige aktiviteter og forbedre din livskvalitet.
+
+**Colitis ulcerosa**
+
+Jyseleca anvendes til at behandle voksne med colitis ulcerosa, en inflammationssygdom i tarmen. Det kan anvendes, hvis du ikke reagerede godt nok på eller ikke kunne tåle den tidligere behandling. Det hjælper med at mindske tegn og symptomer på colitis ulcerosa og mindske dit behov for steroider.
+
+
+#### 2. Det skal du vide, før du begynder at tage Jyseleca
+
+ 
+
+ 
+
+## 2. Det skal du vide, før du begynder at tage Jyseleca
+
+### Tag ikke Jyseleca
+
+* **hvis du er allergisk** over for filgotinib eller et af de øvrige indholdsstoffer i dette lægemiddel (angivet i [punkt 6](#Section6)).
+* **hvis du har aktiv tuberkulose (TB).**
+* **hvis du har en aktiv alvorlig infektion **(se afsnittet “Advarsler og forsigtighedsregler”).
+* **hvis du er gravid,** eller har mistanke om, at du er gravid.
+
+ 
+
+→Hvis noget af dette gælder for dig,
+**må du ikke tage Jyseleca, og du skal straks informere din læge**.
+
+### Advarsler og forsigtighedsregler
+
+**Kontakt lægen eller apotekspersonalet**, før du tager Jyseleca:
+
+* **hvis du har en infektion**, eller hvis du tit får infektioner. Fortæl det altid til lægen, hvis du får symptomer såsom feber, sår, føler dig mere træt end normalt eller tandproblemer, da de kan være tegn på infektion. Jyseleca kan reducere kroppens evne til at bekæmpe infektioner og kan gøre en eksisterende infektion værre eller øge risikoen for at få en ny infektion. Hvis du har diabetes eller er 65 år eller derover, kan du have en øget risiko for at få infektioner.
+* **hvis du nogensinde har haft tuberkulose (TB)**, eller er kommet i kontakt med nogen med TB. Det kan være nødvendigt at blive undersøgt for tuberkulose, inden og under behandling med Jyseleca.
+* **hvis du har haft en herpes zoster infektion (helvedesild)** tidligere. Jyseleca kan få det til at vende tilbage. Fortæl det til lægen, hvis du får et smertefuldt hududslæt med blærer i løbet af behandling med Jyseleca, da disse kan være tegn på helvedesild.
+* **hvis du nogensinde har haft hepatitis-B eller C.**
+* **hvis du har eller har haft kræft, ryger eller tidligere har røget**, vil din læge drøfte med dig, om Jyseleca er egnet til dig..
+* **Der er blevet observeret non-melanom hudkræft hos patienter, som tager Jyseleca**. Din læge kan anbefale, at du får regelmæssige hudundersøgelser, mens du tager Jyseleca. Hvis en ny hudlæsion forekommer under eller efter behandlingen, eller hvis nuværende læsioner ændrer udseende, skal du tale med lægen.
+* **hvis du for nylig er blevet vaccineret**, eller skal have en vaccination. Visse typer vacciner (levende vacciner) anbefales ikke, mens der bruges Jyseleca. Tal med lægen eller apotekspersonalet, før du begynder at tage Jyseleca. De vil muligvis sikre sig, at du er opdateret med hensyn til vaccinationer.
+* **hvis du har eller har haft hjerteproblemer**, vil lægen drøfte med dig, om Jyseleca er egnet til dig.
+* **hvis du tidligere har haft blodpropper** i venerne i dine ben (dyb venetrombose) eller lunger (lungeembolisme) eller har en øget risiko for at udvikle det (f.eks. hvis du for nylig har fået en større operation, hvis du bruger hormonprævention/hormonsubstitutionsterapi, hvis der findes en koagulationsdefekt hos dig eller dine nære slægtninge. Din læge vil drøfte med dig, om Jyseleca er egent til dig. Fortæl det til lægen, hvis du får pludselig åndenød eller besvær med at trække vejret, brystsmerter eller smerter i den øvre del af ryggen, hævet ben eller arm, smerter eller ømhed i benet, eller hvis benet eller armen bliver rød(t) eller misfarvet, da disse kan være tegn på blodpropper i venerne.
+
+ 
+
+**Ældre**
+
+Patienter i alderen 65 år og derover kan have en øget risiko for infektioner, hjerteanfald og nogle former for kræft. Din læge kan beslutte, at Jyseleca ikke er egnet til dig.
+
+### Børn og unge
+
+Dette lægemiddel må ikke gives til børn og unge under 18 år, da det ikke er undersøgt i denne aldersgruppe.
+
+### Brug af andre lægemidler sammen med Jyseleca
+
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller planlægger at tage andre lægemidler, især hvis du tager lægemidler, der påvirker dit immunsystem (såsom ciclosporin eller tacrolimus).
+
+Det er også meget vigtigt at tale med lægen eller apotekspersonalet, hvis du tager noget af de følgende:
+
+* lægemidler til at behandle hjertesvigt, hjertesygdom eller forhøjet blodtryk (såsom diltiazem eller carvedilol)
+* lægemidlet fenofibrat (anvendt til at behandle forhøjet kolesterol)
+
+### Graviditet, prævention og amning
+
+**Graviditet**
+
+**Jyseleca må ikke anvendes under graviditet.**Hvis du er gravid, eller har mistanke om, at du er gravid eller planlægger at blive gravid, må du ikke tage dette lægemiddel. Spørg lægen til råds, før du tager Jyseleca.
+
+**Prævention**
+
+**Du skal undgå at blive gravid, mens du tager Jyseleca.**Du skal anvende sikker prævention, mens du tager Jyseleca, og i mindst 1 uge efter du tager din sidste dosis Jyseleca. Hvis du bliver gravid, mens du tager Jyseleca, skal du stoppe med at tage tabletterne og straks informere din læge.
+
+**
+Amning**
+
+**Du må ikke amme, mens du tager Jyseleca.**Det vides ikke, om det aktive stof passerer ind i modermælk.
+
+### Trafik- og arbejdssikkerhed
+
+Jyseleca kan forårsage svimmelhed. Hvis du føler dig svimmel, mens du tager Jyseleca, må du ikke føre motorkøretøj eller anvende nogen redskaber eller maskiner.
+
+### Jyseleca indeholder lactose
+
+Hver Jyseleca 100 mg filmovertrukket tablet indeholder 76 mg lactose, og hver Jyseleca 200 mg filmovertrukket tablet indeholder 152 mg lactose. Hvis lægen har fortalt dig, at du er intolerant over for bestemte sukkerarter, skal du kontakte lægen, før du tager dette lægemiddel.
+
+
+#### 3. Sådan skal du tage Jyseleca
+
+ 
+
+ 
+
+## 3. Sådan skal du tage Jyseleca
+
+Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller apotekspersonalet.
+
+### Den anbefalede dosis er en 200 mg eller 100 mg tablet en gang dagligt.
+
+Hvis du er i alderen 65 år eller derover og har reumatoid artritis eller hvis du har nyreproblemer, kan din læge anbefale en dosis på en 100 mg tablet en gang dagligt. Jyseleca anbefales ikke til dig, hvis du er over 75 år og har colitis ulcerosa. Tal med din læge, hvis du har alvorlige leverproblemer, da Jyseleca ikke anbefales til dig.
+
+Slug tabletten med et glas vand. Tabletten må ikke deles, knuses eller tygges før den sluges, da det kan ændre hvor meget lægemiddel der bliver optaget i kroppen. Jyseleca kan tages med mad eller mellem måltider. Tørremidlet må ikke sluges.
+
+Tag Jyseleca på samme tid hver dag. Det vil hjælpe dig med at huske at tage tabletterne.
+
+Din læge kan stoppe behandlingen midlertidigt eller permanent, hvis blodprøver viser et lavt antal hvide eller røde blodceller.
+
+### Hvis du har taget for meget Jyseleca
+
+Hvis du har taget flere tabletter, end du skulle, skal du straks fortælle det til lægen.
+
+### Hvis du har glemt at tage Jyseleca
+
+* Hvis du glemmer en dosis, skal du tage den så snart, du kommer i tanke om det.
+* Hvis du har gået et helt døgn (24 timer) uden at tage en dosis, skal du blot springe den glemte dosis over og tage en enkelt dosis på det sædvanlige tidspunkt.
+* Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet.
+
+### Hvis du holder op med at tage Jyseleca
+
+Hvis du holder op med at tage Jyseleca, skal du fortælle det til lægen med det samme.
+
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.
+
+
+#### 4. Bivirkninger
+
+ 
+
+ 
+
+## 4. Bivirkninger
+
+Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+
+### Alvorlige bivirkninger
+
+Kontakt lægen eller søg lægehjælp med det samme, hvis du får tegn på en alvorlig infektion såsom:
+
+* feber og symptomer på urinvejsinfektion (hyppigere vandladninger end normalt, smerter eller ubehag ved vandladning eller rygsmerter). Urinvejsinfektioner er almindelige (kan berøre op til 1 ud af 10 personer) og nogle af dem kan være alvorlige.
+* lungeinfektion (lungebetændelse): symptomer kan omfatte vedvarende hoste, feber, åndenød og træthed. Dette er ikke almindeligt (kan berøre op til 1 ud af 100 personer).
+* helvedesild: symptomer kan omfatte et smertefuldt hududslæt med blærer. Dette er ikke almindeligt (kan berøre op til 1 ud af 100 personer).
+* Blodinfektion (sepsis): ikke almindelig (kan berøre op til 1 ud af 100 personer).
+
+### Andre bivirkninger
+
+Kontakt lægen, hvis du bemærker nogen af følgende bivirkninger:
+
+ 
+
+**Almindelig**
+
+(kan berøre op til 1 ud af 10 personer)
+
+* hals- og næseinfektioner
+* svimmelhed
+* kvalme
+
+**Blodprøver kan vise**:
+
+* et lavt antal hvide blodlegemer (lymfocytter).
+
+**Ikke almindelig**
+
+(kan berøre op til 1 ud af 100 personer)
+
+### Blodprøver kan vise:
+
+* et lavt antal hvide blodlegemer (neutrofiler)
+* en stigning i et muskelenzym kaldet kreatininfosfokinase
+* en stigning i blodfedtindholdet (kolesterol).
+
+### Indberetning af bivirkninger
+
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen:
+
+Lægemiddelstyrelsen
+
+Axel Heides Gade 1
+
+DK-2300 København S
+
+Websted: www.meldenbivirkning.dk
+
+Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel.
+
+[Meld en bivirkning.](https://www.meldenbivirkning.dk)
+
+
+#### 5. Opbevaring
+
+ 
+
+ 
+
+## 5. Opbevaring
+
+Opbevar lægemidlet utilgængeligt for børn.
+
+Tag ikke lægemidlet efter den udløbsdato, der står på æsken og beholderen efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned.
+
+Opbevares i den originale pakning for at beskytte mod fugt. Hold beholderen tæt tillukket. Tag ikke lægemidlet, hvis du bemærker, at forseglingen over beholderens åbning er brudt eller mangler.
+
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.
+
+
+#### 6. Pakningsstørrelser og yderligere oplysninger
+
+ 
+
+ 
+
+## 6. Pakningsstørrelser og yderligere oplysninger
+
+### Jyseleca indeholder:
+
+* Aktivt stof: filgotinib. Hver filmovertrukket tablet indeholder 100 eller 200 mg filgotinib (som filgotinibmaleat).
+* Øvrige indholdsstoffer:
+**Tabletkerne**: mikrokrystallinsk cellulose, lactosemonohydrat, prægelatiniseret stivelse, kolloid siliciumdioxid, fumarsyre, magnesiumstearat
+**Filmovertræk**: polyvinylalkohol, titandioxid (E171), macrogol, talcum, gul jernoxid (E172), rød jernoxid (E172)
+
+### Udseende og pakningsstørrelser
+
+Jyseleca 100 mg filmovertrukne tabletter er beige, 12 mm × 7 mm store, kapselformede med “G" på den ene side og “100" på den anden side.
+
+Jyseleca 200 mg filmovertrukne tabletter er beige, 17 mm × 8 mm store, kapselformede med “G" på den ene side og “200" på den anden side.
+
+Jyseleca 100 mg og 200 mg fås i beholdere med 30 tabletter og i pakker med 3 beholdere, hver med 30 tabletter. Hver beholder indeholder et tørremiddel af silicagel, der skal forblive i beholderen for at beskytte tabletterne. Tørremidlet af silicagel er indeholdt i et/en separat pose eller kapsel og må ikke sluges.
+
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+
+
+####  Jyseleca tab 100 mg 
+LEGEMIDDELMERKEVAREID:
+** ID_1A00A0C4-8C19-4BE9-94CC-C37D0C98B532 **
+-------
+
+Full name: **Jyseleca tab 100 mg**
+
+-------
+
+ Authorised dose form: **** 
+
+ Legal status of supply: **** 
+
+ Domain: **** 
+
+ Resource status: **** 
+
+-------
+
+ Product classification: 
+
+ Package 1 of 2
+
+LEGEMIDDELPAKNINGID: ** ID_7C3B1AEC-6B8D-45E3-8652-7EF8487C3D3A ** 
+
+VARENUMMER: ** 067309 ** 
+
+ Description:  * * 
+
+ Marketing status: 
+ 
+
+ Pack size: 
+ 
+
+Package: ** ** 
+
+Containing:
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Bundle",
+  "id" : "FK45691",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"]
+  },
+  "language" : "da",
+  "identifier" : {
+    "system" : "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/",
+    "value" : "45691"
+  },
+  "type" : "document",
+  "timestamp" : "2023-06-13T01:01:01Z",
+  "entry" : [{
+    "fullUrl" : "https://gravitatehealth.eu/fhir/nordic-epi/Composition/FK45691-COMP",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "FK45691-COMP",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
+        "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"]
+      },
+      "language" : "da",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"da\" lang=\"da\"><a name=\"Composition_FK45691-COMP\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition FK45691-COMP</b></p><a name=\"FK45691-COMP\"> </a><a name=\"hcFK45691-COMP\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: da</p><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a>, <code>https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL</code></p></div><p><b>identifier</b>: <code>https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/</code>/45691</p><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/v1/lists/100000155531/terms/ 100000155538}\">100000155538</span></p><p><b>date</b>: 2023-06-13</p><p><b>author</b>: Identifier: <code>https://medicin.dk</code>/medicin.dk</p><p><b>title</b>: Jyseleca 100 mg og 200 mg filmovertrukne tabletter</p></div>"
+      },
+      "identifier" : [{
+        "system" : "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/",
+        "value" : "45691"
+      }],
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/v1/lists/100000155531/terms/",
+          "code" : "100000155538"
+        }]
+      },
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/IBD-MPD-14"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/IBD-MPD-15"
+      }],
+      "date" : "2023-06-13",
+      "author" : [{
+        "identifier" : {
+          "system" : "https://medicin.dk",
+          "value" : "medicin.dk"
+        }
+      }],
+      "title" : "Jyseleca 100 mg og 200 mg filmovertrukne tabletter",
+      "section" : [{
+        "title" : "Indlægsseddel: Information til patienten",
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+            "code" : "200000029894"
+          }]
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Section0\"/><h2>Indlægsseddel: Information til patienten</h2><h3>Jyseleca 100 mg filmovertrukne tabletter Jyseleca 200 mg filmovertrukne tabletter filgotinib ▼Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i punkt 4 angående, hvordan du indberetter bivirkninger.</h3><h3>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den indeholder vigtige oplysninger.</h3><ul><li>Gem indlægssedlen. Du kan få brug for at læse den igen.</li><li>Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide.</li><li>Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.</li><li>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se <a href=\"#Section4\" title=\"Anchor link til afsnit - afsnit 4\">afsnit 4</a>.</li></ul><h3>Oversigt over indlægssedlen</h3><ol><li>Virkning og anvendelse</li><li>Det skal du vide, før du begynder at tage Jyseleca</li><li>Sådan skal du tage Jyseleca</li><li>Bivirkninger</li><li>Opbevaring</li><li>Pakningsstørrelser og yderligere oplysninger</li></ol><div class=\"paragraph\"> </div><div class=\"paragraph\">Se den nyeste indlægsseddel på <a href=\"https://www.indlaegsseddel.dk\" title=\"null\">www.indlaegsseddel.dk</a>.</div></div>"
+        },
+        "section" : [{
+          "title" : "1. Virkning og anvendelse",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+              "code" : "200000029895"
+            }]
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Section1\"/><div> </div><h2>1. Virkning og anvendelse</h2><div class=\"paragraph\">Jyseleca indeholder det aktive stof filgotinib. Det tilhører en gruppe lægemidler, der kaldes Janus kinase-hæmmere, som hjælper med at reducere inflammation.</div><div class=\"paragraph\"><br/><b>Reumatoid artritis</b><br/>Jyseleca anvendes til at behandle voksne med reumatoid artritis, en inflammationssygdom i leddene. Det kan anvendes, hvis tidligere behandling ikke virkede godt nok, eller ikke var tolereret. Jyseleca kan anvendes alene eller sammen med et andet lægemiddel mod artritis, methotrexat.</div><div class=\"paragraph\"><br/>Jyseleca reducerer inflammation i kroppen. Det hjælper med at reducere smerter, træthed, stivhed og hævelse i leddene, og det forsinker skader på leddenes knogler og brusk. Disse virkninger kan hjælpe dig med at udføre dine normale daglige aktiviteter og forbedre din livskvalitet.</div><div class=\"paragraph\"><br/><b>Colitis ulcerosa</b><br/>Jyseleca anvendes til at behandle voksne med colitis ulcerosa, en inflammationssygdom i tarmen. Det kan anvendes, hvis du ikke reagerede godt nok på eller ikke kunne tåle den tidligere behandling. Det hjælper med at mindske tegn og symptomer på colitis ulcerosa og mindske dit behov for steroider.</div></div>"
+          }
+        },
+        {
+          "title" : "2. Det skal du vide, før du begynder at tage Jyseleca",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+              "code" : "200000029896"
+            }]
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Section2\"/><div> </div><h2>2. Det skal du vide, før du begynder at tage Jyseleca</h2><h3>Tag ikke Jyseleca</h3><ul><li><b>hvis du er allergisk</b> over for filgotinib eller et af de øvrige indholdsstoffer i dette lægemiddel (angivet i <a href=\"#Section6\" title=\"Anchor link til afsnit - punkt 6\">punkt 6</a>).</li><li><b>hvis du har aktiv tuberkulose (TB).</b></li><li><b>hvis du har en aktiv alvorlig infektion </b>(se afsnittet “Advarsler og forsigtighedsregler”).</li><li><b>hvis du er gravid,</b> eller har mistanke om, at du er gravid.</li></ul><div class=\"paragraph\"> </div><div class=\"paragraph\">→Hvis noget af dette gælder for dig, <b>må du ikke tage Jyseleca, og du skal straks informere din læge</b>.</div><h3>Advarsler og forsigtighedsregler</h3><div class=\"paragraph\"><b>Kontakt lægen eller apotekspersonalet</b>, før du tager Jyseleca:</div><ul><li><b>hvis du har en infektion</b>, eller hvis du tit får infektioner. Fortæl det altid til lægen, hvis du får symptomer såsom feber, sår, føler dig mere træt end normalt eller tandproblemer, da de kan være tegn på infektion. Jyseleca kan reducere kroppens evne til at bekæmpe infektioner og kan gøre en eksisterende infektion værre eller øge risikoen for at få en ny infektion. Hvis du har diabetes eller er 65 år eller derover, kan du have en øget risiko for at få infektioner.</li><li><b>hvis du nogensinde har haft tuberkulose (TB)</b>, eller er kommet i kontakt med nogen med TB. Det kan være nødvendigt at blive undersøgt for tuberkulose, inden og under behandling med Jyseleca.</li><li><b>hvis du har haft en herpes zoster infektion (helvedesild)</b> tidligere. Jyseleca kan få det til at vende tilbage. Fortæl det til lægen, hvis du får et smertefuldt hududslæt med blærer i løbet af behandling med Jyseleca, da disse kan være tegn på helvedesild.</li><li><b>hvis du nogensinde har haft hepatitis-B eller C.</b></li><li><b>hvis du har eller har haft kræft, ryger eller tidligere har røget</b>, vil din læge drøfte med dig, om Jyseleca er egnet til dig..</li><li><b>Der er blevet observeret non-melanom hudkræft hos patienter, som tager Jyseleca</b>. Din læge kan anbefale, at du får regelmæssige hudundersøgelser, mens du tager Jyseleca. Hvis en ny hudlæsion forekommer under eller efter behandlingen, eller hvis nuværende læsioner ændrer udseende, skal du tale med lægen.</li><li><b>hvis du for nylig er blevet vaccineret</b>, eller skal have en vaccination. Visse typer vacciner (levende vacciner) anbefales ikke, mens der bruges Jyseleca. Tal med lægen eller apotekspersonalet, før du begynder at tage Jyseleca. De vil muligvis sikre sig, at du er opdateret med hensyn til vaccinationer.</li><li><b>hvis du har eller har haft hjerteproblemer</b>, vil lægen drøfte med dig, om Jyseleca er egnet til dig.</li><li><b>hvis du tidligere har haft blodpropper</b> i venerne i dine ben (dyb venetrombose) eller lunger (lungeembolisme) eller har en øget risiko for at udvikle det (f.eks. hvis du for nylig har fået en større operation, hvis du bruger hormonprævention/hormonsubstitutionsterapi, hvis der findes en koagulationsdefekt hos dig eller dine nære slægtninge. Din læge vil drøfte med dig, om Jyseleca er egent til dig. Fortæl det til lægen, hvis du får pludselig åndenød eller besvær med at trække vejret, brystsmerter eller smerter i den øvre del af ryggen, hævet ben eller arm, smerter eller ømhed i benet, eller hvis benet eller armen bliver rød(t) eller misfarvet, da disse kan være tegn på blodpropper i venerne.</li></ul><div class=\"paragraph\"> </div><div class=\"paragraph\"><b>Ældre</b></div><div class=\"paragraph\">Patienter i alderen 65 år og derover kan have en øget risiko for infektioner, hjerteanfald og nogle former for kræft. Din læge kan beslutte, at Jyseleca ikke er egnet til dig.</div><h3>Børn og unge</h3><div class=\"paragraph\">Dette lægemiddel må ikke gives til børn og unge under 18 år, da det ikke er undersøgt i denne aldersgruppe.</div><h3>Brug af andre lægemidler sammen med Jyseleca</h3><div class=\"paragraph\">Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller planlægger at tage andre lægemidler, især hvis du tager lægemidler, der påvirker dit immunsystem (såsom ciclosporin eller tacrolimus).</div><div class=\"paragraph\"><br/>Det er også meget vigtigt at tale med lægen eller apotekspersonalet, hvis du tager noget af de følgende:</div><ul><li>lægemidler til at behandle hjertesvigt, hjertesygdom eller forhøjet blodtryk (såsom diltiazem eller carvedilol)</li><li>lægemidlet fenofibrat (anvendt til at behandle forhøjet kolesterol)</li></ul><h3>Graviditet, prævention og amning</h3><div class=\"paragraph\"><b>Graviditet</b></div><div class=\"paragraph\"><b>Jyseleca må ikke anvendes under graviditet.</b> Hvis du er gravid, eller har mistanke om, at du er gravid eller planlægger at blive gravid, må du ikke tage dette lægemiddel. Spørg lægen til råds, før du tager Jyseleca.<br/><br/><b>Prævention</b></div><div class=\"paragraph\"><b>Du skal undgå at blive gravid, mens du tager Jyseleca.</b> Du skal anvende sikker prævention, mens du tager Jyseleca, og i mindst 1 uge efter du tager din sidste dosis Jyseleca. Hvis du bliver gravid, mens du tager Jyseleca, skal du stoppe med at tage tabletterne og straks informere din læge.</div><div class=\"paragraph\"><b><br/>Amning</b></div><div class=\"paragraph\"><b>Du må ikke amme, mens du tager Jyseleca.</b> Det vides ikke, om det aktive stof passerer ind i modermælk.</div><h3>Trafik- og arbejdssikkerhed</h3><div class=\"paragraph\">Jyseleca kan forårsage svimmelhed. Hvis du føler dig svimmel, mens du tager Jyseleca, må du ikke føre motorkøretøj eller anvende nogen redskaber eller maskiner.</div><h3>Jyseleca indeholder lactose</h3><div class=\"paragraph\">Hver Jyseleca 100 mg filmovertrukket tablet indeholder 76 mg lactose, og hver Jyseleca 200 mg filmovertrukket tablet indeholder 152 mg lactose. Hvis lægen har fortalt dig, at du er intolerant over for bestemte sukkerarter, skal du kontakte lægen, før du tager dette lægemiddel.</div></div>"
+          }
+        },
+        {
+          "title" : "3. Sådan skal du tage Jyseleca",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+              "code" : "200000029905"
+            }]
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Section3\"/><div> </div><h2>3. Sådan skal du tage Jyseleca</h2><div class=\"paragraph\">Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller apotekspersonalet.</div><h3>Den anbefalede dosis er en 200 mg eller 100 mg tablet en gang dagligt.</h3><div class=\"paragraph\">Hvis du er i alderen 65 år eller derover og har reumatoid artritis eller hvis du har nyreproblemer, kan din læge anbefale en dosis på en 100 mg tablet en gang dagligt. Jyseleca anbefales ikke til dig, hvis du er over 75 år og har colitis ulcerosa. Tal med din læge, hvis du har alvorlige leverproblemer, da Jyseleca ikke anbefales til dig.<br/><br/>Slug tabletten med et glas vand. Tabletten må ikke deles, knuses eller tygges før den sluges, da det kan ændre hvor meget lægemiddel der bliver optaget i kroppen. Jyseleca kan tages med mad eller mellem måltider. Tørremidlet må ikke sluges.</div><div class=\"paragraph\"><br/>Tag Jyseleca på samme tid hver dag. Det vil hjælpe dig med at huske at tage tabletterne.</div><div class=\"paragraph\"><br/>Din læge kan stoppe behandlingen midlertidigt eller permanent, hvis blodprøver viser et lavt antal hvide eller røde blodceller.</div><h3>Hvis du har taget for meget Jyseleca</h3><div class=\"paragraph\">Hvis du har taget flere tabletter, end du skulle, skal du straks fortælle det til lægen.</div><h3>Hvis du har glemt at tage Jyseleca</h3><ul><li>Hvis du glemmer en dosis, skal du tage den så snart, du kommer i tanke om det.</li><li>Hvis du har gået et helt døgn (24 timer) uden at tage en dosis, skal du blot springe den glemte dosis over og tage en enkelt dosis på det sædvanlige tidspunkt.</li><li>Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet.</li></ul><h3>Hvis du holder op med at tage Jyseleca</h3><div class=\"paragraph\">Hvis du holder op med at tage Jyseleca, skal du fortælle det til lægen med det samme.<br/><br/>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</div></div>"
+          }
+        },
+        {
+          "title" : "4. Bivirkninger",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+              "code" : "200000029910"
+            }]
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Section4\"/><div> </div><h2>4. Bivirkninger</h2><div class=\"paragraph\">Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.</div><h3>Alvorlige bivirkninger</h3><div class=\"paragraph\">Kontakt lægen eller søg lægehjælp med det samme, hvis du får tegn på en alvorlig infektion såsom:</div><ul><li>feber og symptomer på urinvejsinfektion (hyppigere vandladninger end normalt, smerter eller ubehag ved vandladning eller rygsmerter). Urinvejsinfektioner er almindelige (kan berøre op til 1 ud af 10 personer) og nogle af dem kan være alvorlige.</li><li>lungeinfektion (lungebetændelse): symptomer kan omfatte vedvarende hoste, feber, åndenød og træthed. Dette er ikke almindeligt (kan berøre op til 1 ud af 100 personer).</li><li>helvedesild: symptomer kan omfatte et smertefuldt hududslæt med blærer. Dette er ikke almindeligt (kan berøre op til 1 ud af 100 personer).</li><li>Blodinfektion (sepsis): ikke almindelig (kan berøre op til 1 ud af 100 personer).</li></ul><h3>Andre bivirkninger</h3><div class=\"paragraph\">Kontakt lægen, hvis du bemærker nogen af følgende bivirkninger:</div><div class=\"paragraph\"> </div><div class=\"paragraph\"><b>Almindelig</b><br/>(kan berøre op til 1 ud af 10 personer)</div><ul><li>hals- og næseinfektioner</li><li>svimmelhed</li><li>kvalme</li></ul><div class=\"paragraph\"><br/><b>Blodprøver kan vise</b>:</div><ul><li>et lavt antal hvide blodlegemer (lymfocytter).</li></ul><div class=\"paragraph\"><br/><b>Ikke almindelig</b><br/>(kan berøre op til 1 ud af 100 personer)</div><h3>Blodprøver kan vise:</h3><ul><li>et lavt antal hvide blodlegemer (neutrofiler)</li><li>en stigning i et muskelenzym kaldet kreatininfosfokinase</li><li>en stigning i blodfedtindholdet (kolesterol).</li></ul><h3>Indberetning af bivirkninger</h3><div class=\"paragraph\">Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen:<br/><br/>Lægemiddelstyrelsen<br/>Axel Heides Gade 1<br/>DK-2300 København S<br/>Websted: www.meldenbivirkning.dk<br/><br/>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel.</div><div class=\"paragraph\"><a href=\"https://www.meldenbivirkning.dk\" title=\"Meld en bivirkning\">Meld en bivirkning.</a></div></div>"
+          }
+        },
+        {
+          "title" : "5. Opbevaring",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+              "code" : "200000029913"
+            }]
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Section5\"/><div> </div><h2>5. Opbevaring</h2><div class=\"paragraph\">Opbevar lægemidlet utilgængeligt for børn.</div><div class=\"paragraph\"><br/>Tag ikke lægemidlet efter den udløbsdato, der står på æsken og beholderen efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned.</div><div class=\"paragraph\"><br/>Opbevares i den originale pakning for at beskytte mod fugt. Hold beholderen tæt tillukket. Tag ikke lægemidlet, hvis du bemærker, at forseglingen over beholderens åbning er brudt eller mangler.</div><div class=\"paragraph\"><br/>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</div></div>"
+          }
+        },
+        {
+          "title" : "6. Pakningsstørrelser og yderligere oplysninger",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+              "code" : "200000029914"
+            }]
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Section6\"/><div> </div><h2>6. Pakningsstørrelser og yderligere oplysninger</h2><h3>Jyseleca indeholder:</h3><ul><li>Aktivt stof: filgotinib. Hver filmovertrukket tablet indeholder 100 eller 200 mg filgotinib (som filgotinibmaleat).</li><li>Øvrige indholdsstoffer:<br/><b>Tabletkerne</b>: mikrokrystallinsk cellulose, lactosemonohydrat, prægelatiniseret stivelse, kolloid siliciumdioxid, fumarsyre, magnesiumstearat<br/><b>Filmovertræk</b>: polyvinylalkohol, titandioxid (E171), macrogol, talcum, gul jernoxid (E172), rød jernoxid (E172)</li></ul><h3>Udseende og pakningsstørrelser</h3><div class=\"paragraph\">Jyseleca 100 mg filmovertrukne tabletter er beige, 12 mm × 7 mm store, kapselformede med “G&quot; på den ene side og “100&quot; på den anden side.<br/><br/>Jyseleca 200 mg filmovertrukne tabletter er beige, 17 mm × 8 mm store, kapselformede med “G&quot; på den ene side og “200&quot; på den anden side.<br/><br/>Jyseleca 100 mg og 200 mg fås i beholdere med 30 tabletter og i pakker med 3 beholdere, hver med 30 tabletter. Hver beholder indeholder et tørremiddel af silicagel, der skal forblive i beholderen for at beskytte tabletterne. Tørremidlet af silicagel er indeholdt i et/en separat pose eller kapsel og må ikke sluges.<br/><br/>Ikke alle pakningsstørrelser er nødvendigvis markedsført.</div></div>"
+          },
+          "section" : [{
+            "title" : "Indehaver af markedsføringstilladelsen og fremstiller",
+            "code" : {
+              "coding" : [{
+                "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                "code" : "200000029917"
+              }]
+            },
+            "text" : {
+              "status" : "additional",
+              "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Indehaver af markedsføringstilladelsen og fremstiller</h2><div class=\"paragraph\">Galapagos NV<br/>Gen. De Wittelaan L11 A3<br/>2800 Mechelen<br/>Belgien<br/><br/>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale repræsentant for indehaveren af markedsføringstilladelsen:</div><div class=\"paragraph\"> </div><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\" width=\"100%\" style=\"border-collapse:collapse;\"><colgroup><col span=\"2\"/><col/></colgroup><tr><td colspan=\"2\" valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>België/Belgique/Belgien</b><br/>Galapagos Biopharma Belgium BV<br/>Tél/Tel: 00800 7878 1345</div></td><td valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Lietuva</b></div><div class=\"paragraph\">Oy Swedish Orphan Biovitrum AB<br/>Tel: +358 201 558 840</div></td></tr><tr><td colspan=\"2\" valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>България</b></div><div class=\"paragraph\">Swedish Orphan Biovitrum s.r.o.</div><div class=\"paragraph\">Тел.: +359 2 437 4997</div></td><td valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Luxembourg/Luxemburg</b><br/>Galapagos Biopharma Belgium BV<br/>Tél/Tel: 00800 7878 1345</div></td></tr><tr><td colspan=\"2\" valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Česká republika</b></div><div class=\"paragraph\">Swedish Orphan Biovitrum s.r.o.<br/>Tel: + 420 296 183 236</div></td><td valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Magyarország</b></div><div class=\"paragraph\">Swedish Orphan Biovitrum s.r.o. Magyarországi Fióktelepe</div><div class=\"paragraph\">Tel.: +36 1 998 9947</div></td></tr><tr><td colspan=\"2\" valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Danmark</b></div><div class=\"paragraph\">Galapagos Biopharma Denmark ApS<br/>Tlf: 00800 7878 1345</div></td><td valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Malta</b></div><div class=\"paragraph\">Sobi Single Member IKE<br/>Tel: +30 210 700 81 00</div></td></tr><tr><td colspan=\"2\" valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Deutschland</b></div><div class=\"paragraph\">Galapagos Biopharma Germany GmbH<br/>Tel: 00800 7878 1345</div></td><td valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Nederland</b></div><div class=\"paragraph\">Galapagos Biopharma Netherlands B.V.<br/>Tel: 00800 7878 1345</div></td></tr><tr><td colspan=\"2\" valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Eesti</b></div><div class=\"paragraph\">Oy Swedish Orphan Biovitrum AB<br/>Tel: +358 201 558 840</div></td><td valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Norge</b></div><div class=\"paragraph\">Galapagos Biopharma Norway AS<br/>Tlf: 00800 7878 1345</div></td></tr><tr><td colspan=\"2\" valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Ελλάδα</b></div><div class=\"paragraph\">Sobi Single Member IKE</div><div class=\"paragraph\">Τηλ: +30 210 700 81 00</div></td><td valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Österreich</b></div><div class=\"paragraph\">Galapagos Biopharma Austria GmbH<br/>Tel: 00800 7878 1345</div></td></tr><tr><td colspan=\"2\" valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>España</b></div><div class=\"paragraph\">Galapagos Biopharma Spain, SLU.<br/>Tel: 00800 7878 1345</div></td><td valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Polska</b></div><div class=\"paragraph\">Swedish Orphan Biovitrum Sp.z o.o., Oddział w Polsce<br/>Tel.: +48 22 206 98 63</div></td></tr><tr><td colspan=\"2\" valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>France</b></div><div class=\"paragraph\">Galapagos SASU<br/>Tél: 00800 7878 1345</div></td><td valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Portugal</b></div><div class=\"paragraph\">Swedish Orphan Biovitrum S.L.<br/>Tel: +34 913913580</div></td></tr><tr><td colspan=\"2\" valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Hrvatska</b></div><div class=\"paragraph\">Swedish Orphan Biovitrum s.r.o.<br/>Tel: +385 1 79 00 196</div></td><td valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>România</b></div><div class=\"paragraph\">Swedish Orphan Biovitrum<br/>Tel: +40 31 229 51 96</div></td></tr><tr><td colspan=\"2\" valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Ireland</b></div><div class=\"paragraph\">Galapagos Biopharma Ireland Ltd<br/>Tel: 00800 7878 1345</div></td><td valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Slovenija</b></div><div class=\"paragraph\">Swedish Orphan Biovitrum Podružnica v Sloveniji</div><div class=\"paragraph\">Tel: +386 1 828 0538</div></td></tr><tr><td colspan=\"2\" valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Ísland</b></div><div class=\"paragraph\">Galapagos Biopharma Denmark ApS Sími:<br/>Sími: T: 00800 7878 1345</div></td><td valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Slovenská republika</b></div><div class=\"paragraph\">Swedish Orphan Biovitrum o.z.<br/>Tel: +421 2 3211 1540</div></td></tr><tr><td colspan=\"2\" valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Italia</b></div><div class=\"paragraph\">Galapagos Biopharma Italy S.r.l.<br/>Tel: 00800 7878 1345</div></td><td valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Suomi/Finland</b></div><div class=\"paragraph\">Galapagos Biopharma Finland OyPuh/<br/>Tel: 00800 7878 1345</div></td></tr><tr><td valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Κύπρος</b></div><div class=\"paragraph\">Sobi Single Member IKE</div><div class=\"paragraph\">Τηλ: +30 210 700 81 00</div></td><td colspan=\"2\" valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Sverige</b></div><div class=\"paragraph\">Galapagos Biopharma Sweden AB<br/>Tel: 00800 7878 1345</div></td></tr><tr><td valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>Latvija</b></div><div class=\"paragraph\">Oy Swedish Orphan Biovitrum AB<br/>Tel: +358 201 558 840</div></td><td colspan=\"2\" valign=\"top\" align=\"left\"><div class=\"paragraph\"><b>United Kingdom (Northern Ireland)</b></div><div class=\"paragraph\">Galapagos Biotech Limited<br/>Tel: 0800 072 7878</div></td></tr></table><div class=\"paragraph\"><br/>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs hjemmeside http://www.ema.europa.eu.<br/><br/>QR-kode indsættes<br/>www.jyseleca.eu</div></div>"
+            }
+          },
+          {
+            "title" : "Denne indlægsseddel blev senest ændret 05/2023",
+            "code" : {
+              "coding" : [{
+                "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                "code" : "200000029919"
+              }]
+            },
+            "text" : {
+              "status" : "additional",
+              "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Denne indlægsseddel blev senest ændret 05/2023</h2></div>"
+            }
+          }]
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/IBD-MPD-14",
+    "resource" : {
+      "resourceType" : "MedicinalProductDefinition",
+      "id" : "IBD-MPD-14",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+        "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_IBD-MPD-14\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicinalProductDefinition IBD-MPD-14</b></p><a name=\"IBD-MPD-14\"> </a><a name=\"hcIBD-MPD-14\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a>, <code>https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition</code></p></div><p><b>identifier</b>: <code>http://legemiddelverket.no/FEST/LegemiddelMerkevareID</code>/ID_1A00A0C4-8C19-4BE9-94CC-C37D0C98B532</p><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ProductName</b></td></tr><tr><td style=\"display: none\">*</td><td>Jyseleca tab 100 mg</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "system" : "http://legemiddelverket.no/FEST/LegemiddelMerkevareID",
+        "value" : "ID_1A00A0C4-8C19-4BE9-94CC-C37D0C98B532"
+      }],
+      "name" : [{
+        "productName" : "Jyseleca tab 100 mg"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-14",
+    "resource" : {
+      "resourceType" : "PackagedProductDefinition",
+      "id" : "IBD-PPD-14",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+        "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_IBD-PPD-14\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PackagedProductDefinition IBD-PPD-14</b></p><a name=\"IBD-PPD-14\"> </a><a name=\"hcIBD-PPD-14\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a>, <code>https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition</code></p></div><p><b>identifier</b>: <code>http://legemiddelverket.no/FEST/LegemiddelPakningID</code>/ID_7C3B1AEC-6B8D-45E3-8652-7EF8487C3D3A, <code>https://farmalogg.no/varenummer</code>/067309</p><p><b>name</b>: Jyseleca tab 100 mg</p><p><b>packageFor</b>: <a href=\"Bundle-FK45691.html#MedicinalProductDefinition_IBD-MPD-14\">MedicinalProductDefinition: identifier = http://legemiddelverket.no/FEST/LegemiddelMerkevareID#ID_1A00A0C4-8C19-4BE9-94CC-C37D0C98B532</a></p></div>"
+      },
+      "identifier" : [{
+        "system" : "http://legemiddelverket.no/FEST/LegemiddelPakningID",
+        "value" : "ID_7C3B1AEC-6B8D-45E3-8652-7EF8487C3D3A"
+      },
+      {
+        "system" : "https://farmalogg.no/varenummer",
+        "value" : "067309"
+      }],
+      "name" : "Jyseleca tab 100 mg",
+      "packageFor" : [{
+        "reference" : "MedicinalProductDefinition/IBD-MPD-14"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/IBD-MPD-15",
+    "resource" : {
+      "resourceType" : "MedicinalProductDefinition",
+      "id" : "IBD-MPD-15",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+        "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_IBD-MPD-15\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicinalProductDefinition IBD-MPD-15</b></p><a name=\"IBD-MPD-15\"> </a><a name=\"hcIBD-MPD-15\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a>, <code>https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition</code></p></div><p><b>identifier</b>: <code>http://legemiddelverket.no/FEST/LegemiddelMerkevareID</code>/ID_ADA47930-0B9C-4F94-B147-27156325EAA3</p><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ProductName</b></td></tr><tr><td style=\"display: none\">*</td><td>Jyseleca tab 200 mg</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "system" : "http://legemiddelverket.no/FEST/LegemiddelMerkevareID",
+        "value" : "ID_ADA47930-0B9C-4F94-B147-27156325EAA3"
+      }],
+      "name" : [{
+        "productName" : "Jyseleca tab 200 mg"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-15",
+    "resource" : {
+      "resourceType" : "PackagedProductDefinition",
+      "id" : "IBD-PPD-15",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+        "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_IBD-PPD-15\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PackagedProductDefinition IBD-PPD-15</b></p><a name=\"IBD-PPD-15\"> </a><a name=\"hcIBD-PPD-15\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a>, <code>https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition</code></p></div><p><b>identifier</b>: <code>http://legemiddelverket.no/FEST/LegemiddelPakningID</code>/ID_6E3E0D27-EF0A-4D9F-99A6-60D9C3C252DD, <code>https://farmalogg.no/varenummer</code>/541898</p><p><b>name</b>: Jyseleca tab 200 mg</p><p><b>packageFor</b>: <a href=\"Bundle-FK45691.html#MedicinalProductDefinition_IBD-MPD-15\">MedicinalProductDefinition: identifier = http://legemiddelverket.no/FEST/LegemiddelMerkevareID#ID_ADA47930-0B9C-4F94-B147-27156325EAA3</a></p></div>"
+      },
+      "identifier" : [{
+        "system" : "http://legemiddelverket.no/FEST/LegemiddelPakningID",
+        "value" : "ID_6E3E0D27-EF0A-4D9F-99A6-60D9C3C252DD"
+      },
+      {
+        "system" : "https://farmalogg.no/varenummer",
+        "value" : "541898"
+      }],
+      "name" : "Jyseleca tab 200 mg",
+      "packageFor" : [{
+        "reference" : "MedicinalProductDefinition/IBD-MPD-15"
+      }]
+    }
+  }]
+}
+
+```

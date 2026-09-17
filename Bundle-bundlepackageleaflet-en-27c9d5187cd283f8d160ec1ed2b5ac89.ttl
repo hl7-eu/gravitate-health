@@ -1,0 +1,637 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Bundle/bundlepackageleaflet-en-27c9d5187cd283f8d160ec1ed2b5ac89> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "bundlepackageleaflet-en-27c9d5187cd283f8d160ec1ed2b5ac89"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "https://www.gravitatehealth.eu/sid/doc"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "gh-2" ]
+  ] ; # 
+  fhir:type [ fhir:v "document"] ; # 
+  fhir:timestamp [ fhir:v "2023-06-27T10:09:22Z"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-c08df9bb5fb44242a6291b1eee5d09ad"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-c08df9bb5fb44242a6291b1eee5d09ad> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-domperidone-domperidone"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-domperidone-domperidone> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-27c9d5187cd283f8d160ec1ed2b5ac89"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-27c9d5187cd283f8d160ec1ed2b5ac89> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization27c9d5187cd283f8d160ec1ed2b5ac890"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization27c9d5187cd283f8d160ec1ed2b5ac890> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-3ba8fc4ba9a20220f5e2470c283f7ae3"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-3ba8fc4ba9a20220f5e2470c283f7ae3> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-c40decbddc475d768d3f1dad1c6f77a4"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-c40decbddc475d768d3f1dad1c6f77a4> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpc08df9bb5fb44242a6291b1eee5d09ad"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpc08df9bb5fb44242a6291b1eee5d09ad> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-27c9d5187cd283f8d160ec1ed2b5ac89"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-27c9d5187cd283f8d160ec1ed2b5ac89> )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-c08df9bb5fb44242a6291b1eee5d09ad> a fhir:Composition ;
+  fhir:id [ fhir:v "composition-en-c08df9bb5fb44242a6291b1eee5d09ad"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><a name=\"Composition_composition-en-c08df9bb5fb44242a6291b1eee5d09ad\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition composition-en-c08df9bb5fb44242a6291b1eee5d09ad</b></p><a name=\"composition-en-c08df9bb5fb44242a6291b1eee5d09ad\"> </a><a name=\"hccomposition-en-c08df9bb5fb44242a6291b1eee5d09ad\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/</code>/beed2bb9992ec6835c69d1ba0554b00f</p><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000155538}\">Package Leaflet</span></p><p><b>category</b>: <span title=\"Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs R}\">Raw</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href=\"Bundle-bundlepackageleaflet-en-27c9d5187cd283f8d160ec1ed2b5ac89.html#Organization_mah-3ba8fc4ba9a20220f5e2470c283f7ae3\">Organization Zentiva</a></p><p><b>title</b>: TEST PURPOSES ONLY - Mo</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://hl7.org/fhir/composition-attestation-mode official}\">Official</span></td><td>2022-02-16 13:28:17+0000</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "beed2bb9992ec6835c69d1ba0554b00f" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155538" ]
+     ] ) ;
+     fhir:text [ fhir:v "Package Leaflet" ]
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "R" ] ;
+       fhir:display [ fhir:v "Raw" ]
+     ] )
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpc08df9bb5fb44242a6291b1eee5d09ad> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mpc08df9bb5fb44242a6291b1eee5d09ad" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2022-02-16T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-3ba8fc4ba9a20220f5e2470c283f7ae3> ;
+     fhir:reference [ fhir:v "Organization/mah-3ba8fc4ba9a20220f5e2470c283f7ae3" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "TEST PURPOSES ONLY - Mo"] ; # 
+  fhir:attester ( [
+     fhir:mode [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/composition-attestation-mode"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "official" ]
+       ] )
+     ] ;
+     fhir:time [ fhir:v "2022-02-16T13:28:17Z"^^xsd:dateTime ]
+  ] ) ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "B. Package Leaflet" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000155538" ]
+       ] ) ;
+       fhir:text [ fhir:v "B. Package Leaflet" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"^^rdf:XMLLiteral ]
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "Package leaflet: Information for the user" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "Package leaflet: Information for the user" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>PATIENT INFORMATION LEAFLET Read all of this leaflet carefully before you start taking this medicine because it contains important information for you. • Keep this leaflet. You may need to read it again. • If you have any further questions, ask your doctor or pharmacist. • This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours. • If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet (see section 4).</p></div>"^^rdf:XMLLiteral ]
+       ]
+     ] [
+       fhir:title [ fhir:v "What is in this leaflet" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "What is in this leaflet" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>What is in this leaflet: 1. What Motilium is and what it is used for 2. What you need to know before you take Motilium 3. How to take Motilium 4. Possible side effects 5. How to store Motilium 6. Contents of the pack and other information</p></div>"^^rdf:XMLLiteral ]
+       ]
+     ] [
+       fhir:title [ fhir:v "1. What Domperidone is and what it is used for" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "1. What Domperidone is and what it is used for" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">\"<ol><li>WHAT MOTILIUM IS AND WHAT IT IS USED FOR The name of your medicine is Motilium 10mg Film-Coated Tablets (called Motilium in this leaflet). Motilium contains a medicine called domperidone. This belongs to a group of medicines called ‘dopamine antagonists’. This medicine is used to treat nausea (feeling sick) and vomiting (being sick) in adults and adolescents (years of age and older weighting 35 kg or more).</li></ol>\"</div>"^^rdf:XMLLiteral ]
+       ]
+     ] [
+       fhir:title [ fhir:v "2. What you need to know before you take Domperidone" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "2. What you need to know before you take Domperidone" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Do not take Motilium tablets if: • You are allergic to domperidone or any of the other ingredients of Motilium 10mg Film-Coated Tablets (listed in section 6). Signs of an allergic reaction include: a rash, swallowing or breathing problems, swelling of your lips, face, throat or tongue. • You have a tumour of the pituitary gland (prolactinoma) • You have a blockage or tear in your intestines • You have black, tarry bowel motions (stools) or notice blood in your bowel motions. This could be a sign of bleeding in the stomach or intestines. • You have a moderate or severe liver disease. • Your ECG (electrocardiogram) shows a heart problem called “prolonged QT corrected interval”. • You have or had a problem where your heart cannot pump the blood round your body as well as it should (condition called heart failure). • You have a problem that gives you a low level of potassium or magnesium, or a high level of potassium in your blood. • You are taking certain medicines (see “Other medicines and Motilium”) Do not take Motilium if any of the above applies to you. If you are not sure, talk to your doctor or pharmacist before taking Motilium. Warnings and precautions Before taking this medicine contact your doctor if: • You suffer from liver problems (liver function impairment or failure) (see “Do not take Motilium tablets if”) • You suffer from kidney problems (kidney function impairment or failure). It is advisable to ask your doctor for advice in case of prolonged treatment as you may need to take a lower dose or take this medicine less often, and your doctor may want to examine you regularly. If you are not sure if any of the above apply to you, talk to your doctor or pharmacist before taking Motilium. Do this even if they have applied in the past. Motilium may be associated with an increased risk of heart rhythm disorder and cardiac arrest. This risk may be more likely in those over 60 years old or taking doses higher than 30 mg per day. The risk also increases when Motilium is given together with some drugs. Tell your doctor or pharmacist if you are taking drugs to treat infection (fungal infections or bacterial infection) and/or if you have heart problems or AIDS/HIV (see “Other medicines and Motilium). Motilium should be used at the lowest effective dose. While taking Motilium, contact your doctor if you experience heart rhythm disorders such as palpitations, trouble breathing, loss of consciousness. Treatment with Motilium should be stopped. Adolescents weighing less than 35 kg and children Motilium should not be given to adolescents 12 years of age and older weighing less than 35 kg, or in any children less than 12 years of age, as it is not effective in these age groups. Other medicines and Motilium Tell your doctor or pharmacist if you are taking or have recently taken any other medicines. This includes medicines you can buy without a prescription, including herbal medicines. This is because Motilium can affect the way some other medicines work. Also, some medicines can affect the way Motilium works. Do not take Motilium if you are taking medicine to treat: • Fungal infections such as azole anti-fungals, specifically oral ketoconazole, fluconazole or voriconazole. • Bacterial infections, specifically erythromycin, clarithromycin, telithromycin, moxifloxacin, pentamidine (these are antibiotics) • Heart problems or high blood pressure (e.g., amiodarone, dronedarone, quinidine, disopyramide, dofetilide, sotalol, diltiazem, verapamil) • Psychoses (e.g., haloperidol, pimozide, sertindole) • Depression (e.g., citalopram, escitalopram) • Gastro-intestinal disorders (e.g., cisapride, dolasetron, prucalopride) • Allergy (e.g., mequitazine, mizolastine) • Malaria (in particular halofantrine) • AIDS/HIV (protease inhibitors) • Cancer (e.g., toremifene, vandetanib, vincamine) Tell your doctor or pharmacist if you are taking drugs to treat infection, heart problems, AIDS/HIV or Parkinson’s disease. Motilium and apomorphine Before you use Motilium and apomorphine, your doctor will ensure that you tolerate both medicines when used simultaneously. Ask your doctor or specialist for a personalised advice. Please refer to the apomorphine leaflet. It is important to ask your doctor or pharmacist if Motilium is safe for you when you are taking any other medicines, including medicines obtained without prescription. Taking Motilium with food and drink It is recommended to take Motilium before meals, as when taken after meals the absorption of the medicine is slightly delayed. Pregnancy and breast-feeding Talk to your doctor or pharmacist before taking Motilium if: • You are pregnant, might become pregnant or think you may be pregnant • You are breast-feeding. It is best not to take Motilium if you are breast-feeding. Small amounts of Motilium have been detected in breast-milk. Motilium may cause unwanted side effects affecting the heart in a breast-fed baby. Motilium should be used during breast feeding only if your physician considers this clearly necessary. Ask your doctor for advice before taking this medicine. Driving and using machines: Motilium can affect your ability to drive or use machinery as it may make you sleepy. Do not drive while taking this medicine until you know how it affects you. Motilium tablets contain lactose. This medicine contains lactose. If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor before taking this medicinal product. fold here 25,5mm 420 mm 148 mm 25,5mm 25,5mm 25,5mm fold here 3380 3380 3380 3380 fold here fold here</p></div>"^^rdf:XMLLiteral ]
+       ]
+     ] [
+       fhir:title [ fhir:v "3. How to take Domperidone" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "3. How to take Domperidone" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Follow these instructions closely unless your doctor has advised you otherwise. You should check with your doctor or pharmacist if you are not sure. Duration of treatment Your doctor will decide how long you will need to take this medicine.<br/>Symptoms usually resolve with 3-4 days of taking this medicine. Do not take Motilium for longer than 7 days without consulting your doctor. Taking this medicine • Swallow the tablets whole with a drink of water. • Take the tablets 15 to 30 minutes before a meal. • Do not crush or chew them. The usual dose is: • Adults and adolescents 12 years of age and older with a body weight of 35kg or more The usual dose is one tablet taken up to three times per day, if possible before meals. Do not take more than three tablets per day. • This product is not suitable for children under 12 years of age and older with a body weight of less than 35 kg. People with kidney problems Your doctor may tell you to take a lower dose or to take the medicine less often. If you take more Motilium than you should: • If you have used or taken too many Motilium tablets contact your doctor, pharmacist or the poisons centre at your nearest hospital casualty department immediately. Take the carton and any tablets left with you. This is so the doctors know what you have taken. In the event of overdose, symptomatic treatment could be implemented. An ECG monitoring could be undertaken, because of the possibility of a heart problem called prolonged QT interval. • The signs of taking more than you should include feeling sleepy, confused, uncontrolled movements which include unusual eye movements, unusual movements of the tongue or abnormal posture (such as a twisted neck). If you forget to take Motilium: • If you forget to take Motilium, take it as soon as you remember. • However if it is almost time for the next dose, wait until that is due and then continue as normal. • Do not take a double dose to make up for a forgotten dose.</p></div>"^^rdf:XMLLiteral ]
+       ]
+     ] [
+       fhir:title [ fhir:v "4. Possible side effects" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "4. Possible side effects" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Like all medicines, Motilium can have side effects, although not everybody gets them. Stop taking Motilium and see your doctor or go to a hospital straightaway if: • You get swelling of the hands, feet, ankles, face, lips or throat which may cause difficulty in swallowing or breathing. You could also notice an itchy, lumpy rash (hives) or nettle rash (urticaria). This may mean you are having an allergic reaction to Motilium. • You notice any uncontrolled movements. These include irregular eye movements, unusual movements of the tongue, and abnormal posture such as a twisted neck, trembling and muscle stiffness. These symptoms should stop once you stop taking Motilium. • You have a very fast or unusual heartbeat. This could be a sign of a life-threatening heart problem. • You have a fit (seizure). Other side effects include: Common (affects less than 1 in 10 people) • Dry mouth Uncommon (affects less than 1 in 100 people) • Lowering of sexual drive (libido) in men • Feeling anxious • Feeling agitated or irritable • Feeling more nervous than usual • Feeling drowsy • Headaches • Diarrhoea • Itchy skin. You may also have a rash • Unusual production of breast milk in men and women • Painful or tender breasts • A general feeling of weakness Not known (Frequency cannot be estimated from the available data) • Disorders of the cardiovascular system: heart rhythm disorders (rapid or irregular heart beat) have been reported; if this happens, you should stop the treatment immediately. Motilium may be associ- ated with an increased risk of heart rhythm disorder and cardiac arrest. This risk may be more likely in those over 60 years old or taking doses higher than 30 mg per day. Motilium should be used at the lowest effective dose. • Abnormal eye movements • Feeling the urge to move your legs, arms or other parts of your body (restless legs syndrome). These symptoms may become worse in patients suffering from Parkinson’s disease. • Inability to urinate • Breast enlargement in men • In women, menstrual periods may be irregular or stop • A blood test shows changes in the way your liver is working. Some patients who have used Motilium for conditions and dosages requiring longer term medical supervision have experienced the following unwanted effects: Restlessness; swollen or enlarged breasts, unusual discharge from breasts, irregular menstrual periods in women, difficulty breastfeeding, depression, hypersensitivity. Reporting of side effects If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the Yellow card Scheme at: www.mhra.gov.uk/ yellowcard or search for MHRA Yellow Card in the Google Play or Apple App Store. By reporting side effects, you can help provide more information on the safety of this medicine.</p></div>"^^rdf:XMLLiteral ]
+       ]
+     ] [
+       fhir:title [ fhir:v "5. How to store Domperidone" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "5. How to store Domperidone" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>• Keep out of the sight and reach of children. • Do not store above 25°C. • Do not use this medicine after the expiry date which is stated on the pack. • Do not throw away any medicines via wastewater or household water. Ask your pharmacist how to throw away medicines you no longer use. These medicines will help protect the environment.</p></div>"^^rdf:XMLLiteral ]
+       ]
+     ] [
+       fhir:title [ fhir:v "6. Contents of the pack and other information" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "6. Contents of the pack and other information" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>What Motilium 10mg Film-Coated Tablets contain • The active ingredient is domperidone. Each tablet contains 10 mg of domperidone. • It also contains lactose, maize starch, microcrystalline cellulose, hypromellose, pregelatinised starch, povi- done, propylene glycol, magnesium stearate, silica colloidal hydrated and polysorbate 20. What Motilium 10mg Film-Coated Tablets look like and contents of the pack Each pack contains 30 or 100 white to cream coloured, film-coated tablets with Motilium stamped on one side. Marketing Authorisation Holder: Zentiva Pharma UK Limited, 12 New Fetter Lane, London EC4A 1JP, United Kingdom Manufacturer: S.C. Zentiva S.A., 50 Theodor Pallady Blvd, District 3, Bucharest, 032266, Romania. This leaflet was last revised in: November 2023 Motilium® is a registered Trademark of Johnson &amp; Johnson Inc. ‘Zentiva is a registered trademark © 2023 Zentiva. 942329</p></div>"^^rdf:XMLLiteral ]
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-domperidone-domperidone> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-domperidone-domperidone"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-domperidone-domperidone\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-domperidone-domperidone</b></p><a name=\"ingredient-for-domperidone-domperidone\"> </a><a name=\"hcingredient-for-domperidone-domperidone\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/5587267Z69 (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-27c9d5187cd283f8d160ec1ed2b5ac89.html#ManufacturedItemDefinition_mid-27c9d5187cd283f8d160ec1ed2b5ac89\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#gh-2 (use: official, ); status = active; manufacturedDoseForm = Film-coated tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-27c9d5187cd283f8d160ec1ed2b5ac89.html#MedicinalProductDefinition_mpc08df9bb5fb44242a6291b1eee5d09ad\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#gh-2; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-27c9d5187cd283f8d160ec1ed2b5ac89.html#AdministrableProductDefinition_ap-27c9d5187cd283f8d160ec1ed2b5ac89\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#gh-2; status = active; administrableDoseForm = Tablet; unitOfPresentation = Tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072072}\">Active</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 5587267Z69}\">DOMPERIDONE</span></td></tr></table></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "5587267Z69" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-27c9d5187cd283f8d160ec1ed2b5ac89> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-27c9d5187cd283f8d160ec1ed2b5ac89" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpc08df9bb5fb44242a6291b1eee5d09ad> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mpc08df9bb5fb44242a6291b1eee5d09ad" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-27c9d5187cd283f8d160ec1ed2b5ac89> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-27c9d5187cd283f8d160ec1ed2b5ac89" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072072" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "5587267Z69" ] ;
+           fhir:display [ fhir:v "DOMPERIDONE" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-27c9d5187cd283f8d160ec1ed2b5ac89> a fhir:AdministrableProductDefinition ;
+  fhir:id [ fhir:v "ap-27c9d5187cd283f8d160ec1ed2b5ac89"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AdministrableProductDefinition_ap-27c9d5187cd283f8d160ec1ed2b5ac89\"> </a><p class=\"res-header-id\"><b>Generated Narrative: AdministrableProductDefinition ap-27c9d5187cd283f8d160ec1ed2b5ac89</b></p><a name=\"ap-27c9d5187cd283f8d160ec1ed2b5ac89\"> </a><a name=\"hcap-27c9d5187cd283f8d160ec1ed2b5ac89\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/gh-2</p><p><b>status</b>: Active</p><p><b>formOf</b>: <a href=\"Bundle-bundlepackageleaflet-en-27c9d5187cd283f8d160ec1ed2b5ac89.html#MedicinalProductDefinition_mpc08df9bb5fb44242a6291b1eee5d09ad\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#gh-2; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>administrableDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073664}\">Tablet</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002152}\">Tablet</span></p><p><b>producedFrom</b>: <a href=\"Bundle-bundlepackageleaflet-en-27c9d5187cd283f8d160ec1ed2b5ac89.html#ManufacturedItemDefinition_mid-27c9d5187cd283f8d160ec1ed2b5ac89\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#gh-2 (use: official, ); status = active; manufacturedDoseForm = Film-coated tablet; unitOfPresentation = Tablet</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073619}\">Oral use</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000109093}\">Human</span></td></tr></table></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "gh-2" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:formOf ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpc08df9bb5fb44242a6291b1eee5d09ad> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mpc08df9bb5fb44242a6291b1eee5d09ad" ]
+  ] ) ; # 
+  fhir:administrableDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000073664" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] )
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000002152" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] )
+  ] ; # 
+  fhir:producedFrom ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-27c9d5187cd283f8d160ec1ed2b5ac89> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-27c9d5187cd283f8d160ec1ed2b5ac89" ]
+  ] ) ; # 
+  fhir:routeOfAdministration ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073619" ] ;
+         fhir:display [ fhir:v "Oral use" ]
+       ] )
+     ] ;
+     fhir:targetSpecies ( [
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000109093" ] ;
+           fhir:display [ fhir:v "Human" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization27c9d5187cd283f8d160ec1ed2b5ac890> a fhir:RegulatedAuthorization ;
+  fhir:id [ fhir:v "authorization27c9d5187cd283f8d160ec1ed2b5ac890"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"RegulatedAuthorization_authorization27c9d5187cd283f8d160ec1ed2b5ac890\"> </a><p class=\"res-header-id\"><b>Generated Narrative: RegulatedAuthorization authorization27c9d5187cd283f8d160ec1ed2b5ac890</b></p><a name=\"authorization27c9d5187cd283f8d160ec1ed2b5ac890\"> </a><a name=\"hcauthorization27c9d5187cd283f8d160ec1ed2b5ac890\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/4177 (use: official, )</p><p><b>subject</b>: <a href=\"Bundle-bundlepackageleaflet-en-27c9d5187cd283f8d160ec1ed2b5ac89.html#MedicinalProductDefinition_mpc08df9bb5fb44242a6291b1eee5d09ad\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#gh-2; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 220000000061}\">Marketing Authorisation</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>holder</b>: <a href=\"Bundle-bundlepackageleaflet-en-27c9d5187cd283f8d160ec1ed2b5ac89.html#Organization_mah-3ba8fc4ba9a20220f5e2470c283f7ae3\">Organization Zentiva</a></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "4177" ]
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpc08df9bb5fb44242a6291b1eee5d09ad> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mpc08df9bb5fb44242a6291b1eee5d09ad" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000061" ] ;
+       fhir:display [ fhir:v "Marketing Authorisation" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:holder [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-3ba8fc4ba9a20220f5e2470c283f7ae3> ;
+     fhir:reference [ fhir:v "Organization/mah-3ba8fc4ba9a20220f5e2470c283f7ae3" ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-3ba8fc4ba9a20220f5e2470c283f7ae3> a fhir:Organization ;
+  fhir:id [ fhir:v "mah-3ba8fc4ba9a20220f5e2470c283f7ae3"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_mah-3ba8fc4ba9a20220f5e2470c283f7ae3\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization mah-3ba8fc4ba9a20220f5e2470c283f7ae3</b></p><a name=\"mah-3ba8fc4ba9a20220f5e2470c283f7ae3\"> </a><a name=\"hcmah-3ba8fc4ba9a20220f5e2470c283f7ae3\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/xx (use: official, )</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 220000000034}\">Marketing authorisation holder</span></p><p><b>name</b>: Zentiva</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>First Floor, Andrews House, College Road, Guildford, Surrey UK(work)</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/omswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "xx" ]
+  ] ) ; # 
+  fhir:active [ fhir:v true] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000034" ] ;
+       fhir:display [ fhir:v "Marketing authorisation holder" ]
+     ] )
+  ] ) ; # 
+  fhir:name [ fhir:v "Zentiva"] ; # 
+  fhir:contact ( [
+     fhir:address [
+       fhir:use [ fhir:v "work" ] ;
+       fhir:type [ fhir:v "physical" ] ;
+       fhir:text [ fhir:v "First Floor, Andrews House, College Road, Guildford, Surrey UK" ] ;
+       fhir:line ( [ fhir:v "First Floor, Andrews House, College Road, Guildford," ] ) ;
+       fhir:city [ fhir:v "Surrey" ] ;
+       fhir:country [ fhir:v "UK" ]
+     ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-c40decbddc475d768d3f1dad1c6f77a4> a fhir:PackagedProductDefinition ;
+  fhir:id [ fhir:v "ppd-c40decbddc475d768d3f1dad1c6f77a4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-c40decbddc475d768d3f1dad1c6f77a4\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PackagedProductDefinition ppd-c40decbddc475d768d3f1dad1c6f77a4</b></p><a name=\"ppd-c40decbddc475d768d3f1dad1c6f77a4\"> </a><a name=\"hcppd-c40decbddc475d768d3f1dad1c6f77a4\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/dd (use: official, )</p><p><b>name</b>: Mo 28</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000155527}\">Chemical Medicinal Product</span></p><p><b>packageFor</b>: <a href=\"Bundle-bundlepackageleaflet-en-27c9d5187cd283f8d160ec1ed2b5ac89.html#MedicinalProductDefinition_mpc08df9bb5fb44242a6291b1eee5d09ad\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#gh-2; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 10 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073498}\">Box</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003529}\">Cardboard</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073496}\">Blister</span></p><p><b>quantity</b>: 28</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003222}\">PolyVinyl Chloride</span></p><blockquote><p><b>containedItem</b></p><h3>Items</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Reference</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Bundle-bundlepackageleaflet-en-27c9d5187cd283f8d160ec1ed2b5ac89.html#ManufacturedItemDefinition_mid-27c9d5187cd283f8d160ec1ed2b5ac89\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#gh-2 (use: official, ); status = active; manufacturedDoseForm = Film-coated tablet; unitOfPresentation = Tablet</a></td></tr></table></blockquote></blockquote></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "dd" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Mo 28"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155527" ] ;
+       fhir:display [ fhir:v "Chemical Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:packageFor ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpc08df9bb5fb44242a6291b1eee5d09ad> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mpc08df9bb5fb44242a6291b1eee5d09ad" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:containedItemQuantity ( [
+     fhir:value [ fhir:v "10"^^xsd:decimal ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "mg" ]
+  ] ) ; # 
+  fhir:packaging [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073498" ] ;
+         fhir:display [ fhir:v "Box" ]
+       ] )
+     ] ;
+     fhir:quantity [ fhir:v 1 ] ;
+     fhir:material ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000003529" ] ;
+         fhir:display [ fhir:v "Cardboard" ]
+       ] )
+     ] ) ;
+     fhir:packaging ( [
+       fhir:identifier ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "123456" ]
+       ] ) ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000073496" ] ;
+           fhir:display [ fhir:v "Blister" ]
+         ] )
+       ] ;
+       fhir:quantity [ fhir:v 28 ] ;
+       fhir:material ( [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000003222" ] ;
+           fhir:display [ fhir:v "PolyVinyl Chloride" ]
+         ] )
+       ] ) ;
+       fhir:containedItem ( [
+         fhir:item [
+           fhir:reference [
+             fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-27c9d5187cd283f8d160ec1ed2b5ac89> ;
+             fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-27c9d5187cd283f8d160ec1ed2b5ac89" ]
+           ]
+         ]
+       ] )
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpc08df9bb5fb44242a6291b1eee5d09ad> a fhir:MedicinalProductDefinition ;
+  fhir:id [ fhir:v "mpc08df9bb5fb44242a6291b1eee5d09ad"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_mpc08df9bb5fb44242a6291b1eee5d09ad\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicinalProductDefinition mpc08df9bb5fb44242a6291b1eee5d09ad</b></p><a name=\"mpc08df9bb5fb44242a6291b1eee5d09ad\"> </a><a name=\"hcmpc08df9bb5fb44242a6291b1eee5d09ad\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>http://fakesys.com/ids</code>/gh-2</p><p><b>type</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-type MedicinalProduct}\">Medicinal Product</span></p><p><b>domain</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-domain Human}\">Human use</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">active</span></p><p><b>legalStatusOfSupply</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072084}\">Medicinal product subject to medical prescription</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Mo</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000001}\">Full name</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Motillium</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000002}\">Invented name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: Domperidone</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000003}\">Scientific name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 10 mg</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000004}\">Strength part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: tablet</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000005}\">Pharmaceutical dose form part</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{urn:iso:std:iso:3166 UK}\">United Kingdom</span></td><td><span title=\"Codes:{urn:iso:std:iso:3166 UK}\">United Kingdom</span></td><td><span title=\"Codes:{urn:ietf:bcp:47 en}\">English</span></td></tr></table></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://fakesys.com/ids"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "gh-2" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MedicinalProduct" ] ;
+       fhir:display [ fhir:v "Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:domain [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-domain"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Human" ] ;
+       fhir:display [ fhir:v "Human use" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:legalStatusOfSupply [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072084" ] ;
+       fhir:display [ fhir:v "Medicinal product subject to medical prescription" ]
+     ] )
+  ] ; # 
+  fhir:name ( [
+     fhir:productName [ fhir:v "Mo" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "220000000001" ] ;
+         fhir:display [ fhir:v "Full name" ]
+       ] )
+     ] ;
+     fhir:part ( [
+       fhir:part [ fhir:v "Motillium" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000002" ] ;
+           fhir:display [ fhir:v "Invented name part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "Domperidone" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000003" ] ;
+           fhir:display [ fhir:v "Scientific name part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "10 mg" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000004" ] ;
+           fhir:display [ fhir:v "Strength part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "tablet" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000005" ] ;
+           fhir:display [ fhir:v "Pharmaceutical dose form part" ]
+         ] )
+       ]
+     ] ) ;
+     fhir:usage ( [
+       fhir:country [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "UK" ] ;
+           fhir:display [ fhir:v "United Kingdom" ]
+         ] )
+       ] ;
+       fhir:jurisdiction [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "UK" ] ;
+           fhir:display [ fhir:v "United Kingdom" ]
+         ] )
+       ] ;
+       fhir:language [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "en" ] ;
+           fhir:display [ fhir:v "English" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-27c9d5187cd283f8d160ec1ed2b5ac89> a fhir:ManufacturedItemDefinition ;
+  fhir:id [ fhir:v "mid-27c9d5187cd283f8d160ec1ed2b5ac89"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ManufacturedItemDefinition_mid-27c9d5187cd283f8d160ec1ed2b5ac89\"> </a><p class=\"res-header-id\"><b>Generated Narrative: ManufacturedItemDefinition mid-27c9d5187cd283f8d160ec1ed2b5ac89</b></p><a name=\"mid-27c9d5187cd283f8d160ec1ed2b5ac89\"> </a><a name=\"hcmid-27c9d5187cd283f8d160ec1ed2b5ac89\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/gh-2 (use: official, )</p><p><b>status</b>: Active</p><p><b>manufacturedDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000073665}\">Film-coated tablet</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002152}\">Tablet</span></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "gh-2" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:manufacturedDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000073665" ] ;
+       fhir:display [ fhir:v "Film-coated tablet" ]
+     ] )
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000002152" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

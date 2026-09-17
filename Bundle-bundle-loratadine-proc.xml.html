@@ -1,0 +1,737 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI document Bundle for Xenical 120mg hard capsules Package Leaflet for language es - XML Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.220"}
+    h3,h4,h5,h6{--heading-prefix:"20.220"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for Xenical 120mg hard capsules Package Leaflet for language es</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-bundle-loratadine-proc.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundle-loratadine-proc.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundle-loratadine-proc.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: ePI document Bundle for Xenical 120mg hard capsules Package Leaflet for language es - XML Representation</h2>
+
+
+<p><a href="Bundle-bundle-loratadine-proc.xml" no-download="true">Raw xml</a> | <a href="Bundle-bundle-loratadine-proc.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle">Bundle</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XBundle.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;bundle-loratadine-proc&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XBundle.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XBundle.meta">meta</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XBundle.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.gravitatehealth.eu/sid/doc&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;himss-loratadine&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.identifier">identifier</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;document&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.timestamp">timestamp</a> <a href="http://hl7.org/fhir/R5/datatypes.html#instant">value</a>=&quot;2023-06-27T10:09:22Z&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-loratadine-pproc&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition">Composition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;composition-en-loratadine-pproc&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;extensions&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot; lang=&quot;en&quot;&gt;&lt;a name=&quot;Composition_composition-en-loratadine-pproc&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Composition composition-en-loratadine-pproc&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;composition-en-loratadine-pproc&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hccomposition-en-loratadine-pproc&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Language: en&lt;/p&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html&quot;&gt;Composition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;LensesApplied&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;lens: &lt;a href=&quot;Library/conditions-lens&quot;&gt;Library/conditions-lens&lt;/a&gt;&lt;/li&gt;&lt;li&gt;elementClass: conditions-lens&lt;/li&gt;&lt;li&gt;explanation: This section was highlighted because you had several diagnosis of Hay Fever and pollen sensitivity&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;LensesApplied&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;lens: &lt;a href=&quot;Library-interaction-lens.html&quot;&gt;interaction-lens&lt;/a&gt;&lt;/li&gt;&lt;li&gt;elementClass: interaction-lens&lt;/li&gt;&lt;li&gt;explanation: Important because the pollen count in your area this week is high. Take care.&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;LensesApplied&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;lens: &lt;a href=&quot;Library/allergyintollerance-lens&quot;&gt;Library/allergyintollerance-lens&lt;/a&gt;&lt;/li&gt;&lt;li&gt;elementClass: allergyintollerance-lens&lt;/li&gt;&lt;li&gt;explanation: Highlighted section because you have lactose intolerance&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://www.gravitatehealth.eu/sid/doc&lt;/code&gt;/himss-loratadine&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi/ 100000155538}&quot;&gt;Package Leaflet&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs P}&quot;&gt;Processed&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-02-16 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: EMA&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: TEST PURPOSES ONLY - Loratadine&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{http://hl7.org/fhir/composition-attestation-mode official}&quot;&gt;Official&lt;/span&gt;&lt;/td&gt;&lt;td&gt;2022-02-16 13:28:17+0000&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.extension">extension</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>=&quot;lens&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueCodeableReference</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#XCodeableReference.reference">reference</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Library/conditions-lens&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#XCodeableReference.reference">reference</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueCodeableReference</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>=&quot;elementClass&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;conditions-lens&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>=&quot;explanation&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueString</a>
+                         <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;This section was highlighted because you had several diagnosis of Hay Fever and pollen sensitivity&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.extension">extension</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>=&quot;lens&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueCodeableReference</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#XCodeableReference.reference">reference</a>&gt;<a href="Library-interaction-lens.html" style="color: Maroon">&#x1F517;</a> 
+                &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Library/interaction-lens&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#XCodeableReference.reference">reference</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueCodeableReference</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>=&quot;elementClass&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;interaction-lens&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>=&quot;explanation&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueString</a>
+                         <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Important because the pollen count in your area this week is high. Take care.&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.extension">extension</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>=&quot;lens&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueCodeableReference</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#XCodeableReference.reference">reference</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Library/allergyintollerance-lens&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#XCodeableReference.reference">reference</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueCodeableReference</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>=&quot;elementClass&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;allergyintollerance-lens&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>=&quot;explanation&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueString</a>
+                         <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Highlighted section because you have lactose intolerance&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.gravitatehealth.eu/sid/doc&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;himss-loratadine&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;final&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Package Leaflet&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">type</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.category">category</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                    <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;P&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Processed&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.category">category</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">subject</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/himss-loratadine-mpd&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">subject</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.date">date</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2022-02-16T13:28:17Z&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">author</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;EMA&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">author</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;TEST PURPOSES ONLY - Loratadine&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester">attester</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester.mode">mode</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                      <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/composition-attestation-mode&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester.mode">mode</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester.time">time</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2022-02-16T13:28:17Z&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester">attester</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;B. Package Leaflet&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;B. Package Leaflet&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+            &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Package leaflet: Information for the user&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Package leaflet: Information for the user&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;Loratadine 10 mg Tablets&lt;/h2&gt;&lt;h2&gt;&lt;small&gt;(loratadine)&lt;/small&gt;&lt;/h2&gt;&lt;p&gt;Read all of this leaflet carefully before you start taking this medicine because it contains important information for you. Always take this medicine exactly as described in this leaflet or as your doctor, pharmacist or nurse has told you.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Keep this leaflet. You may need to read it again.&lt;/li&gt;&lt;li&gt;Ask your pharmacist if you need more information or advice.&lt;/li&gt;&lt;li&gt;If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.&lt;/li&gt;&lt;li&gt;You must talk to a doctor if you do not feel better or if you feel worse after 7 days.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;What is in this leaflet&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;What is in this leaflet&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;ol&gt;&lt;li&gt;What Loratadine Tablets are and what they are used for&lt;/li&gt;&lt;li&gt;What you need to know before you take Loratadine Tablets&lt;/li&gt;&lt;li&gt;How to take Loratadine Tablets&lt;/li&gt;&lt;li&gt;Possible side effects&lt;/li&gt;&lt;li&gt;How to store Loratadine Tablets&lt;/li&gt;&lt;li&gt;Contents of the pack and other information&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;1. What Loratadine is and what it is used for&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;1. What Loratadine is and what it is used for&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h3&gt;What Loratadine Tablets are&lt;/h3&gt;&lt;p&gt;Loratadine tablets contain the active substance loratadine which belongs to the class of medicines called 'antihistamines.'&lt;/p&gt;&lt;h3&gt;How Loratadine Tablets work&lt;/h3&gt;&lt;p&gt;Loratadine tablets help to reduce your allergy symptoms by stopping the effects of a substance called 'histamine', which is produced in the body when you are allergic to something.&lt;/p&gt;&lt;h3&gt;When Loratadine Tablets should be taken&lt;/h3&gt;&lt;p class=&quot;highlight conditions-lens&quot;&gt;Loratadine tablets relieve symptoms associated with allergic rhinitis (for example, hay fever) and perennial allergic rhinitis (year-round allergy symptoms). Symptoms include sneezing, runny nose, nasal itching, burning, itching and watering of the eyes.&lt;/p&gt;&lt;p&gt;They may also be used to help relieve symptoms of chronic idiopathic urticaria (itching and redness), often known as hives or nettle rash.&lt;/p&gt;&lt;p&gt;You must talk to a doctor if you do not feel better or if you feel worse after 7 days.&lt;/p&gt;&lt;p style=&quot;background-color:#f9edbe;padding:10px 15px;border:1px solid #e0c97f;position:relative;margin-bottom:10px;&quot; class=&quot;interaction-lens&quot;&gt;&lt;a&gt;&amp;#x1F6A8; High Pollen count in your area!&lt;/a&gt;&lt;a href=&quot;https://www.health.harvard.edu/diseases-and-conditions/how-to-cope-with-worsening-allergy-seasons&quot;&gt;check this website to learn how to manage it.&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;2. What you need to know before you take Loratadine&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a>
+                    <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;2. What you need to know before you take Loratadine&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;&lt;b&gt;Do not take Loratadine Tablets if you:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;are allergic to loratadine or any of the other ingredients of this medicine.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Warnings and precautions&lt;/h3&gt;&lt;p&gt;Talk to your doctor, pharmacist or nurse before taking Loratadine tablets if:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;you have severe liver problems&lt;/li&gt;&lt;li&gt;you are due to have any skin tests for allergies (do not take for two days before such tests as it may affect the results)&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Children and adolescents&lt;/h3&gt;&lt;p&gt;Do not give Loratadine tablets to children younger than 6 years or weighing ≤ 30 kg. The safety and efficacy of Loratadine tablets have not been established in children under 2 years.&lt;/p&gt;&lt;h3&gt;Other medicines and Loratadine Tablets&lt;/h3&gt;&lt;p&gt;Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines, including those obtained without a prescription.&lt;/p&gt;&lt;h3&gt;Loratadine Tablets with alcohol&lt;/h3&gt;&lt;p&gt;Loratadine tablets have not been shown to add to the effects of an alcoholic drink.&lt;/p&gt;&lt;h3&gt;Pregnancy and breast-feeding&lt;/h3&gt;&lt;p&gt;If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your doctor or pharmacist for advice before taking this medicine. As a precaution, avoid use during pregnancy. Do not take if you are breast-feeding as loratadine passes into breast milk.&lt;/p&gt;&lt;h3&gt;Driving and using machines&lt;/h3&gt;&lt;p&gt;At the recommended dose, Loratadine tablets are not expected to cause drowsiness or affect your ability to drive or use machines. However, very rarely some people experience drowsiness.&lt;/p&gt;&lt;h3&gt;Loratadine Tablets contain lactose&lt;/h3&gt;&lt;p class=&quot;highlight allergyintollerance-lens&quot;&gt;If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor before taking this medicine.&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;3. How to take Loratadine&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;3. How to take Loratadine&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;Always take this medicine exactly as your doctor, pharmacist or nurse has told you. Check with your doctor or pharmacist if you are not sure.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Recommended dose:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Adults and children ≥ 6 years (and &amp;gt; 30 kg):&lt;/b&gt; Take 1 tablet once daily with a glass of water, with or without food.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Children ≤ 30 kg or &amp;lt; 6 years:&lt;/b&gt; Do not give this formulation; use a suitable alternative.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Adults and children &amp;gt; 30 kg with severe liver problems:&lt;/b&gt; Take 1 tablet once every other day with water, with or without food. Consult your doctor before use.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If symptoms persist or worsen after 7 days of treatment, see your doctor.&lt;/p&gt;&lt;h3&gt;Taking this medicine&lt;/h3&gt;&lt;p&gt;The tablet should be swallowed whole with a drink of water. It may be taken with or without food. Try to take it at the same time each day to help you remember.&lt;/p&gt;&lt;h3&gt;If you take more Loratadine Tablets than you should&lt;/h3&gt;&lt;p&gt;Talk to your doctor or pharmacist straight away. No serious problems are expected; you may get a headache, rapid heartbeat or feel sleepy.&lt;/p&gt;&lt;h3&gt;If you forget to take Loratadine Tablets&lt;/h3&gt;&lt;p&gt;Take one as soon as you remember, then continue as before. Do not take a double dose to make up for a forgotten dose.&lt;/p&gt;&lt;h3&gt;If you have any further questions&lt;/h3&gt;&lt;p&gt;Ask your doctor or pharmacist.&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;4. Possible side effects&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;4. Possible side effects&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;Like all medicines, this medicine can cause side effects, although not everybody gets them.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Most commonly reported in adults and children ≥ 12 years:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;drowsiness&lt;/li&gt;&lt;li&gt;headache&lt;/li&gt;&lt;li&gt;increased appetite&lt;/li&gt;&lt;li&gt;difficulty sleeping&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Most commonly reported in children 6-12 years:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;headache&lt;/li&gt;&lt;li&gt;nervousness&lt;/li&gt;&lt;li&gt;tiredness&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Very rare side effects (may affect up to 1 in 10 000 people):&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;severe allergic reaction (including swelling)&lt;/li&gt;&lt;li&gt;dizziness&lt;/li&gt;&lt;li&gt;fit (convulsion)&lt;/li&gt;&lt;li&gt;rapid heartbeat, palpitations&lt;/li&gt;&lt;li&gt;nausea&lt;/li&gt;&lt;li&gt;dry mouth&lt;/li&gt;&lt;li&gt;gastritis&lt;/li&gt;&lt;li&gt;rash&lt;/li&gt;&lt;li&gt;hair loss&lt;/li&gt;&lt;li&gt;abnormal liver function&lt;/li&gt;&lt;li&gt;tiredness&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Frequency not known:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;weight increase&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Reporting of side effects&lt;/h3&gt;&lt;p&gt;If you get any side effects, talk to your doctor or pharmacist. You can also report side effects directly via the Yellow Card Scheme at &lt;a rel=&quot;noopener&quot; href=&quot;https://www.mhra.gov.uk/yellowcard&quot; target=&quot;_blank&quot;&gt;www.mhra.gov.uk/yellowcard&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;5. How to store Loratadine&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;5. How to store Loratadine&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;ul&gt;&lt;li&gt;Keep this medicine out of the sight and reach of children.&lt;/li&gt;&lt;li&gt;Do not use this medicine after the expiry date which is stated on the carton and foil after &amp;quot;EXP&amp;quot;. The expiry date refers to the last day of that month.&lt;/li&gt;&lt;li&gt;Store in the original package.&lt;/li&gt;&lt;li&gt;Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;6. Contents of the pack and other information&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;6. Contents of the pack and other information&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h3&gt;What Loratadine Tablets contain&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Active substance:&lt;/b&gt; Each tablet contains 10 mg loratadine.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Other ingredients:&lt;/b&gt; lactose monohydrate, maize starch, pre-gelatinised maize starch, magnesium stearate.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;What Loratadine Tablets look like and contents of the pack&lt;/h3&gt;&lt;p&gt;White to off-white, round, uncoated tablets debossed with &amp;quot;R&amp;quot; on one side and &amp;quot;10&amp;quot; on the other. Available in blister strips of 7, 10, 14, 20, 21, 30 or 100 tablets. Not all pack sizes may be marketed.&lt;/p&gt;&lt;h3&gt;Marketing Authorisation Holder&lt;/h3&gt;&lt;p&gt;SUN PHARMA UK LIMITED&lt;/p&gt;&lt;p&gt;6-9 The Square, Stockley Park, Uxbridge, UB11 1FW, United Kingdom&lt;/p&gt;&lt;h3&gt;Manufacturers&lt;/h3&gt;&lt;p&gt;Sun Pharmaceutical Industries Europe B.V., Polarisavenue 87, 2132 JH Hoofddorp, The Netherlands&lt;/p&gt;&lt;p&gt;Alkaloida Chemical Company Zrt., 4440 Tiszavasvári, Kabay János u. 29, Hungary&lt;/p&gt;&lt;p&gt;This leaflet was last revised in November 2023.&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition">Composition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/Composition/himss-loratadine-mpd&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">MedicinalProductDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;himss-loratadine-mpd&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;MedicinalProductDefinition_himss-loratadine-mpd&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition himss-loratadine-mpd&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;himss-loratadine-mpd&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hchimss-loratadine-mpd&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html&quot;&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://www.gravitatehealth.eu/sid/doc&lt;/code&gt;/himss-loratadine&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/medicinal-product-type MedicinalProduct}&quot;&gt;Medicinal Product&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;domain&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/medicinal-product-domain Human}&quot;&gt;Human use&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/publication-status active}&quot;&gt;active&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;legalStatusOfSupply&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 100000072084}&quot;&gt;Medicinal product subject to medical prescription&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;productName&lt;/b&gt;: Loratadine Flexpen 100 units/ml solution for injection in pre-filled pens&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000001}&quot;&gt;Full name&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: Loratadine FlexPen&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000002}&quot;&gt;Invented name part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: Insulin&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000003}&quot;&gt;Scientific name part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: 100 units/ml&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000004}&quot;&gt;Strength part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: solution for injection in pre-filled pens&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000005}&quot;&gt;Pharmaceutical dose form part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h3&gt;Usages&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Country&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Jurisdiction&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Language&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{urn:iso:std:iso:3166 GBR}&quot;&gt;United Kingdom&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{urn:iso:std:iso:3166 GBR}&quot;&gt;United Kingdom&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{urn:ietf:bcp:47 en}&quot;&gt;English&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.gravitatehealth.eu/sid/doc&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;himss-loratadine&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/medicinal-product-type&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;MedicinalProduct&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Medicinal Product&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.type">type</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.domain">domain</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/medicinal-product-domain&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;Human&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Human use&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.domain">domain</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.status">status</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/publication-status&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;active&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.status">status</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.legalStatusOfSupply">legalStatusOfSupply</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000072084&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Medicinal product subject to medical prescription&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.legalStatusOfSupply">legalStatusOfSupply</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">name</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.productName">productName</a>
+                       <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Loratadine Flexpen 100 units/ml solution for injection in pre-filled pens&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.type">type</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000001&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Full name&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Loratadine FlexPen&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000002&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Invented name part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Insulin&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000003&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Scientific name part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;100 units/ml&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000004&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Strength part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;solution for injection in pre-filled pens&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000005&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Pharmaceutical dose form part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage">usage</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.country">country</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;GBR&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;United Kingdom&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.country">country</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.jurisdiction">jurisdiction</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;GBR&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;United Kingdom&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.jurisdiction">jurisdiction</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.language">language</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:ietf:bcp:47&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;English&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.language">language</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage">usage</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">name</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">MedicinalProductDefinition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle">Bundle</a>&gt;</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

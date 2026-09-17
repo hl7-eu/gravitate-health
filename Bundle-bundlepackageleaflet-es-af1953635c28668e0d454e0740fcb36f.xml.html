@@ -1,0 +1,1124 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI document Bundle for Aquilea Articulaciones Colageno y Magnesio 375gr Package Leaflet for language es - XML Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.164"}
+    h3,h4,h5,h6{--heading-prefix:"20.164"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for Aquilea Articulaciones Colageno y Magnesio 375gr Package Leaflet for language es</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: ePI document Bundle for Aquilea Articulaciones Colageno y Magnesio 375gr Package Leaflet for language es - XML Representation</h2>
+
+
+<p><a href="Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.xml" no-download="true">Raw xml</a> | <a href="Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle">Bundle</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XBundle.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XBundle.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XBundle.meta">meta</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XBundle.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;es&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.gravitatehealth.eu/sid/doc&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;acmedrug-xx&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.identifier">identifier</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;document&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.timestamp">timestamp</a> <a href="http://hl7.org/fhir/R5/datatypes.html#instant">value</a>=&quot;2023-06-27T10:09:22Z&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-3b8585822d27945de47423af5de9824d&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition">Composition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;composition-es-3b8585822d27945de47423af5de9824d&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;es&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;es&quot; lang=&quot;es&quot;&gt;&lt;a name=&quot;Composition_composition-es-3b8585822d27945de47423af5de9824d&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Composition composition-es-3b8585822d27945de47423af5de9824d&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;composition-es-3b8585822d27945de47423af5de9824d&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hccomposition-es-3b8585822d27945de47423af5de9824d&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Language: es&lt;/p&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html&quot;&gt;Composition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/rmswi/&lt;/code&gt;/23d476da249cad2649e668dacd805f23&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi/ 100000155538}&quot;&gt;Package Leaflet&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs R}&quot;&gt;Raw&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-02-16 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;a href=&quot;Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.html#Organization_mah-55692ec414f31dec233d83cfa4fdb9f9&quot;&gt;Organization ACME industry&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: TEST PURPOSES ONLY - Aquilea Articulaciones Colageno y Magnesio 375gr&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{http://hl7.org/fhir/composition-attestation-mode official}&quot;&gt;Official&lt;/span&gt;&lt;/td&gt;&lt;td&gt;2022-02-16 13:28:17+0000&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;23d476da249cad2649e668dacd805f23&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;final&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Package Leaflet&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">type</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.category">category</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                    <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;R&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Raw&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.category">category</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">subject</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">subject</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.date">date</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2022-02-16T13:28:17Z&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">author</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Organization/mah-55692ec414f31dec233d83cfa4fdb9f9&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">author</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.title">title</a>
+               <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;TEST PURPOSES ONLY - Aquilea Articulaciones Colageno y Magnesio 375gr&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester">attester</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester.mode">mode</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                      <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/composition-attestation-mode&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester.mode">mode</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester.time">time</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2022-02-16T13:28:17Z&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester">attester</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;B. PROSPECTO&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;B. PROSPECTO&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+            &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;This product is a OTC, epi pending&lt;/div&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;PROSPECTO: INFORMACIÓN PARA EL USUARIO&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;PROSPECTO: INFORMACIÓN PARA EL USUARIO&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;unavailable&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;unavailable&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Contenido del prospecto&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Contenido del prospecto&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam eros sollicitudin erat pellentesque semper. In tincidunt hendrerit scelerisque. Donec a venenatis eros, a dignissim augue. Nullam rhoncus pulvinar risus eu auctor. Proin non dui est. Pellentesque eleifend, est ac eleifend feugiat, nulla nibh vestibulum mi, ut hendrerit erat nunc volutpat tortor. Aenean dignissim orci ac pretium egestas. Phasellus vel fringilla velit. Nunc sed augue egestas, accumsan justo quis, malesuada massa. Donec nisl sem, fermentum ac lacus vel, ornare eleifend turpis. Curabitur ut feugiat neque, at faucibus ligula. Suspendisse in tristique sem. Aenean posuere, justo vitae vulputate elementum, mi risus sodales lectus, vitae laoreet sem lacus sit amet nisi. Phasellus porta nunc sed tortor ultricies, non sagittis quam venenatis. Nulla sit amet augue odio.&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;1. Qué es Aquilea y para qué se utiliza&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;1. Qué es Aquilea y para qué se utiliza&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Quisque posuere elit nec auctor imperdiet. Morbi id tortor nec odio molestie maximus. Phasellus id placerat velit. In ex enim, ultricies at maximus sit amet, luctus sit amet magna. Quisque in laoreet ligula, venenatis ultricies lectus. Quisque eleifend felis sed nulla consequat, eu tincidunt nisi gravida. Duis et lacinia ex. Aliquam pharetra vel metus at scelerisque. Integer ultricies dolor vestibulum nibh lacinia mollis. Ut tempor congue nulla eget molestie.&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;2. Qué necesita saber antes de empezar a tomar Aquilea&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a>
+                    <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;2. Qué necesita saber antes de empezar a tomar Aquilea&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Nunc velit ante, aliquet sed commodo ut, dictum eget lectus. Duis eu nulla ac dui pellentesque sodales. Curabitur pellentesque dolor metus, ut mollis est posuere sit amet. Praesent sagittis ligula vel est auctor congue. Duis varius ligula et faucibus porttitor. Ut placerat aliquet turpis, eget condimentum nibh porttitor ut. Morbi libero nisl, ullamcorper sit amet est a, dignissim rhoncus ante. Fusce suscipit enim et scelerisque vehicula. Suspendisse eu nulla porta, pharetra dolor et, blandit eros. Ut iaculis metus id purus scelerisque dignissim. Vivamus convallis placerat ex sit amet gravida. Nullam sed orci elit. Pellentesque tincidunt odio lacus, sit amet facilisis quam aliquam id.&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;3. Cómo tomar Aquilea&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;3. Cómo tomar Aquilea&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Fusce euismod justo eget sem dignissim convallis. Nulla a massa quis leo consectetur pulvinar. Sed aliquam nisl vel purus porta, id lobortis risus ultrices. Etiam quam elit, blandit vitae sem vel, rutrum fermentum velit. Integer congue libero eget bibendum dignissim. Suspendisse a cursus dui. Phasellus a venenatis dui. Sed luctus volutpat diam at consequat. Aliquam erat volutpat.&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;4. Posibles efectos adversos&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;4. Posibles efectos adversos&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Phasellus sed viverra lacus. Quisque iaculis massa gravida purus mattis consectetur. Praesent vestibulum porta iaculis. Nam semper massa vel interdum gravida. Donec vitae imperdiet enim, a lobortis ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sed metus ante. Aliquam ut libero mi. Pellentesque sit amet mi tempus dui euismod porta. Morbi interdum, magna vel convallis fringilla, neque ipsum tincidunt metus, quis semper elit dolor non orci. Ut sed tellus id mauris accumsan accumsan dictum ut nulla. Donec placerat lorem in enim rhoncus, vitae facilisis purus suscipit. Praesent quis diam nunc. Aenean in est luctus, hendrerit quam at, facilisis tellus. Sed efficitur lectus in libero lacinia tempus.&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;5. Conservación de Aquilea&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;5. Conservación de Aquilea&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Morbi egestas, sem id feugiat molestie, nisi libero faucibus urna, vel fermentum metus neque sit amet tellus. Nulla id dui tempor, suscipit augue eget, malesuada quam. Duis a lacinia leo, non finibus lectus. Vivamus at finibus odio. Nullam congue hendrerit cursus. Nunc sed dolor varius, aliquet lacus ut, ornare dolor. Donec condimentum dictum ultrices.&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;6. Contenido del envase e información adicional&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;6. Contenido del envase e información adicional&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Sed posuere ipsum quis lobortis feugiat. Nullam mauris ipsum, iaculis vitae ex quis, volutpat ornare lorem. Etiam feugiat bibendum nisi, eget ultricies mauris lobortis eget. Nulla consectetur lacus congue elit volutpat, volutpat laoreet augue commodo. Praesent congue diam et massa placerat tincidunt. Vivamus egestas est eget velit efficitur fermentum. Vestibulum id metus in nibh condimentum sagittis non convallis augue. Phasellus tortor eros, vehicula pharetra tellus sagittis, pretium sagittis elit. In vulputate arcu lectus, nec tristique orci luctus vitae. Quisque imperdiet tristique justo, eget faucibus elit aliquam et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus et luctus purus. Curabitur porta scelerisque ex. Duis non libero at quam fringilla volutpat sed ornare neque. Donec vel tellus non neque efficitur efficitur.&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition">Composition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-aquilea-magnesium&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient">Ingredient</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XIngredient.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;ingredient-for-aquilea-magnesium&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XIngredient.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XIngredient.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XIngredient.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Ingredient_ingredient-for-aquilea-magnesium&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Ingredient ingredient-for-aquilea-magnesium&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;ingredient-for-aquilea-magnesium&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcingredient-for-aquilea-magnesium&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html&quot;&gt;Ingredient (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://gsrs.ncats.nih.gov/ginas/app/beta&lt;/code&gt;/I38ZP9992A (use: official, )&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.html#ManufacturedItemDefinition_mid-af1953635c28668e0d454e0740fcb36f&quot;&gt;ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/96/007/035 (use: official, ); status = active; manufacturedDoseForm = Aerosol; unitOfPresentation = Bead&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.html#MedicinalProductDefinition_mp3b8585822d27945de47423af5de9824d&quot;&gt;MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#0xb9846396e9e1eedc4a344e7b64d57107; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.html#AdministrableProductDefinition_ap-af1953635c28668e0d454e0740fcb36f&quot;&gt;AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#id; status = active; administrableDoseForm = Tablet; unitOfPresentation = Tablet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 100000072072}&quot;&gt;Active&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta I38ZP9992A}&quot;&gt;magnesium&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Strengths&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Basis&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ACTIB}&quot;&gt;active ingredient - basis of strength&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XIngredient.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://gsrs.ncats.nih.gov/ginas/app/beta&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;I38ZP9992A&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.for">for</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.for">for</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.for">for</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.for">for</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.for">for</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;AdministrableProductDefinition/ap-af1953635c28668e0d454e0740fcb36f&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.for">for</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.role">role</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000072072&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Active&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.role">role</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance">substance</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#XCodeableReference.concept">concept</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://gsrs.ncats.nih.gov/ginas/app/beta&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;I38ZP9992A&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;magnesium&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#XCodeableReference.concept">concept</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance.code">code</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance.strength">strength</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance.strength.basis">basis</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleClass&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;ACTIB&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;active ingredient - basis of strength&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance.strength.basis">basis</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance.strength">strength</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance">substance</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient">Ingredient</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-aquilea-humantypeicollagen&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient">Ingredient</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XIngredient.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;ingredient-for-aquilea-humantypeicollagen&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XIngredient.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XIngredient.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XIngredient.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Ingredient_ingredient-for-aquilea-humantypeicollagen&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Ingredient ingredient-for-aquilea-humantypeicollagen&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;ingredient-for-aquilea-humantypeicollagen&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcingredient-for-aquilea-humantypeicollagen&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html&quot;&gt;Ingredient (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://gsrs.ncats.nih.gov/ginas/app/beta&lt;/code&gt;/PT3TGI7OIP (use: official, )&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.html#ManufacturedItemDefinition_mid-af1953635c28668e0d454e0740fcb36f&quot;&gt;ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/96/007/035 (use: official, ); status = active; manufacturedDoseForm = Aerosol; unitOfPresentation = Bead&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.html#MedicinalProductDefinition_mp3b8585822d27945de47423af5de9824d&quot;&gt;MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#0xb9846396e9e1eedc4a344e7b64d57107; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.html#AdministrableProductDefinition_ap-af1953635c28668e0d454e0740fcb36f&quot;&gt;AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#id; status = active; administrableDoseForm = Tablet; unitOfPresentation = Tablet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 100000072072}&quot;&gt;Active&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta PT3TGI7OIP}&quot;&gt;HUMAN TYPE I COLLAGEN&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Strengths&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Basis&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ACTIB}&quot;&gt;active ingredient - basis of strength&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XIngredient.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://gsrs.ncats.nih.gov/ginas/app/beta&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;PT3TGI7OIP&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.for">for</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.for">for</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.for">for</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.for">for</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.for">for</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;AdministrableProductDefinition/ap-af1953635c28668e0d454e0740fcb36f&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.for">for</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.role">role</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000072072&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Active&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.role">role</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance">substance</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#XCodeableReference.concept">concept</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://gsrs.ncats.nih.gov/ginas/app/beta&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;PT3TGI7OIP&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;HUMAN TYPE I COLLAGEN&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#XCodeableReference.concept">concept</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance.code">code</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance.strength">strength</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance.strength.basis">basis</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleClass&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;ACTIB&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;active ingredient - basis of strength&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance.strength.basis">basis</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance.strength">strength</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient.substance">substance</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/ingredient.html#XIngredient">Ingredient</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-magnesium&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#XSubstanceDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#XSubstanceDefinition">SubstanceDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XSubstanceDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;substance-magnesium&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XSubstanceDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XSubstanceDefinition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XSubstanceDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;SubstanceDefinition_substance-magnesium&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: SubstanceDefinition substance-magnesium&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;substance-magnesium&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcsubstance-magnesium&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-SubstanceDefinition-uv-epi.html&quot;&gt;SubstanceDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://gsrs.ncats.nih.gov/ginas/app/beta/&lt;/code&gt;/I38ZP9992A (use: official, )&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/publication-status active}&quot;&gt;Active&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;manufacturer&lt;/b&gt;: &lt;a href=&quot;Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.html#Organization_mah-55692ec414f31dec233d83cfa4fdb9f9&quot;&gt;Organization ACME industry&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XSubstanceDefinition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#XSubstanceDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://gsrs.ncats.nih.gov/ginas/app/beta/&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;I38ZP9992A&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/substancedefinition.html#XSubstanceDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#XSubstanceDefinition.status">status</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/publication-status&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/substancedefinition.html#XSubstanceDefinition.status">status</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#XSubstanceDefinition.manufacturer">manufacturer</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Organization/mah-55692ec414f31dec233d83cfa4fdb9f9&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/substancedefinition.html#XSubstanceDefinition.manufacturer">manufacturer</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/substancedefinition.html#XSubstanceDefinition">SubstanceDefinition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-af1953635c28668e0d454e0740fcb36f&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition">AdministrableProductDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XAdministrableProductDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;ap-af1953635c28668e0d454e0740fcb36f&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XAdministrableProductDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XAdministrableProductDefinition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XAdministrableProductDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;AdministrableProductDefinition_ap-af1953635c28668e0d454e0740fcb36f&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: AdministrableProductDefinition ap-af1953635c28668e0d454e0740fcb36f&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;ap-af1953635c28668e0d454e0740fcb36f&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcap-af1953635c28668e0d454e0740fcb36f&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-AdministrableProductDefinition-uv-epi.html&quot;&gt;AdministrableProductDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/pmswi&lt;/code&gt;/id&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;formOf&lt;/b&gt;: &lt;a href=&quot;Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.html#MedicinalProductDefinition_mp3b8585822d27945de47423af5de9824d&quot;&gt;MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#0xb9846396e9e1eedc4a344e7b64d57107; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;administrableDoseForm&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 100000073664}&quot;&gt;Tablet&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;unitOfPresentation&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 200000002152}&quot;&gt;Tablet&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;producedFrom&lt;/b&gt;: &lt;a href=&quot;Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.html#ManufacturedItemDefinition_mid-af1953635c28668e0d454e0740fcb36f&quot;&gt;ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/96/007/035 (use: official, ); status = active; manufacturedDoseForm = Aerosol; unitOfPresentation = Bead&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;routeOfAdministration&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 100000073619}&quot;&gt;Oral use&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;TargetSpecies&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 100000109093}&quot;&gt;Human&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XAdministrableProductDefinition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/pmswi&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;id&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.formOf">formOf</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.formOf">formOf</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.administrableDoseForm">administrableDoseForm</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000073664&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Tablet&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.administrableDoseForm">administrableDoseForm</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.unitOfPresentation">unitOfPresentation</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;200000002152&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Tablet&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.unitOfPresentation">unitOfPresentation</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.producedFrom">producedFrom</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.producedFrom">producedFrom</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.routeOfAdministration">routeOfAdministration</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.routeOfAdministration.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000073619&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Oral use&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.routeOfAdministration.code">code</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.routeOfAdministration.targetSpecies">targetSpecies</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.routeOfAdministration.targetSpecies.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000109093&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Human&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.routeOfAdministration.targetSpecies.code">code</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.routeOfAdministration.targetSpecies">targetSpecies</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition.routeOfAdministration">routeOfAdministration</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#XAdministrableProductDefinition">AdministrableProductDefinition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationaf1953635c28668e0d454e0740fcb36f0&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#XRegulatedAuthorization">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#XRegulatedAuthorization">RegulatedAuthorization</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XRegulatedAuthorization.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;authorizationaf1953635c28668e0d454e0740fcb36f0&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XRegulatedAuthorization.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;RegulatedAuthorization_authorizationaf1953635c28668e0d454e0740fcb36f0&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: RegulatedAuthorization authorizationaf1953635c28668e0d454e0740fcb36f0&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;authorizationaf1953635c28668e0d454e0740fcb36f0&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcauthorizationaf1953635c28668e0d454e0740fcb36f0&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/pmswi&lt;/code&gt;/aquilea-1 (use: official, )&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=&quot;Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.html#MedicinalProductDefinition_mp3b8585822d27945de47423af5de9824d&quot;&gt;MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#0xb9846396e9e1eedc4a344e7b64d57107; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 220000000061}&quot;&gt;Marketing Authorisation&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/publication-status active}&quot;&gt;Active&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;statusDate&lt;/b&gt;: 2015-02-07 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;holder&lt;/b&gt;: &lt;a href=&quot;Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.html#Organization_mah-55692ec414f31dec233d83cfa4fdb9f9&quot;&gt;Organization ACME industry&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XRegulatedAuthorization.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#XRegulatedAuthorization.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/pmswi&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;aquilea-1&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#XRegulatedAuthorization.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#XRegulatedAuthorization.subject">subject</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#XRegulatedAuthorization.subject">subject</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#XRegulatedAuthorization.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000061&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Marketing Authorisation&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#XRegulatedAuthorization.type">type</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#XRegulatedAuthorization.status">status</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/publication-status&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Active&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#XRegulatedAuthorization.status">status</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#XRegulatedAuthorization.statusDate">statusDate</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2015-02-07T13:28:17Z&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#XRegulatedAuthorization.holder">holder</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Organization/mah-55692ec414f31dec233d83cfa4fdb9f9&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#XRegulatedAuthorization.holder">holder</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#XRegulatedAuthorization">RegulatedAuthorization</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-55692ec414f31dec233d83cfa4fdb9f9&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization">Organization</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XOrganization.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;mah-55692ec414f31dec233d83cfa4fdb9f9&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XOrganization.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XOrganization.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XOrganization.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Organization_mah-55692ec414f31dec233d83cfa4fdb9f9&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Organization mah-55692ec414f31dec233d83cfa4fdb9f9&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;mah-55692ec414f31dec233d83cfa4fdb9f9&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcmah-55692ec414f31dec233d83cfa4fdb9f9&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Organization-uv-epi.html&quot;&gt;Organization (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/omswi&lt;/code&gt;/ORG-100000789 (use: official, )&lt;/p&gt;&lt;p&gt;&lt;b&gt;active&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 220000000034}&quot;&gt;Marketing authorisation holder&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: ACME industry&lt;/p&gt;&lt;h3&gt;Contacts&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Address&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;street x and y Paris FR(work)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XOrganization.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/omswi&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;ORG-100000789&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.active">active</a> <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000034&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Marketing authorisation holder&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.type">type</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;ACME industry&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.contact">contact</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ExtendedContactDetail#XExtendedContactDetail.address">address</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;work&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;physical&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;street x and y Paris FR&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.line">line</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;street x and y&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.city">city</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Paris&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.country">country</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;FR&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/metadatatypes.html#ExtendedContactDetail#XExtendedContactDetail.address">address</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.contact">contact</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/organization.html#XOrganization">Organization</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-6b96042e191f6f2105954b57d9ea5780&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">PackagedProductDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;ppd-6b96042e191f6f2105954b57d9ea5780&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XPackagedProductDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;PackagedProductDefinition_ppd-6b96042e191f6f2105954b57d9ea5780&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition ppd-6b96042e191f6f2105954b57d9ea5780&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;ppd-6b96042e191f6f2105954b57d9ea5780&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcppd-6b96042e191f6f2105954b57d9ea5780&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/pmswi&lt;/code&gt;/EU/1/97/049/001 (use: official, )&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Aquilea Articulaciones Colageno y Magnesio 375gr 28&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 100000155527}&quot;&gt;Chemical Medicinal Product&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=&quot;Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.html#MedicinalProductDefinition_mp3b8585822d27945de47423af5de9824d&quot;&gt;MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#0xb9846396e9e1eedc4a344e7b64d57107; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/publication-status active}&quot;&gt;Active&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;statusDate&lt;/b&gt;: 2015-02-07 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;containedItemQuantity&lt;/b&gt;: 75 mg&lt;span style=&quot;background: LightGoldenRodYellow&quot;&gt; (Details: UCUM  codemg = 'mg')&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;packaging&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 100000073498}&quot;&gt;Box&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;quantity&lt;/b&gt;: 1&lt;/p&gt;&lt;p&gt;&lt;b&gt;material&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 200000003529}&quot;&gt;Cardboard&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;packaging&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/pmswi&lt;/code&gt;/123456&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 100000073496}&quot;&gt;Blister&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;quantity&lt;/b&gt;: 28&lt;/p&gt;&lt;p&gt;&lt;b&gt;material&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 200000003222}&quot;&gt;PolyVinyl Chloride&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;containedItem&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Items&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Reference&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;Bundle-bundlepackageleaflet-es-af1953635c28668e0d454e0740fcb36f.html#ManufacturedItemDefinition_mid-af1953635c28668e0d454e0740fcb36f&quot;&gt;ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/96/007/035 (use: official, ); status = active; manufacturedDoseForm = Aerosol; unitOfPresentation = Bead&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XPackagedProductDefinition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/pmswi&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;EU/1/97/049/001&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Aquilea Articulaciones Colageno y Magnesio 375gr 28&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155527&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Chemical Medicinal Product&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.type">type</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packageFor">packageFor</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packageFor">packageFor</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.status">status</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/publication-status&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Active&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.status">status</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.statusDate">statusDate</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2015-02-07T13:28:17Z&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.containedItemQuantity">containedItemQuantity</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#XQuantity.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#decimal">value</a>=&quot;75&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#XQuantity.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#XQuantity.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;mg&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.containedItemQuantity">containedItemQuantity</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging">packaging</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.type">type</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000073498&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Box&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.quantity">quantity</a> <a href="http://hl7.org/fhir/R5/datatypes.html#integer">value</a>=&quot;1&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.material">material</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;200000003529&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Cardboard&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.material">material</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.packaging">packaging</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.identifier">identifier</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/pmswi&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;123456&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.identifier">identifier</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000073496&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Blister&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.type">type</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.quantity">quantity</a> <a href="http://hl7.org/fhir/R5/datatypes.html#integer">value</a>=&quot;28&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.material">material</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;200000003222&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;PolyVinyl Chloride&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.material">material</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.containedItem">containedItem</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.containedItem.item">item</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#XCodeableReference.reference">reference</a>&gt;
+                  &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>
+                             <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f&quot;/&gt;
+                &lt;/<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#XCodeableReference.reference">reference</a>&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.containedItem.item">item</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.containedItem">containedItem</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging.packaging">packaging</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packaging">packaging</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">PackagedProductDefinition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp3b8585822d27945de47423af5de9824d&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">MedicinalProductDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;mp3b8585822d27945de47423af5de9824d&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;MedicinalProductDefinition_mp3b8585822d27945de47423af5de9824d&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition mp3b8585822d27945de47423af5de9824d&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;mp3b8585822d27945de47423af5de9824d&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcmp3b8585822d27945de47423af5de9824d&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html&quot;&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/pmswi&lt;/code&gt;/0xb9846396e9e1eedc4a344e7b64d57107&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/medicinal-product-type MedicinalProduct}&quot;&gt;Medicinal Product&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;domain&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/medicinal-product-domain Human}&quot;&gt;Human use&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/publication-status active}&quot;&gt;active&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;legalStatusOfSupply&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 100000072084}&quot;&gt;Medicinal product subject to medical prescription&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;productName&lt;/b&gt;: Aquilea Articulaciones Colageno y Magnesio 375gr&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000001}&quot;&gt;Full name&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: Aquilea&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000002}&quot;&gt;Invented name part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: Colageneo y Magnesio&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000003}&quot;&gt;Scientific name part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: 375 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000004}&quot;&gt;Strength part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: tablet&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000005}&quot;&gt;Pharmaceutical dose form part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h3&gt;Usages&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Country&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Jurisdiction&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Language&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{urn:iso:std:iso:3166 ES}&quot;&gt;Spain&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{urn:iso:std:iso:3166 ES}&quot;&gt;Spain&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{urn:ietf:bcp:47 es}&quot;&gt;Spanish&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/pmswi&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;0xb9846396e9e1eedc4a344e7b64d57107&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/medicinal-product-type&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;MedicinalProduct&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Medicinal Product&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.type">type</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.domain">domain</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/medicinal-product-domain&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;Human&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Human use&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.domain">domain</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.status">status</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/publication-status&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;active&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.status">status</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.legalStatusOfSupply">legalStatusOfSupply</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000072084&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Medicinal product subject to medical prescription&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.legalStatusOfSupply">legalStatusOfSupply</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">name</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.productName">productName</a>
+                       <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Aquilea Articulaciones Colageno y Magnesio 375gr&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.type">type</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000001&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Full name&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Aquilea&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000002&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Invented name part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Colageneo y Magnesio&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000003&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Scientific name part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;375 mg&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000004&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Strength part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;tablet&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000005&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Pharmaceutical dose form part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage">usage</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.country">country</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;ES&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Spain&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.country">country</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.jurisdiction">jurisdiction</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;ES&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Spain&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.jurisdiction">jurisdiction</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.language">language</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:ietf:bcp:47&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;es&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Spanish&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.language">language</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage">usage</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">name</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">MedicinalProductDefinition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-af1953635c28668e0d454e0740fcb36f&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#XManufacturedItemDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#XManufacturedItemDefinition">ManufacturedItemDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XManufacturedItemDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;mid-af1953635c28668e0d454e0740fcb36f&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XManufacturedItemDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XManufacturedItemDefinition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XManufacturedItemDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;ManufacturedItemDefinition_mid-af1953635c28668e0d454e0740fcb36f&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: ManufacturedItemDefinition mid-af1953635c28668e0d454e0740fcb36f&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;mid-af1953635c28668e0d454e0740fcb36f&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcmid-af1953635c28668e0d454e0740fcb36f&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-ManufacturedItemDefinition-uv-epi.html&quot;&gt;ManufacturedItemDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/pmswi&lt;/code&gt;/EU/1/96/007/035 (use: official, )&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;manufacturedDoseForm&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi/ 100000143522}&quot;&gt;Aerosol&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;unitOfPresentation&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 200000022797}&quot;&gt;Bead&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XManufacturedItemDefinition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#XManufacturedItemDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/pmswi&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;EU/1/96/007/035&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#XManufacturedItemDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#XManufacturedItemDefinition.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#XManufacturedItemDefinition.manufacturedDoseForm">manufacturedDoseForm</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000143522&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Aerosol&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#XManufacturedItemDefinition.manufacturedDoseForm">manufacturedDoseForm</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#XManufacturedItemDefinition.unitOfPresentation">unitOfPresentation</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;200000022797&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Bead&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#XManufacturedItemDefinition.unitOfPresentation">unitOfPresentation</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#XManufacturedItemDefinition">ManufacturedItemDefinition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle">Bundle</a>&gt;</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

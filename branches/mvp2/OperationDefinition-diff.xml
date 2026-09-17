@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OperationDefinition xmlns="http://hl7.org/fhir">
+  <id value="diff"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p>URL: [base]/$diff</p><p>Parameters</p><table class="grid"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>old</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R5/resource.html">Resource</a></td><td/><td/></tr><tr><td>IN</td><td>new</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R5/resource.html">Resource</a></td><td/><td/></tr></table></div>
+  </text>
+  <url value="http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/diff"/>
+  <version value="0.1.0"/>
+  <name value="Diff"/>
+  <status value="active"/>
+  <kind value="operation"/>
+  <date value="2024-03-14T09:41:47+00:00"/>
+  <publisher value="Gravitate Health Project"/>
+  <contact>
+    <name value="Gravitate Health Project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.gravitatehealth.eu/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Gravitate Health Project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.gravitatehealth.eu/"/>
+    </telecom>
+  </contact>
+  <description value="This operation calculates a diff between two FHIR resources - ie. a vanilla ePI FHIR bundle and a focused ePI FHIR bundle. The format follows the one defined at [HAPI](https://hapifhir.io/hapi-fhir/docs/server_jpa/diff.html)"/>
+  <affectsState value="false"/>
+  <code value="diff"/>
+  <system value="true"/>
+  <type value="false"/>
+  <instance value="false"/>
+  <parameter>
+    <name value="old"/>
+    <use value="in"/>
+    <min value="1"/>
+    <max value="1"/>
+    <type value="Resource"/>
+  </parameter>
+  <parameter>
+    <name value="new"/>
+    <use value="in"/>
+    <min value="1"/>
+    <max value="1"/>
+    <type value="Resource"/>
+  </parameter>
+</OperationDefinition>

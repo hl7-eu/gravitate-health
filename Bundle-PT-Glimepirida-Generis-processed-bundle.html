@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>PT-Glimepirida-Generis-processed-bundle - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.342"}
+    h3,h4,h5,h6{--heading-prefix:"20.342"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PT-Glimepirida-Generis-processed-bundle</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-PT-Glimepirida-Generis-processed-bundle.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-PT-Glimepirida-Generis-processed-bundle.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-PT-Glimepirida-Generis-processed-bundle.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Example Bundle: PT-Glimepirida-Generis-processed-bundle</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  Processed
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+
+  
+    <h3 class="nonumbers">Folheto informativo: Informação para o utilizador</h3>
+    <p>
+      
+      
+      <div xmlns="http://www.w3.org/1999/xhtml"><h1>Folheto informativo: Informação para o utilizador</h1><h2>Glimepirida Generis 1 mg comprimidos</h2><h2>Glimepirida Generis 2 mg comprimidos</h2><h2>Glimepirida Generis 3 mg comprimidos</h2><h2>Glimepirida Generis 4 mg comprimidos</h2><h3>Glimepirida</h3></div></p>
+    
+      
+
+        <h4 class="nonumbers">Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois contém informação importante para si.</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><h2>Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois contém informação importante para si.</h2><div class="paragraph"><ul><li>Conserve este folheto. Pode ter necessidade de o ler novamente. Caso ainda tenha dúvidas, fale com o seu médico ou farmacêutico.</li><li>Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença.</li><li>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.</li></ul></div></div></p>
+
+      
+
+        <h4 class="nonumbers">O que contém este folheto:</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><div class="paragraph"><ol><li>O que é Glimepirida Generis e para que é utilizado</li><li>O que precisa de saber antes de tomar Glimepirida Generis 3. Como tomar Glimepirida Generis</li><li>Efeitos indesejáveis possíveis</li><li>Como conservar Glimepirida Generis</li><li>Conteúdo da embalagem e outras informações</li></ol></div></div></p>
+
+      
+
+        <h4 class="nonumbers">1. O que é Glimepirida Generis e para que é utilizado</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><div class="paragraph">Glimepirida Generis é um medicamento ativo por via oral que baixa o nível de açúcar no sangue. Este medicamento pertence a um grupo de medicamentos que baixam o nível de açúcar no sangue chamados sulfonilureias. Glimepirida Generis atua aumentando a quantidade de insulina libertada pelo seu pâncreas. A insulina baixa os seus níveis de açúcar no sangue.</div><div class="paragraph">Para que é utilizado Glimepirida Generis:</div><div class="paragraph">Glimepirida Generis é usado para tratar uma certa forma de diabetes (diabetes mellitus tipo 2) quando a dieta, o exercício físico e a perda de peso por si só não são capazes de controlar os seus níveis de açúcar no sangue.</div></div></p>
+
+      
+
+        <h4 class="nonumbers">2. O que precisa de saber antes de tomar Glimepirida Generis</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><div><h3>Não tome Glimepirida Generis:</h3><div class="paragraph"><ul><li>se tem alergia à glimepirida ou outras sulfonilureias (medicamentos usados para diminuir o seu nível de açúcar no sangue, tal como a glibenclamida) ou sulfonamidas (medicamentos usados para infeções bacterianas, tal como o sulfametoxazol) ou a qualquer outro componente deste medicamento (indicados na secção 6)</li><li>se tem diabetes insulinodependente (diabetes mellitus tipo 1)</li><li>se tem cetoacidose diabética (uma complicação da diabetes em que os níveis de ácido estão aumentados no seu organismo e em que poderá ter alguns dos seguintes sinais: cansaço, mal-estar (náuseas), elevada frequência urinária e rigidez muscular)</li><li>se está em coma diabético</li><li>se tem doença grave nos rins</li><li>se tem doença grave no fígado.</li></ul></div><div class="paragraph">Não tome este medicamento se alguma das situações acima se aplica a si. Se não tem a certeza, fale com o seu médico ou farmacêutico antes de tomar Glimepirida Generis.</div></div><div><h3>Advertências e precauções</h3><div class="paragraph">Fale com o seu médico ou farmacêutico antes de tomar Glimepirida Generis se:<br/>Está a recuperar de uma ferida, operação, infeções com febre ou de outras formas de stress, informe o seu médico, uma vez que pode ser necessário uma mudança temporária do tratamento<br/>Tem uma alteração grave no fígado ou nos rins.</div><div class="paragraph">Se não tiver a certeza se alguma das situações descritas se aplica a si, fale com o seu médico ou farmacêutico antes de tomar Glimepirida Generis.</div><div class="paragraph">A diminuição do nível de hemoglobina e a quebra dos glóbulos vermelhos do sangue (anemia hemolítica) pode ocorrer em doentes sem a enzima glucose-6-fosfato desidrogenase.</div><div class="paragraph">A informação disponível sobre uso de Glimepirida Generis em pessoas com menos de 18 anos de idade é limitada. Assim, a utilização nestes doentes não é recomendada.</div><span class="inline-title">Informação importante sobre hipoglicemia (nível baixo de açúcar no sangue)</span><div class="paragraph">Quando toma Glimepirida Generis, pode ter hipoglicemia (nível baixo de açúcar no sangue). Por favor ver abaixo a informação adicional sobre hipoglicemia, os seus sinais e tratamento.</div><span class="inline-title">Os seguintes fatores podem aumentar o risco de ter hipoglicemia:</span><div class="paragraph"><ul><li>Subnutrição, refeições irregulares, falhadas ou atrasadas, ou períodos de jejum Alterações da dieta</li><li>Tomar mais Glimepirida Generis do que o necessário Rins que não funcionem corretamente</li><li>Doença grave no fígado.</li><li>Se sofre de alterações particulares induzidas por hormonas (alterações das glândulas da tiroide, da glândula pituitária e do córtex adrenal)</li><li>Beber álcool (especialmente quando falha uma refeição).</li><li>Tomar outros medicamentos (ver &quot;Outros medicamentos e Glimepirida Generis&quot; abaixo).</li><li>Se aumentar a quantidade de exercício e não comer o suficiente, ou comer alimentos com menos hidratos de carbono do que o habitual.</li></ul></div><span class="inline-title">Os sinais da hipoglicemia incluem:</span><div class="paragraph">Sensação de fome, dores de cabeça, náuseas, vómitos, apatia, sonolência, perturbação do sono, inquietude, agressividade, problemas de concentração, diminuição do sentido de alerta e do tempo de reação, depressão, confusão, perturbações da fala e da visão, discurso desarticulado, tremor, paralisia parcial, tonturas, sensação de desespero.</div><div class="paragraph">Os seguintes sinais também podem ocorrer: suor, pele húmida, ansiedade, batimento cardíaco rápido ou aumentado, pressão arterial elevada, palpitações, dor forte súbita no peito que pode irradiar para as áreas vizinhas (angina de peito e arritmias cardíacas).</div><div class="paragraph">Se os níveis de açúcar no sangue continuarem a descer, pode sentir-se consideravelmente confuso (delírio), desenvolver convulsões, perder o autocontrolo, a respiração pode ser pouco profunda e o seu batimento cardíaco desacelerar, pode ficar inconsciente. A situação clínica de uma descida grave de açúcar no sangue pode parecer a de um enfarte.</div><span class="inline-title">Tratar a hipoglicemia:</span><div class="paragraph">Na maioria dos casos, os sinais de redução do nível de açúcar no sangue desaparecem muito rápido quando consome alguma forma de açúcar, como por exemplo cubos de açúcar, sumo doce e chá açucarado.<br/>Deve por isso levar sempre consigo alguma forma de açúcar (como por exemplo cubos de açúcar). Lembre-se que os adoçantes artificiais não são eficazes. Por favor contacte o seu médico ou vá ao hospital se a toma de açúcar não ajudar ou se os sintomas voltarem.</div><span class="inline-title">Testes laboratoriais</span><div class="paragraph">O nível de açúcar no seu sangue ou urina deve ser verificado com regularidade. O seu médico poderá também pedir exames sanguíneos para monitorizar os níveis das células sanguíneas e a função do fígado.</div><div class="paragraph">Crianças e adolescentes<br/>O uso de Glimepirida Generis não é recomendado em crianças com menos de 18 anos de idade.</div></div><div><h3>Outros medicamentos e Glimepirida Generis</h3><div class="paragraph">Informe o seu médico ou farmacêutico se estiver a tomar, ou tiver tomado recentemente, ou se vier a tomar outros medicamentos.</div><div class="paragraph">O seu médico poderá querer alterar a sua dose de Glimepirida Generis se estiver a tomar outros medicamentos que podem aumentar ou diminuir o efeito de Glimepirida Generis no nível de açúcar no seu sangue.</div><div class="paragraph">Os seguintes medicamentos podem aumentar o efeito que Glimepirida Generis tem na redução do nível de açúcar no sangue. Isto pode levar ao risco de hipoglicemia (nível baixo de açúcar no sangue):<ul><li>Outros medicamentos para tratar a diabetes mellitus (tal como a insulina ou metformina).</li><li>Medicamentos para tratar a dor e inflamação (fenilbutazona, azapropazona, oxifenobutazona, medicamentos semelhantes à aspirina).</li><li>Medicamentos para tratar infeções urinárias (tal como algumas sulfonamidas de ação prolongada).</li><li>Medicamentos para tratar infeções bacterianas e fúngicas (tetraciclinas, cloranfenicol, fluconazol, miconazol, quinolonas, claritromicina).</li><li>Medicamentos que inibem a coagulação do sangue (derivados cumarínicos como a varfarina).</li><li>Medicamentos que suportam a formação de músculo (anabólicos). Medicamentos usados para substituição de hormonas sexuais masculinas.</li></ul></div><div class="paragraph"><ul><li>Medicamentos para tratar a depressão (fluoxetina, inibidores da MAO). Medicamentos que baixam os níveis elevados de colesterol no sangue (fibratos). Medicamentos que baixam a pressão arterial elevada (inibidores da ECA).</li><li>Medicamentos chamados antiarritmicos, usados no controlo do batimento cardíaco anormal (disopiramida).</li><li>Medicamentos para tratar a gota (alopurinol, probenecida, sulfinpirazona). Medicamentos para tratar o cancro (ciclofosfamida, ifosfamidas, trofosfamida). Medicamentos usados para reduzir peso (fenfluramina).</li><li>Medicamentos que aumentam a circulação quando administrados numa dose elevada por perfusão intravenosa (pentoxifilina).</li><li>Medicamentos para tratar alergias nasais tal como a febre dos fenos (tritoqualina). Medicamentos chamados simpaticolíticos para tratar a pressão arterial elevada, insuficiência cardíaca ou sintomas da próstata.</li></ul></div><div class="paragraph">Os seguintes medicamentos podem diminuir o efeito que Glimepirida Generis tem na redução do nível de açúcar no sangue. Isto pode levar ao risco de hiperglicemia (nível elevado de açúcar no sangue):<ul><li>Medicamentos que contêm hormonas sexuais femininas (estrogéneos e progestagéneos).</li><li>Medicamentos usados para tratar a pressão arterial elevada e que promovem a produção de urina (diuréticos tiazídicos).</li><li>Medicamentos usados para estimular a glândula tiroideia (tal como a levotiroxina). Medicamentos para tratar alergias e inflamação (glucocorticoides).</li><li>Medicamentos para tratar perturbações mentais graves (cloropromazina e outros derivados fenotiazínicos).</li><li>Medicamentos usados para aumentar o batimento cardíaco, para tratar a asma ou a congestão nasal, tosse ou constipação, usados para reduzir o peso, ou usados em emergências de risco de vida (adrenalina e simpaticomiméticos).</li><li>Medicamentos para tratar o nível elevado de colesterol (ácido nicotínico). Medicamentos para tratar a obstipação quando são usados a longo prazo (laxantes). Medicamentos para tratar crises epiléticas (fenitoína).</li><li>Medicamentos para tratar problemas de nervosismo e de sono (barbitúricos). Medicamentos usados para tratar o aumento de pressão ocular (acetazolamida). Medicamentos usados para tratar a pressão arterial elevada ou diminuir o açúcar no sangue (diazóxido).</li><li>Medicamentos usados para tratar infeções, tuberculose (rifampicina).</li><li>Medicamentos usados para tratar situações graves de níveis baixos de açúcar no sangue (glucagom).</li></ul></div><div class="paragraph">Os seguintes medicamentos podem aumentar ou diminuir o efeito que Glimepirida Generis tem na redução do nível de açúcar no sangue:<ul><li>Medicamentos para tratar úlceras do estômago (chamados antagonistas H2). Medicamentos usados para tratar pressão arterial elevada ou insuficiência cardíaca, tais como bloqueadores beta, clonidina, guanetidina e reserpina. Estes podem também esconder sinais de hipoglicemia, pelo que é necessário um cuidado especial ao tomar estes medicamentos.</li></ul></div><div class="paragraph">Glimepirida Generis pode aumentar ou diminuir os efeitos dos seguintes medicamentos:<ul><li>Medicamentos que inibem a coagulação sanguínea (derivados cumarínicos como a varfarina).</li><li>Colesevelam, um medicamento utilizado para reduzir o colesterol, tem um efeito sobre a absorção de Glimepirida Generis. Para evitar este efeito, deve ser aconselhado a tomar Glimepirida Generis pelo menos 4 horas antes de colesevelam.</li></ul></div></div><div><h3>Glimepirida Generis com alimentos, bebidas e álcool</h3><div class="paragraph">A ingestão de álcool pode aumentar ou diminuir a ação que Glimepirida Generis tem na redução do nível de açúcar no sangue de uma forma imprevisível.</div></div><div class="pregnancyCategory"><h3>Gravidez, amamentação e fertilidade</h3><div class="paragraph"><i>Gravidez</i><br/>Glimepirida Generis não deve ser tomado durante a gravidez. Se está grávida, se pensa estar grávida ou planeia engravidar, informe o seu médico.<br/><i>Amamentação</i><br/>Glimepirida Generis pode passar para o leite materno. Glimepirida Generis não deve ser utilizado durante a amamentação.</div><div class="paragraph">Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento.</div></div><div><h3>Condução de veículos e utilização de máquinas</h3><div class="paragraph">A sua capacidade de concentração e de reação pode estar reduzida se o seu nível de açúcar no sangue diminuir (hipoglicemia) ou aumentar (hiperglicemia) ou se desenvolver problemas visuais como resultado destas condições. Tenha em mente que se pode magoar a si próprio ou aos outros (como por exemplo ao conduzir um carro ou a utilizar máquinas). Por favor pergunte ao seu médico se pode conduzir um carro se:<ul><li>tem episódios frequentes de hipoglicemia,</li><li>tem poucos ou nenhuns sinais de hipoglicemia</li></ul></div></div><div><h3>Glimepirida Generis contém lactose</h3><div class="paragraph">Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento.</div></div><div><h3>Glimepirida Generis contém sódio</h3><div class="paragraph">Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é praticamente &quot;isento de sódio&quot;.</div></div></div></p>
+
+      
+
+        <h4 class="nonumbers">3. Como tomar Glimepirida Generis</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><div class="paragraph">Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu médico ou farmacêutico se tiver dúvidas.</div><span class="inline-title">Ao tomar este medicamento</span><div class="paragraph">Tome este medicamento pela boca, mesmo antes ou durante a primeira refeição principal do dia (normalmente o pequeno almoço). Se não tomar o pequeno-almoço deve tomar o medicamento no horário prescrito pelo seu médico. É importante não falhar nenhuma refeição enquanto está a tomar Glimepirida Generis<br/>Engula os comprimidos inteiros com pelo menos metade de um copo de água. Não esmague ou mastigue os comprimidos</div><span class="inline-title">Que quantidade tomar</span><div class="paragraph">A dose de Glimepirida Generis depende das suas necessidades, condição e resultados das análises ao açúcar no sangue e urina e é determinada pelo seu médico. Não tome mais comprimidos que os prescritos pelo seu médico.<ul><li>A dose inicial recomendada é de um comprimido de Glimepirida Generis 1 mg uma vez por dia.</li><li>Se necessário, o seu médico pode aumentar a dose após cada 1 a 2 semanas de tratamento.</li><li>A dose máxima recomendada é de 6 mg de Glimepirida Generis por dia.</li><li>Pode ser iniciada uma terapêutica de combinação da glimepirida com metformina ou da glimepirida com insulina. Neste caso, o seu médico irá determinar as doses adequadas de glimepirida, metformina ou insulina individualmente para si.</li><li>A sua dose de Glimepirida Generis pode precisar de ser alterada se mudar de peso, mudar o seu estilo de vida ou se estiver numa situação de stress. Fale com o seu médico se alguma destas situações de aplica a si.</li><li>Se sentir que o efeito do seu medicamento é demasiado fraco ou demasiado forte não altere a dose sozinho, mas fale com o seu médico.</li></ul></div></div></p>
+
+      
+
+        <h4 class="nonumbers">4. Efeitos indesejáveis possíveis</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><div class="paragraph">Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se manifestem em todas as pessoas.</div><span class="inline-title">Diga ao seu médico imediatamente se tiver algum dos seguintes sintomas:</span><div class="paragraph"><ul><li>Reações alérgicas (incluindo inflamação dos vasos sanguíneos, geralmente com erupção na pele) que podem evoluir para reações graves com dificuldade de respirar, queda da pressão arterial e por vezes progressão até ao choque.</li><li>Fígado com função anormal incluindo amarelecimento da pele e olhos (icterícia), problemas com a circulação da bílis (colestase), inflamação do fígado (hepatite) ou falência do fígado.</li><li>Alergia (hipersensibilidade) da pele, tal como comichão, erupção cutânea, urticária e aumento da sensibilidade ao sol. Algumas reações ligeiras podem evoluir para reações graves.</li><li>Hipoglicemia grave incluindo perda de conciência, epilepsia ou coma.</li></ul></div><div class="paragraph">Alguns doentes experienciaram os seguintes efeitos adversos ao tomar Glimepirida Generis:</div><span class="inline-title">Efeitos indesejáveis raros (podem afetar até 1 em cada 1 000 pessoas)</span><div class="paragraph"><ul><li>Nível de açúcar no sangue mais baixo que o normal (hipoglicemia) (Ver Secção 2 - Advertências e precauções).</li><li>Diminuição do número de células sanguíneas:<ul><li>Plaquetas sanguíneas (o que aumenta o risco de hemorragia ou nódoas negras).</li><li>Glóbulos brancos (o que torna as infeções mais prováveis).</li><li>Glóbulos vermelhos (o que pode tornar a pele mais pálida e causar fraqueza ou dificuldade em respirar).</li></ul></li></ul>Estes problemas geralmente melhoram depois de parar de tomar Glimepirida Generis.</div><span class="inline-title">Efeitos indesejáveis muito raros (podem afetar até 1 em cada 10 000 pessoas)</span><div class="paragraph"><ul><li>Reações alérgicas (incluindo inflamação dos vasos sanguíneos, geralmente com erupção na pele) que podem evoluir para reações graves com dificuldade de respirar, queda da pressão arterial e por vezes progressão até ao choque. Se tiver algum destes sintomas, informe o seu médico imediatamente</li><li>Fígado com função anormal, incluindo amarelecimento da pele e olhos (icterícia), problemas com a circulação da bílis (colestase), inflamação do fígado (hepatite) ou insuficiência do fígado. Se tiver algum destes sintomas informe o seu médico imediatamente</li><li>Náuseas ou vómitos, diarreia, sentir-se cheio ou inchado e dor abdominal.</li><li>Diminuição do nível de sódio no seu sangue (demonstrado por análises sanguíneas).</li></ul></div><span class="inline-title">Outros efeitos indesejáveis incluem:</span><div class="paragraph"><ul><li>Pode ocorrer alergia (hipersensibilidade) da pele, tal como comichão, erupção cutânea, urticária e aumento da sensibilidade ao sol. Algumas reações ligeiras podem evoluir para reações graves com problemas em engolir e em respirar, inchaço dos lábios, garganta ou língua. Portanto, caso tenha um destes efeitos indesejáveis, informe o seu médico imediatamente</li><li>Podem ocorrer reações alérgicas com sulfonilureias, sulfonamidas ou medicamentos relacionados</li><li>Podem ocorrer problemas com a sua vista quando inicia o tratamento com Glimepirida Generis. Isto é devido a alterações nos seus níveis de açúcar no sangue e deve melhorar em breve.</li></ul></div><div class="paragraph">Aumento das enzimas hepáticas.</div><div class="paragraph">Hemorragias graves ou hematomas sob a pele.</div><span class="inline-title">Comunicação de efeitos indesejáveis</span><div class="paragraph">Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente ao INFARMED, I.P., através dos contactos abaixo. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</div><div class="paragraph">Sítio da internet: <a href="http://www.infarmed.pt/web/infarmed/submissaoram" title="http://www.infarmed.pt/web/infarmed/submissaoram">http://www.infarmed.pt/web/infarmed/submissaoram</a> (preferencialmente) ou através dos seguintes contactos:<br/>Direção de Gestão do Risco de Medicamentos Parque de Saúde de Lisboa, Av. Do Brasil 53 1749-004 Lisboa<br/>Tel: +351 21 798 73 73<br/>Linha do Medicamento: 800222444 (gratuita) E-mail: <a href="mailto:farmacovigilancia@infarmed.pt" title="farmacovigilancia@infarmed.pt">farmacovigilancia@infarmed.pt</a></div></div></p>
+
+      
+
+        <h4 class="nonumbers">5. Como conservar Glimepirida Generis</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><div class="paragraph">Manter este medicamento fora da vista e do alcance das crianças.</div><div class="paragraph">Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após EXP. O prazo de validade corresponde ao último dia do mês indicado.</div><div class="paragraph">O medicamento não necessita de quaisquer precauções especiais de conservação. Não utilize este medicamento se verificar sinais visíveis de deterioração.</div><div class="paragraph">Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</div></div></p>
+
+      
+
+        <h4 class="nonumbers">6. Conteúdo da embalagem e outras informações</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"></div></p>
+
+      
+    
+  
+
+</div>
+
+
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Glimepiride Generis, 2 mg, tablets
+  </h4>
+
+  
+  
+    MED_ID:
+    <b>
+      619944
+    </b>
+    </br>
+  
+  <hr>
+  
+  <p>Full name: <b>Glimepiride Generis, 2 mg, tablets</b></p>
+  
+
+
+  
+  
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b></b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b></b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+
+  
+  
+    
+
+  
+
+  
+
+
+      
+  
+</div>
+
+
+<!--
+  <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Glimepiride Generis, 2 mg, tablets
+  </h4>
+
+  
+  
+  
+  
+    MED_ID:
+    <b>
+      619944
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b></b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

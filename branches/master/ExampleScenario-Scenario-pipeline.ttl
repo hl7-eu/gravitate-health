@@ -1,0 +1,125 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/ExampleScenario/Scenario-pipeline> a fhir:ExampleScenario ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Scenario-pipeline"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ExampleScenario</b><a name=\"Scenario-pipeline\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ExampleScenario &quot;Scenario-pipeline&quot; </p></div><p><b>url</b>: <code>http://hl7.eu/fhir/ig/gravitate-health/ExampleScenario/Scenario-pipeline</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 2023-12-21 23:11:28+0000</p><p><b>publisher</b>: Gravitate Health Project</p><p><b>contact</b>: Gravitate Health Project: <a href=\"https://www.gravitatehealth.eu/\">https://www.gravitatehealth.eu/</a>, Gravitate Health Project: <a href=\"https://www.gravitatehealth.eu/\">https://www.gravitatehealth.eu/</a></p><blockquote><p><b>actor</b></p><p><b>key</b>: FS</p><p><b>type</b>: system</p><p><b>title</b>: FHIR Server</p></blockquote><blockquote><p><b>actor</b></p><p><b>key</b>: C</p><p><b>type</b>: system</p><p><b>title</b>: Client</p></blockquote><blockquote><p><b>instance</b></p><p><b>key</b>: 1</p><p><b>structureType</b>: Bundle (Details: http://hl7.org/fhir/fhir-types code Bundle = 'Bundle', stated as 'null')</p><p><b>title</b>: Raw ePI</p><p><b>description</b>: The epi without any annotations nor personalization: very similar to current pdf ones</p><p><b>content</b>: <a href=\"Bundle-bundlepackageleaflet-en-2d49ae46735143c1323423b7aea24165.html\">Bundle/bundlepackageleaflet-en-2d49ae46735143c1323423b7aea24165</a></p></blockquote><blockquote><p><b>instance</b></p><p><b>key</b>: 2</p><p><b>structureType</b>: Bundle (Details: http://hl7.org/fhir/fhir-types code Bundle = 'Bundle', stated as 'null')</p><p><b>title</b>: Preprocessed ePI</p><p><b>description</b>: The epi with annotations, however, this is not yet personalized and nothing is different in terms of user interface</p><p><b>content</b>: <a href=\"Bundle-Processedbundlekarvea.html\">Bundle/Processedbundlekarvea</a></p></blockquote><blockquote><p><b>instance</b></p><p><b>key</b>: 3</p><p><b>structureType</b>: Bundle (Details: http://hl7.org/fhir/fhir-types code Bundle = 'Bundle', stated as 'null')</p><p><b>title</b>: Focused ePI</p><p><b>description</b>: The epi with annotations and focused for a person. For this to happen, the IPS and similar artifact are brought in in order to adjust the ePI to the person's needs</p><p><b>content</b>: <a href=\"Bundle-enhancedddbundlekarvea.html\">Bundle/enhancedddbundlekarvea</a></p></blockquote><blockquote><p><b>process</b></p><p><b>title</b>: ePI Pipeline</p><blockquote><p><b>step</b></p><p><b>number</b>: 1</p><blockquote><p><b>operation</b></p><p><b>title</b>: Ask for Annotation</p><p><b>initiator</b>: C</p><p><b>receiver</b>: FS</p><h3>Requests</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>InstanceReference</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></blockquote></blockquote><blockquote><p><b>step</b></p><p><b>number</b>: 2</p><blockquote><p><b>operation</b></p><p><b>title</b>: Return annotated ePI</p><p><b>initiator</b>: FS</p><p><b>receiver</b>: C</p><h3>Requests</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>InstanceReference</b></td></tr><tr><td style=\"display: none\">*</td><td>2</td></tr></table></blockquote></blockquote><blockquote><p><b>step</b></p><p><b>number</b>: 3</p><blockquote><p><b>operation</b></p><p><b>title</b>: Ask focused ePI</p><p><b>initiator</b>: C</p><p><b>receiver</b>: FS</p><h3>Requests</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>InstanceReference</b></td></tr><tr><td style=\"display: none\">*</td><td>2</td></tr></table></blockquote></blockquote><blockquote><p><b>step</b></p><p><b>number</b>: 4</p><blockquote><p><b>operation</b></p><p><b>title</b>: Return focused ePI</p><p><b>initiator</b>: FS</p><p><b>receiver</b>: C</p><h3>Requests</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>InstanceReference</b></td></tr><tr><td style=\"display: none\">*</td><td>3</td></tr></table></blockquote></blockquote></blockquote></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/ExampleScenario/Scenario-pipeline"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-12-21T23:11:28+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Gravitate Health Project"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] ) ; # 
+  fhir:actor ( [
+     fhir:key [ fhir:v "FS" ] ;
+     fhir:type [ fhir:v "system" ] ;
+     fhir:title [ fhir:v "FHIR Server" ]
+  ] [
+     fhir:key [ fhir:v "C" ] ;
+     fhir:type [ fhir:v "system" ] ;
+     fhir:title [ fhir:v "Client" ]
+  ] ) ; # 
+  fhir:instance ( [
+     fhir:key [ fhir:v "1" ] ;
+     fhir:structureType [
+       fhir:system [ fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Bundle" ]
+     ] ;
+     fhir:title [ fhir:v "Raw ePI" ] ;
+     fhir:description [ fhir:v "The epi without any annotations nor personalization: very similar to current pdf ones" ] ;
+     fhir:content [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Bundle/bundlepackageleaflet-en-2d49ae46735143c1323423b7aea24165> ;
+       fhir:reference [ fhir:v "Bundle/bundlepackageleaflet-en-2d49ae46735143c1323423b7aea24165" ]
+     ]
+  ] [
+     fhir:key [ fhir:v "2" ] ;
+     fhir:structureType [
+       fhir:system [ fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Bundle" ]
+     ] ;
+     fhir:title [ fhir:v "Preprocessed ePI" ] ;
+     fhir:description [ fhir:v "The epi with annotations, however, this is not yet personalized and nothing is different in terms of user interface" ] ;
+     fhir:content [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Bundle/Processedbundlekarvea> ;
+       fhir:reference [ fhir:v "Bundle/Processedbundlekarvea" ]
+     ]
+  ] [
+     fhir:key [ fhir:v "3" ] ;
+     fhir:structureType [
+       fhir:system [ fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Bundle" ]
+     ] ;
+     fhir:title [ fhir:v "Focused ePI" ] ;
+     fhir:description [ fhir:v "The epi with annotations and focused for a person. For this to happen, the IPS and similar artifact are brought in in order to adjust the ePI to the person's needs" ] ;
+     fhir:content [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Bundle/enhancedddbundlekarvea> ;
+       fhir:reference [ fhir:v "Bundle/enhancedddbundlekarvea" ]
+     ]
+  ] ) ; # 
+  fhir:process ( [
+     fhir:title [ fhir:v "ePI Pipeline" ] ;
+     fhir:step ( [
+       fhir:number [ fhir:v "1" ] ;
+       fhir:operation [
+         fhir:title [ fhir:v "Ask for Annotation" ] ;
+         fhir:initiator [ fhir:v "C" ] ;
+         fhir:receiver [ fhir:v "FS" ] ;
+         fhir:request [
+           fhir:instanceReference [ fhir:v "1" ]
+         ]
+       ]
+     ] [
+       fhir:number [ fhir:v "2" ] ;
+       fhir:operation [
+         fhir:title [ fhir:v "Return annotated ePI" ] ;
+         fhir:initiator [ fhir:v "FS" ] ;
+         fhir:receiver [ fhir:v "C" ] ;
+         fhir:request [
+           fhir:instanceReference [ fhir:v "2" ]
+         ]
+       ]
+     ] [
+       fhir:number [ fhir:v "3" ] ;
+       fhir:operation [
+         fhir:title [ fhir:v "Ask focused ePI" ] ;
+         fhir:initiator [ fhir:v "C" ] ;
+         fhir:receiver [ fhir:v "FS" ] ;
+         fhir:request [
+           fhir:instanceReference [ fhir:v "2" ]
+         ]
+       ]
+     ] [
+       fhir:number [ fhir:v "4" ] ;
+       fhir:operation [
+         fhir:title [ fhir:v "Return focused ePI" ] ;
+         fhir:initiator [ fhir:v "FS" ] ;
+         fhir:receiver [ fhir:v "C" ] ;
+         fhir:request [
+           fhir:instanceReference [ fhir:v "3" ]
+         ]
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

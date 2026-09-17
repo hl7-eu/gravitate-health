@@ -1,0 +1,47 @@
+{
+  "resourceType" : "SubstanceDefinition",
+  "id" : "substance-mirtazapine",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"substance-mirtazapine\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;substance-mirtazapine&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0A051Q2099Q\u00a0(use:\u00a0OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>manufacturer</b>: <a href=\"Organization-mah-dbf32c7ed470ffbeb6060201f32edb29.html\">Organization/mah-dbf32c7ed470ffbeb6060201f32edb29</a> &quot;LABORATORIOS CINFA, S.A.&quot;</p><h3>MolecularWeights</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td style=\"display: none\">*</td><td>exact <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></td><td>265.35</td></tr></table><h3>Structures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>MolecularFormula</b></td></tr><tr><td style=\"display: none\">*</td><td>C17H19N3</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>1,2,3,4,10,14b-Hexahydro-2-methylpyrazino[2,1-a]pyrido[2,3-c]benzazepine</td><td>Chemical Name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#x)</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+    "value" : "A051Q2099Q"
+  }],
+  "version" : "1",
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active"
+    }]
+  },
+  "manufacturer" : [{
+    "reference" : "Organization/mah-dbf32c7ed470ffbeb6060201f32edb29"
+  }],
+  "molecularWeight" : [{
+    "type" : {
+      "text" : "exact"
+    },
+    "amount" : {
+      "value" : 265.35
+    }
+  }],
+  "structure" : {
+    "molecularFormula" : "C17H19N3"
+  },
+  "name" : [{
+    "name" : "1,2,3,4,10,14b-Hexahydro-2-methylpyrazino[2,1-a]pyrido[2,3-c]benzazepine",
+    "type" : {
+      "coding" : [{
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+        "code" : "x",
+        "display" : "Chemical Name"
+      }]
+    }
+  }]
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentReference xmlns="http://hl7.org/fhir">
+  <id value="asm-flucelvax-test-script-1"/>
+  <meta>
+    <profile value="http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalSupportMaterial"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: DocumentReference asm-flucelvax-test-script-1</b></p><a name="asm-flucelvax-test-script-1"> </a><a name="hcasm-flucelvax-test-script-1"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-AdditionalSupportMaterial.html">Additional Support Material Profile</a></p></div><p><b>RelatedMedicalIssue</b>: <span title="Codes:{http://snomed.info/sct 86406008}">Human immunodeficiency virus infection (disorder)</span></p><p><b>identifier</b>: <code>http://example.org</code>/testscript5</p><p><b>version</b>: 1.0</p><p><b>status</b>: Current</p><p><b>docStatus</b>: Final</p><p><b>category</b>: <span title="Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs MDM}">Medication and Disease Management</span></p><p><b>subject</b>: <a href="Bundle-bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1.html#MedicinalProductDefinition_mpb6ced64d25ea2c8da6c6099386f14db1">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/18/1326/001,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82717; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>author</b>: WEBMD</p><p><b>description</b>: </p><div><p>Immunizations for Preventable Diseases in Adults and Adolescents with HIV</p>
+</div><blockquote><p><b>content</b></p><h3>Attachments</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Extension</b></td><td><b>ContentType</b></td><td><b>Language</b></td><td><b>Url</b></td><td><b>Title</b></td></tr><tr><td style="display: none">*</td><td/><td>text/html</td><td>English</td><td><a href="https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/immunizations">https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/immunizations</a></td><td>Immunizations for Preventable Diseases in Adults and Adolescents with HIV</td></tr></table></blockquote></div>
+  </text>
+  <extension url="http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/RelatedMedicalIssue">
+    <valueCodeableReference>
+      <concept>
+        <coding>
+          <system value="http://snomed.info/sct"/>
+          <code value="86406008"/>
+          <display value="Human immunodeficiency virus infection (disorder)"/>
+        </coding>
+      </concept>
+    </valueCodeableReference>
+  </extension>
+  <identifier>
+    <system value="http://example.org"/>
+    <value value="testscript5"/>
+  </identifier>
+  <version value="1.0"/>
+  <status value="current"/>
+  <docStatus value="final"/>
+  <category>
+    <coding>
+      <system value="http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs"/>
+      <code value="MDM"/>
+    </coding>
+  </category>
+  <subject>
+    <reference value="MedicinalProductDefinition/mpb6ced64d25ea2c8da6c6099386f14db1"/>
+  </subject>
+  <author>
+    <display value="WEBMD"/>
+  </author>
+  <description value="Immunizations for Preventable Diseases in Adults and Adolescents with HIV"/>
+  <content>
+    <attachment>
+      <extension url="http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod">
+        <valueCode value="URL"/>
+      </extension>
+      <contentType value="text/html"/>
+      <language value="en"/>
+      <url value="https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/immunizations"/>
+      <title value="Immunizations for Preventable Diseases in Adults and Adolescents with HIV"/>
+    </attachment>
+  </content>
+</DocumentReference>

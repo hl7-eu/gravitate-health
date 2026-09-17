@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/DocumentReference/asm-3> a fhir:DocumentReference ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "asm-3"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalSupportMaterial"^^xsd:anyURI ;
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalSupportMaterial>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DocumentReference asm-3</b></p><a name=\"asm-3\"> </a><a name=\"hcasm-3\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-AdditionalSupportMaterial.html\">Additional Support Material Profile</a></p></div><p><b>identifier</b>: <code>http://example.org</code>/1</p><p><b>version</b>: 1.0</p><p><b>status</b>: Current</p><p><b>docStatus</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs SA}\">Support Administration</span></p><p><b>subject</b>: ACME DRUG</p><p><b>author</b>: GH</p><p><b>description</b>: </p><div><p>example of Additional material in strucutred  format</p>\n</div><blockquote><p><b>content</b></p><h3>Attachments</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ContentType</b></td><td><b>Language</b></td><td><b>Url</b></td><td><b>Title</b></td></tr><tr><td style=\"display: none\">*</td><td>application/json+fhir</td><td>English</td><td>Composition/Example</td><td>Example of Additional material in strucutred format</td></tr></table></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://example.org"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.0"] ; # 
+  fhir:status [ fhir:v "current"] ; # 
+  fhir:docStatus [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SA" ]
+     ] )
+  ] ) ; # 
+  fhir:subject [
+     fhir:display [ fhir:v "ACME DRUG" ]
+  ] ; # 
+  fhir:author ( [
+     fhir:display [ fhir:v "GH" ]
+  ] ) ; # 
+  fhir:description [ fhir:v "example of Additional material in strucutred  format"] ; # 
+  fhir:content ( [
+     fhir:attachment [
+       fhir:contentType [ fhir:v "application/json+fhir" ] ;
+       fhir:language [ fhir:v "en" ] ;
+       fhir:url [ fhir:v "Composition/Example"^^xsd:anyURI ] ;
+       fhir:title [ fhir:v "Example of Additional material in strucutred format" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

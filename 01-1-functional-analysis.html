@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Functional Analysis - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Functional Analysis</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+  <h2>Functional Analysis</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#purpose" id="markdown-toc-purpose">Purpose</a></li>
+  <li><a href="#functional-use-of-epi" id="markdown-toc-functional-use-of-epi">Functional Use of ePI</a></li>
+  <li><a href="#the-lens-concept-in-functional-context" id="markdown-toc-the-lens-concept-in-functional-context">The Lens Concept in Functional Context</a></li>
+  <li><a href="#key-functional-scenarios" id="markdown-toc-key-functional-scenarios">Key Functional Scenarios</a></li>
+  <li><a href="#functional-benefits" id="markdown-toc-functional-benefits">Functional Benefits</a></li>
+  <li><a href="#non-functional-aspects-supporting-conditions" id="markdown-toc-non-functional-aspects-supporting-conditions">Non-Functional Aspects (Supporting Conditions)</a></li>
+  <li><a href="#summary" id="markdown-toc-summary">Summary</a></li>
+</ul>
+
+</div>
+
+<p>This section describes the <strong>functional use of electronic Product Information (ePI)</strong> within the <strong>Gravitate Health (GH)</strong> ecosystem.<br />
+It focuses on how ePI is discovered, accessed, interpreted, and personalized for different users to support <strong>safe, informed, and empowered medicine use</strong>.</p>
+
+<hr />
+
+<h3 id="purpose">Purpose</h3>
+
+<p>The <strong>Gravitate Health Functional Analysis</strong> examines how the ePI — a trusted, regulator-approved source of information about medicines — can be <strong>leveraged in daily practice</strong> by patients, healthcare professionals (HCPs), and caregivers.</p>
+
+<p>Rather than introducing new content, Gravitate Health focuses on <strong>enhancing the usability and relevance</strong> of the existing ePI by tailoring it to the <strong>individual’s context and needs</strong>.</p>
+
+<p>This is achieved through the <strong>Lens concept</strong>, which filters, emphasizes, and presents ePI information in a <strong>personalized and accessible way</strong>.</p>
+
+<hr />
+
+<h3 id="functional-use-of-epi">Functional Use of ePI</h3>
+
+<p>The ePI provides structured and standardized information about a medicine, such as:</p>
+
+<ul>
+  <li>Therapeutic indications</li>
+  <li>Dosage and administration instructions</li>
+  <li>Contraindications and precautions</li>
+  <li>Adverse reactions</li>
+  <li>Storage and disposal instructions</li>
+</ul>
+
+<p>In traditional form, this information is static and identical for all users.<br />
+In the Gravitate Health framework, ePI becomes <strong>dynamic and user-centered</strong>, enabling tailored access and understanding.</p>
+
+<hr />
+
+<h3 id="the-lens-concept-in-functional-context">The Lens Concept in Functional Context</h3>
+
+<p>The <strong>Lens</strong> acts as a <strong>functional layer</strong> between the user and the ePI.<br />
+It does not modify the original content but <strong>personalizes its presentation</strong> based on user-specific parameters and context.</p>
+
+<h4 id="example-functions">Example functions</h4>
+
+<ul>
+  <li><strong>Filtering:</strong> Only show sections relevant to a user’s condition (e.g., pregnancy, diabetes).</li>
+  <li><strong>Highlighting:</strong> Emphasize warnings, dosage details, or interactions pertinent to a user’s medications.</li>
+  <li><strong>Simplifying:</strong> Present complex sections in plain language or alternative formats.</li>
+  <li><strong>Linking:</strong> Connect information from the ePI to trusted external resources (e.g., patient leaflets, educational materials).</li>
+</ul>
+
+<p>Each Lens configuration reflects a <strong>functional goal</strong> — for instance:</p>
+
+<ul>
+  <li><em>Support patient understanding of dosage and safety information</em></li>
+  <li><em>Assist clinicians in quickly identifying contraindications</em></li>
+  <li><em>Enable caregivers to manage medication safely for dependents</em></li>
+</ul>
+
+<hr />
+
+<h3 id="key-functional-scenarios">Key Functional Scenarios</h3>
+
+<table class="table-bordered">
+  <thead>
+    <tr>
+      <th>Scenario</th>
+      <th>Description</th>
+      <th>Primary Users</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Personalized ePI View</strong></td>
+      <td>A patient accesses the ePI for a prescribed medicine; the Lens highlights information relevant to their age, condition, or treatment plan.</td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td><strong>Clinical Consultation Support</strong></td>
+      <td>A healthcare professional reviews ePI content filtered to clinical safety aspects (e.g., contraindications, interactions) before prescribing.</td>
+      <td>HCP</td>
+    </tr>
+    <tr>
+      <td><strong>Medicine Use Education</strong></td>
+      <td>A caregiver views simplified, visual, or multilingual ePI formats to support safe administration.</td>
+      <td>Caregiver</td>
+    </tr>
+    <tr>
+      <td><strong>Digital Leaflet Access</strong></td>
+      <td>A user scans a QR code or link to access the ePI, ensuring they always see the latest, regulator-approved version.</td>
+      <td>All</td>
+    </tr>
+    <tr>
+      <td><strong>Feedback Loop</strong></td>
+      <td>User feedback helps improve Lens configurations and understand which information is most useful or confusing.</td>
+      <td>All</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="functional-benefits">Functional Benefits</h3>
+
+<p>The functional design of Gravitate Health supports several key outcomes:</p>
+
+<table class="table-bordered">
+  <thead>
+    <tr>
+      <th>Functional Area</th>
+      <th>Expected Benefit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Personalization</strong></td>
+      <td>Tailors information to individual needs, improving comprehension and relevance.</td>
+    </tr>
+    <tr>
+      <td><strong>Engagement</strong></td>
+      <td>Increases user interaction with medicine information through accessible and context-aware design.</td>
+    </tr>
+    <tr>
+      <td><strong>Safety</strong></td>
+      <td>Helps prevent misuse or misunderstanding by emphasizing critical warnings.</td>
+    </tr>
+    <tr>
+      <td><strong>Empowerment</strong></td>
+      <td>Encourages active participation in treatment decisions and self-management.</td>
+    </tr>
+    <tr>
+      <td><strong>Continuity of Care</strong></td>
+      <td>Enables consistent understanding of medicine information across patients, caregivers, and professionals.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="non-functional-aspects-supporting-conditions">Non-Functional Aspects (Supporting Conditions)</h3>
+
+<p>While the focus of this analysis is functional, certain enabling conditions are critical for success:</p>
+
+<ul>
+  <li><strong>Trust:</strong> The ePI must remain an authentic, regulator-approved source.</li>
+  <li><strong>Accessibility:</strong> Content must be understandable to diverse audiences and usable across devices.</li>
+  <li><strong>Interoperability:</strong> ePI should link seamlessly to digital health services and patient records.</li>
+  <li><strong>Sustainability:</strong> The functional model should adapt as ePI formats and regulations evolve.</li>
+</ul>
+
+<hr />
+
+<h3 id="summary">Summary</h3>
+
+<p>The <strong>functional perspective</strong> of Gravitate Health emphasizes how ePI is <strong>used in practice</strong> — not just how it is stored or transmitted.<br />
+Through the <strong>Lens concept</strong>, Gravitate Health enables <strong>meaningful personalization</strong> of trusted information, supporting:</p>
+
+<ul>
+  <li>Safer medicine use</li>
+  <li>Better communication between patients and professionals</li>
+  <li>Informed, empowered healthcare decisions</li>
+</ul>
+
+<p>In this way, the ePI becomes not just a document, but a <strong>living, user-centered information service</strong>.</p>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

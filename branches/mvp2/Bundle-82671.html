@@ -1,0 +1,1466 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>REMICADE kuiva-aine välikonsentraatiksi infuusionestettä varten, liuos 100 mg (Bundle) - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.496"}
+    h3,h4,h5,h6{--heading-prefix:"16.496"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>REMICADE kuiva-aine välikonsentraatiksi infuusionestettä varten, liuos 100 mg (Bundle)</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-82671.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-82671.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-82671.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Bundle: REMICADE kuiva-aine välikonsentraatiksi infuusionestettä varten, liuos 100 mg (Bundle)</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>Lisätietoa</h3>
+    <p>
+      <div>
+                     <b></b>
+                     <b>
+                        <strong>Remicade 100 mg kuiva-aine välikonsentraatiksi infuusionestettä varten, liuos</strong>
+                     </b>
+                     <p>infliksimabi (infliximab.)</p>
+                     <p></p>
+                  </div></p>
+    
+      
+
+        <h4>Yleisiä ohjeita</h4>
+        <p>
+          <div>
+                        <h2>Yleisiä ohjeita</h2>
+                        <p>
+                           <strong>Lue tämä pakkausseloste huolellisesti ennen kuin aloitat tämän lääkkeen käyttämisen, sillä se sisältää sinulle tärkeitä tietoja.</strong>
+                        </p>
+                        <ul>
+                           <li>Säilytä tämä pakkausseloste. Voit tarvita sitä myöhemmin.</li>
+                           <li>Lääkäri antaa sinulle myös potilaskortin, joka sisältää tärkeää turvallisuuteen liittyvää tietoa, mikä sinun tulee tietää ennen Remicade-hoidon aloitusta ja hoidon aikana.</li>
+                           <li>Jos sinulla on kysyttävää, käänny lääkärin puoleen.</li>
+                           <li>Tämä lääke on määrätty vain sinulle eikä sitä pidä antaa muiden käyttöön. Se voi aiheuttaa haittaa muille, vaikka heillä olisikin samanlaiset oireet kuin sinulla.</li>
+                           <li>Jos havaitset haittavaikutuksia, kerro niistä lääkärille. Tämä koskee myös sellaisia mahdollisia haittavaikutuksia, joita ei ole mainittu tässä pakkausselosteessa. Ks. kohta <a class="cross-reference">Mahdolliset haittavaikutukset</a>.</li>
+                        </ul>
+                     </div></p>
+
+      
+
+        <h4>Tässä pakkausselosteessa kerrotaan</h4>
+        <p>
+          <div>
+                        <h2>Tässä pakkausselosteessa kerrotaan</h2>
+                        <ol>
+                           <li>Mitä Remicade on ja mihin sitä käytetään</li>
+                           <li>Mitä sinun on tiedettävä, ennen kuin käytät Remicade-valmistetta</li>
+                           <li>Miten Remicade-valmistetta annetaan</li>
+                           <li>Mahdolliset haittavaikutukset</li>
+                           <li>Remicade-valmisteen säilyttäminen</li>
+                           <li>Pakkauksen sisältö ja muuta tietoa</li>
+                        </ol>
+                     </div></p>
+
+      
+
+        <h4>Mitä valmiste on ja mihin sitä käytetään</h4>
+        <p>
+          <div>
+                        <h2>Mitä valmiste on ja mihin sitä käytetään</h2>
+                        <p>Remicaden vaikuttava aine on infliksimabi. Infliksimabi on monoklonaalinen vasta-aine – valkuaisaineen (proteiini) tyyppi, joka kiinnittyy elimistössä tiettyyn kohteeseen, joka on nimeltään TNF (tuumorinekroositekijä) alfa.</p>
+                        <p>Remicade kuuluu lääkeryhmään, jota kutsutaan nimellä TNF-salpaajat. Sitä käytetään aikuisille seuraaviin tulehduksellisiin sairauksiin:</p>
+                        <ul>
+                           <li>Nivelreuma</li>
+                           <li>Nivelpsoriaasi</li>
+                           <li>Selkärankareuma (Bechterewin tauti)</li>
+                           <li>Psoriaasi.</li>
+                        </ul>
+                        <p>Remicadea käytetään myös aikuisille ja yli 6-vuotiaille lapsille seuraaviin sairauksiin:</p>
+                        <ul>
+                           <li>Crohnin tauti</li>
+                           <li>Haavainen paksusuolitulehdus.</li>
+                        </ul>
+                        <p>Remicade toimii kiinnittymällä selektiivisesti tuumorinekroositekijä alfaan (TNF<sub>α</sub>) ja estämällä sen toiminnan. TNF<sub>α</sub> on mukana elimistön tulehdusprosesseissa, joten sen estäminen voi vähentää elimistössä tapahtuvia tulehduksia.</p>
+                        <p>
+                           <strong>Nivelreuma</strong>
+                           <br/>
+Nivelreuma on nivelten tulehduksellinen sairaus. Jos sinulla on aktiivinen nivelreuma, sinua hoidetaan ensin muilla lääkkeillä. Jos nämä lääkkeet eivät toimi riittävän hyvin, sinulle annetaan Remicadea, jota otat yhdessä toisen lääkeaineen, metotreksaatin kanssa:</p>
+                        <ul>
+                           <li>vähentämään sairauden merkkejä ja oireita</li>
+                           <li>hidastamaan nivelvaurioiden syntyä</li>
+                           <li>parantamaan fyysistä suorituskykyä.</li>
+                        </ul>
+                        <p>
+                           <strong>Nivelpsoriaasi</strong>
+                           <br/>
+Nivelpsoriaasi on nivelten tulehduksellinen sairaus, johon yleensä liittyy psoriaasi. Jos sinulla on aktiivinen nivelpsoriaasi, sinua hoidetaan ensin muilla lääkkeillä. Jos nämä lääkkeet eivät toimi riittävän hyvin, sinulle annetaan Remicadea:</p>
+                        <ul>
+                           <li>vähentämään sairauden merkkejä ja oireita</li>
+                           <li>hidastamaan nivelvaurioiden syntyä</li>
+                           <li>parantamaan fyysistä suorituskykyä.</li>
+                        </ul>
+                        <p>
+                           <strong>Selkärankareuma (Bechterewin tauti)</strong>
+                           <br/>
+Selkärankareuma on selkärangan tulehduksellinen sairaus. Jos sinulla on selkärankareuma, sinua hoidetaan ensin muilla lääkkeillä. Jos nämä lääkkeet eivät toimi riittävän hyvin, sinulle annetaan Remicadea:</p>
+                        <ul>
+                           <li>vähentämään sairauden merkkejä ja oireita</li>
+                           <li>parantamaan fyysistä suorituskykyä.</li>
+                        </ul>
+                        <p>
+                           <strong>Psoriaasi</strong>
+                           <br/>
+Psoriaasi on ihon tulehduksellinen sairaus. Jos sinulla on kohtalainen tai vaikea plakkipsoriaasi, saat ensin muita lääkkeitä tai hoitoja kuten valohoitoa. Jos nämä lääkkeet eivät toimi riittävän hyvin, sinulle annetaan Remicadea vähentämään sairauden merkkejä ja oireita.</p>
+                        <p>
+                           <strong>Haavainen paksusuolitulehdus</strong>
+                           <br/>
+Haavainen paksusuolitulehdus on suoliston tulehduksellinen sairaus. Jos sinulla on haavainen paksusuolitulehdus, käytät ensin muita lääkkeitä. Jos nämä lääkkeet eivät toimi riittävän hyvin, sinulle annetaan Remicadea sairautesi hoitoon.</p>
+                        <p>
+                           <strong>Crohnin tauti</strong>
+                           <br/>
+Crohnin tauti on suoliston tulehduksellinen sairaus. Jos sinulla on Crohnin tauti, käytät ensin muita lääkkeitä. Jos nämä lääkkeet eivät toimi riittävän hyvin, sinulle annetaan Remicadea:</p>
+                        <ul>
+                           <li>aktiivisen Crohnin taudin hoitoon</li>
+                           <li>suolen ja ihonpinnan välisten epänormaalien avanteiden (fistelien) vähentämiseen, kun niitä ei ole saatu hallintaan muilla lääkkeillä tai leikkauksella.</li>
+                        </ul>
+                     </div></p>
+
+      
+
+        <h4>Mitä sinun on tiedettävä ennen valmisteen käyttöä</h4>
+        <p>
+          <div>
+                        <h2>Mitä sinun on tiedettävä ennen valmisteen käyttöä</h2>
+                        <p>
+                           <strong>Sinulle ei anneta Remicade-valmistetta, jos:</strong>
+                        </p>
+                        <ul>
+                           <li>olet allerginen infliksimabille tai Remicaden jollekin muulle aineelle (lueteltu kohdassa <a class="cross-reference">Pakkauksen sisältö ja muuta tietoa</a>)</li>
+                           <li>olet allerginen (yliherkkä) hiiristä peräisin oleville valkuaisaineille</li>
+                           <li>sinulla on tuberkuloosi tai muu vakava infektio kuten keuhkokuume tai verenmyrkytys (sepsis)</li>
+                           <li>sinulla on kohtalainen tai vaikea sydämen vajaatoiminta.</li>
+                        </ul>
+                        <p>Älä käytä Remicadea, jos jokin yllä olevista koskee sinua. Jos et ole varma, keskustele lääkärin kanssa ennen kuin saat Remicadea.</p>
+                        <p>
+                           <strong>Varoitukset ja varotoimet</strong>
+                           <br/>
+Keskustele lääkärin kanssa ennen kuin saat Remicade-valmistetta tai Remicade-hoidon aikana, jos:</p>
+                        <p>
+                           <span class="underline">Olet saanut Remicade-hoitoa aiemmin</span>
+                        </p>
+                        <ul>
+                           <li>Kerro lääkärille, jos olet saanut Remicade-hoitoa aiemmin ja olet nyt aloittamassa hoidon uudelleen.<br/>
+	Jos Remicade-hoidossasi on ollut yli 16 viikon tauko, allergisten reaktioiden riski on suurempi, kun hoitosi aloitetaan uudelleen.</li>
+                        </ul>
+                        <p>
+                           <span class="underline">Infektiot</span>
+                        </p>
+                        <ul>
+                           <li>Kerro lääkärille ennen kuin saat Remicade-valmistetta, jos sinulla on jokin infektio, vaikka se olisi hyvin vähäinen.</li>
+                           <li>Kerro lääkärille ennen kuin saat Remicade-valmistetta, jos olet joskus asunut tai matkustanut alueilla, joilla histoplasmoosi-, kokkidioidomykoosi- tai blastomykoosi-infektiot ovat yleisiä. Näitä infektioita aiheuttavat tietyntyyppiset sienet, jotka voivat olla haitallisia keuhkoille tai elimistön muille osille.</li>
+                           <li>Saatat saada infektioita helpommin, kun sinua hoidetaan Remicade-valmisteella. Jos olet 65-vuotias tai vanhempi, riski on suurempi.</li>
+                           <li>
+                              <span>Nämä infektiot saattavat olla vakavia ja niitä ovat tuberkuloosi, virusten, sienten, bakteerien tai muiden luonnossa olevien organismien aiheuttamat infektiot sekä verenmyrkytys (sepsis), joka voi olla hengenvaarallinen.</span>
+                           </li>
+                        </ul>
+                        <p>Kerro lääkärille heti, jos saat infektion merkkejä Remicade-hoidon aikana. Merkkeihin kuuluvat kuume, yskä, flunssan kaltaiset oireet, huonovointisuus, punainen tai kuuma iho, haavat ja hammasongelmat. Lääkäri saattaa suositella Remicade-hoidon väliaikaista lopettamista.</p>
+                        <p>
+                           <span class="underline">Tuberkuloosi</span>
+                        </p>
+                        <ul>
+                           <li>On erittäin tärkeää, että kerrot lääkärille, jos sinulla on joskus ollut tuberkuloosi tai jos olet ollut läheisessä kontaktissa henkilön kanssa, jolla on ollut tai on tuberkuloosi.</li>
+                           <li>Lääkäri tekee sinulle kokeita, joiden avulla nähdään, onko sinulla tuberkuloosi. Tuberkuloosia on raportoitu Remicade-hoitoa saaneilla potilailla, myös potilailla, jotka ovat jo saaneet tuberkuloosilääkkeitä. Lääkäri kirjaa tuberkuloositestien tulokset potilaskorttiisi.</li>
+                           <li>Jos lääkärin mielestä sinulla on tuberkuloosin riski, sinua voidaan hoitaa tuberkuloosilääkkeillä ennen kuin saat Remicade-valmistetta.</li>
+                        </ul>
+                        <p>Kerro lääkärille heti, jos saat tuberkuloosin merkkejä Remicade-hoidon aikana. Merkkeihin kuuluvat itsepintainen yskä, painon aleneminen, väsymyksen tunne, kuume, yöhikoilu.</p>
+                        <p>
+                           <span class="underline">B-hepatiittivirus</span>
+                        </p>
+                        <ul>
+                           <li>Kerro lääkärille ennen kuin saat Remicade-valmistetta, jos olet hepatiitti B-viruksen kantaja tai sinulla on tai on joskus ollut B-hepatiitti.</li>
+                           <li>Kerro lääkärille, jos uskot olevasi vaarassa sairastua B-hepatiittiin.</li>
+                           <li>Lääkäri tekee sinulle B-hepatiittitestin.</li>
+                           <li>Hoito TNF-salpaajilla kuten Remicade-valmisteella saattaa johtaa B-hepatiittiviruksen palautumiseen aktiiviseksi potilailla, jotka kantavat tätä virusta. Tämä saattaa toisinaan olla hengenvaarallista.</li>
+                        </ul>
+                        <p>
+                           <span class="underline">Sydänongelmat</span>
+                        </p>
+                        <ul>
+                           <li>Kerro lääkärille, jos sinulla on sydänongelmia kuten lievä sydämen vajaatoiminta.</li>
+                           <li>Lääkäri saattaa haluta tarkkailla sydäntäsi.</li>
+                        </ul>
+                        <p>Kerro lääkärille heti, jos saat Remicade-hoidon aikana uusia sydämen vajaatoiminnan merkkejä tai ne pahenevat. Merkkeihin kuuluvat hengästyneisyys tai jalkojen turvotus.</p>
+                        <p>
+                           <span class="underline">Syöpä ja lymfooma</span>
+                        </p>
+                        <ul>
+                           <li>Kerro lääkärille ennen kuin saat Remicade-valmistetta, jos sinulla on tai on joskus ollut lymfooma (eräänlainen verisyöpä) tai jokin muu syöpä.</li>
+                           <li>Potilailla, joilla on vaikea nivelreuma ja joilla tauti on ollut kauan, saattaa lymfooman kehittymisen riski olla suurempi.</li>
+                           <li>Remicadea käyttävillä lapsilla ja aikuisilla lymfooman tai muun syövän kehittymisen riski saattaa suurentua.</li>
+                           <li>Joillekin potilaista, joita on hoidettu TNF-salpaajalla, mukaan lukien Remicade-valmisteella, on kehittynyt harvinainen syöpä, jota kutsutaan hepatospleeniseksi T-solulymfoomaksi. Useimmat näistä potilaista olivat teini-ikäisiä poikia tai nuoria miehiä ja useimmilla heistä oli joko Crohnin tauti tai haavainen paksusuolitulehdus. Tämän tyyppinen syöpä on tavallisimmin johtanut kuolemaan. Lähes kaikki potilaat olivat saaneet myös atsatiopriinia tai 6-merkaptopuriinia sisältäviä lääkkeitä TNF-salpaajan lisäksi.</li>
+                           <li>Joillekin infliksimabihoitoa saaneille potilaille on kehittynyt tietynlaisia ihosyöpiä. Jos havaitset mitä tahansa muutoksia ihossasi tai kasvaimia ihossa hoidon aikana tai sen jälkeen, kerro asiasta lääkärille.</li>
+                           <li>Joillekin naisille, jotka ovat saaneet Remicade-valmistetta nivelreuman hoitoon, on kehittynyt kohdunkaulan syöpä. Remicade-valmistetta saaville naisille, mukaan lukien yli 60-vuotiaille, lääkäri voi suositella säännöllisiä kohdunkaulan syövän seulontatutkimuksia.</li>
+                        </ul>
+                        <p>
+                           <span class="underline">Keuhkosairaus tai runsas tupakointi</span>
+                        </p>
+                        <ul>
+                           <li>Kerro lääkärille ennen kuin saat Remicade-valmistetta, jos sinulla on keuhkosairaus nimeltä pitkäaikainen ahtauttava keuhkosairaus (keuhkoahtaumatauti, COPD) tai jos tupakoit runsaasti.</li>
+                           <li>Potilailla, joilla on COPD tai jotka tupakoivat runsaasti, syövän kehittymisen riski saattaa lisääntyä Remicade-hoidon aikana.</li>
+                        </ul>
+                        <p>
+                           <span class="underline">Hermoston sairaus</span>
+                        </p>
+                        <ul>
+                           <li>Kerro lääkärille ennen kuin saat Remicade-valmistetta, jos sinulla on tai on joskus ollut hermostoon vaikuttavia ongelmia. Näitä ovat MS-tauti (multippeli skleroosi), Guillain-Barrén oireyhtymä, jos sinulla on kouristuskohtauksia tai jos sinulla on todettu näköhermon tulehdus (optinen neuriitti).</li>
+                        </ul>
+                        <p>Kerro lääkärille heti, jos saat hermoston sairauksien oireita Remicade-hoidon aikana. Tällaisia oireita ovat näkökyvyn muutos, käsien tai jalkojen heikkous, puutumisen tai pistelyn tunne kehossa.</p>
+                        <p>
+                           <span class="underline">Epänormaalit ihon avanteet</span>
+                        </p>
+                        <ul>
+                           <li>Kerro lääkärille ennen kuin saat Remicade-valmistetta, jos sinulla on epänormaaleja ihon avanteita (fisteleitä).</li>
+                        </ul>
+                        <p>
+                           <span class="underline">Rokotukset</span>
+                        </p>
+                        <ul>
+                           <li>Kerro lääkärille, jos olet hiljattain saanut rokotuksen tai sinulle on suunniteltu annettavan rokotus.</li>
+                           <li>
+                              <span>Sinun pitää saada suositellut rokotukset ennen Remicade-hoidon aloittamista. Voit saada joitakin rokotteita Remicade-hoidon aikana, mutta sinulle ei saa antaa eläviä rokotteita (rokotteet, jotka sisältävät eläviä, mutta heikennettyjä taudinaiheuttajia), koska ne voivat aiheuttaa infektioita.</span>
+                           </li>
+                           <li>Jos sait Remicade-valmistetta raskauden aikana, myös lapsellasi saattaa olla suurentunut eläviin rokotteisiin liittyvä infektioriski <span>
+                                 <span>ensimmäisen elinvuoden</span>
+                              </span> ajan. On tärkeää, että kerrot lastasi hoitavalle lääkärille ja muille terveydenhuollon ammattilaisille Remicade-hoidostasi, jotta he voivat päättää, milloin lapsesi voi saada jonkin rokotuksen, mukaan lukien elävät rokotteet kuten BCG<span>
+                                 <span>-rokote</span>
+                              </span> (käytetään tuberkuloosin ehkäisyyn).</li>
+                           <li>
+                              <span>
+                                 <span>Jos imetät, on tärkeää että kerrot lapsesi hoitavalle lääkärille ja muille terveydenhuollon ammattilaisille Remicade-hoidostasi, ennen kuin lapsellesi annetaan jokin rokotus. </span>
+                              </span>Katso lisätietoja kohdasta Raskaus ja imetys.</li>
+                        </ul>
+                        <p>
+                           <span class="underline">Hoidolliset tartunnanaiheuttajat</span>
+                        </p>
+                        <ul>
+                           <li>Kerro lääkärille, jos olet hiljattain saanut tai sinulle on suunniteltu annettavan hoitoa hoidollisella tartunnanaiheuttajalla (kuten BCG-rokote instillaationa syövän hoitoon).</li>
+                        </ul>
+                        <p>
+                           <span class="underline">Leikkaukset tai hammastoimenpiteet</span>
+                        </p>
+                        <ul>
+                           <li>Kerro lääkärille, jos olet menossa johonkin leikkaukseen tai hammastoimenpiteeseen.</li>
+                           <li>Kerro kirurgille tai hammaslääkärille, että saat Remicade-hoitoa ja näytä hänelle potilaskorttisi.</li>
+                        </ul>
+                        <p>
+                           <span>
+                              <span class="underline">Maksaongelmat</span>
+                           </span>
+                        </p>
+                        <ul>
+                           <li>
+                              <span>Joillekin Remicade-hoitoa saaville potilaille on kehittynyt vakavia maksaongelmia.</span>
+                           </li>
+                        </ul>
+                        <p>
+                           <span>Kerro lääkärillesi välittömästi, jos sinulle ilmaantuu Remicade-hoidon aikana maksaongelmien oireita. Merkkejä ovat ihon ja silmien keltaisuus, virtsan värjäytyminen tummanruskeaksi, kipu tai turvotus oikealla ylävatsalla, nivelkipu, ihottuma tai kuume.</span>
+                        </p>
+                        <p>
+                           <span>
+                              <span class="underline">Alhaiset verisolujen määrät</span>
+                           </span>
+                        </p>
+                        <ul>
+                           <li>
+                              <span>Joidenkin Remicade-valmistetta saavien potilaiden elimistö ei tuota riittävästi verisoluja, jotka auttavat taistelemaan infektioita vastaan tai lopettamaan verenvuodon.</span>
+                           </li>
+                        </ul>
+                        <p>
+                           <span>Kerro lääkärillesi välittömästi, jos sinulle ilmaantuu Remicade-hoidon aikana oireita alhaisesta verisolujen määrästä. Merkkejä ovat itsepintainen kuume, herkästi syntyvät mustelmat tai verenvuoto, ihonalaisen verenvuodon aiheuttamat pienet punaiset tai violetit pisteet iholla tai ihon kalpeus.</span>
+                        </p>
+                        <p>
+                           <span>
+                              <span>
+                                 <span class="underline">Immuunijärjestelmän häiriö</span>
+                                 <span class="underline">t</span>
+                              </span>
+                           </span>
+                        </p>
+                        <ul>
+                           <li>Joillekin Remicade-valmistetta saaville potilaille on kehittynyt lupus-nimisen immuunijärjestelmän häiriön oireita.</li>
+                        </ul>
+                        <p>Kerro lääkärillesi välittömästi, jos sinulle ilmaantuu lupuksen oireita Remicade-hoidon aikana. Merkkejä ovat nivelkipu tai auringolle herkkä ihottuma poskilla tai käsivarsilla.</p>
+                        <p>
+                           <strong>Lapset ja nuoret</strong>
+                           <br/>
+                           <span class="underline">Yllä olevat tiedot koskevat myös lapsia ja nuoria. Tämän lisäksi:</span>
+                        </p>
+                        <ul>
+                           <li>Joillain TNF-estäjiä kuten Remicade-valmistetta saaneilla lapsilla ja teini-ikäisillä potilailla on esiintynyt syöpätapauksia, mukaan lukien harvinaisia syöpätyyppejä. Ne ovat toisinaan johtaneet kuolemaan.</li>
+                           <li>Remicade-valmistetta saaneille lapsille kehittyi infektioita useammin kuin aikuisille.</li>
+                           <li>Lasten pitää saada suositusten mukaiset rokotukset ennen Remicade-hoidon aloitusta. Lapsille voidaan antaa joitakin rokotteita Remicade-hoidon aikana, mutta heille ei saa antaa eläviä rokotteita Remicade-hoidon aikana.</li>
+                        </ul>
+                        <p>Mikäli et ole varma, koskeeko jokin yllä olevista sinua, keskustele lääkärin kanssa ennen kuin saat Remicade-valmistetta.</p>
+                        <p>
+                           <strong>Muut lääkevalmisteet ja Remicade</strong>
+                           <br/>
+Potilaat, joilla on jokin tulehduksellinen sairaus, käyttävät valmiiksi lääkevalmisteita sairautensa hoitoon. Nämä lääkevalmisteet saattavat aiheuttaa haittavaikutuksia. Lääkäri neuvoo, mitä muita lääkkeitä sinun tulee edelleen käyttää Remicade-hoidon aikana.</p>
+                        <p>Kerro lääkärille, jos parhaillaan käytät tai olet äskettäin käyttänyt muita lääkkeitä, myös muita lääkkeitä Crohnin taudin, haavaisen paksusuolitulehduksen, nivelreuman, selkärankareuman, nivelpsoriaasin tai psoriaasin hoitoon tai lääkkeitä, joita lääkäri ei ole määrännyt kuten vitamiineja tai rohdosvalmisteita.</p>
+                        <p>Erityisesti kerro lääkärille, jos käytät jotain seuraavista lääkkeistä:</p>
+                        <ul>
+                           <li>Lääkkeitä, jotka vaikuttavat immuunijärjestelmään.</li>
+                           <li>Kineret (anakinra). Remicadea ja Kineret-valmistetta ei pidä käyttää samanaikaisesti.</li>
+                           <li>Orencia (abatasepti). Remicadea ja Orenciaa ei pidä käyttää samanaikaisesti.</li>
+                        </ul>
+                        <p>
+                           <span>
+                              <span>Sinulle ei saa antaa eläviä roketteita Remicade-hoidon aikana. Jos sait Remicade-hoitoa raskauden aikana tai jos saat Remicade-hoitoa imetyksen aikana, kerro lastasi hoitavalle lääkärille ja muille terveydenhuollon ammatilaisille Remicade- hoidostasi, ennen kuin lapsesi saa mitään rokotteita.</span>
+                           </span>
+                        </p>
+                        <p>Mikäli et ole varma, koskeeko jokin yllä olevista sinua, keskustele lääkärin tai apteekkihenkilökunnan kanssa ennen Remicade-valmisteen käyttöä.</p>
+                        <p>
+                           <strong>Raskaus, imetys ja hedelmällisyys</strong>
+                        </p>
+                        <ul>
+                           <li>Jos olet raskaana tai imetät, epäilet olevasi raskaana tai jos suunnittelet lapsen hankkimista, kysy lääkäriltä neuvoa ennen tämän lääkkeen käyttöä. Remicadea tulee käyttää  raskauden tai imetyksen aikana vain, jos se lääkärin mielestä on välttämätöntä.</li>
+                           <li>Sinun tulee välttää raskaaksi tuloa Remicade-hoidon aikana ja 6 kuukautta hoidon lopettamisen jälkeen. Keskustele lääkärin kanssa ehkäisyn käytöstä tuona aikana.</li>
+                           <li>Jos sait Remicadea raskauden aikana, lapsellasi saattaa olla suurentunut infektioriski.</li>
+                           <li>On tärkeää, että kerrot lastasi hoitavalle lääkärille ja muille terveydenhuollon ammattilaisille Remicade-hoidostasi ennen kuin lapsellesi annetaan jokin rokotus. Jos sait Remicade-hoitoa raskauden aikana, BCG-rokotteen (käytetään tuberkuloosin ehkäisyyn) antaminen lapsellesi 12 kuukauden aikana syntymän jälkeen voi aiheuttaa infektion, jolla saattaa olla vakavia, jopa kuolemaan johtavia komplikaatioita. Eläviä rokotteita, kuten BCG-rokotetta, ei saa antaa lapsellesi 12 kuukauteen syntymän jälkeen<span>
+                                 <span> ellei lastasi hoitava lääkäri toisin suosittele</span>
+                              </span>. Katso lisätietoja kohdasta Rokotukset.</li>
+                           <li>
+                              <span>
+                                 <span>Jos imetät, on tärkeää että kerrot lapsesi hoitavalle lääkärille ja muille terveydenhuollon ammattilaisille Remicade-hoidostasi, ennen kuin lapsellesi annetaan jokin rokotus. Eläviä rokotteita ei tule antaa lapsellesi imetyksen aikana ellei lastasi hoitava lääkäri toisin suosittele.</span>
+                              </span>
+                           </li>
+                           <li>Remicade-hoitoa raskauden aikana saaneiden naisten imeväisikäisillä lapsilla on raportoitu voimakkaasti alentuneita valkosolujen määriä. Jos lapsellasi on jatkuvaa kuumeilua tai infektioita, ota heti yhteyttä lastasi hoitavaan lääkäriin.</li>
+                        </ul>
+                        <p>
+                           <strong>Ajaminen ja koneiden käyttö</strong>
+                           <br/>
+Remicaden ei oleteta vaikuttavan ajokykyyn tai kykyyn käyttää koneita. Jos tunnet olevasi väsynyt, sinua huimaa tai olet huonovointinen saatuasi Remicadea, älä aja tai käytä mitään työvälineitä tai koneita.</p>
+                        <p>
+                           <strong>Remicade sisältää natriumia</strong>
+                           <br/>
+Remicade sisältää alle 1 mmol natriumia (23 mg) per annos eli se on käytännössä natriumiton. Ennen kuin Remicade annetaan, se kuitenkin sekoitetaan natriumia sisältävään liuokseen. Keskustele lääkärin kanssa, jos noudatat vähäsuolaista ruokavaliota.</p>
+                     </div></p>
+
+      
+
+        <h4>Miten valmistetta käytetään</h4>
+        <p>
+          <div>
+                        <h2>Miten valmistetta käytetään</h2>
+                        <p>
+                           <span>
+                              <strong>Nivelreuma</strong>
+                           </span>
+                           <br/>
+Tavanomainen annos on 3 mg painokiloa kohti.</p>
+                        <p>
+                           <span>
+                              <strong>Nivelpsoriaasi, selkärankareuma (Bechterewin tauti), psoriaasi, haavainen paksusuolitulehdus ja Crohnin tauti</strong>
+                           </span>
+                           <br/>
+Tavanomainen annos on 5 mg painokiloa kohti.</p>
+                        <p>
+                           <strong>Miten Remicadea annetaan</strong>
+                        </p>
+                        <ul>
+                           <li>Lääkäri tai hoitaja antaa sinulle Remicade-valmisteen.</li>
+                           <li>Lääkäri tai hoitaja valmistaa lääkkeen infuusiota varten.</li>
+                           <li>Lääke annetaan infuusiona (tiputus) (2 tunnin aikana) laskimoon, yleensä käsivarteen. Kolmannen hoitokerran jälkeen lääkäri voi päättää, että saat Remicade-annoksen 1 tunnin aikana.</li>
+                           <li>Vointiasi tarkkaillaan Remicade-tiputuksen aikana ja vielä 1-2 tunnin ajan sen jälkeen.</li>
+                        </ul>
+                        <p>
+                           <strong>Kuinka paljon Remicade-valmistetta annetaan</strong>
+                        </p>
+                        <ul>
+                           <li>Lääkäri päättää saamasi annoksen suuruuden ja kuinka usein Remicade-valmistetta sinulle annetaan. Tämä riippuu sairaudestasi, painostasi ja siitä, miten Remicade-hoito sinuun vaikuttaa.</li>
+                           <li>Alla olevasta taulukosta näet, miten usein tätä lääkettä yleensä annetaan ensimmäisen annoksen jälkeen.</li>
+                        </ul>
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td>2. annos</td>
+                                 <td>2 viikkoa 1. annoksen jälkeen</td>
+                              </tr>
+                              <tr>
+                                 <td>3. annos</td>
+                                 <td>6 viikkoa 1. annoksen jälkeen</td>
+                              </tr>
+                              <tr>
+                                 <td>Myöhemmät annokset</td>
+                                 <td>6-8 viikon välein riippuen sairaudestasi</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <p></p>
+                        <p>
+                           <strong>Käyttö lapsille ja nuorille</strong>
+                           <br/>
+Remicade-valmistetta annetaan lapsille vain Crohnin taudin tai haavaisen paksusuolitulehduksen hoitoon. Näiden lasten pitää olla 6 vuotta täyttäneitä.</p>
+                        <p>
+                           <strong>Jos saat enemmän Remicade-valmistetta kuin sinun pitäisi</strong>
+                           <br/>
+Lääkäri tai hoitaja antaa sinulle tämän lääkevalmisteen. Siksi on epätodennäköistä, että saisit sitä enemmän kuin pitäisi. Liian suuren Remicade-annoksen ei tiedetä aiheuttaneen haittavaikutuksia.</p>
+                        <p>
+                           <strong>Jos unohdat tai jäät vaille Remicade-infuusiota</strong>
+                           <br/>
+Jos unohdat tai myöhästyt vastaanottokäynniltä, jolla oli tarkoitus saada Remicade-valmistetta, sovi uusi aika mahdollisimman pian.</p>
+                        <p>Jos sinulla on kysymyksiä tämän lääkkeen käytöstä, käänny lääkärin puoleen.</p>
+                     </div></p>
+
+      
+
+        <h4>Mahdolliset haittavaikutukset</h4>
+        <p>
+          <div>
+                        <h2>Mahdolliset haittavaikutukset</h2>
+                        <p>Kuten kaikki lääkkeet, tämäkin lääke voi aiheuttaa haittavaikutuksia. Kaikki eivät kuitenkaan niitä saa. Useimmat haittavaikutukset ovat lieviä tai kohtalaisia vaikeusasteeltaan. Joillain potilailla haittavaikutukset kuitenkin voivat olla vakavia ja vaatia hoitoa. Haittavaikutuksia voi ilmaantua myös Remicade-lääkityksen lopettamisen jälkeen.</p>
+                        <p>
+                           <strong>Kerro välittömästi lääkärille, jos huomaat jotain seuraavista:</strong>
+                        </p>
+                        <ul>
+                           <li>
+                              <strong>Merkkejä allergisesta reaktiosta</strong> kuten kasvojen, huulten, suun tai kurkun turvotus, mikä saattaa vaikeuttaa nielemistä tai hengitystä, ihottuma, nokkosrokko, käsien, jalkojen tai nilkkojen turvotus. Jotkut näistä reaktioista voivat olla vakavia tai hengenvaarallisia. Allerginen reaktio voi ilmaantua 2 tunnin kuluessa tiputuksesta tai myöhemmin. Muita oireita, jotka voivat olla merkkejä allergisista reaktioista, joita saattaa esiintyä jopa 12 päivän kuluttua tiputuksesta, ovat lihaskipu, kuume, kipu nivelissä tai leukapielissä, kurkkukipu tai päänsärky.</li>
+                           <li>
+                              <strong>Merkkejä sydänongelmasta</strong> kuten rintatuntemus tai rintakipu, käsivarren kipu, mahakipu, hengenahdistus, ahdistuneisuus, heikotuksen tunne, huimaus, pyörtyminen, hikoilu, huonovointisuus (pahoinvointi), oksentaminen, sydämen tykytys tai hakkaaminen, nopea tai hidas sydämensyke ja jalkojen turvotus.</li>
+                           <li>
+                              <strong>Merkkejä infektiosta (mukaan lukien tuberkuloosi)</strong> kuten kuume, väsymyksen tunne, yskä, joka voi jatkua pitkään, hengenahdistus, flunssan kaltaiset oireet, painon aleneminen, yöhikoilu, ripuli, haavat, märkäkertymä (paise) suolistossa tai peräaukon ympärillä, hammasongelmat tai kirvelevä tunne virtsatessa.</li>
+                           <li>
+                              <strong>Mahdollisia merkkejä syövästä, </strong>mukaan lukien mutta rajoittumatta: imusolmukkeiden turvotus, painon lasku, kuume, epätavalliset ihokyhmyt, muutokset luomissa tai ihon värissä tai epätavallinen emätinverenvuoto.</li>
+                           <li>
+                              <strong>Merkkejä keuhko-ongelmasta</strong> kuten yskä, hengitysvaikeudet tai ahdistava tunne rinnassa.</li>
+                           <li>
+                              <span>
+                                 <span>
+                                    <strong>Merkkejä hermoston ongelmasta (mukaan lukien silmäongelmat)</strong> kuten aivohalvauksen merkit (äkillinen kasvojen, käsien tai jalkojen puutuminen tai voimattomuus, etenkin toisella puolella kehoa; äkillinen sekavuus, puhe- tai ymmärtämisvaikeudet; näköhäiriöt toisessa tai molemmissa silmissä, kävelemisvaikeudet, heitehuimaus, tasapainon tai koordinaatiokyvyn menettäminen tai voimakas päänsärky), kouristuskohtaukset, pistely/puutuminen jossain kehon osassa tai käsien tai jalkojen voimattomuus, muutokset näkökyvyssä kuten kahtena näkeminen tai muut silmäongelmat.</span>
+                              </span>
+                           </li>
+                           <li>
+                              <strong>Merkkejä maksaongelmasta</strong> (mukaan lukien B-hepatiitti-infektio, jos sinulla on aiemmin ollut B-hepatiitti) kuten ihon tai silmien keltaisuus, virtsan värjäytyminen tummanruskeaksi, kipua tai turvotusta oikealla ylävatsalla, nivelkipu, ihottumat tai kuume.</li>
+                           <li>
+                              <strong>Merkkejä immuunijärjestelmän sairaudesta,</strong> kuten nivelkipua tai auringolle herkkää ihottumaa poskilla tai käsissä (lupus) tai yskää, hengenahdistusta, kuumetta tai ihottumaa (sarkoidoosi).</li>
+                           <li>
+                              <strong>Merkkejä alhaisista verisolujen määristä</strong> kuten itsepintainen kuume, herkästi tuleva verenvuoto tai mustelmat, ihonalaisesta verenvuodosta johtuvat pienet punaiset tai violetit pisteet iholla tai ihon kalpeus.</li>
+                           <li>
+                              <strong>Merkkejä vakavista iho-ongelmista</strong> kuten vartalolla punoittavat kokardimaiset pilkut tai pyöreät laikut, joiden keskellä on usein rakkula, laaja-alainen ihon kuoriutuminen ja irtoaminen (kesiminen), haavaumat suussa, kurkussa, nenässä, sukupuolielimissä ja silmissä tai pienet märkäiset paukamat, jotka voivat levitä ympäri kehoa. Näiden ihoreaktioiden yhteydessä voi ilmetä kuumetta.</li>
+                        </ul>
+                        <p>Kerro lääkärille heti, jos huomaat jotain yllä mainituista.</p>
+                        <p>Seuraavia haittavaikutuksia on havaittu Remicaden käytön yhteydessä:</p>
+                        <p>
+                           <strong>Hyvin yleisiä: useammin kuin yli 1 potilaalla kymmenestä</strong>
+                        </p>
+                        <ul>
+                           <li>vatsakipu, huonovointisuus</li>
+                           <li>virusinfektiot kuten herpes tai flunssa</li>
+                           <li>ylähengitystieinfektiot kuten sinuiitti</li>
+                           <li>päänsärky</li>
+                           <li>infuusion aiheuttama haittavaikutus</li>
+                           <li>kipu.</li>
+                        </ul>
+                        <p>
+                           <span>
+                              <strong>Yleisiä: harvemmin kuin 1 potilaalla kymmenestä</strong>
+                           </span>
+                        </p>
+                        <ul>
+                           <li>muutokset maksan toiminnassa, maksaentsyymien kohoaminen (näkyy verikokeissa)</li>
+                           <li>infektio keuhkoissa tai rinnassa kuten keuhkoputkitulehdus tai keuhkokuume</li>
+                           <li>hengitysvaikeudet, rintakipu</li>
+                           <li>verenvuoto vatsassa tai suolistossa, ripuli, ruoansulatushäiriö, närästys, ummetus</li>
+                           <li>nokkosrokko, kutiseva ihottuma tai kuiva iho</li>
+                           <li>tasapaino-ongelmat tai huimauksen tunne</li>
+                           <li>kuume, lisääntynyt hikoilu</li>
+                           <li>verenkierto-ongelmat kuten matala tai korkea verenpaine</li>
+                           <li>mustelmat, kuumat aallot tai nenäverenvuoto, kuuma, punoittava iho (punastuminen)</li>
+                           <li>väsymyksen tai heikkouden tunne</li>
+                           <li>bakteeri-infektiot kuten verenmyrkytys, absessi (märkäpesäke) tai infektio ihon alla (selluliitti)</li>
+                           <li>sienen aiheuttama ihoinfektio</li>
+                           <li>veriongelmat kuten anemia tai valkosolujen vähyys</li>
+                           <li>turvonneet imusolmukkeet</li>
+                           <li>masennus, univaikeudet</li>
+                           <li>silmäongelmat mukaan lukien silmien punoitus ja infektiot</li>
+                           <li>sydämen nopealyöntisyys (takykardia) tai sydämentykytys</li>
+                           <li>kipu nivelissä, lihaksissa tai selässä</li>
+                           <li>virtsatieinfektio</li>
+                           <li>psoriaasi, iho-ongelmat kuten ihottuma ja hiusten lähtö</li>
+                           <li>pistokohdan reaktiot kuten kipu, turvotus, punoitus tai kutina</li>
+                           <li>vilunväreet, nesteen kertyminen ihon alle turvotusta aiheuttaen</li>
+                           <li>tunnottomuus tai pistelyn tunne.</li>
+                        </ul>
+                        <p>
+                           <strong>Melko harvinaisia: harvemmin kuin 1 potilaalla sadasta</strong>
+                        </p>
+                        <ul>
+                           <li>riittämätön verensaanti, verisuonien turpoaminen</li>
+                           <li>veren kerääntyminen verisuonien ulkopuolelle (hematooma) tai mustelmat</li>
+                           <li>iho-ongelmat kuten rakkulat, syylät, epänormaali ihon värjäytyminen tai pigmentaatio, tai huulten turvotus tai ihon paksuuntuminen tai punainen, hilseilevä ja hiutaleinen iho</li>
+                           <li>vakavat allergiset reaktiot (esim. anafylaksi), immuunijärjestelmän sairaus nimeltään lupus, yliherkkyysreaktiot vieraita valkuaisaineita kohtaan</li>
+                           <li>haavojen hitaampi paraneminen</li>
+                           <li>maksan suurentuminen (hepatiitti) tai sappirakon turvotus, maksavaurio</li>
+                           <li>muistamattomuus, ärtyisyys, sekavuus, hermostuneisuus</li>
+                           <li>silmäongelmat mukaan lukien näön sumentuminen tai heikentyminen, silmien turvotus tai näärännäpyt</li>
+                           <li>sydämen vajaatoiminnan puhkeaminen tai paheneminen, hidas sydämen syke</li>
+                           <li>pyörtyminen</li>
+                           <li>kouristukset, hermo-ongelmat</li>
+                           <li>reikä suolessa tai suolen tukkeuma, vatsakipu tai krampit</li>
+                           <li>haiman turpoaminen (haimatulehdus)</li>
+                           <li>sieni-infektiot kuten hiivainfektio tai kynsien sieni-infektio</li>
+                           <li>keuhko-ongelmat (kuten turvotus)</li>
+                           <li>nesteen purkautuminen keuhkopussiin</li>
+                           <li>hengitysteiden ahtaus keuhkoissa, joka aiheuttaa hengitysvaikeuksia</li>
+                           <li>keuhkopussin tulehtumisen aiheuttama terävä rintakipu, joka tuntuu pahemmalta hengitettäessä (keuhkopussintulehdus)</li>
+                           <li>tuberkuloosi</li>
+                           <li>munuaisinfektiot</li>
+                           <li>verihiutaleiden vähyys, valkosolujen ylimäärä</li>
+                           <li>emättimen infektiot</li>
+                           <li>veriarvojen tulokset, jotka osoittavat vasta-aineita omaa elimistöä vastaan</li>
+                           <li>
+                              <span>
+                                 <span>muutokset veren kolesteroli- ja rasva-arvoissa.</span>
+                              </span>
+                           </li>
+                        </ul>
+                        <p>
+                           <span>
+                              <strong>Harvinaisia: harvemmin kuin 1 potilaalla tuhannesta</strong>
+                           </span>
+                        </p>
+                        <ul>
+                           <li>tietyntyyppinen verisyöpä (lymfooma)</li>
+                           <li>veri ei kuljeta riittävästi happea elimistölle, verenkierto-ongelmat kuten verisuonien kaventuminen</li>
+                           <li>aivokalvotulehdus (meningiitti)</li>
+                           <li>infektiot, jotka johtuvat heikentyneestä immuunijärjestelmästä</li>
+                           <li>B-hepatiitti-infektio, kun sinulla on aiemmin ollut B-hepatiitti</li>
+                           <li>maksatulehdus, joka johtuu ongelmasta immuunijärjestelmässä (autoimmuunihepatiitti)</li>
+                           <li>maksaongelma, joka aiheuttaa ihon tai silmien keltaisuutta (keltatauti)</li>
+                           <li>epänormaali kudosten turvotus tai kasvu</li>
+                           <li>vakava allerginen reaktio, joka voi aiheuttaa tajuttomuutta ja voi olla hengenvaarallinen (anafylaktinen sokki)</li>
+                           <li>pienten verisuonien turpoaminen (verisuonitulehdus)</li>
+                           <li>immuunihäiriöt, jotka voivat vaikuttaa keuhkoihin, ihoon tai imusolmukkeisiin (kuten sarkoidoosi)</li>
+                           <li>tulehdusvasteesta johtuvat immuunijärjestestelmän solujen paikalliset kertymät (granulomatoottiset leesiot)</li>
+                           <li>kiinnostuksen tai tunteiden puute</li>
+                           <li>vakavat iho-ongelmat kuten toksinen epidermaalinen nekrolyysi, Stevens-Johnsonin oireyhtymä ja akuutti yleistynyt eksantematoottinen pustuloosi</li>
+                           <li>muut iho-ongelmat kuten erythema multiforme, jäkälää muistuttavat reaktiot (kutiseva, punertavanvioletti ihottuma ja/tai säiemäisiä valkoisenharmaita viivoja limakalvoilla), rakkulat ja ihon kuoriutuminen tai paiseet (paisetauti)</li>
+                           <li>vakavat hermoston sairaudet kuten selkäytimen poikittaistulehdus, MS-taudin kaltainen sairaus, optinen neuriitti ja Guillain-Barrén oireyhtymä</li>
+                           <li>silmätulehdus, joka voi aiheuttaa näkökyvyn muutoksia, mukaan lukien sokeutta</li>
+                           <li>nesteen purkautuminen sydänpussiin</li>
+                           <li>vakavat keuhko-ongelmat (kuten interstitiaali keuhkosairaus)</li>
+                           <li>melanooma (ihosyöpätyyppi)</li>
+                           <li>kohdunkaulan syöpä</li>
+                           <li>alhaiset veriarvot, mukaan lukien voimakkaasti alentunut valkosolujen määrä</li>
+                           <li>pienet punaiset tai violetit pisteet ihon alla (ihonalaisen verenvuodon aiheuttamat)</li>
+                           <li>
+                              <span>
+                                 <span>immuunijärjestelmään kuuluvan komplementtitekijä-nimisen veren proteiinin poikkeavat arvot.</span>
+                              </span>
+                           </li>
+                        </ul>
+                        <p>
+                           <span>
+                              <strong>Tuntemattomia: koska saatavissa oleva tieto ei riitä esiintyvyyden arviointiin</strong>
+                           </span>
+                        </p>
+                        <ul>
+                           <li>syöpä lapsilla ja aikuisilla</li>
+                           <li>harvinainen verisyöpä, joka esiintyy useimmiten <span>
+                                 <span>teini-ikäisillä pojilla tai </span>
+                              </span>nuorilla miehillä (hepatospleeninen T-solulymfooma)</li>
+                           <li>maksan vajaatoiminta</li>
+                           <li>merkelinsolusyöpä (ihosyöpätyyppi)</li>
+                           <li>
+                              <span>
+                                 <span>Kaposin sarkooma, harvinainen syöpä, joka liittyy ihmisen herpesvirus 8 -infektioon. Kaposin sarkooma ilmenee yleisimmin sinipunaisina ihovaurioina.</span>
+                              </span>
+                           </li>
+                           <li>dermatomyosiitti-nimisen sairauden paheneminen (havaitaan lihasheikkoutena, johon liittyy ihottumaa)</li>
+                           <li>sydänkohtaus</li>
+                           <li>aivohalvaus</li>
+                           <li>ohimenevä näkökyvyn menetys infuusion aikana tai 2 tunnin kuluessa infuusiosta</li>
+                           <li>elävästä rokotteesta johtuva infektio heikentyneen immuunijärjestelmän takia.</li>
+                        </ul>
+                        <p>
+                           <strong>Muut haittavaikutukset lapsilla ja nuorilla</strong>
+                           <br/>
+Remicadea Crohnin tautiin saaneilla lapsilla havaittiin haittavaikutuksissa eroja verrattuna Remicadea Crohnin tautiin saaneisiin aikuisiin. Lapsilla havaittiin enemmän seuraavia haittavaikutuksia: alhainen punasolujen määrä (anemia), verta ulosteessa, alhainen valkosolujen kokonaismäärä (leukopenia), punastuminen, virusinfektiot, alhainen infektioita vastaan taistelevien valkosolujen määrä (neutropenia), luunmurtuma, bakteeri-infektio ja hengityselinten allerginen reaktio.</p>
+                        <p>
+                           <strong>Haittavaikutuksista ilmoittaminen</strong>
+                           <br/>
+Jos havaitset haittavaikutuksia, kerro niistä lääkärille, apteekkihenkilökunnalle tai sairaanhoitajalle. Tämä koskee myös sellaisia mahdollisia haittavaikutuksia, joita ei ole mainittu tässä pakkausselosteessa. Voit ilmoittaa haittavaikutuksista myös suoraan (ks. yhteystiedot alla). Ilmoittamalla haittavaikutuksista voit auttaa saamaan enemmän tietoa tämän lääkevalmisteen turvallisuudesta.</p>
+                        <p>www-sivusto: <a>www.fimea.fi</a>
+                           <br/>
+Lääkealan turvallisuus- ja kehittämiskeskus Fimea<br/>
+Lääkkeiden haittavaikutusrekisteri<br/>
+PL 55<br/>
+00034 FIMEA</p>
+                     </div></p>
+
+      
+
+        <h4>Valmisteen säilyttäminen</h4>
+        <p>
+          <div>
+                        <h2>Valmisteen säilyttäminen</h2>
+                        <p>Terveydenhoidon ammattilaiset huolehtivat yleensä Remicade-valmisteen säilyttämisestä. Seuraavassa ovat säilytysohjeet, mikäli tarvitset niitä:</p>
+                        <ul>
+                           <li>Ei lasten ulottuville eikä näkyville.</li>
+                           <li>Älä käytä tätä lääkettä etiketissä ja kotelossa mainitun viimeisen käyttöpäivämäärän (EXP) jälkeen. Viimeinen käyttöpäivämäärä tarkoittaa kuukauden viimeistä päivää.</li>
+                           <li>Säilytä jääkaapissa (2°C−8 °C).</li>
+                           <li>Tätä lääkettä voi myös säilyttää alkuperäisessä kotelossa poissa jääkaapista, alle 25 ºC:ssa, yhden enintään kuuden kuukauden pituisen jakson ajan. Säilytys ei saa kuitenkaan ylittää alkuperäistä viimeistä käyttöpäivämäärää. Tällöin sitä ei saa laittaa enää takaisin jääkaappisäilytykseen. Uusi viimeinen käyttöpäivämäärä kirjoitetaan koteloon muodossa pv/kk/vuosi. Lääke on hävitettävä, jos sitä ei käytetä ennen uutta viimeistä käyttöpäivämäärää tai koteloon painettua alkuperäistä viimeistä käyttöpäivämäärää, kumpi tahansa on aikaisempi.</li>
+                           <li>On suositeltavaa, että käyttövalmis Remicade-infuusioliuos käytetään mahdollisimman pian (3 tunnin kuluessa). Jos liuos valmistetaan kuitenkin aseptisissa olosuhteissa, sitä voidaan säilyttää enintään 28 päivää jääkaapissa 2°C–8°C:ssa ja lisäksi 24 tuntia 25°C:ssa jääkaapista ottamisen jälkeen.</li>
+                           <li>Älä käytä tätä lääkettä, jos se on värjääntynyt tai sisältää vieraita hiukkasia.</li>
+                        </ul>
+                     </div></p>
+
+      
+
+        <h4>Pakkauksen sisältö ja muuta tietoa</h4>
+        <p>
+          <div>
+                        <h2>Pakkauksen sisältö ja muuta tietoa</h2>
+                        <p>
+                           <strong>Mitä Remicade sisältää</strong>
+                        </p>
+                        <ul>
+                           <li>Vaikuttava aine on infliksimabi. Yksi injektiopullo sisältää 100 mg infliksimabia. Liuottamisen jälkeen yksi millilitra sisältää 10 mg infliksimabia.</li>
+                           <li>Muut aineet ovat sakkaroosi, polysorbaatti 80, mononatriumfosfaatti ja dinatriumfosfaatti.</li>
+                        </ul>
+                        <p>
+                           <strong>Lääkevalmisteen kuvaus ja pakkauskoot</strong>
+                           <br/>
+Remicade kuiva-aine välikonsentraatiksi infuusionestettä varten, liuos on pakattu lasiseen injektiopulloon. Kuiva-aine on kylmäkuivattu, valkoinen pelletti.<br/>
+Remicade on saatavana 1, 2, 3, 4 tai 5 injektiopullon pakkauksina. Kaikkia pakkauskokoja ei välttämättä ole myynnissä.</p>
+                        <p>
+                           <strong>Myyntiluvan haltija ja valmistaja</strong>
+                           <br/>
+Janssen Biologics B.V.<br/>
+Einsteinweg 101<br/>
+2333 CB Leiden<br/>
+Alankomaat</p>
+                        <p>Lisätietoja tästä lääkevalmisteesta antaa myyntiluvan haltijan paikallinen edustaja:</p>
+                        <p>
+                           <strong>Suomi/Finland</strong>
+                           <br/>
+MSD Finland Oy<br/>
+Puh/Tel: +358 (0)9 804 650<a>
+                              <br/>
+info@msd.fi</a>
+                        </p>
+                        <p>
+                           <strong>Tämä pakkausseloste on tarkistettu viimeksi 09/2022</strong>
+                        </p>
+                        <p>
+                           <strong>Muut tiedonlähteet</strong>
+                           <br/>
+Lisätietoa tästä lääkevalmisteesta on saatavilla Euroopan lääkeviraston verkkosivulla <a>http://www.ema.europa.eu/</a>. </p>
+                     </div></p>
+
+      
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Remicade pulv til kons til inf væske, oppl 100 mg
+  </h4>
+
+  
+  
+    LEGEMIDDELMERKEVAREID:
+    <b>
+      ID_D50B98BD-030D-461D-A35D-17E101E1396B
+    </b>
+    
+  
+  <hr>
+  
+  <p>Full name: <b>Remicade pulv til kons til inf væske, oppl 100 mg</b></p>
+  
+
+
+  
+  
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b></b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b></b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 2</p>
+          
+  <p>LEGEMIDDELPAKNINGID:
+  <b>
+    ID_359EDC49-19B2-4933-84B2-61F473D0A002
+  </b>
+  </p>
+
+  <p>VARENUMMER:
+  <b>
+    063187
+  </b>
+  </p>
+
+  <p>VNR:
+  <b>
+    063187
+  </b>
+  </p>
+
+<p>
+  Description:
+  
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b> </b>
+  
+  
+</p>
+
+<p>Containing:
+  
+
+
+
+
+  
+</p>
+        </div>
+      
+    
+  
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 2 of 2</p>
+          
+  <p>LEGEMIDDELPAKNINGID:
+  <b>
+    ID_C204F161-C434-4A8C-83E0-4152B0FABFCE
+  </b>
+  </p>
+
+  <p>VARENUMMER:
+  <b>
+    575787
+  </b>
+  </p>
+
+  <p>VNR:
+  <b>
+    575787
+  </b>
+  </p>
+
+<p>
+  Description:
+  
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b> </b>
+  
+  
+</p>
+
+<p>Containing:
+  
+
+
+
+
+  
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+  
+
+
+
+  <!-- <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Remicade pulv til kons til inf væske, oppl 100 mg
+  </h4>
+
+  
+  
+  
+  
+    LEGEMIDDELMERKEVAREID:
+    <b>
+      ID_D50B98BD-030D-461D-A35D-17E101E1396B
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b></b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 2</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          LEGEMIDDELPAKNINGID:
+          <b>
+            ID_359EDC49-19B2-4933-84B2-61F473D0A002
+          </b>
+        
+          VARENUMMER:
+          <b>
+            063187
+          </b>
+        
+          VNR:
+          <b>
+            063187
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          </b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+    
+    
+    
+      <p class="divtitle"> Package 2 of 2</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          LEGEMIDDELPAKNINGID:
+          <b>
+            ID_C204F161-C434-4A8C-83E0-4152B0FABFCE
+          </b>
+        
+          VARENUMMER:
+          <b>
+            575787
+          </b>
+        
+          VNR:
+          <b>
+            575787
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          </b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+  
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+    <!-- insert notes if present -->
+  
+
+
+
+
+            <!-- /inner-wrapper -->
+          <!-- /row -->
+        <!-- /container -->
+      <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  
+
+</p></div></p></div></hr></hr></hr></div></div></div></div></div></div></body></html>

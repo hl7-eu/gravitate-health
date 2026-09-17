@@ -1,0 +1,58 @@
+{
+  "resourceType" : "Ingredient",
+  "id" : "ingredient-for-remsima-infliximab",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-remsima-infliximab\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-remsima-infliximab&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0B72HH48FLU\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"ManufacturedItemDefinition-mid-e3e5e78d4e002ed9e15b925cd546e20b.html\">ManufacturedItemDefinition/mid-e3e5e78d4e002ed9e15b925cd546e20b</a></li><li><a href=\"MedicinalProductDefinition-mpbe76bdf784deea6950583b234f789db2.html\">MedicinalProductDefinition/mpbe76bdf784deea6950583b234f789db2</a></li><li><a href=\"AdministrableProductDefinition-ap-e3e5e78d4e002ed9e15b925cd546e20b.html\">AdministrableProductDefinition/ap-e3e5e78d4e002ed9e15b925cd546e20b</a></li></ul><p><b>role</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#72072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>INFLIXIMAB <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#B72HH48FLU)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>100 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+  },
+  "identifier" : {
+    "use" : "official",
+    "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+    "value" : "B72HH48FLU"
+  },
+  "status" : "active",
+  "for" : [{
+    "reference" : "ManufacturedItemDefinition/mid-e3e5e78d4e002ed9e15b925cd546e20b"
+  },
+  {
+    "reference" : "MedicinalProductDefinition/mpbe76bdf784deea6950583b234f789db2"
+  },
+  {
+    "reference" : "AdministrableProductDefinition/ap-e3e5e78d4e002ed9e15b925cd546e20b"
+  }],
+  "role" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "72072",
+      "display" : "active"
+    }]
+  },
+  "substance" : {
+    "code" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+          "code" : "B72HH48FLU",
+          "display" : "INFLIXIMAB"
+        }]
+      }
+    },
+    "strength" : [{
+      "presentationQuantity" : {
+        "value" : 100,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      },
+      "basis" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+          "code" : "ACTIB",
+          "display" : "active ingredient - basis of strength"
+        }]
+      }
+    }]
+  }
+}

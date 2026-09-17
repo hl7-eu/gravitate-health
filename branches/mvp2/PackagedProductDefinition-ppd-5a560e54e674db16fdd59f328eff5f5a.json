@@ -1,0 +1,79 @@
+{
+  "resourceType" : "PackagedProductDefinition",
+  "id" : "ppd-5a560e54e674db16fdd59f328eff5f5a",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"ppd-5a560e54e674db16fdd59f328eff5f5a\"> </a><a name=\"hcppd-5a560e54e674db16fdd59f328eff5f5a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;ppd-5a560e54e674db16fdd59f328eff5f5a&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/16/1157/005\u00a0(use:\u00a0OFFICIAL)</p><p><b>name</b>: Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen 10</p><p><b>type</b>: Chemical Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-mp367b9089c0743a2330f4c6e82b40ee41.html\">MedicinalProductDefinition/mp367b9089c0743a2330f4c6e82b40ee41</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>manufacturer</b>: <a href=\"Organization-man-174ad598bd1faddba2098648a45613e1.html\">Organization/man-174ad598bd1faddba2098648a45613e1</a> &quot;Sanofi-Aventis Deutschland GmbH&quot;</p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: Pre-filled pen <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073543)</span></p><p><b>quantity</b>: 10</p><p><b>material</b>: Glass type I <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003204)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://spor.ema.europa.eu/pmswi",
+    "value" : "EU/1/16/1157/005"
+  }],
+  "name" : "Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen 10",
+  "type" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000155527",
+      "display" : "Chemical Medicinal Product"
+    }]
+  },
+  "packageFor" : [{
+    "reference" : "MedicinalProductDefinition/mp367b9089c0743a2330f4c6e82b40ee41"
+  }],
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active",
+      "display" : "Active"
+    }]
+  },
+  "statusDate" : "2015-02-07T13:28:17Z",
+  "manufacturer" : [{
+    "reference" : "Organization/man-174ad598bd1faddba2098648a45613e1"
+  }],
+  "packaging" : {
+    "type" : {
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "100000073498",
+        "display" : "Box"
+      }]
+    },
+    "quantity" : 1,
+    "material" : [{
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "200000003529",
+        "display" : "Cardboard"
+      }]
+    }],
+    "packaging" : [{
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000073543",
+          "display" : "Pre-filled pen"
+        }]
+      },
+      "quantity" : 10,
+      "material" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000003204",
+          "display" : "Glass type I"
+        }]
+      }],
+      "containedItem" : [{
+        "item" : {
+          "reference" : {
+            "reference" : "ManufacturedItemDefinition/mid-e2464a7d3d627b9df9bef5bc3b263fb4"
+          }
+        }
+      }]
+    }]
+  }
+}

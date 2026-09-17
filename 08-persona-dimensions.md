@@ -1,0 +1,64 @@
+# Persona Dimensions - Gravitate Health FHIR Implementation Guide v0.1.0
+
+* [**Table of Contents**](toc.md)
+* **Persona Dimensions**
+
+## Persona Dimensions
+
+### Taking data to G-lens
+
+For G-lens purposes, we need 4 main aspects:
+
+1. ePI
+1. IPS
+1. Persona Vector
+1. Query
+
+### Persona's Dimensions checklist
+
+Persona dimensions were elements listed within the project as potentially usefull for the focusing process. They are listed in the table below. It is true that some could be inferred from IPS directly or indirectly, but only some take part in the mandatory/formally defined sections of IPS as can be seen below. For the ones not possible to be inferred from IPS or not existing in it, there are at least two paths:
+
+1. Assuming a lot of data comes from validated questionnaires, we can represent it as a pair of Questionnaire/QuestionnaireResponse
+1. Transform them into Observations/Conditions
+1. Use them as is
+
+1. Third parties (Social Worker, phycologist, physician, nurse, etc) asserts the observations/Condition directly for all/part of the dimensions.
+
+Then, in both cases, observation can be coupled together and transmitted along with IPS or instead of IPS - [persona Vector](). The diagram below for the alternative with questionnaire:
+
+or the alternative without questionnaire:
+
+**Table with persona dimension listing**
+
+| | | | |
+| :--- | :--- | :--- | :--- |
+| Age | subject.birthDate |   |   |
+| Social Support/ family | N/A | 91663-5 Social support index [MOS Social Support Survey] | - 1.[paper](https://www.researchgate.net/publication/301305243_A_Multidimensional_Approach_to_Social_Support_The_Questionnaire_on_the_Frequency_of_and_Satisfaction_with_Social_Support_QFSSS) |
+| Sex | subject.gender |   |   |
+| WorkLife | N/A |   | [PRAPARE](https://prapare.org/)- 2.[paper](https://pubmed.ncbi.nlm.nih.gov/19839663/) |
+| Smoking,ongoing | Social History |   |   |
+| Physical Activity | N/A |   | - 1.[paper](https://journals.lww.com/acsm-msse/Fulltext/2003/08000/International_Physical_Activity_Questionnaire_.20.aspx#FUA1A-20)2.[questions](https://sites.google.com/site/theipaq/questionnaire_links) |
+| Organized | N/A |   |   |
+| Extrovert/introvert | N/A |   |   |
+| Emotional/Rational | N/A |   |   |
+| # diagnoses | ProblemList Section |   |   |
+| Chronic Afliction | secondary interpretation of Problem List |   |   |
+| # Medicines | MedicationSummary Section |   |   |
+| Health Advice received | N/A |   |   |
+| Concern Domains | N/A |   |   |
+| Share info Willingly | N/A |   |   |
+| Mood Level | N/A | 65457-4 First of all, how are you feeling today compared to your usual state | +- 1.[paper](https://d1wqtxts1xzle7.cloudfront.net/53247538/Development_short_questionnaire_epidemologic_studies_child_depression_Angold_Messer_1995-libre.pdf?1495551322=&response-content-disposition=inline%3B+filename%3DDEVELOPME_NT_OF_A_SHORT_QUESTIONNAIRE_FO.pdf&Expires=1670866969&Signature=E--~gd9gStyfqRYGb5Jebs85fO3SWXM7WidTjFGdUsEvjXhYt7BauqMXAoxlSLumfSpL8rJipNhir9VnpHZUexkF-Ez8f7n6-ZmmmB2lm~10AhXPIkcF8ADE-NClBU-9~KBekDK3YC6JVRaslXYcWogz71pq1UT0WUjsAh-hj9frLj3PSUW9lr-YlNLWr85OWN70ocnow7ZKvyWER6~OpGOXt-dnZekPBltsIPtdLZBgJarzeGXe1fmJediJCBWgj4waXEgoTaQsOuJy8DJ2UtHOnsWWKexl2ZGSEaHlAzDG797SGdzLursC~QA8sRcEZ4zCEChmEsRP-GUwT6tkKA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)2.[paper2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/) |
+| Autonomy | Functional Status |   |   |
+| Health Literacy | N/A | 85450-5 Health literacy and communication total | 1. European Health Literacy Survey Questionnaire (HLS-EU-Q) 2.[example paper](https://journals.lww.com/cancernursingonline/Abstract/2018/03000/Validation_of_the_European_Health_Literacy_Survey.14.aspx) |
+| Digital Literacy | N/A |   | + 1.[revision](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7889415/)1.[paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9394541/) |
+| Tool Support Interest | N/A |   |   |
+
+### Persona Vector
+
+Persona Vector acts a method for conveying information that is not on the official IPS and that can be used to support the focusing operations.
+
+1. User edits/additions based the official IPS
+1. Additional information not conveyed on the IPS
+
+These sets of information can be used as a FHIR collection as depicted in [persona Vector](StructureDefinition-persona-collection.md)
+

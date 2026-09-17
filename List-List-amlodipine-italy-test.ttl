@@ -1,0 +1,127 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/List/List-amlodipine-italy-test> a fhir:List ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "List-amlodipine-italy-test"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: List List-amlodipine-italy-test</b></p><a name=\"List-amlodipine-italy-test\"> </a><a name=\"hcList-amlodipine-italy-test\"> </a><h2>List of all ePIs associated with amlodipine-italy</h2><table class=\"clstu\"><tr><td>Date: 2015-02-07 13:28:17+0000 </td><td>Mode: Working List </td><td>Status: Current </td></tr><tr><td>Subject: <a href=\"Bundle-bundle-amlodipine-italy-raw-newlang.html#MedicinalProductDefinition_test-amlodipine-italy-mpd\">MedicinalProductDefinition: identifier = https://www.gravitatehealth.eu/sid/doc#AMLODIPINA-DOC-GENERICI-tablet-10mg--71-ITA-MPD; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></td></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td><td>Date</td><td>Flag</td></tr><tr><td><a href=\"Bundle-bundle-amlodipine-italy-raw.html\">Bundle: identifier = https://www.gravitatehealth.eu/sid/doc#test-amlodipine-italy; type = document; timestamp = 2023-06-27 10:09:22+0000</a></td><td>2015-02-07 13:28:17+0000</td><td>Unchanged</td></tr><tr><td><a href=\"Bundle-bundle-amlodipine-italy-raw-newlang.html\">Bundle: identifier = https://www.gravitatehealth.eu/sid/doc#test-amlodipine-italy; type = document; timestamp = 2023-06-27 10:09:22+0000</a></td><td>2015-02-07 13:28:17+0000</td><td>Unchanged</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://www.gravitatehealth.eu/sid/doc"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "xx" ]
+  ] [
+     fhir:system [ fhir:v "http://spor.ema.europa.eu/v2/medicine-name"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "amlodipine-italy" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "current"] ; # 
+  fhir:mode [ fhir:v "working"] ; # 
+  fhir:title [ fhir:v "List of all ePIs associated with amlodipine-italy"] ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/test-amlodipine-italy-mpd> ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/medicine-name"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "ibuprofen" ] ;
+         fhir:display [ fhir:v "amlodipine-italy" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "mah-code" ] ;
+         fhir:display [ fhir:v "None" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/active-substance"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "acive-substance-code" ] ;
+         fhir:display [ fhir:v "None" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/domain"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000004"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000000012" ] ;
+         fhir:display [ fhir:v "H" ]
+       ]
+     ] ) ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/test-amlodipine-italy-mpd" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:flag [
+       fhir:coding ( [
+         fhir:system [ fhir:v "urn:oid:1.2.36.1.2001.1001.101.104.16592"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "01" ]
+       ] ) ;
+       fhir:text [ fhir:v "Unchanged" ]
+     ] ;
+     fhir:date [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime ] ;
+     fhir:item [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Bundle/bundle-amlodipine-italy-raw> ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/documentType"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/100000155531/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ] ;
+           fhir:display [ fhir:v "B. PACKAGE LEAFLET" ]
+         ]
+       ] [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/language"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000072057"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "en" ] ;
+           fhir:display [ fhir:v "en" ]
+         ]
+       ] ) ;
+       fhir:reference [ fhir:v "Bundle/bundle-amlodipine-italy-raw" ]
+     ]
+  ] [
+     fhir:flag [
+       fhir:coding ( [
+         fhir:system [ fhir:v "urn:oid:1.2.36.1.2001.1001.101.104.16592"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "01" ]
+       ] ) ;
+       fhir:text [ fhir:v "Unchanged" ]
+     ] ;
+     fhir:date [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime ] ;
+     fhir:item [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Bundle/bundle-amlodipine-italy-raw-newlang> ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/documentType"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/100000155531/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ] ;
+           fhir:display [ fhir:v "B. PACKAGE LEAFLET" ]
+         ]
+       ] [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/language"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000072057"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "es" ] ;
+           fhir:display [ fhir:v "es" ]
+         ]
+       ] ) ;
+       fhir:reference [ fhir:v "Bundle/bundle-amlodipine-italy-raw-newlang" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

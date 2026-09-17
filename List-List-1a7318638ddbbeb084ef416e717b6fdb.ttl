@@ -1,0 +1,97 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/List/List-1a7318638ddbbeb084ef416e717b6fdb> a fhir:List ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "List-1a7318638ddbbeb084ef416e717b6fdb"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: List List-1a7318638ddbbeb084ef416e717b6fdb</b></p><a name=\"List-1a7318638ddbbeb084ef416e717b6fdb\"> </a><a name=\"hcList-1a7318638ddbbeb084ef416e717b6fdb\"> </a><h2>List of all ePIs associated with pentasa</h2><table class=\"clstu\"><tr><td>Date: 2015-02-07 13:28:17+0000 </td><td>Mode: Working List </td><td>Status: Current </td></tr><tr><td>Subject: <a href=\"Bundle-bundlepackageleaflet-es-1a7318638ddbbeb084ef416e717b6fdb.html#MedicinalProductDefinition_mpb3a8d58c709a2281d8ad2a590fe81663\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#77022,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E827xx; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></td></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td><td>Date</td><td>Flag</td></tr><tr><td><a href=\"Bundle-bundlepackageleaflet-es-1a7318638ddbbeb084ef416e717b6fdb.html\">Bundle: identifier = https://www.gravitatehealth.eu/sid/doc#3fb9f44727c11d7023622a40870fbba0; type = document; timestamp = 2023-06-27 10:09:22+0000</a></td><td>2015-02-07 13:28:17+0000</td><td>Unchanged</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://www.gravitatehealth.eu/sid/doc"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "xx" ]
+  ] [
+     fhir:system [ fhir:v "http://spor.ema.europa.eu/v2/medicine-name"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "pentasa" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "current"] ; # 
+  fhir:mode [ fhir:v "working"] ; # 
+  fhir:title [ fhir:v "List of all ePIs associated with pentasa"] ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpb3a8d58c709a2281d8ad2a590fe81663> ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/medicine-name"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "pentasa" ] ;
+         fhir:display [ fhir:v "pentasa" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "mah-code" ] ;
+         fhir:display [ fhir:v "None" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/active-substance"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "acive-substance-code" ] ;
+         fhir:display [ fhir:v "None" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/domain"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000004"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000000012" ] ;
+         fhir:display [ fhir:v "H" ]
+       ]
+     ] ) ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mpb3a8d58c709a2281d8ad2a590fe81663" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:flag [
+       fhir:coding ( [
+         fhir:system [ fhir:v "urn:oid:1.2.36.1.2001.1001.101.104.16592"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "01" ]
+       ] ) ;
+       fhir:text [ fhir:v "Unchanged" ]
+     ] ;
+     fhir:date [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime ] ;
+     fhir:item [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Bundle/bundlepackageleaflet-es-1a7318638ddbbeb084ef416e717b6fdb> ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/documentType"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/100000155531/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ] ;
+           fhir:display [ fhir:v "B. PACKAGE LEAFLET" ]
+         ]
+       ] [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/language"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000072057"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "es" ] ;
+           fhir:display [ fhir:v "es" ]
+         ]
+       ] ) ;
+       fhir:reference [ fhir:v "Bundle/bundlepackageleaflet-es-1a7318638ddbbeb084ef416e717b6fdb" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

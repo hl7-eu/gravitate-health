@@ -1,0 +1,127 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/List/List-pt-Glimepirida> a fhir:List ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "List-pt-Glimepirida"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: List List-pt-Glimepirida</b></p><a name=\"List-pt-Glimepirida\"> </a><a name=\"hcList-pt-Glimepirida\"> </a><h2>List of all ePIs associated with Glimepirida</h2><table class=\"clstu\"><tr><td>Date: 2015-02-07 13:28:17+0000 </td><td>Mode: Working List </td><td>Status: Current </td></tr><tr><td>Subject: <a href=\"MedicinalProductDefinition-MPD-3975.html\">MedicinalProductDefinition: identifier = https://infarmed.pt/INFOMED/MED_ID#3975</a></td></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td><td>Date</td><td>Flag</td></tr><tr><td><a href=\"Bundle-PT-Glimepirida-Generis.html\">Bundle: identifier = https://infarmed.pt/INFOMED/fi#Glimepirida-Generis; type = document; timestamp = 2023-11-20 09:00:00+0000</a></td><td>2015-02-07 13:28:17+0000</td><td>Unchanged</td></tr><tr><td><a href=\"Bundle-PT-Glimepirida-Generis-processed-bundle.html\">Bundle: identifier = https://infarmed.pt/INFOMED/fi#Glimepirida-Generis; type = document; timestamp = 2023-11-20 09:00:00+0000</a></td><td>2015-02-07 13:28:17+0000</td><td>Changed</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://www.gravitatehealth.eu/sid/doc"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/18/1289/001" ]
+  ] [
+     fhir:system [ fhir:v "http://spor.ema.europa.eu/v2/medicine-name"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "Glimepirida" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "current"] ; # 
+  fhir:mode [ fhir:v "working"] ; # 
+  fhir:title [ fhir:v "List of all ePIs associated with Glimepirida"] ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/MPD-3975> ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/medicine-name"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "biktarvy" ] ;
+         fhir:display [ fhir:v "Glimepirida" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "mah-code" ] ;
+         fhir:display [ fhir:v "None" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/active-substance"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000005"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "acive-substance-code" ] ;
+         fhir:display [ fhir:v "None" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/domain"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000000004"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000000012" ] ;
+         fhir:display [ fhir:v "H" ]
+       ]
+     ] ) ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/MPD-3975" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:flag [
+       fhir:coding ( [
+         fhir:system [ fhir:v "urn:oid:1.2.36.1.2001.1001.101.104.16592"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "01" ]
+       ] ) ;
+       fhir:text [ fhir:v "Unchanged" ]
+     ] ;
+     fhir:date [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime ] ;
+     fhir:item [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Bundle/PT-Glimepirida-Generis> ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/documentType"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/100000155531/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ] ;
+           fhir:display [ fhir:v "B. PACKAGE LEAFLET" ]
+         ]
+       ] [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/language"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000072057"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "pt" ] ;
+           fhir:display [ fhir:v "pt" ]
+         ]
+       ] ) ;
+       fhir:reference [ fhir:v "Bundle/PT-Glimepirida-Generis" ]
+     ]
+  ] [
+     fhir:flag [
+       fhir:coding ( [
+         fhir:system [ fhir:v "urn:oid:1.2.36.1.2001.1001.101.104.16592"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "02" ]
+       ] ) ;
+       fhir:text [ fhir:v "preprocessed" ]
+     ] ;
+     fhir:date [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime ] ;
+     fhir:item [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Bundle/PT-Glimepirida-Generis-processed-bundle> ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/documentType"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/v1/lists/100000155531/terms/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ] ;
+           fhir:display [ fhir:v "B. PACKAGE LEAFLET" ]
+         ]
+       ] [
+         fhir:url [ fhir:v "http://ema.europa.eu/fhir/extension/language"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "http://spor.ema.europa.eu/v1/100000072057"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "pt" ] ;
+           fhir:display [ fhir:v "pt" ]
+         ]
+       ] ) ;
+       fhir:reference [ fhir:v "Bundle/PT-Glimepirida-Generis-processed-bundle" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

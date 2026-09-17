@@ -1,0 +1,1311 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI document Bundle for skilarence Package Leaflet - JSON Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.27"}
+    h3,h4,h5,h6{--heading-prefix:"16.27"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for skilarence Package Leaflet</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-bundlepackageleaflet-040bd687344f34655b854f4b67248074.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-040bd687344f34655b854f4b67248074.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-040bd687344f34655b854f4b67248074.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: ePI document Bundle for skilarence Package Leaflet - JSON Representation</h2>
+
+
+<p><a href="Bundle-bundlepackageleaflet-040bd687344f34655b854f4b67248074.json" no-download="true">Raw json</a> | <a href="Bundle-bundlepackageleaflet-040bd687344f34655b854f4b67248074.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" style="white-space: pre; overflow: hidden"><code>
+{
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle">resourceType</a>" : "Bundle",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.id">id</a>" : "bundlepackageleaflet-040bd687344f34655b854f4b67248074",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+      <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Bundle-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.language">language</a>" : "en",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.identifier">identifier</a>" : {
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://www.gravitatehealth.eu/sid/doc",
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "EU/1/17/1201/002"
+  },
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.type">type</a>" : "document",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.timestamp">timestamp</a>" : "2023-06-27T10:09:22Z",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition040bd687344f34655b854f4b67248074",
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/composition.html">resourceType</a>" : "Composition",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.id">id</a>" : "composition040bd687344f34655b854f4b67248074",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.language">language</a>" : "en",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;en\&quot; lang=\&quot;en\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=\&quot;composition040bd687344f34655b854f4b67248074\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Composition &amp;quot;composition040bd687344f34655b854f4b67248074&amp;quot;  (Language &amp;quot;en&amp;quot;) &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\&quot;&gt;Composition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a0b8d5ac467d953d2a9e5deb29f98ba14a&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Package Leaflet &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: Raw &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-epicategory-cs.html\&quot;&gt;Category of EPI&lt;/a&gt;#R)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-02-16 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;a href=\&quot;#Organization_mah-43da1186bd45a53209a5c5aa849ac823\&quot;&gt;See above (Organization/mah-43da1186bd45a53209a5c5aa849ac823)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: TEST PURPOSES ONLY - skilarence&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Official &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html\&quot;&gt;Composition Attestation Mode&lt;/a&gt;#official)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;2022-02-16 13:28:17+0000&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "b8d5ac467d953d2a9e5deb29f98ba14a"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.status">status</a>" : "final",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.type">type</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Package Leaflet"
+        },
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.category">category</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "R",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Raw"
+              }
+            ]
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.subject">subject</a>" : [
+          {
+            <a href="MedicinalProductDefinition-mp284ddecbce6fb138483090d5e55bafac.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/mp284ddecbce6fb138483090d5e55bafac"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.date">date</a>" : "2022-02-16T13:28:17Z",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.author">author</a>" : [
+          {
+            <a href="Organization-mah-43da1186bd45a53209a5c5aa849ac823.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "Organization/mah-43da1186bd45a53209a5c5aa849ac823"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.title">title</a>" : "TEST PURPOSES ONLY - skilarence",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester">attester</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.mode">mode</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/composition-attestation-mode",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "official"
+                }
+              ]
+            },
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.time">time</a>" : "2022-02-16T13:28:17Z"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section">section</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "B. Package Leaflet",
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+                }
+              ],
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
+            },
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+              "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+              "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;unavailable&lt;/div&gt;"<a name="end-xhtml"></a>
+            },
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.emptyReason">emptyReason</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "unavailable"
+                }
+              ]
+            },
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Package leaflet: Information for the user",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Package leaflet: Information for the user"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;Skilarence 30 mg gastro-resistant tablets dimethyl fumarate&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Read all of this leaflet carefully before you start taking this medicine because it contains important information for you.&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Keep this leaflet. You may need to read it again.&lt;/li&gt;&lt;li&gt;If you have any further questions, ask your doctor or pharmacist.&lt;/li&gt;&lt;li&gt;Thi s medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.&lt;/li&gt;&lt;li&gt;If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not li sted in this leaflet. See section 4.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "What is in this leaflet",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "What is in this leaflet"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;strong&gt;What is in this leaflet&lt;/strong&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;What Skilarence is and what it is used for&lt;/li&gt;&lt;li&gt;What you need to know before you take Skilarence&lt;/li&gt;&lt;li&gt;How to take Skilarence&lt;/li&gt;&lt;li&gt;Possible side effects&lt;/li&gt;&lt;li&gt;How to store Skilarence&lt;/li&gt;&lt;li&gt;Contents of the pack and other information&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "1. What skilarence is and what it is used for",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "1. What skilarence is and what it is used for"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;strong&gt;What Skilarence is&lt;/strong&gt; Skilarence is a medicine that contains the active substance dimethyl fumarate. Dimethyl fumarate works on cells of the immune system (the body&amp;#39;s natural defences). It changes the activity of the immune system by reducing the production of certain substances involved in causing psoriasis.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;What Skilarence is used for&lt;/strong&gt; Skilarence tablets are used to treat moderate to severe plaque psoriasis in adults. Psoriasis is a disease causing thickened, inflamed, red areas on the skin, often covered by silvery scales.&lt;/p&gt;&lt;p&gt;Response to Skilarence can be generally seen as early as week 3 and improves over time. Experience with related products containing dimethyl fumarate shows treatment benefit for at least up to 24 months.&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "2. What you need to know before you take skilarence",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "2. What you need to know before you take skilarence"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;strong&gt;Do not take S kilarence&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;if you are allergic to dimethyl fumarate or any of the other ingredients of this medicine (listed in section 6)&lt;/li&gt;&lt;li&gt;if you have severe problems with your stomach or intestines&lt;/li&gt;&lt;li&gt;if you have severe liver or kidney problems&lt;/li&gt;&lt;li&gt;if you are pregnant or breast-feeding&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Warnings and precautions&lt;/strong&gt; Talk to your doctor or pharmacist before taking Skilarence.&lt;/p&gt;&lt;p&gt;Monitoring Skilarence may cause problems with your blood, liver or kidneys. You will have blood and urine tests before treatment and then regularly during your treatment. This is to make sure that you are not getting&lt;/p&gt;&lt;p&gt;these complications and can continue taking this medicine. Depending on the results of these blood and urine tests, your doctor may decide to increase the dose of Skilarence as per the advised schedule (see section 3), maintain your dose, reduce your dose or stop treatment altogether.&lt;/p&gt;&lt;p&gt;Infections White blood cells help your body to fight infections. Skilarence may reduce the number of your white blood cells. Talk to your doctor if you think you may have a n infection. Symptoms include fever, pain, aching muscles, headache, loss of appetite and a general feeling of weakness. If you have a serious infection, either before starting treatment with Skilarence or during treatment, your doctor may advise you not to take S kilarence until the infection has resolved.&lt;/p&gt;&lt;p&gt;Gastrointestinal disorders Tell your doctor if you have or have had problems with your stomach or intestines. Your doctor will advise you on what care you need to take during Skilarence treatment.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Children and adolescents&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Children and adolescents below the age of 18 years should not take this medicine because it has not been studied in this age group.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Other medicines and Skilarence&lt;/strong&gt; Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines.&lt;/p&gt;&lt;p&gt;In particular, tell your doctor if you are taking the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Dimethyl fumarate or other fumarates.&lt;/strong&gt; The active substance in Skilarence, dimethyl fumarate, is also used in other medicines such as tablets, ointments a nd baths. You must avoid using other products that contain fumarates to prevent taking too much.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Other medicines used to treat psoriasis,&lt;/strong&gt; such as methotrexate, retinoids, psoralens, ciclosporin, or other medicines that affect the immune system (such as immunosuppressants or cytostatics). Taking these medicines with Skilarence could increase the risk of side effects on your immune system.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Other medicines that can affect your kidney function,&lt;/strong&gt; such as methotrexate or ciclosporin (used to treat psoriasis), aminoglycosides (used to treat infections), diuretics ( which increase urine), nonsteroidal anti-inflammatory drugs (used to treat pain) or lithium (used for bipolar disease and depression). These medicines taken together with Skilarence could increase the ris k of side effects on your kidneys.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you get severe or prolonged diarrhoea due to using Skilarence, other medicines may not work as well as they should. In that case, discuss your diarrhoea with your doctor. I f you are taking a contraceptive medicine (the pill), this is especially important as the effect may be reduced and you may need to use additional methods to prevent pregnancy. See the instructions in the patient leaflet of the contraceptive you are taking.&lt;/p&gt;&lt;p&gt;If you need a vaccination, talk to your doctor. Certain types of vaccines (live vaccines) may cause infection if used during treatment with Skilarence. Your doctor can advise you what would be best.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Skilarence with alcohol&lt;/strong&gt; Avoid strong alcoholic drinks (more than 50 ml of spirits containing more than 30% alcohol by volume) during treatment with Skilarence, as alcohol can interact with this medicine. This could cause stomach and intestinal problems.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Pregnancy and breast-feeding&lt;/strong&gt; Do not take Skilarence if you are pregnant or trying to become pregnant, as Skilarence may harm your baby. Use effective methods of contraception to avoid becoming pregnant during treatment with Skilarence (see also “Other medicines and Skilarence” above). In case of stomach and intestinal&lt;/p&gt;&lt;p&gt;problems that could reduce the effectiveness of oral contraceptives, you should consult your doctor who will advise you on additional contraceptive methods. Do not breast-feed during treatment with Skilarence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Driving and using machines&lt;/strong&gt; Skilarence may have a minor influence on the ability to drive and use machines. You may feel dizzy or tired after taking Skilarence. If you are affected, be careful when d riving or using machines.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Skilarence contains lactose&lt;/strong&gt; If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor before taking this medicinal product.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Skilarence contains sodium&lt;/strong&gt; This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium- free’.&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "3. How to take skilarence",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "3. How to take skilarence"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor or pharmacist if you are not sure.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Dose&lt;/strong&gt; Your doctor will start your treatment with a low dose of Skilarence by using 30 mg tablets. This helps your body to get used to the medicine and to reduce the risk of side effects, such as stomach and intestinal problems. The dose will be increased with 30 mg every week as shown in the table below. When reaching a dose of 120 mg Skilarence per day, usually from week 4 onwards, you can switch to 120 mg tablets for conveni ence. When switching tablets from 30 mg to 120 mg, please make sure you are using the ri ght tablet and dose.&lt;/p&gt;&lt;pre&gt;&lt;code&gt;&lt;span class=\&quot;hljs-attribute\&quot;&gt;Treatment\nweek&lt;/span&gt;\n&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;&lt;span class=\&quot;hljs-attribute\&quot;&gt;Tablet\nstrength&lt;/span&gt;\n&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;How many tablets to take during the day (^) Number of tablets per day Total daily Breakfast Lunch Evening meal dose^ 1 30 mg ‒ ‒ 1 1 30 mg 2 30 mg 1 ‒ 1 2 60 mg 3 30 mg 1 1 1 3 90 mg 4 120 mg ‒ ‒ 1 1 120 mg 5 120 mg 1 ‒ 1 2 240 mg 6 120 mg 1 1 1 3 360 mg 7 120 mg 1 1 2 4 480 mg 8 120 mg 2 1 2 5 600 mg 9+ 120 mg 2 2 2 6 720 mg Your doctor will check how well your condition is improving after you start taking Skilarence and will check for side effects. If you have severe side effects after an increase in dose, your doctor may recommend that you temporarily go back to the last dose. If the side effects are not that troublesome, your dose will be increased until your condition is well controlled. You may not need the maximum dose of 720 mg per day as supplied in the table above. After your condition has improved sufficiently, your doctor will consider how to gradually reduce the daily dose of Skilarence to what you need to maintain your improvement.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Method of administration&lt;/strong&gt; Swallow Skilarence tablets whole with liquid. Take your tablet(s) during or immediately after a meal. Do not crush, break, dissolve or chew the tablet, a s they have a special coating to help prevent irritation of your stomach.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;If you take more Skilarence than you should&lt;/strong&gt; If you think you have taken too many Skilarence tablets, contact your doctor or pharmacist.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;If you forget to take Skilarence&lt;/strong&gt; Do not take a double dose to make up for a forgotten dose. Take the next dose at the usual time and continue taking the medicine exactly as described in this leaflet or exactly as agreed with your doctor. Please ask your doctor or pharmacist if you are not sure.&lt;/p&gt;&lt;p&gt;If you have any further questions on the use of this medicine, ask your doctor or pharmacist.&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "4. Possible side effects",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "4. Possible side effects"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;Like all medicines, this medicine can cause side effects, although not everybody gets them. Some of these side effects, such as reddening of the face or body (flushing), diarrhoea, stomach problems and nausea usually improve as you continue treatment.&lt;/p&gt;&lt;p&gt;The most serious side effects that may occur with Skilarence are allergic or hypersensitivity reactions; kidney failure or a kidney disease called Fanconi syndrome; or a severe brain infection called progressive multifocal leukoencephalopathy (PML). It is not known how commonly they occur. For symptoms see below.&lt;/p&gt;&lt;p&gt;Allergic or hypersensitivity reactions Allergic or hypersensitivity reactions are rare but may be very serious. Reddening of the face or body (flushing) is a very common side effect which may affect more than 1 in 10 people. However, if you become flushed and get any of the following signs:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;wheezing, difficulty breathing or shortness o f breath,&lt;/li&gt;&lt;li&gt;swelling of the face, lips, mouth or tongue stop taking Skilarence and call a doctor straight away.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Brain infection called PML Progressive multifocal leukoencephalopathy (PML) is a rare but serious brain infection that can lead to severe disability or death. If you notice new or worsening weakness on one side of the body; clumsiness; changes in vision, thinking or memory; confusion; or personality changes lasting several days, stop taking Skilarence and talk to your doctor straight away.&lt;/p&gt;&lt;p&gt;Fanconi syndrome Fanconi syndrome is a rare but serious kidney disorder which may occur with Skilarence. If you notice you are passing more urine (or more frequently); are more thirsty and drinking more than normal; your muscles seem weaker you break a bone; o r just have aches and pains, tal k to your doctor as soon as possible so that this can be investigated further.&lt;/p&gt;&lt;p&gt;Talk to your doctor if you get any of the following side effects.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Very common&lt;/strong&gt; (may affect more than 1 in 10 people)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;decrease in white blood cells called lymphocytes (lymphopenia)&lt;/li&gt;&lt;li&gt;decrease in all white blood cells (leukopenia)&lt;/li&gt;&lt;li&gt;reddening of the face or body (flushing)&lt;/li&gt;&lt;li&gt;diarrhoea&lt;/li&gt;&lt;li&gt;bloating, stomach pain or stomach cramps&lt;/li&gt;&lt;li&gt;feeling sick (nausea)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Common&lt;/strong&gt; (may affect up to 1 in 10 people)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;increase in all white blood cells (leukocytosis)&lt;/li&gt;&lt;li&gt;increase in specific white blood cells called eosinophils&lt;/li&gt;&lt;li&gt;increase in certain enzymes in the blood (used for checking the health of your liver)&lt;/li&gt;&lt;li&gt;being sick&lt;/li&gt;&lt;li&gt;constipation&lt;/li&gt;&lt;li&gt;gas (flatulence), stomach discomfort, indigestion&lt;/li&gt;&lt;li&gt;decreased appetite&lt;/li&gt;&lt;li&gt;headache&lt;/li&gt;&lt;li&gt;feeling tired&lt;/li&gt;&lt;li&gt;weakness&lt;/li&gt;&lt;li&gt;feeling hot&lt;/li&gt;&lt;li&gt;abnormal sensations of the skin, such as itching, burning, stinging, tickling or tingling&lt;/li&gt;&lt;li&gt;pink or red blotches on the skin (erythema)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Uncommon&lt;/strong&gt; (may affect up to 1 in 100 people)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;dizziness&lt;/li&gt;&lt;li&gt;excess protein in the urine (proteinuria)&lt;/li&gt;&lt;li&gt;increase in serum creatinine (a substance in the blood used for measuring how well your kidneys are working)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Rare&lt;/strong&gt; (may affect up to 1 in 1,000 people)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;allergic skin reaction&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Very rare&lt;/strong&gt; (may affect up to 1 in 10,000 people)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;acute lymphatic leukaemia (a type of blood cancer)&lt;/li&gt;&lt;li&gt;decrease in all types of blood cells (pancytopenia)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Not known&lt;/strong&gt; (frequency cannot be estimated from the available data)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;shingles&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Reporting of side effects&lt;/strong&gt; If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. By reporting side effects you can help provide more information on the safety of this medicine.&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "5. How to store skilarence",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "5. How to store skilarence"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;Keep this medicine out of the sight and reach of children.&lt;/p&gt;&lt;p&gt;Do not use this medicine after the expiry date which is stated on the carton and the blister after “EXP”. The expiry date refers to the last day of that month.&lt;/p&gt;&lt;p&gt;This medicine does not require any special storage conditions.&lt;/p&gt;&lt;p&gt;Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "6. Contents of the pack and other information",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "6. Contents of the pack and other information"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;strong&gt;What Skilarence 30 mg contains&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;the active substance is dimethyl fumarate. One tablet contains 30 mg dimethyl fumarate.&lt;/li&gt;&lt;li&gt;the other ingredients are: lactose monohydrate, cellulose microcrystalline, croscarmellose&lt;/li&gt;&lt;/ul&gt;&lt;pre&gt;&lt;code&gt;sodium, colloidal anhydrous silica, magnesium stearate, methacrylic acid-ethyl acrylate\n&lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-title\&quot;&gt;copolymer&lt;/span&gt; &lt;span class=\&quot;hljs-params\&quot;&gt;(&lt;span class=\&quot;hljs-number\&quot;&gt;1&lt;/span&gt;:&lt;span class=\&quot;hljs-number\&quot;&gt;1&lt;/span&gt;)&lt;/span&gt;, &lt;span class=\&quot;hljs-title\&quot;&gt;talc&lt;/span&gt;, &lt;span class=\&quot;hljs-title\&quot;&gt;triethyl&lt;/span&gt; &lt;span class=\&quot;hljs-title\&quot;&gt;citrate&lt;/span&gt;, &lt;span class=\&quot;hljs-title\&quot;&gt;titanium&lt;/span&gt; &lt;span class=\&quot;hljs-title\&quot;&gt;dioxide&lt;/span&gt; &lt;span class=\&quot;hljs-params\&quot;&gt;(E171)&lt;/span&gt; &lt;span class=\&quot;hljs-title\&quot;&gt;and&lt;/span&gt; &lt;span class=\&quot;hljs-title\&quot;&gt;simethicone&lt;/span&gt;.&lt;/span&gt;\n&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;What Skilarence 30 mg looks like and contents of the pack&lt;/strong&gt; Skilarence 30 mg is a white, round tablet with a diameter of approximately 6.8 mm. Skilarence 30 mg is available in packs containing 42, 70 and 210 gastro-resistant tablets. Not all pack sizes may be marketed. The tablets are packed in PVC/PVDC-aluminium blisters.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Marketing Authorisation Holder&lt;/strong&gt; Almirall, S.A. Ronda General Mitre, 151 E-08022 Barcelona Spain Tel. +34 93 291 30 00&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Manufacturer&lt;/strong&gt; Industrias Farmacéuticas Almirall, S.A. Ctra. de Martorell 41-61 E-08740 Sant Andreu de la Barca, Barcelona Spain&lt;/p&gt;&lt;p&gt;For any information about this medicine, please contact the local representative of the Marketing Authorisation Holder:&lt;/p&gt;&lt;p&gt;&lt;strong&gt;België/Belgique/Belgien/ Luxembourg/Luxemburg&lt;/strong&gt; Almirall N.V., Tél/Tel: +32 (0)2 771 86 37&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Бъл гария&lt;/strong&gt; EGIS Pharmaceuticals PLC, Teл.: +359 2 987 60 40&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Česká republika&lt;/strong&gt; EGIS Praha, spol. s r. o., Tel: +420 227 129 111&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Danmark/ Norge&lt;/strong&gt; / &lt;strong&gt;Sverige&lt;/strong&gt; Almirall ApS, Tlf/Tel: +45 70 25 75 7 5&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Deutschland&lt;/strong&gt; Almirall Hermal GmbH, Tel: +49 (0)40 72704- 0&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Eesti/ España/ Hrvatska/ Κύπρος/ Latvija/ Lietuva/ Malta/ Slovenija&lt;/strong&gt; Almirall, S.A., Tel/Τηλ: +34 93 291 30 00&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Ελλάδα&lt;/strong&gt; Galenica A.E., Tηλ: +30 210 52 81 700&lt;/p&gt;&lt;p&gt;&lt;strong&gt;France&lt;/strong&gt; Almirall SAS, Tél: +33(0)1 46 46 19 20&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Ireland/ United Kingdom (Northern Ireland)&lt;/strong&gt; Almirall, S.A., Tel: +353 (0) 1431 9836&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Ísland&lt;/strong&gt; Vistor hf., Sími: +354 535 70 00&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Italia&lt;/strong&gt; Almirall SpA, Tel: +39 02 346181&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Magyarország&lt;/strong&gt; Egis Gyógyszergyár Zrt., Tel.: +36 1 803 5555&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Nederland&lt;/strong&gt; Almirall B.V., Tel: +31 (0)30 799 1155&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Österreich&lt;/strong&gt; Almirall GmbH, Tel: +43 (0)1/595 39 60&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Polska&lt;/strong&gt; EGIS Polska Sp. z o.o., Tel.: +48 22 417 92 00&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Portugal&lt;/strong&gt; Almirall - Produtos Farmacêuticos, Lda., Tel: +351 21 415 57 50&lt;/p&gt;&lt;p&gt;&lt;strong&gt;România&lt;/strong&gt; Egis Pharmaceuticals PLC, Tel: +40 21 412 0017&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Slovenská republika&lt;/strong&gt; EGIS SLOVAKIA spol. s r.o., Tel: +421 2 32409422&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Suomi/Finland&lt;/strong&gt; Orion Pharma, Puh/Tel: +358 10 4261&lt;/p&gt;&lt;p&gt;&lt;strong&gt;This leaflet was last revised in&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Other sources of information&lt;/strong&gt; Detailed information on this medicine is available on the European Medicines Agency web site: &lt;a href=\&quot;http://www.ema.europa.eu.\&quot;&gt;http://www.ema.europa.eu.&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-skilarence-acmedruging3",
+      "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/ingredient.html">resourceType</a>" : "Ingredient",
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.id">id</a>" : "ingredient-for-skilarence-acmedruging3",
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Ingredient&lt;/b&gt;&lt;a name=\&quot;ingredient-for-skilarence-acmedruging3\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Ingredient &amp;quot;ingredient-for-skilarence-acmedruging3&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\&quot;&gt;Ingredient (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a0ETJ7Z6XBU4\u00a0(use:\u00a0OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;#ManufacturedItemDefinition_mid-6a3c9768548036f502739419bacb2482\&quot;&gt;See above (ManufacturedItemDefinition/mid-6a3c9768548036f502739419bacb2482)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;#MedicinalProductDefinition_mp284ddecbce6fb138483090d5e55bafac\&quot;&gt;See above (MedicinalProductDefinition/mp284ddecbce6fb138483090d5e55bafac)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;#AdministrableProductDefinition_ap-6a3c9768548036f502739419bacb2482\&quot;&gt;See above (AdministrableProductDefinition/ap-6a3c9768548036f502739419bacb2482)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: Excipient &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#100000072082)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;acmedrug-ing3 &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (beta#ETJ7Z6XBU4)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.identifier">identifier</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "ETJ7Z6XBU4"
+        },
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.status">status</a>" : "active",
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>" : [
+          {
+            <a href="ManufacturedItemDefinition-mid-6a3c9768548036f502739419bacb2482.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "ManufacturedItemDefinition/mid-6a3c9768548036f502739419bacb2482"
+          },
+          {
+            <a href="MedicinalProductDefinition-mp284ddecbce6fb138483090d5e55bafac.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/mp284ddecbce6fb138483090d5e55bafac"
+          },
+          {
+            <a href="AdministrableProductDefinition-ap-6a3c9768548036f502739419bacb2482.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "AdministrableProductDefinition/ap-6a3c9768548036f502739419bacb2482"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.role">role</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000072082",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Excipient"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance">substance</a>" : {
+          "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.concept">concept</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "ETJ7Z6XBU4",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "acmedrug-ing3"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-skilarence-acmedruging2",
+      "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/ingredient.html">resourceType</a>" : "Ingredient",
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.id">id</a>" : "ingredient-for-skilarence-acmedruging2",
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Ingredient&lt;/b&gt;&lt;a name=\&quot;ingredient-for-skilarence-acmedruging2\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Ingredient &amp;quot;ingredient-for-skilarence-acmedruging2&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\&quot;&gt;Ingredient (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a015FIX9V2JP\u00a0(use:\u00a0OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;#ManufacturedItemDefinition_mid-6a3c9768548036f502739419bacb2482\&quot;&gt;See above (ManufacturedItemDefinition/mid-6a3c9768548036f502739419bacb2482)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;#MedicinalProductDefinition_mp284ddecbce6fb138483090d5e55bafac\&quot;&gt;See above (MedicinalProductDefinition/mp284ddecbce6fb138483090d5e55bafac)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;#AdministrableProductDefinition_ap-6a3c9768548036f502739419bacb2482\&quot;&gt;See above (AdministrableProductDefinition/ap-6a3c9768548036f502739419bacb2482)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: Excipient &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#100000072082)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;acmedrug-ing2 &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (beta#15FIX9V2JP)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.identifier">identifier</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "15FIX9V2JP"
+        },
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.status">status</a>" : "active",
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>" : [
+          {
+            <a href="ManufacturedItemDefinition-mid-6a3c9768548036f502739419bacb2482.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "ManufacturedItemDefinition/mid-6a3c9768548036f502739419bacb2482"
+          },
+          {
+            <a href="MedicinalProductDefinition-mp284ddecbce6fb138483090d5e55bafac.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/mp284ddecbce6fb138483090d5e55bafac"
+          },
+          {
+            <a href="AdministrableProductDefinition-ap-6a3c9768548036f502739419bacb2482.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "AdministrableProductDefinition/ap-6a3c9768548036f502739419bacb2482"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.role">role</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000072082",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Excipient"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance">substance</a>" : {
+          "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.concept">concept</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "15FIX9V2JP",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "acmedrug-ing2"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-skilarence-dimethylfumarate",
+      "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/ingredient.html">resourceType</a>" : "Ingredient",
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.id">id</a>" : "ingredient-for-skilarence-dimethylfumarate",
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Ingredient&lt;/b&gt;&lt;a name=\&quot;ingredient-for-skilarence-dimethylfumarate\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Ingredient &amp;quot;ingredient-for-skilarence-dimethylfumarate&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\&quot;&gt;Ingredient (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a0FO2303MNI2\u00a0(use:\u00a0OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;#ManufacturedItemDefinition_mid-6a3c9768548036f502739419bacb2482\&quot;&gt;See above (ManufacturedItemDefinition/mid-6a3c9768548036f502739419bacb2482)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;#MedicinalProductDefinition_mp284ddecbce6fb138483090d5e55bafac\&quot;&gt;See above (MedicinalProductDefinition/mp284ddecbce6fb138483090d5e55bafac)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;#AdministrableProductDefinition_ap-6a3c9768548036f502739419bacb2482\&quot;&gt;See above (AdministrableProductDefinition/ap-6a3c9768548036f502739419bacb2482)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: active &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#72072)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;DIMETHYL FUMARATE &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (beta#FO2303MNI2)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Strengths&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Presentation[x]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Basis&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;120 mg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM code mg = 'mg')&lt;/span&gt;&lt;/td&gt;&lt;td&gt;active ingredient - basis of strength &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html\&quot;&gt;RoleClass&lt;/a&gt;#ACTIB)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.identifier">identifier</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "FO2303MNI2"
+        },
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.status">status</a>" : "active",
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>" : [
+          {
+            <a href="ManufacturedItemDefinition-mid-6a3c9768548036f502739419bacb2482.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "ManufacturedItemDefinition/mid-6a3c9768548036f502739419bacb2482"
+          },
+          {
+            <a href="MedicinalProductDefinition-mp284ddecbce6fb138483090d5e55bafac.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/mp284ddecbce6fb138483090d5e55bafac"
+          },
+          {
+            <a href="AdministrableProductDefinition-ap-6a3c9768548036f502739419bacb2482.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "AdministrableProductDefinition/ap-6a3c9768548036f502739419bacb2482"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.role">role</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "72072",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "active"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance">substance</a>" : {
+          "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.concept">concept</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "FO2303MNI2",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "DIMETHYL FUMARATE"
+                }
+              ]
+            }
+          },
+          "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance.strength">strength</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance.strength.presentation[x]">presentationQuantity</a>" : {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#Quantity.value">value</a>" : 120,
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#Quantity.system">system</a>" : "http://unitsofmeasure.org",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#Quantity.code">code</a>" : "mg"
+              },
+              "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance.strength.basis">basis</a>" : {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                  {
+                    "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+                    "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "ACTIB",
+                    "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "active ingredient - basis of strength"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-dimethylfumarate",
+      "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/substancedefinition.html">resourceType</a>" : "SubstanceDefinition",
+        "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.id">id</a>" : "substance-dimethylfumarate",
+        "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-SubstanceDefinition-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: SubstanceDefinition&lt;/b&gt;&lt;a name=\&quot;substance-dimethylfumarate\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource SubstanceDefinition &amp;quot;substance-dimethylfumarate&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-SubstanceDefinition-uv-epi.html\&quot;&gt;SubstanceDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a0FO2303MNI2\u00a0(use:\u00a0OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;version&lt;/b&gt;: 1&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://hl7.org/fhir/R5/codesystem-publication-status.html\&quot;&gt;PublicationStatus&lt;/a&gt;#active)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;description&lt;/b&gt;: White to off-white, biconvex, and oval-shaped with a heart debossed on one side and the number 2771 engraved on the other side.&lt;/p&gt;&lt;p&gt;&lt;b&gt;manufacturer&lt;/b&gt;: &lt;a href=\&quot;#Organization_mah-43da1186bd45a53209a5c5aa849ac823\&quot;&gt;See above (Organization/mah-43da1186bd45a53209a5c5aa849ac823)&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;MolecularWeights&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Amount&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;exact &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; ()&lt;/span&gt;&lt;/td&gt;&lt;td&gt;144.13&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Structures&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;MolecularFormula&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;C6H8O4&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;2-BUTENEDIOIC ACID, (2E)-, DIMETHYL ESTER&lt;/td&gt;&lt;td&gt;Chemical Name &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#x)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "FO2303MNI2"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.version">version</a>" : "1",
+        "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.status">status</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/publication-status",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "active"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.description">description</a>" : "White to off-white, biconvex, and oval-shaped with a heart debossed on one side and the number 2771 engraved on the other side.",
+        "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.manufacturer">manufacturer</a>" : [
+          {
+            <a href="Organization-mah-43da1186bd45a53209a5c5aa849ac823.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "Organization/mah-43da1186bd45a53209a5c5aa849ac823"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.molecularWeight">molecularWeight</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.molecularWeight.type">type</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "exact"
+            },
+            "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.molecularWeight.amount">amount</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#Quantity.value">value</a>" : 144.13
+            }
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.structure">structure</a>" : {
+          "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.structure.molecularFormula">molecularFormula</a>" : "C6H8O4"
+        },
+        "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.name">name</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.name.name">name</a>" : "2-BUTENEDIOIC ACID, (2E)-, DIMETHYL ESTER",
+            "<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.name.type">type</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "x",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Chemical Name"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-6a3c9768548036f502739419bacb2482",
+      "<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html">resourceType</a>" : "AdministrableProductDefinition",
+        "<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.id">id</a>" : "ap-6a3c9768548036f502739419bacb2482",
+        "<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: AdministrableProductDefinition&lt;/b&gt;&lt;a name=\&quot;ap-6a3c9768548036f502739419bacb2482\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource AdministrableProductDefinition &amp;quot;ap-6a3c9768548036f502739419bacb2482&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html\&quot;&gt;AdministrableProductDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a0xx&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;formOf&lt;/b&gt;: &lt;a href=\&quot;#MedicinalProductDefinition_mp284ddecbce6fb138483090d5e55bafac\&quot;&gt;See above (MedicinalProductDefinition/mp284ddecbce6fb138483090d5e55bafac)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;administrableDoseForm&lt;/b&gt;: Tablet &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#100000073664)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;unitOfPresentation&lt;/b&gt;: Tablet &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#200000002152)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;producedFrom&lt;/b&gt;: &lt;a href=\&quot;#ManufacturedItemDefinition_mid-6a3c9768548036f502739419bacb2482\&quot;&gt;See above (ManufacturedItemDefinition/mid-6a3c9768548036f502739419bacb2482)&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;routeOfAdministration&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Oral use &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#100000073619)&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;TargetSpecies&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Human &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#100000109093)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://www.who-umc.org/phpid",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "xx"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.status">status</a>" : "active",
+        "<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.formOf">formOf</a>" : [
+          {
+            <a href="MedicinalProductDefinition-mp284ddecbce6fb138483090d5e55bafac.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/mp284ddecbce6fb138483090d5e55bafac"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.administrableDoseForm">administrableDoseForm</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000073664",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Tablet"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.unitOfPresentation">unitOfPresentation</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000002152",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Tablet"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.producedFrom">producedFrom</a>" : [
+          {
+            <a href="ManufacturedItemDefinition-mid-6a3c9768548036f502739419bacb2482.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "ManufacturedItemDefinition/mid-6a3c9768548036f502739419bacb2482"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.routeOfAdministration">routeOfAdministration</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.routeOfAdministration.code">code</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000073619",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Oral use"
+                }
+              ]
+            },
+            "<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.routeOfAdministration.targetSpecies">targetSpecies</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.routeOfAdministration.targetSpecies.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000109093",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Human"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization956f4a99ddff9adda9cb7a361bf8f827",
+      "<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/regulatedauthorization.html">resourceType</a>" : "RegulatedAuthorization",
+        "<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.id">id</a>" : "authorization956f4a99ddff9adda9cb7a361bf8f827",
+        "<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: RegulatedAuthorization&lt;/b&gt;&lt;a name=\&quot;authorization956f4a99ddff9adda9cb7a361bf8f827\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource RegulatedAuthorization &amp;quot;authorization956f4a99ddff9adda9cb7a361bf8f827&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html\&quot;&gt;RegulatedAuthorization (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a0EU/1/17/1201/002\u00a0(use:\u00a0OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;#MedicinalProductDefinition_mp284ddecbce6fb138483090d5e55bafac\&quot;&gt;See above (MedicinalProductDefinition/mp284ddecbce6fb138483090d5e55bafac)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Marketing Authorisation &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#220000000061)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://hl7.org/fhir/R5/codesystem-publication-status.html\&quot;&gt;PublicationStatus&lt;/a&gt;#active)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;statusDate&lt;/b&gt;: 2015-02-07 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;holder&lt;/b&gt;: &lt;a href=\&quot;#Organization_mah-43da1186bd45a53209a5c5aa849ac823\&quot;&gt;See above (Organization/mah-43da1186bd45a53209a5c5aa849ac823)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://spor.ema.europa.eu/pmswi",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "EU/1/17/1201/002"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.subject">subject</a>" : [
+          {
+            <a href="MedicinalProductDefinition-mp284ddecbce6fb138483090d5e55bafac.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/mp284ddecbce6fb138483090d5e55bafac"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.type">type</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "220000000061",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Marketing Authorisation"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.status">status</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/publication-status",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "active",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Active"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.statusDate">statusDate</a>" : "2015-02-07T13:28:17Z",
+        "<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.holder">holder</a>" : {
+          <a href="Organization-mah-43da1186bd45a53209a5c5aa849ac823.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "Organization/mah-43da1186bd45a53209a5c5aa849ac823"
+        }
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-43da1186bd45a53209a5c5aa849ac823",
+      "<a href="http://hl7.org/fhir/R5/organization.html#Organization">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/organization.html">resourceType</a>" : "Organization",
+        "<a href="http://hl7.org/fhir/R5/organization.html#Organization.id">id</a>" : "mah-43da1186bd45a53209a5c5aa849ac823",
+        "<a href="http://hl7.org/fhir/R5/organization.html#Organization.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Organization-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/organization.html#Organization.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Organization&lt;/b&gt;&lt;a name=\&quot;mah-43da1186bd45a53209a5c5aa849ac823\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Organization &amp;quot;mah-43da1186bd45a53209a5c5aa849ac823&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Organization-uv-epi.html\&quot;&gt;Organization (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a0ORG-100000789\u00a0(use:\u00a0OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;active&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Marketing authorisation holder &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#220000000034)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: ACME industry&lt;/p&gt;&lt;h3&gt;Contacts&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Address&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;street x and y Paris FR(WORK)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/organization.html#Organization.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://spor.ema.europa.eu/omswi",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "ORG-100000789"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/organization.html#Organization.active">active</a>" : true,
+        "<a href="http://hl7.org/fhir/R5/organization.html#Organization.type">type</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "220000000034",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Marketing authorisation holder"
+              }
+            ]
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/organization.html#Organization.name">name</a>" : "ACME industry",
+        "<a href="http://hl7.org/fhir/R5/organization.html#Organization.contact">contact</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/metadatatypes.html#ExtendedContactDetail#ExtendedContactDetail.address">address</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.use">use</a>" : "work",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.type">type</a>" : "physical",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.text">text</a>" : "street x and y Paris FR",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.line">line</a>" : [
+                "street x and y"
+              ],
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.city">city</a>" : "Paris",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.country">country</a>" : "FR"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-6a3c9768548036f502739419bacb2482",
+      "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">resourceType</a>" : "PackagedProductDefinition",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.id">id</a>" : "ppd-6a3c9768548036f502739419bacb2482",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;a name=\&quot;ppd-6a3c9768548036f502739419bacb2482\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource PackagedProductDefinition &amp;quot;ppd-6a3c9768548036f502739419bacb2482&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\&quot;&gt;PackagedProductDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a0EU/1/17/1201/002\u00a0(use:\u00a0OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Skilarence 120 mg gastro-resistant tablets&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Chemical Medicinal Product &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#100000155527)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\&quot;#MedicinalProductDefinition_mp284ddecbce6fb138483090d5e55bafac\&quot;&gt;See above (MedicinalProductDefinition/mp284ddecbce6fb138483090d5e55bafac)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://hl7.org/fhir/R5/codesystem-publication-status.html\&quot;&gt;PublicationStatus&lt;/a&gt;#active)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;statusDate&lt;/b&gt;: 2015-02-07 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;containedItemQuantity&lt;/b&gt;: 120 mg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM code mg = 'mg')&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;packaging&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a0mock-id&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Box &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#100000073498)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;quantity&lt;/b&gt;: 1&lt;/p&gt;&lt;h3&gt;Packagings&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Identifier&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Quantity&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Material&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;id:\u00a0123456&lt;/td&gt;&lt;td&gt;Blister &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#100000073496)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;40&lt;/td&gt;&lt;td&gt;PolyVinyl Chloride &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#200000003222)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://spor.ema.europa.eu/pmswi",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "EU/1/17/1201/002"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.name">name</a>" : "Skilarence 120 mg gastro-resistant tablets",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.type">type</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155527",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Chemical Medicinal Product"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packageFor">packageFor</a>" : [
+          {
+            <a href="MedicinalProductDefinition-mp284ddecbce6fb138483090d5e55bafac.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/mp284ddecbce6fb138483090d5e55bafac"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.status">status</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/publication-status",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "active",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Active"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.statusDate">statusDate</a>" : "2015-02-07T13:28:17Z",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.containedItemQuantity">containedItemQuantity</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#Quantity.value">value</a>" : 120,
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#Quantity.system">system</a>" : "http://unitsofmeasure.org",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#Quantity.code">code</a>" : "mg"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging">packaging</a>" : {
+          "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.identifier">identifier</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://spor.ema.europa.eu/pmswi",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "mock-id"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.type">type</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000073498",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Box"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.quantity">quantity</a>" : 1,
+          "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.packaging">packaging</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.identifier">identifier</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://spor.ema.europa.eu/pmswi",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "123456"
+                }
+              ],
+              "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.type">type</a>" : {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                  {
+                    "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+                    "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000073496",
+                    "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Blister"
+                  }
+                ]
+              },
+              "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.quantity">quantity</a>" : 40,
+              "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.material">material</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000003222",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "PolyVinyl Chloride"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp284ddecbce6fb138483090d5e55bafac",
+      "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">resourceType</a>" : "MedicinalProductDefinition",
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.id">id</a>" : "mp284ddecbce6fb138483090d5e55bafac",
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition&lt;/b&gt;&lt;a name=\&quot;mp284ddecbce6fb138483090d5e55bafac\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource MedicinalProductDefinition &amp;quot;mp284ddecbce6fb138483090d5e55bafac&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\&quot;&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a04471bb15-7f52-4fcd-b615-8674ce6eb91g, id:\u00a0EU/1/17/1201/002&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Medicinal Product &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://hl7.org/fhir/R5/codesystem-medicinal-product-type.html\&quot;&gt;Medicinal Product Type&lt;/a&gt;#MedicinalProduct)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;domain&lt;/b&gt;: Human use &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://hl7.org/fhir/R5/codesystem-medicinal-product-domain.html\&quot;&gt;Medicinal Product Domain&lt;/a&gt;#Human)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://hl7.org/fhir/R5/codesystem-publication-status.html\&quot;&gt;PublicationStatus&lt;/a&gt;#active)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;legalStatusOfSupply&lt;/b&gt;: Medicinal product subject to medical prescription &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#100000072084)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;productName&lt;/b&gt;: Skilarence 120 mg gastro-resistant tablets&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Full name &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (220000000000#220000000001)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: Skilarence&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Invented name part &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (220000000000#220000000002)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: dimethyl fumarate&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Scientific name part &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (220000000000#220000000003)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: 120 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Strength part &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (220000000000#220000000004)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: tablet&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Pharmaceutical dose form part &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (220000000000#220000000005)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h3&gt;Usages&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Country&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Jurisdiction&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Language&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;United Kingdom &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html\&quot;&gt;ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code&lt;/a&gt;#GBR)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;United Kingdom &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html\&quot;&gt;ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code&lt;/a&gt;#GBR)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;English &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.3.0/CodeSystem-v3-ietf3066.html\&quot;&gt;Tags for the Identification of Languages&lt;/a&gt;#en)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://www.who-umc.org/phpid",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "4471bb15-7f52-4fcd-b615-8674ce6eb91g"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://spor.ema.europa.eu/pmswi",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "EU/1/17/1201/002"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.type">type</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/medicinal-product-type",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "MedicinalProduct",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Medicinal Product"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.domain">domain</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/medicinal-product-domain",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "Human",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Human use"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.status">status</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/publication-status",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "active",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "active"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.legalStatusOfSupply">legalStatusOfSupply</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000072084",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Medicinal product subject to medical prescription"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name">name</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.productName">productName</a>" : "Skilarence 120 mg gastro-resistant tablets",
+            "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.type">type</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/lists/220000000000",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "220000000001"
+                }
+              ],
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Full name"
+            },
+            "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part">part</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.part">part</a>" : "Skilarence",
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.type">type</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/lists/220000000000",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "220000000002"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Invented name part"
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.part">part</a>" : "dimethyl fumarate",
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.type">type</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/lists/220000000000",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "220000000003"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Scientific name part"
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.part">part</a>" : "120 mg",
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.type">type</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/lists/220000000000",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "220000000004"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Strength part"
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.part">part</a>" : "tablet",
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.type">type</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/lists/220000000000",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "220000000005"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Pharmaceutical dose form part"
+                }
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.usage">usage</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.usage.country">country</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "GBR",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "United Kingdom"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.usage.jurisdiction">jurisdiction</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "GBR",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "United Kingdom"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.usage.language">language</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "urn:ietf:bcp:47",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "en",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "English"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-6a3c9768548036f502739419bacb2482",
+      "<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html">resourceType</a>" : "ManufacturedItemDefinition",
+        "<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition.id">id</a>" : "mid-6a3c9768548036f502739419bacb2482",
+        "<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ManufacturedItemDefinition-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: ManufacturedItemDefinition&lt;/b&gt;&lt;a name=\&quot;mid-6a3c9768548036f502739419bacb2482\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource ManufacturedItemDefinition &amp;quot;mid-6a3c9768548036f502739419bacb2482&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ManufacturedItemDefinition-uv-epi.html\&quot;&gt;ManufacturedItemDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a0EU/1/17/1201/002\u00a0(use:\u00a0OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;manufacturedDoseForm&lt;/b&gt;: Gastro-resistant tablet &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#100000073667)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;unitOfPresentation&lt;/b&gt;: Tablet &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#200000002152)&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://spor.ema.europa.eu/pmswi",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "EU/1/17/1201/002"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition.status">status</a>" : "active",
+        "<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition.manufacturedDoseForm">manufacturedDoseForm</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000073667",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Gastro-resistant tablet"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition.unitOfPresentation">unitOfPresentation</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000002152",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Tablet"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Dec 21, 2023 23:11+0000">2023-12-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

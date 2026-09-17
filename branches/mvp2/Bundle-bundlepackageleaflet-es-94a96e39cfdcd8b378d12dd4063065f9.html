@@ -1,0 +1,2203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language es - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.96"}
+    h3,h4,h5,h6{--heading-prefix:"16.96"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language es</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-94a96e39cfdcd8b378d12dd4063065f9.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Example Bundle: ePI document Bundle for Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion Package Leaflet for language es</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  Raw
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>B. PROSPECTO</h3>
+    <p>
+      <div>unavailable</div></p>
+    
+      
+
+        <h4>PROSPECTO: INFORMACIÓN PARA EL USUARIO</h4>
+        <p>
+          <div><p><a name="page1" id="page1"></a><strong><span>Prospecto: información para el usuario</span></strong></p><p><strong><span>Biktarvy 50 mg/200 mg/25 mg comprimidos recubiertos con película</span></strong></p><p><span>bictegravir/emtricitabina/tenofovir alafenamida</span></p><p><strong><span>Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento, porque contiene información importante para usted.</span></strong></p><ul><li><span>Conserve este prospecto, ya que puede tener que volver a leerlo.</span></li><li><span>Si tiene alguna duda, consulte a su médico o farmacéutico.</span></li><li><span>Este medicamento se le ha recetado solamente a usted, y no debe dárselo a otras personas aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.</span></li><li><span>Si experimenta efectos adversos, consulte a su médico o farmacéutico, incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.</span></li></ul></div></p>
+
+      
+
+        <h4>Contenido del prospecto</h4>
+        <p>
+          <div><ol><li><span>Qué es Biktarvy y para qué se utiliza</span></li><li><span>Qué necesita saber antes de empezar a tomar Biktarvy</span></li><li><span>Cómo tomar Biktarvy</span></li><li><span>Posibles efectos adversos</span></li><li><span>Conservación de Biktarvy</span></li><li><span>Contenido del envase e información adicional</span></li></ol></div></p>
+
+      
+
+        <h4>1. Qué es Biktarvy y para qué se utiliza</h4>
+        <p>
+          <div><p><span>Biktarvy contiene tres principios activos:</span></p><ul><li><strong><span>bictegravir,</span></strong> <span>un medicamento antirretroviral conocido como inhibidor de la transferencia de las</span> <span>hebras de la integrasa (INI)</span></li><li><strong><span>emtricitabina,</span></strong> <span>un medicamento antirretroviral de un tipo conocido como nucleósido inhibidor</span> <span>de la transcriptasa inversa (ITIAN)</span></li><li><strong><span>tenofovir alafenamida,</span></strong> <span>un medicamento antirretroviral de un tipo conocido como nucleótido</span> <span>inhibidor de la transcriptasa inversa (ITIANt)</span></li></ul><p><span>Biktarvy es un comprimido único para el tratamiento de la infección por el virus de la inmunodeficiencia humana 1 (VIH-1) en adultos.</span></p><p><span>Biktarvy reduce la cantidad de VIH presente en el organismo. Esto mejora el sistema inmunitario y disminuye el riesgo de desarrollar enfermedades asociadas con la infección por el VIH.</span></p></div></p>
+
+      
+
+        <h4>2. Qué necesita saber antes de empezar a tomar Biktarvy</h4>
+        <p>
+          <div><p><strong><span>No tome Biktarvy</span></strong></p><ul><li><strong><span>Si es alérgico a bictegravir, emtricitabina, tenofovir alafenamida</span></strong> <span>o a alguno de los demás</span> <span>componentes de este medicamento (incluidos en la sección 6 de este prospecto).</span></li><li><a name="page2" id="page2"></a><strong><span>Si actualmente está tomando alguno de los siguientes medicamentos:</span></strong></li><ul><li><strong><span>rifampicina</span></strong> <span>utilizada para tratar algunas infecciones bacterianas como la tuberculosis</span></li><li><strong><span>hierba de San Juan</span></strong> <span>(</span><em><span>Hypericum perforatum</span></em><span>, hipérico), un medicamento a base de</span> <span>plantas utilizado para la depresión y la ansiedad, o productos que la contengan.</span></li></ul></ul><span>Si está tomando alguno de estos medicamentos,</span> <strong><span>no tome Biktarvy y consulte a su médico</span></strong> <strong><span>inmediatamente.</span></strong><p><strong><span>Advertencias y precauciones</span></strong></p><p><strong><span>Consulte a su médico antes de empezar a tomar Biktarvy:</span></strong></p><ul><li><strong><span>Si tiene problemas hepáticos o antecedentes de enfermedad hepática, incluida la hepatitis.</span></strong> <span>Los pacientes que padecen de enfermedades hepáticas, como la hepatitis B o C crónica, y están en tratamiento con antirretrovirales tienen más riesgo de presentar complicaciones hepáticas graves y potencialmente mortales. Si tiene infección por el virus de la hepatitis B, su médico evaluará detenidamente la mejor pauta terapéutica para usted.</span></li><li><strong><span>Si tiene hepatitis B.</span></strong> <span>Los problemas hepáticos pueden empeorar después de dejar de tomar</span> <span>Biktarvy.</span></li></ul><span>No deje de tomar Biktarvy si tiene hepatitis B. Hable antes con su médico. Puede consultar más detalles en la sección 3,</span> <em><span>No interrumpa el tratamiento con Biktarvy.</span></em><p><strong><span>Mientras esté tomando Biktarvy</span></strong></p><p><span>Una vez que empiece a tomar Biktarvy, esté atento a:</span></p><ul><li><strong><span>Signos de inflamación o infección</span></strong></li><li><strong><span>Dolor articular, rigidez o problemas óseos</span></strong></li></ul><strong><span>Si nota cualquiera de estos síntomas, informe a su médico inmediatamente.</span></strong> <span>Puede consultar</span> <span>más información en la sección 4,</span> <em><span>Posibles efectos adversos</span></em><span>.</span><p><span>Aunque no se han observado problemas renales con Biktarvy, existe la posibilidad de que pueda experimentar problemas renales si toma Biktarvy durante un periodo de tiempo prolongado.</span></p><p><span>Mientras esté tomando este medicamento</span> <strong><span>aún puede transmitir el VIH a los demás,</span></strong> <span>aunque un tratamiento antirretroviral eficaz reduzca el riesgo. Consulte a su médico sobre qué precauciones son necesarias para no infectar a otras personas. Este medicamento no es una cura para la infección por el VIH. Mientras usted esté tomando Biktarvy podrá seguir padeciendo infecciones u otras enfermedades asociadas con la infección por el VIH.</span></p><p><strong><span>Niños y adolescentes</span></strong></p><p><strong><span>No administre este medicamento a niños y adolescentes menores de 18 años de edad.</span></strong> <span>No se ha</span> <span>estudiado todavía el uso de Biktarvy en niños y adolescentes menores de 18 años de edad.</span></p><p><strong><span>Otros medicamentos y Biktarvy</span></strong></p><p><strong><span>Informe a su médico o farmacéutico si está tomando, ha tomado recientemente o pudiera tener que tomar cualquier otro medicamento.</span></strong> <span>Biktarvy puede interaccionar con otros medicamentos.</span> <span>Como consecuencia, los niveles sanguíneos de Biktarvy o de otros medicamentos se pueden ver afectados. Esto puede impedir que sus medicamentos funcionen correctamente o empeorar sus posibles efectos adversos. En algunos casos, su médico puede tener que ajustar la dosis o comprobar sus concentraciones sanguíneas.</span></p><p><a name="page3" id="page3"></a><strong><span>Medicamentos que nunca se deben tomar con Biktarvy:</span></strong></p><ul><li><strong><span>rifampicina</span></strong> <span>utilizada para tratar algunas infecciones bacterianas como la tuberculosis</span></li><li><strong><span>hierba de San Juan</span></strong> <span>(</span><em><span>Hypericum perforatum</span></em><span>, hipérico), un medicamento a base de plantas</span> <span>utilizado para la depresión y la ansiedad, o productos que lo contengan</span><strong><span>.</span></strong></li></ul><span>Si está tomando alguno de estos medicamentos,</span> <strong><span>no tome Biktarvy e informe a su médico</span></strong> <strong><span>inmediatamente.</span></strong><p><strong><span>Consulte con su médico si está tomando:</span></strong></p><ul><li><strong><span>medicamentos utilizados para tratar el VIH y/o la hepatitis B</span></strong> <span>que contengan:</span></li><ul><li><span>adefovir dipivoxil, atazanavir, bictegravir, emtricitabina, lamivudina, tenofovir alafenamida o tenofovir disoproxilo</span></li></ul><li><strong><span>antibióticos, utilizados para tratar las infecciones bacterianas</span></strong><span>, que contengan:</span></li><ul><li><span>azitromicina, claritromicina, rifabutina o rifapentina</span></li></ul><li><strong><span>antiepilépticos,</span></strong> <span>utilizados para tratar la epilepsia, que contengan:</span></li><ul><li><span>carbamazepina, oxcarbazepina, fenobarbital o fenitoína</span></li></ul><li><strong><span>inmunosupresores,</span></strong> <span>utilizados para controlar la respuesta inmunitaria del organismo tras un</span> <span>trasplante, que contengan ciclosporina</span></li><li><strong><span>medicamentos para la curación de úlceras</span></strong> <span>que contengan sucralfato</span></li></ul><strong><span>Informe a su médico si está tomando alguno de estos medicamentos.</span></strong> <span>No interrumpa su</span> <span>tratamiento sin consultar con su médico.</span><p></p><p><strong><span>Consulte a su médico o farmacéutico si está tomando:</span></strong></p><ul><li><strong><span>antiácidos</span></strong> <span>para tratar úlceras estomacales, acidez estomacal o reflujo ácido, que contengan</span> <span>hidróxido de aluminio y/o de magnesio</span></li><li><strong><span>suplementos de minerales</span></strong> <span>o</span> <strong><span>de vitaminas,</span></strong> <span>que contengan magnesio o hierro</span></li></ul><strong><span>Consulte a su médico o farmacéutico antes de tomar Biktarvy</span></strong> <span>si está tomando alguno de estos</span> <span>medicamentos.</span><ol><li><p><strong><span>Antiácidos y suplementos de magnesio:</span></strong> <span>tendrá que tomar Biktarvy al menos 2 horas</span> <strong><span>antes</span></strong> <span>de</span> <span>tomar los antiácidos o suplementos que contengan aluminio y/o magnesio. O puede tomar Biktarvy junto con alimentos al menos 2 horas</span> <strong><span>después</span></strong> <span>de la toma del antiácido o suplemento que contenga aluminio y/o magnesio.</span></p></li><li><p><strong><span>Suplementos de hierro:</span></strong> <span>tendrá que tomar Biktarvy al menos 2 horas</span> <strong><span>antes</span></strong> <span>de tomar los</span> <span>suplementos de hierro o puede tomarlos todos juntos con alimentos.</span></p></li></ol><p><strong><span>Embarazo y lactancia</span></strong></p><ul><li><span>Si está embarazada o en periodo de lactancia, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte a su médico o farmacéutico antes de utilizar este medicamento.</span></li><li><span>Informe a su médico inmediatamente si se queda embarazada y pregunte sobre los posibles beneficios y riesgos de su tratamiento antirretroviral para usted y para su hijo.</span></li></ul><p><span>Si ha tomado Biktarvy durante su embarazo su médico puede solicitar que se haga análisis de sangre periódicos y otras pruebas diagnósticas para controlar el desarrollo de su niño. En niños cuyas madres tomaron nucleósidos inhibidores de la transcriptasa inversa (ITIAN) durante el embarazo, el beneficio de la protección frente al VIH fue mayor que el riesgo de que se produjeran efectos adversos.</span></p><p><strong><span>No dé el pecho a su hijo durante el tratamiento con Biktarvy.</span></strong> <span>Esto se debe a que algunos de los</span> <span>principios activos de este medicamento pasan a la leche materna. Se recomienda que no dé el pecho para evitar que transmita el virus al niño a través de la leche materna. Si realmente desea amamantar, hable primero con su médico.</span></p><p><a name="page4" id="page4"></a><strong><span>Conducción y uso de máquinas</span></strong></p><p><span>Biktarvy puede causar mareo. Si nota mareo durante el tratamiento con Biktarvy, no conduzca ni maneje herramientas o máquinas.</span></p><p><strong><span>Biktarvy contiene sodio</span></strong></p><p><span>Este medicamento contiene menos de 1 mmol de sodio (23 mg) por comprimido; esto es, esencialmente “exento de sodio”.</span></p></div></p>
+
+      
+
+        <h4>3. Cómo tomar Biktarvy</h4>
+        <p>
+          <div><p><span>Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico.</span></p><p><span>En caso de duda, consulte de nuevo a su médico o farmacéutico.</span></p><p><strong><span>La dosis recomendada es:</span></strong></p><p><strong><span>Adultos:</span></strong> <span>un comprimido al día, con o sin alimentos</span></p><p><span>No mastique, triture ni divida el comprimido.</span></p><strong><span>Consulte a su médico o farmacéutico si está tomando:</span></strong><ul><li><strong><span>antiácidos</span></strong> <span>para tratar úlceras estomacales, acidez estomacal o reflujo ácido, que contengan</span> <span>hidróxido de aluminio y/o de magnesio</span></li><li><strong><span>suplementos de minerales</span></strong> <span>o</span> <strong><span>vitaminas</span></strong> <span>que contengan magnesio o hierro</span></li></ul><strong><span>Vea la sección 2 para más información</span></strong> <span>sobre cómo tomar estos medicamentos con Biktarvy.</span><p><strong><span>Si toma más Biktarvy del que debe</span></strong></p><p><span>Si toma más cantidad de la dosis recomendada de Biktarvy puede correr mayor riesgo de experimentar posibles efectos adversos con este medicamento (ver sección 4,</span> <em><span>Posibles efectos adversos</span></em><span>).</span></p><p><span>Consulte inmediatamente a su médico o acuda al servicio de urgencias más cercano. Lleve consigo el frasco de comprimidos para que pueda describir fácilmente qué ha tomado.</span></p><p><strong><span>Si olvidó tomar Biktarvy</span></strong></p><p><span>Es importante que no olvide una dosis de Biktarvy.</span></p><p><span>Si olvida una dosis:</span></p><ul><li><strong><span>Si se da cuenta en las 18 horas</span></strong> <span>posteriores a la hora a la que normalmente toma Biktarvy, debe</span> <span>tomar el comprimido tan pronto como sea posible. Luego tome la dosis siguiente de la forma habitual.</span></li><li><strong><span>Si se da cuenta después de 18 horas o más</span></strong> <span>de la hora a la que normalmente toma Biktarvy, no</span> <span>tome la dosis olvidada. Espere y tome la siguiente dosis a la hora habitual.</span></li></ul><p><strong><span>Si vomita</span></strong> <span>antes de que transcurra 1 hora tras haber tomado Biktarvy, tome otro comprimido. Si</span> <span>vomita transcurrida 1 hora de haber tomado Biktarvy, no necesita tomar otro comprimido hasta el momento de la hora habitual.</span></p><p><strong><span>No interrumpa el tratamiento con Biktarvy</span></strong></p><p><strong><span>No interrumpa el tratamiento con Biktarvy sin hablar antes con su médico.</span></strong> <span>Interrumpir Biktarvy</span> <span>puede afectar gravemente el funcionamiento de tratamientos futuros. Si se interrumpe Biktarvy por algún motivo, consulte con su médico antes de reiniciar la toma de comprimidos de Biktarvy.</span></p><p><a name="page5" id="page5"></a><strong><span>Cuando vea que le queda poca cantidad de Biktarvy,</span></strong> <span>acuda a su médico o farmacéutico para que le</span> <span>proporcione más. Esto es muy importante, ya que la cantidad de virus puede empezar a aumentar si el medicamento se interrumpe incluso durante un corto periodo de tiempo. Es posible que entonces la enfermedad se vuelva más difícil de tratar.</span></p><p><strong><span>Si tiene infección por VIH y hepatitis B</span></strong> <span>es especialmente importante no suspender su tratamiento</span> <span>con Biktarvy sin antes hablar con su médico. Puede necesitar hacerse análisis de sangre durante varios meses tras suspender el tratamiento. En algunos pacientes con enfermedad hepática avanzada o cirrosis no se recomienda suspender el tratamiento ya que esto puede producir un empeoramiento de su hepatitis, situación que puede ser potencialmente mortal.</span></p><strong><span>Hable con su médico inmediatamente</span></strong> <span>acerca de síntomas nuevos o inusuales tras suspender su</span> <span>tratamiento, particularmente síntomas que asocie con la infección por el virus de la hepatitis B.</span><p><span>Si tiene cualquier otra duda sobre el uso de este medicamento, pregunte a su médico o farmacéutico.</span></p></div></p>
+
+      
+
+        <h4>4. Posibles efectos adversos</h4>
+        <p>
+          <div><p><span>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</span></p><p><strong><span>Posibles efectos adversos: informe a un médico inmediatamente</span></strong></p><ul><li><strong><span>Cualquier signo de inflamación o de infección.</span></strong> <span>En algunos pacientes con infección avanzada</span> <span>por el VIH (sida) y antecedentes de infecciones oportunistas (infecciones que ocurren en personas con un sistema inmunitario débil), se pueden producir signos y síntomas de inflamación por infecciones previas poco después de iniciar el tratamiento contra el VIH. Se cree que estos síntomas se deben a una mejoría de la respuesta inmunitaria del organismo, que le permite combatir infecciones que podrían haber estado presentes sin síntomas obvios.</span></li><li><span>Se pueden producir también</span> <strong><span>trastornos autoinmunitarios,</span></strong> <span>en los que el sistema inmunitario ataca a los tejidos sanos del organismo, después de que empiece a tomar medicamentos para la infección por el VIH. Los trastornos autoinmunitarios se pueden producir muchos meses después del inicio del tratamiento. Esté atento a cualquier síntoma de infección u otros síntomas, como:</span></li><li><span>debilidad muscular</span></li><li><span>debilidad que se inicia en las manos y los pies y se desplaza hacia el tronco</span></li><li><span>palpitaciones, temblor o hiperactividad</span></li></ul><strong><span>Si nota cualquiera de estos síntomas o cualquier síntoma de inflamación o infección, informe a su médico inmediatamente.</span></strong><p><strong><span>Efectos adversos frecuentes</span></strong></p><p><em><span>(pueden afectar hasta 1 de cada 10 personas)</span></em></p><ul><li><span>depresión</span></li><li><span>sueños anormales</span></li><li><span>dolor de cabeza</span></li><li><span>mareo</span></li><li><span>diarrea</span></li><li><span>ganas de vomitar (</span><em><span>náuseas</span></em><span>)</span></li><li><span>cansancio (</span><em><span>fatiga</span></em><span>)</span></li></ul><p><strong><span>Efectos adversos poco frecuentes</span></strong></p><p><span>(</span><em><span>pueden afectar hasta 1 de cada 100 personas</span></em><span>)</span></p><ul><li><span>anemia</span></li><li><a name="page6" id="page6"></a><span>vómitos</span></li><li><span>dolor de estómago</span></li><li><span>problemas digestivos que generan molestias después de las comidas (</span><em><span>dispepsia</span></em><span>)</span></li><li><span>gases (</span><em><span>flatulencia</span></em><span>)</span></li><li><span>hinchazón de la cara, labios, lengua o garganta (</span><em><span>angioedema</span></em><span>)</span></li><li><span>picazón (</span><em><span>prurito</span></em><span>)</span></li><li><span>erupción</span></li><li><span>habones (</span><em><span>urticaria</span></em><span>)</span></li><li><span>dolor en las articulaciones (</span><em><span>artralgia</span></em><span>)</span></li><li><span>comportamiento suicida</span></li><li><span>ansiedad</span></li><li><span>trastornos del sueño</span></li></ul><p><em><span>Los análisis de sangre también pueden mostrar:</span></em></p><ul><li><span>Concentraciones más altas de sustancias llamadas bilirrubina y/o creatinina sérica en la sangre</span></li><li><strong><span>Si considera que alguno de los efectos adversos que sufre es grave, informe a su médico.</span></strong></li></ul><p><strong><span>Otros efectos que se pueden observar durante el tratamiento contra el VIH</span></strong></p><p><span>La frecuencia de los siguientes efectos adversos se considera no conocida (la frecuencia no se puede estimar a partir de los datos disponibles).</span></p><ul><li><strong><span>Problemas óseos.</span></strong> <span>Algunos pacientes tratados con medicamentos antirretrovirales combinados</span> <span>como Biktarvy pueden desarrollar una enfermedad de los huesos llamada</span> <em><span>osteonecrosis</span></em> <span>(muerte del tejido óseo debida a una pérdida del suministro de sangre al hueso). Tomar este tipo de medicamentos durante un tiempo prolongado, tomar corticosteroides, beber alcohol, tener un sistema inmunitario muy débil y tener sobrepeso, pueden ser algunos de los muchos factores de riesgo para desarrollar esta enfermedad. Los signos de osteonecrosis son:</span></li><ul><li><span>rigidez articular</span></li><li><span>molestias y dolores articulares (especialmente de la cadera, la rodilla y el hombro)</span></li><li><span>dificultad para moverse</span></li></ul></ul><strong><span>Si nota cualquiera de estos síntomas, informe a su médico.</span></strong><p><span>Durante el tratamiento del VIH puede haber un aumento en el peso y en los niveles de glucosa y lípidos en la sangre. Esto puede estar en parte relacionado con la recuperación de la salud y con el estilo de vida y, en el caso de los lípidos en la sangre, algunas veces con los medicamentos contra el VIH por sí mismos. Su médico le controlará estos cambios.</span></p><p><strong><span>Comunicación de efectos adversos</span></strong></p><p><span>Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente</span> <span>a través del sistema nacional de notificación incluido en el</span> <a href="http://www.ema.europa.eu/docs/en_GB/document_library/Template_or_form/2013/03/WC500139752.doc"><span>Apéndice V.</span></a> <span>Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</span></p></div></p>
+
+      
+
+        <h4>5. CONSERVACIÓN DE Biktarvy</h4>
+        <p>
+          <div><p><span>Mantener este medicamento fuera de la vista y del alcance de los niños.</span></p><p><span>No utilice este medicamento después de la fecha de caducidad que aparece en la caja y en el frasco después de {CAD}. La fecha de caducidad es el último día del mes que se indica.</span></p><p><span>Conservar en el embalaje original para protegerlo de la humedad. Mantener el frasco perfectamente cerrado. No utilizar si falta el sello del frasco o está roto.</span></p><p><a name="page7" id="page7"></a><span>Los medicamentos no se deben tirar por los desagües ni a la basura. Pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que ya no necesita. De esta forma, ayudará a proteger el medio ambiente.</span></p><p><span>&nbsp;</span></p></div></p>
+
+      
+
+        <h4>6. Contenido del envase e información adicional</h4>
+        <p>
+          <div><p><strong><span>Composición de Biktarvy</span></strong></p><p><strong><span>Los principios activos son</span></strong> <span>bictegravir, emtricitabina y tenofovir alafenamida. Cada comprimido de</span> <span>Biktarvy contiene bictegravir sódico equivalente a 50 mg de bictegravir, 200 mg de emtricitabina y tenofovir alafenamida fumarato equivalente a 25 mg de tenofovir alafenamida.</span></p><p><strong><span>Los demás componentes son</span></strong></p><p><em><span>Núcleo del comprimido</span></em></p><p><span>Celulosa microcristalina, croscarmelosa sódica, estearato de magnesio.</span></p><p><em><span>Recubrimiento con película</span></em></p><p><span>Alcohol polivinílico, dióxido de titanio (E171), macrogol, talco, óxido de hierro rojo (E172), óxido de hierro negro (E172).</span></p><p><strong><span>Aspecto del producto y contenido del envase</span></strong></p><p><span>Los comprimidos recubiertos con película de Biktarvy son comprimidos recubiertos con película de color marrón purpúreo, con forma de cápsula, marcados en una de las caras del comprimido con «GSI» y en la otra cara del comprimido con «9883». Biktarvy se presenta en frascos de 30 comprimidos y en envases de 3 frascos, conteniendo cada uno de ellos 30 comprimidos. Cada frasco contiene un desecante de gel de sílice que debe conservarse en el frasco para ayudar a proteger los comprimidos. El desecante de gel de sílice está contenido en un sobre o recipiente separado, y no se debe tragar.</span></p><p><span>Puede que solamente estén comercializados algunos tamaños de envases.</span></p><p><strong><span>Titular de la autorización de comercialización</span></strong></p><p><span>Gilead Sciences Ireland UC</span></p><p><span>Carrigtohill</span></p><p><span>County Cork, T45 DP77</span></p><p><span>Irlanda</span></p><p><strong><span>Responsable de la fabricación</span></strong></p><p><span>Gilead Sciences Ireland UC</span></p><p><span>IDA Business &amp; Technology Park</span></p><p><span>Carrigtohill</span></p><p><span>County Cork</span></p><p><span>Irlanda</span></p><p><span>Pueden solicitar más información respecto a este medicamento dirigiéndose al representante local del titular de la autorización de comercialización:</span></p><table cellpadding="0" cellspacing="0"><tr><td><p><strong><span>België/Belgique/Belgien</span></strong></p><p><span>Gilead Sciences Belgium SPRL-BVBA</span></p><p><span>Tél/Tel: + 32 (0) 24 01 35 50</span></p></td><td><p><strong><span>Lietuva</span></strong></p><p><span>Gilead Sciences Poland Sp. z o.o.</span></p><p><span>Tel.: + 48 (0) 22 262 8702</span></p></td></tr><tr><td><p><strong><span>????????</span></strong></p><p><span>Gilead Sciences Ireland UC</span></p><p><span>???.: + 353 (0) 1 686 1888</span></p></td><td><p><strong><span>Luxembourg/Luxemburg</span></strong></p><p><span>Gilead Sciences Belgium SPRL-BVBA</span></p><p><span>Tél/Tel: + 32 (0) 24 01 35 50</span></p></td></tr><tr><td><p><strong><span>Ceská republika</span></strong></p><p><span>Gilead Sciences s.r.o.</span></p><p><span>Tel: + 420 (0) 910 871 986</span></p></td><td><p><strong><span>Magyarország</span></strong></p><p><span>Gilead Sciences</span> <span>Ireland UC</span></p><p><span>Tel.: + 353 (0) 1 686 1888</span></p></td></tr><tr><td><p><strong><span>Danmark</span></strong></p><p><span>Gilead Sciences Sweden AB</span></p><p><span>Tlf: + 46 (0) 8 5057 1849</span></p></td><td><p><strong><span>Malta</span></strong></p><p><span>Gilead Sciences Ireland UC</span></p><p><span>Tel: + 353 (0) 1 686 1888</span></p></td></tr><tr><td><p><strong><span>Deutschland</span></strong></p><p><span>Gilead Sciences GmbH</span></p><p><span>Tel: + 49 (0) 89 899890-0</span></p></td><td><p><strong><span>Nederland</span></strong></p><p><span>Gilead Sciences Netherlands B.V.</span></p><p><span>Tel: + 31 (0) 20 718 36 98</span></p></td></tr><tr><td><p><strong><span>Eesti</span></strong></p><p><span>Gilead Sciences Poland Sp. z o.o.</span></p><p><span>Tel.: +48 (0) 22 262 8702</span></p></td><td><p><strong><span>Norge</span></strong></p><p><span>Gilead Sciences Sweden AB</span></p><p><span>Tlf: + 46 (0) 8 5057 1849</span></p></td></tr><tr><td><p><strong><span>Ελλ?δα</span></strong></p><p><span>Gilead Sciences Ελλ?ς Μ.ΕΠΕ.</span></p><p><span>Τηλ: + 30 (0) 210 8930 100</span></p></td><td><p><strong><span>Österreich</span></strong></p><p><span>Gilead Sciences GesmbH</span></p><p><span>Tel: + 43 (0) 1 260 830</span></p></td></tr><tr><td><p><strong><span>España</span></strong></p><p><span>Gilead Sciences, S.L.</span></p><p><span>Tel: + 34 (0) 91 378 98 30</span></p></td><td><p><strong><span>Polska</span></strong></p><p><span>Gilead Sciences Poland Sp. z o.o.</span></p><p><span>Tel.: + 48 (0) 22 262 870</span><span>2</span></p></td></tr><tr><td><p><strong><span>France</span></strong></p><p><span>Gilead Sciences</span></p><p><span>Tél: + 33 (0) 1 46 09 41 00</span></p></td><td><p><strong><span>Portugal</span></strong></p><p><span>Gilead Sciences, Lda.</span></p><p><span>Tel: + 351 (0) 21 7928790</span></p></td></tr><tr><td><p><strong><span>Hrvatska</span></strong></p><p><span>Gilead Sciences Ireland UC</span></p><p><span>Tel: + 353 (0) 1 686 1888</span></p></td><td><p><strong><span>România</span></strong></p><p><span>Gilead Sciences Ireland UC</span></p><p><span>Tel: + 353 (0) 1 686 1888</span></p></td></tr><tr><td><p><strong><span>Irlanda</span></strong></p><p><span>Gilead Sciences Ireland UC</span></p><p><span>Tel: + 353 (0) 214 825 999</span></p></td><td><p><strong><span>Slovenija</span></strong></p><p><span>Gilead Sciences Ireland UC</span></p><p><span>Tel: + 353 (0) 1 686 1888</span></p></td></tr><tr><td><p><strong><span>Ísland</span></strong></p><p><span>Gilead Sciences Sweden AB</span></p><p><span>Sími: + 46 (0) 8 5057 1849</span></p></td><td><p><strong><span>Slovenská republika</span></strong></p><p><span>Gilead Sciences Slovakia s.r.o.</span></p><p><span>Tel: + 421 (0) 232 121 210</span></p></td></tr><tr><td><p><strong><span>Italia</span></strong></p><p><span>Gilead Sciences S.r.l.</span></p><p><span>Tel: + 39 02 439201</span></p></td><td><p><strong><span>Suomi/Finland</span></strong></p><p><span>Gilead Sciences Sweden AB</span></p><p><span>Puh/Tel: + 46 (0) 8 5057 1849</span></p></td></tr><tr><td><p><strong><span>Κ?προς</span></strong></p><p><span>Gilead Sciences Ελλ?ς Μ.ΕΠΕ.</span></p><p><span>Τηλ: + 30 (0) 210 8930 100</span></p></td><td><p><strong><span>Sverige</span></strong></p><p><span>Gilead Sciences Sweden A</span><span>B</span></p><p><span>Tel: + 46 (0) 8 5057 1849</span></p></td></tr><tr><td><p><strong><span>Latvija</span></strong></p><p><span>Gilead Sciences Poland Sp. z o.o.</span></p><p><span>Tel.: + 48 (0) 22 262 8702</span></p></td><td><p><strong><span>Reino Unido</span></strong></p><p><span>Gilead Sciences Ltd.</span></p><p><span>Tel: + 44 (0) 8000 113 700</span></p></td></tr></table><p><a name="page9" id="page9"></a><strong><span>Fecha de la última revisión de este prospecto:</span></strong></p><p><span>La información detallada de este medicamento está disponible en la página web de la Agencia Europea de Medicamentos:</span> <a href="http://www.ema.europa.eu/"><span>http://www.ema.europa.eu.</span></a></p><p><span>&nbsp;</span></p></div></p>
+
+      
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion
+  </h4>
+
+  
+  
+    PMSWI:
+    <b>
+      EU/1/18/1289/001
+    </b>
+    
+  
+    PHPID:
+    <b>
+      0xF79CABF272B6A7EEF104DDDA44E827gy
+    </b>
+    
+  
+  <hr>
+  
+  <p>Full name: <b>Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion</b></p>
+  
+    <p>
+      - Invented name part:
+      <b>
+        Biktarvy
+      </b>
+    </p>
+  
+    <p>
+      - Scientific name part:
+      <b>
+        bictegravir/emtricitabine/tenofovir alafenamide
+      </b>
+    </p>
+  
+    <p>
+      - Strength part:
+      <b>
+        50 mg/200 mg/25 mg
+      </b>
+    </p>
+  
+    <p>
+      - Pharmaceutical dose form part:
+      <b>
+        film-coated tablets
+      </b>
+    </p>
+  
+
+
+  
+  
+  
+    <div>
+      <p>
+        Name usage:
+        
+
+          <b>English (United Kingdom)</b>
+        </p>
+
+      
+    </div>
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b>active</b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+      <div title="Authorisation" class="container rcorners ra listcontainer">
+  <p class="divtitle">
+    <b>Marketing Authorisation</b>
+    1 of 1</p>
+
+  <p>Authorisation number:
+    <b>
+      
+        EU/1/18/1289/001
+      
+    </b>
+  </p>
+
+  <p>
+    Region:
+    <b>
+      
+    </b>
+  </p>
+
+  <p>
+
+    
+  </p>
+
+  
+  
+
+    
+    
+    
+    
+
+
+    
+    
+      <p>Marketing authorisation holder:
+        <b>Gilead Sciences Ireland UC</b>
+      </p>
+      <p>
+        Identifier:
+        <ul>
+          
+            <li>
+              <b>ORG-100008368</b>
+            </li>
+          
+        </ul>
+      </p>
+    
+  
+    
+    
+    
+
+
+    
+    
+  
+
+  <p>
+    Status:
+    <b>
+      Active (2018-06-21T13:28:17Z)
+    </b>
+  </p>
+
+</div>
+    
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 2</p>
+          
+  <p>PMSWI:
+  <b>
+    EU/1/18/1289/001
+  </b>
+  </p>
+
+<p>
+  Description:
+  
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b>1 Box</b>
+  
+  
+    
+      <b>(Cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+
+
+  <br/>
+  <div class="container rcorners innerpack">
+    
+<p>Package:
+  <b>90 Child-resistant closure</b>
+  
+  
+    
+      <b>(PolyVinyl Chloride)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+    <b> 
+      
+    </b>
+  </p>
+  
+  
+  
+    
+    
+
+    
+      <div class="container rcorners mid listcontainer">
+  <p class="divtitle">Manufactured Item</p>
+  <p>
+    Dose form:
+    <b>
+      Tablet
+    </b>
+  </p>
+  <p>
+    Unit of presentation:
+    <b>
+      Tablet
+    </b>
+  </p>
+
+  
+
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              BICTEGRAVIR SODIUM
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Emtricitabine
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              tenofovir alafenamide
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Microcrystalline cellulose
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Croscarmellose sodium
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Magnesium stearate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+</div>
+      
+  
+
+
+
+
+
+  </div>
+
+
+
+  
+</p>
+        </div>
+      
+    
+  
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 2 of 2</p>
+          
+  <p>PMSWI:
+  <b>
+    EU/1/18/1289/001
+  </b>
+  </p>
+
+<p>
+  Description:
+  
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b>1 Box</b>
+  
+  
+    
+      <b>(Cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+
+
+  <br/>
+  <div class="container rcorners innerpack">
+    
+<p>Package:
+  <b>30 Child-resistant closure</b>
+  
+  
+    
+      <b>(PolyVinyl Chloride)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+    <b> 
+      
+    </b>
+  </p>
+  
+  
+  
+    
+    
+
+    
+      <div class="container rcorners mid listcontainer">
+  <p class="divtitle">Manufactured Item</p>
+  <p>
+    Dose form:
+    <b>
+      Tablet
+    </b>
+  </p>
+  <p>
+    Unit of presentation:
+    <b>
+      Tablet
+    </b>
+  </p>
+
+  
+
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              BICTEGRAVIR SODIUM
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Emtricitabine
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              tenofovir alafenamide
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Microcrystalline cellulose
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Croscarmellose sodium
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Magnesium stearate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+</div>
+      
+  
+
+
+
+
+
+  </div>
+
+
+
+  
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+        
+        
+        
+        
+          
+        <div class="container rcorners apd listcontainer">
+  <p class="divtitle">Administrable Product (1 of 1)</p>
+  <p>
+    Dose form:
+    <b>
+      Tablet
+    </b>
+  </p>
+
+  <p>
+    Unit of presentation:
+    <b>
+      Tablet
+    </b>
+  </p>
+
+  <p>
+    Route of administration:
+    <ul>
+      
+        <li>
+          <b>
+            Oral use
+          </b>
+        </li>
+      
+    </ul>
+  </p>
+
+  Ingredients:
+  
+
+
+
+  
+
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              BICTEGRAVIR SODIUM
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Emtricitabine
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              tenofovir alafenamide
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Microcrystalline cellulose
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Croscarmellose sodium
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Magnesium stearate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+
+
+</div>
+      
+    
+  
+
+
+
+  <!-- <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Biktarvy 50 mg/200 mg/25 mg film-coated tabletsmg powder for concentrate for solution for infusion
+  </h4>
+
+  
+  
+  
+  
+    PMSWI:
+    <b>
+      EU/1/18/1289/001
+    </b>
+  
+    PHPID:
+    <b>
+      0xF79CABF272B6A7EEF104DDDA44E827gy
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b>active</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+
+        <p class="divtitle">Authorisation 1 of 1</p>
+        Auth id:
+        <b>
+          
+            EU/1/18/1289/001
+          
+        </b>
+
+        <p>
+          Country:
+          <b>
+            
+
+          </b>
+        </p>
+        <p>
+          Type:
+          <b>
+            Marketing Authorisation
+          </b>
+        </p>
+
+        
+      </p>
+
+      
+      
+
+        
+        
+        
+        
+
+
+        
+        
+          <p>
+            Holder:
+            <b>Gilead Sciences Ireland UC (ORG-100008368)</b>
+
+          </p>
+          <p></p>
+        
+      
+        
+        
+        
+
+
+        
+        
+      
+
+
+
+      <p>
+        Status:
+        <b>
+          Active (2018-06-21T13:28:17Z)
+        </b>
+      </p>
+
+    </div>
+
+  
+
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 2</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          PMSWI:
+          <b>
+            EU/1/18/1289/001
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          active</b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+            <br/>
+            <div class="container rcorners pack bleft">
+              <p>Package: 1 Box [Cardboard]</p>
+
+
+              
+              
+                <br/>
+                <div class="container rcorners pack bleft">
+                  <p>Inner Package: 90 Child-resistant closure [PolyVinyl Chloride]</p>
+
+                </div>
+              </div>
+            
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+    
+    
+    
+      <p class="divtitle"> Package 2 of 2</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          PMSWI:
+          <b>
+            EU/1/18/1289/001
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          active</b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+            <br/>
+            <div class="container rcorners pack bleft">
+              <p>Package: 1 Box [Cardboard]</p>
+
+
+              
+              
+                <br/>
+                <div class="container rcorners pack bleft">
+                  <p>Inner Package: 30 Child-resistant closure [PolyVinyl Chloride]</p>
+
+                </div>
+              </div>
+            
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+      
+
+      
+      
+      
+        
+          <div class="container bleft rcorners apd"> <p class="divtitle">Administrable Product (1 of 1)</p>
+          <p>
+            Dose form:
+            <b>
+              Tablet
+            </b>
+          </p>
+
+          <p>
+            Presentation unit:
+            <b>
+              Tablet
+            </b>
+          </p>
+          Route of administration:
+          <ul>
+            
+              <li>
+                <b>
+                  Oral use
+                </b>
+              </li>
+            
+          </ul>
+          Contents (Manuf. Items):
+          <ul>
+            
+            
+
+              
+
+              
+
+              
+                <div class="container   rcorners mid">
+                  <b>mid-94a96e39cfdcd8b378d12dd4063065f9</b>
+                  <p>
+                    Dose form:
+                    <b>Tablet</b>
+                  </p>
+                  <p>
+                    Presentation unit:
+                    <b>Tablet</b>
+                  </p>
+                  <p>
+                    Manufactured Dose Form:
+                    <b>Tablet</b>
+                  </p>
+                  Ingredients:
+                  <ul>
+                    
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-biktarvy-bictegravirsodium</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              BICTEGRAVIR SODIUM
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-biktarvy-emtricitabine</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Emtricitabine
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-biktarvy-tenofoviralafenamide</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              tenofovir alafenamide
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-biktarvy-microcrystallinecellulose</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Microcrystalline cellulose
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-biktarvy-croscarmellosesodium</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Croscarmellose sodium
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-biktarvy-magnesiumstearate</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Magnesium stearate
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                  </ul>
+
+                </div>
+              
+            
+          </ul>
+          
+          
+            
+
+
+        </div>
+      
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+        
+
+          
+
+
+
+          
+            <p>
+              Contraindication:
+              <b>nan</b>
+            </p>
+          
+
+          
+
+
+          
+
+
+          
+
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+    <!-- insert notes if present -->
+  
+
+
+
+
+            <!-- /inner-wrapper -->
+          <!-- /row -->
+        <!-- /container -->
+      <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  
+
+</p></div></p></div></hr></hr></hr></div></div></div></div></div></div></body></html>

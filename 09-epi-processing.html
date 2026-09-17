@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI Processing - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"4"}
+    h3,h4,h5,h6{--heading-prefix:"4"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>ePI Processing</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+  <h2>ePI Processing</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#general-overview-of-the-processing-steps" id="markdown-toc-general-overview-of-the-processing-steps">General overview of the processing steps</a></li>
+  <li><a href="#preprocessing" id="markdown-toc-preprocessing">Preprocessing</a></li>
+  <li><a href="#focusing" id="markdown-toc-focusing">Focusing</a></li>
+  <li><a href="#fhir-considerations" id="markdown-toc-fhir-considerations">FHIR Considerations</a></li>
+  <li><a href="#current-developments" id="markdown-toc-current-developments">Current developments</a></li>
+</ul>
+
+</div>
+<h3 id="general-overview-of-the-processing-steps">General overview of the processing steps</h3>
+
+<p><strong>Adapting information to the context and preferences of the end user for effective and optimal understanding of the information.</strong></p>
+
+<p>The definition of the several steps in the processing pipeline:</p>
+
+<ol>
+  <li>Raw ePI: The ePI as is, without changes</li>
+  <li>p(ePI): the preprocessed ePI, with semmnantic annotation</li>
+  <li>f(ePI): the focused ePI format, rendered with personalized data</li>
+</ol>
+
+<div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="SEQUENCE" height="326px" preserveAspectRatio="none" style="width:388px;height:326px;background:#FFFFFF;" version="1.1" viewBox="0 0 388 326" width="388px" zoomAndPan="magnify"><defs /><g><g><title>Raw ePI</title><rect fill="#000000" fill-opacity="0.00000" height="254.4609" width="8" x="101.6958" y="36.2969" /><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="105" x2="105" y1="36.2969" y2="290.7578" /></g><g><title>p(ePI)</title><rect fill="#000000" fill-opacity="0.00000" height="254.4609" width="8" x="196.9863" y="36.2969" /><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="200.4888" x2="200.4888" y1="36.2969" y2="290.7578" /></g><g><title>f(ePI)</title><rect fill="#000000" fill-opacity="0.00000" height="254.4609" width="8" x="278.6802" y="36.2969" /><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="282.1616" x2="282.1616" y1="36.2969" y2="290.7578" /></g><g class="participant participant-head" data-participant="Raw ePI"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="69.3916" x="71" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55.3916" x="78" y="24.9951">Raw ePI</text></g><g class="participant participant-tail" data-participant="Raw ePI"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="69.3916" x="71" y="289.7578" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55.3916" x="78" y="309.7529">Raw ePI</text></g><g class="participant participant-head" data-participant="p(ePI)"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="54.9951" x="173.4888" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40.9951" x="180.4888" y="24.9951">p(ePI)</text></g><g class="participant participant-tail" data-participant="p(ePI)"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="54.9951" x="173.4888" y="289.7578" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40.9951" x="180.4888" y="309.7529">p(ePI)</text></g><g class="participant participant-head" data-participant="f(ePI)"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="51.0371" x="257.1616" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37.0371" x="264.1616" y="24.9951">f(ePI)</text></g><g class="participant participant-tail" data-participant="f(ePI)"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="51.0371" x="257.1616" y="289.7578" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37.0371" x="264.1616" y="309.7529">f(ePI)</text></g><g class="message" data-participant-1="Raw ePI" data-participant-2="p(ePI)"><polygon fill="#181818" points="188.9863,63.4297,198.9863,67.4297,188.9863,71.4297,192.9863,67.4297" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="105.6958" x2="194.9863" y1="67.4297" y2="67.4297" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71.2905" x="112.6958" y="62.3638">Annotation</text></g><g class="message" data-participant-1="p(ePI)" data-participant-2="f(ePI)"><polygon fill="#181818" points="270.6802,92.5625,280.6802,96.5625,270.6802,100.5625,274.6802,96.5625" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="200.9863" x2="276.6802" y1="96.5625" y2="96.5625" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57.6938" x="207.9863" y="91.4966">Focusing</text></g><path d="M5,109.5625 L5,194.5625 L196,194.5625 L196,119.5625 L186,109.5625 L5,109.5625" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" /><path d="M186,109.5625 L186,119.5625 L196,119.5625 L186,109.5625" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141.8574" x="11" y="126.6294">Annotation of content</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="170.2759" x="11" y="141.7622">w/ standard terminologies</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="105.752" x="11" y="156.895">Automatic (NLP)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102.959" x="11" y="172.0278">Semi-automatic</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="152.3247" x="11" y="187.1606">Manual (ePI editor tool)</text><path d="M287,205.2266 L287,275.2266 L381,275.2266 L381,215.2266 L371,205.2266 L287,205.2266" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" /><path d="M371,205.2266 L371,215.2266 L381,215.2266 L371,205.2266" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="49.9688" x="293" y="222.2935">Engine</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="65.165" x="297.1323" y="237.4263">JavaScript</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="26.5522" x="293" y="252.5591">CQL</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36.9116" x="293" y="267.6919">Other</text></g></svg></div>
+<p><br clear="all" /></p>
+
+<p>The focusing mechanism is complex and can be understood as a multistep process:</p>
+
+<ol>
+  <li>first the lenses are attached - x(ePI)</li>
+  <li>the persona vector and IPS and consulted/consumed - x'(ePI)</li>
+  <li>the necessary data elements are attached (CSS classes to certain DIVs) - f(ePI)</li>
+</ol>
+
+<p>This will create a focused ePI that can be used to show personalized information to the user.</p>
+
+<p>Diagram:</p>
+<div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="SEQUENCE" height="324px" preserveAspectRatio="none" style="width:650px;height:324px;background:#FFFFFF;" version="1.1" viewBox="0 0 650 324" width="650px" zoomAndPan="magnify"><defs /><g><g><title>p(ePI)</title><rect fill="#000000" fill-opacity="0.00000" height="253.3281" width="8" x="28.4976" y="36.2969" /><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="32" x2="32" y1="36.2969" y2="289.625" /></g><g><title>x(ePI)</title><rect fill="#000000" fill-opacity="0.00000" height="253.3281" width="8" x="142.5962" y="36.2969" /><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="146.3994" x2="146.3994" y1="36.2969" y2="289.625" /></g><g><title>x'(ePI)</title><rect fill="#000000" fill-opacity="0.00000" height="253.3281" width="8" x="481.1987" y="36.2969" /><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="485.0776" x2="485.0776" y1="36.2969" y2="289.625" /></g><g><title>f(ePI)</title><rect fill="#000000" fill-opacity="0.00000" height="253.3281" width="8" x="614.7783" y="36.2969" /><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="618.2598" x2="618.2598" y1="36.2969" y2="289.625" /></g><g class="participant participant-head" data-participant="p(ePI)"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="54.9951" x="5" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40.9951" x="12" y="24.9951">p(ePI)</text></g><g class="participant participant-tail" data-participant="p(ePI)"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="54.9951" x="5" y="288.625" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40.9951" x="12" y="308.6201">p(ePI)</text></g><g class="participant participant-head" data-participant="x(ePI)"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="54.3936" x="119.3994" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40.3936" x="126.3994" y="24.9951">x(ePI)</text></g><g class="participant participant-tail" data-participant="x(ePI)"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="54.3936" x="119.3994" y="288.625" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40.3936" x="126.3994" y="308.6201">x(ePI)</text></g><g class="participant participant-head" data-participant="x'(ePI)"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="58.2422" x="456.0776" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44.2422" x="463.0776" y="24.9951">x'(ePI)</text></g><g class="participant participant-tail" data-participant="x'(ePI)"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="58.2422" x="456.0776" y="288.625" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44.2422" x="463.0776" y="308.6201">x'(ePI)</text></g><g class="participant participant-head" data-participant="f(ePI)"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="51.0371" x="593.2598" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37.0371" x="600.2598" y="24.9951">f(ePI)</text></g><g class="participant participant-tail" data-participant="f(ePI)"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="51.0371" x="593.2598" y="288.625" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37.0371" x="600.2598" y="308.6201">f(ePI)</text></g><g class="message" data-participant-1="p(ePI)" data-participant-2="x(ePI)"><polygon fill="#181818" points="134.5962,63.4297,144.5962,67.4297,134.5962,71.4297,138.5962,67.4297" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="32.4976" x2="140.5962" y1="67.4297" y2="67.4297" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90.0986" x="39.4976" y="62.3638">adding lenses</text></g><g class="message" data-participant-1="x(ePI)" data-participant-2="x'(ePI)"><polygon fill="#181818" points="473.1987,92.5625,483.1987,96.5625,473.1987,100.5625,477.1987,96.5625" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="146.5962" x2="479.1987" y1="96.5625" y2="96.5625" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="314.6025" x="153.5962" y="91.4966">data consumed and attached focusing elements</text></g><g class="message" data-participant-1="x'(ePI)" data-participant-2="f(ePI)"><polygon fill="#181818" points="606.7783,121.6953,616.7783,125.6953,606.7783,129.6953,610.7783,125.6953" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="485.1987" x2="612.7783" y1="125.6953" y2="125.6953" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109.5796" x="492.1987" y="120.6294">Lenses executed</text></g><path d="M151,138.6953 L151,208.6953 L382,208.6953 L382,148.6953 L372,138.6953 L151,138.6953" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" /><path d="M372,138.6953 L372,148.6953 L382,148.6953 L372,138.6953" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="170.8154" x="157" y="155.7622">Know and standard Terms</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="210.1138" x="157" y="170.895">Know and standard Profile + IPS</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="189.5981" x="157" y="186.0278">Produce Standard operations</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="150.4648" x="157" y="201.1606">Language independent</text><path d="M358,219.2266 L358,274.2266 L479,274.2266 L479,229.2266 L469,219.2266 L358,219.2266" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" /><path d="M469,219.2266 L469,229.2266 L479,229.2266 L469,219.2266" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74.6992" x="364" y="236.2935">User Profile</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19.9253" x="364" y="251.4263">IPS</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100.4453" x="364" y="266.5591">Or combination</text></g></svg></div>
+<p><br clear="all" /></p>
+
+<h3 id="preprocessing">Preprocessing</h3>
+
+<p>The transformation of the raw epi to the annotated ePI (preprocessed).</p>
+
+<p>Considerations:</p>
+
+<ol>
+  <li>What should be annotated</li>
+  <li>Is there only one way of annotating?</li>
+  <li>how to name the classes</li>
+  <li>CUD vs terminology</li>
+  <li>This represents this or/and this is related to this..</li>
+  <li>…</li>
+</ol>
+
+<h4 id="handling-classes">Handling classes</h4>
+
+<p>The most common type of lens is about adding special categories to the text. Its about creating a class for a specific purpose. Whether for highlight or collapsing.</p>
+
+<p>But more than that, we need to have traceability for the lens that applied the class. So we also need to add an identification of the lens.</p>
+
+<h3 id="focusing">Focusing</h3>
+
+<p>The focusing is an important part - arguably the most important one in the whole pipeline. Its where the logic is applied to the preprocessed data and creates personalized content.</p>
+
+<h4 id="traceability">Traceability</h4>
+
+<p>The idea of a lens also adding its own id to the classes, is a way of securing traceability of the change that was made.
+Then, the composition refers to them by extension to provide the possibility of getting more information from them.
+see <a href="StructureDefinition-LensesApplied.html">here</a> for the spec.</p>
+
+<h4 id="adding-more-information">Adding more information</h4>
+
+<p>In Gravitate-Health, we may also want to add more information. This can be a wide variety of information, like text, images, video, sound. The possibilities are virtually infinite.
+The idea is to add this information as an extension to the section they are referenced.
+We could also check the type of information. Whether is a pictogram, a image, a explanation of something…
+There should be a logic for adding content, trying to harmonize information types. Check the <a href="17-semantic-styling.html">here</a></p>
+
+<h4 id="epi-persona-and-additional-support-material-or-risk-minimization-material">ePI, persona and Additional Support Material (or Risk Minimization Material)</h4>
+
+<div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="ACTIVITY" height="228px" preserveAspectRatio="none" style="width:935px;height:228px;background:#FFFFFF;" version="1.1" viewBox="0 0 935 228" width="935px" zoomAndPan="magnify"><defs /><g><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="86.9082" x="433.8196" y="11" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="66.9082" x="443.8196" y="32.1387">Check ASM</text><polygon fill="#F1F1F1" points="32,64.9688,122.1484,64.9688,134.1484,76.9688,122.1484,88.9688,32,88.9688,20,76.9688,32,64.9688" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="13.7017" x="81.0742" y="99.1792">no</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="90.1484" x="32" y="80.7769">ASM for the ePI?</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="84.5879" x="34.7803" y="121.7734" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="64.5879" x="44.7803" y="142.9121">do nothing</text><polygon fill="#F1F1F1" points="166.1484,64.9688,438.5435,64.9688,450.5435,76.9688,438.5435,88.9688,166.1484,88.9688,154.1484,76.9688,166.1484,64.9688" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="13.7017" x="306.3459" y="99.1792">no</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="272.395" x="166.1484" y="80.7769">ASM relates to a particular condition patient has?</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="84.5879" x="260.052" y="121.7734" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="64.5879" x="270.052" y="142.9121">do nothing</text><polygon fill="#F1F1F1" points="506.8425,64.9688,676.6604,64.9688,688.6604,76.9688,676.6604,88.9688,506.8425,88.9688,494.8425,76.9688,506.8425,64.9688" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="19.0083" x="595.7515" y="99.1792">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="169.8179" x="506.8425" y="80.7769">ePi is tagged for that condition</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="13.7017" x="688.6604" y="74.3745">no</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="242.416" x="470.5435" y="121.7734" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="222.416" x="480.5435" y="142.9121">add link to ASM in the proper section</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="201.5879" x="722.9595" y="118.3711" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="181.5879" x="732.9595" y="139.5098">add the link in generic section</text><ellipse cx="477.2737" cy="206.7422" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1;" /><ellipse cx="477.2737" cy="206.7422" fill="#222222" rx="6" ry="6" style="stroke:#222222;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="77.0742" x2="77.0742" y1="88.9688" y2="121.7734" /><polygon fill="#181818" points="73.0742,111.7734,77.0742,121.7734,81.0742,111.7734,77.0742,115.7734" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="77.0742" x2="77.0742" y1="155.7422" y2="175.7422" /><polygon fill="#181818" points="73.0742,165.7422,77.0742,175.7422,81.0742,165.7422,77.0742,169.7422" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="302.3459" x2="302.3459" y1="88.9688" y2="121.7734" /><polygon fill="#181818" points="298.3459,111.7734,302.3459,121.7734,306.3459,111.7734,302.3459,115.7734" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="302.3459" x2="302.3459" y1="155.7422" y2="175.7422" /><polygon fill="#181818" points="298.3459,165.7422,302.3459,175.7422,306.3459,165.7422,302.3459,169.7422" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="591.7515" x2="591.7515" y1="88.9688" y2="121.7734" /><polygon fill="#181818" points="587.7515,111.7734,591.7515,121.7734,595.7515,111.7734,591.7515,115.7734" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="591.7515" x2="591.7515" y1="155.7422" y2="175.7422" /><polygon fill="#181818" points="587.7515,165.7422,591.7515,175.7422,595.7515,165.7422,591.7515,169.7422" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="134.1484" x2="154.1484" y1="76.9688" y2="76.9688" /><polygon fill="#181818" points="144.1484,72.9688,154.1484,76.9688,144.1484,80.9688,148.1484,76.9688" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="450.5435" x2="494.8425" y1="76.9688" y2="76.9688" /><polygon fill="#181818" points="484.8425,72.9688,494.8425,76.9688,484.8425,80.9688,488.8425,76.9688" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="477.2737" x2="477.2737" y1="44.9688" y2="49.9688" /><line style="stroke:#181818;stroke-width:1;" x1="477.2737" x2="77.0742" y1="49.9688" y2="49.9688" /><line style="stroke:#181818;stroke-width:1;" x1="77.0742" x2="77.0742" y1="49.9688" y2="64.9688" /><polygon fill="#181818" points="73.0742,54.9688,77.0742,64.9688,81.0742,54.9688,77.0742,58.9688" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="688.6604" x2="823.7534" y1="76.9688" y2="76.9688" /><line style="stroke:#181818;stroke-width:1;" x1="823.7534" x2="823.7534" y1="76.9688" y2="118.3711" /><polygon fill="#181818" points="819.7534,108.3711,823.7534,118.3711,827.7534,108.3711,823.7534,112.3711" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="823.7534" x2="823.7534" y1="152.3398" y2="175.7422" /><polygon fill="#181818" points="819.7534,165.7422,823.7534,175.7422,827.7534,165.7422,823.7534,169.7422" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="77.0742" x2="823.7534" y1="175.7422" y2="175.7422" /><line style="stroke:#181818;stroke-width:1;" x1="477.2737" x2="477.2737" y1="175.7422" y2="195.7422" /><polygon fill="#181818" points="473.2737,185.7422,477.2737,195.7422,481.2737,185.7422,477.2737,189.7422" style="stroke:#181818;stroke-width:1;" /></g></svg></div>
+<p><br clear="all" /></p>
+
+<h3 id="fhir-considerations">FHIR Considerations</h3>
+
+<ol>
+  <li>
+    <p>The raw ePI:
+This artifact composed of several FHIR resources, being the composition the central piece. It can already have additional data in it from the get go such as multimedia in the format of binary or <a href="https://build.fhir.org/ig/hl7-eu/gravitate-health/StructureDefinition-HtmlElementLink.html">HtmlElementLink</a> extension.</p>
+  </li>
+  <li>
+    <p>The preprocessed ePI:
+The annotation is done through the linkage of sentences, paragraphs or words to concepts, through the <a href="https://build.fhir.org/ig/hl7-eu/gravitate-health/StructureDefinition-HtmlElementLink.html">HtmlElementLink</a>.</p>
+  </li>
+  <li>
+    <p>The focused ePI:
+After the focusing, the focused version should contain the information from the previous two, personalized for the patient.
+The applied lenses that made any change will be mentioned in the extension <a href="https://build.fhir.org/ig/hl7-eu/gravitate-health/StructureDefinition-LensesApplied.html">https://build.fhir.org/ig/hl7-eu/gravitate-health/StructureDefinition-LensesApplied.html</a>
+The lens that made any change will be added to the tag as well.</p>
+  </li>
+</ol>
+
+<h3 id="current-developments">Current developments</h3>
+
+<p>The current definition for the FOSPS is here:</p>
+
+<p><a href="https://fosps.gravitatehealth.eu/swagger-fosps/?urls.primaryName=Focusing%20Manager#/Lenses/post_focusing_focus__epiId">https://fosps.gravitatehealth.eu/swagger-fosps/?urls.primaryName=Focusing%20Manager#/Lenses/post_focusing_focus__epiId</a></p>
+
+<p>Example requests in the github.</p>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

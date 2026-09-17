@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Composition for Xenical 120mg hard capsules Package Leaflet - TTL Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.85"}
+    h3,h4,h5,h6{--heading-prefix:"16.85"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Composition for Xenical 120mg hard capsules Package Leaflet</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+  <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Composition-composition-es-bc60fa1aa0bfe774d11ee13c0c131622.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Composition-composition-es-bc60fa1aa0bfe774d11ee13c0c131622.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Composition-composition-es-bc60fa1aa0bfe774d11ee13c0c131622.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Composition for Xenical 120mg hard capsules Package Leaflet - TTL Representation</h2>
+
+
+<p><a href="Composition-composition-es-bc60fa1aa0bfe774d11ee13c0c131622.ttl" no-download="true">Raw ttl</a> | <a download="null" href="Composition-composition-es-bc60fa1aa0bfe774d11ee13c0c131622.ttl">Download</a></p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <pre style="white-space: pre; overflow: hidden" class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Composition ;
+  <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "composition-es-bc60fa1aa0bfe774d11ee13c0c131622"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "es"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"es\" lang=\"es\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=\"composition-es-bc60fa1aa0bfe774d11ee13c0c131622\"&gt; &lt;/a&gt;&lt;a name=\"hccomposition-es-bc60fa1aa0bfe774d11ee13c0c131622\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource Composition &amp;quot;composition-es-bc60fa1aa0bfe774d11ee13c0c131622&amp;quot;  (Language &amp;quot;es&amp;quot;) &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profile: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\"&gt;Composition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/rmswi/&lt;/code&gt;/EU/1/13/853/001&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Package Leaflet &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: Raw &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (&lt;a href=\"CodeSystem-epicategory-cs.html\"&gt;Category of EPI&lt;/a&gt;#R)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-02-16 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;a href=\"Organization-mah-4aaf055c3c7bab96579cd18496b045eb.html\"&gt;Organization/mah-4aaf055c3c7bab96579cd18496b045eb&lt;/a&gt; &amp;quot;CHEPLAPHARM Arzneimittel GmbH&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: TEST PURPOSES ONLY - Xenical 120mg hard capsules&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;*&lt;/td&gt;&lt;td&gt;Official &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (&lt;a href=\"http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html\"&gt;Composition Attestation Mode&lt;/a&gt;#official)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;2022-02-16 13:28:17+0000&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "EU/1/13/853/001" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "final"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.type">fhir:type</a> [
+    ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]     ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Package Leaflet" ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.category">fhir:category</a> ( [
+    ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "R" ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Raw" ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.subject">fhir:subject</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "MedicinalProductDefinition/mpbc60fa1aa0bfe774d11ee13c0c131622" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> "2022-02-16T13:28:17Z"^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.author">fhir:author</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Organization/mah-4aaf055c3c7bab96579cd18496b045eb" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "TEST PURPOSES ONLY - Xenical 120mg hard capsules"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.attester">fhir:attester</a> ( [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.mode">fhir:mode</a> [
+      ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://hl7.org/fhir/composition-attestation-mode"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "official" ]       ] )     ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.time">fhir:time</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> "2022-02-16T13:28:17Z"^^xsd:dateTime ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.section">fhir:section</a> ( [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "B. PROSPECTO" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+      ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]       ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "B. PROSPECTO" ]     ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;unavailable&lt;/div&gt;"     ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.emptyReason">fhir:emptyReason</a> [
+      ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "unavailable" ]       ] )     ] ;
+    ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "PROSPECTO: INFORMACIÓN PARA EL USUARIO" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "PROSPECTO: INFORMACIÓN PARA EL USUARIO" ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;XENICAL 120 mg cápsulas duras Orlistat&lt;/p&gt;&lt;p&gt;Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento, porque contiene información importante para usted.&lt;/p&gt;&lt;p&gt;Conserve este prospecto, ya que puede tener que volver a leerlo.&lt;/p&gt;&lt;p&gt;Si tiene alguna duda, consulte a su médico* farmacéutico.&lt;/p&gt;&lt;p&gt;Este medicamento se le ha recetado solamente a usted y no debe dárselo a otras personas, aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.&lt;/p&gt;&lt;p&gt;Si experimenta efectos adversos, consulte a su médico* farmacéutico, incluso si se trata deefectos adversos que no aparecen en este prospecto. Ver sección 4&lt;/p&gt;&lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Contenido del prospecto" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Contenido del prospecto" ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;Contenido del prospecto:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Qué es Xenical y para qué se utiliza&lt;/li&gt;&lt;li&gt;Qué necesita saber antes de empezar a tomar Xenical&lt;/li&gt;&lt;li&gt;Cómo tomar Xenical&lt;/li&gt;&lt;li&gt;Posibles efectos adversos&lt;/li&gt;&lt;li&gt;Conservación de Xenical&lt;/li&gt;&lt;li&gt;Contenido del envase e información adicional&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "1. Qué es XENICAL 120 mg cápsulas duras  y para qué se utiliza" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "1. Qué es XENICAL 120 mg cápsulas duras  y para qué se utiliza" ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;Xenical es un medicamento utilizado para tratar la obesidad. Actúa sobre su sistema digestivo evitando que se digiera alrededor de un tercio de la grasa contenida en la comida que ingiere.Xenical se une a enzimas de su sistema digestivo (lipasas) evitando que hidrolicen parte de las grasas que ha ingerido durante la comida. La grasa no digerida no puede absorberse y su cuerpo la elimina.&lt;/p&gt;&lt;p&gt;Xenical está indicado para el tratamiento de la obesidad, junto con una dieta con bajo contenido en calorías.&lt;/p&gt;&lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "2. Qué necesita saber antes de empezar a tomar XENICAL 120 mg cápsulas duras " ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "2. Qué necesita saber antes de empezar a tomar XENICAL 120 mg cápsulas duras " ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;No tome XENICAL&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Si es alérgico (hipersensible) a orlistat o a cualquiera de los demás componentes de Xenical.&lt;/li&gt;&lt;li&gt;Si tiene síndrome de malabsorción crónica (absorción insuficiente de nutrientes a través del tracto digestivo).&lt;/li&gt;&lt;li&gt;Si tiene colestasis (trastorno del hígado).&lt;/li&gt;&lt;li&gt;Si está en periodo de lactancia&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Advertencias y precauciones La pérdida de peso puede también afectar a la dosis de los medicamentos que tome para otras situaciones (p. ej. colesterol alto o diabetes). Asegúrese de informar a su médico si está tomando éstos u otros medicamentos. La pérdida de peso puede significar que usted necesite un ajuste de la dosis de estos medicamentos.&lt;/p&gt;&lt;p&gt;Para obtener el máximo beneficio de Xenical debe seguir el programa de nutrición recomendado por su médico. Como ocurre con cualquier otro programa de control de peso, el consumo excesivo de grasa y calorías puede reducir el efecto en la pérdida de peso.&lt;/p&gt;&lt;p&gt;Este medicamento puede causar un cambio no perjudicial en sus hábitos de evacuación intestinal, tal como puede ser la presencia de heces grasas o aceitosas, debido a la eliminación por las heces de grasa sin digerir. La posibilidad de que esto ocurra puede aumentar si Xenical se toma con una dieta rica en grasa. Además, su ingesta diaria de grasa debe ser distribuida equitativamente entre las tres principales comidas ya que si Xenical se toma con una comida muy alta en grasa se puede incrementar la posibilidad de que se den efectos gastrointestinales.&lt;/p&gt;&lt;p&gt;En caso de diarrea grave podría haber un fallo de los anticonceptivos orales, por lo que se recomienda el uso de un método anticonceptivo adicional.&lt;/p&gt;&lt;p&gt;En pacientes con enfermedad renal crónica, el uso de Orlistat puede estar asociado a cálculos renales. Informe a su médico si tiene problemas de riñón.&lt;/p&gt;&lt;p&gt;Este medicamento contiene menos de 1 mmol de sodio (23 mg) por cápsula; esto es, esencialmente “exento de sodio”.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Niños&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Xenical no está indicado para su uso en niños.&lt;/p&gt;&lt;p&gt;Toma de XENICAL con otros medicamentos Informe a su médico o farmacéutico si está tomando o ha tomado recientemente o podría tener que tomar cualquier otro medicamento.&lt;/p&gt;&lt;p&gt;Esto es importante ya que al utilizar más de un medicamento al mismo tiempo puede aumentar o disminuir su efecto.&lt;/p&gt;&lt;p&gt;Xenical puede modificar la acción de:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Anticoagulantes (p. ej. warfarina), por ello, su médico puede necesitar monitorizar su coagulación sanguínea.&lt;/li&gt;&lt;li&gt;Ciclosporina. No se recomienda la administración conjunta con ciclosporina. Su médico puede necesitar monitorizar sus niveles plasmáticos de ciclosporina con mayor frecuencia de lo habitual.&lt;/li&gt;&lt;li&gt;Sales de yodo y/o levotiroxina. Pueden producir casos de hipotiroidismo y/o alteraciones del control del hipotiroidismo.&lt;/li&gt;&lt;li&gt;Amiodarona. Consulte con su médico.&lt;/li&gt;&lt;li&gt;Medicamentos para tratar el SIDA.&lt;/li&gt;&lt;li&gt;Medicamentos para la depresión, para trastornos psiquiátricos o para la ansiedad.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Xenical reduce la absorción de suplementos de algunos nutrientes solubles en grasa, especialmente de beta-caroteno y vitamina E. Por lo tanto, deberá seguir el consejo de su médico y tomar una dieta equilibrada rica en fruta y verduras. Puede que su médico le recomiende un suplemento polivitamínico.&lt;/p&gt;&lt;p&gt;Orlistat puede alterar el tratamiento anticonvulsionante al disminuir la absorción de los medicamentos antiepilépticos, lo que puede llevar a la aparición de convulsiones. Consulte con su médico si considera que la frecuencia o gravedad de las convulsiones ha cambiado al tomar Xenical junto con medicamentos antiepilépticos.&lt;/p&gt;&lt;p&gt;No se recomienda Xenical para los que esten tomando acarbosa (fármaco anti-diabético usado para la diabetes Tipo 2).&lt;/p&gt;&lt;p&gt;Toma de XENICAL con alimentos, bebida y alcohol Xenical se puede tomar inmediatamente antes, durante la comida o hasta una hora después. Se debe tragar la cápsula con agua.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Embarazo y lactancia&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;No se recomienda tomar Xenical durante el embarazo. No debe amamantar a su hijo durante el tratamiento con Xenical, ya que se desconoce si Xenical pasa a la leche materna.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Conducción y uso de máquinas&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Xenical no tiene ningún efecto conocido sobre la capacidad para conducir o utilizar maquinas.&lt;/p&gt;&lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "3. Cómo tomar XENICAL 120 mg cápsulas duras " ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "3. Cómo tomar XENICAL 120 mg cápsulas duras " ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;Siga exactamente las instrucciones de administración de Xenical indicadas por su médico. En caso de duda, consulte a su médico o farmacéutico.La dosis recomendada de Xenical es de una cápsula de 120 mg tomada con cada una de las tres comidas principales del día. Se puede tomar inmediatamente antes, durante o hasta una hora después de la comida. La cápsula debe ser ingerida con agua.&lt;/p&gt;&lt;p&gt;Xenical debe ser tomado con una dieta con control de calorías, bien equilibrada, rica en frutas y verduras y que contenga una media del 30 % de las calorías provenientes de la grasa. Su ingesta diaria de grasas, hidratos de carbono y proteínas debe ser distribuida en tres comidas. Esto quiere decir que habitualmente tomará una cápsula en el desayuno, otra en la comida y otra en la cena. Para lograr beneficios óptimos, evite la ingesta de alimentos que contengan grasa entre las comidas, tales como galletas, chocolate o aperitivos salados.&lt;/p&gt;&lt;p&gt;Xenical actúa solamente en presencia de la grasas de la dieta. Por lo tanto, no necesita tomar Xenical si no toma alguna comida principal o si toma una comida que no contenga grasa. Si por cualquier motivo no ha tomado su medicina exactamente como se la han prescrito, dígaselo a su médico. De lo contrario, su médico puede pensar que éste medicamento no fue eficaz o bien tolerado y puede cambiar su tratamiento sin necesidad de ello.&lt;/p&gt;&lt;p&gt;Su médico interrumpirá el tratamiento con Xenical si después de 12 semanas no ha perdido al menos el 5 % de su peso al inicio del tratamiento.&lt;/p&gt;&lt;p&gt;Xenical ha sido estudiado en ensayos clínicos de hasta 4 años de duración.&lt;/p&gt;&lt;p&gt;Si toma más XENICAL del que debe Si toma más cápsulas de las que le ha indicado su médico, o si alguna otra persona ingiere su medicamento accidentalmente, contacte con su médico, farmacéutico u hospital ya que puede precisar atención médica.&lt;/p&gt;&lt;p&gt;Si olvidó tomar XENICAL Si olvida tomar su medicamento en cualquier momento, tómelo tan pronto como se acuerde a condición de que sea hasta una hora después de ingerir su comida y a continuación continúe tomándolo a los intervalos habituales. No tome una dosis doble para compensar las dosis olvidadas. Si ha dejado de tomar varias dosis, por favor, informe a su médico y siga el consejo que éste le dé.&lt;/p&gt;&lt;p&gt;No cambie por sí mismo la dosis prescrita a menos que se lo diga su médico.&lt;/p&gt;&lt;p&gt;Si tiene cualquier duda sobre el uso de este producto, pregunte a su medico o farmacéutico.&lt;/p&gt;&lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "4. Posibles efectos adversos" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "4. Posibles efectos adversos" ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.&lt;/p&gt;&lt;p&gt;Si no se encuentra bien mientras está tomando Xenical, coménteselo a su médico o farmacéutico lo antes posible.&lt;/p&gt;&lt;p&gt;La mayoría de los efectos no deseados relacionados con el uso de Xenical son resultado de su acción local sobre el sistema digestivo. Estos síntomas son generalmente moderados, ocurren al comienzo del tratamiento, y se presentan sobre todo después de comidas que tienen altos niveles de grasa. Normalmente, estos síntomas desaparecen si continúa con el tratamiento y sigue la dieta recomendada.&lt;/p&gt;&lt;p&gt;Efectos adversos muy frecuentes (afectan a más de 1 de cada 10 pacientes)&lt;/p&gt;&lt;p&gt;Cefalea, dolor o molestias abdominales, urgencia o aumento de la necesidad de defecar, flatulencia (gases) con incontinencia fecal, incontinencia fecal aceitosa, heces aceitosas o grasas, heces líquidas, bajos niveles de azúcar en sangre (experimentado por algunos pacientes con diabetes tipo 2)&lt;/p&gt;&lt;p&gt;Efectos adversos frecuentes (afectan a entre 1 y 10 de cada 100 pacientes)&lt;/p&gt;&lt;p&gt;Dolor o molestias rectales, heces blandas, incontinencia (fecal), hinchazón (experimentado por algunos pacientes con diabetes tipo 2), alteraciones en los dientes y las encías, irregularidad del ciclo menstrual, fatiga.&lt;/p&gt;&lt;p&gt;También se han comunicado los siguientes efectos adversos pero no se pueden estimar sus frecuencias a partir de los datos disponibles:&lt;/p&gt;&lt;p&gt;Reacciones alérgicas. Los síntomas principales son: picor, erupción cutánea, ronchas (zonas de piel ligeramente elevadas que pican y que están más pálidas o enrojecidas que la piel de alrededor), gran dificultad para respirar, náuseas, vómitos y malestar. Ampollas en la piel (incluyen las ampollas que se explotan). Diverticulitis. Sangrado rectal. Pueden detectarse incrementos en los niveles de enzimas del hígado en los análisis de sangre. Hepatitis (inflamación del hígado). Los síntomas pueden incluir coloración amarillenta de la piel y de los ojos, picor, orina de color oscuro, dolor de estómago y sensibilidad del hígado (indicado por dolor debajo de la parte frontal de la caja torácica en el lado derecho), algunas veces con pérdida de apetito. Deje de tomar Xenical si aparecen estos síntomas e informe a su médico. Cálculos biliares. Pancreatitis (inflamación del páncreas). Nefropatía por oxalato (desarrollada por el oxalato de calcio que puede originar cálculos renales). Véase Capítulo 2, Tenga especial cuidado con Xenical.Interacciones con anticoagulantes.&lt;/p&gt;&lt;p&gt;Comunicación de efectos adversos&lt;/p&gt;&lt;p&gt;Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del sistema nacional de notificación incluido en el Anexo V*. Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.&lt;/p&gt;&lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "5. CONSERVACIÓN DE XENICAL 120 mg cápsulas duras " ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "5. CONSERVACIÓN DE XENICAL 120 mg cápsulas duras " ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;Mantener fuera de la vista y del alcance de los niños.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Blisters&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;No utilice este medicamento después de la fecha de caducidad que aparece en el envase. No conservar a temperatura superior a 25 ºC Conservar en el embalaje original y mantener el blíster en el embalaje exterior para protegerlo de la luz y de la humedad.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Frascos de cristal&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;No utilice este medicamento después de la fecha de caducidad que aparece en el envase. No conservar a temperatura superior a 30 ºC Mantener el envase perfectamente cerrado para protegerlo de la humedad&lt;/p&gt;&lt;p&gt;Los medicamentos no se deben tirar por los desagües ni a la basura. Pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que ya no necesita. De esta forma ayudará a proteger el medio ambiente.&lt;/p&gt;&lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "6. Contenido del envase e información adicional" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]         ] ) ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "6. Contenido del envase e información adicional" ]       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;Composición de Xenical&lt;/p&gt;&lt;ul&gt;&lt;li&gt;El principio activo es orlistat. Cada cápsula contiene 120 mg de orlistat.&lt;/li&gt;&lt;li&gt;Los demás componentes son celulosa microcristalina (E460), carboximetilalmidón sódico (tipo A), povidona (E1201), laurilsulfato de sodio y talco. La cubierta de la cápsula está compuesta de gelatina, índigo carmín (E132), dióxido de titanio (E171) y tinta comestible.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Aspecto del producto y contenido del envase&lt;/p&gt;&lt;p&gt;Xenical son cápsulas de color turquesa con la inscripción &amp;quot;XENICAL 120&amp;quot; y se suministran en envases blister y frascos de vidrio conteniendo 21, 42 y 84 cápsulas.Puede que solamente estén comercializados algunos tamaños de envases.&lt;/p&gt;&lt;p&gt;Titular de la autorización de comercialización CHEPLAPHARM Arzneimittel GmbH Ziegelhof 17489 GreifswaldAlemania&lt;/p&gt;&lt;p&gt;Responsable de la fabricación CHEPLAPHARM Arzneimittel GmbH Bahnhofstr. 1a 17498 Mesekenhagen Alemania&lt;/p&gt;&lt;p&gt;CHEPLAPHARM Arzneimittel GmbH Ziegelhof 23-17489 GreifswaldAlemania&lt;/p&gt;&lt;p&gt;Fecha de la última revisión de este prospecto&lt;/p&gt;&lt;p&gt;La información detallada de este medicamento está disponible en la página web de la Agencia Europea de Medicamentos &lt;a href=\"http://www.ema.europa.eu/\"&gt;http://www.ema.europa.eu/&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;"       ]     ] )
+  ] ) . # 
+
+</pre>
+
+
+
+    <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

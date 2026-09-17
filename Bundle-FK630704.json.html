@@ -1,0 +1,888 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>FK630704 - JSON Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.52"}
+    h3,h4,h5,h6{--heading-prefix:"20.52"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>FK630704</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-FK630704.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-FK630704.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-FK630704.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: FK630704 - JSON Representation</h2>
+
+
+<p><a href="Bundle-FK630704.json" no-download="true">Raw json</a> | <a href="Bundle-FK630704.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">{
+  "<a href="http://hl7.org/fhir/R5/bundle.html#XBundle">resourceType</a>" : "Bundle",
+  "<a href="http://hl7.org/fhir/R5/resource.html#XBundle.id">id</a>" : "FK630704",
+  "<a href="http://hl7.org/fhir/R5/resource.html#XBundle.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>" : [
+      <a href="http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Bundle-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R5/resource.html#XBundle.language">language</a>" : "no",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.identifier">identifier</a>" : {
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>" : "https://felleskatalogen.no/vsid",
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a>" : "630704"
+  },
+  "<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.type">type</a>" : "document",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.timestamp">timestamp</a>" : "2023-03-20T01:01:01Z",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>" : "https://gravitatehealth.eu/fhir/nordic-epi/Composition/FK630704-COMP",
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/composition.html">resourceType</a>" : "Composition",
+        "<a href="http://hl7.org/fhir/R5/resource.html#XComposition.id">id</a>" : "FK630704-COMP",
+        "<a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
+            "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/resource.html#XComposition.language">language</a>" : "no",
+        "<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;no\&quot; lang=\&quot;no\&quot;&gt;&lt;a name=\&quot;Composition_FK630704-COMP\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Composition FK630704-COMP&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;FK630704-COMP\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcFK630704-COMP\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Language: no&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profiles: &lt;a href=\&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\&quot;&gt;Composition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://felleskatalogen.no/vsid&lt;/code&gt;/630704&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://spor.ema.europa.eu/v1/lists/100000155531/terms/ 100000155538}\&quot;&gt;100000155538&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2023-03-20&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: Identifier: &lt;code&gt;https://gravitatehealth.eu/organization&lt;/code&gt;/felleskatalogen&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: NovoRapid Penfill Novo Nordisk sylinderampuller til bruk i insulininjeksjonssystemer fra Novo Nordisk og NovoFine eller NovoTwist nåler&lt;/p&gt;&lt;/div&gt;"
+        },
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>" : "https://felleskatalogen.no/vsid",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a>" : "630704"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.status">status</a>" : "final",
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">type</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/100000155531/terms/",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "100000155538"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">subject</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>" : "MedicinalProductDefinition/Diabetes-MPD-91"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.date">date</a>" : "2023-03-20",
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">author</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.identifier">identifier</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>" : "https://gravitatehealth.eu/organization",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a>" : "felleskatalogen"
+            }
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.title">title</a>" : "NovoRapid Penfill Novo Nordisk sylinderampuller til bruk i insulininjeksjonssystemer fra Novo Nordisk og NovoFine eller NovoTwist nåler",
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Pakningsvedlegg: Informasjon til brukeren",
+            "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029894"
+                }
+              ]
+            },
+            "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+              "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+              "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h1&gt;Pakningsvedlegg: Informasjon til brukeren&lt;/h1&gt;&lt;h2&gt;NovoRapid Penfill 100 enheter/ml injeksjonsvæske, oppløsning i sylinderampulle&lt;/h2&gt;&lt;h3&gt;insulin aspart&lt;/h3&gt;&lt;/div&gt;"
+            },
+            "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg.",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://gravitatehealth.eu/section",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "rules"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg.&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Ta vare på dette pakningsvedlegget. Du kan få behov for å lese det igjen.&lt;/li&gt;&lt;li&gt;Spør lege, apotek eller sykepleier hvis du har flere spørsmål eller trenger mer informasjon.&lt;/li&gt;&lt;li&gt;Dette legemidlet er skrevet ut kun til deg. Ikke gi det videre til andre. Det kan skade dem, selv om de har symptomer på sykdom som ligner dine.&lt;/li&gt;&lt;li&gt;Kontakt lege, sykepleier eller apotek dersom du opplever bivirkninger, inkludert mulige bivirkninger som ikke er nevnt i dette pakningsvedlegget. Se avsnitt 4.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;"
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "I dette pakningsvedlegget finner du informasjon om:",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://gravitatehealth.eu/section",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "toc"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;I dette pakningsvedlegget finner du informasjon om:&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ol&gt;&lt;li&gt;Hva NovoRapid er og hva det brukes mot&lt;/li&gt;&lt;li&gt;Hva du må vite før du bruker NovoRapid&lt;/li&gt;&lt;li&gt;Hvordan du bruker NovoRapid&lt;/li&gt;&lt;li&gt;Mulige bivirkninger&lt;/li&gt;&lt;li&gt;Hvordan du oppbevarer NovoRapid&lt;/li&gt;&lt;li&gt;Innholdet i pakningen og ytterligere informasjon&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;"
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "1. Hva NovoRapid er og hva det brukes mot",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029895"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;1. Hva NovoRapid er og hva det brukes mot&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;NovoRapid er et moderne insulin (insulinanalog) med en hurtigvirkende effekt. Moderne insulinpreparater er forbedrete versjoner av humant insulin.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;NovoRapid brukes til å senke det høye blodsukkernivået hos voksne, ungdom og barn fra 1 år og oppover med diabetes mellitus (diabetes). Diabetes er en sykdom hvor kroppen ikke produserer nok insulin til å kontrollere blodsukkernivået. Behandling med NovoRapid hjelper med å forhindre komplikasjoner fra din diabetes.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;NovoRapid vil begynne å senke blodsukkeret ditt 10-20 minutter etter injeksjon, og har en maksimal effekt mellom 1 og 3 timer etter injeksjonen. Effekten vil vare i 3-5 timer. På grunn av den korte virketiden bør NovoRapid normalt tas i kombinasjon med middels langtidsvirkende eller langtidsvirkende insulinpreparater&lt;/div&gt;&lt;/div&gt;"
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "2. Hva du må vite før du bruker NovoRapid",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029896"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;2. Hva du må vite før du bruker NovoRapid&lt;/h2&gt;&lt;/div&gt;"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>" : [
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Bruk ikke NovoRapid",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029897"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Bruk ikke NovoRapid&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Dersom du er allergisk overfor insulin aspart eller noen av de andre innholdsstoffene i dette legemidlet (listet opp i avsnitt 6, Innholdet i pakningen og ytterligere informasjon).&lt;/li&gt;&lt;li&gt;Dersom du tror at du begynner å få føling (hypoglykemi, lavt blodsukker) (se a) Sammendrag av alvorlige og svært vanlige bivirkninger under avsnitt 4).&lt;/li&gt;&lt;li&gt;Dersom sylinderampullen eller injeksjonssystemet som inneholder sylinderampullen utsettes for støt, skades eller klemmes.&lt;/li&gt;&lt;li&gt;Dersom det ikke har vært riktig oppbevart, eller dersom det har vært frosset (se avsnitt 5, Hvordan du oppbevarer NovoRapid).&lt;/li&gt;&lt;li&gt;Dersom insulinet ikke fremstår som klart og fargeløst.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Bruk ikke NovoRapid hvis noe av dette forekommer. Snakk med lege, sykepleier eller apotek.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Før du bruker NovoRapid&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Kontroller etiketten for å forsikre deg om at det er riktig type insulin.&lt;/li&gt;&lt;li&gt;Du må alltid kontrollere sylinderampullen samt gummistemplet i bunnen av sylinderampullen. Ikke bruk den hvis det er synlig skade på den, eller hvis gummistemplet er trukket over det hvite etikettbåndet i bunnen av sylinderampullen. Dette kan være et resultat av insulinlekkasje. Hvis du tror sylinderampullen er skadet, returneres preparatet til apoteket. Se pennens bruksanvisning for nærmere instruksjoner.&lt;/li&gt;&lt;li&gt;Bruk alltid en ny nål til hver injeksjon for å unngå urenheter.&lt;/li&gt;&lt;li&gt;Nåler og NovoRapid Penfill må ikke deles med andre.&lt;/li&gt;&lt;li&gt;NovoRapid Penfill er kun tilpasset injeksjon under huden ved bruk av en flergangspenn. Snakk med legen din dersom du trenger å injisere insulinet ved hjelp av en annen metode.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Advarsler og forsiktighetsregler",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029898"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Advarsler og forsiktighetsregler&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Noen tilstander og aktiviteter kan påvirke insulinbehovet ditt. Rådfør deg med lege:&lt;ul&gt;&lt;li&gt;Dersom du har nyre- eller leverproblemer, eller problemer med binyrene, hypofysen eller skjoldbruskkjertelen.&lt;/li&gt;&lt;li&gt;Dersom du mosjonerer mer enn vanlig eller hvis du ønsker å endre ditt vanlige kosthold, da dette kan påvirke blodsukkernivået ditt.&lt;/li&gt;&lt;li&gt;Dersom du er syk, fortsett å ta insulin og rådfør deg med lege.&lt;/li&gt;&lt;li&gt;Dersom du skal reise utenlands, tidsforskjellen mellom ulike land kan påvirke insulinbehovet og tidspunktene for dine injeksjoner.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Hudforandringer på injeksjonsstedet&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Injeksjonsstedet bør roteres for å bidra til å forebygge forandringer i fettvevet under huden, som f.eks. fortykning av huden, innskrumping av huden eller kuler under huden. Det kan hende at insulinet ikke virker så godt hvis du injiserer det på et klumpete, innskrumpet eller fortykket sted på huden (se avsnitt 3, ”Hvordan du bruker NovoRapid”). Snakk med legen din hvis du merker noen hudforandringer på injeksjonsstedet. Hvis du pleier å injisere på områder med reaksjoner og vil endre injeksjonssted til et annet område, må du snakke med legen din først. Legen din kan gi deg beskjed om å kontrollere blodsukkeret ditt mer nøye og å justere dosen på insulinet ditt eller andre legemidler du bruker mot diabetes.&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Barn og ungdom",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029899"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Barn og ungdom&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Ikke gi dette legemidlet til barn under 1 år, da det ikke er utført kliniske studier hos barn under 1 år.&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Andre legemidler og NovoRapid",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029900"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Andre legemidler og NovoRapid&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Snakk med lege, sykepleier eller apotek dersom du bruker, nylig har brukt eller planlegger å bruke andre legemidler.&lt;br/&gt;Noen legemidler påvirker blodsukkernivået, og dette kan bety at insulindosen må endres. Nedenfor følger en oversikt over de vanligste legemidlene som kan påvirke insulinbehandlingen din.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Blodsukkernivået ditt kan synke (hypoglykemi, føling) dersom du bruker:&lt;/span&gt;&lt;ul&gt;&lt;li&gt;Andre medisiner til behandling av diabetes&lt;/li&gt;&lt;li&gt;Monoaminoksidasehemmere (MAOH) (brukes til behandling av depresjon)&lt;/li&gt;&lt;li&gt;Betablokkere (brukes til behandling av høyt blodtrykk)&lt;/li&gt;&lt;li&gt;Angiotensinkonverterende enzym(ACE)hemmere (brukes til behandling av visse hjertelidelser eller høyt blodtrykk)&lt;/li&gt;&lt;li&gt;Salisylater (brukes til å lindre smerte og som febernedsettende)&lt;/li&gt;&lt;li&gt;Anabole steroider (slik som testosteron)&lt;/li&gt;&lt;li&gt;Sulfonamider (brukes til behandling av infeksjoner).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Blodsukkernivået ditt kan stige (hyperglykemi) dersom du bruker:&lt;/span&gt;&lt;ul&gt;&lt;li&gt;Orale antikonsepsjonsmidler (p-piller)&lt;/li&gt;&lt;li&gt;Tiazider (brukes til behandling av høyt blodtrykk eller ved omfattende væskeopphopning)&lt;/li&gt;&lt;li&gt;Glukokortikoider (slik som ”kortison”, som brukes til behandling av inflammasjon)&lt;/li&gt;&lt;li&gt;Thyreoideahormoner (brukes til behandling av sykdommer i skjoldbruskkjertelen)&lt;/li&gt;&lt;li&gt;Sympatomimetika (som adrenalin eller salbutamol, terbutalin som brukes til behandling av astma)&lt;/li&gt;&lt;li&gt;Veksthormon (legemiddel til stimulering av skjelett- og kroppslig vekst og med omfattende påvirkning på kroppens stoffskifteprosesser)&lt;/li&gt;&lt;li&gt;Danazol (legemiddel som påvirker eggløsningen).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Oktreotid og lanreotid (brukes til behandling av akromegali, en sjelden hormonell sykdom som vanligvis oppstår hos middelaldrende voksne og som kommer av at hypofysen produserer for mye veksthormon) kan enten øke eller senke blodsukkernivået ditt.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Betablokkere (brukes til behandling av høyt blodtrykk) kan svekke eller fullstendig dempe de første varselsymptomene som hjelper deg til å gjenkjenne lavt blodsukker.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Pioglitazon (tabletter brukt til behandling av type 2 diabetes)&lt;/span&gt;&lt;br/&gt;Noen pasienter med mangeårig type 2 diabetes og hjertesykdom eller som har hatt slag og som ble behandlet med pioglitazon og insulin, utviklet hjertesvikt. Snakk med lege så snart som mulig hvis du opplever tegn på hjertesvikt slik som uvanlig kortpustethet eller rask vektøkning eller lokale væskeansamlinger (hevelse i bena, ødem).&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Snakk med lege, sykepleier eller apotek dersom du bruker noen av legemidlene som er nevnt her.&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Inntak av alkohol sammen med NovoRapid",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029901"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Inntak av alkohol sammen med NovoRapid&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Dersom du drikker alkohol, kan behovet for insulin endre seg fordi blodsukkernivået enten kan stige eller synke. Nøye blodsukkerkontroll anbefales.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Graviditet og amming",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029902"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Graviditet og amming&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Snakk med lege før du tar dette legemidlet dersom du er gravid, tror at du kan være gravid eller planlegger å bli gravid. NovoRapid kan brukes under graviditet. Det kan være behov for å endre insulindosen under svangerskapet og etter fødselen. Det er viktig med nøye kontroll av din diabetes, særlig er det viktig å forhindre føling, dette for ditt barns helse.&lt;/li&gt;&lt;li&gt;Det er ingen restriksjoner for behandling med NovoRapid under amming.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Snakk med lege, sykepleier eller apotek før du tar dette legemidlet dersom du er gravid eller ammer.&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Kjøring og bruk av maskiner",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029903"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Kjøring og bruk av maskiner&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Spør legen om du kan kjøre bil eller betjene en maskin:&lt;ul&gt;&lt;li&gt;Dersom du ofte får føling.&lt;/li&gt;&lt;li&gt;Dersom du har problemer med å gjenkjenne føling.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Dersom blodsukkeret ditt er lavt eller høyt, kan det påvirke konsentrasjons- og reaksjonsevnen og derfor også evnen til å kjøre eller betjene en maskin. Tenk på at du kan utsette deg selv eller andre for fare.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;NovoRapid har en hurtig innsettende effekt, derfor kan du, hvis føling inntreffer, merke den tidligere enn etter en injeksjon med hurtigvirkende humant insulin.&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Viktig informasjon om noen av innholdsstoffene i NovoRapid",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029904"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Viktig informasjon om noen av innholdsstoffene i NovoRapid&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;NovoRapid inneholder mindre enn 1 mmol natrium (23 mg) pr. dose, det vil si at NovoRapid praktisk talt er ”natriumfritt”.&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  }
+                ]
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "3. Hvordan du bruker NovoRapid",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029905"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;3. Hvordan du bruker NovoRapid&lt;/h2&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Dose og når skal du ta insulin&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Bruk alltid insulinet og innstill dosen din nøyaktig slik legen har fortalt deg. Kontakt lege, sykepleier eller apotek hvis du er usikker.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;NovoRapid tas vanligvis rett før et måltid. Spis et måltid eller mellommåltid innen 10 minutter etter injeksjonen for å unngå lavt blodsukker (føling). Om nødvendig, kan NovoRapid gis umiddelbart etter et måltid. For informasjon se under Hvordan og hvor skal det injiseres.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Ikke skift insulinet ditt med mindre legen din har gitt deg beskjed om det. Skifte av insulintype eller - merke kan medføre at legen vil justere dosen.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Bruk hos barn og ungdom&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;NovoRapid kan brukes til ungdom og barn fra 1 år og oppover i stedet for hurtigvirkende humant insulin der en rask innsettende virkning er å foretrekke, som for eksempel når det er vanskelig med insulindosering i forbindelse med barnets måltider.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Bruk hos spesielle pasientgrupper&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Dersom du har redusert nyre- eller leverfunksjon eller dersom du er over 65 år, må du kontrollere blodsukkeret ditt mer regelmessig og diskutere endringer av insulindosen med legen.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Hvordan og hvor skal det injiseres&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;NovoRapid er beregnet til injeksjon under huden (subkutant). Du må aldri selv injisere direkte i en blodåre (intravenøst) eller muskel (intramuskulært). NovoRapid Penfill er kun tilpasset injeksjon under huden ved bruk av en flergangspenn. Snakk med legen din dersom du trenger å injisere insulinet ved hjelp av en annen metode.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;For hver injeksjon bytt injeksjonssted innenfor det bestemte hudområdet du bruker. Dette kan redusere risikoen for utvikling av kuler eller fordypninger i huden (se avsnitt 4, Mulige bivirkninger). De stedene på kroppen som egner seg best for injeksjon er: foran ved midjen (magen), på overarmen eller foran på lårene. Effekten av insulinet inntrer raskere hvis det injiseres foran ved midjen. Du bør alltid måle blodsukkeret regelmessig.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Du må ikke etterfylle sylinderampullen. Når den er tom, skal den kastes.&lt;/li&gt;&lt;li&gt;NovoRapid Penfill sylinderampuller er utformet til bruk sammen med insulininjeksjonssystemer fra Novo Nordisk og NovoFine eller NovoTwist nåler.&lt;/li&gt;&lt;li&gt;Dersom du behandles med NovoRapid Penfill og en annen insulintype i Penfill sylinderampulle, må du bruke to insulininjeksjonssystemer, ett for hver insulintype.&lt;/li&gt;&lt;li&gt;Ha alltid med deg en ekstra Penfill sylinderampulle i tilfelle den mistes eller ødelegges.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Hvordan injisere NovoRapid&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Injiser insulinet under huden. Følg legens eller sykepleierens råd angående injeksjonsteknikk, og som beskrevet i bruksanvisningen til pennen din.&lt;/li&gt;&lt;li&gt;Hold nålen under huden i minst 6 sekunder. Hold trykknappen helt inne inntil nålen er trukket ut av huden. Dette sikrer riktig levering og begrenser muligheten for at det kommer blod inn i nålen eller i insulinbeholderen.&lt;/li&gt;&lt;li&gt;Fjern og kast nålen etter hver injeksjon. Oppbevar alltid NovoRapid uten påsatt nål. Hvis ikke, kan det lekke ut væske som kan medføre feil dosering.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>" : [
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Dersom du tar for mye insulin",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029907"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Dersom du tar for mye insulin&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Dersom du tar for mye insulin blir blodsukkeret for lavt (hypoglykemi). Se a) Sammendrag av alvorlige og svært vanlige bivirkninger under avsnitt 4.&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Dersom du har glemt å ta insulin",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029908"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Dersom du har glemt å ta insulin&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Dersom du glemmer å ta insulinet ditt kan blodsukkeret bli for høyt (hyperglykemi). Se c) Følger ved diabetes under avsnitt 4.&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Dersom du avbryter behandling med insulin",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029909"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Dersom du avbryter behandling med insulin&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Ikke slutt med å ta insulin uten å snakke med en lege, som vil fortelle deg hva som må gjøres. Dette kan føre til veldig høyt blodsukker (alvorlig hyperglykemi) og ketoacidose. Se c) Følger ved diabetes under avsnitt 4.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Spør lege, sykepleier eller apotek dersom du har noen spørsmål om bruken av dette legemidlet.&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  }
+                ]
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "4. Mulige bivirkninger",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029910"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;4. Mulige bivirkninger&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Som alle legemidler kan dette legemidlet forårsake bivirkninger, men ikke alle får det.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;a) Sammendrag av alvorlige og svært vanlige bivirkninger&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Lavt blodsukker (føling, hypoglykemi) &lt;/b&gt;er en svært vanlig bivirkning. Den kan berøre flere enn 1 av 10 personer.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Lavt blodsukker kan inntreffe hvis du:&lt;/span&gt;&lt;ul&gt;&lt;li&gt;Injiserer for mye insulin.&lt;/li&gt;&lt;li&gt;Spiser for lite eller hopper over et måltid.&lt;/li&gt;&lt;li&gt;Mosjonerer mer enn vanlig.&lt;/li&gt;&lt;li&gt;Drikker alkohol (se Inntak av alkohol sammen med NovoRapid under avsnitt 2).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Symptomer på lavt blodsukker:&lt;/span&gt; Kaldsvetting, kald og blek hud, hodepine, hjertebank, kvalme, usedvanlig stor sultfølelse, forbigående synsforstyrrelser, døsighet, unormal tretthet og svakhet, nervøsitet eller skjelving, angst, forvirring og konsentrasjonsproblemer.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Alvorlig lavt blodsukker kan føre til bevisstløshet. Dersom langvarig alvorlig lavt blodsukker ikke behandles, kan det føre til hjerneskade (midlertidig eller livsvarig) og til og med død. Du kan komme raskere til bevissthet igjen hvis du får en injeksjon av hormonet glukagon av en person som er blitt instruert i hvordan det skal brukes. Dersom glukagon er injisert, må du så snart du kommer til bevissthet få glukose eller et sukkerholdig mellommåltid. Hvis du ikke reagerer på glukagonbehandling, må du behandles ved et sykehus.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Hva skal du gjøre hvis du får lavt blodsukker:&lt;/span&gt;&lt;ul&gt;&lt;li&gt;Dersom du opplever lavt blodsukker, spis glukosetabletter eller et annet mellommåltid med høyt sukkerinnhold (for eksempel søtsaker, kjeks, fruktjuice). Hvis mulig, mål blodsukkeret ditt og ta en hvil. For sikkerhets skyld må du alltid ha med deg glukosetabletter eller et mellommåltid med høyt sukkerinnhold.&lt;/li&gt;&lt;li&gt;Når symptomer på lavt blodsukker har forsvunnet, eller når blodsukkernivået er stabilisert, fortsettes insulinbehandlingen som vanlig.&lt;/li&gt;&lt;li&gt;Dersom du får et så lavt blodsukker at du besvimer, dersom du har hatt behov for en injeksjon av glukagon, eller dersom du har hatt gjentatte episoder med lavt blodsukker skal du snakke med legen. Det kan være nødvendig å justere insulindosen, tidspunktet for insulindosering, matinntak eller mengde fysisk aktivitet.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Fortell relevante personer at du har diabetes og hva konsekvensene kan være, inkludert risikoen for å besvime (bli bevisstløs) på grunn av lavt blodsukker. La dem få vite at hvis du besvimer må de legge deg i stabilt sideleie og tilkalle lege med det samme. De må ikke gi deg noe å spise eller drikke på grunn av risiko for kvelning.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Alvorlige allergiske reaksjoner &lt;/b&gt;overfor NovoRapid eller et av innholdsstoffene i preparatet (en såkalt systemisk allergisk reaksjon) er en svært sjelden bivirkning, men kan potensielt være livstruende. Den kan berøre færre enn 1 av 10 000 personer.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Søk råd hos helsepersonell omgående:&lt;ul&gt;&lt;li&gt;Dersom symptomene på allergi sprer seg til andre deler av kroppen.&lt;/li&gt;&lt;li&gt;Dersom du plutselig føler deg dårlig og du: begynner å svette, blir kvalm (kaster opp), får pustebesvær, får hjertebank, føler deg svimmel.&lt;ul&gt;&lt;li&gt;Dersom du merker noen av disse symptomene, søk råd hos helsepersonell omgående.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Hudforandringer på injeksjonsstedet: &lt;/b&gt;Fettvevet kan skrumpe (lipoatrofi) eller fortykkes (lipohypertrofi) (kan berøre færre enn 1 av 100 personer) hvis du injiserer insulin på samme sted. Opphopning av et protein kalt amyloid kan også forårsake kuler under huden (kutan amyloidose; det er ikke kjent hvor ofte dette forekommer). Det kan hende at insulinet ikke virker så godt hvis du injiserer det i et klumpete, innskrumpet eller fortykket område. Bytt injeksjonssted for hver injeksjon for å bidra til å forebygge disse hudforandringene.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;b) Liste over andre bivirkninger&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Mindre vanlige bivirkninger&lt;/b&gt;&lt;br/&gt;Kan berøre færre enn 1 av 100 personer.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Symptomer på allergi:&lt;/span&gt; Lokale allergiske reaksjoner (smerte, rødhet, elveblest, inflammasjon, blåmerker, hevelse og kløe) på injeksjonsstedet kan forekomme. Disse forsvinner vanligvis i løpet av få uker ved fortsatt bruk av insulinet. Hvis de ikke forsvinner, eller det sprer seg over hele kroppen, snakk med lege omgående. Se også Alvorlige allergiske reaksjoner ovenfor.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Synsforstyrrelser:&lt;/span&gt; Synsforstyrrelser kan oppstå i begynnelsen av en insulinbehandling, men er vanligvis av forbigående karakter.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Hovne ledd:&lt;/span&gt; Når du begynner insulinbehandlingen, kan væskeansamling forårsake hevelse rundt ankler og andre ledd. Dette er normalt av forbigående karakter, hvis ikke, snakk med legen.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Diabetisk retinopati&lt;/span&gt; (en øyesykdom relatert til diabetes som kan føre til synstap): Dersom du har diabetisk retinopati og blodsukkernivået ditt forbedres veldig raskt, kan retinopatien bli verre. Spør legen om dette.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Sjeldne bivirkninger&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Kan berøre færre enn 1 av 1000 personer.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Smertefull neuropati&lt;/span&gt; (smerte som skyldes nerveskade): Hvis blodsukkernivået ditt forbedres veldig raskt kan du få en nerverelatert smerte. Dette kalles akutt smertefull neuropati og er vanligvis forbigående.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;c) Følger ved diabetes&lt;/span&gt; &lt;span class=\&quot;inline-title\&quot;&gt;Høyt blodsukker (hyperglykemi)&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Høyt blodsukker kan inntreffe hvis du:&lt;/span&gt;&lt;ul&gt;&lt;li&gt;Ikke har injisert nok insulin.&lt;/li&gt;&lt;li&gt;Glemmer å ta insulin eller avbryter behandlingen med insulin.&lt;/li&gt;&lt;li&gt;Gjentatte ganger tar mindre insulin enn det du trenger.&lt;/li&gt;&lt;li&gt;Får en infeksjon og/eller feber.&lt;/li&gt;&lt;li&gt;Spiser mer enn vanlig.&lt;/li&gt;&lt;li&gt;Mosjonerer mindre enn vanlig.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Varselsymptomer på høyt blodsukker:&lt;/span&gt;&lt;br/&gt;Varselsymptomene utvikler seg gradvis. De inkluderer: økt vannlating, tørste, manglende appetitt, uvelhet (kvalme eller oppkast), døsighet eller tretthet, rødmende hud, tørr hud, munntørrhet og fruktluktende (acetonluktende) ånde.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Hva gjør du hvis du får høyt blodsukker:&lt;/span&gt;&lt;ul&gt;&lt;li&gt;Dersom du får noen av symptomene nevnt ovenfor: kontroller blodsukkernivået, hvis mulig kontroller urinen for ketoner, søk deretter råd hos helsepersonell omgående.&lt;/li&gt;&lt;li&gt;Dette kan være symptomer på en meget alvorlig tilstand kalt diabetisk ketoacidose (opphopning av syre i blodet fordi kroppen bryter ned fett i stedet for sukker). Dersom den ikke behandles, kan den føre til diabetisk koma og til slutt død.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>" : [
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Melding av bivirkninger",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029912"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Melding av bivirkninger&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Kontakt lege, apotek eller sykepleier dersom du opplever bivirkninger. Dette gjelder også bivirkninger som ikke er nevnt i pakningsvedlegget. Du kan også melde fra om bivirkninger direkte via meldeskjema som finnes på nettsiden til Statens legemiddelverk: &lt;a href=\&quot;https://www.legemiddelverket.no/pasientmelding\&quot; title=\&quot;www.legemiddelverket.no/pasientmelding\&quot;&gt;www.legemiddelverket.no/pasientmelding&lt;/a&gt;. Ved å melde fra om bivirkninger bidrar du med informasjon om sikkerheten ved bruk av dette legemidlet.&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  }
+                ]
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "5. Hvordan du oppbevarer NovoRapid",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029913"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;5. Hvordan du oppbevarer NovoRapid&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Oppbevares utilgjengelig for barn.&lt;br/&gt;Bruk ikke dette legemidlet etter utløpsdatoen som er angitt på sylinderampullens etikett og eske etter “EXP”. Utløpsdatoen er den siste dagen i den angitte måneden.&lt;br/&gt;Oppbevar alltid sylinderampullen i ytteremballasjen når den ikke er i bruk for å beskytte mot lys.&lt;br/&gt;NovoRapid skal beskyttes mot sterk varme og lys.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;&lt;span class=\&quot;underline\&quot;&gt;Før anbrudd:&lt;/span&gt; &lt;/b&gt;NovoRapid Penfill som ikke er tatt i bruk skal oppbevares i kjøleskap ved 2-8ºC, borte fra kjøleelementet. Skal ikke fryses.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;&lt;span class=\&quot;underline\&quot;&gt;Under bruk eller medbrakt som reserve:&lt;/span&gt; &lt;/b&gt;NovoRapid Penfill som er tatt i bruk eller medbrakt som reserve skal ikke oppbevares i kjøleskap. Den kan medbringes og oppbevares i romtemperatur (ved høyst 30ºC) i opptil 4 uker.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Legemidler skal ikke kastes i avløpsvann eller sammen med husholdningsavfall. Spør på apoteket hvordan du skal kaste legemidler som du ikke lenger bruker. Disse tiltakene bidrar til å beskytte miljøet.&lt;/div&gt;&lt;/div&gt;"
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "6. Innholdet i pakningen og ytterligere informasjon",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029914"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;6. Innholdet i pakningen og ytterligere informasjon&lt;/h2&gt;&lt;/div&gt;"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>" : [
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Sammensetning av NovoRapid",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029915"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Sammensetning av NovoRapid&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Virkestoff er insulin aspart. Hver ml inneholder 100 enheter insulin aspart. Hver sylinderampulle inneholder 300 enheter insulin aspart i 3 ml oppløsning til injeksjon.&lt;/li&gt;&lt;li&gt;Andre innholdstoffer er glyserol, fenol, metakresol, sinkklorid, dinatriumfosfatdihydrat, natriumklorid, saltsyre, natriumhydroksid og vann til injeksjonsvæsker.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Hvordan NovoRapid ser ut og innholdet i pakningen",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029916"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Hvordan NovoRapid ser ut og innholdet i pakningen&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;NovoRapid finnes som injeksjonsvæske, oppløsning.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Pakningsstørrelser på 5 og 10 sylinderampuller à 3 ml. Ikke alle pakningsstørrelser vil nødvendigvis bli markedsført.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Oppløsningen er klar og fargeløs.&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Innehaver av markedsføringstillatelsen og tilvirker",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029917"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Innehaver av markedsføringstillatelsen og tilvirker&lt;/h3&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Innehaver av markedsføringstillatelsen&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Novo Nordisk A/S, Novo Allé, DK-2880 Bagsværd, Danmark&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Tilvirker&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Tilvirkeren kan identifiseres via batchnummeret som er trykket på kartongfliken og på etiketten:&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Hvis andre og tredje tegn er S6, P5, K7, R7, VG, FG eller ZF er tilvirkeren Novo Nordisk A/S, Novo Allé, DK-2880 Bagsværd, Danmark.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Hvis andre og tredje tegn er H7 eller T6 er tilvirkeren Novo Nordisk Production SAS, 45 Avenue d’Orléans, F-28000 Chartres, Frankrike.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Dette pakningsvedlegget ble sist oppdatert 20.03.2023",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029919"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Dette pakningsvedlegget ble sist oppdatert 20.03.2023&lt;/h3&gt;&lt;/div&gt;"
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Andre informasjonskilder",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "200000029920"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Andre informasjonskilder&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Detaljert informasjon om dette legemidlet er tilgjengelig på nettstedet til Det europeiske legemiddelkontoret (the European Medicines Agency): &lt;a href=\&quot;http://www.ema.europa.eu/\&quot; title=\&quot;\n               \n                  http://www.ema.europa.eu\n               \n            \&quot;&gt;http://www.ema.europa.eu &lt;/a&gt;og på nettstedet til &lt;a href=\&quot;http://www.felleskatalogen.no\&quot; title=\&quot;\n               \n                  www.felleskatalogen.no\n               \n            \&quot;&gt;www.felleskatalogen.no&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>" : "https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-91",
+      "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">resourceType</a>" : "MedicinalProductDefinition",
+        "<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.id">id</a>" : "Diabetes-MPD-91",
+        "<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+            "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;MedicinalProductDefinition_Diabetes-MPD-91\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition Diabetes-MPD-91&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;Diabetes-MPD-91\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcDiabetes-MPD-91\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profiles: &lt;a href=\&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\&quot;&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_B6913F2C-99FD-486D-83D8-BE7A8094DA2F&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;NovoRapid Penfill inj, oppl 100 E/ml&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>" : "http://legemiddelverket.no/FEST/LegemiddelMerkevareID",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a>" : "ID_B6913F2C-99FD-486D-83D8-BE7A8094DA2F"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">name</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.productName">productName</a>" : "NovoRapid Penfill inj, oppl 100 E/ml"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>" : "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-117",
+      "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">resourceType</a>" : "PackagedProductDefinition",
+        "<a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.id">id</a>" : "Diabetes-PPD-117",
+        "<a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-PackagedProductDefinition-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+            "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/domainresource.html#XPackagedProductDefinition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;PackagedProductDefinition_Diabetes-PPD-117\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition Diabetes-PPD-117&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;Diabetes-PPD-117\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcDiabetes-PPD-117\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profiles: &lt;a href=\&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-PackagedProductDefinition-uv-epi.html\&quot;&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_AE39172F-30A5-4AF7-8449-68C3B6BCF09F, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/093948&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: NovoRapid Penfill inj, oppl 100 E/ml&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\&quot;Bundle-FK630704.html#MedicinalProductDefinition_Diabetes-MPD-91\&quot;&gt;MedicinalProductDefinition: identifier = http://legemiddelverket.no/FEST/LegemiddelMerkevareID#ID_B6913F2C-99FD-486D-83D8-BE7A8094DA2F&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
+        },
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>" : "http://legemiddelverket.no/FEST/LegemiddelPakningID",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a>" : "ID_AE39172F-30A5-4AF7-8449-68C3B6BCF09F"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>" : "https://farmalogg.no/varenummer",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a>" : "093948"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.name">name</a>" : "NovoRapid Penfill inj, oppl 100 E/ml",
+        "<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packageFor">packageFor</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>" : "MedicinalProductDefinition/Diabetes-MPD-91"
+          }
+        ]
+      }
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentReference xmlns="http://hl7.org/fhir">
+  <id value="asm-alicia-example-3"/>
+  <meta>
+    <profile value="http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalSupportMaterial"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: DocumentReference asm-alicia-example-3</b></p><a name="asm-alicia-example-3"> </a><a name="hcasm-alicia-example-3"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-AdditionalSupportMaterial.html">Additional Support Material Profile</a></p></div><p><b>RelatedMedicalIssue</b>: <span title="Codes:{http://snomed.info/sct 35489007}">Depressive disorder</span></p><p><b>identifier</b>: <code>http://example.org</code>/3</p><p><b>version</b>: 1.0</p><p><b>status</b>: Current</p><p><b>docStatus</b>: Final</p><p><b>category</b>: <span title="Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs MU}">Medication Usage</span></p><p><b>author</b>: NHS</p><p><b>description</b>: </p><div><p>In this video, a doctor explains a self-help method for those experiencing low mood and depression.</p>
+</div><blockquote><p><b>content</b></p><h3>Attachments</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Extension</b></td><td><b>ContentType</b></td><td><b>Language</b></td><td><b>Url</b></td><td><b>Title</b></td><td><b>Duration</b></td></tr><tr><td style="display: none">*</td><td/><td>text/html</td><td>English</td><td><a href="https://www.youtube.com/watch?v=qKcRUOWYQ9w">https://www.youtube.com/watch?v=qKcRUOWYQ9w</a></td><td>Self-help method for those experiencing low mood and depression.</td><td>715</td></tr></table></blockquote></div>
+  </text>
+  <extension url="http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/RelatedMedicalIssue">
+    <valueCodeableReference>
+      <concept>
+        <coding>
+          <system value="http://snomed.info/sct"/>
+          <code value="35489007"/>
+        </coding>
+      </concept>
+    </valueCodeableReference>
+  </extension>
+  <identifier>
+    <system value="http://example.org"/>
+    <value value="3"/>
+  </identifier>
+  <version value="1.0"/>
+  <status value="current"/>
+  <docStatus value="final"/>
+  <category>
+    <coding>
+      <system value="http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs"/>
+      <code value="MU"/>
+    </coding>
+  </category>
+  <author>
+    <display value="NHS"/>
+  </author>
+  <description value="In this video, a doctor explains a self-help method for those experiencing low mood and depression."/>
+  <content>
+    <attachment>
+      <extension url="http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod">
+        <valueCode value="video"/>
+      </extension>
+      <contentType value="text/html"/>
+      <language value="en"/>
+      <url value="https://www.youtube.com/watch?v=qKcRUOWYQ9w"/>
+      <title value="Self-help method for those experiencing low mood and depression."/>
+      <duration value="715"/>
+    </attachment>
+  </content>
+</DocumentReference>

@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI document Bundle for Aspirin Flexpen 100 units/ml solution for injection in pre-filled pen Package Leaflet for language en - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.165"}
+    h3,h4,h5,h6{--heading-prefix:"20.165"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for Aspirin Flexpen 100 units/ml solution for injection in pre-filled pen Package Leaflet for language en</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-bundle-aspirin-raw.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundle-aspirin-raw.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundle-aspirin-raw.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Example Bundle: ePI document Bundle for Aspirin Flexpen 100 units/ml solution for injection in pre-filled pen Package Leaflet for language en</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  Raw
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+
+  
+    <h3 class="nonumbers">B. Package Leaflet</h3>
+    <p>
+      
+      
+      <div xmlns="http://www.w3.org/1999/xhtml"></div></p>
+    
+      
+
+        <h4 class="nonumbers">Package leaflet: Information for the user</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><h2>Aspirin 75 mg Gastro-Resistant Tablets</h2><h2>Acetylsalicylic acid</h2><p>Read all of this leaflet carefully before you start taking this medicine because it contains important information for you. Always take this medicine exactly as described in this leaflet or as your doctor, pharmacist or nurse has told you.</p><ul><li>Keep this leaflet. You may need to read it again.</li><li>Ask your pharmacist if you need more information or advice.</li><li>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects not listed in this leaflet. See section 4.</li><li>You must talk to a doctor if you do not feel better or if you feel worse.</li></ul><!--  [oai_citation:0‡pil.2614.pdf](file-service://file-Pq3CE9oyGqUhVhkiPesif1) --></div></p>
+
+      
+
+        <h4 class="nonumbers">What is in this leaflet</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><ol><li>What Aspirin tablets is and what it is used for</li><li>What you need to know before you take Aspirin tablets</li><li>How to take Aspirin tablets</li><li>Possible side effects</li><li>How to store Aspirin tablets</li><li>Contents of the pack and other information</li></ol></div></p>
+
+      
+
+        <h4 class="nonumbers">1. What Aspirin is and what it is used for</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Aspirin belongs to a group of medicines called antiplatelet agents that help prevent your blood cells sticking together and forming a blood clot.</li><li>Aspirin tablets are principally used to prevent blood clots forming following a heart attack or stroke or to help prevent heart attacks and strokes in patients who have previously suffered these conditions. They may have been prescribed for you if you have recently had by-pass surgery.</li></ul></div></p>
+
+      
+
+        <h4 class="nonumbers">2. What you need to know before you take Aspirin</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p><strong>Do not take Aspirin tablets if you:</strong></p><ul><li>Are allergic to aspirin or any of the other ingredients of this medicine (listed in section 6).</li><li>Are allergic to other salicylates or non-steroidal anti-inflammatory drugs (NSAIDs).</li><li>Have had an asthma attack or angioedema after taking salicylates or NSAIDs.</li><li>Have, or ever had, an ulcer in your stomach or intestine.</li><li>Have, or ever had, a bleed in your stomach or intestines.</li><li>Have had other bleeding (e.g. a haemorrhagic stroke).</li><li>Have a blood clotting disorder or are taking medicines to thin your blood.</li><li>Have gout.</li><li>Have severe kidney or liver problems.</li><li>Are in your last 3 months of pregnancy (must not use higher than 100 mg/day).</li><li>Are taking methotrexate in doses higher than 15 mg/week.</li></ul><h3>Warnings and precautions</h3><p>Talk to your doctor or pharmacist before taking Aspirin tablets if you:</p><ul><li>Are asthmatic, have hay fever, nasal polyps or other chronic respiratory diseases.</li><li>Have kidney, liver or heart problems.</li><li>Have high blood pressure.</li><li>Are dehydrated.</li><li>Have glucose-6-phosphate dehydrogenase deficiency.</li><li>Are elderly.</li><li>Have problems with your stomach or small intestine.</li><li>Have heavy menstrual periods.</li><li>Have ever had gout.</li></ul><p>You must immediately seek medical advice if your symptoms worsen or you experience severe or unexpected side effects (e.g. unusual bleeding, serious skin reactions, or signs of allergy). Inform your doctor if you are planning any operation, as aspirin may increase bleeding risk. Aspirin may cause Reye’s syndrome in children under 16; do not give to children unless advised by a doctor. Keep well hydrated to avoid kidney function deterioration. This product is not suitable as a pain killer or fever reducer.</p><!--  [oai_citation:5‡pil.2614.pdf](file-service://file-Pq3CE9oyGqUhVhkiPesif1) --><h3>Other medicines and Aspirin tablets</h3><p>Tell your doctor or pharmacist if you are taking any other medicines, especially:</p><ul><li>Blood-thinning agents (e.g. warfarin, heparin, clopidogrel).</li><li>SSRIs (e.g. sertraline, paroxetine).</li><li>Methotrexate, ciclosporin, tacrolimus.</li><li>Other NSAIDs (e.g. ibuprofen).</li><li>Corticosteroids.</li><li>Phenytoin, sodium valproate.</li><li>Diabetes medicines (sulphonylureas, insulin).</li><li>ACE inhibitors (e.g. ramipril).</li><li>Diuretics (e.g. spironolactone).</li><li>Probenecid, sulfinpyrazone, lithium, digoxin.</li><li>Acetazolamide, metamizole (may reduce aspirin’s antiplatelet effect).</li></ul><h3>Aspirin tablets with alcohol</h3><p>Do <strong>not</strong> drink alcohol while taking this medicine; it may increase gastrointestinal bleeding risk and prolong bleeding time.</p><h3>Pregnancy and breast‐feeding</h3><p>If you are pregnant, think you may be pregnant or are breast-feeding, ask your doctor or pharmacist for advice before taking this medicine.</p><h4>Pregnancy – last trimester</h4><p>Do not take doses > 100 mg/day in the last 3 months of pregnancy; it could harm your unborn child or cause delivery problems. Low-dose use (≤ 100 mg/day) requires strict obstetric monitoring.</p><h4>Pregnancy – first and second trimester</h4><p>Do not take aspirin in the first 6 months of pregnancy unless absolutely necessary and directed by your doctor. If needed, use the lowest dose for the shortest time; extended use after 20 weeks may cause fetal kidney problems, oligohydramnios or premature ductus arteriosus closure, requiring additional monitoring.</p><h4>Breast‐feeding</h4><p>Breast-feeding women should not take Aspirin tablets unless advised by their doctor.</p><h3>Driving and using machines</h3><p>These tablets do not usually affect your ability to drive or operate machinery.</p><h3>Aspirin tablets contain lactose</h3><p>If you have an intolerance to some sugars, contact your doctor before taking this medicinal product.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">3. How to take Aspirin</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Always take this medicine exactly as described in this leaflet or as directed by your doctor, pharmacist or nurse.</li><li>Swallow the tablet(s) with a small glass of water; do not cut, chew or crush them.</li><li>Do not take any indigestion remedies immediately before or after this medicine.</li></ul><h3>Dosage</h3><p>Adults, elderly and children ≥ 16 years: take one or two tablets once daily. The usual long-term dose for cardiovascular or cerebrovascular disease prevention or post-bypass surgery is 1–2 tablets once a day. In some cases, up to 4 tablets daily may be used short-term on medical advice. Elderly patients require caution and regular review.</p><h3>If you take more Aspirin tablets than you should</h3><p>Contact your doctor or nearest casualty department immediately. Show any leftover tablets or packaging. Overdose symptoms include tinnitus, hearing loss, headache, dizziness, confusion, nausea, vomiting, abdominal pain; severe overdose may lead to hyperventilation, fever, sweating, seizures, coma, shock.</p><h3>If you forget to take Aspirin tablets</h3><p>If you miss a dose, wait until your next scheduled dose and continue as normal. Do not take a double dose to make up for a forgotten one.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">4. Possible side effects</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Like all medicines, this medicine can cause side effects, although not everybody gets them.</p><p><strong>Stop taking and tell your doctor immediately if you experience:</strong></p><ul><li>Sudden wheezing, swelling of lips, face or throat, rash, fainting or difficulty swallowing (severe allergic reaction).</li><li>Reddening of the skin with blisters or peeling, fever and joint pains (erythema multiforme, Stevens–Johnson or Lyell’s syndrome).</li><li>Unusual bleeding such as coughing up blood, blood in vomit or urine, stroke due to bleeding, or black tarry stools.</li></ul><h3>Other side effects</h3><h4>Common (may affect up to 1 in 10 people)</h4><ul><li>Indigestion</li><li>Increased tendency for bleeding</li></ul><h4>Uncommon (may affect up to 1 in 100 people)</h4><ul><li>Hives</li><li>Runny nose</li><li>Breathing difficulty</li></ul><h4>Rare (may affect up to 1 in 1,000 people)</h4><ul><li>Severe bleeding in stomach/intestines, brain haemorrhage; altered blood cell counts</li><li>Gastritis, nausea and vomiting</li><li>Asthma attack, lower respiratory tract cramps</li><li>Vasculitis, heavy/prolonged menstrual bleeding, bruising with purple spots</li></ul><h4>Not known (frequency cannot be estimated)</h4><ul><li>Tinnitus or reduced hearing</li><li>Headache, vertigo</li><li>Ulcers or perforation of stomach/small intestine</li><li>Diarrhoea</li><li>Impaired kidney or liver function; salt and water retention</li><li>High uric acid; anaemia</li><li>Kidney stones</li></ul><p>Reporting of side effects: Talk to your doctor, pharmacist or nurse. You can also report side effects via the Yellow Card Scheme at <a href="https://www.mhra.gov.uk/yellowcard" target="_blank" rel="noopener noreferrer">www.mhra.gov.uk/yellowcard</a>. By reporting side effects you can help provide more information on the safety of this medicine.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">5. How to store Aspirin</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Keep out of sight and reach of children.</li><li>Do not use after the expiry date on the label (EXP = last day of that month).</li><li>Do not store above 25 °C.</li><li>Do not dispose via wastewater or household waste; ask your pharmacist how to throw away medicines you no longer use. These measures help protect the environment.</li></ul></div></p>
+
+      
+
+        <h4 class="nonumbers">6. Contents of the pack and other information</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><h3>What Aspirin tablets contain</h3><ul><li>Each tablet contains aspirin 75 mg as the active ingredient.</li><li>The other ingredients are microcrystalline cellulose, lactose monohydrate, corn starch, colloidal anhydrous silica, stearic acid, methacrylic acid–ethyl acrylate copolymer (1:1) dispersion 30%, talc, triethyl citrate.</li></ul><h3>What Aspirin tablets look like and contents of the pack</h3><p>White, film-coated, round tablets packed in cartons of 28, 56, 84 or 100 tablets in foil blister strips. Not all pack sizes may be marketed.</p><h3>Marketing Authorisation Holder and Manufacturer</h3><p>Dexcel®-Pharma Ltd., 7 Sopwith Way, Drayton Fields, Daventry, Northamptonshire NN11 8PB, UK</p><p>This leaflet was last revised in April 2025.</p></div></p>
+
+      
+    
+  
+
+</div>
+
+
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Aspirin Flexpen 100 units/ml solution for injection in pre-filled pens
+  </h4>
+
+  
+  
+    DOC:
+    <b>
+      himss-Aspirin
+    </b>
+    </br>
+  
+  <hr>
+  
+  <p>Full name: <b>Aspirin Flexpen 100 units/ml solution for injection in pre-filled pens</b></p>
+  
+    <p>
+      - Invented name part:
+      <b>
+        Aspirin FlexPen
+      </b>
+    </p>
+  
+    <p>
+      - Scientific name part:
+      <b>
+        Insulin
+      </b>
+    </p>
+  
+    <p>
+      - Strength part:
+      <b>
+        100 units/ml
+      </b>
+    </p>
+  
+    <p>
+      - Pharmaceutical dose form part:
+      <b>
+        solution for injection in pre-filled pens
+      </b>
+    </p>
+  
+
+
+  
+  
+  
+    <div>
+      <p>
+        Name usage:
+        
+
+          <b>English (United Kingdom)</b>
+        </p>
+
+      
+    </div>
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b>active</b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+
+  
+  
+    
+
+  
+
+  
+
+
+      
+  
+</div>
+
+
+<!--
+  <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Aspirin Flexpen 100 units/ml solution for injection in pre-filled pens
+  </h4>
+
+  
+  
+  
+  
+    DOC:
+    <b>
+      himss-Aspirin
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b>active</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

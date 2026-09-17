@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<List xmlns="http://hl7.org/fhir">
+  <id value="list-FK45691"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: List list-FK45691</b></p><a name="list-FK45691"> </a><a name="hclist-FK45691"> </a><table class="clstu"><tr><td>Date: 2015-02-07 13:28:17+0000 </td><td>Mode: Working List </td><td>Status: Current </td><td>Code: ePI Master List </td></tr><tr><td>Subject: <a href="#hclist-FK45691/IBD-MPD-14">MedicinalProductDefinition: identifier = http://legemiddelverket.no/FEST/LegemiddelMerkevareID#ID_1A00A0C4-8C19-4BE9-94CC-C37D0C98B532</a></td></tr></table><table class="grid"><tr style="backgound-color: #eeeeee"><td><b>Items</b></td><td>Date</td><td>Flag</td></tr><tr><td><a href="Bundle-FK45691.html">Bundle: identifier = https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/#45691; type = document; timestamp = 2023-06-13 01:01:01+0000</a></td><td>2016-02-07 13:28:17+0000</td><td>Unchanged</td></tr></table><hr/><p><b>Contained Resource</b></p><hr/><a name="list-FK45691/IBD-MPD-14"> </a><p class="res-header-id"><b>MedicinalProductDefinition #IBD-MPD-14</b></p><a name="hclist-FK45691/IBD-MPD-14"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html">MedicinalProductDefinition (ePI)</a>, <code>https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition</code></p></div><p><b>identifier</b>: <code>http://legemiddelverket.no/FEST/LegemiddelMerkevareID</code>/ID_1A00A0C4-8C19-4BE9-94CC-C37D0C98B532</p><h3>Names</h3><table class="grid"><tr><td style="display: none">-</td><td><b>ProductName</b></td></tr><tr><td style="display: none">*</td><td>Jyseleca tab 100 mg</td></tr></table></div>
+  </text>
+  <contained>
+    <MedicinalProductDefinition>
+      <id value="IBD-MPD-14"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+        <profile value="https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"/>
+      </meta>
+      <identifier>
+        <system value="http://legemiddelverket.no/FEST/LegemiddelMerkevareID"/>
+        <value value="ID_1A00A0C4-8C19-4BE9-94CC-C37D0C98B532"/>
+      </identifier>
+      <name>
+        <productName value="Jyseleca tab 100 mg"/>
+      </name>
+    </MedicinalProductDefinition>
+  </contained>
+  <identifier>
+    <system value="http://spor.ema.europa.eu/v2/medicine-name"/>
+    <value value="Jyseleca tab 100 mg"/>
+  </identifier>
+  <identifier>
+    <system value="http://spor.ema.europa.eu/v2/marketing-authorisation-numbers"/>
+    <value value="FK45691"/>
+  </identifier>
+  <status value="current"/>
+  <mode value="working"/>
+  <code>
+    <coding>
+      <system value="http://spor.ema.europa.eu/v1/example-pi-list-types"/>
+      <code value="00000021213"/>
+      <display value="ePI Master List"/>
+    </coding>
+  </code>
+  <subject>
+    <extension url="http://ema.europa.eu/fhir/extension/medicine-name">
+      <valueCoding>
+        <system value="http://spor.ema.europa.eu/v1/100000000005"/>
+        <code value="Jyseleca"/>
+        <display value="Jyseleca"/>
+      </valueCoding>
+    </extension>
+    <extension url="http://ema.europa.eu/fhir/extension/marketing-authorization-holder">
+      <valueCoding>
+        <system value="http://spor.ema.europa.eu/v1/100000000005"/>
+        <code value="mah-code"/>
+        <display value="None"/>
+      </valueCoding>
+    </extension>
+    <extension url="http://ema.europa.eu/fhir/extension/active-substance">
+      <valueCoding>
+        <system value="http://spor.ema.europa.eu/v1/100000000005"/>
+        <code value="acive-substance-code"/>
+        <display value="None"/>
+      </valueCoding>
+    </extension>
+    <extension url="http://ema.europa.eu/fhir/extension/domain">
+      <valueCoding>
+        <system value="http://spor.ema.europa.eu/v1/100000000004"/>
+        <code value="100000000012"/>
+        <display value="H"/>
+      </valueCoding>
+    </extension>
+    <reference value="#IBD-MPD-14"/>
+  </subject>
+  <date value="2015-02-07T13:28:17Z"/>
+  <entry>
+    <flag>
+      <coding>
+        <system value="urn:oid:1.2.36.1.2001.1001.101.104.16592"/>
+        <code value="01"/>
+      </coding>
+      <text value="Unchanged"/>
+    </flag>
+    <date value="2016-02-07T13:28:17Z"/>
+    <item>
+      <extension url="http://ema.europa.eu/fhir/extension/documentType">
+        <valueCoding>
+          <system value="https://spor.ema.europa.eu/v1/lists/100000155531/terms/"/>
+          <code value="100000155538"/>
+          <display value="B. PACKAGE LEAFLET"/>
+        </valueCoding>
+      </extension>
+      <extension url="http://ema.europa.eu/fhir/extension/language">
+        <valueCoding>
+          <system value="http://spor.ema.europa.eu/v1/100000072057"/>
+          <code value="100000072147"/>
+          <display value="da"/>
+        </valueCoding>
+      </extension>
+      <reference value="Bundle/FK45691"/>
+    </item>
+  </entry>
+</List>

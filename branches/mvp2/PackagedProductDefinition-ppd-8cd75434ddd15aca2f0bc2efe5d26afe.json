@@ -1,0 +1,75 @@
+{
+  "resourceType" : "PackagedProductDefinition",
+  "id" : "ppd-8cd75434ddd15aca2f0bc2efe5d26afe",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"ppd-8cd75434ddd15aca2f0bc2efe5d26afe\"> </a><a name=\"hcppd-8cd75434ddd15aca2f0bc2efe5d26afe\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;ppd-8cd75434ddd15aca2f0bc2efe5d26afe&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>name</b>: Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) 2</p><p><b>type</b>: Chemical Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-mpf97db27e6330f77484eb8425ad2913cd.html\">MedicinalProductDefinition/mpf97db27e6330f77484eb8425ad2913cd</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2008-09-08</p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: Pre-filled syringe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073544)</span></p><p><b>quantity</b>: 2</p><p><b>material</b>: Glass type I <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003204)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>"
+  },
+  "name" : "Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass) 2",
+  "type" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000155527",
+      "display" : "Chemical Medicinal Product"
+    }]
+  },
+  "packageFor" : [{
+    "reference" : "MedicinalProductDefinition/mpf97db27e6330f77484eb8425ad2913cd"
+  }],
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active",
+      "display" : "Active"
+    }]
+  },
+  "statusDate" : "2008-09-08",
+  "packaging" : {
+    "type" : {
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "100000073498",
+        "display" : "Box"
+      }]
+    },
+    "quantity" : 1,
+    "material" : [{
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "200000003529",
+        "display" : "Cardboard"
+      }]
+    }],
+    "packaging" : [{
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "123456"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000073544",
+          "display" : "Pre-filled syringe"
+        }]
+      },
+      "quantity" : 2,
+      "material" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000003204",
+          "display" : "Glass type I"
+        }]
+      }],
+      "containedItem" : [{
+        "item" : {
+          "reference" : {
+            "reference" : "ManufacturedItemDefinition/mid-9b5b17469311c2ea4d1d08419748b4fb"
+          }
+        }
+      }]
+    }]
+  }
+}

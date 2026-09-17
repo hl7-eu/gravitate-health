@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI document Bundle for Calcichew-D3 Forte Package Leaflet for language en - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.170"}
+    h3,h4,h5,h6{--heading-prefix:"20.170"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for Calcichew-D3 Forte Package Leaflet for language en</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-en-a64c0ccb066e7fdf6ba2d86dcd8bda5e.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-en-a64c0ccb066e7fdf6ba2d86dcd8bda5e.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-en-a64c0ccb066e7fdf6ba2d86dcd8bda5e.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Example Bundle: ePI document Bundle for Calcichew-D3 Forte Package Leaflet for language en</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  Raw
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+
+  
+    <h3 class="nonumbers">B. Package Leaflet</h3>
+    <p>
+      
+      
+      <div xmlns="http://www.w3.org/1999/xhtml">unavailable</div></p>
+    
+      
+
+        <h4 class="nonumbers">Package leaflet: Information for the user</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>PATIENT INFORMATION LEAFLET</p><p>CALCICHEW*-D3 FORTE 500 mg/400 IU CHEWABLE TABLETS calcium/colecalciferol</p><p>Read all of this leaflet carefully before you start taking this medicine because it contains important information for you. - Always take this medicine exactly as described in this leaflet or as your pharmacist has told you.<br/>- Keep this leaflet. You may need to read it again. - Ask your pharmacist if you need more information or advice. - You must talk to a doctor if you do not feel better or if you feel worse after two weeks. - If you get any side effects talk to your pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">What is in this leaflet</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>What is in this leaflet:<br/>1. What Calcichew-D3 Forte is and what it is used for 2. What you need to know before you take Calcichew-D3 Forte<br/>3. How to take Calcichew-D3 Forte<br/>4. Possible side effects 5. How to store Calcichew-D3 Forte<br/>6. Contents of the pack and other information</p></div></p>
+
+      
+
+        <h4 class="nonumbers">1. What Calcichew-D3 Forte is and what it is used for</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>WHAT CALCICHEW- D3 FORTE IS AND WHAT IT IS USED FOR</p><p>Calcichew-D3 Forte Chewable Tablets are lemon flavoured chewable tablets containing calcium and vitamin D3 which are both important substances in bone formation. Both are found in the diet and vitamin D is also produced in the skin after exposure to the sun.</p><p>Calcichew-D3 Forte is used to treat and prevent vitamin D/calcium deficiency, which may occur when your diet or lifestyle does not provide enough, or when body requirements are increased. This medicine may also be prescribed or recommended for certain bone conditions, for example osteoporosis, or during pregnancy.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">2. What you need to know before you take Calcichew-D3 Forte</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>WHAT YOU NEED TO KNOW BEFORE YOU TAKE CALCICHEW- D3 FORTE</p><p>Do not take Calcichew- D3 Forte if you: • are allergic to calcium, vitamin D, or any of the other ingredients of this medicine (listed in section 6)<br/>• have severe kidney problems<br/>• have a condition that causes excessive amounts of calcium in your blood or urine<br/>(hypercalcaemia or hypercalciuria) e.g. o renal (kidney) failure o cancer that has affected your bones • have excessive amounts of vitamin D in your blood • have kidney stones.</p><p>Warnings and precautions Talk to your doctor or pharmacist before taking Calcichew- D3 Forte: • if you have osteoporosis (brittle bones) and are also unable to move around • if you are on long term treatment, especially if you are taking medicines for a heart disorder (cardiac glycosides), or diuretics (used in the treatment of high blood pressure or oedema) • if you have signs of impaired kidney function or a high tendency to kidney stone (calculus) formation • if you have cancer or any other conditions that may have affected your bones • if you have sarcoidosis (an immune system disorder which may cause increased levels of vitamin D in the body).</p><p>If you have any of the following conditions your serum calcium or phosphate levels, or urinary calcium excretion must be monitored. Calcichew should be taken under close medical supervision. • sarcoidosis (an immune system disorder which may affect your liver, lungs, skin or lymph nodes) • kidney problems<br/>• you are on long-term treatment with Calcichew • you are already taking additional doses of calcium or vitamin D.</p><p>If you have increased calcium levels in the blood or develop signs of kidney problems, the dose of Calcichew-D3 Forte should be reduced or the treatment discontinued.</p><p>Other medicines and Calcichew- D3 Forte Tell your pharmacist if you are taking, have recently taken or might take any other medicines.</p><p>In particular, the following medicines may interact with Calcichew-D3 Forte chewable tablets: * thiazide diuretics (water tablets); your serum calcium levels should be monitored regularly. * cardiac glycosides (heart medicines); you should be monitored by electrocardiogram (ECG) and your serum calcium levels measured. * tetracycline antibiotics; these should be taken at least two hours before, or four to six hours afterwards. Calcium carbonate may interfere with the absorption of tetracycline preparations if taken at the same time.<br/><em>levothyroxine (hormone used to treat thyroid deficiency); these should be taken at least four hours before or after taking Calcichew- D3 Forte<br/></em>quinolone antibiotics (ciprofloxacin, lomefloxacin, norfloxacin, sparfloxacin): the effect of these medicines may be reduced if taken at the same time as calcium. Take quinolone antibiotics two hours before or six hours after taking Calcichew- D3 Forte. * bisphosphonates; should be taken at least one hour before Calcichew-D3 Forte * Calcium salts may decrease the absorption of iron, zinc and strontium ranelate. Consequently iron, zinc or strontium ranelate preparations should be taken at least two hours before or after Calcichew-D3 Forte<br/>* Orlistat (used to treat obesity) may disturb the absorption of fat-soluble vitamins, e.g. vitamin D3.</p><p>If you are taking any of the above-mentioned medicines, your pharmacist will give you further instructions.</p><p>Taking Calcichew-D3 Forte with food and drink Calcichew-D3 Forte can be taken with or without food and drink.</p><p>Pregnancy and breast-feeding If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your pharmacist for advice before taking Calcichew-D3 Forte.</p><p>If you are pregnant, you may use Calcichew-D3 Forte in case of a calcium and vitamin D deficiency. During pregnancy you should not take more than 2500 mg calcium and 4000 IU vitamin D per day, as overdoses may harm the unborn child.</p><p>Calcichew-D3 Forte can be used during breast-feeding. Calcium and vitamin D3 pass into breast milk. This should be considered when giving additional vitamin D to the child.</p><p>Driving and using machines Calcichew- D3 Forte has no known influence on the ability to drive or use machines.</p><p>Calcichew- D3 Forte contains isomalt and sucrose.<br/>Calcichew-D3 Forte contains isomalt (E953) and sucrose (E420): if you have been told by your doctor that you have an intolerance to some sugars, contact your doctor before taking this medicine. May be harmful to teeth.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">3. How to take Calcichew-D3 Forte</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>HOW TO TAKE CALCICHEW- D3 FORTE</p><p>Always take Calcichew- D3 Forte Tablets exactly as described in this leaflet or as your pharmacist has told you. Check with your pharmacist if you are not sure.</p><p>Dosage The recommended dose is two tablets a day, preferably one tablet in the morning and one tablet in the evening. The tablet may be chewed or sucked.</p><p>Children Calcichew-D3 Forte chewable tablets are not recommended for use in children</p><p>If you take more than you should If you have taken more Calcichew- D3 Forte than you should, talk to your pharmacist immediately.</p><p>If you forget to take Calcichew- D3 Forte Chewable Tablets Do not take a double dose to make up for a forgotten tablet.</p><p>If you have any further questions on the use of this medicine, ask your pharmacist.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">4. Possible side effects</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>POSSIBLE SIDE EFFECTS</p><p>Like all medicines, this medicine can cause side effects, although not everybody gets them.</p><p>Stop taking your medicine and see a doctor immediately if you experience: •<br/>Frequent urge to urinate * Headache •<br/>Loss of appetite, nausea or vomiting •<br/>Unusual tiredness or weakness, along with elevated levels of calcium in the blood and kidney impairment</p><p>Side effects may include:</p><p>Uncommon side effects (may affect up to 1 in 100 people): * excessive amounts of calcium in your blood (hypercalcaemia) or in your urine (hypercalcuria) may occur with large doses</p><p>Rare side effects (may affect up to 1 in 1,000 people): * nausea * stomach ache * constipation * heartburn (dyspepsia) * diarrhoea * wind (flatulence) * rash * hives * itching</p><p>Very rare side effects (may affect up to 1 in 10,000 people): * Milk alkali syndrome (also called Burnett’s Syndrome and usually only seen when excessive amounts of calcium have been ingested), symptoms are frequent urge to urinate, headache, loss of appetite, nausea or vomiting, unusual tiredness or weakness, along with elevated levels of calcium in the blood and kidney impairment.</p><p>Not known (frequency cannot be estimated from the available data):<br/>* Hypersensitivity reactions such as swelling of the face, tongue, lips (angioedema) or swelling of the throat (laryngeal oedema). * If you have impaired renal function, you may be at risk of increased amounts of phosphate in the blood, renal stone formation and increased amounts of calcium in the kidneys.</p><p>Reporting of side effects If you get any side effects, talk to your pharmacist. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the Yellow Card Scheme at: www.mhra.gov.uk/yellowcard or search for MHRA Yellow Card in the Google Play or Apple App Store. By reporting side effects you can help provide more information on the safety of this medicine.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">5. How to store Calcichew-D3 Forte</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>HOW TO STORE CALCICHEW-D3 FORTE</p><p>Keep out of the sight and reach of children.</p><p>Store in the original package. Keep the container tightly closed to protect from moisture. Do not store above 30°C</p><p>Do not use Calcichew- D3 Forte Tablets after the expiry date which is stated on the label after EXP. The expiry date refers to the last day of that month. If the tablets have changed shape or colour do not use.</p><p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">6. Contents of the pack and other information</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>CONTENTS OF THE PACK AND OTHER INFORMATION</p><p>What Calcichew-D3 Forte Chewable Tablets contain The active ingredients in each tablet are: • 1250mg calcium carbonate (equivalent to 500mg calcium) • 400IU colecalciferol (equivalent to 10 micrograms vitamin D3)</p><p>The other ingredients are: xylitol (E967), povidone, isomalt (E953), fatty acid mono- and di- glycerides, magnesium stearate, lemon flavour, sucralose (E955), sucrose, tocopherol, modified maize starch, medium-chain triglycerides, sodium ascorbate and anhydrous colloidal silica (see also end of Section 2 “Calcichew-D3 Forte contains isomalt and sucrose”).</p><p>What Calcichew-D3 Forte look like and contents of the pack The tablets are round, white, uncoated, convex and lemon flavoured; they may have small specks. The tablets are packed in white, plastic bottles of 60 and 100 tablets. Not all pack sizes may be marketed.</p><p>Marketing Authorisation Holder<br/>Neon Healthcare Ltd., 8 The Chase, John Tate Road, Hertford, SG13 7NN, UK</p><p>Manufacturer Asker Contract Manufacturing AS, Drammensveien 852, N-1385 Asker, Norway.</p><p>This leaflet was last revised in March 2023.<br/>Additional Information<br/>Calcichew-D3 Forte are a combination of calcium and vitamin D designed to keep bones healthy. Calcium is an essential component of bones while vitamin D plays an important role in the absorption of calcium from food.</p><p>Requirements for calcium increase with age and, although many people obtain enough calcium from their diet, some people may require a supplement in order that their body has all the calcium it needs to maintain healthy bones. Vitamin D is produced largely from the action of sunlight. Certain foodstuffs do contain vitamin D in reasonable amounts but it is not always possible to obtain all the vitamin D you need from your diet. People who do not get out and about, for instance those who are housebound or people living in nursing and residential homes, may not receive all the vitamin D they need.</p><p>People with diets and lifestyles that mean they will obtain less than the recommended intake of calcium and vitamin D are at risk of weakened bones. Prolonged lack of adequate calcium and vitamin D intake can lead to the development of osteoporosis, a condition where bones become weak to a level that minimal trauma (for example, a fall) can result in a fracture, most typically at the hip, spine or wrist.</p><p>Calcichew-D3 Forte have been designed to give people whose intakes of calcium and vitamin D are low a boost to the recommended amounts.</p><p>Maintaining healthy bones and helping to avoid osteoporosis is an important issue for many people. There are many ways that people can help themselves: regular exercise, a balanced diet with an adequate intake of calcium and vitamin D and, for some people, advice on how to prevent falls which may lead to fracture.</p><p>The Royal Osteoporosis Society is a national charity dedicated to improving the diagnosis, prevention and treatment of osteoporosis. The Royal Osteoporosis Society offers support to people with osteoporosis and raises awareness of the importance of healthy bones.</p><p>If you are concerned about osteoporosis, please contact the Royal Osteoporosis Society, Camerton, Bath BA2 0PJ. Tel: 01761 471 771 or email: info@theros.org.uk.<br/>*Registered Trademark</p></div></p>
+
+      
+    
+  
+
+</div>
+
+
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Calcichew-D3 Forte
+  </h4>
+
+  
+  
+    IDS:
+    <b>
+      gh-1
+    </b>
+    </br>
+  
+  <hr>
+  
+  <p>Full name: <b>Calcichew-D3 Forte</b></p>
+  
+    <p>
+      - Invented name part:
+      <b>
+        Calcichew-D3 Forte
+      </b>
+    </p>
+  
+    <p>
+      - Scientific name part:
+      <b>
+        calcium/colecalciferol
+      </b>
+    </p>
+  
+    <p>
+      - Strength part:
+      <b>
+        500 mg/400 IU
+      </b>
+    </p>
+  
+    <p>
+      - Pharmaceutical dose form part:
+      <b>
+        CHEWABLE TABLETS
+      </b>
+    </p>
+  
+
+
+  
+  
+  
+    <div>
+      <p>
+        Name usage:
+        
+
+          <b>English (United Kingdom)</b>
+        </p>
+
+      
+    </div>
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b>active</b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+  <p class="divtitle">
+    <b>Marketing Authorisation</b>
+    1 of 1</p>
+
+  <p>Authorisation number:
+    <b>
+      
+        gh-1
+      
+    </b>
+  </p>
+
+  <p>
+    Region:
+    <b>
+      
+    </b>
+  </p>
+
+  <p>
+
+    
+  </p>
+
+  
+  
+
+    
+    
+    
+    
+
+
+    
+    
+      <p>Marketing authorisation holder:
+        <b>Neon Healthcare Ltd</b>
+      </p>
+      <p>
+        Identifier:
+        <ul>
+          
+            <li>
+              <b>xx</b>
+            </li>
+          
+        </ul>
+      </p>
+    
+  
+
+  <p>
+    Status:
+    <b>
+      Active (2015-02-07T13:28:17Z)
+    </b>
+  </p>
+
+</div>
+    
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 1</p>
+          
+  <p>PMSWI:
+  <b>
+    gh-1
+  </b>
+  </p>
+
+<p>
+  Description:
+  </br>
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b>1 Box</b>
+  
+  
+    
+      <b>(Cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+
+
+  <br/>
+  <div class="container rcorners innerpack">
+    
+<p>Package:
+  <b>28 Blister</b>
+  
+  
+    
+      <b>(PolyVinyl Chloride)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+    <b> 
+      
+    </b>
+  </p>
+  
+  
+  
+    
+    
+
+    
+      <div class="container rcorners mid listcontainer">
+  <p class="divtitle">Manufactured Item</p>
+  <p>
+    Dose form:
+    <b>
+      Chewable tablet
+    </b>
+  </p>
+  <p>
+    Unit of presentation:
+    <b>
+      Tablet
+    </b>
+  </p>
+
+  
+
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Calcium Carbonate
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              cholecalciferol
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+</div>
+      
+  
+
+
+
+
+
+  </div>
+
+
+
+  </div>
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+        
+        
+        
+        
+          
+        <div class="container rcorners apd listcontainer">
+  <p class="divtitle">Administrable Product (1 of 1)</p>
+  <p>
+    Dose form:
+    <b>
+      Chewable tablet
+    </b>
+  </p>
+
+  <p>
+    Unit of presentation:
+    <b>
+      Tablet
+    </b>
+  </p>
+
+  <p>
+    Route of administration:
+    <ul>
+      
+        <li>
+          <b>
+            Oral use
+          </b>
+        </li>
+      
+    </ul>
+  </p>
+
+  Ingredients:
+  
+
+
+
+  
+
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Calcium Carbonate
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              cholecalciferol
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+
+
+</div>
+      
+    
+  
+</div>
+
+
+<!--
+  <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Calcichew-D3 Forte
+  </h4>
+
+  
+  
+  
+  
+    IDS:
+    <b>
+      gh-1
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b>active</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+
+        <p class="divtitle">Authorisation 1 of 1</p>
+        Auth id:
+        <b>
+          
+            gh-1
+          
+        </b>
+
+        <p>
+          Country:
+          <b>
+            
+
+          </b>
+        </p>
+        <p>
+          Type:
+          <b>
+            Marketing Authorisation
+          </b>
+        </p>
+
+        
+      </p>
+
+      
+      
+
+        
+        
+        
+        
+
+
+        
+        
+          <p>
+            Holder:
+            <b>Neon Healthcare Ltd (xx)</b>
+
+          </p>
+          <p></p>
+        
+      
+
+
+
+      <p>
+        Status:
+        <b>
+          Active (2015-02-07T13:28:17Z)
+        </b>
+      </p>
+
+    </div>
+
+  
+
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 1</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          PMSWI:
+          <b>
+            gh-1
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          active</b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+            <br/>
+            <div class="container rcorners pack bleft">
+              <p>Package: 1 Box [Cardboard]</p>
+
+
+              
+              
+                <br/>
+                <div class="container rcorners pack bleft">
+                  <p>Inner Package: 28 Blister [PolyVinyl Chloride]</p>
+
+                </div>
+              </div>
+            
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+      
+
+      
+      
+      
+        
+          <div class="container bleft rcorners apd"> <p class="divtitle">Administrable Product (1 of 1)</p>
+          <p>
+            Dose form:
+            <b>
+              Chewable tablet
+            </b>
+          </p>
+
+          <p>
+            Presentation unit:
+            <b>
+              Tablet
+            </b>
+          </p>
+          Route of administration:
+          <ul>
+            
+              <li>
+                <b>
+                  Oral use
+                </b>
+              </li>
+            
+          </ul>
+          Contents (Manuf. Items):
+          <ul>
+            
+            
+
+              
+
+              
+
+              
+                <div class="container   rcorners mid">
+                  <b>mid-a64c0ccb066e7fdf6ba2d86dcd8bda5e</b>
+                  <p>
+                    Dose form:
+                    <b>Chewable tablet</b>
+                  </p>
+                  <p>
+                    Presentation unit:
+                    <b>Tablet</b>
+                  </p>
+                  <p>
+                    Manufactured Dose Form:
+                    <b>Chewable tablet</b>
+                  </p>
+                  Ingredients:
+                  <ul>
+                    
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-calchichewd3f-calciumcarbonate</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Calcium Carbonate
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-calchichewd3f-cholecalciferol</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              cholecalciferol
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                  </ul>
+
+                </div>
+              
+            
+          </ul>
+          
+          
+            
+
+
+        </div>
+      
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

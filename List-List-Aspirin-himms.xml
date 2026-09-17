@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<List xmlns="http://hl7.org/fhir">
+  <id value="List-Aspirin-himms"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: List List-Aspirin-himms</b></p><a name="List-Aspirin-himms"> </a><a name="hcList-Aspirin-himms"> </a><h2>List of all ePIs associated with Aspirin</h2><table class="clstu"><tr><td>Date: 2015-02-07 13:28:17+0000 </td><td>Mode: Working List </td><td>Status: Current </td></tr><tr><td>Subject: <a href="Bundle-bundle-aspirin-proc.html#MedicinalProductDefinition_himss-Aspirin-mpd">MedicinalProductDefinition: identifier = https://www.gravitatehealth.eu/sid/doc#himss-Aspirin; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></td></tr></table><table class="grid"><tr style="backgound-color: #eeeeee"><td><b>Items</b></td><td>Date</td><td>Flag</td></tr><tr><td><a href="Bundle-bundle-aspirin-raw.html">Bundle: identifier = https://www.gravitatehealth.eu/sid/doc#himss-Aspirin; type = document; timestamp = 2023-06-27 10:09:22+0000</a></td><td>2015-02-07 13:28:17+0000</td><td>Unchanged</td></tr><tr><td><a href="Bundle-bundle-aspirin-proc.html">Bundle: identifier = https://www.gravitatehealth.eu/sid/doc#himss-Aspirin; type = document; timestamp = 2023-06-27 10:09:22+0000</a></td><td>2015-02-07 13:28:17+0000</td><td>Changed</td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="https://www.gravitatehealth.eu/sid/doc"/>
+    <value value="himss-Aspirin"/>
+  </identifier>
+  <identifier>
+    <system value="http://spor.ema.europa.eu/v2/medicine-name"/>
+    <value value="Aspirin"/>
+  </identifier>
+  <status value="current"/>
+  <mode value="working"/>
+  <title value="List of all ePIs associated with Aspirin"/>
+  <subject>
+    <extension url="http://ema.europa.eu/fhir/extension/medicine-name">
+      <valueCoding>
+        <system value="http://spor.ema.europa.eu/v1/100000000005"/>
+        <code value="ibuprofen"/>
+        <display value="Aspirin"/>
+      </valueCoding>
+    </extension>
+    <extension url="http://ema.europa.eu/fhir/extension/marketing-authorization-holder">
+      <valueCoding>
+        <system value="http://spor.ema.europa.eu/v1/100000000005"/>
+        <code value="mah-code"/>
+        <display value="None"/>
+      </valueCoding>
+    </extension>
+    <extension url="http://ema.europa.eu/fhir/extension/active-substance">
+      <valueCoding>
+        <system value="http://spor.ema.europa.eu/v1/100000000005"/>
+        <code value="acive-substance-code"/>
+        <display value="None"/>
+      </valueCoding>
+    </extension>
+    <extension url="http://ema.europa.eu/fhir/extension/domain">
+      <valueCoding>
+        <system value="http://spor.ema.europa.eu/v1/100000000004"/>
+        <code value="100000000012"/>
+        <display value="H"/>
+      </valueCoding>
+    </extension>
+    <reference value="MedicinalProductDefinition/himss-Aspirin-mpd"/>
+  </subject>
+  <date value="2015-02-07T13:28:17Z"/>
+  <entry>
+    <flag>
+      <coding>
+        <system value="urn:oid:1.2.36.1.2001.1001.101.104.16592"/>
+        <code value="01"/>
+      </coding>
+      <text value="Unchanged"/>
+    </flag>
+    <date value="2015-02-07T13:28:17Z"/>
+    <item>
+      <extension url="http://ema.europa.eu/fhir/extension/documentType">
+        <valueCoding>
+          <system value="https://spor.ema.europa.eu/v1/lists/100000155531/terms/"/>
+          <code value="100000155538"/>
+          <display value="B. PACKAGE LEAFLET"/>
+        </valueCoding>
+      </extension>
+      <extension url="http://ema.europa.eu/fhir/extension/language">
+        <valueCoding>
+          <system value="http://spor.ema.europa.eu/v1/100000072057"/>
+          <code value="en"/>
+          <display value="en"/>
+        </valueCoding>
+      </extension>
+      <reference value="Bundle/bundle-aspirin-raw"/>
+    </item>
+  </entry>
+  <entry>
+    <flag>
+      <coding>
+        <system value="urn:oid:1.2.36.1.2001.1001.101.104.16592"/>
+        <code value="02"/>
+      </coding>
+      <text value="preprocessed"/>
+    </flag>
+    <date value="2015-02-07T13:28:17Z"/>
+    <item>
+      <extension url="http://ema.europa.eu/fhir/extension/documentType">
+        <valueCoding>
+          <system value="https://spor.ema.europa.eu/v1/lists/100000155531/terms/"/>
+          <code value="100000155538"/>
+          <display value="B. PACKAGE LEAFLET"/>
+        </valueCoding>
+      </extension>
+      <extension url="http://ema.europa.eu/fhir/extension/language">
+        <valueCoding>
+          <system value="http://spor.ema.europa.eu/v1/100000072057"/>
+          <code value="en"/>
+          <display value="en"/>
+        </valueCoding>
+      </extension>
+      <reference value="Bundle/bundle-aspirin-proc"/>
+    </item>
+  </entry>
+</List>

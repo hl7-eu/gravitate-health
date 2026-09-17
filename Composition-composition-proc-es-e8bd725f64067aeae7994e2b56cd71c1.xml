@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="composition-proc-es-e8bd725f64067aeae7994e2b56cd71c1"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
+  </meta>
+  <language value="es"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es"><p class="res-header-id"><b>Generated Narrative: Composition composition-proc-es-e8bd725f64067aeae7994e2b56cd71c1</b></p><a name="composition-proc-es-e8bd725f64067aeae7994e2b56cd71c1"> </a><a name="hccomposition-proc-es-e8bd725f64067aeae7994e2b56cd71c1"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: es</p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html">Composition (ePI)</a></p></div><blockquote><p><b>HtmlElementLink</b></p><ul><li>elementClass: indication</li><li>concept: <span title="Codes:{https://icpc2.icd.com/ B90}">HIV-infection/AIDS</span></li></ul></blockquote><blockquote><p><b>HtmlElementLink</b></p><ul><li>elementClass: pregnancyCategory</li><li>concept: <span title="Codes:{https://icpc2.icd.com/ W78}">Pregnancy</span></li></ul></blockquote><blockquote><p><b>HtmlElementLink</b></p><ul><li>elementClass: breastfeedingCategory</li><li>concept: <span title="Codes:{http://snomed.info/sct 69840006}">Normal breast feeding (finding)</span></li></ul></blockquote><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/</code>/ESprocessed163dd4e7fa7eed938c8bb01cecedf200</p><p><b>status</b>: Final</p><p><b>type</b>: <span title="Codes:{https://spor.ema.europa.eu/rmswi/ 100000155538}">Package Leaflet</span></p><p><b>category</b>: <span title="Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs P}">Processed</span></p><p><b>date</b>: 2023-10-26 15:15:46+0000</p><p><b>author</b>: <a href="Bundle-bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1.html#Organization_mah-45fe50eae508b5755dd140ab2093eb5e">Organization Seqirus Netherlands B.V.</a></p><p><b>title</b>: TEST PURPOSES ONLY - Flucelvax</p><h3>Attesters</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://hl7.org/fhir/composition-attestation-mode official}">Official</span></td><td>2023-10-26 15:15:46+0000</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink">
+    <extension url="elementClass">
+      <valueString value="indication"/>
+    </extension>
+    <extension url="concept">
+      <valueCodeableReference>
+        <concept>
+          <coding>
+            <system value="https://icpc2.icd.com/"/>
+            <code value="B90"/>
+            <display value="HIV-infection/AIDS"/>
+          </coding>
+        </concept>
+      </valueCodeableReference>
+    </extension>
+  </extension>
+  <extension url="http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink">
+    <extension url="elementClass">
+      <valueString value="pregnancyCategory"/>
+    </extension>
+    <extension url="concept">
+      <valueCodeableReference>
+        <concept>
+          <coding>
+            <system value="https://icpc2.icd.com/"/>
+            <code value="W78"/>
+            <display value="Pregnancy"/>
+          </coding>
+        </concept>
+      </valueCodeableReference>
+    </extension>
+  </extension>
+  <extension url="http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink">
+    <extension url="elementClass">
+      <valueString value="breastfeedingCategory"/>
+    </extension>
+    <extension url="concept">
+      <valueCodeableReference>
+        <concept>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="69840006"/>
+            <display value="Normal breast feeding (finding)"/>
+          </coding>
+        </concept>
+      </valueCodeableReference>
+    </extension>
+  </extension>
+  <identifier>
+    <system value="https://spor.ema.europa.eu/rmswi/"/>
+    <value value="ESprocessed163dd4e7fa7eed938c8bb01cecedf200"/>
+  </identifier>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi/"/>
+      <code value="100000155538"/>
+    </coding>
+    <text value="Package Leaflet"/>
+  </type>
+  <category>
+    <coding>
+      <system value="http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs"/>
+      <code value="P"/>
+      <display value="Processed"/>
+    </coding>
+  </category>
+  <subject>
+    <reference value="MedicinalProductDefinition/mpb6ced64d25ea2c8da6c6099386f14db1"/>
+  </subject>
+  <date value="2023-10-26T15:15:46Z"/>
+  <author>
+    <reference value="Organization/mah-45fe50eae508b5755dd140ab2093eb5e"/>
+  </author>
+  <title value="TEST PURPOSES ONLY - Flucelvax"/>
+  <attester>
+    <mode>
+      <coding>
+        <system value="http://hl7.org/fhir/composition-attestation-mode"/>
+        <code value="official"/>
+      </coding>
+    </mode>
+    <time value="2023-10-26T15:15:46Z"/>
+  </attester>
+  <section>
+    <title value="B. Package Leaflet"/>
+    <code>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi/"/>
+        <code value="100000155538"/>
+      </coding>
+      <text value="B. PACKAGE LEAFLET"/>
+    </code>
+    <text>
+      <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">unavailable</div>
+    </text>
+    <emptyReason>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+        <code value="unavailable"/>
+      </coding>
+    </emptyReason>
+    <section>
+      <title value="Package leaflet: Information for the user"/>
+      <code>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi/"/>
+          <code value="100000155538"/>
+        </coding>
+        <text value="Prospecto: información para el usuario"/>
+      </code>
+      <text>
+        <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><strong><span>Prospecto: información para el usuario</span></strong></p><p><strong><span>Flucelvax Tetra - suspensión inyectable en jeringa precargada</span></strong></p><p><span>Vacuna contra la gripe (antígeno de superficie, inactivado, preparada en cultivos celulares)</span></p><p><strong><span>Lea todo el prospecto detenidamente antes de empezar a recibir este medicamento, porque contiene</span></strong> <strong><span>información importante para usted.</span></strong></p><p><span>- Conserve este prospecto, ya que puede tener que volver a leerlo.</span></p><p><span>- Si tiene alguna duda, consulte a su médico, farmacéutico o enfermero.</span></p><p><span>- Si experimenta efectos adversos, consulte a su médico, farmacéutico o enfermero, incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.</span></p></div>
+      </text>
+    </section>
+    <section>
+      <title value="What is in this leaflet"/>
+      <code>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi/"/>
+          <code value="100000155538"/>
+        </coding>
+        <text value="Contenido del prospecto"/>
+      </code>
+      <text>
+        <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><strong><span>Contenido del prospecto</span></strong></p><p><span>1.    Qué es Flucelvax Tetra y para qué se utiliza</span></p><p><span>2.    Qué necesita saber antes de empezar a recibir Flucelvax Tetra</span></p><p><span>3.    Cómo se administra Flucelvax Tetra</span></p><p><span>4.    Posibles efectos adversos</span></p><p><span>5.    Conservación de Flucelvax Tetra</span></p><p><span>6.    Contenido del envase e información adicional</span></p></div>
+      </text>
+    </section>
+    <section>
+      <title value="1. What Flucelvax is and what it is used for"/>
+      <code>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi/"/>
+          <code value="100000155538"/>
+        </coding>
+        <text value="1. Qué es Flucelvax Tetra y para qué se utiliza"/>
+      </code>
+      <text>
+        <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="indication"><span>Flucelvax Tetra es una vacuna contra la gripe. Flucelvax Tetra se prepara en cultivos celulares y, por lo tanto, no contiene huevo.</span></p><p><span>Cuando una persona recibe la vacuna, el sistema inmunitario (el sistema de defensa natural del organismo) producirá su propia protección frente al virus de la gripe. Ninguno de los componentes de la vacuna puede causar la gripe.</span></p><p><span>Flucelvax Tetra se usa para prevenir la gripe en adultos y niños a partir de los 2 años de edad.</span></p><p><span>La vacuna va dirigida a cuatro cepas del virus de la gripe siguiendo las recomendaciones de la</span> <span>Organización Mundial de la Salud para la campaña</span> <span>2023/2024.</span></p></div>
+      </text>
+    </section>
+    <section>
+      <title value="2. What you need to know before you take Flucelvax"/>
+      <code>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi/"/>
+          <code value="100000155538"/>
+        </coding>
+        <text value="2. Qué necesita saber antes de empezar a recibir Flucelvax Tetra"/>
+      </code>
+      <text>
+        <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><strong><span>No debe recibir Flucelvax Tetra:</span></strong></p><p><span>Si es alérgico a:</span></p><ul><li><span>los principios activos o alguno de los demás componentes de esta vacuna (incluidos en la sección 6).</span></li><li><span>la beta-propiolactona, al bromuro de cetiltrimetilamonio o al polisorbato 80, que son residuos del proceso de fabricación que pueden estar presentes en cantidades mínimas.</span></li></ul><p><strong><span>Advertencias y precauciones</span></strong></p><p><span>Consulte a su médico, farmacéutico o enfermero antes de empezar a recibir Flucelvax Tetra.</span></p><p><span>ANTES DE vacunarse</span></p><ul><li><span>su médico o enfermero comprobará la fácil disponibilidad de tratamiento médico y supervisión adecuados en el caso raro de que se produjera una reacción anafiláctica (una reacción alérgica muy grave con síntomas como dificultad para respirar, mareos, pulso débil y rápido y erupción cutánea) después de la administración. Esta reacción puede presentarse con Flucelvax Tetra, al igual que con todas las vacunas que se inyectan.</span></li><li><span>debe informar a su médico si tiene una enfermedad aguda que cursa con fiebre. Su médico puede decidir retrasar su vacunación hasta que la fiebre haya desaparecido.</span></li><ul><li><span>debe informar a su médico si su sistema inmunitario está comprometido o si está recibiendo un tratamiento que afecte al mismo, por ejemplo, medicamento contra el cáncer (quimioterapia) o corticoides (ver sección “Otros medicamentos y Flucelvax Tetra”).</span></li></ul><li><span>debe informar a su médico si tiene un problema de sangrado o le salen moretones     fácilmente.</span></li><li><span>puede desmayarse después de la inyección con una aguja, o incluso antes, por lo tanto, informe a su médico o enfermero si se ha desmayado anteriormente con alguna inyección.</span></li></ul><p><span>Como ocurre con todas las vacunas, Flucelvax Tetra puede no proteger completamente a todas las personas que son vacunadas.</span></p><p><strong><span>Otros medicamentos y Flucelvax Tetra</span></strong></p><p><span>Informe a su médico o enfermero si está utilizando, ha utilizado recientemente o pudiera tener que utilizar cualquier otro medicamento, incluso los adquiridos sin receta, o si ha recibido recientemente alguna otra vacuna.</span></p><p><span>Flucelvax Tetra se puede administrar al mismo tiempo que otras vacunas.</span></p><div class="pregnancyCategory"><p><strong><span>Embarazo y lactancia</span></strong></p><p><span>Embarazo:</span></p><p><span>Si está embarazada, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte a su médico. Las vacunas antigripales se pueden administrar en cualquier trimestre del embarazo.</span></p></div><div class="breastfeedingCategory"><p><span>Lactancia:</span></p><p><span>El uso de Flucelvax Tetra durante la lactancia no ha sido estudiado. Flucelvax Tetra se puede administrar durante la lactancia.</span></p></div><p><strong><span>Conducción y uso de máquinas</span></strong></p><p><span>La influencia de Flucelvax Tetra sobre la capacidad para conducir y utilizar máquinas es nula o insignificante.</span></p><p><strong><span>Flucelvax Tetra contiene cloruro de sodio y cloruro de potasio</span></strong></p><p><span>Esta vacuna contiene menos de 1 mmol de sodio (23 mg) por dosis; esto es, esencialmente “exento de sodio”.</span></p><p><span>Esta vacuna contiene potasio, menos de 1 mmol (39 mg) por dosis; esto es, esencialmente “exento de potasio”.</span></p></div>
+      </text>
+    </section>
+    <section>
+      <title value="3. How to take Flucelvax"/>
+      <code>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi/"/>
+          <code value="100000155538"/>
+        </coding>
+        <text value="3. Cómo se administra Flucelvax Tetra"/>
+      </code>
+      <text>
+        <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><span>Su médico o enfermero le administrará Flucelvax Tetra en forma de inyección en el músculo de la parte superior del brazo (músculo deltoides).</span></p><p><span>Adultos y niños a partir de 2 años de edad:</span></p><p><span>Una dosis de 0,5 ml</span></p><p><span>Si su hijo es menor de 9 años y nunca ha sido vacunado contra la gripe, se le debe administrar una segunda dosis después, de al menos, 4 semanas.</span></p></div>
+      </text>
+    </section>
+    <section>
+      <title value="4. Possible side effects"/>
+      <code>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi/"/>
+          <code value="100000155538"/>
+        </coding>
+        <text value="4. Posibles efectos adversos"/>
+      </code>
+      <text>
+        <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><span>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</span></p><p><span>Los siguientes efectos adversos se han notificado durante los ensayos clínicos y durante el uso general:</span></p><p><strong><span>Efectos adversos muy graves</span></strong></p><p><span>Consulte inmediatamente con su médico o acuda al servicio de urgencias del hospital más cercano si presenta el siguiente efecto adverso – puede necesitar urgentemente atención médica u hospitalización:</span></p><p><span>Dificultad para respirar, mareos, pulso débil y rápido junto con erupción cutánea, que son los síntomas de una reacción anafiláctica (una reacción alérgica muy grave)</span></p><p><strong><span>Efectos adversos graves</span></strong></p><p><span>Informe inmediatamente a su médico si presenta cualquiera de los efectos adversos siguientes – puede necesitar atención médica:</span></p><ul><li><span>Se siente débil, tiene dificultades para moverse o presenta entumecimiento u hormigueo en las extremidades. Estos pueden ser síntomas del síndrome de Guillain-Barré (SGB), una enfermedad autoinmune causada por el propio sistema inmunitario del organismo</span></li><li><span>Hinchazón extensa del miembro en el que se ha inyectado</span></li></ul><p><strong><span>Efectos adversos leves</span></strong></p><p><span>Muy frecuentes</span> <span>(pueden afectar a más de 1 de cada 10 personas):</span></p><ul><li><span>Dolor en la zona de inyección, cardenales, enrojecimiento y endurecimiento o hinchazón en la zona de inyección</span></li><li><span>Dolor de cabeza</span></li><li><span>Dolor muscular</span></li><li><span>Cansancio</span></li><li><span>Pérdida de apetito</span></li><li><span>Irritabilidad (notificada solo en niños de 2 a &lt; 6 años)</span></li><li><span>Somnolencia (notificada solo en niños de 2 a &lt; 6 años)</span></li></ul><p><span>En los pacientes de edad avanzada fueron frecuentes el endurecimiento o la hinchazón en el lugar de la inyección, el dolor de cabeza, el dolor muscular y la fatiga.</span></p><p><span>Los cardenales en el lugar de la inyección fueron frecuentes en adultos, ancianos y niños de 9 a &lt; 18 años.</span></p><p><span>El dolor de cabeza fue frecuente en ancianos.</span></p><p><span>La pérdida de apetito fue frecuente en adultos, ancianos y niños de 9 a &lt; 18 años.</span></p><p><span>Frecuentes</span> <span>(pueden afectar hasta 1 de cada 10 personas):</span></p><ul><li><span>Náuseas, vómitos, diarrea</span></li><li><span>Dolor articular</span></li><li><span>Tiritona</span></li><li><span>Cambios en los hábitos alimenticios (notificados solo en niños de 2 a &lt; 6 años)</span></li><li><span>Fiebre (&gt; 38 °C)</span></li></ul><p><span>Los vómitos fueron poco frecuentes en los pacientes de edad avanzada</span></p><p><span>La fiebre fue infrecuente en adultos y ancianos</span></p><p><span>Frecuencia no conocida</span> <span>(no puede estimarse a partir de los datos disponibles):</span></p><ul><li><span>Sensación de hormigueo y</span> <span>entumecimiento (parestesia)</span></li><li><span>Reacciones cutáneas generalizadas incluyendo picor, ampollas en la piel (prurito, urticaria) o erupción cutánea inespecífica</span></li></ul><p><strong><span>Comunicación de efectos adversos</span></strong></p><p><span>Si experimenta cualquier tipo de efecto adverso, consulte a su profesional sanitario, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto.</span> <span>También puede comunicarlos directamente a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano en</span> <a href="http://www.notificaRAM.es"><span>www.notificaRAM.es</span></a><span>.</span> <span>M</span><span>ediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</span></p></div>
+      </text>
+    </section>
+    <section>
+      <title value="5. How to store Flucelvax"/>
+      <code>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi/"/>
+          <code value="100000155538"/>
+        </coding>
+        <text value="5. Conservación de Flucelvax Tetra"/>
+      </code>
+      <text>
+        <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><span>Mantener este medicamento fuera de la vista y del alcance de los niños.</span></p><p><span>Conservar en nevera (entre 2 °C y 8 °C). No congelar.</span></p><p><span>Mantener la jeringa precargada en el embalaje exterior para protegerla de la luz.</span></p><p><span>No utilice esta vacuna después de la fecha de caducidad que aparece en la etiqueta y en la caja después de EXP/CAD. La fecha de caducidad es el último día del mes que se indica.</span></p><p><span>Los medicamentos no se deben tirar por los desagües ni a la basura. Pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que ya no necesita. De esta forma, ayudará a proteger el medio ambiente.</span></p></div>
+      </text>
+    </section>
+    <section>
+      <title value="6. Contents of the pack and other information"/>
+      <code>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi/"/>
+          <code value="100000155538"/>
+        </coding>
+        <text value="6. Contenido del envase e información adicional"/>
+      </code>
+      <text>
+        <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><span> </span></p><p><strong><span>Composición de Flucelvax Tetra</span></strong></p><ul><li><span>Los principios activos son antígenos de superficie del virus de la gripe (hemaglutinina y neuraminidasa), inactivados, de las siguientes cepas*:</span></li></ul><p><a name="_Hlk66283421"/><a name="_Hlk66283267"><span>Cepa similar a</span> <span>A/Wisconsin/67/2022 (H1N1)pdm09</span> <span>(A/Georgia/12/2022 CVR-167)</span></a></p><p><span>15 microgramos HA**</span></p><p><a name="_Hlk66283440"/><a name="_Hlk66283292"><span>Cepa similar a</span> <span>A/Darwin/6/2021 (H3N2)</span> <span>(A/Darwin/11/2021, wild type)</span></a></p><p><span>15 microgramos HA**</span></p><p><span>Cepa similar a B/Austria/1359417/2021</span> <span>(</span><span>Singapore/WUH4618/2021</span><span>, wild type</span><span>)</span> <span>15 microgramos HA**</span></p><p><span>Cepa similar a B/Phuket/3073/2013 (B/Singapore/INFTT-16-0610/2016, wild type)</span></p><p><span>15 microgramos HA**</span></p><p><span>por dosis de 0,5 ml</span></p><p><span>……………………………………….</span></p><p><span>*</span><span>             </span> <span>propagadas en células Madin Darby Canine Kidney (MDCK) (se trata de un cultivo celular especial en el que crece el virus de la gripe)</span></p><p><span>** hemaglutinina</span></p><p><span>Esta vacuna cumple con la recomendación de la Organización Mundial de la Salud (OMS) (hemisferio norte) y con la recomendación de la UE para la CAMPAÑA 2023/2024.</span></p><ul><li><span>Los demás componentes son: cloruro de sodio, cloruro de potasio, cloruro de magnesio hexahidrato, fosfato disódico dihidrato, dihidrogenofosfato de potasio y agua para preparaciones inyectables.</span></li></ul><p><strong><span>Aspecto del producto y contenido del envase</span></strong></p><p><span>Flucelvax Tetra es una suspensión inyectable en jeringa precargada (jeringa lista para usar). Flucelvax Tetra es una suspensión de transparente a ligeramente opalescente.</span></p><p><span>Cada jeringa individual contiene 0,5 ml de suspensión inyectable.</span></p><p><span>Flucelvax Tetra está disponible en envases de 1 jeringa precargada con o sin aguja o 10 jeringas</span></p><p><span>precargadas con o sin agujas.</span></p><p><span>Puede que solamente estén comercializados algunos tamaños de envases.</span></p><p><strong><span>Titular de la autorización de comercialización y responsable de la fabricación</span></strong></p><p><span>Seqirus Netherlands B.V.</span></p><p><span>Paasheuvelweg 28</span></p><p><span>1105BJ Amsterdam</span></p><p><span>Países Bajos</span></p><p><span>Pueden solicitar más información respecto a este medicamento dirigiéndose al representante local del titular de la autorización de comercialización:</span></p><p><span>Seqirus Spain, S.L., Barcelona</span></p><p><span>Tel: 937 817 884</span></p><p><strong><span>Fecha de la última revisión de este prospecto: 07/2023</span></strong></p><p><strong><span>Otras fuentes de información</span></strong></p><p><span>La información detallada de este medicamento está disponible en la página web de la Agencia Europea de Medicamentos:</span> <a href="http://www.ema.europa.eu/"><span>http://www.ema.europa.eu/.</span></a></p><p><span>------------------------------------------------------------------------------------------------------------- Esta información está destinada únicamente a profesionales del sector sanitario:</span></p><p><span>Debe estar siempre fácilmente disponible el tratamiento médico y la supervisión apropiados en caso de un episodio anafiláctico, que puede aparecer raramente después de administrar la vacuna.</span></p><p><span>Agitar antes de usar. Después de agitar, el aspecto normal de la vacuna es una suspensión de transparente a ligeramente opalescente.</span></p><p><span>Se debe inspeccionar visualmente la vacuna en busca de partículas extrañas o cambios de color antes de la administración. Si se observan partículas extrañas y/o cualquier variación del aspecto físico, no administre la vacuna.</span></p></div>
+      </text>
+    </section>
+  </section>
+</Composition>

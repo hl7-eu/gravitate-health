@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="country-iso-spor"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap country-iso-spor</b></p><a name="country-iso-spor"> </a><a name="hccountry-iso-spor"> </a><p>Mapping from <a href="https://browser.ihtsdotools.org/">All Codes SCT ValueSet</a> to (not specified)</p><br/><p>Mapping from <a href="http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a> to <code>https://spor.ema.europa.eu/v1/lists/100000000002</code></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>EE (Estonia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>100000000388 (Republic of Estonia)</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="vocab"/>
+  </extension>
+  <url value="http://hl7.eu/fhir/ig/gravitate-health/ConceptMap/country-iso-spor"/>
+  <version value="0.1.0"/>
+  <name value="SNOMEDCTToICD10CMMappingsForFractureOfUlna"/>
+  <title value="SNOMED CT to ICD-10-CM mappings for fracture of ulna"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2012-06-13"/>
+  <publisher value="Gravitate Health Project"/>
+  <contact>
+    <name value="Gravitate Health Project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.gravitatehealth.eu/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Gravitate Health Project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.gravitatehealth.eu/"/>
+    </telecom>
+  </contact>
+  <description value="Example rule-based mappings between SNOMED CT to ICD-10-CM for fracture of ulna"/>
+  <purpose value="Show example rule based mappings"/>
+  <copyright value="Creative Commons 0"/>
+  <sourceScopeCanonical value="http://snomed.info/sct?fhir_vs"/>
+  <group>
+    <source value="urn:iso:std:iso:3166"/>
+    <target value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+    <element>
+      <code value="EE"/>
+      <display value="Estonia"/>
+      <target>
+        <code value="100000000388"/>
+        <display value="Republic of Estonia"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

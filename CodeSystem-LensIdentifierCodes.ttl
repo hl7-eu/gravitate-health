@@ -1,0 +1,102 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/LensIdentifierCodes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "LensIdentifierCodes"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem LensIdentifierCodes</b></p><a name=\"LensIdentifierCodes\"> </a><a name=\"hcLensIdentifierCodes\"> </a><p>This case-insensitive code system <code>http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/LensIdentifierCodes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">pregnancyCategory<a name=\"LensIdentifierCodes-pregnancyCategory\"> </a></td><td>Pregnancy</td></tr><tr><td style=\"white-space:nowrap\">conditionCategory<a name=\"LensIdentifierCodes-conditionCategory\"> </a></td><td>Condition</td></tr><tr><td style=\"white-space:nowrap\">interaction<a name=\"LensIdentifierCodes-interaction\"> </a></td><td>Interaction</td></tr><tr><td style=\"white-space:nowrap\">allergy<a name=\"LensIdentifierCodes-allergy\"> </a></td><td>Allergy</td></tr><tr><td style=\"white-space:nowrap\">condition<a name=\"LensIdentifierCodes-condition\"> </a></td><td>Condition</td></tr><tr><td style=\"white-space:nowrap\">summary<a name=\"LensIdentifierCodes-summary\"> </a></td><td>Summary</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Dansk (Danish, da)</b></td><td><b>English (English, en)</b></td></tr><tr><td>pregnancyCategory</td><td>Graviditet</td><td>Pregnancy</td></tr><tr><td>conditionCategory</td><td>Medicinsk tilstand</td><td>Condition</td></tr><tr><td>interaction</td><td>Interaktion</td><td>Interaction</td></tr><tr><td>allergy</td><td>Allergi</td><td>Allergy</td></tr><tr><td>condition</td><td>Medicinsk tilstand</td><td>Condition</td></tr><tr><td>summary</td><td>Resumé</td><td>Summary</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/LensIdentifierCodes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "LensIdentifierCodes"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2026-09-17T14:07:28+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Gravitate Health Project"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "pregnancyCategory" ] ;
+     fhir:display [ fhir:v "Pregnancy" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Pregnancy" ]
+     ] [
+       fhir:language [ fhir:v "da" ] ;
+       fhir:value [ fhir:v "Graviditet" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "conditionCategory" ] ;
+     fhir:display [ fhir:v "Condition" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Condition" ]
+     ] [
+       fhir:language [ fhir:v "da" ] ;
+       fhir:value [ fhir:v "Medicinsk tilstand" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "interaction" ] ;
+     fhir:display [ fhir:v "Interaction" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Interaction" ]
+     ] [
+       fhir:language [ fhir:v "da" ] ;
+       fhir:value [ fhir:v "Interaktion" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "allergy" ] ;
+     fhir:display [ fhir:v "Allergy" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Allergy" ]
+     ] [
+       fhir:language [ fhir:v "da" ] ;
+       fhir:value [ fhir:v "Allergi" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "condition" ] ;
+     fhir:display [ fhir:v "Condition" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Condition" ]
+     ] [
+       fhir:language [ fhir:v "da" ] ;
+       fhir:value [ fhir:v "Medicinsk tilstand" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "summary" ] ;
+     fhir:display [ fhir:v "Summary" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Summary" ]
+     ] [
+       fhir:language [ fhir:v "da" ] ;
+       fhir:value [ fhir:v "Resumé" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

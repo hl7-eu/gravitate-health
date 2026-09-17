@@ -1,0 +1,355 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>binaryimage010 - TTL Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.131"}
+    h3,h4,h5,h6{--heading-prefix:"16.131"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>binaryimage010</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Binary-binaryimage010.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Binary-binaryimage010.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Binary-binaryimage010.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: binaryimage010 - TTL Representation</h2>
+
+
+<p><a href="Binary-binaryimage010.ttl" no-download="true">Raw ttl</a> | <a href="Binary-binaryimage010.ttl" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="rdf" style="white-space: pre; overflow: hidden"><code class="language-turtle">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Binary ;
+  <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R5/binary.html#Binary.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;binaryimage010&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/binary.html#Binary.contentType">fhir:contentType</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;image/jpeg&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/binary.html#Binary.data">fhir:data</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#base64Binary">fhir:v</a> &quot;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&quot;^^xsd:base64Binary] . # 
+
+</code></pre>
+
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Jan 21, 2024 22:55+0000">2024-01-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

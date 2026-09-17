@@ -1,0 +1,47 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> a fhir:ManufacturedItemDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "manitemherceptin150"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ManufacturedItemDefinition manitemherceptin150</b></p><a name=\"manitemherceptin150\"> </a><a name=\"hcmanitemherceptin150\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://pmda-sccj</code>/874291 (use: official, )</p><p><b>status</b>: Active</p><p><b>manufacturedDoseForm</b>: <span title=\"Codes:{https://standardterms.edqm.eu/browse/get_concepts_by/SOM/SOM/ 10219000}\">Tablet</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://standardterms.edqm.eu/browse/get_concepts/UOP/ 15054000}\">15054000</span></p><p><b>manufacturer</b>: <a href=\"Organization-orgchugai.html\">Organization Chugai Pharmaceutical Co., Ltd.</a></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://pmda-sccj"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "874291" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:manufacturedDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://standardterms.edqm.eu/browse/get_concepts_by/SOM/SOM/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "10219000" ]
+     ] ) ;
+     fhir:text [ fhir:v "Tablet" ]
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://standardterms.edqm.eu/browse/get_concepts/UOP/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "15054000" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+     fhir:reference [ fhir:v "Organization/orgchugai" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,44 @@
+{
+  "resourceType" : "DocumentReference",
+  "id" : "rota358a36ba4e4e4b37ace3bd7eda5268a140deb388afa547c9a2bb9cc3282",
+  "meta" : {
+    "profile" : ["http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalSupportMaterial"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DocumentReference rota358a36ba4e4e4b37ace3bd7eda5268a140deb388afa547c9a2bb9cc3282</b></p><a name=\"rota358a36ba4e4e4b37ace3bd7eda5268a140deb388afa547c9a2bb9cc3282\"> </a><a name=\"hcrota358a36ba4e4e4b37ace3bd7eda5268a140deb388afa547c9a2bb9cc3282\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-AdditionalSupportMaterial.html\">Additional Support Material Profile</a></p></div><p><b>identifier</b>: <code>http://example.org</code>/testscript4ssss</p><p><b>version</b>: 1.0</p><p><b>status</b>: Current</p><p><b>docStatus</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs MDM}\">Medication and Disease Management</span></p><p><b>subject</b>: <a href=\"Bundle-bundlepackageleaflet-da-94a96e39cfdcd8b378d12dd4063065f9.html#MedicinalProductDefinition_mp2a9c4333cfd126f2e7b73ad3cafd6949\">TEST PURPOSES ONLY - Biktarvy 50 mg/200 mg/25 mg film-coated tablets</a></p><p><b>author</b>: Test Author</p><p><b>description</b>: </p><div><p>Información general sobre el VIH</p>\n</div><blockquote><p><b>content</b></p><h3>Attachments</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>ContentType</b></td><td><b>Language</b></td><td><b>Url</b></td><td><b>Title</b></td></tr><tr><td style=\"display: none\">*</td><td/><td>text/html</td><td>Spanish</td><td><a href=\"https://hivinfo.nih.gov/\">https://hivinfo.nih.gov/</a></td><td>sss</td></tr></table></blockquote></div>"
+  },
+  "identifier" : [{
+    "system" : "http://example.org",
+    "value" : "testscript4ssss"
+  }],
+  "version" : "1.0",
+  "status" : "current",
+  "docStatus" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs",
+      "code" : "MDM"
+    }]
+  }],
+  "subject" : {
+    "reference" : "MedicinalProductDefinition/mp2a9c4333cfd126f2e7b73ad3cafd6949",
+    "display" : "TEST PURPOSES ONLY - Biktarvy 50 mg/200 mg/25 mg film-coated tablets"
+  },
+  "author" : [{
+    "display" : "Test Author"
+  }],
+  "description" : "Información general sobre el VIH",
+  "content" : [{
+    "attachment" : {
+      "extension" : [{
+        "url" : "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod",
+        "valueCode" : "URL"
+      }],
+      "contentType" : "text/html",
+      "language" : "es",
+      "url" : "https://hivinfo.nih.gov/",
+      "title" : "sss"
+    }
+  }]
+}

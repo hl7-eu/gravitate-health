@@ -1,0 +1,124 @@
+{
+  "resourceType" : "List",
+  "id" : "listDovato",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>List of all processed ePIs associated with Dovato</h2><table class=\"clstu\"><tr><td>Date: Feb 7, 2015, 1:28:17\u202fPMMode: workingStatus: currentCode: ePI Master List</td></tr><tr><td>Subject: <a href=\"MedicinalProductDefinition-mp16598f252d07b4784b82ba43cf9e847e.html\">MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e</a></td></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td><td>Date</td><td>Flag</td></tr><tr><td><a href=\"Bundle-processedbundledovato-en.html\">Bundle/processedbundledovato-en</a></td><td>Feb 7, 2015, 1:28:17\u202fPM</td><td>Unchanged</td></tr><tr><td><a href=\"Bundle-processedbundledovato-es.html\">Bundle/processedbundledovato-es</a></td><td>Feb 7, 2016, 1:28:17\u202fPM</td><td>Unchanged</td></tr></table></div>"
+  },
+  "identifier" : [{
+    "system" : "http://spor.ema.europa.eu/v2/medicine-name",
+    "value" : "Dovato"
+  },
+  {
+    "system" : "http://spor.ema.europa.eu/v2/marketing-authorisation-numbers",
+    "value" : "EU/1/19/1370"
+  },
+  {
+    "system" : "https://www.gravitatehealth.eu/sid/doc",
+    "value" : "EU/1/19/1370/001"
+  }],
+  "status" : "current",
+  "mode" : "working",
+  "title" : "List of all processed ePIs associated with Dovato",
+  "code" : {
+    "coding" : [{
+      "system" : "http://spor.ema.europa.eu/v1/example-pi-list-types",
+      "code" : "00000021213",
+      "display" : "ePI Master List"
+    }]
+  },
+  "subject" : [{
+    "extension" : [{
+      "url" : "http://ema.europa.eu/fhir/extension/medicine-name",
+      "valueCoding" : {
+        "system" : "http://spor.ema.europa.eu/v1/100000000005",
+        "code" : "Dovato",
+        "display" : "Dovato"
+      }
+    },
+    {
+      "url" : "http://ema.europa.eu/fhir/extension/marketing-authorization-holder",
+      "valueCoding" : {
+        "system" : "http://spor.ema.europa.eu/v1/100000000005",
+        "code" : "mah-code",
+        "display" : "None"
+      }
+    },
+    {
+      "url" : "http://ema.europa.eu/fhir/extension/active-substance",
+      "valueCoding" : {
+        "system" : "http://spor.ema.europa.eu/v1/100000000005",
+        "code" : "acive-substance-code",
+        "display" : "None"
+      }
+    },
+    {
+      "url" : "http://ema.europa.eu/fhir/extension/domain",
+      "valueCoding" : {
+        "system" : "http://spor.ema.europa.eu/v1/100000000004",
+        "code" : "100000000012",
+        "display" : "H"
+      }
+    }],
+    "reference" : "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+  }],
+  "date" : "2015-02-07T13:28:17Z",
+  "entry" : [{
+    "flag" : {
+      "coding" : [{
+        "system" : "urn:oid:1.2.36.1.2001.1001.101.104.16592",
+        "code" : "01"
+      }],
+      "text" : "Unchanged"
+    },
+    "date" : "2015-02-07T13:28:17Z",
+    "item" : {
+      "extension" : [{
+        "url" : "http://ema.europa.eu/fhir/extension/documentType",
+        "valueCoding" : {
+          "system" : "http://spor.ema.europa.eu/v1/100000155531",
+          "code" : "100000155538",
+          "display" : "B. PACKAGE LEAFLET"
+        }
+      },
+      {
+        "url" : "http://ema.europa.eu/fhir/extension/language",
+        "valueCoding" : {
+          "system" : "http://spor.ema.europa.eu/v1/100000072057",
+          "code" : "100000072147",
+          "display" : "en"
+        }
+      }],
+      "reference" : "Bundle/processedbundledovato-en"
+    }
+  },
+  {
+    "flag" : {
+      "coding" : [{
+        "system" : "urn:oid:1.2.36.1.2001.1001.101.104.16592",
+        "code" : "01"
+      }],
+      "text" : "Unchanged"
+    },
+    "date" : "2016-02-07T13:28:17Z",
+    "item" : {
+      "extension" : [{
+        "url" : "http://ema.europa.eu/fhir/extension/documentType",
+        "valueCoding" : {
+          "system" : "http://spor.ema.europa.eu/v1/100000155531",
+          "code" : "100000155538",
+          "display" : "B. PROSPECTO"
+        }
+      },
+      {
+        "url" : "http://ema.europa.eu/fhir/extension/language",
+        "valueCoding" : {
+          "system" : "http://spor.ema.europa.eu/v1/100000072057",
+          "code" : "100000072168",
+          "display" : "es"
+        }
+      }],
+      "reference" : "Bundle/processedbundledovato-es"
+    }
+  }]
+}

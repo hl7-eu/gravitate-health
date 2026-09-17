@@ -1,0 +1,1766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI document Bundle for flucelvax Package Leaflet es - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.196"}
+    h3,h4,h5,h6{--heading-prefix:"16.196"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for flucelvax Package Leaflet es</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-56a32a5ee239fc834b47c10db1faa3fd.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-56a32a5ee239fc834b47c10db1faa3fd.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-56a32a5ee239fc834b47c10db1faa3fd.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Example Bundle: ePI document Bundle for flucelvax Package Leaflet es</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  Raw
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>B. Package Leaflet</h3>
+    <p>
+      <div xmlns="http://www.w3.org/1999/xhtml">unavailable</div></p>
+    
+      
+
+        <h4>Package leaflet: Information for the user</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p style="margin:3.5pt 0pt 0pt 7.1pt; text-align:center; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Prospecto: informaci&#243;n para el usuario</span></strong></p><p style="margin:0.4pt 0pt 0pt 7.1pt; text-align:center; line-height:5pt"><span style="font-family:Times New Roman; font-size:5pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 7.1pt; text-align:center; line-height:10pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 7.1pt; text-align:center; line-height:10pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 7.1pt; text-align:center; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Flucelvax Tetra - suspensi&#243;n inyectable en jeringa precargada</span></strong></p><p style="margin:0pt 0pt 0pt 7.1pt; text-align:center"><span style="font-family:Times New Roman; font-size:11pt">Vacuna contra la gripe (ant&#237;geno de superficie, inactivado, preparada en cultivos celulares)</span></p><p style="margin:0.4pt 0pt 0pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0.8pt 0pt 0pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt 31.2pt 0pt 5.9pt; text-align:justify"><strong><span style="font-family:Times New Roman; font-size:11pt;">Lea todo el prospecto detenidamente antes de empezar a recibir este medicamento, porque contiene</span></strong> <strong><span style="font-family:Times New Roman; font-size:11pt;">informaci&#243;n importante para usted.</span></strong></p><p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">-&#160;&#160;&#160;&#160;&#160;&#160;</span> <span style="font-family:Times New Roman; font-size:11pt">Conserve este prospecto, ya que puede tener que volver a leerlo.</span></p><p style="margin:0.05pt 0pt 0pt 5.9pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">-&#160;&#160;&#160;&#160;&#160;</span> <span style="font-family:Times New Roman; font-size:11pt">Si tiene alguna duda, consulte a su m&#233;dico, farmac&#233;utico o enfermero.</span></p><p style="margin:0.1pt 14.1pt 0pt 5.95pt; text-indent:-22.4pt; text-align:justify; padding-left:22.4pt"><span style="font-family:Times New Roman; font-size:11pt">-</span><span style="font-family:Times New Roman; font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span> <span style="font-family:Times New Roman; font-size:11pt">Si experimenta efectos adversos, consulte a su m&#233;dico, farmac&#233;utico o enfermero, incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver secci&#243;n 4.</span></p><p style="margin:0pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p></div></p>
+
+      
+
+        <h4>What is in this leaflet</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify"><strong><span style="font-family:Times New Roman; font-size:11pt;">Contenido del prospecto</span></strong></p><p style="margin:0.45pt 0pt 0pt; text-align:justify"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 6.3pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">1.&#160;&#160;&#160; Qu&#233; es Flucelvax Tetra y para qu&#233; se utiliza</span></p><p style="margin:0pt 0pt 0pt 6.3pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">2.&#160;&#160;&#160; Qu&#233; necesita saber antes de empezar a recibir Flucelvax Tetra</span></p><p style="margin:0pt 0pt 0pt 6.3pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">3.&#160;&#160;&#160; C&#243;mo se administra Flucelvax Tetra</span></p><p style="margin:0.05pt 0pt 0pt 6.3pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">4.&#160;&#160;&#160; Posibles efectos adversos</span></p><p style="margin:0pt 0pt 0pt 6.3pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">5.&#160;&#160;&#160; Conservaci&#243;n de Flucelvax Tetra</span></p><p style="margin:0.05pt 0pt 0pt 6.3pt; text-align:justify"><span style="font-family:Times New Roman; font-size:11pt">6.&#160;&#160;&#160; Contenido del envase e informaci&#243;n adicional</span></p></div></p>
+
+      
+
+        <h4>1. What Flucelvax is and what it is used for</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p style="margin:0.6pt 0pt 0pt; line-height:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 11.85pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Flucelvax Tetra es una vacuna contra la gripe. Flucelvax Tetra se prepara en cultivos celulares y, por lo tanto, no contiene huevo.</span></p><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Cuando una persona recibe la vacuna, el sistema inmunitario (el sistema de defensa natural del organismo) producir&#225; su propia protecci&#243;n frente al virus de la gripe. Ninguno de los componentes de la vacuna puede causar la gripe.</span></p><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:2.55pt 14.1pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Flucelvax Tetra se usa para prevenir la gripe en adultos y ni&#241;os a partir de los 2 a&#241;os de edad.</span></p><p style="margin:2.55pt 41.05pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">La vacuna va dirigida a cuatro cepas del virus de la gripe siguiendo las recomendaciones de la</span> <span style="font-family:Times New Roman; font-size:11pt; vertical-align:0.5pt">Organizaci&#243;n Mundial de la Salud para la campa&#241;a</span> <span style="font-family:Times New Roman; font-size:11pt">2023/2024.</span></p></div></p>
+
+      
+
+        <h4>2. What you need to know before you take Flucelvax</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p style="margin:0.65pt 0pt 0pt; line-height:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">No debe recibir Flucelvax Tetra:</span></strong></p><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si es al&#233;rgico a:</span></p><ul style="margin:0pt; padding-left:0pt"><li style="margin:0.05pt 16.9pt 0pt 23.05pt; text-indent:0pt; text-align:justify; padding-left:19.5pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">los principios activos o alguno de los dem&#225;s componentes de esta vacuna (incluidos en la secci&#243;n 6).</span></li><li style="margin:0pt 0pt 0pt 23.05pt; text-indent:0pt; text-align:justify; padding-left:19.5pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">la beta-propiolactona, al bromuro de cetiltrimetilamonio o al polisorbato 80, que son residuos del proceso de fabricaci&#243;n que pueden estar presentes en cantidades m&#237;nimas.</span></li></ul><p style="margin:0.9pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Advertencias y precauciones</span></strong></p><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Consulte a su m&#233;dico, farmac&#233;utico o enfermero antes de empezar a recibir Flucelvax Tetra.</span></p><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt;">ANTES DE vacunarse</span></p><ul style="margin:0pt; padding-left:0pt"><li style="margin:0.9pt 5pt 0pt 13.36pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">su m&#233;dico o enfermero comprobar&#225; la f&#225;cil disponibilidad de tratamiento m&#233;dico y supervisi&#243;n adecuados en el caso raro de que se produjera una reacci&#243;n anafil&#225;ctica (una reacci&#243;n al&#233;rgica muy grave con s&#237;ntomas como dificultad para respirar, mareos, pulso d&#233;bil y r&#225;pido y erupci&#243;n cut&#225;nea) despu&#233;s de la administraci&#243;n. Esta reacci&#243;n puede presentarse con Flucelvax Tetra, al igual que con todas las vacunas que se inyectan.</span></li><li style="margin:0pt 25.35pt 0pt 13.36pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">debe informar a su m&#233;dico si tiene una enfermedad aguda que cursa con fiebre. Su m&#233;dico puede decidir retrasar su vacunaci&#243;n hasta que la fiebre haya desaparecido.</span></li><li style="list-style: none; display: inline"><ul style="margin:0pt; padding-left:0pt"><li style="margin:0pt 5.45pt 0pt 13.36pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">debe informar a su m&#233;dico si su sistema inmunitario est&#225; comprometido o si est&#225; recibiendo un tratamiento que afecte al mismo, por ejemplo, medicamento contra el c&#225;ncer (quimioterapia) o corticoides (ver secci&#243;n &#8220;Otros medicamentos y Flucelvax Tetra&#8221;).</span></li></ul></li><li style="margin:0pt 0pt 0pt 13.36pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">debe informar a su m&#233;dico si tiene un problema de sangrado o le salen moretones&#160;&#160;&#160;&#160; f&#225;cilmente.</span></li><li style="margin:0pt 4.6pt 0pt 13.36pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">puede desmayarse despu&#233;s de la inyecci&#243;n con una aguja, o incluso antes, por lo tanto, informe a su m&#233;dico o enfermero si se ha desmayado anteriormente con alguna inyecci&#243;n.</span></li></ul><p style="margin:0.7pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 20.05pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Como ocurre con todas las vacunas, Flucelvax Tetra puede no proteger completamente a todas las personas que son vacunadas.</span></p><p style="margin:0.75pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Otros medicamentos y Flucelvax Tetra</span></strong></p><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Informe a su m&#233;dico o enfermero si est&#225; utilizando, ha utilizado recientemente o pudiera tener que utilizar cualquier otro medicamento, incluso los adquiridos sin receta, o si ha recibido recientemente alguna otra vacuna.</span></p><p style="margin:0.55pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Flucelvax Tetra se puede administrar al mismo tiempo que otras vacunas.</span></p><p style="margin:0.9pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Embarazo y lactancia</span></strong></p><p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt;">Embarazo:</span></p><p style="margin:0.05pt 14.1pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si est&#225; embarazada, cree que podr&#237;a estar embarazada o tiene intenci&#243;n de quedarse embarazada, consulte a su m&#233;dico. Las vacunas antigripales se pueden administrar en cualquier trimestre del embarazo.</span></p><p style="margin:0.5pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt;">Lactancia:</span></p><p style="margin:0.15pt 7.5pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">El uso de Flucelvax Tetra durante la lactancia no ha sido estudiado. Flucelvax Tetra se puede administrar durante la lactancia.</span></p><p style="margin:0.75pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Conducci&#243;n y uso de m&#225;quinas</span></strong></p><p style="margin:0pt 14.1pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">La influencia de Flucelvax Tetra sobre la capacidad para conducir y utilizar m&#225;quinas es nula o insignificante.</span></p><p style="margin:0.75pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Flucelvax Tetra contiene cloruro de sodio y cloruro de potasio</span></strong></p><p style="margin:0pt 0pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Esta vacuna contiene menos de 1 mmol de sodio (23 mg) por dosis; esto es, esencialmente &#8220;exento de sodio&#8221;.</span></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Esta vacuna contiene potasio, menos de 1 mmol (39 mg) por dosis; esto es, esencialmente &#8220;exento de potasio&#8221;.</span></p></div></p>
+
+      
+
+        <h4>3. How to take Flucelvax</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p style="margin:0.6pt 0pt 0pt; line-height:12pt"><a name="_Hlk142925114"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></a></p><p style="margin:0pt 14.1pt 0pt 5.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Su m&#233;dico o enfermero le administrar&#225; Flucelvax Tetra en forma de inyecci&#243;n en el m&#250;sculo de la parte superior del brazo (m&#250;sculo deltoides).</span></p><p style="margin:0.95pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:1.6pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt; vertical-align:-0.5pt">Adultos y ni&#241;os a partir de 2 a&#241;os de edad:</span></p><p style="margin:0.3pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Una dosis de 0,5 ml</span></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt; background-color:#ffff00">&#xa0;</span></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si su hijo es menor de 9 a&#241;os y nunca ha sido vacunado contra la gripe, se le debe administrar una segunda dosis despu&#233;s, de al menos, 4 semanas.</span></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p></div></p>
+
+      
+
+        <h4>4. Possible side effects</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p style="margin:0.4pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 13.75pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</span></p><p style="margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Los siguientes efectos adversos se han notificado durante los ensayos cl&#237;nicos y durante el uso general:</span></p><p style="margin:0.9pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Efectos adversos muy graves</span></strong></p><p style="margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Consulte inmediatamente con su m&#233;dico o acuda al servicio de urgencias del hospital m&#225;s cercano si presenta el siguiente efecto adverso &#8211; puede necesitar urgentemente atenci&#243;n m&#233;dica u hospitalizaci&#243;n:</span></p><p style="margin:0.85pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 20.75pt 0pt 7.95pt; text-indent:-20.4pt; text-align:justify; line-height:115%; padding-left:20.4pt; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#8226;</span><span style="font-family:Times New Roman; font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span> <span style="font-family:Times New Roman; font-size:11pt">Dificultad para respirar, mareos, pulso d&#233;bil y r&#225;pido junto con erupci&#243;n cut&#225;nea, que son los s&#237;ntomas de una reacci&#243;n anafil&#225;ctica (una reacci&#243;n al&#233;rgica muy grave)</span></p><p style="margin:0.75pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Efectos adversos graves</span></strong></p><p style="margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Informe inmediatamente a su m&#233;dico si presenta cualquiera de los efectos adversos siguientes &#8211; puede necesitar atenci&#243;n m&#233;dica:</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><ul style="margin:0pt; padding-left:0pt"><li style="margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Se siente d&#233;bil, tiene dificultades para moverse o presenta entumecimiento u hormigueo en las extremidades. Estos pueden ser s&#237;ntomas del s&#237;ndrome de Guillain-Barr&#233; (SGB), una enfermedad autoinmune causada por el propio sistema inmunitario del organismo</span></li><li style="margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Hinchaz&#243;n extensa del miembro en el que se ha inyectado</span></li></ul><p style="margin:0.45pt 0pt 0pt; text-align:justify; line-height:115%; font-size:14pt"><span style="font-family:Times New Roman; font-size:14pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Efectos adversos leves</span></strong></p><p style="margin:0pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt;">Muy frecuentes</span> <span style="font-family:Times New Roman; font-size:11pt">(pueden afectar a m&#225;s de 1 de cada 10 personas):</span></p><ul style="margin:0pt; padding-left:0pt"><li style="margin:1.1pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Dolor en la zona de inyecci&#243;n, cardenales, enrojecimiento y endurecimiento o hinchaz&#243;n en la zona de inyecci&#243;n</span></li><li style="margin:0pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Dolor de cabeza</span></li><li style="margin:0pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Dolor muscular</span></li><li style="margin:0pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Cansancio</span></li><li style="margin:0pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">P&#233;rdida de apetito</span></li><li style="margin:0pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Irritabilidad (notificada solo en ni&#241;os de 2 a &#60; 6 a&#241;os)</span></li><li style="margin:0pt 11.75pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Somnolencia (notificada solo en ni&#241;os de 2 a &#60; 6 a&#241;os)</span></li></ul><p style="margin:0.1pt 3.2pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">En los pacientes de edad avanzada fueron frecuentes el endurecimiento o la hinchaz&#243;n en el lugar de la inyecci&#243;n, el dolor de cabeza, el dolor muscular y la fatiga.</span></p><p style="margin:0.95pt 0pt 0pt 7.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Los cardenales en el lugar de la inyecci&#243;n fueron frecuentes en adultos, ancianos y ni&#241;os de 9 a &#60; 18 a&#241;os.</span></p><p style="margin:0.95pt 0pt 0pt 7.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">El dolor de cabeza fue frecuente en ancianos.</span></p><p style="margin:0.95pt 0pt 0pt 7.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">La p&#233;rdida de apetito fue frecuente en adultos, ancianos y ni&#241;os de 9 a &#60; 18 a&#241;os.</span></p><p style="margin:1.6pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:1.6pt 0pt 0pt 7.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt;">Frecuentes</span> <span style="font-family:Times New Roman; font-size:11pt">(pueden afectar hasta 1 de cada 10 personas):</span></p><ul style="margin:0pt; padding-left:0pt"><li style="margin:0.55pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">N&#225;useas, v&#243;mitos, diarrea</span></li><li style="margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Dolor articular</span></li><li style="margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Tiritona</span></li><li style="margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Cambios en los h&#225;bitos alimenticios (notificados solo en ni&#241;os de 2 a &#60; 6 a&#241;os)</span></li><li style="margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Fiebre (&#62; 38 &#176;C)</span></li></ul><p style="margin:0.55pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Los v&#243;mitos fueron poco frecuentes en los pacientes de edad avanzada</span></p><p style="margin:0.55pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">La fiebre fue infrecuente en adultos y ancianos</span></p><p style="margin:0.55pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt;">Frecuencia no conocida</span> <span style="font-family:Times New Roman; font-size:11pt">(no puede estimarse a partir de los datos disponibles):</span></p><ul style="margin:0pt; padding-left:0pt"><li style="margin:0.7pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Sensaci&#243;n de hormigueo y</span> <span style="font-family:Times New Roman; font-size:11pt">entumecimiento (parestesia)</span></li><li style="margin:0pt 0pt 0pt 15.95pt; text-indent:0pt; text-align:justify; padding-left:12.4pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Reacciones cut&#225;neas generalizadas incluyendo picor, ampollas en la piel (prurito, urticaria) o erupci&#243;n cut&#225;nea inespec&#237;fica</span></li></ul><p style="margin:0.7pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:1.6pt 0pt 0pt 7.95pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Comunicaci&#243;n de efectos adversos</span></strong></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Si experimenta cualquier tipo de efecto adverso, consulte a su profesional sanitario, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto.</span> <span style="font-family:Times New Roman; font-size:11pt">Tambi&#233;n puede comunicarlos directamente a trav&#233;s del Sistema Espa&#241;ol de Farmacovigilancia de Medicamentos de Uso Humano en</span> <a href="http://www.notificaRAM.es"><span style="font-family:Times New Roman; font-size:11pt; color:#0000ff; background-color:#ffffff">www.notificaRAM.es</span></a><span style="font-family:Times New Roman; font-size:11pt">.</span> <span style="font-family:Times New Roman; font-size:11pt">M</span><span style="font-family:Times New Roman; font-size:11pt">ediante la comunicaci&#243;n de efectos adversos usted puede contribuir a proporcionar m&#225;s informaci&#243;n sobre la seguridad de este medicamento.</span></p></div></p>
+
+      
+
+        <h4>5. How to store Flucelvax</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p style="margin:2.45pt 14.1pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Mantener este medicamento fuera de la vista y del alcance de los ni&#241;os.</span></p><p style="margin:2.45pt 14.1pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:2.45pt 14.1pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Conservar en nevera (entre 2 &#176;C y 8 &#176;C). No congelar.</span></p><p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt; vertical-align:0.5pt">Mantener la jeringa precargada en el embalaje exterior para protegerla de la luz.</span></p><p style="margin:0.55pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 3.15pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">No utilice esta vacuna despu&#233;s de la fecha de caducidad que aparece en la etiqueta y en la caja despu&#233;s de EXP/CAD. La fecha de caducidad es el &#250;ltimo d&#237;a del mes que se indica.</span></p><p style="margin:0.8pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 8.2pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Los medicamentos no se deben tirar por los desag&#252;es ni a la basura. Pregunte a su farmac&#233;utico c&#243;mo deshacerse de los envases y de los medicamentos que ya no necesita. De esta forma, ayudar&#225; a proteger el medio ambiente.</span></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p></div></p>
+
+      
+
+        <h4>6. Contents of the pack and other information</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p style="margin:0.55pt 0pt 0pt; line-height:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Composici&#243;n de Flucelvax Tetra</span></strong></p><p style="margin:0.4pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><ul style="margin:0pt; padding-left:0pt"><li style="margin:0pt 14.1pt 0pt 11.96pt; text-indent:0pt; text-align:justify; line-height:115%; padding-left:9.34pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Los principios activos son ant&#237;genos de superficie del virus de la gripe (hemaglutinina y neuraminidasa), inactivados, de las siguientes cepas*:</span></li></ul><p style="margin:0.5pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt"><a name="_Hlk66283421"></a><a name="_Hlk66283267"><span style="font-family:Times New Roman; font-size:11pt">Cepa similar a</span> <span style="font-family:Times New Roman; font-size:11pt">A/Wisconsin/67/2022 (H1N1)pdm09</span> <span style="font-family:Times New Roman; font-size:11pt">(A/Georgia/12/2022 CVR-167)</span></a></p><p style="margin:0pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">15 microgramos HA**</span></p><p style="margin:0pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt"><a name="_Hlk66283440"></a><a name="_Hlk66283292"><span style="font-family:Times New Roman; font-size:11pt">Cepa similar a</span> <span style="font-family:Times New Roman; font-size:11pt">A/Darwin/6/2021 (H3N2)</span> <span style="font-family:Times New Roman; font-size:11pt">(A/Darwin/11/2021, wild type)</span></a></p><p style="margin:0pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">15 microgramos HA**</span></p><p style="margin:0pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Cepa similar a B/Austria/1359417/2021</span> <span style="font-family:Times New Roman; font-size:11pt">(</span><span style="font-family:Times New Roman; font-size:11pt">Singapore/WUH4618/2021</span><span style="font-family:Times New Roman; font-size:11pt">, wild type</span><span style="font-family:Times New Roman; font-size:11pt">)</span> <span style="font-family:Times New Roman; font-size:11pt">15 microgramos HA**</span></p><p style="margin:0.55pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Cepa similar a B/Phuket/3073/2013 (B/Singapore/INFTT-16-0610/2016, wild type)</span></p><p style="margin:0.55pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">15 microgramos HA**</span></p><p style="margin:0.55pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">por dosis de 0,5 ml</span></p><p style="margin:0.05pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.</span></p><p style="margin:0.05pt 26.05pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">*</span><span style="font-family:Times New Roman; font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span> <span style="font-family:Times New Roman; font-size:11pt">propagadas en c&#233;lulas Madin Darby Canine Kidney (MDCK) (se trata de un cultivo celular especial en el que crece el virus de la gripe)</span></p><p style="margin:0pt 0pt 0pt 21.3pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">** hemaglutinina</span></p><p style="margin:0.85pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 3.3pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Esta vacuna cumple con la recomendaci&#243;n de la Organizaci&#243;n Mundial de la Salud (OMS) (hemisferio norte) y con la recomendaci&#243;n de la UE para la CAMPA&#209;A 2023/2024.</span></p><p style="margin:0.7pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><ul style="margin:0pt; padding-left:0pt"><li style="margin:0pt 14.25pt 0pt 15.76pt; text-indent:0pt; text-align:justify; line-height:115%; padding-left:12.59pt; font-family:serif; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Los dem&#225;s componentes son: cloruro de sodio, cloruro de potasio, cloruro de magnesio hexahidrato, fosfato dis&#243;dico dihidrato, dihidrogenofosfato de potasio y agua para preparaciones inyectables.</span></li></ul><p style="margin:0.75pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Aspecto del producto y contenido del envase</span></strong></p><p style="margin:0.6pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 14.1pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Flucelvax Tetra es una suspensi&#243;n inyectable en jeringa precargada (jeringa lista para usar). Flucelvax Tetra es una suspensi&#243;n de transparente a ligeramente opalescente.</span></p><p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Cada jeringa individual contiene 0,5 ml de suspensi&#243;n inyectable.</span></p><p style="margin:0pt 0pt 0pt 7.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Flucelvax Tetra est&#225; disponible en envases de 1 jeringa precargada con o sin aguja o 10 jeringas</span></p><p style="margin:0pt 0pt 0pt 7.1pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">precargadas con o sin agujas.</span></p><p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Puede que solamente est&#233;n comercializados algunos tama&#241;os de envases.</span></p><p style="margin:0.9pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Titular de la autorizaci&#243;n de comercializaci&#243;n y responsable de la fabricaci&#243;n</span></strong></p><p style="margin:0pt 14.1pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Seqirus Netherlands B.V.</span></p><p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Paasheuvelweg 28</span></p><p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">1105BJ Amsterdam</span></p><p style="margin:0pt 0pt 0pt 5.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Pa&#237;ses Bajos</span></p><p style="margin:0.85pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 11.4pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Pueden solicitar m&#225;s informaci&#243;n respecto a este medicamento dirigi&#233;ndose al representante local del titular de la autorizaci&#243;n de comercializaci&#243;n:</span></p><p style="margin:0pt 11.4pt 0pt 6.9pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Seqirus Spain, S.L., Barcelona</span></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Tel: 937 817 884</span></p><p style="margin:0.75pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Fecha de la &#250;ltima revisi&#243;n de este prospecto: 07/2023</span></strong></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">&#xa0;</span></p><p style="margin:0pt; text-align:justify; line-height:115%; font-size:11pt"><strong><span style="font-family:Times New Roman; font-size:11pt;">Otras fuentes de informaci&#243;n</span></strong></p><p style="margin:0.6pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 3.8pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">La informaci&#243;n detallada de este medicamento est&#225; disponible en la p&#225;gina web de la Agencia Europea de Medicamentos:</span> <a href="http://www.ema.europa.eu/"><span style="font-family:Times New Roman; font-size:11pt;">http://www.ema.europa.eu/.</span></a></p><p style="margin:0.55pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 18.1pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">------------------------------------------------------------------------------------------------------------- Esta informaci&#243;n est&#225; destinada &#250;nicamente a profesionales del sector sanitario:</span></p><p style="margin:0.5pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 4.75pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Debe estar siempre f&#225;cilmente disponible el tratamiento m&#233;dico y la supervisi&#243;n apropiados en caso de un episodio anafil&#225;ctico, que puede aparecer raramente despu&#233;s de administrar la vacuna.</span></p><p style="margin:0.8pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt 50.45pt 0pt 0pt; text-align:justify; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Agitar antes de usar. Despu&#233;s de agitar, el aspecto normal de la vacuna es una suspensi&#243;n de transparente a ligeramente opalescente.</span></p><p style="margin:0.55pt 0pt 0pt; text-align:justify; line-height:115%; font-size:12pt"><span style="font-family:Times New Roman; font-size:12pt">&#xa0;</span></p><p style="margin:0pt; line-height:115%; font-size:11pt"><span style="font-family:Times New Roman; font-size:11pt">Se debe inspeccionar visualmente la vacuna en busca de part&#237;culas extra&#241;as o cambios de color antes de la administraci&#243;n. Si se observan part&#237;culas extra&#241;as y/o cualquier variaci&#243;n del aspecto f&#237;sico, no administre la vacuna.</span></p></div></p>
+
+      
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Flucelvax Tetra - suspension for injection in pre-filled syringe
+Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)
+  </h4>
+
+  
+  
+    PMSWI:
+    <b>
+      EU/1/18/1326/001
+    </b>
+    </br>
+  
+    PHPID:
+    <b>
+      0xF79CABF272B6A7EEF104DDDA44E82717
+    </b>
+    </br>
+  
+  <hr>
+  
+  <p>Full name: <b>Flucelvax Tetra - suspension for injection in pre-filled syringe
+Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)</b></p>
+  
+    <p>
+      - :
+      <b>
+        Flucelvax Tetra
+      </b>
+    </p>
+  
+    <p>
+      - :
+      <b>
+        Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)
+      </b>
+    </p>
+  
+    <p>
+      - :
+      <b>
+        15 ug
+      </b>
+    </p>
+  
+    <p>
+      - :
+      <b>
+        Solution for injection
+      </b>
+    </p>
+  
+
+
+  
+  
+  
+    <div>
+      <p>
+        Name usage:
+        
+
+          <b>English (Spain)</b>
+        </p>
+
+      
+    </div>
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b>active</b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+  <p class="divtitle">
+    <b>Marketing Authorisation</b>
+    1 of 1</p>
+
+  <p>Authorisation number:
+    <b>
+      
+        EU/1/18/1326/001
+      
+    </b>
+  </p>
+
+  <p>
+    Region:
+    <b>
+      
+    </b>
+  </p>
+
+  <p>
+
+    
+  </p>
+
+  
+  
+
+    
+    
+    
+    
+
+
+    
+    
+      <p>Marketing authorisation holder:
+        <b>Seqirus Netherlands B.V.</b>
+      </p>
+      <p>
+        Identifier:
+        <ul>
+          
+            <li>
+              <b>ORG-100013715</b>
+            </li>
+          
+        </ul>
+      </p>
+    
+  
+
+  <p>
+    Status:
+    <b>
+      Active (2019-01-01)
+    </b>
+  </p>
+
+</div>
+    
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 1</p>
+          
+<p>
+  Description:
+  </br>
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+      <li>
+        <b>15 </li></b>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b>1 Box</b>
+  
+  
+</p>
+
+<p>Containing:
+  
+
+
+  <br/>
+  <div class="container rcorners innerpack">
+    
+<p>Package:
+  <b>1 100000073498</b>
+  
+  
+    
+      <b>(Cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+
+
+
+
+  </div>
+
+
+
+  </div>
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+        
+        
+        
+        
+          
+        <div class="container rcorners apd listcontainer">
+  <p class="divtitle">Administrable Product (1 of 1)</p>
+  <p>
+    Dose form:
+    <b>
+      suspension for injection in pre-filled syringe
+    </b>
+  </p>
+
+  <p>
+    Unit of presentation:
+    <b>
+      Syringe
+    </b>
+  </p>
+
+  <p>
+    Route of administration:
+    <ul>
+      
+        <li>
+          <b>
+            Subcutaneous use
+          </b>
+        </li>
+      
+    </ul>
+  </p>
+
+  Ingredients:
+  
+
+
+
+  
+
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              INFLUENZA A VIRUS A/Delaware/55/2019 CVR-45 (H1N1) WHOLE
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              INFLUENZA A VIRUS A/Darwin/11/2021 (H3N2) WHOLE
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              INFLUENZA B VIRUS B/Singapore/WUH4618/2021 WHOLE
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              INFLUENZA B VIRUS B/SINGAPORE/INFTT-16-0610/2016 WHOLE
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Sodium chloride
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Potassium chloride
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              MAGNESIUM CHLORIDE
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              SODIUM PHOSPHATE, DIBASIC, DIHYDRATE
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Potassium dihydrogen phosphate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Water for injections
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+
+
+</div>
+      
+    
+  
+</div>
+
+
+<!--
+  <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Flucelvax Tetra - suspension for injection in pre-filled syringe
+Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)
+  </h4>
+
+  
+  
+  
+  
+    PMSWI:
+    <b>
+      EU/1/18/1326/001
+    </b>
+  
+    PHPID:
+    <b>
+      0xF79CABF272B6A7EEF104DDDA44E82717
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b>active</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+
+        <p class="divtitle">Authorisation 1 of 1</p>
+        Auth id:
+        <b>
+          
+            EU/1/18/1326/001
+          
+        </b>
+
+        <p>
+          Country:
+          <b>
+            
+
+          </b>
+        </p>
+        <p>
+          Type:
+          <b>
+            Marketing Authorisation
+          </b>
+        </p>
+
+        
+      </p>
+
+      
+      
+
+        
+        
+        
+        
+
+
+        
+        
+          <p>
+            Holder:
+            <b>Seqirus Netherlands B.V. (ORG-100013715)</b>
+
+          </p>
+          <p></p>
+        
+      
+
+
+
+      <p>
+        Status:
+        <b>
+          Active (2019-01-01)
+        </b>
+      </p>
+
+    </div>
+
+  
+
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 1</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          active</b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+              <li>
+
+                <b>
+                  15 ug</b>
+              </li>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+            <br/>
+            <div class="container rcorners pack bleft">
+              <p>Package: 1 Box []</p>
+
+
+              
+              
+                <br/>
+                <div class="container rcorners pack bleft">
+                  <p>Inner Package: 1 100000073498 [Cardboard]</p>
+
+                </div>
+              </div>
+            
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+      
+
+      
+      
+      
+        
+          <div class="container bleft rcorners apd"> <p class="divtitle">Administrable Product (1 of 1)</p>
+          <p>
+            Dose form:
+            <b>
+              suspension for injection in pre-filled syringe
+            </b>
+          </p>
+
+          <p>
+            Presentation unit:
+            <b>
+              Syringe
+            </b>
+          </p>
+          Route of administration:
+          <ul>
+            
+              <li>
+                <b>
+                  Subcutaneous use
+                </b>
+              </li>
+            
+          </ul>
+          Contents (Manuf. Items):
+          <ul>
+            
+            
+
+              
+
+              
+
+              
+                <div class="container   rcorners mid">
+                  <b>mid-04c9bd6fb89d38b2d83eced2460c4dc1</b>
+                  <p>
+                    Dose form:
+                    <b>suspension for injection in pre-filled syringe</b>
+                  </p>
+                  <p>
+                    Presentation unit:
+                    <b>Syringe</b>
+                  </p>
+                  <p>
+                    Manufactured Dose Form:
+                    <b>suspension for injection in pre-filled syringe</b>
+                  </p>
+                  Ingredients:
+                  <ul>
+                    
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-2e8cb2387c664fb619f6b8914767d38f</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              INFLUENZA A VIRUS A/Delaware/55/2019 CVR-45 (H1N1) WHOLE
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-flucelvax-influenzaavirusadarwin112021h3n2whole</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              INFLUENZA A VIRUS A/Darwin/11/2021 (H3N2) WHOLE
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-f4e520e2974f4acb8abe26b607ea5a46</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              INFLUENZA B VIRUS B/Singapore/WUH4618/2021 WHOLE
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-2c0c197a41a706fb2549601e635da1f3</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              INFLUENZA B VIRUS B/SINGAPORE/INFTT-16-0610/2016 WHOLE
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-flucelvax-sodiumchloride</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Sodium chloride
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-flucelvax-potassiumchloride</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Potassium chloride
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-flucelvax-magnesiumchloride</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              MAGNESIUM CHLORIDE
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-flucelvax-sodiumphosphatedibasicdihydrate</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              SODIUM PHOSPHATE, DIBASIC, DIHYDRATE
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-flucelvax-potassiumdihydrogenphosphate</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Potassium dihydrogen phosphate
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-flucelvax-waterforinjections</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Water for injections
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                  </ul>
+
+                </div>
+              
+            
+          </ul>
+          
+          
+            
+
+
+        </div>
+      
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Dec 21, 2023 23:11+0000">2023-12-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

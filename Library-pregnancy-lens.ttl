@@ -1,0 +1,280 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Library/pregnancy-lens> a fhir:Library ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "pregnancy-lens"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/lens"^^xsd:anyURI ;
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/lens>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<div>\n    <table class=\"grid dict\">\n        \n        \n        <tr>\n            <th scope=\"row\"><b>Title: </b></th>\n            <td style=\"padding-left: 4px;\">pregnancy-lens</td>\n        </tr>\n        \n\n        \n        \n        <tr>\n            <th scope=\"row\"><b>Id: </b></th>\n            <td style=\"padding-left: 4px;\">pregnancy-lens</td>\n        </tr>\n        \n\n        \n        \n        <tr>\n            <th scope=\"row\"><b>Version: </b></th>\n            <td style=\"padding-left: 4px;\">0.1.0</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Url: </b></th>\n            <td style=\"padding-left: 4px;\"><a href=\"Library-allergy-lens.html\">allergy-lens</a></td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\">\n                <b>\n                    \n                        \n                    \n                </b>\n            </th>\n            <td style=\"padding-left: 4px;\">\n                \n                <p style=\"margin-bottom: 5px;\">\n                    <span>pregnancy-lens</span>\n                </p>\n                \n            </td>\n        </tr>\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Status: </b></th>\n            <td style=\"padding-left: 4px;\">draft</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Experimental: </b></th>\n            <td style=\"padding-left: 4px;\">true</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Type: </b></th>\n            <td style=\"padding-left: 4px;\">\n                \n                    \n                        \n                        \n                        <p style=\"margin-bottom: 5px;\">\n                            <b>code: </b> <span>logical-library</span>\n                        </p>\n                        \n                        \n                    \n                \n                \n            </td>\n        </tr>\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Date: </b></th>\n            <td style=\"padding-left: 4px;\">2024-06-12 12:23:10+0000</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Publisher: </b></th>\n            <td style=\"padding-left: 4px;\">Gravitate Health Project</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Description: </b></th>\n            <td style=\"padding-left: 4px;\"><div><p>Lens that highlight or collapses pregnancy related information</p>\n</div></td>\n        </tr>\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n            <tr>\n                <th scope=\"row\"><b>Topic: </b></th>\n                <td style=\"padding-left: 4px;\">IPS</td>\n            </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Purpose: </b></th>\n            <td style=\"padding-left: 4px;\"><div><p>Collapse or highlight pregnancy related information on a preprocessed ePI.</p>\n</div></td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Usage: </b></th>\n            <td style=\"padding-left: 4px;\"><div><p>You can import this lens directly to your FHIR Server which suports Library Resource type.</p>\n</div></td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Copyright: </b></th>\n            <td style=\"padding-left: 4px;\"><div><p>© 2024 Gravitate Health</p>\n</div></td>\n        </tr>\n        \n\n        \n\n        \n\n        \n\n        \n        <tr>\n          <th scope=\"row\"><b>Parameters: </b></th>\n          <td style=\"padding-left: 4px;\">\n            <table class=\"grid-dict\">\n              <tr><th><b>Name</b></th><th><b>Type</b></th><th><b>Min</b></th><th><b>Max</b></th><th><b>In/Out</b></th></tr>\n              \n                <tr><th/><th>CodeableConcept</th><th/><th/><th>In</th></tr>\n              \n            </table>\n          </td>\n        </tr>\n        \n\n        \n\n        \n        \n        \n        <tr>\n          <td colspan=\"2\">\n            <table>\n              <tr><th><b>Content: </b> application/javascript</th></tr>\n              <tr><td><pre><code>Encoded data (6512 characters)</code></pre></td></tr>\n            </table>\n          </td>\n        </tr>\n        \n        \n    </table>\n</div>\n</div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/lee-version"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "dev"
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Library/mock-lib"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://gravitate-health.lst.tfo.upm.es"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "pregnancy-lens" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [
+     fhir:v "pregnancy-lens" ;
+     fhir:extension ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "lang"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "es"
+         ]
+       ] [
+         fhir:url [ fhir:v "content"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Lente para el embarazo"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/translation"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "lang"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "da"
+         ]
+       ] [
+         fhir:url [ fhir:v "content"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Graviditetslinse"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/translation"^^xsd:anyURI ]
+     ] )
+  ] ; # 
+  fhir:title [
+     fhir:v "pregnancy-lens" ;
+     fhir:extension ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "lang"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "es"
+         ]
+       ] [
+         fhir:url [ fhir:v "content"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Lente para el embarazo"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/translation"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "lang"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "da"
+         ]
+       ] [
+         fhir:url [ fhir:v "content"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Graviditetslinse"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/translation"^^xsd:anyURI ]
+     ] )
+  ] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:code [ fhir:v "logical-library" ]
+     ] )
+  ] ; # 
+  fhir:date [ fhir:v "2024-06-12T12:23:10.005Z"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Gravitate Health Project"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [
+     fhir:v "Lens that highlight or collapses pregnancy related information" ;
+     fhir:extension ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "lang"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "es"
+         ]
+       ] [
+         fhir:url [ fhir:v "content"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Lente que resalta o colapsa la información relacionada con el embarazo"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/translation"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "lang"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "da"
+         ]
+       ] [
+         fhir:url [ fhir:v "content"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Linse, der fremhæver eller kollapser graviditetsrelateret information"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/translation"^^xsd:anyURI ]
+     ] )
+  ] ; # 
+  fhir:purpose [
+     fhir:v "Collapse or highlight pregnancy related information on a preprocessed ePI." ;
+     fhir:extension ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "lang"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "es"
+         ]
+       ] [
+         fhir:url [ fhir:v "content"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Colapsar o resaltar la información relacionada con el embarazo en un ePI preprocesado."
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/translation"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "lang"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "da"
+         ]
+       ] [
+         fhir:url [ fhir:v "content"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Skjul eller fremhæve graviditetsrelaterede oplysninger i en forbehandlet ePI."
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/translation"^^xsd:anyURI ]
+     ] )
+  ] ; # 
+  fhir:usage [
+     fhir:v "You can import this lens directly to your FHIR Server which suports Library Resource type." ;
+     fhir:extension ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "lang"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "es"
+         ]
+       ] [
+         fhir:url [ fhir:v "content"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Puedes importar esta lente directamente a tu servidor FHIR que soporte el tipo de recurso Library."
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/translation"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "lang"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "da"
+         ]
+       ] [
+         fhir:url [ fhir:v "content"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Du kan importere denne linse direkte til din FHIR-server, der understøtter biblioteksressourcetypen."
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/translation"^^xsd:anyURI ]
+     ] )
+  ] ; # 
+  fhir:copyright [ fhir:v "© 2024 Gravitate Health"] ; # 
+  fhir:topic ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/lens-categories-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "IPS" ] ;
+       fhir:display [ fhir:v "IPS" ]
+     ] )
+  ] ) ; # 
+  fhir:parameter ( [
+     fhir:use [ fhir:v "in" ] ;
+     fhir:documentation [ fhir:v "parameter if it exists" ] ;
+     fhir:type [ fhir:v "CodeableConcept" ]
+  ] ) ; # 
+  fhir:content ( [
+     fhir:contentType [ fhir:v "application/javascript" ] ;
+     fhir:data [ fhir:v "bGV0IHB2RGF0YSA9IHB2OwpsZXQgaHRtbERhdGEgPSBodG1sOwoKbGV0IGVwaURhdGEgPSBlcGk7CmxldCBpcHNEYXRhID0gaXBzOwoKbGV0IGdldFNwZWNpZmljYXRpb24gPSAoKSA9PiB7CiAgICByZXR1cm4gIjEuMC4wIjsKfTsKCmxldCBhbm5vdGF0aW9uUHJvY2VzcyA9IChsaXN0T2ZDYXRlZ29yaWVzLCBlbmhhbmNlVGFnLCBkb2N1bWVudCwgcmVzcG9uc2UpID0+IHsKICAgIGxpc3RPZkNhdGVnb3JpZXMuZm9yRWFjaCgoY2hlY2spID0+IHsKICAgICAgICBpZiAocmVzcG9uc2UuaW5jbHVkZXMoY2hlY2spKSB7CiAgICAgICAgICAgIGxldCBlbGVtZW50cyA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoY2hlY2spOwogICAgICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IGVsZW1lbnRzLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgICAgICAgICBlbGVtZW50c1tpXS5jbGFzc0xpc3QuYWRkKGVuaGFuY2VUYWcpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgiaGVhZCIpLmxlbmd0aCA+IDApIHsKICAgICAgICAgICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCJoZWFkIilbMF0ucmVtb3ZlKCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCJib2R5IikubGVuZ3RoID4gMCkgewogICAgICAgICAgICAgICAgcmVzcG9uc2UgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgiYm9keSIpWzBdLmlubmVySFRNTDsKICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJSZXNwb25zZTogIiArIHJlc3BvbnNlKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJSZXNwb25zZTogIiArIGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5pbm5lckhUTUwpOwogICAgICAgICAgICAgICAgcmVzcG9uc2UgPSBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuaW5uZXJIVE1MOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfSk7CgogICAgaWYgKHJlc3BvbnNlID09IG51bGwgfHwgcmVzcG9uc2UgPT0gIiIpIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICAgICAgICJBbm5vdGF0aW9uIHByb2NjZXNzIGZhaWxlZDogUmV0dXJuZWQgZW1wdHkgb3IgbnVsbCByZXNwb25zZSIKICAgICAgICApOwogICAgICAgIC8vcmV0dXJuIGh0bWxEYXRhCiAgICB9IGVsc2UgewogICAgICAgIGNvbnNvbGUubG9nKCJSZXNwb25zZTogIiArIHJlc3BvbnNlKTsKICAgICAgICByZXR1cm4gcmVzcG9uc2U7CiAgICB9Cn0KCmxldCBhbm5vdGF0ZUhUTUxzZWN0aW9uID0gYXN5bmMgKGxpc3RPZkNhdGVnb3JpZXMsIGVuaGFuY2VUYWcpID0+IHsKICAgIGxldCByZXNwb25zZSA9IGh0bWxEYXRhOwogICAgbGV0IGRvY3VtZW50OwoKICAgIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIikgewogICAgICAgIGxldCBqc2RvbSA9IGF3YWl0IGltcG9ydCgianNkb20iKTsKICAgICAgICBsZXQgeyBKU0RPTSB9ID0ganNkb207CiAgICAgICAgbGV0IGRvbSA9IG5ldyBKU0RPTShodG1sRGF0YSk7CiAgICAgICAgZG9jdW1lbnQgPSBkb20ud2luZG93LmRvY3VtZW50OwogICAgICAgIHJldHVybiBhbm5vdGF0aW9uUHJvY2VzcyhsaXN0T2ZDYXRlZ29yaWVzLCBlbmhhbmNlVGFnLCBkb2N1bWVudCwgcmVzcG9uc2UpOwogICAgfSBlbHNlIHsKICAgICAgICBkb2N1bWVudCA9IHdpbmRvdy5kb2N1bWVudDsKICAgICAgICByZXR1cm4gYW5ub3RhdGlvblByb2Nlc3MobGlzdE9mQ2F0ZWdvcmllcywgZW5oYW5jZVRhZywgZG9jdW1lbnQsIHJlc3BvbnNlKTsKICAgIH0KfTsKCmxldCBnZXRJUFNBZ2UgPSAoYmlydGhEYXRlKSA9PiB7CiAgICBsZXQgdG9kYXkgPSBuZXcgRGF0ZSgpOwogICAgbGV0IGJpcnRoRGF0ZVBhcnNlZCA9IG5ldyBEYXRlKGJpcnRoRGF0ZSk7CgogICAgbGV0IGFnZU1pbGlzZWNvbmRzID0gdG9kYXkgLSBiaXJ0aERhdGVQYXJzZWQ7CiAgICBsZXQgYWdlID0gTWF0aC5mbG9vcihhZ2VNaWxpc2Vjb25kcyAvIDMxNTM2MDAwMDAwKTsKCiAgICByZXR1cm4gYWdlOwp9CgpsZXQgZW5oYW5jZSA9IGFzeW5jICgpID0+IHsKICAgIC8vICAgICAgICAgICAgICAgICAgcHJlZ25hbmN5Q2F0ZWdvcnkgICAgYnJlYXN0ZmVlZGluZ0NhdGVnb3J5CiAgICAvLyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU05PTUVEICAgIFNOT01FRAogICAgbGV0IGxpc3RPZkNhdGVnb3JpZXNUb1NlYXJjaCA9IFsiVzc4IiwgIjc3Mzg2MDA2IiwgIjY5ODQwMDA2Il07IC8vImNvbnRyYS1pbmRpY2F0aW9uLXByZWdhbmN5Il0KCiAgICAvLyBHZXQgSVBTIGdlbmRlciBhbmQgY2hlY2sgaWYgaXMgZmVtYWxlCiAgICBsZXQgZ2VuZGVyOwoKICAgIGxldCBlbmhhbmNlVGFnOwoKICAgIGlmIChpcHMgPT0gIiIgfHwgaXBzID09IG51bGwpIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoIkZhaWxlZCB0byBsb2FkIElQUzogdGhlIExFRSBpcyBnZXR0aW5nIGEgZW1wdHkgSVBTIik7CiAgICB9CiAgICBpcHMuZW50cnkuZm9yRWFjaCgoZWxlbWVudCkgPT4gewogICAgICAgIGlmIChlbGVtZW50LnJlc291cmNlLnJlc291cmNlVHlwZSA9PSAiUGF0aWVudCIpIHsKICAgICAgICAgICAgZ2VuZGVyID0gZWxlbWVudC5yZXNvdXJjZS5nZW5kZXI7CiAgICAgICAgICAgIGlmIChnZW5kZXIgIT0gImZlbWFsZSIgfHwgZ2V0SVBTQWdlKGVsZW1lbnQucmVzb3VyY2UuYmlydGhEYXRlKSA+PSA3NSkgewogICAgICAgICAgICAgICAgZW5oYW5jZVRhZyA9ICJjb2xsYXBzZWQiOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgZW5oYW5jZVRhZyA9ICJoaWdobGlnaHQiOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfSk7CgogICAgLy8gZVBJIHRyYXNsYXRpb24gZnJvbSB0ZXJtaW5vbG9neSBjb2RlcyB0byB0aGVpciBodW1hbiByZWRhYmxlIHRyYW5zbGF0aW9ucyBpbiB0aGUgc2VjdGlvbnMKICAgIGxldCBjb21wb3NpdGlvbnMgPSAwOwogICAgbGV0IGNhdGVnb3JpZXMgPSBbXTsKICAgIGVwaS5lbnRyeS5mb3JFYWNoKChlbnRyeSkgPT4gewogICAgICAgIGlmIChlbnRyeS5yZXNvdXJjZS5yZXNvdXJjZVR5cGUgPT0gIkNvbXBvc2l0aW9uIikgewogICAgICAgICAgICBjb21wb3NpdGlvbnMrKzsKICAgICAgICAgICAgLy9JdGVyYXRlZCB0aHJvdWdoIHRoZSBDb25kaXRpb24gZWxlbWVudCBzZWFyY2hpbmcgZm9yIGNvbmRpdGlvbnMKICAgICAgICAgICAgZW50cnkucmVzb3VyY2UuZXh0ZW5zaW9uLmZvckVhY2goKGVsZW1lbnQpID0+IHsKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8gQ2hlY2sgaWYgdGhlIHBvc2l0aW9uIG9mIHRoZSBleHRlbnNpb25bMV0gaXMgY29ycmVjdAogICAgICAgICAgICAgICAgaWYgKGVsZW1lbnQuZXh0ZW5zaW9uWzFdLnVybCA9PSAiY29uY2VwdCIpIHsKICAgICAgICAgICAgICAgICAgICAvLyBTZWFyY2ggdGhyb3VnaCB0aGUgZGlmZmVyZW50IHRlcm1pbm9sb2dpZXMgdGhhdCBtYXkgYmUgYXZhaWJsZSB0byBjaGVjayBpbiB0aGUgY29uZGl0aW9uCiAgICAgICAgICAgICAgICAgICAgaWYgKGVsZW1lbnQuZXh0ZW5zaW9uWzFdLnZhbHVlQ29kZWFibGVSZWZlcmVuY2UuY29uY2VwdCAhPSB1bmRlZmluZWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgZWxlbWVudC5leHRlbnNpb25bMV0udmFsdWVDb2RlYWJsZVJlZmVyZW5jZS5jb25jZXB0LmNvZGluZy5mb3JFYWNoKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKGNvZGluZykgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJFeHRlbnNpb246ICIgKyBlbGVtZW50LmV4dGVuc2lvblswXS52YWx1ZVN0cmluZyArICI6IiArIGNvZGluZy5jb2RlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIENoZWNrIGlmIHRoZSBjb2RlIGlzIGluIHRoZSBsaXN0IG9mIGNhdGVnb3JpZXMgdG8gc2VhcmNoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGxpc3RPZkNhdGVnb3JpZXNUb1NlYXJjaC5pbmNsdWRlcyhjb2RpbmcuY29kZSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gQ2hlY2sgaWYgdGhlIGNhdGVnb3J5IGlzIGFscmVhZHkgaW4gdGhlIGxpc3Qgb2YgY2F0ZWdvcmllcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYXRlZ29yaWVzLnB1c2goZWxlbWVudC5leHRlbnNpb25bMF0udmFsdWVTdHJpbmcpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0pOwogICAgICAgIH0KICAgIH0pOwoKICAgIGlmIChjb21wb3NpdGlvbnMgPT0gMCkgewogICAgICAgIHRocm93IG5ldyBFcnJvcignQmFkIGVQSTogbm8gY2F0ZWdvcnkgIkNvbXBvc2l0aW9uIiBmb3VuZCcpOwogICAgfQoKICAgIGlmIChjYXRlZ29yaWVzLmxlbmd0aCA9PSAwKSB7CiAgICAgICAgLy8gdGhyb3cgbmV3IEVycm9yKCJObyBjYXRlZ29yaWVzIGZvdW5kIiwgY2F0ZWdvcmllcyk7CiAgICAgICAgcmV0dXJuIGh0bWxEYXRhOwogICAgfQogICAgLy9Gb2N1cyAoYWRkcyBoaWdobGlnaHQgY2xhc3MpIHRoZSBodG1sIGFwcGx5aW5nIGV2ZXJ5IGNhdGVnb3J5IGZvdW5kCiAgICByZXR1cm4gYXdhaXQgYW5ub3RhdGVIVE1Mc2VjdGlvbihjYXRlZ29yaWVzLCBlbmhhbmNlVGFnKTsKfTsKCnJldHVybiB7CiAgICBlbmhhbmNlOiBlbmhhbmNlLAogICAgZ2V0U3BlY2lmaWNhdGlvbjogZ2V0U3BlY2lmaWNhdGlvbiwKfTsK"^^xsd:base64Binary ] ;
+     fhir:title [
+       fhir:v "Lens for pregnancy" ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "lang"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "es"
+           ]
+         ] [
+           fhir:url [ fhir:v "content"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:string ;
+             fhir:v "Lente para el embarazo"
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/translation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "lang"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "da"
+           ]
+         ] [
+           fhir:url [ fhir:v "content"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:string ;
+             fhir:v "Graviditetslinse"
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/translation"^^xsd:anyURI ]
+       ] )
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

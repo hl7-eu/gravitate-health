@@ -1,0 +1,1751 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Hyrimoz 40 mg injektionsvæske, opl. i pen (Bundle) - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.477"}
+    h3,h4,h5,h6{--heading-prefix:"16.477"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Hyrimoz 40 mg injektionsvæske, opl. i pen (Bundle)</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-37144.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-37144.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-37144.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Bundle: Hyrimoz 40 mg injektionsvæske, opl. i pen (Bundle)</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>Indlægsseddel: Information til patienten</h3>
+    <p>
+      <div>
+                     <a name="Section0"></a>
+                     <h2>  Indlægsseddel: Information til brugeren  </h2>
+                     <h3>Hyrimoz 40 mg injektionsvæske, opløsning i fyldt pen</h3>
+                     <div class="paragraph">Adalimumab</div>
+                     <div class="paragraph">
+                        <br/>▼ Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i <a href="#Section4" title="Anchor link til afsnit - punkt 4">punkt 4</a>, hvordan du indberetter bivirkninger.</div>
+                     <h3>  Læs hele denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den indeholder vigtige oplysninger.  </h3>
+                     <ul>
+                        <li>Gem indlægssedlen. Du kan få brug for at læse den igen. </li>
+                        <li>Din læge vil også udlevere et <b>patientkort</b>, der indeholder vigtige sikkerhedsinformationer, som du skal være opmærksom på før og under din behandling med Hyrimoz. Opbevar <b>patientkortet </b>på dig under din behandling og i 4 måneder efter din (eller dit barns) sidste injektion af Hyrimoz. </li>
+                        <li>Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. </li>
+                        <li>Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen til andre. Det kan være skadeligt for andre, selvom de har samme symptomer, som du har. </li>
+                        <li>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se <a href="#Section4" title="Anchor link til afsnit - punkt 4">punkt 4</a>. </li>
+                     </ul>
+                     <div class="paragraph">
+                        <br/>Se den nyeste indlægsseddel på <a href="https://www.indlaegsseddel.dk" title="null">www.indlaegsseddel.dk</a>.</div>
+                     <h3>  Oversigt over indlægssedlen  </h3>
+                     <ol>
+                        <li>Virkning og anvendelse </li>
+                        <li>Det skal du vide, før du begynder at tage Hyrimoz </li>
+                        <li>Sådan skal du tage Hyrimoz </li>
+                        <li>Bivirkninger </li>
+                        <li>Opbevaring </li>
+                        <li>Pakningsstørrelser og yderligere oplysninger </li>
+                        <li>Brugsvejledning </li>
+                     </ol>
+                  </div></p>
+    
+      
+
+        <h4>1. Virkning og anvendelse</h4>
+        <p>
+          <div>
+                        <a name="Section1"></a>
+                        <div>&nbsp;</div>
+                        <h2>1. Virkning og anvendelse</h2>
+                        <div class="paragraph">Hyrimoz indeholder det aktive stof adalimumab, et lægemiddel, som virker på din krops immunforsvar.</div>
+                        <div class="paragraph">
+                           <br/>Hyrimoz er beregnet til behandling af inflammatoriske sygdomme beskrevet nedenfor:</div>
+                        <ul>
+                           <li>reumatoid artrit </li>
+                           <li>polyartikulær juvenil idiopatisk artrit </li>
+                           <li>entesopatirelateret artrit </li>
+                           <li>ankyloserende spondylitis </li>
+                           <li>aksial spondyloartritis uden radiografiske tegn på AS </li>
+                           <li>psoriasisartrit </li>
+                           <li>psoriasis </li>
+                           <li>hidrosadenitis suppurativa </li>
+                           <li>Crohns sygdom </li>
+                           <li>colitis ulcerosa og </li>
+                           <li>ikke-infektiøs uveitis. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>Det aktive stof i Hyrimoz, adalimumab, er et monoklonalt antistof. Monoklonale antistoffer er proteiner, som binder til et bestemt mål i kroppen.</div>
+                        <div class="paragraph">
+                           <br/>Målet for adalimumab er et andet protein kaldet tumornekrosefaktor (TNFα) som er involveret i immun (forsvars) systemet og er til stede i øgede mængder ved de inflammatoriske sygdomme nævnt ovenfor. Ved at binde sig til TNFα blokerer Hyrimoz dets virkning og reducerer den inflammatoriske proces ved disse sygdomme.</div>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Reumatoid artrit</b>
+                        </div>
+                        <div class="paragraph">Reumatoid artrit er en betændelsessygdom i leddene.</div>
+                        <div class="paragraph">
+                           <br/>Hyrimoz bruges til at behandle reumatoid artrit hos voksne. Hvis du har moderat til alvorlig aktiv reumatoid artrit, vil du evt. først få andre sygdomsmodificerende antireumatiske lægemidler, såsom methotrexat. Hvis du ikke responderer tilstrækkeligt på disse lægemidler, kan du få Hyrimoz til behandling af din reumatoide artrit.</div>
+                        <div class="paragraph">
+                           <br/>Hyrimoz kan også anvendes til behandling af alvorlig aktiv og progressiv reumatoid artrit, der ikke tidligere er behandlet med methotrexat.</div>
+                        <div class="paragraph">
+                           <br/>Hyrimoz har vist sig at kunne nedsætte hastigheden for ødelæggelse af brusk og knogler i leddene forårsaget af sygdommen og at forbedre de fysiske funktioner.</div>
+                        <div class="paragraph">
+                           <br/>Normalt gives Hyrimoz sammen med methotrexat. Hvis din læge ikke mener, at behandling med methotrexat er hensigtsmæssig, kan Hyrimoz anvendes alene.</div>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Polyartikulær juvenil idiopatisk artrit og entesopatirelateret artrit<br/>
+                           </b>Polyartikulær juvenil idiopatisk artrit og entesopatirelateret artrit er sygdomme med betændelseslignende (inflammatoriske) reaktioner i leddene, som oftest viser sig første gang i barndommen.</div>
+                        <div class="paragraph">
+                           <br/>Hyrimoz bruges til at behandle polyartikulær juvenil idiopatisk artrit hos børn og unge i alderen fra 2 til 17 år og entesopatirelateret artrit hos og unge børn i alderen 6-17 år. Patienter skal først behandles med anden sygdomsdæmpende medicin såsom methotrexat. Hvis disse lægemidler ikke virker godt nok, vil patienterne få Hyrimoz til behandling af deres polyartikulær juvenil idiopatisk artrit eller entesopatirelateret artrit.</div>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Ankyloserende spondylitis og aksial spondyloartritis uden radiografiske tegn på ankyloserende spondylitis<br/>
+                           </b>Ankyloserende spondylitis og aksial spondyloartritis uden radiografiske tegn på ankyloserende spondylitis er en inflammatorisk (betændelseslignende) sygdom i rygsøjlen.</div>
+                        <div class="paragraph">
+                           <br/>Hyrimoz bruges til at behandle disse sygdomme hos voksne. Hvis du har ankyloserende spondylitis eller aksial spondyloartritis uden radiografiske tegn på ankyloserende spondylitis, vil du først få anden medicin. Hvis denne anden medicin ikke virker godt nok, kan du få Hyrimoz for at mindske symptomerne på din sygdom.</div>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Plaque-psoriasis hos voksne og børn<br/>
+                           </b>Plaque-psoriasis er en inflammatorisk hudlidelse, som forårsager røde, skællende, skorpede pletter på huden dækket med sølvfarvede skæl. Plaque-psoriasis kan også påvirke neglene. Det får dem til at smuldre, blive fortykkede og løfte sig fra neglelejet, hvilket kan være smertefuldt. Psoriasis formodes at være forårsaget af et problem med kroppens immunsystem, som fører til øget produktion af hudceller.</div>
+                        <div class="paragraph">
+                           <br/>Hyrimoz bruges også til at behandle moderat til alvorlig plaque-psoriasis hos voksne. Hyrimoz bruges også til at behandle alvorlig plaque-psoriasis hos børn og unge i alderen 4 til 17 år, hos hvem lægemidler påført huden og lysbehandlinger enten ikke har virket godt nok eller ikke er egnet.</div>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Psoriasisartrit<br/>
+                           </b>Psoriasisartrit er en betændelsessygdom i leddene, som er forbundet med psoriasis.</div>
+                        <div class="paragraph">
+                           <br/>Hyrimoz bruges til at behandle psoriasisartrit hos voksne. Hyrimoz kan nedsætte hastigheden for ødelæggelse af brusk og knogler i leddene forårsaget af sygdommen og at forbedre den fysiske funktion.</div>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Hidrosadenitis suppurativa hos voksne og unge<br/>
+                           </b>Hidrosadenitis suppurativa (kaldes somme tider svedkirtelbetændelse) er en langvarig, ofte smertefuld betændelseslignende (inflammatorisk) hudsygdom. Symptomerne kan være ømme knuder i huden (noduli) og abscesser (bylder), som kan udtømme pus.</div>
+                        <div class="paragraph">Sygdommen påvirker oftest bestemte områder af huden, såsom under brystet, i armhulerne, på inderlårene, i lyskeområdet og på balderne. Der kan også forekomme ar i de berørte områder.</div>
+                        <div class="paragraph">
+                           <br/>Hyrimoz bruges til at behandle hidrosadenitis suppurativa hos voksne og unge fra 12 år. Hyrimoz kan nedsætte antallet af knuder og bylder og lindre den smerte, som ofte er forbundet med sygdommen. Du kan blive tilbudt anden medicin først. Hvis denne anden medicin ikke virker godt nok, vil du blive tilbudt Hyrimoz.</div>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Crohns sygdom hos voksne og børn<br/>
+                           </b>Crohns sygdom er en inflammatorisk sygdom i tarmen.</div>
+                        <div class="paragraph">
+                           <br/>Hyrimoz bruges til at behandle Crohns sygdom hos voksne og børn i alderen 6-17 år. Hvis du har Crohns sygdom, vil du først få anden medicin. Hvis du ikke har tilstrækkelig effekt af denne medicin, vil du blive tilbudt Hyrimoz for at mindske sygdomstegn og symptomer på din Crohns sygdom.</div>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Colitis ulcerosa<br/>
+                           </b>Colitis ulcerosa er en inflammatorisk (betændelseslignende) sygdom i mave-tarm-kanalen.</div>
+                        <div class="paragraph">
+                           <br/>Hyrimoz bruges til at behandle colitis ulcerosa hos voksne. Hvis du har colitis ulcerosa, vil du først få anden medicin. Hvis denne anden medicin ikke virker godt nok, kan du få Hyrimoz for at mindske symptomerne på din sygdom.</div>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Ikke-infektiøs uveitis hos voksne og børn<br/>
+                           </b>Ikke-infektiøs uveitis er en betændelseslignende (inflammatorisk) sygdom, som påvirker bestemte dele af øjet. Inflammationen kan føre til nedsat syn og/eller fluer i øjet (sorte pletter eller sværm af uklarheder i øjet, som bevæger sig i synsfeltet). Hyrimoz virker ved at reducere denne inflammation.</div>
+                        <div class="paragraph">
+                           <br/>Hyrimoz bruges til at behandle</div>
+                        <ul>
+                           <li>voksne med ikke-infektiøs uveitis (regnbuehindebetændelse), som påvirker den bagerste del af øjet.</li>
+                           <li>børn fra 2 år med kronisk ikke-infektiøs uveitis med inflammation, som påvirker forreste del af øjet.</li>
+                        </ul>
+                     </div></p>
+
+      
+
+        <h4>2. Det skal du vide, før du begynder at tage Hyrimoz</h4>
+        <p>
+          <div>
+                        <a name="Section2"></a>
+                        <div>&nbsp;</div>
+                        <h2>2. Det skal du vide, før du begynder at tage Hyrimoz</h2>
+                        <h3>  Tag ikke Hyrimoz  </h3>
+                        <ul>
+                           <li>hvis du er allergisk over for adalimumab eller et af de øvrige indholdsstoffer i Hyrimoz (angivet i <a href="#Section6" title="Anchor link til afsnit - punkt 6">punkt 6</a>). </li>
+                           <li>hvis du har en alvorlig infektion, herunder tuberkulose, sepsis (blodforgiftning) eller andre opportunistiske infektioner (usædvanlige infektioner, som er forbundet med et svækket immunforsvar). Det er vigtigt, at du informerer lægen, hvis du har symptomer på infektioner, f.eks. feber, sår, træthedsfornemmelse, tandproblemer (se ”Advarsler og forsigtighedsregler”). </li>
+                           <li>hvis du lider af moderat eller alvorlig hjertesvigt. Det er vigtigt at informere lægen, hvis du har eller har haft en alvorlig hjertesygdom (se ”Advarsler og forsigtighedsregler”). </li>
+                        </ul>
+                        <h3>  Advarsler og forsigtighedsregler  </h3>
+                        <div class="paragraph">Kontakt lægen eller apotekspersonalet før anvendelse af Hyrimoz.</div>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Allergiske reaktioner</b>
+                        </div>
+                        <ul>
+                           <li>Hvis du får allergiske reaktioner med symptomer som trykken for brystet, hvæsende vejrtrækning, svimmelhed, hævelser eller udslæt, så undlad at injicere mere Hyrimoz, og kontakt straks lægen, da disse reaktioner i sjældne tilfælde kan være livstruende. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <b>
+                              <br/>Infektioner</b>
+                        </div>
+                        <ul>
+                           <li>Hvis du har en infektion, herunder langvarig eller lokaliseret infektion (f.eks. bensår), bør du kontakte din læge, før du begynder at bruge Hyrimoz. Kontakt lægen, hvis du er i tvivl. </li>
+                           <li>Infektioner kan opstå lettere under behandling med Hyrimoz. Risikoen kan stige, hvis din lungefunktion er nedsat. Disse infektioner kan være alvorlige og inkluderer tuberkulose, infektioner forårsaget af virus, svampe, parasitter eller bakterier eller andre usædvanlige infektionsorganismer og sepsis (blodforgiftning). </li>
+                           <li>I sjældne tilfælde kan disse infektioner være livstruende. Det er vigtigt at informere lægen, hvis du får symptomer som feber, sår, træthedsfornemmelse eller tandproblemer. Din læge kan anbefale midlertidig afbrydelse af behandling med Hyrimoz. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <b>
+                              <br/>Tuberkulose</b>
+                        </div>
+                        <ul>
+                           <li>Eftersom der har været rapporteret tilfælde af tuberkulose hos patienter i behandling med adalimumab, vil lægen undersøge dig for tegn og symptomer på tuberkulose, før behandling med Hyrimoz påbegyndes. Dette vil omfatte en omhyggelig gennemgang af din sygdomshistorie og screeningstests (f.eks. røntgenundersøgelse af lunger og en tuberkulintest). Disse undersøgelser og resultaterne heraf bør registreres på dit patientkort. Det er meget vigtigt at informere lægen, hvis du nogensinde selv har haft tuberkulose, eller hvis du har været i tæt kontakt med nogen, som har haft tuberkulose. Tuberkulose kan udvikles under behandlingen, også selv om du har fået forebyggende behandling mod tuberkulose. Hvis der viser sig symptomer på tuberkulose (vedvarende hoste, vægttab, sløvhed, let feber) eller anden form for infektion under eller efter behandlingen, bør lægen straks informeres. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <b>
+                              <br/>Rejse/gentagne infektioner</b>
+                        </div>
+                        <ul>
+                           <li>Fortæl din læge, hvis du har haft fast bopæl eller rejst i områder, hvor svampeinfektioner som histoplasmose, kokcidioidomyse eller blastomykose er almindelige. </li>
+                           <li>Fortæl din læge, hvis du har en sygdomshistorie med gentagne infektioner eller andre tilfælde, der forøger risikoen for infektioner. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <b>
+                              <br/>Hepatitis B-virus</b>
+                        </div>
+                        <ul>
+                           <li>Fortæl din læge, hvis du er bærer af hepatitis B-virus (HBV), hvis du har aktiv HBV-infektion eller, hvis du tror, du kan have risiko for at få HBV. Lægen vil teste dig for HBV. Adalimumab kan reaktivere HBV-infektion hos mennesker, der bærer denne virus. I sjældne tilfælde, specielt hvis du tager anden medicin, der undertrykker immunsystemet, kan reaktivering af HBV-infektion blive livstruende. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Over 65 år</b>
+                        </div>
+                        <ul>
+                           <li>Hvis du er over 65 år, kan du være mere modtagelig for infektioner, mens du tager Hyrimoz. Du og din læge bør være særligt opmærksomme på tegn på infektion mens du er i behandling med Hyrimoz. Det er vigtigt, at du fortæller lægen, hvis du får symptomer på infektion såsom feber, sår, træthedsfornemmelse eller problemer med tænderne. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <b>
+                              <br/>Operation eller tandbehandling</b>
+                        </div>
+                        <ul>
+                           <li>Hvis du skal opereres eller have tandbehandling, skal du fortælle din læge, at du tager Hyrimoz. Din læge kan anbefale midlertidig afbrydelse af Hyrimoz. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <b>
+                              <br/>Demyeliniserende sygdom</b>
+                        </div>
+                        <ul>
+                           <li>Hvis du har eller udvikler demyeliniserende sygdom (en sygdom, der påvirker det isolerende lag rundt om nerverne som dissemineret sklerose) vil din læge afgøre, om du skal have eller fortsætte med at få Hyrimoz. Fortæl straks din læge, hvis du får ændringer i dit syn, svaghed i arme eller ben eller følelsesløshed eller en snurrende fornemmelse et sted i kroppen. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <b>
+                              <br/>Vacciner</b>
+                        </div>
+                        <ul>
+                           <li>Visse vacciner indeholder levende men svage former for sygdomsfremkaldende bakterier eller vira og infektioner og bør ikke gives under Hyrimoz-behandling i tilfælde af, at de giver infektioner. Tal venligst med lægen, før du får nogen form for vaccine. Det anbefales, at børn så vidt som muligt får alle vaccinationer i overensstemmelse med gældende retningslinjer for deres alder, før behandlingen med Hyrimoz indledes. Hvis du har fået Hyrimoz, mens du var gravid, kan dit spædbarn have en højere risiko for at få en infektion i op til ca. fem måneder efter din sidste dosis under graviditeten. Det er vigtigt, at du fortæller barnets læge og andre sundhedspersoner, at du fik Hyrimoz under graviditeten, så de kan beslutte, hvornår dit spædbarn bør vaccineres. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <b>
+                              <br/>Hjertesvigt</b>
+                        </div>
+                        <ul>
+                           <li>Det er vigtigt at informere lægen, hvis du har eller har haft en alvorlig hjertesygdom. Hvis du har lettere hjertesvigt og bliver behandlet med Hyrimoz, skal status for dit hjertesvigt følges nøje af din læge. Hvis du udvikler nye eller får forværrede symptomer på hjertesvigt (f.eks. stakåndethed eller hævede fødder), skal du kontakte din læge øjeblikkeligt. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <b>
+                              <br/>Feber, blå mærker, blødning eller bleghed</b>
+                        </div>
+                        <ul>
+                           <li>Hos nogle patienter vil kroppen ikke producere tilstrækkeligt af de blodlegemer, som hjælper kroppen med at bekæmpe infektioner eller hjælper med at stoppe blødninger. Hvis du får feber, som ikke vil forsvinde, blå mærker eller bløder meget let eller er meget bleg, skal du omgående henvende dig til din læge. Din læge kan eventuelt beslutte at afbryde behandlingen. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <b>
+                              <br/>Kræft</b>
+                        </div>
+                        <ul>
+                           <li>Der er set meget sjældne tilfælde af visse kræfttyper hos patienter, som tager adalimumab eller andre TNFα-hæmmere. Patienter med mere alvorlig reumatoid artrit, som har haft sygdommen i lang tid, kan have øget risiko i forhold til gennemsnittet for at få lymfomer og leukæmi (kræfttyper, som påvirker blodlegemer og knoglemarv). Når du tager Hyrimoz, kan risikoen for at få et lymfom, leukæmi eller andre former for kræft øges. I sjældne tilfælde er der set en alvorlig type af lymfom hos patienter, som tog adalimumab. Nogle af disse patienter blev også behandlet med lægemidlerne azathioprin eller mercaptopurin. Fortæl din læge, hvis du får lægemidlerne azathioprin eller mercaptopurin sammen med Hyrimoz. </li>
+                           <li>Derudover er der set tilfælde af ikke-melanom hudkræft hos patienter, der tager adalimumab. Hvis der kommer nye områder med beskadiget hud under eller efter behandlingen, eller hvis de nuværende beskadigede områder forandrer sig, skal du fortælle det til din læge. </li>
+                           <li>Der har været tilfælde af kræft, der er forskellig fra lymfom hos patienter med en specifik lungesygdom kaldet kronisk obstruktiv lungesygdom (KOL), der var i behandling med en anden TNFα-hæmmer. Hvis du har KOL, eller ryger meget, bør du diskutere med din læge, om behandling med en TNFα-hæmmer er passende for dig. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <b>
+                              <br/>Autoimmune sygdomme</b>
+                        </div>
+                        <ul>
+                           <li>I sjældne tilfælde kan behandling med Hyrimoz resultere i lupus-lignende syndrom. Fortæl din læge hvis der opstår symptomer såsom vedvarende uforklarligt udslæt, feber, ledsmerter eller træthed. </li>
+                        </ul>
+                        <h3>  Børn og unge  </h3>
+                        <ul>
+                           <li>Giv ikke Hyrimoz til børn under 2 år med polyartikulær juvenil idiopatisk artrit. </li>
+                           <li>Giv ikke Hyrimoz til børn under 4 år med pædiatrisk plaque-psoriasis eller pædiatrisk colitis ulcerosa</li>
+                           <li>Giv ikke Hyrimoz til børn under 6 år med pædiatrisk Crohns sygdom</li>
+                           <li>Brug ikke 40 mg fyldt pen, hvis det anbefales at bruge andre doser end 40 mg</li>
+                        </ul>
+                        <h3>  Brug af anden medicin sammen med Hyrimoz  </h3>
+                        <div class="paragraph">Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin for nylig har brugt anden medicin eller planlægger at bruge anden medicin.</div>
+                        <div class="paragraph">
+                           <br/>Hyrimoz kan anvendes sammen med methotrexat eller visse sygdomsmodificerende antireumatiske lægemidler (sulfasalazin, hydroxychloroquin, leflunomid og guldpræparater til injektion), kortikosteroider eller smertemedicin, herunder non-steroide anti-inflammatoriske lægemidler (NSAIDs).</div>
+                        <div class="paragraph">
+                           <br/>På grund af øget risiko for alvorlig infektion, må du ikke tage Hyrimoz sammen med medicin, der indeholder de aktive stoffer anakinra eller abatacept. Det anbefales ikke at kombinere adalimumab såvel som andre TNF-antagonister og anakira eller abatacept, grundet den mulige øgede risiko for infektion som for eksempel alvorlige infektioner og andre mulige farmakologiske interaktioner (lægemidlers påvirkning på hinanden). Hvis du har spørgsmål, skal du tale med din læge.</div>
+                        <h3>  Graviditet og amning  </h3>
+                        <ul>
+                           <li>Du bør overveje brugen af passende prævention for at forhindre graviditet og fortsætte brugen mindst 5 måneder efter den sidste behandling med Hyrimoz. </li>
+                           <li>Hvis du er gravid, har mistanke, om at du er gravid, eller planlægger at blive gravid, skal du spørge din læge til råds, før du tager dette lægemiddel. </li>
+                           <li>Hyrimoz bør kun anvendes under graviditet, hvis det er tydeligvis er nødvendigt. </li>
+                           <li>Der var ifølge et graviditetsstudie ikke højere risiko for misdannelser, når moderen havde fået adalimumab under graviditeten, ved sammenligning med mødre med samme sygdom, som ikke havde fået adalimumab. </li>
+                           <li>Hyrimoz kan anvendes under amning. </li>
+                           <li>Hvis du får Hyrimoz, mens du er gravid, kan dit spædbarn have en højere risiko for at få en infektion. </li>
+                           <li>Det er vigtigt, at du fortæller barnets læge og andre sundhedspersoner om din brug af Hyrimoz under graviditeten, før dit barn får nogen vaccinationer. For mere information om vacciner, se afsnittet "Advarsler og forsigtighedsregler". </li>
+                        </ul>
+                        <h3>  Trafik- og arbejdssikkerhed  </h3>
+                        <div class="paragraph">Hyrimoz kan i mindre grad påvirke din evne til at færdes i trafikken, cykle eller betjene maskiner. Du kan få synsforstyrrelser og en fornemmelse af, at rummet drejer rundt (svimmelhed), efter du har taget Hyrimoz.</div>
+                        <h3>  Hyrimoz indeholder natrium  </h3>
+                        <div class="paragraph">Denne medicin indeholder mindre end 1 mmol natrium (23 mg) pr. 0,8 ml dosis, dvs. den er i det væsentlige natriumfri.</div>
+                     </div></p>
+
+      
+
+        <h4>3. Sådan skal du tage Hyrimoz</h4>
+        <p>
+          <div>
+                        <a name="Section3"></a>
+                        <div>&nbsp;</div>
+                        <h2>3. Sådan skal du tage Hyrimoz</h2>
+                        <div class="paragraph">Tag altid lægemidlet nøjagtig efter lægens anvisning. Er du i tvivl, så spørg lægen eller apotekspersonalet.</div>
+                        <div class="paragraph">
+                           <br/>Hyrimoz fås som en 40 mg pen samt som 20 mg og 40 mg fyldte injektionssprøjter, så patienter kan administrere en fuld dosis på 20 mg eller 40 mg</div>
+                        <div class="paragraph">&nbsp;</div>
+                        <table border="1" cellpadding="4" cellspacing="0" width="100%" style="border-collapse:collapse;">
+                           <colgroup></colgroup>
+                           <tr>
+                              <td colspan="3" style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Reumatoid artrit, psoriasisartrit, ankyloserende spondylitis eller aksial spondyloartritis uden radiografiske tegn på ankyloserende spondylitis</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Alder og kropsvægt</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Hvor meget og hvor ofte skal det tages?</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Bemærkninger</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Voksne</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">40 mg hver anden uge som en enkelt dosis</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Ved reumatoid artrit fortsættes methotrexat mens Hyrimoz bruges. Hvis din læge beslutter, at methotrexat ikke er passende, kan Hyrimoz gives alene.</div>
+                                 <div class="paragraph">
+                                    <br/>Hvis du har reumatoid artrit, og du ikke får methotrexat sammen med din Hyrimoz-behandling, kan lægen beslutte at give dig 40 mg Hyrimoz hver uge eller 80 mg hver anden uge.</div>
+                              </td>
+                           </tr>
+                        </table>
+                        <div class="paragraph">&nbsp;</div>
+                        <table border="1" cellpadding="4" cellspacing="0" width="100%" style="border-collapse:collapse;">
+                           <colgroup></colgroup>
+                           <tr>
+                              <td colspan="3" style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Polyartikulær juvenil idiopatisk artrit</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Alder og kropsvægt</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Hvor meget og hvor ofte skal det tages?</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Bemærkninger</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Børn, unge og voksne fra 2 år, som vejer 30 kg eller mere</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">40 mg hver anden uge</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Ikke relevant</div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Børn, unge og voksne fra 2 år, som vejer 10 kg til under 30 kg</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">20 mg hver anden uge</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Ikke relevant</div>
+                              </td>
+                           </tr>
+                        </table>
+                        <div class="paragraph">&nbsp;</div>
+                        <table border="1" cellpadding="4" cellspacing="0" width="100%" style="border-collapse:collapse;">
+                           <colgroup></colgroup>
+                           <tr>
+                              <td colspan="3" style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Entesopatirelateret artrit</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Alder og kropsvægt</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Hvor meget og hvor ofte skal det tages?</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Bemærkninger</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Børn, unge og voksne fra 6 år, som vejer 30 kg eller mere</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">40 mg hver anden uge</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Ikke relevant</div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Børn, unge og voksne fra 6 år, som vejer 15 kg til under 30 kg</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">20 mg hver anden uge</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Ikke relevant</div>
+                              </td>
+                           </tr>
+                        </table>
+                        <div class="paragraph">&nbsp;</div>
+                        <table border="1" cellpadding="4" cellspacing="0" width="100%" style="border-collapse:collapse;">
+                           <colgroup></colgroup>
+                           <tr>
+                              <td colspan="3" style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Psoriasis</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Alder og kropsvægt</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Hvor meget og hvor ofte skal det tages?</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Bemærkninger</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Voksne</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Første dosis er 80 mg (som to 40 mg injektioner på én dag), efterfulgt af 40 mg givet hver anden uge med begyndelse én uge efter den første dosis.</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Du skal fortsætte med at injicere Hyrimoz så længe, som din læge har fortalt dig. Hvis denne dosis ikke virker godt nok, kan din læge øge dosis til 40 mg hver uge eller 80 mg hver anden uge.</div>
+                              </td>
+                           </tr>
+                        </table>
+                        <div class="paragraph">&nbsp;</div>
+                        <table border="1" cellpadding="4" cellspacing="0" width="100%" style="border-collapse:collapse;">
+                           <colgroup></colgroup>
+                           <tr>
+                              <td colspan="3" style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Plaque-psoriasis</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Alder og kropsvægt</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Hvor meget og hvor ofte skal det tages?</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Bemærkninger</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Børn og unge fra 4 til 17 år, som vejer 30 kg eller mere</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Første dosis er 40 mg, efterfulgt af 40 mg én uge senere.<br/>
+                                    <br/>Derefter er den sædvanlige dosis 40 mg hver anden uge.</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Ikke relevant</div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Børn og unge fra 4 til 17 år, som vejer 15 kg til under 30 kg</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Første dosis er 20 mg, efterfulgt af 20 mg én uge senere.<br/>
+                                    <br/>Derefter er den sædvanlige dosis 20 mg hver anden uge.</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Ikke relevant</div>
+                              </td>
+                           </tr>
+                        </table>
+                        <div class="paragraph">&nbsp;</div>
+                        <table border="1" cellpadding="4" cellspacing="0" width="100%" style="border-collapse:collapse;">
+                           <colgroup></colgroup>
+                           <tr>
+                              <td colspan="3" style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Hidradenitis suppurativa</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Alder og kropsvægt</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Hvor meget og hvor ofte skal det tages?</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Bemærkninger</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Voksne</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Første dosis er 160 mg (som fire 40 mg injektioner på én dag eller to 40 mg injektioner pr. dag i to fortløbende dage), efterfulgt af en 80 mg dosis (som to 40 mg injektioner på samme dag) to uger senere.</div>
+                                 <div class="paragraph">
+                                    <br/>Efter yderligere to uger fortsættes med en dosis på 40 mg hver uge eller 80 mg hver anden uge som ordineret af din læge.</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Det anbefales, at du dagligt bruger et antiseptisk vaskemiddel på de berørte områder.</div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Unge fra 12 til 17 år, der vejer 30 kg eller mere</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Første dosis er 80 mg (som to 40 mg injektioner på én dag), efterfulgt af 40 mg hver anden uge med begyndelse én uge senere.</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Hvis denne dosis ikke virker godt nok, kan din læge øge dosis til 40 mg hver uge eller 80 mg hver anden uge.</div>
+                                 <div class="paragraph">
+                                    <br/>Det anbefales, at du dagligt bruger et antiseptisk vaskemiddel på de berørte områder.</div>
+                              </td>
+                           </tr>
+                        </table>
+                        <div class="paragraph">&nbsp;</div>
+                        <table border="1" cellpadding="4" cellspacing="0" width="100%" style="border-collapse:collapse;">
+                           <colgroup></colgroup>
+                           <tr>
+                              <td colspan="3" style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Crohns sygdom</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Alder og kropsvægt</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Hvor meget og hvor ofte skal det tages?</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Bemærkninger</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Voksne</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Første dosis er 80 mg (som to 40 mg injektioner på én dag), efterfulgt af 40 mg hver anden uge med begyndelse to uger senere.</div>
+                                 <div class="paragraph">
+                                    <br/>Hvis der er brug for et hurtigere respons, kan lægen ordinere en første dosis på 160 mg (som fire 40 mg injektioner på én dag eller to 40 mg injektioner pr. dag i to fortløbende dage), efterfulgt af 80 mg (som to 40 mg injektioner på én dag) to uger senere.</div>
+                                 <div class="paragraph">
+                                    <br/>Derefter er den sædvanlige dosis 40 mg hver anden uge.</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Hvis denne dosis ikke virker godt nok, kan din læge øge dosis til 40 mg hver uge eller 80 mg hver anden uge.</div>
+                              </td>
+                           </tr>
+                        </table>
+                        <div class="paragraph">&nbsp;</div>
+                        <table border="1" cellpadding="4" cellspacing="0" width="100%" style="border-collapse:collapse;">
+                           <colgroup></colgroup>
+                           <tr>
+                              <td colspan="3" style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Crohns sygdom hos børn</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Alder og kropsvægt</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Hvor meget og hvor ofte skal det tages?</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Bemærkninger</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Børn og unge fra 6 til 17 år, som vejer 40 kg eller mere</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Første dosis er 80 mg (som to 40 mg injektioner på én dag), efterfulgt af 40 mg hver anden uge med begyndelse to uger senere.</div>
+                                 <div class="paragraph">
+                                    <br/>Hvis der er brug for et hurtigere respons, kan lægen ordinere en første dosis på 160 mg (som fire 40 mg injektioner på én dag eller to 40 mg injektioner pr. dag i to fortløbende dage), efterfulgt af 80 mg (som to 40 mg injektioner på én dag) to uger senere.</div>
+                                 <div class="paragraph">
+                                    <br/>Derefter er den sædvanlige dosis 40 mg hver anden uge.</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Hvis denne dosis ikke virker godt nok, kan dit barns læge øge dosis til 40 mg hver uge eller 80 mg hver anden uge.</div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Børn og unge fra 6 til 17 år, som vejer under 40 kg</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Første dosis er 40 mg, efterfulgt af 20 mg hver anden uge med begyndelse to uger senere.</div>
+                                 <div class="paragraph">
+                                    <br/>Hvis der er brug for et hurtigere respons, kan lægen ordinere en første dosis på 80 mg (som to 40 mg injektioner på én dag), efterfulgt af 40 mg to uger senere.</div>
+                                 <div class="paragraph">
+                                    <br/>Derefter er den sædvanlige dosis 20 mg hver anden uge.</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Hvis denne dosis ikke virker godt nok, kan dit barns læge øge hyppigheden af dosis til 20 mg hver uge.</div>
+                              </td>
+                           </tr>
+                        </table>
+                        <div class="paragraph">&nbsp;</div>
+                        <table border="1" cellpadding="4" cellspacing="0" width="100%" style="border-collapse:collapse;">
+                           <colgroup></colgroup>
+                           <tr>
+                              <td colspan="3" style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Colitis ulcerosa</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Alder og kropsvægt</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Hvor meget og hvor ofte skal det tages?</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Bemærkninger</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Voksne</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Første dosis er 160 mg (som fire 40 mg injektioner på én dag eller som to 40 mg injektioner pr. dag i to fortløbende dage), efterfulgt af 80 mg (som to 40 mg injektioner på én dag) to uger senere.</div>
+                                 <div class="paragraph">
+                                    <br/>Derefter er den sædvanlige dosis 40 mg hver anden uge.</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Hvis denne dosis ikke virker godt nok, kan din læge øge dosis til 40 mg hver uge eller 80 mg hver anden uge.</div>
+                              </td>
+                           </tr>
+                        </table>
+                        <div class="paragraph">&nbsp;</div>
+                        <table border="1" cellpadding="4" cellspacing="0" width="100%" style="border-collapse:collapse;">
+                           <colgroup></colgroup>
+                           <tr>
+                              <td colspan="3" style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Ikke-infektiøs uveitis</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Alder og kropsvægt</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Hvor meget og hvor ofte skal det tages?</b>
+                                 </div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">
+                                    <b>Bemærkninger</b>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Voksne</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Første dosis er 80 mg (som to 40 mg injektioner), efterfulgt af 40 mg hver anden uge med begyndelse én uge efter den første dosis.</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Ved ikke-infektiøs uveitis kan behandling med kortikosteroider eller anden medicin, der påvirker immunsystemet, fortsættes under behandling med Hyrimoz. Hyrimoz kan også gives alene.</div>
+                                 <div class="paragraph">
+                                    <br/>Du skal fortsætte med at injicere Hyrimoz så længe, som din læge har fortalt dig.</div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Børn og unge fra 2 år, som vejer 30 kg eller mere</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">40 mg hver anden uge sammen med methotrexat</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Lægen kan også ordinere en første dosis på 80 mg, som kan gives én uge før start af den sædvanlige dosis.</div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Børn og unge fra 2 år, som vejer under 30 kg</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">20 mg hver anden uge sammen med methotrexat</div>
+                              </td>
+                              <td style="width:33%;" valign="top" align="left">
+                                 <div class="paragraph">Lægen kan også ordinere en første dosis på 40 mg, som kan gives én uge før start af den sædvanlige dosis.</div>
+                              </td>
+                           </tr>
+                        </table>
+                        <div class="paragraph">&nbsp;</div>
+                        <h3>  Metode og indgivelsesvej  </h3>
+                        <div class="paragraph">Hyrimoz indgives ved injektion under huden (subkutan injektion).</div>
+                        <div class="paragraph">
+                           <br/>Detaljeret vejledning om, hvordan Hyrimoz injiceres, gives i <a href="#Section0" title="Anchor link til afsnit - punkt 7">punkt 7</a> ”<b>Brugsvejledning</b>”.</div>
+                        <h3>  Hvis du har taget for meget Hyrimoz  </h3>
+                        <div class="paragraph">Hvis du ved en fejltagelse injicerer Hyrimoz hyppigere end forskrevet, skal du kontakte lægen eller apotekspersonalet og forklare, at du har taget mere medicin end nødvendigt. Tag altid medicinens ydre karton med, også selvom den er tom.</div>
+                        <h3>  Hvis du har glemt at tage Hyrimoz  </h3>
+                        <div class="paragraph">Hvis du glemmer at give dig selv en injektion, skal du injicere den næste dosis af Hyrimoz, så snart du kommer i tanke om det. Fortsæt dernæst med at injicere næste dosis som planlagt på den oprindeligt fastlagte dag, som om du ikke havde glemt en dosis.</div>
+                        <h3>  Hvis du holder op med at tage Hyrimoz  </h3>
+                        <div class="paragraph">Beslutningen om at stoppe med at bruge Hyrimoz skal diskuteres med din læge. Dine symptomer kan komme igen efter ophør af behandlingen.</div>
+                        <div class="paragraph">
+                           <br/>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</div>
+                     </div></p>
+
+      
+
+        <h4>4. Bivirkninger</h4>
+        <p>
+          <div>
+                        <a name="Section4"></a>
+                        <div>&nbsp;</div>
+                        <h2>4. Bivirkninger</h2>
+                        <div class="paragraph">Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De fleste bivirkninger er af let til moderat grad. Der kan dog forekomme mere alvorlige bivirkninger, som kræver behandling. Bivirkninger kan forekomme op til 4 måneder eller mere efter den sidste</div>
+                        <div class="paragraph">Hyrimoz-injektion.</div>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Søg straks lægehjælp</b>, hvis du bemærker følgende tegn på en allergisk reaktion eller hjertesvigt:</div>
+                        <ul>
+                           <li>alvorligt udslæt eller nældefeber </li>
+                           <li>hævelser i ansigt, hænder eller fødder </li>
+                           <li>besvær med at trække vejret eller synke </li>
+                           <li>stakåndethed ved fysisk anstrengelse eller når du ligger ned, eller hævede fødder. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Kontakt lægen så hurtigt som muligt</b>, hvis du bemærker et eller flere af følgende symptomer:</div>
+                        <ul>
+                           <li>tegn og symptomer på infektion, såsom feber, følelse af sygdom, sår, tandproblemer eller smerter ved vandladning, følelse af svaghed eller træthed eller hoste; </li>
+                           <li>symptomer på nerveproblemer som snurren og prikken, følelsesløshed, dobbeltsyn eller svaghed i arme og ben; </li>
+                           <li>tegn på hudkræft som en bule eller åbent sår, som ikke vil hele </li>
+                           <li>tegn og symptomer, som kan tyde på blodsygdomme såsom vedvarende feber, blå mærker, blødning, bleghed. </li>
+                        </ul>
+                        <h3>  Følgende bivirkninger er observeret ved brug af adalimumab:  </h3>
+                        <div class="paragraph">
+                           <b>Meget almindelige </b>(kan påvirke flere end 1 ud af 10 personer)</div>
+                        <ul>
+                           <li>reaktioner ved injektionsstedet (herunder smerter, hævelse, rødme eller kløe) </li>
+                           <li>luftvejsinfektioner (inklusive forkølelse, løbende næse, bihulebetændelse, lungebetændelse) </li>
+                           <li>hovedpine </li>
+                           <li>mavesmerter </li>
+                           <li>kvalme og opkastning </li>
+                           <li>udslæt </li>
+                           <li>muskelsmerter. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Almindelige </b>(kan påvirke op til 1 ud af 10 personer)</div>
+                        <ul>
+                           <li>alvorlige infektioner (inklusive blodforgiftning og influenza) </li>
+                           <li>tarminfektioner (inklusive betændelse i mave og tarm) </li>
+                           <li>hudinfektioner (inklusive bindevævsbetændelse og helvedessild) </li>
+                           <li>øreinfektioner </li>
+                           <li>infektioner i munden (inklusive tandinfektioner og forkølelsessår) </li>
+                           <li>infektioner i kønsvejene </li>
+                           <li>urinvejsinfektion </li>
+                           <li>svampeinfektioner </li>
+                           <li>ledinfektioner </li>
+                           <li>godartede svulster </li>
+                           <li>hudkræft </li>
+                           <li>allergiske reaktioner (inklusive sæsonbestemt allergi) </li>
+                           <li>dehydrering (væskemangel) </li>
+                           <li>humørsvingninger (inklusive depression) </li>
+                           <li>angst </li>
+                           <li>søvnbesvær </li>
+                           <li>følelsesforstyrrelser såsom snurren, prikken eller følelsesløshed </li>
+                           <li>migræne </li>
+                           <li>symptomer på nerverodskompression (inklusive smerter i den nederste del af ryggen og bensmerter) </li>
+                           <li>synsforstyrrelser </li>
+                           <li>betændelse i øjet </li>
+                           <li>betændelse i øjenlåget og hævede øjne </li>
+                           <li>vertigo (fornemmelse af at snurre rundt) </li>
+                           <li>fornemmelse af hurtige hjerteslag </li>
+                           <li>højt blodtryk </li>
+                           <li>rødme </li>
+                           <li>blodansamling </li>
+                           <li>hoste </li>
+                           <li>astma </li>
+                           <li>kortåndethed </li>
+                           <li>blødning i mave-tarm-kanalen </li>
+                           <li>sure opstød (fordøjelsesbesvær, oppustethed, halsbrand) </li>
+                           <li>syrereflukssygdom </li>
+                           <li>Sjøgrens syndrom (inklusive tørre øjne og tør mund) </li>
+                           <li>kløe </li>
+                           <li>kløende udslæt </li>
+                           <li>blå mærker </li>
+                           <li>inflammation i huden (såsom eksem) </li>
+                           <li>fingernegle og tånegle knækker </li>
+                           <li>øget svedtendens </li>
+                           <li>hårtab </li>
+                           <li>nye udbrud eller forværring af psoriasis </li>
+                           <li>muskelspasmer </li>
+                           <li>blod i urinen </li>
+                           <li>nyreproblemer </li>
+                           <li>brystsmerter </li>
+                           <li>ødem (væskeophobning i kroppen, som får det påvirkede væv til at hæve) </li>
+                           <li>feber </li>
+                           <li>nedsat antal blodplader med forøget risiko for blødning eller blå mærker </li>
+                           <li>forringet sårheling. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Ikke almindelig </b>(kan påvirke op til 1 ud af 100 personer)</div>
+                        <ul>
+                           <li>usædvanlige infektioner (som inkluderer tuberkulose og andre infektioner), som forekommer, når modstandskraften mod sygdom er nedsat) </li>
+                           <li>neurologiske infektioner (inklusive viral meningitis) </li>
+                           <li>øjeninfektioner </li>
+                           <li>bakterieinfektioner </li>
+                           <li>irritation og infektion i tyktarmen (diverticulitis) </li>
+                           <li>kræft inklusive kræft, der rammer lymfesystemet (lymfom) og modermærkekræft </li>
+                           <li>sygdomme i immunsystemet, som kan påvirke lungerne, huden og lymfeknuderne (viser sig oftest som en sygdom, der kaldes sarkoidose) </li>
+                           <li>vaskulitis (betændelse i blodkar) </li>
+                           <li>rysten </li>
+                           <li>neuropati (nerveskade) </li>
+                           <li>slagtilfælde </li>
+                           <li>dobbeltsyn </li>
+                           <li>høretab, summen for ørerne </li>
+                           <li>fornemmelse af uregelmæssige hjerteslag såsom oversprungne slag </li>
+                           <li>hjerteproblemer, som kan forårsage kortåndethed og hævede ankler </li>
+                           <li>hjertetilfælde </li>
+                           <li>sæklignende udposning på væggen af en større pulsåre (aneurisme), betændelse og blodprop i en blodåre, tilstopning af et blodkar </li>
+                           <li>lungesygdom, som forårsager kortåndethed (inklusive inflammation) </li>
+                           <li>blodprop i lungerne (lungeemboli) </li>
+                           <li>unormal ophobning af væske mellem lungehinderne (pleuraeffusion) </li>
+                           <li>inflammation i bugspytkirtlen, som kan give alvorlige smerter i maven og ryggen </li>
+                           <li>synkebesvær </li>
+                           <li>hævelse i ansigtet </li>
+                           <li>inflammation i galdeblæren, galdesten </li>
+                           <li>fedtlever (ophobning af fedt i levercellerne) </li>
+                           <li>nattesved </li>
+                           <li>ar </li>
+                           <li>unormal muskelnedbrydning </li>
+                           <li>systemisk lupus erythematosus (en immunforstyrrelse, der indbefatter betændelse i huden, hjertet, lungerne, leddene og andre organsystemer) </li>
+                           <li>søvnafbrydelser </li>
+                           <li>impotens </li>
+                           <li>inflammationer. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Sjældne </b>(kan påvirke op til 1 ud af 1.000 personer)</div>
+                        <ul>
+                           <li>leukæmi (kræft, som påvirker blod og knoglemarv) </li>
+                           <li>alvorlig allergisk reaktion med shock </li>
+                           <li>dissemineret sklerose </li>
+                           <li>nerveforstyrrelser (såsom inflammation (betændelse) i synsnerven og Guillain-Barré syndrom, en sygdom, som kan forårsage muskelsvaghed, unormal følesans, prikken i arme og overkrop) </li>
+                           <li>hjertestop </li>
+                           <li>lungefibrose (dannelse af arvæv i lungerne) </li>
+                           <li>perforering af tarmen (hul i tarmvæggen) </li>
+                           <li>hepatit (leverbetændelse) </li>
+                           <li>genopblussen af hepatitis B-infektion </li>
+                           <li>autoimmun hepatit (leverbetændelse forårsaget af kroppens eget immunsystem) </li>
+                           <li>inflammation/betændelse i hudens blodkar (kutan vaskulitis) </li>
+                           <li>Stevens-Johnsons syndrom (livstruende reaktion med influenza-lignende symptomer og udslæt med blærer) </li>
+                           <li>ødem (hævelse) i ansigtet forbundet med allergiske reaktioner </li>
+                           <li>betændelseslignende hududslæt (erythema multiforme) </li>
+                           <li>lupus-lignende syndrom </li>
+                           <li>angioødem (lokal hævelse af huden) </li>
+                           <li>lichenoid hudreaktion (kløende rødligt-lilla hududslæt). </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Ikke kendt </b>(hyppigheden kan ikke estimeres ud fra forhåndenværende data)</div>
+                        <ul>
+                           <li>hepatosplenisk T-cellelymfom (en sjælden form for blodkræft, som ofte er dødelig) </li>
+                           <li>Merkelcellekarcinom (en type hudkræft) </li>
+                           <li>Kaposis sarkom, en sjælden type kræft, der er forbundet med infektion med humant herpesvirus 8. Kaposis sarkom forekommer oftest som lilla læsioner på huden </li>
+                           <li>leversvigt </li>
+                           <li>forværring af en tilstand, som kaldes dermatomyositis (ses som hududslæt ledsaget af muskelsvaghed) </li>
+                           <li>vægtforøgelse (for de fleste patienters vedkommende var vægtforøgelsen lille). </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>Nogle bivirkninger, som er set med adalimumab har ikke symptomer og kan kun opdages ved blodprøver. Disse inkluderer:</div>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Meget almindelige </b>(kan påvirke flere end 1 ud af 10 personer)</div>
+                        <ul>
+                           <li>nedsat antal hvide blodlegemer </li>
+                           <li>nedsat antal røde blodlegemer </li>
+                           <li>forhøjede lipider i blodet </li>
+                           <li>forhøjede leverenzymer. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Almindelige </b>(kan påvirke op til 1 ud af 10 personer)</div>
+                        <ul>
+                           <li>forhøjet antal hvide blodlegemer </li>
+                           <li>nedsat antal blodplader </li>
+                           <li>forhøjet urinsyre i blodet </li>
+                           <li>unormale blodmålinger af natrium </li>
+                           <li>lave blodmålinger af calcium </li>
+                           <li>lave blodmålinger af fosfat </li>
+                           <li>højt blodsukker </li>
+                           <li>høje blodmålinger af lactatdehydrogenase </li>
+                           <li>tilstedeværelse af autoantistoffer i blodet </li>
+                           <li>lavt kalium i blodet. </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Ikke almindelige </b>(kan påvirke op til 1 ud af 100 personer):</div>
+                        <ul>
+                           <li>forhøjede bilirubinmålinger (leverblodtest) </li>
+                        </ul>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Sjældne </b>(kan påvirke op til 1 ud af 1.000 personer):</div>
+                        <ul>
+                           <li>nedsat antal hvide blodlegemer, røde blodlegemer og blodplader. </li>
+                        </ul>
+                        <h3>  Indberetning af bivirkninger  </h3>
+                        <div class="paragraph">Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel.</div>
+                        <div class="paragraph">
+                           <br/>Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via de oplysninger der fremgår herunder. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel.</div>
+                        <div class="paragraph">
+                           <br/>Lægemiddelstyrelsen </div>
+                        <div class="paragraph">Axel Heides Gade 1 </div>
+                        <div class="paragraph">DK-2300 København S</div>
+                        <div class="paragraph">Websted: www.meldenbivirkning.dk</div>
+                        <div class="paragraph">
+                           <a href="https://www.meldenbivirkning.dk" title="Meld en bivirkning">
+								Meld en bivirkning.
+							</a>
+                        </div>
+                     </div></p>
+
+      
+
+        <h4>5. Opbevaring</h4>
+        <p>
+          <div>
+                        <a name="Section5"></a>
+                        <div>&nbsp;</div>
+                        <h2>5. Opbevaring</h2>
+                        <div class="paragraph">Opbevar lægemidlet utilgængeligt for børn.</div>
+                        <div class="paragraph">
+                           <br/>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten/blisterpakningen/pakningen efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned.</div>
+                        <div class="paragraph">
+                           <br/>Opbevares i køleskab (2 - 8°C). Må ikke nedfryses. </div>
+                        <div class="paragraph">
+                           <br/>Opbevar den fyldte pen i den ydre karton for at beskytte mod lys.</div>
+                        <div class="paragraph">
+                           <br/>
+                           <b>Alternativ opbevaring:</b>
+                        </div>
+                        <div class="paragraph">Hvis det er nødvendigt (f.eks. når du rejser), kan Hyrimoz opbevares ved stuetemperatur (op til 25°C) i en periode på højst 21 dage - sørg for at beskytte det mod lys. Når din fyldte pen er taget ud af køleskabet og opbevaret ved stuetemperatur, <b>skal pennen bruges indenfor 21 dage eller kasseres</b>, også selv om den senere lægges tilbage i køleskabet. Du skal registrere den dato, hvor din fyldte pen først tages ud af køleskabet, og den dato efter hvilken, den skal kasseres.</div>
+                        <div class="paragraph">
+                           <br/>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.</div>
+                     </div></p>
+
+      
+
+        <h4>6. Pakningsstørrelser og yderligere oplysninger</h4>
+        <p>
+          <div>
+                        <a name="Section6"></a>
+                        <div>&nbsp;</div>
+                        <h2>6. Pakningsstørrelser og yderligere oplysninger</h2>
+                        <h3>  Hyrimoz indeholder  </h3>
+                        <ul>
+                           <li>Aktivt stof: adalimumab. Hver fyldt pen indeholder 40 mg adalimumab i 0,8 ml opløsning. </li>
+                           <li>Øvrige indholdsstoffer: adipinsyre, citronsyremonohydrat, natriumchlorid, mannitol, polysorbat 80, saltsyre, natriumhydroxid og vand til injektionsvæsker. </li>
+                        </ul>
+                        <h3>  Udseende og pakningsstørrelser  </h3>
+                        <div class="paragraph">Hyrimoz 40 mg injektionsvæske, opløsning (injektion) i fyldt pen leveres som en 0,8 ml klar til lettere opaliserende, farveløs til let gullig injektionsvæske.</div>
+                        <div class="paragraph">
+                           <br/>Hyrimoz leveres i en fyldt engangssprøjte samlet til en trekantformet pen med transparent vindue og etiket (SensoReady pen). Sprøjten inden i pennen er lavet af type I-glas med en kanyle i rustfrit stål og en indre kanylehætte i gummi indeholdende 0,8 ml injektionsvæske.</div>
+                        <div class="paragraph">
+                           <br/>Pakningerne indeholder 1 og 2 fyldte penne med Hyrimoz.<br/>Multipakninger indeholder 6 (3 pakninger a 2) fyldte penne med Hyrimoz.</div>
+                        <div class="paragraph">
+                           <br/>Ikke alle pakningsstørrelser er nødvendigvis markedsført.<br/>Hyrimoz findes som en fyldt injektionssprøjte og en fyldt pen (SensoReady).</div>
+                     </div></p>
+
+      
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Hyrimoz inj, oppl 40 mg/penn
+  </h4>
+
+  
+  
+    LEGEMIDDELMERKEVAREID:
+    <b>
+      ID_1664C6BC-1486-4845-84F2-E3449D87C8CF
+    </b>
+    
+  
+  <hr>
+  
+  <p>Full name: <b>Hyrimoz inj, oppl 40 mg/penn</b></p>
+  
+
+
+  
+  
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b></b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b></b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 1</p>
+          
+  <p>LEGEMIDDELPAKNINGID:
+  <b>
+    ID_2435E692-0ED8-4423-8B8C-9E8676D1C7CA
+  </b>
+  </p>
+
+  <p>VARENUMMER:
+  <b>
+    159199
+  </b>
+  </p>
+
+  <p>VNR:
+  <b>
+    371157
+  </b>
+  </p>
+
+<p>
+  Description:
+  
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b> </b>
+  
+  
+</p>
+
+<p>Containing:
+  
+
+
+
+
+  
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+  
+
+
+
+  <!-- <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Hyrimoz inj, oppl 40 mg/penn
+  </h4>
+
+  
+  
+  
+  
+    LEGEMIDDELMERKEVAREID:
+    <b>
+      ID_1664C6BC-1486-4845-84F2-E3449D87C8CF
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b></b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 1</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          LEGEMIDDELPAKNINGID:
+          <b>
+            ID_2435E692-0ED8-4423-8B8C-9E8676D1C7CA
+          </b>
+        
+          VARENUMMER:
+          <b>
+            159199
+          </b>
+        
+          VNR:
+          <b>
+            371157
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          </b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+  
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+    <!-- insert notes if present -->
+  
+
+
+
+
+            <!-- /inner-wrapper -->
+          <!-- /row -->
+        <!-- /container -->
+      <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  
+
+</p></div></hr></hr></hr></div></div></div></div></div></div></body></html>

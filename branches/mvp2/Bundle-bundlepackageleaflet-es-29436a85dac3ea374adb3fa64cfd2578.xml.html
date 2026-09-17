@@ -1,0 +1,1327 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>ePI document Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet for language es - XML Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.104"}
+    h3,h4,h5,h6{--heading-prefix:"16.104"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet for language es</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 7" class="col-12">
+  <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-bundlepackageleaflet-es-29436a85dac3ea374adb3fa64cfd2578.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-29436a85dac3ea374adb3fa64cfd2578.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-29436a85dac3ea374adb3fa64cfd2578.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: ePI document Bundle for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet for language es - XML Representation</h2>
+
+
+<p><a href="Bundle-bundlepackageleaflet-es-29436a85dac3ea374adb3fa64cfd2578.xml" no-download="true">Raw xml</a> | <a download="null" href="Bundle-bundlepackageleaflet-es-29436a85dac3ea374adb3fa64cfd2578.xml">Download</a></p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <pre style="white-space: pre; text-wrap: nowrap;" class="xml"><code style="white-space: pre; text-wrap: nowrap;">
+
+&lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle">Bundle</a> xmlns="http://hl7.org/fhir"&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="bundlepackageleaflet-es-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"/&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="es"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://www.gravitatehealth.eu/sid/doc"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="79963"/&gt;
+  &lt;/identifier&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="document"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.timestamp">timestamp</a> <a href="http://hl7.org/fhir/R5/datatypes.html#instant">value</a>="2023-06-27T10:09:22Z"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-af8d2f6e4772c29a8ef9fbb165e80d28"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition">Composition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="composition-es-af8d2f6e4772c29a8ef9fbb165e80d28"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="es"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es"&gt;&lt;a name="Composition_composition-es-af8d2f6e4772c29a8ef9fbb165e80d28"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name="composition-es-af8d2f6e4772c29a8ef9fbb165e80d28"&gt; &lt;/a&gt;&lt;a name="hccomposition-es-af8d2f6e4772c29a8ef9fbb165e80d28"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;Resource Composition &amp;quot;composition-es-af8d2f6e4772c29a8ef9fbb165e80d28&amp;quot;  (Language &amp;quot;es&amp;quot;) &lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html"&gt;Composition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/rmswi/&lt;/code&gt;/b7cf2cfd2bdde8f0293079dece00355e&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Package Leaflet &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: Raw &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="CodeSystem-epicategory-cs.html"&gt;Category of EPI&lt;/a&gt;#R)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-02-16 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;a href="#Organization_mah-c2a5378488511eaedce26dde272c2290"&gt;See above (Organization/mah-c2a5378488511eaedce26dde272c2290)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: TEST PURPOSES ONLY - HIPÉRICO ARKOPHARMA cápsulas duras&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="display: none"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="display: none"&gt;*&lt;/td&gt;&lt;td&gt;Official &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html"&gt;Composition Attestation Mode&lt;/a&gt;#official)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;2022-02-16 13:28:17+0000&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi/"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="b7cf2cfd2bdde8f0293079dece00355e"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="final"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi/"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000155538"/&gt;
+          &lt;/coding&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Package Leaflet"/&gt;
+        &lt;/type&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.category">category</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+                    <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="R"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Raw"/&gt;
+          &lt;/coding&gt;
+        &lt;/category&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.subject">subject</a>&gt;<a style="color: Maroon" href="MedicinalProductDefinition-mpaf8d2f6e4772c29a8ef9fbb165e80d28.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/&gt;
+        &lt;/subject&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.date">date</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>="2022-02-16T13:28:17Z"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.author">author</a>&gt;<a style="color: Maroon" href="Organization-mah-c2a5378488511eaedce26dde272c2290.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Organization/mah-c2a5378488511eaedce26dde272c2290"/&gt;
+        &lt;/author&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.title">title</a>
+               <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="TEST PURPOSES ONLY - HIPÉRICO ARKOPHARMA cápsulas duras"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester">attester</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.mode">mode</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+                      <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.org/fhir/composition-attestation-mode"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="official"/&gt;
+            &lt;/coding&gt;
+          &lt;/mode&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.time">time</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>="2022-02-16T13:28:17Z"/&gt;
+        &lt;/attester&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="B. PROSPECTO"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi/"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000155538"/&gt;
+            &lt;/coding&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="B. PROSPECTO"/&gt;
+          &lt;/code&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="additional"/&gt;
+            &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;unavailable&lt;/div&gt;<a name="end-xhtml"></a>
+          &lt;/text&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.emptyReason">emptyReason</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+                      <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://terminology.hl7.org/CodeSystem/list-empty-reason"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="unavailable"/&gt;
+            &lt;/coding&gt;
+          &lt;/emptyReason&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="PROSPECTO: INFORMACIÓN PARA EL USUARIO"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi/"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000155538"/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="PROSPECTO: INFORMACIÓN PARA EL USUARIO"/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="additional"/&gt;
+              &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;div&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;PROSPECTO: INFORMACIÓN PARA EL USUARIO&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;HIPÉRICO ARKOPHARMA cápsulas duras&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;span&gt;Hypericum perforatum&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;&lt;span&gt;L.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento, porque contiene información importante para usted.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las indicadas por su farmacéutico, médico o enfermero.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;- Conserve este prospecto, ya que puede tener que volver a leerlo.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;- Si necesita consejo o más información, consulte a su farmacéutico.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;- Si experimenta efectos adversos, consulte a su médico, farmacéutico o enfermero, incluso si se trata de efectos adversos que no aparecen en este prospecto.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;- Debe consultar a un médico si empeora o si no mejora después de 28 días de tratamiento.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Contenido del prospecto"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi/"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000155538"/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Contenido del prospecto"/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="additional"/&gt;
+              &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p&gt;&lt;span&gt;1. Qué es&lt;/span&gt; &lt;strong&gt;&lt;span&gt;HIPÉRICO ARKOPHARMA&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;y para qué se utiliza&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;2. Qué necesita saber antes de empezar a tomar&lt;/span&gt; &lt;strong&gt;&lt;span&gt;HIPÉRICO ARKOPHARMA&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;3. Cómo tomar&lt;/span&gt; &lt;strong&gt;&lt;span&gt;HIPÉRICO ARKOPHARMA&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;4. Posibles efectos adversos&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;5. Conservación de&lt;/span&gt; &lt;strong&gt;&lt;span&gt;HIPÉRICO ARKOPHARMA&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;6. Contenido del envase e información adicional.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="1. Qué es HIPÉRICO ARKOPHARMA cápsulas duras y para qué se utiliza"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi/"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000155538"/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>
+                    <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="1. Qué es HIPÉRICO ARKOPHARMA cápsulas duras y para qué se utiliza"/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="additional"/&gt;
+              &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p&gt;&lt;span&gt;Medicamento a base de plantas para el tratamiento sintomático de los estados de decaimiento que cursan con desánimo, pérdida de interés, cansancio y alteraciones del sueño.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Debe consultar a un médico si empeora o si no mejora después de 28 días.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="2. Qué necesita saber antes de empezar a tomar HIPÉRICO ARKOPHARMA cápsulas duras"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi/"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000155538"/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>
+                    <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="2. Qué necesita saber antes de empezar a tomar HIPÉRICO ARKOPHARMA cápsulas duras"/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="additional"/&gt;
+              &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;div&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;No tome HIPÉRICO ARKOPHARMA&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;Si es menor de 18 años.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Si usted está embarazada o en periodo de lactancia.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Si es alérgico a&lt;/span&gt; &lt;em&gt;&lt;span&gt;Hypericum perforatum&lt;/span&gt;&lt;/em&gt; &lt;span&gt;L. o a cualquiera de los componentes del medicamento.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Si va a someterse a alguna intervención quirúrgica que requiera tratamiento con otros medicamentos.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Si usted está en tratamiento con alguno de los medicamentos indicados en este prospecto. Algunos componentes del hipérico (&lt;/span&gt;&lt;em&gt;&lt;span&gt;Hypericum perforatum&lt;/span&gt;&lt;/em&gt; &lt;span&gt;L.) pueden producir interacciones farmacocinéticas con gran número de medicamentos, ocasionando un posible descenso de su efectividad (ver la información sobre la toma de otros medicamentos).&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Advertencias y precauciones&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Consulte a su farmacéutico, médico o enfermero antes de empezar a tomar HIPÉRICO ARKOPHARMA.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Si usted está tomando HIPÉRICO ARKOPHARMA, evite exposiciones intensas a los rayos UV (largas exposiciones al sol o baños de rayos UVA).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Las mujeres que utilizan anticonceptivos orales no deben utilizar simultáneamente este medicamento porque puede producir sangrado entre los ciclos menstruales y falta de eficacia de los medicamentos anticonceptivos.&lt;/span&gt;&lt;a name="OLE_LINK3" id="OLE_LINK3"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Evite las exposiciones a radiación solar intensa o a radiación ultravioleta artificial durante la toma de este medicamento. No se recomienda el uso de este medicamento durante tratamientos de fototerapia (tratamientos con rayos UVA) o si va a ser sometido a algún estudio de fotodiagnóstico, particularmente en personas de piel clara, ya que se podrían producir reacciones similares a las quemaduras solares en la piel expuesta&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Si usted ha sido diagnosticado de depresión y está en tratamiento con medicamentos psicotrópicos o con antidepresivos inhibidores selectivos de la recaptación de serotonina o medicamentos del grupo de los triptanos, no debe utilizar este medicamento.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Se deberá dejar de tomar este medicamento 10 días antes de una operación quirúrgica u otra intervención clínica programada a fin de evitar interacciones potenciales con otros medicamentos, durante el uso de anestesia general o local.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Niños y adolescentes&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;No deben utilizar este medicamento los niños y adolescentes menores de 18 años.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Uso de HIPÉRICO ARKOPHARMA con otros medicamentos&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Algunos componentes del hipérico (&lt;/span&gt;&lt;em&gt;&lt;span&gt;Hypericum perforatum&lt;/span&gt;&lt;/em&gt; &lt;span&gt;L.) pueden producir una reducción de los efectos terapéuticos de otros medicamentos, cuando se toman simultáneamente con hipérico. En los tratamientos que pueden verse afectados por este medicamento se incluyen los medicamentos recomendados por su médico y también los que usted puede adquirir sin prescripción del médico.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;No deben comenzar a utilizar preparados de hipérico sin consultar antes con su médico o farmacéutico, los pacientes que estén tomando los siguientes medicamentos:&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;para el SIDA (antirretrovirales)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;para el rechazo de trasplantes (ciclosporina)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;para la epilepsia&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;para el corazón (digoxina)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;para el tratamiento del asma o bronquitis crónica (teofilina)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;para la migraña&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;para la depresión&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;anticoagulantes orales&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;anticonceptivos orales&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;No tome este medicamento si usted está en tratamiento con cualquier medicamento de los indicados en este listado:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Agonistas 5HT (Triptanes):&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como almotriptan, eleptriptan, frovatriptan, naratriptan, rizatriptan, sumatriptan, zolmitriptan;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Analgésicos:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como tramadol;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Anestésicos/ medicamentos para la preparación de una intervención quirúrgica&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;: tales como fentanilo, propofol, midazolam, sevoflurano;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Ansiolíticos&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;: tales como buspirona;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Antagonistas hormonales:&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; tales como exemestano;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Antianginosos:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como ivabradina;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Antiarrítmicos&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;: tales como amiodarona;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Antibacterianos&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;: tales como eritromicina, claritromicina, telitromicina;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Anticoagulantes:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como warfarina, acenocumarol;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Anticonceptivos Hormonales:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;anticonceptivos orales, anticonceptivos hormonales de emergencia (Píldora del día después), implantes e inyecciones hormonales, parches transdérmicos, dispositivos intrauterinos con hormonas;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Anticonvulsivantes (Antiepilépticos):&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como carbamazepina, fenobarbital, fenitoína, primidona, valproato sódico;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Antidepresivos Tricíclicos&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;: tales como amitriptilina, clomipramina;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;IMAO:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como moclobemida;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;ISRS&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;(inhibidores selectivos de la recaptación de serotonina) tales como citalopram, fluoxetina, fluvoxamina, paroxetina, sertralina;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Otros antidepresivos&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;como duloxetina, venlafaxina;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Antifúngicos:&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; tales como itraconazol, voriconazol;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Antimaláricos:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como lumefantrina;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Antiparkinsonianos:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como rasagilina;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Antisicóticos:&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; tales como aripiprazol;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Todos los Antivirales:&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; tales como&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Inhibidores de Proteasa&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;(amprenavir, atazanavir, darunavir, fosamprenavir indinavir, lopinavir, nelfinavir, ritonavir, saquinavir, tipranavir);&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Inhibidores de transcriptasa inversa no nucleósidos&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;(efavirenz, nevirapina, delavirdina);&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Aprepitant&lt;/span&gt;&lt;/strong&gt; &lt;strong&gt;&lt;span&gt;(&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;se utiliza para evitar vómitos, tras un tratamiento con quimioterapia);&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Barbituratos&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como butobarbital, fenobarbital;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Bloqueadores de los canales del Calcio:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como amlodipina, nifedipina, verapamilo, felodipina;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Citotóxicos:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;como irinotecan, dasatinib, erlotinib, imatinib, sorafenib, sunitinib, etoposido, mitotano;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Diuréticos:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como eplerenona;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Estimulantes de SNC:&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; tales como metilfenidato;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Glucósidos cardiacos:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como digoxina;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Hipoglucemiantes orales&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;(antidiabéticos orales): tales como gliclazida;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Hipolipemiantes:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como simvastatina, atorvastatina;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Hormonas tiroideas:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;todos los medicamentos de esta clase incluido Tiroxina;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Inhibidores de la bomba de protones:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como lansoprazol, omeprazol;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Inmunosupresores:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como ciclosporina, tacrolimus;&lt;/span&gt; &lt;strong&gt;&lt;span&gt;Litio; Teofilina; Terapia hormonal de remplazo:&lt;/span&gt;&lt;/strong&gt; &lt;span&gt;tales como los parches, geles, anillo vaginal)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;En caso de tratamiento concomitante de HIPÉRICO ARKOPHARMA con medicamentos anticoagulantes (como fenprocumona, warfarina, clopidogrel, ácido acetilsalicílico y otros antireumáticos no esteroideos) no puede excluirse que el efecto de estas preparaciones se vea aumentado&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;No puede excluirse que HIPÉRICO ARKOPHARMA actúe sobre la metabolización de otros medicamentos lo que puede afectar a la potencia y/o duración del efecto de los medicamentos a los que se refiere. Por esta razón, consulte con su médico o farmacéutico antes de tomar HIPÉRICO ARKOPHARMA con otros tratamientos.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Informe a su médico o farmacéutico si está tomando o ha tomado recientemente cualquier otro medicamento, incluso los adquiridos sin receta médica.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Informe también a su médico o farmacéutico sobre cualquier sospecha de cambio en los efectos de los medicamentos que está tomando a la vez que HIPÉRICO ARKOPHARMA.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Toma de HIPÉRICO ARKOPHARMA con los alimentos y bebidas&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Los alimentos y las bebidas no tienen influencia sobre el efecto del medicamento.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Embarazo, lactancia y fertilidad&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Si está embarazada o en periodo de lactancia, cree que pudiera estar embarazada o tiene intención de quedarse embarazada, consulte a su farmacéutico o médico antes de utilizar este medicamento. No se recomienda su administración en estas circunstancias.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Conducción y uso de máquinas&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;No se han realizado estudios sobre la capacidad de conducir y el uso de máquinas&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="3. Cómo tomar HIPÉRICO ARKOPHARMA cápsulas duras"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi/"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000155538"/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="3. Cómo tomar HIPÉRICO ARKOPHARMA cápsulas duras"/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="additional"/&gt;
+              &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;div&gt;&lt;p&gt;&lt;span&gt;Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las indicadas por su farmacéutico, médico o enfermero. En caso de duda, pregunte a su farmacéutico, médico o enfermero.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;La dosis recomendada es:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Adultos: tomar 2 cápsulas, 2 ó 3 veces al día con un vaso de agua.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Es aconsejable que las tomas se realicen siempre a las mismas horas.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Este medicamento se utiliza vía oral.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;La duración de tratamiento es de 6 semanas.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;El efecto del medicamento aparece generalmente a las 4 semanas. Si los síntomas persisten, debería consultar con un profesional sanitario.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Una vez abierto el envase, se retirará la bolsita absorbente que no es apta para consumo humano y no debe ser ingerida.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Uso en niños y adolescentes&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;No utilizar en niños y adolescentes menores de 18 años&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Si toma más HIPÉRICO ARKOPHARMA del que debe&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Si se ha tomado una dosis excesiva de HIPÉRICO ARKOPHARMA pueden aparecer convulsiones o estado de confusión.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;En caso de la toma de una dosis excesiva de hipérico, se debe proteger de las radiaciones solares o de cualquier otra fuente de rayos UV durante 1-2 semanas.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;En caso de sobredosis o ingestión accidental, consulte inmediatamente a su farmacéutico o médico o llame al Servicio de Información Toxicológica, teléfono 91 562 04 20, indicando el producto y la cantidad ingerida.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Si olvidó tomar HIPÉRICO ARKOPHARMA&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;En caso de olvido de una dosis, tome el medicamento lo antes posible continuando el tratamiento de la forma prescrita. Sin embargo, si está próxima la siguiente dosis, es mejor que no tome la dosis olvidada y espere a la siguiente. En ningún caso tome una dosis doble para compensar la dosis olvidada&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="4. Posibles efectos adversos"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi/"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000155538"/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="4. Posibles efectos adversos"/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="additional"/&gt;
+              &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;div&gt;&lt;p&gt;&lt;span&gt;Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;En casos raros, con una frecuencia que afecta a menos de un caso por cada 1000 pacientes, se han descrito problemas digestivos tales como náusea, dolor abdominal, diarrea, pérdida de apetito; o reacciones en la piel como picor, irritación, enrojecimiento (urticaria) y muy raramente podrían ocurrir reacciones similares a las quemaduras solares, en la piel expuesta a radiación solar o artificial intensa.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;También se ha descrito dolor de cabeza, neuropatía, ansiedad, mareo, fatiga, manía o alergias, para los que se desconoce la frecuencia de aparición.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Comunicación de reacciones adversas&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano:&lt;/span&gt; &lt;a href="https://www.notificaram.es"&gt;&lt;u&gt;&lt;span&gt;https://www.notificaram.es&lt;/span&gt;&lt;/u&gt;&lt;/a&gt;&lt;span&gt;. Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="5. CONSERVACIÓN DE HIPÉRICO ARKOPHARMA cápsulas duras"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi/"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000155538"/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>
+                    <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="5. CONSERVACIÓN DE HIPÉRICO ARKOPHARMA cápsulas duras"/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="additional"/&gt;
+              &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;div&gt;&lt;p&gt;&lt;span&gt;Mantener este medicamento fuera de la vista y del alcance de los niños.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;No conservar a temperatura superior a 25ºC.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Una vez abierto, desechar después de 21 días.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;No utilice HIPÉRICO ARKOPHARMA después de la fecha de caducidad que aparece en el envase, después de la abreviatura “CAD”. La fecha de caducidad es el último día del mes que se indica.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesite en el Punto SIGRE&lt;/span&gt; &lt;span&gt;de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma, ayudará a proteger el medio ambiente&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="6. Contenido del envase e información adicional"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi/"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000155538"/&gt;
+              &lt;/coding&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="6. Contenido del envase e información adicional"/&gt;
+            &lt;/code&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="additional"/&gt;
+              &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;div&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Composici&amp;#243;n de HIP&amp;#201;RICO ARKOPHARMA&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Cada c&amp;#225;psula contiene como principio activo:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;175 mg de extracto seco hidroalcoh&amp;#243;lico de&lt;/span&gt; &lt;em&gt;&lt;span&gt;Hypericum perforatum&lt;/span&gt;&lt;/em&gt; &lt;span&gt;L. herba (sumidades floridas de hip&amp;#233;rico) (3.5-6:1) que corresponden a: 0,27 mg a 0,46mg de hipericinas totales, &amp;#8805; 10,5 mg de flavonoides y 2,71 mg a 4,63 mg de hiperforina.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Disolvente de extracci&amp;#243;n: etanol 60% m/m&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Los dem&amp;#225;s componentes son los excipientes: celulosa microcristalina, estearato de magnesio, s&amp;#237;lice coloidalhidr&amp;#243;foba y maltodextrina.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Composici&amp;#243;n de la&lt;/span&gt; &lt;span&gt;c&amp;#225;psula: hipromelosa, di&amp;#243;xido de titanio y &amp;#243;xido de hierro amarillo.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Aspecto del producto y contenido del envase&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Existe 1 presentaci&amp;#243;n en frascos que contienen 42 c&amp;#225;psulas, con una bolsita absorbente en su interior.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Una vez abierto el envase, se retirar&amp;#225; la bolsita absorbente que no es apta para consumo humano y no debe ser ingerida.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Titular de la autorizaci&amp;#243;n de comercializaci&amp;#243;n y responsable de la fabricaci&amp;#243;n:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Titular&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Arkopharma LABORATORIOS, S.A.U,&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;C/ Amaltea, 9&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;28045 MADRID&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Responsable de la fabricaci&amp;#243;n&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;ARKOPHARMA&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;LABORATOIRES PHARMACEUTIQUES&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;BP 28 &amp;#8211; 06511 CARROS Cedex - FRANCE&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span&gt;Fecha de la &amp;#250;ltima revisi&amp;#243;n de este prospecto: septiembre 2016&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;La informaci&amp;#243;n detallada y actualizada de este medicamento est&amp;#225; disponible en la p&amp;#225;gina web de la Agencia Espa&amp;#241;ola de Medicamentos y Productos Sanitarios (AEMPS)&lt;/span&gt; &lt;a href="http://www.aemps.gob.es/"&gt;&lt;u&gt;&lt;span&gt;http://www.aemps.gob.es/&lt;/span&gt;&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+            &lt;/text&gt;
+          &lt;/section&gt;
+        &lt;/section&gt;
+      &lt;/Composition&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-hipricoarkopharma-hypericumperforatuml"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient">Ingredient</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="ingredient-for-hipricoarkopharma-hypericumperforatuml"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;a name="Ingredient_ingredient-for-hipricoarkopharma-hypericumperforatuml"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Ingredient&lt;/b&gt;&lt;a name="ingredient-for-hipricoarkopharma-hypericumperforatuml"&gt; &lt;/a&gt;&lt;a name="hcingredient-for-hipricoarkopharma-hypericumperforatuml"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;Resource Ingredient &amp;quot;ingredient-for-hipricoarkopharma-hypericumperforatuml&amp;quot; &lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html"&gt;Ingredient (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://gsrs.ncats.nih.gov/ginas/app/beta&lt;/code&gt;/XK4IUX8MNB&nbsp;(use:&nbsp;OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="#ManufacturedItemDefinition_mid-29436a85dac3ea374adb3fa64cfd2578"&gt;See above (ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28"&gt;See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#AdministrableProductDefinition_ap-29436a85dac3ea374adb3fa64cfd2578"&gt;See above (AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: active &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#72072)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="display: none"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="display: none"&gt;*&lt;/td&gt;&lt;td&gt;Hypericum perforatum L. &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (beta#XK4IUX8MNB)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Strengths&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="display: none"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Presentation[x]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Basis&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="display: none"&gt;*&lt;/td&gt;&lt;td&gt;175 mg&lt;span style="background: LightGoldenRodYellow"&gt; (Details: UCUM code mg = 'mg')&lt;/span&gt;&lt;/td&gt;&lt;td&gt;active ingredient - basis of strength &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html"&gt;RoleClass&lt;/a&gt;#ACTIB)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="official"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://gsrs.ncats.nih.gov/ginas/app/beta"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="XK4IUX8MNB"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="active"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>&gt;<a style="color: Maroon" href="ManufacturedItemDefinition-mid-29436a85dac3ea374adb3fa64cfd2578.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+        &lt;/for&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>&gt;<a style="color: Maroon" href="MedicinalProductDefinition-mpaf8d2f6e4772c29a8ef9fbb165e80d28.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/&gt;
+        &lt;/for&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>&gt;<a style="color: Maroon" href="AdministrableProductDefinition-ap-29436a85dac3ea374adb3fa64cfd2578.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+        &lt;/for&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.role">role</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="72072"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="active"/&gt;
+          &lt;/coding&gt;
+        &lt;/role&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance">substance</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.concept">concept</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://gsrs.ncats.nih.gov/ginas/app/beta"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="XK4IUX8MNB"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Hypericum perforatum L."/&gt;
+              &lt;/coding&gt;
+            &lt;/concept&gt;
+          &lt;/code&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance.strength">strength</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance.strength.presentation[x]">presentationQuantity</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#decimal">value</a>="175"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://unitsofmeasure.org"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#Quantity.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="mg"/&gt;
+            &lt;/presentationQuantity&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance.strength.basis">basis</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="ACTIB"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="active ingredient - basis of strength"/&gt;
+              &lt;/coding&gt;
+            &lt;/basis&gt;
+          &lt;/strength&gt;
+        &lt;/substance&gt;
+      &lt;/Ingredient&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-hipricoarkopharma-microcrystallinecellulose"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient">Ingredient</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.id">id</a>
+            <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="ingredient-for-hipricoarkopharma-microcrystallinecellulose"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;a name="Ingredient_ingredient-for-hipricoarkopharma-microcrystallinecellulose"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Ingredient&lt;/b&gt;&lt;a name="ingredient-for-hipricoarkopharma-microcrystallinecellulose"&gt; &lt;/a&gt;&lt;a name="hcingredient-for-hipricoarkopharma-microcrystallinecellulose"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;Resource Ingredient &amp;quot;ingredient-for-hipricoarkopharma-microcrystallinecellulose&amp;quot; &lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html"&gt;Ingredient (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://gsrs.ncats.nih.gov/ginas/app/beta&lt;/code&gt;/OP1R32D61U&nbsp;(use:&nbsp;OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="#ManufacturedItemDefinition_mid-29436a85dac3ea374adb3fa64cfd2578"&gt;See above (ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28"&gt;See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#AdministrableProductDefinition_ap-29436a85dac3ea374adb3fa64cfd2578"&gt;See above (AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: excipient &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#100000072082)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="display: none"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="display: none"&gt;*&lt;/td&gt;&lt;td&gt;microcrystalline cellulose &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (beta#OP1R32D61U)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="official"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://gsrs.ncats.nih.gov/ginas/app/beta"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="OP1R32D61U"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="active"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>&gt;<a style="color: Maroon" href="ManufacturedItemDefinition-mid-29436a85dac3ea374adb3fa64cfd2578.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+        &lt;/for&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>&gt;<a style="color: Maroon" href="MedicinalProductDefinition-mpaf8d2f6e4772c29a8ef9fbb165e80d28.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/&gt;
+        &lt;/for&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>&gt;<a style="color: Maroon" href="AdministrableProductDefinition-ap-29436a85dac3ea374adb3fa64cfd2578.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+        &lt;/for&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.role">role</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000072082"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="excipient"/&gt;
+          &lt;/coding&gt;
+        &lt;/role&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance">substance</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.concept">concept</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://gsrs.ncats.nih.gov/ginas/app/beta"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="OP1R32D61U"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="microcrystalline cellulose"/&gt;
+              &lt;/coding&gt;
+            &lt;/concept&gt;
+          &lt;/code&gt;
+        &lt;/substance&gt;
+      &lt;/Ingredient&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-hipricoarkopharma-magnesiumstearate"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient">Ingredient</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="ingredient-for-hipricoarkopharma-magnesiumstearate"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;a name="Ingredient_ingredient-for-hipricoarkopharma-magnesiumstearate"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Ingredient&lt;/b&gt;&lt;a name="ingredient-for-hipricoarkopharma-magnesiumstearate"&gt; &lt;/a&gt;&lt;a name="hcingredient-for-hipricoarkopharma-magnesiumstearate"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;Resource Ingredient &amp;quot;ingredient-for-hipricoarkopharma-magnesiumstearate&amp;quot; &lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html"&gt;Ingredient (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://gsrs.ncats.nih.gov/ginas/app/beta&lt;/code&gt;/70097M6I30&nbsp;(use:&nbsp;OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="#ManufacturedItemDefinition_mid-29436a85dac3ea374adb3fa64cfd2578"&gt;See above (ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28"&gt;See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#AdministrableProductDefinition_ap-29436a85dac3ea374adb3fa64cfd2578"&gt;See above (AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: excipient &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#100000072082)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="display: none"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="display: none"&gt;*&lt;/td&gt;&lt;td&gt;magnesium stearate &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (beta#70097M6I30)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="official"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://gsrs.ncats.nih.gov/ginas/app/beta"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="70097M6I30"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="active"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>&gt;<a style="color: Maroon" href="ManufacturedItemDefinition-mid-29436a85dac3ea374adb3fa64cfd2578.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+        &lt;/for&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>&gt;<a style="color: Maroon" href="MedicinalProductDefinition-mpaf8d2f6e4772c29a8ef9fbb165e80d28.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/&gt;
+        &lt;/for&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>&gt;<a style="color: Maroon" href="AdministrableProductDefinition-ap-29436a85dac3ea374adb3fa64cfd2578.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+        &lt;/for&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.role">role</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000072082"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="excipient"/&gt;
+          &lt;/coding&gt;
+        &lt;/role&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance">substance</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.concept">concept</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://gsrs.ncats.nih.gov/ginas/app/beta"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="70097M6I30"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="magnesium stearate"/&gt;
+              &lt;/coding&gt;
+            &lt;/concept&gt;
+          &lt;/code&gt;
+        &lt;/substance&gt;
+      &lt;/Ingredient&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-hipricoarkopharma-colloidalhydrophobicsilica"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient">Ingredient</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.id">id</a>
+            <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="ingredient-for-hipricoarkopharma-colloidalhydrophobicsilica"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;a name="Ingredient_ingredient-for-hipricoarkopharma-colloidalhydrophobicsilica"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Ingredient&lt;/b&gt;&lt;a name="ingredient-for-hipricoarkopharma-colloidalhydrophobicsilica"&gt; &lt;/a&gt;&lt;a name="hcingredient-for-hipricoarkopharma-colloidalhydrophobicsilica"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;Resource Ingredient &amp;quot;ingredient-for-hipricoarkopharma-colloidalhydrophobicsilica&amp;quot; &lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html"&gt;Ingredient (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://gsrs.ncats.nih.gov/ginas/app/beta&lt;/code&gt;/8MDF5V39QO&nbsp;(use:&nbsp;OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="#ManufacturedItemDefinition_mid-29436a85dac3ea374adb3fa64cfd2578"&gt;See above (ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28"&gt;See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#AdministrableProductDefinition_ap-29436a85dac3ea374adb3fa64cfd2578"&gt;See above (AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: excipient &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#100000072082)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="display: none"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="display: none"&gt;*&lt;/td&gt;&lt;td&gt;colloidal hydrophobic silica &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (beta#8MDF5V39QO)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="official"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://gsrs.ncats.nih.gov/ginas/app/beta"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="8MDF5V39QO"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="active"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>&gt;<a style="color: Maroon" href="ManufacturedItemDefinition-mid-29436a85dac3ea374adb3fa64cfd2578.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+        &lt;/for&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>&gt;<a style="color: Maroon" href="MedicinalProductDefinition-mpaf8d2f6e4772c29a8ef9fbb165e80d28.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/&gt;
+        &lt;/for&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>&gt;<a style="color: Maroon" href="AdministrableProductDefinition-ap-29436a85dac3ea374adb3fa64cfd2578.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+        &lt;/for&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.role">role</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000072082"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="excipient"/&gt;
+          &lt;/coding&gt;
+        &lt;/role&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance">substance</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.concept">concept</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://gsrs.ncats.nih.gov/ginas/app/beta"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="8MDF5V39QO"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="colloidal hydrophobic silica"/&gt;
+              &lt;/coding&gt;
+            &lt;/concept&gt;
+          &lt;/code&gt;
+        &lt;/substance&gt;
+      &lt;/Ingredient&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-hipricoarkopharma-maltodextrin"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient">Ingredient</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="ingredient-for-hipricoarkopharma-maltodextrin"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;a name="Ingredient_ingredient-for-hipricoarkopharma-maltodextrin"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Ingredient&lt;/b&gt;&lt;a name="ingredient-for-hipricoarkopharma-maltodextrin"&gt; &lt;/a&gt;&lt;a name="hcingredient-for-hipricoarkopharma-maltodextrin"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;Resource Ingredient &amp;quot;ingredient-for-hipricoarkopharma-maltodextrin&amp;quot; &lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html"&gt;Ingredient (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://gsrs.ncats.nih.gov/ginas/app/beta&lt;/code&gt;/7CVR7L4A2D&nbsp;(use:&nbsp;OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="#ManufacturedItemDefinition_mid-29436a85dac3ea374adb3fa64cfd2578"&gt;See above (ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28"&gt;See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#AdministrableProductDefinition_ap-29436a85dac3ea374adb3fa64cfd2578"&gt;See above (AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: excipient &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#100000072082)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="display: none"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="display: none"&gt;*&lt;/td&gt;&lt;td&gt;maltodextrin &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (beta#7CVR7L4A2D)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="official"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://gsrs.ncats.nih.gov/ginas/app/beta"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="7CVR7L4A2D"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="active"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>&gt;<a style="color: Maroon" href="ManufacturedItemDefinition-mid-29436a85dac3ea374adb3fa64cfd2578.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+        &lt;/for&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>&gt;<a style="color: Maroon" href="MedicinalProductDefinition-mpaf8d2f6e4772c29a8ef9fbb165e80d28.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/&gt;
+        &lt;/for&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>&gt;<a style="color: Maroon" href="AdministrableProductDefinition-ap-29436a85dac3ea374adb3fa64cfd2578.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+        &lt;/for&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.role">role</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000072082"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="excipient"/&gt;
+          &lt;/coding&gt;
+        &lt;/role&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance">substance</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.concept">concept</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://gsrs.ncats.nih.gov/ginas/app/beta"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="7CVR7L4A2D"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="maltodextrin"/&gt;
+              &lt;/coding&gt;
+            &lt;/concept&gt;
+          &lt;/code&gt;
+        &lt;/substance&gt;
+      &lt;/Ingredient&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-hypericumperforatumwhole"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition">SubstanceDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="substance-hypericumperforatumwhole"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;a name="SubstanceDefinition_substance-hypericumperforatumwhole"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: SubstanceDefinition&lt;/b&gt;&lt;a name="substance-hypericumperforatumwhole"&gt; &lt;/a&gt;&lt;a name="hcsubstance-hypericumperforatumwhole"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;Resource SubstanceDefinition &amp;quot;substance-hypericumperforatumwhole&amp;quot; &lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-SubstanceDefinition-uv-epi.html"&gt;SubstanceDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://gsrs.ncats.nih.gov/ginas/app/beta/&lt;/code&gt;/XK4IUX8MNB&nbsp;(use:&nbsp;OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;version&lt;/b&gt;: 1&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="http://hl7.org/fhir/R5/codesystem-publication-status.html"&gt;PublicationStatus&lt;/a&gt;#active)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;manufacturer&lt;/b&gt;: &lt;a href="#Organization_mah-c2a5378488511eaedce26dde272c2290"&gt;See above (Organization/mah-c2a5378488511eaedce26dde272c2290)&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;MolecularWeights&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="display: none"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Amount&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="display: none"&gt;*&lt;/td&gt;&lt;td&gt;exact &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; ()&lt;/span&gt;&lt;/td&gt;&lt;td&gt;156.09&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Structures&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="display: none"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;MolecularFormula&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="display: none"&gt;*&lt;/td&gt;&lt;td&gt;C35H52O4&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="display: none"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="display: none"&gt;*&lt;/td&gt;&lt;td&gt;Hyperforin&lt;/td&gt;&lt;td&gt;Chemical Name &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (#x)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="official"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://gsrs.ncats.nih.gov/ginas/app/beta/"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="XK4IUX8MNB"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.version">version</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="1"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.status">status</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.org/fhir/publication-status"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="active"/&gt;
+          &lt;/coding&gt;
+        &lt;/status&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.manufacturer">manufacturer</a>&gt;<a style="color: Maroon" href="Organization-mah-c2a5378488511eaedce26dde272c2290.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Organization/mah-c2a5378488511eaedce26dde272c2290"/&gt;
+        &lt;/manufacturer&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.molecularWeight">molecularWeight</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.molecularWeight.type">type</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="exact"/&gt;
+          &lt;/type&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.molecularWeight.amount">amount</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#decimal">value</a>="156.09"/&gt;
+          &lt;/amount&gt;
+        &lt;/molecularWeight&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.structure">structure</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.structure.molecularFormula">molecularFormula</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="C35H52O4"/&gt;
+        &lt;/structure&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.name">name</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.name.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Hyperforin"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/substancedefinition.html#SubstanceDefinition.name.type">type</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://gsrs.ncats.nih.gov/ginas/app/beta/"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="x"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Chemical Name"/&gt;
+            &lt;/coding&gt;
+          &lt;/type&gt;
+        &lt;/name&gt;
+      &lt;/SubstanceDefinition&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition">AdministrableProductDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="ap-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;a name="AdministrableProductDefinition_ap-29436a85dac3ea374adb3fa64cfd2578"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: AdministrableProductDefinition&lt;/b&gt;&lt;a name="ap-29436a85dac3ea374adb3fa64cfd2578"&gt; &lt;/a&gt;&lt;a name="hcap-29436a85dac3ea374adb3fa64cfd2578"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;Resource AdministrableProductDefinition &amp;quot;ap-29436a85dac3ea374adb3fa64cfd2578&amp;quot; &lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html"&gt;AdministrableProductDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/pmswi&lt;/code&gt;/xx&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;formOf&lt;/b&gt;: &lt;a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28"&gt;See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;administrableDoseForm&lt;/b&gt;: Hard capsules &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#100000073681)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;unitOfPresentation&lt;/b&gt;: hard capsule &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#200000002152)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;producedFrom&lt;/b&gt;: &lt;a href="#ManufacturedItemDefinition_mid-29436a85dac3ea374adb3fa64cfd2578"&gt;See above (ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578)&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;routeOfAdministration&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Oral use &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#100000073619)&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;TargetSpecies&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="display: none"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="display: none"&gt;*&lt;/td&gt;&lt;td&gt;Human &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#100000109093)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/pmswi"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="xx"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="active"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.formOf">formOf</a>&gt;<a style="color: Maroon" href="MedicinalProductDefinition-mpaf8d2f6e4772c29a8ef9fbb165e80d28.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/&gt;
+        &lt;/formOf&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.administrableDoseForm">administrableDoseForm</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000073681"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Hard capsules"/&gt;
+          &lt;/coding&gt;
+        &lt;/administrableDoseForm&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.unitOfPresentation">unitOfPresentation</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="200000002152"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="hard capsule"/&gt;
+          &lt;/coding&gt;
+        &lt;/unitOfPresentation&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.producedFrom">producedFrom</a>&gt;<a style="color: Maroon" href="ManufacturedItemDefinition-mid-29436a85dac3ea374adb3fa64cfd2578.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+        &lt;/producedFrom&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.routeOfAdministration">routeOfAdministration</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.routeOfAdministration.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000073619"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Oral use"/&gt;
+            &lt;/coding&gt;
+          &lt;/code&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.routeOfAdministration.targetSpecies">targetSpecies</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/administrableproductdefinition.html#AdministrableProductDefinition.routeOfAdministration.targetSpecies.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000109093"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Human"/&gt;
+              &lt;/coding&gt;
+            &lt;/code&gt;
+          &lt;/targetSpecies&gt;
+        &lt;/routeOfAdministration&gt;
+      &lt;/AdministrableProductDefinition&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization29436a85dac3ea374adb3fa64cfd25780"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization">RegulatedAuthorization</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="authorization29436a85dac3ea374adb3fa64cfd25780"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;a name="RegulatedAuthorization_authorization29436a85dac3ea374adb3fa64cfd25780"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: RegulatedAuthorization&lt;/b&gt;&lt;a name="authorization29436a85dac3ea374adb3fa64cfd25780"&gt; &lt;/a&gt;&lt;a name="hcauthorization29436a85dac3ea374adb3fa64cfd25780"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;Resource RegulatedAuthorization &amp;quot;authorization29436a85dac3ea374adb3fa64cfd25780&amp;quot; &lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html"&gt;RegulatedAuthorization (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/pmswi&lt;/code&gt;/79963&nbsp;(use:&nbsp;OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28"&gt;See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Marketing Authorisation &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#100000072062)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="http://hl7.org/fhir/R5/codesystem-publication-status.html"&gt;PublicationStatus&lt;/a&gt;#active)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;statusDate&lt;/b&gt;: 2015-01-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;holder&lt;/b&gt;: &lt;a href="#Organization_mah-c2a5378488511eaedce26dde272c2290"&gt;See above (Organization/mah-c2a5378488511eaedce26dde272c2290)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="official"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/pmswi"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="79963"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.subject">subject</a>&gt;<a style="color: Maroon" href="MedicinalProductDefinition-mpaf8d2f6e4772c29a8ef9fbb165e80d28.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/&gt;
+        &lt;/subject&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000072062"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Marketing Authorisation"/&gt;
+          &lt;/coding&gt;
+        &lt;/type&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.status">status</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.org/fhir/publication-status"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="active"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Active"/&gt;
+          &lt;/coding&gt;
+        &lt;/status&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.statusDate">statusDate</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>="2015-01-01"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/regulatedauthorization.html#RegulatedAuthorization.holder">holder</a>&gt;<a style="color: Maroon" href="Organization-mah-c2a5378488511eaedce26dde272c2290.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Organization/mah-c2a5378488511eaedce26dde272c2290"/&gt;
+        &lt;/holder&gt;
+      &lt;/RegulatedAuthorization&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-c2a5378488511eaedce26dde272c2290"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization">Organization</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="mah-c2a5378488511eaedce26dde272c2290"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;a name="Organization_mah-c2a5378488511eaedce26dde272c2290"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Organization&lt;/b&gt;&lt;a name="mah-c2a5378488511eaedce26dde272c2290"&gt; &lt;/a&gt;&lt;a name="hcmah-c2a5378488511eaedce26dde272c2290"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;Resource Organization &amp;quot;mah-c2a5378488511eaedce26dde272c2290&amp;quot; &lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Organization-uv-epi.html"&gt;Organization (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/omswi&lt;/code&gt;/xx&nbsp;(use:&nbsp;OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;active&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Marketing authorisation holder &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#220000000034)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Arkopharma LABORATORIOS, S.A.U,&lt;/p&gt;&lt;h3&gt;Contacts&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="display: none"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Address&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="display: none"&gt;*&lt;/td&gt;&lt;td&gt;C/ Amaltea, 9 Madrid ES(WORK)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="official"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/omswi"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="xx"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.active">active</a> <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">value</a>="true"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="220000000034"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Marketing authorisation holder"/&gt;
+          &lt;/coding&gt;
+        &lt;/type&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Arkopharma LABORATORIOS, S.A.U,"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.contact">contact</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ExtendedContactDetail#ExtendedContactDetail.address">address</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="work"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="physical"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="C/ Amaltea, 9 Madrid ES"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="C/ Amaltea, 9"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Madrid"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="28045"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.country">country</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="ES"/&gt;
+          &lt;/address&gt;
+        &lt;/contact&gt;
+      &lt;/Organization&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-ee8bd93e975dcd04f4824ba8d24a8944"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition">PackagedProductDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="ppd-ee8bd93e975dcd04f4824ba8d24a8944"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;a name="PackagedProductDefinition_ppd-ee8bd93e975dcd04f4824ba8d24a8944"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;a name="ppd-ee8bd93e975dcd04f4824ba8d24a8944"&gt; &lt;/a&gt;&lt;a name="hcppd-ee8bd93e975dcd04f4824ba8d24a8944"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;Resource PackagedProductDefinition &amp;quot;ppd-ee8bd93e975dcd04f4824ba8d24a8944&amp;quot; &lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html"&gt;PackagedProductDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/pmswi&lt;/code&gt;/x&nbsp;(use:&nbsp;OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: HIPÉRICO ARKOPHARMA cápsulas duras 30&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Chemical Medicinal Prodcut &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#100000155527)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href="#MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28"&gt;See above (MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="http://hl7.org/fhir/R5/codesystem-publication-status.html"&gt;PublicationStatus&lt;/a&gt;#active)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;statusDate&lt;/b&gt;: 2015-01-03&lt;/p&gt;&lt;p&gt;&lt;b&gt;containedItemQuantity&lt;/b&gt;: 175 mg&lt;span style="background: LightGoldenRodYellow"&gt; (Details: UCUM code mg = 'mg')&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;copackagedIndicator&lt;/b&gt;: false&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;packaging&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Box &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#100000073498)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;quantity&lt;/b&gt;: 1&lt;/p&gt;&lt;p&gt;&lt;b&gt;material&lt;/b&gt;: Cardboard &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#200000003529)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;packaging&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/pmswi&lt;/code&gt;/123456&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Blister &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#100000073496)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;quantity&lt;/b&gt;: 30&lt;/p&gt;&lt;p&gt;&lt;b&gt;material&lt;/b&gt;: cardboard &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#xxx)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;containedItem&lt;/b&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="official"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/pmswi"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="x"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="HIPÉRICO ARKOPHARMA cápsulas duras 30"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000155527"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Chemical Medicinal Prodcut"/&gt;
+          &lt;/coding&gt;
+        &lt;/type&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packageFor">packageFor</a>&gt;<a style="color: Maroon" href="MedicinalProductDefinition-mpaf8d2f6e4772c29a8ef9fbb165e80d28.html">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/&gt;
+        &lt;/packageFor&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.status">status</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.org/fhir/publication-status"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="active"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Active"/&gt;
+          &lt;/coding&gt;
+        &lt;/status&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.statusDate">statusDate</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>="2015-01-03"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.containedItemQuantity">containedItemQuantity</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#decimal">value</a>="175"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://unitsofmeasure.org"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Quantity#Quantity.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="mg"/&gt;
+        &lt;/containedItemQuantity&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.copackagedIndicator">copackagedIndicator</a> <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">value</a>="false"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging">packaging</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.type">type</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000073498"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Box"/&gt;
+            &lt;/coding&gt;
+          &lt;/type&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.quantity">quantity</a> <a href="http://hl7.org/fhir/R5/datatypes.html#integer">value</a>="1"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.material">material</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="200000003529"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Cardboard"/&gt;
+            &lt;/coding&gt;
+          &lt;/material&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.packaging">packaging</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.identifier">identifier</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/pmswi"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="123456"/&gt;
+            &lt;/identifier&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000073496"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Blister"/&gt;
+              &lt;/coding&gt;
+            &lt;/type&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.quantity">quantity</a> <a href="http://hl7.org/fhir/R5/datatypes.html#integer">value</a>="30"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.material">material</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="xxx"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="cardboard"/&gt;
+              &lt;/coding&gt;
+            &lt;/material&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.containedItem">containedItem</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#PackagedProductDefinition.packaging.containedItem.item">item</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.reference">reference</a>&gt;<a style="color: Maroon" href="ManufacturedItemDefinition-mid-29436a85dac3ea374adb3fa64cfd2578.html">&#x1F517;</a> 
+                  &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>
+                             <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+                &lt;/reference&gt;
+              &lt;/item&gt;
+            &lt;/containedItem&gt;
+          &lt;/packaging&gt;
+        &lt;/packaging&gt;
+      &lt;/PackagedProductDefinition&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition">MedicinalProductDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="mpaf8d2f6e4772c29a8ef9fbb165e80d28"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;a name="MedicinalProductDefinition_mpaf8d2f6e4772c29a8ef9fbb165e80d28"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition&lt;/b&gt;&lt;a name="mpaf8d2f6e4772c29a8ef9fbb165e80d28"&gt; &lt;/a&gt;&lt;a name="hcmpaf8d2f6e4772c29a8ef9fbb165e80d28"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;Resource MedicinalProductDefinition &amp;quot;mpaf8d2f6e4772c29a8ef9fbb165e80d28&amp;quot; &lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html"&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/pmswi&lt;/code&gt;/79963&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Medicinal Product &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="http://hl7.org/fhir/R5/codesystem-medicinal-product-type.html"&gt;Medicinal Product Type&lt;/a&gt;#MedicinalProduct)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;domain&lt;/b&gt;: Human use &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="http://hl7.org/fhir/R5/codesystem-medicinal-product-domain.html"&gt;Medicinal Product Domain&lt;/a&gt;#Human)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="http://hl7.org/fhir/R5/codesystem-publication-status.html"&gt;PublicationStatus&lt;/a&gt;#active)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;legalStatusOfSupply&lt;/b&gt;: Medicinal product subject to medical prescription &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#100000000000)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;productName&lt;/b&gt;: HIPÉRICO ARKOPHARMA cápsulas duras&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Full name &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (220000000000#220000000001)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: HIPÉRICO ARKOPHARMA&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Invented name part &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (220000000000#220000000002)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: Hypericum perforatum L.&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Scientific name part &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (220000000000#220000000003)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: 175 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Strength part &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (220000000000#220000000004)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: hard capsules&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Pharmaceutical dose form part &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (220000000000#220000000005)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h3&gt;Usages&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="display: none"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Country&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Jurisdiction&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Language&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="display: none"&gt;*&lt;/td&gt;&lt;td&gt;Spain &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html"&gt;ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code&lt;/a&gt;#ES)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Spain &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html"&gt;ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code&lt;/a&gt;#ES)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;English &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="http://terminology.hl7.org/5.3.0/CodeSystem-v3-ietf3066.html"&gt;Tags for the Identification of Languages&lt;/a&gt;#en)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/pmswi"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="79963"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.org/fhir/medicinal-product-type"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="MedicinalProduct"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Medicinal Product"/&gt;
+          &lt;/coding&gt;
+        &lt;/type&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.domain">domain</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.org/fhir/medicinal-product-domain"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="Human"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Human use"/&gt;
+          &lt;/coding&gt;
+        &lt;/domain&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.status">status</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.org/fhir/publication-status"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="active"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="active"/&gt;
+          &lt;/coding&gt;
+        &lt;/status&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.legalStatusOfSupply">legalStatusOfSupply</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000000000"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Medicinal product subject to medical prescription"/&gt;
+          &lt;/coding&gt;
+        &lt;/legalStatusOfSupply&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name">name</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.productName">productName</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="HIPÉRICO ARKOPHARMA cápsulas duras"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.type">type</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/lists/220000000000"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="220000000001"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Full name"/&gt;
+            &lt;/coding&gt;
+          &lt;/type&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="HIPÉRICO ARKOPHARMA"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/lists/220000000000"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="220000000002"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Invented name part"/&gt;
+              &lt;/coding&gt;
+            &lt;/type&gt;
+          &lt;/part&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Hypericum perforatum L."/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/lists/220000000000"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="220000000003"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Scientific name part"/&gt;
+              &lt;/coding&gt;
+            &lt;/type&gt;
+          &lt;/part&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="175 mg"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/lists/220000000000"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="220000000004"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Strength part"/&gt;
+              &lt;/coding&gt;
+            &lt;/type&gt;
+          &lt;/part&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="hard capsules"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/lists/220000000000"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="220000000005"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Pharmaceutical dose form part"/&gt;
+              &lt;/coding&gt;
+            &lt;/type&gt;
+          &lt;/part&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.usage">usage</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.usage.country">country</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="urn:iso:std:iso:3166"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="ES"/&gt;
+              &lt;/coding&gt;
+            &lt;/country&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.usage.jurisdiction">jurisdiction</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="urn:iso:std:iso:3166"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="ES"/&gt;
+              &lt;/coding&gt;
+            &lt;/jurisdiction&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#MedicinalProductDefinition.name.usage.language">language</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="urn:ietf:bcp:47"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="en"/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="English"/&gt;
+              &lt;/coding&gt;
+            &lt;/language&gt;
+          &lt;/usage&gt;
+        &lt;/name&gt;
+      &lt;/MedicinalProductDefinition&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition">ManufacturedItemDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="mid-29436a85dac3ea374adb3fa64cfd2578"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;a name="ManufacturedItemDefinition_mid-29436a85dac3ea374adb3fa64cfd2578"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: ManufacturedItemDefinition&lt;/b&gt;&lt;a name="mid-29436a85dac3ea374adb3fa64cfd2578"&gt; &lt;/a&gt;&lt;a name="hcmid-29436a85dac3ea374adb3fa64cfd2578"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;Resource ManufacturedItemDefinition &amp;quot;mid-29436a85dac3ea374adb3fa64cfd2578&amp;quot; &lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ManufacturedItemDefinition-uv-epi.html"&gt;ManufacturedItemDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://spor.ema.europa.eu/pmswi&lt;/code&gt;/79963&nbsp;(use:&nbsp;OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;manufacturedDoseForm&lt;/b&gt;: hard capsules &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (#100000073681)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;unitOfPresentation&lt;/b&gt;: hard capsules &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (rmswi#200000002152)&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="official"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/pmswi"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="79963"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="active"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition.manufacturedDoseForm">manufacturedDoseForm</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi/"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="100000073681"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="hard capsules"/&gt;
+          &lt;/coding&gt;
+        &lt;/manufacturedDoseForm&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/manufactureditemdefinition.html#ManufacturedItemDefinition.unitOfPresentation">unitOfPresentation</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://spor.ema.europa.eu/rmswi"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="200000002152"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="hard capsules"/&gt;
+          &lt;/coding&gt;
+        &lt;/unitOfPresentation&gt;
+      &lt;/ManufacturedItemDefinition&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+&lt;/Bundle&gt;</code></pre>
+
+
+    <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

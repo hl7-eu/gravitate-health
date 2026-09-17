@@ -1,0 +1,1707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI document Bundle for dolocatil Package Leaflet for language  - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.12"}
+    h3,h4,h5,h6{--heading-prefix:"16.12"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for dolocatil Package Leaflet for language </b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-en-9e0b95f2943e17e9a39046404c6cce71.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-en-9e0b95f2943e17e9a39046404c6cce71.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-en-9e0b95f2943e17e9a39046404c6cce71.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Example Bundle: ePI document Bundle for dolocatil Package Leaflet for language </h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  Raw
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>B. Package Leaflet</h3>
+    <p>
+      <div xmlns="http://www.w3.org/1999/xhtml">unavailable</div></p>
+    
+      
+
+        <h4>Package leaflet: Information for the user</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento porque contiene información importante para usted.</p><ul><li>Conserve este prospecto, ya que puede tener que volver a leerlo.</li><li>Si tiene alguna duda, consulte a su médico o farmacéutico.</li><li>Este medicamento se le ha recetado a usted y no debe dárselo a otras personas, aunque tengan los mismos síntomas, ya que puede perjudicarles.</li><li>Si experimienta efectos adversos, consulte a su médico o farmacéutico incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.</li></ul></div></p>
+
+      
+
+        <h4>What is in this leaflet</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p><strong>Contenido del prospecto:</strong></p><ol><li>Qué es Dolocatil y para qué se utiliza</li><li>Qué necesita saber antes de empezar a tomar Dolocatil</li><li>Cómo tomar Dolocatil</li><li>Posibles efectos adversos</li><li>Conservación de Dolocatil</li><li>Contenido del envase e información adicional.</li></ol></div></p>
+
+      
+
+        <h4>1. What paracetamol is and what it is used for</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Dolocatil pertenece al grupo de medicamentos llamados analgésicos y antipiréticos.</p><p>Se utiliza para el tratamiento de los síntomas del dolor y la fiebre.</p></div></p>
+
+      
+
+        <h4>2. What you need to know before you take paracetamol</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p><strong>No tome Dolocatil</strong></p><ul><li>Si es alérgico (hipersensible) al paracetamol o a alguno de los demás componentes de este medicamento (incluidos en la sección 6).</li></ul><p><strong>Advertencias y precauciones</strong></p><p>No tomar más dosis de la recomendada en el apartado 3. Cómo tomar Dolocatil.</p><p>En pacientes asmáticos sensibles a ácido acetilsalicílico se deberá consultar con el médico antes de tomar este medicamento.</p><p>Si padece alguna enfermedad del hígado, riñón, corazón o del pulmón, o tiene anemia (disminución de la tasa de hemoglobina en la sangre, a causa o no de una disminución de glóbulos rojos), deberá consultar con su médico antes de tomar este medicamento.</p><p>Cuando está en tratamiento con algún medicamento para tratar la epilepsia debe consultar al médico antes de tomar este medicamento, debido a que cuando se usan al mismo tiempo, se disminuye la eficacia y se potencia la hepatotoxicidad del paracetamol, especialmente en tratamientos con dosis altas de paracetamol.</p><p>En alcohólicos crónicos se deberá tener la precaución de no tomar más de 2 g/en 24 horas de paracetamol.</p><p>Si el dolor se mantiene durante más de 5 días, la fiebre durante más de 3 días, o bien el dolor o la fiebre empeoran o aparecen otros síntomas, se debe consultar al médico y reevaluar la situación clínica.</p><p>En niños menores de 15 años consulte a su médico o farmacéutico ya que existen otras presentaciones con dosis que se adaptan a este grupo de pacientes.</p><p><strong>Otros medicamentos y Dolocatil:</strong> Informe a su médico o farmacéutico si está utilizando o ha utilizado recientemente cualquier otro medicamento, incluso los adquiridos sin receta médica. El paracetamol puede tener interacciones con los siguientes medicamentos:</p><ul><li>Medicamento para evitar coágulos en la sangre: Anticoagulantes orales (acenocumarol, warfarina)</li><li>Medicamentos para tratar la epilepsia: Antiepilépticos (lamotrigina, fenitoina u otras hidantoínas, fenobarbital, metilfenobarbital, primidona, carbamacepina)</li><li>Medicamentos para tratar la tuberculosis: (isoniazida, rifampicina)</li><li>Medicamentos para tratar la depresión y las convulsiones: Barbitúricos (utilizados como hipnóticos, sedantes y anticonvulsivantes)</li><li>Medicamentos para disminuir los niveles de colesterol en sangre: (colestiramina)</li><li>Medicamentos utilizados para aumentar la eliminación de orina (diuréticos del asa como los del grupo furosemida)</li><li>Medicamentos utilizados para el tratamiento de la gota (probenecid y sulfinpirazona)</li><li>Medicamentos utilizados para evitar nauseas y vómitos: Metoclopramida y domperidona</li><li>Medicamentos utilizados en el tratamiento de la tensión arterial alta (hipertensión) y las alteraciones del ritmo del corazón (arritmias cardiacas): Propranolol.</li><li>Flucloxacilina (antiobiótico), debido a un riesgo grave de alteración de la sangre y los fluidos (acidosis metabólica con alto desequilibrio aniónico) que debe ser tratada urgentemente y que puede ocurrir particularmente en caso de insuficiencia renal grave, sepsis (cuando las bacterias y sus toxinas circulan en la sangre que da lugar a daño de órganos), desnutrición, alcoholismo crónico y si se utilizan las dosis máximas diarias de paracetamol.</li></ul><p>No utilizar con otros analgésicos (medicamentos que disminuyen el dolor) sin consultar al médico.</p><p>Como norma general para cualquier medicamento es recomendable informar sistemáticamente al médico o farmacéutico si está en tratamiento con otro medicamento. En caso de tratamiento con anticoagulantes orales se puede administrar ocasionalmente como analgésico de elección.</p><p><em>Interferencias con pruebas analíticas:</em></p><p>Si le van a realizar alguna prueba analítica (incluidos análisis de sangre, orina, pruebas cutáneas que utilizan alergenos, etc.) comunique al médico que está tomando este medicamento, ya que puede alterar los resultados de dichas pruebas.</p><p><strong>Toma de Dolocatil con alimentos, bebidas y alcohol</strong></p><p>La utilización de paracetamol en pacientes que consumen habitualmente alcohol (tres o más bebidas alcohólicas al día: cerveza, vino, licor... al día) puede provocar daño en el hígado.</p><p>La toma de este medicamento con alimentos no afecta a la eficacia del mismo.</p><p><strong>Embarazo y lactancia:</strong></p><p>Si está embarazada o en período de lactancia, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte a su médico o farmacéutico antes de utilizar este medicamento.</p><p>El consumo de medicamentos durante el embarazo puede ser peligroso para el embrión o el feto, y debe ser vigilado por su médico.</p><p>En caso necesario, se puede utilizar Dolocatil durante el embarazo. Debe utilizar la dosis más baja posible que reduzca el dolor o la fiebre y utilizarla durante el menor tiempo posible. Contacte con su médico si el dolor o la fiebre no disminuyen o si necesita tomar el medicamento con más frecuencia. Pueden aparecer pequeñas cantidades de paracetamol en la leche materna, por lo tanto se recomienda que consulte a su médico o farmacéutico antes de tomar este medicamento.</p><p><strong>Conducción y uso de máquinas:</strong></p><p>La influencia del paracetamol sobre la capacidad de conducir y utilizar máquinas es nula o insignificante.</p></div></p>
+
+      
+
+        <h4>3. How to take paracetamol</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico.</p><p>Recuerde tomar su medicamento. Dolocatil debe tomarse por vía oral.</p><p>Según sus preferencias, los comprimidos se pueden ingerir directamente o partidos por la mitad, con ayuda de un vaso de líquido, preferentemente agua.</p><p>La ranura es sólo para poder fraccionar y facilitar la deglución pero no para dividir en dosis iguales. Consulte a su médico o farmacéutico si tiene dudas.</p><p>La dosis recomendada es:</p><p>Adultos y adolescentes mayores de 15 años: la dosis habitual es de 1 comprimido (1 g de paracetamol) 3 veces al día. Las tomas deben espaciarse al menos 4 horas. No se tomarán más de 4 comprimidos (4 g) en 24 horas.</p><p>Pacientes con enfermedades del hígado: antes de tomar este medicamento tienen que consultar a su médico. Deben tomar la cantidad de medicamento prescrita por su médico con un intervalo mínimo entre cada toma de 8h. No deben tomar más de 2 gramos de paracetamol en 24 horas, repartidos en 2 tomas.</p><p>Pacientes con enfermedades del riñón: antes de tomar este medicamento tienen que consultar a su médico. Tomar como máximo 500 miligramos por toma. Debido a la dosis, 1 gramo de paracetamol, no está indicado para este grupo de pacientes.</p><p>Pacientes de edad avanzada: deben consultar a su médico.</p><p><strong>Uso en niños y adolescentes</strong></p><p>No utilizar en niños menores de 15 años.</p><p>Si se estima que la acción del medicamento es demasiado fuerte o débil, comuníqueselo a su médico o farmacéutico.</p><p>Cuando se requiera la administración de dosis inferiores a 1 gramo de paracetamol por toma se deberán emplear otras presentaciones de paracetamol que se adapten a la dosificación requerida.</p><p><strong>Si toma más Dolocatil del que debe</strong></p><p>Debe consultar inmediatamente a su médico o a su farmacéutico. En caso de sobredosis o ingestión accidental, acudir inmediatamente a un centro médico o llamar al Servicio de Información Toxicológica, (teléfono 91 562 04 20), indicando el medicamento y la cantidad ingerida. Si ha ingerido una sobredosis, debe acudir inmediatamente a un centro médico aunque no note los síntomas, ya que a menudo éstos no se manifiestan hasta pasados 3 días desde la ingestión de la sobredosis, incluso en casos de intoxicación grave.</p><p>Los síntomas de sobredosis pueden ser: mareos, vómitos, pérdida de apetito, coloración amarillenta de la piel y los ojos (ictericia), dolor abdominal e inflamación del páncreas (pancreatitis).</p><p>El tratamiento de la sobredosis es más eficaz si se inicia dentro de las 4 horas siguientes a la ingestión del medicamento.</p><p>Los pacientes en tratamiento con barbitúricos o los alcohólicos crónicos pueden ser más susceptibles a la toxicidad de una sobredosis de paracetamol.</p><p><strong>Si olvidó tomar Dolocatil</strong></p><p>No tome una dosis doble para compensar las dosis olvidadas, simplemente tome la dosis olvidada cuando se acuerde, tomando las siguientes dosis con la separación entre tomas indicada en cada caso (al menos 4 horas).</p></div></p>
+
+      
+
+        <h4>4. Possible side effects</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</p><p>Efectos adversos raros que se pueden producir (pueden afectar hasta 1 de cada 1.000 personas), son: malestar, bajada de la tensión (hipotensión), y aumento de los niveles de transaminasas en sangre.</p><p>Efectos adversos muy raros que se pueden producir (pueden afectar hasta 1 de cada 10.000 personas) son: Enfermedades del riñón, orina turbia, dermatitis alérgica (erupción cutánea), ictericia (coloración amarillenta de la piel), alteraciones sanguíneas (agranulocitosis, leucopenia, neutropenia, anemia hemolítica) e hipoglucemia (bajada de azúcar en sangre). Se han notificado muy raramente casos de reacciones graves en la piel.</p><p>El paracetamol puede dañar el hígado cuando se toma en dosis altas o en tratamientos prolongados.</p><p><strong>Comunicación de efectos adversos</strong></p><p>Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano: <a href="https://www.notificaram.es">https://www.notificaram.es</a>. Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</p></div></p>
+
+      
+
+        <h4>5. How to store paracetamol</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Mantener este medicamento fuera de la vista y del alcance de los niños.</p><p>Este medicamento no requiere condiciones especiales de conservación.</p><p>No utilice este medicamento después de la fecha de caducidad que aparece en el envase (después de CAD.). La fecha de caducidad es el último día del mes que se indica.</p><p>Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesita en el Punto SIGRE de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que ya no necesita. De esta forma, ayudará a proteger el medio ambiente.</p></div></p>
+
+      
+
+        <h4>6. Contents of the pack and other information</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p><strong>Composición de Dolocatil</strong></p><ul><li>El principio activo es paracetamol.</li><li>Los demás componentes son: povidona, estearato magnésico, sílice coloidal anhidra, almidón glicolato sódico (Tipo A) (origen: patata) y almidón pregelatinizado (origen: maíz).</li></ul><p><strong>Aspecto de Dolocatil y contenido del envase</strong></p><p>Comprimidos oblongos, de color blanco y ranurados, en envases de 20 y 40 comprimidos. Los comprimidos están ranurados lo que permite partirlos por la mitad.</p><p><strong>Titular de la autorización de comercialización</strong> Ferrer Internacional, S.A. Gran Vía Carlos III, 94 08028 - Barcelona Responsable de la fabricación Ferrer Internacional, S.A. Joan XXIII, 10 08950 – Esplugues de Llobregat (Barcelona) o Ferrer Internacional, S.A. Joan Buscallá, 1-9 08173 - Sant Cugat del Vallés (Barcelona)</p><p><strong>Fecha de la última revisión de este prospecto: diciembre 2022</strong></p><p>La información detallada y actualizada de este medicamento está disponible en la página Web de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) <a href="http://www.aemps.gob.es/">http://www.aemps.gob.es/</a></p></div></p>
+
+      
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    DOLOCATIL 1 g tablets
+  </h4>
+
+  
+  
+    PMSWI:
+    <b>
+      72.741
+    </b>
+    </br>
+  
+    PHPID:
+    <b>
+      0xE857DA811B4A6F3BD57810C45D2EA1ED
+    </b>
+    </br>
+  
+  <hr>
+  
+  <p>Full name: <b>DOLOCATIL 1 g tablets</b></p>
+  
+    <p>
+      - Invented name part:
+      <b>
+        Dolocatil
+      </b>
+    </p>
+  
+    <p>
+      - Scientific name part:
+      <b>
+        paracetamol
+      </b>
+    </p>
+  
+    <p>
+      - Strength part:
+      <b>
+        1000 mg
+      </b>
+    </p>
+  
+    <p>
+      - Pharmaceutical dose form part:
+      <b>
+        tablet
+      </b>
+    </p>
+  
+
+
+  
+  
+  
+    <div>
+      <p>
+        Name usage:
+        
+
+          <b>English (Spain)</b>
+        </p>
+
+      
+    </div>
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b>active</b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+  <p class="divtitle">
+    <b>Marketing Authorisation</b>
+    1 of 1</p>
+
+  <p>Authorisation number:
+    <b>
+      
+        72.741
+      
+    </b>
+  </p>
+
+  <p>
+    Region:
+    <b>
+      
+    </b>
+  </p>
+
+  <p>
+
+    
+  </p>
+
+  
+  
+
+    
+    
+    
+    
+
+
+    
+    
+      <p>Marketing authorisation holder:
+        <b>FERRER INTERNACIONAL, S.A.</b>
+      </p>
+      <p>
+        Identifier:
+        <ul>
+          
+            <li>
+              <b>ORG-100000789</b>
+            </li>
+          
+        </ul>
+      </p>
+    
+  
+
+  <p>
+    Status:
+    <b>
+      Active (2010-10-01)
+    </b>
+  </p>
+
+</div>
+    
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 1</p>
+          
+  <p>PMSWI:
+  <b>
+    672669
+  </b>
+  </p>
+
+<p>
+  Description:
+  </br>
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+      <li>
+        <b>1000 </li></b>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b>1 Box</b>
+  
+  
+    
+      <b>(Cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+
+
+  <br/>
+  <div class="container rcorners innerpack">
+    
+<p>Package:
+  <b>20 Blister</b>
+  
+  
+    
+      <b>(PolyVinyl Chloride)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+    <b> 
+      
+    </b>
+  </p>
+  
+  
+  
+    
+    
+
+    
+      <div class="container rcorners mid listcontainer">
+  <p class="divtitle">Manufactured Item</p>
+  <p>
+    Dose form:
+    <b>
+      tablet
+    </b>
+  </p>
+  <p>
+    Unit of presentation:
+    <b>
+      Tablet
+    </b>
+  </p>
+
+  
+
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Magnesium stearate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              POVIDONE, UNSPECIFIED
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              paracetamol
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              SILICA, COLLOIDAL ANHYDROUS
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              STARCH, CORN
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              STARCH, POTATO
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+</div>
+      
+  
+
+
+
+
+
+  </div>
+
+
+
+  </div>
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+        
+        
+        
+        
+          
+        <div class="container rcorners apd listcontainer">
+  <p class="divtitle">Administrable Product (1 of 1)</p>
+  <p>
+    Dose form:
+    <b>
+      tablet
+    </b>
+  </p>
+
+  <p>
+    Unit of presentation:
+    <b>
+      tablet
+    </b>
+  </p>
+
+  <p>
+    Route of administration:
+    <ul>
+      
+        <li>
+          <b>
+            Oral use
+          </b>
+        </li>
+      
+    </ul>
+  </p>
+
+  Ingredients:
+  
+
+
+
+  
+
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Magnesium stearate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              POVIDONE, UNSPECIFIED
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              paracetamol
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              SILICA, COLLOIDAL ANHYDROUS
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              STARCH, CORN
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              STARCH, POTATO
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+
+
+</div>
+      
+    
+  
+</div>
+
+
+<!--
+  <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    DOLOCATIL 1 g tablets
+  </h4>
+
+  
+  
+  
+  
+    PMSWI:
+    <b>
+      72.741
+    </b>
+  
+    PHPID:
+    <b>
+      0xE857DA811B4A6F3BD57810C45D2EA1ED
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b>active</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+
+        <p class="divtitle">Authorisation 1 of 1</p>
+        Auth id:
+        <b>
+          
+            72.741
+          
+        </b>
+
+        <p>
+          Country:
+          <b>
+            
+
+          </b>
+        </p>
+        <p>
+          Type:
+          <b>
+            Marketing Authorisation
+          </b>
+        </p>
+
+        
+      </p>
+
+      
+      
+
+        
+        
+        
+        
+
+
+        
+        
+          <p>
+            Holder:
+            <b>FERRER INTERNACIONAL, S.A. (ORG-100000789)</b>
+
+          </p>
+          <p></p>
+        
+      
+
+
+
+      <p>
+        Status:
+        <b>
+          Active (2010-10-01)
+        </b>
+      </p>
+
+    </div>
+
+  
+
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 1</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          PMSWI:
+          <b>
+            672669
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          active</b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+              <li>
+
+                <b>
+                  1000 mg</b>
+              </li>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+            <br/>
+            <div class="container rcorners pack bleft">
+              <p>Package: 1 Box [Cardboard]</p>
+
+
+              
+              
+                <br/>
+                <div class="container rcorners pack bleft">
+                  <p>Inner Package: 20 Blister [PolyVinyl Chloride]</p>
+
+                </div>
+              </div>
+            
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+      
+
+      
+      
+      
+        
+          <div class="container bleft rcorners apd"> <p class="divtitle">Administrable Product (1 of 1)</p>
+          <p>
+            Dose form:
+            <b>
+              tablet
+            </b>
+          </p>
+
+          <p>
+            Presentation unit:
+            <b>
+              tablet
+            </b>
+          </p>
+          Route of administration:
+          <ul>
+            
+              <li>
+                <b>
+                  Oral use
+                </b>
+              </li>
+            
+          </ul>
+          Contents (Manuf. Items):
+          <ul>
+            
+            
+
+              
+
+              
+
+              
+                <div class="container   rcorners mid">
+                  <b>mid-08ac066220d4d68a3933a9c94bef32ff</b>
+                  <p>
+                    Dose form:
+                    <b>tablet</b>
+                  </p>
+                  <p>
+                    Presentation unit:
+                    <b>Tablet</b>
+                  </p>
+                  <p>
+                    Manufactured Dose Form:
+                    <b>tablet</b>
+                  </p>
+                  Ingredients:
+                  <ul>
+                    
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-paracetamol-magnesiumstearate</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Magnesium stearate
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-paracetamol-povidoneunspecified</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              POVIDONE, UNSPECIFIED
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-paracetamol-paracetamol</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              paracetamol
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-paracetamol-silicacolloidalanhydrous</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              SILICA, COLLOIDAL ANHYDROUS
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-paracetamol-starchcorn</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              STARCH, CORN
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-paracetamol-starchpotato</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              STARCH, POTATO
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                  </ul>
+
+                </div>
+              
+            
+          </ul>
+          
+          
+            
+
+
+        </div>
+      
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Jan 21, 2024 22:55+0000">2024-01-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

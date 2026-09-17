@@ -1,0 +1,1991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI document Bundle for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet for language da - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.185"}
+    h3,h4,h5,h6{--heading-prefix:"20.185"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet for language da</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-da-a38f06714db0c27b2ba704652e3f08c5.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-da-a38f06714db0c27b2ba704652e3f08c5.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-da-a38f06714db0c27b2ba704652e3f08c5.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Example Bundle: ePI document Bundle for Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill Package Leaflet for language da</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  Raw
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+
+  
+    <h3 class="nonumbers">B. INDLÆGSSEDDEL</h3>
+    <p>
+      
+      
+      <div xmlns="http://www.w3.org/1999/xhtml">unavailable</div></p>
+    
+      
+
+        <h4 class="nonumbers">Indlægsseddel: Information til brugeren</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>B. INDLÆGSSEDDEL Indlægsseddel: Information til brugeren</p><p>Humalog 100 enheder/ml injektionsvæske, opløsning, i hætteglas insulin lispro</p><p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den indeholder vigtige oplysninger. - Gem indlægssedlen. Du kan få brug for at læse den igen. - Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4.<br/>Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">Oversigt over indlægssedlen</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Oversigt over indlægssedlen 1. Virkning og anvendelse 2. Det skal du vide, før du begynder at bruge Humalog 3. Sådan skal du bruge Humalog 4. Bivirkninger<br/>5. Opbevaring 6. Pakningsstørrelser og yderligere oplysninger</p></div></p>
+
+      
+
+        <h4 class="nonumbers">1. Virkning og anvendelse</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Humalog anvendes til at behandle diabetes. Humalog virker hurtigere end almindelig human insulin, fordi insulinmolekylet er blevet ændret en smule.</p><p>Du får diabetes, hvis din bugspytkirtel ikke producerer tilstrækkeligt insulin til at kontrollere dit blodsukkerniveau. Humalog er en erstatning for dit eget insulin og bruges til at kontrollere dit blodsukker på langt sigt. Det virker meget hurtigt og i kortere tid end opløselig insulin (2 til 5 timer). Du bør normalt anvende Humalog indenfor 15 minutter før eller efter et måltid.</p><p>Din læge kan bede dig om at bruge Humalog sammen med et længerevirkende insulin. Til hver insulintype hører en separat indlægsseddel med oplysninger om den enkelte insulintype. Du må ikke ændre din insulinbehandling, medmindre din læge beder dig om det. Vær meget forsigtig, hvis du skal ændre insulin.</p><p>Humalog kan bruges af voksne og børn.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">2. Det skal du vide, før du begynder at tage  Humalog</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Brug IKKE Humalog - hvis du føler, at du er ved at få hypoglykæmi (lavt blodsukker). Senere i denne indlægsseddel beskrives, hvordan du skal behandle et let tilfælde af hypoglykæmi (se punkt 3: Hvis du har taget for meget Humalog). - hvis du er allergisk over for insulin lispro eller et af de øvrige indholdsstoffer i Humalog (angivet i punkt 6).</p><p>Advarsler og forsigtighedsregler</p><ul><li><p>Kontrollér altid insulinets navn og type på æsken og hætteglassets etiket, når du får insulinet fra apoteket. Vær opmærksom på, at du får det Humalog, som din læge har sagt, at du skal bruge.</p></li><li><p>Hvis dit blodsukkerniveau er velkontrolleret med din nuværende insulinbehandling, fornemmer du måske ikke advarselssymptomerne, når dit blodsukker bliver for lavt. Advarselssymptomer beskrives senere i denne indlægsseddel. Du må derfor grundigt overveje, hvornår du vil lægge dine måltider, hvor ofte du vil dyrke motion og hvor meget. Du skal også holde nøje øje med dit blodsukkerniveau ved ofte at måle dit blodsukker.</p></li><li><p>Enkelte personer, som har haft hypoglykæmi efter at have skiftet fra animalsk insulin til human insulin har fortalt, at de tidlige advarselssymptomer for human insulin var mindre tydelige eller forskellige fra animalsk insulin. Hvis du ofte har hypoglykæmi eller har svært ved at føle det, bør du tale med din læge om det.</p></li><li><p>Hvis du kan svare JA til et hvilket som helst af nedenstående spørgsmål, skal du fortælle det til din læge, diabetessygeplejerske eller på dit apotek.</p></li><li>Har du været syg for nylig?</li><li>Har du symptomer fra dine nyrer eller lever?</li><li><p>Dyrker du mere motion end normalt?</p></li><li><p>Dit insulinbehov kan også ændres, hvis du indtager alkohol.</p></li><li><p>Du skal også fortælle din læge, diabetessygeplejerske eller dit apotek, hvis du planlægger at rejse til udlandet. Tidsforskellen mellem lande kan betyde, at du skal have dine injektioner og måltider på andre tidspunkter, end når du er hjemme.</p></li><li><p>Nogle patienter med årelang type 2-diabetes mellitus og hjertesygdom eller tidligere slagtilfælde, og som blev behandlet med pioglitazon og insulin, udviklede hjertesvigt. Fortæl det til din læge hurtigst muligt, hvis du oplever tegn på hjertesvigt, f.eks. hvis du bliver usædvanligt stakåndet eller får hurtig vægtstigning eller væskeansamlinger (ødemer).</p></li></ul><p>Hudforandringer på injektionsstedet Injektionsstedet bør løbende skiftes for at forebygge hudforandringer, f.eks. knuder under huden. Hvis du injicerer insulinet i et område med knuder, kan det være, at insulinet ikke virker så godt (se afsnittet Sådan skal du bruge Humalog). Kontakt lægen, hvis du for øjeblikket injicerer i et område med knuder, før du begynder at injicere i et andet område. Det kan være, at lægen vil fortælle dig, at du skal tjekke dit blodsukker oftere og tilpasse insulindosen eller dosen af andre antidiabetiske lægemidler.</p><p>Brug af anden medicin sammen med Humalog Dit insulinbehov kan ændre sig hvis du tager:</p><ul><li><p>p-piller,</p></li><li><p>steroider,</p></li><li><p>skjoldbruskkirtelhormon,</p></li><li><p>orale antidiabetika,</p></li><li><p>acetylsalicylsyre,</p></li><li><p>sulfapræparater,</p></li><li><p>octreotid,</p></li><li><p>beta2-stimulerende midler (f.eks. ritodrin, salbutamol eller terbutalin),</p></li><li><p>beta-blokkere,</p></li><li><p>visse midler mod depression (monoaminooxidasehæmmere eller selektive serotoningenoptagshæmmere (SSRI)),</p></li><li><p>danazol,</p></li><li><p>visse ACE-hæmmere (f.eks. captopril og enalapril) og</p></li><li><p>angiotensin II-receptorblokkere.</p></li></ul><p>Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden medicin eller planlægger at bruge anden medicin. Dette gælder også medicin, som ikke er købt på recept (se punkt ”Advarsler og forsigtighedsregler”).</p><p>Graviditet og amning Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.</p><p>Dit insulinbehov vil sædvanligvis nedsættes under de første 3 måneder af graviditeten og øges under de resterende 6 måneder af graviditeten. Hvis du ammer, kan det være nødvendigt at justere din insulindosis eller din kost.</p><p>Trafik- og arbejdssikkerhed Din koncentrations- og reaktionsevne kan være nedsat, hvis du har hypoglykæmi (lavt blodsukker). Vær opmærksom på dette i alle situationer, hvor du kan bringe dig selv eller andre i fare (f.eks. ved bilkørsel eller ved betjening af maskiner). Du bør drøfte med din læge om bilkørsel er tilrådeligt, hvis du har:</p><ul><li><p>hyppige tilfælde af hypoglykæmi</p></li><li><p>nedsat eller manglende evne til at mærke advarselstegn på hypoglykæmi</p></li></ul><p>Humalog indeholder natrium Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige natriumfrit.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">3. Sådan skal du tage Humalog</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller apotekspersonalet.</p><p>Dosis</p><ul><li><p>Du bør normalt injicere Humalog indenfor 15 minutter før et måltid. Hvis det er nødvendigt, kan du injicere Humalog lige efter et måltid. Din læge har fortalt dig præcist, hvor meget du skal bruge, hvornår du skal bruge det og hvor ofte. Lægens instruktioner gælder kun for dig. Følg dem nøjagtigt og besøg dit diabetesambulatorium regelmæssigt.</p></li><li><p>Hvis du ændrer insulintype (f.eks. fra human eller animalsk insulin til et Humalog produkt), skal du måske tage mere eller mindre insulin end før. Dette gælder måske kun den første injektion eller kan være en gradvis ændring over flere uger eller måneder.</p></li><li><p>Injicer Humalog under huden. Du bør kun injicere Humalog i en muskel, hvis din læge har sagt dette.</p></li></ul><p>Klargøring af Humalog</p><ul><li>Humalog er allerede opløst i vand, så du behøver ikke at blande det. Du må dog kun bruge opløsningen, hvis den ser ud som vand. Den skal være klar, farveløs og uden faste partikler. Kontrollér dette før hver injektion.</li></ul><p>Injektion af Humalog</p><ul><li><p>Vask hænderne.</p></li><li><p>Rens huden som anvist før du foretager en injektion. Rens gummimembranen på hætteglasset, men fjern den ikke.</p></li><li><p>Brug en ren, steril sprøjte og kanyle til at stikke gennem gummimembranen og træk den ønskede dosis Humalog op i sprøjten. Din læge eller dit diabetesambulatorium vil fortælle dig, hvordan du skal gøre dette. Del ikke dine kanyler og sprøjter med andre.</p></li><li><p>Injicer Humalog under huden, som du er blevet instrueret. Injicer ikke direkte i en blodåre. Efter injektionen skal du lade kanylen blive i huden i 5 sekunder for at være sikker på, at du har fået hele din dosis. Gnid ikke på indstiksstedet. Vær opmærksom på, at injicere mindst 1 cm fra forrige indstikssted og at skifte indstikssted mellem hver injektion, som du er blevet instrueret. Uanset om du injicerer i overarmen, låret, balden eller maven, virker din Humalog injektion hurtigere end almindelg insulin.</p></li><li><p>Din læge vil fortælle dig, hvis du skal blande Humalog med en af de humane insuliner. Hvis du skal injicere en blanding, skal Humalog trækkes op i sprøjten før det længerevirkende insulin. Injicer væsken umiddelbart efter, at du har blandet den. Gør på samme måde hver gang. Du bør almindeligvis ikke blande Humalog med blandinger af human insulin. Du bør aldrig blande Humalog med insulinpræparater fremstillet af andre producenter eller med animalsk insulin.</p></li><li><p>Du må ikke injicere Humalog direkte i blodet. Injicer Humalog som din læge eller diabetessygeplejerske har lært dig. Det er kun din læge der kan give dig Humalog direkte i blodet. Lægen kan benytte sig af denne mulighed i ganske særlige tilfælde, f.eks. under en operation eller hvis dit blodsukker bliver for højt under en sygdom.</p></li></ul><p>Brug af Humalog i en infusionspumpe</p><ul><li><p>Kun visse CE-mærkede insulininfusionspumper kan anvendes til infusion af insulin lispro. Før infusion af insulin lispro påbegyndes skal fremstillerens instruktioner læses igennem for at sikre egnetheden samt andet i relation til den pågældende pumpe. Læs og følg instruktionerne i produktinformationen, der følger med infusionspumpen.</p></li><li><p>Vær sikker på, at du bruger det rigtige reservoir og infusionskateter til din pumpe.</p></li><li><p>Skift af infusionssættet (slange og kanyle) skal ske i overensstemmelse med de instruktioner, som er i brugsanvisningen, der følger med infusionssættet.</p></li><li><p>I tilfælde af hypoglykæmi bør infusionen stoppes, indtil det hypoglykæmiske tilfælde er overstået. Hvis der forekommer gentagne eller svært nedsatte blodsukkerniveauer, bør du informere din læge eller dit diabetesambulatorium, og du bør overveje, om det er nødvendigt at nedsætte eller stoppe din insulininfusion.</p></li><li><p>En fejl ved pumpen eller tilstopning af infusionssættet kan give en hurtig stigning af blodsukkerniveauet. Hvis du har mistanke om, at insulinflowet er afbrudt, bør du følge instruktionerne i produktinformationen og hvis nødvendigt informere din læge eller dit diabetesambulatorium.</p></li><li><p>Når Humalog bruges i en insulininfusionspumpe, bør det ikke blandes med andet insulin.</p></li></ul><p>Hvis du har taget for meget Humalog Hvis du tager mere Humalog end du bør eller er usikker på, hvor meget du har injiceret, kan det ske, at dit blodsukker bliver for lavt. Kontrollér dit blodsukker.</p><p>Hvis dit blodsukker er lavt (let hypoglykæmi), skal du spise druesukker, sukker eller drikke en sukkerholdig drik. Derefter bør du spise frugt, kiks eller brød efter din læges råd og hvile dig. Dette vil ofte hjælpe dig over et let tilfælde af hypoglykæmi eller en mindre insulinoverdosis. Hvis du får det værre, din vejrtrækning bliver overfladisk og din hud bleg, skal du straks informere din læge. En injektion med glukagon kan behandle selv svær hypoglykæmi. Indtag druesukker eller sukker efter glukagon-injektionen. Hvis du ikke reagerer på glukagon, skal du på hospitalet. Bed din læge fortælle dig om glukagon.</p><p>Hvis du har glemt at tage Humalog<br/>Hvis du glemmer at tage Humalog eller er usikker på, hvor meget du har injiceret, kan det ske, at dit blodsukker bliver for højt. Kontrollér dit blodsukker.</p><p>Hvis hypoglykæmi (lavt blodsukker) eller hyperglykæmi (højt blodsukker) ikke bliver behandlet, kan disse tilstande blive meget alvorlige og forårsage hovedpine, kvalme, opkastning, dehydrering, bevidstløshed, koma og i værste fald medføre døden (se afsnit A og B under punkt 4 ”Bivirkninger”).</p><p>De tre enkle trin til at undgå hypoglykæmi eller hyperglykæmi er:</p><ul><li><p>Opbevar altid ekstra éngangssprøjter og et ekstra Humalog hætteglas.</p></li><li><p>Medbring altid noget, der viser, at du er diabetiker.</p></li><li><p>Hav altid sukker på dig.</p></li></ul><p>Hvis du holder op med at tage Humalog Hvis du holder op med at tage Humalog, kan det ske, at dit blodsukker bliver for højt. Du må ikke ændre din insulinbehandling, medmindre din læge beder dig om det.</p><p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">4. Bivirkninger</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.</p><p>Systemisk allergi er sjælden (≥ 1/10.000 til &lt;1/1.000). Symptomerne er:</p><ul><li><p>udslæt over hele kroppen</p></li><li><p>faldende blodtryk</p></li><li><p>vejrtrækningsbesvær</p></li><li><p>hjertebanken</p></li><li><p>hvæsende vejrtrækning</p></li><li><p>svedtendens Hvis du tror, at du har denne form for insulinallergi med Humalog, skal du straks informere din læge.</p></li></ul><p>Lokal allergi er almindelig (≥ 1/100 til &lt;1/10). Nogle mennesker får rødme, hævelse eller kløe omkring indstiksstedet. Dette forsvinder sædvanligvis i løbet af få dage til få uger. Informér din læge, hvis du oplever dette.</p><p>Lipodystrofi er ikke almindelig (≥ 1/1.000 til &lt;1/100). Hvis du injicerer insulin for ofte på samme sted, kan fedtvævet enten skrumpe (lipoartrofi) eller fortykkes (lipohypertrofi). Knuder under huden kan også skyldes ophobning af et protein, der kaldes amyloid (kutan amyloidose). Hvis du injicerer insulinet i et område med knuder, kan det være, at insulinet ikke virker så godt. Skift injektionssted ved hver injektion for at forebygge disse hudforandringer.</p><p>Væskeophobning (ødem, f.eks hævelse af armene, anklerne) er blevet indberettet, specielt i starten af insulinbehandlingen, eller hvis behandlingen ændres for at forbedre kontrollen med dit blodsukker.</p><p>Indberetning af bivirkninger Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel.</p><p>Almindelige problemer ved diabetes</p><p>A.<br/>Hypoglykæmi Hypoglykæmi (lavt blodsukker) betyder, at der ikke er tilstrækkeligt sukker i blodet. Dette kan skyldes, at:</p><ul><li><p>du tager for meget Humalog eller andet insulin;</p></li><li><p>du springer et måltid over, det bliver forsinket, eller at du ændrer din kost;</p></li><li><p>du motionerer eller arbejder for hårdt lige før eller efter et måltid;</p></li><li><p>du har en infektion, eller du er syg (specielt diarré eller opkastning);</p></li><li><p>der er en ændring i dit behov for insulin; eller</p></li><li><p>du har nyre- eller leverproblemer, der forværres.</p></li></ul><p>Alkohol og visse lægemidler kan påvirke dit blodsukkerniveau.</p><p>De første symptomer på for lavt blodsukker kommer sædvanligvis hurtigt og inkluderer:</p><ul><li><p>træthed</p></li><li><p>hjertebanken</p></li><li><p>nervøsitet eller kulderystelser</p></li><li><p>kvalme</p></li><li><p>hovedpine</p></li><li><p>koldsved</p></li></ul><p>Hvis du ikke er sikker på advarselssymptomerne på hypoglykæmi, bør du undgå situationer, som f.eks. bilkørsel, hvor du selv eller andre kan komme i fare på grund af hypoglykæmi.</p><p>B.<br/>Hyperglykæmi og diabetisk ketoacidose (syreforgiftning) Hyperglykæmi (højt blodsukker) betyder, at din krop ikke har tilstrækkeligt insulin. Hyperglykæmi kan være forårsaget af:</p><ul><li><p>at du ikke tager Humalog eller andet insulin;</p></li><li><p>at du tager mindre insulin, end din læge har anvist;</p></li><li><p>at du spiser mere, end din diæt tillader dig; eller</p></li><li><p>feber, infektion eller følelsesmæssig ubalance.</p></li></ul><p>Hyperglykæmi kan resultere i diabetisk ketoacidose. De første symptomer kommer langsomt over mange timer eller dage. Symptomerne inkluderer følgende:</p><ul><li><p>træthed</p></li><li><p>manglende appetit</p></li><li><p>blussende ansigt</p></li><li><p>frugtagtig ånde</p></li><li><p>tørst</p></li><li><p>kvalme og opkastning</p></li></ul><p>Svære symptomer er tung vejrtrækning og hurtig puls. Søg lægehjælp straks.</p><p>C.<br/>Sygdom Hvis du er syg, særligt hvis du har kvalme eller opkastning, kan dit insulinbehov ændre sig. Selv når du ikke spiser normalt, har du stadig brug for insulin. Test din urin eller dit blod, følg de almindelige regler ved sygdom og informér din læge.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">5. Opbevaring</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Humalog opbevares i køleskab (2ºC – 8ºC), indtil det tages i brug for første gang. Må ikke nedfryses. Det hætteglas, der er i brug, opbevares i et køleskab (2ºC – 8ºC) eller ved stuetemperatur (under 30ºC) og kasseres efter 28 dage. Læg det ikke nær varme eller i solen.</p><p>Opbevar lægemidlet utilgængeligt for børn.</p><p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned.</p><p>Brug ikke lægemidlet, hvis du ser en farvning af produktet, eller hvis der er faste partikler i produktet. Du må kun bruge det, hvis det ser ud som vand. Kontrollér det hver gang du skal injicere dig selv.</p><p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">6. Pakningsstørrelser og yderligere oplysninger</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Humalog 100 enheder/ml injektionsvæske, opløsning, i hætteglas indeholder: - Aktivt stof: insulin lispro. Insulin lispro er fremstillet ved gensplejsning. Det er en ændret form for human insulin og er derfor forskellig fra andre humane og animalske insuliner. Insulin lispro er nært beslægtet med human insulin, som er et naturligt hormon, der produceres af kroppens bugspytkirtel. - Øvrige indholdsstoffer: m-cresol, glycerol, dinatriumphosphat heptahydrat, zinkoxid og vand til injektionsvæsker. Natriumhydroxid eller saltsyre kan være tilsat for at justere surhedsgraden (pH).</p><p>Udseende og pakningsstørrelser Humalog 100 enheder/ml injektionsvæske, opløsning er en steril klar farveløs vandig opløsning og indeholder 100 enheder insulin lispro per milliliter (100 enheder/ml) injektionsvæske. Hvert hætteglas indeholder 1000 enheder (10 milliliter). Humalog 100 enheder/ml injektionsvæske, opløsning, i hætteglas findes i pakninger med 1 hætteglas, 2 hætteglas samt i en multipakning med 5 x 1 hætteglas. Ikke alle pakningsstørrelser er nødvendigvis markedsført.</p><p>Indehaver af markedsføringstilladelsen og fremstiller Humalog 100 enheder/ml injektionsvæske, opløsning, i hætteglas fremstilles af:</p><ul><li>Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spanien.</li></ul><p>Indehaver af markedsføringstilladelsen er: Eli Lilly Nederland B.V., Papendorpseweg 83, 3528 BJ Utrecht, Holland.</p><p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale repræsentant for indehaveren af markedsføringstilladelsen:</p><p>Belgique/België/Belgien Eli Lilly Benelux S.A./N.V. Tél/Tel: + 32-(0)2 548 84 Lietuva Eli Lilly Lietuva Tel. +370 (5) 2649 България ТП "Ели Лили Недерланд" Б.В. - България тел. + 359 2 491 41 Luxembourg/Luxemburg Eli Lilly Benelux S.A./N.V. Tél/Tel: + 32-(0)2 548 84<br/>Česká republika ELI LILLY ČR, s.r.o. Tel: + 420 234 664 Magyarország Lilly Hungária Kft. Tel: + 36 1 328 5 Danmark Eli Lilly Danmark A/S<br/>Tlf: +45 45 26 6Malta Charles de Giorgio Ltd. Tel: + 356 25600<br/>Deutschland Lilly Deutschland GmbH Tel. + 49-(0) 6172 273 2Nederland Eli Lilly Nederland B.V.<br/>Tel: + 31-(0) 30 60 25<br/>Eesti Eli Lilly Nederland B.V.<br/>Tel: +372 6817 Norge Eli Lilly Norge A.S.<br/>Tlf: + 47 22 88 18<br/>Ελλάδα ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br/>Τηλ: +30 210 629 4Österreich Eli Lilly Ges. m.b.H.<br/>Tel: + 43-(0) 1 711<br/>España Lilly S.A. Tel: + 34-91 663 50 Polska Eli Lilly Polska Sp. z o.o. Tel: +48 22 440 33<br/>France Lilly France Tél: +33-(0) 1 55 49 34 Portugal Lilly Portugal - Produtos Farmacêuticos, Lda Tel: + 351-21-4126 Hrvatska Eli Lilly Hrvatska d.o.o. Tel: +385 1 2350 România Eli Lilly România S.R.L. Tel: + 40 21 4023 Ireland Eli Lilly and Company (Ireland) Limited Tel: + 353-(0) 1 661 4Slovenija Eli Lilly farmacevtska družba, d.o.o. Tel: +386 (0) 1 580 00<br/>Ísland Icepharma hf.<br/>Sími + 354 540 8Slovenská republika Eli Lilly Slovakia s.r.o. Tel: + 421 220 663<br/>Italia Eli Lilly Italia S.p.A. Suomi/Finland Oy Eli Lilly Finland Ab<br/>Tel: + 39- 055 42Puh/Tel: + 358-(0) 9 85 45<br/>Κύπρος Phadisco Ltd<br/>Τηλ: +357 22 715Sverige Eli Lilly Sweden AB Tel: + 46-(0) 8 7378 Latvija Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā Tel: +371 67364United Kingdom (Northern Ireland) Eli Lilly and Company (Ireland) Limited Tel: + 353-(0) 1 661 4377</p><p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}</p><p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs hjemmeside http://www.ema.europa.eu<br/>Indlægsseddel: Information til brugeren</p><p>Humalog 100 enheder/ml injektionsvæske, opløsning, i cylinderampul<br/>insulin lispro</p><p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den indeholder vigtige oplysninger. - Gem indlægssedlen. Du kan få brug for at læse den igen. - Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4.<br/>Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p></div></p>
+
+      
+    
+  
+
+</div>
+
+
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill
+  </h4>
+
+  
+  
+    PMSWI:
+    <b>
+      EU/1/96/007/035
+    </b>
+    </br>
+  
+    PHPID:
+    <b>
+      0xF79CABF272B6A7EEF104DDDA44E82717
+    </b>
+    </br>
+  
+  <hr>
+  
+  <p>Full name: <b>Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill</b></p>
+  
+    <p>
+      - Invented name part:
+      <b>
+        Humalog
+      </b>
+    </p>
+  
+    <p>
+      - Scientific name part:
+      <b>
+        insulin lispro
+      </b>
+    </p>
+  
+    <p>
+      - Strength part:
+      <b>
+        100 U/ml
+      </b>
+    </p>
+  
+    <p>
+      - Pharmaceutical dose form part:
+      <b>
+        Suspension for injection
+      </b>
+    </p>
+  
+
+
+  
+  
+  
+    <div>
+      <p>
+        Name usage:
+        
+
+          <b>English (Denmark)</b>
+        </p>
+
+      
+    </div>
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b>active</b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+      <ul>
+          
+            <li> 
+                <b>A10AB04  insulin lispro</b>
+            </li>
+      
+    </ul>
+  
+</p>
+
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+  <p class="divtitle">
+    <b>Marketing Authorisation</b>
+    1 of 1</p>
+
+  <p>Authorisation number:
+    <b>
+      
+        EU/1/96/007/035
+      
+    </b>
+  </p>
+
+  <p>
+    Region:
+    <b>
+      
+    </b>
+  </p>
+
+  <p>
+
+    
+  </p>
+
+  
+  
+
+    
+    
+    
+    
+
+
+    
+    
+      <p>Marketing authorisation holder:
+        <b>Eli Lilly Nederland B.V.</b>
+      </p>
+      <p>
+        Identifier:
+        <ul>
+          
+            <li>
+              <b>ORG-100000426</b>
+            </li>
+          
+        </ul>
+      </p>
+    
+  
+    
+    
+    
+
+
+    
+    
+  
+    
+    
+    
+
+
+    
+    
+  
+
+  <p>
+    Status:
+    <b>
+      Active (2015-02-07T13:28:17Z)
+    </b>
+  </p>
+
+</div>
+    
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 1</p>
+          
+  <p>PMSWI:
+  <b>
+    EU/1/96/007/035
+  </b>
+  </p>
+
+<p>
+  Description:
+  </br>
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+      <li>
+        <b>3 </li></b>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b>1 Box</b>
+  
+  
+    
+      <b>(Cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+
+
+  <br/>
+  <div class="container rcorners innerpack">
+    
+<p>Package:
+  <b>5 Pre-filled pen</b>
+  
+  
+    
+      <b>(Glass type 1)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+    <b> 
+      
+    </b>
+  </p>
+  
+  
+  
+    
+    
+
+    
+      <div class="container rcorners mid listcontainer">
+  <p class="divtitle">Manufactured Item</p>
+  <p>
+    Dose form:
+    <b>
+      Suspension for injection
+    </b>
+  </p>
+  <p>
+    Unit of presentation:
+    <b>
+      Pen
+    </b>
+  </p>
+
+  
+
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Glycerol
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Hydrochloric acid
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Sodium Hydroxide
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              STERILE WATER FOR INJECTION
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Insulin Lispro
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Zinc Oxide
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Metacresol
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Trometamol
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+</div>
+      
+  
+
+
+
+
+
+  </div>
+
+
+
+  </div>
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+        
+        
+        
+        
+          
+        <div class="container rcorners apd listcontainer">
+  <p class="divtitle">Administrable Product (1 of 1)</p>
+  <p>
+    Dose form:
+    <b>
+      Suspension for injection
+    </b>
+  </p>
+
+  <p>
+    Unit of presentation:
+    <b>
+      Pen
+    </b>
+  </p>
+
+  <p>
+    Route of administration:
+    <ul>
+      
+        <li>
+          <b>
+            Subcutaneous use
+          </b>
+        </li>
+      
+    </ul>
+  </p>
+
+  Ingredients:
+  
+
+
+
+  
+
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Glycerol
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Hydrochloric acid
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Sodium Hydroxide
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              STERILE WATER FOR INJECTION
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Insulin Lispro
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Zinc Oxide
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Metacresol
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Trometamol
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+
+
+</div>
+      
+    
+  
+</div>
+
+
+<!--
+  <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Humalog Mix50 Insulin KwikPen, 100 U/ml, Suspension for injection 3ml pre-fill
+  </h4>
+
+  
+  
+  
+  
+    PMSWI:
+    <b>
+      EU/1/96/007/035
+    </b>
+  
+    PHPID:
+    <b>
+      0xF79CABF272B6A7EEF104DDDA44E82717
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b>active</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+
+  
+    
+      insulin lispro (A10AB04) <br/>
+    
+  
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+
+        <p class="divtitle">Authorisation 1 of 1</p>
+        Auth id:
+        <b>
+          
+            EU/1/96/007/035
+          
+        </b>
+
+        <p>
+          Country:
+          <b>
+            
+
+          </b>
+        </p>
+        <p>
+          Type:
+          <b>
+            Marketing Authorisation
+          </b>
+        </p>
+
+        
+      </p>
+
+      
+      
+
+        
+        
+        
+        
+
+
+        
+        
+          <p>
+            Holder:
+            <b>Eli Lilly Nederland B.V. (ORG-100000426)</b>
+
+          </p>
+          <p></p>
+        
+      
+        
+        
+        
+
+
+        
+        
+      
+        
+        
+        
+
+
+        
+        
+      
+
+
+
+      <p>
+        Status:
+        <b>
+          Active (2015-02-07T13:28:17Z)
+        </b>
+      </p>
+
+    </div>
+
+  
+
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 1</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          PMSWI:
+          <b>
+            EU/1/96/007/035
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          active</b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+              <li>
+
+                <b>
+                  3 ml</b>
+              </li>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+            <br/>
+            <div class="container rcorners pack bleft">
+              <p>Package: 1 Box [Cardboard]</p>
+
+
+              
+              
+                <br/>
+                <div class="container rcorners pack bleft">
+                  <p>Inner Package: 5 Pre-filled pen [Glass type 1]</p>
+
+                </div>
+              </div>
+            
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+      
+
+      
+      
+      
+        
+          <div class="container bleft rcorners apd"> <p class="divtitle">Administrable Product (1 of 1)</p>
+          <p>
+            Dose form:
+            <b>
+              Suspension for injection
+            </b>
+          </p>
+
+          <p>
+            Presentation unit:
+            <b>
+              Pen
+            </b>
+          </p>
+          Route of administration:
+          <ul>
+            
+              <li>
+                <b>
+                  Subcutaneous use
+                </b>
+              </li>
+            
+          </ul>
+          Contents (Manuf. Items):
+          <ul>
+            
+            
+
+              
+
+              
+
+              
+                <div class="container   rcorners mid">
+                  <b>mid-a38f06714db0c27b2ba704652e3f08c5</b>
+                  <p>
+                    Dose form:
+                    <b>Suspension for injection</b>
+                  </p>
+                  <p>
+                    Presentation unit:
+                    <b>Pen</b>
+                  </p>
+                  <p>
+                    Manufactured Dose Form:
+                    <b>Suspension for injection</b>
+                  </p>
+                  Ingredients:
+                  <ul>
+                    
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-humalog-glycerol</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Glycerol
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-humalog-hydrochloricacid</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Hydrochloric acid
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-humalog-sodiumhydroxide</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Sodium Hydroxide
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-humalog-sterilewaterforinjection</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              STERILE WATER FOR INJECTION
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-humalog-insulinlispro</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Insulin Lispro
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-humalog-zincoxide</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Zinc Oxide
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-humalog-metacresol</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Metacresol
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-humalog-trometamol</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Trometamol
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                  </ul>
+
+                </div>
+              
+            
+          </ul>
+          
+          
+            
+
+
+        </div>
+      
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

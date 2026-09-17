@@ -1,0 +1,60 @@
+{
+  "resourceType" : "PackagedProductDefinition",
+  "id" : "packherceptinvial",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PackagedProductDefinition packherceptinvial</b></p><a name=\"packherceptinvial\"> </a><a name=\"hcpackherceptinvial\"> </a><p><b>identifier</b>: <code>https://pmda-packinsertno/</code>/4291012F1022\u00a0(use:\u00a0official,\u00a0)</p><p><b>name</b>: Herceptin (trastazumab) 150 mg for Intravenous Use</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000155527}\">Chemical Medininal Prodcut</span></p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-medprodherceptin150.html\">MedicinalProductDefinition: identifier = http://iyaku.info/medicine#4291447D2024; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2002-08-01 13:28:17+0000</p><p><b>containedItemQuantity</b>: 150 mg</p><p><b>manufacturer</b>: <a href=\"Organization-orgchugai.html\">Organization Chugai Pharmaceutical Co., Ltd.</a></p><h3>Packagings</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td style=\"display: none\">*</td><td><code>https://spor.ema.europa.eu/pmswi</code>/123456</td><td><span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073563}\">Vial</span></td><td>28</td><td><span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003204}\">Glass type I</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://pmda-packinsertno/",
+    "value" : "4291012F1022"
+  }],
+  "name" : "Herceptin (trastazumab) 150 mg for Intravenous Use",
+  "type" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000155527",
+      "display" : "Chemical Medininal Prodcut"
+    }]
+  },
+  "packageFor" : [{
+    "reference" : "MedicinalProductDefinition/medprodherceptin150"
+  }],
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active",
+      "display" : "Active"
+    }]
+  },
+  "statusDate" : "2002-08-01T13:28:17Z",
+  "containedItemQuantity" : [{
+    "value" : 150,
+    "unit" : "mg"
+  }],
+  "manufacturer" : [{
+    "reference" : "Organization/orgchugai"
+  }],
+  "packaging" : {
+    "identifier" : [{
+      "system" : "https://spor.ema.europa.eu/pmswi",
+      "value" : "123456"
+    }],
+    "type" : {
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "100000073563",
+        "display" : "Vial"
+      }]
+    },
+    "quantity" : 28,
+    "material" : [{
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "200000003204",
+        "display" : "Glass type I"
+      }]
+    }]
+  }
+}

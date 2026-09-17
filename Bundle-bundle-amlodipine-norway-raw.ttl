@@ -1,0 +1,319 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Bundle/bundle-amlodipine-norway-raw> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "bundle-amlodipine-norway-raw"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "https://www.gravitatehealth.eu/sid/doc"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "test-amlodipine-norway" ]
+  ] ; # 
+  fhir:type [ fhir:v "document"] ; # 
+  fhir:timestamp [ fhir:v "2023-06-27T10:09:22Z"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-test-amlodipine-norway"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-test-amlodipine-norway> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Composition/test-amlodipine-norway-mpd"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Composition/test-amlodipine-norway-mpd> )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-test-amlodipine-norway> a fhir:Composition ;
+  fhir:id [ fhir:v "composition-en-test-amlodipine-norway"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><a name=\"Composition_composition-en-test-amlodipine-norway\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition composition-en-test-amlodipine-norway</b></p><a name=\"composition-en-test-amlodipine-norway\"> </a><a name=\"hccomposition-en-test-amlodipine-norway\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: <code>http://ema.europa.eu/identifier</code>/test-amlodipine-norway</p><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000155538}\">Package Leaflet</span></p><p><b>category</b>: <span title=\"Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs R}\">Raw</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: EMA</p><p><b>title</b>: TEST PURPOSES ONLY - amlodipine-norway</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://hl7.org/fhir/composition-attestation-mode official}\">Official</span></td><td>2022-02-16 13:28:17+0000</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://ema.europa.eu/identifier"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "test-amlodipine-norway" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155538" ]
+     ] ) ;
+     fhir:text [ fhir:v "Package Leaflet" ]
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "R" ] ;
+       fhir:display [ fhir:v "Raw" ]
+     ] )
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/test-amlodipine-norway-mpd> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/test-amlodipine-norway-mpd" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2022-02-16T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:display [ fhir:v "EMA" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "TEST PURPOSES ONLY - amlodipine-norway"] ; # 
+  fhir:attester ( [
+     fhir:mode [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/composition-attestation-mode"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "official" ]
+       ] )
+     ] ;
+     fhir:time [ fhir:v "2022-02-16T13:28:17Z"^^xsd:dateTime ]
+  ] ) ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "B. Package Leaflet" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000155538" ]
+       ] ) ;
+       fhir:text [ fhir:v "B. Package Leaflet" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>"^^rdf:XMLLiteral ]
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "Package leaflet: Information for the user" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "Package leaflet: Information for the user" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>"^^rdf:XMLLiteral ]
+       ]
+     ] [
+       fhir:title [ fhir:v "What is in this leaflet" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "What is in this leaflet" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>What is in this leaflet</p><ol><li>What amlodipine-norway is and what it is used for</li><li>What you need to know before you use amlodipine-norway</li><li>How to use amlodipine-norway</li><li>Possible side effects</li><li>How to store amlodipine-norway</li><li>Contents of the pack and other information</li></ol></div>"^^rdf:XMLLiteral ]
+       ]
+     ] [
+       fhir:title [ fhir:v "1. Hva amlodipin er og hva det brukes til" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "1. What amlodipin is and what it is used for" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Amlodipin Sandoz inneholder virkestoffet amlodipin, som tilhører en gruppe legemidler som kalles kalsiumkanalblokkere av dihydropyridin-type. Det virker ved å få blodårene til å slappe av, slik at blodet lettere kan sirkulere og hjertet belastes mindre.</p><p>Amlodipin Sandoz brukes til behandling av:</p><ul><li>forhøyt blodtrykk (hypertensjon)</li><li>kronisk stabil angina pectoris (brystsmerter ved anstrengelse)</li><li>vasospastisk (Prinzmetals) angina, en form for brystsmerter som skyldes krampe i kransårene</li></ul></div>"^^rdf:XMLLiteral ]
+       ]
+     ] [
+       fhir:title [ fhir:v "2. Hva du må vite før du tar amlodipin Sandoz" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "2. What you need to know before you take amlodipin" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Ikke ta Amlodipin Sandoz</p><ul><li>hvis du er allergisk overfor amlodipin, andre dihydropyridiner eller noen av de andre innholdsstoffene</li><li>hvis du har svært lavt blodtrykk</li><li>hvis du er i sjokk, inkludert sjokk forårsaket av alvorlig hjertesykdom (kardiogent sjokk)</li><li>hvis du har en uttalt forsnevring som hindrer blodstrømmen ut fra venstre hjertekammer (f.eks. alvorlig aortastenose)</li><li>hvis du har ustabil hjertesvikt etter nylig hjerteinfarkt</li></ul><p>Advarsler og forsiktighetsregler</p><p>Snakk med lege før du bruker Amlodipin Sandoz dersom du:</p><ul><li>har hjertesvikt; kalsiumkanalblokkere kan øke risikoen for væske i lungene og kardiovaskulære hendelser ved alvorlig svikt</li><li>har nedsatt leverfunksjon; legen vil vanligvis starte med laveste dose og følge deg nøye</li><li>har nedsatt nyrefunksjon; vanlig dose kan brukes, men du kan trenge ekstra kontroll</li><li>er eldre; doseøkning skal gjøres med forsiktighet</li></ul><p>Sikkerhet og effekt ved behandling av akutte blodtrykkskriser er ikke etablert. Legen din vil vurdere om dette legemidlet er egnet i slike situasjoner.</p><p>Amlodipin Sandoz inneholder svært lite natrium (mindre enn 23 mg per tablett) og er i praksis «natriumfritt».</p><p>Andre legemidler og Amlodipin Sandoz</p><p>Fortell alltid legen eller apoteket hvilke andre legemidler du bruker, nylig har brukt eller planlegger å bruke.</p><p>Særlig viktig er det å informere om:</p><ul><li>sterke eller moderate CYP3A4-hemmere (f.eks. enkelte antivirale midler, azol-antimykotika, makrolidantibiotika som erytromycin eller klaritromycin, verapamil, diltiazem), som kan øke mengden amlodipin i blodet</li><li>CYP3A4-induktorer (f.eks. rifampicin, johannesurt), som kan redusere virkningen av amlodipin</li><li>andre blodtrykksenkende legemidler; blodtrykksfallet kan bli sterkere</li><li>legemidler mot betennelse eller smerte (NSAID), da disse kan påvirke blodtrykk og nyrefunksjon</li><li>dantrolen gitt som infusjon; samtidig bruk med kalsiumkanalblokkere bør unngås på grunn av risiko for alvorlige hjerterytmeforstyrrelser og sirkulasjonssvikt</li><li>takrolimus; blodnivåene kan øke, og det kan være nødvendig å følge nivåer og justere dose</li><li>mTOR-hemmere (f.eks. sirolimus, temsirolimus, everolimus); eksponeringen kan øke</li><li>ciklosporin, særlig hos nyretransplanterte; blodnivåene kan stige og dosejustering kan bli nødvendig</li><li>simvastatin; legen kan redusere simvastatindosen når det brukes sammen med amlodipin</li></ul><p>Graviditet, amming og fertilitet</p><ul><li><strong>Graviditet:</strong> Erfaring med bruk av amlodipin hos gravide er begrenset. Bruk under graviditet anbefales bare hvis det ikke finnes tryggere alternativer og dersom sykdommen i seg selv utgjør større risiko for mor og barn.</li><li><strong>Amming:</strong> Amlodipin går over i morsmelk. Andelen av mors dose som overføres til barnet er vanligvis lav, men effekten på spedbarn er ukjent. Legen vil vurdere om ammingen eller behandlingen skal stoppes basert på fordeler for mor og barn.</li><li><strong>Fertilitet:</strong> Kalsiumkanalblokkere har i enkelte tilfeller vært forbundet med reversible forandringer i sædceller. Klinisk betydning for fruktbarhet med amlodipin er ikke klarlagt.</li></ul><p>Kjøring og bruk av maskiner</p><p>Amlodipin kan i noen tilfeller gi svimmelhet, hodepine, tretthet eller kvalme. Dersom du får slike symptomer, kan reaksjonsevnen bli nedsatt. Vær derfor forsiktig ved bilkjøring og bruk av maskiner, spesielt i starten av behandlingen.</p></div>"^^rdf:XMLLiteral ]
+       ]
+     ] [
+       fhir:title [ fhir:v "3. Hvordan du skal ta amlodipin Sandoz" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "3. Hvordan du skal ta amlodipin" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Anbefalt dose</p><ul><li><strong>Voksne (hypertensjon og angina):</strong> Vanlig startdose er 5 mg én gang daglig. Dosen kan økes til maksimalt 10 mg én gang daglig avhengig av hvordan du responderer.</li><li><strong>Barn og ungdom 6–17 år med høyt blodtrykk:</strong> Vanlig startdose er 2,5 mg én gang daglig. Dersom blodtrykket ikke er godt nok kontrollert etter 4 uker, kan legen øke dosen til 5 mg én gang daglig. Høyere doser hos barn er ikke undersøkt.</li><li><strong>Barn under 6 år:</strong> Amlodipin anbefales ikke da det mangler data for denne aldersgruppen.</li></ul><p>Spesielle pasientgrupper</p><ul><li><strong>Eldre:</strong> Vanlige doseområder kan brukes, men doseøkning skal gjøres forsiktig.</li><li><strong>Nedsatt nyrefunksjon:</strong> Vanlig dose kan vanligvis brukes. Amlodipin fjernes ikke ved dialyse.</li><li><strong>Nedsatt leverfunksjon:</strong> Legen vil normalt starte med laveste dose og titrere langsomt, særlig ved alvorlig nedsatt leverfunksjon.</li></ul><p>Administrasjonsmåte</p><p>Tablettene tas gjennom munnen én gang daglig, med et glass vann. De kan tas med eller uten mat. Prøv å ta tabletten til samme tid hver dag.</p><p>Hvis du tar for mye eller glemmer en dose</p><p>Ved inntak av for stor dose kan blodtrykket falle kraftig. Kontakt lege eller akuttmottak umiddelbart og ta med pakningen. Dersom du glemmer en dose, ta den så snart du husker det, med mindre det nesten er tid for neste dose. Ta ikke dobbel dose for å erstatte en glemt tablett.</p></div>"^^rdf:XMLLiteral ]
+       ]
+     ] [
+       fhir:title [ fhir:v "4. Mulige bivirkninger" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "4. Mulige bivirkninger" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Som alle legemidler kan Amlodipin Sandoz forårsake bivirkninger, men ikke alle får dem. De bivirkningene som rapporteres oftest er søvnighet, svimmelhet, hodepine, hjertebank, rødme, magesmerter, kvalme, hovne ankler, ødem (væskeansamling) og tretthet.</p><p>Svært vanlige bivirkninger (kan forekomme hos mer enn 1 av 10)</p><ul><li>hevelser, spesielt i ankler og føtter (ødem)</li></ul><p>Vanlige bivirkninger (kan forekomme hos opptil 1 av 10)</p><ul><li>hodepine, svimmelhet, søvnighet</li><li>hjertebank, rødme</li><li>magesmerter, kvalme, fordøyelsesbesvær, diaré eller forstoppelse</li><li>trette og slitne muskler, tretthet og uvelhetsfølelse</li></ul><p>Mindre vanlige bivirkninger</p><ul><li>søvnproblemer, humørsvingninger, angst eller depresjon</li><li>skjelvinger, nummenhet eller prikking, besvimelse, smaksforstyrrelser</li><li>synsforstyrrelser, øresus</li><li>lavt blodtrykk, pustevansker, kortpustethet</li><li>oppkast, munntørrhet, hårtap, økt svetting</li><li>muskel- og leddsmerter, kramper</li><li>hyppig vannlating eller endringer i vannlatingsmønster</li><li>brystsmerter, vektøkning eller vekttap</li></ul><p>Sjeldne og svært sjeldne bivirkninger</p><ul><li>forstyrrelser i blodceller (lavt antall hvite blodlegemer eller blodplater)</li><li>allergiske reaksjoner, inkludert hudutslett, kløe, elveblest, alvorlige hudreaksjoner</li><li>forhøyet blodsukker</li><li>hjerteinfarkt, uregelmessig hjerterytme, betennelse i blodårer</li><li>betennelse i bukspyttkjertelen, leverpåvirkning og gulsott</li><li>hevelse i tannkjøttet</li><li>forstyrrelser i bevegelsesmønster (ekstrapyramidale symptomer)</li></ul><p>Kontakt lege umiddelbart dersom du opplever symptomer på alvorlig allergisk reaksjon, som pustevansker, hevelser i ansikt, lepper, tunge eller svelg, eller kraftig hudreaksjon.</p></div>"^^rdf:XMLLiteral ]
+       ]
+     ] [
+       fhir:title [ fhir:v "5. Hvordan du oppbevarer amlodipin Sandoz" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "5. Hvordan du oppbevarer amlodipin" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Oppbevares utilgjengelig for barn.</li><li>Bruk ikke legemidlet etter utløpsdatoen som er angitt på pakningen.</li><li><strong>Holdbarhet:</strong> 3 år.</li><li><strong>Blisterpakninger:</strong> Oppbevares ved høyst 30&nbsp;°C og i originalpakningen for å beskytte mot lys.</li><li><strong>HDPE-bokser:</strong> Oppbevares i originalpakningen for å beskytte mot lys.</li><li>Legemidler skal ikke kastes i avløpsvann eller sammen med vanlig husholdningsavfall. Spør apoteket hvordan legemidler som ikke lenger brukes skal kastes. Dette bidrar til å beskytte miljøet.</li></ul></div>"^^rdf:XMLLiteral ]
+       ]
+     ] [
+       fhir:title [ fhir:v "6. Innholdet i pakningen og annen informasjon" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "6. Innholdet i pakningen og annen informasjon" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Hva Amlodipin Sandoz inneholder</p><ul><li><strong>Virkestoff:</strong> amlodipin (som besilat) 5 mg eller 10 mg per tablett.</li><li><strong>Andre innholdsstoffer:</strong> natriumstivelsesglykolat (type A), kalsiumhydrogenfosfat (vannfritt), mikrokrystallinsk cellulose og magnesiumstearat.</li></ul><p>Hvordan Amlodipin Sandoz ser ut og innholdet i pakningen</p><ul><li><strong>Legemiddelform:</strong> tablett.</li><li><strong>5 mg-tabletter:</strong> hvite eller nesten hvite, avlange tabletter med faset kant, delestrek på den ene siden og tallet «5» preget på den andre. Tabletten kan deles i to like doser.</li><li><strong>10 mg-tabletter:</strong> hvite eller nesten hvite, avlange tabletter med faset kant, delestrek på den ene siden og tallet «10» preget på den andre. Tabletten kan deles i to like doser.</li><li><strong>Pakningsstørrelser (blister):</strong> 10, 14, 20, 28, 30, 50, 50&nbsp;x&nbsp;1, 60, 100 og 120 tabletter.</li><li><strong>Pakningsstørrelser (HDPE-boks):</strong> 20, 30, 50, 60, 90, 100, 105, 120, 200 og 250 tabletter.</li><li>Ikke alle pakningsstørrelser vil nødvendigvis bli markedsført.</li></ul><p>Innehaver av markedsføringstillatelsen</p><p>Sandoz A/S<br/>Edvard Thomsens Vej 14<br/>2300 København S<br/>Danmark</p><p>Markedsføringstillatelsesnummer</p><ul><li>Amlodipin Sandoz 5 mg tabletter: 06-4159</li><li>Amlodipin Sandoz 10 mg tabletter: 06-4161</li></ul></div>"^^rdf:XMLLiteral ]
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Composition/test-amlodipine-norway-mpd> a fhir:MedicinalProductDefinition ;
+  fhir:id [ fhir:v "test-amlodipine-norway-mpd"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_test-amlodipine-norway-mpd\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicinalProductDefinition test-amlodipine-norway-mpd</b></p><a name=\"test-amlodipine-norway-mpd\"> </a><a name=\"hctest-amlodipine-norway-mpd\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://www.gravitatehealth.eu/sid/doc</code>/AMLODIPINA-SANDOZ-tablet-10mg--3-NO-MPD</p><p><b>type</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-type MedicinalProduct}\">Medicinal Product</span></p><p><b>domain</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-domain Human}\">Human use</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">active</span></p><p><b>legalStatusOfSupply</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072084}\">Medicinal product subject to medical prescription</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Amlodipin sandoz 10 mg TABLETTER</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000001}\">Full name</span></p><blockquote><p><b>part</b></p><p><b>part</b>: amlodipine-norway FlexPen</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000002}\">Invented name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: Insulin</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000003}\">Scientific name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 100 units/ml</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000004}\">Strength part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: solution for injection in pre-filled pens</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000005}\">Pharmaceutical dose form part</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{urn:iso:std:iso:3166 GBR}\">United Kingdom</span></td><td><span title=\"Codes:{urn:iso:std:iso:3166 GBR}\">United Kingdom</span></td><td><span title=\"Codes:{urn:ietf:bcp:47 en}\">English</span></td></tr></table></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://www.gravitatehealth.eu/sid/doc"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "AMLODIPINA-SANDOZ-tablet-10mg--3-NO-MPD" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MedicinalProduct" ] ;
+       fhir:display [ fhir:v "Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:domain [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-domain"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Human" ] ;
+       fhir:display [ fhir:v "Human use" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:legalStatusOfSupply [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072084" ] ;
+       fhir:display [ fhir:v "Medicinal product subject to medical prescription" ]
+     ] )
+  ] ; # 
+  fhir:name ( [
+     fhir:productName [ fhir:v "Amlodipin sandoz 10 mg TABLETTER" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "220000000001" ] ;
+         fhir:display [ fhir:v "Full name" ]
+       ] )
+     ] ;
+     fhir:part ( [
+       fhir:part [ fhir:v "amlodipine-norway FlexPen" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000002" ] ;
+           fhir:display [ fhir:v "Invented name part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "Insulin" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000003" ] ;
+           fhir:display [ fhir:v "Scientific name part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "100 units/ml" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000004" ] ;
+           fhir:display [ fhir:v "Strength part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "solution for injection in pre-filled pens" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000005" ] ;
+           fhir:display [ fhir:v "Pharmaceutical dose form part" ]
+         ] )
+       ]
+     ] ) ;
+     fhir:usage ( [
+       fhir:country [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "GBR" ] ;
+           fhir:display [ fhir:v "United Kingdom" ]
+         ] )
+       ] ;
+       fhir:jurisdiction [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "GBR" ] ;
+           fhir:display [ fhir:v "United Kingdom" ]
+         ] )
+       ] ;
+       fhir:language [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "en" ] ;
+           fhir:display [ fhir:v "English" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

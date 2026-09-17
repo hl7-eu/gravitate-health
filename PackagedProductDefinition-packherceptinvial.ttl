@@ -1,0 +1,72 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/packherceptinvial> a fhir:PackagedProductDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "packherceptinvial"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PackagedProductDefinition packherceptinvial</b></p><a name=\"packherceptinvial\"> </a><a name=\"hcpackherceptinvial\"> </a><p><b>identifier</b>: <code>https://pmda-packinsertno/</code>/4291012F1022 (use: official, )</p><p><b>name</b>: Herceptin (trastazumab) 150 mg for Intravenous Use</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000155527}\">Chemical Medininal Prodcut</span></p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-medprodherceptin150.html\">MedicinalProductDefinition: identifier = http://iyaku.info/medicine#4291447D2024; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2002-08-01 13:28:17+0000</p><p><b>containedItemQuantity</b>: 150 mg</p><p><b>manufacturer</b>: <a href=\"Organization-orgchugai.html\">Organization Chugai Pharmaceutical Co., Ltd.</a></p><h3>Packagings</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td style=\"display: none\">*</td><td><code>https://spor.ema.europa.eu/pmswi</code>/123456</td><td><span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073563}\">Vial</span></td><td>28</td><td><span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003204}\">Glass type I</span></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://pmda-packinsertno/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "4291012F1022" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Herceptin (trastazumab) 150 mg for Intravenous Use"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155527" ] ;
+       fhir:display [ fhir:v "Chemical Medininal Prodcut" ]
+     ] )
+  ] ; # 
+  fhir:packageFor ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/medprodherceptin150> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/medprodherceptin150" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2002-08-01T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:containedItemQuantity ( [
+     fhir:value [ fhir:v "150"^^xsd:decimal ] ;
+     fhir:unit [ fhir:v "mg" ]
+  ] ) ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+     fhir:reference [ fhir:v "Organization/orgchugai" ]
+  ] ) ; # 
+  fhir:packaging [
+     fhir:identifier ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "123456" ]
+     ] ) ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073563" ] ;
+         fhir:display [ fhir:v "Vial" ]
+       ] )
+     ] ;
+     fhir:quantity [ fhir:v 28 ] ;
+     fhir:material ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000003204" ] ;
+         fhir:display [ fhir:v "Glass type I" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,49 @@
+{
+  "resourceType" : "Ingredient",
+  "id" : "ingredient-for-humalog-sterilewaterforinjection",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-humalog-sterilewaterforinjection\"> </a><a name=\"hcingredient-for-humalog-sterilewaterforinjection\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-humalog-sterilewaterforinjection&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/059QF0KO0R\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"ManufacturedItemDefinition-mid-a38f06714db0c27b2ba704652e3f08c5.html\">ManufacturedItemDefinition/mid-a38f06714db0c27b2ba704652e3f08c5</a></li><li><a href=\"MedicinalProductDefinition-mpd33868162d255ced115cecbbf188aab4.html\">MedicinalProductDefinition/mpd33868162d255ced115cecbbf188aab4</a></li><li><a href=\"AdministrableProductDefinition-ap-a38f06714db0c27b2ba704652e3f08c5.html\">AdministrableProductDefinition/ap-a38f06714db0c27b2ba704652e3f08c5</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Organization-mapi-6f4987de7be1bbfa4ee92c07de7e94d4.html\">Organization/mapi-6f4987de7be1bbfa4ee92c07de7e94d4</a> &quot;Eli Lilly and Company&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>STERILE WATER FOR INJECTION <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#059QF0KO0R)</span></td></tr></table></blockquote></div>"
+  },
+  "identifier" : {
+    "use" : "official",
+    "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+    "value" : "059QF0KO0R"
+  },
+  "status" : "active",
+  "for" : [{
+    "reference" : "ManufacturedItemDefinition/mid-a38f06714db0c27b2ba704652e3f08c5"
+  },
+  {
+    "reference" : "MedicinalProductDefinition/mpd33868162d255ced115cecbbf188aab4"
+  },
+  {
+    "reference" : "AdministrableProductDefinition/ap-a38f06714db0c27b2ba704652e3f08c5"
+  }],
+  "role" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000072082",
+      "display" : "Excipient"
+    }]
+  },
+  "manufacturer" : [{
+    "manufacturer" : {
+      "reference" : "Organization/mapi-6f4987de7be1bbfa4ee92c07de7e94d4"
+    }
+  }],
+  "substance" : {
+    "code" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+          "code" : "059QF0KO0R",
+          "display" : "STERILE WATER FOR INJECTION"
+        }]
+      }
+    }
+  }
+}

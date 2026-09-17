@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Ingredient xmlns="http://hl7.org/fhir">
+  <id value="ingredient-for-karvea-irbesartan"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="ingredient-for-karvea-irbesartan"> </a><a name="hcingredient-for-karvea-irbesartan"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;ingredient-for-karvea-irbesartan&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/J0E2756Z7N (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="ManufacturedItemDefinition-mid-dcaa4d32aa6658a8df831551503e52ee.html">ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee</a></li><li><a href="MedicinalProductDefinition-mp873a1a47330e628770640f9c96c0761e.html">MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e</a></li><li><a href="AdministrableProductDefinition-ap-dcaa4d32aa6658a8df831551503e52ee.html">AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee</a></li></ul><p><b>role</b>: active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Concept</b></td></tr><tr><td style="display: none">*</td><td>irbesartan <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (beta#J0E2756Z7N)</span></td></tr></table><h3>Strengths</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style="display: none">*</td><td>75 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span></td><td>active ingredient - basis of strength <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/>
+    <value value="J0E2756Z7N"/>
+  </identifier>
+  <status value="active"/>
+  <for>
+    <reference value="ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"/>
+  </for>
+  <for>
+    <reference value="MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"/>
+  </for>
+  <for>
+    <reference value="AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"/>
+  </for>
+  <role>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000072072"/>
+      <display value="active"/>
+    </coding>
+  </role>
+  <substance>
+    <code>
+      <concept>
+        <coding>
+          <system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/>
+          <code value="J0E2756Z7N"/>
+          <display value="irbesartan"/>
+        </coding>
+      </concept>
+    </code>
+    <strength>
+      <presentationQuantity>
+        <value value="75"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mg"/>
+      </presentationQuantity>
+      <basis>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+          <code value="ACTIB"/>
+          <display value="active ingredient - basis of strength"/>
+        </coding>
+      </basis>
+    </strength>
+  </substance>
+</Ingredient>

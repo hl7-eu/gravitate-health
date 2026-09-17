@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>bfe10c96-8cec-4372-96a3-3d73cdb94474 - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.379"}
+    h3,h4,h5,h6{--heading-prefix:"20.379"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>bfe10c96-8cec-4372-96a3-3d73cdb94474</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-bfe10c96-8cec-4372-96a3-3d73cdb94474.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bfe10c96-8cec-4372-96a3-3d73cdb94474.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bfe10c96-8cec-4372-96a3-3d73cdb94474.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Bundle: bfe10c96-8cec-4372-96a3-3d73cdb94474</h2>
+
+
+
+
+
+   
+   
+  
+
+
+
+
+  
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  <div data-fhir="generated"><p class="res-header-id"/><a name="bfe10c96-8cec-4372-96a3-3d73cdb94474"> </a><a name="hcbfe10c96-8cec-4372-96a3-3d73cdb94474"> </a><p>Bundle bfe10c96-8cec-4372-96a3-3d73cdb94474 of type collection</p><a name="94efee3f-7321-441a-ac79-0b3d927373ab"> </a><a name="List_94efee3f-7321-441a-ac79-0b3d927373ab"> </a><a name="hcList_94efee3f-7321-441a-ac79-0b3d927373ab"> </a><hr/><p>Entry 1 - fullUrl = 94efee3f-7321-441a-ac79-0b3d927373ab</p><p>Resource List:</p><blockquote>electronic Product Information (ePI) master document list</blockquote><a name="3fa575c9-d3ac-4eb4-b457-7984c758b823"> </a><a name="Bundle_3fa575c9-d3ac-4eb4-b457-7984c758b823"> </a><a name="hcBundle_3fa575c9-d3ac-4eb4-b457-7984c758b823"> </a><hr/><p>Entry 2 - fullUrl = 3fa575c9-d3ac-4eb4-b457-7984c758b823</p><p>Resource Bundle:</p><blockquote><div style="border: 1px solid maroon; padding: 10px; background-color: #f2faf9; min-height: 160px;"><p><b>Document Details</b></p><p class="res-header-id"/><a name="bfe10c96-8cec-4372-96a3-3d73cdb94474/3fa575c9-d3ac-4eb4-b457-7984c758b823"> </a><a name="hcbfe10c96-8cec-4372-96a3-3d73cdb94474/3fa575c9-d3ac-4eb4-b457-7984c758b823"> </a></div><div style="border: 1px solid maroon; padding: 10px; background-color: #f2faf9; min-height: 160px;"><p><b>Document Subject</b></p><p><b>Unable to resolve subject ''</b></p></div><hr/><div style="border: 1px solid maroon; padding: 10px; background-color: #f2faf9; min-height: 160px;"><p><b>Document Content</b></p>electronic Product Information (ePI) document<hr/><div><h2>Ficha técnica o resumen de las características del producto</h2></div><p> </p><div><h3>1. Nombre del medicamento</h3></div><p><span>Calcio/Vitamina D</span><span>3</span><a name="OLE_LINK1" id="OLE_LINK1"><span>ROVI 1000 mg/880 UI comprimidos efervescentes</span></a></p><div><h3>2. Composición cualitativa y cuantitativa</h3></div><p><span>Cada comprimido contiene:</span></p><p><span> </span></p><p><span>•</span><span>             </span><span>2500 mg de carbonato de calcio, (equivalente a 1000 mg de calcio) y</span></p><p><span>•</span><span>             </span><span>22 microgramos de colecalciferol en forma de polvo, (equivalente a 880 UI de colecalciferol = (Vitamina D</span><span>3</span><span>).</span></p><p><span> </span></p><p><span><span>Excipientes con efecto conocido:</span></span></p><p><span> </span></p><p><span>Cada comprimido contiene:</span></p><p><span>96,15 mg de sodio,</span></p><p><span>396,44 mg de lactosa monohidratada,</span></p><p><span>3,68 mg de sacarosa</span></p><p><span>0,73 mg de aceite de soja hidrogenado,</span></p><p><span>trazas de glucosa</span></p><p><span> </span></p><p><span>Para consultar la lista completa de excipientes, ver sección 6.1.</span></p><p><span> </span></p><div><h3>3. Forma farmacéutica</h3></div><p><span>Comprimido efervescente</span></p><p><span>Comprimidos efervescentes cilíndricos, de color blanco o blanquecino.</span></p><div><h3>4. Datos clínicos</h3></div><p> </p><blockquote><p><div><h4>4.1. Indicaciones terapéuticas</h4></div><ul><li><span>Corrección de la deficiencia combinada de vitamina D y calcio en pacientes de edad avanzada.</span></li><li><span>Suplemento de vitamina D y calcio como coadyuvante a la terapia específica para el tratamiento de la osteoporosis en pacientes con deficiencia o con alto riesgo de deficiencia combinada de vitamina D y calcio.</span></li></ul><p><span> </span></p></p></blockquote><blockquote><p><div><h4>4.2. Posología y forma de administración</h4></div><p> </p><blockquote><p><div><h5>4.2.1. Posología</h5></div><p><em><span>Adultos:</span></em><span>1 comprimido efervescente al día.</span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h5>4.2.2. Forma de administración</h5></div><p><span>Vía oral.</span></p><p><span>Disolver el comprimido en un vaso de agua y beber inmediatamente.</span></p><p><span> </span></p></p></blockquote></p></blockquote><blockquote><p><div><h4>4.3. Contraindicaciones</h4></div><p><span>Calcio / Vitamina D</span><span>3</span><span>ROVI 1000 mg/880 UI comprimidos efervescentes está contraindicado en:</span></p><ul><li><span>                         </span><span>Hipersensibilidad a los principios activos o a alguno de los excipientes incluidos en la sección 6.1.</span></li><li><span>                         </span><span>Hipercalcemia: niveles de calcio anormalmente elevados en sangre.</span></li><li><span>                         </span><span>Hipercalciuria: eliminación de calcio anormalmente elevada en orina.</span></li><li><span>                         </span><span>Litiasis cálcica, calcificación tisular.</span></li><li><span>                         </span><span>Insuficiencia renal crónica.</span></li><li><span>                         </span><span>Inmovilización prolongada acompañada por hipercalciuria y/o hipercalcemia.</span></li><li><span>                         </span><span>Este medicamento contiene aceite de soja. No debe utilizarse en caso de alergia al cacahuete o a la soja.</span></li></ul><p><span> </span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h4>4.4. Advertencias y precauciones especiales de empleo</h4></div><p><span>Se aconseja administrar con precaución en pacientes con deterioro de la función renal o cuando existe una tendencia evidente a la formación de cálculos urinarios. En estos pacientes, así como en pacientes sometidos a tratamientos prolongados deben controlarse adecuadamente la calcemia y la calciuria para prevenir el inicio de hipercalcemia. Si los niveles de calciuria son superiores a 7,5 mmol/24 horas (300 mg/24 horas), el tratamiento debe suspenderse temporalmente.</span></p><p><span> </span></p><p><span>También se requiere precaución especial en el tratamiento de pacientes con patología cardiovascular. La administración oral de calcio en combinación con vitamina D puede intensificar el efecto de los glucósidos cardíacos. Es imprescindible una vigilancia médica estricta y, en caso necesario, un control ECG y de la calcemia.</span></p><p><span> </span></p><p><span>Este producto debe prescribirse con precaución en pacientes con sarcoidosis debido al posible incremento de la metabolización de la vitamina D a su forma activa. En estos pacientes es preciso controlar las concentraciones séricas y urinarias de calcio.</span></p><p><span> </span></p><p><span>El contenido en vitamina D del preparado debe tenerse en cuenta si se utilizan de forma concomitante otros productos con vitamina D. Las dosis adicionales de calcio o vitamina D deben ser cuidadosamente supervisadas por el médico. En estos casos es aconsejable controlar periódicamente los niveles séricos y la excreción urinaria de calcio.</span></p><p><span> </span></p><p><span><span>Advertencia sobre excipientes</span></span></p><p><span>Este medicamento contiene sacarosa. Los pacientes con intolerancia hereditaria a la fructosa (IHF), problemas de absorción de glucosa o galactosa, o insuficiencia de sacarasa-isomaltasa, no deben tomar este medicamento. Puede producir caries.</span></p><p><span> </span></p><p><span>Este medicamento contiene lactosa. Los pacientes con intolerancia hereditaria a galactosa, deficiencia total de lactasa o problemas de absorción de glucosa o galactosa no deben tomar este medicamento.</span></p><p><span> </span></p><p><span>Este medicamento contiene 96,15 mg de sodio por comprimido, equivalente al 4,8 % de la ingesta máxima diaria de 2 g de sodio recomendada por la OMS para un adulto.</span></p><p><span> </span></p><p><span>Este medicamento contiene glucosa (en maltodextrina procedente de maíz). Los pacientes con malabsorción de glucosa o galactosa no deben tomar este medicamento.</span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h4>4.5. Interacción con otros medicamentos y otras formas de interacción</h4></div><p><span>La administración conjunta de carbonato de calcio y alimentos aumenta la absorción de calcio en un 10 a 30%. Por tanto, para conseguir una máxima biodisponibilidad de calcio a partir del carbonato de calcio, principalmente en personas de edad avanzada, este tipo de suplemento cálcico debería administrarse con comida. Sin embargo, el ácido oxálico, que se encuentra en grandes cantidades en las espinacas, el ácido fítico, que se encuentra en el salvado y los cereales, y el fósforo presente en alimentos como la leche, pueden disminuir la biodisponibilidad del calcio al formar con él compuestos insolubles, por lo tanto se aconseja tomar este medicamento durante las dos horas siguientes de haber tomado este tipo de alimentos.</span></p><p><span> </span></p><p><span>La administración de calcio a pacientes en tratamiento con glucósidos cardíacos puede aumentar la inhibición de la Na</span><span>+</span><span>-K</span><span>+</span><span>ATPasa producida por los glucósidos y aumentar su toxicidad, por lo que se recomienda un estricto control clínico y de la calcemia.</span></p><p><span> </span></p><p><span>Los glucocorticoides disminuyen la absorción de calcio y contrarrestan los efectos del colecalciferol, aunque se desconoce el mecanismo exacto. Durante su uso puede ser necesario aumentar la dosis.</span></p><p><span> </span></p><p><span>La administración conjunta de calcio con levotiroxina, bisfosfonatos (alendronato, etidronato, tiludronato), quinolonas (excepto moxifloxacino), tetraciclinas, fenitoína, fosfomicina y sales de hierro, disminuye la absorción intestinal de éstos y por tanto su biodisponibilidad debido a la formación de quelatos insolubles. Se aconseja espaciar la administración de este medicamento al menos 3 horas.</span></p><p><span> </span></p><p><span>Los diuréticos tiazídicos pueden originar hipercalcemia al disminuir la excreción renal de calcio. Durante el uso concomitante, debe controlarse regularmente el calcio sérico.</span></p><p><span> </span></p><p><span>El calcio parece interaccionar farmacodinámicamente con los aminoglucósidos, aunque no se conoce si potencia o reduce la nefrotoxicidad de éstos. El calcio disminuye los efectos antihipertensivos de los antagonistas de calcio.</span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p><p><span>Las sales de zinc interfieren con la absorción de calcio debido a que los dos minerales sufren antagonismo competitivo. Se recomienda espaciar la administración.</span></p><p><span> </span></p><p><span>La ingestión de calcio disminuye la absorción de magnesio y puede aumentar la absorción de aluminio en pacientes con función renal alterada.</span></p><p><span> </span></p><p><span>La administración de anticonvulsivantes (Fenitoína, Fosfofenitoína,</span><span>Fenobarbital)</span><span>con colecalciferol origina una disminución en la actividad de la vitamina.</span></p><p><span> </span></p><p><span>La administración concomitante de colestiramina o colestipol con vitamina D puede disminuir la absorción de ésta.</span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h4>4.6. Fertilidad, embarazo y lactancia</h4></div><p><span>Debido al contenido en vitamina D (880 UI) de este preparado, su uso como suplemento vitamínico-mineral durante el embarazo y la lactancia no está indicado, ya que la dosis diaria recomendada de vitamina D no debe superar las 600 UI/día. Sin embargo, la utilización de este preparado en mujeres embarazadas o lactantes en situación de deficiencia nutricional establecida de calcio y vitamina D queda bajo criterio médico.</span></p><p><span> </span></p><p><span>Debe evitarse la sobredosis de colecalciferol, ya que estudios en animales han demostrado que una sobredosis de vitamina D durante el embarazo o la lactancia puede provocar efectos teratogénicos y en humanos una hipercalcemia permanente puede provocar retraso físico y mental, estenosis aórtica supravalvular y retinopatía en el niño. Sin embargo, se han comunicado varios casos en los que madres que recibieron dosis muy elevadas de vitamina D para el tratamiento de su hipoparatiroidismo han dado a luz niños normales.</span></p><p><span> </span></p><p><span>La vitamina D y sus metabolitos pasan a la leche materna</span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h4>4.7. Efectos sobre la capacidad para conducir y utilizar máquinas</h4></div><p><span>No se han descrito.</span></p></p></blockquote><blockquote><p><div><h4>4.8. Reacciones adversas</h4></div><p><span>Los efectos adversos de los suplementos de calcio y vitamina D por vía oral son, en general, leves, raros (&lt; 1%) y transitorios. Suelen aparecer cuando estos suplementos se toman a altas dosis o durante largos períodos de tiempo.</span></p><p><span>Se han observado las siguientes reacciones adversas, que se clasifican por órganos y sistemas y por frecuencias. Las frecuencias se definen de la siguiente forma: muy frecuentes (≥ 1/10); frecuentes (≥ 1/100 a &lt;1/10); poco frecuentes (≥ 1/1.000 a &lt;1/100); raras (≥ 1/10.000 a &lt;1/1.000); muy raras (&lt;1/10.000) o frecuencia no conocida (no puede estimarse a partir de los datos disponibles). Las reacciones adversas se enumeran en orden decreciente de gravedad dentro de cada sistema de clase de órganos.</span></p><p><span> </span></p><table cellpadding="0" cellspacing="0"><tr><td><p><strong><span>Clasificación de órganos del siste</span></strong><strong><span>ma MedDRA</span></strong></p></td><td><p><strong><span>Muy frecuentes (≥1/10)</span></strong></p></td><td><p><strong><span>Frecuentes (≥1/100 a &lt;1/10)</span></strong></p></td><td><p><strong><span>Poco frecuentes (≥1/1.000 a &lt;1/100)</span></strong></p></td><td><p><strong><span>Raras (≥1/10.000 a &lt;1/1.000)</span></strong></p></td><td><p><strong><span>Muy raras (&lt;1/10.000)</span></strong></p></td><td><p><strong><span>Frecuencia no conocida (no puede estimarse a partir de los datos disponibles)</span></strong></p></td></tr><tr><td><p><strong><span>Trastornos del metabolismo y</span></strong><strong><span>de la nutrición</span></strong></p></td><td><p><span> </span></p></td><td><p><span> </span></p></td><td><p><span>Hipercalcemia e hipercalciuria</span></p></td><td><p><span> </span></p></td><td><p><span> </span></p></td><td><p><span> </span></p></td></tr><tr><td><p><strong><span>Trastornos gastrointestinales</span></strong></p></td><td><p><span> </span></p></td><td><p><span> </span></p></td><td><p><span> </span></p></td><td><p><span>Estreñimiento, flatulencia, náuseas, dolor epigástrico y diarrea</span></p></td><td><p><span> </span></p></td><td><p><span> </span></p></td></tr><tr><td><p><strong><span>Trastornos de la piel y del tejido subcutáneo</span></strong></p></td><td><p><span> </span></p></td><td><p><span> </span></p></td><td><p><span> </span></p></td><td><p><span> </span></p></td><td><p><span>Prurito, exantema y urticaria</span></p></td><td><p><span> </span></p></td></tr></table><p><span> </span></p><p><span> </span></p><p><span> </span></p><blockquote><p><div><h5>4.8.2. Notificación de sospechas de reacciones adversas</h5></div><p><span>Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: https://www.notificaram.es</span></p><p><span> </span></p></p></blockquote></p></blockquote><blockquote><p><div><h4>4.9. Sobredosis</h4></div><p><span>La sobredosis puede causar hipervitaminosis D e hipercalcemia.</span><span>Los estudios de toxicidad con vitamina D muestran que para que se produzca hipercalcemia se requiere una ingesta diaria &gt;1.000 µg (40.000 UI), lo que se corresponde con concentraciones de 25(OH) vitamina D de aproximadamente 200 mmol/L.</span></p><p><span> </span></p><p><span>Los siguientes síntomas pueden ser indicativos de hipercalcemia severa (Ca</span><span>2+</span><span>&gt;12 mg/dl): irritabilidad, letargia, estupor y coma, mientras que la hipercalcemia leve (Ca</span><span>2+</span><span>&gt;10,5 mg/dl) puede ser asintomática o manifestarse como: náuseas, vómitos, anorexia, dolor abdominal, sequedad de boca o poliuria.  La administración crónica de carbonato de calcio a dosis de 4-60 g/día cuando se utiliza como antiácido asociado a leche y otros álcalis, puede dar lugar al denominado síndrome de leche-álcalis que cursa con hipercalcemia, hipercalciuria, uremia, calcinosis, náuseas, vómitos, dolor de cabeza, debilidad y alteraciones en el gusto.</span></p><p><span>La intoxicación aguda es poco probable que produzca toxicidad, no siendo necesario realizar un lavado gástrico o inducir el vómito a menos que se sospeche el consumo concomitante de otro fármaco. Cuando la intoxicación es leve, la simple retirada del fármaco consigue que desaparezcan los síntomas derivados de la hipercalcemia. En intoxicaciones crónicas las medidas son, además de la retirada de la medicación, instaurar tratamiento de soporte y sintomático y mantener el equilibrio hidroelectrolítico.</span></p><p><span> </span></p><p><span>Tratamiento de la hipercalcemia:</span></p><p><span>Debe suspenderse el tratamiento con calcio. También debe suspenderse el tratamiento con diuréticos tiazídicos, litio, vitamina A, vitamina D y glucósidos cardiacos. Vaciamiento gástrico en pacientes con alteración de la conciencia. Rehidratación, y según la severidad, tratamiento aislado o combinado con diuréticos de asa, bifosfonatos, calcitonina y corticosteroides. Deben controlarse los electrolitos séricos, la función renal y la diuresis. En casos severos, los pacientes deben controlarse mediante ECG y PVC.</span></p><p><span> </span></p></p></blockquote><div><h3>5. Propiedades farmacológicas</h3></div><p> </p><blockquote><p><div><h4>5.1. Propiedades farmacodinámicas</h4></div><p><span>Grupo farmacoterapéutico:</span><span>calcio, combinaciones con vitamina D y/o otros fármacos,</span><span>código ATC:</span><span>A12AX.</span></p><p><span> </span></p><p><span><span>Mecanismo de acción</span></span></p><p><span> </span></p><p><span>El carbonato de calcio es un suplemento orgánico, factor mineral (calcio) que contiene un 40% de calcio (400 mg de ion/g; 10 mmol/g, 20 mEq/g). Es el principal componente de los huesos y juega un importante papel fisiológico, entre otros, en las actividades muscular y secretora glandular, en la transmisión neuromuscular, en el mantenimiento de la integridad y funcionalidad de las membranas, en la función cardíaca, la coagulación sanguínea y como mediador intracelular de la acción de muchas hormonas.</span></p><p><span>La vitamina D es una sustancia liposoluble cuya función en el organismo es regular los  niveles séricos de calcio y fosfato y en consecuencia la mineralización ósea. El colecalciferol es una forma prácticamente inactiva, por lo que requiere una biotransformación previa hacia la forma activa de la vitamina D, el calcitriol o 1,25-dihidroxicolecalciferol.</span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h4>5.2. Propiedades farmacocinéticas</h4></div><p><em><span>Calcio</span></em></p><p><span> </span></p><p><span><span>Absorción</span></span></p><p><span>La absorción del calcio tiene lugar principalmente en la parte superior del intestino delgado mediante un proceso pasivo no saturable y por transporte activo saturable dependiente del calcitriol (vitamina D activa). La magnitud de la absorción varía del 25 al 40% en función de las necesidades, la edad de los individuos o la vitamina D contenida en la dieta, si bien, los alimentos mejoran su absorción.</span></p><p><span> </span></p><p><span>Distribución</span></p><p><span>Un 99% se distribuye en el sistema esquelético y el resto en tejidos y líquido extracelular.</span></p><p><span> </span></p><p><span><span>Eliminación</span></span></p><p><span>El calcio se elimina a través de las heces (80%), la orina y el sudor. El calcio eliminado por heces es la suma del no absorbido y del calcio endógeno secretado en la saliva, bilis y secreciones pancreáticas e intestinales. La eliminación urinaria de calcio se realiza por filtración glomerular (unos 9 g/día), pero el 95% del calcio filtrado es reabsorbido a nivel tubular. En circunstancias normales, la suma del calcio fecal y urinario es de 300 mg/día, cantidad similar al calcio absorbido.</span></p><p><span> </span></p><p><em><span>Vitamina D</span></em><em><span>3</span></em></p><p><span> </span></p><p><span><span>Absorción</span></span></p><p><span>La vitamina D</span><span>3</span><span>se absorbe en el intestino delgado casi por completo (80%).</span></p><p><span> </span></p><p><span><span>Distribución y biotransformación</span></span></p><p><span>En el plasma es transportada por una proteína transportadora de vitamina D hasta el hígado, lugar de la primera hidroxilación. La concentración de 25-OH D (calcifediol) circulante es el indicador del nivel de vitamina D. El 25-OH D se hidroxila por segunda vez en el riñón a 1</span><span>?</span><span>,25-OH D (calcitriol). Este metabolito es el responsable de la capacidad de la vitamina D para incrementar la absorción de calcio. El colecalciferol no metabolizado y sus metabolitos pueden almacenarse en músculo y en tejido adiposo durante varios meses.</span></p><p><span> </span></p><p><span><span>Eliminación</span></span></p><p><span>La vitamina D se elimina a través de las heces y orina.</span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h4>5.3. Datos preclínicos sobre seguridad</h4></div><p><span>En animales de experimentación se ha observado que la administración de altas dosis de vitamina D (1.000-10.000 veces la dosis terapéutica) durante largos períodos de tiempo puede producir hipercalcemia y calcificación de los vasos sanguíneos, músculos y otros tejidos.</span></p><p><span>En estudios realizados en ratas, se ha observado que la dosis tóxica más baja publicada con la que aparecen alteraciones en el embrión o el feto es de 90 mg/kg peso (3.600.000 UI/kg), administrada por vía subcutánea a hembras durante los días 12-20 después de la concepción.</span></p><p><span>La administración de calcio y vitamina D no se asocia a efectos mutagénicos o carcinogénicos, ni en animales de experimentación ni en humanos.</span></p><p><span> </span></p></p></blockquote><div><h3>6. Datos farmacéuticos</h3></div><p> </p><blockquote><p><div><h4>6.1. Lista de excipientes</h4></div><p><span>Ácido cítrico anhidro, bicarbonato de sodio, lactosa monohidratada, povidona, sacarina sódica, ciclamato de sodio, macrogol 6000, aroma de naranja (contiene maltodextrina procedente de maíz) y emulsión de simeticona.</span></p><p><span>Como componentes del colecalciferol concentrado en forma de polvo:</span><span>?</span><span>-tocoferol, aceite de soja hidrogenado, gelatina, sacarosa, almidón de maíz sin gluten y dióxido de silicio.</span></p><p><span> </span></p><p><span> </span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h4>6.2. Incompatibilidades</h4></div><p><span>No se han descrito.</span></p></p></blockquote><blockquote><p><div><h4>6.3. Periodo de validez</h4></div><p><span>3 años.</span></p></p></blockquote><blockquote><p><div><h4>6.4. Precauciones especiales de conservación</h4></div><p><a name="_Hlk13210636"><span>Conservar en el envase original para protegerlo de la humedad.</span></a></p><p/></p></blockquote><blockquote><p><div><h4>6.5. Naturaleza y contenido del envase</h4></div><p><span>Tubo de polipropileno con 15 comprimidos cada uno.</span></p><p><span>Cada envase contiene 30 comprimidos.</span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h4>6.6. Precauciones especiales de eliminación y otras manipulaciones</h4></div><p><span>Ninguna especial para su eliminación.</span></p><p><span>La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local.</span></p><p><span> </span></p><p><span><span>Instrucciones para la preparación antes de la utilización</span></span></p><p><span>Disolver el comprimido en un vaso de agua y beber inmediatamente.</span></p><p><span> </span></p></p></blockquote><div><h3>7. Titular de la autorización de comercialización</h3></div><p><span>Laboratorios Farmacéuticos ROVI, S.A.</span></p><p><span>C/ Julián Camarillo, 35</span></p><p><span>28037 – Madrid</span></p><p><span>España</span></p><p><span> </span></p><div><h3>8. Número(s) de autorización de comercialización</h3></div><p><span>68.290</span></p><div><h3>9. Fecha de la primera autorización/ renovación de la autorización</h3></div><p><span>Diciembre 2006</span></p><div><h3>10. Fecha de la revisión del texto</h3></div><p><span>Junio 2022</span></p><p><span> </span></p><p><span> </span></p><p><span>La información detallada de este medicamento está disponible en la página web de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) (</span><a href="https://www.aemps.gob.es/"><span><span>https://www.aemps.gob.es/</span></span></a><span>).</span></p></div><hr/><h2>Additional Resources Included in Document</h2></blockquote><a name="03562a68-d873-4b68-b64f-446f46bcbf1e"> </a><a name="Bundle_03562a68-d873-4b68-b64f-446f46bcbf1e"> </a><a name="hcBundle_03562a68-d873-4b68-b64f-446f46bcbf1e"> </a><hr/><p>Entry 3 - fullUrl = 03562a68-d873-4b68-b64f-446f46bcbf1e</p><p>Resource Bundle:</p><blockquote><div style="border: 1px solid maroon; padding: 10px; background-color: #f2faf9; min-height: 160px;"><p><b>Document Details</b></p><p class="res-header-id"/><a name="bfe10c96-8cec-4372-96a3-3d73cdb94474/03562a68-d873-4b68-b64f-446f46bcbf1e"> </a><a name="hcbfe10c96-8cec-4372-96a3-3d73cdb94474/03562a68-d873-4b68-b64f-446f46bcbf1e"> </a></div><div style="border: 1px solid maroon; padding: 10px; background-color: #f2faf9; min-height: 160px;"><p><b>Document Subject</b></p><p><b>Unable to resolve subject ''</b></p></div><hr/><div style="border: 1px solid maroon; padding: 10px; background-color: #f2faf9; min-height: 160px;"><p><b>Document Content</b></p>electronic Product Information (ePI) document<hr/><div><h2>Prospecto</h2></div><p><strong><span>Prospecto: información para el usuario</span></strong></p><p><span> </span></p><p><strong><span>Calcio/Vitamina D</span></strong><strong><span>3</span></strong><strong><span>ROVI 1000 mg / 880 UI comprimidos efervescentes</span></strong></p><p><span> </span></p><p><span>Carbonato cálcico/colecalciferol (Vitamina D</span><span>3</span><span>)</span></p><p><strong><span> </span></strong></p><p><strong><span>Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento, porque contiene información importante para usted.</span></strong></p><p><span>-Conserve este prospecto, ya que  puede tener que volver a leerlo.</span></p><p><span>-Si tiene alguna duda, consulte a su médico o farmacéutico.</span></p><p><span>-Este medicamento se le ha recetado solamente a usted, y no debe dárselo a otras personas aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.</span></p><p><span>-Si experimenta efectos adversos, consulte a su médico o farmacéutico, incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.</span></p><p><span> </span></p><p><span> </span></p><p><strong><span>Contenido del prospecto</span></strong></p><ol><li><span>Qué es Calcio/Vitamina D</span><span>3</span><span>ROVI y para qué se utiliza</span></li><li><span>Qué necesita saber antes de empezar a tomar Calcio/Vitamina D</span><span>3</span><span>ROVI</span></li><li><span>Cómo tomar Calcio/Vitamina D</span><span>3</span><span>ROVI</span></li><li><span>Posibles efectos adversos</span></li><li><span>Conservación de Calcio/Vitamina D</span><span>3</span><span>ROVI</span></li><li><span>Contenido del envase e información adicional</span></li></ol><p><span> </span></p><div><h3>1. Qué es Calcio/Vitamina D3 ROVI y para qué se utiliza</h3></div><p><span>Calcio/Vitamina D</span><span>3</span><span>ROVI son comprimidos efervescentes. Se presentan en envases con 30 comprimidos.</span></p><p><span> </span></p><p><span>Este medicamento es una asociación de calcio y vitamina D que está indicada para la c</span><span>orrección de la deficiencia combinada de vitamina D y calcio en pacientes de edad avanzada así como suplemento de vitamina D y calcio como coadyuvante a la terapia específica para el tratamiento de la osteoporosis en pacientes con deficiencia o con alto riesgo de deficiencia combinada de vitamina D y calcio.</span></p><p><span> </span></p><div><h3>2. Qué necesita saber antes de empezar a &lt;tomar&gt;&lt;usar&gt; Qué necesita saber antes de empezar a tomar Calcio/Vitamina D3 ROVI</h3></div><p> </p><blockquote><p><div><h4>No tome Calcio/Vitamina D3ROVI:</h4></div><p><span> </span></p><div><ul><li><span>si es alérgico a los principios activos o a alguno de los demás componentes de</span><span>este medicamento (incluidos en la sección 6),</span></li><li><span>si usted presenta hipercalcemia (nivel de calcio anormalmente elevado en sangre),</span></li><li><span>si usted presenta hipercalciuria (eliminación exagerada de calcio en orina),</span></li><li><span>si usted tiene litiasis cálcica (cálculos en riñones), calcificación tisular (depósito de sales de calcio en los tejidos),</span></li><li><span>si usted padece una enfermedad crónica del riñón,</span></li><li><span>si usted presenta inmovilización prolongada acompañada por hipercalciuria y/o hipercalcemia.</span></li></ul></div><p><span> </span></p><p><span> </span></p><p><span>Este medicamento contiene aceite de soja. No debe utilizarse en caso de alergia al cacahuete o a la soja.</span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h4>Advertencias y precauciones:</h4></div><p><span> </span></p><p><span>Consulte a su médico o farmacéutico antes de empezar a tomar Calcio/Vitamina D</span><span>3</span><span>ROVI:</span></p><p><span> </span></p><p><span>- si tiene insuficiencia renal (incapacidad del riñón para realizar correctamente su función),</span></p><p><span>- si tiene cálculos en el riñón,</span></p><p><span>- si padece una enfermedad del corazón, sarcoidosis (inflamación a nivel de los ganglios linfáticos, los pulmones, el hígado, los ojos, la piel y otros tejidos), o se encuentra en tratamiento con glucósidos cardíacos (medicamentos utilizados cuando existe una incapacidad del corazón para realizar correctamente su función),</span></p><p><span>- si recibe un tratamiento conjunto con otros productos con vitamina D, o está sometido a un tratamiento prolongado o con dosis elevadas de suplementos de calcio. En este caso es posible</span><span>que su médico deba efectuar controles clínicos de forma regular. Su médico le indicará la frecuencia de estos controles.</span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h4>Toma de Calcio/Vitamina D3ROVI con otros medicamentos:</h4></div><p><span> </span></p><p><span>Informe a su médico o farmacéutico si está utilizando, ha utilizado recientemente o pudiera tener que utilizar cualquier otro medicamento.</span><span>Ciertos medicamentos pueden interferir con Calcio/Vitamina D</span><span>3</span><span>ROVI; en estos casos puede ser necesario cambiar la dosis, interrumpir el tratamiento con alguno de ellos o esperar al menos</span><span> </span><span>unas horas entre la administración de ambos.</span></p><p><span>Es importante que informe a su médico si está tomando o ha tomado recientemente alguno de los siguientes medicamentos:</span></p><div><ul><li><span>                              </span><span>Glucósidos cardíacos (medicamentos para el corazón).</span></li><li><span>                              </span><span>Tetraciclinas (ciertos antibióticos), esperar un intervalo de al menos 3 horas.</span></li><li><span>                              </span><span>Diuréticos tiazídicos (medicamentos que aumentan la eliminación de orina).</span></li><li><span>                              </span><span>Anticonvulsivantes.</span></li><li><span>                              </span><span>Corticosteroides sistémicos.</span></li><li><span>                              </span><span>Bifosfonatos y fluoruro sódico, esperar un intervalo de 3 horas.</span></li><li><span>                              </span><span>Barbitúricos o fenitoína.</span></li></ul></div><p><strong><span> </span></strong></p></p></blockquote><blockquote><p><div><h4>Toma de Calcio / Vitamina D3ROVI con alimentos y, bebidas:</h4></div><p><strong><span> </span></strong></p><p><span>Si toma este medicamento juntamente con alimentos y bebidas que contengan ácido oxálico (un compuesto presente en espinacas y ruibarbos) o ácido fítico (presente en el pan integral y cereales) y el fósforo que se encuentra en la leche pueden producirse interacciones, por lo que se aconseja no tomar este medicamento durante las 2 horas siguientes después de haber tomado este tipo de alimentos.</span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h4>Embarazo y lactancia</h4></div><p><span> </span></p><p><span>Si está embarazada o en periodo de lactancia, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte a su médico o farmacéutico antes de utilizar este medicamento.</span></p><p><span> </span></p><p><span>Debido al contenido en vitamina D (880 UI) de Calcio/Vitamina D</span><span>3</span><span>ROVI, no está indicado su uso durante el embarazo y la lactancia, ya que la dosis diaria recomendada de vitamina D no debe superar las 600 UI/día.</span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h4>Conducción y uso de máquinas:</h4></div><p><span> </span></p><p><span>No se han descrito efectos sobre la conducción o uso de máquinas.</span></p><p><span> </span></p><p><strong><span>Calcio/Vitamina D</span></strong><strong><span>3</span></strong><strong><span>ROVI contiene sacarosa, sodio, lactosa y glucosa.</span></strong></p><p><span> </span></p><p><span>Este medicamento contiene sacarosa. Si su médico le ha indicado que padece una intolerancia a ciertos azúcares, consulte con él antes de tomar este medicamento. Puede producir caries.</span></p><p><span> </span></p><p><span>Este medicamento contiene 96,15 mg de sodio (componente principal de la sal de mesa/para cocinar) en cada comprimido. Esto equivale al 4,8 % de la ingesta diaria máxima de sodio recomendada para un adulto.</span></p><p><span> </span></p><p><span>Este medicamento contiene lactosa. Si su médico le ha indicado que padece una intolerancia a ciertos azúcares, consulte con él antes de tomar este medicamento.</span></p><p><span> </span></p><p><span>Este medicamento contiene glucosa (en maltodextrina procedente de maíz). Si su médico le ha indicado que padece una intolerancia a ciertos azúcares, consulte con él antes de tomar este medicamento.</span></p><p><span> </span></p><p><span> </span></p></p></blockquote><div><h3>Cómo tomar Calcio/Vitamina D3 ROVI</h3></div><p><a name="_Hlk13218341"><span>Siga exactamente las instrucciones de administración de este medicamento  indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico.</span></a></p><p><span> </span></p><p><span><span>Dosis</span></span></p><p><em><span>Adultos</span></em></p><p><span>La dosis recomendada es de 1 comprimido efervescente (1000 mg de calcio y 880 UI de Vitamina D</span><span>3</span><span>) al día.</span></p><p><em><span> </span></em></p><p><span><span>Forma y vía de administración</span></span></p><p><span>Este medicamento se administra por vía oral.</span></p><p><span>Disolver el comprimido en un vaso de agua y beber inmediatamente.</span></p><p><span> </span></p><p><span><span>Duración del tratamiento</span></span></p><p><span>Su médico le indicará la duración de su tratamiento con Calcio / Vitamina D</span><span>3</span><span>ROVI. No suspenda antes el tratamiento.</span></p><p><span> </span></p><p><span>Siga estas instrucciones a menos que su médico le haya dado otras indicaciones distintas. En estos casos es conveniente solicitar al médico las instrucciones por escrito y asegurarse de haberlas entendido bien.</span></p><p><span> </span></p><p><span>Si estima que la acción de Calcio/Vitamina D</span><span>3</span><span>ROVI es demasiado fuerte o débil, comuníqueselo a su médico o farmacéutico.</span></p><p><span> </span></p><p><span>Recuerde tomar su medicamento.</span></p><p><span> </span></p><p><strong><span>Si toma más Calcio/Vitamina D</span></strong><strong><span>3</span></strong><strong><span>ROVI del  que debe</span></strong></p><p><span> </span></p><p><span>Si  toma más Calcio/Vitamina D</span><span>3</span><span>ROVI del que debe, o en caso de sobredosis o ingestión accidental, consulte inmediatamente a su médico o farmacéutico o llame al Servicio de Información Toxicológica, teléfono: 91.562.04.20, indicando el medicamento y la cantidad ingerida.</span></p><p><span>La sobredosis puede provocar hipervitaminosis D (exceso de vitamina D) e hipercalcemia (nivel de calcio anormalmente elevado en sangre). Los síntomas en caso de sobredosis son: náuseas, vómitos, anorexia (trastorno de la alimentación), dolor en el abdomen, sequedad de boca o poliuria (aumento del volumen de orina eliminado), o bien, irritabilidad, letargia (cansancio excesivo), estupor (disminución de la respuesta a los estímulos) y coma (pérdida de la conciencia) en casos severos.</span></p><blockquote><p><div><h4>Si olvidó tomar Calcio/Vitamina D3ROVI</h4></div><p><span> </span></p><p><span>No tome una dosis doble para compensar las dosis olvidadas.</span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h4>Si interrumpe el tratamiento con Calcio/Vitamina D3ROVI</h4></div><p><strong><span> </span></strong></p><p><span>Si tiene cualquier otra duda sobre el uso de este medicamento, pregunte a su médico o farmacéutico.</span></p><p><span> </span></p></p></blockquote><div><h3>4. Posibles efectos adversos</h3></div><p><span>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</span></p><p><span> </span></p><p><strong><span>-Poco frecuente</span></strong><span>s (pueden afectar a entre 1 y 10 de cada 1.000 pacientes ):</span></p><ul><li><span>niveles altos de calcio en sangre hipercalcemia,</span></li><li><span>niveles altos de calcio en orina hipercalciuria.</span></li></ul><p><span> </span></p><p><strong><span>-Raros</span></strong><span>(pueden afectar a entre 1 y 10 de cada 10.000 pacientes</span><span>):</span></p><ul><li><span>estreñimiento,</span></li><li><span>flatulencia,</span></li><li><span>náuseas,</span></li><li><span>dolor epigástrico, </span></li><li><span>diarrea.</span></li></ul><p><span> </span></p><p><span>-</span><strong><span>Muy raros</span></strong><span>(pueden afectar a menos de 1 de cada 10.000 pacientes):):</span></p><ul><li><span>picor (prurito),</span></li><li><span>erupción de la piel (exantema),</span></li><li><span>ronchas (urticaria).</span></li></ul><blockquote><p><div><h4>Comunicación de efectos adversos</h4></div><p><span>Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través</span><span>Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: https://www.notificaram.es. Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</span></p><p><span>.</span></p><p><span> </span></p></p></blockquote><div><h3>5. Conservación de Calcio/Vitamina D3 ROVI</h3></div><p><span>Mantener este medicamento fuera de la vista y del alcance de los niños.</span></p><p><span> </span></p><p><span>Conservar en el envase original para protegerlo de la humedad.</span></p><p><span> </span></p><p><span>No utilice este medicamento después de la fecha de caducidad que aparece en el envase después de CAD. La fecha de caducidad es el último día del mes que se indica.</span></p><p><span> </span></p><p><span>Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesita en el Punto SIGRE</span><img src="data:image/jpg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUEBAQEAwUEBAQGBQUGCA0ICAcHCBALDAkNExAUExIQEhIUFx0ZFBYcFhISGiMaHB4fISEhFBkkJyQgJh0gISD/2wBDAQUGBggHCA8ICA8gFRIVICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wAARCAANAA4DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD6C8S661pp7ajdNdSySzSw2tvBM8MUYjkCEuyMGJOCecgdMDkm5peqWtraQeIZ9buLbSZ1aGO0u9zlZcjLbyzMfuHAPQHjGa2dQ8PtKtxDa3Ua2t0xkltbmDzYi2QdygMpUk8nnBPOMkk2LTRFaQXGqTJeyKmyNBEEiiXj7q5PJwMkknjjA4r5tUK/tnr0/Hve9ybO5//Z" alt="SIGRE_logo" width="14" height="13"/><span>de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma, ayudará a proteger el medio ambiente.</span></p><p><span> </span></p><p><span> </span></p><div><h3>6. Contenido del envase e información adicional</h3></div><p> </p><blockquote><p><div><h4>Composición de Calcio/Vitamina D3ROVI</h4></div><p><strong><span> </span></strong></p><p><span>-Los principios activos son: carbonato de calcio y concentrado de colecalciferol (en forma de polvo). Cada comprimido contiene 2500 mg de carbonato de calcio (equivalente a 1.000 mg de calcio) y 22 microgramos de concentrado de colecalciferol en forma de polvo (equivalente a 880 UI de colecalciferol = vitamina D</span><span>3</span><span>).</span></p><p><span> </span></p><p><span>-Los demás componentes (excipientes) son: á</span><span>cido cítrico anhidro, bicarbonato de sodio, lactosa monohidratada, povidona, sacarina sódica, ciclamato de sodio, macrogol 6000, aroma de naranja (contiene maltodextrina procedente de maíz), emulsión de simeticona,</span><span>?</span><span>-tocoferol, aceite de soja hidrogenado, gelatina, sacarosa, almidón de maíz sin gluten y dióxido de silicio.</span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h4>Aspecto del producto y contenido del envase</h4></div><p><span> </span></p><p><span>Comprimidos efervescentes cilíndricos, de color blanco o blanquecino.</span></p><p><span>Se presentan en tubos de polipropileno, que contienen 15 comprimidos efervescentes cada uno. Cada envase contiene dos tubos (30 comprimidos efervescentes).</span></p><p><span> </span></p></p></blockquote><blockquote><p><div><h4>Titular de la autorización de comercialización</h4></div><p><strong><span> </span></strong></p><p><span>Laboratorios Farmacéuticos ROVI, S.A.</span></p><p><span>C/ Julián Camarillo, 35</span></p><p><span>28037 - Madrid</span></p><p><span>España</span></p><p><strong><em><span> </span></em></strong></p><p><strong><span>Responsable de la fabricación:</span></strong></p><p><span>Laboratorios Losan Pharma GMBH</span></p><p><span>Otto-Hahn-Strasse 13</span></p><p><span>79395 - Neuenburg</span></p><p><span>Alemania</span></p><p><strong><em><span> </span></em></strong></p></p></blockquote><blockquote><p><div><h4>Fecha de la última revisión de este prospecto:junio 2022</h4></div><p><span>La información detallada de este medicamento está disponible en la página web de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) (</span><a href="https://www.aemps.gob.es/"><span><span>https://www.aemps.gob.es/</span></span></a><span>)</span></p><p><strong><em><span> </span></em></strong></p><p><span> </span></p></p></blockquote></div><hr/><h2>Additional Resources Included in Document</h2></blockquote></div>
+  
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

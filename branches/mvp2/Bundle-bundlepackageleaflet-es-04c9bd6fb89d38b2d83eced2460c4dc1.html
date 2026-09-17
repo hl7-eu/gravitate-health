@@ -1,0 +1,2200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>ePI document Bundle for Flucelvax Tetra - suspension for injection in pre-filled syringe
+Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) Package Leaflet for language es - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.102"}
+    h3,h4,h5,h6{--heading-prefix:"16.102"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for Flucelvax Tetra - suspension for injection in pre-filled syringe
+Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) Package Leaflet for language es</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-04c9bd6fb89d38b2d83eced2460c4dc1.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-04c9bd6fb89d38b2d83eced2460c4dc1.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlepackageleaflet-es-04c9bd6fb89d38b2d83eced2460c4dc1.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Example Bundle: ePI document Bundle for Flucelvax Tetra - suspension for injection in pre-filled syringe
+Influenza vaccine (surface antigen, inactivated, prepared in cell cultures) Package Leaflet for language es</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  Raw
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>B. PROSPECTO</h3>
+    <p>
+      <div>unavailable</div></p>
+    
+      
+
+        <h4>PROSPECTO: INFORMACIÓN PARA EL USUARIO</h4>
+        <p>
+          <div><p><strong><span>Prospecto: información para el usuario</span></strong></p><p><strong><span>Flucelvax Tetra - suspensión inyectable en jeringa precargada</span></strong></p><p><span>Vacuna contra la gripe (antígeno de superficie, inactivado, preparada en cultivos celulares)</span></p><p><span>&nbsp;</span></p><p><span>&nbsp;</span></p><p><strong><span>Lea todo el prospecto detenidamente antes de empezar a recibir este medicamento, porque contiene</span></strong> <strong><span>información importante para usted.</span></strong></p><p><span>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span>Conserve este prospecto, ya que puede tener que volver a leerlo.</span></p><p><span>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span>Si tiene alguna duda, consulte a su médico, farmacéutico o enfermero.</span></p><p><span>-</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span>Si experimenta efectos adversos, consulte a su médico, farmacéutico o enfermero, incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.</span></p><p><span>&nbsp;</span></p><p><span>&nbsp;</span></p></div></p>
+
+      
+
+        <h4>Contenido del prospecto</h4>
+        <p>
+          <div><p><strong><span>Contenido del prospecto</span></strong></p><p><span>1.&nbsp;&nbsp;&nbsp; Qué es Flucelvax Tetra y para qué se utiliza</span></p><p><span>2.&nbsp;&nbsp;&nbsp; Qué necesita saber antes de empezar a recibir Flucelvax Tetra</span></p><p><span>3.&nbsp;&nbsp;&nbsp; Cómo se administra Flucelvax Tetra</span></p><p><span>4.&nbsp;&nbsp;&nbsp; Posibles efectos adversos</span></p><p><span>5.&nbsp;&nbsp;&nbsp; Conservación de Flucelvax Tetra</span></p><p><span>6.&nbsp;&nbsp;&nbsp; Contenido del envase e información adicional</span></p></div></p>
+
+      
+
+        <h4>1. Qué es Flucelvax y para qué se utiliza</h4>
+        <p>
+          <div><p><span>Flucelvax Tetra es una vacuna contra la gripe. Flucelvax Tetra se prepara en cultivos celulares y, por lo tanto, no contiene huevo.</span></p><p><span>Cuando una persona recibe la vacuna, el sistema inmunitario (el sistema de defensa natural del organismo) producirá su propia protección frente al virus de la gripe. Ninguno de los componentes de la vacuna puede causar la gripe.</span></p><p><span>&nbsp;</span></p><p><span>Flucelvax Tetra se usa para prevenir la gripe en adultos y niños a partir de los 2 años de edad.</span></p><p><span>&nbsp;</span></p><p><span>La vacuna va dirigida a cuatro cepas del virus de la gripe siguiendo las recomendaciones de la</span> <span>Organización Mundial de la Salud para la campaña</span> <span>2023/2024.</span></p></div></p>
+
+      
+
+        <h4>2. Qué necesita saber antes de empezar a tomar Flucelvax</h4>
+        <p>
+          <div><p><strong><span>No debe recibir Flucelvax Tetra:</span></strong></p><p><span>Si es alérgico a:</span></p><ul><li><span>los principios activos o alguno de los demás componentes de esta vacuna (incluidos en la sección 6).</span></li><li><span>la beta-propiolactona, al bromuro de cetiltrimetilamonio o al polisorbato 80, que son residuos del proceso de fabricación que pueden estar presentes en cantidades mínimas.</span></li></ul><p><span>&nbsp;</span></p><p><strong><span>Advertencias y precauciones</span></strong></p><p><span>Consulte a su médico, farmacéutico o enfermero antes de empezar a recibir Flucelvax Tetra.</span></p><p><span>&nbsp;</span></p><p><span>ANTES DE vacunarse</span></p><ul><li><span>su médico o enfermero comprobará la fácil disponibilidad de tratamiento médico y supervisión adecuados en el caso raro de que se produjera una reacción anafiláctica (una reacción alérgica muy grave con síntomas como dificultad para respirar, mareos, pulso débil y rápido y erupción cutánea) después de la administración. Esta reacción puede presentarse con Flucelvax Tetra, al igual que con todas las vacunas que se inyectan.</span></li><li><span>debe informar a su médico si tiene una enfermedad aguda que cursa con fiebre. Su médico puede decidir retrasar su vacunación hasta que la fiebre haya desaparecido.</span></li><li><ul><li><span>debe informar a su médico si su sistema inmunitario está comprometido o si está recibiendo un tratamiento que afecte al mismo, por ejemplo, medicamento contra el cáncer (quimioterapia) o corticoides (ver sección “Otros medicamentos y Flucelvax Tetra”).</span></li></ul></li><li><span>debe informar a su médico si tiene un problema de sangrado o le salen moretones&nbsp;&nbsp;&nbsp;&nbsp; fácilmente.</span></li><li><span>puede desmayarse después de la inyección con una aguja, o incluso antes, por lo tanto, informe a su médico o enfermero si se ha desmayado anteriormente con alguna inyección.</span></li></ul><p><span>&nbsp;</span></p><p><span>Como ocurre con todas las vacunas, Flucelvax Tetra puede no proteger completamente a todas las personas que son vacunadas.</span></p><p><span>&nbsp;</span></p><p><strong><span>Otros medicamentos y Flucelvax Tetra</span></strong></p><p><span>Informe a su médico o enfermero si está utilizando, ha utilizado recientemente o pudiera tener que utilizar cualquier otro medicamento, incluso los adquiridos sin receta, o si ha recibido recientemente alguna otra vacuna.</span></p><p><span>&nbsp;</span></p><p><span>Flucelvax Tetra se puede administrar al mismo tiempo que otras vacunas.</span></p><p><span>&nbsp;</span></p><p><strong><span>Embarazo y lactancia</span></strong></p><p><span>Embarazo:</span></p><p><span>Si está embarazada, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte a su médico. Las vacunas antigripales se pueden administrar en cualquier trimestre del embarazo.</span></p><p><span>&nbsp;</span></p><p><span>Lactancia:</span></p><p><span>El uso de Flucelvax Tetra durante la lactancia no ha sido estudiado. Flucelvax Tetra se puede administrar durante la lactancia.</span></p><p><span>&nbsp;</span></p><p><strong><span>Conducción y uso de máquinas</span></strong></p><p><span>La influencia de Flucelvax Tetra sobre la capacidad para conducir y utilizar máquinas es nula o insignificante.</span></p><p><span>&nbsp;</span></p><p><strong><span>Flucelvax Tetra contiene cloruro de sodio y cloruro de potasio</span></strong></p><p><span>Esta vacuna contiene menos de 1 mmol de sodio (23 mg) por dosis; esto es, esencialmente “exento de sodio”.</span></p><p><span>Esta vacuna contiene potasio, menos de 1 mmol (39 mg) por dosis; esto es, esencialmente “exento de potasio”.</span></p></div></p>
+
+      
+
+        <h4>3. Cómo tomar Flucelvax</h4>
+        <p>
+          <div><p><span>Su médico o enfermero le administrará Flucelvax Tetra en forma de inyección en el músculo de la parte superior del brazo (músculo deltoides).</span></p><p><span>&nbsp;</span></p><p><span>Adultos y niños a partir de 2 años de edad:</span></p><p><span>&nbsp;</span></p><p><span>Una dosis de 0,5 ml</span></p><p><span>&nbsp;</span></p><p><span>Si su hijo es menor de 9 años y nunca ha sido vacunado contra la gripe, se le debe administrar una segunda dosis después, de al menos, 4 semanas.</span></p><p><span>&nbsp;</span></p></div></p>
+
+      
+
+        <h4>4. Posibles efectos adversos</h4>
+        <p>
+          <div><p><span>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</span></p><p><span>Los siguientes efectos adversos se han notificado durante los ensayos clínicos y durante el uso general:</span></p><p><span>&nbsp;</span></p><p><strong><span>Efectos adversos muy graves</span></strong></p><p><span>Consulte inmediatamente con su médico o acuda al servicio de urgencias del hospital más cercano si presenta el siguiente efecto adverso – puede necesitar urgentemente atención médica u hospitalización:</span></p><p><span>&nbsp;</span></p><p><span>•</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span>Dificultad para respirar, mareos, pulso débil y rápido junto con erupción cutánea, que son los síntomas de una reacción anafiláctica (una reacción alérgica muy grave)</span></p><p><span>&nbsp;</span></p><p><strong><span>Efectos adversos graves</span></strong></p><p><span>Informe inmediatamente a su médico si presenta cualquiera de los efectos adversos siguientes – puede necesitar atención médica:</span></p><p><span>&nbsp;</span></p><ul><li><span>Se siente débil, tiene dificultades para moverse o presenta entumecimiento u hormigueo en las extremidades. Estos pueden ser síntomas del síndrome de Guillain-Barré (SGB), una enfermedad autoinmune causada por el propio sistema inmunitario del organismo</span></li><li><span>Hinchazón extensa del miembro en el que se ha inyectado</span></li></ul><p><span>&nbsp;</span></p><p><strong><span>Efectos adversos leves</span></strong></p><p><span>Muy frecuentes</span> <span>(pueden afectar a más de 1 de cada 10 personas):</span></p><ul><li><span>Dolor en la zona de inyección, cardenales, enrojecimiento y endurecimiento o hinchazón en la zona de inyección</span></li><li><span>Dolor de cabeza</span></li><li><span>Dolor muscular</span></li><li><span>Cansancio</span></li><li><span>Pérdida de apetito</span></li><li><span>Irritabilidad (notificada solo en niños de 2 a &lt; 6 años)</span></li><li><span>Somnolencia (notificada solo en niños de 2 a &lt; 6 años)</span></li></ul><p><span>En los pacientes de edad avanzada fueron frecuentes el endurecimiento o la hinchazón en el lugar de la inyección, el dolor de cabeza, el dolor muscular y la fatiga.</span></p><p><span>Los cardenales en el lugar de la inyección fueron frecuentes en adultos, ancianos y niños de 9 a &lt; 18 años.</span></p><p><span>El dolor de cabeza fue frecuente en ancianos.</span></p><p><span>La pérdida de apetito fue frecuente en adultos, ancianos y niños de 9 a &lt; 18 años.</span></p><p><span>&nbsp;</span></p><p><span>Frecuentes</span> <span>(pueden afectar hasta 1 de cada 10 personas):</span></p><ul><li><span>Náuseas, vómitos, diarrea</span></li><li><span>Dolor articular</span></li><li><span>Tiritona</span></li><li><span>Cambios en los hábitos alimenticios (notificados solo en niños de 2 a &lt; 6 años)</span></li><li><span>Fiebre (&gt; 38 °C)</span></li></ul><p><span>Los vómitos fueron poco frecuentes en los pacientes de edad avanzada</span></p><p><span>La fiebre fue infrecuente en adultos y ancianos</span></p><p><span>&nbsp;</span></p><p><span>Frecuencia no conocida</span> <span>(no puede estimarse a partir de los datos disponibles):</span></p><ul><li><span>Sensación de hormigueo y</span> <span>entumecimiento (parestesia)</span></li><li><span>Reacciones cutáneas generalizadas incluyendo picor, ampollas en la piel (prurito, urticaria) o erupción cutánea inespecífica</span></li></ul><p><span>&nbsp;</span></p><p><strong><span>Comunicación de efectos adversos</span></strong></p><p><span>Si experimenta cualquier tipo de efecto adverso, consulte a su profesional sanitario, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto.</span> <span>También puede comunicarlos directamente a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano en</span> <a href="http://www.notificaRAM.es"><span>www.notificaRAM.es</span></a><span>.</span> <span>M</span><span>ediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</span></p></div></p>
+
+      
+
+        <h4>5. Conservación de Flucelvax</h4>
+        <p>
+          <div><p><span>Mantener este medicamento fuera de la vista y del alcance de los niños.</span></p><p><span>&nbsp;</span></p><p><span>Conservar en nevera (entre 2 °C y 8 °C). No congelar.</span></p><p><span>Mantener la jeringa precargada en el embalaje exterior para protegerla de la luz.</span></p><p><span>&nbsp;</span></p><p><span>No utilice esta vacuna después de la fecha de caducidad que aparece en la etiqueta y en la caja después de EXP/CAD. La fecha de caducidad es el último día del mes que se indica.</span></p><p><span>&nbsp;</span></p><p><span>Los medicamentos no se deben tirar por los desagües ni a la basura. Pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que ya no necesita. De esta forma, ayudará a proteger el medio ambiente.</span></p><p><span>&nbsp;</span></p></div></p>
+
+      
+
+        <h4>6. Contenido del envase e información adicional</h4>
+        <p>
+          <div><p><strong><span>Composición de Flucelvax Tetra</span></strong></p><p><span>&nbsp;</span></p><ul><li><span>Los principios activos son antígenos de superficie del virus de la gripe (hemaglutinina y neuraminidasa), inactivados, de las siguientes cepas*:</span></li></ul><p><span>&nbsp;</span></p><p><a name="_Hlk66283421"></a><a name="_Hlk66283267"><span>Cepa similar a</span> <span>A/Wisconsin/67/2022 (H1N1)pdm09</span> <span>(A/Georgia/12/2022 CVR-167)</span></a></p><p><span>15 microgramos HA**</span></p><p><a name="_Hlk66283440"></a><a name="_Hlk66283292"><span>Cepa similar a</span> <span>A/Darwin/6/2021 (H3N2)</span> <span>(A/Darwin/11/2021, wild type)</span></a></p><p><span>15 microgramos HA**</span></p><p><span>Cepa similar a B/Austria/1359417/2021</span> <span>(</span><span>Singapore/WUH4618/2021</span><span>, wild type</span><span>)</span> <span>15 microgramos HA**</span></p><p><span>Cepa similar a B/Phuket/3073/2013 (B/Singapore/INFTT-16-0610/2016, wild type)</span></p><p><span>15 microgramos HA**</span></p><p><span>&nbsp;</span></p><p><span>por dosis de 0,5 ml</span></p><p><span>……………………………………….</span></p><p><span>*</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span>propagadas en células Madin Darby Canine Kidney (MDCK) (se trata de un cultivo celular especial en el que crece el virus de la gripe)</span></p><p><span>** hemaglutinina</span></p><p><span>&nbsp;</span></p><p><span>Esta vacuna cumple con la recomendación de la Organización Mundial de la Salud (OMS) (hemisferio norte) y con la recomendación de la UE para la CAMPAÑA 2023/2024.</span></p><p><span>&nbsp;</span></p><ul><li><span>Los demás componentes son: cloruro de sodio, cloruro de potasio, cloruro de magnesio hexahidrato, fosfato disódico dihidrato, dihidrogenofosfato de potasio y agua para preparaciones inyectables.</span></li></ul><p><span>&nbsp;</span></p><p><strong><span>Aspecto del producto y contenido del envase</span></strong></p><p><span>&nbsp;</span></p><p><span>Flucelvax Tetra es una suspensión inyectable en jeringa precargada (jeringa lista para usar). Flucelvax Tetra es una suspensión de transparente a ligeramente opalescente.</span></p><p><span>Cada jeringa individual contiene 0,5 ml de suspensión inyectable.</span></p><p><span>Flucelvax Tetra está disponible en envases de 1 jeringa precargada con o sin aguja o 10 jeringas</span></p><p><span>precargadas con o sin agujas.</span></p><p><span>Puede que solamente estén comercializados algunos tamaños de envases.</span></p><p><span>&nbsp;</span></p><p><strong><span>Titular de la autorización de comercialización y responsable de la fabricación</span></strong></p><p><span>Seqirus Netherlands B.V.</span></p><p><span>Paasheuvelweg 28</span></p><p><span>1105BJ Amsterdam</span></p><p><span>Países Bajos</span></p><p><span>&nbsp;</span></p><p><span>Pueden solicitar más información respecto a este medicamento dirigiéndose al representante local del titular de la autorización de comercialización:</span></p><p><span>&nbsp;</span></p><p><span>Seqirus Spain, S.L., Barcelona</span></p><p><span>Tel: 937 817 884</span></p><p><span>&nbsp;</span></p><p><strong><span>Fecha de la última revisión de este prospecto: 07/2023</span></strong></p><p><span>&nbsp;</span></p><p><span>&nbsp;</span></p><p><strong><span>Otras fuentes de información</span></strong></p><p><span>&nbsp;</span></p><p><span>La información detallada de este medicamento está disponible en la página web de la Agencia Europea de Medicamentos:</span> <a href="http://www.ema.europa.eu/"><span>http://www.ema.europa.eu/.</span></a></p><p><span>&nbsp;</span></p><p><span>------------------------------------------------------------------------------------------------------------- Esta información está destinada únicamente a profesionales del sector sanitario:</span></p><p><span>&nbsp;</span></p><p><span>Debe estar siempre fácilmente disponible el tratamiento médico y la supervisión apropiados en caso de un episodio anafiláctico, que puede aparecer raramente después de administrar la vacuna.</span></p><p><span>&nbsp;</span></p><p><span>Agitar antes de usar. Después de agitar, el aspecto normal de la vacuna es una suspensión de transparente a ligeramente opalescente.</span></p><p><span>&nbsp;</span></p><p><span>Se debe inspeccionar visualmente la vacuna en busca de partículas extrañas o cambios de color antes de la administración. Si se observan partículas extrañas y/o cualquier variación del aspecto físico, no administre la vacuna.</span></p></div></p>
+
+      
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Flucelvax Tetra - suspension for injection in pre-filled syringe
+Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)
+  </h4>
+
+  
+  
+    PMSWI:
+    <b>
+      EU/1/18/1326/001
+    </b>
+    
+  
+    PHPID:
+    <b>
+      0xF79CABF272B6A7EEF104DDDA44E82717
+    </b>
+    
+  
+  <hr>
+  
+  <p>Full name: <b>Flucelvax Tetra - suspension for injection in pre-filled syringe
+Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)</b></p>
+  
+    <p>
+      - Invented name part:
+      <b>
+        Flucelvax Tetra
+      </b>
+    </p>
+  
+    <p>
+      - Scientific name part:
+      <b>
+        Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)
+      </b>
+    </p>
+  
+    <p>
+      - Strength part:
+      <b>
+        15 ug
+      </b>
+    </p>
+  
+    <p>
+      - Pharmaceutical dose form part:
+      <b>
+        Solution for injection
+      </b>
+    </p>
+  
+
+
+  
+  
+  
+    <div>
+      <p>
+        Name usage:
+        
+
+          <b>English (Spain)</b>
+        </p>
+
+      
+    </div>
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b>active</b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+      <div title="Authorisation" class="container rcorners ra listcontainer">
+  <p class="divtitle">
+    <b>Marketing Authorisation</b>
+    1 of 1</p>
+
+  <p>Authorisation number:
+    <b>
+      
+        EU/1/18/1326/001
+      
+    </b>
+  </p>
+
+  <p>
+    Region:
+    <b>
+      
+    </b>
+  </p>
+
+  <p>
+
+    
+  </p>
+
+  
+  
+
+    
+    
+    
+    
+
+
+    
+    
+      <p>Marketing authorisation holder:
+        <b>Seqirus Netherlands B.V.</b>
+      </p>
+      <p>
+        Identifier:
+        <ul>
+          
+            <li>
+              <b>ORG-100013715</b>
+            </li>
+          
+        </ul>
+      </p>
+    
+  
+
+  <p>
+    Status:
+    <b>
+      Active (2019-01-01)
+    </b>
+  </p>
+
+</div>
+    
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 1</p>
+          
+<p>
+  Description:
+  
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+      <li>
+        <b>15 </b>
+    
+  
+
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b>1 Box</b>
+  
+  
+    
+      <b>(Cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+
+
+  <br/>
+  <div class="container rcorners innerpack">
+    
+<p>Package:
+  <b>1 100000073498</b>
+  
+  
+    
+      <b>(Cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+    <b> 
+      
+    </b>
+  </p>
+  
+  
+  
+    
+    
+
+    
+      <div class="container rcorners mid listcontainer">
+  <p class="divtitle">Manufactured Item</p>
+  <p>
+    Dose form:
+    <b>
+      suspension for injection in pre-filled syringe
+    </b>
+  </p>
+  <p>
+    Unit of presentation:
+    <b>
+      Syringe
+    </b>
+  </p>
+
+  
+
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              INFLUENZA A VIRUS A/Delaware/55/2019 CVR-45 (H1N1) WHOLE
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              INFLUENZA A VIRUS A/Darwin/11/2021 (H3N2) WHOLE
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              INFLUENZA B VIRUS B/Singapore/WUH4618/2021 WHOLE
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              INFLUENZA B VIRUS B/SINGAPORE/INFTT-16-0610/2016 WHOLE
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Sodium chloride
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Potassium chloride
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              MAGNESIUM CHLORIDE
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              SODIUM PHOSPHATE, DIBASIC, DIHYDRATE
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Potassium dihydrogen phosphate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Water for injections
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+</div>
+      
+  
+
+
+
+
+
+  </div>
+
+
+
+  
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+        
+        
+        
+        
+          
+        <div class="container rcorners apd listcontainer">
+  <p class="divtitle">Administrable Product (1 of 1)</p>
+  <p>
+    Dose form:
+    <b>
+      suspension for injection in pre-filled syringe
+    </b>
+  </p>
+
+  <p>
+    Unit of presentation:
+    <b>
+      Syringe
+    </b>
+  </p>
+
+  <p>
+    Route of administration:
+    <ul>
+      
+        <li>
+          <b>
+            Subcutaneous use
+          </b>
+        </li>
+      
+    </ul>
+  </p>
+
+  Ingredients:
+  
+
+
+
+  
+
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              INFLUENZA A VIRUS A/Delaware/55/2019 CVR-45 (H1N1) WHOLE
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              INFLUENZA A VIRUS A/Darwin/11/2021 (H3N2) WHOLE
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              INFLUENZA B VIRUS B/Singapore/WUH4618/2021 WHOLE
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              INFLUENZA B VIRUS B/SINGAPORE/INFTT-16-0610/2016 WHOLE
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Sodium chloride
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Potassium chloride
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              MAGNESIUM CHLORIDE
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              SODIUM PHOSPHATE, DIBASIC, DIHYDRATE
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Potassium dihydrogen phosphate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              Excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Water for injections
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+
+
+</div>
+      
+    
+  
+
+
+
+  <!-- <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Flucelvax Tetra - suspension for injection in pre-filled syringe
+Influenza vaccine (surface antigen, inactivated, prepared in cell cultures)
+  </h4>
+
+  
+  
+  
+  
+    PMSWI:
+    <b>
+      EU/1/18/1326/001
+    </b>
+  
+    PHPID:
+    <b>
+      0xF79CABF272B6A7EEF104DDDA44E82717
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b>active</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+
+        <p class="divtitle">Authorisation 1 of 1</p>
+        Auth id:
+        <b>
+          
+            EU/1/18/1326/001
+          
+        </b>
+
+        <p>
+          Country:
+          <b>
+            
+
+          </b>
+        </p>
+        <p>
+          Type:
+          <b>
+            Marketing Authorisation
+          </b>
+        </p>
+
+        
+      </p>
+
+      
+      
+
+        
+        
+        
+        
+
+
+        
+        
+          <p>
+            Holder:
+            <b>Seqirus Netherlands B.V. (ORG-100013715)</b>
+
+          </p>
+          <p></p>
+        
+      
+
+
+
+      <p>
+        Status:
+        <b>
+          Active (2019-01-01)
+        </b>
+      </p>
+
+    </div>
+
+  
+
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 1</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          active</b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+              <li>
+
+                <b>
+                  15 ug</b>
+              </li>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+            <br/>
+            <div class="container rcorners pack bleft">
+              <p>Package: 1 Box [Cardboard]</p>
+
+
+              
+              
+                <br/>
+                <div class="container rcorners pack bleft">
+                  <p>Inner Package: 1 100000073498 [Cardboard]</p>
+
+                </div>
+              </div>
+            
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+      
+
+      
+      
+      
+        
+          <div class="container bleft rcorners apd"> <p class="divtitle">Administrable Product (1 of 1)</p>
+          <p>
+            Dose form:
+            <b>
+              suspension for injection in pre-filled syringe
+            </b>
+          </p>
+
+          <p>
+            Presentation unit:
+            <b>
+              Syringe
+            </b>
+          </p>
+          Route of administration:
+          <ul>
+            
+              <li>
+                <b>
+                  Subcutaneous use
+                </b>
+              </li>
+            
+          </ul>
+          Contents (Manuf. Items):
+          <ul>
+            
+            
+
+              
+
+              
+
+              
+                <div class="container   rcorners mid">
+                  <b>mid-04c9bd6fb89d38b2d83eced2460c4dc1</b>
+                  <p>
+                    Dose form:
+                    <b>suspension for injection in pre-filled syringe</b>
+                  </p>
+                  <p>
+                    Presentation unit:
+                    <b>Syringe</b>
+                  </p>
+                  <p>
+                    Manufactured Dose Form:
+                    <b>suspension for injection in pre-filled syringe</b>
+                  </p>
+                  Ingredients:
+                  <ul>
+                    
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-2e8cb2387c664fb619f6b8914767d38f</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              INFLUENZA A VIRUS A/Delaware/55/2019 CVR-45 (H1N1) WHOLE
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-flucelvax-influenzaavirusadarwin112021h3n2whole</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              INFLUENZA A VIRUS A/Darwin/11/2021 (H3N2) WHOLE
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-f4e520e2974f4acb8abe26b607ea5a46</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              INFLUENZA B VIRUS B/Singapore/WUH4618/2021 WHOLE
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-2c0c197a41a706fb2549601e635da1f3</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              INFLUENZA B VIRUS B/SINGAPORE/INFTT-16-0610/2016 WHOLE
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-flucelvax-sodiumchloride</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Sodium chloride
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-flucelvax-potassiumchloride</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Potassium chloride
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-flucelvax-magnesiumchloride</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              MAGNESIUM CHLORIDE
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-flucelvax-sodiumphosphatedibasicdihydrate</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              SODIUM PHOSPHATE, DIBASIC, DIHYDRATE
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-flucelvax-potassiumdihydrogenphosphate</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Potassium dihydrogen phosphate
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-flucelvax-waterforinjections</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              Excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Water for injections
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                  </ul>
+
+                </div>
+              
+            
+          </ul>
+          
+          
+            
+
+
+        </div>
+      
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+    <!-- insert notes if present -->
+  
+
+
+
+
+            <!-- /inner-wrapper -->
+          <!-- /row -->
+        <!-- /container -->
+      <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  
+
+</p></li></ul></p></div></hr></hr></hr></div></div></div></div></div></div></body></html>

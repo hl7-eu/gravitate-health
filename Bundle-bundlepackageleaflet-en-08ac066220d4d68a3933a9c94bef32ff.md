@@ -1,0 +1,1294 @@
+# ePI document Bundle for DOLOCATIL 1 g tablets Package Leaflet for language en - Gravitate Health FHIR Implementation Guide v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **ePI document Bundle for DOLOCATIL 1 g tablets Package Leaflet for language en**
+
+Package: **1 Box** **(Cardboard)** 
+
+Containing:
+
+Package: **20 Blister** **(PolyVinyl Chloride)** 
+
+Containing: ** ** 
+
+Manufactured Item
+
+ Dose form: ** tablet ** 
+
+ Unit of presentation: ** Tablet ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** Magnesium stearate ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** POVIDONE, UNSPECIFIED ** 
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** paracetamol ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** SILICA, COLLOIDAL ANHYDROUS ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** STARCH, CORN ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** STARCH, POTATO ** 
+
+## Example Bundle: ePI document Bundle for DOLOCATIL 1 g tablets Package Leaflet for language en
+
+**Composition category:**Raw
+
+**Composition status:**final
+
+### B. PROSPECTO
+
+ 
+
+unavailable
+
+
+#### PROSPECTO: INFORMACIÓN PARA EL USUARIO
+
+ 
+
+Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento porque contiene información importante para usted.
+
+* Conserve este prospecto, ya que puede tener que volver a leerlo.
+* Si tiene alguna duda, consulte a su médico o farmacéutico.
+* Este medicamento se le ha recetado a usted y no debe dárselo a otras personas, aunque tengan los mismos síntomas, ya que puede perjudicarles.
+* Si experimienta efectos adversos, consulte a su médico o farmacéutico incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.
+
+
+#### Contenido del prospecto
+
+ 
+
+**Contenido del prospecto:**
+
+1. Qué es Dolocatil y para qué se utiliza
+1. Qué necesita saber antes de empezar a tomar Dolocatil
+1. Cómo tomar Dolocatil
+1. Posibles efectos adversos
+1. Conservación de Dolocatil
+1. Contenido del envase e información adicional.
+
+
+#### 1. Qué es paracetamol y para qué se utiliza
+
+ 
+
+Dolocatil pertenece al grupo de medicamentos llamados analgésicos y antipiréticos.
+
+Se utiliza para el tratamiento de los síntomas del dolor y la fiebre.
+
+
+#### 2. Qué necesita saber antes de empezar a tomar paracetamol
+
+ 
+
+**No tome Dolocatil**
+
+* Si es alérgico (hipersensible) al paracetamol o a alguno de los demás componentes de este medicamento (incluidos en la sección 6).
+
+**Advertencias y precauciones**
+
+No tomar más dosis de la recomendada en el apartado 3. Cómo tomar Dolocatil.
+
+En pacientes asmáticos sensibles a ácido acetilsalicílico se deberá consultar con el médico antes de tomar este medicamento.
+
+Si padece alguna enfermedad del hígado, riñón, corazón o del pulmón, o tiene anemia (disminución de la tasa de hemoglobina en la sangre, a causa o no de una disminución de glóbulos rojos), deberá consultar con su médico antes de tomar este medicamento.
+
+Cuando está en tratamiento con algún medicamento para tratar la epilepsia debe consultar al médico antes de tomar este medicamento, debido a que cuando se usan al mismo tiempo, se disminuye la eficacia y se potencia la hepatotoxicidad del paracetamol, especialmente en tratamientos con dosis altas de paracetamol.
+
+En alcohólicos crónicos se deberá tener la precaución de no tomar más de 2 g/en 24 horas de paracetamol.
+
+Si el dolor se mantiene durante más de 5 días, la fiebre durante más de 3 días, o bien el dolor o la fiebre empeoran o aparecen otros síntomas, se debe consultar al médico y reevaluar la situación clínica.
+
+En niños menores de 15 años consulte a su médico o farmacéutico ya que existen otras presentaciones con dosis que se adaptan a este grupo de pacientes.
+
+**Otros medicamentos y Dolocatil:** Informe a su médico o farmacéutico si está utilizando o ha utilizado recientemente cualquier otro medicamento, incluso los adquiridos sin receta médica. El paracetamol puede tener interacciones con los siguientes medicamentos:
+
+* Medicamento para evitar coágulos en la sangre: Anticoagulantes orales (acenocumarol, warfarina)
+* Medicamentos para tratar la epilepsia: Antiepilépticos (lamotrigina, fenitoina u otras hidantoínas, fenobarbital, metilfenobarbital, primidona, carbamacepina)
+* Medicamentos para tratar la tuberculosis: (isoniazida, rifampicina)
+* Medicamentos para tratar la depresión y las convulsiones: Barbitúricos (utilizados como hipnóticos, sedantes y anticonvulsivantes)
+* Medicamentos para disminuir los niveles de colesterol en sangre: (colestiramina)
+* Medicamentos utilizados para aumentar la eliminación de orina (diuréticos del asa como los del grupo furosemida)
+* Medicamentos utilizados para el tratamiento de la gota (probenecid y sulfinpirazona)
+* Medicamentos utilizados para evitar nauseas y vómitos: Metoclopramida y domperidona
+* Medicamentos utilizados en el tratamiento de la tensión arterial alta (hipertensión) y las alteraciones del ritmo del corazón (arritmias cardiacas): Propranolol.
+* Flucloxacilina (antiobiótico), debido a un riesgo grave de alteración de la sangre y los fluidos (acidosis metabólica con alto desequilibrio aniónico) que debe ser tratada urgentemente y que puede ocurrir particularmente en caso de insuficiencia renal grave, sepsis (cuando las bacterias y sus toxinas circulan en la sangre que da lugar a daño de órganos), desnutrición, alcoholismo crónico y si se utilizan las dosis máximas diarias de paracetamol.
+
+No utilizar con otros analgésicos (medicamentos que disminuyen el dolor) sin consultar al médico.
+
+Como norma general para cualquier medicamento es recomendable informar sistemáticamente al médico o farmacéutico si está en tratamiento con otro medicamento. En caso de tratamiento con anticoagulantes orales se puede administrar ocasionalmente como analgésico de elección.
+
+**Interferencias con pruebas analíticas:**
+
+Si le van a realizar alguna prueba analítica (incluidos análisis de sangre, orina, pruebas cutáneas que utilizan alergenos, etc.) comunique al médico que está tomando este medicamento, ya que puede alterar los resultados de dichas pruebas.
+
+**Toma de Dolocatil con alimentos, bebidas y alcohol**
+
+La utilización de paracetamol en pacientes que consumen habitualmente alcohol (tres o más bebidas alcohólicas al día: cerveza, vino, licor... al día) puede provocar daño en el hígado.
+
+La toma de este medicamento con alimentos no afecta a la eficacia del mismo.
+
+**Embarazo y lactancia:**
+
+Si está embarazada o en período de lactancia, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte a su médico o farmacéutico antes de utilizar este medicamento.
+
+El consumo de medicamentos durante el embarazo puede ser peligroso para el embrión o el feto, y debe ser vigilado por su médico.
+
+En caso necesario, se puede utilizar Dolocatil durante el embarazo. Debe utilizar la dosis más baja posible que reduzca el dolor o la fiebre y utilizarla durante el menor tiempo posible. Contacte con su médico si el dolor o la fiebre no disminuyen o si necesita tomar el medicamento con más frecuencia. Pueden aparecer pequeñas cantidades de paracetamol en la leche materna, por lo tanto se recomienda que consulte a su médico o farmacéutico antes de tomar este medicamento.
+
+**Conducción y uso de máquinas:**
+
+La influencia del paracetamol sobre la capacidad de conducir y utilizar máquinas es nula o insignificante.
+
+
+#### 3. Cómo tomar paracetamol
+
+ 
+
+Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico.
+
+Recuerde tomar su medicamento. Dolocatil debe tomarse por vía oral.
+
+Según sus preferencias, los comprimidos se pueden ingerir directamente o partidos por la mitad, con ayuda de un vaso de líquido, preferentemente agua.
+
+La ranura es sólo para poder fraccionar y facilitar la deglución pero no para dividir en dosis iguales. Consulte a su médico o farmacéutico si tiene dudas.
+
+La dosis recomendada es:
+
+Adultos y adolescentes mayores de 15 años: la dosis habitual es de 1 comprimido (1 g de paracetamol) 3 veces al día. Las tomas deben espaciarse al menos 4 horas. No se tomarán más de 4 comprimidos (4 g) en 24 horas.
+
+Pacientes con enfermedades del hígado: antes de tomar este medicamento tienen que consultar a su médico. Deben tomar la cantidad de medicamento prescrita por su médico con un intervalo mínimo entre cada toma de 8h. No deben tomar más de 2 gramos de paracetamol en 24 horas, repartidos en 2 tomas.
+
+Pacientes con enfermedades del riñón: antes de tomar este medicamento tienen que consultar a su médico. Tomar como máximo 500 miligramos por toma. Debido a la dosis, 1 gramo de paracetamol, no está indicado para este grupo de pacientes.
+
+Pacientes de edad avanzada: deben consultar a su médico.
+
+**Uso en niños y adolescentes**
+
+No utilizar en niños menores de 15 años.
+
+Si se estima que la acción del medicamento es demasiado fuerte o débil, comuníqueselo a su médico o farmacéutico.
+
+Cuando se requiera la administración de dosis inferiores a 1 gramo de paracetamol por toma se deberán emplear otras presentaciones de paracetamol que se adapten a la dosificación requerida.
+
+**Si toma más Dolocatil del que debe**
+
+Debe consultar inmediatamente a su médico o a su farmacéutico. En caso de sobredosis o ingestión accidental, acudir inmediatamente a un centro médico o llamar al Servicio de Información Toxicológica, (teléfono 91 562 04 20), indicando el medicamento y la cantidad ingerida. Si ha ingerido una sobredosis, debe acudir inmediatamente a un centro médico aunque no note los síntomas, ya que a menudo éstos no se manifiestan hasta pasados 3 días desde la ingestión de la sobredosis, incluso en casos de intoxicación grave.
+
+Los síntomas de sobredosis pueden ser: mareos, vómitos, pérdida de apetito, coloración amarillenta de la piel y los ojos (ictericia), dolor abdominal e inflamación del páncreas (pancreatitis).
+
+El tratamiento de la sobredosis es más eficaz si se inicia dentro de las 4 horas siguientes a la ingestión del medicamento.
+
+Los pacientes en tratamiento con barbitúricos o los alcohólicos crónicos pueden ser más susceptibles a la toxicidad de una sobredosis de paracetamol.
+
+**Si olvidó tomar Dolocatil**
+
+No tome una dosis doble para compensar las dosis olvidadas, simplemente tome la dosis olvidada cuando se acuerde, tomando las siguientes dosis con la separación entre tomas indicada en cada caso (al menos 4 horas).
+
+
+#### 4. Posibles efectos adversos
+
+ 
+
+Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.
+
+Efectos adversos raros que se pueden producir (pueden afectar hasta 1 de cada 1.000 personas), son: malestar, bajada de la tensión (hipotensión), y aumento de los niveles de transaminasas en sangre.
+
+Efectos adversos muy raros que se pueden producir (pueden afectar hasta 1 de cada 10.000 personas) son: Enfermedades del riñón, orina turbia, dermatitis alérgica (erupción cutánea), ictericia (coloración amarillenta de la piel), alteraciones sanguíneas (agranulocitosis, leucopenia, neutropenia, anemia hemolítica) e hipoglucemia (bajada de azúcar en sangre). Se han notificado muy raramente casos de reacciones graves en la piel.
+
+El paracetamol puede dañar el hígado cuando se toma en dosis altas o en tratamientos prolongados.
+
+**Comunicación de efectos adversos**
+
+Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano: [https://www.notificaram.es](https://www.notificaram.es). Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.
+
+
+#### 5. Conservación de paracetamol
+
+ 
+
+Mantener este medicamento fuera de la vista y del alcance de los niños.
+
+Este medicamento no requiere condiciones especiales de conservación.
+
+No utilice este medicamento después de la fecha de caducidad que aparece en el envase (después de CAD.). La fecha de caducidad es el último día del mes que se indica.
+
+Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesita en el Punto SIGRE de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que ya no necesita. De esta forma, ayudará a proteger el medio ambiente.
+
+
+#### 6. Contenido del envase e información adicional
+
+ 
+
+**Composición de Dolocatil**
+
+* El principio activo es paracetamol.
+* Los demás componentes son: povidona, estearato magnésico, sílice coloidal anhidra, almidón glicolato sódico (Tipo A) (origen: patata) y almidón pregelatinizado (origen: maíz).
+
+**Aspecto de Dolocatil y contenido del envase**
+
+Comprimidos oblongos, de color blanco y ranurados, en envases de 20 y 40 comprimidos. Los comprimidos están ranurados lo que permite partirlos por la mitad.
+
+**Titular de la autorización de comercialización** Ferrer Internacional, S.A. Gran Vía Carlos III, 94 08028 - Barcelona Responsable de la fabricación Ferrer Internacional, S.A. Joan XXIII, 10 08950 – Esplugues de Llobregat (Barcelona) o Ferrer Internacional, S.A. Joan Buscallá, 1-9 08173 - Sant Cugat del Vallés (Barcelona)
+
+**Fecha de la última revisión de este prospecto: diciembre 2022**
+
+La información detallada y actualizada de este medicamento está disponible en la página Web de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) [http://www.aemps.gob.es/](http://www.aemps.gob.es/)
+
+
+####  DOLOCATIL 1 g tablets 
+PMSWI:
+** 72.741 **PHPID:
+** 0xE857DA811B4A6F3BD57810C45D2EA1ED **
+-------
+
+Full name: **DOLOCATIL 1 g tablets**
+
+ - Invented name part: ** Dolocatil ** 
+
+ - Scientific name part: ** paracetamol ** 
+
+ - Strength part: ** 1000 mg ** 
+
+ - Pharmaceutical dose form part: ** tablet ** 
+
+ Name usage: **English (Spain)** 
+
+-------
+
+ Authorised dose form: **** 
+
+ Legal status of supply: **Medicinal product subject to medical prescription** 
+
+ Domain: **Human use** 
+
+ Resource status: **active** 
+
+-------
+
+ Product classification: 
+
+ **Marketing Authorisation** 1 of 1
+
+Authorisation number: ** 72.741 ** 
+
+ Region: ** ** 
+
+Marketing authorisation holder: **FERRER INTERNACIONAL, S.A.** 
+
+ Identifier: 
+*  **ORG-100000789** 
+ 
+
+ Status: ** Active (2010-10-01) ** 
+
+ Package 1 of 1
+
+PMSWI: ** 672669 ** 
+
+ Description:  * * 
+
+ Marketing status: 
+ 
+
+Pack size:
+
+*  ****1000 
+
+Administrable Product (1 of 1)
+
+ Dose form: ** tablet ** 
+
+ Unit of presentation: ** tablet ** 
+
+ Route of administration: 
+*  ** Oral use ** 
+ 
+Ingredients:
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** Magnesium stearate ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** POVIDONE, UNSPECIFIED ** 
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** paracetamol ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** SILICA, COLLOIDAL ANHYDROUS ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** STARCH, CORN ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** STARCH, POTATO ** 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Bundle",
+  "id" : "bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"]
+  },
+  "language" : "en",
+  "identifier" : {
+    "system" : "https://www.gravitatehealth.eu/sid/doc",
+    "value" : "EU/1/96/007/035"
+  },
+  "type" : "document",
+  "timestamp" : "2023-06-27T10:09:22Z",
+  "entry" : [{
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-a975b7e209ea5c4c3bf8040a42b86fbd",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "composition-es-a975b7e209ea5c4c3bf8040a42b86fbd",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"]
+      },
+      "language" : "es",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"es\" lang=\"es\"><a name=\"Composition_composition-es-a975b7e209ea5c4c3bf8040a42b86fbd\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition composition-es-a975b7e209ea5c4c3bf8040a42b86fbd</b></p><a name=\"composition-es-a975b7e209ea5c4c3bf8040a42b86fbd\"> </a><a name=\"hccomposition-es-a975b7e209ea5c4c3bf8040a42b86fbd\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/</code>/a02c4f62b2ecab881b49c2f8bd9c926d</p><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000155538}\">Package Leaflet</span></p><p><b>category</b>: <span title=\"Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs R}\">Raw</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#Organization_mah-65db33d6be47a433e6e9e9c2980ea7a4\">Organization FERRER INTERNACIONAL, S.A.</a></p><p><b>title</b>: TEST PURPOSES ONLY - DOLOCATIL 1 g tablets</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://hl7.org/fhir/composition-attestation-mode official}\">Official</span></td><td>2022-02-16 13:28:17+0000</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi/",
+        "value" : "a02c4f62b2ecab881b49c2f8bd9c926d"
+      }],
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000155538"
+        }],
+        "text" : "Package Leaflet"
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs",
+          "code" : "R",
+          "display" : "Raw"
+        }]
+      }],
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd"
+      }],
+      "date" : "2022-02-16T13:28:17Z",
+      "author" : [{
+        "reference" : "Organization/mah-65db33d6be47a433e6e9e9c2980ea7a4"
+      }],
+      "title" : "TEST PURPOSES ONLY - DOLOCATIL 1 g tablets",
+      "attester" : [{
+        "mode" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/composition-attestation-mode",
+            "code" : "official"
+          }]
+        },
+        "time" : "2022-02-16T13:28:17Z"
+      }],
+      "section" : [{
+        "title" : "B. PROSPECTO",
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi/",
+            "code" : "100000155538"
+          }],
+          "text" : "B. PROSPECTO"
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "unavailable"
+          }]
+        },
+        "section" : [{
+          "title" : "PROSPECTO: INFORMACIÓN PARA EL USUARIO",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento porque contiene información importante para usted.</p><ul><li>Conserve este prospecto, ya que puede tener que volver a leerlo.</li><li>Si tiene alguna duda, consulte a su médico o farmacéutico.</li><li>Este medicamento se le ha recetado a usted y no debe dárselo a otras personas, aunque tengan los mismos síntomas, ya que puede perjudicarles.</li><li>Si experimienta efectos adversos, consulte a su médico o farmacéutico incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.</li></ul></div>"
+          }
+        },
+        {
+          "title" : "Contenido del prospecto",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "Contenido del prospecto"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Contenido del prospecto:</strong></p><ol><li>Qué es Dolocatil y para qué se utiliza</li><li>Qué necesita saber antes de empezar a tomar Dolocatil</li><li>Cómo tomar Dolocatil</li><li>Posibles efectos adversos</li><li>Conservación de Dolocatil</li><li>Contenido del envase e información adicional.</li></ol></div>"
+          }
+        },
+        {
+          "title" : "1. Qué es paracetamol y para qué se utiliza",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "1. Qué es paracetamol y para qué se utiliza"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Dolocatil pertenece al grupo de medicamentos llamados analgésicos y antipiréticos.</p><p>Se utiliza para el tratamiento de los síntomas del dolor y la fiebre.</p></div>"
+          }
+        },
+        {
+          "title" : "2. Qué necesita saber antes de empezar a tomar paracetamol",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "2. Qué necesita saber antes de empezar a tomar paracetamol"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>No tome Dolocatil</strong></p><ul><li>Si es alérgico (hipersensible) al paracetamol o a alguno de los demás componentes de este medicamento (incluidos en la sección 6).</li></ul><p><strong>Advertencias y precauciones</strong></p><p>No tomar más dosis de la recomendada en el apartado 3. Cómo tomar Dolocatil.</p><p>En pacientes asmáticos sensibles a ácido acetilsalicílico se deberá consultar con el médico antes de tomar este medicamento.</p><p>Si padece alguna enfermedad del hígado, riñón, corazón o del pulmón, o tiene anemia (disminución de la tasa de hemoglobina en la sangre, a causa o no de una disminución de glóbulos rojos), deberá consultar con su médico antes de tomar este medicamento.</p><p>Cuando está en tratamiento con algún medicamento para tratar la epilepsia debe consultar al médico antes de tomar este medicamento, debido a que cuando se usan al mismo tiempo, se disminuye la eficacia y se potencia la hepatotoxicidad del paracetamol, especialmente en tratamientos con dosis altas de paracetamol.</p><p>En alcohólicos crónicos se deberá tener la precaución de no tomar más de 2 g/en 24 horas de paracetamol.</p><p>Si el dolor se mantiene durante más de 5 días, la fiebre durante más de 3 días, o bien el dolor o la fiebre empeoran o aparecen otros síntomas, se debe consultar al médico y reevaluar la situación clínica.</p><p>En niños menores de 15 años consulte a su médico o farmacéutico ya que existen otras presentaciones con dosis que se adaptan a este grupo de pacientes.</p><p><strong>Otros medicamentos y Dolocatil:</strong> Informe a su médico o farmacéutico si está utilizando o ha utilizado recientemente cualquier otro medicamento, incluso los adquiridos sin receta médica. El paracetamol puede tener interacciones con los siguientes medicamentos:</p><ul><li>Medicamento para evitar coágulos en la sangre: Anticoagulantes orales (acenocumarol, warfarina)</li><li>Medicamentos para tratar la epilepsia: Antiepilépticos (lamotrigina, fenitoina u otras hidantoínas, fenobarbital, metilfenobarbital, primidona, carbamacepina)</li><li>Medicamentos para tratar la tuberculosis: (isoniazida, rifampicina)</li><li>Medicamentos para tratar la depresión y las convulsiones: Barbitúricos (utilizados como hipnóticos, sedantes y anticonvulsivantes)</li><li>Medicamentos para disminuir los niveles de colesterol en sangre: (colestiramina)</li><li>Medicamentos utilizados para aumentar la eliminación de orina (diuréticos del asa como los del grupo furosemida)</li><li>Medicamentos utilizados para el tratamiento de la gota (probenecid y sulfinpirazona)</li><li>Medicamentos utilizados para evitar nauseas y vómitos: Metoclopramida y domperidona</li><li>Medicamentos utilizados en el tratamiento de la tensión arterial alta (hipertensión) y las alteraciones del ritmo del corazón (arritmias cardiacas): Propranolol.</li><li>Flucloxacilina (antiobiótico), debido a un riesgo grave de alteración de la sangre y los fluidos (acidosis metabólica con alto desequilibrio aniónico) que debe ser tratada urgentemente y que puede ocurrir particularmente en caso de insuficiencia renal grave, sepsis (cuando las bacterias y sus toxinas circulan en la sangre que da lugar a daño de órganos), desnutrición, alcoholismo crónico y si se utilizan las dosis máximas diarias de paracetamol.</li></ul><p>No utilizar con otros analgésicos (medicamentos que disminuyen el dolor) sin consultar al médico.</p><p>Como norma general para cualquier medicamento es recomendable informar sistemáticamente al médico o farmacéutico si está en tratamiento con otro medicamento. En caso de tratamiento con anticoagulantes orales se puede administrar ocasionalmente como analgésico de elección.</p><p><em>Interferencias con pruebas analíticas:</em></p><p>Si le van a realizar alguna prueba analítica (incluidos análisis de sangre, orina, pruebas cutáneas que utilizan alergenos, etc.) comunique al médico que está tomando este medicamento, ya que puede alterar los resultados de dichas pruebas.</p><p><strong>Toma de Dolocatil con alimentos, bebidas y alcohol</strong></p><p>La utilización de paracetamol en pacientes que consumen habitualmente alcohol (tres o más bebidas alcohólicas al día: cerveza, vino, licor... al día) puede provocar daño en el hígado.</p><p>La toma de este medicamento con alimentos no afecta a la eficacia del mismo.</p><p><strong>Embarazo y lactancia:</strong></p><p>Si está embarazada o en período de lactancia, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte a su médico o farmacéutico antes de utilizar este medicamento.</p><p>El consumo de medicamentos durante el embarazo puede ser peligroso para el embrión o el feto, y debe ser vigilado por su médico.</p><p>En caso necesario, se puede utilizar Dolocatil durante el embarazo. Debe utilizar la dosis más baja posible que reduzca el dolor o la fiebre y utilizarla durante el menor tiempo posible. Contacte con su médico si el dolor o la fiebre no disminuyen o si necesita tomar el medicamento con más frecuencia. Pueden aparecer pequeñas cantidades de paracetamol en la leche materna, por lo tanto se recomienda que consulte a su médico o farmacéutico antes de tomar este medicamento.</p><p><strong>Conducción y uso de máquinas:</strong></p><p>La influencia del paracetamol sobre la capacidad de conducir y utilizar máquinas es nula o insignificante.</p></div>"
+          }
+        },
+        {
+          "title" : "3. Cómo tomar paracetamol",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "3. Cómo tomar paracetamol"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico.</p><p>Recuerde tomar su medicamento. Dolocatil debe tomarse por vía oral.</p><p>Según sus preferencias, los comprimidos se pueden ingerir directamente o partidos por la mitad, con ayuda de un vaso de líquido, preferentemente agua.</p><p>La ranura es sólo para poder fraccionar y facilitar la deglución pero no para dividir en dosis iguales. Consulte a su médico o farmacéutico si tiene dudas.</p><p>La dosis recomendada es:</p><p>Adultos y adolescentes mayores de 15 años: la dosis habitual es de 1 comprimido (1 g de paracetamol) 3 veces al día. Las tomas deben espaciarse al menos 4 horas. No se tomarán más de 4 comprimidos (4 g) en 24 horas.</p><p>Pacientes con enfermedades del hígado: antes de tomar este medicamento tienen que consultar a su médico. Deben tomar la cantidad de medicamento prescrita por su médico con un intervalo mínimo entre cada toma de 8h. No deben tomar más de 2 gramos de paracetamol en 24 horas, repartidos en 2 tomas.</p><p>Pacientes con enfermedades del riñón: antes de tomar este medicamento tienen que consultar a su médico. Tomar como máximo 500 miligramos por toma. Debido a la dosis, 1 gramo de paracetamol, no está indicado para este grupo de pacientes.</p><p>Pacientes de edad avanzada: deben consultar a su médico.</p><p><strong>Uso en niños y adolescentes</strong></p><p>No utilizar en niños menores de 15 años.</p><p>Si se estima que la acción del medicamento es demasiado fuerte o débil, comuníqueselo a su médico o farmacéutico.</p><p>Cuando se requiera la administración de dosis inferiores a 1 gramo de paracetamol por toma se deberán emplear otras presentaciones de paracetamol que se adapten a la dosificación requerida.</p><p><strong>Si toma más Dolocatil del que debe</strong></p><p>Debe consultar inmediatamente a su médico o a su farmacéutico. En caso de sobredosis o ingestión accidental, acudir inmediatamente a un centro médico o llamar al Servicio de Información Toxicológica, (teléfono 91 562 04 20), indicando el medicamento y la cantidad ingerida. Si ha ingerido una sobredosis, debe acudir inmediatamente a un centro médico aunque no note los síntomas, ya que a menudo éstos no se manifiestan hasta pasados 3 días desde la ingestión de la sobredosis, incluso en casos de intoxicación grave.</p><p>Los síntomas de sobredosis pueden ser: mareos, vómitos, pérdida de apetito, coloración amarillenta de la piel y los ojos (ictericia), dolor abdominal e inflamación del páncreas (pancreatitis).</p><p>El tratamiento de la sobredosis es más eficaz si se inicia dentro de las 4 horas siguientes a la ingestión del medicamento.</p><p>Los pacientes en tratamiento con barbitúricos o los alcohólicos crónicos pueden ser más susceptibles a la toxicidad de una sobredosis de paracetamol.</p><p><strong>Si olvidó tomar Dolocatil</strong></p><p>No tome una dosis doble para compensar las dosis olvidadas, simplemente tome la dosis olvidada cuando se acuerde, tomando las siguientes dosis con la separación entre tomas indicada en cada caso (al menos 4 horas).</p></div>"
+          }
+        },
+        {
+          "title" : "4. Posibles efectos adversos",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "4. Posibles efectos adversos"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</p><p>Efectos adversos raros que se pueden producir (pueden afectar hasta 1 de cada 1.000 personas), son: malestar, bajada de la tensión (hipotensión), y aumento de los niveles de transaminasas en sangre.</p><p>Efectos adversos muy raros que se pueden producir (pueden afectar hasta 1 de cada 10.000 personas) son: Enfermedades del riñón, orina turbia, dermatitis alérgica (erupción cutánea), ictericia (coloración amarillenta de la piel), alteraciones sanguíneas (agranulocitosis, leucopenia, neutropenia, anemia hemolítica) e hipoglucemia (bajada de azúcar en sangre). Se han notificado muy raramente casos de reacciones graves en la piel.</p><p>El paracetamol puede dañar el hígado cuando se toma en dosis altas o en tratamientos prolongados.</p><p><strong>Comunicación de efectos adversos</strong></p><p>Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano: <a href=\"https://www.notificaram.es\">https://www.notificaram.es</a>. Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</p></div>"
+          }
+        },
+        {
+          "title" : "5. Conservación de paracetamol",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "5. Conservación de paracetamol"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Mantener este medicamento fuera de la vista y del alcance de los niños.</p><p>Este medicamento no requiere condiciones especiales de conservación.</p><p>No utilice este medicamento después de la fecha de caducidad que aparece en el envase (después de CAD.). La fecha de caducidad es el último día del mes que se indica.</p><p>Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesita en el Punto SIGRE de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que ya no necesita. De esta forma, ayudará a proteger el medio ambiente.</p></div>"
+          }
+        },
+        {
+          "title" : "6. Contenido del envase e información adicional",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "6. Contenido del envase e información adicional"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Composición de Dolocatil</strong></p><ul><li>El principio activo es paracetamol.</li><li>Los demás componentes son: povidona, estearato magnésico, sílice coloidal anhidra, almidón glicolato sódico (Tipo A) (origen: patata) y almidón pregelatinizado (origen: maíz).</li></ul><p><strong>Aspecto de Dolocatil y contenido del envase</strong></p><p>Comprimidos oblongos, de color blanco y ranurados, en envases de 20 y 40 comprimidos. Los comprimidos están ranurados lo que permite partirlos por la mitad.</p><p><strong>Titular de la autorización de comercialización</strong> Ferrer Internacional, S.A. Gran Vía Carlos III, 94 08028 - Barcelona Responsable de la fabricación Ferrer Internacional, S.A. Joan XXIII, 10 08950 – Esplugues de Llobregat (Barcelona) o Ferrer Internacional, S.A. Joan Buscallá, 1-9 08173 - Sant Cugat del Vallés (Barcelona)</p><p><strong>Fecha de la última revisión de este prospecto: diciembre 2022</strong></p><p>La información detallada y actualizada de este medicamento está disponible en la página Web de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) <a href=\"http://www.aemps.gob.es/\">http://www.aemps.gob.es/</a></p></div>"
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-paracetamol-magnesiumstearate",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-paracetamol-magnesiumstearate",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-paracetamol-magnesiumstearate\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-paracetamol-magnesiumstearate</b></p><a name=\"ingredient-for-paracetamol-magnesiumstearate\"> </a><a name=\"hcingredient-for-paracetamol-magnesiumstearate\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/70097M6I30 (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#ManufacturedItemDefinition_mid-08ac066220d4d68a3933a9c94bef32ff\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#MedicinalProductDefinition_mpa975b7e209ea5c4c3bf8040a42b86fbd\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#72.741,https://www.who-umc.org/phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#AdministrableProductDefinition_ap-08ac066220d4d68a3933a9c94bef32ff\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 70097M6I30}\">Magnesium stearate</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "70097M6I30"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "70097M6I30",
+              "display" : "Magnesium stearate"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-paracetamol-povidoneunspecified",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-paracetamol-povidoneunspecified",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-paracetamol-povidoneunspecified\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-paracetamol-povidoneunspecified</b></p><a name=\"ingredient-for-paracetamol-povidoneunspecified\"> </a><a name=\"hcingredient-for-paracetamol-povidoneunspecified\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/FZ989GH94E (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#ManufacturedItemDefinition_mid-08ac066220d4d68a3933a9c94bef32ff\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#MedicinalProductDefinition_mpa975b7e209ea5c4c3bf8040a42b86fbd\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#72.741,https://www.who-umc.org/phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#AdministrableProductDefinition_ap-08ac066220d4d68a3933a9c94bef32ff\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta FZ989GH94E}\">POVIDONE, UNSPECIFIED</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "FZ989GH94E"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "FZ989GH94E",
+              "display" : "POVIDONE, UNSPECIFIED"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-paracetamol-paracetamol",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-paracetamol-paracetamol",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-paracetamol-paracetamol\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-paracetamol-paracetamol</b></p><a name=\"ingredient-for-paracetamol-paracetamol\"> </a><a name=\"hcingredient-for-paracetamol-paracetamol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/362O9ITL9D (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#ManufacturedItemDefinition_mid-08ac066220d4d68a3933a9c94bef32ff\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#MedicinalProductDefinition_mpa975b7e209ea5c4c3bf8040a42b86fbd\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#72.741,https://www.who-umc.org/phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#AdministrableProductDefinition_ap-08ac066220d4d68a3933a9c94bef32ff\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 72072}\">active</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 362O9ITL9D}\">paracetamol</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>1000 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ACTIB}\">active ingredient - basis of strength</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "362O9ITL9D"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "72072",
+          "display" : "active"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "362O9ITL9D",
+              "display" : "paracetamol"
+            }]
+          }
+        },
+        "strength" : [{
+          "presentationQuantity" : {
+            "value" : 1000,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "basis" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+              "code" : "ACTIB",
+              "display" : "active ingredient - basis of strength"
+            }]
+          }
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-paracetamol-silicacolloidalanhydrous",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-paracetamol-silicacolloidalanhydrous",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-paracetamol-silicacolloidalanhydrous\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-paracetamol-silicacolloidalanhydrous</b></p><a name=\"ingredient-for-paracetamol-silicacolloidalanhydrous\"> </a><a name=\"hcingredient-for-paracetamol-silicacolloidalanhydrous\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/ETJ7Z6XBU4 (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#ManufacturedItemDefinition_mid-08ac066220d4d68a3933a9c94bef32ff\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#MedicinalProductDefinition_mpa975b7e209ea5c4c3bf8040a42b86fbd\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#72.741,https://www.who-umc.org/phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#AdministrableProductDefinition_ap-08ac066220d4d68a3933a9c94bef32ff\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta ETJ7Z6XBU4}\">SILICA, COLLOIDAL ANHYDROUS</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "ETJ7Z6XBU4"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "ETJ7Z6XBU4",
+              "display" : "SILICA, COLLOIDAL ANHYDROUS"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-paracetamol-starchcorn",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-paracetamol-starchcorn",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-paracetamol-starchcorn\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-paracetamol-starchcorn</b></p><a name=\"ingredient-for-paracetamol-starchcorn\"> </a><a name=\"hcingredient-for-paracetamol-starchcorn\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/O8232NY3SJ (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#ManufacturedItemDefinition_mid-08ac066220d4d68a3933a9c94bef32ff\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#MedicinalProductDefinition_mpa975b7e209ea5c4c3bf8040a42b86fbd\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#72.741,https://www.who-umc.org/phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#AdministrableProductDefinition_ap-08ac066220d4d68a3933a9c94bef32ff\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta O8232NY3SJ}\">STARCH, CORN</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "O8232NY3SJ"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "O8232NY3SJ",
+              "display" : "STARCH, CORN"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-paracetamol-starchpotato",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-paracetamol-starchpotato",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-paracetamol-starchpotato\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-paracetamol-starchpotato</b></p><a name=\"ingredient-for-paracetamol-starchpotato\"> </a><a name=\"hcingredient-for-paracetamol-starchpotato\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/8I089SAH3T (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#ManufacturedItemDefinition_mid-08ac066220d4d68a3933a9c94bef32ff\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#MedicinalProductDefinition_mpa975b7e209ea5c4c3bf8040a42b86fbd\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#72.741,https://www.who-umc.org/phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#AdministrableProductDefinition_ap-08ac066220d4d68a3933a9c94bef32ff\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 8I089SAH3T}\">STARCH, POTATO</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "8I089SAH3T"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "8I089SAH3T",
+              "display" : "STARCH, POTATO"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-paracetamol",
+    "resource" : {
+      "resourceType" : "SubstanceDefinition",
+      "id" : "substance-paracetamol",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"SubstanceDefinition_substance-paracetamol\"> </a><p class=\"res-header-id\"><b>Generated Narrative: SubstanceDefinition substance-paracetamol</b></p><a name=\"substance-paracetamol\"> </a><a name=\"hcsubstance-paracetamol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta/</code>/362O9ITL9D (use: official, )</p><p><b>version</b>: 1</p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>manufacturer</b>: <a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#Organization_mah-65db33d6be47a433e6e9e9c2980ea7a4\">Organization FERRER INTERNACIONAL, S.A.</a></p><h3>MolecularWeights</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">exact</span></td><td>151.16</td></tr></table><h3>Structures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>MolecularFormula</b></td></tr><tr><td style=\"display: none\">*</td><td>C8H9NO2</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>4'-HYDROXYACETANILIDE</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta/ x}\">Chemical Name</span></td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+        "value" : "362O9ITL9D"
+      }],
+      "version" : "1",
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active"
+        }]
+      },
+      "manufacturer" : [{
+        "reference" : "Organization/mah-65db33d6be47a433e6e9e9c2980ea7a4"
+      }],
+      "molecularWeight" : [{
+        "type" : {
+          "text" : "exact"
+        },
+        "amount" : {
+          "value" : 151.16
+        }
+      }],
+      "structure" : {
+        "molecularFormula" : "C8H9NO2"
+      },
+      "name" : [{
+        "name" : "4'-HYDROXYACETANILIDE",
+        "type" : {
+          "coding" : [{
+            "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+            "code" : "x",
+            "display" : "Chemical Name"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff",
+    "resource" : {
+      "resourceType" : "AdministrableProductDefinition",
+      "id" : "ap-08ac066220d4d68a3933a9c94bef32ff",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AdministrableProductDefinition_ap-08ac066220d4d68a3933a9c94bef32ff\"> </a><p class=\"res-header-id\"><b>Generated Narrative: AdministrableProductDefinition ap-08ac066220d4d68a3933a9c94bef32ff</b></p><a name=\"ap-08ac066220d4d68a3933a9c94bef32ff\"> </a><a name=\"hcap-08ac066220d4d68a3933a9c94bef32ff\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/xx</p><p><b>status</b>: Active</p><p><b>formOf</b>: <a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#MedicinalProductDefinition_mpa975b7e209ea5c4c3bf8040a42b86fbd\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#72.741,https://www.who-umc.org/phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>administrableDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002152}\">tablet</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002152}\">tablet</span></p><p><b>producedFrom</b>: <a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#ManufacturedItemDefinition_mid-08ac066220d4d68a3933a9c94bef32ff\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073619}\">Oral use</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000109093}\">Human</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "xx"
+      }],
+      "status" : "active",
+      "formOf" : [{
+        "reference" : "MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd"
+      }],
+      "administrableDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002152",
+          "display" : "tablet"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002152",
+          "display" : "tablet"
+        }]
+      },
+      "producedFrom" : [{
+        "reference" : "ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff"
+      }],
+      "routeOfAdministration" : [{
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073619",
+            "display" : "Oral use"
+          }]
+        },
+        "targetSpecies" : [{
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000109093",
+              "display" : "Human"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization08ac066220d4d68a3933a9c94bef32ff0",
+    "resource" : {
+      "resourceType" : "RegulatedAuthorization",
+      "id" : "authorization08ac066220d4d68a3933a9c94bef32ff0",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"RegulatedAuthorization_authorization08ac066220d4d68a3933a9c94bef32ff0\"> </a><p class=\"res-header-id\"><b>Generated Narrative: RegulatedAuthorization authorization08ac066220d4d68a3933a9c94bef32ff0</b></p><a name=\"authorization08ac066220d4d68a3933a9c94bef32ff0\"> </a><a name=\"hcauthorization08ac066220d4d68a3933a9c94bef32ff0\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/72.741 (use: official, )</p><p><b>subject</b>: <a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#MedicinalProductDefinition_mpa975b7e209ea5c4c3bf8040a42b86fbd\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#72.741,https://www.who-umc.org/phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072062}\">Marketing Authorisation</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2010-10-01</p><p><b>holder</b>: <a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#Organization_mah-65db33d6be47a433e6e9e9c2980ea7a4\">Organization FERRER INTERNACIONAL, S.A.</a></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "72.741"
+      }],
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072062",
+          "display" : "Marketing Authorisation"
+        }]
+      },
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2010-10-01",
+      "holder" : {
+        "reference" : "Organization/mah-65db33d6be47a433e6e9e9c2980ea7a4"
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-65db33d6be47a433e6e9e9c2980ea7a4",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "mah-65db33d6be47a433e6e9e9c2980ea7a4",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_mah-65db33d6be47a433e6e9e9c2980ea7a4\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization mah-65db33d6be47a433e6e9e9c2980ea7a4</b></p><a name=\"mah-65db33d6be47a433e6e9e9c2980ea7a4\"> </a><a name=\"hcmah-65db33d6be47a433e6e9e9c2980ea7a4\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/ORG-100000789 (use: official, )</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 220000000034}\">Marketing authorisation holder</span></p><p><b>name</b>: FERRER INTERNACIONAL, S.A.</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>Gran Vía Carlos III, 94 Barcelona ES(work)</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/omswi",
+        "value" : "ORG-100000789"
+      }],
+      "active" : true,
+      "type" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000034",
+          "display" : "Marketing authorisation holder"
+        }]
+      }],
+      "name" : "FERRER INTERNACIONAL, S.A.",
+      "contact" : [{
+        "address" : {
+          "use" : "work",
+          "type" : "physical",
+          "text" : "Gran Vía Carlos III, 94 Barcelona ES",
+          "line" : ["Gran Vía Carlos III, 94"],
+          "city" : "Barcelona",
+          "postalCode" : "8028",
+          "country" : "ES"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-951de5ac0ea34819d959a1b4321a915b",
+    "resource" : {
+      "resourceType" : "PackagedProductDefinition",
+      "id" : "ppd-951de5ac0ea34819d959a1b4321a915b",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-951de5ac0ea34819d959a1b4321a915b\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PackagedProductDefinition ppd-951de5ac0ea34819d959a1b4321a915b</b></p><a name=\"ppd-951de5ac0ea34819d959a1b4321a915b\"> </a><a name=\"hcppd-951de5ac0ea34819d959a1b4321a915b\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/672669 (use: official, )</p><p><b>name</b>: DOLOCATIL 1 g tablets 20</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000155527}\">Chemical Medicinal Prodcut</span></p><p><b>packageFor</b>: <a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#MedicinalProductDefinition_mpa975b7e209ea5c4c3bf8040a42b86fbd\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#72.741,https://www.who-umc.org/phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2010-10-13</p><p><b>containedItemQuantity</b>: 1000 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073498}\">Box</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003529}\">Cardboard</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073496}\">Blister</span></p><p><b>quantity</b>: 20</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003222}\">PolyVinyl Chloride</span></p><blockquote><p><b>containedItem</b></p><h3>Items</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Reference</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Bundle-bundlepackageleaflet-en-08ac066220d4d68a3933a9c94bef32ff.html#ManufacturedItemDefinition_mid-08ac066220d4d68a3933a9c94bef32ff\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></td></tr></table></blockquote></blockquote></blockquote></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "672669"
+      }],
+      "name" : "DOLOCATIL 1 g tablets 20",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000155527",
+          "display" : "Chemical Medicinal Prodcut"
+        }]
+      },
+      "packageFor" : [{
+        "reference" : "MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd"
+      }],
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2010-10-13",
+      "containedItemQuantity" : [{
+        "value" : 1000,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      }],
+      "packaging" : {
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073498",
+            "display" : "Box"
+          }]
+        },
+        "quantity" : 1,
+        "material" : [{
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "200000003529",
+            "display" : "Cardboard"
+          }]
+        }],
+        "packaging" : [{
+          "identifier" : [{
+            "system" : "https://spor.ema.europa.eu/pmswi",
+            "value" : "123456"
+          }],
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000073496",
+              "display" : "Blister"
+            }]
+          },
+          "quantity" : 20,
+          "material" : [{
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "200000003222",
+              "display" : "PolyVinyl Chloride"
+            }]
+          }],
+          "containedItem" : [{
+            "item" : {
+              "reference" : {
+                "reference" : "ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff"
+              }
+            }
+          }]
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd",
+    "resource" : {
+      "resourceType" : "MedicinalProductDefinition",
+      "id" : "mpa975b7e209ea5c4c3bf8040a42b86fbd",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_mpa975b7e209ea5c4c3bf8040a42b86fbd\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicinalProductDefinition mpa975b7e209ea5c4c3bf8040a42b86fbd</b></p><a name=\"mpa975b7e209ea5c4c3bf8040a42b86fbd\"> </a><a name=\"hcmpa975b7e209ea5c4c3bf8040a42b86fbd\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/72.741, <code>https://www.who-umc.org/phpid</code>/0xE857DA811B4A6F3BD57810C45D2EA1ED</p><p><b>type</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-type MedicinalProduct}\">Medicinal Product</span></p><p><b>domain</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-domain Human}\">Human use</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">active</span></p><p><b>legalStatusOfSupply</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000000000}\">Medicinal product subject to medical prescription</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: DOLOCATIL 1 g tablets</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000001}\">Full name</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Dolocatil</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000002}\">Invented name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: paracetamol</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000003}\">Scientific name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 1000 mg</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000004}\">Strength part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: tablet</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000005}\">Pharmaceutical dose form part</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{urn:iso:std:iso:3166 ES}\">Spain</span></td><td><span title=\"Codes:{urn:iso:std:iso:3166 ES}\">Spain</span></td><td><span title=\"Codes:{urn:ietf:bcp:47 en}\">English</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "72.741"
+      },
+      {
+        "system" : "https://www.who-umc.org/phpid",
+        "value" : "0xE857DA811B4A6F3BD57810C45D2EA1ED"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-type",
+          "code" : "MedicinalProduct",
+          "display" : "Medicinal Product"
+        }]
+      },
+      "domain" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-domain",
+          "code" : "Human",
+          "display" : "Human use"
+        }]
+      },
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "active"
+        }]
+      },
+      "legalStatusOfSupply" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000000000",
+          "display" : "Medicinal product subject to medical prescription"
+        }]
+      },
+      "name" : [{
+        "productName" : "DOLOCATIL 1 g tablets",
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/lists/220000000000",
+            "code" : "220000000001",
+            "display" : "Full name"
+          }]
+        },
+        "part" : [{
+          "part" : "Dolocatil",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000002",
+              "display" : "Invented name part"
+            }]
+          }
+        },
+        {
+          "part" : "paracetamol",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000003",
+              "display" : "Scientific name part"
+            }]
+          }
+        },
+        {
+          "part" : "1000 mg",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000004",
+              "display" : "Strength part"
+            }]
+          }
+        },
+        {
+          "part" : "tablet",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000005",
+              "display" : "Pharmaceutical dose form part"
+            }]
+          }
+        }],
+        "usage" : [{
+          "country" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "ES",
+              "display" : "Spain"
+            }]
+          },
+          "jurisdiction" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "ES",
+              "display" : "Spain"
+            }]
+          },
+          "language" : {
+            "coding" : [{
+              "system" : "urn:ietf:bcp:47",
+              "code" : "en",
+              "display" : "English"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff",
+    "resource" : {
+      "resourceType" : "ManufacturedItemDefinition",
+      "id" : "mid-08ac066220d4d68a3933a9c94bef32ff",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ManufacturedItemDefinition_mid-08ac066220d4d68a3933a9c94bef32ff\"> </a><p class=\"res-header-id\"><b>Generated Narrative: ManufacturedItemDefinition mid-08ac066220d4d68a3933a9c94bef32ff</b></p><a name=\"mid-08ac066220d4d68a3933a9c94bef32ff\"> </a><a name=\"hcmid-08ac066220d4d68a3933a9c94bef32ff\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/xx (use: official, )</p><p><b>status</b>: Active</p><p><b>manufacturedDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000073864}\">tablet</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002152}\">Tablet</span></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "xx"
+      }],
+      "status" : "active",
+      "manufacturedDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000073864",
+          "display" : "tablet"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002152",
+          "display" : "Tablet"
+        }]
+      }
+    }
+  }]
+}
+
+```

@@ -1,0 +1,63 @@
+{
+  "resourceType" : "ConceptMap",
+  "id" : "domain-spor-hl7",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap domain-spor-hl7</b></p><a name=\"domain-spor-hl7\"> </a><a name=\"hcdomain-spor-hl7\"> </a><p>Mapping from <a href=\"https://browser.ihtsdotools.org/\">All Codes SCT ValueSet</a> to (not specified)</p><br/><p>Mapping from <a href=\"http://hl7.org/fhir/R5/codesystem-medicinal-product-domain.html\">Medicinal Product Domain</a> to <code>https://spor.ema.europa.eu/v1/lists/100000000004</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>Human (Human use)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent\" title=\"equivalent\">is equivalent to</a></td><td>100000000012</td></tr><tr><td>Veterinary (Veterinary use)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent\" title=\"equivalent\">is equivalent to</a></td><td>100000000013</td></tr><tr><td>HumanAndVeterinary (Human and Veterinary use)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent\" title=\"equivalent\">is equivalent to</a></td><td>100000000014</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "vocab"
+  }],
+  "url" : "http://hl7.eu/fhir/ig/gravitate-health/ConceptMap/domain-spor-hl7",
+  "version" : "0.1.0",
+  "name" : "SNOMEDCTToICD10CMMappingsForFractureOfUlna",
+  "title" : "SNOMED CT to ICD-10-CM mappings for fracture of ulna",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2012-06-13",
+  "publisher" : "Gravitate Health Project",
+  "contact" : [{
+    "name" : "Gravitate Health Project",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.gravitatehealth.eu/"
+    }]
+  },
+  {
+    "name" : "Gravitate Health Project",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.gravitatehealth.eu/"
+    }]
+  }],
+  "description" : "Example rule-based mappings between SNOMED CT to ICD-10-CM for fracture of ulna",
+  "purpose" : "Show example rule based mappings",
+  "copyright" : "Creative Commons 0",
+  "sourceScopeCanonical" : "http://snomed.info/sct?fhir_vs",
+  "group" : [{
+    "source" : "http://hl7.org/fhir/medicinal-product-domain",
+    "target" : "https://spor.ema.europa.eu/v1/lists/100000000004",
+    "element" : [{
+      "code" : "Human",
+      "target" : [{
+        "code" : "100000000012",
+        "relationship" : "equivalent"
+      }]
+    },
+    {
+      "code" : "Veterinary",
+      "target" : [{
+        "code" : "100000000013",
+        "relationship" : "equivalent"
+      }]
+    },
+    {
+      "code" : "HumanAndVeterinary",
+      "target" : [{
+        "code" : "100000000014",
+        "relationship" : "equivalent"
+      }]
+    }]
+  }]
+}

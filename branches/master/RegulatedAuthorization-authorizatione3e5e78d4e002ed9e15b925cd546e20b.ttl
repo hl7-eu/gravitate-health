@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizatione3e5e78d4e002ed9e15b925cd546e20b> a fhir:RegulatedAuthorization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "authorizatione3e5e78d4e002ed9e15b925cd546e20b"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"authorizatione3e5e78d4e002ed9e15b925cd546e20b\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;authorizatione3e5e78d4e002ed9e15b925cd546e20b&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/13/853/001 (use: OFFICIAL)</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-mpbe76bdf784deea6950583b234f789db2.html\">MedicinalProductDefinition/mpbe76bdf784deea6950583b234f789db2</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072062)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2018-06-21</p><p><b>holder</b>: <a href=\"Organization-mah-3c850a69e5187931f2198c5e63f933fe.html\">Organization/mah-3c850a69e5187931f2198c5e63f933fe</a> &quot;Celltrion Healthcare Hungary Kft.&quot;</p><p><b>regulator</b>: <a href=\"Organization-mra-e3da03c458d6c0f3c5f1c39a2c6a1084.html\">Organization/mra-e3da03c458d6c0f3c5f1c39a2c6a1084</a> &quot;European Medicines Agency&quot;</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/13/853/001" ]
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpbe76bdf784deea6950583b234f789db2> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mpbe76bdf784deea6950583b234f789db2" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072062" ] ;
+       fhir:display [ fhir:v "Marketing Authorisation" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2018-06-21"^^xsd:date] ; # 
+  fhir:holder [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-3c850a69e5187931f2198c5e63f933fe> ;
+     fhir:reference [ fhir:v "Organization/mah-3c850a69e5187931f2198c5e63f933fe" ]
+  ] ; # 
+  fhir:regulator [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mra-e3da03c458d6c0f3c5f1c39a2c6a1084> ;
+     fhir:reference [ fhir:v "Organization/mra-e3da03c458d6c0f3c5f1c39a2c6a1084" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

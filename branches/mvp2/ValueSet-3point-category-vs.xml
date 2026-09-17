@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="3point-category-vs"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="CodeSystem-questi-dimens-cs.html"><code>http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/questi-dimens-cs</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="CodeSystem-questi-dimens-cs.html#questi-dimens-cs-Low">Low</a></td><td style="color: #cccccc">Low</td><td>Low</td></tr><tr><td><a href="CodeSystem-questi-dimens-cs.html#questi-dimens-cs-Medium">Medium</a></td><td style="color: #cccccc">Medium</td><td>Medium</td></tr><tr><td><a href="CodeSystem-questi-dimens-cs.html#questi-dimens-cs-High">High</a></td><td style="color: #cccccc">High</td><td>High</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.eu/fhir/ig/gravitate-health/ValueSet/3point-category-vs"/>
+  <version value="0.1.0"/>
+  <name value="ThreepointCategoryVS"/>
+  <status value="active"/>
+  <date value="2024-03-14T09:41:47+00:00"/>
+  <publisher value="Gravitate Health Project"/>
+  <contact>
+    <name value="Gravitate Health Project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.gravitatehealth.eu/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Gravitate Health Project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.gravitatehealth.eu/"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/questi-dimens-cs"/>
+      <concept>
+        <code value="Low"/>
+      </concept>
+      <concept>
+        <code value="Medium"/>
+      </concept>
+      <concept>
+        <code value="High"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

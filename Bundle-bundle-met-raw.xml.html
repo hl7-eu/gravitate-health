@@ -1,0 +1,699 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI document Bundle for Ibuprofen 600 mg tablet Package Leaflet for language en - XML Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.189"}
+    h3,h4,h5,h6{--heading-prefix:"20.189"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for Ibuprofen 600 mg tablet Package Leaflet for language en</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-bundle-met-raw.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundle-met-raw.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundle-met-raw.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: ePI document Bundle for Ibuprofen 600 mg tablet Package Leaflet for language en - XML Representation</h2>
+
+
+<p><a href="Bundle-bundle-met-raw.xml" no-download="true">Raw xml</a> | <a href="Bundle-bundle-met-raw.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle">Bundle</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XBundle.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;bundle-met-raw&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XBundle.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XBundle.meta">meta</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XBundle.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.gravitatehealth.eu/sid/doc&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;himss-metformin&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.identifier">identifier</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;document&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.timestamp">timestamp</a> <a href="http://hl7.org/fhir/R5/datatypes.html#instant">value</a>=&quot;2023-06-27T10:09:22Z&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-metformin&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition">Composition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;composition-en-metformin&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot; lang=&quot;en&quot;&gt;&lt;a name=&quot;Composition_composition-en-metformin&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Composition composition-en-metformin&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;composition-en-metformin&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hccomposition-en-metformin&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Language: en&lt;/p&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html&quot;&gt;Composition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://ema.europa.eu/identifier&lt;/code&gt;/himss-metformin&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi/ 100000155538}&quot;&gt;Package Leaflet&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs R}&quot;&gt;Raw&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-02-16 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: EMA&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: TEST PURPOSES ONLY - Metformin&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{http://hl7.org/fhir/composition-attestation-mode official}&quot;&gt;Official&lt;/span&gt;&lt;/td&gt;&lt;td&gt;2022-02-16 13:28:17+0000&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://ema.europa.eu/identifier&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;himss-metformin&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;final&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Package Leaflet&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">type</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.category">category</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                    <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;R&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Raw&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.category">category</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">subject</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/himss-metformin-mpd&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">subject</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.date">date</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2022-02-16T13:28:17Z&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">author</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;EMA&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">author</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;TEST PURPOSES ONLY - Metformin&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester">attester</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester.mode">mode</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                      <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/composition-attestation-mode&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester.mode">mode</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester.time">time</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2022-02-16T13:28:17Z&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester">attester</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;B. Package Leaflet&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;B. Package Leaflet&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+            &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;unavailable&lt;/div&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                      <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;unavailable&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Package leaflet: Information for the user&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Package leaflet: Information for the user&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;unavailable&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;unavailable&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;What is in this leaflet&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;What is in this leaflet&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;a&gt;What Metformin Tablets is and what it is used for&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;What you need to know before you take Metformin Tablets&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;How to take Metformin Tablets&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;Possible side effects&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;How to store Metformin Tablets&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;Contents of the pack and other information&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;1. What Metformin is and what it is used for&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;1. What Metformin is and what it is used for&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;Metformin film-coated Tablets contain metformin, a medicine to treat diabetes. It belongs to a group of medicines called biguanides.&lt;/p&gt;&lt;p&gt;Insulin is a hormone produced by the pancreas that makes your body take in glucose (sugar) from the blood. Your body uses glucose to produce energy or stores it for future use.&lt;/p&gt;&lt;p&gt;If you have diabetes, your pancreas does not make enough insulin or your body is not able to use properly the insulin it produces. This leads to a high level of glucose in your blood. Metformin helps to lower your blood glucose to as normal a level as possible.&lt;/p&gt;&lt;p&gt;If you are an overweight adult, taking Metformin Tablets over a long period of time also helps to lower the risk of complications associated with diabetes. Metformin Tablets is associated with either a stable body weight or modest weight loss.&lt;/p&gt;&lt;p&gt;Metformin Tablets is used to treat patients with type 2 diabetes (also called 'non-insulin dependent diabetes') when diet and exercise alone have not been enough to control your blood glucose levels. It is used particularly in overweight patients.&lt;/p&gt;&lt;p&gt;Adults can take Metformin Tablets on its own or together with other medicines to treat diabetes (medicines taken by mouth or insulin).&lt;/p&gt;&lt;p&gt;Children 10 years and over and adolescents can take Metformin Tablets on its own or together with insulin.&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;2. What you need to know before you take Metformin&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a>
+                    <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;2. What you need to know before you take Metformin&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;Do not take Metformin Tablets:&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;if you are allergic (hypersensitive) to metformin or any of the other ingredients of this medicine (listed in section 6).&lt;/li&gt;&lt;li&gt;if you have liver problems.&lt;/li&gt;&lt;li&gt;if you lost too much water from your body (dehydration), such as due to long-lasting or severe diarrhoea, or if you have vomited several times in a row. Dehydration may lead to kidney problems, which can put you at risk for lactic acidosis (see 'Warnings and precautions’).&lt;/li&gt;&lt;li&gt;if you have a severe infection, such as an infection affecting your lung or bronchial system or your kidney. Severe infections may lead to kidney problems, which can put you at risk for lactic acidosis (see 'Warnings and precautions’).&lt;/li&gt;&lt;li&gt;if you have severely reduced kidney function.&lt;/li&gt;&lt;li&gt;if you have uncontrolled diabetes, with, for example, severe hyperglycemia (high blood glucose), nausea, vomiting, diarrhoea, rapid weight loss, lactic acidosis (see “Risk of lactic acidosis” below) or ketoacidosis. Ketoacidosis is a condition in which substances called ‘ketone bodies’ accumulate in the blood and which can lead to diabetic pre-coma. Symptoms include stomach pain, fast and deep breathing, sleepiness or your breath developing an unusual fruity smell.&lt;/li&gt;&lt;li&gt;if you are treated for acute heart failure or have recently had a heart attack, have severe problems with your circulation (such as shock) or have breathing difficulties. This may lead to a lack in oxygen supply to tissue which can put you at risk for lactic acidosis (see 'Warnings and precautions’).&lt;/li&gt;&lt;li&gt;if you drink a lot of alcohol.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If any of the above applies to you, talk to your doctor, before you start taking this medicine.&lt;/p&gt;&lt;p&gt;Make sure you ask your doctor for advice, if:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;you need to have an examination such as X-ray or scan involving the injection of contrast medicines that contain iodine into your bloodstream&lt;/li&gt;&lt;li&gt;you need to have major surgery&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;You must stop taking Metformin tablets for a certain period of time before and after the examination or the surgery. Your doctor will decide whether you need any other treatment for this time. It is important that you follow your doctor’s instructions precisely.&lt;/p&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;Warnings and precautions&lt;/h3&gt;&lt;p&gt;Talk to your doctor or pharmacist before taking Metformin Tablets.&lt;/p&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;Risk of lactic acidosis&lt;/h3&gt;&lt;p&gt;Metformin Tablets may cause a very rare, but very serious side effect called lactic acidosis, particularly if your kidneys are not working properly. The risk of developing lactic acidosis is also increased with uncontrolled diabetes, serious infections, prolonged fasting or alcohol intake, dehydration (see further information below) liver problems and any medical conditions in which a part of the body has a reduced supply of oxygen (such as acute severe heart diseases).&lt;/p&gt;&lt;p&gt;If any of the above apply to you, talk to your doctor for further instructions.&lt;/p&gt;&lt;p&gt;Lactic acidosis is a medical emergency and must be treated in a hospital.&lt;/p&gt;&lt;p&gt;Metformin Tablets on its own does not cause hypoglycaemia (a blood glucose level which is too low). However, if you take Metformin Tablets together with other medicines to treat diabetes that can cause hypoglycaemia (such as sulphonylureas, insulin, meglitinides), there is a risk of hypoglycaemia. If you experience symptoms of hypoglycaemia such as weakness, dizziness, increased sweating, fast heart beating, visions disorders or difficulty in concentration, it usually helps to eat or drink something containing sugar.&lt;/p&gt;&lt;p&gt;Stop taking Metformin Tablets for a short time if you have a condition that may be associated with dehydration (significant loss of body fluids) such as severe vomiting, diarrhoea, fever, exposure to heat or if you drink less fluid than normal. Talk to your doctor for further instructions.&lt;/p&gt;&lt;p&gt;Stop taking Metformin Tablets and contact a doctor or the nearest hospital immediately if you experience some of the symptoms of lactic acidosis, as this condition may lead to coma.&lt;/p&gt;&lt;p&gt;Symptoms of lactic acidosis include:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;vomiting&lt;/li&gt;&lt;li&gt;stomach ache (abdominal pain)&lt;/li&gt;&lt;li&gt;muscle cramps&lt;/li&gt;&lt;li&gt;a general feeling of not being well with severe tiredness&lt;/li&gt;&lt;li&gt;difficulty in breathing&lt;/li&gt;&lt;li&gt;reduced body temperature and heartbeat&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you need to have major surgery you must stop taking Metformin Tablets during and for some time after the procedure. Your doctor will decide when you must stop and when to restart your treatment with Metformin Tablets.&lt;/p&gt;&lt;p&gt;During treatment with Metformin Tablets, your doctor will check your kidney function at least once a year or more frequently if you are elderly and/or if you have worsening kidney function.&lt;/p&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;Other medicines and Metformin Tablets&lt;/h3&gt;&lt;p&gt;Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines.&lt;/p&gt;&lt;p&gt;If you need to have an injection of a contrast medium that contains iodine into your bloodstream, for example in the context of an X-ray or scan, you must stop taking Metformin Tablets before or at the time of injection. Your doctor will decide when you must stop and when to restart your treatment with Metformin Tablets.&lt;/p&gt;&lt;p&gt;You may need more frequent blood glucose and kidney function tests, or your doctor may need to adjust the dosage of Metformin Tablets. It is especially important to mention the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;medicines which increase urine production (diuretics)&lt;/li&gt;&lt;li&gt;beta-2 agonists such as salbutamol or terbutaline (used to treat asthma)&lt;/li&gt;&lt;li&gt;corticosteroids (used to treat a variety of conditions, such as severe inflammation of the skin or in asthma)&lt;/li&gt;&lt;li&gt;medicines that may change the amount of Metformin Tablets in your blood, especially if you have reduced kidney function (such as verapamil, rifampicin, cimetidine, dolutegravir, ranolazine, trimethoprime, vandetanib, isavuconazole, crizotinib, olaparib)&lt;/li&gt;&lt;li&gt;other medicines used to treat diabetes&lt;/li&gt;&lt;li&gt;medicines used to treat pain and inflammation (NSAID and COX-2-inhibitors, such as ibuprofen and celecoxib)&lt;/li&gt;&lt;li&gt;certain medicines for the treatment of high blood pressure (ACE inhibitors and angiotensin II receptor antagonists)&lt;/li&gt;&lt;/ul&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;Metformin Tablets with alcohol&lt;/h3&gt;&lt;p&gt;Avoid excessive alcohol intake while taking Metformin Tablets since this may increase the risk of lactic acidosis (see section “Warnings and precautions”).&lt;/p&gt;&lt;h3 class=&quot;subsection-title pregnancyCategory&quot;&gt;Pregnancy, breast-feeding and fertility&lt;/h3&gt;&lt;p&gt;If you are pregnant, think you may be pregnant or are planning to have a baby, speak to your doctor in case any changes will be needed to your treatment or monitoring of your blood glucose levels. This medicine is not recommended if you are breast-feeding or if you are planning to breast-feed your baby.&lt;/p&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;Driving and using machines&lt;/h3&gt;&lt;p&gt;Metformin Tablets on its own does not cause hypoglycaemia (a blood glucose level which is too low). This means that it will not affect your ability to drive or use machines. However, take special care if you take Metformin Tablets together with other medicines to treat diabetes that can cause hypoglycaemia (such as sulphonylureas, insulin, meglitinides). Symptoms of hypoglycaemia include weakness, dizziness, increased sweating, fast heart beat, vision disorders or difficulty in concentration. Do not drive or use machines if you start to feel these symptoms.&lt;/p&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;Metformin Tablets contains Sodium&lt;/h3&gt;&lt;p&gt;This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say essentially ‘sodium-free’.&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;3. How to take Metformin&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;3. How to take Metformin&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if you are not sure.&lt;/p&gt;&lt;p&gt;Metformin Tablets cannot replace the benefits of a healthy lifestyle. Continue to follow any advice about diet that your doctor has given you and get some regular exercise.&lt;/p&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;Recommended dose&lt;/h3&gt;&lt;p&gt;Children 10 years and over and adolescents usually start with 500 mg or 850 mg Metformin Tablets once a day. The maximum daily dose is 2000 mg taken as 2 or 3 divided doses. Treatment of children between 10 and 12 years of age is only recommended on specific advice from your doctor, as experience in this age group is limited.&lt;/p&gt;&lt;p&gt;Adults usually start with 500 mg or 850 mg Metformin Tablets two or three times a day. The maximum daily dose is 3000 mg taken as 3 divided doses.&lt;/p&gt;&lt;p&gt;If you have reduced kidney function, your doctor may prescribe a lower dose. The maximum dose is 1000 mg daily, given as 2 divided doses. The renal function should be closely monitored (every 3 - 6 months).&lt;/p&gt;&lt;p&gt;If you take insulin too, your doctor will tell you how to start Metformin Tablets.&lt;/p&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;Monitoring&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Your doctor will perform regular blood glucose tests and will adapt your dose of Metformin Tablets to your blood glucose levels. Make sure that you talk to your doctor regularly. This is particularly important for children and adolescents or if you are an older person.&lt;/li&gt;&lt;li&gt;Your doctor will also check at least once a year how well your kidneys work. You may need more frequent checks if you are an older person or if your kidneys are not working normally.&lt;/li&gt;&lt;/ul&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;How to take Metformin Tablets&lt;/h3&gt;&lt;p&gt;Take Metformin Tablets with or after a meal. This will avoid you having side effects affecting your digestion.&lt;/p&gt;&lt;p&gt;Do not crush or chew the tablets. Swallow each tablet with a glass of water.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;If you take one dose a day, take it in the morning (breakfast).&lt;/li&gt;&lt;li&gt;If you take two divided doses a day, take them in the morning (breakfast) and evening (dinner).&lt;/li&gt;&lt;li&gt;If you take three divided doses a day, take them in the morning (breakfast), at noon (lunch) and in the evening (dinner).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If, after some time, you think that the effect of Metformin Tablets is too strong or too weak, talk to your doctor or pharmacist.&lt;/p&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;If you take more Metformin Tablets than you should&lt;/h3&gt;&lt;p&gt;If you have taken more Metformin Tablets that you should have, you may experience lactic acidosis. Symptoms of lactic acidosis are non-specific such as vomiting, bellyache (abdominal pain) with muscle cramps, a general feeling of not being well with severe tiredness, and difficulty in breathing. Further symptoms are reduced body temperature and heartbeat. If you experience some of these symptoms, you should seek immediately medical attention, as lactic acidosis may lead to coma. Stop taking Metformin Tablets immediately and contact a doctor or the nearest hospital straight away.&lt;/p&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;If you forget to take Metformin Tablets&lt;/h3&gt;&lt;p&gt;Do not take a double dose to make up for a forgotten dose. Take the next dose at the usual time.&lt;/p&gt;&lt;p&gt;If you have any further questions on the use of this medicine, ask your doctor or pharmacist.&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;4. Possible side effects&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;4. Possible side effects&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;Like all medicines, this medicine can cause side effects, although not everybody gets them.&lt;/p&gt;&lt;p&gt;The following side effects may occur:&lt;/p&gt;&lt;p&gt;Metformin tablets may cause a very rare (may affect up to 1 user in 10,000), but very serious side effect called lactic acidosis (see section ‘Warnings and precautions’). If this happens you must stop taking Metformin tablets and contact a doctor or the nearest hospital immediately, as lactic acidosis may lead to coma.&lt;/p&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;Very common side effects (may affect more than 1 in 10 people):&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;digestive problems, such as feeling sick (nausea), being sick (vomiting), diarrhoea, bellyache (abdominal pain) and loss of appetite. These side effects most often happen at the beginning of the treatment with Metformin Tablets. It helps if you spread the doses over the day and if you take Metformin Tablets with or straight after a meal. If symptoms continue, stop taking Metformin and talk to your doctor.&lt;/li&gt;&lt;/ul&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;Common side effects (may affect up to 1 in 10 people):&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;changes in taste.&lt;/li&gt;&lt;li&gt;decreased or low vitamin B12 levels in the blood (symptoms may include extreme tiredness (fatigue), a sore and red tongue (glossitis), pins and needles (paraesthesia) or pale or yellow skin). Your doctor may arrange some tests to find out the cause of your symptoms because some of these may also be caused by diabetes or due to other unrelated health problems.&lt;/li&gt;&lt;/ul&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;Very rare side effects (may affect up to 1 in 10,000 people):&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;lactic acidosis. This is a very rare but serious complication particularly if your kidneys are not working properly. Symptoms of lactic acidosis are non-specific (see section ‘Warnings and precautions’).&lt;/li&gt;&lt;li&gt;abnormalities in liver function tests or hepatitis (inflammation of the liver; this may cause tiredness, loss of appetite, weight loss, with or without yellowing of the skin or whites of the eyes). If this happens to you, stop taking Metformin Tablets and talk to your doctor.&lt;/li&gt;&lt;li&gt;skin reactions such as redness of the skin (erythema), itching or an itchy rash (hives).&lt;/li&gt;&lt;/ul&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;Children and adolescents&lt;/h3&gt;&lt;p&gt;Limited data in children and adolescents showed that adverse events were similar in nature and severity to those reported in adults.&lt;/p&gt;&lt;h3 class=&quot;subsection-title&quot;&gt;Reporting of side effects&lt;/h3&gt;&lt;p&gt;If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via Yellow Card Scheme, Website: &lt;a href=&quot;http://www.mhra.gov.uk/yellowcard&quot;&gt;www.mhra.gov.uk/yellowcard&lt;/a&gt; or search for MHRA Yellow Card in the Google Play or Apple App Store. By reporting side effects you can help provide more information on the safety of this medicine.&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;5. How to store Metformin&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;5. How to store Metformin&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;Keep this medicine out of the sight and reach of children. If a child is treated with Metformin, parents and caregivers are advised to oversee how this medicine is used.&lt;/p&gt;&lt;p&gt;This medicinal product does not require any special storage conditions.&lt;/p&gt;&lt;p&gt;Do not use this medicine after the expiry date which is stated on the label and carton after 'EXP'. The expiry date refers to the last day of that month.&lt;/p&gt;&lt;p&gt;Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;6. Contents of the pack and other information&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;6. Contents of the pack and other information&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h3&gt;What Metformin Tablets contain&lt;/h3&gt;&lt;p&gt;Metformin 500 mg film-coated Tablets: Each film-coated tablet contains 500 mg metformin hydrochloride corresponding to 390 mg metformin base.&lt;/p&gt;&lt;p&gt;Metformin 850 mg film-coated Tablets: Each film-coated tablet contains 850 mg metformin hydrochloride corresponding to 662.9 mg metformin base.&lt;/p&gt;&lt;p&gt;The other ingredients are hydroxypropylmethyl cellulose, povidone, sodium starch glycolate (type A), colloidal anhydrous silica, magnesium stearate, Opadry White Y1-7000 H (HPMC 2910/hypromellose E464, titanium dioxide E171, macrogol/PEG E1521).&lt;/p&gt;&lt;h3&gt;What Metformin Tablets looks like and contents of the pack&lt;/h3&gt;&lt;p&gt;Metformin 500 mg film-coated Tablets: White, round, biconvex film-coated tablet plain on one side and debossed with 'E7' on other side with approximate 12 mm in diameter.&lt;/p&gt;&lt;p&gt;Metformin 850 mg film-coated Tablets: White, Capsule shaped, biconvex film-coated tablet, plain on one side and debossed with 'E8' on other side with approximate length of 19 mm and width of 8 mm.&lt;/p&gt;&lt;p&gt;Metformin Tablets are available in blister pack of 9, 20, 21, 28, 30, 40, 50, 56, 60, 70, 80, 84, 90, 98, 100, 120, 180, 200, 300 or 400 and HDPE bottle pack of 100 tablets, 300 tablets and 500 tablets. Not all pack sizes may be marketed.&lt;/p&gt;&lt;h3&gt;Marketing Authorisation Holder and Manufacturer&lt;/h3&gt;&lt;p&gt;Brown and Burk UK Ltd&lt;/p&gt;&lt;p&gt;5 Marryat Close&lt;/p&gt;&lt;p&gt;Hounslow West&lt;/p&gt;&lt;p&gt;Middlesex&lt;/p&gt;&lt;p&gt;TW4 5DQ&lt;/p&gt;&lt;p&gt;United Kingdom.&lt;/p&gt;&lt;p&gt;This leaflet was last revised in 05/2022.&lt;/p&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition">Composition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/Composition/himss-metformin-mpd&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">MedicinalProductDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;himss-metformin-mpd&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;MedicinalProductDefinition_himss-metformin-mpd&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition himss-metformin-mpd&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;himss-metformin-mpd&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hchimss-metformin-mpd&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html&quot;&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://www.gravitatehealth.eu/sid/doc&lt;/code&gt;/himss-metformin&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/medicinal-product-type MedicinalProduct}&quot;&gt;Medicinal Product&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;domain&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/medicinal-product-domain Human}&quot;&gt;Human use&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/publication-status active}&quot;&gt;active&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;legalStatusOfSupply&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/rmswi 100000072084}&quot;&gt;Medicinal product subject to medical prescription&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;productName&lt;/b&gt;: Metformin 500 mg tables&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000001}&quot;&gt;Full name&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: Metformin&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000002}&quot;&gt;Invented name part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: Metformin&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000003}&quot;&gt;Scientific name part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: 500 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000004}&quot;&gt;Strength part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: film-coated tablets&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000005}&quot;&gt;Pharmaceutical dose form part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h3&gt;Usages&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Country&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Jurisdiction&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Language&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{urn:iso:std:iso:3166 GBR}&quot;&gt;United Kingdom&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{urn:iso:std:iso:3166 GBR}&quot;&gt;United Kingdom&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{urn:ietf:bcp:47 en}&quot;&gt;English&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.gravitatehealth.eu/sid/doc&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;himss-metformin&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/medicinal-product-type&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;MedicinalProduct&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Medicinal Product&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.type">type</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.domain">domain</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/medicinal-product-domain&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;Human&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Human use&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.domain">domain</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.status">status</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/publication-status&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;active&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.status">status</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.legalStatusOfSupply">legalStatusOfSupply</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/rmswi&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000072084&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Medicinal product subject to medical prescription&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.legalStatusOfSupply">legalStatusOfSupply</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">name</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.productName">productName</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Metformin 500 mg tables&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.type">type</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000001&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Full name&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Metformin&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000002&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Invented name part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Metformin&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000003&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Scientific name part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;500 mg&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000004&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Strength part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;film-coated tablets&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/lists/220000000000&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;220000000005&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Pharmaceutical dose form part&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage">usage</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.country">country</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;GBR&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;United Kingdom&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.country">country</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.jurisdiction">jurisdiction</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;GBR&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;United Kingdom&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.jurisdiction">jurisdiction</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.language">language</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:ietf:bcp:47&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;English&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.language">language</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage">usage</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">name</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">MedicinalProductDefinition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle">Bundle</a>&gt;</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

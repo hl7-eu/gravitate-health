@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>FK567097 - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.45"}
+    h3,h4,h5,h6{--heading-prefix:"20.45"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>FK567097</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-FK567097.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-FK567097.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-FK567097.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Example Bundle: FK567097</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+
+  
+    <h3 class="nonumbers">Pakningsvedlegg: Informasjon til brukeren</h3>
+    <p>
+      
+      
+      <div xmlns="http://www.w3.org/1999/xhtml"><h1>Pakningsvedlegg: Informasjon til brukeren</h1><h2>Lantus 100 enheter/ml injeksjonsvæske, oppløsning i sylinderampulle</h2><h3>insulin glargin</h3></div></p>
+    
+      
+
+        <h4 class="nonumbers">Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg. Les også nøye insulinpennens bruksanvisning som følger med i pakningen.</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><h2>Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg. Les også nøye insulinpennens bruksanvisning som følger med i pakningen.</h2><div class="paragraph"><ul><li>Ta vare på dette pakningsvedlegget. Du kan få behov for å lese det igjen.</li><li>Hvis du har ytterligere spørsmål, kontakt lege eller apotek.</li><li>Dette legemidlet er skrevet ut kun til deg. Ikke gi det videre til andre. Det kan skade dem, selv om de har symptomer på sykdom som ligner dine.</li><li>Kontakt lege eller apotek dersom du opplever bivirkninger, inkludert mulige bivirkninger som ikke er nevnt i dette pakningsvedlegget. Se avsnitt 4.</li></ul></div></div></p>
+
+      
+
+        <h4 class="nonumbers">I dette pakningsvedlegget finner du informasjon om:</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><h2>I dette pakningsvedlegget finner du informasjon om:</h2><div class="paragraph"><ol><li>Hva Lantus er og hva det brukes mot</li><li>Hva du må vite før du bruker Lantus</li><li>Hvordan du bruker Lantus</li><li>Mulige bivirkninger</li><li>Hvordan du oppbevarer Lantus</li><li>Innholdet i pakningen og ytterligere informasjon</li></ol></div></div></p>
+
+      
+
+        <h4 class="nonumbers">1. Hva Lantus er og hva det brukes mot</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><h2>1. Hva Lantus er og hva det brukes mot</h2><div class="paragraph">Lantus inneholder insulin glargin. Dette er et modifisert insulin, meget likt humaninsulin.</div><div class="paragraph">Lantus brukes for å behandle diabetes mellitus (sukkersyke) hos voksne, ungdom og barn fra 2 års alderen. Ved diabetes mellitus produserer ikke kroppen tilstrekkelig insulin til å kunne holde blodets sukkerinnhold under kontroll. Insulin glargin har langvarig og stabil blodsukkersenkende effekt.</div></div></p>
+
+      
+
+        <h4 class="nonumbers">2. Hva du må vite før du bruker Lantus</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><h2>2. Hva du må vite før du bruker Lantus</h2></div></p>
+
+      
+
+        <h4 class="nonumbers">3. Hvordan du bruker Lantus</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><h2>3. Hvordan du bruker Lantus</h2><div class="paragraph">Bruk alltid dette legemidlet nøyaktig slik legen din har fortalt deg. Kontakt lege eller apotek hvis du er usikker.</div><div class="paragraph">Selv om Lantus inneholder det samme virkestoffet som Toujeo (insulin glargin 300 enheter/ml) er disse legemidlene ikke byttbare. Overgangen fra en insulinbehandling til en annen krever forskrivning og oppfølging fra lege og blodsukkerovervåkning. Rådfør deg med lege for mere informasjon.</div><span class="inline-title">Dose</span><div class="paragraph">Med utgangspunkt i din livsstil og resultatet av blodsukkermålingene dine, kommer legen din til å:<ul><li>avgjøre hvor mye Lantus du trenger daglig, og til hvilket tidspunkt,</li><li>fortelle deg når du skal kontrollere blodsukkernivået, og om du må ta urinprøver,</li><li>fortelle deg når det kan være nødvendig å ta en større eller mindre dose Lantus.</li></ul></div><div class="paragraph">Lantus er et langtidsvirkende insulin. Legen din kan forskrive det i kombinasjon med et korttidsvirkende insulin eller med tabletter for behandling av høye blodsukkernivåer.</div><div class="paragraph">Det er mange faktorer som kan påvirke blodsukkernivået. Disse faktorene må du kjenne til for å kunne handle korrekt ved endringer i blodsukkernivået og for å forhindre at det blir for høyt eller for lavt. Du finner ytterligere opplysninger i slutten av dette pakningsvedlegget.</div><span class="inline-title">Bruk av Lantus hos barn og ungdom</span><div class="paragraph">Lantus kan brukes av ungdom og barn fra 2 år og oppover. Bruk dette legemidlet nøyaktig slik legen din har fortalt deg.</div><span class="inline-title">Når skal Lantus injiseres</span><div class="paragraph">Du trenger én injeksjon med Lantus i døgnet. Denne tas til et fast tidspunkt.</div><span class="inline-title">Hvordan skal Lantus injiseres</span><div class="paragraph">Lantus injiseres under huden. Du må ALDRI injisere Lantus i en blodåre, da dette gir en annen effekt og kan forårsake hypoglykemi.</div><div class="paragraph">Legen forteller deg i hvilket hudområde du skal injisere Lantus. Bytt injeksjonssted hver gang innenfor det valgte hudområdet.</div><span class="inline-title">Håndtering av sylinderampullene</span><div class="paragraph">Lantus i sylinderampuller er kun tilpasset injeksjon like under huden ved bruk av en flergangspenn. Rådfør deg med legen din dersom du trenger å injisere insulinet ved hjelp av en annen metode.<br/>For å sikre at du får riktig dose skal Lantus sylinderampuller kun brukes sammen med følgende penner:<ul><li>JuniorSTAR, som leverer doser i trinn på 0,5 enheter</li><li>ClikSTAR, Tactipen, Autopen 24, AllStar eller AllStar PRO, som leverer doser i trinn på 1 enhet. Ikke alle disse pennene er nødvendigvis markedsført i Norge.</li></ul></div><div class="paragraph">Pennen skal brukes som forklart i bruksanvisningen som følger med pennen.<br/>Følg denne bruksanvisningen nøye ved innsetting av insulinampulle, påsetting av injeksjonskanyle og injeksjon av insulinet.</div><div class="paragraph">Oppbevar sylinderampullen i romtemperatur i 1 til 2 timer før du setter den i pennen.</div><div class="paragraph">Kontroller sylinderampullen før bruk. Du kan bare bruke klare, fargeløse oppløsninger med vannlignende konsistens og uten synlige partikler.</div><div class="paragraph">Ikke ryst eller bland den før bruk.<br/>Bytt alltid til en ny sylinderampulle hvis du merker at kontrollen med blodsukkeret uventet holder på å bli dårligere. Dette er fordi insulinet kan ha mistet noe av effekten. Hvis du tror det kan være problemer med Lantus, bør du få det kontrollert hos lege eller på apotek.</div><span class="inline-title">Vær spesielt oppmerksom på følgende før injeksjon</span><div class="paragraph">Evt. luftbobler må fjernes før injeksjon. Det er viktig å forsikre seg om at insulinet ikke forurenses av alkohol, andre desinfeksjonsmidler eller andre stoffer. Ikke fyll sylinderampullene for gjenbruk. Andre former for insulin må ikke tilsettes sylinderampullen. Ikke bland Lantus med noen andre former for insulin eller legemidler. Lantus skal ikke fortynnes, da blanding eller fortynning kan endre effekten.</div><span class="inline-title">Problemer med insulinpennen?</span> <span class="inline-title">Les bruksanvisningen som følger med pennen.</span><div class="paragraph"><b><span class="underline">Hvis insulinpennen er ødelagt eller ikke virker som den skal (pga. mekanisk feil), må den kastes</span> </b><b><span class="underline">og en ny insulinpenn må benyttes.</span></b></div><span class="inline-title">Forveksling av insulintyper</span><div class="paragraph">Du må alltid kontrollere insulinetiketten før hver injeksjon, for å unngå å forveksle Lantus med andre typer insuliner.</div></div></p>
+
+      
+
+        <h4 class="nonumbers">4. Mulige bivirkninger</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><h2>4. Mulige bivirkninger</h2><div class="paragraph">Som alle legemidler kan dette legemidlet forårsake bivirkninger, men ikke alle får det.</div><div class="paragraph"><b>Hvis du oppdager tegn på at blodsukkernivået ditt er for lavt (hypoglykemi) </b>må du gjøre noe for å øke blodsukkernivået umiddelbart (se tekstboksen på slutten av dette pakningsvedlegget).<br/>Hypoglykemi (lavt blodsukker) kan være svært alvorlig og er svært vanlig ved insulinbehandling (kan oppstå hos flere enn 1 av 10 personer). Lavt blodsukker betyr at det ikke er nok sukker i blodet ditt.<br/>Hvis ditt blodsukkernivå faller for lavt kan du besvime (miste bevisstheten). Alvorlig hypoglykemi kan forårsake hjerneskade og være livstruende. For mer informasjon, se tekstboksen på slutten av dette pakningsvedlegget.</div><div class="paragraph"><b>Alvorlige allergiske reaksjoner </b>(sjeldne, kan oppstå hos inntil 1 av 1000 personer) – tegn kan være omfattende hudreaksjoner (utslett og kløe over hele kroppen), kraftig hevelse av huden eller slimhinne (angioødem), kortpustethet, blodtrykksfall med rask puls eller svetting. Alvorlige allergiske reaksjoner på insuliner kan bli livstruende. Ta øyeblikkelig kontakt med lege dersom du merker tegn på en alvorlig allergisk reaksjon.</div><div class="paragraph"><ul><li><b>Hudforandringer på injeksjonsstedet:</b></li></ul>Hvis du injiserer insulin for ofte på samme sted, kan huden på dette stedet enten skrumpe inn (lipoatrofi) (kan oppstå hos 1 av 100 personer) eller fortykkes (lipohypertrofi) (kan oppstå hos 1 av 10 personer). Opphopning av et protein kalt amyloid kan også forårsake kuler under huden (kutan amyloidose; det er ikke kjent hvor ofte dette forekommer). Det kan hende at insulinet ikke virker så godt hvis du injiserer det i et klumpete område. Bytt injeksjonssted for hver injeksjon for å bidra til å forebygge disse hudforandringene.</div><div class="paragraph"><b>Vanlig rapporterte bivirkninger </b>(kan oppstå hos inntil 1 av 10 personer)</div><div class="paragraph"><ul><li><b>Hud og allergiske reaksjoner på injeksjonsstedet</b></li></ul>Tegn kan være rødme, uvanlig intens smerte ved injeksjon, kløe, utslett, hevelse eller betennelse. Dette kan spre seg til området rundt injeksjonsstedet. De fleste milde insulinreaksjoner forsvinner vanligvis i løpet av et par dager til et par uker.</div><div class="paragraph"><b>Sjeldne rapporterte bivirkninger </b>(kan oppstå hos inntil 1 av 1000 personer)<ul><li><b>Påvirkning av synet</b></li></ul>En merkbar forandring (forbedring eller forverring) i kontrollen av blodsukkeret ditt kan forbigående forstyrre synet ditt. Hvis du har proliferativ retinopati (en øyesykdom relatert til diabetes), kan alvorlige hypoglykemier forårsake forbigående synstap.</div><div class="paragraph"><ul><li><b>Generelle bivirkninger</b></li></ul>I sjeldne tilfeller kan insulinbehandling også gi forbigående vannansamlinger i kroppen, med hevelse i legger og ankler.</div><div class="paragraph"><b>Svært sjeldent rapporterte bivirkninger (</b>kan oppstå hos inntil 1 av 10 000 personer)<br/>I svært sjeldne tilfeller kan dysgeusi (smaksforandringer) og myalgi (muskelsmerter) oppstå.</div><span class="inline-title">Bivirkninger som kan forekomme hos barn og ungdom</span><div class="paragraph">Generelt er bivirkningene for barn og ungdom som er 18 år eller yngre lignende de som er sett hos voksne. Klager på reaksjoner på injeksjonsstedet (smerte ved injeksjonsstedet, reaksjoner ved injeksjonsstedet) og hudreaksjoner (utslett, elveblest) er rapportert releativt oftere hos barn og ungdom som er 18 år eller yngre i forhold til voksne.<br/>Det er ikke erfaring med bruk hos barn under 2 år.</div></div></p>
+
+      
+
+        <h4 class="nonumbers">5. Hvordan du oppbevarer Lantus</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><h2>5. Hvordan du oppbevarer Lantus</h2><div class="paragraph">Oppbevares utilgjengelig for barn.</div><div class="paragraph">Bruk ikke dette legemidlet etter utløpsdatoen som er angitt på esken og på etiketten på sylinderampullen etter ”EXP”. Utløpsdatoen henviser til den siste dagen i den måneden.</div><div class="paragraph"><span class="underline">Uåpnete sylinderampuller</span><br/>Oppbevares i kjøleskap (2-8ºC). Skal ikke fryses, eller plasseres ved fryseboks eller fryseelementer. Oppbevar sylinderampullen i ytteremballasjen for å beskytte mot lys.</div><div class="paragraph"><span class="underline">Sylinderampuller i bruk</span><br/>Sylinderampuller som er i bruk (i insulinpennen) eller tatt med som reserve, kan oppbevares i inntil 4 uker ved høyst 30ºC beskyttet fra direkte varme og lys. Sylinderampuller som er i bruk må ikke oppbevares i kjøleskap. Etter denne tiden må sylinderampullen ikke brukes.</div><div class="paragraph">Bruk ikke Lantus hvis du ser partikler i oppløsningen. Du må bare bruke Lantus hvis oppløsningen er klar, fargeløs, med vannlignende konsistens.</div><div class="paragraph">Legemidler skal ikke kastes i avløpsvann eller sammen med husholdningsavfall. Spør på apoteket hvordan legemidler som du ikke lenger bruker skal kastes. Disse tiltakene bidrar til å beskytte miljøet.</div></div></p>
+
+      
+
+        <h4 class="nonumbers">6. Innholdet i pakningen og ytterligere informasjon</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><h2>6. Innholdet i pakningen og ytterligere informasjon</h2></div></p>
+
+      
+    
+  
+
+</div>
+
+
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Lantus inj, oppl 100 E/ml
+  </h4>
+
+  
+  
+    LEGEMIDDELMERKEVAREID:
+    <b>
+      ID_1536BD37-E67E-40E3-A88A-F7A2404F63CF
+    </b>
+    </br>
+  
+  <hr>
+  
+  <p>Full name: <b>Lantus inj, oppl 100 E/ml</b></p>
+  
+
+
+  
+  
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b></b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b></b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 1</p>
+          
+  <p>LEGEMIDDELPAKNINGID:
+  <b>
+    ID_F5DDF232-DC47-48FA-82BD-9156E6A7FBDA
+  </b>
+  </p>
+
+  <p>VARENUMMER:
+  <b>
+    004746
+  </b>
+  </p>
+
+<p>
+  Description:
+  </br>
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b> </b>
+  
+  
+</p>
+
+<p>Containing:
+  
+
+
+
+
+  </div>
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+  
+</div>
+
+
+<!--
+  <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Lantus inj, oppl 100 E/ml
+  </h4>
+
+  
+  
+  
+  
+    LEGEMIDDELMERKEVAREID:
+    <b>
+      ID_1536BD37-E67E-40E3-A88A-F7A2404F63CF
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b></b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 1</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          LEGEMIDDELPAKNINGID:
+          <b>
+            ID_F5DDF232-DC47-48FA-82BD-9156E6A7FBDA
+          </b>
+        
+          VARENUMMER:
+          <b>
+            004746
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          </b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

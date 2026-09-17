@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "asm-category-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem asm-category-cs</b></p><a name=\"asm-category-cs\"> </a><a name=\"hcasm-category-cs\"> </a><p>This case-sensitive code system <code>http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">SA<a name=\"asm-category-cs-SA\"> </a></td><td>Support Administration</td><td>Support Administration</td></tr><tr><td style=\"white-space:nowrap\">MDM<a name=\"asm-category-cs-MDM\"> </a></td><td>Medication and Disease Management</td><td>Medication and Disease Management</td></tr><tr><td style=\"white-space:nowrap\">AE<a name=\"asm-category-cs-AE\"> </a></td><td>Adverse Effects Management</td><td>Adverse Effects Management</td></tr><tr><td style=\"white-space:nowrap\">MU<a name=\"asm-category-cs-MU\"> </a></td><td>Medication Usage</td><td>Medication Usage</td></tr><tr><td style=\"white-space:nowrap\">STO<a name=\"asm-category-cs-STO\"> </a></td><td>Storage</td><td>Storage</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"asm-category-cs-OTHER\"> </a></td><td>Other Information</td><td>Other Information</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ASMCategoryCS"] ; # 
+  fhir:title [ fhir:v "Category of ASM"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2026-09-17T14:07:28+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Gravitate Health Project"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Category of ASM"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "SA" ] ;
+     fhir:display [ fhir:v "Support Administration" ] ;
+     fhir:definition [ fhir:v "Support Administration" ]
+  ] [
+     fhir:code [ fhir:v "MDM" ] ;
+     fhir:display [ fhir:v "Medication and Disease Management" ] ;
+     fhir:definition [ fhir:v "Medication and Disease Management" ]
+  ] [
+     fhir:code [ fhir:v "AE" ] ;
+     fhir:display [ fhir:v "Adverse Effects Management" ] ;
+     fhir:definition [ fhir:v "Adverse Effects Management" ]
+  ] [
+     fhir:code [ fhir:v "MU" ] ;
+     fhir:display [ fhir:v "Medication Usage" ] ;
+     fhir:definition [ fhir:v "Medication Usage" ]
+  ] [
+     fhir:code [ fhir:v "STO" ] ;
+     fhir:display [ fhir:v "Storage" ] ;
+     fhir:definition [ fhir:v "Storage" ]
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Other Information" ] ;
+     fhir:definition [ fhir:v "Other Information" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

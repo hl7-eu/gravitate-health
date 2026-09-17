@@ -1,0 +1,964 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Bundle/bundlepackageleaflet-es-e762a2f54b0b24fca4744b1bb7524a5b> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "bundlepackageleaflet-es-e762a2f54b0b24fca4744b1bb7524a5b"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "es"] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "https://www.gravitatehealth.eu/sid/doc"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "67.068" ]
+  ] ; # 
+  fhir:type [ fhir:v "document"] ; # 
+  fhir:timestamp [ fhir:v "2023-06-27T10:09:22Z"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-7a7ff0f4e1993c2fdabba6c8d9931a52"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-7a7ff0f4e1993c2fdabba6c8d9931a52> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-magnesiumstearate"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-magnesiumstearate> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-lactosemonohydrate"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-lactosemonohydrate> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-mirtazapine"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-mirtazapine> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-hydroxypropylcelluloseunspecified"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-hydroxypropylcelluloseunspecified> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-silicacolloidalanhydrous"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-silicacolloidalanhydrous> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-cornstarch"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-cornstarch> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-mirtazapine"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-mirtazapine> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizatione762a2f54b0b24fca4744b1bb7524a5b0"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizatione762a2f54b0b24fca4744b1bb7524a5b0> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-dbf32c7ed470ffbeb6060201f32edb29"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-dbf32c7ed470ffbeb6060201f32edb29> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-660f3150e2ccfb088d576c1767f7fe95"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-660f3150e2ccfb088d576c1767f7fe95> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b> )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-7a7ff0f4e1993c2fdabba6c8d9931a52> a fhir:Composition ;
+  fhir:id [ fhir:v "composition-es-7a7ff0f4e1993c2fdabba6c8d9931a52"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "es"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"es\" lang=\"es\"><a name=\"Composition_composition-es-7a7ff0f4e1993c2fdabba6c8d9931a52\"> </a><p><b>Generated Narrative: Composition</b><a name=\"composition-es-7a7ff0f4e1993c2fdabba6c8d9931a52\"> </a><a name=\"hccomposition-es-7a7ff0f4e1993c2fdabba6c8d9931a52\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;composition-es-7a7ff0f4e1993c2fdabba6c8d9931a52&quot;  (Language &quot;es&quot;) </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/</code>/21c15cbfff3522085d2493e5acc90334</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000155538)</span></p><p><b>category</b>: Raw <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-epicategory-cs.html\">Category of EPI</a>#R)</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href=\"#Organization_mah-dbf32c7ed470ffbeb6060201f32edb29\">See above (Organization/mah-dbf32c7ed470ffbeb6060201f32edb29)</a></p><p><b>title</b>: TEST PURPOSES ONLY - MIRTAZAPINA CINFA 30 mg Coated Tablet</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td>Official <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html\">Composition Attestation Mode</a>#official)</span></td><td>2022-02-16 13:28:17+0000</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "21c15cbfff3522085d2493e5acc90334" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155538" ]
+     ] ) ;
+     fhir:text [ fhir:v "Package Leaflet" ]
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "R" ] ;
+       fhir:display [ fhir:v "Raw" ]
+     ] )
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2022-02-16T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-dbf32c7ed470ffbeb6060201f32edb29> ;
+     fhir:reference [ fhir:v "Organization/mah-dbf32c7ed470ffbeb6060201f32edb29" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "TEST PURPOSES ONLY - MIRTAZAPINA CINFA 30 mg Coated Tablet"] ; # 
+  fhir:attester ( [
+     fhir:mode [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/composition-attestation-mode"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "official" ]
+       ] )
+     ] ;
+     fhir:time [ fhir:v "2022-02-16T13:28:17Z"^^xsd:dateTime ]
+  ] ) ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "B. PROSPECTO" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000155538" ]
+       ] ) ;
+       fhir:text [ fhir:v "B. PROSPECTO" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "PROSPECTO: INFORMACIÓN PARA EL USUARIO" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "PROSPECTO: INFORMACIÓN PARA EL USUARIO" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento, porque contiene información importante para usted.</strong></p><ul><li>Conserve este prospecto, ya que puede tener que volver a leerlo.</li><li>Si tiene alguna duda, consulte a su médico o farmacéutico.</li><li>Este medicamento se le ha recetado solamente a usted, y no debe dárselo a otras personas aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.</li><li>Si experimenta efectos adversos, consulte a su médico o farmacéutico, incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.</li></ul></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "Contenido del prospecto" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "Contenido del prospecto" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Contenido del prospecto</p><ol><li>Qué es mirtazapina cinfa y para qué se utiliza</li><li>Qué necesita saber antes de empezar a tomar mirtazapina cinfa</li><li>Cómo tomar mirtazapina cinfa</li><li>Posibles efectos adversos</li><li>Conservación de mirtazapina cinfa</li><li>Contenido del envase e información adicional</li></ol></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "1. Qué es MIRTAZAPINA CINFA  y para qué se utiliza" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "1. Qué es MIRTAZAPINA CINFA  y para qué se utiliza" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>mirtazapina cinfa pertenece al grupo de medicamentos llamados antidepresivos.</p><p>Mirtazapina se utiliza para tratar la depresión en adultos.</p><p>Se requieren de 1 a 2 semanas antes de que mirtazapina empiece a hacer efecto. Después de 2 a 4 semanas usted puede empezar a encontrarse mejor. Debe consultar a su médico si empeora o si no mejora después de 2 a 4 semanas.</p><p>Para más información ver la sección 3 &quot;Cuándo puede esperar encontrarse mejor&quot;</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "2. Qué necesita saber antes de empezar a tomar MIRTAZAPINA CINFA " ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "2. Qué necesita saber antes de empezar a tomar MIRTAZAPINA CINFA " ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>No tome mirtazapina cinfa</strong></p><ul><li>si es alérgico a mirtazapina o a alguno de los demás componentes de este medicamento (incluidos en la sección 6). En ese caso, consulte a su médico lo antes posible antes de tomar mirtazapina.</li><li>si está tomando o ha tomado recientemente (en las dos últimas semanas) medicamentos llamados inhibidores de la monoaminooxidasa (IMAO).</li></ul><p><strong>Advertencias y precauciones</strong> Consulte a su médico o farmacéutico antes de empezar a tomar mirtazapina cinfa</p><p>NO TOME O CONSULTE A SU MÉDICO ANTES DE EMPEZAR A TOMAR mirtazapina: Si ha sufrido alguna vez una erupción cutánea intensa o descamación de la piel, ampollas o llagas en la boca después de tomar mirtazapina u otros medicamentos.</p><p><strong>Niños y adolescentes</strong></p><p>Mirtazapina no debe utilizarse normalmente en el tratamiento de niños y adolescentes menores de 18 años porque no se demostró su eficacia. A la vez, debe saber que en pacientes menores de 18 años existe un mayor riesgo de efectos adversos como intentos de suicidio, ideación suicida y hostilidad (predominantemente agresión, comportamiento de confrontación e irritación) cuando toman esta clase de medicamentos. Pese a ello, el médico puede prescribir mirtazapina a pacientes menores de 18 años cuando decida que es lo más conveniente para el paciente. Si el médico ha prescrito mirtazapina a un paciente menor de 18 años y desea discutir esta decisión, por favor, vuelva a su médico. Debe informar a su médico si aparecen o empeoran alguno de los síntomas que se detallan anteriormente en pacientes menores de 18 años que están tomando mirtazapina. Además, todavía no se conocen los efectos sobre la seguridad a largo plazo relacionados con el crecimiento, la madurez y el desarrollo del conocimiento y la conducta de mirtazapina en este grupo de edad. También se ha observado con mayor frecuencia un considerable aumento de peso en este grupo de edad cuando son tratados con mirtazapina, en comparación con los adultos.</p><p><strong>Ideas de suicidio y empeoramiento de la depresión</strong></p><p>Si se encuentra deprimido puede que a veces tenga ideas de hacerse daño a si mismo o de suicidarse. Esto podría empeorar cuando empieza a tomar los antidepresivos por primera vez, ya que estos medicamentos tardan en hacer efecto normalmente dos semanas o a veces más. Podría ser más propenso a pensar de esta manera:</p><ul><li>si previamente ha tenido pensamientos suicidas o de hacerse daño a si mismo.</li><li>si es un adulto joven. La información de los ensayos clínicos ha mostrado un riesgo aumentado de comportamiento suicida en adultos menores de 25 años con trastornos psiquiátricos y que estaban en tratamiento con un antidepresivo.</li><li>si tiene pensamiento de hacerse daño a si mismo o suicidarse en algún momento, consulte a su médico o vaya a un hospital inmediatamente.</li></ul><p>Puede ser útil decirle a un pariente o amigo cercano que se encuentra deprimido, y pedirle que lea este prospecto. Puede pedirle que le diga si cree que su depresión está empeorando, o si está preocupado por cambios en su comportamiento.</p><p>Asimismo, tenga especial cuidado con mirtazapina:</p><ul><li>si tiene o ha tenido alguna vez uno de los siguientes trastornos</li><li>Informe a su médico sobre estas situaciones antes de tomar mirtazapina, si no lo ha hecho ya:<ul><li>convulsiones (epilepsia). Si aparecen convulsiones o sus convulsiones son más frecuentes, deje de tomar mirtazapina y contacte con su médico inmediatamente;</li><li>enfermedades del hígado, incluyendo ictericia. Si aparece ictericia, deje de tomar mirtazapina y contacte con su médico inmediatamente;</li><li>enfermedades de los riñones;</li><li>enfermedad del corazón o presión arterial baja;</li><li>esquizofrenia. Si los síntomas psicóticos, como los pensamientos paranoicos, son más frecuentes o graves contacte con su médico inmediatamente;</li><li>depresión bipolar (se alternan períodos de animación/hiperactividad y períodos de depresión). Si empieza a sentirse animado o sobreexcitado, deje de tomar mirtazapina y contacte con su médico inmediatamente;</li><li>diabetes (podría necesitar ajustar su dosis de insulina u otros medicamentos antidiabéticos);</li><li>enfermedades de los ojos, como aumento de la presión en el ojo (glaucoma);</li><li>dificultades para orinar, que podrían deberse a un aumento del tamaño de la próstata;</li><li>ciertos tipos de enfermedades del corazón que pueden cambiar el ritmo de su corazón, un ataque reciente al corazón, un fallo del corazón, o toma de ciertos medicamentos que pueden afectar el ritmo del corazón.</li></ul></li><li>si aparecen signos de infección como fiebre alta inexplicable, dolor de garganta y llagas en la boca Deje de tomar mirtazapina y contacte con su médico inmediatamente para realizar un análisis de sangre. En raras ocasiones, estos síntomas pueden ser signos de alteraciones en la producción de células sanguíneas en la médula ósea. Aunque raros, estos síntomas aparecen a las 4-6 semanas de tratamiento.</li><li>si es una persona mayor podría ser más sensible a los efectos adversos de los medicamentos antidepresivos.</li><li>se han notificado con el uso de mirtazapina reacciones cutáneas graves, como síndrome de StevensJohnson (SSJ), necrólisis epidérmica tóxica (NET) y reacción medicamentosa con eosinofilia y síntomas sistémicos (DRESS). Interrumpa su uso y busque atención médica inmediatamente si nota alguno de los síntomas descritos en la sección 4 en relación con estas reacciones cutáneas graves. Si ha sufrido alguna vez reacciones cutáneas graves, no debe reiniciarse el tratamiento con mirtazapina.</li></ul><p><strong>Otros medicamentos y mirtazapina cinfa</strong></p><p>Informe a su médico o farmacéutico si está tomando, ha tomado recientemente o pudiera tener que tomar cualquier otro medicamento.</p><p>No tome mirtazapina junto con:</p><ul><li>inhibidores de la monoamino oxidasa (inhibidores de la MAO). Asimismo, no tome mirtazapina durante las dos semanas después de haber dejado de tomar los inhibidores de la MAO. Si deja de tomar mirtazapina, tampoco tome inhibidores de la MAO durante las siguientes dos semanas. Ejemplos de inhibidores de la MAO son moclobemida, tranilcipromina (ambos son antidepresivos) y selegilina (para la enfermedad de Parkinson).</li></ul><p>Tenga cuidado si toma mirtazapina junto con:</p><ul><li>antidepresivos como los inhibidores selectivos de la recaptación de serotonina (ISRSs), venlafaxina y L-triptófano o triptanos (utilizados para tratar la migraña), tramadol (para el dolor), linezolid (un antibiótico), litio (utilizado para tratar algunos trastornos psiquiátricos), azul de metileno (utilizado para tratar niveles altos de metahemoglobina en la sangre) y preparados a base de Hierba de San Juan – Hypericum perforatum (planta medicinal para la depresión). En casos muy raros, mirtazapina solo o junto con estos medicamentos, puede dar lugar al llamado síndrome serotoninérgico. Algunos de los síntomas de este síndrome son: fiebre inexplicable, sudoración, palpitaciones, diarrea, contracciones musculares (incontrolables), escalofríos, reflejos exagerados, agitación, cambios de humor y pérdida de conciencia. Si presenta una combinación de estos síntomas, consulte a su médico inmediatamente.</li><li>el antidepresivo nefazodona. Puede aumentar la cantidad de mirtazapina en sangre. Informe a su médico si está tomando este medicamento. Podría ser necesario disminuir la dosis de mirtazapina, o aumentarla nuevamente al dejar de tomar nefazodona.</li><li>medicamentos para la ansiedad o el insomnio como las benzodiazepinas. medicamentos para la esquizofrenia como la olanzapina. medicamentos para las alergias como la cetirizina. medicamentos para el dolor intenso como la morfina. En combinación con estos medicamentos, mirtazapina puede aumentar la somnolencia causada por estos medicamentos.</li><li>medicamentos para infecciones: medicamentos para infecciones bacterianas (como la eritromicina), medicamentos para infecciones por hongos (como el ketoconazol) y los medicamentos para el VIH/SIDA (inhibidores de la proteasa del VIH) y medicamentos para la úlcera de estómago (como la cimetidina). Si se toman junto con mirtazapina, estos medicamentos pueden aumentar la cantidad de mirtazapina en sangre. Informe a su médico si está tomando estos medicamentos. Podría ser necesario disminuir la dosis de mirtazapina, o aumentarla nuevamente al dejar de tomar estos medicamentos.</li><li>medicamentos para la epilepsia: como la carbamazepina y la fenitoína.</li><li>medicamentos para la tuberculosis como la rifampicina. Si se toman junto con mirtazapina, estos medicamentos pueden reducir la cantidad de mirtazapina en sangre. Informe a su médico si está tomando estos medicamentos. Podría ser necesario aumentar la dosis de mirtazapina, o disminuirla nuevamente al dejar de tomar estos medicamentos. medicamentos para prevenir la coagulación de la sangre como la warfarina. Mirtazapina puede aumentar los efectos de la warfarina en la sangre. Informe a su médico si está tomando este medicamento. En caso de tomarlos a la vez, se recomienda que el médico le haga controles en sangre.</li><li>medicamentos que pueden afectar el ritmo del corazón, como ciertos antibióticos y algunos antipsicóticos</li></ul><p><strong>Toma de mirtazapina cinfa con alimentos y alcohol</strong></p><p>Puede sentirse somnoliento si bebe alcohol mientras esté en tratamiento con mirtazapina. Se recomienda no beber nada de alcohol. Puede tomar mirtazapina con o sin alimentos.</p><p><strong>Embarazo y lactancia</strong></p><p>Si está embarazada o en periodo de lactancia, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte a su médico o farmacéutico antes de utilizar este medicamento.</p><p>La experiencia limitada de la administración de mirtazapina a mujeres embarazadas no indica un aumento de riesgo. Sin embargo, debe tenerse cuidado si se usa durante el embarazo.</p><p>Si usa mirtazapina hasta, o poco antes del parto, su hijo será examinado para detectar posibles efectos adversos.</p><p>Tomados durante el embarazo, los medicamentos similares (ISRS) pueden aumentar en los bebés el riesgo de padecer una enfermedad grave denominada hipertensión pulmonar persistente neonatal (HPPN), ocasionando que el bebé respire más rápido y adquiera un tono azulado. Estos síntomas comienzan normalmente durante las primeras 24 horas después de que nazca el bebé. Si esto le sucede al bebé, debe consultar a su matrona o médico de inmediato.</p><p><strong>Conducción y uso de máquinas</strong></p><p>Durante el tratamiento con mirtazapina puede que se sienta somnoliento o mareado. No conduzca ni maneje herramientas o máquinas hasta que sepa cómo le afecta el tratamiento con mirtazapina.</p><p><strong>mirtazapina cinfa contiene lactosa.</strong></p><p>Este medicamento contiene lactosa. Si su médico le ha indicado que padece una intolerancia a ciertos azúcares, consulte con él antes de tomar este medicamento.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "3. Cómo tomar MIRTAZAPINA CINFA " ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "3. Cómo tomar MIRTAZAPINA CINFA " ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico.</p><p><strong>Cuánto tomar</strong></p><p>La dosis inicial recomendada es de 15 o 30 mg al día. Su médico puede recomendarle aumentar la dosis tras unos días hasta la cantidad que sea mejor para usted (entre 15 y 45 mg al día). Normalmente la dosis es la misma para todas las edades. Sin embargo, si es una persona mayor o si padece una enfermedad del riñón o del hígado, su médico podría cambiar la dosis.</p><p><strong>Cuándo tomar mirtazapina</strong></p><p>Tome mirtazapina a la misma hora cada día. Es mejor tomar la dosis de mirtazapina de una sola vez antes de acostarse. Sin embargo, su médico puede recomendarle que divida su dosis de mirtazapina por la mañana y por la noche antes de acostarse. La dosis más alta debe tomarse antes de acostarse. Los comprimidos se toman por vía oral. Tome la dosis de mirtazapina recetada sin masticar, con agua o zumo.</p><p><strong>Cuándo puede esperar encontrarse mejor</strong></p><p>Normalmente mirtazapina empezará a hacer efecto después de 1 o 2 semanas y después de 2 a 4 semanas podría empezar a encontrarse mejor. Es importante que durante las primeras semanas de tratamiento hable con su médico sobre los efectos de mirtazapina: entre 2 y 4 semanas después de haber empezado a tomar mirtazapina, hable con su médico sobre cómo le ha afectado este medicamento. Si todavía no se encuentra mejor, su médico podría recetarle una dosis mayor. En ese caso, hable nuevamente con su médico después de otras 2-4 semanas. Normalmente necesitará tomar mirtazapina hasta que los síntomas de depresión hayan desaparecido durante 4-6 meses.</p><p>El comprimido se puede partir en dosis iguales.</p><p><strong>Si toma más mirtazapina cinfa del que debe</strong></p><p>En caso de sobredosis o ingestión accidental consulte inmediatamente a su médico o farmacéutico o llame al Servicio de Información Toxicológica, teléfono 91 562 04 20, indicando el medicamento y la cantidad ingerida. Se recomienda llevar el prospecto y el envase al profesional sanitario.</p><p>Los síntomas más probables de una sobredosis de mirtazapina (sin otros medicamentos o alcohol) son la somnolencia, desorientación y palpitaciones. Los síntomas de una posible sobredosis pueden incluir cambios en el ritmo de su corazón (latido rápido, irregular) y/o desfallecimiento, que podrían ser síntomas de una enfermedad potencialmente mortal conocida como Torsades de pointes.</p><p><strong>Si olvidó tomar mirtazapina cinfa</strong></p><p>Si tiene que tomar su dosis una vez al día</p><ul><li>No tome una dosis doble para compensar las dosis olvidadas. Tome la dosis habitual al día siguiente. Si tiene que tomar su dosis dos veces al día</li><li>Si ha olvidado la dosis de la mañana, simplemente tómesela junto con la dosis de la noche.</li><li>Si ha olvidado la dosis de la noche, no la tome a la mañana siguiente; sáltesela y continúe con sus dosis normales por la mañana y por la noche.</li><li>Si ha olvidado ambas dosis, no intente recuperarlas. Sáltese ambas dosis y al día siguiente continúe con la dosis normal por la mañana y por la noche.</li></ul><p><strong>Si interrumpe el tratamiento con mirtazapina cinfa</strong></p><p>Deje de tomar mirtazapina sólo si lo consulta con su médico. Si lo deja demasiado pronto, la depresión podría reaparecer. Cuando se encuentre mejor, hable con su médico. Su médico decidirá cuándo puede dejar el tratamiento. No deje de tomar mirtazapina bruscamente, aun cuando la depresión haya desaparecido. Si deja de tomar mirtazapina de forma brusca, puede sentirse enfermo, mareado, agitado o ansioso y tener dolores de cabeza. Estos síntomas pueden evitarse dejando el tratamiento gradualmente. Su médico le indicará cómo disminuir la dosis gradualmente.</p><p>Si tiene cualquier otra duda sobre el uso de este medicamento, pregunte a su médico o farmacéutico.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "4. Posibles efectos adversos" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "4. Posibles efectos adversos" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.</p><p><strong>Si experimenta alguno de los siguientes efectos adversos graves, deje de tomar mirtazapina e informe inmediatamente a su médico.</strong></p><p>Poco frecuentes (pueden afectar hasta 1 de cada 100 pacientes):</p><ul><li>sentimiento de euforia exagerada (manía).</li></ul><p>Raros (pueden afectar hasta 1 de cada 1.000 pacientes):</p><ul><li>coloración amarilla de los ojos o la piel; puede sugerir alteraciones en el funcionamiento del hígado (ictericia).</li></ul><p>Frecuencia no conocida (no puede estimarse a partir de los datos disponibles):</p><ul><li>signos de infección tales como fiebre alta inexplicable y repentina, dolor de garganta y llagas en la boca (agranulocitosis). En casos raros, mirtazapina puede provocar alteraciones en la producción de células sanguíneas (depresión de la médula ósea). Algunas personas se vuelven menos resistentes a las infecciones porque mirtazapina puede provocar una disminución temporal de los glóbulos blancos de la sangre (granulocitopenia). En casos raros, mirtazapina también puede provocar una disminución de los glóbulos rojos y blancos y de las plaquetas (anemia aplásica), una disminución de las plaquetas (trombocitopenia) o un aumento en el número de glóbulos blancos en sangre (eosinofilia).</li><li>ataque epiléptico (convulsiones).</li><li>combinación de síntomas como fiebre inexplicable, sudoración, palpitaciones, diarrea, contracciones musculares (incontrolables), escalofríos, reflejos exagerados, agitación, cambios de humor, pérdida de conciencia y aumento de la producción de saliva. En casos muy raros, estos síntomas pueden ser señales de un trastorno llamado “síndrome serotoninérgico”.</li><li>pensamientos de hacerse daño a uno mismo o de suicidio.</li><li>reacciones graves en la piel:<ul><li>parches rojos en el tronco, como máculas circunscritas o circulares, a menudo con ampollas en el centro, desprendimiento de la piel, úlceras en la boca, la garganta, la nariz, los genitales y los ojos. Estos eritemas cutáneos graves pueden ir precedidos de fiebre y síntomas gripales (síndrome de Stevens-Johnson, necrólisis epidérmica tóxica).</li><li>eritema generalizado, temperatura corporal elevada y aumento de tamaño de los ganglios linfáticos (síndrome DRESS o síndrome de hipersensibilidad medicamentosa).</li></ul></li></ul><p><strong>Otros posibles efectos adversos con mirtazapina son:</strong></p><p>Muy frecuentes (pueden afectar a más de 1 de cada 10 pacientes)</p><ul><li>aumento del apetito y aumento de peso</li><li>somnolencia</li><li>dolor de cabeza</li><li>boca seca</li></ul><p>Frecuentes (pueden afectar hasta 1 de cada 10 pacientes)</p><ul><li>letargia</li><li>mareo</li><li>temblor</li><li>náuseas</li><li>diarrea</li><li>vómitos</li><li>estreñimiento</li><li>urticaria o erupciones en la piel (exantema)</li><li>dolores en las articulaciones (artralgia) o músculos (mialgia)</li><li>dolor de espalda</li><li>mareo o desmayo al levantarse rápidamente (hipotensión ortrtostática)</li><li>hinchazón (normalmente en tobillos o pies) debido a retención de líquidos (edema)</li><li>cansancio</li><li>sueños vívidos</li><li>confusión</li><li>ansiedad</li><li>dificultades para dormir</li><li>problemas de memoria, que en la mayoría de los casos se resolvieron cuando se suspendió el tratamiento</li></ul><p>Poco frecuentes (pueden afectar hasta 1 de cada 100 pacientes)</p><ul><li>sensación extraña en la piel por ejemplo quemazón, pinchazos, cosquilleo u hormigueo (parestesia)</li><li>movimientos involuntarios de agitación de las piernas durante el sueño</li><li>desmayos (síncope)</li><li>sensación de adormecimiento de la boca (hipoestesia oral)</li><li>tensión baja</li><li>pesadillas</li><li>agitación</li><li>alucinaciones</li><li>incapacidad para mantenerse quieto</li></ul><p>Raros (pueden afectar hasta 1 de cada 1.000 pacientes)</p><ul><li>tics o contracciones musculares (mioclono)</li><li>agresión</li><li>dolor abdominal, náuseas; esto puede indicar inflamación del páncreas (pancreatitis)</li></ul><p>Frecuencia no conocida (no puede estimarse a partir de los datos disponibles)</p><ul><li>sensaciones anormales en la boca (parestesia oral)</li><li>hinchazón en la boca (edema bucal)</li><li>hinchazón por todo el cuerpo (edema generalizado)</li><li>hinchazón localizada</li><li>hiponatremia</li><li>secreción inadecuada de hormona antidiurética</li><li>reacciones graves en la piel (dermatitis bullosa, eritema multiforme)</li><li>andar dormido (sonambulismo)</li><li>problema del habla</li><li>aumento de los niveles de creatina cinasa en la sangre</li><li>dificultad para orinar (retención urinaria)</li><li>dolor muscular, rigidez y/o debilidad, oscurecimiento o decoloración de la orina (rabdomiólisis)</li><li>aumento de los niveles de la hormona prolactina en la sangre (hiperprolactinemia, que incluye síntomas de aumento de tamaño de las mamas y/o secreción lechosa por el pezón)</li><li>erección dolorosa y prolongada del pene</li></ul><p><strong>Otros efectos adversos en niños y adolescentes</strong></p><p>En menores de 18 años se observaron frecuentemente los siguientes efectos adversos en los ensayos clínicos: un considerable aumento de peso, urticaria y un aumento de triglicéridos en la sangre.</p><p><strong>Comunicación de efectos adversos</strong></p><p>Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: <a href=\"https://www.notificaram.es\">https://www.notificaram.es</a>. Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "5. CONSERVACIÓN DE MIRTAZAPINA CINFA " ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "5. CONSERVACIÓN DE MIRTAZAPINA CINFA " ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Mantener este medicamento fuera de la vista y del alcance de los niños.</p><p>No utilice este medicamento después de la fecha de caducidad que aparece en el envase y en el blíster, después de CAD. La fecha de caducidad es el último día del mes que se indica.</p><p>No conservar a temperatura superior a 30ºC.</p><p>Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesita en el Punto SIGRE de la farmacia. En caso de duda, pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que ya no necesita. De esta forma, ayudará a proteger el medio ambiente.</p></div>"
+       ]
+     ] [
+       fhir:title [ fhir:v "6. Contenido del envase e información adicional" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000155538" ]
+         ] ) ;
+         fhir:text [ fhir:v "6. Contenido del envase e información adicional" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Composición de mirtazapina cinfa</strong></p><ul><li>El principio activo es mirtazapina. Cada comprimido recubierto con película contiene 30 mg de mirtazapina.</li><li>Los demás componentes son:<ul><li>Núcleo del comprimido: lactosa monohidrato, hidroxipropilcelulosa (E-463), almidón de maíz, sílice coloidal anhidra, hidroxipropilcelulosa de bajo grado de sustitución (E-463) y estearato de magnesio.</li><li>Recubrimiento del comprimido: Opadry Brown 20A56788 (hidroxipropilcelulosa (E-463), hipromelosa (E-464), dióxido de titanio (E-171), óxido de hierro amarillo (E-172), óxido de hierro rojo (E-172) y óxido de hierro negro (E-172)).</li></ul></li></ul><p><strong>Aspecto del producto y contenido del envase</strong></p><p>Comprimidos de color marrón rojizo, biconvexos, con forma de cápsula, recubiertos, ranurados por una cara y marcados con el código “30” por la otra cara.</p><p>Se presenta en blísteres de PVC-PVDC/ALU.</p><p>Cada envase contiene 30 o 500 (envase clínico) comprimidos recubiertos con película.</p><p>Puede que solamente estén comercializados algunos tamaños de envases.</p><p><strong>Titular de la autorización de comercialización y responsable de la fabricación</strong></p><p>Laboratorios Cinfa, S.A.</p><p>Carretera Olaz-Chipi, 10. Polígono Industrial Areta</p><p>31620 Huarte (Navarra) - España</p><p><strong>Fecha de la última revisión de este prospecto: Noviembre 2021</strong></p><p>La información detallada y actualizada de este medicamento está disponible en la página web de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) www.aemps.gob.es/</p></div>"
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-magnesiumstearate> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-mirtazapine-magnesiumstearate"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-mirtazapine-magnesiumstearate\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-mirtazapine-magnesiumstearate\"> </a><a name=\"hcingredient-for-mirtazapine-magnesiumstearate\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-mirtazapine-magnesiumstearate&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/70097M6I30 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-e762a2f54b0b24fca4744b1bb7524a5b\">See above (ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b)</a></li><li><a href=\"#MedicinalProductDefinition_mp7a7ff0f4e1993c2fdabba6c8d9931a52\">See above (MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52)</a></li><li><a href=\"#AdministrableProductDefinition_ap-e762a2f54b0b24fca4744b1bb7524a5b\">See above (AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Magnesium stearate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#70097M6I30)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "70097M6I30" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "70097M6I30" ] ;
+           fhir:display [ fhir:v "Magnesium stearate" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-lactosemonohydrate> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-mirtazapine-lactosemonohydrate"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-mirtazapine-lactosemonohydrate\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-mirtazapine-lactosemonohydrate\"> </a><a name=\"hcingredient-for-mirtazapine-lactosemonohydrate\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-mirtazapine-lactosemonohydrate&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/EWQ57Q8I5X (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-e762a2f54b0b24fca4744b1bb7524a5b\">See above (ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b)</a></li><li><a href=\"#MedicinalProductDefinition_mp7a7ff0f4e1993c2fdabba6c8d9931a52\">See above (MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52)</a></li><li><a href=\"#AdministrableProductDefinition_ap-e762a2f54b0b24fca4744b1bb7524a5b\">See above (AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>LACTOSE MONOHYDRATE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#EWQ57Q8I5X)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EWQ57Q8I5X" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "EWQ57Q8I5X" ] ;
+           fhir:display [ fhir:v "LACTOSE MONOHYDRATE" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-mirtazapine> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-mirtazapine-mirtazapine"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-mirtazapine-mirtazapine\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-mirtazapine-mirtazapine\"> </a><a name=\"hcingredient-for-mirtazapine-mirtazapine\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-mirtazapine-mirtazapine&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/A051Q2099Q (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-e762a2f54b0b24fca4744b1bb7524a5b\">See above (ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b)</a></li><li><a href=\"#MedicinalProductDefinition_mp7a7ff0f4e1993c2fdabba6c8d9931a52\">See above (MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52)</a></li><li><a href=\"#AdministrableProductDefinition_ap-e762a2f54b0b24fca4744b1bb7524a5b\">See above (AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b)</a></li></ul><p><b>role</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#72072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Mirtazapine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#A051Q2099Q)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>30 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "A051Q2099Q" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "72072" ] ;
+       fhir:display [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "A051Q2099Q" ] ;
+           fhir:display [ fhir:v "Mirtazapine" ]
+         ] )
+       ]
+     ] ;
+     fhir:strength ( [
+       fhir:presentation [
+         a fhir:Quantity ;
+         fhir:value [ fhir:v "30"^^xsd:decimal ] ;
+         fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "mg" ]
+       ] ;
+       fhir:basis [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleClass"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ACTIB" ] ;
+           fhir:display [ fhir:v "active ingredient - basis of strength" ]
+         ] )
+       ]
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-hydroxypropylcelluloseunspecified> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-mirtazapine-hydroxypropylcelluloseunspecified"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-mirtazapine-hydroxypropylcelluloseunspecified\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-mirtazapine-hydroxypropylcelluloseunspecified\"> </a><a name=\"hcingredient-for-mirtazapine-hydroxypropylcelluloseunspecified\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-mirtazapine-hydroxypropylcelluloseunspecified&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/9XZ8H6N6OH (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-e762a2f54b0b24fca4744b1bb7524a5b\">See above (ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b)</a></li><li><a href=\"#MedicinalProductDefinition_mp7a7ff0f4e1993c2fdabba6c8d9931a52\">See above (MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52)</a></li><li><a href=\"#AdministrableProductDefinition_ap-e762a2f54b0b24fca4744b1bb7524a5b\">See above (AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>HYDROXYPROPYL CELLULOSE, UNSPECIFIED <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#9XZ8H6N6OH)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "9XZ8H6N6OH" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "9XZ8H6N6OH" ] ;
+           fhir:display [ fhir:v "HYDROXYPROPYL CELLULOSE, UNSPECIFIED" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-silicacolloidalanhydrous> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-mirtazapine-silicacolloidalanhydrous"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-mirtazapine-silicacolloidalanhydrous\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-mirtazapine-silicacolloidalanhydrous\"> </a><a name=\"hcingredient-for-mirtazapine-silicacolloidalanhydrous\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-mirtazapine-silicacolloidalanhydrous&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/ETJ7Z6XBU4 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-e762a2f54b0b24fca4744b1bb7524a5b\">See above (ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b)</a></li><li><a href=\"#MedicinalProductDefinition_mp7a7ff0f4e1993c2fdabba6c8d9931a52\">See above (MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52)</a></li><li><a href=\"#AdministrableProductDefinition_ap-e762a2f54b0b24fca4744b1bb7524a5b\">See above (AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>SILICA, COLLOIDAL ANHYDROUS <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#ETJ7Z6XBU4)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "ETJ7Z6XBU4" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ETJ7Z6XBU4" ] ;
+           fhir:display [ fhir:v "SILICA, COLLOIDAL ANHYDROUS" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-mirtazapine-cornstarch> a fhir:Ingredient ;
+  fhir:id [ fhir:v "ingredient-for-mirtazapine-cornstarch"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-mirtazapine-cornstarch\"> </a><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-mirtazapine-cornstarch\"> </a><a name=\"hcingredient-for-mirtazapine-cornstarch\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-mirtazapine-cornstarch&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/O8232NY3SJ (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-e762a2f54b0b24fca4744b1bb7524a5b\">See above (ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b)</a></li><li><a href=\"#MedicinalProductDefinition_mp7a7ff0f4e1993c2fdabba6c8d9931a52\">See above (MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52)</a></li><li><a href=\"#AdministrableProductDefinition_ap-e762a2f54b0b24fca4744b1bb7524a5b\">See above (AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>CORN STARCH <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#O8232NY3SJ)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "O8232NY3SJ" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52" ]
+  ] [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "O8232NY3SJ" ] ;
+           fhir:display [ fhir:v "CORN STARCH" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-mirtazapine> a fhir:SubstanceDefinition ;
+  fhir:id [ fhir:v "substance-mirtazapine"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"SubstanceDefinition_substance-mirtazapine\"> </a><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"substance-mirtazapine\"> </a><a name=\"hcsubstance-mirtazapine\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;substance-mirtazapine&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta/</code>/A051Q2099Q (use: OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>manufacturer</b>: <a href=\"#Organization_mah-dbf32c7ed470ffbeb6060201f32edb29\">See above (Organization/mah-dbf32c7ed470ffbeb6060201f32edb29)</a></p><h3>MolecularWeights</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td style=\"display: none\">*</td><td>exact <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></td><td>265.35</td></tr></table><h3>Structures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>MolecularFormula</b></td></tr><tr><td style=\"display: none\">*</td><td>C17H19N3</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>1,2,3,4,10,14b-Hexahydro-2-methylpyrazino[2,1-a]pyrido[2,3-c]benzazepine</td><td>Chemical Name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#x)</span></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "A051Q2099Q" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1"] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-dbf32c7ed470ffbeb6060201f32edb29> ;
+     fhir:reference [ fhir:v "Organization/mah-dbf32c7ed470ffbeb6060201f32edb29" ]
+  ] ) ; # 
+  fhir:molecularWeight ( [
+     fhir:type [
+       fhir:text [ fhir:v "exact" ]
+     ] ;
+     fhir:amount [
+       fhir:value [ fhir:v "265.35"^^xsd:decimal ]
+     ]
+  ] ) ; # 
+  fhir:structure [
+     fhir:molecularFormula [ fhir:v "C17H19N3" ]
+  ] ; # 
+  fhir:name ( [
+     fhir:name [ fhir:v "1,2,3,4,10,14b-Hexahydro-2-methylpyrazino[2,1-a]pyrido[2,3-c]benzazepine" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "x" ] ;
+         fhir:display [ fhir:v "Chemical Name" ]
+       ] )
+     ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b> a fhir:AdministrableProductDefinition ;
+  fhir:id [ fhir:v "ap-e762a2f54b0b24fca4744b1bb7524a5b"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AdministrableProductDefinition_ap-e762a2f54b0b24fca4744b1bb7524a5b\"> </a><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"ap-e762a2f54b0b24fca4744b1bb7524a5b\"> </a><a name=\"hcap-e762a2f54b0b24fca4744b1bb7524a5b\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;ap-e762a2f54b0b24fca4744b1bb7524a5b&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/identifier</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_mp7a7ff0f4e1993c2fdabba6c8d9931a52\">See above (MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52)</a></p><p><b>administrableDoseForm</b>: Coated tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073380)</span></p><p><b>unitOfPresentation</b>: tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002152)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_mid-e762a2f54b0b24fca4744b1bb7524a5b\">See above (ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b)</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073619)</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>Human <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "identifier" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:formOf ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52" ]
+  ] ) ; # 
+  fhir:administrableDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000073380" ] ;
+       fhir:display [ fhir:v "Coated tablet" ]
+     ] )
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000002152" ] ;
+       fhir:display [ fhir:v "tablet" ]
+     ] )
+  ] ; # 
+  fhir:producedFrom ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b" ]
+  ] ) ; # 
+  fhir:routeOfAdministration ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073619" ] ;
+         fhir:display [ fhir:v "Oral use" ]
+       ] )
+     ] ;
+     fhir:targetSpecies ( [
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000109093" ] ;
+           fhir:display [ fhir:v "Human" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizatione762a2f54b0b24fca4744b1bb7524a5b0> a fhir:RegulatedAuthorization ;
+  fhir:id [ fhir:v "authorizatione762a2f54b0b24fca4744b1bb7524a5b0"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"RegulatedAuthorization_authorizatione762a2f54b0b24fca4744b1bb7524a5b0\"> </a><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"authorizatione762a2f54b0b24fca4744b1bb7524a5b0\"> </a><a name=\"hcauthorizatione762a2f54b0b24fca4744b1bb7524a5b0\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;authorizatione762a2f54b0b24fca4744b1bb7524a5b0&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/67.068 (use: OFFICIAL)</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_mp7a7ff0f4e1993c2fdabba6c8d9931a52\">See above (MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072062)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2021-01-01</p><p><b>holder</b>: <a href=\"#Organization_mah-dbf32c7ed470ffbeb6060201f32edb29\">See above (Organization/mah-dbf32c7ed470ffbeb6060201f32edb29)</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "67.068" ]
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072062" ] ;
+       fhir:display [ fhir:v "Marketing Authorisation" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2021-01-01"^^xsd:date] ; # 
+  fhir:holder [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-dbf32c7ed470ffbeb6060201f32edb29> ;
+     fhir:reference [ fhir:v "Organization/mah-dbf32c7ed470ffbeb6060201f32edb29" ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-dbf32c7ed470ffbeb6060201f32edb29> a fhir:Organization ;
+  fhir:id [ fhir:v "mah-dbf32c7ed470ffbeb6060201f32edb29"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_mah-dbf32c7ed470ffbeb6060201f32edb29\"> </a><p><b>Generated Narrative: Organization</b><a name=\"mah-dbf32c7ed470ffbeb6060201f32edb29\"> </a><a name=\"hcmah-dbf32c7ed470ffbeb6060201f32edb29\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;mah-dbf32c7ed470ffbeb6060201f32edb29&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/ORG-100003791 (use: OFFICIAL)</p><p><b>active</b>: true</p><p><b>type</b>: Marketing authorisation holder <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000034)</span></p><p><b>name</b>: LABORATORIOS CINFA, S.A.</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>Carretera Olaz-Chipi, 10. Polígono Industrial Areta Huarte ES(WORK)</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/omswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "ORG-100003791" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "220000000034" ] ;
+       fhir:display [ fhir:v "Marketing authorisation holder" ]
+     ] )
+  ] ) ; # 
+  fhir:name [ fhir:v "LABORATORIOS CINFA, S.A."] ; # 
+  fhir:contact ( [
+     fhir:address [
+       fhir:use [ fhir:v "work" ] ;
+       fhir:type [ fhir:v "physical" ] ;
+       fhir:text [ fhir:v "Carretera Olaz-Chipi, 10. Polígono Industrial Areta Huarte ES" ] ;
+       fhir:line ( [ fhir:v "Carretera Olaz-Chipi, 10. Polígono Industrial Areta" ] ) ;
+       fhir:city [ fhir:v "Huarte" ] ;
+       fhir:postalCode [ fhir:v "31620" ] ;
+       fhir:country [ fhir:v "ES" ]
+     ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-660f3150e2ccfb088d576c1767f7fe95> a fhir:PackagedProductDefinition ;
+  fhir:id [ fhir:v "ppd-660f3150e2ccfb088d576c1767f7fe95"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-660f3150e2ccfb088d576c1767f7fe95\"> </a><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"ppd-660f3150e2ccfb088d576c1767f7fe95\"> </a><a name=\"hcppd-660f3150e2ccfb088d576c1767f7fe95\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;ppd-660f3150e2ccfb088d576c1767f7fe95&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>name</b>: MIRTAZAPINA CINFA 30 mg Coated Tablet 30</p><p><b>type</b>: Chemical Medicinal Prodcut <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_mp7a7ff0f4e1993c2fdabba6c8d9931a52\">See above (MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52)</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2021-09-01</p><p><b>containedItemQuantity</b>: 30 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073496)</span></p><p><b>quantity</b>: 30</p><p><b>material</b>: PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003222)</span></p><blockquote><p><b>containedItem</b></p></blockquote></blockquote></blockquote></div>"
+  ] ; # 
+  fhir:name [ fhir:v "MIRTAZAPINA CINFA 30 mg Coated Tablet 30"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155527" ] ;
+       fhir:display [ fhir:v "Chemical Medicinal Prodcut" ]
+     ] )
+  ] ; # 
+  fhir:packageFor ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2021-09-01"^^xsd:date] ; # 
+  fhir:containedItemQuantity ( [
+     fhir:value [ fhir:v "30"^^xsd:decimal ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "mg" ]
+  ] ) ; # 
+  fhir:packaging [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073498" ] ;
+         fhir:display [ fhir:v "Box" ]
+       ] )
+     ] ;
+     fhir:quantity [ fhir:v "1"^^xsd:integer ] ;
+     fhir:material ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000003529" ] ;
+         fhir:display [ fhir:v "Cardboard" ]
+       ] )
+     ] ) ;
+     fhir:packaging ( [
+       fhir:identifier ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "123456" ]
+       ] ) ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000073496" ] ;
+           fhir:display [ fhir:v "Blister" ]
+         ] )
+       ] ;
+       fhir:quantity [ fhir:v "30"^^xsd:integer ] ;
+       fhir:material ( [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "200000003222" ] ;
+           fhir:display [ fhir:v "PolyVinyl Chloride" ]
+         ] )
+       ] ) ;
+       fhir:containedItem ( [
+         fhir:item [
+           fhir:reference [
+             fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b> ;
+             fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b" ]
+           ]
+         ]
+       ] )
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp7a7ff0f4e1993c2fdabba6c8d9931a52> a fhir:MedicinalProductDefinition ;
+  fhir:id [ fhir:v "mp7a7ff0f4e1993c2fdabba6c8d9931a52"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_mp7a7ff0f4e1993c2fdabba6c8d9931a52\"> </a><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"mp7a7ff0f4e1993c2fdabba6c8d9931a52\"> </a><a name=\"hcmp7a7ff0f4e1993c2fdabba6c8d9931a52\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;mp7a7ff0f4e1993c2fdabba6c8d9931a52&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/67.068, <code>https://www.who-umc.org/phpid</code>/0x6c47381b040e5b588db23b2272f28eec</p><p><b>type</b>: Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-medicinal-product-type.html\">Medicinal Product Type</a>#MedicinalProduct)</span></p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-medicinal-product-domain.html\">Medicinal Product Domain</a>#Human)</span></p><p><b>status</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>legalStatusOfSupply</b>: 100000000000 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000000000)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: MIRTAZAPINA CINFA 30 mg Coated Tablet</p><p><b>type</b>: Full name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000001)</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Mirtazapine Cinfa</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: Mirtazapine</p><p><b>type</b>: Scientific name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000003)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 30 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: coated tablet</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style=\"display: none\">*</td><td>Spain <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></td><td>Spain <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></td><td>English <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-ietf3066.html\">Tags for the Identification of Languages</a>#en)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "67.068" ]
+  ] [
+     fhir:system [ fhir:v "https://www.who-umc.org/phpid"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "0x6c47381b040e5b588db23b2272f28eec" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MedicinalProduct" ] ;
+       fhir:display [ fhir:v "Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:domain [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-domain"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Human" ] ;
+       fhir:display [ fhir:v "Human use" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:legalStatusOfSupply [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000000000" ]
+     ] )
+  ] ; # 
+  fhir:name ( [
+     fhir:productName [ fhir:v "MIRTAZAPINA CINFA 30 mg Coated Tablet" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "220000000001" ] ;
+         fhir:display [ fhir:v "Full name" ]
+       ] )
+     ] ;
+     fhir:part ( [
+       fhir:part [ fhir:v "Mirtazapine Cinfa" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000002" ] ;
+           fhir:display [ fhir:v "Invented name part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "Mirtazapine" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000003" ] ;
+           fhir:display [ fhir:v "Scientific name part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "30 mg" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000004" ] ;
+           fhir:display [ fhir:v "Strength part" ]
+         ] )
+       ]
+     ] [
+       fhir:part [ fhir:v "coated tablet" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000005" ] ;
+           fhir:display [ fhir:v "Pharmaceutical dose form part" ]
+         ] )
+       ]
+     ] ) ;
+     fhir:usage ( [
+       fhir:country [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ES" ] ;
+           fhir:display [ fhir:v "Spain" ]
+         ] )
+       ] ;
+       fhir:jurisdiction [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ES" ] ;
+           fhir:display [ fhir:v "Spain" ]
+         ] )
+       ] ;
+       fhir:language [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "en" ] ;
+           fhir:display [ fhir:v "English" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b> a fhir:ManufacturedItemDefinition ;
+  fhir:id [ fhir:v "mid-e762a2f54b0b24fca4744b1bb7524a5b"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ManufacturedItemDefinition_mid-e762a2f54b0b24fca4744b1bb7524a5b\"> </a><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"mid-e762a2f54b0b24fca4744b1bb7524a5b\"> </a><a name=\"hcmid-e762a2f54b0b24fca4744b1bb7524a5b\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;mid-e762a2f54b0b24fca4744b1bb7524a5b&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/x (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Coated tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000073380)</span></p><p><b>unitOfPresentation</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002152)</span></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "x" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:manufacturedDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000073380" ] ;
+       fhir:display [ fhir:v "Coated tablet" ]
+     ] )
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000002152" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

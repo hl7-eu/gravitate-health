@@ -1,0 +1,75 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/DocumentReference/asm-flucelvax-test-script-1> a fhir:DocumentReference ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "asm-flucelvax-test-script-1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalSupportMaterial"^^xsd:anyURI ;
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalSupportMaterial>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DocumentReference asm-flucelvax-test-script-1</b></p><a name=\"asm-flucelvax-test-script-1\"> </a><a name=\"hcasm-flucelvax-test-script-1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-AdditionalSupportMaterial.html\">Additional Support Material Profile</a></p></div><p><b>RelatedMedicalIssue</b>: <span title=\"Codes:{http://snomed.info/sct 86406008}\">Human immunodeficiency virus infection (disorder)</span></p><p><b>identifier</b>: <code>http://example.org</code>/testscript5</p><p><b>version</b>: 1.0</p><p><b>status</b>: Current</p><p><b>docStatus</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs MDM}\">Medication and Disease Management</span></p><p><b>subject</b>: <a href=\"Bundle-bundlepackageleaflet-en-04c9bd6fb89d38b2d83eced2460c4dc1.html#MedicinalProductDefinition_mpb6ced64d25ea2c8da6c6099386f14db1\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/18/1326/001,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82717; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>author</b>: WEBMD</p><p><b>description</b>: </p><div><p>Immunizations for Preventable Diseases in Adults and Adolescents with HIV</p>\n</div><blockquote><p><b>content</b></p><h3>Attachments</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>ContentType</b></td><td><b>Language</b></td><td><b>Url</b></td><td><b>Title</b></td></tr><tr><td style=\"display: none\">*</td><td/><td>text/html</td><td>English</td><td><a href=\"https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/immunizations\">https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/immunizations</a></td><td>Immunizations for Preventable Diseases in Adults and Adolescents with HIV</td></tr></table></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/RelatedMedicalIssue"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableReference ;
+       fhir:concept [
+         fhir:coding ( [
+           a sct:86406008 ;
+           fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "86406008" ] ;
+           fhir:display [ fhir:v "Human immunodeficiency virus infection (disorder)" ]
+         ] )
+       ]
+     ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://example.org"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "testscript5" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.0"] ; # 
+  fhir:status [ fhir:v "current"] ; # 
+  fhir:docStatus [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MDM" ]
+     ] )
+  ] ) ; # 
+  fhir:subject [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpb6ced64d25ea2c8da6c6099386f14db1> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mpb6ced64d25ea2c8da6c6099386f14db1" ]
+  ] ; # 
+  fhir:author ( [
+     fhir:display [ fhir:v "WEBMD" ]
+  ] ) ; # 
+  fhir:description [ fhir:v "Immunizations for Preventable Diseases in Adults and Adolescents with HIV"] ; # 
+  fhir:content ( [
+     fhir:attachment [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "URL"
+         ]
+       ] ) ;
+       fhir:contentType [ fhir:v "text/html" ] ;
+       fhir:language [ fhir:v "en" ] ;
+       fhir:url [ fhir:v "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/immunizations"^^xsd:anyURI ] ;
+       fhir:title [ fhir:v "Immunizations for Preventable Diseases in Adults and Adolescents with HIV" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

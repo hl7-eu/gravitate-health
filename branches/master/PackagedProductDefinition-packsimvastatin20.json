@@ -1,0 +1,63 @@
+{
+  "resourceType" : "PackagedProductDefinition",
+  "id" : "packsimvastatin20",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"packsimvastatin20\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;packsimvastatin20&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0sim4291012F1022\u00a0(use:\u00a0OFFICIAL)</p><p><b>name</b>: Simvastatin 20 mg tablets blister</p><p><b>type</b>: Chemical Medininal Prodcut <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-medprodsimvastatin20.html\">MedicinalProductDefinition/medprodsimvastatin20</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2002-08-01 13:28:17+0000</p><p><b>containedItemQuantity</b>: 20 mg</p><p><b>manufacturer</b>: <a href=\"Organization-orgohara.html\">Organization/orgohara</a> &quot;Ohara Pharmaceutical Co., Ltd.&quot;</p><h3>Packagings</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td style=\"display: none\">*</td><td>id:\u00a0placeholder</td><td>Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073496)</span></td><td>30</td><td>PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003222)</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://pmda-packinsertno/",
+    "value" : "sim4291012F1022"
+  }],
+  "name" : "Simvastatin 20 mg tablets blister",
+  "type" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000155527",
+      "display" : "Chemical Medininal Prodcut"
+    }]
+  },
+  "packageFor" : [{
+    "reference" : "MedicinalProductDefinition/medprodsimvastatin20"
+  }],
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active",
+      "display" : "Active"
+    }]
+  },
+  "statusDate" : "2002-08-01T13:28:17Z",
+  "containedItemQuantity" : [{
+    "value" : 20,
+    "unit" : "mg"
+  }],
+  "manufacturer" : [{
+    "reference" : "Organization/orgohara"
+  }],
+  "packaging" : {
+    "identifier" : [{
+      "system" : "https://spor.ema.europa.eu/pmswi",
+      "value" : "placeholder"
+    }],
+    "type" : {
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "100000073496",
+        "display" : "Blister"
+      }]
+    },
+    "quantity" : 30,
+    "material" : [{
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "200000003222",
+        "display" : "PolyVinyl Chloride"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Ingredient xmlns="http://hl7.org/fhir">
+  <id value="ingredient-for-2c0c197a41a706fb2549601e635da1f3"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="ingredient-for-2c0c197a41a706fb2549601e635da1f3"> </a><a name="hcingredient-for-2c0c197a41a706fb2549601e635da1f3"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;ingredient-for-2c0c197a41a706fb2549601e635da1f3&quot; </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/B3EV5T8SUF (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="ManufacturedItemDefinition-mid-04c9bd6fb89d38b2d83eced2460c4dc1.html">ManufacturedItemDefinition/mid-04c9bd6fb89d38b2d83eced2460c4dc1</a></li><li><a href="MedicinalProductDefinition-mpb6ced64d25ea2c8da6c6099386f14db1.html">MedicinalProductDefinition/mpb6ced64d25ea2c8da6c6099386f14db1</a></li><li><a href="AdministrableProductDefinition-ap-04c9bd6fb89d38b2d83eced2460c4dc1.html">AdministrableProductDefinition/ap-04c9bd6fb89d38b2d83eced2460c4dc1</a></li></ul><p><b>role</b>: active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Concept</b></td></tr><tr><td style="display: none">*</td><td>INFLUENZA B VIRUS B/SINGAPORE/INFTT-16-0610/2016 WHOLE <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (beta#B3EV5T8SUF)</span></td></tr></table><h3>Strengths</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style="display: none">*</td><td>15 ug<span style="background: LightGoldenRodYellow"> (Details: UCUM code ug = 'ug')</span></td><td>active ingredient - basis of strength <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/>
+    <value value="B3EV5T8SUF"/>
+  </identifier>
+  <status value="active"/>
+  <for>
+    <reference value="ManufacturedItemDefinition/mid-04c9bd6fb89d38b2d83eced2460c4dc1"/>
+  </for>
+  <for>
+    <reference value="MedicinalProductDefinition/mpb6ced64d25ea2c8da6c6099386f14db1"/>
+  </for>
+  <for>
+    <reference value="AdministrableProductDefinition/ap-04c9bd6fb89d38b2d83eced2460c4dc1"/>
+  </for>
+  <role>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000072082"/>
+      <display value="active"/>
+    </coding>
+  </role>
+  <substance>
+    <code>
+      <concept>
+        <coding>
+          <system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/>
+          <code value="B3EV5T8SUF"/>
+          <display value="INFLUENZA B VIRUS B/SINGAPORE/INFTT-16-0610/2016 WHOLE"/>
+        </coding>
+      </concept>
+    </code>
+    <strength>
+      <presentationQuantity>
+        <value value="15"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="ug"/>
+      </presentationQuantity>
+      <basis>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+          <code value="ACTIB"/>
+          <display value="active ingredient - basis of strength"/>
+        </coding>
+      </basis>
+    </strength>
+  </substance>
+</Ingredient>

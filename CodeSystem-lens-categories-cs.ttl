@@ -1,0 +1,84 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/lens-categories-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "lens-categories-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem lens-categories-cs</b></p><a name=\"lens-categories-cs\"> </a><a name=\"hclens-categories-cs\"> </a><p>This case-insensitive code system <code>http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/lens-categories-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">IPS<a name=\"lens-categories-cs-IPS\"> </a></td><td>IPS</td></tr><tr><td style=\"white-space:nowrap\">AI<a name=\"lens-categories-cs-AI\"> </a></td><td>AI</td></tr><tr><td style=\"white-space:nowrap\">SM<a name=\"lens-categories-cs-SM\"> </a></td><td>Support Material</td></tr><tr><td style=\"white-space:nowrap\">allergy<a name=\"lens-categories-cs-allergy\"> </a></td><td>Allergy</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Dansk (Danish, da)</b></td><td><b>English (English, en)</b></td></tr><tr><td>IPS</td><td>IPS</td><td>IPS</td></tr><tr><td>AI</td><td>AI</td><td>AI</td></tr><tr><td>SM</td><td>Support Material</td><td>Support Material</td></tr><tr><td>allergy</td><td>Allergies</td><td>Allergies</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/lens-categories-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "LensCategoriesCS"] ; # 
+  fhir:title [ fhir:v "Lens Categories Code System"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2026-09-17T14:07:28+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Gravitate Health Project"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Lens Categories Code System"] ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "IPS" ] ;
+     fhir:display [ fhir:v "IPS" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "IPS" ]
+     ] [
+       fhir:language [ fhir:v "da" ] ;
+       fhir:value [ fhir:v "IPS" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AI" ] ;
+     fhir:display [ fhir:v "AI" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "AI" ]
+     ] [
+       fhir:language [ fhir:v "da" ] ;
+       fhir:value [ fhir:v "AI" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM" ] ;
+     fhir:display [ fhir:v "Support Material" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Support Material" ]
+     ] [
+       fhir:language [ fhir:v "da" ] ;
+       fhir:value [ fhir:v "Support Material" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "allergy" ] ;
+     fhir:display [ fhir:v "Allergy" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Allergies" ]
+     ] [
+       fhir:language [ fhir:v "da" ] ;
+       fhir:value [ fhir:v "Allergies" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,36 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Observation/pedro-dimension-1> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "pedro-dimension-1"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"pedro-dimension-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pedro-dimension-1&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: employment <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pd-type-cs.html\">Persona Vector Dimensions Code</a>#EMP)</span></p><p><b>subject</b>: <span>: Pedro-patient</span></p><p><b>effective</b>: 2019-01-01 00:00:00+0000</p><p><b>value</b>: Currently employed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#currenly-employed)</span></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/pd-type-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "EMP" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:display [ fhir:v "Pedro-patient" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2019-01-01T00:00:00Z"^^xsd:dateTime] ; # 
+  fhir:value [
+     a fhir:CodeableConcept ;
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://example.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "currenly-employed" ] ;
+       fhir:display [ fhir:v "Currently employed" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

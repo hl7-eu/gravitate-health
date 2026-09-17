@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI document Bundle for Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.206"}
+    h3,h4,h5,h6{--heading-prefix:"16.206"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-bundlePersonalizedPlTalzenna.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlePersonalizedPlTalzenna.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundlePersonalizedPlTalzenna.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Example Bundle: ePI document Bundle for Talzenna® (talazoparib) 0.25 mg and 1mg hard capsules</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>Package leaflet: Information for the patient</h3>
+    <p>
+      <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Talzenna<sup>&#174;</sup> 0.25 mg hard capsules</b></p><p><b>Talzenna<sup>&#174;</sup> 1 mg hard capsules</b></p><p>talazoparib</p><p>&#9660; This medicine is subject to additional monitoring. This will allow quick identification of new safety information. You can help by reporting any side effects you may get. See the end of section 4 for how to report side effects.</p><p><b>Read all of this leaflet carefully before you start taking this medicine because it contains important information for you.</b></p><ul><li>Keep this leaflet. You may need to read it again.</li><li>If you have any further questions, ask your doctor, pharmacist or nurse.</li><li>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.</li><li>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects not listed in this leaflet. See section 4.</li></ul></div></p>
+    
+      
+
+        <h4>What is in this leaflet</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><ol><li>What Talzenna is and what it is used for</li><li>What you need to know before you take Talzenna</li><li>How to take Talzenna</li><li>Possible side effects</li><li>How to store Talzenna</li><li>Contents of the pack and other information</li></ol></div></p>
+
+      
+    
+  
+    <h3>1. What Talzenna is and what it is used for</h3>
+    <p>
+      <div xmlns="http://www.w3.org/1999/xhtml"><p><b>What Talzenna is and how it works</b></p><p>Talzenna contains the active substance talazoparib. It is a type of anticancer medicine known as a ‘PARP (poly-ADP ribose polymerase) inhibitor’.</p><p>Patients with changes (mutations) in genes called BRCA are at risk of developing some forms of cancer. Talzenna works by blocking PARP, which is an enzyme that repairs damaged DNA in certain cancer cells. As a result, the cancer cells can no longer repair themselves and they die.</p><p><b>What Talzenna is used for</b></p><p>Talzenna is used to treat adults with breast cancer of a type known as HER2-negative breast cancer who have an abnormal inherited BRCA gene.</p><p>Talzenna is used when the cancer has spread beyond the original tumour or to other parts of the body.</p><p>Your healthcare provider will perform a test to make sure that Talzenna is right for you.</p><p>If you have any questions about how Talzenna works or why this medicine has been prescribed for you, ask your doctor.</p></div></p>
+    
+  
+    <h3>2. What you need to know before you take Talzenna</h3>
+    <p>
+      <div xmlns="http://www.w3.org/1999/xhtml">unavailable</div></p>
+    
+      
+
+        <h4>Do not take Talzenna</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><ul><li><p>If you are allergic to talazoparib or any of the other ingredients of this medicine (listed in section 6).</p></li><li><p>If you are breast-feeding.</p></li></ul></div></p>
+
+      
+
+        <h4>Warnings and precautions</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Talk to your doctor, pharmacist or nurse before taking Talzenna and during your treatment if you experience signs or symptoms described in this section.</p><p>Low blood cell counts</p><p>Talzenna lowers your blood cell counts, such as your red blood cell count (anaemia), white blood cell count (neutropenia), or blood platelet count (thrombocytopenia). Signs and symptoms you need to look out for include:</p><ul><li><p><b>Anaemia: </b>Being short of breath, feeling very tired, pale skin, or fast heartbeat – these may be</p><p>signs of a low red blood cell count</p></li><li><p><b>Neutropenia: </b>Infection, developing chills or shivering, or fever – these may be signs of a low</p><p>white blood cell count</p></li><li><p><b>Thrombocytopenia: </b>Bruising or bleeding for longer than usual if you hurt yourself – these may be signs of a low blood platelet count</p></li></ul><p>You will have regular blood tests during treatment with Talzenna to check your blood cells (white blood cells, red blood cells, and platelets).</p><p>Serious problems with the bone marrow</p><p>Rarely, low blood cell counts may be a sign of more serious problems with the bone marrow such as myelodysplastic syndrome (MDS) or acute myeloid leukaemia (AML). Your doctor may want to test your bone marrow to check for these problems.</p><p>Male and female contraception</p><p>Women who can become pregnant and men with partners who are or can become pregnant should use effective contraception.</p><p>Please see section “Male and female contraception” below.</p></div></p>
+
+      
+
+        <h4>Children and adolescents</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Talzenna is not to be used in children or adolescents (under 18 years of age).</p></div></p>
+
+      
+
+        <h4>Other medicines and Talzenna</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Tell your doctor, pharmacist or nurse if you are taking, have recently taken or might take any other medicines. This includes medicines obtained without a prescription and herbal medicines. This is because Talzenna can affect the way some other medicines work. Also some medicines can affect the way Talzenna works.</p><p>In particular, the following may increase the risk of side effects with Talzenna:</p><ul><li><p>Amiodarone, carvedilol, dronedarone, propafenone, quinidine, ranolazine and verapamil – generally used to treat heart problems.</p></li><li><p>Clarithromycin and erythromycin antibiotics – used to treat bacterial infections.</p></li><li><p>Itraconazole and ketoconazole – used to treat fungal infections.</p></li><li><p>Cobicistat, darunavir, indinavir, lopinavir, ritonavir, saquinavir, telaprevir and tipranavir - used to treat HIV infections/AIDS.</p></li><li><p>Ciclosporin – used in organ transplantation to prevent rejection.</p></li><li><p>Lapatinib – used to treat patients with certain types of breast cancer.</p></li><li><p>Curcumin (e.g. found in turmeric root) in some medicines (see also section Talzenna with food and drink below).</p></li></ul><p>The following medicines may reduce the effect of Talzenna:</p><ul><li><p>Carbamazepine and phenytoin – anti-epileptics used to treat seizures or fits.</p></li><li><p>St. John’s wort (<i>Hypericum perforatum</i>) – a herbal remedy used to treat mild depression and</p><p>anxiety.</p></li></ul></div></p>
+
+      
+
+        <h4>Talzenna with food and drink</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Do not use curcumin in food supplements while you are taking Talzenna as it may increase Talzenna’s side effects. Curcumin is found in turmeric root and you should not use large amounts of turmeric root, but using spices in food is not likely to cause a problem.</p></div></p>
+
+      
+
+        <h4>Pregnancy</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Talzenna could harm an unborn baby. If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your doctor or pharmacist for advice before taking this medicine. Your doctor will perform a pregnancy test prior to starting Talzenna.</p><ul><li><p>You should not use Talzenna if you are pregnant.</p></li><li><p>You should not become pregnant while taking Talzenna.</p></li><li><p>Discuss contraception with your doctor if there is any possibility that you or your partner may become pregnant.</p></li></ul><p><b>Male and female contraception</b></p><p><b>Women </b>who are able to become pregnant should use effective birth control (contraception) during treatment with Talzenna and for at least 7 months after the last dose of Talzenna. Since the use of hormonal contraception is not recommended if you have breast cancer, you should use two non-hormonal contraception methods.</p><p>Talk to your healthcare provider about birth control methods that may be right for you.</p><p><b>Men </b>with female partners who are pregnant or able to become pregnant should use effective birth control (contraception), even after a vasectomy, during treatment with Talzenna and for at least 4 months after the last dose.</p></div></p>
+
+      
+
+        <h4>Breast-feeding</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>You should not breast-feed while taking Talzenna and for at least 1 month after the last dose. It is not known if Talzenna passes into breast milk.</p></div></p>
+
+      
+
+        <h4>Fertility</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Talazoparib may reduce fertility in men.</p></div></p>
+
+      
+
+        <h4>Driving and using machines</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Talzenna may have a minor influence on the ability to drive and use machines. If you feel dizzy, weak, or tired (these are very common side effects of Talzenna), you should not drive or use machines.</p></div></p>
+
+      
+    
+  
+    <h3>3. How to take Talzenna</h3>
+    <p>
+      <div xmlns="http://www.w3.org/1999/xhtml"><p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor or pharmacist if you are not sure.</p><p><b>How much to take</b></p><p>The recommended dose is one 1-mg capsule taken by mouth once daily.</p><p>If you get certain side effects while you are taking Talzenna (see section 4), your doctor may lower your dose or stop treatment, either temporarily or permanently. The dose may be lowered to 0.75 mg (taken as three 0.25-mg capsules) once daily, or 0.5 mg (two 0.25-mg capsules) once daily, or 0.25 mg (one 0.25-mg capsule) once daily.</p><p>Swallow the capsule whole with a glass of water. Do not chew or crush the capsules. You can take Talzenna with food or between meals. Do not open the capsules. Contact with the capsule content should be avoided.</p></div></p>
+    
+      
+
+        <h4>If you take more Talzenna than you should</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>If you have taken more Talzenna than your normal dose, contact your doctor or nearest hospital right away. Urgent treatment may be necessary.</p><p>Take the carton and this leaflet so that the doctor knows what you have been taking.</p></div></p>
+
+      
+
+        <h4>If you forget to take Talzenna</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>If you miss a dose or vomit, take your next dose as scheduled. Do not take a double dose to make up for the forgotten or vomited capsules.</p></div></p>
+
+      
+
+        <h4>If you stop taking Talzenna</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Do not stop taking Talzenna unless your doctor tells you to.</p><p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist or nurse.</p></div></p>
+
+      
+    
+  
+    <h3>4. Possible side effects</h3>
+    <p>
+      <div xmlns="http://www.w3.org/1999/xhtml"><p>Like all medicines, this medicine can cause side effects, although not everybody gets them.</p><p><b>Tell your doctor straight away if you notice any of the following symptoms which could be a sign of serious blood disorder:</b></p><p><b>Very common</b> (may affect more than 1 in 10 people)</p><ul><li>Being short of breath, feeling very tired, having pale skin, or fast heartbeat – these may be signs of a low red blood cell count (anaemia).</li><li>Infection, developing chills or shivering, or fever or feeling hot – these may be signs of a low white blood cell count (neutropenia).</li><li>Bruising or bleeding for longer than usual if you hurt yourself – these may be signs of a low blood platelet count (thrombocytopenia).</li></ul><p><b>Talk to your doctor if you get any other side effects. These can include:</b></p><p><b>Very common</b> (may affect more than 1 in 10 people)</p><ul><li>Low counts of white blood cells, red blood cells, and blood platelets</li><li>Decreased appetite</li><li>Feeling dizzy</li><li>Headache</li><li>Feeling sick (nausea)</li><li>Being sick (vomiting)</li><li>Diarrhoea</li><li>Pain in the abdomen</li><li>Hair loss</li></ul><p><b>Common</b> (may affect up to 1 in 10 people)</p><ul><li>Alteration in taste (dysgeusia)</li><li>Indigestion</li><li>Mouth inflammation</li></ul></div></p>
+    
+      
+
+        <h4>Reporting of side effects</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the Yellow Card Scheme at: <a href="http://www.mhra.gov.uk/yellowcard">www.mhra.gov.uk/yellowcard</a> or search for MHRA Yellow Card in the Google Play or Apple App Store. By reporting side effects you can help provide more information on the safety of this medicine.</p></div></p>
+
+      
+    
+  
+    <h3>5. How to store Talzenna</h3>
+    <p>
+      <div xmlns="http://www.w3.org/1999/xhtml"><p>Keep this medicine out of the sight and reach of children.</p><p>Do not use this medicine after the expiry date which is stated on the carton and the bottle or blister after EXP. The expiry date refers to the last day of that month.</p><p>This medicine does not require any special storage conditions.</p><p>Do not use this medicine if the pack is damaged or shows signs of tampering.</p><p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.</p></div></p>
+    
+  
+    <h3>6. Contents of the pack and other information</h3>
+    <p>
+      <div xmlns="http://www.w3.org/1999/xhtml">unavailable</div></p>
+    
+      
+
+        <h4>What Talzenna contains</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><ul><li><p>The active substance is talazoparib. Talzenna hard capsules come in different strengths.</p></li><li><p><span class="contraindication">Talzenna 0.25 mg hard capsules: each capsule contains talazoparib tosylate equivalent to 0.25 mg talazoparib.</span></p></li><li><p>Talzenna 1 mg hard capsules: each capsule contains talazoparib tosylate equivalent to 1 mg talazoparib.</p></li></ul><p>The other ingredients are:</p><ul><li><p>Capsule content: silicified microcrystalline cellulose (sMCC) (microcrystalline cellulose and silicone dioxide).</p></li><li><p>0.25 mg capsule shell: hypromellose (HPMC), yellow iron oxide (E172), and titanium dioxide (E171)</p></li><li><p>1 mg capsule shell: hypromellose (HPMC), yellow iron oxide (E172), titanium dioxide (E171), and red iron oxide (E172)</p></li></ul><p>Printing ink: shellac (E904), propylene glycol (E1520), ammonium hydroxide (E527), black iron oxide (E172), and potassium hydroxide (E525).</p></div></p>
+
+      
+
+        <h4>What Talzenna looks like and contents of the pack</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p><span class="strength025">Talzenna 0.25 mg is supplied as opaque, approximately 14.30 mm x 5.32 mm hard capsule with an ivory cap (printed with “Pfizer” in black) and a white body (printed with “TLZ 0.25” in black).</span></p><p><span class="strength1">Talzenna 1 mg is supplied as opaque, approximately 14.30 mm x 5.32 mm hard capsule with a light red cap (printed with “Pfizer” in black) and a white body (printed with “TLZ 1” in black).</span></p><p><span class="strength025">Talzenna 0.25 mg is available in perforated unit dose blister packs of 30, or 60, or 90 hard capsules and in plastic bottles of 30 hard capsules.</span></p><p><span class="strength1">Talzenna 1 mg is available in perforated unit dose blister packs of 30 hard capsules and in plastic bottles of 30 hard capsules.</span></p><p>Not all pack sizes may be marketed.</p></div></p>
+
+      
+
+        <h4>Marketing Authorization Holder and Manufacturer</h4>
+        <p>
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Pfizer Limited</p><p>Ramsgate Road</p><p>Sandwich</p><p>Kent</p><p>CT13 9NJ</p><p>United Kingdom</p><p><b>Manufacturer</b></p><p>Excella GmbH &amp; Co. KG</p><p>Nürnberger Strasse 12</p><p>90537 Feucht</p><p>Germany</p><p>For any information about this medicine, please contact:</p><p>Medical Information, Pfizer Ltd, Walton Oaks, Dorking Road, Tadworth, Surrey, KT20 7NS.</p><p>Telephone 01304 616161</p><p><b>This leaflet was last revised in 12/2021</b></p></div></p>
+
+      
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Talzenna® (talazoparib) 0.25 mg hard capsules
+  </h4>
+
+  
+  
+    WWW.MHRA.GOV.UK:
+    <b>
+      471bb15-7f52-4fcd-b615-8674ce6eb91e
+    </b>
+    </br>
+  
+  <hr>
+  
+  <p>Full name: <b>Talzenna® (talazoparib) 0.25 mg hard capsules</b></p>
+  
+    <p>
+      - :
+      <b>
+        Talzenna
+      </b>
+    </p>
+  
+    <p>
+      - :
+      <b>
+        talazoparib
+      </b>
+    </p>
+  
+    <p>
+      - :
+      <b>
+        0.25 mg
+      </b>
+    </p>
+  
+    <p>
+      - :
+      <b>
+        Capsule, hard
+      </b>
+    </p>
+  
+
+
+  
+  
+  
+    <div>
+      <p>
+        Name usage:
+        
+
+          <b>English (United Kingdom)</b>
+        </p>
+
+      
+    </div>
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b>active</b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+
+  
+  
+    
+
+  
+
+  
+
+
+      
+  
+</div>
+
+
+<!--
+  <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Talzenna® (talazoparib) 0.25 mg hard capsules
+  </h4>
+
+  
+  
+  
+  
+    WWW.MHRA.GOV.UK:
+    <b>
+      471bb15-7f52-4fcd-b615-8674ce6eb91e
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b>active</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Jan 21, 2024 22:55+0000">2024-01-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

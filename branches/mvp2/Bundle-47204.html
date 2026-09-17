@@ -1,0 +1,1088 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>PENTASA depottabletti 500 mg (Bundle) - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.480"}
+    h3,h4,h5,h6{--heading-prefix:"16.480"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>PENTASA depottabletti 500 mg (Bundle)</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-47204.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-47204.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-47204.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Bundle: PENTASA depottabletti 500 mg (Bundle)</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>Lisätietoa</h3>
+    <p>
+      <div>
+                     <b></b>
+                     <b>
+                        <strong>PENTASA<sup>&reg;</sup> 500 mg depottabletti</strong>
+                     </b>
+                     <p>mesalatsiini</p>
+                  </div></p>
+    
+      
+
+        <h4>Yleisiä ohjeita</h4>
+        <p>
+          <div>
+                        <h2>Yleisiä ohjeita</h2>
+                        <b>
+                           <strong>Lue tämä pakkausseloste huolellisesti, ennen kuin aloitat lääkkeen käyttämisen, sillä se sisältää sinulle tärkeitä tietoja.</strong>
+                        </b>
+                        <ul>
+                           <li>Säilytä tämä pakkausseloste. Voit tarvita sitä myöhemmin.</li>
+                           <li>Jos sinulla on kysyttävää, käänny lääkärin tai apteekkihenkilökunnan puoleen.</li>
+                           <li>Tämä lääke on määrätty vain sinulle eikä sitä tule antaa muiden käyttöön. Se voi aiheuttaa haittaa muille, vaikka heillä olisikin samanlaiset oireet kuin sinulla.</li>
+                           <li>Jos havaitset haittavaikutuksia, käänny lääkärin tai apteekkihenkilökunnan puoleen. Tämä koskee myös sellaisia mahdollisia haittavaikutuksia, joita ei ole mainittu tässä pakkausselosteessa. Ks. kohta <a class="cross-reference">Mahdolliset haittavaikutukset</a>.</li>
+                        </ul>
+                     </div></p>
+
+      
+
+        <h4>Tässä pakkausselosteessa kerrotaan</h4>
+        <p>
+          <div>
+                        <h2>Tässä pakkausselosteessa kerrotaan</h2>
+                        <p> 1. Mitä Pentasa on ja mihin sitä käytetään</p>
+                        <p> 2. Mitä sinun on tiedettävä, ennen kuin käytät Pentasaa</p>
+                        <p> 3. Miten Pentasaa käytetään</p>
+                        <p> 4. Mahdolliset haittavaikutukset</p>
+                        <p> 5. Pentasan säilyttäminen</p>
+                        <p> 6. Pakkauksen sisältö ja muuta tietoa</p>
+                     </div></p>
+
+      
+
+        <h4>Mitä valmiste on ja mihin sitä käytetään</h4>
+        <p>
+          <div>
+                        <h2>Mitä valmiste on ja mihin sitä käytetään</h2>
+                        <p>Pentasa-depottabletin vaikuttavalla aineella mesalatsiinilla on tulehdusta parantava vaikutus suolistossa. Pentasa vaikuttaa erityisesti suoliston seinämässä sijaitsevaan tulehtuneeseen kudokseen.</p>
+                        <p>Pentasa-depottabletteja käytetään haavaiseen paksusuolitulehdukseen ja Crohnin tautiin.</p>
+                        <p>Mesalatsiinia, jota Pentasa sisältää, voidaan joskus käyttää myös muiden kuin tässä pakkausselosteessa mainittujen sairauksien hoitoon.</p>
+                        <p>Kysy neuvoa lääkäriltä, apteekkihenkilökunnalta tai muulta terveydenhuollon ammattilaiselta tarvittaessa ja noudata aina heiltä saamiasi ohjeita.</p>
+                     </div></p>
+
+      
+
+        <h4>Mitä sinun on tiedettävä ennen valmisteen käyttöä</h4>
+        <p>
+          <div>
+                        <h2>Mitä sinun on tiedettävä ennen valmisteen käyttöä</h2>
+                        <p>
+                           <strong>Älä käytä Pentasa-depottabletteja</strong>
+                        </p>
+                        <ul>
+                           <li>jos olet allerginen mesalatsiinille tai tämän lääkkeen jollekin muulle aineelle (lueteltu kohdassa <a class="cross-reference">Pakkauksen sisältö ja muuta tietoa</a>).</li>
+                           <li>jos olet allerginen salisylaateille</li>
+                           <li>jos sinulla on vaikea maksa- tai munuaissairaus.</li>
+                        </ul>
+                        <p>
+                           <strong>Varoitukset ja varotoimet</strong>
+                        </p>
+                        <p>Keskustele lääkärin tai apteekkihenkilökunnan kanssa ennen kuin käytät Pentasaa</p>
+                        <ul>
+                           <li>jos sinulla on tai on ollut alentunut maksan tai munuaisten toiminta</li>
+                           <li>jos olet allerginen (yliherkkä) sulfasalatsiinille</li>
+                           <li>jos käytät munuaisten toimintaan mahdollisesti vaikuttavaa lääkitystä</li>
+                           <li>jos sinulla on keuhkosairaus, erityisesti astma</li>
+                           <li>jos sinua hoidetaan atsatiopriinia, 6-merkaptopuriinia tai tioguaniinia sisältävällä valmisteella</li>
+                           <li>jos sinulla ilmaantuu äkillisesti kramppeja, vatsakipua, kuumetta, kovaa päänsärkyä ja ihottumaa. Tällaisessa tapauksessa lopeta Pentasan käyttö ja ota yhteyttä lääkäriin.</li>
+                           <li>Munuaiskiviä voi muodostua mesalatsiinin käytön yhteydessä. Oireita voivat olla kipu vatsan sivuilla ja veri virtsassa. Muista juoda riittävä määrä nestettä mesalatsiinihoidon aikana.</li>
+                           <li>
+                              <p>jos olet aiemmin saanut vaikean ihottuman tai jos sinulla on esiintynyt ihon kesimistä, rakkuloita ja/tai suun haavaumia mesalatsiinin käytön jälkeen.</p>
+                           </li>
+                        </ul>
+                        <p>Mesalatsiinihoidon yhteydessä on ilmoitettu vakavia ihoreaktioita, mukaan lukien yleisoireista eosinofiilistä oireyhtymää, Stevens-Johnsonin oireyhtymää ja toksista epidermaalista nekrolyysiä. Lopeta mesalatsiinin käyttö ja hakeudu lääkäriin välittömästi, jos huomaat mitä tahansa oireita, jotka liittyvät kohdassa <a class="cross-reference">Mahdolliset haittavaikutukset</a> kuvattuihin vakaviin ihoreaktioihin.</p>
+                        <p>Mesalatsiini voi aiheuttaa virtsan värjäytymisen punaruskeaksi, kun se on ollut kontaktissa natriumhypokloriittia sisältävän valkaisevan puhdistusaineen kanssa WC-pytyssä. Tämä johtuu mesalatsiinin ja valkaisuaineen välisestä kemiallisesta reaktiosta ja on harmitonta.</p>
+                        <p>
+                           <strong>Muut lääkevalmisteet ja Pentasa</strong>
+                        </p>
+                        <p>Kerro lääkärille tai apteekkihenkilökunnalle, jos parhaillaan käytät tai olet äskettäin käyttänyt tai saatat käyttää muita lääkkeitä.</p>
+                        <p>
+                           <strong>Raskaus, imetys ja hedelmällisyys</strong>
+                        </p>
+                        <p>Tiedot raskaudenaikaisesta käytöstä ovat vähäisiä.</p>
+                        <p>Mesalatsiini kulkeutuu äidinmaitoon. Suun kautta otetun mesalatsiinin käytöstä imettävillä naisilla on vain vähän kokemusta. Jos olet raskaana tai imetät, epäilet olevasi raskaana tai jos suunnittelet lapsen hankkimista, kysy lääkäriltä neuvoa ennen tämän lääkkeen käyttöä.</p>
+                        <p>
+                           <strong>Ajaminen ja koneiden käyttö</strong>
+                        </p>
+                        <p>Pentasan vaikutus ajamiseen ja koneiden käyttöön on epätodennäköinen.</p>
+                     </div></p>
+
+      
+
+        <h4>Miten valmistetta käytetään</h4>
+        <p>
+          <div>
+                        <h2>Miten valmistetta käytetään</h2>
+                        <p>Käytä tätä lääkettä juuri siten kuin lääkäri on määrännyt. Tarkista ohjeet lääkäriltä tai apteekista, jos olet epävarma.</p>
+                        <p>
+                           <strong>Annostus</strong>
+                        </p>
+                        <p>
+                           <strong>
+                              <span class="underline">Haavainen paksusuolitulehdus:</span>
+                           </strong>
+                        </p>
+                        <p>
+                           <strong>Aikuiset:</strong>
+                        </p>
+                        <p>
+                           <em>Aktiivisen sairauden hoito:</em>
+                        </p>
+                        <p>Annostus on yksilöllinen, aloitetaan annoksella 2-4 g vuorokaudessa joko kerta-annoksena tai jaettuna useaan annoskertaan. Enimmäisannos on 4 g/vrk.</p>
+                        <p>
+                           <em>Ylläpitohoito:</em>
+                        </p>
+                        <p>Suositeltava annos on 2 g kerran vuorokaudessa.</p>
+                        <p>
+                           <strong>Lapset:</strong>
+                        </p>
+                        <p>Saatavissa on vain rajoitetusti tietoa mesalatsiinin tehosta lapsille (6–18-vuotiaat).</p>
+                        <p>
+                           <span class="underline">Yli 6-vuotiaat lapset</span>
+                        </p>
+                        <p>
+                           <em>Aktiivisen sairauden hoito:</em> Annostus määritellään yksilöllisesti, aloittaen annoksesta 30-50 mg/kg/vrk jaettuna useaan annoskertaan. Maksimiannos on 75 mg/kg/vrk jaettuna useaan annoskertaan. Kokonaisannos ei saa ylittää 4 g/vrk (aikuisten enimmäisannos).</p>
+                        <p>
+                           <em>Ylläpitohoito: </em>Annostus määritellään yksilöllisesti, aloittaen annoksesta 15-30 mg/kg/vrk jaettuna useaan annoskertaan. Kokonaisannos ei saa ylittää aikuisten suositeltua annosta.</p>
+                        <p>Yleisesti suositellaan, että alle 40 kg painoisille lapsille annetaan puolet aikuisen annoksesta ja yli 40 kg painaville lapsille aikuisen annos.</p>
+                        <p>
+                           <strong>
+                              <span class="underline">Crohnin tauti:</span>
+                           </strong>
+                        </p>
+                        <p>
+                           <strong>Aikuiset:</strong>
+                        </p>
+                        <p>
+                           <em>Aktiivisen sairauden hoito:</em>
+                        </p>
+                        <p>Annostus on yksilöllinen, aloitetaan annoksella 2-4 g vuorokaudessa jaettuna useaan annoskertaan. Enimmäisannos on 4 g/vrk.</p>
+                        <p>
+                           <em>Ylläpitohoito:</em> Suositeltava annos on 2-3 g vuorokaudessa jaettuna useaan annoskertaan.</p>
+                        <p>
+                           <strong>Lapset:</strong>
+                        </p>
+                        <p>Saatavissa on vain rajoitetusti tietoa mesalatsiinin tehosta lapsille (6–18-vuotiaat).</p>
+                        <p>
+                           <span class="underline">Yli 6-vuotiaat lapset</span>
+                        </p>
+                        <p>
+                           <em>Aktiivisen sairauden hoito:</em> Annostus määritellään yksilöllisesti, aloittaen annoksesta 30-50 mg/kg/vrk jaettuna useaan annoskertaan. Maksimiannos on 75 mg/kg/vrk jaettuna useaan annoskertaan. Kokonaisannos ei saa ylittää 4 g/vrk (aikuisten enimmäisannos).</p>
+                        <p>
+                           <em>Ylläpitohoito: </em>Annostus määritellään yksilöllisesti, aloittaen annoksesta 15-30 mg/kg/vrk jaettuna useaan annoskertaan. Kokonaisannos ei saa ylittää aikuisten suositeltua annosta.</p>
+                        <p>Yleisesti suositellaan, että alle 40 kg painoisille lapsille annetaan puolet aikuisen annoksesta ja yli 40 kg painaville lapsille aikuisen annos.</p>
+                        <p>Valmiste on tarkoitettu otettavaksi suun kautta.</p>
+                        <p>
+                           <strong>Käyttöohjeet</strong>
+                        </p>
+                        <p>Tabletit on nieltävä kokonaisina tai puolitettuina; ne voidaan myös liuottaa 50 ml vettä tai mehua juuri ennen ottamista. Sekoitetaan ja juodaan välittömästi. Tabletteja ei saa kuitenkaan pureskella eikä jauhaa.</p>
+                        <p>
+                           <strong>Jos käytät enemmän Pentasaa kuin sinun pitäisi</strong>
+                        </p>
+                        <p>Ei tietoa yliannostuksesta. Jos olet ottanut liian suuren lääkeannoksen tai vaikkapa lapsi on ottanut lääkettä vahingossa, ota aina yhteyttä lääkäriin, sairaalaan tai Myrkytystietokeskukseen <span>
+                              <span>(puh. 0800 147 111)</span>
+                           </span> riskien arvioimiseksi ja lisäohjeiden saamiseksi.</p>
+                        <p>
+                           <strong>Jos unohdat ottaa Pentasan</strong>
+                        </p>
+                        <p>Älä ota kaksinkertaista annosta korvataksesi unohtamasi tabletin.</p>
+                        <p>Jos sinulla on kysymyksiä tämän lääkkeen käytöstä, käänny lääkärisi tai apteekin puoleen.</p>
+                     </div></p>
+
+      
+
+        <h4>Mahdolliset haittavaikutukset</h4>
+        <p>
+          <div>
+                        <h2>Mahdolliset haittavaikutukset</h2>
+                        <p>Kuten kaikki lääkkeet, tämäkin lääke voi aiheuttaa haittavaikutuksia. Kaikki eivät kuitenkaan niitä saa.</p>
+                        <p>Lopeta mesalatsiinin käyttäminen ja hakeudu välittömästi lääkärin hoitoon, jos sinulla ilmenee jokin seuraavista oireista:</p>
+                        <p>- punoittavat läiskät keholla (maalitaulun näköiset tai rengasmaiset läiskät, joiden keskellä saattaa olla rakkuloita); ihon kesiminen, haavaumat suussa, nielussa, nenässä, sukupuolielimissä ja silmissä, laajalle levinnyt ihottuma, kuume ja imusolmukkeiden suurentuminen. Näitä vakavia ihottumia edeltää usein kuume ja/tai flunssan kaltaiset oireet.</p>
+                        <p>
+                           <em>Yleiset</em>
+                           <em>(yli 1 potilaalla sadasta):</em>
+                        </p>
+                        <p>päänsärky, ripuli, vatsakipu, pahoinvointi, oksentelu, ilmavaivat, ihottuma</p>
+                        <p>
+                           <em>Harvinaiset (alle 1 potilaalla tuhannesta):</em>
+                        </p>
+                        <p>huimaus, sydänlihaksen- ja sydänpussintulehdus, suurentunut amylaasipitoisuus, haimatulehdus, ihon epänormaalin herkkä reagointi auringonvaloon ja ultraviolettivaloon (valoherkkyys).</p>
+                        <p>
+                           <em>Hyvin harvinaiset (alle 1 potilaalla kymmenestätuhannesta):</em>
+                        </p>
+                        <p>verenkuvan muutokset (esim. anemia), yliherkkyysreaktio (esim. allerginen rokkoihottuma), lääkekuume, pistely ja tunnottomuus käsissä ja jaloissa (perifeerinen neuropatia), allerginen keuhkorakkulatulehdus, allergiset keuhkoreaktiot (esim. hengenahdistus ja yskä), koko paksusuolen tulehdus, maksan ja munuaisten toiminnan häiriöt, ohimenevä hiustenlähtö, lihas- ja nivelkipu, punoittava ihottuma, virtsan värjäytyminen, ohimenevä sperman siittiöiden niukkuus.</p>
+                        <p>
+                           <em>Tuntematon (koska saatavissa oleva tieto ei riitä esiintyvyyden arviointiin):</em>
+                        </p>
+                        <p>munuaiskivet ja niihin liittyvä munuaiskipu (ks. myös kohta <a class="cross-reference">Mitä sinun on tiedettävä ennen valmisteen käyttöä</a>).</p>
+                        <p>Pentasa-depottabletit ovat yleensä hyvin siedettyjä.</p>
+                        <p>Useimmat edellä mainituista haittavaikutuksista saattavat liittyä itse sairauteen.</p>
+                        <p>
+                           <span class="underline">Haittavaikutuksista ilmoittaminen </span>
+                        </p>
+                        <p>Jos havaitset haittavaikutuksia, kerro niistä lääkärille, apteekkihenkilökunnalle tai sairaanhoitajalle. Tämä koskee myös sellaisia mahdollisia haittavaikutuksia, joita ei ole mainittu tässä pakkausselosteessa. Voit ilmoittaa haittavaikutuksista myös suoraan (ks. yhteystiedot alla). Ilmoittamalla haittavaikutuksista voit auttaa saamaan enemmän tietoa tämän lääkevalmisteen turvallisuudesta.</p>
+                        <p>www‐sivusto: www.fimea.fi<br/>
+Lääkealan turvallisuus‐ ja kehittämiskeskus Fimea<br/>
+Lääkkeiden haittavaikutusrekisteri<br/>
+PL 55<br/>
+00034 Fimea</p>
+                     </div></p>
+
+      
+
+        <h4>Valmisteen säilyttäminen</h4>
+        <p>
+          <div>
+                        <h2>Valmisteen säilyttäminen</h2>
+                        <p>Säilytä alkuperäispakkauksessa. Herkkä valolle.</p>
+                        <p>Ei lasten ulottuville eikä näkyville.</p>
+                        <p>Älä käytä tätä lääkettä pakkauksessa mainitun viimeisen käyttöpäivämäärän <span>
+                              <span>(EXP) </span>
+                           </span> jälkeen. Viimeinen käyttöpäivämäärä tarkoittaa kuukauden viimeistä päivää.</p>
+                        <p>Lääkkeitä ei tule heittää viemäriin eikä hävittää talousjätteiden mukana. Kysy käyttämättömien lääkkeiden hävittämisestä apteekista. Näin menetellen suojelet luontoa.</p>
+                     </div></p>
+
+      
+
+        <h4>Pakkauksen sisältö ja muuta tietoa</h4>
+        <p>
+          <div>
+                        <h2>Pakkauksen sisältö ja muuta tietoa</h2>
+                        <p>
+                           <strong>Mitä Pentasa sisältää</strong>
+                        </p>
+                        <ul>
+                           <li>Vaikuttava aine on mesalatsiini 500 mg.</li>
+                           <li>Muut aineet ovat mikrokiteinen selluloosa, povidoni, etyyliselluloosa, talkki ja magnesiumstearaatti.</li>
+                        </ul>
+                        <p>
+                           <strong>Lääkevalmisteen kuvaus ja pakkauskoot</strong>
+                        </p>
+                        <p>
+                           <em>Lääkevalmisteen kuvaus: </em>Vaaleanharmaan-valkoisia täplikkäitä tabletteja, halkaisija 13,5 mm, jakouurre, toisella puolella merkintä ”500 mg” ja toisella puolella ”PENTASA”.</p>
+                        <p>
+                           <em>Pakkauskoot: </em>100 tablettia ja 3 x 100 tablettia läpipainopakkauksessa.</p>
+                        <p>Kaikkia pakkauskokoja ei välttämättä ole myynnissä.</p>
+                        <p>
+                           <strong>Myyntiluvan haltija </strong>
+                        </p>
+                        <p>Ferring Lääkkeet Oy<br/>
+PL 23<br/>
+02241 Espoo<br/>
+Puh: 0207 401 440</p>
+                        <p>
+                           <strong>Valmistaja</strong>
+                        </p>
+                        <p>Ferring GmbH<br/>
+Wittland 11<br/>
+24109 Kiel<br/>
+Saksa</p>
+                        <p>
+                           <strong>Tämä seloste on tarkistettu viimeksi </strong>11.1.2023</p>
+                     </div></p>
+
+      
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Pentasa depottab 500 mg
+  </h4>
+
+  
+  
+    LEGEMIDDELMERKEVAREID:
+    <b>
+      ID_E07B70B1-5795-4093-8931-485A0F81D772
+    </b>
+    
+  
+  <hr>
+  
+  <p>Full name: <b>Pentasa depottab 500 mg</b></p>
+  
+
+
+  
+  
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b></b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b></b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 2</p>
+          
+  <p>LEGEMIDDELPAKNINGID:
+  <b>
+    ID_58E989AB-4333-470D-BA5B-F34E711AF682
+  </b>
+  </p>
+
+  <p>VARENUMMER:
+  <b>
+    021196
+  </b>
+  </p>
+
+<p>
+  Description:
+  
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b> </b>
+  
+  
+</p>
+
+<p>Containing:
+  
+
+
+
+
+  
+</p>
+        </div>
+      
+    
+  
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 2 of 2</p>
+          
+  <p>LEGEMIDDELPAKNINGID:
+  <b>
+    ID_A2ADAD6B-DFAC-4198-BC2A-9C9B350E39AB
+  </b>
+  </p>
+
+  <p>VARENUMMER:
+  <b>
+    034512
+  </b>
+  </p>
+
+  <p>VNR:
+  <b>
+    034512
+  </b>
+  </p>
+
+<p>
+  Description:
+  
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b> </b>
+  
+  
+</p>
+
+<p>Containing:
+  
+
+
+
+
+  
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+  
+
+
+
+  <!-- <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Pentasa depottab 500 mg
+  </h4>
+
+  
+  
+  
+  
+    LEGEMIDDELMERKEVAREID:
+    <b>
+      ID_E07B70B1-5795-4093-8931-485A0F81D772
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b></b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 2</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          LEGEMIDDELPAKNINGID:
+          <b>
+            ID_58E989AB-4333-470D-BA5B-F34E711AF682
+          </b>
+        
+          VARENUMMER:
+          <b>
+            021196
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          </b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+    
+    
+    
+      <p class="divtitle"> Package 2 of 2</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          LEGEMIDDELPAKNINGID:
+          <b>
+            ID_A2ADAD6B-DFAC-4198-BC2A-9C9B350E39AB
+          </b>
+        
+          VARENUMMER:
+          <b>
+            034512
+          </b>
+        
+          VNR:
+          <b>
+            034512
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          </b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+  
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+    <!-- insert notes if present -->
+  
+
+
+
+
+            <!-- /inner-wrapper -->
+          <!-- /row -->
+        <!-- /container -->
+      <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  
+
+</p></div></p></div></hr></hr></hr></div></div></div></div></div></div></body></html>

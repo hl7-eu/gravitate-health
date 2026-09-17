@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Provenance xmlns="http://hl7.org/fhir">
+  <id value="signature"/>
+  <meta>
+    <profile value="http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/ProvenanceGH"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Provenance signature</b></p><a name="signature"> </a><a name="hcsignature"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ProvenanceGH.html">Provenance Profile</a></p></div><p>Provenance for <a href="Library/example/_history/1">Library/example/_history/1</a></p><p>Summary</p><table class="grid"><tr><td>Occurrence</td><td>2016-05-26 00:41:10-0400</td></tr><tr><td>Recorded</td><td>2016-05-26 00:41:10-0400</td></tr><tr><td>Activity</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion AU}">authenticated</span></td></tr></table><p><b>Agents</b></p><table class="grid"><tr><td><b>Role</b></td><td><b>who</b></td></tr><tr><td/><td><code>Organization/example/42</code></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/blockchain-transaction-id">
+    <valueString value="xxxxxx"/>
+  </extension>
+  <target>
+    <reference value="Library/example/_history/1"/>
+  </target>
+  <occurredDateTime value="2016-05-26T00:41:10-04:00"/>
+  <recorded value="2016-05-26T00:41:10-04:00"/>
+  <activity>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion"/>
+      <code value="AU"/>
+      <display value="authenticated"/>
+    </coding>
+  </activity>
+  <agent>
+    <role>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+        <code value="AUT"/>
+      </coding>
+    </role>
+    <who>
+      <reference value="Organization/example/42"/>
+    </who>
+  </agent>
+</Provenance>

@@ -1,0 +1,701 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>FK47224 - XML Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.32"}
+    h3,h4,h5,h6{--heading-prefix:"20.32"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>FK47224</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-FK47224.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-FK47224.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-FK47224.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: FK47224 - XML Representation</h2>
+
+
+<p><a href="Bundle-FK47224.xml" no-download="true">Raw xml</a> | <a href="Bundle-FK47224.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle">Bundle</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XBundle.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;FK47224&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XBundle.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XBundle.meta">meta</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XBundle.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;da&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>
+            <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;47224&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.identifier">identifier</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;document&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.timestamp">timestamp</a> <a href="http://hl7.org/fhir/R5/datatypes.html#instant">value</a>=&quot;2023-11-06T01:01:01Z&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://gravitatehealth.eu/fhir/nordic-epi/Composition/FK47224-COMP&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition">Composition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;FK47224-COMP&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;da&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;da&quot; lang=&quot;da&quot;&gt;&lt;a name=&quot;Composition_FK47224-COMP&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Composition FK47224-COMP&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;FK47224-COMP&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcFK47224-COMP&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Language: da&lt;/p&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profiles: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html&quot;&gt;Composition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/&lt;/code&gt;/47224&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://spor.ema.europa.eu/v1/lists/100000155531/terms/ 100000155538}&quot;&gt;100000155538&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2023-11-06&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: Identifier: &lt;code&gt;https://medicin.dk&lt;/code&gt;/medicin.dk&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: Xeljanz 5 mg og 10 mg filmovertrukne tabletter&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;47224&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;final&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                    <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/v1/lists/100000155531/terms/&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;100000155538&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">type</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">subject</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/IBD-MPD-62&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">subject</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">subject</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/IBD-MPD-63&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">subject</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.date">date</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2023-11-06&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">author</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.identifier">identifier</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://medicin.dk&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;medicin.dk&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.identifier">identifier</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">author</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Xeljanz 5 mg og 10 mg filmovertrukne tabletter&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Indlægsseddel: Information til patienten&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                      <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;200000029894&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+            &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Section0&quot;/&gt;&lt;h2&gt;Indlægsseddel: Information til patienten&lt;/h2&gt;&lt;h3&gt;XELJANZ 5 mg filmovertrukne tabletter&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;b&gt;XELJANZ 10 mg filmovertrukne tabletter&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;tofacitinib&lt;/div&gt;&lt;h3&gt;Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den indeholder vigtige oplysninger.&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Gem indlægssedlen. Du kan få brug for at læse den igen.&lt;/li&gt;&lt;li&gt;Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide.&lt;/li&gt;&lt;li&gt;Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.&lt;/li&gt;&lt;li&gt;Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se &lt;a href=&quot;#Section4&quot; title=&quot;Anchor link til afsnit - afsnit 4&quot;&gt;afsnit 4&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Udover denne indlægsseddel vil lægen også give dig et patientkort, som indeholder vigtige sikkerhedsoplysninger, som du skal være opmærksom på, før du tager XELJANZ, og så længe du er i behandling med XELJANZ. Du skal altid have dette patientkort på dig.&lt;br/&gt;&lt;br/&gt;Se den nyeste indlægsseddel på &lt;a href=&quot;https://www.indlaegsseddel.dk&quot; title=&quot;null&quot;&gt;www.indlaegsseddel.dk&lt;/a&gt;&lt;/div&gt;&lt;h3&gt;Oversigt over indlægssedlen&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;Virkning og anvendelse&lt;/li&gt;&lt;li&gt;Det skal du vide, før du begynder at tage XELJANZ&lt;/li&gt;&lt;li&gt;Sådan skal du tage XELJANZ&lt;/li&gt;&lt;li&gt;Bivirkninger&lt;/li&gt;&lt;li&gt;Opbevaring&lt;/li&gt;&lt;li&gt;Pakningsstørrelser og yderligere oplysninger&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;1. Virkning og anvendelse&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;200000029895&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Section1&quot;/&gt;&lt;div&gt; &lt;/div&gt;&lt;h2&gt;1. Virkning og anvendelse&lt;/h2&gt;&lt;div class=&quot;paragraph&quot;&gt;XELJANZ er et lægemiddel, der indeholder det aktive stof tofacitinib.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;XELJANZ bruges til behandling af følgende betændelsessygdomme:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Leddegigt&lt;/li&gt;&lt;li&gt;Psoriasisgigt&lt;/li&gt;&lt;li&gt;Tyktarmsbetændelse&lt;/li&gt;&lt;li&gt;Bechterews sygdom (ankyloserende spondylitis)&lt;/li&gt;&lt;li&gt;Børneleddegigt - polyartikulær børneleddegigt og psoriasisrelateret børneleddegigt&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Leddegigt&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;XELJANZ bruges til at behandle voksne patienter med moderat til svær, aktiv leddegigt, en langvarig sygdom som hovedsagelig giver smerter og hævede led.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;XELJANZ bruges sammen med methotrexat, når den forudgående behandling af leddegigt ikke har været tilstrækkelig eller ikke tåles.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;XELJANZ kan også tages alene i de tilfælde, hvor behandling med methotrexat ikke tåles eller ikke tilrådes.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Det er blevet vist, at XELJANZ nedsætter smerte og hævelse i leddene og forbedrer evnen til at udføre daglige aktiviteter, når det tages alene eller sammen med methotrexat.&lt;/div&gt;&lt;h3&gt;Psoriasisgigt&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;XELJANZ bruges til at behandle voksne patienter med en sygdom, som kaldes psoriasisgigt. Denne sygdom er en betændelsessygdom i leddene, som ofte er ledsaget af psoriasis. Hvis du har aktiv psoriasisgigt, vil du først få et andet lægemiddel til at behandle din psoriasisgigt. Hvis du ikke reagerer tilstrækkeligt eller ikke kan tåle lægemidlet, vil du muligvis få XELJANZ for at nedsætte tegn og symptomer på aktiv psoriasisgigt og forbedre evnen til at udføre daglige aktiviteter.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt; &lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;XELJANZ bruges sammen med methotrexat til at behandle voksne patienter med aktiv psoriasisgigt.&lt;/div&gt;&lt;h3&gt;Bechterews sygdom (ankyloserende spondylitis)&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;XELJANZ anvendes til at behandle en sygdom ved navn Bechterews sygdom (ankyloserende spondylitis). Denne tilstand er en inflammatorisk sygdom i rygsøjlen.&lt;br/&gt;&lt;br/&gt;Hvis du har ankyloserende spondylitis, vil du måske først få et andet lægemiddel. Hvis du ikke reagerer tilstrækkeligt på det lægemiddel, vil du få XELJANZ. XELJANZ kan nedsætte rygsmerter og forbedre fysiske funktioner. Disse virkninger kan gøre dine hverdagsaktiviteter nemmere og forbedre din livskvalitet.&lt;/div&gt;&lt;h3&gt;Tyktarmsbetændelse (colitis ulcerosa)&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Blødende tyktarmsbetændelse er en betændelsessygdom i tyktarmen. XELJANZ anvendes hos voksne patienter til at reducere tegn og symptomer på blødende tyktarmsbetændelse, hvis du ikke har reageret godt nok på eller ikke har kunnet tåle tidligere behandling af tyktarmsbetændelse.&lt;/div&gt;&lt;h3&gt;Børneleddegigt - polyartikulær børneleddegigt og psoriasisrelateret børneleddegigt&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;XELJANZ bruges til at behandle en aktiv polyartikulær børneleddegigt, der er en langvarig sygdom som hovedsagelig giver smerter og hævede led hos patienter, der er 2 år og ældre.&lt;br/&gt;&lt;br/&gt;XELJANZ bruges til at behandle psoriasisrelateret børneleddegigt, en sygdom, der er en betændelsessygdom i leddene, som ofte er ledsaget af psoriasis, hos patienter, der er 2 år og ældre.&lt;br/&gt;&lt;br/&gt;XELJANZ kan bruges sammen med methotrexat, når forudgående behandling af polyartikulær børneleddegigt eller psoriasisrelateret børneleddegigt ikke har været tilstrækkelig eller lægemidlet ikke tåles.&lt;br/&gt;&lt;br/&gt;XELJANZ kan også tages alene i de tilfælde, hvor behandling med methotrexat ikke tåles eller ikke tilrådes.&lt;/div&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;2. Det skal du vide, før du begynder at tage XELJANZ&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;200000029896&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Section2&quot;/&gt;&lt;div&gt; &lt;/div&gt;&lt;h2&gt;2. Det skal du vide, før du begynder at tage XELJANZ&lt;/h2&gt;&lt;h3&gt;Tag ikke XELJANZ:&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;hvis du er allergisk over for tofacitinib eller et af de øvrige indholdsstoffer i XELJANZ (angivet i &lt;a href=&quot;#Section6&quot; title=&quot;Anchor link til afsnit - afsnit 6&quot;&gt;afsnit 6&lt;/a&gt;).&lt;/li&gt;&lt;li&gt;hvis du har en alvorlig infektion, såsom blodforgiftning eller aktiv tuberkulose.&lt;/li&gt;&lt;li&gt;hvis du har fået at vide, at du har alvorlige leverproblemer inklusive skrumpelever (cirrose, ardannelse i leveren).&lt;/li&gt;&lt;li&gt;hvis du er gravid eller ammer.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Hvis du er i tvivl om noget af ovenstående, skal du kontakte lægen.&lt;/div&gt;&lt;h3&gt;Advarsler og forsigtighedsregler&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Kontakt lægen eller apotekspersonalet, før du tager XELJANZ:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;hvis du tror, du har en infektion eller har symptomer på en infektion såsom feber, svedtendens, kuldegysninger, muskelsmerter, hoste, åndenød, slimdannelse eller ændring i slim, vægttab, varm eller rød eller smertefuld hud eller sår på kroppen, synkebesvær eller smerter, når du synker, diarré eller mavesmerter, brændende fornemmelse, når du lader vandet, eller lader vandet hyppigere end normalt, udtalt træthed.&lt;/li&gt;&lt;li&gt;hvis du har en sygdom, som øger din risiko for at få en infektion (fx sukkersyge, HIV/AIDS eller et svagt immunforsvar).&lt;/li&gt;&lt;li&gt;hvis du har en infektion, behandles for en infektion, eller hvis du har infektioner, som bliver ved med at komme igen. Fortæl det straks til lægen, hvis du føler dig utilpas. XELJANZ kan nedsætte kroppens evne til at reagere på infektioner og kan forværre en eksisterende infektion eller øge risikoen for at få en ny infektion.&lt;/li&gt;&lt;li&gt;hvis du har eller har haft tuberkulose eller har været i tæt kontakt med nogen, der har tuberkulose. Din læge vil undersøge, om du har tuberkulose, før du begynder at få XELJANZ og vil måske undersøge dig igen i løbet af behandlingen.&lt;/li&gt;&lt;li&gt;hvis du har kronisk lungesygdom.&lt;/li&gt;&lt;li&gt;hvis du har problemer med leveren.&lt;/li&gt;&lt;li&gt;hvis du har eller har haft hepatitis B eller hepatitis C (virus, som påvirker leveren). Virussen kan blive aktiv, mens du tager XELJANZ. Lægen vil muligvis tage blodprøver og teste dig for hepatitis, før du påbegynder behandling med XELJANZ, og mens du tager XELJANZ.&lt;/li&gt;&lt;li&gt;hvis du er 65 år eller derover, hvis du nogensinde har haft en eller anden form for kræft, også hvis du ryger eller har røget. XELJANZ kan øge din risiko for visse former for kræft. Der er rapporteret om kræft i de hvide blodlegemer, lungekræft og andre former for kræft (såsom brystkræft, hudkræft, prostatakræft og kræft i bugspytkirtlen) hos patienter, der blev behandlet med XELJANZ. Hvis du får kræft, mens du tager XELJANZ, vil din læge overveje, om behandlingen skal stoppes.&lt;/li&gt;&lt;li&gt;hvis du har en kendt risiko for knoglebrud, fx hvis du er 65 år eller derover, du er en kvinde, eller du tager kortikosteroider (fx prednison).&lt;/li&gt;&lt;li&gt;Der er set tilfælde af non-melanom hudkræft (hudkræft, som ikke er modermærkekræft) hos patienter, som tager XELJANZ. Lægen vil muligvis anbefale dig, at du jævnligt får huden undersøgt, mens du tager XELJANZ. Du skal fortælle det til lægen, hvis der opstår nye hudlæsioner under eller efter behandlingen, eller hvis eksisterende læsioner ændrer udseende.&lt;/li&gt;&lt;li&gt;hvis du har haft diverticulitis (en type betændelse i tyktarmen) eller mavesår eller sår i tarmene (se &lt;a href=&quot;#Section4&quot; title=&quot;Anchor link til afsnit - afsnit 4&quot;&gt;afsnit 4&lt;/a&gt;).&lt;/li&gt;&lt;li&gt;hvis du har problemer med nyrerne.&lt;/li&gt;&lt;li&gt;hvis du planlægger at blive vaccineret, skal du fortælle det til lægen. Der er visse typer vaccine, du ikke må få, når du tager XELJANZ. Inden du begynder at tage XELJANZ, skal du være ajour med alle anbefalede vaccinationer. Din læge vil afgøre, om du har brug for en vaccine mod herpes zoster.&lt;/li&gt;&lt;li&gt;hvis du har problemer med hjertet, forhøjet blodtryk, forhøjet kolesterol, også hvis du ryger eller har røget.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Der er rapporteret om patienter behandlet med XELJANZ, der har fået blodpropper i lunger eller vener. Din læge vil tage stilling til din risiko for, at du udvikler blodpropper i lungerne eller venerne, og beslutte, om XELJANZ er egnet til dig. Hvis du allerede har haft problemer med blodpropper i lunger og vener eller har en øget risiko for at få dem (fx: Hvis du er svært overvægtig, har kræft, hjerteproblemer, diabetes, har haft et hjerteanfald (inden for de seneste 3 måneder), nylig større operation, hvis du bruger hormonel prævention/hormonerstatningsbehandling, eller hvis du eller et nært familiemedlem har en koagulationsdefekt), hvis du er ældre eller hvis du ryger eller har røget, kan din læge beslutte, at XELJANZ ikke er egnet til dig.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Tal straks med din læge, hvis du får pludselig åndenød eller vejrtrækningsbesvær, brystsmerter eller smerter i den øvre ryg, hævelse af ben eller arme, smerter eller ømhed i ben eller rødme eller misfarvning på ben eller arme, mens du tager XELJANZ, da dette kan være tegn på en blodprop i lungerne eller venerne.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt; &lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;Tal straks med din læge, hvis du oplever akutte synsforandringer (sløret syn, delvist eller fuldstændigt synstab), da dette kan være tegn på en blodprop i øjnene.&lt;br/&gt;&lt;br/&gt;Der er rapporteret om patienter behandlet med XELJANZ, der har haft hjerteproblemer, herunder hjerteanfald. Din læge vil tage stilling til din risiko for at udvikle hjerteproblemer og beslutte, om XELJANZ er egnet til dig. Kontakt straks lægen, hvis du udvikler tegn og symptomer på et hjerteanfald, herunder svære brystsmerter eller trykken for brystet (der kan sprede sig til arme, kæbe, hals, ryg), åndenød, koldsved, svimmelhed eller pludselig svimmelhed.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;&lt;b&gt;Yderligere prøver til at overvåge dit helbred&lt;br/&gt;&lt;/b&gt;Din læge vil tage blodprøver, før du begynder at tage XELJANZ, efter 4 til 8 ugers behandling og derefter hver 3. måned for at se, om du har et lavt antal hvide blodlegemer (neutrofiler eller lymfocytter) eller et lavt antal røde blodlegemer (blodmangel, anæmi).&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Du bør ikke tage XELJANZ, hvis antallet af hvide blodlegemer (neutrofiler eller lymfocytter) eller røde blodlegemer er for lavt. Hvis det er nødvendigt, kan din læge afbryde behandlingen med XELJANZ i et stykke tid for at nedsætte risikoen for infektioner (lavt antal hvide blodlegemer) eller blodmangel (lavt antal røde blodlegemer).&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Lægen kan også udføre andre tests, såsom at tjekke kolesterolindholdet i dit blod eller undersøge, hvor godt din lever fungerer. Lægen bør tjekke dit kolesteroltal 8 uger efter, du er begyndt at tage XELJANZ. Lægen bør undersøge din leverfunktion med jævne mellemrum.&lt;/div&gt;&lt;h3&gt;Ældre&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Patienter på 65 år og derover får oftere infektioner. hvoraf visse kan være alvorlige. Fortæl det til lægen, så snart du bemærker tegn eller symptomer på en infektion.&lt;br/&gt;&lt;br/&gt;Patienter på 65 år og derover kan have øget risiko for infektioner, hjerteanfald og visse former for kræft. Din læge kan beslutte, at XELJANZ ikke er egnet til dig.&lt;/div&gt;&lt;h3&gt;Asiatiske patienter&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Helvedesild forekommer hyppigere hos japanske og koreanske patienter. Fortæl det til lægen, hvis du får smertefulde blærer på huden.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Der kan også være en større risiko for, at du får visse lungeproblemer. Fortæl det til lægen, hvis du får vejrtrækningsproblemer.&lt;/div&gt;&lt;h3&gt;Børn og unge&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Sikkerheden og fordelene ved XELJANZ hos børn, der er under 2 år gamle er endnu ikke blevet fastlagt.&lt;/div&gt;&lt;h3&gt;Brug af andre lægemidler sammen med XELJANZ&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Fortæl lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller planlægger at tage andre lægemidler.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Fortæl det til lægen, hvis du har diabetes eller tager lægemidler til behandling af diabetes. Din læge kan beslutte, at du har brug for lavere doser af lægemidler mod diabetes, mens du tager tofacitinib.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Nogle lægemidler bør ikke tages sammen med XELJANZ. Hvis de tages sammen med XELJANZ, kan de forårsage en ændring af niveauet af XELJANZ i kroppen, og det kan være nødvendigt at justere dosis af XELJANZ. Du skal fortælle det til lægen, hvis du bruger lægemidler, der indeholder et eller flere af følgende aktive stoffer:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;antibiotika, såsom rifampicin, der bruges til at behandle bakterie-infektioner&lt;/li&gt;&lt;li&gt;fluconazol, ketoconazol, der bruges til at behandle svampeinfektioner&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Det frarådes, at XELJANZ bruges sammen med lægemidler, der undertrykker immunforsvaret, herunder såkaldte målrettede biologiske behandlinger (antistoffer), som dem, der hæmmer tumor-nekrose-faktorer, interleukin-17, interleukin-12/interleukin-23, anti-integriner og stærke kemiske lægemidler, der undertrykker immunforsvaret, herunder azathioprin, mercaptopurin, ciclosporin og tacrolimus. Hvis du tager XELJANZ sammen med disse lægemidler, kan det øge din risiko for bivirkninger herunder infektioner.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Alvorlige infektioner og knoglebrud kan forekomme oftere hos personer, der også tager kortikosteroider (fx prednison).&lt;/div&gt;&lt;h3&gt;Graviditet og amning&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Hvis du er kvinde i den fødedygtige alder, skal du bruge sikker svangerskabsforebyggelse, mens du er i behandling med XELJANZ og i mindst 4 uger efter den sidste dosis.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din læge til råds, før du tager dette lægemiddel. Du må ikke tage XELJANZ, hvis du er gravid. Fortæl det straks til lægen, hvis du bliver gravid, mens du tager XELJANZ.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Hvis du tager XELJANZ og ammer, skal du holde op med at amme, indtil du har talt med lægen om at standse behandlingen med XELJANZ.&lt;/div&gt;&lt;h3&gt;Trafik- og arbejdssikkerhed‌&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;XELJANZ påvirker ikke eller kun i mindre grad evnen til at føre motorkøretøj og betjene maskiner.&lt;/div&gt;&lt;h3&gt;XELJANZ indeholder lactose&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Kontakt lægen, inden du tager dette lægemiddel, hvis din læge har fortalt dig, at du ikke kan tåle visse sukkerarter.&lt;/div&gt;&lt;h3&gt;XELJANZ indeholder natrium&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det væsentlige natriumfrit.&lt;/div&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;3. Sådan skal du tage XELJANZ&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;200000029905&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Section3&quot;/&gt;&lt;div&gt; &lt;/div&gt;&lt;h2&gt;3. Sådan skal du tage XELJANZ&lt;/h2&gt;&lt;div class=&quot;paragraph&quot;&gt;Du har fået dette lægemiddel af en speciallæge, som overvåger din behandling, og som ved, hvordan din sygdom skal behandles.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Tag altid lægemidlet nøjagtigt efter lægens anvisning, den anbefalede dosis må ikke overskrides. Er du i tvivl, så spørg lægen eller apotekspersonalet.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;&lt;b&gt;Leddegigt&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Den anbefalede dosis er 5 mg 2 gange dagligt.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;&lt;b&gt;Psoriasisgigt&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Den anbefalede dosis er 5 mg 2 gange dagligt.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph&quot;&gt;Hvis du lider af leddegigt eller psoriasisgigt, kan din læge skifte dine tabletter mellem XELJANZ 5 mg filmovertrukne tabletter to gange dagligt og XELJANZ 11 mg depottabletter én gang dagligt. Du kan begynde at tage XELJANZ depottabletter én gang dagligt eller XELJANZ filmovertrukne tabletter to gange dagligt dagen efter den sidste dosis af den anden af disse tabletter. Du må ikke skifte mellem XELJANZ filmovertrukne tabletter og XELJANZ depottabletter, medmindre det sker efter lægens anvisninger.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;&lt;b&gt;Bechterews sygdom (ankyloserende spondylitis)&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Den anbefalede dosis er 5 mg to gange dagligt.&lt;/li&gt;&lt;li&gt;Din læge vil eventuelt beslutte, at du skal holde op med at tage XELJANZ, hvis XELJANZ ikke virker for dig i løbet af 16 uger.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;b&gt;&lt;br/&gt;Blødende tyktarmsbetændelse&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Den anbefalede dosis er 10 mg to gange dagligt i 8 uger, efterfulgt af 5 mg to gange dagligt.&lt;/li&gt;&lt;li&gt;Din læge kan beslutte at forlænge den indledende behandling på 10 mg to gange dagligt med yderligere 8 uger (16 uger i alt) efterfulgt af 5 mg to gange dagligt.&lt;/li&gt;&lt;li&gt;Din læge kan beslutte at stoppebehandlingen med XELJANZ, hvis XELJANZ ikke virker for dig inden for 16 uger.&lt;/li&gt;&lt;li&gt;For patienter, der tidligere har taget biologiske lægemidler til behandling af blødende tyktarmsbetændelse (såsom de lægemidler, der blokerer aktiviteten af tumornekrosefaktor i kroppen), og hvis disse lægemidler ikke virkede, kan lægen beslutte øge din dosis XELJANZ til 10 mg to gange dagligt, hvis du ikke reagerer tilstrækkeligt på 5 mg to gange om dagen. Din læge vil tage de mulige risici, herunder risikoen for blodpropper i lungerne eller venerne, samt mulige fordele for dig i betragtning. Din læge vil fortælle dig, hvis dette gælder for dig.&lt;/li&gt;&lt;li&gt;Hvis din behandling afbrydes, kan din læge beslutte at starte din behandling på ny.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;&lt;b&gt;Brug til børn og unge&lt;br/&gt;Børneleddegigt - polyartikulær børneleddegigt og psoriasisrelateret børneleddegigt&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Den anbefalede dosis er 5 mg 2 gange dagligt til patienter ≥40 kg.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Sørg for at tage tabletten på samme tidspunkt hver dag (en tablet om morgenen og en tablet om aftenen).&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Tofacitinib 5 mg tabletter kan knuses og indtages med vand.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Lægen kan nedsætte din dosis, hvis du har problemer med leveren eller nyrerne, eller hvis du får ordineret visse andre lægemidler. Lægen kan også afbryde behandlingen midlertidigt eller permanent, hvis blodprøver viser et lavt indhold af hvide eller røde blodlegemer.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;XELJANZ skal tages gennem munden. Du kan tage XELJANZ med eller uden mad.&lt;/div&gt;&lt;h3&gt;Hvis du har taget for meget XELJANZ&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Hvis du har taget for mange tabletter, skal du &lt;b&gt;øjeblikkeligt &lt;/b&gt;fortælle det til din læge eller apotekspersonalet.&lt;/div&gt;&lt;h3&gt;Hvis du har glemt at tage XELJANZ&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Du må ikke tage en dobbeltdosis som erstatning for en glemt tablet. Tag den næste tablet på det sædvanlige tidspunkt og fortsæt som før.&lt;/div&gt;&lt;h3&gt;Hvis du holder op med at tage XELJANZ&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Du må ikke holde op med at tage XELJANZ uden først at diskutere det med lægen.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.&lt;/div&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;4. Bivirkninger&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;200000029910&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Section4&quot;/&gt;&lt;div&gt; &lt;/div&gt;&lt;h2&gt;4. Bivirkninger&lt;/h2&gt;&lt;div class=&quot;paragraph&quot;&gt;Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Nogle af bivirkningerne kan være alvorlige og kræve lægehjælp.&lt;br/&gt;&lt;br/&gt;Bivirkninger hos patienter med polyartikulær børneleddegigt og psoriasisrelateret børneleddegigt var tilsvarende dem, der blev set hos voksne patienter med leddegigt bortset fra nogle infektioner (influenza, betændelse i svælget, bihulebetændelse, virusinfektion)) og symptomer i mave-tarm-kanalen eller almene sygdomme (mavesmerter, kvalme, opkastning, feber, hovedpine, hoste), som var mere almindelige hos børn med polyartikulær leddegigt.&lt;/div&gt;&lt;h3&gt;Alvorlige bivirkninger&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;I sjældne tilfælde kan infektioner være livstruende.&lt;br/&gt;&lt;br/&gt;Der er også rapporteret om lungekræft, kræft i de hvide blodlegemer og hjerteanfald.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt; &lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;b&gt;Hvis du oplever nogen af følgende alvorlige bivirkninger&lt;/b&gt;, skal du straks kontakte en læge.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;b&gt;&lt;br/&gt;Tegn på alvorlige infektioner (hyppighed ”almindelig”) inkluderer&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;feber og kuldegysninger&lt;/li&gt;&lt;li&gt;hoste&lt;/li&gt;&lt;li&gt;blærer på huden&lt;/li&gt;&lt;li&gt;mavesmerter&lt;/li&gt;&lt;li&gt;vedvarende hovedpine&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;&lt;b&gt;Tegn på sår eller huller (perforationer) i mavesækken eller tarmene (ikke almindelige) inkluderer&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;feber&lt;/li&gt;&lt;li&gt;mavesmerter&lt;/li&gt;&lt;li&gt;blod i afføringen&lt;/li&gt;&lt;li&gt;uforklarlige ændringer i afføringsvaner&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Huller i mavesækken eller tarmene opstår oftest hos patienter, som også tager non-steroide antiinflammatoriske lægemidler (NSAID) eller kortikosteroider (fx prednison).&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;&lt;b&gt;Tegn på allergiske reaktioner (hyppighed ”sjælden”) inkluderer&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;trykken for brystet&lt;/li&gt;&lt;li&gt;hivende vejrtrækning&lt;/li&gt;&lt;li&gt;alvorlig svimmelhed eller ørhed&lt;/li&gt;&lt;li&gt;hævelse af læber, tunge og svælg&lt;/li&gt;&lt;li&gt;nældefeber (kløe eller hududslæt)&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;&lt;b&gt;Tegn på blodpropper i lunger eller vener eller øjne (hyppighed ”ikke almindelig”: venøs tromboemboli) inkluderer&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;pludselig åndenød eller vejrtrækningsbesvær&lt;/li&gt;&lt;li&gt;brystsmerter eller smerter øverst i ryggen&lt;/li&gt;&lt;li&gt;hævelse af ben eller arme&lt;/li&gt;&lt;li&gt;smerter eller ømhed i benet&lt;/li&gt;&lt;li&gt;rødme eller misfarvning på ben eller arme&lt;/li&gt;&lt;li&gt;akutte synsforandringer&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;&lt;b&gt;Tegn på hjerteanfald (ikke almindelig) omfatter:&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;alvorlige brystsmerter eller trykken for brystet (der kan brede sig til arme, kæbe, hals, ryg)&lt;/li&gt;&lt;li&gt;åndenød&lt;/li&gt;&lt;li&gt;koldsved&lt;/li&gt;&lt;li&gt;svimmelhed eller pludselig svimmelhed&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Andre bivirkninger, der er blevet observeret med XELJANZ, er anført nedenfor.&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;b&gt;Almindelig &lt;/b&gt;(kan forekomme hos op til 1 ud af 10 personer):&lt;br/&gt;lungeinfektion (lungebetændelse og bronkitis), helvedesild (herpes zoster), infektioner i næse, hals eller luftrør (forkølelse), influenza, bihulebetændelse, urinvejsinfektion (blærebetændelse), ondt i halsen (svælgkatar), forhøjede muskelenzymer i blodet (tegn på muskelproblemer), mavesmerter (som kan skyldes betændelse i mavens slimhinde), opkastning, diarré, kvalme, fordøjelsesbesvær, lavt antal hvide blodlegemer, lavt antal røde blodlegemer (blodmangel, anæmi), hævede fødder og hænder, hovedpine, forhøjet blodtryk (hypertension), hoste, udslæt, akne.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;b&gt;&lt;br/&gt;Ikke almindelig &lt;/b&gt;(kan forekomme hos op til 1 ud af 100 personer):&lt;br/&gt;lungekræft, tuberkulose, nyrebetændelse, betændelse i huden, herpes simplex eller forkølelsessår (oral herpes), forhøjet blodkreatinin (tegn på mulige nyreproblemer), forhøjet kolesterol (herunder forhøjet LDL), feber, udmattelse (træthedsfornemmelse), vægtstigning, væskemangel, forstrækning af muskler, senebetændelse, hævede led, forstrækning af led, føleforstyrrelser, dårlig søvn, tilstoppede bihuler, åndenød eller vejrtrækningsbesvær, hudrødme, kløe, fedtlever, smertefuld betændelse i de små udposninger i tarmen (diverticulitis), virusinfektioner, virusinfektioner, der påvirker mave-tarm-kanalen, visse typer hudkræft (ikke-melanom typer).&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;b&gt;&lt;br/&gt;Sjælden &lt;/b&gt;(kan forekomme hos op til 1 ud af 1.000 personer):&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;blodforgiftning (sepsis), lymfom (kræft i de hvide blodlegemer), tuberkulose i knogler, andre organer samt andre usædvanlige infektioner, ledbetændelse, forhøjede leverenzymer i blodet (tegn på leverproblemer), muskel- og ledsmerter.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;b&gt;&lt;br/&gt;Meget sjælden&lt;/b&gt; (kan forekomme hos op til 1 ud af 10.000 personer): tuberkulose som involverer hjerne og rygrad, meningitis, infektion i bløddele og bindevæv.&lt;br/&gt;&lt;br/&gt;Generelt blev der set færre bivirkninger, når XELJANZ blev brugt alene til leddegigt.&lt;/div&gt;&lt;h3&gt;Indberetning af bivirkninger&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via&lt;br/&gt;&lt;br/&gt;Lægemiddelstyrelsen&lt;br/&gt;Axel Heides Gade 1&lt;br/&gt;DK-2300 København S&lt;br/&gt;Websted: www.meldenbivirkning.dk&lt;br/&gt;&lt;br/&gt;Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;a href=&quot;https://www.meldenbivirkning.dk&quot; title=&quot;Meld en bivirkning&quot;&gt;Meld en bivirkning.&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;5. Opbevaring&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;200000029913&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Section5&quot;/&gt;&lt;div&gt; &lt;/div&gt;&lt;h2&gt;5. Opbevaring&lt;/h2&gt;&lt;div class=&quot;paragraph&quot;&gt;Opbevar lægemidlet utilgængeligt for børn.&lt;br/&gt;&lt;br/&gt;Brug ikke lægemidlet efter den udløbsdato, der står på blisterpakningen, tabletbeholderen eller kartonen efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned.&lt;br/&gt;&lt;br/&gt;Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel.&lt;br/&gt;&lt;br/&gt;Opbevares i den originale pakning for at beskytte med fugt.&lt;br/&gt;&lt;br/&gt;Brug ikke dette lægemiddel, hvis du opdager, at tabletterne udviser tegn på beskadigelse (for eksempel er gået i stykker eller er misfarvede).&lt;br/&gt;&lt;br/&gt;Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.&lt;/div&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;6. Pakningsstørrelser og yderligere oplysninger&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;200000029914&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+              &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Section6&quot;/&gt;&lt;div&gt; &lt;/div&gt;&lt;h2&gt;6. Pakningsstørrelser og yderligere oplysninger&lt;/h2&gt;&lt;h3&gt;XELJANZ indeholder:&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;b&gt;XELJANZ 5 mg filmovertrukket tablet&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Aktivt stof: tofacitinib.&lt;/li&gt;&lt;li&gt;Hver 5 mg filmovertrukken tablet indeholder 5 mg tofacitinib (som tofacitinibcitrat).&lt;/li&gt;&lt;li&gt;Øvrige indholdsstoffer: mikrokrystallinsk cellulose, lactosemonohydrat (se &lt;a href=&quot;#Section2&quot; title=&quot;Anchor link til afsnit - afsnit 2&quot;&gt;afsnit 2&lt;/a&gt; ”XELJANZ indeholder lactose”), croscarmellosenatrium (se &lt;a href=&quot;#Section2&quot; title=&quot;Anchor link til afsnit - afsnit 2&amp;amp;#160;&quot;&gt;afsnit 2 &lt;/a&gt;”XELJANZ indeholder natrium”), magnesiumstearat, hypromellose (E464), titandioxid (E171), macrogol og triacetin .&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;b&gt;&lt;br/&gt;XELJANZ 10 mg filmovertrukket tablet&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Aktivt stof: tofacitinib.&lt;/li&gt;&lt;li&gt;Hver 10 mg filmovertrukket tablet indeholder10 mg tofacitinib (som tofacitinibcitrat).&lt;/li&gt;&lt;li&gt;Øvrige indholdsstoffer: mikrokrystallinsk cellulose, lactosemonohydrat (se &lt;a href=&quot;#Section2&quot; title=&quot;Anchor link til afsnit - afsnit 2&quot;&gt;afsnit 2&lt;/a&gt; ”Xeljanz indeholder lactose”), croscarmellosenatrium (se &lt;a href=&quot;#Section2&quot; title=&quot;Anchor link til afsnit - afsnit 2&quot;&gt;afsnit 2&lt;/a&gt; ”XELJANZ indeholder natrium”), magnesiumstearat, hypromellose (E464), titanoxid (E171), macrogol, triacetin , Indigotin (indigocarmin) (E132), og Brilliant Blue FCF (E133).&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Udseende og pakningsstørrelser&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;b&gt;XELJANZ 5 mg filmovertrukne tabletter&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;XELJANZ 5 mg filmovertrukne tabletter er hvide og runde.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Tabletterne findes som blisterkort med 14 tabletter. Hver pakning indeholdende 56, 112 eller 182 tabletter og i tabletbeholdere indeholdende 60 eller 180 tabletter.&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;&lt;b&gt;XELJANZ 10 mg filmovertrukne tabletter&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;XELJANZ 10 mg filmovertrukne tabletter er blå og runde.&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Tabletterne findes som blisterkort med 14 tabletter. Hver pakning indeholder 56, 112 eller 182 tabletter og i tabletbeholdere indeholdende 60 eller 180 tabletter.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;Ikke alle pakningsstørrelser er nødvendigvis markedsført.&lt;/div&gt;&lt;/div&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Indehaver af markedsføringstilladelsen og fremstiller&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                  &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                          <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;/&gt;
+                  &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;200000029917&quot;/&gt;
+                &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+                &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;Indehaver af markedsføringstilladelsen og fremstiller&lt;/h2&gt;&lt;h3&gt;Indehaver af markedsføringstilladelsen&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Pfizer Europe MA EEIG&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;Boulevard de la Plaine 17&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;1050 Bruxelles&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;Belgien&lt;/div&gt;&lt;h3&gt;Fremstiller&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Pfizer Manufacturing Deutschland GmbH&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;Betriebsstätte Freiburg&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;Mooswaldallee 1&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;79090 Freiburg&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;Tyskland&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt; &lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale repræsentant for indehaveren af markedsføringstilladelsen:&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;br/&gt;&lt;b&gt;Danmark&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;Pfizer ApS&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;Tlf.: +45 44 20 11 00&lt;/div&gt;&lt;h3&gt;Andre informationskilder&lt;/h3&gt;&lt;div class=&quot;paragraph&quot;&gt;Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs hjemmeside: http://www.ema.europa.eu.&lt;/div&gt;&lt;/div&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>
+                     <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Denne indlægsseddel blev senest ændret oktober 2023.&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+                  &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                          <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;/&gt;
+                  &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;200000029919&quot;/&gt;
+                &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
+                &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;Denne indlægsseddel blev senest ændret oktober 2023.&lt;/h2&gt;&lt;/div&gt;
+              &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition">Composition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/IBD-MPD-62&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">MedicinalProductDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;IBD-MPD-62&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;MedicinalProductDefinition_IBD-MPD-62&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition IBD-MPD-62&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;IBD-MPD-62&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcIBD-MPD-62&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profiles: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html&quot;&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_425E2639-8B0C-4158-88A8-EA58F01B98D5&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;Xeljanz tab 10 mg&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;ID_425E2639-8B0C-4158-88A8-EA58F01B98D5&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">name</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.productName">productName</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Xeljanz tab 10 mg&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">name</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">MedicinalProductDefinition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-74&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">PackagedProductDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;IBD-PPD-74&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XPackagedProductDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;PackagedProductDefinition_IBD-PPD-74&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition IBD-PPD-74&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;IBD-PPD-74&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcIBD-PPD-74&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profiles: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-PackagedProductDefinition-uv-epi.html&quot;&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_6282AE20-8670-4CB5-B3CE-028D31CBFD81, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/128750&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Xeljanz tab 10 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=&quot;Bundle-FK47224.html#MedicinalProductDefinition_IBD-MPD-62&quot;&gt;MedicinalProductDefinition: identifier = http://legemiddelverket.no/FEST/LegemiddelMerkevareID#ID_425E2639-8B0C-4158-88A8-EA58F01B98D5&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XPackagedProductDefinition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://legemiddelverket.no/FEST/LegemiddelPakningID&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;ID_6282AE20-8670-4CB5-B3CE-028D31CBFD81&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://farmalogg.no/varenummer&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;128750&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Xeljanz tab 10 mg&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packageFor">packageFor</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/IBD-MPD-62&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packageFor">packageFor</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">PackagedProductDefinition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/IBD-MPD-63&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">MedicinalProductDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;IBD-MPD-63&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;MedicinalProductDefinition_IBD-MPD-63&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition IBD-MPD-63&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;IBD-MPD-63&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcIBD-MPD-63&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profiles: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html&quot;&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_22849E0B-A45A-413E-A7DC-25D861B28B46&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;Xeljanz tab 5 mg&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;ID_22849E0B-A45A-413E-A7DC-25D861B28B46&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">name</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.productName">productName</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Xeljanz tab 5 mg&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">name</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">MedicinalProductDefinition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-76&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">PackagedProductDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;IBD-PPD-76&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XPackagedProductDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;PackagedProductDefinition_IBD-PPD-76&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition IBD-PPD-76&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;IBD-PPD-76&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcIBD-PPD-76&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profiles: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-PackagedProductDefinition-uv-epi.html&quot;&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_5BAE8C10-C6C0-4190-8826-7A14FBE88AFD, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/591405&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Xeljanz tab 5 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=&quot;Bundle-FK47224.html#MedicinalProductDefinition_IBD-MPD-63&quot;&gt;MedicinalProductDefinition: identifier = http://legemiddelverket.no/FEST/LegemiddelMerkevareID#ID_22849E0B-A45A-413E-A7DC-25D861B28B46&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XPackagedProductDefinition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://legemiddelverket.no/FEST/LegemiddelPakningID&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;ID_5BAE8C10-C6C0-4190-8826-7A14FBE88AFD&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://farmalogg.no/varenummer&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;591405&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Xeljanz tab 5 mg&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packageFor">packageFor</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/IBD-MPD-63&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packageFor">packageFor</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">PackagedProductDefinition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-75&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">PackagedProductDefinition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;IBD-PPD-75&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.meta">meta</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XPackagedProductDefinition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;PackagedProductDefinition_IBD-PPD-75&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition IBD-PPD-75&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;IBD-PPD-75&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcIBD-PPD-75&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profiles: &lt;a href=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-PackagedProductDefinition-uv-epi.html&quot;&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_D3424D7B-C2AD-4D10-9886-5EA24746C59C, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/456804&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Xeljanz tab 5 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=&quot;Bundle-FK47224.html#MedicinalProductDefinition_IBD-MPD-63&quot;&gt;MedicinalProductDefinition: identifier = http://legemiddelverket.no/FEST/LegemiddelMerkevareID#ID_22849E0B-A45A-413E-A7DC-25D861B28B46&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XPackagedProductDefinition.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://legemiddelverket.no/FEST/LegemiddelPakningID&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;ID_D3424D7B-C2AD-4D10-9886-5EA24746C59C&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://farmalogg.no/varenummer&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;456804&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Xeljanz tab 5 mg&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packageFor">packageFor</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;MedicinalProductDefinition/IBD-MPD-63&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packageFor">packageFor</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">PackagedProductDefinition</a>&gt;
+    &lt;/resource&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R5/bundle.html#XBundle">Bundle</a>&gt;</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

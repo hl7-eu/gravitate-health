@@ -1,0 +1,54 @@
+{
+  "resourceType" : "AdministrableProductDefinition",
+  "id" : "ap-5af3df1132d20d744a88dab06e924e5e",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"ap-5af3df1132d20d744a88dab06e924e5e\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;ap-5af3df1132d20d744a88dab06e924e5e&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0id</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"MedicinalProductDefinition-mpaae8d931abe2f2d9085b87555b9bb088.html\">MedicinalProductDefinition/mpaae8d931abe2f2d9085b87555b9bb088</a></p><p><b>administrableDoseForm</b>: Solution for injection <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073863)</span></p><p><b>unitOfPresentation</b>: Vial <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002158)</span></p><p><b>producedFrom</b>: <a href=\"ManufacturedItemDefinition-mid-5af3df1132d20d744a88dab06e924e5e.html\">ManufacturedItemDefinition/mid-5af3df1132d20d744a88dab06e924e5e</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Intravenous use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073611)</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>Human <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>"
+  },
+  "identifier" : [{
+    "system" : "https://spor.ema.europa.eu/pmswi",
+    "value" : "id"
+  }],
+  "status" : "active",
+  "formOf" : [{
+    "reference" : "MedicinalProductDefinition/mpaae8d931abe2f2d9085b87555b9bb088"
+  }],
+  "administrableDoseForm" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000073863",
+      "display" : "Solution for injection"
+    }]
+  },
+  "unitOfPresentation" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "200000002158",
+      "display" : "Vial"
+    }]
+  },
+  "producedFrom" : [{
+    "reference" : "ManufacturedItemDefinition/mid-5af3df1132d20d744a88dab06e924e5e"
+  }],
+  "routeOfAdministration" : [{
+    "code" : {
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "100000073611",
+        "display" : "Intravenous use"
+      }]
+    },
+    "targetSpecies" : [{
+      "code" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000109093",
+          "display" : "Human"
+        }]
+      }
+    }]
+  }]
+}

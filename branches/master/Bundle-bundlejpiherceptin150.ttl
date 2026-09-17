@@ -1,0 +1,2984 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Bundle/bundlejpiherceptin150> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "bundlejpiherceptin150"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "ja"] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "https://www.pmda.jp/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "jpiplaceholder" ]
+  ] ; # 
+  fhir:type [ fhir:v "document"] ; # 
+  fhir:timestamp [ fhir:v "2002-08-01T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Composition/trastazumabjpi"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Composition/trastazumabjpi> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Authorizations/authherceptin150"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Authorizations/authherceptin150> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/medprodherceptin150"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/medprodherceptin150> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/packherceptinvial"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/packherceptinvial> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/adminprodherceptin150"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/adminprodherceptin150> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/trastazumab"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/trastazumab> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/carnubawax"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/carnubawax> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/crystallinecellulose"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/crystallinecellulose> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/mannitol"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/mannitol> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/hypromelose"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/hypromelose> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/lightanhydroussilicicacid"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/lightanhydroussilicicacid> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/magnesiumcarbonate"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/magnesiumcarbonate> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/magnesiumstearate"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/magnesiumstearate> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/methylparaben"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/methylparaben> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/polyethyleneglycol"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/polyethyleneglycol> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/polysorbate"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/polysorbate> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/polyvinylalcohol"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/polyvinylalcohol> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/sucrose"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/sucrose> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/silicondioxide"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/silicondioxide> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/sodiumstarch"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/sodiumstarch> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/syntehticwax"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/syntehticwax> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/talc"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/talc> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/titaniumdioxide2"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/Ingredient/titaniumdioxide2> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/subherceptin150"^^xsd:anyURI ] ;
+     fhir:resource ( <http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/subherceptin150> )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Composition/trastazumabjpi> a fhir:Composition ;
+  fhir:id [ fhir:v "trastazumabjpi"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "ja"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"ja\" lang=\"ja\"><p><b>Generated Narrative: Composition</b><a name=\"trastazumabjpi\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;trastazumabjpi&quot;  (Language &quot;ja&quot;) </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: id: fcats34placeholder</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000155538)</span></p><p><b>date</b>: 2002-08-01 13:28:17+0000</p><p><b>author</b>: <a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></p><p><b>title</b>: Herceptin (trastazumab) Package Leaflet - 150 mg for Intravenous Use</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td>Official <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html\">Composition Attestation Mode</a>#official)</span></td><td>2002-08-01 13:28:17+0000</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "fcats34placeholder" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155538" ]
+     ] ) ;
+     fhir:text [ fhir:v "Package Leaflet" ]
+  ] ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/medprodherceptin150> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/medprodherceptin150" ]
+  ] ) ; # 
+  fhir:date [ fhir:v "2002-08-01T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+     fhir:reference [ fhir:v "Organization/orgchugai" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "Herceptin (trastazumab) Package Leaflet - 150 mg for Intravenous Use"] ; # 
+  fhir:attester ( [
+     fhir:mode [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/composition-attestation-mode"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "official" ]
+       ] )
+     ] ;
+     fhir:time [ fhir:v "2002-08-01T13:28:17Z"^^xsd:dateTime ]
+  ] ) ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "アロマターゼ阻害剤/閉経後乳癌治療剤" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "0" ]
+       ] ) ;
+       fhir:text [ fhir:v "アロマターゼ阻害剤/閉経後乳癌治療剤" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "1. 警告" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "1" ]
+       ] ) ;
+       fhir:text [ fhir:v "1. 警告" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "1.1" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "2.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "1.1" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "1.2" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "2.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "1.2" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "1.3" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "2.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "1.3" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "2. 禁忌(次の患者には投与しないこと)" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "2" ]
+       ] ) ;
+       fhir:text [ fhir:v "禁忌(次の患者には投与しないこと)" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "2.1" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "2.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "2.1" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "2.2" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "2.2" ]
+         ] ) ;
+         fhir:text [ fhir:v "2.2" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "2.3" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "2.3" ]
+         ] ) ;
+         fhir:text [ fhir:v "2.3" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "3. 組成・性状" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "3" ]
+       ] ) ;
+       fhir:text [ fhir:v "3. 組成・性状" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "3.1 組成" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "3.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "3.1 組成" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "3.2 製剤の性状" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "3.2" ]
+         ] ) ;
+         fhir:text [ fhir:v "3.2 製剤の性状" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "4. 効能又は効果" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "4" ]
+       ] ) ;
+       fhir:text [ fhir:v "効能又は効果" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "5. 効能又は効果に関連する注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "5" ]
+       ] ) ;
+       fhir:text [ fhir:v "効能又は効果に関連する注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "6. 用法及び用量" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "6" ]
+       ] ) ;
+       fhir:text [ fhir:v "用法及び用量" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "7. 用法及び用量に関連する注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "7" ]
+       ] ) ;
+       fhir:text [ fhir:v "7. 用法及び用量に関連する注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "8. 重要な基本的注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "8" ]
+       ] ) ;
+       fhir:text [ fhir:v "重要な基本的注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "8.1" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "8.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "8.1" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "8.2" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "8.2" ]
+         ] ) ;
+         fhir:text [ fhir:v "8.2" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "8.3" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "8.3" ]
+         ] ) ;
+         fhir:text [ fhir:v "8.3" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "8.4" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "8.4" ]
+         ] ) ;
+         fhir:text [ fhir:v "8.4" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "9. 特定の背景を有する患者に関する注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "9" ]
+       ] ) ;
+       fhir:text [ fhir:v "特定の背景を有する患者に関する注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "9.1" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "9.2" ]
+         ] ) ;
+         fhir:text [ fhir:v "9.1" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "9.2 腎機能障害患者" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "9.2" ]
+         ] ) ;
+         fhir:text [ fhir:v "9.2 腎機能障害患者" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "9.2.1 重度の腎障害のある患者" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "9" ]
+           ] ) ;
+           fhir:text [ fhir:v "9.2.1 重度の腎障害のある患者" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "9.3 肝機能障害患者" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "9.3" ]
+         ] ) ;
+         fhir:text [ fhir:v "9.3 肝機能障害患者" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "9.3.1 重度の肝障害のある患者" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "9.3.1" ]
+           ] ) ;
+           fhir:text [ fhir:v "9.3.1 重度の肝障害のある患者" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "9.4" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "9.4" ]
+         ] ) ;
+         fhir:text [ fhir:v "9.4" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "9.5 妊婦" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "9" ]
+         ] ) ;
+         fhir:text [ fhir:v "9.5 妊婦" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "9.6 授乳婦" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "9.6" ]
+         ] ) ;
+         fhir:text [ fhir:v "9.6 授乳婦" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "10. 相互作用" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "10" ]
+       ] ) ;
+       fhir:text [ fhir:v "10. 相互作用" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "10.1" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "9" ]
+         ] ) ;
+         fhir:text [ fhir:v "10.1" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "10.2 併用注意(併用に注意すること)" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "10" ]
+         ] ) ;
+         fhir:text [ fhir:v "10.2 併用注意(併用に注意すること)" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "11. 副作用" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "11" ]
+       ] ) ;
+       fhir:text [ fhir:v "11. 副作用" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "11.1 重大な副作用" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "11.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "11.1 重大な副作用" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "11.1.1" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "11.1.1" ]
+           ] ) ;
+           fhir:text [ fhir:v "11.1.1" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "11.2 その他の副作用" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "11.2" ]
+         ] ) ;
+         fhir:text [ fhir:v "11.2 その他の副作用" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "12. 臨床検査結果に及ぼす影響" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "12" ]
+       ] ) ;
+       fhir:text [ fhir:v "12. 臨床検査結果に及ぼす影響" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "13. 過量投与" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "13" ]
+       ] ) ;
+       fhir:text [ fhir:v "13. 過量投与" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "14. 適用上の注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "14" ]
+       ] ) ;
+       fhir:text [ fhir:v "14. 適用上の注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "14.1 薬剤交付時の注意" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "14.1" ]
+         ] ) ;
+         fhir:text [ fhir:v "14.1 薬剤交付時の注意" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "15. その他の注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "13" ]
+       ] ) ;
+       fhir:text [ fhir:v "15. その他の注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "15.1" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "15.1" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "15.2 非臨床試験に基づく情報" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "15.2 非臨床試験に基づく情報" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "16. 薬物動態" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "13" ]
+       ] ) ;
+       fhir:text [ fhir:v "16. 薬物動態" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "16.1 血中濃度" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "16.1 血中濃度" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "16.2 吸収" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "16.2 吸収" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "16.2.1 食事の影響" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.2.1 食事の影響" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "16.3 分布" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "16.3 分布" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "16.3.1 組織内濃度" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.3.1 組織内濃度" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "16.3.2 胎児・胎盤移行性" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.3.2 胎児・胎盤移行性" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "16.3.3 蛋白結合率" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.3.3 蛋白結合率" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "16.5 排泄" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "16.5 排泄" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "16.5.1" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.5.1" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "16.5.2" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.5.2" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "16.6 特定の背景を有する患者" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "16.6 特定の背景を有する患者" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "16.6.1 腎機能障害患者における体内動態" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.6.1 腎機能障害患者における体内動態" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "16.6.2 肝機能障害患者における体内動態" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "16.6.2 肝機能障害患者における体内動態" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] )
+  ] [
+     fhir:title [ fhir:v "17. 臨床成績" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "17" ]
+       ] ) ;
+       fhir:text [ fhir:v "17. 臨床成績" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "17.1 有効性及び安全性に関する試験" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "13" ]
+         ] ) ;
+         fhir:text [ fhir:v "17.1 有効性及び安全性に関する試験" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "17.1.1 国内臨床試験" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "17.1.1 国内臨床試験" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "17.1.2 ブリッジング試験" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "17.1.2 ブリッジング試験" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "17.1.3 海外臨床試験(第III相試験)" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "17.1.3 海外臨床試験(第III相試験)" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "17.1.4 海外大規模比較試験(第III相試験 術後補助療法)" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "17.1.4 海外大規模比較試験(第III相試験 術後補助療法)" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "17.1.5 海外比較試験(術後補助療法)" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "13" ]
+           ] ) ;
+           fhir:text [ fhir:v "17.1.5 海外比較試験(術後補助療法)" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "17.1.6 非盲検無作為化比較試験(第II/III相試験 転移性乳癌に対する第一次 ホルモン療法)" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "16" ]
+           ] ) ;
+           fhir:text [ fhir:v "17.1.6 非盲検無作為化比較試験(第II/III相試験 転移性乳癌に対する第一次 ホルモン療法)" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] )
+  ] [
+     fhir:title [ fhir:v "18. 薬効薬理" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "18" ]
+       ] ) ;
+       fhir:text [ fhir:v "18. 薬効薬理" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "18.1 作用機序" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "17" ]
+         ] ) ;
+         fhir:text [ fhir:v "18.1 作用機序" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "18.1.1 アロマターゼ阻害作用" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "17" ]
+           ] ) ;
+           fhir:text [ fhir:v "18.1.1 アロマターゼ阻害作用" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "18.2 抗腫瘍効果" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "17" ]
+         ] ) ;
+         fhir:text [ fhir:v "18.2 抗腫瘍効果" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "18.3 エストロゲン抑制作用" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "17" ]
+         ] ) ;
+         fhir:text [ fhir:v "18.3 エストロゲン抑制作用" ]
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "additional" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ]
+         ] )
+       ] ;
+       fhir:section ( [
+         fhir:title [ fhir:v "18.3.1" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "17" ]
+           ] ) ;
+           fhir:text [ fhir:v "18.3.1" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] [
+         fhir:title [ fhir:v "18.3.2" ] ;
+         fhir:code [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "17" ]
+           ] ) ;
+           fhir:text [ fhir:v "18.3.2" ]
+         ] ;
+         fhir:text [
+           fhir:status [ fhir:v "additional" ] ;
+           fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ] ;
+         fhir:emptyReason [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unavailable" ]
+           ] )
+         ]
+       ] )
+     ] )
+  ] [
+     fhir:title [ fhir:v "19. 有効成分に関する理化学的知見" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "19" ]
+       ] ) ;
+       fhir:text [ fhir:v "19. 有効成分に関する理化学的知見" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "20. 取扱い上の注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "9" ]
+       ] ) ;
+       fhir:text [ fhir:v "20. 取扱い上の注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "21. 承認条件" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "9" ]
+       ] ) ;
+       fhir:text [ fhir:v "21. 承認条件" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "22. 包装" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "22" ]
+       ] ) ;
+       fhir:text [ fhir:v "22. 包装" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "23. 主要文献" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "23" ]
+       ] ) ;
+       fhir:text [ fhir:v "23. 主要文献" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "24. 文献請求先及び問い合わせ先" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "24" ]
+       ] ) ;
+       fhir:text [ fhir:v "24. 文献請求先及び問い合わせ先" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "25. 保険給付上の注意" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "9" ]
+       ] ) ;
+       fhir:text [ fhir:v "25. 保険給付上の注意" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "26. 製造販売業者等" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "26" ]
+       ] ) ;
+       fhir:text [ fhir:v "26. 製造販売業者等" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "26.1 製造販売元" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://pmda.jp/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "26" ]
+       ] ) ;
+       fhir:text [ fhir:v "26.1 製造販売元" ]
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ]
+       ] )
+     ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> a fhir:Organization ;
+  fhir:id [ fhir:v "orgchugai"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"orgchugai\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;orgchugai&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: id: 672212 (use: OFFICIAL)</p><p><b>active</b>: true</p><p><b>type</b>: Marketing authorisation holder <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#tbd)</span></p><p><b>name</b>: Chugai Pharmaceutical Co., Ltd.</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>Medical Information Department 2-1-1 Nihonbashi Muromachi, Chuo-ku, Tokyo 103-8324(WORK)</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://pmda-org-id"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "672212" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://PMDA-org-type.jp/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "tbd" ] ;
+       fhir:display [ fhir:v "Marketing authorisation holder" ]
+     ] ) ;
+     fhir:text [ fhir:v "Marketing authorisation holder" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Chugai Pharmaceutical Co., Ltd."] ; # 
+  fhir:contact ( [
+     fhir:address [
+       fhir:use [ fhir:v "work" ] ;
+       fhir:type [ fhir:v "physical" ] ;
+       fhir:text [ fhir:v "Medical Information Department 2-1-1 Nihonbashi Muromachi, Chuo-ku, Tokyo 103-8324" ] ;
+       fhir:line ( [ fhir:v "2-1-1 Nihonbashi Muromachi" ] ) ;
+       fhir:city [ fhir:v "Tokyo" ] ;
+       fhir:postalCode [ fhir:v "103-8324" ] ;
+       fhir:country [ fhir:v "Tokyo" ]
+     ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Authorizations/authherceptin150> a fhir:RegulatedAuthorization ;
+  fhir:id [ fhir:v "authherceptin150"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"authherceptin150\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;authherceptin150&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: id: 21300AMY00128 (use: OFFICIAL)</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_medprodherceptin150\">See above (MedicinalProductDefinition/medprodherceptin150)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#/#100000072062)</span></p><p><b>region</b>: Japan <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#JP)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2002-08-01 13:28:17+0000</p><p><b>holder</b>: <a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://pmda-approvalandlicenseno/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "21300AMY00128" ]
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/medprodherceptin150> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/medprodherceptin150" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "/#100000072062" ]
+     ] ) ;
+     fhir:text [ fhir:v "Marketing Authorisation" ]
+  ] ; # 
+  fhir:region ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "JP" ]
+     ] ) ;
+     fhir:text [ fhir:v "Japan" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ]
+     ] ) ;
+     fhir:text [ fhir:v "Active" ]
+  ] ; # 
+  fhir:statusDate [ fhir:v "2002-08-01T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:holder [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+     fhir:reference [ fhir:v "Organization/orgchugai" ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/medprodherceptin150> a fhir:MedicinalProductDefinition ;
+  fhir:id [ fhir:v "medprodherceptin150"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"medprodherceptin150\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;medprodherceptin150&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: 4291447D2024</p><p><b>type</b>: Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-medicinal-product-type.html\">Medicinal Product Type</a>#MedicinalProduct)</span></p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-medicinal-product-domain.html\">Medicinal Product Domain</a>#Human)</span></p><p><b>status</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072084)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Herceptin (trastazumab) 150 mg</p><p><b>type</b>: Full name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000001)</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Herceptin</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: trastazumab</p><p><b>type</b>: Scientific name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000003)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 150 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: Intravenous infusion</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#100000075213)</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style=\"display: none\">*</td><td>Japan <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#JP)</span></td><td>Japan <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#JP)</span></td><td>Japanese (Region=Japan) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-ietf3066.html\">Tags for the Identification of Languages</a>#ja-JP)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://iyaku.info/medicine"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "4291447D2024" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MedicinalProduct" ] ;
+       fhir:display [ fhir:v "Medicinal Product" ]
+     ] )
+  ] ; # 
+  fhir:domain [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/medicinal-product-domain"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Human" ] ;
+       fhir:display [ fhir:v "Human use" ]
+     ] )
+  ] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:legalStatusOfSupply [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072084" ] ;
+       fhir:display [ fhir:v "Medicinal product subject to medical prescription" ]
+     ] )
+  ] ; # 
+  fhir:name ( [
+     fhir:productName [ fhir:v "Herceptin (trastazumab) 150 mg" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "220000000001" ]
+       ] ) ;
+       fhir:text [ fhir:v "Full name" ]
+     ] ;
+     fhir:part ( [
+       fhir:part [ fhir:v "Herceptin" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000002" ]
+         ] ) ;
+         fhir:text [ fhir:v "Invented name part" ]
+       ]
+     ] [
+       fhir:part [ fhir:v "trastazumab" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000003" ]
+         ] ) ;
+         fhir:text [ fhir:v "Scientific name part" ]
+       ]
+     ] [
+       fhir:part [ fhir:v "150 mg" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "220000000004" ]
+         ] ) ;
+         fhir:text [ fhir:v "Strength part" ]
+       ]
+     ] [
+       fhir:part [ fhir:v "Intravenous infusion" ] ;
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "100000075213" ]
+         ] ) ;
+         fhir:text [ fhir:v "Pharmaceutical dose form part" ]
+       ]
+     ] ) ;
+     fhir:usage ( [
+       fhir:country [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "JP" ]
+         ] )
+       ] ;
+       fhir:jurisdiction [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "JP" ]
+         ] )
+       ] ;
+       fhir:language [
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ja-JP" ]
+         ] )
+       ]
+     ] )
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/packherceptinvial> a fhir:PackagedProductDefinition ;
+  fhir:id [ fhir:v "packherceptinvial"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"packherceptinvial\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;packherceptinvial&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: 4291012F1022 (use: OFFICIAL)</p><p><b>name</b>: Herceptin (trastazumab) 150 mg for Intravenous Use</p><p><b>type</b>: Chemical Medininal Prodcut <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_medprodherceptin150\">See above (MedicinalProductDefinition/medprodherceptin150)</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2002-08-01 13:28:17+0000</p><p><b>containedItemQuantity</b>: 150 mg</p><p><b>manufacturer</b>: <a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></p><h3>Packagings</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td style=\"display: none\">*</td><td>id: 123456</td><td>Vial <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073563)</span></td><td>28</td><td>Glass type I <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003204)</span></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://pmda-packinsertno/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "4291012F1022" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Herceptin (trastazumab) 150 mg for Intravenous Use"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000155527" ] ;
+       fhir:display [ fhir:v "Chemical Medininal Prodcut" ]
+     ] )
+  ] ; # 
+  fhir:packageFor ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/medprodherceptin150> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/medprodherceptin150" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:statusDate [ fhir:v "2002-08-01T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:containedItemQuantity ( [
+     fhir:value [ fhir:v "150"^^xsd:decimal ] ;
+     fhir:unit [ fhir:v "mg" ]
+  ] ) ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+     fhir:reference [ fhir:v "Organization/orgchugai" ]
+  ] ) ; # 
+  fhir:packaging [
+     fhir:identifier ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "123456" ]
+     ] ) ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "100000073563" ] ;
+         fhir:display [ fhir:v "Vial" ]
+       ] )
+     ] ;
+     fhir:quantity [ fhir:v "28"^^xsd:integer ] ;
+     fhir:material ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "200000003204" ] ;
+         fhir:display [ fhir:v "Glass type I" ]
+       ] )
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/adminprodherceptin150> a fhir:AdministrableProductDefinition ;
+  fhir:id [ fhir:v "adminprodherceptin150"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"adminprodherceptin150\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;adminprodherceptin150&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: 7532F47F36A3585D1F348BBDDA057862</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_medprodherceptin150\">See above (MedicinalProductDefinition/medprodherceptin150)</a></p><p><b>administrableDoseForm</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#10219000)</span></p><p><b>unitOfPresentation</b>: 15054000 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#15054000)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>20053000 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#20053000)</span></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://www.who-umc.org/phpid"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "7532F47F36A3585D1F348BBDDA057862" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:formOf ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/medprodherceptin150> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/medprodherceptin150" ]
+  ] ) ; # 
+  fhir:administrableDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "10219000" ]
+     ] ) ;
+     fhir:text [ fhir:v "Tablet" ]
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "15054000" ]
+     ] )
+  ] ; # 
+  fhir:producedFrom ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:routeOfAdministration ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "20053000" ]
+       ] )
+     ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> a fhir:ManufacturedItemDefinition ;
+  fhir:id [ fhir:v "manitemherceptin150"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"manitemherceptin150\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;manitemherceptin150&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: id: 874291 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#10219000)</span></p><p><b>unitOfPresentation</b>: 15054000 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#15054000)</span></p><p><b>manufacturer</b>: <a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://pmda-sccj"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "874291" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:manufacturedDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://standardterms.edqm.eu/browse/get_concepts_by/SOM/SOM/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "10219000" ]
+     ] ) ;
+     fhir:text [ fhir:v "Tablet" ]
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://standardterms.edqm.eu/browse/get_concepts/UOP/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "15054000" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+     fhir:reference [ fhir:v "Organization/orgchugai" ]
+  ] ) . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/trastazumab> a fhir:Ingredient ;
+  fhir:id [ fhir:v "trastazumab"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"trastazumab\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;trastazumab&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: P188ANX8CK (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072072)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>trastazumab <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (beta#P188ANX8CK)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>150 mg</td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "P188ANX8CK" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072072" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "P188ANX8CK" ] ;
+           fhir:display [ fhir:v "trastazumab" ]
+         ] )
+       ]
+     ] ;
+     fhir:strength ( [
+       fhir:presentation [
+         a fhir:Quantity ;
+         fhir:value [ fhir:v "150"^^xsd:decimal ] ;
+         fhir:unit [ fhir:v "mg" ]
+       ] ;
+       fhir:basis [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleClass"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ACTIB" ]
+         ] ) ;
+         fhir:text [ fhir:v "active ingredient - basis of strength" ]
+       ]
+     ] )
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/carnubawax> a fhir:Ingredient ;
+  fhir:id [ fhir:v "carnubawax"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"carnubawax\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;carnubawax&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: R12CBM0EIZ (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>Carnauba wax <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#R12CBM0EIZ)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "R12CBM0EIZ" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "R12CBM0EIZ" ] ;
+           fhir:display [ fhir:v "Carnauba wax" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/crystallinecellulose> a fhir:Ingredient ;
+  fhir:id [ fhir:v "crystallinecellulose"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"crystallinecellulose\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;crystallinecellulose&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: OP1R32D61U (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>crystalline cellulose <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#OP1R32D61U)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "OP1R32D61U" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "OP1R32D61U" ] ;
+           fhir:display [ fhir:v "crystalline cellulose" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/mannitol> a fhir:Ingredient ;
+  fhir:id [ fhir:v "mannitol"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"mannitol\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;mannitol&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 3OWL53L36A (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>MANNITOL <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#3OWL53L36A)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "3OWL53L36A" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "3OWL53L36A" ] ;
+           fhir:display [ fhir:v "MANNITOL" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/hypromelose> a fhir:Ingredient ;
+  fhir:id [ fhir:v "hypromelose"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"hypromelose\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;hypromelose&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 3NXW29V3WO (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>HYPROMELLOSE, UNSPECIFIED <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#3NXW29V3WO)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "3NXW29V3WO" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "3NXW29V3WO" ] ;
+           fhir:display [ fhir:v "HYPROMELLOSE, UNSPECIFIED" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/lightanhydroussilicicacid> a fhir:Ingredient ;
+  fhir:id [ fhir:v "lightanhydroussilicicacid"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"lightanhydroussilicicacid\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;lightanhydroussilicicacid&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: ETJ7Z6XBU4 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>light anhydrous silicic acid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#ETJ7Z6XBU4)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "ETJ7Z6XBU4" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ETJ7Z6XBU4" ] ;
+           fhir:display [ fhir:v "light anhydrous silicic acid" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/magnesiumcarbonate> a fhir:Ingredient ;
+  fhir:id [ fhir:v "magnesiumcarbonate"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"magnesiumcarbonate\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;magnesiumcarbonate&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 0E53J927NA (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>MAGNESIUM CARBONATE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#0E53J927NA)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "0E53J927NA" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "0E53J927NA" ] ;
+           fhir:display [ fhir:v "MAGNESIUM CARBONATE" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/magnesiumstearate> a fhir:Ingredient ;
+  fhir:id [ fhir:v "magnesiumstearate"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"magnesiumstearate\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;magnesiumstearate&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 70097M6I30 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>MAGNESIUM STEARATE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#70097M6I30)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "70097M6I30" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "70097M6I30" ] ;
+           fhir:display [ fhir:v "MAGNESIUM STEARATE" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/methylparaben> a fhir:Ingredient ;
+  fhir:id [ fhir:v "methylparaben"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"methylparaben\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;methylparaben&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: A2I8C7HI9T (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>METHYLPARABEN <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#A2I8C7HI9T)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "A2I8C7HI9T" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "A2I8C7HI9T" ] ;
+           fhir:display [ fhir:v "METHYLPARABEN" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/polyethyleneglycol> a fhir:Ingredient ;
+  fhir:id [ fhir:v "polyethyleneglycol"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"polyethyleneglycol\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;polyethyleneglycol&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 30IQX730WE (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>POLYETHYLENE GLYCOL 6000 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#30IQX730WE)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "30IQX730WE" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "30IQX730WE" ] ;
+           fhir:display [ fhir:v "POLYETHYLENE GLYCOL 6000" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/polysorbate> a fhir:Ingredient ;
+  fhir:id [ fhir:v "polysorbate"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"polysorbate\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;polysorbate&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 6OZP39ZG8H (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>POLYSORBATE 80 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#6OZP39ZG8H)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "6OZP39ZG8H" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "6OZP39ZG8H" ] ;
+           fhir:display [ fhir:v "POLYSORBATE 80" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/polyvinylalcohol> a fhir:Ingredient ;
+  fhir:id [ fhir:v "polyvinylalcohol"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"polyvinylalcohol\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;polyvinylalcohol&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 532B59J990 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>POLYVINYL ALCOHOL, UNSPECIFIED <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#532B59J990)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "532B59J990" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "532B59J990" ] ;
+           fhir:display [ fhir:v "POLYVINYL ALCOHOL, UNSPECIFIED" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/sucrose> a fhir:Ingredient ;
+  fhir:id [ fhir:v "sucrose"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"sucrose\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;sucrose&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: C151H8M554 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>SUCROSE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#C151H8M554)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "C151H8M554" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "C151H8M554" ] ;
+           fhir:display [ fhir:v "SUCROSE" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/silicondioxide> a fhir:Ingredient ;
+  fhir:id [ fhir:v "silicondioxide"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"silicondioxide\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;silicondioxide&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: ETJ7Z6XBU4 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>SILICON DIOXIDE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#ETJ7Z6XBU4)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "ETJ7Z6XBU4" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ETJ7Z6XBU4" ] ;
+           fhir:display [ fhir:v "SILICON DIOXIDE" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/sodiumstarch> a fhir:Ingredient ;
+  fhir:id [ fhir:v "sodiumstarch"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"sodiumstarch\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;sodiumstarch&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 5856J3G2A2 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>SODIUM STARCH GLYCOLATE TYPE A POTATO <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#5856J3G2A2)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "5856J3G2A2" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "5856J3G2A2" ] ;
+           fhir:display [ fhir:v "SODIUM STARCH GLYCOLATE TYPE A POTATO" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/syntehticwax> a fhir:Ingredient ;
+  fhir:id [ fhir:v "syntehticwax"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"syntehticwax\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;syntehticwax&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 5M631N9V0S (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>synthetic wax <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#5M631N9V0S)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "5M631N9V0S" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "5M631N9V0S" ] ;
+           fhir:display [ fhir:v "synthetic wax" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/talc> a fhir:Ingredient ;
+  fhir:id [ fhir:v "talc"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"talc\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;talc&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 7SEV7J4R1U (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>talc <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#7SEV7J4R1U)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "7SEV7J4R1U" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "7SEV7J4R1U" ] ;
+           fhir:display [ fhir:v "talc" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/Ingredient/titaniumdioxide2> a fhir:Ingredient ;
+  fhir:id [ fhir:v "titaniumdioxide2"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"titaniumdioxide2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;titaniumdioxide2&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 15FIX9V2JP (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"#ManufacturedItemDefinition_manitemherceptin150\">See above (ManufacturedItemDefinition/manitemherceptin150)</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manufacturer</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td>TITANIUM DIOXIDE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#15FIX9V2JP)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "15FIX9V2JP" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/manitemherceptin150> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/manitemherceptin150" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+       fhir:reference [ fhir:v "Organization/orgchugai" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "15FIX9V2JP" ] ;
+           fhir:display [ fhir:v "TITANIUM DIOXIDE" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/subherceptin150> a fhir:SubstanceDefinition ;
+  fhir:id [ fhir:v "subherceptin150"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"subherceptin150\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;subherceptin150&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id: P188ANX8CK (use: OFFICIAL)</p><p><b>version</b>: 39</p><p><b>status</b>: Validated (UNII) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#1)</span></p><p><b>description</b>: White to pale yellow</p><p><b>manufacturer</b>: <a href=\"#Organization_orgchugai\">See above (Organization/orgchugai)</a></p><h3>Structures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>MolecularFormula</b></td></tr><tr><td style=\"display: none\">*</td><td>C20H24O2</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>trastazumab</td><td>Chemical Name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#1)</span></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "P188ANX8CK" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "39"] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1" ]
+     ] ) ;
+     fhir:text [ fhir:v "Validated (UNII)" ]
+  ] ; # 
+  fhir:description [ fhir:v "White to pale yellow"] ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+     fhir:reference [ fhir:v "Organization/orgchugai" ]
+  ] ) ; # 
+  fhir:structure [
+     fhir:molecularFormula [ fhir:v "C20H24O2" ]
+  ] ; # 
+  fhir:name ( [
+     fhir:name [ fhir:v "trastazumab" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "1" ]
+       ] ) ;
+       fhir:text [ fhir:v "Chemical Name" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

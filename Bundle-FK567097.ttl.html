@@ -1,0 +1,820 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>FK567097 - TTL Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.45"}
+    h3,h4,h5,h6{--heading-prefix:"20.45"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>FK567097</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-FK567097.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-FK567097.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-FK567097.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: FK567097 - TTL Representation</h2>
+
+
+<p><a href="Bundle-FK567097.ttl" no-download="true">Raw ttl</a> | <a href="Bundle-FK567097.ttl" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+&lt;http://hl7.org/fhir/Bundle/FK567097&gt; a fhir:Bundle ;
+  <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R5/resource.html#XBundle.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;FK567097&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XBundle.meta">fhir:meta</a> [
+     <a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">fhir:profile</a> ( [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&gt;
+     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XBundle.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;no&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.identifier">fhir:identifier</a> [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://felleskatalogen.no/vsid&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;567097&quot; ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;document&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.timestamp">fhir:timestamp</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#instant">fhir:v</a> &quot;2021-11-24T01:01:01Z&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">fhir:entry</a> ( [
+     <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi/Composition/FK567097-COMP&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/composition.html#XComposition">fhir:resource</a> ( &lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/FK567097-COMP&gt; )
+  ] [
+     <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-64&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">fhir:resource</a> ( &lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-64&gt; )
+  ] [
+     <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-78&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">fhir:resource</a> ( &lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-78&gt; )
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/FK567097-COMP&gt; <a href="http://hl7.org/fhir/R5/composition.html">a</a> fhir:Composition ;
+  <a href="http://hl7.org/fhir/R5/resource.html#XComposition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;FK567097-COMP&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">fhir:meta</a> [
+     <a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">fhir:profile</a> ( [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&gt;
+     ] [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&gt;
+     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XComposition.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;no&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">fhir:text</a> [
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;no\&quot; lang=\&quot;no\&quot;&gt;&lt;a name=\&quot;Composition_FK567097-COMP\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Composition FK567097-COMP&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;FK567097-COMP\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcFK567097-COMP\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Language: no&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profiles: &lt;a href=\&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\&quot;&gt;Composition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://felleskatalogen.no/vsid&lt;/code&gt;/567097&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://spor.ema.europa.eu/v1/lists/100000155531/terms/ 100000155538}\&quot;&gt;100000155538&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2021-11-24&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: Identifier: &lt;code&gt;https://gravitatehealth.eu/organization&lt;/code&gt;/felleskatalogen&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: Lantus sanofi-aventis sylinderampuller til AllStar PRO/JuniorSTAR&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">fhir:identifier</a> ( [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://felleskatalogen.no/vsid&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;567097&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;final&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">fhir:type</a> [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/100000155531/terms/&quot;^^xsd:anyURI ] ;
+       <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;100000155538&quot; ]
+     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">fhir:subject</a> ( [
+     <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/MedicinalProductDefinition/Diabetes-MPD-64&gt; ;
+     <a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;MedicinalProductDefinition/Diabetes-MPD-64&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> &quot;2021-11-24&quot;^^xsd:date] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">fhir:author</a> ( [
+     <a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.identifier">fhir:identifier</a> [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/organization&quot;^^xsd:anyURI ] ;
+       <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;felleskatalogen&quot; ]
+     ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Lantus sanofi-aventis sylinderampuller til AllStar PRO/JuniorSTAR&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">fhir:section</a> ( [
+     <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Pakningsvedlegg: Informasjon til brukeren&quot; ] ;
+     <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+         <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029894&quot; ]
+       ] )
+     ] ;
+     <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+       <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h1&gt;Pakningsvedlegg: Informasjon til brukeren&lt;/h1&gt;&lt;h2&gt;Lantus 100 enheter/ml injeksjonsvæske, oppløsning i sylinderampulle&lt;/h2&gt;&lt;h3&gt;insulin glargin&lt;/h3&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+     ] ;
+     <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">fhir:section</a> ( [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg. Les også nøye insulinpennens bruksanvisning som følger med i pakningen.&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/section&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;rules&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg. Les også nøye insulinpennens bruksanvisning som følger med i pakningen.&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Ta vare på dette pakningsvedlegget. Du kan få behov for å lese det igjen.&lt;/li&gt;&lt;li&gt;Hvis du har ytterligere spørsmål, kontakt lege eller apotek.&lt;/li&gt;&lt;li&gt;Dette legemidlet er skrevet ut kun til deg. Ikke gi det videre til andre. Det kan skade dem, selv om de har symptomer på sykdom som ligner dine.&lt;/li&gt;&lt;li&gt;Kontakt lege eller apotek dersom du opplever bivirkninger, inkludert mulige bivirkninger som ikke er nevnt i dette pakningsvedlegget. Se avsnitt 4.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ]
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;I dette pakningsvedlegget finner du informasjon om:&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/section&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;toc&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;I dette pakningsvedlegget finner du informasjon om:&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ol&gt;&lt;li&gt;Hva Lantus er og hva det brukes mot&lt;/li&gt;&lt;li&gt;Hva du må vite før du bruker Lantus&lt;/li&gt;&lt;li&gt;Hvordan du bruker Lantus&lt;/li&gt;&lt;li&gt;Mulige bivirkninger&lt;/li&gt;&lt;li&gt;Hvordan du oppbevarer Lantus&lt;/li&gt;&lt;li&gt;Innholdet i pakningen og ytterligere informasjon&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ]
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;1. Hva Lantus er og hva det brukes mot&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029895&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;1. Hva Lantus er og hva det brukes mot&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Lantus inneholder insulin glargin. Dette er et modifisert insulin, meget likt humaninsulin.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Lantus brukes for å behandle diabetes mellitus (sukkersyke) hos voksne, ungdom og barn fra 2 års alderen. Ved diabetes mellitus produserer ikke kroppen tilstrekkelig insulin til å kunne holde blodets sukkerinnhold under kontroll. Insulin glargin har langvarig og stabil blodsukkersenkende effekt.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ]
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;2. Hva du må vite før du bruker Lantus&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029896&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;2. Hva du må vite før du bruker Lantus&lt;/h2&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">fhir:section</a> ( [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Bruk ikke Lantus&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029897&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Bruk ikke Lantus&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;dersom du er allergisk overfor insulin glargin eller noen av de andre innholdsstoffene i dette legemidlet (listet opp i avsnitt 6).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Advarsler og forsiktighetsregler&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029898&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Advarsler og forsiktighetsregler&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Lantus i sylinderampuller er kun tilpasset injeksjon like under huden ved bruk av en flergangspenn (se også avsnitt 3). Rådfør deg med legen din dersom du trenger å injisere insulinet ved hjelp av en annen metode.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Rådfør deg med lege, apotek eller sykepleier før du bruker Lantus.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Vær nøye med å følge doseringsinstruksjonene og instruksjonene for kontroll av blod og urin, kosthold og fysiske aktiviteter (fysisk arbeid og trening) i samsvar med det som er avtalt med din lege. Hvis blodsukkeret ditt er for lavt (hypoglykemi), følg rådene for hypoglykemi (se boksen sist i pakningsvedlegget).&lt;br/&gt;Hudforandringer på injeksjonsstedet&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Injeksjonsstedet bør roteres for å forebygge hudforandringer som for eksempel kuler under huden. Det kan hende at insulinet ikke virker så godt hvis du injiserer det på et klumpete sted på huden (se Hvordan bruke Lantus). Hvis du pleier å injisere på et klumpete område og vil endre injeksjonssted til et annet område, må du ta kontakt med legen din først. Legen din kan gi deg beskjed om å kontrollere blodsukkeret ditt mer nøye og å justere dosen på insulinet ditt eller andre legemidler du bruker mot diabetes.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Reiser&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Rådfør deg med din lege før du skal ut og reise. Det kan være nødvendig å ta opp:&lt;ul&gt;&lt;li&gt;tilgjengeligheten av din type insulin i det landet du besøker,&lt;/li&gt;&lt;li&gt;forsyninger av insulin, kanyler osv,&lt;/li&gt;&lt;li&gt;riktig oppbevaring av insulinet under reisen,&lt;/li&gt;&lt;li&gt;inntak av måltider og insulintilførsel under reisen,&lt;/li&gt;&lt;li&gt;eventuelle følger av å krysse tidssoner,&lt;/li&gt;&lt;li&gt;eventuelle nye helsefarer i de land du besøker,&lt;/li&gt;&lt;li&gt;hva du skal gjøre i nødsituasjoner når du føler deg uvel eller blir syk.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Sykdommer og skader&lt;br/&gt;I følgende situasjoner krever håndteringen av din diabetes stor omtanke (for eksempel ved justering av insulindosen, blod- og urinprøver):&lt;ul&gt;&lt;li&gt;dersom du er syk eller har en større skade kan blodsukkernivået ditt øke (hyperglykemi).&lt;/li&gt;&lt;li&gt;dersom du ikke spiser nok kan blodsukkernivået ditt bli for lavt (hypoglykemi).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;I de fleste tilfeller vil du ha behov for legehjelp. &lt;b&gt;Vær tidlig ute med å kontakte lege.&lt;/b&gt;&lt;br/&gt;Dersom du har diabetes type 1 (insulinkrevende diabetes mellitus), skal du ikke slutte med insulinbehandlingen og du må sørge for fortsatt tilførsel av karbohydrater. Fortell alle som pleier eller behandler deg at du trenger insulin.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Insulinbehandling kan føre til at kroppen danner antistoffer mot insulin (stoffer som reagerer mot insulin). Dette vil kun i sjeldne tilfeller gjøre det nødvendig å endre insulindosen.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Enkelte pasienter med langvarig type 2 diabetes mellitus og hjertesykdom eller som har hatt slag, som har blitt behandlet med pioglitazon (oralt antidiabetes legemiddel som brukes til å behandle type 2 diabetes mellitus) og insulin, har utviklet hjertesvikt. Informer legen din så snart som mulig dersom du får tegn på hjertesvikt, som for eksempel uvanlig kortpustethet, rask vektøkning eller lokal hevelse (ødem).&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Barn&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029899&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Barn&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Det er ingen erfaring med bruk av Lantus hos barn under 2 år.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Andre legemidler og Lantus&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029900&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Andre legemidler og Lantus&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Enkelte legemidler forårsaker en endring i blodsukkernivået (økning, reduksjon eller begge deler, avhengig av omstendighetene). Det kan i hvert tilfelle bli nødvendig å justere insulindosen din for å unngå for lavt eller for høyt blodsukkernivå. Vær ekstra oppmerksom når du skal begynne eller slutte å ta et annet legemiddel.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Rådfør deg med lege eller apotek dersom du bruker, nylig har brukt eller planlegger å bruke andre legemidler. Før du tar et legemiddel, må du spørre legen om det vil påvirke blodsukkernivået ditt og hva du eventuelt må gjøre.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Legemidler som kan forårsake senkning av blodsukkernivået (hypoglykemi) er:&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;alle andre medisiner for behandling av diabetes,&lt;/li&gt;&lt;li&gt;legemidler som hemmer angiotensinkonverterende enzym (ACE) (brukt i behandling av visse hjertelidelser eller høyt blodtrykk),&lt;/li&gt;&lt;li&gt;disopyramid (brukt i behandling av visse hjertelidelser),&lt;/li&gt;&lt;li&gt;fluoksetin (brukt i behandling av depresjon),&lt;/li&gt;&lt;li&gt;fibrater (brukt for å senke høye nivåer av blodlipider),&lt;/li&gt;&lt;li&gt;legemidler som hemmer enzymet monoaminoksidase (MAO) (brukt i behandling av depresjon),&lt;/li&gt;&lt;li&gt;pentoksifyllin, propoksyfen, salisylater (for eksempel acetylsalisylsyre, som er smertestillende og febernedsettende),&lt;/li&gt;&lt;li&gt;antibiotika av typen sulfonamider.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Legemidler som kan forårsake økning av blodsukkernivået (hyperglykemi) er:&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;kortikosteroider (for eksempel ”kortison”, brukt i behandling av betennelsestilstander),&lt;/li&gt;&lt;li&gt;danazol (legemiddel som virker på eggløsningen),&lt;/li&gt;&lt;li&gt;diazoksid (brukt i behandling av høyt blodtrykk),&lt;/li&gt;&lt;li&gt;diuretika (brukt i behandling av høyt blodtrykk eller væskeretensjon),&lt;/li&gt;&lt;li&gt;glukagon (bukspyttkjertelhormon brukt i behandling av alvorlig hypoglykemi),&lt;/li&gt;&lt;li&gt;isoniazid (brukt i behandling av tuberkulose),&lt;/li&gt;&lt;li&gt;østrogener og progesteroner (for eksempel i p-piller brukt som prevensjon),&lt;/li&gt;&lt;li&gt;fenotiazinderivater (brukt i behandling av psykiatriske lidelser),&lt;/li&gt;&lt;li&gt;somatropin (veksthormon),&lt;/li&gt;&lt;li&gt;sympatomimetika (for eksempel salbutamol, terbutalin (brukt i behandling av astma) eller adrenalin),&lt;/li&gt;&lt;li&gt;thyreoideahormoner (brukt i behandling av sykdom i skjoldbruskkjertelen),&lt;/li&gt;&lt;li&gt;proteasehemmere (brukt i behandling av HIV)&lt;/li&gt;&lt;li&gt;atypiske antipsykotika (for eksempel olanzapin og klozapin).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Blodsukkernivået kan enten synke eller øke hvis du tar:&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;betablokkere (brukt i behandling av høyt blodtrykk),&lt;/li&gt;&lt;li&gt;klonidin (brukt i behandling av høyt blodtrykk),&lt;/li&gt;&lt;li&gt;litiumsalter (brukt i behandling av psykiatriske lidelser),&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Pentamidin (brukes i behandlingen av visse parasittinfeksjoner) kan forårsake hypoglykemi som enkelte ganger kan følges av hyperglykemi.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Betablokkere kan i likhet med andre sympatolytiske legemidler (for eksempel klonidin, guanetidin og reserpin) svekke eller totalt undertrykke de første varselsymptomene som hjelper deg å gjenkjenne en hypoglykemisk reaksjon.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Hvis du er usikker på om du tar noen av disse medisinene, kan du rådspørre lege eller på apotek.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Lantus sammen med alkohol&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029901&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Lantus sammen med alkohol&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Blodsukkernivået kan enten synke eller øke hvis du drikker alkohol.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Graviditet og amming&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029902&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Graviditet og amming&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Rådfør deg med lege eller apotek før du tar dette legemidlet dersom du er gravid eller ammer, tror at du kan være gravid eller planlegger å bli gravid.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Informer legen dersom du planlegger å bli gravid, eller hvis du allerede er gravid. Det kan være nødvendig å justere insulindosen under svangerskapet eller etter fødselen. For barnets skyld er det særdeles viktig at din diabetes holdes under oppsikt og at hypoglykemi forebygges.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Rådfør deg med lege, da amming kan kreve endring av kosthold og insulindosering.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Kjøring og bruk av maskiner&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029903&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Kjøring og bruk av maskiner&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Konsentrasjons- og reaksjonsevnen din kan nedsettes hvis:&lt;ul&gt;&lt;li&gt;du har hypoglykemi (lavt blodsukkernivå)&lt;/li&gt;&lt;li&gt;du har hyperglykemi (høyt blodsukkernivå)&lt;/li&gt;&lt;li&gt;du har synsproblemer.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Husk alltid på risikoen for dette i alle situasjoner der du kan utsette deg selv eller andre for fare (for eksempel ved bilkjøring eller bruk av maskiner). Du skal diskutere med legen din om bilkjøring er tilrådelig hvis:&lt;ul&gt;&lt;li&gt;du ofte har episoder med hypoglykemi,&lt;/li&gt;&lt;li&gt;de første varselssymptomer som hjelper deg å gjenkjenne hypoglykemi er svekket eller mangler.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Viktige opplysninger om noen av innholdsstoffene i Lantus&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029904&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Viktige opplysninger om noen av innholdsstoffene i Lantus&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Dette legemidlet inneholder mindre enn 1 mmol (23 mg) natrium per dose, dvs. i praksis natriumfritt.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] )
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;3. Hvordan du bruker Lantus&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029905&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;3. Hvordan du bruker Lantus&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Bruk alltid dette legemidlet nøyaktig slik legen din har fortalt deg. Kontakt lege eller apotek hvis du er usikker.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Selv om Lantus inneholder det samme virkestoffet som Toujeo (insulin glargin 300 enheter/ml) er disse legemidlene ikke byttbare. Overgangen fra en insulinbehandling til en annen krever forskrivning og oppfølging fra lege og blodsukkerovervåkning. Rådfør deg med lege for mere informasjon.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Dose&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Med utgangspunkt i din livsstil og resultatet av blodsukkermålingene dine, kommer legen din til å:&lt;ul&gt;&lt;li&gt;avgjøre hvor mye Lantus du trenger daglig, og til hvilket tidspunkt,&lt;/li&gt;&lt;li&gt;fortelle deg når du skal kontrollere blodsukkernivået, og om du må ta urinprøver,&lt;/li&gt;&lt;li&gt;fortelle deg når det kan være nødvendig å ta en større eller mindre dose Lantus.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Lantus er et langtidsvirkende insulin. Legen din kan forskrive det i kombinasjon med et korttidsvirkende insulin eller med tabletter for behandling av høye blodsukkernivåer.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Det er mange faktorer som kan påvirke blodsukkernivået. Disse faktorene må du kjenne til for å kunne handle korrekt ved endringer i blodsukkernivået og for å forhindre at det blir for høyt eller for lavt. Du finner ytterligere opplysninger i slutten av dette pakningsvedlegget.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Bruk av Lantus hos barn og ungdom&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Lantus kan brukes av ungdom og barn fra 2 år og oppover. Bruk dette legemidlet nøyaktig slik legen din har fortalt deg.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Når skal Lantus injiseres&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Du trenger én injeksjon med Lantus i døgnet. Denne tas til et fast tidspunkt.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Hvordan skal Lantus injiseres&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Lantus injiseres under huden. Du må ALDRI injisere Lantus i en blodåre, da dette gir en annen effekt og kan forårsake hypoglykemi.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Legen forteller deg i hvilket hudområde du skal injisere Lantus. Bytt injeksjonssted hver gang innenfor det valgte hudområdet.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Håndtering av sylinderampullene&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Lantus i sylinderampuller er kun tilpasset injeksjon like under huden ved bruk av en flergangspenn. Rådfør deg med legen din dersom du trenger å injisere insulinet ved hjelp av en annen metode.&lt;br/&gt;For å sikre at du får riktig dose skal Lantus sylinderampuller kun brukes sammen med følgende penner:&lt;ul&gt;&lt;li&gt;JuniorSTAR, som leverer doser i trinn på 0,5 enheter&lt;/li&gt;&lt;li&gt;ClikSTAR, Tactipen, Autopen 24, AllStar eller AllStar PRO, som leverer doser i trinn på 1 enhet. Ikke alle disse pennene er nødvendigvis markedsført i Norge.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Pennen skal brukes som forklart i bruksanvisningen som følger med pennen.&lt;br/&gt;Følg denne bruksanvisningen nøye ved innsetting av insulinampulle, påsetting av injeksjonskanyle og injeksjon av insulinet.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Oppbevar sylinderampullen i romtemperatur i 1 til 2 timer før du setter den i pennen.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Kontroller sylinderampullen før bruk. Du kan bare bruke klare, fargeløse oppløsninger med vannlignende konsistens og uten synlige partikler.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Ikke ryst eller bland den før bruk.&lt;br/&gt;Bytt alltid til en ny sylinderampulle hvis du merker at kontrollen med blodsukkeret uventet holder på å bli dårligere. Dette er fordi insulinet kan ha mistet noe av effekten. Hvis du tror det kan være problemer med Lantus, bør du få det kontrollert hos lege eller på apotek.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Vær spesielt oppmerksom på følgende før injeksjon&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Evt. luftbobler må fjernes før injeksjon. Det er viktig å forsikre seg om at insulinet ikke forurenses av alkohol, andre desinfeksjonsmidler eller andre stoffer. Ikke fyll sylinderampullene for gjenbruk. Andre former for insulin må ikke tilsettes sylinderampullen. Ikke bland Lantus med noen andre former for insulin eller legemidler. Lantus skal ikke fortynnes, da blanding eller fortynning kan endre effekten.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Problemer med insulinpennen?&lt;/span&gt; &lt;span class=\&quot;inline-title\&quot;&gt;Les bruksanvisningen som følger med pennen.&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;&lt;span class=\&quot;underline\&quot;&gt;Hvis insulinpennen er ødelagt eller ikke virker som den skal (pga. mekanisk feil), må den kastes&lt;/span&gt; &lt;/b&gt;&lt;b&gt;&lt;span class=\&quot;underline\&quot;&gt;og en ny insulinpenn må benyttes.&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Forveksling av insulintyper&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Du må alltid kontrollere insulinetiketten før hver injeksjon, for å unngå å forveksle Lantus med andre typer insuliner.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">fhir:section</a> ( [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Dersom du tar for mye av Lantus&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029907&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Dersom du tar for mye av Lantus&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Hvis du &lt;b&gt;har injisert for mye Lantus&lt;/b&gt;, kan blodsukkernivået bli for lavt (hypoglykemi).&lt;br/&gt;Kontroller blodsukkeret ofte. Hvis du spiser mer mat og kontrollerer blodsukkeret, kan du vanligvis forebygge utvikling av hypoglykemi. Du finner informasjon om behandling av hypoglykemi i rammen ved slutten av dette pakningsvedlegget.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Dersom du har glemt å ta Lantus&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029908&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Dersom du har glemt å ta Lantus&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Hvis du har &lt;b&gt;glemt en dose med Lantus &lt;/b&gt;eller &lt;b&gt;ikke injisert nok insulin&lt;/b&gt;, kan blodsukkernivået bli for høyt (hyperglykemi). Kontroller blodsukkeret ofte. Du finner informasjon om behandling av hyperglykemi i rammen ved slutten av dette pakningsvedlegget.&lt;/li&gt;&lt;li&gt;Du må ikke ta en dobbelt dose som erstatning for en glemt dose.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Dersom du avbryter behandling med Lantus&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029909&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Dersom du avbryter behandling med Lantus&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Dette kan føre til alvorlig hyperglykemi (veldig høyt blodsukker) og ketoacidose (opphoping av syre i blodet fordi kroppen bryter ned fett i stedet for sukker). Du må ikke avbryte behandling med Lantus uten at du snakker med en lege, som vil fortelle deg hva som må gjøres.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Spør lege, apotek eller sykepleier dersom du har noen spørsmål om bruken av dette legemidlet.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] )
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;4. Mulige bivirkninger&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029910&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;4. Mulige bivirkninger&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Som alle legemidler kan dette legemidlet forårsake bivirkninger, men ikke alle får det.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Hvis du oppdager tegn på at blodsukkernivået ditt er for lavt (hypoglykemi) &lt;/b&gt;må du gjøre noe for å øke blodsukkernivået umiddelbart (se tekstboksen på slutten av dette pakningsvedlegget).&lt;br/&gt;Hypoglykemi (lavt blodsukker) kan være svært alvorlig og er svært vanlig ved insulinbehandling (kan oppstå hos flere enn 1 av 10 personer). Lavt blodsukker betyr at det ikke er nok sukker i blodet ditt.&lt;br/&gt;Hvis ditt blodsukkernivå faller for lavt kan du besvime (miste bevisstheten). Alvorlig hypoglykemi kan forårsake hjerneskade og være livstruende. For mer informasjon, se tekstboksen på slutten av dette pakningsvedlegget.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Alvorlige allergiske reaksjoner &lt;/b&gt;(sjeldne, kan oppstå hos inntil 1 av 1000 personer) – tegn kan være omfattende hudreaksjoner (utslett og kløe over hele kroppen), kraftig hevelse av huden eller slimhinne (angioødem), kortpustethet, blodtrykksfall med rask puls eller svetting. Alvorlige allergiske reaksjoner på insuliner kan bli livstruende. Ta øyeblikkelig kontakt med lege dersom du merker tegn på en alvorlig allergisk reaksjon.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Hudforandringer på injeksjonsstedet:&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;Hvis du injiserer insulin for ofte på samme sted, kan huden på dette stedet enten skrumpe inn (lipoatrofi) (kan oppstå hos 1 av 100 personer) eller fortykkes (lipohypertrofi) (kan oppstå hos 1 av 10 personer). Opphopning av et protein kalt amyloid kan også forårsake kuler under huden (kutan amyloidose; det er ikke kjent hvor ofte dette forekommer). Det kan hende at insulinet ikke virker så godt hvis du injiserer det i et klumpete område. Bytt injeksjonssted for hver injeksjon for å bidra til å forebygge disse hudforandringene.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Vanlig rapporterte bivirkninger &lt;/b&gt;(kan oppstå hos inntil 1 av 10 personer)&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Hud og allergiske reaksjoner på injeksjonsstedet&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;Tegn kan være rødme, uvanlig intens smerte ved injeksjon, kløe, utslett, hevelse eller betennelse. Dette kan spre seg til området rundt injeksjonsstedet. De fleste milde insulinreaksjoner forsvinner vanligvis i løpet av et par dager til et par uker.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Sjeldne rapporterte bivirkninger &lt;/b&gt;(kan oppstå hos inntil 1 av 1000 personer)&lt;ul&gt;&lt;li&gt;&lt;b&gt;Påvirkning av synet&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;En merkbar forandring (forbedring eller forverring) i kontrollen av blodsukkeret ditt kan forbigående forstyrre synet ditt. Hvis du har proliferativ retinopati (en øyesykdom relatert til diabetes), kan alvorlige hypoglykemier forårsake forbigående synstap.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Generelle bivirkninger&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;I sjeldne tilfeller kan insulinbehandling også gi forbigående vannansamlinger i kroppen, med hevelse i legger og ankler.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Svært sjeldent rapporterte bivirkninger (&lt;/b&gt;kan oppstå hos inntil 1 av 10 000 personer)&lt;br/&gt;I svært sjeldne tilfeller kan dysgeusi (smaksforandringer) og myalgi (muskelsmerter) oppstå.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Bivirkninger som kan forekomme hos barn og ungdom&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Generelt er bivirkningene for barn og ungdom som er 18 år eller yngre lignende de som er sett hos voksne. Klager på reaksjoner på injeksjonsstedet (smerte ved injeksjonsstedet, reaksjoner ved injeksjonsstedet) og hudreaksjoner (utslett, elveblest) er rapportert releativt oftere hos barn og ungdom som er 18 år eller yngre i forhold til voksne.&lt;br/&gt;Det er ikke erfaring med bruk hos barn under 2 år.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">fhir:section</a> ( [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Melding av bivirkninger&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029912&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Melding av bivirkninger&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Kontakt lege, apotek eller sykepleier dersom du opplever bivirkninger. Dette gjelder også bivirkninger som ikke er nevnt i pakningsvedlegget. Du kan også melde fra om bivirkninger direkte via meldeskjema som finnes på nettsiden til Statens legemiddelverk: &lt;a href=\&quot;https://www.legemiddelverket.no/pasientmelding\&quot; title=\&quot;www.legemiddelverket.no/pasientmelding\&quot;&gt;www.legemiddelverket.no/pasientmelding&lt;/a&gt;. Ved å melde fra om bivirkninger bidrar du med informasjon om sikkerheten ved bruk av dette legemidlet.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] )
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;5. Hvordan du oppbevarer Lantus&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029913&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;5. Hvordan du oppbevarer Lantus&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Oppbevares utilgjengelig for barn.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Bruk ikke dette legemidlet etter utløpsdatoen som er angitt på esken og på etiketten på sylinderampullen etter ”EXP”. Utløpsdatoen henviser til den siste dagen i den måneden.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Uåpnete sylinderampuller&lt;/span&gt;&lt;br/&gt;Oppbevares i kjøleskap (2-8ºC). Skal ikke fryses, eller plasseres ved fryseboks eller fryseelementer. Oppbevar sylinderampullen i ytteremballasjen for å beskytte mot lys.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;span class=\&quot;underline\&quot;&gt;Sylinderampuller i bruk&lt;/span&gt;&lt;br/&gt;Sylinderampuller som er i bruk (i insulinpennen) eller tatt med som reserve, kan oppbevares i inntil 4 uker ved høyst 30ºC beskyttet fra direkte varme og lys. Sylinderampuller som er i bruk må ikke oppbevares i kjøleskap. Etter denne tiden må sylinderampullen ikke brukes.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Bruk ikke Lantus hvis du ser partikler i oppløsningen. Du må bare bruke Lantus hvis oppløsningen er klar, fargeløs, med vannlignende konsistens.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Legemidler skal ikke kastes i avløpsvann eller sammen med husholdningsavfall. Spør på apoteket hvordan legemidler som du ikke lenger bruker skal kastes. Disse tiltakene bidrar til å beskytte miljøet.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ]
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;6. Innholdet i pakningen og ytterligere informasjon&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029914&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;6. Innholdet i pakningen og ytterligere informasjon&lt;/h2&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">fhir:section</a> ( [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Sammensetning av Lantus&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029915&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Sammensetning av Lantus&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Virkestoff er insulin glargin. En ml injeksjonsvæske inneholder 100 enheter med insulin glargin (tilsvarende 3,64 mg).&lt;/li&gt;&lt;li&gt;Andre innholdsstoffer er sinkklorid, metakresol, glyserol, natriumhydroksid(se avsnitt 2 under ”Viktige opplysninger om noen av innholdsstoffene i Lantus”) og saltsyre (til pH-justering) og vann til injeksjon.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Hvordan Lantus ser ut og innholdet i pakningen&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029916&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Hvordan Lantus ser ut og innholdet i pakningen&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Lantus 100 enheter/ml injeksjonsvæske, oppløsning sylinderampuller er en klar og fargeløs oppløsning.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Lantus leveres i en egen sylinderampulle kun for bruk i pennene ClikSTAR, Tactipen, Autopen 24, AllStar, AllStar PRO eller JuniorSTAR. Hver sylinderampulle inneholder 3 ml injeksjonsvæske, oppløsning (tilsvarende 300 enheter).&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Pakningsstørrelser på 1, 3, 4, 5, 6, 8, 9 og 10 sylinderampuller. Ikke alle pakningsstørrelser vil nødvendigvis bli markedsført.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Innehaver av markedsføringstillatelsen og tilvirker&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029917&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Innehaver av markedsføringstillatelsen og tilvirker&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Sanofi-Aventis Deutschland GmbH, D-65926 Frankfurt am Main, Tyskland.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;For ytterligere informasjon om dette legemidlet bes henvendelser rettet til den lokale representant for innehaveren av markedsføringstillatelsen:&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;sanofi-aventis Norge AS Tlf: +47 67 10 71 00&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Dette pakningsvedlegget ble sist oppdatert 24.11.2021&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029919&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Dette pakningsvedlegget ble sist oppdatert 24.11.2021&lt;/h3&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Andre informasjonskilder&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029920&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;Andre informasjonskilder&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Detaljert informasjon om dette legemidlet er tilgjengelig på nettstedet til Det europeiske legemiddelkontoret (The European Medicines Agency) &lt;a href=\&quot;http://www.ema.europa.eu/\&quot; title=\&quot;http://www.ema.europa.eu/\&quot;&gt;http://www.ema.europa.eu/&lt;/a&gt;, og på nettstedet til &lt;a href=\&quot;http://www.felleskatalogen.no\&quot; title=\&quot;\n               \n                  www.felleskatalogen.no\n               \n            \&quot;&gt;www.felleskatalogen.no&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;HYPERGLYKEMI OG HYPOGLYKEMI&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/section&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;patient-info&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;&lt;b&gt;HYPERGLYKEMI OG HYPOGLYKEMI&lt;/b&gt;&lt;/h3&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Ha alltid med deg minst 20 gram sukker.&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Ha med deg informasjon som viser at du er diabetiker.&lt;/b&gt;&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;HYPERGLYKEMI (for høyt blodsukkernivå)&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Hvis blodsukkeret ditt er for høyt (hyperglykemi) kan du ha injisert for lite insulin Hvorfor oppstår hyperglykemi?&lt;/b&gt;&lt;br/&gt;For eksempel hvis:&lt;ul&gt;&lt;li&gt;insulinet ikke er injisert, utilstrekkelig mengde er injisert eller hvis insulinet har mistet effekten ved for eksempel feil oppbevaring,&lt;/li&gt;&lt;li&gt;Insulinpennen din virker ikke som den skal&lt;/li&gt;&lt;li&gt;du får mindre mosjon enn vanlig, er stresset (bekymringer, opphisselse), eller er skadet, gjennomgår en operasjon, har infeksjon eller feber,&lt;/li&gt;&lt;li&gt;du tar eller har tatt enkelte andre legemidler (se avsnitt 2, ” Andre legemidler og Lantus”).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Varselsymptomene ved hyperglykemi&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Tørste, økt behov for å late vannet, tretthet, tørr hud, ansiktsrødme, dårlig appetitt, lavt blodtrykk, hjertebank, og glukose og ketonlegemer i urinen. Magesmerter, rask og dyp innånding, søvnighet og eventuelt bevisstløshet kan være tegn på en alvorlig tilstand (ketoacidose) som er en følge av mangel på insulin.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Hva skal du gjøre hvis du får hyperglykemi?&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Kontroller blodsukkernivået og ketoner i urinen så snart symptomer som beskrevet over oppstår. Alvorlig hyperglykemi eller ketoacidose må alltid behandles av lege, vanligvis på sykehus.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;HYPOGLYKEMI (for lavt blodsukkernivå)&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Hvis ditt blodsukkernivå faller for mye kan du miste bevisstheten. Alvorlig hypoglykemi kan forårsake hjerteinfarkt eller hjerneskade og kan være livstruende. Vanligvis bør du være i stand til å merke at blodsukkernivået ditt faller for mye, slik at du kan iverksette nødvendige tiltak.&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Hvorfor oppstår hypoglykemi?&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;For eksempel hvis:&lt;ul&gt;&lt;li&gt;du injiserer for mye insulin,&lt;/li&gt;&lt;li&gt;du utelater eller utsetter måltider,&lt;/li&gt;&lt;li&gt;du ikke spiser nok eller spiser mat med mindre karbohydrater enn vanlig (sukker og stoffer som ligner sukker kalles karbohydrater, mens kunstige søtstoffer IKKE er karbohydrater),&lt;/li&gt;&lt;li&gt;du taper karbohydrater på grunn av oppkast eller diaré,&lt;/li&gt;&lt;li&gt;du drikker alkohol, særlig hvis du spiser lite,&lt;/li&gt;&lt;li&gt;du får mer mosjon enn normalt eller utfører andre former for fysisk aktivitet enn vanlig,&lt;/li&gt;&lt;li&gt;du er i ferd med å komme deg etter en skade, operasjon eller annen belastning,&lt;/li&gt;&lt;li&gt;du er i ferd med å komme deg etter en sykdom eller feber,&lt;/li&gt;&lt;li&gt;du tar eller har sluttet å ta enkelte andre medisiner (se avsnitt 2, ” Andre legemidler og Lantus”).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Det er også større risiko for å få hypoglykemi hvis:&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;du nettopp har begynt med insulinbehandling eller har byttet til et annet insulinpreparat (hypoglykemi kan oppstå når du bytter fra ditt tidligere basalinsulin til Lantus, dersom det skjer så er det mer sannsynlig at det oppstår om morgenen enn om natten),&lt;/li&gt;&lt;li&gt;blodsukkernivået ditt er nesten normalt eller ustabilt,&lt;/li&gt;&lt;li&gt;du bytter injeksjonsområde (for eksempel fra lår til overarm),&lt;/li&gt;&lt;li&gt;du lider av alvorlig nyre- eller leversykdom eller av enkelte andre sykdommer, som for eksempel hypotyreoidisme.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Varselsymptomene ved hypoglykemi&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;I kroppen din&lt;/li&gt;&lt;/ul&gt;Eksempler på symptomer på at blodsukkeret faller for mye eller for raskt: svette, klam hud, angst, rask puls, høyt blodtrykk, hjertebank og uregelmessig hjerterytme. Slike symptomer forekommer ofte før symptomene på lavt sukkernivå i hjernen.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;I hjernen din&lt;/li&gt;&lt;/ul&gt;Eksempler på symptomer på at det er for lavt sukkernivå i hjernen: hodepine, intens sult, kvalme, oppkast, tretthet, søvnighet, søvnforstyrrelser, rastløshet, aggressivitet, konsentrasjonsvansker, nedsatt reaksjonsevne, depresjon, forvirring, taleforstyrrelser (iblant fullstendig tap av taleevnen), synsforstyrrelser, skjelvinger, lammelser, prikking (parestesi), nummenhet og prikking i området rundt munnen, svimmelhet, manglende selvbeherskelse, hjelpeløshet, kramper og bevisstløshet.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;De første symptomene på at hypoglykemi er i ferd med å oppstå (”varselssymptomer”) kan forandres, bli svakere eller utebli helt hvis du:&lt;ul&gt;&lt;li&gt;er eldre,&lt;/li&gt;&lt;li&gt;har hatt diabetes lenge,&lt;/li&gt;&lt;li&gt;lider av en spesiell type nervesykdom (diabetisk autonom neuropati),&lt;/li&gt;&lt;li&gt;nylig har hatt hypoglykemi (for eksempel dagen før) eller hypoglykemien utvikles langsomt,&lt;/li&gt;&lt;li&gt;har betydelig forbedrede eller nesten normale blodsukkernivåer,&lt;/li&gt;&lt;li&gt;tar eller har tatt visse andre legemidler (se avsnitt 2, ” Andre legemidler og Lantus”).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;I slike tilfelle risikerer du å utvikle alvorlig hypoglykemi (og t.o.m. besvime) før du selv blir klar over problemet. Vær oppmerksom på dine varselssymptomer. Hyppigere blodsukkerprøver kan bidra til å identifisere milde hypoglykemiske episoder som du ellers ville oversett. Hvis du ikke er sikker på at du kjenner igjen varselssymptomene dine, må du unngå situasjoner der du eller andre kan utsettes for risiko på grunn av hypoglykemi (for eksempel bilkjøring).&lt;/div&gt;&lt;span class=\&quot;inline-title\&quot;&gt;Hva skal du gjøre hvis du får hypoglykemi&lt;/span&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;ul&gt;&lt;li&gt;Ikke injiser insulin. Spis umiddelbart 10 til 20 g sukker, for eksempel glukose, sukkerbiter eller drikk en sukkerholdig drikk. NB! Kunstige søtningsmidler og mat med kunstige søtningsmidler (for eksempel lett-drikker) har ingen effekt ved behandling av hypoglykemi.&lt;/li&gt;&lt;li&gt;Deretter spiser du noe som har en langvarig blodsukkerhevende effekt (for eksempel brød eller pasta). Dette skal legen eller sykepleieren din ha gjennomgått med deg tidligere.&lt;/li&gt;&lt;li&gt;Dersom du får hypoglykemi igjen, innta ytterligere 10 til 20 g sukker.&lt;/li&gt;&lt;li&gt;Kontakt lege straks hvis du ikke klarer å kontrollere hypoglykemien, eller hvis tilstanden oppstår på nytt.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Fortell dine slektninger, venner og nære kollegaer følgende:&lt;br/&gt;Hvis du ikke er i stand til å svelge, eller hvis du er bevisstløs, må du få en injeksjon med glukose eller glukagon (et legemiddel som hever blodsukkernivået). Det er trygt å få disse injeksjonene også om det ikke er sikkert at du har hypoglykemi.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Vi anbefaler at du kontrollerer blodsukkeret umiddelbart etter inntak av glukosen, for å kontrollere om du virkelig har hypoglykemi.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] )
+     ] )
+  ] ) . # 
+
+&lt;http://hl7.org/fhir/MedicinalProductDefinition/Diabetes-MPD-64&gt; a fhir:MedicinalProductDefinition .
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-64&gt; <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">a</a> fhir:MedicinalProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;Diabetes-MPD-64&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">fhir:meta</a> [
+     <a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">fhir:profile</a> ( [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&gt;
+     ] [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&gt;
+     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">fhir:text</a> [
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;MedicinalProductDefinition_Diabetes-MPD-64\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition Diabetes-MPD-64&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;Diabetes-MPD-64\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcDiabetes-MPD-64\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profiles: &lt;a href=\&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\&quot;&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_1536BD37-E67E-40E3-A88A-F7A2404F63CF&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Lantus inj, oppl 100 E/ml&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">fhir:identifier</a> ( [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;ID_1536BD37-E67E-40E3-A88A-F7A2404F63CF&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">fhir:name</a> ( [
+     <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.productName">fhir:productName</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Lantus inj, oppl 100 E/ml&quot; ]
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-78&gt; <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">a</a> fhir:PackagedProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;Diabetes-PPD-78&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.meta">fhir:meta</a> [
+     <a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">fhir:profile</a> ( [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&gt;
+     ] [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&gt;
+     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/domainresource.html#XPackagedProductDefinition.text">fhir:text</a> [
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;PackagedProductDefinition_Diabetes-PPD-78\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition Diabetes-PPD-78&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;Diabetes-PPD-78\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcDiabetes-PPD-78\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profiles: &lt;a href=\&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-PackagedProductDefinition-uv-epi.html\&quot;&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_F5DDF232-DC47-48FA-82BD-9156E6A7FBDA, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/004746&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Lantus inj, oppl 100 E/ml&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\&quot;Bundle-FK567097.html#MedicinalProductDefinition_Diabetes-MPD-64\&quot;&gt;MedicinalProductDefinition: identifier = http://legemiddelverket.no/FEST/LegemiddelMerkevareID#ID_1536BD37-E67E-40E3-A88A-F7A2404F63CF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">fhir:identifier</a> ( [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://legemiddelverket.no/FEST/LegemiddelPakningID&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;ID_F5DDF232-DC47-48FA-82BD-9156E6A7FBDA&quot; ]
+  ] [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://farmalogg.no/varenummer&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;004746&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Lantus inj, oppl 100 E/ml&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packageFor">fhir:packageFor</a> ( [
+     <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/MedicinalProductDefinition/Diabetes-MPD-64&gt; ;
+     <a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;MedicinalProductDefinition/Diabetes-MPD-64&quot; ]
+  ] ) . # 
+
+</pre>
+
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

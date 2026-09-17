@@ -1,0 +1,1167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>JANUMET tabletti, kalvopäällysteinen 50/850 mg, 50/1000 mg (Bundle) - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.498"}
+    h3,h4,h5,h6{--heading-prefix:"16.498"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>JANUMET tabletti, kalvopäällysteinen 50/850 mg, 50/1000 mg (Bundle)</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-86169.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-86169.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-86169.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Bundle: JANUMET tabletti, kalvopäällysteinen 50/850 mg, 50/1000 mg (Bundle)</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+  <h2>Narrative Text</h2>
+  <br/>
+
+  
+    <h3>Lisätietoa</h3>
+    <p>
+      <div>
+                     <p>
+                        <strong>Janumet 50 mg/850 mg kalvopäällysteiset tabletit<br/>
+Janumet 50 mg/1000 mg kalvopäällysteiset tabletit</strong>
+                        <br/>
+sitagliptiini/metformiinihydrokloridi</p>
+                  </div></p>
+    
+      
+
+        <h4>Yleisiä ohjeita</h4>
+        <p>
+          <div>
+                        <h2>Yleisiä ohjeita</h2>
+                        <p>
+                           <strong>Lue tämä pakkausseloste huolellisesti ennen kuin aloitat tämän lääkkeen ottamisen, sillä se sisältää sinulle tärkeitä tietoja.</strong>
+                        </p>
+                        <ul>
+                           <li>Säilytä tämä pakkausseloste. Voit tarvita sitä myöhemmin.</li>
+                           <li>Jos sinulla on kysyttävää, käänny lääkärin, apteekkihenkilökunnan tai sairaanhoitajan puoleen.</li>
+                           <li>Tämä lääke on määrätty vain sinulle eikä sitä pidä antaa muiden käyttöön. Se voi aiheuttaa haittaa muille, vaikka heillä olisikin samanlaiset oireet kuin sinulla. </li>
+                           <li>Jos havaitset haittavaikutuksia, kerro niistä lääkärille, apteekkihenkilökunnalle tai sairaanhoitajalle. Tämä koskee myös sellaisia mahdollisia haittavaikutuksia, joita ei ole mainittu tässä pakkausselosteessa. Ks. kohta <a class="cross-reference">Mahdolliset haittavaikutukset</a>.</li>
+                        </ul>
+                     </div></p>
+
+      
+
+        <h4>Tässä pakkausselosteessa kerrotaan</h4>
+        <p>
+          <div>
+                        <h2>Tässä pakkausselosteessa kerrotaan</h2>
+                        <p>1. Mitä Janumet on ja mihin sitä käytetään<br/>
+2. Mitä sinun on tiedettävä, ennen kuin otat Janumet-valmistetta<br/>
+3. Miten Janumet-valmistetta otetaan<br/>
+4. Mahdolliset haittavaikutukset<br/>
+5. Janumet-valmisteen säilyttäminen<br/>
+6. Pakkauksen sisältö ja muuta tietoa</p>
+                     </div></p>
+
+      
+
+        <h4>Mitä valmiste on ja mihin sitä käytetään</h4>
+        <p>
+          <div>
+                        <h2>Mitä valmiste on ja mihin sitä käytetään</h2>
+                        <p>Janumet sisältää kahta eri lääkeainetta, sitagliptiinia ja metformiinia.</p>
+                        <ul>
+                           <li>sitagliptiini kuuluu DPP-4-estäjiksi (dipeptidyylipeptidaasi 4:n estäjiksi) kutsuttujen lääkeaineiden ryhmään</li>
+                           <li>metformiini kuuluu biguanideiksi kutsuttujen lääkeaineiden ryhmään.</li>
+                        </ul>
+                        <p>Nämä lääkeaineet yhdessä auttavat pitämään verensokeriarvot hallinnassa tyypin 2 diabetesta sairastavilla aikuisilla potilailla. Tämä lääke auttaa nostamaan aterianjälkeisiä insuliinipitoisuuksia ja vähentää elimistön tuottaman sokerin määrää.</p>
+                        <p>Janumet auttaa alentamaan verensokeriasi yhdessä ruokavalion ja liikunnan kanssa. Tätä lääkettä voidaan käyttää yksinään tai yhdessä tiettyjen muiden diabeteslääkkeiden (insuliinin, sulfonyyliureoiden tai glitatsonien) kanssa.</p>
+                        <p>Mikä on tyypin 2 diabetes?</p>
+                        <p>Tyypin 2 diabetes on sairaus, jossa elimistö ei tuota riittävästi insuliinia ja jossa elimistön tuottama insuliini ei vaikuta niin hyvin kuin sen pitäisi. Elimistösi voi myös tuottaa liian paljon sokeria, jolloin sokeria (glukoosia) kertyy vereen. Tämä voi johtaa vakaviin sairauksiin, kuten sydän- tai munuaissairauksiin, sokeuteen tai amputaatioon.</p>
+                     </div></p>
+
+      
+
+        <h4>Mitä sinun on tiedettävä ennen valmisteen käyttöä</h4>
+        <p>
+          <div>
+                        <h2>Mitä sinun on tiedettävä ennen valmisteen käyttöä</h2>
+                        <p>
+                           <strong>Älä ota Janumet-valmistetta</strong>
+                        </p>
+                        <ul>
+                           <li>jos olet allerginen sitagliptiinille tai metformiinille tai tämän lääkkeen jollekin muulle aineelle (lueteltu kohdassa <a class="cross-reference">Pakkauksen sisältö ja muuta tietoa</a>)</li>
+                           <li>jos sinulla on vaikea munuaisten vajaatoiminta</li>
+                           <li>jos sinulla on huonossa hoitotasapainossa oleva diabetes ja esimerkiksi vaikeaa hyperglykemiaa (korkeita verensokeriarvoja), pahoinvointia, oksentelua, ripulia, nopeaa laihtumista, maitohappoasidoosi (ks. ”Maitohappoasidoosin riski” jäljempänä) tai ketoasidoosi. Ketoasidoosi on tila, jossa vereen kertyy ketoaineita. Se voi johtaa diabeettiseen prekoomaan. Oireita ovat mahakipu, nopea ja syvä hengitys, uneliaisuus tai hengityksen poikkeava, hedelmäinen haju.</li>
+                           <li>jos sinulla on vaikea infektio tai nestevajaus</li>
+                           <li>jos olet menossa varjoainekuvaukseen, jossa sinulle annetaan varjoainetta suoneen. Munuaistesi toiminnasta riippuen sinun on lopetettava Janumetin käyttö kuvauksen ajaksi sekä kahden tai useamman päivän ajaksi sen jälkeen, lääkärin ohjeen mukaan</li>
+                           <li>jos sinulla on äskettäin ollut sydänkohtaus tai jos sinulla on vaikeita verenkiertohäiriöitä, kuten shokki tai hengitysvaikeuksia</li>
+                           <li>jos sinulla on maksasairaus</li>
+                           <li>jos käytät runsaasti alkoholia (joko joka päivä tai vain ajoittain)</li>
+                           <li>jos imetät.</li>
+                        </ul>
+                        <p>Älä ota Janumetia, jos jokin ylläolevista koskee sinua, ja keskustele lääkärin kanssa muista diabeteksen hoitotavoista. Jos olet epävarma, keskustele lääkärin, apteekkihenkilökunnan tai sairaanhoitajan kanssa ennen Janumetin ottamista.</p>
+                        <p>
+                           <strong>Varoitukset ja varotoimet</strong>
+                           <br/>
+Janumetia saaneilla potilailla on raportoitu esiintyneen haimatulehdusta (pankreatiittia) (ks. kohta <a class="cross-reference">Mahdolliset haittavaikutukset</a>).</p>
+                        <p>Jos huomaat rakkuloita iholla, ne voivat olla merkki sairaudesta, jota kutsutaan rakkulaiseksi pemfigoidiksi. Lääkäri voi pyytää sinua lopettamaan Janumetin käytön.</p>
+                        <p>
+                           <strong>
+                              <span class="underline">Maitohappoasidoosin riski</span>
+                           </strong>
+                           <br/>
+Janumet voi aiheuttaa hyvin harvinaisena, mutta hyvin vakavana haittavaikutuksena maitohappoasidoosia etenkin, jos munuaiset eivät toimi kunnolla. Maitohappoasidoosin riskiä suurentavat myös huonossa hoitotasapainossa oleva diabetes, vakavat infektiot, pitkittynyt paasto tai alkoholinkäyttö, nestehukka (ks. lisätiedot alta), maksavaivat ja sairaudet, joissa jonkin alueen hapensaanti on heikentynyt (esim. akuutti, vaikea sydäntauti).<br/>
+Jos jokin edellä mainituista koskee sinua, pyydä lisäohjeita lääkäriltä.</p>
+                        <p>
+                           <strong>Janumet-valmisteen käyttö on tauotettava joksikin aikaa, jos sinulla on jokin tila, johon voi liittyä nestehukkaa</strong> (merkittävää nesteiden menetystä). Tällaisia ovat esimerkiksi vaikea oksentelu, ripuli tai kuume, kuumuudelle altistuminen tai normaalia vähäisempi juominen. Pyydä lisäohjeita lääkäriltä.</p>
+                        <p>
+                           <strong>Lopeta Janumet-valmisteen käyttö ja ota heti yhteys lääkäriin tai lähimpään sairaalaan, jos sinulla on maitohappoasidoosin oireita</strong>, sillä maitohappoasidoosi voi johtaa koomaan.</p>
+                        <p>Maitohappoasidoosin oireita ovat:</p>
+                        <ul>
+                           <li>oksentelu</li>
+                           <li>vatsakipu</li>
+                           <li>lihaskrampit</li>
+                           <li>yleinen sairaudentunne ja vaikea väsymys</li>
+                           <li>hengitysvaikeudet</li>
+                           <li>ruumiinlämmön lasku ja sykkeen hidastuminen.</li>
+                        </ul>
+                        <p>Maitohappoasidoosi on lääketieteellinen hätätilanne ja vaatii sairaalahoitoa.</p>
+                        <p>Keskustele lääkärin tai apteekkihenkilökunnan kanssa ennen kuin otat Janumet-valmistetta:</p>
+                        <p>-         jos sinulla on tai on ollut haimasairaus (esim. haimatulehdus)</p>
+                        <p>-         jos sinulla on tai on ollut sappikiviä, alkoholiriippuvuutta tai hyvin korkeat veren triglyseridiarvot (eräs rasvan muoto). Nämä tilat voivat lisätä haimatulehduksen mahdollisuutta (ks. kohta <a class="cross-reference">Mahdolliset haittavaikutukset</a>).</p>
+                        <p>-         jos sinulla on tyypin 1 diabetes, jota kutsutaan joskus myös insuliinista riippuvaiseksi diabetekseksi</p>
+                        <p>-         jos sinulla on tai on ollut allergisia reaktioita sitagliptiinille, metformiinille tai Janumetille (ks. kohta <a class="cross-reference">Mahdolliset haittavaikutukset</a>)</p>
+                        <p>-         jos käytät sulfonyyliureaa tai insuliinia, diabeteslääkkeitä, yhdessä Janumetin kanssa, koska sinulla voi esiintyä alhaista verensokeria (hypoglykemiaa). Lääkäri voi pienentää sulfonyyliurea- tai insuliiniannostasi.</p>
+                        <p>Jos olet menossa suureen leikkaukseen, Janumet-valmisteen käyttö on tauotettava toimenpiteen ajaksi ja joksikin aikaa sen jälkeen. Lääkäri päättää, milloin Janumet-hoito lopetetaan ja milloin se aloitetaan uudelleen.</p>
+                        <p>Keskustele lääkärin tai apteekkihenkilökunnan kanssa ennen Janumet-valmisteen ottamista, jos olet epävarma, koskeeko jokin ylläolevista sinua.</p>
+                        <p>Janumet-hoidon aikana lääkäri seuraa munuaistoimintaasi vähintään kerran vuodessa tai useammin, jos olet iäkäs ja/tai jos munuaistoimintasi huonontuu.</p>
+                        <p>
+                           <strong>Lapset ja nuoret</strong>
+                           <br/>
+Alle 18-vuotiaiden lasten ja nuorten ei pidä käyttää tätä lääkettä. Se ei ole tehokas 10–17‑vuotiailla lapsilla ja nuorilla. Tämän lääkkeen turvallisuudesta ja tehosta alle 10‑vuotiailla lapsilla ei ole tietoa.</p>
+                        <p>
+                           <strong>Muut lääkevalmisteet ja Janumet</strong>
+                           <br/>
+Jos sinulle annetaan jodia sisältävä varjoainepistos verisuoneen esimerkiksi röntgenkuvauksen tai muun kuvantamisen yhteydessä, Janumet-valmisteen käyttö on tauotettava ennen varjoainepistosta tai pistoksen yhteydessä. Lääkäri päättää, milloin Janumet-hoito lopetetaan ja milloin se aloitetaan uudelleen.</p>
+                        <p>Kerro lääkärille tai apteekkihenkilökunnalle, jos parhaillaan otat, olet äskettäin ottanut tai saatat ottaa muita lääkkeitä. Verensokeria ja munuaistoimintaa on ehkä seurattava tiheämmin tai lääkärin on ehkä muutettava Janumet-lääkkeen annosta. On erityisen tärkeää mainita seuraavien lääkkeiden käytöstä:</p>
+                        <ul>
+                           <li>suun kautta, inhalaationa tai injektiona otettavat lääkkeet, joita käytetään tulehduksellisten sairauksien, kuten astman ja nivelrikon hoitoon (kortikosteroidit)</li>
+                           <li>virtsaneritystä lisäävät nesteenpoistolääkkeet</li>
+                           <li>kivun ja tulehduksen hoitoon käytettävät lääkkeet (tulehduskipulääkkeet ja COX-2-estäjät kuten ibuprofeeni ja selekoksibi)</li>
+                           <li>tietyt verenpainelääkkeet (ACE:n estäjät ja angiotensiini II ‑reseptorin salpaajat)</li>
+                           <li>tietyt keuhkoastman hoitoon käytettävät lääkkeet (beetasympatomimeetit)</li>
+                           <li>jodia sisältävät varjoaineet tai alkoholia sisältävät lääkkeet</li>
+                           <li>tietyt vatsavaivojen hoitoon käytettävät lääkkeet, kuten simetidiini</li>
+                           <li>ranolatsiini, joka on angina pectoriksen hoitoon käytettävä lääke</li>
+                           <li>dolutegraviiri, joka on HIV-infektion hoitoon käytettävä lääke</li>
+                           <li>vandetanibi, joka on tietyn tyyppisen kilpirauhassyövän (medullaarisen kilpirauhassyövän) hoitoon käytettävä lääke</li>
+                           <li>digoksiini (käytetään sydämen epäsäännöllisen sykkeen ja muiden sydänongelmien hoitoon). Veren digoksiinipitoisuutta saatetaan joutua tarkistamaan, jos Janumetia käytetään samanaikaisesti.</li>
+                        </ul>
+                        <p>
+                           <strong>Janumet alkoholin kanssa</strong>
+                           <br/>
+Vältä liiallista alkoholinkäyttöä Janumet-hoidon aikana, sillä se voi suurentaa maitohappoasidoosin riskiä (ks. kohta ”Varoitukset ja varotoimet”).</p>
+                        <p>
+                           <strong>Raskaus ja imetys</strong>
+                           <br/>
+Jos olet raskaana tai imetät, epäilet olevasi raskaana tai jos suunnittelet lapsen hankkimista, kysy lääkäriltä tai apteekista neuvoa ennen tämän lääkkeen käyttöä. Älä ota tätä lääkettä raskauden aikana. Älä ota tätä lääkettä, jos imetät. Katso kohta <a class="cross-reference">Mitä sinun on tiedettävä ennen valmisteen käyttöä</a>, <strong>Älä ota Janumet-valmistetta.</strong>
+                        </p>
+                        <p>
+                           <strong>Ajaminen ja koneiden käyttö</strong>
+                           <br/>
+Tällä lääkkeellä ei ole haitallista vaikutusta ajokykyyn eikä koneiden käyttökykyyn. Sitagliptiinin käytön yhteydessä on kuitenkin raportoitu heitehuimausta ja uneliaisuutta, jotka voivat vaikuttaa ajokykyyn tai koneiden käyttökykyyn.</p>
+                        <p>Tämän lääkkeen käyttäminen yhdessä sulfonyyliureoiden tai insuliinin kanssa voi aiheuttaa hypoglykemiaa, joka voi vaikuttaa ajokykyyn ja koneiden käyttökykyyn tai työskentelyyn epävakaalla alustalla.</p>
+                        <p>
+                           <strong>Janumet sisältää natriumia</strong>
+                           <br/>
+Tämä lääkevalmiste sisältää alle 1 mmol natriumia (23 mg) per tabletti eli sen voidaan sanoa olevan ”natriumiton”.</p>
+                     </div></p>
+
+      
+
+        <h4>Miten valmistetta käytetään</h4>
+        <p>
+          <div>
+                        <h2>Miten valmistetta käytetään</h2>
+                        <p>Ota tätä lääkettä juuri siten kuin lääkäri on määrännyt. Tarkista ohjeet lääkäriltä tai apteekista, jos olet epävarma.</p>
+                        <ul>
+                           <li>Ota yksi tabletti:
+	<ul>
+                                 <li>kahdesti vuorokaudessa suun kautta</li>
+                                 <li>aterioiden yhteydessä vatsan ärtymisen vaaran pienentämiseksi.</li>
+                              </ul>
+                           </li>
+                           <li>Lääkäri voi joutua suurentamaan annostasi, jotta verensokerisi pysyy hallinnassa.</li>
+                           <li>Jos munuaistoimintasi on heikentynyt, lääkäri saattaa määrätä sinulle pienemmän annoksen.</li>
+                        </ul>
+                        <p>Sinun tulee jatkaa lääkärin suosittelemaa ruokavaliota tämän lääkkeen käytön aikana ja huolehtia hiilihydraattien saannista tasaisesti pitkin päivää.</p>
+                        <p>Yksinään käytettynä tämä lääke ei todennäköisesti aiheuta liiallista verensokerin laskua (hypoglykemiaa). Kun tätä lääkettä käytetään sulfonyyliurean tai insuliinin kanssa, voi alhaista verensokeria esiintyä, ja lääkäri voi pienentää sulfonyyliurea- tai insuliiniannostasi.</p>
+                        <p>
+                           <strong>Jos otat enemmän Janumet-valmistetta kuin sinun pitäisi</strong>
+                           <br/>
+Jos otat tätä lääkettä enemmän kuin sinulle on määrätty, ota heti yhteys lääkäriin. Mene sairaalaan, jos sinulla on maitohappoasidoosin oireita, esim. kylmyyden tunne tai epämukava olo, voimakas pahoinvointi tai oksentelu, vatsakipu, selittämätön painon lasku, lihaskouristukset tai nopea hengitys (ks. kohta ”Varoitukset ja varotoimet”).</p>
+                        <p>
+                           <strong>Jos unohdat ottaa Janumet-valmistetta</strong>
+                           <br/>
+Jos unohdat ottaa annoksen, ota se heti muistaessasi. Jos huomaat unohtaneesi ottaa annoksen vasta kun on aika ottaa seuraava annos, jätä unohtunut annos väliin ja palaa takaisin normaaliin aikatauluun. Älä ota kaksinkertaista annosta tätä lääkettä.</p>
+                        <p>
+                           <strong>Jos lopetat Janumet-valmisteen käytön</strong>
+                           <br/>
+Jatka tämän lääkkeen ottamista niin kauan kuin lääkäri on määrännyt, jotta verensokeriarvosi pysyvät hallinnassa. Älä lopeta tämän lääkkeen ottamista keskustelematta siitä ensin lääkärin kanssa. Jos lopetat Janumetin käytön, verensokerisi voi kohota uudestaan.</p>
+                        <p>Jos sinulla on kysymyksiä tämän lääkkeen käytöstä, käänny lääkärin tai apteekkihenkilökunnan puoleen.</p>
+                     </div></p>
+
+      
+
+        <h4>Mahdolliset haittavaikutukset</h4>
+        <p>
+          <div>
+                        <h2>Mahdolliset haittavaikutukset</h2>
+                        <p>Kuten kaikki lääkkeet, tämäkin lääke voi aiheuttaa haittavaikutuksia. Kaikki eivät kuitenkaan niitä saa.</p>
+                        <p>LOPETA Janumetin käyttö ja ota heti yhteys lääkäriin, jos havaitset jonkin seuraavista vakavista haittavaikutuksista:</p>
+                        <ul>
+                           <li>voimakas ja jatkuva vatsakipu (mahan alueella), joka saattaa ulottua selkään ja johon voi liittyä pahoinvointia ja oksentelua, koska nämä voivat olla haimatulehduksen (pankreatiitin) oireita.</li>
+                        </ul>
+                        <p>Janumet voi aiheuttaa hyvin harvinaisen (enintään 1 käyttäjällä 10 000:sta esiintyvän) mutta hyvin vakavan haittavaikutuksen, maitohappoasidoosin (ks. kohta ”Varoitukset ja varotoimet”). Jos sinulle käy näin, <strong>lopeta Janumet-lääkkeen käyttö ja ota heti yhteys lääkäriin tai lähimpään sairaalaan</strong>, sillä maitohappoasidoosi voi johtaa koomaan.</p>
+                        <p>Jos saat vakavan allergisen reaktion (esiintymistiheys on tuntematon), johon voi kuulua ihottuma, nokkosihottuma, ihorakkuloita/ihon kuoriutumista sekä kasvojen, huulten, kielen ja nielun turvotus, jotka voivat aiheuttaa hengitys- tai nielemisvaikeuksia, lopeta tämän lääkkeen käyttö ja ota heti yhteys lääkäriin. Lääkäri voi määrätä sinulle lääkkeen allergisen reaktion hoitoon sekä vaihtoehtoisen diabeteslääkkeen.</p>
+                        <p>Joillakin metformiinia käyttävillä potilailla on esiintynyt seuraavia haittavaikutuksia, kun he ovat aloittaneet sitagliptiinihoidon:<br/>
+Yleinen (enintään yhdellä potilaalla 10:stä): alhainen verensokeri, pahoinvointi, ilmavaivat, oksentelu<br/>
+Melko harvinainen (enintään yhdellä potilaalla 100:sta): vatsakipu, ripuli, ummetus, uneliaisuus</p>
+                        <p>Joillakin potilailla on esiintynyt ripulia, pahoinvointia, ilmavaivoja, ummetusta, vatsakipua tai oksentelua, kun he ovat aloittaneet sitagliptiinin käytön yhdessä metformiinin kanssa (esiintymistiheys on yleinen).</p>
+                        <p>Joillakin potilailla on esiintynyt seuraavia haittavaikutuksia, kun tätä lääkettä on käytetty yhdessä sulfonyyliurean, esim. glimepiridin, kanssa:<br/>
+Hyvin yleinen (yli yhdellä potilaalla 10:stä): alhainen verensokeri<br/>
+Yleinen: ummetus</p>
+                        <p>Joillakin potilailla on esiintynyt seuraavia haittavaikutuksia, kun tätä lääkettä on käytetty yhdessä pioglitatsonin kanssa:<br/>
+Yleinen: käsien tai jalkojen turvotus</p>
+                        <p>Joillakin potilailla on esiintynyt seuraavia haittavaikutuksia, kun tätä lääkettä on käytetty yhdessä insuliinin kanssa:<br/>
+Hyvin yleinen: alhainen verensokeri<br/>
+Melko harvinainen: suun kuivuminen, päänsärky</p>
+                        <p>Joillakin potilailla on esiintynyt seuraavia haittavaikutuksia pelkästään sitagliptiinia (toinen Janumetin lääkeaineista) käytettäessä kliinisissä tutkimuksissa tai Janumetin tai sitagliptiinin markkinoille tulemisen jälkeen, kun Janumetia tai sitagliptiinia on käytetty yksin tai yhdessä muiden diabeteslääkkeiden kanssa:<br/>
+Yleinen: alhainen verensokeri, päänsärky, ylähengitystieinfektio, tukkoinen tai vuotava nenä ja kurkkukipu, nivelrikko, käsivarsien ja säärten kipu<br/>
+Melko harvinainen: heitehuimaus, ummetus, kutina<br/>
+Harvinainen: verihiutaleiden vähentynyt määrä<br/>
+Esiintymistiheys tuntematon: munuaisongelmat, jotka joissain tapauksissa vaativat keinomunuaishoitoa, oksentelu, nivelsärky, lihassärky, selkäsärky, interstitiaalinen keuhkosairaus, rakkulainen pemfigoidi (eräänlainen rakkulamuodostuma iholla)<br/>
+                           <br/>
+Joillakin potilailla on esiintynyt seuraavia haittavaikutuksia, kun he ovat käyttäneet pelkästään metformiinia:<br/>
+Hyvin yleinen: pahoinvointi, oksentelu, ripuli, vatsakipu ja ruokahaluttomuus. Nämä oireet voivat ilmaantua, kun aloitat metformiinihoidon ja häviävät tavallisesti.<br/>
+Yleinen: metallin maku suussa, pienentynyt tai pieni B<sub>12</sub>-vitamiinin pitoisuus veressä (oireena voi olla voimakas väsymys [uupumus], kielen aristus ja punoitus [kielitulehdus], pistelytuntemus [parestesia] tai ihon kalpeus tai keltaisuus). Lääkäri saattaa teettää kokeita oireiden syyn selvittämiseksi, koska jotkin näistä oireista voivat johtua myös diabeteksesta tai muista terveysongelmista.<br/>
+Hyvin harvinainen: hepatiitti (maksasairaus), nokkosihottuma, ihon punoitus (ihottuma) tai kutina.</p>
+                        <p>
+                           <strong>Haittavaikutuksista ilmoittaminen</strong>
+                           <br/>
+Jos havaitset haittavaikutuksia, kerro niistä lääkärille, apteekkihenkilökunnalle tai sairaanhoitajalle. Tämä koskee myös sellaisia mahdollisia haittavaikutuksia, joita ei ole mainittu tässä pakkausselosteessa. Voit ilmoittaa haittavaikutuksista myös suoraan (ks. yhteystiedot alla). Ilmoittamalla haittavaikutuksista voit auttaa saamaan enemmän tietoa tämän lääkevalmisteen turvallisuudesta.</p>
+                        <p>www-sivusto: www.fimea.fi<br/>
+Lääkealan turvallisuus- ja kehittämiskeskus Fimea<br/>
+Lääkkeiden haittavaikutusrekisteri<br/>
+PL 55<br/>
+00034 FIMEA</p>
+                     </div></p>
+
+      
+
+        <h4>Valmisteen säilyttäminen</h4>
+        <p>
+          <div>
+                        <h2>Valmisteen säilyttäminen</h2>
+                        <p>Ei lasten ulottuville eikä näkyville.</p>
+                        <p>Älä käytä tätä lääkettä läpipainopakkauksessa ja ulkopakkauksessa mainitun viimeisen käyttöpäivämäärän (Käyt. viim. tai EXP) jälkeen. Viimeinen käyttöpäivämäärä tarkoittaa kuukauden viimeistä päivää.</p>
+                        <p>Säilytä alle 25 °C.</p>
+                        <p>Lääkkeitä ei pidä heittää viemäriin eikä hävittää talousjätteiden mukana. Kysy käyttämättömien lääkkeiden hävittämisestä apteekista. Näin menetellen suojelet luontoa.</p>
+                     </div></p>
+
+      
+
+        <h4>Pakkauksen sisältö ja muuta tietoa</h4>
+        <p>
+          <div>
+                        <h2>Pakkauksen sisältö ja muuta tietoa</h2>
+                        <p>
+                           <strong>Mitä Janumet</strong>
+                           <strong>sisältää</strong>
+                        </p>
+                        <ul>
+                           <li>Vaikuttavat aineet ovat sitagliptiini ja metformiini.
+	<ul>
+                                 <li>Yksi Janumet 50 mg/850 mg kalvopäällysteinen tabletti (tabletti) sisältää sitagliptiinifosfaattimonohydraattia määrän, joka vastaa 50 mg sitagliptiinia, sekä 850 mg metformiinihydrokloridia.</li>
+                                 <li>Yksi Janumet 50 mg/1000 mg kalvopäällysteinen tabletti (tabletti) sisältää sitagliptiinifosfaattimonohydraattia määrän, joka vastaa 50 mg sitagliptiinia, sekä 1000 mg metformiinihydrokloridia.</li>
+                              </ul>
+                           </li>
+                           <li>Muut aineet ovat:
+	<ul>
+                                 <li>Tabletin ydin: mikrokiteinen selluloosa (E460), povidoni K 29/32 (E1201), natriumlauryylisulfaatti ja natriumstearyylifumaraatti.</li>
+                                 <li>Kalvopäällyste: poly(vinyylialkoholi), makrogoli 3350, talkki (E553b), titaanidioksidi (E171), punainen rautaoksidi (E172) ja musta rautaoksidi (E172).</li>
+                              </ul>
+                           </li>
+                        </ul>
+                        <p>
+                           <strong>Lääkevalmisteen kuvaus ja pakkauskoot</strong>
+                        </p>
+                        <ul>
+                           <li>Janumet 50 mg/850 mg kalvopäällysteinen tabletti on kapselinmuotoinen, vaaleanpunainen kalvopäällysteinen tabletti, jossa on toisella puolella merkintä "515".</li>
+                           <li>Janumet 50 mg/1000 mg kalvopäällysteinen tabletti on kapselinmuotoinen, punainen kalvopäällysteinen tabletti, jossa on toisella puolella merkintä "577".</li>
+                        </ul>
+                        <p>Läpinäkymätön läpipainopakkaus (PVC/PE/PVDC ja alumiini). Pakkaukset, joissa on 14, 28, 56, 60, 112, 168, 180 tai 196 kalvopäällysteistä tablettia. Kerrannaispakkaukset, jotka sisältävät 196 (2 pakkausta, joissa on 98) tai 168 (2 pakkausta, joissa on 84) kalvopäällysteistä tablettia. Pakkaus, jossa on 50 x 1 kalvopäällysteistä tablettia perforoidussa, yksittäispakatussa läpipainopakkauksessa.</p>
+                        <p>Kaikkia pakkauskokoja ei välttämättä ole myynnissä.</p>
+                        <p>
+                           <strong>Myyntiluvan haltija ja valmistaja</strong>
+                           <br/>
+Merck Sharp &amp; Dohme B.V.<br/>
+Waarderweg 39<br/>
+2031 BN Haarlem<br/>
+Alankomaat</p>
+                        <p>Lisätietoja tästä lääkevalmisteesta antaa myyntiluvan haltijan paikallinen edustaja:</p>
+                        <p>
+                           <strong>Suomi/Finland</strong>
+                           <br/>
+MSD Finland Oy<br/>
+Puh/Tel: +358 (0)9 804 650<br/>
+info@msd.fi</p>
+                        <p>
+                           <strong>Tämä pakkausseloste on tarkistettu viimeksi 08.2023.</strong>
+                        </p>
+                        <p>Lisätietoa tästä lääkevalmisteesta on saatavilla Euroopan lääkeviraston verkkosivulla <a href="http://www.ema.europa.eu.">http://www.ema.europa.eu</a>
+                        </p>
+                     </div></p>
+
+      
+    
+  
+
+</div>
+
+
+<h2>Product Information</h2>
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Janumet tab 50 mg/1000 mg
+  </h4>
+
+  
+  
+    LEGEMIDDELMERKEVAREID:
+    <b>
+      ID_A9EEB7A8-CDC8-4B18-882E-7C6F3DA3C5D2
+    </b>
+    
+  
+  <hr>
+  
+  <p>Full name: <b>Janumet tab 50 mg/1000 mg</b></p>
+  
+
+
+  
+  
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b></b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b></b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 4</p>
+          
+  <p>LEGEMIDDELPAKNINGID:
+  <b>
+    ID_25C5B305-59F9-406B-85C3-563CC18EA51B
+  </b>
+  </p>
+
+  <p>VARENUMMER:
+  <b>
+    143631
+  </b>
+  </p>
+
+  <p>VNR:
+  <b>
+    143631
+  </b>
+  </p>
+
+<p>
+  Description:
+  
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b> </b>
+  
+  
+</p>
+
+<p>Containing:
+  
+
+
+
+
+  
+</p>
+        </div>
+      
+    
+  
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 2 of 4</p>
+          
+  <p>LEGEMIDDELPAKNINGID:
+  <b>
+    ID_801A0D37-D877-4EA1-906C-7897A95A085B
+  </b>
+  </p>
+
+  <p>VARENUMMER:
+  <b>
+    028121
+  </b>
+  </p>
+
+  <p>VNR:
+  <b>
+    028121
+  </b>
+  </p>
+
+<p>
+  Description:
+  
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b> </b>
+  
+  
+</p>
+
+<p>Containing:
+  
+
+
+
+
+  
+</p>
+        </div>
+      
+    
+  
+    
+    
+    
+    
+    
+    
+      
+        
+    
+  
+    
+    
+    
+    
+    
+    
+      
+        
+    
+  
+
+  
+
+  
+
+
+      
+  
+
+
+
+  <!-- <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Janumet tab 50 mg/1000 mg
+  </h4>
+
+  
+  
+  
+  
+    LEGEMIDDELMERKEVAREID:
+    <b>
+      ID_A9EEB7A8-CDC8-4B18-882E-7C6F3DA3C5D2
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b></b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b></b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 4</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          LEGEMIDDELPAKNINGID:
+          <b>
+            ID_25C5B305-59F9-406B-85C3-563CC18EA51B
+          </b>
+        
+          VARENUMMER:
+          <b>
+            143631
+          </b>
+        
+          VNR:
+          <b>
+            143631
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          </b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+    
+    
+    
+      <p class="divtitle"> Package 2 of 4</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          LEGEMIDDELPAKNINGID:
+          <b>
+            ID_801A0D37-D877-4EA1-906C-7897A95A085B
+          </b>
+        
+          VARENUMMER:
+          <b>
+            028121
+          </b>
+        
+          VNR:
+          <b>
+            028121
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          </b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+    
+    
+    
+      <p class="divtitle"> Package 3 of 4</p>
+    
+    
+
+
+    
+  
+    
+    
+    
+      <p class="divtitle"> Package 4 of 4</p>
+    
+    
+
+
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+  
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+    <!-- insert notes if present -->
+  
+
+
+
+
+            <!-- /inner-wrapper -->
+          <!-- /row -->
+        <!-- /container -->
+      <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  
+
+</p></div></p></div></hr></hr></hr></div></div></div></div></div></div></body></html>

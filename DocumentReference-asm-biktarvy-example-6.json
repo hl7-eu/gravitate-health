@@ -1,0 +1,55 @@
+{
+  "resourceType" : "DocumentReference",
+  "id" : "asm-biktarvy-example-6",
+  "meta" : {
+    "profile" : ["http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalSupportMaterial"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DocumentReference asm-biktarvy-example-6</b></p><a name=\"asm-biktarvy-example-6\"> </a><a name=\"hcasm-biktarvy-example-6\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-AdditionalSupportMaterial.html\">Additional Support Material Profile</a></p></div><p><b>RelatedMedicalIssue</b>: <span title=\"Codes:{http://snomed.info/sct 86406008}\">Human immunodeficiency virus infection</span></p><p><b>identifier</b>: <code>http://example.org</code>/teste1</p><p><b>version</b>: 1.0</p><p><b>status</b>: Current</p><p><b>docStatus</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs MDM}\">Medication and Disease Management</span></p><p><b>subject</b>: <a href=\"Bundle-bundlepackageleaflet-da-94a96e39cfdcd8b378d12dd4063065f9.html#MedicinalProductDefinition_mp2a9c4333cfd126f2e7b73ad3cafd6949\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/18/1289/001,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E827gy; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>author</b>: test</p><p><b>description</b>: </p><div><p>Test-teste-pdf</p>\n</div><blockquote><p><b>content</b></p><h3>Attachments</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>ContentType</b></td><td><b>Language</b></td><td><b>Url</b></td><td><b>Title</b></td><td><b>Duration</b></td></tr><tr><td style=\"display: none\">*</td><td/><td>application/pdf</td><td>English</td><td><a href=\"https://www.gilead.com/-/media/files/pdfs/other/biktarvy_br_bula-paciente.pdf\">https://www.gilead.com/-/media/files/pdfs/other/biktarvy_br_bula-paciente.pdf</a></td><td>Biktarvy - Support document with additional information</td><td>715</td></tr></table></blockquote></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/RelatedMedicalIssue",
+    "valueCodeableReference" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "86406008"
+        }]
+      }
+    }
+  }],
+  "identifier" : [{
+    "system" : "http://example.org",
+    "value" : "teste1"
+  }],
+  "version" : "1.0",
+  "status" : "current",
+  "docStatus" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs",
+      "code" : "MDM"
+    }]
+  }],
+  "subject" : {
+    "reference" : "MedicinalProductDefinition/mp2a9c4333cfd126f2e7b73ad3cafd6949"
+  },
+  "author" : [{
+    "display" : "test"
+  }],
+  "description" : "Test-teste-pdf",
+  "content" : [{
+    "attachment" : {
+      "extension" : [{
+        "url" : "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod",
+        "valueCode" : "document"
+      }],
+      "contentType" : "application/pdf",
+      "language" : "en",
+      "url" : "https://www.gilead.com/-/media/files/pdfs/other/biktarvy_br_bula-paciente.pdf",
+      "title" : "Biktarvy - Support document with additional information",
+      "duration" : 715
+    }
+  }]
+}

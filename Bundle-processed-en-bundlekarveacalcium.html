@@ -1,0 +1,2445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>[Preprocessed] ePI document for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.354"}
+    h3,h4,h5,h6{--heading-prefix:"20.354"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>[Preprocessed] ePI document for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-processed-en-bundlekarveacalcium.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-processed-en-bundlekarveacalcium.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-processed-en-bundlekarveacalcium.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">Example Bundle: [Preprocessed] ePI document for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet</h2>
+
+
+
+
+
+   
+   
+  
+
+  
+
+
+
+
+
+<div>
+  
+  <b>Composition category:</b>
+  Processed
+  <br/>
+  
+    <b>Composition status:</b>
+    final
+  <br/>
+  
+  <br/>
+  
+
+
+  
+    <h3 class="nonumbers">B. Package Leaflet</h3>
+    <p>
+      
+      
+      <div xmlns="http://www.w3.org/1999/xhtml">unavailable</div></p>
+    
+      
+
+        <h4 class="nonumbers">Package leaflet: Information for the user</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p><strong>Leaflet: Information for the user</strong></p><p>&#160;</p><p><strong>Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI 1000 mg / 880 IU effervescent tablets</strong></p><p>&#160;</p><p>Calcium carbonate/cholecalciferol (Vitamin D3)</p><p><strong>&#160;</strong></p><p><strong>Read this leaflet carefully before you start taking this medicine, as it contains important information for you.</strong></p><p>-Keep this leaflet. You may need to read it again.</p><p>-If you have any questions, ask your doctor or pharmacist.</p><p>-This medicine has been prescribed for you only. Do not give it to others, even if they have the same symptoms as you, as it may harm them.</p><p>-If you experience any side effects, talk to your doctor or pharmacist, even if they are not listed in this leaflet. See section 4.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">What is in this leaflet</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p><strong>Contents of the leaflet</strong></p><ol><li>What Calcium/Vitamin D3 ROVI is and what it is used for</li><li>What you need to know before you start taking Calcium/Vitamin D3 ROVI</li><li>How to take Calcium/Vitamin D3 ROVI</li><li>Possible side effects</li><li>Storage of Calcium/Vitamin D3 ROVI</li><li>Package contents and additional information</li></ol></div></p>
+
+      
+
+        <h4 class="nonumbers">1. What CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES is and what it is used for</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Calcium/Vitamin D3 ROVI are effervescent tablets. They are available in packages containing 30 tablets.</p><p>This medicine is a combination of calcium and vitamin D, indicated for the correction of combined vitamin D and calcium deficiency in elderly patients, as well as a supplement of vitamin D and calcium as an adjunct to specific therapy for the treatment of osteoporosis in patients with deficiency or at high risk of combined vitamin D and calcium deficiency.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">2. What you need to know before you take CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p><strong>Do not take Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI:</strong></p><p>&#160;</p><div><ul><li>if you are allergic to the active ingredients or any of the other components of this medicine (listed in section 6),</li><li>if you have hypercalcemia (abnormally high levels of calcium in the blood),</li><li>if you have hypercalciuria (excessive calcium in the urine),</li><li>if you have kidney stones, tissue calcification (deposition of calcium salts in tissues),</li><li>if you suffer from chronic kidney disease,</li><li>if you have prolonged immobilization accompanied by hypercalciuria and/or hypercalcemia.</li></ul></div><p>&#160;</p><p>This medicine contains soybean oil. Do not use it if you are allergic to peanuts or soy.</p><p>&#160;</p><p><strong>Warnings and precautions:</strong></p><p>&#160;</p><p>Consult your doctor or pharmacist before starting Calcium/Vitamin D3 ROVI:</p><p>&#160;</p><p>- if you have renal insufficiency (kidney impairment),</p><p>- if you have kidney stones,</p><p>- if you suffer from heart disease, sarcoidosis (inflammation affecting lymph nodes, lungs, liver, eyes, skin, and other tissues), or are undergoing treatment with cardiac glycosides (used for heart failure),</p><p>- if you are taking other vitamin D products, or are undergoing prolonged or high-dose calcium supplementation. In this case, your doctor may need to conduct regular clinical monitoring. Your doctor will advise on the frequency of these checks.</p><p>&#160;</p><p><strong>Taking Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI with other medicines:</strong></p><p>&#160;</p><p>Inform your doctor or pharmacist if you are using, have recently used, or might use any other medicines. Certain medicines can interact with Calcium/Vitamin D3 ROVI, requiring dose adjustments, interruption, or at least a few hours between administrations.</p><p>It is important to inform your doctor if you are taking or have recently taken any of the following medications:</p><div><ul><li>Cardiac glycosides (for heart conditions).</li><li>Tetracyclines (certain antibiotics); wait at least 3 hours between doses.</li><li>Thiazide diuretics (medications that increase urine output).</li><li>Anticonvulsants.</li><li>Systemic corticosteroids.</li><li>Bisphosphonates and sodium fluoride; wait at least 3 hours between doses.</li><li>Barbiturates or phenytoin.</li></ul></div><p><strong>&#160;</strong></p><p><strong>Taking Calcium / Vitamin D</strong><strong>3</strong> <strong>ROVI with food and drinks:</strong></p><p><strong>&#160;</strong></p><p>If taken with foods and drinks containing oxalic acid (found in spinach and rhubarb), phytic acid (found in whole-grain bread and cereals), or phosphorus (found in milk), interactions may occur. Avoid taking this medicine within 2 hours after consuming such foods.</p><p>&#160;</p><p class="pregnancyCategory"><strong>Pregnancy and breastfeeding</strong></p><p>&#160;</p><p class="pregnancyCategory">If you are pregnant, breastfeeding, think you may be pregnant, or plan to have a baby, consult your doctor or pharmacist before using this medicine.</p><p>&#160;</p><p>Due to the vitamin D content (880 IU) of Calcium/Vitamin D3 ROVI, its use is not recommended during pregnancy and breastfeeding, as the recommended daily dose of vitamin D should not exceed 600 IU/day.</p><p>&#160;</p><p><strong>Driving and using machines:</strong></p><p>&#160;</p><p>No effects on driving or operating machinery have been reported.</p><p>&#160;</p><p><strong>Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI contains sucrose, sodium, lactose, and glucose.</strong></p><p>&#160;</p><p>This medicine contains sucrose. If your doctor has told you that you have an intolerance to certain sugars, consult them before taking this medicine. It may cause cavities.</p><p>&#160;</p><p>This medicine contains 96.15 mg of sodium (a main component of table salt) per tablet. This is equivalent to 4.8% of the maximum recommended daily intake of sodium for an adult.</p><p>&#160;</p><p>This medicine contains lactose. If your doctor has told you that you have an intolerance to certain sugars, consult them before taking this medicine.</p><p>&#160;</p><p>This medicine contains glucose (in maltodextrin derived from corn). If your doctor has told you that you have an intolerance to certain sugars, consult them before taking this medicine.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">3. How to take CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Follow the administration instructions for this medicine as indicated by your doctor or pharmacist. If in doubt, consult your doctor or pharmacist again.</p><p>&#160;</p><p><span>Dosage</span></p><p><em>Adults</em></p><p>The recommended dose is 1 effervescent tablet (1000 mg of calcium and 880 IU of Vitamin D3) per day.</p><p><em>&#160;</em></p><p><span>Method and route of administration</span></p><p>This medicine is administered orally.</p><p>Dissolve the tablet in a glass of water and drink immediately.</p><p>&#160;</p><p><span>Duration of treatment</span></p><p>Your doctor will indicate the duration of your treatment with Calcium/Vitamin D3 ROVI. Do not stop treatment earlier.</p><p>&#160;</p><p>Follow these instructions unless your doctor gives you different directions. In such cases, it is advisable to request written instructions from the doctor and ensure you fully understand them.</p><p>&#160;</p><p>If you think the effect of Calcium/Vitamin D3 ROVI is too strong or too weak, inform your doctor or pharmacist.</p><p>&#160;</p><p>Remember to take your medicine.</p><p>&#160;</p><p><strong>If you take more Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI than you should</strong></p><p>&#160;</p><p>If you take more Calcium/Vitamin D3 ROVI than you should, or in case of overdose or accidental ingestion, immediately consult your doctor or pharmacist or call the Toxicology Information Service at 91.562.04.20, indicating the medicine and the amount ingested.</p><p>Overdose can cause hypervitaminosis D (excess vitamin D) and hypercalcemia (abnormally high levels of calcium in the blood). Symptoms of overdose include nausea, vomiting, anorexia (eating disorder), abdominal pain, dry mouth, or polyuria (increased urine output), or irritability, lethargy (excessive fatigue), stupor (decreased response to stimuli), and coma (loss of consciousness) in severe cases.</p><p>&#160;</p><p><strong>If you forgot to take Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI</strong></p><p>&#160;</p><p>Do not take a double dose to make up for missed doses.</p><p>&#160;</p><p><strong>If you stop taking Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI</strong></p><p><strong>&#160;</strong></p><p>If you have any further questions about the use of this medicine, ask your doctor or pharmacist.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">4. Possible side effects</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Like all medicines, this medicine can cause side effects, although not everyone will experience them.</p><p>&#160;</p><p><strong>-Uncommon</strong> (may affect between 1 and 10 in 1,000 patients):</p><ul><li>high calcium levels in the blood (hypercalcemia),</li><li>high calcium levels in the urine (hypercalciuria).</li></ul><p>&#160;</p><p><strong>-Rare</strong> (may affect between 1 and 10 in 10,000 patients):</p><ul><li>constipation,</li><li>flatulence,</li><li>nausea,</li><li>epigastric pain,</li><li>diarrhea.</li></ul><p>&#160;</p><p>-<strong>Very rare</strong> (may affect fewer than 1 in 10,000 patients):</p><ul><li>itching (pruritus),</li><li>skin rash (exanthema),</li><li>hives (urticaria).</li></ul><p>&#160;</p><p><strong>Reporting of side effects</strong></p><p>If you experience any side effects, talk to your doctor or pharmacist, even if they are possible side effects not listed in this leaflet. You can also report them directly through the Spanish Pharmacovigilance System for Medicines for Human Use: <a href="https://www.notificaram.es">https://www.notificaram.es</a>. By reporting side effects, you can help provide more information on the safety of this medicine.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">5. How to store CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p>Keep this medicine out of the sight and reach of children.</p><p>&#160;</p><p>Store in the original package to protect it from moisture.</p><p>&#160;</p><p>Do not use this medicine after the expiry date stated on the package after EXP. The expiry date refers to the last day of that month.</p><p>&#160;</p><p>Medicines should not be disposed of via wastewater or household waste. Take unused packaging and medicines to the SIGRE Point at the pharmacy. If in doubt, ask your pharmacist how to dispose of unused packaging and medicines. This will help protect the environment.</p></div></p>
+
+      
+
+        <h4 class="nonumbers">6. Contents of the pack and other information</h4>
+        <p>
+          
+          
+          <div xmlns="http://www.w3.org/1999/xhtml"><p><strong>Composition of Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI</strong></p><p><strong>&#160;</strong></p><p>-The active ingredients are: calcium carbonate and concentrated cholecalciferol (in powder form). Each tablet contains 2500 mg of calcium carbonate (equivalent to 1,000 mg of calcium) and 22 micrograms of concentrated cholecalciferol in powder form (equivalent to 880 IU of cholecalciferol = vitamin D3).</p><p>&#160;</p><p>-The other components (excipients) are: anhydrous citric acid, sodium bicarbonate, lactose monohydrate, povidone, sodium saccharin, sodium cyclamate, macrogol 6000, orange flavor (contains maltodextrin derived from corn), simethicone emulsion, ?-tocopherol, hydrogenated soybean oil, gelatin, sucrose, and gluten-free corn starch.</p><p>&#160;</p><p><strong>Product appearance and package contents</strong></p><p>&#160;</p><p>Cylindrical effervescent tablets, white or whitish in color.</p><p>They are presented in polypropylene tubes, each containing 15 effervescent tablets. Each package contains two tubes (30 effervescent tablets).</p><p>&#160;</p><p><strong>Marketing authorization holder</strong></p><p><strong>&#160;</strong></p><p>Laboratorios Farmacéuticos ROVI, S.A.</p><p>C/ Julián Camarillo, 35</p><p>28037 - Madrid</p><p>Spain</p><p><strong><em>&#160;</em></strong></p><p><strong>Manufacturer:</strong></p><p>Laboratorios Losan Pharma GMBH</p><p>Otto-Hahn-Strasse 13</p><p>79395 - Neuenburg</p><p>Germany</p><p><strong><em>&#160;</em></strong></p><p><strong>Date of the last revision of this leaflet:</strong> July 2019</p><p>Detailed information about this medicine is available on the website of the Spanish Agency of Medicines and Medical Devices (AEMPS) (<a href="https://www.aemps.gob.es/"><span>https://www.aemps.gob.es/</span></a>)</p></div></p>
+
+      
+    
+  
+
+</div>
+
+
+
+
+
+
+  <div class="container rcorners mpd">
+  
+  <h4>
+    Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes
+  </h4>
+
+  
+  
+    PMSWI:
+    <b>
+      68290
+    </b>
+    </br>
+  
+    PHPID:
+    <b>
+      0xF79CABF272B6A7EEF104DDDA44E82716
+    </b>
+    </br>
+  
+  <hr>
+  
+  <p>Full name: <b>Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes</b></p>
+  
+    <p>
+      - Invented name part:
+      <b>
+        Calcio/Vitamina
+      </b>
+    </p>
+  
+    <p>
+      - Scientific name part:
+      <b>
+        Calcium carbonate/Vitamin D3
+      </b>
+    </p>
+  
+    <p>
+      - Strength part:
+      <b>
+        2500 mg
+      </b>
+    </p>
+  
+    <p>
+      - Pharmaceutical dose form part:
+      <b>
+        Effervescent tablet
+      </b>
+    </p>
+  
+
+
+  
+  
+  
+    <div>
+      <p>
+        Name usage:
+        
+
+          <b>English ()</b>
+        </p>
+
+      
+    </div>
+  
+  <hr>
+  
+  <div>
+    <p>
+      Authorised dose form:
+      <b></b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Legal status of supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+  
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Resource status:
+      <b>active</b>
+    </p>
+  </div>
+<hr>
+  
+  <p>
+  Product classification:
+    
+</p>
+
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+  <p class="divtitle">
+    <b>Marketing Authorisation</b>
+    1 of 1</p>
+
+  <p>Authorisation number:
+    <b>
+      
+        68290
+      
+    </b>
+  </p>
+
+  <p>
+    Region:
+    <b>
+      
+    </b>
+  </p>
+
+  <p>
+
+    
+  </p>
+
+  
+  
+
+    
+    
+    
+    
+
+
+    
+    
+      <p>Marketing authorisation holder:
+        <b>Laboratorios Farmacéuticos ROVI, S.A.</b>
+      </p>
+      <p>
+        Identifier:
+        <ul>
+          
+            <li>
+              <b>xx</b>
+            </li>
+          
+        </ul>
+      </p>
+    
+  
+
+  <p>
+    Status:
+    <b>
+      Active (2012-01-01)
+    </b>
+  </p>
+
+</div>
+    
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      
+        
+          <div class="container rcorners ppd listcontainer"> <p class="divtitle">
+            Package 1 of 1</p>
+          
+  <p>PMSWI:
+  <b>
+    x
+  </b>
+  </p>
+
+<p>
+  Description:
+  </br>
+  <i>
+    
+  </i>
+</p>
+<p>
+Marketing status:
+<ul>
+  
+</ul>
+</p>
+<p>
+  Pack size:
+  <ul>
+    
+      <li>
+        <b>2500 </li></b>
+    
+  </ul>
+</p>
+
+<p>
+  
+    <div class="container rcorners pack">
+    
+    
+<p>Package:
+  <b>1 Box</b>
+  
+  
+    
+      <b>(Cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+
+
+  <br/>
+  <div class="container rcorners innerpack">
+    
+<p>Package:
+  <b>30 Blister</b>
+  
+  
+    
+      <b>(cardboard)</b>
+    
+  
+</p>
+
+<p>Containing:
+  
+    <b> 
+      
+    </b>
+  </p>
+  
+  
+  
+    
+    
+
+    
+      <div class="container rcorners mid listcontainer">
+  <p class="divtitle">Manufactured Item</p>
+  <p>
+    Dose form:
+    <b>
+      Effervescent tablet
+    </b>
+  </p>
+  <p>
+    Unit of presentation:
+    <b>
+      tablet
+    </b>
+  </p>
+
+  
+
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Calcium Carbonate
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              cholecalciferol
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Sodium
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              lactose monohydrate
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              sucrose
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              hydrogenated soybean oil
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Anhydrous citric acid
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              sodium bicarbonate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              povidone
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              saccharin sodium
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              sodium cyclamate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+
+    
+
+    
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              macrogol 6000
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+      
+    
+      
+    
+  
+</div>
+      
+  
+
+
+
+
+
+  </div>
+
+
+
+  </div>
+</p>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+
+      
+        
+        
+        
+        
+          
+        <div class="container rcorners apd listcontainer">
+  <p class="divtitle">Administrable Product (1 of 1)</p>
+  <p>
+    Dose form:
+    <b>
+      Effervescent tablet
+    </b>
+  </p>
+
+  <p>
+    Unit of presentation:
+    <b>
+      tablet
+    </b>
+  </p>
+
+  <p>
+    Route of administration:
+    <ul>
+      
+        <li>
+          <b>
+            Oral use
+          </b>
+        </li>
+      
+    </ul>
+  </p>
+
+  Ingredients:
+  
+
+
+
+  
+
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Calcium Carbonate
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              cholecalciferol
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Sodium
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              lactose monohydrate
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              sucrose
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              active
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              hydrogenated soybean oil
+            </b>
+          </p>
+
+          
+            
+
+            
+
+            
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              Anhydrous citric acid
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              sodium bicarbonate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              povidone
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              saccharin sodium
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              sodium cyclamate
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+    
+
+    
+
+    
+      
+    
+      
+    
+      
+        <div class="container m-1 p-1 rcorners miding listcontainer">
+          <p class="divtitle">Ingredient</p>
+          <p>
+            Role:
+            <b>
+              excipient
+            </b>
+          </p>
+
+          <p>
+            Substance:
+            <b>
+              macrogol 6000
+            </b>
+          </p>
+
+          
+          </div>
+        
+
+      
+    
+  
+
+
+</div>
+      
+    
+  
+</div>
+
+
+<!--
+  <div class="container rcorners mpd">
+  
+  <h4 class="nonumbers">
+    Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes
+  </h4>
+
+  
+  
+  
+  
+    PMSWI:
+    <b>
+      68290
+    </b>
+  
+    PHPID:
+    <b>
+      0xF79CABF272B6A7EEF104DDDA44E82716
+    </b>
+  
+
+  
+  
+  
+  
+  <div>
+    <p>
+      status:
+      <b>active</b>
+    </p>
+  </div>
+  <div>
+    <p>
+      Domain:
+      <b>Human use</b>
+    </p>
+  </div>
+  
+
+  <div>
+    <p>
+      Legal Status of Supply:
+      <b>Medicinal product subject to medical prescription</b>
+    </p>
+  </div>
+
+  
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+      <div class="container rcorners ra listcontainer" title="Authorisation">
+
+        <p class="divtitle">Authorisation 1 of 1</p>
+        Auth id:
+        <b>
+          
+            68290
+          
+        </b>
+
+        <p>
+          Country:
+          <b>
+            
+
+          </b>
+        </p>
+        <p>
+          Type:
+          <b>
+            Marketing Authorisation
+          </b>
+        </p>
+
+        
+      </p>
+
+      
+      
+
+        
+        
+        
+        
+
+
+        
+        
+          <p>
+            Holder:
+            <b>Laboratorios Farmacéuticos ROVI, S.A. (xx)</b>
+
+          </p>
+          <p></p>
+        
+      
+
+
+
+      <p>
+        Status:
+        <b>
+          Active (2012-01-01)
+        </b>
+      </p>
+
+    </div>
+
+  
+
+
+
+
+
+
+
+<div class="container  rcorners bleft listcontainer">
+  
+    
+    
+    
+      <p class="divtitle"> Package 1 of 1</p>
+    
+    
+
+
+    
+      <div class="container rcorners ppd">
+
+        
+          PMSWI:
+          <b>
+            x
+          </b>
+        
+
+        
+        <br/>
+        Marketing Status:
+        <b>
+          active</b>
+
+        <p>
+          Contained Quantity:
+          <ul>
+            
+              <li>
+
+                <b>
+                  2500 mg</b>
+              </li>
+            
+          </ul>
+        </p>
+
+
+        <p>
+          
+          
+            <br/>
+            <div class="container rcorners pack bleft">
+              <p>Package: 1 Box [Cardboard]</p>
+
+
+              
+              
+                <br/>
+                <div class="container rcorners pack bleft">
+                  <p>Inner Package: 30 Blister [cardboard]</p>
+
+                </div>
+              </div>
+            
+          
+
+        </p>
+
+      </div>
+
+      </div>
+    
+  
+</div>
+
+
+
+
+
+
+  <div class="container rcorners apd listcontainer">
+    
+      
+
+      
+      
+      
+        
+          <div class="container bleft rcorners apd"> <p class="divtitle">Administrable Product (1 of 1)</p>
+          <p>
+            Dose form:
+            <b>
+              Effervescent tablet
+            </b>
+          </p>
+
+          <p>
+            Presentation unit:
+            <b>
+              tablet
+            </b>
+          </p>
+          Route of administration:
+          <ul>
+            
+              <li>
+                <b>
+                  Oral use
+                </b>
+              </li>
+            
+          </ul>
+          Contents (Manuf. Items):
+          <ul>
+            
+            
+
+              
+
+              
+
+              
+                <div class="container   rcorners mid">
+                  <b>mid-925dad38f0afbba36223a82b3a766438</b>
+                  <p>
+                    Dose form:
+                    <b>Effervescent tablet</b>
+                  </p>
+                  <p>
+                    Presentation unit:
+                    <b>tablet</b>
+                  </p>
+                  <p>
+                    Manufactured Dose Form:
+                    <b>Effervescent tablet</b>
+                  </p>
+                  Ingredients:
+                  <ul>
+                    
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-calciovitaminad-calciumcarbonate</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Calcium Carbonate
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-calciovitaminad-cholecalciferol</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              cholecalciferol
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-calciovitaminad-sodium</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Sodium
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-calciovitaminad-lactosemonohydrate</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              lactose monohydrate
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-calciovitaminad-sucrose</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              sucrose
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-calciovitaminad-hydrogenatedsoybeanoil</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              active
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              hydrogenated soybean oil
+                            </b>
+                          </p>
+
+                          
+                            
+                          
+
+                          
+                            
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-calciovitaminad-anhydrouscitricacid</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              Anhydrous citric acid
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-calciovitaminad-sodiumbicarbonate</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              sodium bicarbonate
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-calciovitaminad-povidone</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              povidone
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-calciovitaminad-saccharinsodium</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              saccharin sodium
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-calciovitaminad-sodiumcyclamate</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              sodium cyclamate
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                      
+                      
+
+                      
+                        <div class="container   rcorners miding">
+                          <b>
+                            ingredient-for-calciovitaminad-macrogol6000</b>
+                          <p>
+                            Status:
+                            <b>
+                              Active
+                            </b>
+                          </p>
+
+                          <p>
+                            Role:
+                            <b>
+                              excipient
+                            </b>
+                          </p>
+
+                          <p>
+                            Substance:
+                            <b>
+                              macrogol 6000
+                            </b>
+                          </p>
+
+                          
+
+                          
+
+
+                        </div>
+                      
+                    
+                  </ul>
+
+                </div>
+              
+            
+          </ul>
+          
+          
+            
+
+
+        </div>
+      
+    
+  </div>
+  
+  <div class="cud container   rcorners">
+    
+      <p>
+        <b>Clinical Information</b>
+      </p>
+      
+    
+
+    </div>
+  
+</div>
+  
+
+
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+  
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

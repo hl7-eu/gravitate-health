@@ -1,0 +1,601 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>FK42542 - TTL Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.29"}
+    h3,h4,h5,h6{--heading-prefix:"20.29"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>FK42542</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-FK42542.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-FK42542.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-FK42542.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: FK42542 - TTL Representation</h2>
+
+
+<p><a href="Bundle-FK42542.ttl" no-download="true">Raw ttl</a> | <a href="Bundle-FK42542.ttl" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+&lt;http://hl7.org/fhir/Bundle/FK42542&gt; a fhir:Bundle ;
+  <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R5/resource.html#XBundle.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;FK42542&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XBundle.meta">fhir:meta</a> [
+     <a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">fhir:profile</a> ( [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&gt;
+     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XBundle.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;da&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.identifier">fhir:identifier</a> [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;42542&quot; ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;document&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.timestamp">fhir:timestamp</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#instant">fhir:v</a> &quot;2022-10-18T01:01:01Z&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">fhir:entry</a> ( [
+     <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi/Composition/FK42542-COMP&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/composition.html#XComposition">fhir:resource</a> ( &lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/FK42542-COMP&gt; )
+  ] [
+     <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/IBD-MPD-13&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">fhir:resource</a> ( &lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/IBD-MPD-13&gt; )
+  ] [
+     <a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-13&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition">fhir:resource</a> ( &lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-13&gt; )
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/FK42542-COMP&gt; <a href="http://hl7.org/fhir/R5/composition.html">a</a> fhir:Composition ;
+  <a href="http://hl7.org/fhir/R5/resource.html#XComposition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;FK42542-COMP&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">fhir:meta</a> [
+     <a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">fhir:profile</a> ( [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&gt;
+     ] [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&gt;
+     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XComposition.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;da&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">fhir:text</a> [
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;da\&quot; lang=\&quot;da\&quot;&gt;&lt;a name=\&quot;Composition_FK42542-COMP\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Composition FK42542-COMP&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;FK42542-COMP\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcFK42542-COMP\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Language: da&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profiles: &lt;a href=\&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\&quot;&gt;Composition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/&lt;/code&gt;/42542&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://spor.ema.europa.eu/v1/lists/100000155531/terms/ 100000155538}\&quot;&gt;100000155538&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-10-18&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: Identifier: &lt;code&gt;https://medicin.dk&lt;/code&gt;/medicin.dk&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: Cortiment 9 mg depottabletter&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">fhir:identifier</a> ( [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;42542&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;final&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">fhir:type</a> [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/100000155531/terms/&quot;^^xsd:anyURI ] ;
+       <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;100000155538&quot; ]
+     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">fhir:subject</a> ( [
+     <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/MedicinalProductDefinition/IBD-MPD-13&gt; ;
+     <a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;MedicinalProductDefinition/IBD-MPD-13&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> &quot;2022-10-18&quot;^^xsd:date] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">fhir:author</a> ( [
+     <a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.identifier">fhir:identifier</a> [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://medicin.dk&quot;^^xsd:anyURI ] ;
+       <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;medicin.dk&quot; ]
+     ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Cortiment 9 mg depottabletter&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">fhir:section</a> ( [
+     <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Indlægsseddel: Information til patienten&quot; ] ;
+     <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+         <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029894&quot; ]
+       ] )
+     ] ;
+     <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+       <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Section0\&quot;/&gt;&lt;h2&gt;Indlægsseddel: Information til brugeren&lt;/h2&gt;&lt;h3&gt;Cortiment, depottabletter&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Budesonid&lt;/div&gt;&lt;h3&gt;Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den indeholder vigtige oplysninger.&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Gem indlægssedlen. Du kan få brug for at læse den igen.&lt;/li&gt;&lt;li&gt;Spørg lægen, hvis der er mere, du vil vide.&lt;/li&gt;&lt;li&gt;Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.&lt;/li&gt;&lt;li&gt;Kontakt lægen, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt her. Se &lt;a href=\&quot;#Section4\&quot; title=\&quot;Anchor link til afsnit - afsnit 4\&quot;&gt;afsnit 4&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Se den nyeste indlægsseddel på &lt;a href=\&quot;https://www.indlaegsseddel.dk\&quot; title=\&quot;null\&quot;&gt;www.indlaegsseddel.dk&lt;/a&gt;.&lt;/div&gt;&lt;h3&gt;Oversigt over indlægssedlen:&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;Virkning og anvendelse&lt;/li&gt;&lt;li&gt;Det skal du vide, før du begynder at bruge Cortiment&lt;/li&gt;&lt;li&gt;Sådan skal du bruge Cortiment&lt;/li&gt;&lt;li&gt;Bivirkninger&lt;/li&gt;&lt;li&gt;Opbevaring&lt;/li&gt;&lt;li&gt;Pakningsstørrelser og yderligere oplysninger&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+     ] ;
+     <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">fhir:section</a> ( [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;1. Virkning og anvendelse&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029895&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Section1\&quot;/&gt;&lt;div&gt; &lt;/div&gt;&lt;h2&gt;1. Virkning og anvendelse&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Cortiment depottabletter indeholder det aktive stof kaldet budesonid. Budesonid tilhører en gruppe af lægemidler kaldet kortikosteroider, som anvendes til at reducere inflammation.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt; &lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Cortiment depottabletter anvendes til voksne til behandling af:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;colitis ulcerosa, som er inflammation i tyktarmen (kolon) og endetarmen (rectum)&lt;/li&gt;&lt;li&gt;akutte episoder af mikroskopisk colitis, som er en sygdom med kronisk inflammation i tyktarmen (kolon) typisk med kronisk vandig diarré.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ]
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;2. Det skal du vide, før du begynder at bruge Cortiment&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029896&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Section2\&quot;/&gt;&lt;div&gt; &lt;/div&gt;&lt;h2&gt;2. Det skal du vide, før du begynder at bruge Cortiment&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Lægen kan have foreskrevet anden anvendelse eller dosering end angivet i denne information. Følg altid lægens anvisning og oplysningerne på doseringsetiketten.&lt;/div&gt;&lt;h3&gt;Brug ikke Cortiment&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Hvis du er allergisk over for budesonid eller et af de øvrige indholdsstoffer i Cortiment (angivet i &lt;a href=\&quot;#Section6\&quot; title=\&quot;Anchor link til afsnit - afsnit 6\&quot;&gt;afsnit 6&lt;/a&gt;).&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt; &lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Hvis du er allergisk over for jordnødder eller soja, idet Cortiment depottabletter indeholder lecithin, udvundet fra sojaolie.&lt;/div&gt;&lt;h3&gt;Advarsler og forsigtighedsregler&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Sig det til lægen, hvis du oplever sløret syn eller andre synsforstyrrelser.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt; &lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Kontakt lægen, før du bruger Cortiment.&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Hvis du har en infektion, såsom en virusinfektion, en bakteriel infektion eller en svampeinfektion.&lt;/li&gt;&lt;li&gt;Hvis du har haft højt blodtryk.&lt;/li&gt;&lt;li&gt;Hvis du har diabetes.&lt;/li&gt;&lt;li&gt;Hvis du har haft knogleskørhed.&lt;/li&gt;&lt;li&gt;Hvis du har haft mavesår.&lt;/li&gt;&lt;li&gt;Hvis du har haft grøn stær (glaukom) eller grå stær (katarakt).&lt;/li&gt;&lt;li&gt;Hvis et familiemedlem har diabetes eller grøn stær (glaukom).&lt;/li&gt;&lt;li&gt;Hvis du har haft leversygdom.&lt;/li&gt;&lt;li&gt;Hvis du skifter fra anden kortison behandling til Cortiment, da det kan resultere i f.eks. smerter i muskler og led, træthed, hovedpine, kvalme og opkastning.&lt;/li&gt;&lt;li&gt;Hvis du ved, du skal vaccineres&lt;/li&gt;&lt;li&gt;Hvis du er blevet behandlet med et stærkere kortison præparat inden behandlingsstart med Cortiment, kan dine symptomer komme igen.&lt;/li&gt;&lt;li&gt;Hvis du får en infektion under behandlingen, kan Cortiment skjule tegn på infektion og infektionen kan forværres. Du kan være mere modtagelig for infektioner under behandling med Cortiment, da din krops modstand mod infektioner kan være nedsat.&lt;/li&gt;&lt;li&gt;Hvis du skal opereres snarest eller hvis du udsættes for anden stress.&lt;/li&gt;&lt;li&gt;Hvis du endnu ikke har haft mæslinger eller skoldkopper.&lt;/li&gt;&lt;li&gt;Når du bruger Cortiment depottabletter, forsøg at undgå kontakt med personer med mæslinger eller skoldkopper. Informer din læge, hvis du tror at du er blevet smittet med mæslinger eller skoldkopper, mens du tager denne medicin.&lt;/li&gt;&lt;li&gt;Hvis du eller et familiemedlem har haft mentale helbredsproblemer.&lt;/li&gt;&lt;/ul&gt;&lt;div class=\&quot;paragraph\&quot;&gt; &lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;At tage kortison præparater i høje doser og over en længere periode kan påvirke alle dele af kroppen og i meget sjældne tilfælde psykologiske problemer (se &lt;a href=\&quot;#Section4\&quot; title=\&quot;Anchor link til afsnit - afsnit 4.\&quot;&gt;afsnit 4.&lt;/a&gt; Bivirkninger).&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt; &lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Kontakt lægen, før du bruger Cortiment depottabletter, hvis du er i tvivl om, hvorvidt noget af ovenstående gælder for dig.&lt;/div&gt;&lt;h3&gt;Brug af anden medicin sammen med Cortiment&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Fortæl det altid til lægen hvis du bruger anden medicin eller har gjort det for nylig. Det gælder også medicin, som ikke er købt på recept. Dette er nødvendigt da Cortiment depottabletter påvirker, hvordan noget medicin virker og nogle lægemidler kan påvirke, hvordan Cortiment depottablet virker. Nogle lægemidler kan øge virkningen af Cortiment, og din læge vil overvåge dig omhyggeligt, hvis du tager sådanne lægemidler (inklusive visse former for HIV-medicin; ritonavir, cobicistat).&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;br/&gt;Det er særlig vigtigt at du fortæller din læge, hvis du tager, for nylig har taget eller har tænkt at tage et af følgende lægemidler:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Ketoconazol eller itraconazol, som er lægemidler, der anvendes til behandling af svampeinfektioner;&lt;/li&gt;&lt;li&gt;medicin brugt til HIV behandling (såsom ritonavir, nelfinavir, cobicistat-holdige lægemidler);&lt;/li&gt;&lt;li&gt;Carbamazepin, som anvendes til behandling af epilepsi;&lt;/li&gt;&lt;li&gt;Hjerteglykosider og diuretika (vanddrivende lægemidler);&lt;/li&gt;&lt;li&gt;Lægemidler der indeholder østrogener, såsom hormonbehandling (HRT) og nogle orale præventionsmidler;&lt;/li&gt;&lt;li&gt;Steroider, såsom prednisolon eller dexamethason;&lt;/li&gt;&lt;li&gt;Cholestyramin, som bruges til at sænke kolesterolniveau eller behandle kløe forårsaget af leverproblemer eller syreneutraliserende middel (antacida).&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Brug af Cortiment sammen med mad, drikke og alkohol&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Du må ikke drikke grapefrugtjuice, når du tager Cortiment depottabletter. Dette kan påvirke måden som medicinen virker på.&lt;/div&gt;&lt;h3&gt;Graviditet, amning og frugtbarhed&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din læge til råds, før du bruger dette lægemiddel.&lt;/div&gt;&lt;h3&gt;Trafik- og arbejdssikkerhed&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Det er usandsynligt, at Cortiment depottabletter vil påvirke din evne til at køre eller betjene maskiner. Der bør udvises forsigtighed, fordi denne type medicin til tider kan medføre svimmelhed eller træthed.&lt;/div&gt;&lt;h3&gt;Cortiment depottabletter indeholder lactose og lecithin (sojaolie)&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Cortiment depottabletter indeholder lactose, en form for sukker. Du skal kontakte din læge, hvis du har fået at vide af din læge, at du ikke tåler visse sukkerarter, før du tager dette lægemiddel.&lt;br/&gt;Cortiment depottabletter indeholder lecithin (sojaolie). Brug ikke dette lægemiddel hvis du er allergisk over for jordnødder eller soja.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ]
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;3. Sådan skal du bruge Cortiment&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029905&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Section3\&quot;/&gt;&lt;div&gt; &lt;/div&gt;&lt;h2&gt;3. Sådan skal du bruge Cortiment&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Brug altid Cortiment nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt; &lt;/div&gt;&lt;ul&gt;&lt;li&gt;Den sædvanlige dosis for colitis ulcerosa og mikroskopisk colitis er èn tablet om morgenen før eller sammen med et måltid.&lt;/li&gt;&lt;li&gt;Synk tabletten hel med et glas vand; tabletten må ikke deles, knuses eller tygges.&lt;/li&gt;&lt;li&gt;Normalt vil du tage denne medicin dagligt i højst otte uger. Din læge kan derefter gradvist sænke antallet af gange, du skal tage medicinen.&lt;/li&gt;&lt;li&gt;Fortsæt med at tage Cortiment depottabletter, efter lægens anvisning også selvom du begynder at føle bedring.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Yderligere oplysninger, når du tager Cortiment depottabletter&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Hvis du snart skal opereres, eller udsættes for anden stressende påvirkning, kan lægen bede dig om at tage steroid tabletter. Dette er især tilfældet, hvis du har taget høje doser af Cortiment depottabletter eller lignende medicin i lang tid.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt; &lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Brug til patienter med nedsat nyre- eller leverfunktion&lt;/b&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Cortiment depottabletter er ikke undersøgt specifikt for patienter med nyre eller lever problemer. Kontakt din læge.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt; &lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Brug til børn&lt;/b&gt;&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Cortiment depottabletter anbefales ikke til børn.&lt;/div&gt;&lt;h3&gt;Hvis du har taget for meget Cortiment&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Informer straks din læge, hvis du har taget flere Cortiment depottabletter, end du burde.&lt;/div&gt;&lt;h3&gt;Hvis du har glemt at tage Cortiment&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Hvis du glemmer at tage en Cortiment depottablet, skal du tage den så snart, du husker det. Hvis det er tæt på din næste dosis, skal du springe den glemte dosis over.&lt;/li&gt;&lt;li&gt;Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Hvis du holder op med at tage Cortiment&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Du må ikke stoppe med at tage Cortiment depottabletter uden først at have aftalt det med din læge. Det kan være nødvendigt gradvist at nedtrappe behandlingen. Hvis du pludselig stopper med at tage medicinen, kan du blive syg.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;br/&gt;Spørg lægen, hvis der er noget, du er i tvivl om.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ]
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;4. Bivirkninger&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029910&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Section4\&quot;/&gt;&lt;div&gt; &lt;/div&gt;&lt;h2&gt;4. Bivirkninger&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.&lt;/div&gt;&lt;h3&gt;Hvis du har fået en allergisk reaktion, skal du straks kontakte din læge eller ringe for akut hjælp. Tegn kan omfatte nældefeber eller hævelse af ansigt, læber, mund, tunge og hals. Dette kan gøre det vanskeligt at trække vejret.&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Følgende bivirkninger kan forekomme, når du tager Cortiment depottabletter, de fleste bivirkninger nævnt kan også forventes ved behandling med andre steroider.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt; &lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Almindelig (kan påvirke op til 1 ud af 10 personer)&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Cushing-lignende symptomer, såsom et rundt ansigt (måneansigt), akne, vægtøgning og en tendens til lettere at få blå mærker&lt;/li&gt;&lt;li&gt;Lavt kalium niveau i blodet, hvilket kan forårsage muskelsvaghed eller træthed, tørst eller en prikkende fornemmelse&lt;/li&gt;&lt;li&gt;Ændring i adfærd, såsom nervøsitet, søvnløshed eller humørsvingninger&lt;/li&gt;&lt;li&gt;Depression&lt;/li&gt;&lt;li&gt;Hovedpine&lt;/li&gt;&lt;li&gt;Hjertebanken&lt;/li&gt;&lt;li&gt;Kvalme&lt;/li&gt;&lt;li&gt;Mavesmerter&lt;/li&gt;&lt;li&gt;Oppustet mave&lt;/li&gt;&lt;li&gt;Tør mund&lt;/li&gt;&lt;li&gt;Fordøjelsesbesvær (dyspepsi)&lt;/li&gt;&lt;li&gt;Hududslæt eller kløe&lt;/li&gt;&lt;li&gt;Akne&lt;/li&gt;&lt;li&gt;Muskel smerter, muskel kramper&lt;/li&gt;&lt;li&gt;Kraftig eller uregelmæssig menstruation hos kvinder&lt;/li&gt;&lt;li&gt;Ekstrem træthed (fatigue)&lt;/li&gt;&lt;li&gt;Nedsat mængde af hormonet kortisol i blodet.&lt;/li&gt;&lt;/ul&gt;&lt;div class=\&quot;paragraph\&quot;&gt; &lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Ikke almindelig (kan påvirke op til 1 ud af 100 personer)&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Influenza&lt;/li&gt;&lt;li&gt;Øget antal hvide blodceller&lt;/li&gt;&lt;li&gt;Ændring i adfærd, som humørsvingninger&lt;/li&gt;&lt;li&gt;Følelse af uro med hyperaktivitet&lt;/li&gt;&lt;li&gt;Angst&lt;/li&gt;&lt;li&gt;Svimmelhed&lt;/li&gt;&lt;li&gt;Rysten&lt;/li&gt;&lt;li&gt;Flatulens&lt;/li&gt;&lt;li&gt;Rygsmerter&lt;/li&gt;&lt;li&gt;Muskel spasmer&lt;/li&gt;&lt;li&gt;Hævelse i benene&lt;/li&gt;&lt;/ul&gt;&lt;div class=\&quot;paragraph\&quot;&gt; &lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Sjælden (kan påvirke op til 1 ud af 1.000 personer)&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Aggression&lt;/li&gt;&lt;li&gt;Glaukom (Grøn stær; øget tryk i øjet)&lt;/li&gt;&lt;li&gt;Grå stær (katarakt; ugennemsigtig linse eller kapsel i øjet)&lt;/li&gt;&lt;li&gt;Sløret syn&lt;/li&gt;&lt;li&gt;Lilla eller sorte-og-blå mærker på huden&lt;/li&gt;&lt;/ul&gt;&lt;div class=\&quot;paragraph\&quot;&gt; &lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Meget sjælden (kan påvirke op til 1 ud af 10.000 personer)&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;En alvorlig allergisk reaktion (kaldet anafylaksi), som kan føre til vejrtrækningsbesvær og potentielt chok.&lt;/li&gt;&lt;/ul&gt;&lt;div class=\&quot;paragraph\&quot;&gt; &lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Nogle af bivirkningerne nævnt ovenfor er typiske for steroidbehandling og kan forekomme afhængigt af din dosis, behandlingens varighed, hvorvidt du er eller har været i behandling med andre kortison- præparater og din individuelle modtagelighed.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt; &lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Psykologiske problemer kan udvikle sig, ved brug af steroider såsom Cortiment depottabletter. Diskuter det med din læge, hvis du (eller brugeren af denne medicin) har (haft) symptomer på psykiske problemer. Dette er især vigtigt, hvis du er deprimeret og har tanker om at begå selvmord. I meget sjældne tilfælde har psykiske problemer udviklet sig, når høje doser blev taget i længere tid.&lt;/div&gt;&lt;h3&gt;Indberetning af bivirkninger&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via:&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Lægemiddelstyrelsen&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Axel Heides Gade 1&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;DK-2300 København S&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Websted: www.meldenbivirkning.dk&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;a href=\&quot;https://www.meldenbivirkning.dk\&quot; title=\&quot;Meld en bivirkning\&quot;&gt;Meld en bivirkning.&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ]
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;5. Opbevaring&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029913&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Section5\&quot;/&gt;&lt;div&gt; &lt;/div&gt;&lt;h2&gt;5. Opbevaring&lt;/h2&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Opbevar lægemidlet utilgængeligt for børn.&lt;br/&gt;&lt;br/&gt;Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterpakningen efter EXP.&lt;br/&gt;Udløbsdatoen er den sidste dag i den nævnte måned.&lt;br/&gt;&lt;br/&gt;Opbevares ved temperaturer under 30 °C.&lt;br/&gt;&lt;br/&gt;Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ]
+     ] [
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;6. Pakningsstørrelser og yderligere oplysninger&quot; ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+         <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029914&quot; ]
+         ] )
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Section6\&quot;/&gt;&lt;div&gt; &lt;/div&gt;&lt;h2&gt;6. Pakningsstørrelser og yderligere oplysninger&lt;/h2&gt;&lt;h3&gt;Cortiment indeholder:&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Aktivt stof: budesonid. Hver tablet indeholder 9 mg budesonid.&lt;/li&gt;&lt;li&gt;Øvrige indholdsstoffer (hjælpestoffer):&lt;br/&gt;&lt;b&gt;tabletkerne:&lt;/b&gt; stearinsyre (E570), lecithin (soja) (E322), mikrokrystallinsk cellulose (E460), hydroxypropylcellulose (E463), lactosemonohydrat, silica kolloid (E551), magnesiumstearat (E470b)&lt;br/&gt;&lt;b&gt;filmovertræk:&lt;/b&gt; methacrylsyre-methylmethacrylat-copolymer (1:1), methacrylsyre-methylmethacrylat-copolymer (1:2), talcum (E553b), titandioxid (E171), triethylcitrat&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Udseende og pakningsstørrelser&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Cortiment depottablet er hvid til off-white, rund, bi-konveks, filmovertrukket og præget med 'MX9' på den ene side af tabletten. Tabletterne leveres i blister ark med aluminiums tryk-folie i en karton æske.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt; &lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Dette lægemiddel er tilgængeligt i pakninger med 10, 20, 30, 50, 60 eller 80 tabletter.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Ikke alle pakningsstørrelser er nødvendigvis markedsført.&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+       ] ;
+       <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">fhir:section</a> ( [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Indehaver af markedsføringstilladelsen og fremstiller&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029917&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Indehaver af markedsføringstilladelsen og fremstiller&lt;/h2&gt;&lt;h3&gt;Indehaver af markedsføringstilladelsen&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Ferring Lægemidler A/S&lt;br/&gt;Amager Strandvej 405&lt;br/&gt;2770 Kastrup&lt;/div&gt;&lt;h3&gt;Fremstiller&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Cosmo S.p.A.&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Via C. Colombo 1,&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;20045 Lainate,&lt;/div&gt;&lt;div class=\&quot;paragraph\&quot;&gt;Milano, Italien&lt;/div&gt;&lt;h3&gt;Dette lægemiddel er godkendt i medlemslandene i Det Europæiske Økonomiske Samarbejdsområde og i Det Forenede Kongerige (Nordirland) under følgende navne:&lt;/h3&gt;&lt;div class=\&quot;paragraph\&quot;&gt;&lt;b&gt;Bulgarien, Cypern, Danmark, Det Forenede Kongerige (Nordirland), Finland, Frankrig, Grækenland, Island, Irland, Italien, Holland, Malta, Norge, Romænien, Slovakiet, Spanien, Sverige, Tjekkiet, Tyskland, Ungarn, Østrig: &lt;/b&gt;Cortiment&lt;br/&gt;&lt;b&gt;Croatien, Polen: &lt;/b&gt;CortimentMMX&lt;br/&gt;&lt;b&gt;Portugal: &lt;/b&gt;Coramen&lt;br/&gt;&lt;b&gt;Belgien, Estland, Letland, Litaun, Luxemburg:&lt;/b&gt; Budesonide Ferring&lt;br/&gt;&lt;b&gt;Slovenien: &lt;/b&gt;Budezonid Ferring&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] [
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Denne indlægsseddel blev senest ændret 30. maj 2022&quot; ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">fhir:code</a> [
+           <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">fhir:coding</a> ( [
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://spor.ema.europa.eu/v1/lists/200000029659/terms/&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;200000029919&quot; ]
+           ] )
+         ] ;
+         <a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">fhir:text</a> [
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Denne indlægsseddel blev senest ændret 30. maj 2022&lt;/h2&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+         ]
+       ] )
+     ] )
+  ] ) . # 
+
+&lt;http://hl7.org/fhir/MedicinalProductDefinition/IBD-MPD-13&gt; a fhir:MedicinalProductDefinition .
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/IBD-MPD-13&gt; <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">a</a> fhir:MedicinalProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;IBD-MPD-13&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">fhir:meta</a> [
+     <a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">fhir:profile</a> ( [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi&gt;
+     ] [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&gt;
+     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">fhir:text</a> [
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;MedicinalProductDefinition_IBD-MPD-13\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition IBD-MPD-13&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;IBD-MPD-13\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcIBD-MPD-13\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profiles: &lt;a href=\&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\&quot;&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&lt;/code&gt;/ID_E0D85C29-F445-4ABF-BDA0-5AA124209550&lt;/p&gt;&lt;h3&gt;Names&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;ProductName&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Cortiment depottab 9 mg&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">fhir:identifier</a> ( [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://legemiddelverket.no/FEST/LegemiddelMerkevareID&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;ID_E0D85C29-F445-4ABF-BDA0-5AA124209550&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">fhir:name</a> ( [
+     <a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.productName">fhir:productName</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Cortiment depottab 9 mg&quot; ]
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/IBD-PPD-13&gt; <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html">a</a> fhir:PackagedProductDefinition ;
+  <a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;IBD-PPD-13&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/resource.html#XPackagedProductDefinition.meta">fhir:meta</a> [
+     <a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">fhir:profile</a> ( [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi&gt;
+     ] [
+       <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&quot;^^xsd:anyURI ;
+       <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&gt;
+     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/domainresource.html#XPackagedProductDefinition.text">fhir:text</a> [
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+     <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R5/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;PackagedProductDefinition_IBD-PPD-13\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition IBD-PPD-13&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;IBD-PPD-13\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcIBD-PPD-13\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profiles: &lt;a href=\&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-PackagedProductDefinition-uv-epi.html\&quot;&gt;PackagedProductDefinition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://legemiddelverket.no/FEST/LegemiddelPakningID&lt;/code&gt;/ID_B0D9AFBA-815A-4C37-A995-F231812A1E14, &lt;code&gt;https://farmalogg.no/varenummer&lt;/code&gt;/065339&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Cortiment depottab 9 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\&quot;Bundle-FK42542.html#MedicinalProductDefinition_IBD-MPD-13\&quot;&gt;MedicinalProductDefinition: identifier = http://legemiddelverket.no/FEST/LegemiddelMerkevareID#ID_E0D85C29-F445-4ABF-BDA0-5AA124209550&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.identifier">fhir:identifier</a> ( [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://legemiddelverket.no/FEST/LegemiddelPakningID&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;ID_B0D9AFBA-815A-4C37-A995-F231812A1E14&quot; ]
+  ] [
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://farmalogg.no/varenummer&quot;^^xsd:anyURI ] ;
+     <a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;065339&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Cortiment depottab 9 mg&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/packagedproductdefinition.html#XPackagedProductDefinition.packageFor">fhir:packageFor</a> ( [
+     <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/MedicinalProductDefinition/IBD-MPD-13&gt; ;
+     <a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;MedicinalProductDefinition/IBD-MPD-13&quot; ]
+  ] ) . # 
+
+</pre>
+
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

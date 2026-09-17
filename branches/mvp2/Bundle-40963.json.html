@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>40963 - JSON Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.474"}
+    h3,h4,h5,h6{--heading-prefix:"16.474"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>40963</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+  <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-40963.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-40963.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-40963.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: 40963 - JSON Representation</h2>
+
+
+<p><a href="Bundle-40963.json" no-download="true">Raw json</a> | <a download="null" href="Bundle-40963.json">Download</a></p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <pre style="white-space: pre; text-wrap: nowrap;" class="json"><code style="white-space: pre; text-wrap: nowrap;">
+{
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle">resourceType</a>" : "Bundle",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.id">id</a>" : "40963",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+      <a style="color: Maroon" href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Bundle-uv-epi.html">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.language">language</a>" : "da",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.identifier">identifier</a>" : {
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/",
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "40963"
+  },
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.type">type</a>" : "document",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.timestamp">timestamp</a>" : "2022-07-26T01:01:01Z",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">entry</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "https://gravitatehealth.eu/fhir/nordic-epi/Composition/40963",
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/composition.html">resourceType</a>" : "Composition",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.id">id</a>" : "40963",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+            <a style="color: Maroon" href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
+            "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.language">language</a>" : "da",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"da\" lang=\"da\"&gt;&lt;a name=\"Composition_40963\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=\"40963\"&gt; &lt;/a&gt;&lt;a name=\"hc40963\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource Composition &amp;quot;40963&amp;quot;  (Language &amp;quot;da&amp;quot;) &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\"&gt;Composition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/&lt;/code&gt;/40963&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: 100000155538 &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-07-26&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;span&gt;&lt;code&gt;https://medicin.dk&lt;/code&gt;/medicin.dk&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: Entocort&reg; 3 mg kapsler med modificeret udløsning&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+        },
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "40963"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.status">status</a>" : "final",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.type">type</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/100000155531/terms/",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.date">date</a>" : "2022-07-26",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.author">author</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.identifier">identifier</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://medicin.dk",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "medicin.dk"
+            }
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.title">title</a>" : "Entocort&reg; 3 mg kapsler med modificeret udløsning",
+        "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section">section</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Indlægsseddel: Information til patienten",
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029894"
+                }
+              ]
+            },
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+              "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+              "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                     &lt;a name=\"Section0\"/&gt;\n                     &lt;h2&gt;  Indlægsseddel: Information til brugeren &lt;/h2&gt;\n                     &lt;h3&gt;Entocort, hårde kapsler med modificeret udløsning 3 mg &lt;/h3&gt;\n                     &lt;div class=\"paragraph\"&gt;budesonid&lt;/div&gt;\n                     &lt;h3&gt;  Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den indeholder vigtige oplysninger. &lt;/h3&gt;\n                     &lt;ul&gt;\n                        &lt;li&gt;Gem indlægssedlen. Du kan få brug for at læse den igen.&lt;/li&gt;\n                        &lt;li&gt;Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide.&lt;/li&gt;\n                        &lt;li&gt;Lægen har ordineret Entocort til dig personligt. Lad derfor være med at give det til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.&lt;/li&gt;\n                        &lt;li&gt;Tal med lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger, som ikke er nævnt her.&lt;/li&gt;\n                     &lt;/ul&gt;\n                     &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                     &lt;div class=\"paragraph\"&gt;Den nyeste indlægsseddel kan findes på &lt;a href=\"https://www.indlaegsseddel.dk\" title=\"null\"&gt;www.indlaegsseddel.dk&lt;/a&gt;.&lt;/div&gt;\n                     &lt;h3&gt;  Oversigt over indlægssedlen &lt;/h3&gt;\n                     &lt;ol&gt;\n                        &lt;li&gt;Virkning og anvendelse&lt;/li&gt;\n                        &lt;li&gt;Det skal du vide, før du begynder at tage Entocort&lt;/li&gt;\n                        &lt;li&gt;Sådan skal du tage Entocort&lt;/li&gt;\n                        &lt;li&gt;Bivirkninger&lt;/li&gt;\n                        &lt;li&gt;Opbevaring&lt;/li&gt;\n                        &lt;li&gt;Pakningsstørrelser og yderligere oplysninger&lt;/li&gt;\n                     &lt;/ol&gt;\n                  &lt;/div&gt;"<a name="end-xhtml"></a>
+            },
+            "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "1. Virkning og anvendelse",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029895"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section1\"/&gt;\n                        &lt;div&gt;\u00a0&lt;/div&gt;\n                        &lt;h2&gt;1. Virkning og anvendelse&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Entocort, kapsler med modificeret udløsning, indeholder et binyrebarkhormon, der dæmper den betændelse, som forekommer ved Crohns sygdom.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Du kan bruge Entocort til behandling af Crohns sygdom i tyndtarmen og den øverste del af tyktarmen.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Mikroskopisk colitis: Entocort kapsler anvendes til behandling af mikroskopisk colitis (en sygdom med kronisk betændelse i tyktarmen der typisk er med kronisk vandig diarré).&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Lægen kan have givet dig Entocort for noget andet. Følg altid lægens anvisning.&lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "2. Det skal du vide, før du begynder at tage Entocort",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029896"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section2\"/&gt;\n                        &lt;div&gt;\u00a0&lt;/div&gt;\n                        &lt;h2&gt;2. Det skal du vide, før du begynder at tage Entocort&lt;/h2&gt;\n                        &lt;h3&gt;  Tag ikke Entocort    &lt;/h3&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;hvis du er allergisk over for budesonid eller et af de øvrige indholdsstoffer i Entocort (angivet i &lt;a href=\"#Section6\" title=\"Anchor link til afsnit - pkt. 6\"&gt;pkt. 6&lt;/a&gt;).&lt;/li&gt;\n                           &lt;li&gt;hvis du har betændelse i tarmen, som skyldes svamp, virus eller bakterier.&lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;h3&gt;  Advarsler og forsigtighedsregler  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Kontakt lægen eller apoteket, før du tager Entocort:&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;hvis du har tuberkulose&lt;/li&gt;\n                           &lt;li&gt;hvis du har eller for nylig havde en infektion&lt;/li&gt;\n                           &lt;li&gt;hvis du har leversygdomme&lt;/li&gt;\n                           &lt;li&gt;hvis du har knogleskørhed&lt;/li&gt;\n                           &lt;li&gt;hvis du har mavesår&lt;/li&gt;\n                           &lt;li&gt;hvis du har for højt blodtryk&lt;/li&gt;\n                           &lt;li&gt;hvis du har sukkersyge&lt;/li&gt;\n                           &lt;li&gt;hvis du har grå eller grøn stær&lt;/li&gt;\n                           &lt;li&gt;hvis du samtidig er i behandling mod svamp (ketoconazol, itraconazol)&lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Fortæl også lægen, hvis der er nogen i din familie, som har sukkersyge eller grøn stær.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;br/&gt;Skoldkopper og mæslinger kan få et mere alvorligt forløb når du er i behandling med Entocort. Kontakt lægen hvis du har været udsat for smitte og ikke tidligere har haft sygdommene eller ikke er blevet vaccineret mod dem.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;br/&gt;Sig det til lægen, hvis du oplever sløret syn eller andre synsforstyrrelser.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;br/&gt;Kontakt lægen hvis du skifter fra anden medicin med binyrebarkhormon til Entocort, eller når du slutter din behandling med Entocort. Du kan få udslæt, høfeber eller smerter i muskler og led, træthed, hovedpine, kvalme og opkastning.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;br/&gt;Hvis du skal opereres, skal du fortælle lægen, at du er i behandling med Entocort.&lt;/div&gt;\n                        &lt;h3&gt;  Børn og teenagere  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Lægen vil regelmæssigt kontrollere højden hos børn, der behandles med Entocort i længere tid. Hvis væksten er nedsat, bør behandlingen overvejes påny.&lt;/div&gt;\n                        &lt;h3&gt;  Brug af anden medicin sammen med Entocort  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Fortæl altid lægen eller på apoteket, hvis du bruger anden medicin eller har gjort det for nylig. Det gælder også medicin, som ikke er købt på recept, f.eks. naturlægemidler og vitaminer og mineraler.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;br/&gt;Entocort kan påvirke virkningen af anden medicin, ligesom anden medicin kan ændre virkningen af Entocort. Tal med din læge, hvis du tager:&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;ketoconazol eller itrakonazol (svampemiddel)&lt;/li&gt;\n                           &lt;li&gt;østrogener og p-piller (kvindeligt kønshormon)&lt;/li&gt;\n                           &lt;li&gt;carbamazepin (mod epilepsi)&lt;/li&gt;\n                           &lt;li&gt;nogle lægemidler kan øge virkningen af Entocort, og din læge vil overvåge dig omhyggeligt, hvis du tager sådanne lægemidler (inklusive visse former for HIV-medicin, herunder ritonavir (eller andre HIV-proteasehæmmere) og cobicistat).&lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;På grund af hæmning af binyrebarkfunktionen kan diagnostiske test af hypofyse-aktiviteten vise fejlagtige lave værdier.&lt;/div&gt;\n                        &lt;h3&gt;  Brug af Entocort sammen med mad og drikke  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Du kan tage Entocort sammen med mad og drikke, dog skal du ikke tage det sammen med grapefrugt eller grapefrugtjuice.&lt;/div&gt;\n                        &lt;h3&gt;  Graviditet, amning og fertilitet  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din læge eller apoteket til råds, før du tager Entocort.&lt;/div&gt;\n                        &lt;h3&gt;  Trafik- og arbejdssikkerhed  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Entocort påvirker ikke arbejdssikkerheden eller evnen til at færdes sikkert i trafikken.&lt;/div&gt;\n                        &lt;h3&gt;  Entocort indeholder saccharose  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Entocort, kapsler med modificeret udløsning, indeholder saccharose. Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter.&lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "3. Sådan skal du tage Entocort",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029905"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section3\"/&gt;\n                        &lt;div&gt;\u00a0&lt;/div&gt;\n                        &lt;h2&gt;3. Sådan skal du tage Entocort&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Tag altid Entocort nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller på apoteket. Ændring eller stop af behandlingen bør kun ske i samråd med lægen.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Du skal synke kapslerne hele med vand. Du må ikke dele eller tygge kapslerne. &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Crohns sygdom &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Den sædvanlige dosering er:&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Voksne:&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Dosis ved aktiv sygdom:&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;3 kapsler (9 mg) én gang daglig om morgenen i op til 8 uger. &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Det tager normalt 2-4 uger, inden Entocort giver fuld virkning.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Dosis til forhindring af tilbagefald af sygdommen:&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;2 kapsler (6 mg) én gang daglig om morgenen.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Tal med din læge, hvis du tager medicinen i længere tid. Dosis bør holdes så lav som muligt.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Dosis til patienter, der har været i behandling med medicin, der indeholder prednisolon:&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;2 kapsler (6 mg) én gang daglig om morgenen.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Når du starter med Entocort, skal du langsomt aftrappe prednisolonbehandlingen. Det skal altid ske i samråd med din læge.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Hvis du afbryder behandlingen, skal du nedtrappe dosis gradvist. Tal med lægen. &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Mikroskopisk colitis &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Voksne:&lt;br/&gt;Dosis ved aktiv sygdom:&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;3 kapsler (9 mg) én gang daglig om morgenen i op til 8 uger. Det tager normalt 2-4 uger, inden Entocort giver fuld virkning. Når behandlingen skal ophøre, bør dosis normalt reduceres &lt;b&gt;gradvist. Tal med lægen.&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Dosis til forhindring af tilbagefald af sygdommen:&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Individuelt, men dosis bør holdes så lavt som muligt. Tal med din læge, hvis du tager medicinen i længere tid.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Ældre:&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Det er ikke nødvendigt at ændre dosis. Følg lægens anvisning.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Brug til børn:&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Du må ikke give Entocort til børn. Følg lægens anvisning&lt;/div&gt;\n                        &lt;h3&gt;  Hvis du har taget for mange Entocort, kapsler med modificeret udløsning  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Kontakt lægen, skadestuen eller apoteket, hvis du har taget flere Entocort, kapsler med modificeret udløsning, end der står i denne information, eller mere end lægen har foreskrevet, og du føler dig utilpas. Tag pakningen med.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Symptomer ved overdosering:&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du gennem længere tid tager for mange kapsler, kan der opstå symptomer, der er nævnt under afsnittet om bivirkninger.&lt;/div&gt;\n                        &lt;h3&gt;  Hvis du har glemt at tage Entocort  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Fortsæt blot med den sædvanlige dosis.&lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "4. Bivirkninger",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029910"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section4\"/&gt;\n                        &lt;div&gt;\u00a0&lt;/div&gt;\n                        &lt;h2&gt;4. Bivirkninger&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Almindelige bivirkninger&lt;/b&gt; (forekommer hos mellem 1 og 10 ud af 100 behandlede):&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;tendens til måneansigt (Cushing-lignende træk) &lt;/li&gt;\n                           &lt;li&gt;nervøsitet, søvnløshed, humørsvingninger og depression &lt;/li&gt;\n                           &lt;li&gt;hjertebanken &lt;/li&gt;\n                           &lt;li&gt;fordøjelsesbesvær &lt;/li&gt;\n                           &lt;li&gt;muskelkramper &lt;/li&gt;\n                           &lt;li&gt;menstruationsforstyrrelser &lt;/li&gt;\n                           &lt;li&gt;hududslæt og nældefeber &lt;/li&gt;\n                           &lt;li&gt;svaghed og nedsat kraft i musklerne pga. for lavt kalium i blodet. For lavt kalium i blodet kan i meget sjældne tilfælde blive alvorlig med lammelser og forstyrrelser i hjertets rytme (risiko for hjertestop). Tal med lægen. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Ikke almindelige bivirkninger&lt;/b&gt; (forekommer hos mellem 1 og 10 ud af 1000 behandlede):&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;rysten &lt;/li&gt;\n                           &lt;li&gt;utilsigtede bevægelser eller ekstrem rastløshed eventuelt med muskelspasmer eller trækninger &lt;/li&gt;\n                           &lt;li&gt;angst &lt;/li&gt;\n                           &lt;li&gt;sår i mavesæk eller tolvfingertarm &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Sjældne bivirkninger &lt;/b&gt;(forekommer hos mellem 1 og 10 ud af 10.000 behandlede):&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;aggression &lt;/li&gt;\n                           &lt;li&gt;hovedpine, kvalme, synsnedsættelse og regnbuesyn pga. forhøjet tryk i øjet (grøn stær). Kontakt straks læge eller skadestue &lt;/li&gt;\n                           &lt;li&gt;uklarhed af øjets naturlige linse herunder bagsiden af linsen, sløret syn &lt;/li&gt;\n                           &lt;li&gt;misfarvning af huden, som følge af blødning under huden &lt;/li&gt;\n                           &lt;li&gt;betændt bugspytkirtel (forbundet med smerter i øvre maveregion og ryggen samt kvalme) &lt;/li&gt;\n                           &lt;li&gt;knoglevævsdød på grund af nedsat blodtilførsel til knoglen &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Meget sjældne bivirkninger&lt;/b&gt; (forekommer hos færre end 1 ud af 10.000 behandlede):&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;pludseligt hududslæt, åndedrætsbesvær og besvimelse (inden for minutter til timer) pga. overfølsomhed (anafylaktisk reaktion). &lt;b&gt;Kan være livsfarligt. Ring 112.&lt;/b&gt;\n                           &lt;/li&gt;\n                           &lt;li&gt;nedsat vækst hos børn. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;De fleste bivirkninger, nævnt i denne liste, kan også forventes for andre behandlinger med glukokortikoider.&lt;/div&gt;\n                        &lt;h3&gt;  Indberetning af bivirkninger  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via de oplysninger, der fremgår herunder.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Lægemiddelstyrelsen &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Axel Heides Gade 1 &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;DK-2300 København S&lt;br/&gt;Websted: www.meldenbivirkning.dk&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\u00a0&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;a href=\"https://www.meldenbivirkning.dk\" title=\"Meld en bivirkning\"&gt;\n\t\t\t\t\t\t\t\tMeld en bivirkning.\n\t\t\t\t\t\t\t&lt;/a&gt;\n                        &lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "5. Opbevaring",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029913"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section5\"/&gt;\n                        &lt;div&gt;\u00a0&lt;/div&gt;\n                        &lt;h2&gt;5. Opbevaring&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Opbevar Entocort utilgængeligt for børn.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Opbevar Entocort i original emballage, tæt tillukket, da medicinen er følsom over for fugt.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Brug ikke Entocort efter den udløbsdato, der står på pakningen. Udløbsdatoen er den sidste dag i den nævnte måned.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.&lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "6. Pakningsstørrelser og yderligere oplysninger",
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029914"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section6\"/&gt;\n                        &lt;div&gt;\u00a0&lt;/div&gt;\n                        &lt;h2&gt;6. Pakningsstørrelser og yderligere oplysninger&lt;/h2&gt;\n                        &lt;h3&gt;  Entocort, hårde kapsler med modificeret udløsning 3 mg indeholder:    &lt;/h3&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Aktivt stof: Budesonid.&lt;/li&gt;\n                           &lt;li&gt;Øvrige indholdsstoffer: Ethylcellulose; tributylacetylcitrat; methacrylsyre copolymer; triethylcitrat (E1505); simeticon; polysorbat 80; talcum. Sukkerkugler (bestående af saccharose og majsstivelse).&lt;br/&gt;Kapsel: Gelatine; titandioxid (E171); rød jernoxid (E172).&lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;h3&gt;  Udseende &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Entocort 3 mg, kapsler med modificeret udløsning er af hård gelatine med en ugennemskinnelig, lysegrå kerne og uigennemskinnelig lyserød kapsel. Kapslen er mærket CIR på den ene side og 3 mg på den anden.&lt;/div&gt;\n                        &lt;h3&gt;  Pakningsstørrelser &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;50 kapsler, 100 kapsler.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Ikke alle pakningsstørrelser er nødvendigvis markedsført.&lt;/div&gt;\n                     &lt;/div&gt;"<a name="end-xhtml"></a>
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>" : [
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Indehaver af markedsføringstilladelsen og fremstiller",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029917"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h2&gt;Indehaver af markedsføringstilladelsen og fremstiller&lt;/h2&gt;\n                           &lt;h3&gt;  Indehaver af markedsføringstilladelsen  &lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Tillotts Pharma GmbH&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Warmbacher Str. 80&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;79618 Rheinfelden &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Tyskland&lt;/div&gt;\n                           &lt;h3&gt;  Lokal repræsentant for indehaveren af markedsføringstilladelsen:  &lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Tillotts Pharma AB, Gustavslundsvägen 135, 167 51 Bromma, Sverige&lt;/div&gt;\n                           &lt;h3&gt;  Fremstiller  &lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Astrea Fontaine SAS &lt;br/&gt;Rue des Prés Potets &lt;br/&gt;21121 Fontaine-les-Dijon &lt;br/&gt;Frankrig&lt;/div&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  },
+                  {
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Denne indlægsseddel blev senest revideret maj 2022",
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                        {
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "200000029919"
+                        }
+                      ]
+                    },
+                    "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                      "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h2&gt;Denne indlægsseddel blev senest revideret maj 2022&lt;/h2&gt;\n                        &lt;/div&gt;"<a name="end-xhtml"></a>
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}</code></pre>
+
+
+    <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

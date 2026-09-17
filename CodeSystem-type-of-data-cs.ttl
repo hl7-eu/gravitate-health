@@ -1,0 +1,64 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/type-of-data-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "type-of-data-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem type-of-data-cs</b></p><a name=\"type-of-data-cs\"> </a><a name=\"hctype-of-data-cs\"> </a><p>This case-sensitive code system <code>http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/type-of-data-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">PCT<a name=\"type-of-data-cs-PCT\"> </a></td><td>PCT</td><td>PCT</td></tr><tr><td style=\"white-space:nowrap\">IMG<a name=\"type-of-data-cs-IMG\"> </a></td><td>IMG</td><td>IMG</td></tr><tr><td style=\"white-space:nowrap\">VIDEO<a name=\"type-of-data-cs-VIDEO\"> </a></td><td>Video</td><td>Video</td></tr><tr><td style=\"white-space:nowrap\">TXT<a name=\"type-of-data-cs-TXT\"> </a></td><td>Text</td><td>Text</td></tr><tr><td style=\"white-space:nowrap\">URL<a name=\"type-of-data-cs-URL\"> </a></td><td>URL</td><td>URL</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/type-of-data-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "TypeOfDataCS"] ; # 
+  fhir:title [ fhir:v "Type of information to be added in epi CS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2026-09-17T14:07:28+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Gravitate Health Project"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Gravitate Health Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.gravitatehealth.eu/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Type of information to be added in epi CS"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "PCT" ] ;
+     fhir:display [ fhir:v "PCT" ] ;
+     fhir:definition [ fhir:v "PCT" ]
+  ] [
+     fhir:code [ fhir:v "IMG" ] ;
+     fhir:display [ fhir:v "IMG" ] ;
+     fhir:definition [ fhir:v "IMG" ]
+  ] [
+     fhir:code [ fhir:v "VIDEO" ] ;
+     fhir:display [ fhir:v "Video" ] ;
+     fhir:definition [ fhir:v "Video" ]
+  ] [
+     fhir:code [ fhir:v "TXT" ] ;
+     fhir:display [ fhir:v "Text" ] ;
+     fhir:definition [ fhir:v "Text" ]
+  ] [
+     fhir:code [ fhir:v "URL" ] ;
+     fhir:display [ fhir:v "URL" ] ;
+     fhir:definition [ fhir:v "URL" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

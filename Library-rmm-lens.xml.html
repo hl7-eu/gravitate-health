@@ -1,0 +1,619 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>rmm-lens - XML Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.348"}
+    h3,h4,h5,h6{--heading-prefix:"20.348"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>rmm-lens</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Library-rmm-lens.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Library-rmm-lens.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Library-rmm-lens.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: rmm-lens - XML Representation</h2>
+
+  <table class="colsd">
+    <tr>
+
+      <td colspan="2">
+        
+          Draft
+          
+            as of 2024-07-30
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="Library-rmm-lens.xml" no-download="true">Raw xml</a> | <a href="Library-rmm-lens.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary">Library</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XLibrary.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;rmm-lens&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XLibrary.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/lens&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XLibrary.meta">meta</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XLibrary.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;extensions&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;div&gt;
+    &lt;table class=&quot;grid dict&quot;&gt;
+        
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Title: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;rmm-lens&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Id: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;rmm-lens&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Version: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;0.1.0&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Url: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;&lt;a href=&quot;Library-allergy-lens.html&quot;&gt;allergy-lens&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;
+                &lt;b&gt;
+                    
+                        
+                    
+                &lt;/b&gt;
+            &lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;
+                
+                &lt;p style=&quot;margin-bottom: 5px;&quot;&gt;
+                    &lt;span&gt;rmm-lens&lt;/span&gt;
+                &lt;/p&gt;
+                
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Status: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;draft&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Experimental: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;true&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Type: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;
+                
+                    
+                        
+                        
+                        &lt;p style=&quot;margin-bottom: 5px;&quot;&gt;
+                            &lt;b&gt;code: &lt;/b&gt; &lt;span&gt;logical-library&lt;/span&gt;
+                        &lt;/p&gt;
+                        
+                        
+                    
+                
+                
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Date: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;2024-07-30 10:17:53+0000&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Publisher: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;Gravitate Health Project&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Description: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;&lt;div&gt;&lt;p&gt;Lens that aplies RMM to a leaflet&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Purpose: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;&lt;div&gt;&lt;p&gt;Match the RMM of an ePI to a leaflet&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Usage: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;&lt;div&gt;&lt;p&gt;Apply this lens into a leaflet to search for its RMM&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Copyright: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;&lt;div&gt;&lt;p&gt;© 2024 Gravitate Health&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+
+        
+
+        
+
+        
+        &lt;tr&gt;
+          &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Parameters: &lt;/b&gt;&lt;/th&gt;
+          &lt;td style=&quot;padding-left: 4px;&quot;&gt;
+            &lt;table class=&quot;grid-dict&quot;&gt;
+              &lt;tr&gt;&lt;th&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/th&gt;&lt;th&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/th&gt;&lt;th&gt;&lt;b&gt;Min&lt;/b&gt;&lt;/th&gt;&lt;th&gt;&lt;b&gt;Max&lt;/b&gt;&lt;/th&gt;&lt;th&gt;&lt;b&gt;In/Out&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;
+              
+                &lt;tr&gt;&lt;th/&gt;&lt;th&gt;CodeableConcept&lt;/th&gt;&lt;th/&gt;&lt;th/&gt;&lt;th&gt;In&lt;/th&gt;&lt;/tr&gt;
+              
+            &lt;/table&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+
+        
+        
+        
+        &lt;tr&gt;
+          &lt;td colspan=&quot;2&quot;&gt;
+            &lt;table&gt;
+              &lt;tr&gt;&lt;th&gt;&lt;b&gt;Content: &lt;/b&gt; application/javascript&lt;/th&gt;&lt;/tr&gt;
+              &lt;tr&gt;&lt;td&gt;&lt;pre&gt;&lt;code&gt;Encoded data (9432 characters)&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        
+        
+    &lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XLibrary.text">text</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XLibrary.extension">extension</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/lee-version&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;dev&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XLibrary.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.url">url</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.eu/fhir/ig/gravitate-health/Library/mock-lib&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://gravitate-health.lst.tfo.upm.es&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;rmm-lens&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/library.html#XLibrary.identifier">identifier</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.version">version</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;0.1.0&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;rmm-lens&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;rmm-lens&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;draft&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.experimental">experimental</a> <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.type">type</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;logical-library&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/library.html#XLibrary.type">type</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.date">date</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2024-07-30T10:17:53.758Z&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.publisher">publisher</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Gravitate Health Project&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.contact">contact</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#XContactDetail.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Gravitate Health Project&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#XContactDetail.telecom">telecom</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#XContactPoint.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#XContactPoint.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;https://www.gravitatehealth.eu/&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#XContactDetail.telecom">telecom</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/library.html#XLibrary.contact">contact</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.contact">contact</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#XContactDetail.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Gravitate Health Project&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#XContactDetail.telecom">telecom</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#XContactPoint.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#XContactPoint.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;https://www.gravitatehealth.eu/&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#XContactDetail.telecom">telecom</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/library.html#XLibrary.contact">contact</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.description">description</a> <a href="http://hl7.org/fhir/R5/datatypes.html#markdown">value</a>=&quot;Lens that aplies RMM to a leaflet&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.purpose">purpose</a> <a href="http://hl7.org/fhir/R5/datatypes.html#markdown">value</a>=&quot;Match the RMM of an ePI to a leaflet&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.usage">usage</a> <a href="http://hl7.org/fhir/R5/datatypes.html#markdown">value</a>=&quot;Apply this lens into a leaflet to search for its RMM&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.copyright">copyright</a> <a href="http://hl7.org/fhir/R5/datatypes.html#markdown">value</a>=&quot;© 2024 Gravitate Health&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.parameter">parameter</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ParameterDefinition#XParameterDefinition.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;in&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ParameterDefinition#XParameterDefinition.documentation">documentation</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;parameter if it exists&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ParameterDefinition#XParameterDefinition.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;CodeableConcept&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/library.html#XLibrary.parameter">parameter</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/library.html#XLibrary.content">content</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Attachment#XAttachment.contentType">contentType</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;application/javascript&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Attachment#XAttachment.data">data</a>
+          <a href="http://hl7.org/fhir/R5/datatypes.html#base64Binary">value</a>=&quot;bGV0IHB2RGF0YSA9IHB2OwpsZXQgaHRtbERhdGEgPSBodG1sOwoKbGV0IGVwaURhdGEgPSBlcGk7CmxldCBpcHNEYXRhID0gaXBzOwoKbGV0IGdldFNwZWNpZmljYXRpb24gPSAoKSA9PiB7CiAgICByZXR1cm4gIjEuMC4wIjsKfTsKCmxldCBlbmhhbmNlID0gYXN5bmMgKCkgPT4gewoKICAgIGNvbnNvbGUubG9nKCJfX19fX19fX19fIFJNTSBMRU5TIEVYRUNVVElPTiBTVEFSVEVEIF9fX19fX19fX19fX18iKQogICAgLy8gUHJvdmVzIHRoYXQgSVBTIGV4aXN0cwogICAgbGV0IHJlc3BvbnNlOwoKICAgIGxldCBtZWRpY2luYWxQcm9kdWN0RGVmaW5pdGlvbklkID0gZ2V0TWVkaWNpbmFsUHJvZHVjdERlZmluaXRpb25JZChlcGkpOwoKICAgIGxldCBsaXN0T2ZTTVJlc3BvbnNlID0gYXdhaXQgZmV0Y2goImh0dHBzOi8vZ3Jhdml0YXRlLWhlYWx0aC5sc3QudGZvLnVwbS5lcy9lcGkvYXBpL2ZoaXIvRG9jdW1lbnRSZWZlcmVuY2U/c3ViamVjdD0iICsgbWVkaWNpbmFsUHJvZHVjdERlZmluaXRpb25JZCk7CiAgICBsZXQgbGlzdE9mU00gPSBhd2FpdCBsaXN0T2ZTTVJlc3BvbnNlLmpzb24oKTsKCiAgICBsZXQgZXBpUmVmZXJlbmNlID0gZXBpLmVudHJ5WzBdLnJlc291cmNlLnN1YmplY3RbMF0ucmVmZXJlbmNlOwoKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgbGlzdE9mU00uZW50cnkubGVuZ3RoOyBpKyspIHsKICAgICAgICBsZXQgc20gPSBsaXN0T2ZTTS5lbnRyeVtpXTsKICAgICAgICBsZXQgc21SZWZlcmVuY2UgPSBzbS5yZXNvdXJjZS5zdWJqZWN0LnJlZmVyZW5jZTsKICAgICAgICAKICAgICAgICBpZiAoc21SZWZlcmVuY2UgPT0gZXBpUmVmZXJlbmNlKSB7CiAgICAgICAgICAgIGNvbnNvbGUubG9nKCJTTSBSZWZlcmVuY2U6ICIsIHNtUmVmZXJlbmNlLCAiIG1hdGNoZWQgd2l0aCBFUEkgUmVmZXJlbmNlOiAiLCBlcGlSZWZlcmVuY2UpOwogICAgICAgICAgICAKICAgICAgICAgICAgLy8gQ3JlYXRlIHRoZSBleHRlbnNpb24gYXQgdGhlIGJlZ2dpbmluZy4gVE9ETyBzZWUgd2hlcmUgaXQgc2hvdWxkIGJlCiAgICAgICAgICAgIGlmIChlcGkuZW50cnlbMF0ucmVzb3VyY2Uuc2VjdGlvblswXS5zZWN0aW9uWzBdLmV4dGVuc2lvbiA9PT0gdW5kZWZpbmVkKSB7CiAgICAgICAgICAgICAgICBlcGkuZW50cnlbMF0ucmVzb3VyY2Uuc2VjdGlvblswXS5zZWN0aW9uWzBdLmV4dGVuc2lvbiA9IFtdOwogICAgICAgICAgICB9CgogICAgICAgICAgICBsZXQgc21BdHRhY2htZW50ID0gc20ucmVzb3VyY2UuY29udGVudFswXS5hdHRhY2htZW50CgogICAgICAgICAgICBsZXQgY29kZUFuZERpc3BsYXkgPSBnZXRDb2RlQW5kRGlzcGxheShzbUF0dGFjaG1lbnQpOwogICAgICAgICAgICBjb25zb2xlLmxvZygiR2V0Q29kZUFuZERpc3BsYXk6ICIsIGNvZGVBbmREaXNwbGF5KQogICAgICAgICAgICBpZiAoY29kZUFuZERpc3BsYXkgPT09IHVuZGVmaW5lZCkgewogICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGxldCBuZXdFeHRlbnNpb247CgogICAgICAgICAgICAvL2lmIChjb2RlQW5kRGlzcGxheS5jb2RlLmluY2x1ZGVzKCJpbmFwcCIpKSB7CiAgICAgICAgICAgIGlmIChzbUF0dGFjaG1lbnQuZGF0YSAhPT0gdW5kZWZpbmVkKSB7CiAgICAgICAgICAgICAgICBuZXdFeHRlbnNpb24gPSB7CiAgICAgICAgICAgICAgICAgICAgZXh0ZW5zaW9uOiBbCiAgICAgICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVybDogInR5cGUiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWVDb2RlYWJsZUNvbmNlcHQ6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2Rpbmc6IFsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3lzdGVtOiAiaHR0cDovL2hsNy5ldS9maGlyL2lnL2dyYXZpdGF0ZS1oZWFsdGgvQ29kZVN5c3RlbS90eXBlLW9mLWRhdGEtY3MiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29kZTogY29kZUFuZERpc3BsYXkuY29kZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IGNvZGVBbmREaXNwbGF5LmRpc3BsYXkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdXJsOiAiY29uY2VwdCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZUJhc2U2NEJpbmFyeTogc21BdHRhY2htZW50LmRhdGEKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICAgdXJsOiAiaHR0cDovL2hsNy5ldS9maGlyL2lnL2dyYXZpdGF0ZS1oZWFsdGgvU3RydWN0dXJlRGVmaW5pdGlvbi9BZGRpdGlvbmFsSW5mb3JtYXRpb24iCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIC8vfSBlbHNlIHsKICAgICAgICAgICAgfSBlbHNlIGlmIChzbUF0dGFjaG1lbnQudXJsICE9PSB1bmRlZmluZWQpIHsKICAgICAgICAgICAgICAgIG5ld0V4dGVuc2lvbiA9IHsKICAgICAgICAgICAgICAgICAgICBleHRlbnNpb246IFsKICAgICAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdXJsOiAidHlwZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZUNvZGVhYmxlQ29uY2VwdDogewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvZGluZzogWwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzeXN0ZW06ICJodHRwOi8vaGw3LmV1L2ZoaXIvaWcvZ3Jhdml0YXRlLWhlYWx0aC9Db2RlU3lzdGVtL3R5cGUtb2YtZGF0YS1jcyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2RlOiBjb2RlQW5kRGlzcGxheS5jb2RlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogY29kZUFuZERpc3BsYXkuZGlzcGxheQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdXJsOiAiY29uY2VwdCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZVVybDogc21BdHRhY2htZW50LnVybAogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgICB1cmw6ICJodHRwOi8vaGw3LmV1L2ZoaXIvaWcvZ3Jhdml0YXRlLWhlYWx0aC9TdHJ1Y3R1cmVEZWZpbml0aW9uL0FkZGl0aW9uYWxJbmZvcm1hdGlvbiIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgY29uc29sZS5sb2coIk5FVyBFWFRFTlNJT046ICIsIG5ld0V4dGVuc2lvbikKCiAgICAgICAgICAgIC8vIENoZWNrIGlmIGV4dGVuc2lvbiBhbHJlYWR5IGV4aXN0cyBiZWZvcmUgYWRkaW5nIGl0CiAgICAgICAgICAgIGxldCBjdXJyZW50RXh0ZW5zaW9ucyA9IGVwaS5lbnRyeVswXS5yZXNvdXJjZS5zZWN0aW9uWzBdLnNlY3Rpb25bMF0uZXh0ZW5zaW9uOwogICAgICAgICAgICBpZiAoY3VycmVudEV4dGVuc2lvbnMubGVuZ3RoID4gMCkgewogICAgICAgICAgICAgICAgbGV0IGV4dGVuc2lvbkV4aXN0cyA9IGZhbHNlOwogICAgICAgICAgICAgICAgZm9yIChsZXQgaiA9IDA7IGogPCBjdXJyZW50RXh0ZW5zaW9ucy5sZW5ndGg7IGorKykgewogICAgICAgICAgICAgICAgICAgIGlmIChkZWVwRXF1YWwoY3VycmVudEV4dGVuc2lvbnNbal0sIG5ld0V4dGVuc2lvbikpIHsKICAgICAgICAgICAgICAgICAgICAgICAgZXh0ZW5zaW9uRXhpc3RzID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKCFleHRlbnNpb25FeGlzdHMpIGVwaS5lbnRyeVswXS5yZXNvdXJjZS5zZWN0aW9uWzBdLnNlY3Rpb25bMF0uZXh0ZW5zaW9uLnB1c2gobmV3RXh0ZW5zaW9uKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGVwaS5lbnRyeVswXS5yZXNvdXJjZS5zZWN0aW9uWzBdLnNlY3Rpb25bMF0uZXh0ZW5zaW9uLnB1c2gobmV3RXh0ZW5zaW9uKTsKICAgICAgICAgICAgfQogICAgICAgICAgICAvL2VwaS5lbnRyeVswXS5yZXNvdXJjZS5zZWN0aW9uWzBdLnNlY3Rpb25bMF0uZXh0ZW5zaW9uLnB1c2gobmV3RXh0ZW5zaW9uKTsKCiAgICAgICAgfQogICAgfQoKICAgIGNvbnNvbGUubG9nKCJfX19fX19fX19fIFJNTSBMRU5TIEVYRUNVVElPTiBGSU5JU0hFRCBfX19fX19fX19fX19fIikKICAgIHJldHVybiByZXNwb25zZQoKfTsKCmdldE1lZGljaW5hbFByb2R1Y3REZWZpbml0aW9uSWQgPSAoYnVuZGxlKSA9PiB7CiAgICBmb3IgKGxldCBpID0gMDsgaSA8IGJ1bmRsZS5lbnRyeS5sZW5ndGg7IGkrKykgewogICAgICAgIGlmIChidW5kbGUuZW50cnlbaV0ucmVzb3VyY2UucmVzb3VyY2VUeXBlID09PSAiTWVkaWNpbmFsUHJvZHVjdERlZmluaXRpb24iKSB7CiAgICAgICAgICAgIHJldHVybiBidW5kbGUuZW50cnlbaV0ucmVzb3VyY2UuaWQ7CiAgICAgICAgfQogICAgfQogICAgcmV0dXJuIG51bGw7Cn0KCmdldENvZGVBbmREaXNwbGF5ID0gKGF0dGFjaG1lbnQpID0+IHsKICAgIGNvbnNvbGUubG9nKCJGdW5jdGlvbiBnZXRDb2RlQW5kRGlzcGxheSIpCiAgICBjb25zb2xlLmxvZygiQXR0YWNobWVudDogIiwgYXR0YWNobWVudCkKICAgIGlmIChhdHRhY2htZW50LmNvbnRlbnRUeXBlID09PSAidGV4dC9odG1sIikgewogICAgICAgIGlmIChhdHRhY2htZW50LmR1cmF0aW9uKSB7CiAgICAgICAgICAgIGlmIChhdHRhY2htZW50LnVybC5pbmNsdWRlcygieW91dHViZSIpKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gewogICAgICAgICAgICAgICAgICAgIGNvZGU6ICJ2aWRlby1pbmFwcCIsCiAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogIlZJREVPIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgICAgICAgICBjb2RlOiAiYXVkaW8taW5hcHAiLAogICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ICJBVURJTyIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByZXR1cm4gewogICAgICAgICAgICAgICAgY29kZTogImltYWdlLWluYXBwIiwKICAgICAgICAgICAgICAgIGRpc3BsYXk6ICJJTUciCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9IGVsc2UgewogICAgICAgIHN3aXRjaCAoYXR0YWNobWVudC5jb250ZW50VHlwZSkgewogICAgICAgICAgICBjYXNlICJ2aWRlby9tcDQiOgogICAgICAgICAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgICAgICAgICBjb2RlOiAidmlkZW8iLAogICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ICJWSURFTyIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgY2FzZSAiYXBwbGljYXRpb24vcGRmIjoKICAgICAgICAgICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICAgICAgICAgY29kZTogInBkZiIsCiAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogIlBERiIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgY2FzZSAiYXVkaW8vbXBlZyI6CiAgICAgICAgICAgICAgICByZXR1cm4gewogICAgICAgICAgICAgICAgICAgIGNvZGU6ICJhdWRpbyIsCiAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogIkFVRElPIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICBjYXNlICJpbWFnZS9qcGciOgogICAgICAgICAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgICAgICAgICBjb2RlOiAiaW1hZ2UiLAogICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ICJJTUciCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIGNhc2UgImltYWdlL2pwZWciOgogICAgICAgICAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgICAgICAgICBjb2RlOiAiaW1hZ2UiLAogICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ICJJTUciCiAgICAgICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgpmdW5jdGlvbiBkZWVwRXF1YWwob2JqZWN0MSwgb2JqZWN0MikgewogICAgY29uc3Qga2V5czEgPSBPYmplY3Qua2V5cyhvYmplY3QxKTsKICAgIGNvbnN0IGtleXMyID0gT2JqZWN0LmtleXMob2JqZWN0Mik7CiAgCiAgICBpZiAoa2V5czEubGVuZ3RoICE9PSBrZXlzMi5sZW5ndGgpIHsKICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogIAogICAgZm9yIChjb25zdCBrZXkgb2Yga2V5czEpIHsKICAgICAgY29uc3QgdmFsMSA9IG9iamVjdDFba2V5XTsKICAgICAgY29uc3QgdmFsMiA9IG9iamVjdDJba2V5XTsKICAgICAgY29uc3QgYXJlT2JqZWN0cyA9IGlzT2JqZWN0KHZhbDEpICYmIGlzT2JqZWN0KHZhbDIpOwogICAgICBpZiAoCiAgICAgICAgYXJlT2JqZWN0cyAmJiAhZGVlcEVxdWFsKHZhbDEsIHZhbDIpIHx8CiAgICAgICAgIWFyZU9iamVjdHMgJiYgdmFsMSAhPT0gdmFsMgogICAgICApIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgIH0KICAgIH0KICAKICAgIHJldHVybiB0cnVlOwogIH0KICAKICBmdW5jdGlvbiBpc09iamVjdChvYmplY3QpIHsKICAgIHJldHVybiBvYmplY3QgIT0gbnVsbCAmJiB0eXBlb2Ygb2JqZWN0ID09PSAnb2JqZWN0JzsKICB9CgpyZXR1cm4gewogICAgZW5oYW5jZTogZW5oYW5jZSwKICAgIGdldFNwZWNpZmljYXRpb246IGdldFNwZWNpZmljYXRpb24sCn07&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/library.html#XLibrary.content">content</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R5/library.html#XLibrary">Library</a>&gt;</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

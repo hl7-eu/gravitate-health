@@ -1,0 +1,110 @@
+# List of enbrel smpc Package Leaflets - Gravitate Health FHIR Implementation Guide v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **List of enbrel smpc Package Leaflets**
+
+## Example List: List of enbrel smpc Package Leaflets
+
+| | | | |
+| :--- | :--- | :--- | :--- |
+| Date: 2015-02-07 13:28:17+0000 | Mode: Working List | Status: Current | Code: ePI Master List |
+| Subject:[MedicinalProductDefinition: identifier = http://fakesys.com/ids#zz; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription](Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.md#MedicinalProductDefinition_mp25bbfa948f4a0b224f9baa1fe481efa8) | | | |
+
+* **Items**: [Bundle: identifier = https://www.gravitatehealth.eu/sid/doc#deca01585a8d920f79dbfbe328e7acda; type = document; timestamp = 2023-06-27 10:09:22+0000](Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.md)
+  * Date: 2015-02-07 13:28:17+0000
+  * Flag: Unchanged
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "List",
+  "id" : "list-test-smpc",
+  "identifier" : [{
+    "system" : "http://spor.ema.europa.eu/v2/medicine-name",
+    "value" : "Enbrel"
+  },
+  {
+    "system" : "http://spor.ema.europa.eu/v2/marketing-authorisation-numbers",
+    "value" : "EU/1/99/126/003"
+  }],
+  "status" : "current",
+  "mode" : "working",
+  "code" : {
+    "coding" : [{
+      "system" : "http://spor.ema.europa.eu/v1/example-pi-list-types",
+      "code" : "00000021213",
+      "display" : "ePI Master List"
+    }]
+  },
+  "subject" : [{
+    "extension" : [{
+      "url" : "http://ema.europa.eu/fhir/extension/medicine-name",
+      "valueCoding" : {
+        "system" : "http://spor.ema.europa.eu/v1/100000000005",
+        "code" : "Enbrel",
+        "display" : "Enbrel"
+      }
+    },
+    {
+      "url" : "http://ema.europa.eu/fhir/extension/marketing-authorization-holder",
+      "valueCoding" : {
+        "system" : "http://spor.ema.europa.eu/v1/100000000005",
+        "code" : "mah-code",
+        "display" : "None"
+      }
+    },
+    {
+      "url" : "http://ema.europa.eu/fhir/extension/active-substance",
+      "valueCoding" : {
+        "system" : "http://spor.ema.europa.eu/v1/100000000005",
+        "code" : "acive-substance-code",
+        "display" : "None"
+      }
+    },
+    {
+      "url" : "http://ema.europa.eu/fhir/extension/domain",
+      "valueCoding" : {
+        "system" : "http://spor.ema.europa.eu/v1/100000000004",
+        "code" : "100000000012",
+        "display" : "H"
+      }
+    }],
+    "reference" : "MedicinalProductDefinition/mp25bbfa948f4a0b224f9baa1fe481efa8"
+  }],
+  "date" : "2015-02-07T13:28:17Z",
+  "entry" : [{
+    "flag" : {
+      "coding" : [{
+        "system" : "urn:oid:1.2.36.1.2001.1001.101.104.16592",
+        "code" : "01"
+      }],
+      "text" : "Unchanged"
+    },
+    "date" : "2015-02-07T13:28:17Z",
+    "item" : {
+      "extension" : [{
+        "url" : "http://ema.europa.eu/fhir/extension/documentType",
+        "valueCoding" : {
+          "system" : "https://spor.ema.europa.eu/v1/lists/100000155531/terms/",
+          "code" : "100000155538",
+          "display" : "Full ePI"
+        }
+      },
+      {
+        "url" : "http://ema.europa.eu/fhir/extension/language",
+        "valueCoding" : {
+          "system" : "http://spor.ema.europa.eu/v1/100000072057",
+          "code" : "100000072147",
+          "display" : "en"
+        }
+      }],
+      "reference" : "Bundle/bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5"
+    }
+  }]
+}
+
+```

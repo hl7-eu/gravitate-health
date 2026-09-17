@@ -1,0 +1,1281 @@
+# ePI document Bundle for BLASTON 1 mg tablets Package Leaflet for language es - Gravitate Health FHIR Implementation Guide v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **ePI document Bundle for BLASTON 1 mg tablets Package Leaflet for language es**
+
+Package: **1 Box** **(Cardboard)** 
+
+Containing:
+
+Package: **50 Blister** **(PolyVinyl Chloride)** 
+
+Containing: ** ** 
+
+Manufactured Item
+
+ Dose form: ** tablet ** 
+
+ Unit of presentation: ** Tablet ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** Magnesium stearate ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** POVIDONE, UNSPECIFIED ** 
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** CINITAPRIDE ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** SILICA, COLLOIDAL ANHYDROUS ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** STARCH, POTATO ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** STARCH, CORN ** 
+
+## Example Bundle: ePI document Bundle for BLASTON 1 mg tablets Package Leaflet for language es
+
+**Composition category:**Raw
+
+**Composition status:**final
+
+### B. PROSPECTO
+
+ 
+
+unavailable
+
+
+#### PROSPECTO: INFORMACIÓN PARA EL USUARIO
+
+ 
+
+**Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento, porque contiene información importante para usted.**
+
+* Conserve este prospecto, ya que puede tener que volver a leerlo.
+* Si tiene alguna duda, consulte a su médico o farmacéutico.
+* Este medicamento se le ha recetado solamente a usted, y no debe dárselo a otras personas aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.
+* Si experimenta efectos adversos, consulte a su médico o farmacéutico, incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.
+
+
+#### Contenido del prospecto
+
+ 
+
+**Contenido del prospecto:**
+
+1. Qué es Blaston 1 mg Comprimidos y para qué se utiliza
+1. Qué necesita saber antes de empezar a tomar Blaston 1 mg Comprimidos
+1. Cómo tomar Blaston 1 mg Comprimidos
+1. Posibles efectos adversos
+1. Conservación de Blaston 1 mg Comprimidos
+1. Contenido del envase e información adicional
+
+
+#### 1. Qué es Blaston 1 mg y para qué se utiliza
+
+ 
+
+Blaston pertenece a un grupo de medicamentos denominados procinéticos, que actúan estimulando la motilidad gastrointestinal.
+
+Blaston está indicado para el tratamiento del reflujo gastroesofágico para potenciar el efecto de los inhibidores de la bomba de protones (medicamentos que reducen la producción de acidez gástrica) y de los trastornos funcionales de la motilidad gastrointestinal leve-moderada.
+
+
+#### 2. Qué necesita saber antes de empezar a tomar Blaston 1 mg
+
+ 
+
+**No tome Blaston 1 mg Comprimidos**
+
+* si es alérgico a la cinitaprida o a cualquiera de los demás componentes de este medicamento (incluidos en la sección 6).
+* si padece hemorragia, obstrucción o perforación gastrointestinal.
+* si tiene antecedentes de disquinesia tardía inducida por neurolépticos (movimientos rápidos y repetidos de cabeza, cuello, tronco o extremidades que pueden aparecer meses después de que se haya abandonado el tratamiento).
+
+**Advertencias y precauciones**
+
+Consulte a su médico o farmacéutico antes de empezar a tomar Blaston 1 mg comprimidos.
+
+* si usted es un paciente de edad avanzada y toma el medicamento durante un período de tiempo prolongado, ya que le podría provocar disquinesia tardía (movimientos rápidos y repetidos de cabeza, cuello, tronco o extremidades que pueden aparecer meses después de que se haya abandonado el tratamiento).
+
+**Toma de Blaston 1 mg Comprimidos con otros medicamentos**
+
+Informe a su médico o farmacéutico si está tomando, ha tomado recientemente o podría tener que tomar cualquier otro medicamento.
+
+Blaston puede aumentar los efectos neurológicos de algunos medicamentos, en especial de aquellos que se utilizan para tratar enfermedades del sistema nervioso, para el insomnio y para el alivio del dolor moderado o intenso.
+
+Blaston puede disminuir el efecto de la digoxina, un medicamento que se utiliza para el tratamiento de la insuficiencia cardiaca.
+
+Por otro lado, algunos medicamentos pueden disminuir la acción de Blaston. Es el caso de algunos medicamentos que se utilizan para tratar la enfermedad de Parkinson, los dolores abdominales o enfermedades respiratorias como la bronquitis crónica.
+
+**Toma de Blaston 1 mg Comprimidos con alimentos, bebidas y alcohol**
+
+Blaston no debe tomarse con alcohol dado que éste potencia sus efectos sedantes.
+
+**Embarazo y lactancia**
+
+Si está embarazada o en periodo de lactancia, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte con su médico o farmacéutico antes de utilizar este medicamento.
+
+**Embarazo**
+
+No hay datos relativos al uso de cinitaprida en mujeres embarazadas. Los estudios en animales no sugieren efectos perjudiciales directos ni indirectos en términos de toxicidad para la reproducción. Como medida de precaución, es preferible evitar el uso de cinitaprida durante el embarazo.
+
+El médico decidirá la conveniencia de que tome o no Blaston.
+
+**Lactancia**
+
+Se desconoce si el medicamento pasa a la leche materna. Como medida de precaución, es preferible evitar el uso de este medicamento durante la lactancia.
+
+**Conducción y uso de máquinas**
+
+No conduzca ni maneje maquinaria peligrosa durante el tratamiento con Blaston.
+
+**Blaston 1 mg Comprimidos contiene lactosa**
+
+Este medicamento contiene lactosa. Si su médico le ha indicado que padece una intolerancia a ciertos azúcares, consulte con él antes de tomar este medicamento.
+
+Este medicamento contiene menos de 23 mg de sodio (1 mmol) por comprimido; esto es, esencialmente “exento de sodio”.
+
+
+#### 3. Cómo tomar Blaston 1 mg
+
+ 
+
+Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico. En caso de duda, consulte de nuevo a su médico o farmacéutico.
+
+Recuerde tomar su medicamento.
+
+**Uso en niños y adolescentes** No se aconseja la administración de Blaston en niños y adolescentes, por no disponer de experiencia de uso en estos grupos de edades.
+
+**Uso en adultos (mayores de 20 años)**
+
+La dosis recomendada para los adultos (mayores de 20 años) es de 1 comprimido, 3 veces al día, 15 minutos antes de cada comida.
+
+No es más eficaz, ni conveniente aumentar las dosis recomendadas.
+
+Su médico le indicará la duración de su tratamiento con Blaston. No suspenda el tratamiento antes.
+
+Los comprimidos deben tomarse por vía oral con un vaso de agua.
+
+Si estima que la acción de Blaston es demasiado fuerte o débil, comuníqueselo a su médico o farmacéutico.
+
+**Si toma más Blaston 1 mg Comprimidos del que debe**
+
+Si ha tomado más Blaston del que debiera, consulte inmediatamente a su médico o farmacéutico o llame al Servicio de Información Toxicológica, teléfono: 915 620 420, indicando el medicamento y la cantidad tomada.
+
+Los síntomas de sobredosis pueden ser: somnolencia, desorientación y reacciones extrapiramidales (movimientos musculares involuntarios de cara, cuello y lengua) que, normalmente, desaparecen al suspender el tratamiento.
+
+**Si olvidó tomar Blaston 1 mg Comprimidos**
+
+No tome una dosis doble para compensar las dosis olvidadas. Tome la dosis olvidada cuando se acuerde y luego siga con el horario habitual. Sin embargo, si faltan pocas horas para la siguiente dosis no tome la dosis olvidada y espere a tomar la siguiente dosis a la hora que le corresponda.
+
+Si tiene cualquier otra duda sobre el uso de este medicamento, pregunte a su médico o farmacéutico.
+
+
+#### 4. Posibles efectos adversos
+
+ 
+
+Al igual que todos los medicamentos, Blaston puede producir efectos adversos, aunque no todas las personas los sufran. Los efectos adversos pueden ser:
+
+* **Poco frecuentes (pueden afectar hasta 1 de cada 100 personas)**
+* Algunos pacientes pueden notar una ligera sedación o somnolencia.
+
+* **Frecuencia desconocida (no puede estimarse a partir de los datos disponibles)**
+* Pueden originarse reacciones extrapiramidales (movimientos musculares involuntarios de cara, cuello y lengua).
+* Pueden aparecer reacciones en la piel como erupción, picor, angioedema (hinchazón de labios y lengua que puede afectar a la laringe), ginecomastia (excesivo desarrollo de las glándulas mamarias) y galactorrea (secreción de leche).
+
+**Comunicación de efectos adversos**
+
+Si experimenta cualquier tipo de efecto adverso, consulte a su médico, farmacéutico o enfermero incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: [https://www.notificaram.es](https://www.notificaram.es)
+
+Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.
+
+
+#### 5. Conservación de Blaston 1 mg
+
+ 
+
+Mantener este medicamento fuera de la vista y del alcance de los niños.
+
+No requiere condiciones especiales de conservación.
+
+No utilice este medicamento después de la fecha de caducidad que aparece en el envase después de Cad. La fecha de caducidad es el último día del mes que se indica.
+
+Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesita en el Punto SIGRE de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma ayudará a proteger el medio ambiente.
+
+
+#### 6. Contenido del envase e información adicional
+
+ 
+
+**Composición de Blaston 1 mg Comprimidos**
+
+El principio activo es cinitaprida (como tartrato ácido). Cada comprimido contiene 1 mg de cinitaprida Los demás componentes son carboximetilalmidón de sodio (de patata), celulosa en polvo, lactosa anhidra, sílice coloidal y estearato de magnesio (E-470b).
+
+**Aspecto del producto y contenido del envase**
+
+Blaston 1 mg Comprimidos se presenta en forma de comprimidos redondos, biselados, de color amarillo claro y ranurados en su cara superior. Cada caja contiene 50 comprimidos
+
+**Titular de la autorización de comercialización y responsable de la fabricación** **Titular de la autorización de comercialización** Lacer, S.A. - Boters, 5 08290 Cerdanyola del Vallès Barcelona – España
+
+**Responsable de la fabricación**
+
+Industrias Farmacéuticas Almirall, S.A. Ctra. de Martorell, 41-61 08740 Sant Andreu de la Barca – Barcelona (España)
+
+**Fecha de la última revisión de este prospecto: Marzo 2019**
+
+La información detallada y actualizada de este medicamento está disponible en la página Web de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) [http://www.aemps.gob.es/](http://www.aemps.gob.es/)
+
+
+####  BLASTON 1 mg tablets 
+PMSWI:
+** 59.032 **PHPID:
+** 0xbb82cd10ab2add752b2b9224931077b2 **
+-------
+
+Full name: **BLASTON 1 mg tablets**
+
+ - Invented name part: ** Blaston ** 
+
+ - Scientific name part: ** Cinitapride ** 
+
+ - Strength part: ** 1 mg ** 
+
+ - Pharmaceutical dose form part: ** tablet ** 
+
+ Name usage: **English (Spain)** 
+
+-------
+
+ Authorised dose form: **** 
+
+ Legal status of supply: **Medicinal product subject to medical prescription** 
+
+ Domain: **Human use** 
+
+ Resource status: **active** 
+
+-------
+
+ Product classification: 
+
+ **Marketing Authorisation** 1 of 1
+
+Authorisation number: ** 59.032 ** 
+
+ Region: ** ** 
+
+Marketing authorisation holder: **Lacer, S.A. - Boters, 5** 
+
+ Identifier: 
+*  **ORG-100000789** 
+ 
+
+ Status: ** Active (2007-09-27) ** 
+
+ Package 1 of 1
+
+PMSWI: ** ss ** 
+
+ Description:  * * 
+
+ Marketing status: 
+ 
+
+Pack size:
+
+*  ****1 
+
+Administrable Product (1 of 1)
+
+ Dose form: ** tablet ** 
+
+ Unit of presentation: ** tablet ** 
+
+ Route of administration: 
+*  ** Oral use ** 
+ 
+Ingredients:
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** Magnesium stearate ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** POVIDONE, UNSPECIFIED ** 
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** CINITAPRIDE ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** SILICA, COLLOIDAL ANHYDROUS ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** STARCH, POTATO ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** STARCH, CORN ** 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Bundle",
+  "id" : "bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"]
+  },
+  "language" : "es",
+  "identifier" : {
+    "system" : "https://www.gravitatehealth.eu/sid/doc",
+    "value" : "EU/1/96/007/035"
+  },
+  "type" : "document",
+  "timestamp" : "2023-06-27T10:09:22Z",
+  "entry" : [{
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-es-1453e0f16ff6c1d3106ed737a7857578",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "composition-es-1453e0f16ff6c1d3106ed737a7857578",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"]
+      },
+      "language" : "es",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"es\" lang=\"es\"><a name=\"Composition_composition-es-1453e0f16ff6c1d3106ed737a7857578\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition composition-es-1453e0f16ff6c1d3106ed737a7857578</b></p><a name=\"composition-es-1453e0f16ff6c1d3106ed737a7857578\"> </a><a name=\"hccomposition-es-1453e0f16ff6c1d3106ed737a7857578\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/</code>/aa2daeee5c5e5c33d46b730187cd9803</p><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000155538}\">Package Leaflet</span></p><p><b>category</b>: <span title=\"Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs R}\">Raw</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#Organization_mah-94f8082c22713e050c3f2b55ea9d53ff\">Organization Lacer, S.A. - Boters, 5</a></p><p><b>title</b>: TEST PURPOSES ONLY - BLASTON 1 mg tablets</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://hl7.org/fhir/composition-attestation-mode official}\">Official</span></td><td>2022-02-16 13:28:17+0000</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi/",
+        "value" : "aa2daeee5c5e5c33d46b730187cd9803"
+      }],
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000155538"
+        }],
+        "text" : "Package Leaflet"
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs",
+          "code" : "R",
+          "display" : "Raw"
+        }]
+      }],
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mp1453e0f16ff6c1d3106ed737a7857578"
+      }],
+      "date" : "2022-02-16T13:28:17Z",
+      "author" : [{
+        "reference" : "Organization/mah-94f8082c22713e050c3f2b55ea9d53ff"
+      }],
+      "title" : "TEST PURPOSES ONLY - BLASTON 1 mg tablets",
+      "attester" : [{
+        "mode" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/composition-attestation-mode",
+            "code" : "official"
+          }]
+        },
+        "time" : "2022-02-16T13:28:17Z"
+      }],
+      "section" : [{
+        "title" : "B. PROSPECTO",
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi/",
+            "code" : "100000155538"
+          }],
+          "text" : "B. PROSPECTO"
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "unavailable"
+          }]
+        },
+        "section" : [{
+          "title" : "PROSPECTO: INFORMACIÓN PARA EL USUARIO",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "PROSPECTO: INFORMACIÓN PARA EL USUARIO"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento, porque contiene información importante para usted.</strong></p><ul><li>Conserve este prospecto, ya que puede tener que volver a leerlo.</li><li>Si tiene alguna duda, consulte a su médico o farmacéutico.</li><li>Este medicamento se le ha recetado solamente a usted, y no debe dárselo a otras personas aunque tengan los mismos síntomas que usted, ya que puede perjudicarles.</li><li>Si experimenta efectos adversos, consulte a su médico o farmacéutico, incluso si se trata de efectos adversos que no aparecen en este prospecto. Ver sección 4.</li></ul></div>"
+          }
+        },
+        {
+          "title" : "Contenido del prospecto",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "Contenido del prospecto"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Contenido del prospecto:</strong></p><ol><li>Qué es Blaston 1 mg Comprimidos y para qué se utiliza</li><li>Qué necesita saber antes de empezar a tomar Blaston 1 mg Comprimidos</li><li>Cómo tomar Blaston 1 mg Comprimidos</li><li>Posibles efectos adversos</li><li>Conservación de Blaston 1 mg Comprimidos</li><li>Contenido del envase e información adicional</li></ol></div>"
+          }
+        },
+        {
+          "title" : "1. Qué es Blaston 1 mg y para qué se utiliza",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "1. Qué es Blaston 1 mg y para qué se utiliza"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Blaston pertenece a un grupo de medicamentos denominados procinéticos, que actúan estimulando la motilidad gastrointestinal.</p><p>Blaston está indicado para el tratamiento del reflujo gastroesofágico para potenciar el efecto de los inhibidores de la bomba de protones (medicamentos que reducen la producción de acidez gástrica) y de los trastornos funcionales de la motilidad gastrointestinal leve-moderada.</p></div>"
+          }
+        },
+        {
+          "title" : "2. Qué necesita saber antes de empezar a tomar Blaston 1 mg",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "2. Qué necesita saber antes de empezar a tomar Blaston 1 mg"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>No tome Blaston 1 mg Comprimidos</strong></p><ul><li>si es alérgico a la cinitaprida o a cualquiera de los demás componentes de este medicamento (incluidos en la sección 6).</li><li>si padece hemorragia, obstrucción o perforación gastrointestinal.</li><li>si tiene antecedentes de disquinesia tardía inducida por neurolépticos (movimientos rápidos y repetidos de cabeza, cuello, tronco o extremidades que pueden aparecer meses después de que se haya abandonado el tratamiento).</li></ul><p><strong>Advertencias y precauciones</strong></p><p>Consulte a su médico o farmacéutico antes de empezar a tomar Blaston 1 mg comprimidos.</p><ul><li>si usted es un paciente de edad avanzada y toma el medicamento durante un período de tiempo prolongado, ya que le podría provocar disquinesia tardía (movimientos rápidos y repetidos de cabeza, cuello, tronco o extremidades que pueden aparecer meses después de que se haya abandonado el tratamiento).</li></ul><p><strong>Toma de Blaston 1 mg Comprimidos con otros medicamentos</strong></p><p>Informe a su médico o farmacéutico si está tomando, ha tomado recientemente o podría tener que tomar cualquier otro medicamento.</p><p>Blaston puede aumentar los efectos neurológicos de algunos medicamentos, en especial de aquellos que se utilizan para tratar enfermedades del sistema nervioso, para el insomnio y para el alivio del dolor moderado o intenso.</p><p>Blaston puede disminuir el efecto de la digoxina, un medicamento que se utiliza para el tratamiento de la insuficiencia cardiaca.</p><p>Por otro lado, algunos medicamentos pueden disminuir la acción de Blaston. Es el caso de algunos medicamentos que se utilizan para tratar la enfermedad de Parkinson, los dolores abdominales o enfermedades respiratorias como la bronquitis crónica.</p><p><strong>Toma de Blaston 1 mg Comprimidos con alimentos, bebidas y alcohol</strong></p><p>Blaston no debe tomarse con alcohol dado que éste potencia sus efectos sedantes.</p><p><strong>Embarazo y lactancia</strong></p><p>Si está embarazada o en periodo de lactancia, cree que podría estar embarazada o tiene intención de quedarse embarazada, consulte con su médico o farmacéutico antes de utilizar este medicamento.</p><p><em>Embarazo</em></p><p>No hay datos relativos al uso de cinitaprida en mujeres embarazadas. Los estudios en animales no sugieren efectos perjudiciales directos ni indirectos en términos de toxicidad para la reproducción. Como medida de precaución, es preferible evitar el uso de cinitaprida durante el embarazo.</p><p>El médico decidirá la conveniencia de que tome o no Blaston.</p><p><em>Lactancia</em></p><p>Se desconoce si el medicamento pasa a la leche materna. Como medida de precaución, es preferible evitar el uso de este medicamento durante la lactancia.</p><p><strong>Conducción y uso de máquinas</strong></p><p>No conduzca ni maneje maquinaria peligrosa durante el tratamiento con Blaston.</p><p><strong>Blaston 1 mg Comprimidos contiene lactosa</strong></p><p>Este medicamento contiene lactosa. Si su médico le ha indicado que padece una intolerancia a ciertos azúcares, consulte con él antes de tomar este medicamento.</p><p>Este medicamento contiene menos de 23 mg de sodio (1 mmol) por comprimido; esto es, esencialmente “exento de sodio”.</p></div>"
+          }
+        },
+        {
+          "title" : "3. Cómo tomar Blaston 1 mg",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "3. Cómo tomar Blaston 1 mg"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico. En caso de duda, consulte de nuevo a su médico o farmacéutico.</p><p>Recuerde tomar su medicamento.</p><p><strong>Uso en niños y adolescentes</strong> No se aconseja la administración de Blaston en niños y adolescentes, por no disponer de experiencia de uso en estos grupos de edades.</p><p><strong>Uso en adultos (mayores de 20 años)</strong></p><p>La dosis recomendada para los adultos (mayores de 20 años) es de 1 comprimido, 3 veces al día, 15 minutos antes de cada comida.</p><p>No es más eficaz, ni conveniente aumentar las dosis recomendadas.</p><p>Su médico le indicará la duración de su tratamiento con Blaston. No suspenda el tratamiento antes.</p><p>Los comprimidos deben tomarse por vía oral con un vaso de agua.</p><p>Si estima que la acción de Blaston es demasiado fuerte o débil, comuníqueselo a su médico o farmacéutico.</p><p><strong>Si toma más Blaston 1 mg Comprimidos del que debe</strong></p><p>Si ha tomado más Blaston del que debiera, consulte inmediatamente a su médico o farmacéutico o llame al Servicio de Información Toxicológica, teléfono: 915 620 420, indicando el medicamento y la cantidad tomada.</p><p>Los síntomas de sobredosis pueden ser: somnolencia, desorientación y reacciones extrapiramidales (movimientos musculares involuntarios de cara, cuello y lengua) que, normalmente, desaparecen al suspender el tratamiento.</p><p><strong>Si olvidó tomar Blaston 1 mg Comprimidos</strong></p><p>No tome una dosis doble para compensar las dosis olvidadas. Tome la dosis olvidada cuando se acuerde y luego siga con el horario habitual. Sin embargo, si faltan pocas horas para la siguiente dosis no tome la dosis olvidada y espere a tomar la siguiente dosis a la hora que le corresponda.</p><p>Si tiene cualquier otra duda sobre el uso de este medicamento, pregunte a su médico o farmacéutico.</p></div>"
+          }
+        },
+        {
+          "title" : "4. Posibles efectos adversos",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "4. Posibles efectos adversos"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Al igual que todos los medicamentos, Blaston puede producir efectos adversos, aunque no todas las personas los sufran. Los efectos adversos pueden ser:</p><ul><li><strong>Poco frecuentes (pueden afectar hasta 1 de cada 100 personas)</strong><ul><li>Algunos pacientes pueden notar una ligera sedación o somnolencia.</li></ul></li><li><strong>Frecuencia desconocida (no puede estimarse a partir de los datos disponibles)</strong><ul><li>Pueden originarse reacciones extrapiramidales (movimientos musculares involuntarios de cara, cuello y lengua).</li><li>Pueden aparecer reacciones en la piel como erupción, picor, angioedema (hinchazón de labios y lengua que puede afectar a la laringe), ginecomastia (excesivo desarrollo de las glándulas mamarias) y galactorrea (secreción de leche).</li></ul></li></ul><p><em>Comunicación de efectos adversos</em></p><p>Si experimenta cualquier tipo de efecto adverso, consulte a su médico, farmacéutico o enfermero incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: <a href=\"https://www.notificaram.es\">https://www.notificaram.es</a></p><p>Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.</p></div>"
+          }
+        },
+        {
+          "title" : "5. Conservación de Blaston 1 mg",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "5. Conservación de Blaston 1 mg"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Mantener este medicamento fuera de la vista y del alcance de los niños.</p><p>No requiere condiciones especiales de conservación.</p><p>No utilice este medicamento después de la fecha de caducidad que aparece en el envase después de Cad. La fecha de caducidad es el último día del mes que se indica.</p><p>Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesita en el Punto SIGRE de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma ayudará a proteger el medio ambiente.</p></div>"
+          }
+        },
+        {
+          "title" : "6. Contenido del envase e información adicional",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "6. Contenido del envase e información adicional"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Composición de Blaston 1 mg Comprimidos</strong></p><p>El principio activo es cinitaprida (como tartrato ácido). Cada comprimido contiene 1 mg de cinitaprida Los demás componentes son carboximetilalmidón de sodio (de patata), celulosa en polvo, lactosa anhidra, sílice coloidal y estearato de magnesio (E-470b).</p><p><strong>Aspecto del producto y contenido del envase</strong></p><p>Blaston 1 mg Comprimidos se presenta en forma de comprimidos redondos, biselados, de color amarillo claro y ranurados en su cara superior. Cada caja contiene 50 comprimidos</p><p><strong>Titular de la autorización de comercialización y responsable de la fabricación</strong> <strong>Titular de la autorización de comercialización</strong> Lacer, S.A. - Boters, 5 08290 Cerdanyola del Vallès Barcelona – España</p><p><strong>Responsable de la fabricación</strong></p><p>Industrias Farmacéuticas Almirall, S.A. Ctra. de Martorell, 41-61 08740 Sant Andreu de la Barca – Barcelona (España)</p><p><strong>Fecha de la última revisión de este prospecto: Marzo 2019</strong></p><p>La información detallada y actualizada de este medicamento está disponible en la página Web de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) <a href=\"http://www.aemps.gob.es/\">http://www.aemps.gob.es/</a></p></div>"
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-cinitrapide-magnesiumstearate",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-cinitrapide-magnesiumstearate",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-cinitrapide-magnesiumstearate\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-cinitrapide-magnesiumstearate</b></p><a name=\"ingredient-for-cinitrapide-magnesiumstearate\"> </a><a name=\"hcingredient-for-cinitrapide-magnesiumstearate\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/70097M6I30 (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#ManufacturedItemDefinition_mid-da0fc2395ce219262dfd4f0c9a9f72e1\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#x (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#MedicinalProductDefinition_mp1453e0f16ff6c1d3106ed737a7857578\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#59.032,https://www.who-umc.org/phpid#0xbb82cd10ab2add752b2b9224931077b2; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#AdministrableProductDefinition_ap-da0fc2395ce219262dfd4f0c9a9f72e1\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 70097M6I30}\">Magnesium stearate</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "70097M6I30"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-da0fc2395ce219262dfd4f0c9a9f72e1"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp1453e0f16ff6c1d3106ed737a7857578"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-da0fc2395ce219262dfd4f0c9a9f72e1"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "70097M6I30",
+              "display" : "Magnesium stearate"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-cinitrapide-povidoneunspecified",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-cinitrapide-povidoneunspecified",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-cinitrapide-povidoneunspecified\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-cinitrapide-povidoneunspecified</b></p><a name=\"ingredient-for-cinitrapide-povidoneunspecified\"> </a><a name=\"hcingredient-for-cinitrapide-povidoneunspecified\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/FZ989GH94E (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#ManufacturedItemDefinition_mid-da0fc2395ce219262dfd4f0c9a9f72e1\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#x (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#MedicinalProductDefinition_mp1453e0f16ff6c1d3106ed737a7857578\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#59.032,https://www.who-umc.org/phpid#0xbb82cd10ab2add752b2b9224931077b2; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#AdministrableProductDefinition_ap-da0fc2395ce219262dfd4f0c9a9f72e1\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta FZ989GH94E}\">POVIDONE, UNSPECIFIED</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "FZ989GH94E"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-da0fc2395ce219262dfd4f0c9a9f72e1"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp1453e0f16ff6c1d3106ed737a7857578"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-da0fc2395ce219262dfd4f0c9a9f72e1"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "FZ989GH94E",
+              "display" : "POVIDONE, UNSPECIFIED"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-cinitrapide-cinitapride",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-cinitrapide-cinitapride",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-cinitrapide-cinitapride\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-cinitrapide-cinitapride</b></p><a name=\"ingredient-for-cinitrapide-cinitapride\"> </a><a name=\"hcingredient-for-cinitrapide-cinitapride\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/R8I97I2L24 (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#ManufacturedItemDefinition_mid-da0fc2395ce219262dfd4f0c9a9f72e1\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#x (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#MedicinalProductDefinition_mp1453e0f16ff6c1d3106ed737a7857578\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#59.032,https://www.who-umc.org/phpid#0xbb82cd10ab2add752b2b9224931077b2; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#AdministrableProductDefinition_ap-da0fc2395ce219262dfd4f0c9a9f72e1\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 72072}\">active</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta R8I97I2L24}\">CINITAPRIDE</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>1 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ACTIB}\">active ingredient - basis of strength</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "R8I97I2L24"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-da0fc2395ce219262dfd4f0c9a9f72e1"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp1453e0f16ff6c1d3106ed737a7857578"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-da0fc2395ce219262dfd4f0c9a9f72e1"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "72072",
+          "display" : "active"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "R8I97I2L24",
+              "display" : "CINITAPRIDE"
+            }]
+          }
+        },
+        "strength" : [{
+          "presentationQuantity" : {
+            "value" : 1,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "basis" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+              "code" : "ACTIB",
+              "display" : "active ingredient - basis of strength"
+            }]
+          }
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-cinitrapide-silicacolloidalanhydrous",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-cinitrapide-silicacolloidalanhydrous",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-cinitrapide-silicacolloidalanhydrous\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-cinitrapide-silicacolloidalanhydrous</b></p><a name=\"ingredient-for-cinitrapide-silicacolloidalanhydrous\"> </a><a name=\"hcingredient-for-cinitrapide-silicacolloidalanhydrous\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/ETJ7Z6XBU4 (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#ManufacturedItemDefinition_mid-da0fc2395ce219262dfd4f0c9a9f72e1\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#x (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#MedicinalProductDefinition_mp1453e0f16ff6c1d3106ed737a7857578\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#59.032,https://www.who-umc.org/phpid#0xbb82cd10ab2add752b2b9224931077b2; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#AdministrableProductDefinition_ap-da0fc2395ce219262dfd4f0c9a9f72e1\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta ETJ7Z6XBU4}\">SILICA, COLLOIDAL ANHYDROUS</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "ETJ7Z6XBU4"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-da0fc2395ce219262dfd4f0c9a9f72e1"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp1453e0f16ff6c1d3106ed737a7857578"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-da0fc2395ce219262dfd4f0c9a9f72e1"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "ETJ7Z6XBU4",
+              "display" : "SILICA, COLLOIDAL ANHYDROUS"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-cinitrapide-starchpotato",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-cinitrapide-starchpotato",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-cinitrapide-starchpotato\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-cinitrapide-starchpotato</b></p><a name=\"ingredient-for-cinitrapide-starchpotato\"> </a><a name=\"hcingredient-for-cinitrapide-starchpotato\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/8I089SAH3T (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#ManufacturedItemDefinition_mid-da0fc2395ce219262dfd4f0c9a9f72e1\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#x (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#MedicinalProductDefinition_mp1453e0f16ff6c1d3106ed737a7857578\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#59.032,https://www.who-umc.org/phpid#0xbb82cd10ab2add752b2b9224931077b2; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#AdministrableProductDefinition_ap-da0fc2395ce219262dfd4f0c9a9f72e1\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 8I089SAH3T}\">STARCH, POTATO</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "8I089SAH3T"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-da0fc2395ce219262dfd4f0c9a9f72e1"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp1453e0f16ff6c1d3106ed737a7857578"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-da0fc2395ce219262dfd4f0c9a9f72e1"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "8I089SAH3T",
+              "display" : "STARCH, POTATO"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-cinitrapide-starchcorn",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-cinitrapide-starchcorn",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-cinitrapide-starchcorn\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-cinitrapide-starchcorn</b></p><a name=\"ingredient-for-cinitrapide-starchcorn\"> </a><a name=\"hcingredient-for-cinitrapide-starchcorn\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/O8232NY3SJ (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#ManufacturedItemDefinition_mid-da0fc2395ce219262dfd4f0c9a9f72e1\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#x (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#MedicinalProductDefinition_mp1453e0f16ff6c1d3106ed737a7857578\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#59.032,https://www.who-umc.org/phpid#0xbb82cd10ab2add752b2b9224931077b2; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#AdministrableProductDefinition_ap-da0fc2395ce219262dfd4f0c9a9f72e1\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta O8232NY3SJ}\">STARCH, CORN</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "O8232NY3SJ"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-da0fc2395ce219262dfd4f0c9a9f72e1"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp1453e0f16ff6c1d3106ed737a7857578"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-da0fc2395ce219262dfd4f0c9a9f72e1"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "O8232NY3SJ",
+              "display" : "STARCH, CORN"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-cinitapride",
+    "resource" : {
+      "resourceType" : "SubstanceDefinition",
+      "id" : "substance-cinitapride",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"SubstanceDefinition_substance-cinitapride\"> </a><p class=\"res-header-id\"><b>Generated Narrative: SubstanceDefinition substance-cinitapride</b></p><a name=\"substance-cinitapride\"> </a><a name=\"hcsubstance-cinitapride\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta/</code>/R8I97I2L24 (use: official, )</p><p><b>version</b>: 1</p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>manufacturer</b>: <a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#Organization_mah-94f8082c22713e050c3f2b55ea9d53ff\">Organization Lacer, S.A. - Boters, 5</a></p><h3>MolecularWeights</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">exact</span></td><td>402.49</td></tr></table><h3>Structures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>MolecularFormula</b></td></tr><tr><td style=\"display: none\">*</td><td>C21H30N4O4</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>4-amino-N-{1-[(cyclohex-3-en-1-yl)methyl]piperidin-4-yl}-2-ethoxy-5-nitrobenzamide</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta/ x}\">Chemical Name</span></td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+        "value" : "R8I97I2L24"
+      }],
+      "version" : "1",
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active"
+        }]
+      },
+      "manufacturer" : [{
+        "reference" : "Organization/mah-94f8082c22713e050c3f2b55ea9d53ff"
+      }],
+      "molecularWeight" : [{
+        "type" : {
+          "text" : "exact"
+        },
+        "amount" : {
+          "value" : 402.49
+        }
+      }],
+      "structure" : {
+        "molecularFormula" : "C21H30N4O4"
+      },
+      "name" : [{
+        "name" : "4-amino-N-{1-[(cyclohex-3-en-1-yl)methyl]piperidin-4-yl}-2-ethoxy-5-nitrobenzamide",
+        "type" : {
+          "coding" : [{
+            "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+            "code" : "x",
+            "display" : "Chemical Name"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-da0fc2395ce219262dfd4f0c9a9f72e1",
+    "resource" : {
+      "resourceType" : "AdministrableProductDefinition",
+      "id" : "ap-da0fc2395ce219262dfd4f0c9a9f72e1",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AdministrableProductDefinition_ap-da0fc2395ce219262dfd4f0c9a9f72e1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: AdministrableProductDefinition ap-da0fc2395ce219262dfd4f0c9a9f72e1</b></p><a name=\"ap-da0fc2395ce219262dfd4f0c9a9f72e1\"> </a><a name=\"hcap-da0fc2395ce219262dfd4f0c9a9f72e1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/xx</p><p><b>status</b>: Active</p><p><b>formOf</b>: <a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#MedicinalProductDefinition_mp1453e0f16ff6c1d3106ed737a7857578\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#59.032,https://www.who-umc.org/phpid#0xbb82cd10ab2add752b2b9224931077b2; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>administrableDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002152}\">tablet</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002152}\">tablet</span></p><p><b>producedFrom</b>: <a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#ManufacturedItemDefinition_mid-da0fc2395ce219262dfd4f0c9a9f72e1\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#x (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073619}\">Oral use</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000109093}\">Human</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "xx"
+      }],
+      "status" : "active",
+      "formOf" : [{
+        "reference" : "MedicinalProductDefinition/mp1453e0f16ff6c1d3106ed737a7857578"
+      }],
+      "administrableDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002152",
+          "display" : "tablet"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002152",
+          "display" : "tablet"
+        }]
+      },
+      "producedFrom" : [{
+        "reference" : "ManufacturedItemDefinition/mid-da0fc2395ce219262dfd4f0c9a9f72e1"
+      }],
+      "routeOfAdministration" : [{
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073619",
+            "display" : "Oral use"
+          }]
+        },
+        "targetSpecies" : [{
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000109093",
+              "display" : "Human"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationda0fc2395ce219262dfd4f0c9a9f72e10",
+    "resource" : {
+      "resourceType" : "RegulatedAuthorization",
+      "id" : "authorizationda0fc2395ce219262dfd4f0c9a9f72e10",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"RegulatedAuthorization_authorizationda0fc2395ce219262dfd4f0c9a9f72e10\"> </a><p class=\"res-header-id\"><b>Generated Narrative: RegulatedAuthorization authorizationda0fc2395ce219262dfd4f0c9a9f72e10</b></p><a name=\"authorizationda0fc2395ce219262dfd4f0c9a9f72e10\"> </a><a name=\"hcauthorizationda0fc2395ce219262dfd4f0c9a9f72e10\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/59.032 (use: official, )</p><p><b>subject</b>: <a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#MedicinalProductDefinition_mp1453e0f16ff6c1d3106ed737a7857578\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#59.032,https://www.who-umc.org/phpid#0xbb82cd10ab2add752b2b9224931077b2; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072062}\">Marketing Authorisation</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2007-09-27</p><p><b>holder</b>: <a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#Organization_mah-94f8082c22713e050c3f2b55ea9d53ff\">Organization Lacer, S.A. - Boters, 5</a></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "59.032"
+      }],
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mp1453e0f16ff6c1d3106ed737a7857578"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072062",
+          "display" : "Marketing Authorisation"
+        }]
+      },
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2007-09-27",
+      "holder" : {
+        "reference" : "Organization/mah-94f8082c22713e050c3f2b55ea9d53ff"
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-94f8082c22713e050c3f2b55ea9d53ff",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "mah-94f8082c22713e050c3f2b55ea9d53ff",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_mah-94f8082c22713e050c3f2b55ea9d53ff\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization mah-94f8082c22713e050c3f2b55ea9d53ff</b></p><a name=\"mah-94f8082c22713e050c3f2b55ea9d53ff\"> </a><a name=\"hcmah-94f8082c22713e050c3f2b55ea9d53ff\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/ORG-100000789 (use: official, )</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 220000000034}\">Marketing authorisation holder</span></p><p><b>name</b>: Lacer, S.A. - Boters, 5</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>Cerdanyola del Vallès Barcelona ES(work)</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/omswi",
+        "value" : "ORG-100000789"
+      }],
+      "active" : true,
+      "type" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000034",
+          "display" : "Marketing authorisation holder"
+        }]
+      }],
+      "name" : "Lacer, S.A. - Boters, 5",
+      "contact" : [{
+        "address" : {
+          "use" : "work",
+          "type" : "physical",
+          "text" : "Cerdanyola del Vallès Barcelona ES",
+          "line" : ["Cerdanyola del Vallès"],
+          "city" : "Barcelona",
+          "postalCode" : "8290",
+          "country" : "ES"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-c46dbb6b3c5d5b6e1f1f6020e6af1b5e",
+    "resource" : {
+      "resourceType" : "PackagedProductDefinition",
+      "id" : "ppd-c46dbb6b3c5d5b6e1f1f6020e6af1b5e",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-c46dbb6b3c5d5b6e1f1f6020e6af1b5e\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PackagedProductDefinition ppd-c46dbb6b3c5d5b6e1f1f6020e6af1b5e</b></p><a name=\"ppd-c46dbb6b3c5d5b6e1f1f6020e6af1b5e\"> </a><a name=\"hcppd-c46dbb6b3c5d5b6e1f1f6020e6af1b5e\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/ss (use: official, )</p><p><b>name</b>: BLASTON 1 mg tablets 50</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000155527}\">Chemical Medicinal Prodcut</span></p><p><b>packageFor</b>: <a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#MedicinalProductDefinition_mp1453e0f16ff6c1d3106ed737a7857578\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#59.032,https://www.who-umc.org/phpid#0xbb82cd10ab2add752b2b9224931077b2; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 1 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073498}\">Box</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003529}\">Cardboard</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073496}\">Blister</span></p><p><b>quantity</b>: 50</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003222}\">PolyVinyl Chloride</span></p><blockquote><p><b>containedItem</b></p><h3>Items</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Reference</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Bundle-bundlepackageleaflet-es-da0fc2395ce219262dfd4f0c9a9f72e1.html#ManufacturedItemDefinition_mid-da0fc2395ce219262dfd4f0c9a9f72e1\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#x (use: official, ); status = active; manufacturedDoseForm = tablet; unitOfPresentation = Tablet</a></td></tr></table></blockquote></blockquote></blockquote></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "ss"
+      }],
+      "name" : "BLASTON 1 mg tablets 50",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000155527",
+          "display" : "Chemical Medicinal Prodcut"
+        }]
+      },
+      "packageFor" : [{
+        "reference" : "MedicinalProductDefinition/mp1453e0f16ff6c1d3106ed737a7857578"
+      }],
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2015-02-07T13:28:17Z",
+      "containedItemQuantity" : [{
+        "value" : 1,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      }],
+      "packaging" : {
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073498",
+            "display" : "Box"
+          }]
+        },
+        "quantity" : 1,
+        "material" : [{
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "200000003529",
+            "display" : "Cardboard"
+          }]
+        }],
+        "packaging" : [{
+          "identifier" : [{
+            "system" : "https://spor.ema.europa.eu/pmswi",
+            "value" : "123456"
+          }],
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000073496",
+              "display" : "Blister"
+            }]
+          },
+          "quantity" : 50,
+          "material" : [{
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "200000003222",
+              "display" : "PolyVinyl Chloride"
+            }]
+          }],
+          "containedItem" : [{
+            "item" : {
+              "reference" : {
+                "reference" : "ManufacturedItemDefinition/mid-da0fc2395ce219262dfd4f0c9a9f72e1"
+              }
+            }
+          }]
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp1453e0f16ff6c1d3106ed737a7857578",
+    "resource" : {
+      "resourceType" : "MedicinalProductDefinition",
+      "id" : "mp1453e0f16ff6c1d3106ed737a7857578",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_mp1453e0f16ff6c1d3106ed737a7857578\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicinalProductDefinition mp1453e0f16ff6c1d3106ed737a7857578</b></p><a name=\"mp1453e0f16ff6c1d3106ed737a7857578\"> </a><a name=\"hcmp1453e0f16ff6c1d3106ed737a7857578\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/59.032, <code>https://www.who-umc.org/phpid</code>/0xbb82cd10ab2add752b2b9224931077b2</p><p><b>type</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-type MedicinalProduct}\">Medicinal Product</span></p><p><b>domain</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-domain Human}\">Human use</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">active</span></p><p><b>legalStatusOfSupply</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000000000}\">Medicinal product subject to medical prescription</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: BLASTON 1 mg tablets</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000001}\">Full name</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Blaston</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000002}\">Invented name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: Cinitapride</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000003}\">Scientific name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 1 mg</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000004}\">Strength part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: tablet</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000005}\">Pharmaceutical dose form part</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{urn:iso:std:iso:3166 ES}\">Spain</span></td><td><span title=\"Codes:{urn:iso:std:iso:3166 ES}\">Spain</span></td><td><span title=\"Codes:{urn:ietf:bcp:47 en}\">English</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "59.032"
+      },
+      {
+        "system" : "https://www.who-umc.org/phpid",
+        "value" : "0xbb82cd10ab2add752b2b9224931077b2"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-type",
+          "code" : "MedicinalProduct",
+          "display" : "Medicinal Product"
+        }]
+      },
+      "domain" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-domain",
+          "code" : "Human",
+          "display" : "Human use"
+        }]
+      },
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "active"
+        }]
+      },
+      "legalStatusOfSupply" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000000000",
+          "display" : "Medicinal product subject to medical prescription"
+        }]
+      },
+      "name" : [{
+        "productName" : "BLASTON 1 mg tablets",
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/lists/220000000000",
+            "code" : "220000000001",
+            "display" : "Full name"
+          }]
+        },
+        "part" : [{
+          "part" : "Blaston",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000002",
+              "display" : "Invented name part"
+            }]
+          }
+        },
+        {
+          "part" : "Cinitapride",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000003",
+              "display" : "Scientific name part"
+            }]
+          }
+        },
+        {
+          "part" : "1 mg",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000004",
+              "display" : "Strength part"
+            }]
+          }
+        },
+        {
+          "part" : "tablet",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000005",
+              "display" : "Pharmaceutical dose form part"
+            }]
+          }
+        }],
+        "usage" : [{
+          "country" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "ES",
+              "display" : "Spain"
+            }]
+          },
+          "jurisdiction" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "ES",
+              "display" : "Spain"
+            }]
+          },
+          "language" : {
+            "coding" : [{
+              "system" : "urn:ietf:bcp:47",
+              "code" : "en",
+              "display" : "English"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-da0fc2395ce219262dfd4f0c9a9f72e1",
+    "resource" : {
+      "resourceType" : "ManufacturedItemDefinition",
+      "id" : "mid-da0fc2395ce219262dfd4f0c9a9f72e1",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ManufacturedItemDefinition_mid-da0fc2395ce219262dfd4f0c9a9f72e1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: ManufacturedItemDefinition mid-da0fc2395ce219262dfd4f0c9a9f72e1</b></p><a name=\"mid-da0fc2395ce219262dfd4f0c9a9f72e1\"> </a><a name=\"hcmid-da0fc2395ce219262dfd4f0c9a9f72e1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/x (use: official, )</p><p><b>status</b>: Active</p><p><b>manufacturedDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000073864}\">tablet</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002152}\">Tablet</span></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "x"
+      }],
+      "status" : "active",
+      "manufacturedDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000073864",
+          "display" : "tablet"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002152",
+          "display" : "Tablet"
+        }]
+      }
+    }
+  }]
+}
+
+```

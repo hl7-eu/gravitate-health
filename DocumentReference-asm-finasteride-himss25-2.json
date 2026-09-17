@@ -1,0 +1,43 @@
+{
+  "resourceType" : "DocumentReference",
+  "id" : "asm-finasteride-himss25-2",
+  "meta" : {
+    "profile" : ["http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalSupportMaterial"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DocumentReference asm-finasteride-himss25-2</b></p><a name=\"asm-finasteride-himss25-2\"> </a><a name=\"hcasm-finasteride-himss25-2\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-AdditionalSupportMaterial.html\">Additional Support Material Profile</a></p></div><p><b>identifier</b>: <code>http://example.org</code>/testscript4</p><p><b>version</b>: 1.0</p><p><b>status</b>: Current</p><p><b>docStatus</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs MDM}\">Medication and Disease Management</span></p><p><b>subject</b>: <a href=\"Bundle-bundle-finasteride-proc.html#MedicinalProductDefinition_himss-finasteride-mpd\">MedicinalProductDefinition: identifier = https://www.gravitatehealth.eu/sid/doc#himss-finasteride; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>author</b>: WEBMD</p><p><b>description</b>: </p><div><p>Prostate Cancer treatment</p>\n</div><blockquote><p><b>content</b></p><h3>Attachments</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>ContentType</b></td><td><b>Language</b></td><td><b>Url</b></td><td><b>Title</b></td></tr><tr><td style=\"display: none\">*</td><td/><td>text/html</td><td>English</td><td><a href=\"https://www.webmd.com/prostate-cancer/coping-prostate-cancer\">https://www.webmd.com/prostate-cancer/coping-prostate-cancer</a></td><td>Coping with prostate Cancer</td></tr></table></blockquote></div>"
+  },
+  "identifier" : [{
+    "system" : "http://example.org",
+    "value" : "testscript4"
+  }],
+  "version" : "1.0",
+  "status" : "current",
+  "docStatus" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/asm-category-cs",
+      "code" : "MDM"
+    }]
+  }],
+  "subject" : {
+    "reference" : "MedicinalProductDefinition/himss-finasteride-mpd"
+  },
+  "author" : [{
+    "display" : "WEBMD"
+  }],
+  "description" : "Prostate Cancer treatment",
+  "content" : [{
+    "attachment" : {
+      "extension" : [{
+        "url" : "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/VisualizationMethod",
+        "valueCode" : "URL"
+      }],
+      "contentType" : "text/html",
+      "language" : "en",
+      "url" : "https://www.webmd.com/prostate-cancer/coping-prostate-cancer",
+      "title" : "Coping with prostate Cancer"
+    }
+  }]
+}

@@ -1,0 +1,25 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/MPD-619944> a fhir:MedicinalProductDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "MPD-619944"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: MedicinalProductDefinition MPD-619944</b></p><a name=\"MPD-619944\"> </a><a name=\"hcMPD-619944\"> </a><p><b>identifier</b>: <code>https://infarmed.pt/INFOMED/MED_ID</code>/619944</p><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ProductName</b></td></tr><tr><td style=\"display: none\">*</td><td>Glimepiride Generis, 2 mg, tablets</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://infarmed.pt/INFOMED/MED_ID"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "619944" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:productName [ fhir:v "Glimepiride Generis, 2 mg, tablets" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

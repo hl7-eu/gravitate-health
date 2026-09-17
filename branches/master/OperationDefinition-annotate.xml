@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OperationDefinition xmlns="http://hl7.org/fhir">
+  <id value="annotate"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p>URL: [base]/$annotate</p><p>Parameters</p><table class="grid"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>epi</td><td/><td>0..1</td><td><a href="http://hl7.org/fhir/R5/bundle.html">Bundle</a></td><td/><td><div><p>ePI Document Bundle</p>
+</div></td></tr><tr><td>IN</td><td>epi-identifier</td><td/><td>0..1</td><td><a href="http://hl7.org/fhir/R5/datatypes.html#Identifier">Identifier</a></td><td/><td><div><p>ePI Document Identifier</p>
+</div></td></tr><tr><td>OUT</td><td>returnEpi</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R5/bundle.html">Bundle</a></td><td/><td><div><p>Preprocessed epi Bundle</p>
+</div></td></tr><tr><td>OUT</td><td>returnEpiExtracts</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R5/bundle.html">Bundle</a></td><td/><td><div><p>Preprocessed epi Bundle extracts</p>
+</div></td></tr></table></div>
+  </text>
+  <url value="http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/annotate"/>
+  <version value="0.1.0"/>
+  <name value="annotate"/>
+  <title value="annotate"/>
+  <status value="active"/>
+  <kind value="operation"/>
+  <date value="2024-01-21T22:55:49+00:00"/>
+  <publisher value="Gravitate Health Project"/>
+  <contact>
+    <name value="Gravitate Health Project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.gravitatehealth.eu/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Gravitate Health Project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.gravitatehealth.eu/"/>
+    </telecom>
+  </contact>
+  <description value="This operation calculates an annotated version of an ePI as well as the separate extracts. &#xA;&#xA;The ePI can be delivered either as a `Bundle` or by using an `Identifier` of the bundle. Whether the support of both `Identifier` and `Bundle` continues to be supported currently remains unknown.&#xA;&#xA;"/>
+  <affectsState value="false"/>
+  <code value="annotate"/>
+  <system value="true"/>
+  <type value="false"/>
+  <instance value="false"/>
+  <parameter>
+    <name value="epi"/>
+    <use value="in"/>
+    <min value="0"/>
+    <max value="1"/>
+    <documentation value="ePI Document Bundle"/>
+    <type value="Bundle"/>
+  </parameter>
+  <parameter>
+    <name value="epi-identifier"/>
+    <use value="in"/>
+    <min value="0"/>
+    <max value="1"/>
+    <documentation value="ePI Document Identifier"/>
+    <type value="Identifier"/>
+  </parameter>
+  <parameter>
+    <name value="returnEpi"/>
+    <use value="out"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="Preprocessed epi Bundle"/>
+    <type value="Bundle"/>
+  </parameter>
+  <parameter>
+    <name value="returnEpiExtracts"/>
+    <use value="out"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="Preprocessed epi Bundle extracts"/>
+    <type value="Bundle"/>
+  </parameter>
+</OperationDefinition>

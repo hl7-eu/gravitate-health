@@ -1,0 +1,68 @@
+{
+  "resourceType" : "OperationDefinition",
+  "id" : "annotate",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>URL: [base]/$annotate</p><p>Parameters</p><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>epi</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R5/bundle.html\">Bundle</a></td><td/><td><div><p>ePI Document Bundle</p>\n</div></td></tr><tr><td>IN</td><td>epi-identifier</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R5/datatypes.html#Identifier\">Identifier</a></td><td/><td><div><p>ePI Document Identifier</p>\n</div></td></tr><tr><td>OUT</td><td>returnEpi</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R5/bundle.html\">Bundle</a></td><td/><td><div><p>Preprocessed epi Bundle</p>\n</div></td></tr><tr><td>OUT</td><td>returnEpiExtracts</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R5/bundle.html\">Bundle</a></td><td/><td><div><p>Preprocessed epi Bundle extracts</p>\n</div></td></tr></table></div>"
+  },
+  "url" : "http://hl7.eu/fhir/ig/gravitate-health/OperationDefinition/annotate",
+  "version" : "0.1.0",
+  "name" : "annotate",
+  "title" : "annotate",
+  "status" : "active",
+  "kind" : "operation",
+  "date" : "2024-01-21T22:55:49+00:00",
+  "publisher" : "Gravitate Health Project",
+  "contact" : [{
+    "name" : "Gravitate Health Project",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.gravitatehealth.eu/"
+    }]
+  },
+  {
+    "name" : "Gravitate Health Project",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.gravitatehealth.eu/"
+    }]
+  }],
+  "description" : "This operation calculates an annotated version of an ePI as well as the separate extracts. \n\nThe ePI can be delivered either as a `Bundle` or by using an `Identifier` of the bundle. Whether the support of both `Identifier` and `Bundle` continues to be supported currently remains unknown.\n\n",
+  "affectsState" : false,
+  "code" : "annotate",
+  "system" : true,
+  "type" : false,
+  "instance" : false,
+  "parameter" : [{
+    "name" : "epi",
+    "use" : "in",
+    "min" : 0,
+    "max" : "1",
+    "documentation" : "ePI Document Bundle",
+    "type" : "Bundle"
+  },
+  {
+    "name" : "epi-identifier",
+    "use" : "in",
+    "min" : 0,
+    "max" : "1",
+    "documentation" : "ePI Document Identifier",
+    "type" : "Identifier"
+  },
+  {
+    "name" : "returnEpi",
+    "use" : "out",
+    "min" : 1,
+    "max" : "1",
+    "documentation" : "Preprocessed epi Bundle",
+    "type" : "Bundle"
+  },
+  {
+    "name" : "returnEpiExtracts",
+    "use" : "out",
+    "min" : 1,
+    "max" : "1",
+    "documentation" : "Preprocessed epi Bundle extracts",
+    "type" : "Bundle"
+  }]
+}

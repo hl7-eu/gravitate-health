@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>40703 - TTL Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/pcsp.css"/>
+    <link rel="stylesheet" href="assets/css/epi.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.473"}
+    h3,h4,h5,h6{--heading-prefix:"16.473"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="https://www.gravitatehealth.eu/">
+            <img src="assets/images/logo-header.jpg" alt="Visit the Project website" height="60"/>
+          </a>
+        </div>
+   <!-- <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">processed
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l275">​</a>
+        <a href="Processed ePI">name</a>
+      </li>
+      <li><a name="l281">​</a>
+        <a href="Processed ePI Documents">description</a>
+      </li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="#" class="dropdown-toggle">resources
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a name="l296">​</a>
+            <a href="Bundle/processedbundlekarveabik">0</a>
+          </li>
+          <li><a name="l302">​</a>
+            <a href="Bundle/processedbundleflucelvax">1</a>
+          </li>
+          <li><a name="l308">​</a>
+            <a href="Bundle/processedbundleflucelvaxES">2</a>
+          </li>
+          <li><a name="l314">​</a>
+            <a href="Bundle/processedbundlehypericum">3</a>
+          </li>
+          <li><a name="l320">​</a>
+            <a href="Bundle/processedbundledovato-es">4</a>
+          </li>
+          <li><a name="l326">​</a>
+            <a href="Bundle/processedbundlekarveacalcium">5</a>
+          </li>
+          <li><a name="l332">​</a>
+            <a href="Bundle/Processedbundlekarvea">6</a>
+          </li>
+          <li><a name="l338">​</a>
+            <a href="Bundle/processedbundledovato-en">7</a>
+          </li>
+          <li><a name="l344">​</a>
+            <a href="Bundle/bundleprocessed-es-b44cce291e466626afa836fffe72c350">8</a>
+          </li>
+          <li><a name="l350">​</a>
+            <a href="Bundle/bundleprocessed-pt-b44cce291e466626afa836fffe72c350">9</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>40703</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+  <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-40703.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-40703.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-40703.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: 40703 - TTL Representation</h2>
+
+
+<p><a href="Bundle-40703.ttl" no-download="true">Raw ttl</a> | <a download="null" href="Bundle-40703.ttl">Download</a></p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <pre style="white-space: pre; overflow: hidden" class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Bundle ;
+  <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "40703"] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "da"] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.identifier">fhir:identifier</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "40703" ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "document"] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.timestamp">fhir:timestamp</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#instant">fhir:v</a> "2022-04-22T01:01:01Z"^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry">fhir:entry</a> ( [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi/Composition/40703"^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/composition.html#Composition">fhir:resource</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/40703&gt; )
+  ] ) . # 
+
+&lt;https://gravitatehealth.eu/fhir/nordic-epi/Composition/40703&gt; <a href="http://hl7.org/fhir/R5/composition.html">a</a> fhir:Composition ;
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "40703"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi&gt;     ] [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "da"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"da\" lang=\"da\"&gt;&lt;a name=\"Composition_40703\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=\"40703\"&gt; &lt;/a&gt;&lt;a name=\"hc40703\"&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource Composition &amp;quot;40703&amp;quot;  (Language &amp;quot;da&amp;quot;) &lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profiles: &lt;a href=\"https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\"&gt;Composition (ePI)&lt;/a&gt;, &lt;code&gt;https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/&lt;/code&gt;/40703&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: 100000155538 &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-04-22&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;span&gt;&lt;code&gt;https://medicin.dk&lt;/code&gt;/medicin.dk&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: Remicade 100 mg pulver til konc. til infusionsvæske&lt;/p&gt;&lt;/div&gt;"
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "40703" ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "final"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.type">fhir:type</a> [
+    ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/100000155531/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "100000155538" ]     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> "2022-04-22"^^xsd:date] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.author">fhir:author</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.identifier">fhir:identifier</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://medicin.dk"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "medicin.dk" ]     ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Remicade 100 mg pulver til konc. til infusionsvæske"] ; # 
+  <a href="http://hl7.org/fhir/R5/composition.html#Composition.section">fhir:section</a> ( [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Indlægsseddel: Information til patienten" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+      ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029894" ]       ] )     ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                     &lt;a name=\"Section0\"/&gt;\n                     &lt;h2&gt;  Indlægsseddel: Information til brugeren  &lt;/h2&gt;\n                     &lt;h3&gt;Remicade&reg; 100 mg pulver til koncentrat til infusionsvæske, opløsning &lt;/h3&gt;\n                     &lt;div class=\"paragraph\"&gt;infliximab&lt;/div&gt;\n                     &lt;h3&gt;  Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den indeholder vigtige oplysninger.  &lt;/h3&gt;\n                     &lt;ul&gt;\n                        &lt;li&gt;Gem indlægssedlen. Du kan få brug for at læse den igen. &lt;/li&gt;\n                        &lt;li&gt;Din læge vil også udlevere et patientinformationskort til dig, som indeholder vigtig sikkerhedsinformation, som du skal være opmærksom på før og under din behandling med Remicade. &lt;/li&gt;\n                        &lt;li&gt;Spørg lægen, hvis der er mere, du vil vide. &lt;/li&gt;\n                        &lt;li&gt;Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. &lt;/li&gt;\n                        &lt;li&gt;Kontakt lægen, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se &lt;a href=\"#Section4\" title=\"Anchor link til afsnit - punkt 4\"&gt;punkt 4&lt;/a&gt;. &lt;/li&gt;\n                     &lt;/ul&gt;\n                     &lt;div class=\"paragraph\"&gt;Se den nyeste indlægsseddel på &lt;a href=\"https://www.indlaegsseddel.dk\" title=\"null\"&gt;www.indlaegsseddel.dk&lt;/a&gt;.&lt;/div&gt;\n                     &lt;h3&gt;  Oversigt over indlægssedlen  &lt;/h3&gt;\n                     &lt;ol&gt;\n                        &lt;li&gt;Virkning og anvendelse &lt;/li&gt;\n                        &lt;li&gt;Det skal du vide, før du får Remicade &lt;/li&gt;\n                        &lt;li&gt;Sådan får du Remicade &lt;/li&gt;\n                        &lt;li&gt;Bivirkninger &lt;/li&gt;\n                        &lt;li&gt;Opbevaring &lt;/li&gt;\n                        &lt;li&gt;Pakningsstørrelser og yderligere oplysninger &lt;/li&gt;\n                     &lt;/ol&gt;\n                  &lt;/div&gt;"     ] ;
+    ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "1. Virkning og anvendelse" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029895" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section1\"/&gt;\n                        &lt;div&gt;&nbsp;&lt;/div&gt;\n                        &lt;h2&gt;1. Virkning og anvendelse&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Remicade indeholder det aktive stof infliximab. Infliximab er et monoklonalt antistof - en type protein, der binder sig til et specifikt mål i kroppen kaldet TNF (tumor nekrose faktor) alfa .&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Remicade tilhører en medicingruppe kaldet ”TNF-blokkere”. Det bruges til voksne til behandling af følgende betændelsessygdomme:&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Reumatoid arthritis &lt;/li&gt;\n                           &lt;li&gt;Psoriasisarthritis &lt;/li&gt;\n                           &lt;li&gt;Ankyloserende spondylitis (Bekhterevs sygdom) &lt;/li&gt;\n                           &lt;li&gt;Psoriasis. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Remicade bruges også til voksne og børn fra 6 år og opefter til behandling af:&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Crohns sygdom &lt;/li&gt;\n                           &lt;li&gt;Colitis ulcerosa. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Remicade virker ved selektivt at binde sig til TNF alfa og blokere dets virkning. TNF alfa er involveret i kroppens betændelsesprocesser, så blokering af dette kan mindske betændelsen i din krop.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Reumatoid arthritis &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Reumatoid arthritis er en betændelsessygdom i leddene. Hvis du har aktiv reumatoid arthritis, vil du først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Remicade, som du skal tage sammen med et andet lægemiddel, der hedder methotrexat, for at:&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Reducere tegn og symptomer på din sygdom &lt;/li&gt;\n                           &lt;li&gt;Forsinke skaden i dine led &lt;/li&gt;\n                           &lt;li&gt;Forbedre din fysiske funktionsevne. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Psoriasisarthritis &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Psoriasisarthritis er en betændelsessygdom i leddene, almindeligvis ledsaget af psoriasis. Hvis du har aktiv psoriasisarthritis, vil du først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Remicade for at:&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Reducere tegn og symptomer på din sygdom &lt;/li&gt;\n                           &lt;li&gt;Forsinke skaden i dine led &lt;/li&gt;\n                           &lt;li&gt;Forbedre din fysiske funktionsevne. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Ankyloserende spondylitis (Bekhterevs sygdom) &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Ankyloserende spondylitis er en betændelsessygdom i rygraden. Hvis du lider af ankyloserende spondylitis, vil du først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Remicade for at:&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Reducere tegn og symptomer på din sygdom &lt;/li&gt;\n                           &lt;li&gt;Forbedre din fysiske funktionsevne. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Psoriasis &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Psoriasis er en betændelsessygdom i huden. Hvis du har moderat til svær plaque psoriasis, vil du først få andre lægemidler eller behandlinger, såsom lysterapi. Hvis disse lægemidler eller behandlinger ikke virker godt nok, vil du få Remicade for at reducere tegn og symptomer på din sygdom.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Colitis ulcerosa &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Colitis ulcerosa er en betændelsessygdom i tarmen. Hvis du lider af colitis ulcerosa, vil du først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Remicade til behandling af din sygdom.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Crohns sygdom &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Crohns sygdom er en betændelsessygdom i tarmen. Hvis du lider af Crohns sygdom, vil du først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Remicade for at:&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Behandle aktiv Crohns sygdom &lt;/li&gt;\n                           &lt;li&gt;Sænke antallet af unormale åbninger (fistler) mellem din tarm og hud, der ikke har kunnet behandles tilfredsstillende med andre lægemidler eller operation. &lt;/li&gt;\n                        &lt;/ul&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "2. Det skal du vide, før du får Remicade" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029896" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section2\"/&gt;\n                        &lt;div&gt;&nbsp;&lt;/div&gt;\n                        &lt;h2&gt;2. Det skal du vide, før du får Remicade&lt;/h2&gt;\n                        &lt;h3&gt;  Du må ikke få Remicade  &lt;/h3&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;hvis du er allergisk over for infliximab eller et af de øvrige indholdsstoffer i Remicade (angivet i &lt;a href=\"#Section6\" title=\"Anchor link til afsnit - punkt 6\"&gt;punkt 6&lt;/a&gt;). &lt;/li&gt;\n                           &lt;li&gt;hvis du er allergisk over for proteiner, som stammer fra mus. &lt;/li&gt;\n                           &lt;li&gt;hvis du har tuberkulose (TB) eller en anden alvorlig infektion, såsom lungebetændelse eller blodforgiftning (sepsis). &lt;/li&gt;\n                           &lt;li&gt;hvis du har hjertesvigt i moderat eller svær grad. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Du må ikke få Remicade, hvis noget af ovenstående passer på dig. Hvis du er i tvivl, så tal med din læge, før du får Remicade.&lt;/div&gt;\n                        &lt;h3&gt;  Advarsler og forsigtighedsregler  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Kontakt lægen før eller under behandlingen med Remicade, hvis du har:&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;br/&gt;\n                           &lt;b&gt;Været i behandling med Remicade tidligere&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Fortæl din læge, hvis du tidligere har været i behandling med Remicade og nu starter behandling med Remicade igen. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du har holdt pause i Remicade-behandlingen i over 16 uger, er der en højere risiko for at få en allergisk reaktion, når du starter behandlingen igen.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Infektioner&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Fortæl din læge, før du får Remicade, hvis du har en infektion, også selvom det er en meget let infektion. &lt;/li&gt;\n                           &lt;li&gt;Fortæl din læge, før du får Remicade, hvis du nogensinde har boet eller rejst i et område, hvor infektioner kaldet histoplasmose, kokcidioidomykose eller blastomykose er almindelige. Disse infektioner forårsages af særlige svampetyper, som kan påvirke lungerne eller andre dele af kroppen. &lt;/li&gt;\n                           &lt;li&gt;Du har lettere ved at få infektioner, når du er i behandling med Remicade. Du har en højere risiko, hvis du er 65 år eller derover. &lt;/li&gt;\n                           &lt;li&gt;Disse infektioner kan være alvorlige og indbefatter tuberkulose, infektioner forårsaget af virus, svampe, bakterier eller andre organismer i miljøet samt blodforgiftning, som kan være livstruende. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;Fortæl straks din læge, hvis du får tegn på infektion under behandling med Remicade. Tegn inkluderer feber, hoste, influenzalignende symptomer, utilpashed, rød eller ophedet hud, sår eller problemer med tænderne. Din læge kan anbefale en midlertidig pause med Remicade.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Tuberkulose (TB)&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Det er meget vigtigt, at du fortæller din læge, hvis du nogensinde har haft TB, eller hvis du har været i tæt kontakt med en person, som har eller har haft TB. &lt;/li&gt;\n                           &lt;li&gt;Din læge vil teste dig for at se, om du har TB. Tilfælde af TB har været rapporteret hos patienter i behandling med Remicade, også hos patienter, der allerede har været i behandling med medicin mod TB. Din læge vil notere disse tests på dit patientinformationskort. &lt;/li&gt;\n                           &lt;li&gt;Hvis din læge tror, at du har risiko for at få TB, kan du blive behandlet med lægemidler mod TB, inden du får Remicade. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;Fortæl straks din læge, hvis du får tegn på TB under behandlingen med Remicade. Tegn inkluderer vedvarende hoste, vægttab, træthedsfølelse, feber eller natlig svedtendens.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Hepatitis B-virus&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Fortæl din læge, før du får Remicade, hvis du er bærer af hepatitis B, eller hvis du nogensinde har haft det. &lt;/li&gt;\n                           &lt;li&gt;Fortæl din læge, hvis du tror, du kan have en risiko for at blive smittet med hepatitis B. &lt;/li&gt;\n                           &lt;li&gt;Din læge skal teste dig for hepatitis B. &lt;/li&gt;\n                           &lt;li&gt;Behandling med TNF-blokkere, såsom Remicade, kan medføre, at hepatitis B igen bliver aktiv hos patienter, som bærer denne virus. Dette kan i nogle tilfælde være livstruende. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Hjerteproblemer&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Fortæl din læge, hvis du har nogen form for hjerteproblemer, såsom let hjertesvigt. &lt;/li&gt;\n                           &lt;li&gt;Din læge vil nøje overvåge dit hjerte. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;Fortæl straks din læge, hvis du får nye eller forværrede tegn på hjertesvigt under behandlingen med Remicade. Tegn inkluderer åndenød eller hævede fødder.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Kræft og lymfom&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Fortæl din læge, før du får Remicade, hvis du har eller nogensinde har haft lymfom (en type blodkræft) eller enhver anden form for kræft. &lt;/li&gt;\n                           &lt;li&gt;Patienter med alvorlig reumatoid arthritis, som har haft sygdommen i lang tid, kan have en større risiko for at udvikle lymfom. &lt;/li&gt;\n                           &lt;li&gt;Børn og voksne i behandling med Remicade kan have en øget risiko for at udvikle lymfom eller anden form for kræft. &lt;/li&gt;\n                           &lt;li&gt;Nogle patienter, som har fået TNF-blokerende behandling, herunder Remicade, har udviklet en sjælden kræftform kaldet hepatosplenisk T-celle-lymfom. Af disse patienter var de fleste teenagedrenge eller unge mænd, hvoraf de fleste havde enten Crohns sygdom eller colitis ulcerosa. Denne type kræft har oftest haft dødelig udgang. Næsten alle patienterne havde også fået medicin, der indeholder azathioprin eller 6- mercaptopurin ud over den TNF-blokerende behandling. &lt;/li&gt;\n                           &lt;li&gt;Nogle patienter, der er blevet behandlet med infliximab, har udviklet visse former for hudkræft. Hvis der er forandringer i huden eller svulster på huden under eller efter behandlingen, skal du fortælle det til lægen. &lt;/li&gt;\n                           &lt;li&gt;Nogle kvinder, der er blevet behandlet for reumatoid arthritis med Remicade, har udviklet livmoderhalskræft. Lægen kan tilråde, at kvinder, der får Remicade, herunder kvinder over 60 år, bliver regelmæssigt screenet for livmoderhalskræft. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Lungesygdom eller højt tobaksforbrug&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Fortæl din læge, før du får Remicade, hvis du har en lungesygdom kaldet kronisk obstruktiv lungesygdom (KOL, rygerlunger), eller hvis du er storryger. &lt;/li&gt;\n                           &lt;li&gt;Patienter med KOL og patienter, som er storrygere, kan have en øget risiko for at udvikle kræft under behandling med Remicade. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Sygdom i nervesystemet&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Fortæl din læge, hvis du har eller nogensinde har haft en lidelse, som påvirker dit nervesystem, før du får Remicade. Dette inkluderer dissemineret sklerose, Guillain-Barré syndrom, hvis du har krampeanfald eller har fået stillet diagnosen ”optisk neuritis” (betændelse i synsnerven). &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;Fortæl straks din læge, hvis du får symptomer på en nervesygdom under behandlingen med Remicade. Tegn inkluderer synsændringer, muskelsvaghed i arme eller ben, følelsesløshed eller prikken et sted i kroppen.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Unormale hudåbninger&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Fortæl din læge, hvis du har unormale hudåbninger (fistler), før du får Remicade. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Vaccinationer&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Tal med din læge, hvis du lige er blevet eller har planlagt at blive vaccineret. &lt;/li&gt;\n                           &lt;li&gt;Du skal have de anbefalede vaccinationer, før du starter behandling med Remicade. Der er visse vaccinationer, du kan få, mens du er i behandling med Remicade, men du må ikke få levende vacciner (vacciner der indeholder et levende men svækket smitstof), da de kan give infektioner. &lt;/li&gt;\n                           &lt;li&gt;Hvis du har fået Remicade, mens du var gravid, kan dit barn også have en større risiko for at få en infektion som et resultat af at have fået en levende vaccine i løbet af det første leveår. Det er vigtigt, at du fortæller dit barns læger og andet sundhedspersonale, at du får Remicade, så de kan finde frem til, hvornår dit barn skal vaccineres; det gælder også levende vacciner som BCG-vaccinen (bruges til at forebygge tuberkulose). &lt;/li&gt;\n                           &lt;li&gt;Hvis du ammer, er det vigtigt, at du fortæller dit barns læge eller andet sundhedspersonale, at du har fået Remicade, før barnet bliver vaccineret. Se afsnittet om Graviditet, amning og frugtbarhed for yderligere information. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Terapeutiske smitstoffer&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Tal med din læge, hvis du fornylig har fået eller det er planlagt, at du skal have behandling med et terapeutisk smitstof (fx instillation af BCG til behandling af kræft). &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Operationer eller tandindgreb&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Fortæl din læge, hvis du skal have foretaget en operation eller et tandindgreb. &lt;/li&gt;\n                           &lt;li&gt;Fortæl kirurgen eller tandlægen, at du er i behandling med Remicade ved at vise dem dit patientinformationskort. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Leverproblemer&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Nogle patienter, der får Remicade, har udviklet alvorlige leverproblemer. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;Fortæl det straks til lægen, hvis du får symptomer på leverproblemer under behandlingen med Remicade. Tegn omfatter gulfarvning af hud og øjne, mørkebrun urin, smerter eller hævelse i øvre højre side af maven, ledsmerter, hududslæt eller feber.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Lave blodtal&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Hos nogle patienter, som får Remicade, kan kroppen måske ikke lave nok af de blodlegemer, der skal hjælpe med at bekæmpe infektioner eller stoppe blødning. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;Fortæl det straks til lægen, hvis du får symptomer på lave blodtal under behandlingen med Remicade. Tegn omfatter vedvarende feber, større tendens til blødning eller blå mærker, små røde eller lilla pletter, der skyldes blødning under huden, eller bleghed.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Sygdomme i immunsystemet&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Nogle patienter, der får Remicade, har udviklet symptomer på en sygdom i immunsystemet kaldet lupus. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;Fortæl det straks til lægen, hvis du får symptomer på lupus under behandlingen med Remicade. Tegn omfatter ledsmerter eller udslæt på kinder eller arme, som er følsomme over for solen.&lt;/div&gt;\n                        &lt;h3&gt;  Børn og unge  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Ovenstående oplysninger gælder også for børn og unge. Derudover gælder, at:&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Nogle børn og unge, som har fået TNF-blokkere såsom Remicade, har udviklet kræft inklusive usædvanlige typer kræft, som i visse tilfælde har været dødelige. &lt;/li&gt;\n                           &lt;li&gt;Flere børn end voksne, der får Remicade, fik infektioner. &lt;/li&gt;\n                           &lt;li&gt;Børn skal have de anbefalede vaccinationer, før behandling med Remicade påbegyndes. Børn kan få visse vacciner under behandlingen med Remicade, men må ikke få levende vacciner, mens de får Remicade. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du er i tvivl, om noget af ovenstående passer på dig, skal du tale med din læge, før du får Remicade.&lt;/div&gt;\n                        &lt;h3&gt;  Brug af anden medicin sammen med Remicade  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Patienter, som har betændelsessygdomme, tager allerede medicin for at behandle deres lidelse. Disse lægemidler kan give bivirkninger. Din læge vil rådgive dig om, hvilke andre lægemidler du skal blive ved med at tage, mens du er i behandling med Remicade.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Fortæl altid lægen, hvis du bruger anden medicin, for nylig har brugt anden medicin eller planlægger at bruge anden medicin. Dette gælder også medicin til behandling af Crohns sygdom, colitis ulcerosa, reumatoid arthritis, ankyloserende spondylitis, psoriasisarthritis eller psoriasis eller medicin, som ikke er købt på recept, fx vitaminer og naturlægemidler.&lt;br/&gt;\n                           &lt;br/&gt;Det er specielt vigtigt, at du fortæller din læge, hvis du får nogen af følgende lægemidler:&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Lægemidler som påvirker dit immunsystem. &lt;/li&gt;\n                           &lt;li&gt;Kineret (anakinra). Du må ikke få Remicade og Kineret samtidig. &lt;/li&gt;\n                           &lt;li&gt;Orencia (abatacept). Du må ikke få Remicade og Orencia samtidig. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Du må ikke få levende vacciner, mens du får Remicade. Hvis du har fået Remicade, mens du var gravid, eller hvis du får Remicade, mens du ammer, skal du fortælle dit barns læge og andet sundhedspersonale, der tager sig af dit barn, at du har fået Remicade, før barnet bliver vaccineret.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du er i tvivl, om noget af ovenstående passer på dig, skal du tale med din læge eller apotekspersonalet, før du får Remicade.&lt;/div&gt;\n                        &lt;h3&gt;  Graviditet, amning og frugtbarhed  &lt;/h3&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din læge til råds, før du får dette lægemiddel. Du må kun få Remicade under graviditeten, eller mens du ammer, hvis lægen finder det nødvendigt. &lt;/li&gt;\n                           &lt;li&gt;Du skal undgå at blive gravid, mens du er i behandling med Remicade, og i mindst 6 måneder efter du er stoppet med behandlingen. Tal med lægen om anvendelse af prævention i denne tidsperiode. &lt;/li&gt;\n                           &lt;li&gt;Hvis du fik Remicade under graviditeten, kan dit barn have en øget risiko for at få en infektion. &lt;/li&gt;\n                           &lt;li&gt;Det er vigtigt, at du fortæller dit barns læge og andet sundhedspersonale, at du har fået Remicade, før barnet bliver vaccineret. Hvis du har fået Remicade under graviditeten, kan vaccination af dit barn med BCG-vaccine (bruges til at forebygge tuberkulose) inden for 12 måneder efter fødslen medføre infektion med alvorlige komplikationer herunder død. Dit barn må ikke få levende vacciner som BCG-vaccinen inden for 12 måneder efter fødslen, medmindre barnets læge anbefaler noget andet. For mere information, se afsnit om vaccination.&lt;/li&gt;\n                           &lt;li&gt;Hvis du ammer, er det vigtigt, at du fortæller dit barns læge eller andet sundhedspersonale, at du har fået Remicade, før barnet bliver vaccineret. Dit barn må ikke få levende vacciner, mens du ammer, medmindre barnets læge anbefaler noget andet.&lt;/li&gt;\n                           &lt;li&gt;Alvorligt fald i antal hvide blodlegemer er set hos spædbørn født af kvinder, der er blevet behandlet med Remicade under graviditeten. Hvis dit barn hyppigt får feber eller infektioner, skal du omgående kontakte barnets læge. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;h3&gt;  Trafik- og arbejdssikkerhed  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Remicade påvirker sandsynligvis ikke arbejdssikkerheden eller evnen til at færdes sikkert i trafikken. Hvis du føler dig træt, svimmel eller utilpas efter at have fået Remicade, må du ikke køre bil eller betjene nogen form for maskiner.&lt;/div&gt;\n                        &lt;h3&gt;  Remicade indeholder natrium  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Remicade indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det væsentlige ”natriumfrit”. Men før du får Remicade, blandes det sammen med en opløsning, som indeholder natrium. Tal med din læge, hvis du er på en diæt med et lavt saltindhold.&lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "3. Sådan får du Remicade" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029905" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section3\"/&gt;\n                        &lt;div&gt;&nbsp;&lt;/div&gt;\n                        &lt;h2&gt;3. Sådan får du Remicade&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Reumatoid arthritis&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Den sædvanlige dosis er 3 mg pr. kg kropsvægt.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Psoriasisarthritis, ankyloserende spondylitis (Bekhterevs sygdom), psoriasis, colitis ulcerosa og Crohns sygdom &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Den sædvanlige dosis er 5 mg pr. kg kropsvægt.&lt;/div&gt;\n                        &lt;h3&gt;  Sådan får du Remicade  &lt;/h3&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Du vil få Remicade af din læge eller sygeplejerske. &lt;/li&gt;\n                           &lt;li&gt;Din læge eller sygeplejerske vil klargøre medicinen til infusion. &lt;/li&gt;\n                           &lt;li&gt;Medicinen vil blive givet som en infusion (drop) (over 2 timer) i en af dine blodårer (vener), sædvanligvis i armen. Efter den tredje behandling kan din læge beslutte at give dig din dosis Remicade over 1 time. &lt;/li&gt;\n                           &lt;li&gt;Du vil blive overvåget, mens du får Remicade og i 1-2 timer derefter. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;h3&gt;  Den sædvanlige dosis  &lt;/h3&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Lægen vil bestemme din dosis og hvor ofte, du skal have Remicade. Dette vil afhænge af din sygdom, vægt og hvor godt, du reagerer på Remicade. &lt;/li&gt;\n                           &lt;li&gt;Tabellen nedenfor viser, hvor ofte du sædvanligvis vil få denne medicin efter din første dosis. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;table border=\"1\" cellpadding=\"4\" cellspacing=\"0\" width=\"50%\" style=\"border-collapse:collapse;\"&gt;\n                           &lt;colgroup&gt;\n                              &lt;col width=\"50%\"/&gt;\n                              &lt;col width=\"50%\"/&gt;\n                           &lt;/colgroup&gt;\n                           &lt;tr&gt;\n                              &lt;td style=\"width:50%;\" valign=\"top\" align=\"left\"&gt;\n                                 &lt;div class=\"paragraph\"&gt;2. dosis&lt;/div&gt;\n                              &lt;/td&gt;\n                              &lt;td style=\"width:50%;\" valign=\"top\" align=\"left\"&gt;\n                                 &lt;div class=\"paragraph\"&gt;2 uger efter din 1. dosis&lt;/div&gt;\n                              &lt;/td&gt;\n                           &lt;/tr&gt;\n                           &lt;tr&gt;\n                              &lt;td style=\"width:50%;\" valign=\"top\" align=\"left\"&gt;\n                                 &lt;div class=\"paragraph\"&gt;3. dosis&lt;/div&gt;\n                              &lt;/td&gt;\n                              &lt;td style=\"width:50%;\" valign=\"top\" align=\"left\"&gt;\n                                 &lt;div class=\"paragraph\"&gt;6 uger efter din 1. dosis&lt;/div&gt;\n                              &lt;/td&gt;\n                           &lt;/tr&gt;\n                           &lt;tr&gt;\n                              &lt;td style=\"width:50%;\" valign=\"top\" align=\"left\"&gt;\n                                 &lt;div class=\"paragraph\"&gt;Efterfølgende doser&lt;/div&gt;\n                              &lt;/td&gt;\n                              &lt;td style=\"width:50%;\" valign=\"top\" align=\"left\"&gt;\n                                 &lt;div class=\"paragraph\"&gt;Hver 6. til 8. uge afhængig af din sygdom&lt;/div&gt;\n                              &lt;/td&gt;\n                           &lt;/tr&gt;\n                        &lt;/table&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Brug til børn og unge &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Remicade må kun anvendes til børn, hvis de behandles for Crohns sygdom eller colitis ulcerosa. &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Børnene skal være 6 år eller ældre.&lt;/div&gt;\n                        &lt;h3&gt;  Hvis du får for meget Remicade  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Da du får denne medicin af din læge eller sygeplejerske, er det usandsynligt, at du vil få for meget. &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Der kendes ikke til bivirkninger efter at have fået for meget Remicade.&lt;/div&gt;\n                        &lt;h3&gt;  Hvis du har glemt eller kommer for sent til din Remicade-infusion  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du glemmer eller kommer for sent til en aftale, hvor Remicade gives, skal du lave en ny aftale så hurtigt som muligt.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Spørg lægen, hvis der er noget, du er i tvivl om.&lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "4. Bivirkninger" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029910" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section4\"/&gt;\n                        &lt;div&gt;&nbsp;&lt;/div&gt;\n                        &lt;h2&gt;4. Bivirkninger&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De fleste bivirkninger er lette til moderate. Nogle patienter kan dog opleve alvorlige bivirkninger, som kan kræve behandling. Bivirkninger kan også opstå efter ophør af din behandling med Remicade.&lt;/div&gt;\n                        &lt;h3&gt;  Fortæl straks din læge, hvis du bemærker noget af følgende:  &lt;/h3&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;\n                              &lt;b&gt;Tegn på en allergisk reaktion&lt;/b&gt; såsom hævelse af ansigt, læber, mund eller svælg, som kan forårsage besvær med at synke eller trække vejret, kløende udslæt, hævelse af hænder, fødder eller ankler. Nogle af disse reaktioner kan være alvorlige eller livstruende. En allergisk reaktion kan opstå inden for 2 timer efter din injektion eller senere. Yderligere tegn på allergiske bivirkninger, som kan opstå op til 12 dage efter din injektion, inkluderer muskelsmerter, feber, led- eller kæbesmerter, ondt i halsen eller hovedpine. &lt;/li&gt;\n                           &lt;li&gt;\n                              &lt;b&gt;Tegn på hjerteproblemer&lt;/b&gt; såsom ubehag i brystkassen eller brystsmerter, armsmerter, mavesmerter, åndenød, angst, ørhed, svimmelhed, besvimelse, svedtendens, kvalme (utilpashed), opkastning, skælven eller banken i brystet, hurtigt eller langsomt hjerteslag og hævede fødder. &lt;/li&gt;\n                           &lt;li&gt;\n                              &lt;b&gt;Tegn på infektion (inklusive tuberkulose (TB))&lt;/b&gt; såsom feber, træthedsfølelse, hoste, der kan være vedvarende, åndenød, influenzalignende symptomer, vægttab, natlig svedtendens, diarré, sår, ansamling af pus i tarmen eller omkring anus (absces), tandproblemer eller brændende smerte, når du lader vandet. &lt;/li&gt;\n                           &lt;li&gt;\n                              &lt;b&gt;Mulige tegn på kræft, &lt;/b&gt;inklusive men ikke begrænset til hævede lymfeknuder, vægttab, feber, usædvanlige knuder i huden, ændringer i modermærker eller hudfarven eller usædvanlig blødning fra skeden. &lt;/li&gt;\n                           &lt;li&gt;\n                              &lt;b&gt;Tegn på lungeproblemer&lt;/b&gt; såsom hoste, åndedrætsbesvær eller trykken for brystet. &lt;/li&gt;\n                           &lt;li&gt;\n                              &lt;b&gt;Tegn på et problem i nervesystemet (inklusive øjenproblemer)&lt;/b&gt; såsom tegn på slagtilfælde (pludselig følelsesløshed eller svaghed i ansigt, arme eller ben, særligt i den ene side af kroppen; pludselig forvirring, besvær med at tale eller forstå; besvær med at se med det ene eller begge øjne, gangbesvær, svimmelhed, tab af balance- eller koordinationsevne eller svær hovedpine), krampanfald, prikken/følelsesløshed et sted i kroppen, eller svaghed i arme eller ben, ændringer i synet såsom dobbeltsyn eller andre øjenproblemer. &lt;/li&gt;\n                           &lt;li&gt;\n                              &lt;b&gt;Tegn på leverproblemer &lt;/b&gt;(inklusive hepatitis B-infektion, hvis du tidligere har haft hepatitis B) såsom gulfarvning af hud eller øjne, mørkebrun urin, smerter eller hævelser i øvre højre side af maven, ledsmerter, hududslæt eller feber. &lt;/li&gt;\n                           &lt;li&gt;\n                              &lt;b&gt;Tegn på en sygdom i immunsystemet &lt;/b&gt;såsom ledsmerter, udslæt på kinder eller arme, som er følsomme over for solen (lupus) eller hoste, åndenød, feber eller hududslæt (sarkoidose). &lt;/li&gt;\n                           &lt;li&gt;\n                              &lt;b&gt;Tegn på lave blodtal&lt;/b&gt; såsom vedvarende feber, blødningstendens, tendens til lettere at få blå mærker, små røde eller lilla pletter, der skyldes blødning under huden, eller bleghed. &lt;/li&gt;\n                           &lt;li&gt;\n                              &lt;b&gt;Tegn på alvorlige hudproblemer&lt;/b&gt; såsom rødlige, målskivelignende pletter eller runde områder ofte med blærer centralt på kroppen, store områder med afskalning (eksfoliation) samt sår i mund, svælg, næse, kønsorganer og øjne eller små pusholdige blærer, som kan sprede sig over hele kroppen. Disse hudreaktioner kan være ledsaget af feber. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Fortæl straks din læge, hvis du bemærker noget af ovenstående.&lt;/div&gt;\n                        &lt;h3&gt;  Følgende bivirkninger er observeret med Remicade:  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Meget almindelig: kan forekomme hos flere end 1 ud af 10 personer&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Mavesmerter, kvalme &lt;/li&gt;\n                           &lt;li&gt;Virusinfektioner såsom herpes eller influenza &lt;/li&gt;\n                           &lt;li&gt;Øvre luftvejsinfektioner såsom bihulebetændelse &lt;/li&gt;\n                           &lt;li&gt;Hovedpine &lt;/li&gt;\n                           &lt;li&gt;Bivirkninger i forbindelse med infusionen &lt;/li&gt;\n                           &lt;li&gt;Smerter. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Almindelig: kan forekomme hos op til 1 ud af 10 personer&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Ændringer i hvordan din lever fungerer, forhøjede leverenzymer (vist i blodprøver) &lt;/li&gt;\n                           &lt;li&gt;Infektioner i lunger eller luftveje såsom bronkitis eller lungebetændelse &lt;/li&gt;\n                           &lt;li&gt;Besværet eller smertefuldt vejrtrækning, smerter i brystet &lt;/li&gt;\n                           &lt;li&gt;Blødning i mave eller tarme, diarré, fordøjelsesbesvær, halsbrand, forstoppelse &lt;/li&gt;\n                           &lt;li&gt;Nældefeber, kløende udslæt eller tør hud &lt;/li&gt;\n                           &lt;li&gt;Balanceproblemer eller svimmelhed &lt;/li&gt;\n                           &lt;li&gt;Feber, øget svedtendens &lt;/li&gt;\n                           &lt;li&gt;Kredsløbsproblemer såsom for lavt eller for højt blodtryk &lt;/li&gt;\n                           &lt;li&gt;Blå mærker, hedeture eller næseblod, varm, rød hud (rødmen) &lt;/li&gt;\n                           &lt;li&gt;Trætheds- eller svaghedsfølelse &lt;/li&gt;\n                           &lt;li&gt;Bakterieinfektioner såsom blodforgiftning, byld eller infektion under huden (cellulitis) &lt;/li&gt;\n                           &lt;li&gt;Svampeinfektion i huden &lt;/li&gt;\n                           &lt;li&gt;Blodproblemer såsom blodmangel eller lavt antal hvide blodlegemer &lt;/li&gt;\n                           &lt;li&gt;Hævede lymfeknuder &lt;/li&gt;\n                           &lt;li&gt;Depression, problemer med at sove &lt;/li&gt;\n                           &lt;li&gt;Øjenproblemer inklusive røde øjne og øjeninfektioner &lt;/li&gt;\n                           &lt;li&gt;Galoperende hjerte (hurtig puls) eller hjertebanken &lt;/li&gt;\n                           &lt;li&gt;Smerter i leddene, musklerne eller ryggen &lt;/li&gt;\n                           &lt;li&gt;Urinvejsinfektion &lt;/li&gt;\n                           &lt;li&gt;Psoriasis, hudproblemer såsom eksem og hårtab &lt;/li&gt;\n                           &lt;li&gt;Reaktioner på injektionsstedet såsom smerte, hævelse, rødme eller kløe &lt;/li&gt;\n                           &lt;li&gt;Kuldegysninger, hævelse på grund af ophobning af væske under huden &lt;/li&gt;\n                           &lt;li&gt;Følelsesløshed eller en prikkende fornemmelse. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Ikke almindelig: kan forekomme hos op til 1 ud af 100 personer&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Manglende blodtilførsel, hævelse af en blodåre &lt;/li&gt;\n                           &lt;li&gt;Ansamling af blod uden for blodkarrene (hæmatom) eller blå mærker &lt;/li&gt;\n                           &lt;li&gt;Hudproblemer såsom blæredannelse, vorter, unormal hudfarve eller pigmentering, eller hævede læber, eller fortykkelse af huden eller rød, skællende hud og afskalning af huden &lt;/li&gt;\n                           &lt;li&gt;Alvorlige allergiske reaktioner (fx anafylaksi), en sygdom i immunsystemet kaldet lupus, allergiske reaktioner over for fremmede proteiner &lt;/li&gt;\n                           &lt;li&gt;Længere sårhelingstid &lt;/li&gt;\n                           &lt;li&gt;Hævelse af lever (hepatitis) eller galdeblære, leverskade &lt;/li&gt;\n                           &lt;li&gt;Glemsomhed, irritabilitet, forvirring, nervøsitet &lt;/li&gt;\n                           &lt;li&gt;Øjenproblemer inklusive sløret eller nedsat syn, hævede øjne eller bygkorn &lt;/li&gt;\n                           &lt;li&gt;Debuterende eller forværring af eksisterende hjertesvigt, langsom hjertefrekvens (puls) &lt;/li&gt;\n                           &lt;li&gt;Besvimelse &lt;/li&gt;\n                           &lt;li&gt;Kramper, nerveforstyrrelser &lt;/li&gt;\n                           &lt;li&gt;Hul i tarmen eller blokering af tarmen, mavesmerter eller -kramper &lt;/li&gt;\n                           &lt;li&gt;Hævelse af bugspytkirtlen (bugspytkirtelbetændelse) &lt;/li&gt;\n                           &lt;li&gt;Svampeinfektioner såsom gærsvampeinfektion eller svampeinfektion i neglene &lt;/li&gt;\n                           &lt;li&gt;Lungeproblemer såsom ødemer &lt;/li&gt;\n                           &lt;li&gt;Væske rundt om lungerne (pleuraekssudat) &lt;/li&gt;\n                           &lt;li&gt;Forsnævrede luftveje i lungerne, der giver åndedrætsbesvær &lt;/li&gt;\n                           &lt;li&gt;Lungehindebetændelse, der giver skape smerter, som forværres ved vejrtrækning (pleuritis) &lt;/li&gt;\n                           &lt;li&gt;Tuberkulose &lt;/li&gt;\n                           &lt;li&gt;Nyreinfektioner &lt;/li&gt;\n                           &lt;li&gt;Lavt antal blodplader, for mange hvide blodlegemer &lt;/li&gt;\n                           &lt;li&gt;Infektioner i skeden &lt;/li&gt;\n                           &lt;li&gt;Blodprøveresultater, der viser ‘antistoffer’ mod din egen krop &lt;/li&gt;\n                           &lt;li&gt;Ændringer i kolesterol- og fedtindholdet i blodet. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Sjælden: kan forekomme hos op til 1 ud af 1.000 personer&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;En type blodkræft (lymfom) &lt;/li&gt;\n                           &lt;li&gt;Blodet tilfører ikke nok ilt til kroppen, kredsløbsproblemer såsom indsnævring af et blodkar &lt;/li&gt;\n                           &lt;li&gt;Betændelse i hjernehinderne (meningitis) &lt;/li&gt;\n                           &lt;li&gt;Infektioner, som skyldes nedsat immunforsvar &lt;/li&gt;\n                           &lt;li&gt;Hepatitis B-infektion, hvis du tidligere har haft hepatitis B &lt;/li&gt;\n                           &lt;li&gt;Betændelsestilstand i leveren forårsaget af et problem med immunsystemet (autoimmun hepatitis) &lt;/li&gt;\n                           &lt;li&gt;Leverproblemer, der giver gulfarvning af hud eller øjne (gulsot) &lt;/li&gt;\n                           &lt;li&gt;Unormal vævshævelse eller -vækst &lt;/li&gt;\n                           &lt;li&gt;Alvorlig allergisk reaktion, som kan medføre tab af bevidsthed og kan være livstruende (anafylaktisk shock) &lt;/li&gt;\n                           &lt;li&gt;Hævelse af små blodkar (blodkarbetændelse) &lt;/li&gt;\n                           &lt;li&gt;Immunsystemdefekt, som kan påvirke lunger, hud og lymfekirtler (såsom sarkoidose) &lt;/li&gt;\n                           &lt;li&gt;Ansamling af immunceller som følge af et inflammatorisk respons (granulomatøse læsioner) &lt;/li&gt;\n                           &lt;li&gt;Mangel på interesse eller følelser &lt;/li&gt;\n                           &lt;li&gt;Alvorlige hudproblemer såsom toksisk epidermal nekrolyse, Stevens-Johnsons syndrom og akut generaliseret eksantematøs pustulose &lt;/li&gt;\n                           &lt;li&gt;Andre hudproblemer såsom erythema multiforme, lichenoide reaktioner (kløende, rødligt-lilla hududslæt og/eller trådlignende gråhvide linjer på slimhinderne), blærer og afskalning af huden eller bylder (furunkulose) &lt;/li&gt;\n                           &lt;li&gt;Alvorlige lidelser i nervesystemet såsom transversal myelitis, multipel sklerose-lignende sygdom, optisk neuritis og Guillain-Barrés syndrom &lt;/li&gt;\n                           &lt;li&gt;Øjenbetændelse, der kan forårsage synsforandringer, inklusive blindhed &lt;/li&gt;\n                           &lt;li&gt;Væske omkring hjertet (perikardial effusion) &lt;/li&gt;\n                           &lt;li&gt;Alvorlige lungeproblemer (såsom interstitiel lungesygdom) &lt;/li&gt;\n                           &lt;li&gt;Melanom (en type hudkræft) &lt;/li&gt;\n                           &lt;li&gt;Livmoderhalskræft &lt;/li&gt;\n                           &lt;li&gt;Lave blodtal, herunder svært nedsat antal hvide blodlegemer &lt;/li&gt;\n                           &lt;li&gt;Små røde eller lilla pletter, der skyldes blødning under huden &lt;/li&gt;\n                           &lt;li&gt;Unormale værdier for et protein i blodet kaldet ‘komplementfaktor’, som er en del af immunsystemet. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Ikke kendt: hyppigheden kan ikke estimeres ud fra forhåndenværende data&lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Kræft hos børn og voksne &lt;/li&gt;\n                           &lt;li&gt;En sjælden blodkræft som hovedsageligt rammer teenagedrenge eller unge mænd (hepatosplenisk T-celle-lymfom) &lt;/li&gt;\n                           &lt;li&gt;Leversvigt &lt;/li&gt;\n                           &lt;li&gt;Merkelcellekarcinom (en type hudkræft) &lt;/li&gt;\n                           &lt;li&gt;Kaposis sarkom, en sjælden type kræft, der er forbundet med infektion med humant herpesvirus 8. Kaposis sarkom forekommer oftest som lilla læsioner på huden. &lt;/li&gt;\n                           &lt;li&gt;Forværring af en sygdom der hedder dermatomyositis (muskelsvaghed med hududslæt som følgetilstand) &lt;/li&gt;\n                           &lt;li&gt;Hjerteanfald &lt;/li&gt;\n                           &lt;li&gt;Slagtilfælde &lt;/li&gt;\n                           &lt;li&gt;Midlertidigt synstab under eller inden for 2 timer efter infusionen &lt;/li&gt;\n                           &lt;li&gt;Infektion, der skyldes en levende vaccine, som følge af et svækket immunsystem. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;b&gt;Hos børn og unge ses yderligere følgende bivirkninger: &lt;/b&gt;\n                        &lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;De bivirkninger, som børn i behandling med Remicade mod Crohns sygdom fik, var forskellige fra de bivirkninger, som voksne i behandling med Remicade mod Crohns sygdom fik. Følgende bivirkninger forekom hyppigere hos børn: nedsat antal røde blodlegemer (anæmi), blod i afføringen, nedsat samlet indhold af hvide blodlegemer (leukopeni), anfaldsvis ansigtsrødme, virusinfektioner, lavt indhold af hvide blodlegemer, der bekæmper infektion (neutropeni), knoglebrud, bakterieinfektion og allergiske reaktioner i luftvejene.&lt;/div&gt;\n                        &lt;h3&gt;  Indberetning af bivirkninger  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via Lægemiddelstyrelsen, Axel Heides Gade 1, DK-2300 København S, Websted: www.meldenbivirkning.dk. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;\n                           &lt;a href=\"https://www.meldenbivirkning.dk\" title=\"Meld en bivirkning\"&gt;\n								Meld en bivirkning.\n							&lt;/a&gt;\n                        &lt;/div&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "5. Opbevaring" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029913" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section5\"/&gt;\n                        &lt;div&gt;&nbsp;&lt;/div&gt;\n                        &lt;h2&gt;5. Opbevaring&lt;/h2&gt;\n                        &lt;div class=\"paragraph\"&gt;Remicade opbevares normalt af sundhedspersonalet. Skulle du få brug for information omkring opbevaring, gælder følgende:&lt;/div&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Opbevar lægemidlet utilgængeligt for børn &lt;/li&gt;\n                           &lt;li&gt;Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned &lt;/li&gt;\n                           &lt;li&gt;Opbevares i køleskab (2 °C - 8 °C) &lt;/li&gt;\n                           &lt;li&gt;Lægemidlet kan også opbevares i den originale karton uden for køleskab ved højst 25 °C i en enkelt periode på op til 6 måneder, men den oprindelige udløbsdato må ikke overskrides. I denne situation må det ikke sættes tilbage i køleskab. Skriv den nye udløbsdato på æsken med dag/måned/år. Kasser lægemidlet, hvis det ikke er brugt før den nye udløbsdato eller den dato, der er trykt på æsken, alt efter, hvilken dato der kommer først. &lt;/li&gt;\n                           &lt;li&gt;Det anbefales, at Remicade anvendes så hurtigt som muligt (inden for 3 timer), efter det er klargjort til infusion. Hvis opløsningen er klargjort under aseptiske betingelser, kan den dog opbevares i køleskab ved 2 °C - 8 °C i op til 28 dage og i yderligere 24 timer ved 25 °C efter udtagning fra køleskab. &lt;/li&gt;\n                           &lt;li&gt;Brug ikke dette lægemiddel, hvis det er misfarvet, eller hvis det indeholder partikler. &lt;/li&gt;\n                        &lt;/ul&gt;\n                     &lt;/div&gt;"       ]     ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "6. Pakningsstørrelser og yderligere oplysninger" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+        ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029914" ]         ] )       ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                        &lt;a name=\"Section6\"/&gt;\n                        &lt;div&gt;&nbsp;&lt;/div&gt;\n                        &lt;h2&gt;6. Pakningsstørrelser og yderligere oplysninger&lt;/h2&gt;\n                        &lt;h3&gt;  Remicade indeholder  &lt;/h3&gt;\n                        &lt;ul&gt;\n                           &lt;li&gt;Aktivt stof: infliximab. Hvert hætteglas indeholder 100 mg infliximab. Efter klargøring indeholder hver ml 10 mg infliximab. &lt;/li&gt;\n                           &lt;li&gt;Øvrige indholdsstoffer: saccharose, polysorbat 80, natriumdihydrogenphosphat og dinatriumphosphatdihydrat. &lt;/li&gt;\n                        &lt;/ul&gt;\n                        &lt;h3&gt;  Udseende og pakningsstørrelser  &lt;/h3&gt;\n                        &lt;div class=\"paragraph\"&gt;Remicade leveres som et hætteglas (glasflaske) indeholdende et pulver til koncentrat til infusionsvæske, opløsning. Pulveret er en frysetørret hvid pellet.&lt;/div&gt;\n                        &lt;div class=\"paragraph\"&gt;Remicade fremstilles i kartoner med 1, 2, 3, 4 eller 5 hætteglas. Ikke alle pakningsstørrelser er nødvendigvis markedsført.&lt;/div&gt;\n                     &lt;/div&gt;"       ] ;
+      ( <a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">fhir:section</a> [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Indehaver af markedsføringstilladelsen og fremstiller" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029917" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h2&gt;Indehaver af markedsføringstilladelsen og fremstiller&lt;/h2&gt;\n                           &lt;h3&gt;  Indehaver af markedsføringstilladelsen og fremstiller  &lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Janssen Biologics B.V.&lt;br/&gt;Einsteinweg 101 &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;2333 CB Leiden &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Holland &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale repræsentant for indehaveren af markedsføringstilladelsen:&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;MSD Danmark ApS &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Tlf: + 45 4482 4000&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;dkmail@merck.com&lt;/div&gt;\n                           &lt;h3&gt;  Andre informationskilder  &lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs hjemmeside http://www.ema.europa.eu/.&lt;/div&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Denne indlægsseddel blev senest ændret 02/2022" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029919" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;h2&gt; Denne indlægsseddel blev senest ændret 02/2022&lt;/h2&gt;\n                        &lt;/div&gt;"         ]       ] [
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "7. Oplysninger tiltænkt læger og sundhedspersonale" ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">fhir:code</a> [
+          ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "https://spor.ema.europa.eu/v1/lists/200000029659/terms/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "200000029921" ]           ] )         ] ;
+<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "additional" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n                           &lt;a name=\"Section8\"/&gt;\n                           &lt;div&gt;&nbsp;&lt;/div&gt;\n                           &lt;h2&gt;7. Oplysninger tiltænkt læger og sundhedspersonale&lt;/h2&gt;\n                           &lt;div class=\"paragraph\"&gt;Nedenstående oplysninger er til læger og sundhedspersonale: &lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Patientinformationskortet skal udleveres til patienter, som er i behandling med Remicade.&lt;/div&gt;\n                           &lt;h3&gt;  Instruktion i anvendelse og håndtering - opbevaring  &lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;Opbevares ved 2 °C - 8 °C.&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;&nbsp;&lt;/div&gt;\n                           &lt;div class=\"paragraph\"&gt;Remicade kan opbevares ved temperaturer på op til højst 25 °C i en enkelt periode på op til 6 måneder, men den oprindelige udløbsdato må ikke overskrides. Den nye udløbsdato skal skrives på kartonen. Når Remicade er taget ud af køleskabet, må det ikke sættes tilbage på køl igen.&lt;/div&gt;\n                           &lt;h3&gt;  Instruktion i anvendelse og håndtering - rekonstitution, fortynding og administration  &lt;/h3&gt;\n                           &lt;div class=\"paragraph\"&gt;For at øge sporbarheden af biologiske lægemidler skal præparatnavnet og lot-nummeret på det administrerede lægemiddel tydeligt noteres.&lt;/div&gt;\n                           &lt;ol&gt;\n                              &lt;li&gt;Beregn dosis og det nødvendige antal Remicade-hætteglas. Hvert Remicade-hætteglas indeholder 100 mg infliximab. Beregn det samlede påkrævede volumen rekonstitueret Remicade-koncentrat. &lt;br/&gt;\n                                 &lt;br/&gt;\n                              &lt;/li&gt;\n                              &lt;li&gt;Rekonstituer under aseptiske forhold hvert Remicade-hætteglas med 10 ml vand til injektionsvæsker ved hjælp af en sprøjte med en gauge 21 (0,8 mm) kanyle eller en mindre kanyle. Fjern plastiklåget fra hætteglasset og tør toppen med en 70 % alkoholvatpind. Indsæt sprøjtekanylen i hætteglasset gennem midten af gummiproppen og ret injektionsvæskestrømmen mod glasvæggen i hætteglasset. Bland forsigtigt koncentratet ved at vende hætteglasset for at opløse det lyofiliserede pulver. Undgå at svinge for længe eller for kraftigt. MÅ IKKE RYSTES. Opskumning af koncentratet ved rekonstitution er ikke usædvanlig. Lad det rekonstituerede koncentrat stå i 5 minutter. Kontroller at koncentratet er farveløst til lysegult og opaliserende. Der kan opstå nogle få fine gennemsigtige partikler i koncentratet, da infliximab er et protein. Koncentratet må ikke anvendes, hvis det indeholder uigennemsigtige partikler, er misfarvet eller indeholder andre fremmedlegemer. &lt;br/&gt;\n                                 &lt;br/&gt;\n                              &lt;/li&gt;\n                              &lt;li&gt;Fortynd den samlede dosis (volumen) af det rekonstituerede Remicade-koncentrat til 250 ml med natriumchlorid 9 mg/ml (0,9 %) infusionsvæske. Fortynd ikke det rekonstituerede Remicade-koncentrat med andre infusionsvæsker. Fortyndingen kan opnås ved at udtrække et volumen af natriumchlorid 9 mg/ml (0,9 %) infusionsvæske fra 250 ml glasflasken eller infusionsposen svarende til voluminet af det rekonstituerede Remicade-koncentrat. Tilføj langsomt det samlede volumen af rekonstitueret Remicade-koncentrat til 250 ml infusionsflasken eller -posen. Bland forsigtigt. Brug enten en større infusionspose (fx 500 ml, 1.000 ml) til voluminer over 250 ml eller brug flere 250 ml infusionsposer for at sikre, at koncentrationen af infusionsvæsken ikke overstiger 4 mg/ml. Hvis infusionsvæsken har været opbevaret i køleskab efter rekonstitution og fortynding, skal den have tid til at opnå stuetemperatur (25 °C) i 3 timer forud for trin 4 (infusion). Opbevaring i mere end 24 timer ved 2 °C - 8 °C gælder udelukkende for klargøring af Remicade i infusionsposen. &lt;br/&gt;\n                                 &lt;br/&gt;\n                              &lt;/li&gt;\n                              &lt;li&gt;Indgiv infusionsvæsken over en periode på ikke mindre end den anbefalede infusionstid. Anvend kun et infusionssæt med et in-line, sterilt, ikke-pyrogent, minimalt proteinbindende filter (porestørrelse 1,2 &mu;m eller derunder). Da der ikke er anvendt konserveringsmiddel, anbefales det, at indgivelsen af infusionsvæsken påbegyndes så hurtigt som muligt og inden for 3 timer efter rekonstitution og fortynding. Hvis infusionsvæsken ikke anvendes straks, er opbevaringstider og -forhold efter anbrud indtil anvendelse brugerens ansvar, og de vil normalt ikke overskride 24 timer ved 2 °C - 8 °C, medmindre rekonstitution/fortynding har fundet sted under kontrollerede og validerede aseptiske forhold. Opbevar ikke rester af den ikke anvendte infusionsvæske til fornyet brug. &lt;br/&gt;\n                                 &lt;br/&gt;\n                              &lt;/li&gt;\n                              &lt;li&gt;Der er ikke gennemført biokemiske forligelighedsstudier for at vurdere samtidig indgivelse af Remicade med andre midler. Infunder ikke Remicade i den samme intravenøse slange med andre midler. &lt;br/&gt;\n                                 &lt;br/&gt;\n                              &lt;/li&gt;\n                              &lt;li&gt;Undersøg Remicade visuelt for partikler eller misfarvning før indgivelsen. Anvendes ikke, hvis der observeres synligt uigennemsigtige partikler, misfarvning eller fremmedlegemer. &lt;br/&gt;\n                                 &lt;br/&gt;\n                              &lt;/li&gt;\n                              &lt;li&gt;Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. &lt;/li&gt;\n                           &lt;/ol&gt;\n                        &lt;/div&gt;"         ]       ] )     ] )
+  ] ) . # 
+
+</pre>
+
+
+
+    <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Mar 14, 2024 09:41+0000">2024-03-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333">
+	Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7" href="qa.html">QA Report</a>
+	  <!-- <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> | -->
+	<a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R5/license.html">
+		<img src="cc0.png" alt="CC0" style="border-style: none;"/>
+	</a>
+	  <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	  <!-- <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a> -->
+	  <!-- <br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a> -->
+	<div id="container width=100% style=&quot;display:block;&quot; ">
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;">The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img src="assets/images/eu.png" alt="a EU funded project" height="41"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

@@ -1,0 +1,1858 @@
+# ePI document Bundle for Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes Package Leaflet for language en - Gravitate Health FHIR Implementation Guide v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **ePI document Bundle for Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes Package Leaflet for language en**
+
+Package: **1 Box** **(Cardboard)** 
+
+Containing:
+
+Package: **30 Blister** **(cardboard)** 
+
+Containing: ** ** 
+
+Manufactured Item
+
+ Dose form: ** Effervescent tablet ** 
+
+ Unit of presentation: ** tablet ** 
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** Calcium Carbonate ** 
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** cholecalciferol ** 
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** Sodium ** 
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** lactose monohydrate ** 
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** sucrose ** 
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** hydrogenated soybean oil ** 
+
+Ingredient
+
+ Role: ** excipient ** 
+
+ Substance: ** Anhydrous citric acid ** 
+
+Ingredient
+
+ Role: ** excipient ** 
+
+ Substance: ** sodium bicarbonate ** 
+
+Ingredient
+
+ Role: ** excipient ** 
+
+ Substance: ** povidone ** 
+
+Ingredient
+
+ Role: ** excipient ** 
+
+ Substance: ** saccharin sodium ** 
+
+Ingredient
+
+ Role: ** excipient ** 
+
+ Substance: ** sodium cyclamate ** 
+
+Ingredient
+
+ Role: ** excipient ** 
+
+ Substance: ** macrogol 6000 ** 
+
+## Example Bundle: ePI document Bundle for Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes Package Leaflet for language en
+
+**Composition category:**Raw
+
+**Composition status:**final
+
+### B. Package Leaflet
+
+ 
+
+unavailable
+
+
+#### Package leaflet: Information for the user
+
+ 
+
+**Leaflet: Information for the user**
+
+ 
+
+**Calcium/Vitamin D****3** **ROVI 1000 mg / 880 IU effervescent tablets**
+
+ 
+
+Calcium carbonate/cholecalciferol (Vitamin D3)
+
+** **
+
+**Read this leaflet carefully before you start taking this medicine, as it contains important information for you.**
+
+-Keep this leaflet. You may need to read it again.
+
+-If you have any questions, ask your doctor or pharmacist.
+
+-This medicine has been prescribed for you only. Do not give it to others, even if they have the same symptoms as you, as it may harm them.
+
+-If you experience any side effects, talk to your doctor or pharmacist, even if they are not listed in this leaflet. See section 4.
+
+
+#### What is in this leaflet
+
+ 
+
+**Contents of the leaflet**
+
+1. What Calcium/Vitamin D3 ROVI is and what it is used for
+1. What you need to know before you start taking Calcium/Vitamin D3 ROVI
+1. How to take Calcium/Vitamin D3 ROVI
+1. Possible side effects
+1. Storage of Calcium/Vitamin D3 ROVI
+1. Package contents and additional information
+
+
+#### 1. What CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES is and what it is used for
+
+ 
+
+Calcium/Vitamin D3 ROVI are effervescent tablets. They are available in packages containing 30 tablets.
+
+This medicine is a combination of calcium and vitamin D, indicated for the correction of combined vitamin D and calcium deficiency in elderly patients, as well as a supplement of vitamin D and calcium as an adjunct to specific therapy for the treatment of osteoporosis in patients with deficiency or at high risk of combined vitamin D and calcium deficiency.
+
+
+#### 2. What you need to know before you take CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES
+
+ 
+
+**Do not take Calcium/Vitamin D****3** **ROVI:**
+
+ 
+
+* if you are allergic to the active ingredients or any of the other components of this medicine (listed in section 6),
+* if you have hypercalcemia (abnormally high levels of calcium in the blood),
+* if you have hypercalciuria (excessive calcium in the urine),
+* if you have kidney stones, tissue calcification (deposition of calcium salts in tissues),
+* if you suffer from chronic kidney disease,
+* if you have prolonged immobilization accompanied by hypercalciuria and/or hypercalcemia.
+
+ 
+
+This medicine contains soybean oil. Do not use it if you are allergic to peanuts or soy.
+
+ 
+
+**Warnings and precautions:**
+
+ 
+
+Consult your doctor or pharmacist before starting Calcium/Vitamin D3 ROVI:
+
+ 
+
+- if you have renal insufficiency (kidney impairment),
+
+- if you have kidney stones,
+
+- if you suffer from heart disease, sarcoidosis (inflammation affecting lymph nodes, lungs, liver, eyes, skin, and other tissues), or are undergoing treatment with cardiac glycosides (used for heart failure),
+
+- if you are taking other vitamin D products, or are undergoing prolonged or high-dose calcium supplementation. In this case, your doctor may need to conduct regular clinical monitoring. Your doctor will advise on the frequency of these checks.
+
+ 
+
+**Taking Calcium/Vitamin D****3** **ROVI with other medicines:**
+
+ 
+
+Inform your doctor or pharmacist if you are using, have recently used, or might use any other medicines. Certain medicines can interact with Calcium/Vitamin D3 ROVI, requiring dose adjustments, interruption, or at least a few hours between administrations.
+
+It is important to inform your doctor if you are taking or have recently taken any of the following medications:
+
+* Cardiac glycosides (for heart conditions).
+* Tetracyclines (certain antibiotics); wait at least 3 hours between doses.
+* Thiazide diuretics (medications that increase urine output).
+* Anticonvulsants.
+* Systemic corticosteroids.
+* Bisphosphonates and sodium fluoride; wait at least 3 hours between doses.
+* Barbiturates or phenytoin.
+
+** **
+
+**Taking Calcium / Vitamin D****3** **ROVI with food and drinks:**
+
+** **
+
+If taken with foods and drinks containing oxalic acid (found in spinach and rhubarb), phytic acid (found in whole-grain bread and cereals), or phosphorus (found in milk), interactions may occur. Avoid taking this medicine within 2 hours after consuming such foods.
+
+ 
+
+**Pregnancy and breastfeeding**
+
+ 
+
+If you are pregnant, breastfeeding, think you may be pregnant, or plan to have a baby, consult your doctor or pharmacist before using this medicine.
+
+ 
+
+Due to the vitamin D content (880 IU) of Calcium/Vitamin D3 ROVI, its use is not recommended during pregnancy and breastfeeding, as the recommended daily dose of vitamin D should not exceed 600 IU/day.
+
+ 
+
+**Driving and using machines:**
+
+ 
+
+No effects on driving or operating machinery have been reported.
+
+ 
+
+**Calcium/Vitamin D****3** **ROVI contains sucrose, sodium, lactose, and glucose.**
+
+ 
+
+This medicine contains sucrose. If your doctor has told you that you have an intolerance to certain sugars, consult them before taking this medicine. It may cause cavities.
+
+ 
+
+This medicine contains 96.15 mg of sodium (a main component of table salt) per tablet. This is equivalent to 4.8% of the maximum recommended daily intake of sodium for an adult.
+
+ 
+
+This medicine contains lactose. If your doctor has told you that you have an intolerance to certain sugars, consult them before taking this medicine.
+
+ 
+
+This medicine contains glucose (in maltodextrin derived from corn). If your doctor has told you that you have an intolerance to certain sugars, consult them before taking this medicine.
+
+
+#### 3. How to take CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES
+
+ 
+
+Follow the administration instructions for this medicine as indicated by your doctor or pharmacist. If in doubt, consult your doctor or pharmacist again.
+
+ 
+
+Dosage
+
+**Adults**
+
+The recommended dose is 1 effervescent tablet (1000 mg of calcium and 880 IU of Vitamin D3) per day.
+
+** **
+
+Method and route of administration
+
+This medicine is administered orally.
+
+Dissolve the tablet in a glass of water and drink immediately.
+
+ 
+
+Duration of treatment
+
+Your doctor will indicate the duration of your treatment with Calcium/Vitamin D3 ROVI. Do not stop treatment earlier.
+
+ 
+
+Follow these instructions unless your doctor gives you different directions. In such cases, it is advisable to request written instructions from the doctor and ensure you fully understand them.
+
+ 
+
+If you think the effect of Calcium/Vitamin D3 ROVI is too strong or too weak, inform your doctor or pharmacist.
+
+ 
+
+Remember to take your medicine.
+
+ 
+
+**If you take more Calcium/Vitamin D****3** **ROVI than you should**
+
+ 
+
+If you take more Calcium/Vitamin D3 ROVI than you should, or in case of overdose or accidental ingestion, immediately consult your doctor or pharmacist or call the Toxicology Information Service at 91.562.04.20, indicating the medicine and the amount ingested.
+
+Overdose can cause hypervitaminosis D (excess vitamin D) and hypercalcemia (abnormally high levels of calcium in the blood). Symptoms of overdose include nausea, vomiting, anorexia (eating disorder), abdominal pain, dry mouth, or polyuria (increased urine output), or irritability, lethargy (excessive fatigue), stupor (decreased response to stimuli), and coma (loss of consciousness) in severe cases.
+
+ 
+
+**If you forgot to take Calcium/Vitamin D****3** **ROVI**
+
+ 
+
+Do not take a double dose to make up for missed doses.
+
+ 
+
+**If you stop taking Calcium/Vitamin D****3** **ROVI**
+
+** **
+
+If you have any further questions about the use of this medicine, ask your doctor or pharmacist.
+
+
+#### 4. Possible side effects
+
+ 
+
+Like all medicines, this medicine can cause side effects, although not everyone will experience them.
+
+ 
+
+**-Uncommon** (may affect between 1 and 10 in 1,000 patients):
+
+* high calcium levels in the blood (hypercalcemia),
+* high calcium levels in the urine (hypercalciuria).
+
+ 
+
+**-Rare** (may affect between 1 and 10 in 10,000 patients):
+
+* constipation,
+* flatulence,
+* nausea,
+* epigastric pain,
+* diarrhea.
+
+ 
+
+-**Very rare** (may affect fewer than 1 in 10,000 patients):
+
+* itching (pruritus),
+* skin rash (exanthema),
+* hives (urticaria).
+
+ 
+
+**Reporting of side effects**
+
+If you experience any side effects, talk to your doctor or pharmacist, even if they are possible side effects not listed in this leaflet. You can also report them directly through the Spanish Pharmacovigilance System for Medicines for Human Use: [https://www.notificaram.es](https://www.notificaram.es). By reporting side effects, you can help provide more information on the safety of this medicine.
+
+
+#### 5. How to store CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES
+
+ 
+
+Keep this medicine out of the sight and reach of children.
+
+ 
+
+Store in the original package to protect it from moisture.
+
+ 
+
+Do not use this medicine after the expiry date stated on the package after EXP. The expiry date refers to the last day of that month.
+
+ 
+
+Medicines should not be disposed of via wastewater or household waste. Take unused packaging and medicines to the SIGRE Point at the pharmacy. If in doubt, ask your pharmacist how to dispose of unused packaging and medicines. This will help protect the environment.
+
+
+#### 6. Contents of the pack and other information
+
+ 
+
+**Composition of Calcium/Vitamin D****3** **ROVI**
+
+** **
+
+-The active ingredients are: calcium carbonate and concentrated cholecalciferol (in powder form). Each tablet contains 2500 mg of calcium carbonate (equivalent to 1,000 mg of calcium) and 22 micrograms of concentrated cholecalciferol in powder form (equivalent to 880 IU of cholecalciferol = vitamin D3).
+
+ 
+
+-The other components (excipients) are: anhydrous citric acid, sodium bicarbonate, lactose monohydrate, povidone, sodium saccharin, sodium cyclamate, macrogol 6000, orange flavor (contains maltodextrin derived from corn), simethicone emulsion, ?-tocopherol, hydrogenated soybean oil, gelatin, sucrose, and gluten-free corn starch.
+
+ 
+
+**Product appearance and package contents**
+
+ 
+
+Cylindrical effervescent tablets, white or whitish in color.
+
+They are presented in polypropylene tubes, each containing 15 effervescent tablets. Each package contains two tubes (30 effervescent tablets).
+
+ 
+
+**Marketing authorization holder**
+
+** **
+
+Laboratorios Farmacéuticos ROVI, S.A.
+
+C/ Julián Camarillo, 35
+
+28037 - Madrid
+
+Spain
+
+**** ****
+
+**Manufacturer:**
+
+Laboratorios Losan Pharma GMBH
+
+Otto-Hahn-Strasse 13
+
+79395 - Neuenburg
+
+Germany
+
+**** ****
+
+**Date of the last revision of this leaflet:** July 2019
+
+Detailed information about this medicine is available on the website of the Spanish Agency of Medicines and Medical Devices (AEMPS) ([https://www.aemps.gob.es/](https://www.aemps.gob.es/))
+
+
+####  Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes 
+PMSWI:
+** 68290 **PHPID:
+** 0xF79CABF272B6A7EEF104DDDA44E82716 **
+-------
+
+Full name: **Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes**
+
+ - Invented name part: ** Calcio/Vitamina ** 
+
+ - Scientific name part: ** Calcium carbonate/Vitamin D3 ** 
+
+ - Strength part: ** 2500 mg ** 
+
+ - Pharmaceutical dose form part: ** Effervescent tablet ** 
+
+ Name usage: **English ()** 
+
+-------
+
+ Authorised dose form: **** 
+
+ Legal status of supply: **Medicinal product subject to medical prescription** 
+
+ Domain: **Human use** 
+
+ Resource status: **active** 
+
+-------
+
+ Product classification: 
+
+ **Marketing Authorisation** 1 of 1
+
+Authorisation number: ** 68290 ** 
+
+ Region: ** ** 
+
+Marketing authorisation holder: **Laboratorios Farmacéuticos ROVI, S.A.** 
+
+ Identifier: 
+*  **xx** 
+ 
+
+ Status: ** Active (2012-01-01) ** 
+
+ Package 1 of 1
+
+PMSWI: ** x ** 
+
+ Description:  * * 
+
+ Marketing status: 
+ 
+
+Pack size:
+
+*  ****2500 
+
+Administrable Product (1 of 1)
+
+ Dose form: ** Effervescent tablet ** 
+
+ Unit of presentation: ** tablet ** 
+
+ Route of administration: 
+*  ** Oral use ** 
+ 
+Ingredients:
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** Calcium Carbonate ** 
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** cholecalciferol ** 
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** Sodium ** 
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** lactose monohydrate ** 
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** sucrose ** 
+
+Ingredient
+
+ Role: ** active ** 
+
+ Substance: ** hydrogenated soybean oil ** 
+
+Ingredient
+
+ Role: ** excipient ** 
+
+ Substance: ** Anhydrous citric acid ** 
+
+Ingredient
+
+ Role: ** excipient ** 
+
+ Substance: ** sodium bicarbonate ** 
+
+Ingredient
+
+ Role: ** excipient ** 
+
+ Substance: ** povidone ** 
+
+Ingredient
+
+ Role: ** excipient ** 
+
+ Substance: ** saccharin sodium ** 
+
+Ingredient
+
+ Role: ** excipient ** 
+
+ Substance: ** sodium cyclamate ** 
+
+Ingredient
+
+ Role: ** excipient ** 
+
+ Substance: ** macrogol 6000 ** 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Bundle",
+  "id" : "bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"]
+  },
+  "language" : "en",
+  "identifier" : {
+    "system" : "https://www.gravitatehealth.eu/sid/doc",
+    "value" : "68290"
+  },
+  "type" : "document",
+  "timestamp" : "2023-06-27T10:09:22Z",
+  "entry" : [{
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-d4bcbbaec04bf6aceb2f71162205967e",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "composition-en-d4bcbbaec04bf6aceb2f71162205967e",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><a name=\"Composition_composition-en-d4bcbbaec04bf6aceb2f71162205967e\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition composition-en-d4bcbbaec04bf6aceb2f71162205967e</b></p><a name=\"composition-en-d4bcbbaec04bf6aceb2f71162205967e\"> </a><a name=\"hccomposition-en-d4bcbbaec04bf6aceb2f71162205967e\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/</code>/68290</p><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000155538}\">Package Leaflet</span></p><p><b>category</b>: <span title=\"Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs R}\">Raw</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#Organization_mah-b7afabe350ac415f70e662ba6c703030\">Organization Laboratorios Farmacéuticos ROVI, S.A.</a></p><p><b>title</b>: TEST PURPOSES ONLY - Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://hl7.org/fhir/composition-attestation-mode official}\">Official</span></td><td>2022-02-16 13:28:17+0000</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi/",
+        "value" : "68290"
+      }],
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000155538"
+        }],
+        "text" : "Package Leaflet"
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs",
+          "code" : "R",
+          "display" : "Raw"
+        }]
+      }],
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      }],
+      "date" : "2022-02-16T13:28:17Z",
+      "author" : [{
+        "reference" : "Organization/mah-b7afabe350ac415f70e662ba6c703030"
+      }],
+      "title" : "TEST PURPOSES ONLY - Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes",
+      "attester" : [{
+        "mode" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/composition-attestation-mode",
+            "code" : "official"
+          }]
+        },
+        "time" : "2022-02-16T13:28:17Z"
+      }],
+      "section" : [{
+        "title" : "B. Package Leaflet",
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi/",
+            "code" : "100000155538"
+          }],
+          "text" : "B. Package Leaflet"
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "unavailable"
+          }]
+        },
+        "section" : [{
+          "title" : "Package leaflet: Information for the user",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "Package leaflet: Information for the user"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Leaflet: Information for the user</strong></p><p>&#160;</p><p><strong>Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI 1000 mg / 880 IU effervescent tablets</strong></p><p>&#160;</p><p>Calcium carbonate/cholecalciferol (Vitamin D3)</p><p><strong>&#160;</strong></p><p><strong>Read this leaflet carefully before you start taking this medicine, as it contains important information for you.</strong></p><p>-Keep this leaflet. You may need to read it again.</p><p>-If you have any questions, ask your doctor or pharmacist.</p><p>-This medicine has been prescribed for you only. Do not give it to others, even if they have the same symptoms as you, as it may harm them.</p><p>-If you experience any side effects, talk to your doctor or pharmacist, even if they are not listed in this leaflet. See section 4.</p></div>"
+          }
+        },
+        {
+          "title" : "What is in this leaflet",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "What is in this leaflet"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Contents of the leaflet</strong></p><ol><li>What Calcium/Vitamin D3 ROVI is and what it is used for</li><li>What you need to know before you start taking Calcium/Vitamin D3 ROVI</li><li>How to take Calcium/Vitamin D3 ROVI</li><li>Possible side effects</li><li>Storage of Calcium/Vitamin D3 ROVI</li><li>Package contents and additional information</li></ol></div>"
+          }
+        },
+        {
+          "title" : "1. What CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES is and what it is used for",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "1. What CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES is and what it is used for"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Calcium/Vitamin D3 ROVI are effervescent tablets. They are available in packages containing 30 tablets.</p><p>This medicine is a combination of calcium and vitamin D, indicated for the correction of combined vitamin D and calcium deficiency in elderly patients, as well as a supplement of vitamin D and calcium as an adjunct to specific therapy for the treatment of osteoporosis in patients with deficiency or at high risk of combined vitamin D and calcium deficiency.</p></div>"
+          }
+        },
+        {
+          "title" : "2. What you need to know before you take CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "2. What you need to know before you take CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Do not take Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI:</strong></p><p>&#160;</p><div><ul><li>if you are allergic to the active ingredients or any of the other components of this medicine (listed in section 6),</li><li>if you have hypercalcemia (abnormally high levels of calcium in the blood),</li><li>if you have hypercalciuria (excessive calcium in the urine),</li><li>if you have kidney stones, tissue calcification (deposition of calcium salts in tissues),</li><li>if you suffer from chronic kidney disease,</li><li>if you have prolonged immobilization accompanied by hypercalciuria and/or hypercalcemia.</li></ul></div><p>&#160;</p><p>This medicine contains soybean oil. Do not use it if you are allergic to peanuts or soy.</p><p>&#160;</p><p><strong>Warnings and precautions:</strong></p><p>&#160;</p><p>Consult your doctor or pharmacist before starting Calcium/Vitamin D3 ROVI:</p><p>&#160;</p><p>- if you have renal insufficiency (kidney impairment),</p><p>- if you have kidney stones,</p><p>- if you suffer from heart disease, sarcoidosis (inflammation affecting lymph nodes, lungs, liver, eyes, skin, and other tissues), or are undergoing treatment with cardiac glycosides (used for heart failure),</p><p>- if you are taking other vitamin D products, or are undergoing prolonged or high-dose calcium supplementation. In this case, your doctor may need to conduct regular clinical monitoring. Your doctor will advise on the frequency of these checks.</p><p>&#160;</p><p><strong>Taking Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI with other medicines:</strong></p><p>&#160;</p><p>Inform your doctor or pharmacist if you are using, have recently used, or might use any other medicines. Certain medicines can interact with Calcium/Vitamin D3 ROVI, requiring dose adjustments, interruption, or at least a few hours between administrations.</p><p>It is important to inform your doctor if you are taking or have recently taken any of the following medications:</p><div><ul><li>Cardiac glycosides (for heart conditions).</li><li>Tetracyclines (certain antibiotics); wait at least 3 hours between doses.</li><li>Thiazide diuretics (medications that increase urine output).</li><li>Anticonvulsants.</li><li>Systemic corticosteroids.</li><li>Bisphosphonates and sodium fluoride; wait at least 3 hours between doses.</li><li>Barbiturates or phenytoin.</li></ul></div><p><strong>&#160;</strong></p><p><strong>Taking Calcium / Vitamin D</strong><strong>3</strong> <strong>ROVI with food and drinks:</strong></p><p><strong>&#160;</strong></p><p>If taken with foods and drinks containing oxalic acid (found in spinach and rhubarb), phytic acid (found in whole-grain bread and cereals), or phosphorus (found in milk), interactions may occur. Avoid taking this medicine within 2 hours after consuming such foods.</p><p>&#160;</p><p><strong>Pregnancy and breastfeeding</strong></p><p>&#160;</p><p>If you are pregnant, breastfeeding, think you may be pregnant, or plan to have a baby, consult your doctor or pharmacist before using this medicine.</p><p>&#160;</p><p>Due to the vitamin D content (880 IU) of Calcium/Vitamin D3 ROVI, its use is not recommended during pregnancy and breastfeeding, as the recommended daily dose of vitamin D should not exceed 600 IU/day.</p><p>&#160;</p><p><strong>Driving and using machines:</strong></p><p>&#160;</p><p>No effects on driving or operating machinery have been reported.</p><p>&#160;</p><p><strong>Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI contains sucrose, sodium, lactose, and glucose.</strong></p><p>&#160;</p><p>This medicine contains sucrose. If your doctor has told you that you have an intolerance to certain sugars, consult them before taking this medicine. It may cause cavities.</p><p>&#160;</p><p>This medicine contains 96.15 mg of sodium (a main component of table salt) per tablet. This is equivalent to 4.8% of the maximum recommended daily intake of sodium for an adult.</p><p>&#160;</p><p>This medicine contains lactose. If your doctor has told you that you have an intolerance to certain sugars, consult them before taking this medicine.</p><p>&#160;</p><p>This medicine contains glucose (in maltodextrin derived from corn). If your doctor has told you that you have an intolerance to certain sugars, consult them before taking this medicine.</p></div>"
+          }
+        },
+        {
+          "title" : "3. How to take CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "3. How to take CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Follow the administration instructions for this medicine as indicated by your doctor or pharmacist. If in doubt, consult your doctor or pharmacist again.</p><p>&#160;</p><p><span>Dosage</span></p><p><em>Adults</em></p><p>The recommended dose is 1 effervescent tablet (1000 mg of calcium and 880 IU of Vitamin D3) per day.</p><p><em>&#160;</em></p><p><span>Method and route of administration</span></p><p>This medicine is administered orally.</p><p>Dissolve the tablet in a glass of water and drink immediately.</p><p>&#160;</p><p><span>Duration of treatment</span></p><p>Your doctor will indicate the duration of your treatment with Calcium/Vitamin D3 ROVI. Do not stop treatment earlier.</p><p>&#160;</p><p>Follow these instructions unless your doctor gives you different directions. In such cases, it is advisable to request written instructions from the doctor and ensure you fully understand them.</p><p>&#160;</p><p>If you think the effect of Calcium/Vitamin D3 ROVI is too strong or too weak, inform your doctor or pharmacist.</p><p>&#160;</p><p>Remember to take your medicine.</p><p>&#160;</p><p><strong>If you take more Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI than you should</strong></p><p>&#160;</p><p>If you take more Calcium/Vitamin D3 ROVI than you should, or in case of overdose or accidental ingestion, immediately consult your doctor or pharmacist or call the Toxicology Information Service at 91.562.04.20, indicating the medicine and the amount ingested.</p><p>Overdose can cause hypervitaminosis D (excess vitamin D) and hypercalcemia (abnormally high levels of calcium in the blood). Symptoms of overdose include nausea, vomiting, anorexia (eating disorder), abdominal pain, dry mouth, or polyuria (increased urine output), or irritability, lethargy (excessive fatigue), stupor (decreased response to stimuli), and coma (loss of consciousness) in severe cases.</p><p>&#160;</p><p><strong>If you forgot to take Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI</strong></p><p>&#160;</p><p>Do not take a double dose to make up for missed doses.</p><p>&#160;</p><p><strong>If you stop taking Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI</strong></p><p><strong>&#160;</strong></p><p>If you have any further questions about the use of this medicine, ask your doctor or pharmacist.</p></div>"
+          }
+        },
+        {
+          "title" : "4. Possible side effects",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "4. Possible side effects"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Like all medicines, this medicine can cause side effects, although not everyone will experience them.</p><p>&#160;</p><p><strong>-Uncommon</strong> (may affect between 1 and 10 in 1,000 patients):</p><ul><li>high calcium levels in the blood (hypercalcemia),</li><li>high calcium levels in the urine (hypercalciuria).</li></ul><p>&#160;</p><p><strong>-Rare</strong> (may affect between 1 and 10 in 10,000 patients):</p><ul><li>constipation,</li><li>flatulence,</li><li>nausea,</li><li>epigastric pain,</li><li>diarrhea.</li></ul><p>&#160;</p><p>-<strong>Very rare</strong> (may affect fewer than 1 in 10,000 patients):</p><ul><li>itching (pruritus),</li><li>skin rash (exanthema),</li><li>hives (urticaria).</li></ul><p>&#160;</p><p><strong>Reporting of side effects</strong></p><p>If you experience any side effects, talk to your doctor or pharmacist, even if they are possible side effects not listed in this leaflet. You can also report them directly through the Spanish Pharmacovigilance System for Medicines for Human Use: <a href=\"https://www.notificaram.es\">https://www.notificaram.es</a>. By reporting side effects, you can help provide more information on the safety of this medicine.</p></div>"
+          }
+        },
+        {
+          "title" : "5. How to store CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "5. How to store CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Keep this medicine out of the sight and reach of children.</p><p>&#160;</p><p>Store in the original package to protect it from moisture.</p><p>&#160;</p><p>Do not use this medicine after the expiry date stated on the package after EXP. The expiry date refers to the last day of that month.</p><p>&#160;</p><p>Medicines should not be disposed of via wastewater or household waste. Take unused packaging and medicines to the SIGRE Point at the pharmacy. If in doubt, ask your pharmacist how to dispose of unused packaging and medicines. This will help protect the environment.</p></div>"
+          }
+        },
+        {
+          "title" : "6. Contents of the pack and other information",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "6. Contents of the pack and other information"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Composition of Calcium/Vitamin D</strong><strong>3</strong> <strong>ROVI</strong></p><p><strong>&#160;</strong></p><p>-The active ingredients are: calcium carbonate and concentrated cholecalciferol (in powder form). Each tablet contains 2500 mg of calcium carbonate (equivalent to 1,000 mg of calcium) and 22 micrograms of concentrated cholecalciferol in powder form (equivalent to 880 IU of cholecalciferol = vitamin D3).</p><p>&#160;</p><p>-The other components (excipients) are: anhydrous citric acid, sodium bicarbonate, lactose monohydrate, povidone, sodium saccharin, sodium cyclamate, macrogol 6000, orange flavor (contains maltodextrin derived from corn), simethicone emulsion, ?-tocopherol, hydrogenated soybean oil, gelatin, sucrose, and gluten-free corn starch.</p><p>&#160;</p><p><strong>Product appearance and package contents</strong></p><p>&#160;</p><p>Cylindrical effervescent tablets, white or whitish in color.</p><p>They are presented in polypropylene tubes, each containing 15 effervescent tablets. Each package contains two tubes (30 effervescent tablets).</p><p>&#160;</p><p><strong>Marketing authorization holder</strong></p><p><strong>&#160;</strong></p><p>Laboratorios Farmacéuticos ROVI, S.A.</p><p>C/ Julián Camarillo, 35</p><p>28037 - Madrid</p><p>Spain</p><p><strong><em>&#160;</em></strong></p><p><strong>Manufacturer:</strong></p><p>Laboratorios Losan Pharma GMBH</p><p>Otto-Hahn-Strasse 13</p><p>79395 - Neuenburg</p><p>Germany</p><p><strong><em>&#160;</em></strong></p><p><strong>Date of the last revision of this leaflet:</strong> July 2019</p><p>Detailed information about this medicine is available on the website of the Spanish Agency of Medicines and Medical Devices (AEMPS) (<a href=\"https://www.aemps.gob.es/\"><span>https://www.aemps.gob.es/</span></a>)</p></div>"
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-calciovitaminad-calciumcarbonate",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-calciovitaminad-calciumcarbonate",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-calciovitaminad-calciumcarbonate\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-calciovitaminad-calciumcarbonate</b></p><a name=\"ingredient-for-calciovitaminad-calciumcarbonate\"> </a><a name=\"hcingredient-for-calciovitaminad-calciumcarbonate\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/H0G9379FGK (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#ManufacturedItemDefinition_mid-925dad38f0afbba36223a82b3a766438\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290 (use: official, ); status = active; manufacturedDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82716; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#AdministrableProductDefinition_ap-925dad38f0afbba36223a82b3a766438\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 72072}\">active</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta H0G9379FGK}\">Calcium Carbonate</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>2500 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ACTIB}\">active ingredient - basis of strength</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "H0G9379FGK"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "72072",
+          "display" : "active"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "H0G9379FGK",
+              "display" : "Calcium Carbonate"
+            }]
+          }
+        },
+        "strength" : [{
+          "presentationQuantity" : {
+            "value" : 2500,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "basis" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+              "code" : "ACTIB",
+              "display" : "active ingredient - basis of strength"
+            }]
+          }
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-calciovitaminad-cholecalciferol",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-calciovitaminad-cholecalciferol",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-calciovitaminad-cholecalciferol\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-calciovitaminad-cholecalciferol</b></p><a name=\"ingredient-for-calciovitaminad-cholecalciferol\"> </a><a name=\"hcingredient-for-calciovitaminad-cholecalciferol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/1C6V77QF41 (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#ManufacturedItemDefinition_mid-925dad38f0afbba36223a82b3a766438\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290 (use: official, ); status = active; manufacturedDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82716; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#AdministrableProductDefinition_ap-925dad38f0afbba36223a82b3a766438\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 72072}\">active</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 1C6V77QF41}\">cholecalciferol</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>22 ug<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeug = 'ug')</span></td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ACTIB}\">active ingredient - basis of strength</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "1C6V77QF41"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "72072",
+          "display" : "active"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "1C6V77QF41",
+              "display" : "cholecalciferol"
+            }]
+          }
+        },
+        "strength" : [{
+          "presentationQuantity" : {
+            "value" : 22,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "ug"
+          },
+          "basis" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+              "code" : "ACTIB",
+              "display" : "active ingredient - basis of strength"
+            }]
+          }
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-calciovitaminad-sodium",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-calciovitaminad-sodium",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-calciovitaminad-sodium\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-calciovitaminad-sodium</b></p><a name=\"ingredient-for-calciovitaminad-sodium\"> </a><a name=\"hcingredient-for-calciovitaminad-sodium\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/9NEZ333N27 (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#ManufacturedItemDefinition_mid-925dad38f0afbba36223a82b3a766438\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290 (use: official, ); status = active; manufacturedDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82716; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#AdministrableProductDefinition_ap-925dad38f0afbba36223a82b3a766438\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 72072}\">active</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 9NEZ333N27}\">Sodium</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>96 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ACTIB}\">active ingredient - basis of strength</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "9NEZ333N27"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "72072",
+          "display" : "active"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "9NEZ333N27",
+              "display" : "Sodium"
+            }]
+          }
+        },
+        "strength" : [{
+          "presentationQuantity" : {
+            "value" : 96,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "basis" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+              "code" : "ACTIB",
+              "display" : "active ingredient - basis of strength"
+            }]
+          }
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-calciovitaminad-lactosemonohydrate",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-calciovitaminad-lactosemonohydrate",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-calciovitaminad-lactosemonohydrate\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-calciovitaminad-lactosemonohydrate</b></p><a name=\"ingredient-for-calciovitaminad-lactosemonohydrate\"> </a><a name=\"hcingredient-for-calciovitaminad-lactosemonohydrate\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/EWQ57Q8I5X (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#ManufacturedItemDefinition_mid-925dad38f0afbba36223a82b3a766438\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290 (use: official, ); status = active; manufacturedDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82716; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#AdministrableProductDefinition_ap-925dad38f0afbba36223a82b3a766438\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 72072}\">active</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta EWQ57Q8I5X}\">lactose monohydrate</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>396 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ACTIB}\">active ingredient - basis of strength</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "EWQ57Q8I5X"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "72072",
+          "display" : "active"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "EWQ57Q8I5X",
+              "display" : "lactose monohydrate"
+            }]
+          }
+        },
+        "strength" : [{
+          "presentationQuantity" : {
+            "value" : 396,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "basis" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+              "code" : "ACTIB",
+              "display" : "active ingredient - basis of strength"
+            }]
+          }
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-calciovitaminad-sucrose",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-calciovitaminad-sucrose",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-calciovitaminad-sucrose\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-calciovitaminad-sucrose</b></p><a name=\"ingredient-for-calciovitaminad-sucrose\"> </a><a name=\"hcingredient-for-calciovitaminad-sucrose\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/C151H8M554 (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#ManufacturedItemDefinition_mid-925dad38f0afbba36223a82b3a766438\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290 (use: official, ); status = active; manufacturedDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82716; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#AdministrableProductDefinition_ap-925dad38f0afbba36223a82b3a766438\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 72072}\">active</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta C151H8M554}\">sucrose</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>3 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ACTIB}\">active ingredient - basis of strength</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "C151H8M554"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "72072",
+          "display" : "active"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "C151H8M554",
+              "display" : "sucrose"
+            }]
+          }
+        },
+        "strength" : [{
+          "presentationQuantity" : {
+            "value" : 3,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "basis" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+              "code" : "ACTIB",
+              "display" : "active ingredient - basis of strength"
+            }]
+          }
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-calciovitaminad-hydrogenatedsoybeanoil",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-calciovitaminad-hydrogenatedsoybeanoil",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-calciovitaminad-hydrogenatedsoybeanoil\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-calciovitaminad-hydrogenatedsoybeanoil</b></p><a name=\"ingredient-for-calciovitaminad-hydrogenatedsoybeanoil\"> </a><a name=\"hcingredient-for-calciovitaminad-hydrogenatedsoybeanoil\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/A2M91M918C (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#ManufacturedItemDefinition_mid-925dad38f0afbba36223a82b3a766438\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290 (use: official, ); status = active; manufacturedDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82716; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#AdministrableProductDefinition_ap-925dad38f0afbba36223a82b3a766438\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 72072}\">active</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta A2M91M918C}\">hydrogenated soybean oil</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>0 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ACTIB}\">active ingredient - basis of strength</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "A2M91M918C"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "72072",
+          "display" : "active"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "A2M91M918C",
+              "display" : "hydrogenated soybean oil"
+            }]
+          }
+        },
+        "strength" : [{
+          "presentationQuantity" : {
+            "value" : 0,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "basis" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+              "code" : "ACTIB",
+              "display" : "active ingredient - basis of strength"
+            }]
+          }
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-calciovitaminad-anhydrouscitricacid",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-calciovitaminad-anhydrouscitricacid",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-calciovitaminad-anhydrouscitricacid\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-calciovitaminad-anhydrouscitricacid</b></p><a name=\"ingredient-for-calciovitaminad-anhydrouscitricacid\"> </a><a name=\"hcingredient-for-calciovitaminad-anhydrouscitricacid\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/XF417D3PSL (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#ManufacturedItemDefinition_mid-925dad38f0afbba36223a82b3a766438\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290 (use: official, ); status = active; manufacturedDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82716; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#AdministrableProductDefinition_ap-925dad38f0afbba36223a82b3a766438\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta XF417D3PSL}\">Anhydrous citric acid</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "XF417D3PSL"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "XF417D3PSL",
+              "display" : "Anhydrous citric acid"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-calciovitaminad-sodiumbicarbonate",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-calciovitaminad-sodiumbicarbonate",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-calciovitaminad-sodiumbicarbonate\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-calciovitaminad-sodiumbicarbonate</b></p><a name=\"ingredient-for-calciovitaminad-sodiumbicarbonate\"> </a><a name=\"hcingredient-for-calciovitaminad-sodiumbicarbonate\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/8MDF5V39QO (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#ManufacturedItemDefinition_mid-925dad38f0afbba36223a82b3a766438\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290 (use: official, ); status = active; manufacturedDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82716; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#AdministrableProductDefinition_ap-925dad38f0afbba36223a82b3a766438\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 8MDF5V39QO}\">sodium bicarbonate</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "8MDF5V39QO"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "8MDF5V39QO",
+              "display" : "sodium bicarbonate"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-calciovitaminad-povidone",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-calciovitaminad-povidone",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-calciovitaminad-povidone\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-calciovitaminad-povidone</b></p><a name=\"ingredient-for-calciovitaminad-povidone\"> </a><a name=\"hcingredient-for-calciovitaminad-povidone\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/FZ989GH94E (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#ManufacturedItemDefinition_mid-925dad38f0afbba36223a82b3a766438\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290 (use: official, ); status = active; manufacturedDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82716; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#AdministrableProductDefinition_ap-925dad38f0afbba36223a82b3a766438\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta FZ989GH94E}\">povidone</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "FZ989GH94E"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "FZ989GH94E",
+              "display" : "povidone"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-calciovitaminad-saccharinsodium",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-calciovitaminad-saccharinsodium",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-calciovitaminad-saccharinsodium\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-calciovitaminad-saccharinsodium</b></p><a name=\"ingredient-for-calciovitaminad-saccharinsodium\"> </a><a name=\"hcingredient-for-calciovitaminad-saccharinsodium\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/SB8ZUX40TY (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#ManufacturedItemDefinition_mid-925dad38f0afbba36223a82b3a766438\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290 (use: official, ); status = active; manufacturedDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82716; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#AdministrableProductDefinition_ap-925dad38f0afbba36223a82b3a766438\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta SB8ZUX40TY}\">saccharin sodium</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "SB8ZUX40TY"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "SB8ZUX40TY",
+              "display" : "saccharin sodium"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-calciovitaminad-sodiumcyclamate",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-calciovitaminad-sodiumcyclamate",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-calciovitaminad-sodiumcyclamate\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-calciovitaminad-sodiumcyclamate</b></p><a name=\"ingredient-for-calciovitaminad-sodiumcyclamate\"> </a><a name=\"hcingredient-for-calciovitaminad-sodiumcyclamate\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/1I6F42RME1 (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#ManufacturedItemDefinition_mid-925dad38f0afbba36223a82b3a766438\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290 (use: official, ); status = active; manufacturedDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82716; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#AdministrableProductDefinition_ap-925dad38f0afbba36223a82b3a766438\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 1I6F42RME1}\">sodium cyclamate</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "1I6F42RME1"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "1I6F42RME1",
+              "display" : "sodium cyclamate"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-calciovitaminad-macrogol6000",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-calciovitaminad-macrogol6000",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-calciovitaminad-macrogol6000\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-calciovitaminad-macrogol6000</b></p><a name=\"ingredient-for-calciovitaminad-macrogol6000\"> </a><a name=\"hcingredient-for-calciovitaminad-macrogol6000\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/30IQX730WE (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#ManufacturedItemDefinition_mid-925dad38f0afbba36223a82b3a766438\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290 (use: official, ); status = active; manufacturedDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82716; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#AdministrableProductDefinition_ap-925dad38f0afbba36223a82b3a766438\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#xx; status = active; administrableDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 30IQX730WE}\">macrogol 6000</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "30IQX730WE"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "30IQX730WE",
+              "display" : "macrogol 6000"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-calciumcarbonate",
+    "resource" : {
+      "resourceType" : "SubstanceDefinition",
+      "id" : "substance-calciumcarbonate",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"SubstanceDefinition_substance-calciumcarbonate\"> </a><p class=\"res-header-id\"><b>Generated Narrative: SubstanceDefinition substance-calciumcarbonate</b></p><a name=\"substance-calciumcarbonate\"> </a><a name=\"hcsubstance-calciumcarbonate\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta/</code>/H0G9379FGK (use: official, )</p><p><b>version</b>: 1</p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>manufacturer</b>: <a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#Organization_mah-b7afabe350ac415f70e662ba6c703030\">Organization Laboratorios Farmacéuticos ROVI, S.A.</a></p><h3>MolecularWeights</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">exact</span></td><td>100.09</td></tr></table><h3>Structures</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>MolecularFormula</b></td></tr><tr><td style=\"display: none\">*</td><td>CO3.Ca</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>CALCII CARBONAS [WHO-IP LATIN]</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta/ x}\">Chemical Name</span></td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+        "value" : "H0G9379FGK"
+      }],
+      "version" : "1",
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active"
+        }]
+      },
+      "manufacturer" : [{
+        "reference" : "Organization/mah-b7afabe350ac415f70e662ba6c703030"
+      }],
+      "molecularWeight" : [{
+        "type" : {
+          "text" : "exact"
+        },
+        "amount" : {
+          "value" : 100.09
+        }
+      }],
+      "structure" : {
+        "molecularFormula" : "CO3.Ca"
+      },
+      "name" : [{
+        "name" : "CALCII CARBONAS [WHO-IP LATIN]",
+        "type" : {
+          "coding" : [{
+            "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+            "code" : "x",
+            "display" : "Chemical Name"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438",
+    "resource" : {
+      "resourceType" : "AdministrableProductDefinition",
+      "id" : "ap-925dad38f0afbba36223a82b3a766438",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AdministrableProductDefinition_ap-925dad38f0afbba36223a82b3a766438\"> </a><p class=\"res-header-id\"><b>Generated Narrative: AdministrableProductDefinition ap-925dad38f0afbba36223a82b3a766438</b></p><a name=\"ap-925dad38f0afbba36223a82b3a766438\"> </a><a name=\"hcap-925dad38f0afbba36223a82b3a766438\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/xx</p><p><b>status</b>: Active</p><p><b>formOf</b>: <a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82716; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>administrableDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073681}\">Effervescent tablet</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002152}\">tablet</span></p><p><b>producedFrom</b>: <a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#ManufacturedItemDefinition_mid-925dad38f0afbba36223a82b3a766438\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290 (use: official, ); status = active; manufacturedDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073619}\">Oral use</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000109093}\">Human</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "xx"
+      }],
+      "status" : "active",
+      "formOf" : [{
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      }],
+      "administrableDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000073681",
+          "display" : "Effervescent tablet"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002152",
+          "display" : "tablet"
+        }]
+      },
+      "producedFrom" : [{
+        "reference" : "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438"
+      }],
+      "routeOfAdministration" : [{
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073619",
+            "display" : "Oral use"
+          }]
+        },
+        "targetSpecies" : [{
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000109093",
+              "display" : "Human"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization925dad38f0afbba36223a82b3a7664380",
+    "resource" : {
+      "resourceType" : "RegulatedAuthorization",
+      "id" : "authorization925dad38f0afbba36223a82b3a7664380",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"RegulatedAuthorization_authorization925dad38f0afbba36223a82b3a7664380\"> </a><p class=\"res-header-id\"><b>Generated Narrative: RegulatedAuthorization authorization925dad38f0afbba36223a82b3a7664380</b></p><a name=\"authorization925dad38f0afbba36223a82b3a7664380\"> </a><a name=\"hcauthorization925dad38f0afbba36223a82b3a7664380\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/68290 (use: official, )</p><p><b>subject</b>: <a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82716; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072062}\">Marketing Authorisation</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2012-01-01</p><p><b>holder</b>: <a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#Organization_mah-b7afabe350ac415f70e662ba6c703030\">Organization Laboratorios Farmacéuticos ROVI, S.A.</a></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "68290"
+      }],
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072062",
+          "display" : "Marketing Authorisation"
+        }]
+      },
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2012-01-01",
+      "holder" : {
+        "reference" : "Organization/mah-b7afabe350ac415f70e662ba6c703030"
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-b7afabe350ac415f70e662ba6c703030",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "mah-b7afabe350ac415f70e662ba6c703030",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_mah-b7afabe350ac415f70e662ba6c703030\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization mah-b7afabe350ac415f70e662ba6c703030</b></p><a name=\"mah-b7afabe350ac415f70e662ba6c703030\"> </a><a name=\"hcmah-b7afabe350ac415f70e662ba6c703030\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/xx (use: official, )</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 220000000034}\">Marketing authorisation holder</span></p><p><b>name</b>: Laboratorios Farmacéuticos ROVI, S.A.</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>C/ Julián Camarillo, 35 Madrid ES(work)</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/omswi",
+        "value" : "xx"
+      }],
+      "active" : true,
+      "type" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000034",
+          "display" : "Marketing authorisation holder"
+        }]
+      }],
+      "name" : "Laboratorios Farmacéuticos ROVI, S.A.",
+      "contact" : [{
+        "address" : {
+          "use" : "work",
+          "type" : "physical",
+          "text" : "C/ Julián Camarillo, 35 Madrid ES",
+          "line" : ["C/ Julián Camarillo, 35"],
+          "city" : "Madrid",
+          "postalCode" : "28037",
+          "country" : "ES"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-740c0d6d7605c10cb166cd0ee16908f9",
+    "resource" : {
+      "resourceType" : "PackagedProductDefinition",
+      "id" : "ppd-740c0d6d7605c10cb166cd0ee16908f9",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-740c0d6d7605c10cb166cd0ee16908f9\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PackagedProductDefinition ppd-740c0d6d7605c10cb166cd0ee16908f9</b></p><a name=\"ppd-740c0d6d7605c10cb166cd0ee16908f9\"> </a><a name=\"hcppd-740c0d6d7605c10cb166cd0ee16908f9\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/x (use: official, )</p><p><b>name</b>: Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes 30</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000155527}\">Chemical Medicinal Prodcut</span></p><p><b>packageFor</b>: <a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\">MedicinalProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290,https://www.who-umc.org/phpid#0xF79CABF272B6A7EEF104DDDA44E82716; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2012-01-03</p><p><b>containedItemQuantity</b>: 2500 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></p><p><b>copackagedIndicator</b>: false</p><blockquote><p><b>packaging</b></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073498}\">Box</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003529}\">Cardboard</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073496}\">Blister</span></p><p><b>quantity</b>: 30</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi xxx}\">cardboard</span></p><blockquote><p><b>containedItem</b></p><h3>Items</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Reference</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Bundle-bundlepackageleaflet-en-925dad38f0afbba36223a82b3a766438.html#ManufacturedItemDefinition_mid-925dad38f0afbba36223a82b3a766438\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#68290 (use: official, ); status = active; manufacturedDoseForm = Effervescent tablet; unitOfPresentation = tablet</a></td></tr></table></blockquote></blockquote></blockquote></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "x"
+      }],
+      "name" : "Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes 30",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000155527",
+          "display" : "Chemical Medicinal Prodcut"
+        }]
+      },
+      "packageFor" : [{
+        "reference" : "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e"
+      }],
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2012-01-03",
+      "containedItemQuantity" : [{
+        "value" : 2500,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      }],
+      "copackagedIndicator" : false,
+      "packaging" : {
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073498",
+            "display" : "Box"
+          }]
+        },
+        "quantity" : 1,
+        "material" : [{
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "200000003529",
+            "display" : "Cardboard"
+          }]
+        }],
+        "packaging" : [{
+          "identifier" : [{
+            "system" : "https://spor.ema.europa.eu/pmswi",
+            "value" : "123456"
+          }],
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000073496",
+              "display" : "Blister"
+            }]
+          },
+          "quantity" : 30,
+          "material" : [{
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "xxx",
+              "display" : "cardboard"
+            }]
+          }],
+          "containedItem" : [{
+            "item" : {
+              "reference" : {
+                "reference" : "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438"
+              }
+            }
+          }]
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e",
+    "resource" : {
+      "resourceType" : "MedicinalProductDefinition",
+      "id" : "mpd4bcbbaec04bf6aceb2f71162205967e",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_mpd4bcbbaec04bf6aceb2f71162205967e\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicinalProductDefinition mpd4bcbbaec04bf6aceb2f71162205967e</b></p><a name=\"mpd4bcbbaec04bf6aceb2f71162205967e\"> </a><a name=\"hcmpd4bcbbaec04bf6aceb2f71162205967e\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/68290, <code>https://www.who-umc.org/phpid</code>/0xF79CABF272B6A7EEF104DDDA44E82716</p><p><b>type</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-type MedicinalProduct}\">Medicinal Product</span></p><p><b>domain</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-domain Human}\">Human use</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">active</span></p><p><b>legalStatusOfSupply</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000000000}\">Medicinal product subject to medical prescription</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000001}\">Full name</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Calcio/Vitamina</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000002}\">Invented name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: Calcium carbonate/Vitamin D3</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000003}\">Scientific name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 2500 mg</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000004}\">Strength part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: Effervescent tablet</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000005}\">Pharmaceutical dose form part</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{urn:iso:std:iso:3166 ES}\">Spain</span></td><td><span title=\"Codes:{urn:iso:std:iso:3166 ES}\">Spain</span></td><td><span title=\"Codes:{urn:ietf:bcp:47 en}\">English</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "68290"
+      },
+      {
+        "system" : "https://www.who-umc.org/phpid",
+        "value" : "0xF79CABF272B6A7EEF104DDDA44E82716"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-type",
+          "code" : "MedicinalProduct",
+          "display" : "Medicinal Product"
+        }]
+      },
+      "domain" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-domain",
+          "code" : "Human",
+          "display" : "Human use"
+        }]
+      },
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "active"
+        }]
+      },
+      "legalStatusOfSupply" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000000000",
+          "display" : "Medicinal product subject to medical prescription"
+        }]
+      },
+      "name" : [{
+        "productName" : "Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes",
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/lists/220000000000",
+            "code" : "220000000001",
+            "display" : "Full name"
+          }]
+        },
+        "part" : [{
+          "part" : "Calcio/Vitamina",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000002",
+              "display" : "Invented name part"
+            }]
+          }
+        },
+        {
+          "part" : "Calcium carbonate/Vitamin D3",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000003",
+              "display" : "Scientific name part"
+            }]
+          }
+        },
+        {
+          "part" : "2500 mg",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000004",
+              "display" : "Strength part"
+            }]
+          }
+        },
+        {
+          "part" : "Effervescent tablet",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000005",
+              "display" : "Pharmaceutical dose form part"
+            }]
+          }
+        }],
+        "usage" : [{
+          "country" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "ES"
+            }]
+          },
+          "jurisdiction" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "ES"
+            }]
+          },
+          "language" : {
+            "coding" : [{
+              "system" : "urn:ietf:bcp:47",
+              "code" : "en",
+              "display" : "English"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438",
+    "resource" : {
+      "resourceType" : "ManufacturedItemDefinition",
+      "id" : "mid-925dad38f0afbba36223a82b3a766438",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ManufacturedItemDefinition_mid-925dad38f0afbba36223a82b3a766438\"> </a><p class=\"res-header-id\"><b>Generated Narrative: ManufacturedItemDefinition mid-925dad38f0afbba36223a82b3a766438</b></p><a name=\"mid-925dad38f0afbba36223a82b3a766438\"> </a><a name=\"hcmid-925dad38f0afbba36223a82b3a766438\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/68290 (use: official, )</p><p><b>status</b>: Active</p><p><b>manufacturedDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000073681}\">Effervescent tablet</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002152}\">tablet</span></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "68290"
+      }],
+      "status" : "active",
+      "manufacturedDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000073681",
+          "display" : "Effervescent tablet"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002152",
+          "display" : "tablet"
+        }]
+      }
+    }
+  }]
+}
+
+```

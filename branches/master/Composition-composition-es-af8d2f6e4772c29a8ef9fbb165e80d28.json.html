@@ -1,0 +1,562 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet - JSON Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"16.166"}
+    h3,h4,h5,h6{--heading-prefix:"16.166"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Processing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">Epi Processing</a>
+      </li>
+      <li>
+        <a href="10-semantic-annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="12-operations.html">Operations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cross Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">International</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="05-capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="06-general-technical-conformance-requirements.html">Technical Requirements</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/gravitate-health">https://github.com/hl7-eu/gravitate-health</a> and changes regularly. See the <a href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Composition-composition-es-af8d2f6e4772c29a8ef9fbb165e80d28.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Composition-composition-es-af8d2f6e4772c29a8ef9fbb165e80d28.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Composition-composition-es-af8d2f6e4772c29a8ef9fbb165e80d28.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Composition for HIPÉRICO ARKOPHARMA cápsulas duras Package Leaflet - JSON Representation</h2>
+
+
+<p><a href="Composition-composition-es-af8d2f6e4772c29a8ef9fbb165e80d28.json" no-download="true">Raw json</a> | <a href="Composition-composition-es-af8d2f6e4772c29a8ef9fbb165e80d28.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" style="white-space: pre; text-wrap: nowrap;"><code style="white-space: pre; text-wrap: nowrap;">
+{
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition">resourceType</a>" : "Composition",
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.id">id</a>" : "composition-es-af8d2f6e4772c29a8ef9fbb165e80d28",
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
+      <a href="https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.language">language</a>" : "es",
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;es\&quot; lang=\&quot;es\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Composition&lt;/b&gt;&lt;a name=\&quot;composition-es-af8d2f6e4772c29a8ef9fbb165e80d28\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Composition &amp;quot;composition-es-af8d2f6e4772c29a8ef9fbb165e80d28&amp;quot;  (Language &amp;quot;es&amp;quot;) &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/emedicinal-product-info//StructureDefinition-Composition-uv-epi.html\&quot;&gt;Composition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a0b7cf2cfd2bdde8f0293079dece00355e&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Package Leaflet &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#100000155538)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: Raw &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-epicategory-cs.html\&quot;&gt;Category of EPI&lt;/a&gt;#R)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-02-16 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;a href=\&quot;Organization-mah-e0c4304ad134de29cff6bfff6e3a9ad7.html\&quot;&gt;Organization/mah-e0c4304ad134de29cff6bfff6e3a9ad7&lt;/a&gt; &amp;quot;Arkopharma LABORATORIOS, S.A.U,&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: TEST PURPOSES ONLY - HIPÉRICO ARKOPHARMA cápsulas duras&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Official &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://hl7.org/fhir/R5/codesystem-composition-attestation-mode.html\&quot;&gt;Composition Attestation Mode&lt;/a&gt;#official)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;2022-02-16 13:28:17+0000&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.identifier">identifier</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "b7cf2cfd2bdde8f0293079dece00355e"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.status">status</a>" : "final",
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.type">type</a>" : {
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+      }
+    ],
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Package Leaflet"
+  },
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.category">category</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "R",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Raw"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.subject">subject</a>" : [
+    {
+      <a href="MedicinalProductDefinition-mpaf8d2f6e4772c29a8ef9fbb165e80d28.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/mpaf8d2f6e4772c29a8ef9fbb165e80d28"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.date">date</a>" : "2022-02-16T13:28:17Z",
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.author">author</a>" : [
+    {
+      <a href="Organization-mah-e0c4304ad134de29cff6bfff6e3a9ad7.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "Organization/mah-e0c4304ad134de29cff6bfff6e3a9ad7"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.title">title</a>" : "TEST PURPOSES ONLY - HIPÉRICO ARKOPHARMA cápsulas duras",
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester">attester</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.mode">mode</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/composition-attestation-mode",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "official"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition.attester.time">time</a>" : "2022-02-16T13:28:17Z"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section">section</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "B. Package Leaflet",
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;unavailable&lt;/div&gt;"<a name="end-xhtml"></a>
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.emptyReason">emptyReason</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "unavailable"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.section">section</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "Package leaflet: Information for the user",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Package leaflet: Information for the user"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;div&gt;&lt;p style=\&quot;margin:0pt; text-align:center; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;PROSPECTO: INFORMACIÓN PARA EL USUARIO&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:center; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;HIPÉRICO ARKOPHARMA cápsulas duras&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:center; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;em&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Hypericum perforatum&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;L.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:center; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Lea todo el prospecto detenidamente antes de empezar a tomar este medicamento, porque contiene información importante para usted.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las indicadas por su farmacéutico, médico o enfermero.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;- Conserve este prospecto, ya que puede tener que volver a leerlo.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;- Si necesita consejo o más información, consulte a su farmacéutico.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;- Si experimenta efectos adversos, consulte a su médico, farmacéutico o enfermero, incluso si se trata de efectos adversos que no aparecen en este prospecto.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;- Debe consultar a un médico si empeora o si no mejora después de 28 días de tratamiento.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "What is in this leaflet",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "What is in this leaflet"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Contenido del prospecto&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;1. Qué es&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;HIPÉRICO ARKOPHARMA&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;y para qué se utiliza&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;2. Qué necesita saber antes de empezar a tomar&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;HIPÉRICO ARKOPHARMA&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;3. Cómo tomar&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;HIPÉRICO ARKOPHARMA&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;4. Posibles efectos adversos&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;5. Conservación de&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;HIPÉRICO ARKOPHARMA&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;6. Contenido del envase e información adicional.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "1. What HIPÉRICO ARKOPHARMA cápsulas duras is and what it is used for",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "1. What HIPÉRICO ARKOPHARMA cápsulas duras is and what it is used for"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;div&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Medicamento a base de plantas para el tratamiento sintomático de los estados de decaimiento que cursan con desánimo, pérdida de interés, cansancio y alteraciones del sueño.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Debe consultar a un médico si empeora o si no mejora después de 28 días.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "2. What you need to know before you take HIPÉRICO ARKOPHARMA cápsulas duras",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "2. What you need to know before you take HIPÉRICO ARKOPHARMA cápsulas duras"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;div&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:9pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:9pt;\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;No tome HIPÉRICO ARKOPHARMA&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ul style=\&quot;margin:0pt; padding-left:0pt\&quot;&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 21.3pt; text-indent:-18pt; text-align:justify; font-family:serif; font-size:11pt; list-style-position:inside\&quot;&gt;&lt;span style=\&quot;font:7.0pt Times New Roman\&quot;&gt;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si es menor de 18 años.&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 21.3pt; text-indent:-18pt; text-align:justify; font-family:serif; font-size:11pt; list-style-position:inside\&quot;&gt;&lt;span style=\&quot;font:7.0pt Times New Roman\&quot;&gt;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si usted está embarazada o en periodo de lactancia.&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 21.3pt; text-indent:-18pt; text-align:justify; font-family:serif; font-size:11pt; list-style-position:inside\&quot;&gt;&lt;span style=\&quot;font:7.0pt Times New Roman\&quot;&gt;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si es alérgico a&lt;/span&gt; &lt;em&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Hypericum perforatum&lt;/span&gt;&lt;/em&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;L. o a cualquiera de los componentes del medicamento.&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 21.3pt; text-indent:-18pt; text-align:justify; font-family:serif; font-size:11pt; list-style-position:inside\&quot;&gt;&lt;span style=\&quot;font:7.0pt Times New Roman\&quot;&gt;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si va a someterse a alguna intervención quirúrgica que requiera tratamiento con otros medicamentos.&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 21.3pt; text-indent:-18pt; text-align:justify; font-family:serif; font-size:11pt; list-style-position:inside\&quot;&gt;&lt;span style=\&quot;font:7.0pt Times New Roman\&quot;&gt;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si usted está en tratamiento con alguno de los medicamentos indicados en este prospecto. Algunos componentes del hipérico (&lt;/span&gt;&lt;em&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Hypericum perforatum&lt;/span&gt;&lt;/em&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;L.) pueden producir interacciones farmacocinéticas con gran número de medicamentos, ocasionando un posible descenso de su efectividad (ver la información sobre la toma de otros medicamentos).&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Advertencias y precauciones&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Consulte a su farmacéutico, médico o enfermero antes de empezar a tomar HIPÉRICO ARKOPHARMA.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si usted está tomando HIPÉRICO ARKOPHARMA, evite exposiciones intensas a los rayos UV (largas exposiciones al sol o baños de rayos UVA).&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Las mujeres que utilizan anticonceptivos orales no deben utilizar simultáneamente este medicamento porque puede producir sangrado entre los ciclos menstruales y falta de eficacia de los medicamentos anticonceptivos.&lt;/span&gt;&lt;a name=\&quot;OLE_LINK3\&quot; id=\&quot;OLE_LINK3\&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:9pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:9pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Evite las exposiciones a radiación solar intensa o a radiación ultravioleta artificial durante la toma de este medicamento. No se recomienda el uso de este medicamento durante tratamientos de fototerapia (tratamientos con rayos UVA) o si va a ser sometido a algún estudio de fotodiagnóstico, particularmente en personas de piel clara, ya que se podrían producir reacciones similares a las quemaduras solares en la piel expuesta&lt;/span&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si usted ha sido diagnosticado de depresión y está en tratamiento con medicamentos psicotrópicos o con antidepresivos inhibidores selectivos de la recaptación de serotonina o medicamentos del grupo de los triptanos, no debe utilizar este medicamento.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Se deberá dejar de tomar este medicamento 10 días antes de una operación quirúrgica u otra intervención clínica programada a fin de evitar interacciones potenciales con otros medicamentos, durante el uso de anestesia general o local.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Niños y adolescentes&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;No deben utilizar este medicamento los niños y adolescentes menores de 18 años.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Uso de HIPÉRICO ARKOPHARMA con otros medicamentos&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Algunos componentes del hipérico (&lt;/span&gt;&lt;em&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Hypericum perforatum&lt;/span&gt;&lt;/em&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;L.) pueden producir una reducción de los efectos terapéuticos de otros medicamentos, cuando se toman simultáneamente con hipérico. En los tratamientos que pueden verse afectados por este medicamento se incluyen los medicamentos recomendados por su médico y también los que usted puede adquirir sin prescripción del médico.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;No deben comenzar a utilizar preparados de hipérico sin consultar antes con su médico o farmacéutico, los pacientes que estén tomando los siguientes medicamentos:&lt;/span&gt;&lt;/p&gt;&lt;ul style=\&quot;margin:0pt; padding-left:0pt\&quot;&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;para el SIDA (antirretrovirales)&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;para el rechazo de trasplantes (ciclosporina)&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;para la epilepsia&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;para el corazón (digoxina)&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;para el tratamiento del asma o bronquitis crónica (teofilina)&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;para la migraña&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;para la depresión&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;anticoagulantes orales&lt;/span&gt;&lt;/li&gt;&lt;li style=\&quot;margin:0pt 0pt 0pt 28.06pt; text-indent:0pt; text-align:justify; padding-left:7.94pt; font-family:serif; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;anticonceptivos orales&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Para mayor información, consulte la siguiente lista:&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;No tome este medicamento si usted está en tratamiento con cualquier medicamento de los indicados en este listado:&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Agonistas 5HT (Triptanes):&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como almotriptan, eleptriptan, frovatriptan, naratriptan, rizatriptan, sumatriptan, zolmitriptan;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Analgésicos:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como tramadol;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Anestésicos/ medicamentos para la preparación de una intervención quirúrgica&lt;/span&gt;&lt;/strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;: tales como fentanilo, propofol, midazolam, sevoflurano;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Ansiolíticos&lt;/span&gt;&lt;/strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;: tales como buspirona;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Antagonistas hormonales:&lt;/span&gt;&lt;/strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt; tales como exemestano;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Antianginosos:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como ivabradina;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Antiarrítmicos&lt;/span&gt;&lt;/strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;: tales como amiodarona;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Antibacterianos&lt;/span&gt;&lt;/strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;: tales como eritromicina, claritromicina, telitromicina;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Anticoagulantes:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como warfarina, acenocumarol;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Anticonceptivos Hormonales:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;anticonceptivos orales, anticonceptivos hormonales de emergencia (Píldora del día después), implantes e inyecciones hormonales, parches transdérmicos, dispositivos intrauterinos con hormonas;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Anticonvulsivantes (Antiepilépticos):&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como carbamazepina, fenobarbital, fenitoína, primidona, valproato sódico;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Antidepresivos Tricíclicos&lt;/span&gt;&lt;/strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;: tales como amitriptilina, clomipramina;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;IMAO:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como moclobemida;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;ISRS&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;(inhibidores selectivos de la recaptación de serotonina) tales como citalopram, fluoxetina, fluvoxamina, paroxetina, sertralina;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Otros antidepresivos&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;como duloxetina, venlafaxina;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Antifúngicos:&lt;/span&gt;&lt;/strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt; tales como itraconazol, voriconazol;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Antimaláricos:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como lumefantrina;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Antiparkinsonianos:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como rasagilina;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Antisicóticos:&lt;/span&gt;&lt;/strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt; tales como aripiprazol;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Todos los Antivirales:&lt;/span&gt;&lt;/strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt; tales como&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Inhibidores de Proteasa&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;(amprenavir, atazanavir, darunavir, fosamprenavir indinavir, lopinavir, nelfinavir, ritonavir, saquinavir, tipranavir);&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Inhibidores de transcriptasa inversa no nucleósidos&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;(efavirenz, nevirapina, delavirdina);&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Aprepitant&lt;/span&gt;&lt;/strong&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;(&lt;/span&gt;&lt;/strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;se utiliza para evitar vómitos, tras un tratamiento con quimioterapia);&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Barbituratos&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como butobarbital, fenobarbital;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Bloqueadores de los canales del Calcio:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como amlodipina, nifedipina, verapamilo, felodipina;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Citotóxicos:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;como irinotecan, dasatinib, erlotinib, imatinib, sorafenib, sunitinib, etoposido, mitotano;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Diuréticos:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como eplerenona;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Estimulantes de SNC:&lt;/span&gt;&lt;/strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt; tales como metilfenidato;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Glucósidos cardiacos:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como digoxina;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Hipoglucemiantes orales&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;(antidiabéticos orales): tales como gliclazida;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Hipolipemiantes:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como simvastatina, atorvastatina;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Hormonas tiroideas:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;todos los medicamentos de esta clase incluido Tiroxina;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Inhibidores de la bomba de protones:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como lansoprazol, omeprazol;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Inmunosupresores:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como ciclosporina, tacrolimus;&lt;/span&gt; &lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;•Litio; •Teofilina; •Terapia hormonal de remplazo:&lt;/span&gt;&lt;/strong&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;tales como los parches, geles, anillo vaginal)&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;En caso de tratamiento concomitante de HIPÉRICO ARKOPHARMA con medicamentos anticoagulantes (como fenprocumona, warfarina, clopidogrel, ácido acetilsalicílico y otros antireumáticos no esteroideos) no puede excluirse que el efecto de estas preparaciones se vea aumentado&lt;/span&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:9pt\&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:9pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:9pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;No puede excluirse que HIPÉRICO ARKOPHARMA actúe sobre la metabolización de otros medicamentos lo que puede afectar a la potencia y/o duración del efecto de los medicamentos a los que se refiere. Por esta razón, consulte con su médico o farmacéutico antes de tomar HIPÉRICO ARKOPHARMA con otros tratamientos.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Informe a su médico o farmacéutico si está tomando o ha tomado recientemente cualquier otro medicamento, incluso los adquiridos sin receta médica.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Informe también a su médico o farmacéutico sobre cualquier sospecha de cambio en los efectos de los medicamentos que está tomando a la vez que HIPÉRICO ARKOPHARMA.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Toma de HIPÉRICO ARKOPHARMA con los alimentos y bebidas&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Los alimentos y las bebidas no tienen influencia sobre el efecto del medicamento.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Embarazo, lactancia y fertilidad&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si está embarazada o en periodo de lactancia, cree que pudiera estar embarazada o tiene intención de quedarse embarazada, consulte a su farmacéutico o médico antes de utilizar este medicamento. No se recomienda su administración en estas circunstancias.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Conducción y uso de máquinas&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;No se han realizado estudios sobre la capacidad de conducir y el uso de máquinas&lt;/span&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:9pt\&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "3. How to take HIPÉRICO ARKOPHARMA cápsulas duras",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "3. How to take HIPÉRICO ARKOPHARMA cápsulas duras"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;div&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las indicadas por su farmacéutico, médico o enfermero. En caso de duda, pregunte a su farmacéutico, médico o enfermero.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;La dosis recomendada es:&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Adultos: tomar 2 cápsulas, 2 ó 3 veces al día con un vaso de agua.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Es aconsejable que las tomas se realicen siempre a las mismas horas.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Este medicamento se utiliza vía oral.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;La duración de tratamiento es de 6 semanas.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;El efecto del medicamento aparece generalmente a las 4 semanas. Si los síntomas persisten, debería consultar con un profesional sanitario.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Una vez abierto el envase, se retirará la bolsita absorbente que no es apta para consumo humano y no debe ser ingerida.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Uso en niños y adolescentes&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;No utilizar en niños y adolescentes menores de 18 años&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Si toma más HIPÉRICO ARKOPHARMA del que debe&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si se ha tomado una dosis excesiva de HIPÉRICO ARKOPHARMA pueden aparecer convulsiones o estado de confusión.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;En caso de la toma de una dosis excesiva de hipérico, se debe proteger de las radiaciones solares o de cualquier otra fuente de rayos UV durante 1-2 semanas.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;En caso de sobredosis o ingestión accidental, consulte inmediatamente a su farmacéutico o médico o llame al Servicio de Información Toxicológica, teléfono 91 562 04 20, indicando el producto y la cantidad ingerida.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Si olvidó tomar HIPÉRICO ARKOPHARMA&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;En caso de olvido de una dosis, tome el medicamento lo antes posible continuando el tratamiento de la forma prescrita. Sin embargo, si está próxima la siguiente dosis, es mejor que no tome la dosis olvidada y espere a la siguiente. En ningún caso tome una dosis doble para compensar la dosis olvidada&lt;/span&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:9pt\&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "4. Possible side effects",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "4. Possible side effects"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;div&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Al igual que todos los medicamentos, este medicamento puede producir efectos adversos, aunque no todas las personas los sufran.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;En casos raros, con una frecuencia que afecta a menos de un caso por cada 1000 pacientes, se han descrito problemas digestivos tales como náusea, dolor abdominal, diarrea, pérdida de apetito; o reacciones en la piel como picor, irritación, enrojecimiento (urticaria) y muy raramente podrían ocurrir reacciones similares a las quemaduras solares, en la piel expuesta a radiación solar o artificial intensa.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;También se ha descrito dolor de cabeza, neuropatía, ansiedad, mareo, fatiga, manía o alergias, para los que se desconoce la frecuencia de aparición.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Comunicación de reacciones adversas&lt;/span&gt;&lt;/strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Si experimenta cualquier tipo de efecto adverso, consulte a su médico o farmacéutico, incluso si se trata de posibles efectos adversos que no aparecen en este prospecto. También puede comunicarlos directamente a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano:&lt;/span&gt; &lt;a href=\&quot;https://www.notificaram.es\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt; color:#0000ff\&quot;&gt;https://www.notificaram.es&lt;/span&gt;&lt;/a&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;. Mediante la comunicación de efectos adversos usted puede contribuir a proporcionar más información sobre la seguridad de este medicamento.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:9pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:9pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "5. How to store HIPÉRICO ARKOPHARMA cápsulas duras",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "5. How to store HIPÉRICO ARKOPHARMA cápsulas duras"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;div&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Mantener este medicamento fuera de la vista y del alcance de los niños.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;No conservar a temperatura superior a 25ºC.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Una vez abierto, desechar después de 21 días.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;No utilice HIPÉRICO ARKOPHARMA después de la fecha de caducidad que aparece en el envase, después de la abreviatura “CAD”. La fecha de caducidad es el último día del mes que se indica.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Los medicamentos no se deben tirar por los desagües ni a la basura. Deposite los envases y los medicamentos que no necesite en el Punto SIGRE&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;de la farmacia. En caso de duda pregunte a su farmacéutico cómo deshacerse de los envases y de los medicamentos que no necesita. De esta forma, ayudará a proteger el medio ambiente&lt;/span&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:9pt\&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.title">title</a>" : "6. Contents of the pack and other information",
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "6. Contents of the pack and other information"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#Composition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;div&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Composici&amp;#243;n de HIP&amp;#201;RICO ARKOPHARMA&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Cada c&amp;#225;psula contiene como principio activo:&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;175 mg de extracto seco hidroalcoh&amp;#243;lico de&lt;/span&gt; &lt;em&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Hypericum perforatum&lt;/span&gt;&lt;/em&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;L. herba (sumidades floridas de hip&amp;#233;rico) (3.5-6:1) que corresponden a: 0,27 mg a 0,46mg de hipericinas totales, &amp;#8805; 10,5 mg de flavonoides y 2,71 mg a 4,63 mg de hiperforina.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Disolvente de extracci&amp;#243;n: etanol 60% m/m&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Los dem&amp;#225;s componentes son los excipientes: celulosa microcristalina, estearato de magnesio, s&amp;#237;lice coloidalhidr&amp;#243;foba y maltodextrina.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Composici&amp;#243;n de la&lt;/span&gt; &lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;c&amp;#225;psula: hipromelosa, di&amp;#243;xido de titanio y &amp;#243;xido de hierro amarillo.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Aspecto del producto y contenido del envase&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Existe 1 presentaci&amp;#243;n en frascos que contienen 42 c&amp;#225;psulas, con una bolsita absorbente en su interior.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;Una vez abierto el envase, se retirar&amp;#225; la bolsita absorbente que no es apta para consumo humano y no debe ser ingerida.&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Titular de la autorizaci&amp;#243;n de comercializaci&amp;#243;n y responsable de la fabricaci&amp;#243;n:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Titular&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Arkopharma LABORATORIOS, S.A.U,&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;C/ Amaltea, 9&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;28045 MADRID&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Responsable de la fabricaci&amp;#243;n&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;ARKOPHARMA&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;LABORATOIRES PHARMACEUTIQUES&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;BP 28 &amp;#8211; 06511 CARROS Cedex - FRANCE&lt;/span&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;Fecha de la &amp;#250;ltima revisi&amp;#243;n de este prospecto: septiembre 2016&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; line-height:115%; font-size:11pt\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt;\&quot;&gt;&amp;#xa0;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=\&quot;margin:0pt; text-align:justify; line-height:115%; font-size:11pt\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt\&quot;&gt;La informaci&amp;#243;n detallada y actualizada de este medicamento est&amp;#225; disponible en la p&amp;#225;gina web de la Agencia Espa&amp;#241;ola de Medicamentos y Productos Sanitarios (AEMPS)&lt;/span&gt; &lt;a href=\&quot;http://www.aemps.gob.es/\&quot;&gt;&lt;span style=\&quot;font-family:Times New Roman; font-size:11pt; color:#0000ff\&quot;&gt;http://www.aemps.gob.es/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          }
+        }
+      ]
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Jan 21, 2024 22:55+0000">2024-01-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

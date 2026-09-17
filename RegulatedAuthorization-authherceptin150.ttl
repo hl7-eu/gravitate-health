@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authherceptin150> a fhir:RegulatedAuthorization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "authherceptin150"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: RegulatedAuthorization authherceptin150</b></p><a name=\"authherceptin150\"> </a><a name=\"hcauthherceptin150\"> </a><p><b>identifier</b>: <code>https://pmda-approvalandlicenseno/</code>/21300AMY00128 (use: official, )</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-medprodherceptin150.html\">MedicinalProductDefinition: identifier = http://iyaku.info/medicine#4291447D2024; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ /#100000072062}\">Marketing Authorisation</span></p><p><b>region</b>: <span title=\"Codes:{urn:iso:std:iso:3166 JP}\">Japan</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2002-08-01 13:28:17+0000</p><p><b>holder</b>: <a href=\"Organization-orgchugai.html\">Organization Chugai Pharmaceutical Co., Ltd.</a></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://pmda-approvalandlicenseno/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "21300AMY00128" ]
+  ] ) ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/medprodherceptin150> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/medprodherceptin150" ]
+  ] ) ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "/#100000072062" ]
+     ] ) ;
+     fhir:text [ fhir:v "Marketing Authorisation" ]
+  ] ; # 
+  fhir:region ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "JP" ]
+     ] ) ;
+     fhir:text [ fhir:v "Japan" ]
+  ] ) ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/publication-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ]
+     ] ) ;
+     fhir:text [ fhir:v "Active" ]
+  ] ; # 
+  fhir:statusDate [ fhir:v "2002-08-01T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:holder [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/orgchugai> ;
+     fhir:reference [ fhir:v "Organization/orgchugai" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

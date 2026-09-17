@@ -1,0 +1,578 @@
+# FK96760 - Gravitate Health FHIR Implementation Guide v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **FK96760**
+
+## Example Bundle: FK96760
+
+**Composition category:**
+
+**Composition status:**final
+
+### Lisätietoa
+
+ 
+
+**Galvus 50 mg tabletit**
+
+vildagliptiini
+
+
+#### Yleisiä ohjeita
+
+ 
+
+## Yleisiä ohjeita
+
+**Lue tämä pakkausseloste huolellisesti ennen kuin aloitat tämän lääkkeen käyttämisen, sillä se sisältää sinulle tärkeitä tietoja.**
+
+* Säilytä tämä pakkausseloste. Voit tarvita sitä myöhemmin.
+* Jos sinulla on kysyttävää, käänny lääkärin, apteekkihenkilökunnan tai sairaanhoitajan puoleen.
+* Tämä lääke on määrätty vain sinulle eikä sitä pidä antaa muiden käyttöön. Se voi aiheuttaa haittaa muille, vaikka heillä olisikin samanlaiset oireet kuin sinulla.
+* Jos havaitset haittavaikutuksia, kerro niistä lääkärille, apteekkihenkilökunnalle tai sairaanhoitajalle. Tämä koskee myös sellaisia mahdollisia haittavaikutuksia, joita ei ole mainittu tässä pakkausselosteessa. Ks. kohta Mahdolliset haittavaikutukset.
+
+
+#### Tässä pakkausselosteessa kerrotaan
+
+ 
+
+## Tässä pakkausselosteessa kerrotaan
+
+1. Mitä Galvus on ja mihin sitä käytetään
+
+2. Mitä sinun on tiedettävä, ennen kuin otat Galvus-valmistetta
+
+3. Miten Galvus-valmistetta otetaan
+
+4. Mahdolliset haittavaikutukset
+
+5. Galvus-valmisteen säilyttäminen
+
+6. Pakkauksen sisältö ja muuta tietoa
+
+
+#### Mitä valmiste on ja mihin sitä käytetään
+
+ 
+
+## Mitä valmiste on ja mihin sitä käytetään
+
+Galvus-valmisteen sisältämä vaikuttava aine, vildagliptiini, kuuluu suun kautta otettaviksi diabeteslääkkeiksi kutsuttujen lääkeaineiden ryhmään.
+
+Galvus-valmistetta käytetään tyypin 2 diabetesta sairastavien aikuisten potilaiden hoitoon. Sitä käytetään, kun diabetesta ei saada hallintaan pelkän ruokavalion ja liikunnan avulla. Se auttaa veren sokeripitoisuuden säätelemisessä. Lääkärisi määrää Galvus-valmistetta joko yksinään tai tiettyjen muiden jo käyttämiesi diabeteslääkkeiden kanssa, jos niillä ei ole saatu aikaiseksi riittävää tehoa diabeteksen hallinnassa.
+
+Tyypin 2 diabetes kehittyy, jos elimistö ei tuota riittävästi insuliinia tai jos elimistön tuottama insuliini ei toimi asianmukaisella tavalla. Se voi kehittyä myös, jos elimistö tuottaa liikaa glukagonia.
+
+Insuliini on aine, joka auttaa pienentämään veren sokeripitoisuutta, etenkin ruokailun jälkeen. Glukagoni on aine, joka käynnistää sokerin tuotannon maksassa ja aiheuttaa siten veren sokeripitoisuuden suurenemista. Haima tuottaa kumpaakin näistä aineista.
+
+**Galvus-valmisteen vaikutustapa**
+
+Galvus-valmisteen vaikutuksesta haima tuottaa enemmän insuliinia ja vähemmän glukagonia. Tämä auttaa veren sokeripitoisuuden säätelemisessä. Tämän lääkkeen on osoitettu alentavan veren sokeripitoisuutta, mikä saattaa estää diabeteksen aiheuttamia muita sairauksia. Vaikka aloitatkin nyt lääkityksen diabeteksen hoitoon, on tärkeää jatkaa ruokavalion ja/tai liikuntaohjelman noudattamista siten kuin sinulle on suositeltu.
+
+
+#### Mitä sinun on tiedettävä ennen valmisteen käyttöä
+
+ 
+
+## Mitä sinun on tiedettävä ennen valmisteen käyttöä
+
+**Älä ota Galvus-valmistetta**
+
+* jos olet allerginen vildagliptiinille tai tämän lääkkeen jollekin muulle aineelle (lueteltu kohdassa Pakkauksen sisältö ja muuta tietoa). Jos epäilet olevasi allerginen vildagliptiinille tai Galvus-valmisteen jollekin muulle aineelle, älä ota tätä lääkettä, vaan kysy neuvoa lääkäriltä.
+
+**Varoitukset ja varotoimet**
+
+**Keskustele lääkärin, apteekkihenkilökunnan tai sairaanhoitajan kanssa ennen kuin käytät Galvus-valmistetta**
+
+* jos sinulla on tyypin 1 diabetes (elimistösi ei tuota insuliinia) tai jos sinulla on diabeettinen ketoasidoosi
+* jos käytät diabeteslääkkeenä jotakin sulfonyyliureavalmistetta (lääkäri saattaa pienentää sulfonyyliurea-annostasi verensokerin liiallisen laskun [hypoglykemian] välttämiseksi, jos käytät sulfonyyliureaa yhdessä Galvus-valmisteen kanssa)
+* jos sinulla on keskivaikea tai vaikea munuaissairaus (sinun tulee ottaa alhaisempi Galvus-annos)
+* jos saat dialyysihoitoa
+* jos sinulla on maksasairaus
+* jos kärsit sydämen vajaatoiminnasta
+* jos sinulla on tai on ollut haimasairaus.
+
+Jos olet käyttänyt vildagliptiinia aikaisemmin, mutta sinun piti lopettaa sen käyttö maksasairauden takia, sinun ei tule käyttää tätä lääkettä.
+
+Diabetekseen liittyy yleisenä komplikaationa diabeettisia ihovaurioita. Noudata lääkärin tai hoitajan antamia ohjeita ihon ja jalkojen hoidosta. Sinua kehotetaan kiinnittämään huomiota Galvus-hoidon aikana ilmaantuviin rakkuloihin tai haavaumiin. Jos tällaisia ilmaantuu, ota heti yhteyttä lääkäriin.
+
+Maksasi toiminta tutkitaan erillisellä testillä ennen Galvus-hoidon aloittamista, kolmen kuukauden välein ensimmäisen vuoden aikana ja sen jälkeen ajoittain, jotta mahdolliset maksaentsyymiarvojen suurenemiset voidaan havaita mahdollisimman aikaisessa vaiheessa.
+
+**Lapset ja nuoret**
+
+Galvus-valmisteen käyttöä alle 18-vuotiaiden lasten ja nuorten hoitoon ei suositella.
+
+**Muut lääkevalmisteet ja Galvus**
+
+Kerro lääkärille tai apteekkihenkilökunnalle, jos parhaillaan käytät, olet äskettäin käyttänyt tai saatat käyttää muita lääkkeitä.
+
+Lääkärisi saattaa katsoa tarpeelliseksi muuttaa Galvus-annostasi, jos käytät muita lääkkeitä kuten:
+
+* tiatsideja tai muita diureetteja (kutsutaan myös nesteenpoistolääkkeiksi)
+* kortikosteroideja (käytetään tavallisesti tietynlaisten tulehdusten hoitamiseen)
+* kilpirauhaslääkkeitä
+* tiettyjä hermostoon vaikuttavia lääkkeitä.
+
+**Raskaus ja imetys**
+
+Jos olet raskaana tai imetät, epäilet olevasi raskaana tai jos suunnittelet lapsen hankkimista, kysy lääkäriltä tai apteekista neuvoa ennen tämän lääkkeen käyttöä.
+
+Sinun ei tule käyttää Galvus-valmistetta raskauden aikana. Ei tiedetä, erittyykö Galvus äidinmaitoon. Sinun ei tule käyttää Galvus-valmistetta, jos imetät tai aiot imettää.
+
+**Ajaminen ja koneiden käyttö**
+
+Jos sinua huimaa Galvus-valmisteen käytön aikana, älä aja äläkä käytä koneita.
+
+**Galvus sisältää laktoosia**
+
+Galvus sisältää laktoosia (maitosokeri). Jos lääkäri on kertonut, että sinulla on jokin sokeri-intoleranssi, keskustele lääkärisi kanssa ennen tämän lääkevalmisteen ottamista.
+
+**Galvus sisältää natriumia**
+
+Tämä lääkevalmiste sisältää alle 1 mmol natriumia (23 mg) per tabletti eli sen voidaan sanoa olevan ”natriumiton”.
+
+
+#### Miten valmistetta käytetään
+
+ 
+
+## Miten valmistetta käytetään
+
+Ota tätä lääkettä juuri siten kuin lääkäri on määrännyt. Tarkista ohjeet lääkäriltä tai apteekista, jos olet epävarma.
+
+**Kuinka paljon ja milloin Galvus-valmistetta otetaan**
+
+Otettavien Galvus-tablettien määrä riippuu kunkin potilaan tilasta. Lääkärisi kertoo sinulle otettavien Galvus-tablettien tarkan määrän. Enimmäisvuorokausiannos on 100 mg.
+
+Tavanomainen Galvus-annos on joko
+
+* 50 mg vuorokaudessa aamuisin yhtenä annoksena, jos käytät Galvus-valmistetta yhdessä sulfonyyliurea-nimisen lääkkeen kanssa.
+* 100 mg vuorokaudessa jaettuna 50 mg:n annokseen aamuisin ja 50 mg:n annokseen iltaisin, jos käytät Galvus-valmistetta yksinään, yhdessä metformiini -nimisen lääkkeen tai glitatsonin kanssa, yhdessä metformiinin ja sulfonyyliurean kanssa tai yhdessä insuliinin kanssa.
+* 50 mg vuorokaudessa aamuisin, jos sinulla on keskivaikea tai vaikea munuaissairaus tai saat dialyysihoitoa.
+
+**Miten Galvus-valmistetta otetaan**
+
+* Niele tabletit kokonaisina veden kanssa.
+
+**Miten pitkään Galvus-valmistetta otetaan**
+
+* Ota Galvus-valmistetta päivittäin niin kauan kuin lääkärisi on määrännyt. Voit joutua käyttämään tätä lääkitystä pitkään.
+* Lääkärisi seuraa tilaasi säännöllisesti tarkistaakseen, että hoito vaikuttaa halutulla tavalla.
+
+**Jos otat enemmän Galvus-valmistetta kuin sinun pitäisi**
+
+Jos otat liian monta Galvus-tablettia tai jos joku muu on ottanut lääkettäsi, **ota heti yhteyttä lääkäriisi**. Saatat tarvita lääkärinhoitoa. Jos sinun on mentävä lääkäriin tai sairaalaan, ota lääkepakkaus mukaasi.
+
+**Jos unohdat ottaa Galvus-valmistetta**
+
+Jos unohdat ottaa lääkeannoksen, ota se heti, kun muistat. Ota seuraava annos tavanomaiseen aikaan. Jos on melkein aika ottaa seuraava annos, jätä unohtamasi annos ottamatta. Älä ota kaksinkertaista annosta korvataksesi unohtamasi tabletin.
+
+**Jos lopetat Galvus-valmisteen käytön**
+
+Älä keskeytä Galvus-valmisteen käyttämistä, ellei lääkärisi niin määrää. Jos sinulla on kysyttävää tämän lääkityksen kestosta, käänny lääkärisi puoleen.
+
+
+#### Mahdolliset haittavaikutukset
+
+ 
+
+## Mahdolliset haittavaikutukset
+
+Kuten kaikki lääkkeet, tämäkin lääke voi aiheuttaa haittavaikutuksia. Kaikki eivät kuitenkaan niitä saa.
+
+**Osa oireista saattaa vaatia välitöntä lääkärinhoitoa:**
+
+Lopeta Galvus-valmisteen käyttö ja mene heti lääkärin vastaanotolle, jos sinulle ilmaantuu seuraavia haittavaikutuksia:
+
+* Angioedeema (harvinainen: voi esiintyä enintään 1 lääkkeen käyttäjällä 1 000:sta): Oireisiin kuuluu kasvojen, kielen tai kurkun turpoamista, nielemisvaikeuksia, hengitysvaikeuksia, äkillisesti ilmaantunutta ihottumaa tai nokkosihottumaa, jotka ovat ”angioedeema” –nimiseen reaktioon mahdollisesti liittyviä oireita.
+* Maksasairaus (hepatiitti) (esiintyvyys tuntematon). Oireisiin kuuluu ihon ja silmien keltaisuutta, pahoinvointia, ruokahaluttomuutta tai virtsan tummumista, jotka ovat maksasairauteen (hepatiitti) mahdollisesti liittyviä oireita.
+* Haimatulehdus (pankreatiitti) (harvinainen: voi esiintyä enintään 1 lääkkeen käyttäjällä 1 000:sta): Oireisiin kuuluu voimakas ja keskeytymätön kipu vatsassa, joka voi säteillä selkään ja lisäksi aiheuttaa pahoinvointia ja oksentelua.
+
+**Muita haittavaikutuksia**
+
+Joillain Galvus-valmistetta käyttäneillä potilailla on esiintynyt seuraavia haittavaikutuksia:
+
+* Hyvin yleiset (voivat esiintyä yli 1 lääkkeen käyttäjällä 10:stä): kurkkukipu, nenän vuotaminen, kuume.
+* Yleiset (voivat esiintyä enintään 1 lääkkeen käyttäjällä 10:stä): kutiava ihottuma, vapina, päänsärky, huimaus, lihaskipu, nivelkipu, ummetus, käsien, nilkkojen tai jalkojen turvotus (edeema), voimakas hikoilu, oksentelu, vatsakipu ja vatsan alueen kipu, ripuli, närästys, pahoinvointi, näön hämärtyminen.
+* Melko harvinaiset (voivat esiintyä enintään 1 lääkkeen käyttäjällä 100:sta): painon nousu, vilunväristykset, heikotus, seksuaalinen toimintahäiriö, alhainen verensokeri, ilmavaivat.
+* Harvinaiset (voivat esiintyä enintään 1 lääkkeen käyttäjällä 1 000:sta): haimatulehdus.
+
+Markkinoille tulon jälkeen on raportoitu myös seuraavia haittavaikutuksia:
+
+* Esiintyvyys tuntematon (koska saatavissa oleva tieto ei riitä esiintyvyyden arviointiin): paikallinen ihon tai rakkuloiden kuoriutuminen, ihon verisuonten tulehdus (vaskuliitti), joka voi aiheuttaa ihottumaa tai pistemäistä punoitusta ihon pinnan alla tai mustelmia.
+
+**Haittavaikutuksista ilmoittaminen**
+
+Jos havaitset haittavaikutuksia, kerro niistä lääkärille, apteekkihenkilökunnalle tai sairaanhoitajalle. Tämä koskee myös sellaisia mahdollisia haittavaikutuksia, joita ei ole mainittu tässä pakkausselosteessa. Voit ilmoittaa haittavaikutuksista myös suoraan
+
+www-sivusto: [www.fimea.fi](http://www.fimea.fi)
+
+Lääkealan turvallisuus- ja kehittämiskeskus Fimea
+
+Lääkkeiden haittavaikutusrekisteri
+
+PL 55
+
+00034 FIMEA
+Ilmoittamalla haittavaikutuksista voit auttaa saamaan enemmän tietoa tämän lääkevalmisteen turvallisuudesta.
+
+
+#### Valmisteen säilyttäminen
+
+ 
+
+## Valmisteen säilyttäminen
+
+* Ei lasten ulottuville eikä näkyville.
+* Älä käytä tätä lääkettä läpipainopakkauksessa ja ulkopakkauksessa mainitun viimeisen käyttöpäivämäärän (EXP) jälkeen. Viimeinen käyttöpäivämäärä tarkoittaa kuukauden viimeistä päivää.
+* Säilytä alkuperäispakkauksessa. Herkkä kosteudelle.
+* Älä käytä sellaista Galvus-pakkausta, joka on vaurioitunut tai jos siinä on merkkejä peukaloinnista.
+* Lääkkeitä ei pidä heittää viemäriin eikä hävittää talousjätteiden mukana. Kysy käyttämättömien lääkkeiden hävittämisestä apteekista. Näin menetellen suojelet luontoa.
+
+
+#### Pakkauksen sisältö ja muuta tietoa
+
+ 
+
+## Pakkauksen sisältö ja muuta tietoa
+
+**Mitä Galvus sisältää**
+
+* Vaikuttava aine on vildagliptiini.
+Yksi tabletti sisältää 50 mg vildagliptiinia.
+* Muut aineet ovat vedetön laktoosi, mikrokiteinen selluloosa, natriumtärkkelysglykolaatti (tyyppi A) ja magnesiumstearaatti.
+
+**Lääkevalmisteen kuvaus ja pakkauskoot**
+
+Galvus 50 mg ‑tabletit ovat pyöreitä, valkoisia tai vaalean kellertäviä ja litteitä, ja niissä on toisella puolella merkintä ”NVR” ja toisella puolella ”FB”.
+
+Galvus 50 mg on saatavilla 7, 14, 28, 30, 56, 60, 90, 112, 180 tai 336 tabletin pakkauksissa ja kolmesta 112 tablettia sisältävästä kotelosta koostuvissa monipakkauksissa.
+
+Kaikkia pakkauskokoja ei välttämättä ole myynnissä.
+
+**Myyntiluvan haltija**
+Novartis Europharm Limited
+Vista Building
+Elm Park, Merrion Road
+Dublin 4
+Irlanti
+
+**Valmistaja**
+Lek d.d.
+Verovskova ulica 57
+Ljubljana 1526
+Slovenia
+
+Novartis Farmacéutica S.A.
+Gran Via de les Corts Catalanes, 764
+08013 Barcelona
+Espanja
+
+Novartis Pharma GmbH
+Roonstrasse 25
+D-90429 Nürnberg
+Saksa
+
+Novartis Pharmaceutical Manufacturing LLC
+Verovskova ulica 57
+Ljubljana 1000
+Slovenia
+
+Lisätietoja tästä lääkevalmisteesta antaa myyntiluvan haltijan paikallinen edustaja.
+
+**Suomi/Finland**
+
+Novartis Finland Oy
+
+Puh/Tel: +358 (0)10 6133 200
+
+**Tämä pakkausseloste on tarkistettu viimeksi 14.8.2023**
+
+**Muut tiedonlähteet**
+
+Lisätietoa tästä lääkevalmisteesta on saatavilla Euroopan lääkeviraston verkkosivulla http://www.ema.europa.eu
+
+
+####  Galvus tab 50 mg 
+LEGEMIDDELMERKEVAREID:
+** ID_795B338C-5A0B-4F74-820A-359B3C56AF81 **
+-------
+
+Full name: **Galvus tab 50 mg**
+
+-------
+
+ Authorised dose form: **** 
+
+ Legal status of supply: **** 
+
+ Domain: **** 
+
+ Resource status: **** 
+
+-------
+
+ Product classification: 
+
+ Package 1 of 1
+
+LEGEMIDDELPAKNINGID: ** ID_9FFC8ECB-7705-463D-8F98-68E7A4658A4D ** 
+
+VARENUMMER: ** 108562 ** 
+
+VNR: ** 108562 ** 
+
+ Description:  * * 
+
+ Marketing status: 
+ 
+
+ Pack size: 
+ 
+
+Package: ** ** 
+
+Containing:
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Bundle",
+  "id" : "FK96760",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"]
+  },
+  "language" : "fi",
+  "identifier" : {
+    "system" : "https://pharmaca.fi/documentId",
+    "value" : "96760"
+  },
+  "type" : "document",
+  "timestamp" : "2023-10-15T12:17:37Z",
+  "entry" : [{
+    "fullUrl" : "https://gravitatehealth.eu/fhir/nordic-epi/Composition/FK96760-COMP",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "FK96760-COMP",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
+        "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"]
+      },
+      "language" : "fi",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fi\" lang=\"fi\"><a name=\"Composition_FK96760-COMP\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition FK96760-COMP</b></p><a name=\"FK96760-COMP\"> </a><a name=\"hcFK96760-COMP\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fi</p><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a>, <code>https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL</code></p></div><p><b>identifier</b>: <code>https://pharmaca.fi/documentId</code>/96760</p><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/v1/lists/100000155531/terms/ 100000155538}\">100000155538</span></p><p><b>date</b>: 2023-10-15 12:17:37+0000</p><p><b>author</b>: Identifier: <code>https://gravitatehealth.eu/organization</code>/Pharmaca Health Intelligence Oy</p><p><b>title</b>: GALVUS tabletti 50 mg</p></div>"
+      },
+      "identifier" : [{
+        "system" : "https://pharmaca.fi/documentId",
+        "value" : "96760"
+      }],
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/v1/lists/100000155531/terms/",
+          "code" : "100000155538"
+        }]
+      },
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/Diabetes-MPD-23"
+      }],
+      "date" : "2023-10-15T12:17:37Z",
+      "author" : [{
+        "identifier" : {
+          "system" : "https://gravitatehealth.eu/organization",
+          "value" : "Pharmaca Health Intelligence Oy"
+        }
+      }],
+      "title" : "GALVUS tabletti 50 mg",
+      "section" : [{
+        "title" : "Lisätietoa",
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+            "code" : "200000029894"
+          }]
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Galvus 50 mg tabletit</strong></p><p>vildagliptiini</p></div>"
+        },
+        "section" : [{
+          "title" : "Yleisiä ohjeita",
+          "code" : {
+            "coding" : [{
+              "system" : "https://gravitatehealth.eu/section",
+              "code" : "rules"
+            }]
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Yleisiä ohjeita</h2><p><b>Lue tämä pakkausseloste huolellisesti ennen kuin aloitat tämän lääkkeen käyttämisen, sillä se sisältää sinulle tärkeitä tietoja.</b></p><ul><li>Säilytä tämä pakkausseloste. Voit tarvita sitä myöhemmin.</li><li>Jos sinulla on kysyttävää, käänny lääkärin, apteekkihenkilökunnan tai sairaanhoitajan puoleen.</li><li>Tämä lääke on määrätty vain sinulle eikä sitä pidä antaa muiden käyttöön. Se voi aiheuttaa haittaa muille, vaikka heillä olisikin samanlaiset oireet kuin sinulla.</li><li>Jos havaitset haittavaikutuksia, kerro niistä lääkärille, apteekkihenkilökunnalle tai sairaanhoitajalle. Tämä koskee myös sellaisia mahdollisia haittavaikutuksia, joita ei ole mainittu tässä pakkausselosteessa. Ks. kohta <a class=\"cross-reference\">Mahdolliset haittavaikutukset</a>.</li></ul></div>"
+          }
+        },
+        {
+          "title" : "Tässä pakkausselosteessa kerrotaan",
+          "code" : {
+            "coding" : [{
+              "system" : "https://gravitatehealth.eu/section",
+              "code" : "toc"
+            }]
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Tässä pakkausselosteessa kerrotaan</h2><p>1. Mitä Galvus on ja mihin sitä käytetään</p><p>2. Mitä sinun on tiedettävä, ennen kuin otat Galvus-valmistetta</p><p>3. Miten Galvus-valmistetta otetaan</p><p>4. Mahdolliset haittavaikutukset</p><p>5. Galvus-valmisteen säilyttäminen</p><p>6. Pakkauksen sisältö ja muuta tietoa</p></div>"
+          }
+        },
+        {
+          "title" : "Mitä valmiste on ja mihin sitä käytetään",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+              "code" : "200000029895"
+            }]
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Mitä valmiste on ja mihin sitä käytetään</h2><p>Galvus-valmisteen sisältämä vaikuttava aine, vildagliptiini, kuuluu suun kautta otettaviksi diabeteslääkkeiksi kutsuttujen lääkeaineiden ryhmään.</p><p>Galvus-valmistetta käytetään tyypin 2 diabetesta sairastavien aikuisten potilaiden hoitoon. Sitä käytetään, kun diabetesta ei saada hallintaan pelkän ruokavalion ja liikunnan avulla. Se auttaa veren sokeripitoisuuden säätelemisessä. Lääkärisi määrää Galvus-valmistetta joko yksinään tai tiettyjen muiden jo käyttämiesi diabeteslääkkeiden kanssa, jos niillä ei ole saatu aikaiseksi riittävää tehoa diabeteksen hallinnassa.</p><p>Tyypin 2 diabetes kehittyy, jos elimistö ei tuota riittävästi insuliinia tai jos elimistön tuottama insuliini ei toimi asianmukaisella tavalla. Se voi kehittyä myös, jos elimistö tuottaa liikaa glukagonia.</p><p>Insuliini on aine, joka auttaa pienentämään veren sokeripitoisuutta, etenkin ruokailun jälkeen. Glukagoni on aine, joka käynnistää sokerin tuotannon maksassa ja aiheuttaa siten veren sokeripitoisuuden suurenemista. Haima tuottaa kumpaakin näistä aineista.</p><p><b>Galvus-valmisteen vaikutustapa</b></p><p>Galvus-valmisteen vaikutuksesta haima tuottaa enemmän insuliinia ja vähemmän glukagonia. Tämä auttaa veren sokeripitoisuuden säätelemisessä. Tämän lääkkeen on osoitettu alentavan veren sokeripitoisuutta, mikä saattaa estää diabeteksen aiheuttamia muita sairauksia. Vaikka aloitatkin nyt lääkityksen diabeteksen hoitoon, on tärkeää jatkaa ruokavalion ja/tai liikuntaohjelman noudattamista siten kuin sinulle on suositeltu.</p></div>"
+          }
+        },
+        {
+          "title" : "Mitä sinun on tiedettävä ennen valmisteen käyttöä",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+              "code" : "200000029896"
+            }]
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Mitä sinun on tiedettävä ennen valmisteen käyttöä</h2><p><b>Älä ota Galvus-valmistetta</b></p><ul><li>jos olet allerginen vildagliptiinille tai tämän lääkkeen jollekin muulle aineelle (lueteltu kohdassa <a class=\"cross-reference\">Pakkauksen sisältö ja muuta tietoa</a>). Jos epäilet olevasi allerginen vildagliptiinille tai Galvus-valmisteen jollekin muulle aineelle, älä ota tätä lääkettä, vaan kysy neuvoa lääkäriltä.</li></ul><p><b>Varoitukset ja varotoimet</b></p><p><b>Keskustele lääkärin, apteekkihenkilökunnan tai sairaanhoitajan kanssa ennen kuin käytät Galvus-valmistetta</b></p><ul><li>jos sinulla on tyypin 1 diabetes (elimistösi ei tuota insuliinia) tai jos sinulla on diabeettinen ketoasidoosi</li><li>jos käytät diabeteslääkkeenä jotakin sulfonyyliureavalmistetta (lääkäri saattaa pienentää sulfonyyliurea-annostasi verensokerin liiallisen laskun [hypoglykemian] välttämiseksi, jos käytät sulfonyyliureaa yhdessä Galvus-valmisteen kanssa)</li><li>jos sinulla on keskivaikea tai vaikea munuaissairaus (sinun tulee ottaa alhaisempi Galvus-annos)</li><li>jos saat dialyysihoitoa</li><li>jos sinulla on maksasairaus</li><li>jos kärsit sydämen vajaatoiminnasta</li><li>jos sinulla on tai on ollut haimasairaus.</li></ul><p>Jos olet käyttänyt vildagliptiinia aikaisemmin, mutta sinun piti lopettaa sen käyttö maksasairauden takia, sinun ei tule käyttää tätä lääkettä.</p><p>Diabetekseen liittyy yleisenä komplikaationa diabeettisia ihovaurioita. Noudata lääkärin tai hoitajan antamia ohjeita ihon ja jalkojen hoidosta. Sinua kehotetaan kiinnittämään huomiota Galvus-hoidon aikana ilmaantuviin rakkuloihin tai haavaumiin. Jos tällaisia ilmaantuu, ota heti yhteyttä lääkäriin.</p><p>Maksasi toiminta tutkitaan erillisellä testillä ennen Galvus-hoidon aloittamista, kolmen kuukauden välein ensimmäisen vuoden aikana ja sen jälkeen ajoittain, jotta mahdolliset maksaentsyymiarvojen suurenemiset voidaan havaita mahdollisimman aikaisessa vaiheessa.</p><p><b>Lapset ja nuoret</b></p><p>Galvus-valmisteen käyttöä alle 18-vuotiaiden lasten ja nuorten hoitoon ei suositella.</p><p><b>Muut lääkevalmisteet ja Galvus</b></p><p>Kerro lääkärille tai apteekkihenkilökunnalle, jos parhaillaan käytät, olet äskettäin käyttänyt tai saatat käyttää muita lääkkeitä.</p><p>Lääkärisi saattaa katsoa tarpeelliseksi muuttaa Galvus-annostasi, jos käytät muita lääkkeitä kuten:</p><ul><li>tiatsideja tai muita diureetteja (kutsutaan myös nesteenpoistolääkkeiksi)</li><li>kortikosteroideja (käytetään tavallisesti tietynlaisten tulehdusten hoitamiseen)</li><li>kilpirauhaslääkkeitä</li><li>tiettyjä hermostoon vaikuttavia lääkkeitä.</li></ul><p><b>Raskaus ja imetys</b></p><p>Jos olet raskaana tai imetät, epäilet olevasi raskaana tai jos suunnittelet lapsen hankkimista, kysy lääkäriltä tai apteekista neuvoa ennen tämän lääkkeen käyttöä.</p><p>Sinun ei tule käyttää Galvus-valmistetta raskauden aikana. Ei tiedetä, erittyykö Galvus äidinmaitoon. Sinun ei tule käyttää Galvus-valmistetta, jos imetät tai aiot imettää.</p><p><b>Ajaminen ja koneiden käyttö</b></p><p>Jos sinua huimaa Galvus-valmisteen käytön aikana, älä aja äläkä käytä koneita.</p><p><b>Galvus sisältää laktoosia</b></p><p>Galvus sisältää laktoosia (maitosokeri). Jos lääkäri on kertonut, että sinulla on jokin sokeri-intoleranssi, keskustele lääkärisi kanssa ennen tämän lääkevalmisteen ottamista.</p><p><b>Galvus sisältää natriumia</b></p><p>Tämä lääkevalmiste sisältää alle 1 mmol natriumia (23 mg) per tabletti eli sen voidaan sanoa olevan ”natriumiton”.</p></div>"
+          }
+        },
+        {
+          "title" : "Miten valmistetta käytetään",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+              "code" : "200000029905"
+            }]
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Miten valmistetta käytetään</h2><p>Ota tätä lääkettä juuri siten kuin lääkäri on määrännyt. Tarkista ohjeet lääkäriltä tai apteekista, jos olet epävarma.</p><p><b>Kuinka paljon ja milloin Galvus-valmistetta otetaan</b></p><p>Otettavien Galvus-tablettien määrä riippuu kunkin potilaan tilasta. Lääkärisi kertoo sinulle otettavien Galvus-tablettien tarkan määrän. Enimmäisvuorokausiannos on 100 mg.</p><p>Tavanomainen Galvus-annos on joko</p><ul><li>50 mg vuorokaudessa aamuisin yhtenä annoksena, jos käytät Galvus-valmistetta yhdessä sulfonyyliurea-nimisen lääkkeen kanssa.</li><li>100 mg vuorokaudessa jaettuna 50 mg:n annokseen aamuisin ja 50 mg:n annokseen iltaisin, jos käytät Galvus-valmistetta yksinään, yhdessä metformiini -nimisen lääkkeen tai glitatsonin kanssa, yhdessä metformiinin ja sulfonyyliurean kanssa tai yhdessä insuliinin kanssa.</li><li>50 mg vuorokaudessa aamuisin, jos sinulla on keskivaikea tai vaikea munuaissairaus tai saat dialyysihoitoa.</li></ul><p><b>Miten Galvus-valmistetta otetaan</b></p><ul><li>Niele tabletit kokonaisina veden kanssa.</li></ul><p><b>Miten pitkään Galvus-valmistetta otetaan</b></p><ul><li>Ota Galvus-valmistetta päivittäin niin kauan kuin lääkärisi on määrännyt. Voit joutua käyttämään tätä lääkitystä pitkään.</li><li>Lääkärisi seuraa tilaasi säännöllisesti tarkistaakseen, että hoito vaikuttaa halutulla tavalla.</li></ul><p><b>Jos otat enemmän Galvus-valmistetta kuin sinun pitäisi</b></p><p>Jos otat liian monta Galvus-tablettia tai jos joku muu on ottanut lääkettäsi, <b>ota heti yhteyttä lääkäriisi</b>. Saatat tarvita lääkärinhoitoa. Jos sinun on mentävä lääkäriin tai sairaalaan, ota lääkepakkaus mukaasi.</p><p><b>Jos unohdat ottaa Galvus-valmistetta</b></p><p>Jos unohdat ottaa lääkeannoksen, ota se heti, kun muistat. Ota seuraava annos tavanomaiseen aikaan. Jos on melkein aika ottaa seuraava annos, jätä unohtamasi annos ottamatta. Älä ota kaksinkertaista annosta korvataksesi unohtamasi tabletin.</p><p><b>Jos lopetat Galvus-valmisteen käytön</b></p><p>Älä keskeytä Galvus-valmisteen käyttämistä, ellei lääkärisi niin määrää. Jos sinulla on kysyttävää tämän lääkityksen kestosta, käänny lääkärisi puoleen.</p></div>"
+          }
+        },
+        {
+          "title" : "Mahdolliset haittavaikutukset",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+              "code" : "200000029910"
+            }]
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Mahdolliset haittavaikutukset</h2><p>Kuten kaikki lääkkeet, tämäkin lääke voi aiheuttaa haittavaikutuksia. Kaikki eivät kuitenkaan niitä saa.</p><p><b>Osa oireista saattaa vaatia välitöntä lääkärinhoitoa:</b></p><p>Lopeta Galvus-valmisteen käyttö ja mene heti lääkärin vastaanotolle, jos sinulle ilmaantuu seuraavia haittavaikutuksia:</p><ul><li>Angioedeema (harvinainen: voi esiintyä enintään 1 lääkkeen käyttäjällä 1 000:sta): Oireisiin kuuluu kasvojen, kielen tai kurkun turpoamista, nielemisvaikeuksia, hengitysvaikeuksia, äkillisesti ilmaantunutta ihottumaa tai nokkosihottumaa, jotka ovat ”angioedeema” –nimiseen reaktioon mahdollisesti liittyviä oireita.</li><li>Maksasairaus (hepatiitti) (esiintyvyys tuntematon). Oireisiin kuuluu ihon ja silmien keltaisuutta, pahoinvointia, ruokahaluttomuutta tai virtsan tummumista, jotka ovat maksasairauteen (hepatiitti) mahdollisesti liittyviä oireita.</li><li>Haimatulehdus (pankreatiitti) (harvinainen: voi esiintyä enintään 1 lääkkeen käyttäjällä 1 000:sta): Oireisiin kuuluu voimakas ja keskeytymätön kipu vatsassa, joka voi säteillä selkään ja lisäksi aiheuttaa pahoinvointia ja oksentelua.</li></ul><p><b>Muita haittavaikutuksia</b></p><p>Joillain Galvus-valmistetta käyttäneillä potilailla on esiintynyt seuraavia haittavaikutuksia:</p><ul><li>Hyvin yleiset (voivat esiintyä yli 1 lääkkeen käyttäjällä 10:stä): kurkkukipu, nenän vuotaminen, kuume.</li><li>Yleiset (voivat esiintyä enintään 1 lääkkeen käyttäjällä 10:stä): kutiava ihottuma, vapina, päänsärky, huimaus, lihaskipu, nivelkipu, ummetus, käsien, nilkkojen tai jalkojen turvotus (edeema), voimakas hikoilu, oksentelu, vatsakipu ja vatsan alueen kipu, ripuli, närästys, pahoinvointi, näön hämärtyminen.</li><li>Melko harvinaiset (voivat esiintyä enintään 1 lääkkeen käyttäjällä 100:sta): painon nousu, vilunväristykset, heikotus, seksuaalinen toimintahäiriö, alhainen verensokeri, ilmavaivat.</li><li>Harvinaiset (voivat esiintyä enintään 1 lääkkeen käyttäjällä 1 000:sta): haimatulehdus.</li></ul><p>Markkinoille tulon jälkeen on raportoitu myös seuraavia haittavaikutuksia:</p><ul><li>Esiintyvyys tuntematon (koska saatavissa oleva tieto ei riitä esiintyvyyden arviointiin): paikallinen ihon tai rakkuloiden kuoriutuminen, ihon verisuonten tulehdus (vaskuliitti), joka voi aiheuttaa ihottumaa tai pistemäistä punoitusta ihon pinnan alla tai mustelmia.</li></ul><p><b>Haittavaikutuksista ilmoittaminen</b></p><p>Jos havaitset haittavaikutuksia, kerro niistä lääkärille, apteekkihenkilökunnalle tai sairaanhoitajalle. Tämä koskee myös sellaisia mahdollisia haittavaikutuksia, joita ei ole mainittu tässä pakkausselosteessa. Voit ilmoittaa haittavaikutuksista myös suoraan</p><p>www-sivusto: <a href=\"http://www.fimea.fi\">www.fimea.fi</a></p><p>Lääkealan turvallisuus- ja kehittämiskeskus Fimea</p><p>Lääkkeiden haittavaikutusrekisteri</p><p>PL 55</p><p>00034 FIMEA</p>Ilmoittamalla haittavaikutuksista voit auttaa saamaan enemmän tietoa tämän lääkevalmisteen turvallisuudesta.</div>"
+          }
+        },
+        {
+          "title" : "Valmisteen säilyttäminen",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+              "code" : "200000029913"
+            }]
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Valmisteen säilyttäminen</h2><ul><li>Ei lasten ulottuville eikä näkyville.</li><li>Älä käytä tätä lääkettä läpipainopakkauksessa ja ulkopakkauksessa mainitun viimeisen käyttöpäivämäärän (EXP) jälkeen. Viimeinen käyttöpäivämäärä tarkoittaa kuukauden viimeistä päivää.</li><li>Säilytä alkuperäispakkauksessa. Herkkä kosteudelle.</li><li>Älä käytä sellaista Galvus-pakkausta, joka on vaurioitunut tai jos siinä on merkkejä peukaloinnista.</li><li>Lääkkeitä ei pidä heittää viemäriin eikä hävittää talousjätteiden mukana. Kysy käyttämättömien lääkkeiden hävittämisestä apteekista. Näin menetellen suojelet luontoa.</li></ul></div>"
+          }
+        },
+        {
+          "title" : "Pakkauksen sisältö ja muuta tietoa",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+              "code" : "200000029914"
+            }]
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Pakkauksen sisältö ja muuta tietoa</h2><p><strong>Mitä Galvus sisältää</strong></p><ul><li>Vaikuttava aine on vildagliptiini.<br/>Yksi tabletti sisältää 50 mg vildagliptiinia.</li><li>Muut aineet ovat vedetön laktoosi, mikrokiteinen selluloosa, natriumtärkkelysglykolaatti (tyyppi A) ja magnesiumstearaatti.</li></ul><p><strong>Lääkevalmisteen kuvaus ja pakkauskoot</strong></p><p>Galvus 50 mg ‑tabletit ovat pyöreitä, valkoisia tai vaalean kellertäviä ja litteitä, ja niissä on toisella puolella merkintä ”NVR” ja toisella puolella ”FB”.</p><p>Galvus 50 mg on saatavilla 7, 14, 28, 30, 56, 60, 90, 112, 180 tai 336 tabletin pakkauksissa ja kolmesta 112 tablettia sisältävästä kotelosta koostuvissa monipakkauksissa.</p><p>Kaikkia pakkauskokoja ei välttämättä ole myynnissä.</p><p><strong>Myyntiluvan haltija</strong><br/>Novartis Europharm Limited<br/>Vista Building<br/>Elm Park, Merrion Road<br/>Dublin 4<br/>Irlanti</p><p><strong>Valmistaja</strong><br/>Lek d.d.<br/>Verovskova ulica 57<br/>Ljubljana 1526<br/>Slovenia</p><p>Novartis Farmacéutica S.A.<br/>Gran Via de les Corts Catalanes, 764<br/>08013 Barcelona<br/>Espanja</p><p>Novartis Pharma GmbH<br/>Roonstrasse 25<br/>D-90429 Nürnberg<br/>Saksa</p><p>Novartis Pharmaceutical Manufacturing LLC<br/>Verovskova ulica 57<br/>Ljubljana 1000<br/>Slovenia</p><p>Lisätietoja tästä lääkevalmisteesta antaa myyntiluvan haltijan paikallinen edustaja.</p><p><strong>Suomi/Finland</strong></p><p>Novartis Finland Oy</p><p>Puh/Tel: +358 (0)10 6133 200</p><p><strong>Tämä pakkausseloste on tarkistettu viimeksi 14.8.2023</strong></p><p><strong>Muut tiedonlähteet</strong></p><p>Lisätietoa tästä lääkevalmisteesta on saatavilla Euroopan lääkeviraston verkkosivulla http://www.ema.europa.eu</p></div>"
+          },
+          "section" : [{
+            "title" : "Tekstin muuttamispäivämäärä",
+            "code" : {
+              "coding" : [{
+                "system" : "https://spor.ema.europa.eu/v1/lists/200000029659/terms/",
+                "code" : "200000029919"
+              }]
+            },
+            "text" : {
+              "status" : "additional",
+              "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Tekstin muuttamispäivämäärä</h2>14.08.2023</div>"
+            }
+          }]
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "https://gravitatehealth.eu/fhir/nordic-epi/MedicinalProductDefinition/Diabetes-MPD-23",
+    "resource" : {
+      "resourceType" : "MedicinalProductDefinition",
+      "id" : "Diabetes-MPD-23",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+        "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_Diabetes-MPD-23\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicinalProductDefinition Diabetes-MPD-23</b></p><a name=\"Diabetes-MPD-23\"> </a><a name=\"hcDiabetes-MPD-23\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a>, <code>https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition</code></p></div><p><b>identifier</b>: <code>http://legemiddelverket.no/FEST/LegemiddelMerkevareID</code>/ID_795B338C-5A0B-4F74-820A-359B3C56AF81</p><h3>Names</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ProductName</b></td></tr><tr><td style=\"display: none\">*</td><td>Galvus tab 50 mg</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "system" : "http://legemiddelverket.no/FEST/LegemiddelMerkevareID",
+        "value" : "ID_795B338C-5A0B-4F74-820A-359B3C56AF81"
+      }],
+      "name" : [{
+        "productName" : "Galvus tab 50 mg"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/Diabetes-PPD-26",
+    "resource" : {
+      "resourceType" : "PackagedProductDefinition",
+      "id" : "Diabetes-PPD-26",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+        "https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_Diabetes-PPD-26\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PackagedProductDefinition Diabetes-PPD-26</b></p><a name=\"Diabetes-PPD-26\"> </a><a name=\"hcDiabetes-PPD-26\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a>, <code>https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition</code></p></div><p><b>identifier</b>: <code>http://legemiddelverket.no/FEST/LegemiddelPakningID</code>/ID_9FFC8ECB-7705-463D-8F98-68E7A4658A4D, <code>https://farmalogg.no/varenummer</code>/108562, <code>https://pharmaca.fi/vnr</code>/108562</p><p><b>name</b>: Galvus tab 50 mg</p><p><b>packageFor</b>: <a href=\"Bundle-FK96760.html#MedicinalProductDefinition_Diabetes-MPD-23\">MedicinalProductDefinition: identifier = http://legemiddelverket.no/FEST/LegemiddelMerkevareID#ID_795B338C-5A0B-4F74-820A-359B3C56AF81</a></p></div>"
+      },
+      "identifier" : [{
+        "system" : "http://legemiddelverket.no/FEST/LegemiddelPakningID",
+        "value" : "ID_9FFC8ECB-7705-463D-8F98-68E7A4658A4D"
+      },
+      {
+        "system" : "https://farmalogg.no/varenummer",
+        "value" : "108562"
+      },
+      {
+        "system" : "https://pharmaca.fi/vnr",
+        "value" : "108562"
+      }],
+      "name" : "Galvus tab 50 mg",
+      "packageFor" : [{
+        "reference" : "MedicinalProductDefinition/Diabetes-MPD-23"
+      }]
+    }
+  }]
+}
+
+```

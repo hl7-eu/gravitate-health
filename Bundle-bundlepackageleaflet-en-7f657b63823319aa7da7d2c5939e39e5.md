@@ -1,0 +1,1058 @@
+# ePI document Bundle for Enbrel 25 mg powder for solution for injection Package Leaflet for language en - Gravitate Health FHIR Implementation Guide v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **ePI document Bundle for Enbrel 25 mg powder for solution for injection Package Leaflet for language en**
+
+Package: **1 Box** **(Cardboard)** 
+
+Containing:
+
+Package: **28 Blister** **(PolyVinyl Chloride)** 
+
+Containing: ** ** 
+
+Manufactured Item
+
+ Dose form: ** Powder for solution for injection ** 
+
+ Unit of presentation: ** Vial ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** SUCROSE ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** MANNITOL ** 
+
+Ingredient
+
+ Role: ** Active ** 
+
+ Substance: ** Etanercept ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** TROMETHAMINE ** 
+
+## Example Bundle: ePI document Bundle for Enbrel 25 mg powder for solution for injection Package Leaflet for language en
+
+**Composition category:**Raw
+
+**Composition status:**final
+
+### B. Package Leaflet
+
+ 
+
+unavailable
+
+
+#### Package leaflet: Information for the user
+
+ 
+
+unavailable
+
+
+#### What is in this leaflet
+
+ 
+
+unavailable
+
+
+#### 1. What Enbrel 25 mg powder for solution for injection is and what it is used for
+
+ 
+
+unavailable
+
+
+#### 2. What you need to know before you take Enbrel 25 mg powder for solution for injection
+
+ 
+
+unavailable
+
+
+#### 3. How to take Enbrel 25 mg powder for solution for injection
+
+ 
+
+unavailable
+
+
+#### 4. Possible side effects
+
+ 
+
+unavailable
+
+
+#### 5. How to store Enbrel 25 mg powder for solution for injection
+
+ 
+
+unavailable
+
+
+#### 6. Contents of the pack and other information
+
+ 
+
+unavailable
+
+
+####  Enbrel 25 mg powder for solution for injection 
+IDS:
+** zz **
+-------
+
+Full name: **Enbrel 25 mg powder for solution for injection**
+
+ - Invented name part: ** Enbrel ** 
+
+ - Scientific name part: ** Etanercept ** 
+
+ - Strength part: ** 25 mg ** 
+
+ - Pharmaceutical dose form part: ** powder for solution for injection ** 
+
+ Name usage: **English (Norway)** 
+
+-------
+
+ Authorised dose form: **** 
+
+ Legal status of supply: **Medicinal product subject to medical prescription** 
+
+ Domain: **Human use** 
+
+ Resource status: **active** 
+
+-------
+
+ Product classification: 
+
+ **Marketing Authorisation** 1 of 1
+
+Authorisation number: ** EU/1/99/126/003 ** 
+
+ Region: ** ** 
+
+Marketing authorisation holder: **Pfizer Europe MA EEIG** 
+
+ Identifier: 
+*  **ORG-100011459** 
+ 
+
+ Status: ** Active (2009-11-26T13:28:17Z) ** 
+
+ Package 1 of 1
+
+PMSWI: ** EU/1/99/126/003 ** 
+
+ Description:  * * 
+
+ Marketing status: 
+ 
+
+Pack size:
+
+*  ****25 
+
+Administrable Product (1 of 1)
+
+ Dose form: ** Powder for solution for injection ** 
+
+ Unit of presentation: ** Vial ** 
+
+ Route of administration: 
+*  ** Subcutaneous use ** 
+ 
+Ingredients:
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** SUCROSE ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** MANNITOL ** 
+
+Ingredient
+
+ Role: ** Active ** 
+
+ Substance: ** Etanercept ** 
+
+Ingredient
+
+ Role: ** Excipient ** 
+
+ Substance: ** TROMETHAMINE ** 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Bundle",
+  "id" : "bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"]
+  },
+  "language" : "en",
+  "identifier" : {
+    "system" : "https://www.gravitatehealth.eu/sid/doc",
+    "value" : "deca01585a8d920f79dbfbe328e7acda"
+  },
+  "type" : "document",
+  "timestamp" : "2023-06-27T10:09:22Z",
+  "entry" : [{
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-25bbfa948f4a0b224f9baa1fe481efa8",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "composition-en-25bbfa948f4a0b224f9baa1fe481efa8",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><a name=\"Composition_composition-en-25bbfa948f4a0b224f9baa1fe481efa8\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition composition-en-25bbfa948f4a0b224f9baa1fe481efa8</b></p><a name=\"composition-en-25bbfa948f4a0b224f9baa1fe481efa8\"> </a><a name=\"hccomposition-en-25bbfa948f4a0b224f9baa1fe481efa8\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/rmswi/</code>/50d2abb4441275478b3d10432498aec6</p><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000155538}\">Package Leaflet</span></p><p><b>category</b>: <span title=\"Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs R}\">Raw</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#Organization_mah-9800de324c3962f6f767647a95e0c17e\">Organization Pfizer Europe MA EEIG</a></p><p><b>title</b>: TEST PURPOSES ONLY - Enbrel 25 mg powder for solution for injection</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://hl7.org/fhir/composition-attestation-mode official}\">Official</span></td><td>2022-02-16 13:28:17+0000</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi/",
+        "value" : "50d2abb4441275478b3d10432498aec6"
+      }],
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000155538"
+        }],
+        "text" : "Package Leaflet"
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs",
+          "code" : "R",
+          "display" : "Raw"
+        }]
+      }],
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mp25bbfa948f4a0b224f9baa1fe481efa8"
+      }],
+      "date" : "2022-02-16T13:28:17Z",
+      "author" : [{
+        "reference" : "Organization/mah-9800de324c3962f6f767647a95e0c17e"
+      }],
+      "title" : "TEST PURPOSES ONLY - Enbrel 25 mg powder for solution for injection",
+      "attester" : [{
+        "mode" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/composition-attestation-mode",
+            "code" : "official"
+          }]
+        },
+        "time" : "2022-02-16T13:28:17Z"
+      }],
+      "section" : [{
+        "title" : "B. Package Leaflet",
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi/",
+            "code" : "100000155538"
+          }],
+          "text" : "B. Package Leaflet"
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "unavailable"
+          }]
+        },
+        "section" : [{
+          "title" : "Package leaflet: Information for the user",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "Package leaflet: Information for the user"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        },
+        {
+          "title" : "What is in this leaflet",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "What is in this leaflet"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        },
+        {
+          "title" : "1. What Enbrel 25 mg powder for solution for injection is and what it is used for",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "1. What Enbrel 25 mg powder for solution for injection is and what it is used for"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        },
+        {
+          "title" : "2. What you need to know before you take Enbrel 25 mg powder for solution for injection",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "2. What you need to know before you take Enbrel 25 mg powder for solution for injection"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        },
+        {
+          "title" : "3. How to take Enbrel 25 mg powder for solution for injection",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "3. How to take Enbrel 25 mg powder for solution for injection"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        },
+        {
+          "title" : "4. Possible side effects",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "4. Possible side effects"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        },
+        {
+          "title" : "5. How to store Enbrel 25 mg powder for solution for injection",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "5. How to store Enbrel 25 mg powder for solution for injection"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        },
+        {
+          "title" : "6. Contents of the pack and other information",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "6. Contents of the pack and other information"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+          },
+          "emptyReason" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+              "code" : "unavailable"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-enbrel-sucrose",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-enbrel-sucrose",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-enbrel-sucrose\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-enbrel-sucrose</b></p><a name=\"ingredient-for-enbrel-sucrose\"> </a><a name=\"hcingredient-for-enbrel-sucrose\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/C151H8M554 (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#ManufacturedItemDefinition_mid-7f657b63823319aa7da7d2c5939e39e5\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/99/126/003 (use: official, ); status = active; manufacturedDoseForm = Powder for solution for injection; unitOfPresentation = Vial</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#MedicinalProductDefinition_mp25bbfa948f4a0b224f9baa1fe481efa8\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#zz; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#AdministrableProductDefinition_ap-7f657b63823319aa7da7d2c5939e39e5\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#id; status = active; administrableDoseForm = Powder for solution for injection; unitOfPresentation = Vial</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta C151H8M554}\">SUCROSE</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "C151H8M554"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-7f657b63823319aa7da7d2c5939e39e5"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp25bbfa948f4a0b224f9baa1fe481efa8"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-7f657b63823319aa7da7d2c5939e39e5"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "C151H8M554",
+              "display" : "SUCROSE"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-enbrel-mannitol",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-enbrel-mannitol",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-enbrel-mannitol\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-enbrel-mannitol</b></p><a name=\"ingredient-for-enbrel-mannitol\"> </a><a name=\"hcingredient-for-enbrel-mannitol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/3OWL53L36A (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#ManufacturedItemDefinition_mid-7f657b63823319aa7da7d2c5939e39e5\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/99/126/003 (use: official, ); status = active; manufacturedDoseForm = Powder for solution for injection; unitOfPresentation = Vial</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#MedicinalProductDefinition_mp25bbfa948f4a0b224f9baa1fe481efa8\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#zz; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#AdministrableProductDefinition_ap-7f657b63823319aa7da7d2c5939e39e5\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#id; status = active; administrableDoseForm = Powder for solution for injection; unitOfPresentation = Vial</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 3OWL53L36A}\">MANNITOL</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "3OWL53L36A"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-7f657b63823319aa7da7d2c5939e39e5"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp25bbfa948f4a0b224f9baa1fe481efa8"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-7f657b63823319aa7da7d2c5939e39e5"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "3OWL53L36A",
+              "display" : "MANNITOL"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-enbrel-etanercept",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-enbrel-etanercept",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-enbrel-etanercept\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-enbrel-etanercept</b></p><a name=\"ingredient-for-enbrel-etanercept\"> </a><a name=\"hcingredient-for-enbrel-etanercept\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/OP401G7OJC (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#ManufacturedItemDefinition_mid-7f657b63823319aa7da7d2c5939e39e5\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/99/126/003 (use: official, ); status = active; manufacturedDoseForm = Powder for solution for injection; unitOfPresentation = Vial</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#MedicinalProductDefinition_mp25bbfa948f4a0b224f9baa1fe481efa8\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#zz; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#AdministrableProductDefinition_ap-7f657b63823319aa7da7d2c5939e39e5\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#id; status = active; administrableDoseForm = Powder for solution for injection; unitOfPresentation = Vial</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072072}\">Active</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta OP401G7OJC}\">Etanercept</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td style=\"display: none\">*</td><td>25 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ACTIB}\">active ingredient - basis of strength</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "OP401G7OJC"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-7f657b63823319aa7da7d2c5939e39e5"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp25bbfa948f4a0b224f9baa1fe481efa8"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-7f657b63823319aa7da7d2c5939e39e5"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072072",
+          "display" : "Active"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "OP401G7OJC",
+              "display" : "Etanercept"
+            }]
+          }
+        },
+        "strength" : [{
+          "presentationQuantity" : {
+            "value" : 25,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "basis" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+              "code" : "ACTIB",
+              "display" : "active ingredient - basis of strength"
+            }]
+          }
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-enbrel-tromethamine",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-enbrel-tromethamine",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Ingredient_ingredient-for-enbrel-tromethamine\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Ingredient ingredient-for-enbrel-tromethamine</b></p><a name=\"ingredient-for-enbrel-tromethamine\"> </a><a name=\"hcingredient-for-enbrel-tromethamine\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta</code>/023C2WHX2V (use: official, )</p><p><b>status</b>: Active</p><p><b>for</b>: </p><ul><li><a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#ManufacturedItemDefinition_mid-7f657b63823319aa7da7d2c5939e39e5\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/99/126/003 (use: official, ); status = active; manufacturedDoseForm = Powder for solution for injection; unitOfPresentation = Vial</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#MedicinalProductDefinition_mp25bbfa948f4a0b224f9baa1fe481efa8\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#zz; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></li><li><a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#AdministrableProductDefinition_ap-7f657b63823319aa7da7d2c5939e39e5\">AdministrableProductDefinition: identifier = https://spor.ema.europa.eu/pmswi#id; status = active; administrableDoseForm = Powder for solution for injection; unitOfPresentation = Vial</a></li></ul><p><b>role</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072082}\">Excipient</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://gsrs.ncats.nih.gov/ginas/app/beta 023C2WHX2V}\">TROMETHAMINE</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+        "value" : "023C2WHX2V"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-7f657b63823319aa7da7d2c5939e39e5"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mp25bbfa948f4a0b224f9baa1fe481efa8"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-7f657b63823319aa7da7d2c5939e39e5"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta",
+              "code" : "023C2WHX2V",
+              "display" : "TROMETHAMINE"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-etanercept",
+    "resource" : {
+      "resourceType" : "SubstanceDefinition",
+      "id" : "substance-etanercept",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"SubstanceDefinition_substance-etanercept\"> </a><p class=\"res-header-id\"><b>Generated Narrative: SubstanceDefinition substance-etanercept</b></p><a name=\"substance-etanercept\"> </a><a name=\"hcsubstance-etanercept\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://gsrs.ncats.nih.gov/ginas/app/beta/</code>/OP401G7OJC (use: official, )</p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>manufacturer</b>: <a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#Organization_mah-9800de324c3962f6f767647a95e0c17e\">Organization Pfizer Europe MA EEIG</a></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+        "value" : "OP401G7OJC"
+      }],
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active"
+        }]
+      },
+      "manufacturer" : [{
+        "reference" : "Organization/mah-9800de324c3962f6f767647a95e0c17e"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-7f657b63823319aa7da7d2c5939e39e5",
+    "resource" : {
+      "resourceType" : "AdministrableProductDefinition",
+      "id" : "ap-7f657b63823319aa7da7d2c5939e39e5",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AdministrableProductDefinition_ap-7f657b63823319aa7da7d2c5939e39e5\"> </a><p class=\"res-header-id\"><b>Generated Narrative: AdministrableProductDefinition ap-7f657b63823319aa7da7d2c5939e39e5</b></p><a name=\"ap-7f657b63823319aa7da7d2c5939e39e5\"> </a><a name=\"hcap-7f657b63823319aa7da7d2c5939e39e5\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/id</p><p><b>status</b>: Active</p><p><b>formOf</b>: <a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#MedicinalProductDefinition_mp25bbfa948f4a0b224f9baa1fe481efa8\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#zz; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>administrableDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073866}\">Powder for solution for injection</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002158}\">Vial</span></p><p><b>producedFrom</b>: <a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#ManufacturedItemDefinition_mid-7f657b63823319aa7da7d2c5939e39e5\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/99/126/003 (use: official, ); status = active; manufacturedDoseForm = Powder for solution for injection; unitOfPresentation = Vial</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073633}\">Subcutaneous use</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000109093}\">Human</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "id"
+      }],
+      "status" : "active",
+      "formOf" : [{
+        "reference" : "MedicinalProductDefinition/mp25bbfa948f4a0b224f9baa1fe481efa8"
+      }],
+      "administrableDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000073866",
+          "display" : "Powder for solution for injection"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002158",
+          "display" : "Vial"
+        }]
+      },
+      "producedFrom" : [{
+        "reference" : "ManufacturedItemDefinition/mid-7f657b63823319aa7da7d2c5939e39e5"
+      }],
+      "routeOfAdministration" : [{
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073633",
+            "display" : "Subcutaneous use"
+          }]
+        },
+        "targetSpecies" : [{
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000109093",
+              "display" : "Human"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization7f657b63823319aa7da7d2c5939e39e50",
+    "resource" : {
+      "resourceType" : "RegulatedAuthorization",
+      "id" : "authorization7f657b63823319aa7da7d2c5939e39e50",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"RegulatedAuthorization_authorization7f657b63823319aa7da7d2c5939e39e50\"> </a><p class=\"res-header-id\"><b>Generated Narrative: RegulatedAuthorization authorization7f657b63823319aa7da7d2c5939e39e50</b></p><a name=\"authorization7f657b63823319aa7da7d2c5939e39e50\"> </a><a name=\"hcauthorization7f657b63823319aa7da7d2c5939e39e50\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/99/126/003 (use: official, )</p><p><b>subject</b>: <a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#MedicinalProductDefinition_mp25bbfa948f4a0b224f9baa1fe481efa8\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#zz; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 220000000061}\">Marketing Authorisation</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2009-11-26 13:28:17+0000</p><p><b>holder</b>: <a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#Organization_mah-9800de324c3962f6f767647a95e0c17e\">Organization Pfizer Europe MA EEIG</a></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "EU/1/99/126/003"
+      }],
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mp25bbfa948f4a0b224f9baa1fe481efa8"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000061",
+          "display" : "Marketing Authorisation"
+        }]
+      },
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2009-11-26T13:28:17Z",
+      "holder" : {
+        "reference" : "Organization/mah-9800de324c3962f6f767647a95e0c17e"
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-9800de324c3962f6f767647a95e0c17e",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "mah-9800de324c3962f6f767647a95e0c17e",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_mah-9800de324c3962f6f767647a95e0c17e\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization mah-9800de324c3962f6f767647a95e0c17e</b></p><a name=\"mah-9800de324c3962f6f767647a95e0c17e\"> </a><a name=\"hcmah-9800de324c3962f6f767647a95e0c17e\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/omswi</code>/ORG-100011459 (use: official, )</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 220000000034}\">Marketing authorisation holder</span></p><p><b>name</b>: Pfizer Europe MA EEIG</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td>Boulevard de la Plaine 17,1050 Bruxelles Bruxelles BE(work)</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/omswi",
+        "value" : "ORG-100011459"
+      }],
+      "active" : true,
+      "type" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000034",
+          "display" : "Marketing authorisation holder"
+        }]
+      }],
+      "name" : "Pfizer Europe MA EEIG",
+      "contact" : [{
+        "address" : {
+          "use" : "work",
+          "type" : "physical",
+          "text" : "Boulevard de la Plaine 17,1050 Bruxelles Bruxelles BE",
+          "line" : ["Boulevard de la Plaine 17,1050 Bruxelles"],
+          "city" : "Bruxelles",
+          "country" : "BE"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-51ddf55f89e2cd74ee3392c14c809976",
+    "resource" : {
+      "resourceType" : "PackagedProductDefinition",
+      "id" : "ppd-51ddf55f89e2cd74ee3392c14c809976",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PackagedProductDefinition_ppd-51ddf55f89e2cd74ee3392c14c809976\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PackagedProductDefinition ppd-51ddf55f89e2cd74ee3392c14c809976</b></p><a name=\"ppd-51ddf55f89e2cd74ee3392c14c809976\"> </a><a name=\"hcppd-51ddf55f89e2cd74ee3392c14c809976\"> </a><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/99/126/003 (use: official, )</p><p><b>name</b>: Enbrel 25 mg powder for solution for injection 28</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000155527}\">Chemical Medicinal Product</span></p><p><b>packageFor</b>: <a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#MedicinalProductDefinition_mp25bbfa948f4a0b224f9baa1fe481efa8\">MedicinalProductDefinition: identifier = http://fakesys.com/ids#zz; type = Medicinal Product; domain = Human use; status = active; legalStatusOfSupply = Medicinal product subject to medical prescription</a></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">Active</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 25 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></p><blockquote><p><b>packaging</b></p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073498}\">Box</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003529}\">Cardboard</span></p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/123456</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000073496}\">Blister</span></p><p><b>quantity</b>: 28</p><p><b>material</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000003222}\">PolyVinyl Chloride</span></p><blockquote><p><b>containedItem</b></p><h3>Items</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Reference</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Bundle-bundlepackageleaflet-en-7f657b63823319aa7da7d2c5939e39e5.html#ManufacturedItemDefinition_mid-7f657b63823319aa7da7d2c5939e39e5\">ManufacturedItemDefinition: identifier = https://spor.ema.europa.eu/pmswi#EU/1/99/126/003 (use: official, ); status = active; manufacturedDoseForm = Powder for solution for injection; unitOfPresentation = Vial</a></td></tr></table></blockquote></blockquote></blockquote></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "EU/1/99/126/003"
+      }],
+      "name" : "Enbrel 25 mg powder for solution for injection 28",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000155527",
+          "display" : "Chemical Medicinal Product"
+        }]
+      },
+      "packageFor" : [{
+        "reference" : "MedicinalProductDefinition/mp25bbfa948f4a0b224f9baa1fe481efa8"
+      }],
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2015-02-07T13:28:17Z",
+      "containedItemQuantity" : [{
+        "value" : 25,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      }],
+      "packaging" : {
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073498",
+            "display" : "Box"
+          }]
+        },
+        "quantity" : 1,
+        "material" : [{
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "200000003529",
+            "display" : "Cardboard"
+          }]
+        }],
+        "packaging" : [{
+          "identifier" : [{
+            "system" : "https://spor.ema.europa.eu/pmswi",
+            "value" : "123456"
+          }],
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000073496",
+              "display" : "Blister"
+            }]
+          },
+          "quantity" : 28,
+          "material" : [{
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "200000003222",
+              "display" : "PolyVinyl Chloride"
+            }]
+          }],
+          "containedItem" : [{
+            "item" : {
+              "reference" : {
+                "reference" : "ManufacturedItemDefinition/mid-7f657b63823319aa7da7d2c5939e39e5"
+              }
+            }
+          }]
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp25bbfa948f4a0b224f9baa1fe481efa8",
+    "resource" : {
+      "resourceType" : "MedicinalProductDefinition",
+      "id" : "mp25bbfa948f4a0b224f9baa1fe481efa8",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicinalProductDefinition_mp25bbfa948f4a0b224f9baa1fe481efa8\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicinalProductDefinition mp25bbfa948f4a0b224f9baa1fe481efa8</b></p><a name=\"mp25bbfa948f4a0b224f9baa1fe481efa8\"> </a><a name=\"hcmp25bbfa948f4a0b224f9baa1fe481efa8\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>http://fakesys.com/ids</code>/zz</p><p><b>type</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-type MedicinalProduct}\">Medicinal Product</span></p><p><b>domain</b>: <span title=\"Codes:{http://hl7.org/fhir/medicinal-product-domain Human}\">Human use</span></p><p><b>status</b>: <span title=\"Codes:{http://hl7.org/fhir/publication-status active}\">active</span></p><p><b>legalStatusOfSupply</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 100000072084}\">Medicinal product subject to medical prescription</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Enbrel 25 mg powder for solution for injection</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000001}\">Full name</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Enbrel</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000002}\">Invented name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: Etanercept</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000003}\">Scientific name part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 25 mg</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000004}\">Strength part</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: powder for solution for injection</p><p><b>type</b>: <span title=\"Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000005}\">Pharmaceutical dose form part</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{urn:iso:std:iso:3166 NOR}\">Norway</span></td><td><span title=\"Codes:{urn:iso:std:iso:3166 NOR}\">Norway</span></td><td><span title=\"Codes:{urn:ietf:bcp:47 en}\">English</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "http://fakesys.com/ids",
+        "value" : "zz"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-type",
+          "code" : "MedicinalProduct",
+          "display" : "Medicinal Product"
+        }]
+      },
+      "domain" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-domain",
+          "code" : "Human",
+          "display" : "Human use"
+        }]
+      },
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "active"
+        }]
+      },
+      "legalStatusOfSupply" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072084",
+          "display" : "Medicinal product subject to medical prescription"
+        }]
+      },
+      "name" : [{
+        "productName" : "Enbrel 25 mg powder for solution for injection",
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/lists/220000000000",
+            "code" : "220000000001",
+            "display" : "Full name"
+          }]
+        },
+        "part" : [{
+          "part" : "Enbrel",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000002",
+              "display" : "Invented name part"
+            }]
+          }
+        },
+        {
+          "part" : "Etanercept",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000003",
+              "display" : "Scientific name part"
+            }]
+          }
+        },
+        {
+          "part" : "25 mg",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000004",
+              "display" : "Strength part"
+            }]
+          }
+        },
+        {
+          "part" : "powder for solution for injection",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/lists/220000000000",
+              "code" : "220000000005",
+              "display" : "Pharmaceutical dose form part"
+            }]
+          }
+        }],
+        "usage" : [{
+          "country" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "NOR",
+              "display" : "Norway"
+            }]
+          },
+          "jurisdiction" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "NOR",
+              "display" : "Norway"
+            }]
+          },
+          "language" : {
+            "coding" : [{
+              "system" : "urn:ietf:bcp:47",
+              "code" : "en",
+              "display" : "English"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-7f657b63823319aa7da7d2c5939e39e5",
+    "resource" : {
+      "resourceType" : "ManufacturedItemDefinition",
+      "id" : "mid-7f657b63823319aa7da7d2c5939e39e5",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ManufacturedItemDefinition_mid-7f657b63823319aa7da7d2c5939e39e5\"> </a><p class=\"res-header-id\"><b>Generated Narrative: ManufacturedItemDefinition mid-7f657b63823319aa7da7d2c5939e39e5</b></p><a name=\"mid-7f657b63823319aa7da7d2c5939e39e5\"> </a><a name=\"hcmid-7f657b63823319aa7da7d2c5939e39e5\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: <code>https://spor.ema.europa.eu/pmswi</code>/EU/1/99/126/003 (use: official, )</p><p><b>status</b>: Active</p><p><b>manufacturedDoseForm</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi/ 100000073866}\">Powder for solution for injection</span></p><p><b>unitOfPresentation</b>: <span title=\"Codes:{https://spor.ema.europa.eu/rmswi 200000002158}\">Vial</span></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "EU/1/99/126/003"
+      }],
+      "status" : "active",
+      "manufacturedDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000073866",
+          "display" : "Powder for solution for injection"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002158",
+          "display" : "Vial"
+        }]
+      }
+    }
+  }]
+}
+
+```

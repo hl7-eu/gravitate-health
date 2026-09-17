@@ -1,0 +1,59 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health/Provenance/signature> a fhir:Provenance ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "signature"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/ProvenanceGH"^^xsd:anyURI ;
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/ProvenanceGH>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Provenance signature</b></p><a name=\"signature\"> </a><a name=\"hcsignature\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ProvenanceGH.html\">Provenance Profile</a></p></div><p>Provenance for <a href=\"Library/example/_history/1\">Library/example/_history/1</a></p><p>Summary</p><table class=\"grid\"><tr><td>Occurrence</td><td>2016-05-26 00:41:10-0400</td></tr><tr><td>Recorded</td><td>2016-05-26 00:41:10-0400</td></tr><tr><td>Activity</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion AU}\">authenticated</span></td></tr></table><p><b>Agents</b></p><table class=\"grid\"><tr><td><b>Role</b></td><td><b>who</b></td></tr><tr><td/><td><code>Organization/example/42</code></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/blockchain-transaction-id"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "xxxxxx"
+     ]
+  ] ) ; # 
+  fhir:target ( [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Library/example/_history/1> ;
+     fhir:reference [ fhir:v "Library/example/_history/1" ]
+  ] ) ; # 
+  fhir:occurred [
+     a fhir:dateTime ;
+     fhir:v "2016-05-26T00:41:10-04:00"^^xsd:dateTime
+  ] ; # 
+  fhir:recorded [ fhir:v "2016-05-26T00:41:10-04:00"^^xsd:dateTime] ; # 
+  fhir:activity [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "AU" ] ;
+       fhir:display [ fhir:v "authenticated" ]
+     ] )
+  ] ; # 
+  fhir:agent ( [
+     fhir:role ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "AUT" ]
+       ] )
+     ] ) ;
+     fhir:who [
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health/Organization/example/42> ;
+       fhir:reference [ fhir:v "Organization/example/42" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

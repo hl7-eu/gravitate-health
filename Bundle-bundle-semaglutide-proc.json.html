@@ -1,0 +1,792 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ePI document Bundle for Xenical 120mg hard capsules Package Leaflet for language es - JSON Representation - Gravitate Health FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/epi.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"20.222"}
+    h3,h4,h5,h6{--heading-prefix:"20.222"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.gravitatehealth.eu/">
+            <img height="60" alt="Visit the Project website" src="assets/images/logo-header.jpg"/>
+          </a>
+        </div>
+ <!--        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="https://www.pancare.eu/projects"><img height="40" alt="Visit the PanCareSurPass website" src="assets/images/who-logo-www.jpg"/> </a>
+        </div> -->
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Gravitate Health FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Introduction
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="01-0-ig-organization.html">IG Organization</a>
+      </li>
+      <li>
+        <a href="index.html">Overview</a>
+      </li>
+      <li>
+        <a href="01-1-functional-analysis.html">Functional Analysis</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">ePI Focusing
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="09-epi-processing.html">ePI Processing</a>
+      </li>
+      <li>
+        <a href="17-semantic-styling.html">Semantic Styling</a>
+      </li>
+      <li>
+        <a href="18-lenses.html">Lenses</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Project
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="12-operations.html">Project Operations</a>
+      </li>
+      <li>
+        <a href="11-ips-considerations.html">IPS Considerations</a>
+      </li>
+      <li>
+        <a href="03-terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="08-persona-dimensions.html">Persona Dimensions</a>
+      </li>
+      <li>
+        <a href="16-ctf.html">Content Trust Framework</a>
+      </li>
+      <li>
+        <a href="14-workflow.html">Workflow</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Cooperation
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="13-international-coop.html">Internationally</a>
+      </li>
+      <li>
+        <a href="13-1-project-coop.html">Projects</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="05-capability.html">Capability</a>
+      </li>
+      <li>
+        <a href="06-general-technical-conformance-requirements.html">Requirements</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+      <li>
+        <a href="12-2-OperationDefinition-focus-notes.html">Focus Operation</a>
+      </li>
+      <li>
+        <a href="12-1-OperationDefinition-annotation-notes.html">Annotation Operation</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ePI document Bundle for Xenical 120mg hard capsules Package Leaflet for language es</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Gravitate Health FHIR Implementation Guide, published by Gravitate Health Project. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/gravitate-health/tree/master'>https://github.com/hl7-eu/gravitate-health/tree/master</a> and changes regularly. See the <a href='http://hl7.eu/fhir/ig/gravitate-health/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/hl7-eu/gravitate-health/commit/6728682b8313f24fec17854440ca430389c62273"><code>6728682b</code></a>.</span></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-bundle-semaglutide-proc.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Bundle-bundle-semaglutide-proc.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-bundle-semaglutide-proc.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: ePI document Bundle for Xenical 120mg hard capsules Package Leaflet for language es - JSON Representation</h2>
+
+
+<p><a href="Bundle-bundle-semaglutide-proc.json" no-download="true">Raw json</a> | <a href="Bundle-bundle-semaglutide-proc.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">{
+  "<a href="http://hl7.org/fhir/R5/bundle.html#XBundle">resourceType</a>" : "Bundle",
+  "<a href="http://hl7.org/fhir/R5/resource.html#XBundle.id">id</a>" : "bundle-semaglutide-proc",
+  "<a href="http://hl7.org/fhir/R5/resource.html#XBundle.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>" : [
+      <a href="http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Bundle-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R5/resource.html#XBundle.language">language</a>" : "en",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.identifier">identifier</a>" : {
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>" : "https://www.gravitatehealth.eu/sid/doc",
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a>" : "himss-semaglutide"
+  },
+  "<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.type">type</a>" : "document",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.timestamp">timestamp</a>" : "2023-06-27T10:09:22Z",
+  "<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry">entry</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>" : "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-en-semaglutide-pproc",
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/composition.html">resourceType</a>" : "Composition",
+        "<a href="http://hl7.org/fhir/R5/resource.html#XComposition.id">id</a>" : "composition-en-semaglutide-pproc",
+        "<a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/resource.html#XComposition.language">language</a>" : "en",
+        "<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "extensions",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;en\&quot; lang=\&quot;en\&quot;&gt;&lt;a name=\&quot;Composition_composition-en-semaglutide-pproc\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Composition composition-en-semaglutide-pproc&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;composition-en-semaglutide-pproc\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hccomposition-en-semaglutide-pproc\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Language: en&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-Composition-uv-epi.html\&quot;&gt;Composition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;HtmlElementLink&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;elementClass: indication&lt;/li&gt;&lt;li&gt;concept: &lt;span title=\&quot;Codes:{http://snomed.info/sct 238131007}\&quot;&gt;Overweight&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;LensesApplied&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;lens: &lt;a href=\&quot;Library/conditions-lens\&quot;&gt;Library/conditions-lens&lt;/a&gt;&lt;/li&gt;&lt;li&gt;elementClass: conditions-lens&lt;/li&gt;&lt;li&gt;explanation: This section was highlighted because you have diabetes and overweigth. This will help you!&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://www.gravitatehealth.eu/sid/doc&lt;/code&gt;/himss-semaglutide&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://spor.ema.europa.eu/rmswi/ 100000155538}\&quot;&gt;Package Leaflet&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs P}\&quot;&gt;Processed&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2022-02-16 13:28:17+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: EMA&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: TEST PURPOSES ONLY - semaglutide&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=\&quot;Codes:{http://hl7.org/fhir/composition-attestation-mode official}\&quot;&gt;Official&lt;/span&gt;&lt;/td&gt;&lt;td&gt;2022-02-16 13:28:17+0000&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+        },
+        "<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">url</a>" : "elementClass",
+                "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueString</a>" : "indication"
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">url</a>" : "concept",
+                "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueCodeableReference</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#XCodeableReference.concept">concept</a>" : {
+                    "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                      {
+                        "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://snomed.info/sct",
+                        "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "238131007"
+                      }
+                    ]
+                  }
+                }
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">url</a>" : "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">url</a>" : "lens",
+                "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueCodeableReference</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#XCodeableReference.reference">reference</a>" : {
+                    "<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>" : "Library/conditions-lens"
+                  }
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">url</a>" : "elementClass",
+                "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueString</a>" : "conditions-lens"
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">url</a>" : "explanation",
+                "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueString</a>" : "This section was highlighted because you have diabetes and overweigth. This will help you!"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">url</a>" : "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/LensesApplied"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>" : "https://www.gravitatehealth.eu/sid/doc",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a>" : "himss-semaglutide"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.status">status</a>" : "final",
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">type</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "100000155538"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a>" : "Package Leaflet"
+        },
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.category">category</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/epicategory-cs",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "P",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Processed"
+              }
+            ]
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.subject">subject</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>" : "MedicinalProductDefinition/himss-semaglutide-mpd"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.date">date</a>" : "2022-02-16T13:28:17Z",
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">author</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.display">display</a>" : "EMA"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.title">title</a>" : "TEST PURPOSES ONLY - semaglutide",
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester">attester</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester.mode">mode</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://hl7.org/fhir/composition-attestation-mode",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "official"
+                }
+              ]
+            },
+            "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.attester.time">time</a>" : "2022-02-16T13:28:17Z"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "B. Package Leaflet",
+            "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "100000155538"
+                }
+              ],
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a>" : "B. Package Leaflet"
+            },
+            "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+              "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+              "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;/div&gt;"
+            },
+            "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Package leaflet: Information for the user",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a>" : "Package leaflet: Information for the user"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;semaglutide FlexTouch 0.25 mg, 0.5 mg, 1 mg, 1.7 mg and 2.4 mg&lt;/h2&gt;&lt;h2&gt;Solution for injection in pre-filled pen&lt;/h2&gt;&lt;h2&gt;Semaglutide&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;This medicine is subject to additional monitoring.&lt;/strong&gt; This will allow quick identification of new safety information. You can help by reporting any side effects you may get. See the end of Section 4 for how to report side effects.&lt;/p&gt;&lt;p&gt;Read all of this leaflet carefully before you start using this medicine because it contains important information for you.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Keep this leaflet. You may need to read it again.&lt;/li&gt;&lt;li&gt;If you have any further questions, ask your doctor, pharmacist or nurse.&lt;/li&gt;&lt;li&gt;This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.&lt;/li&gt;&lt;li&gt;If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects not listed in this leaflet. See Section 4.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "What is in this leaflet",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a>" : "What is in this leaflet"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ol&gt;&lt;li&gt;What semaglutide is and what it is used for&lt;/li&gt;&lt;li&gt;What you need to know before you use semaglutide&lt;/li&gt;&lt;li&gt;How to use semaglutide&lt;/li&gt;&lt;li&gt;Possible side effects&lt;/li&gt;&lt;li&gt;How to store semaglutide&lt;/li&gt;&lt;li&gt;Contents of the pack and other information&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;"
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "1. What semaglutide is and what it is used for",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a>" : "1. What semaglutide is and what it is used for"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;What semaglutide is&lt;/h3&gt;&lt;p class=\&quot;indication highlight conditions-lens\&quot;&gt;semaglutide is a medicine for weight loss and weight maintenance that contains the active substance semaglutide. It is similar to a natural hormone called glucagon-like peptide-1 (GLP-1) that is released from the intestine after a meal. semaglutide works by acting on receptors in the brain that control your appetite, causing you to feel fuller and less hungry and experience less craving for food. This will help you eat less food and reduce your body weight. semaglutide should be used with a reduced calorie meal plan and increased physical activity.&lt;/p&gt;&lt;h3&gt;What semaglutide is used for&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Weight management&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;semaglutide is used for weight loss and weight maintenance in addition to diet and physical activity in adults, who have:&lt;ul&gt;&lt;li&gt;a BMI of 30 kg/m² or greater (obesity), or&lt;/li&gt;&lt;li&gt;a BMI of 27 kg/m² and less than 30 kg/m² (overweight) and weight-related health problems.&lt;/li&gt;&lt;/ul&gt;BMI (Body Mass Index) is a measure of your weight in relation to your height.&lt;/p&gt;&lt;p&gt;semaglutide is used together with diet and physical activity for weight management in adolescents aged 12 years and above, who have:&lt;ul&gt;&lt;li&gt;obesity, and&lt;/li&gt;&lt;li&gt;body weight &amp;gt; 60 kg.&lt;/li&gt;&lt;/ul&gt;As an adolescent patient, you should only continue using semaglutide if you have lost at least 5% of your BMI after 12 weeks on the 2.4 mg dose or maximum tolerated dose (see Section 3). Consult your doctor before you continue.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Risk reduction of serious heart issues in adults&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;semaglutide is used in addition to diet and physical activity to reduce the risk of serious heart issues (heart-related death, heart attacks, strokes) in adults with a history of heart disease (like a heart attack, stroke or poor blood flow to the limbs) and either obesity or overweight (BMI ≥ 27 kg/m²).&lt;/p&gt;&lt;/div&gt;"
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "2. What you need to know before you take semaglutide",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a>" : "2. What you need to know before you take semaglutide"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;strong&gt;Do not use semaglutide if you are:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;allergic to semaglutide or any of the other ingredients of this medicine (listed in Section 6).&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Warnings and precautions&lt;/h3&gt;&lt;p&gt;Talk to your doctor, pharmacist or nurse before using semaglutide or during treatment if you have:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Effects on the digestive system&lt;/strong&gt; During treatment with semaglutide, you may feel sick (nausea) or be sick (vomiting), or have diarrhoea. These side effects can cause dehydration (loss of fluids). It is important that you drink enough fluids to prevent dehydration. This is especially important if you have kidney problems. Talk to your doctor if you have any questions or concerns.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Inflammation of the pancreas&lt;/strong&gt; If you have severe and ongoing pain in the stomach area, see a doctor straight away as this could be a sign of inflamed pancreas (acute pancreatitis).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Diabetes&lt;/strong&gt; semaglutide must not be used as a substitute for insulin.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Low blood sugar (hypoglycaemia)&lt;/strong&gt; semaglutide can cause low blood sugar. Please see Section 4 for the warning signs of low blood sugar levels. If you have diabetes and are taking a sulfonylurea or insulin with semaglutide, the risk of getting low blood sugar levels (hypoglycaemia) might increase. Your doctor may ask you to test your blood sugar levels. This will help your doctor decide if the dose of the sulfonylurea or insulin needs to be changed to reduce the risk of low blood sugar.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Diabetic eye disease (retinopathy)&lt;/strong&gt; Fast improvements in blood sugar control may lead to a temporary worsening of diabetic eye disease. If you have diabetic eye disease and experience eye problems while taking this medicine, talk to your doctor.&lt;/li&gt;&lt;li&gt;If you know that you are due to have surgery where you will be under anaesthesia (sleeping), please tell your doctor that you are taking semaglutide.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Children and adolescents&lt;/h3&gt;&lt;p&gt;The safety and efficacy of semaglutide in children below 12 years of age have not been studied and are not recommended for use in this population.&lt;/p&gt;&lt;h3&gt;Other medicines and semaglutide&lt;/h3&gt;&lt;p&gt;Tell your doctor, pharmacist or nurse if you are using, have recently used or might use any other medicines.&lt;/p&gt;&lt;h3&gt;Pregnancy and breast-feeding&lt;/h3&gt;&lt;p&gt;This medicine should not be used during pregnancy, as it is not known if it may affect your unborn child. Therefore, it is recommended to use contraception while using this medicine. If you wish to become pregnant, you should stop using this medicine at least two months in advance. If you become or are pregnant, think you may be pregnant or are planning to have a baby when using this medicine, talk to your doctor straight away, as your treatment will need to be stopped.&lt;/p&gt;&lt;p&gt;You should not use this medicine if you are breastfeeding, as it is unknown if it passes into breast milk.&lt;/p&gt;&lt;h3&gt;Driving and using machines&lt;/h3&gt;&lt;p&gt;semaglutide is unlikely to affect your ability to drive and use machines. Some patients may feel dizzy when taking semaglutide mainly during the first 3 months of treatment (see Section 4). If you feel dizzy you should not drive or operate machines until you feel better. If you need any further information, talk to your doctor, pharmacist or nurse.&lt;/p&gt;&lt;p&gt;For diabetics using this medicine in combination with a sulfonylurea or insulin, low blood sugar (hypoglycaemia) may occur which may reduce your ability to concentrate. Do not drive or use machines if you get any signs of low blood sugar. See Section 2, ‘Warnings and precautions’ for information on increased risk of low blood sugar and Section 4 for the warning signs of low blood sugar. Talk to your doctor for further information.&lt;/p&gt;&lt;h3&gt;Sodium content&lt;/h3&gt;&lt;p&gt;This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially ‘sodium-free’.&lt;/p&gt;&lt;/div&gt;"
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "3. How to take semaglutide",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a>" : "3. How to take semaglutide"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;Always use this medicine exactly as your doctor has told you. Check with your doctor, pharmacist or nurse if you are not sure.&lt;/p&gt;&lt;h3&gt;How much to use&lt;/h3&gt;&lt;h4&gt;Adults&lt;/h4&gt;&lt;p&gt;The recommended dose is 2.4 mg once weekly. Your treatment will start at a low dose which will be gradually increased over 16 weeks of treatment as follows:&lt;ul&gt;&lt;li&gt;When you first start using semaglutide, the starting dose is 0.25 mg once weekly.&lt;/li&gt;&lt;li&gt;Your doctor will instruct you to gradually increase your dose every 4 weeks until you reach the recommended dose of 2.4 mg once weekly.&lt;/li&gt;&lt;li&gt;Once you reach the recommended dose of 2.4 mg, do not increase this dose further.&lt;/li&gt;&lt;/ul&gt;You will be told to follow the table below:&lt;/p&gt;&lt;table border=\&quot;1\&quot; cellpadding=\&quot;5\&quot; cellspacing=\&quot;0\&quot;&gt;&lt;caption&gt;&lt;strong&gt;Dose escalation&lt;/strong&gt;&lt;/caption&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Weeks&lt;/th&gt;&lt;th&gt;Weekly dose&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Week 1–4&lt;/td&gt;&lt;td&gt;0.25 mg&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Week 5–8&lt;/td&gt;&lt;td&gt;0.5 mg&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Week 9–12&lt;/td&gt;&lt;td&gt;1 mg&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Week 13–16&lt;/td&gt;&lt;td&gt;1.7 mg&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;From week 17&lt;/td&gt;&lt;td&gt;2.4 mg&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;Your doctor will assess your treatment on a regular basis.&lt;/p&gt;&lt;h4&gt;Adolescents (aged 12 years and above)&lt;/h4&gt;&lt;p&gt;For adolescents, the same dose escalation schedule as for adults should be applied (see above). The dose should be increased until 2.4 mg (maintenance dose) or maximum tolerated dose has been reached. Weekly doses higher than 2.4 mg are not recommended.&lt;/p&gt;&lt;h3&gt;How semaglutide is given&lt;/h3&gt;&lt;p&gt;semaglutide is given as an injection under the skin (subcutaneous injection). Do not inject it into a vein or muscle.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The best places to give the injection are the upper arms, stomach or upper legs.&lt;/li&gt;&lt;li&gt;Before you use the pen for the first time, ask your doctor or nurse how to use it.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Detailed instructions for use are on the other side of this leaflet.&lt;/p&gt;&lt;h3&gt;People with diabetes&lt;/h3&gt;&lt;p&gt;Tell your doctor if you have diabetes. Your doctor may adjust the dose of your diabetes medicines to prevent you from getting low blood sugar.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Do not mix semaglutide with other medicines that you inject (e.g. insulins).&lt;/li&gt;&lt;li&gt;Do not use semaglutide in combination with other medicines that contain GLP-1 receptor agonists (such as liraglutide, dulaglutide, exenatide or lixisenatide).&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;When to use semaglutide&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;You should use this medicine once a week and, if possible, on the same day each week.&lt;/li&gt;&lt;li&gt;You can give yourself the injection at any time of the day – regardless of meals.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If necessary, you can change the day of your weekly injection of this medicine as long as it has been at least 3 days since your last injection. After selecting a new dosing day, continue with once-a-week dosing.&lt;/p&gt;&lt;h3&gt;If you use more semaglutide than you should&lt;/h3&gt;&lt;p&gt;Talk to your doctor straight away. You may get side effects such as feeling sick (nausea).&lt;/p&gt;&lt;h3&gt;If you forget to use semaglutide&lt;/h3&gt;&lt;p&gt;If you forgot to inject a dose and:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;It is 5 days or less since you should have used semaglutide, use it as soon as you remember. Then inject your next dose as usual on your scheduled day.&lt;/li&gt;&lt;li&gt;It is more than 5 days since you should have used semaglutide, skip the missed dose. Then inject your next dose as usual on your next scheduled day. Do not take a double dose to make up for a forgotten dose.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;If you stop using semaglutide&lt;/h3&gt;&lt;p&gt;Do not stop using this medicine without talking to your doctor.&lt;/p&gt;&lt;p&gt;If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.&lt;/p&gt;&lt;/div&gt;"
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "4. Possible side effects",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a>" : "4. Possible side effects"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;Like all medicines, this medicine can cause side effects, although not everybody gets them.&lt;/p&gt;&lt;h3&gt;Serious side effects&lt;/h3&gt;&lt;h4&gt;Common: may affect up to 1 in 10 people&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Complications of diabetic eye disease (diabetic retinopathy). If you have diabetes, you should inform your doctor if you experience eye problems, such as changes in vision, during treatment with this medicine.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Uncommon: may affect up to 1 in 100 people&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Inflamed pancreas (acute pancreatitis). Signs of inflamed pancreas may include severe and long-lasting pain in your stomach; the pain may move to your back. You should see your doctor immediately if you experience such symptoms.&lt;/li&gt;&lt;li&gt;Kidney or bladder stones. Signs may include back or lower abdomen pain, difficulty in urination or change in colour of your urine.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Rare: may affect up to 1 in 1,000 people&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Severe allergic reactions (anaphylactic reactions, angioedema). You should seek immediate medical help and inform your doctor straight away if you get symptoms such as breathing problems, swelling of face, lips, tongue, and/or throat with difficulty swallowing, wheezing, fast heartbeat, pale and cold skin, feeling dizzy or weak.&lt;/li&gt;&lt;li&gt;Hip fractures.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Not known (frequency cannot be estimated from the available data)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Bowel obstruction. A severe form of constipation with additional symptoms such as stomach ache, bloating, vomiting, etc.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Other side effects&lt;/h3&gt;&lt;h4&gt;Very common: may affect more than 1 in 10 people&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Headache&lt;/li&gt;&lt;li&gt;Feeling sick (nausea)&lt;/li&gt;&lt;li&gt;Being sick (vomiting)&lt;/li&gt;&lt;li&gt;Diarrhoea&lt;/li&gt;&lt;li&gt;Constipation&lt;/li&gt;&lt;li&gt;Stomach pain&lt;/li&gt;&lt;li&gt;Feeling weak or tired&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;These usually go away over time.&lt;/p&gt;&lt;h4&gt;Common: may affect up to 1 in 10 people&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Feeling dizzy&lt;/li&gt;&lt;li&gt;Upset stomach or indigestion&lt;/li&gt;&lt;li&gt;Burping&lt;/li&gt;&lt;li&gt;Gas (flatulence)&lt;/li&gt;&lt;li&gt;Bloating of the stomach&lt;/li&gt;&lt;li&gt;Inflamed stomach (‘gastritis’) – the signs include stomach ache, feeling sick (nausea) or being sick (vomiting)&lt;/li&gt;&lt;li&gt;Reflux or heartburn – also called ‘gastro-oesophageal reflux disease’&lt;/li&gt;&lt;li&gt;Gallstones&lt;/li&gt;&lt;li&gt;Hair loss&lt;/li&gt;&lt;li&gt;Injection site reactions&lt;/li&gt;&lt;li&gt;Change in the way food or drink tastes&lt;/li&gt;&lt;li&gt;Change in skin sensation&lt;/li&gt;&lt;li&gt;Low blood sugar (hypoglycaemia) in patients with diabetes&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The warning signs of low blood sugar may come on suddenly. They can include: cold sweat, cool pale skin, headache, fast heartbeat, feeling sick (nausea) or very hungry, changes in vision, feeling sleepy or weak, feeling nervous, anxious or confused, difficulty concentrating or shaking. Your doctor will tell you how to treat low blood sugar and what to do if you notice these warning signs. Low blood sugar is more likely to happen if you also take a sulfonylurea or insulin. Your doctor may reduce your dose of these medicines before you start using this medicine.&lt;/p&gt;&lt;h4&gt;Uncommon: may affect up to 1 in 100 people&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Fast heartbeat&lt;/li&gt;&lt;li&gt;Increase of pancreatic enzymes (such as lipase and amylase) shown in blood tests&lt;/li&gt;&lt;li&gt;A delay in the emptying of the stomach&lt;/li&gt;&lt;li&gt;Low blood sugar (hypoglycaemia) in patients without diabetes&lt;/li&gt;&lt;li&gt;Increased levels of bilirubin in your blood. Signs include jaundice which is yellowing of the skin or the whites of your eyes.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Reporting of side effects&lt;/h3&gt;&lt;p&gt;If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the Yellow Card Scheme at: &lt;a href=\&quot;https://yellowcard.mhra.gov.uk/\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener noreferrer\&quot;&gt;https://yellowcard.mhra.gov.uk/&lt;/a&gt; or search for MHRA Yellow Card in the Google Play or Apple App Store. By reporting side effects, you can help provide more information on the safety of this medicine.&lt;/p&gt;&lt;/div&gt;"
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "5. How to store semaglutide",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a>" : "5. How to store semaglutide"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ul&gt;&lt;li&gt;Keep this medicine out of the sight and reach of children.&lt;/li&gt;&lt;li&gt;Do not use this medicine after the expiry date which is stated on the pen label and carton after ‘EXP’. The expiry date refers to the last day of that month.&lt;/li&gt;&lt;li&gt;Do not freeze semaglutide and do not use it if it has been frozen.&lt;/li&gt;&lt;li&gt;Keep the pen cap on in order to protect from light.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Before opening:&lt;/h3&gt;&lt;p&gt;Store in a refrigerator (2 °C to 8 °C). Keep away from the cooling element.&lt;/p&gt;&lt;h3&gt;During use:&lt;/h3&gt;&lt;p&gt;You can keep the pen for 6 weeks when stored at a temperature below 30 °C or in a refrigerator (2 °C to 8 °C) away from the cooling element.&lt;/p&gt;&lt;p&gt;Do not use this medicine if you notice that the solution is not clear and colourless.&lt;/p&gt;&lt;p&gt;Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.&lt;/p&gt;&lt;/div&gt;"
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "6. Contents of the pack and other information",
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/rmswi/",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.text">text</a>" : "6. Contents of the pack and other information"
+                },
+                "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h3&gt;What semaglutide contains&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;The active substance&lt;/strong&gt; is semaglutide.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;The other ingredients&lt;/strong&gt; are disodium phosphate dihydrate, propylene glycol, phenol, sodium hydroxide/hydrochloric acid (for pH adjustment), water for injection.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;semaglutide 0.25 mg FlexTouch solution for injection&lt;/h4&gt;&lt;p&gt;One mL of solution contains 0.68 mg of semaglutide. One pre-filled pen contains 1.0 mg semaglutide in 1.5 mL solution.&lt;/p&gt;&lt;h4&gt;semaglutide 0.5 mg FlexTouch solution for injection&lt;/h4&gt;&lt;p&gt;One mL of solution contains 1.34 mg of semaglutide. One pre-filled pen contains 2.0 mg semaglutide in 1.5 mL solution.&lt;/p&gt;&lt;h4&gt;semaglutide 1 mg FlexTouch solution for injection&lt;/h4&gt;&lt;p&gt;One mL of solution contains 1.34 mg of semaglutide. One pre-filled pen contains 4.0 mg semaglutide in 3 mL solution.&lt;/p&gt;&lt;h4&gt;semaglutide 1.7 mg FlexTouch solution for injection&lt;/h4&gt;&lt;p&gt;One mL of solution contains 2.27 mg of semaglutide. One pre-filled pen contains 6.8 mg semaglutide in 3 mL solution.&lt;/p&gt;&lt;h4&gt;semaglutide 2.4 mg FlexTouch solution for injection&lt;/h4&gt;&lt;p&gt;One mL of solution contains 3.2 mg of semaglutide. One pre-filled pen contains 9.6 mg of semaglutide in 3 mL solution.&lt;/p&gt;&lt;h3&gt;What semaglutide looks like and contents of the pack&lt;/h3&gt;&lt;p&gt;semaglutide is a clear and colourless solution for injection in a pre-filled disposable pen.&lt;/p&gt;&lt;p&gt;Each FlexTouch pen contains four doses. The pack size of each strength of semaglutide contains 1 pre-filled pen and 4 disposable NovoFine® Plus needles.&lt;/p&gt;&lt;p&gt;Your pen is designed to be used with NovoFine® Plus, NovoFine® or NovoTwist® disposable needles up to a length of 8 mm.&lt;/p&gt;&lt;h3&gt;Marketing Authorisation Holder&lt;/h3&gt;&lt;p&gt;Novo Nordisk A/S&lt;/p&gt;&lt;p&gt;Novo Allé&lt;/p&gt;&lt;p&gt;DK-2880 Bagsværd&lt;/p&gt;&lt;p&gt;Denmark&lt;/p&gt;&lt;h3&gt;Manufacturer&lt;/h3&gt;&lt;p&gt;Novo Nordisk A/S&lt;/p&gt;&lt;p&gt;Novo Allé&lt;/p&gt;&lt;p&gt;DK-2880 Bagsværd&lt;/p&gt;&lt;p&gt;Denmark&lt;/p&gt;&lt;p&gt;Novo Nordisk Production SAS&lt;/p&gt;&lt;p&gt;45, Avenue d’Orléans&lt;/p&gt;&lt;p&gt;28000 Chartres&lt;/p&gt;&lt;p&gt;France&lt;/p&gt;&lt;p&gt;This leaflet was last revised in 10/2024.&lt;/p&gt;&lt;/div&gt;"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/bundle.html#XBundle.entry.fullUrl">fullUrl</a>" : "http://hl7.eu/fhir/ig/gravitate-health/Composition/himss-semaglutide-mpd",
+      "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html">resourceType</a>" : "MedicinalProductDefinition",
+        "<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.id">id</a>" : "himss-semaglutide-mpd",
+        "<a href="http://hl7.org/fhir/R5/resource.html#XMedicinalProductDefinition.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/domainresource.html#XMedicinalProductDefinition.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;MedicinalProductDefinition_himss-semaglutide-mpd\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition himss-semaglutide-mpd&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;himss-semaglutide-mpd\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hchimss-semaglutide-mpd\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;http://hl7.org/fhir/uv/emedicinal-product-info/STU1/StructureDefinition-MedicinalProductDefinition-uv-epi.html\&quot;&gt;MedicinalProductDefinition (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://www.gravitatehealth.eu/sid/doc&lt;/code&gt;/himss-semaglutide&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://hl7.org/fhir/medicinal-product-type MedicinalProduct}\&quot;&gt;Medicinal Product&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;domain&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://hl7.org/fhir/medicinal-product-domain Human}\&quot;&gt;Human use&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://hl7.org/fhir/publication-status active}\&quot;&gt;active&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;legalStatusOfSupply&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://spor.ema.europa.eu/rmswi 100000072084}\&quot;&gt;Medicinal product subject to medical prescription&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;productName&lt;/b&gt;: semaglutide Flexpen 100 units/ml solution for injection in pre-filled pens&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000001}\&quot;&gt;Full name&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: semaglutide FlexPen&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000002}\&quot;&gt;Invented name part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: Insulin&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000003}\&quot;&gt;Scientific name part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: 100 units/ml&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000004}\&quot;&gt;Strength part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: solution for injection in pre-filled pens&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://spor.ema.europa.eu/lists/220000000000 220000000005}\&quot;&gt;Pharmaceutical dose form part&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h3&gt;Usages&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Country&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Jurisdiction&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Language&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=\&quot;Codes:{urn:iso:std:iso:3166 GBR}\&quot;&gt;United Kingdom&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span title=\&quot;Codes:{urn:iso:std:iso:3166 GBR}\&quot;&gt;United Kingdom&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span title=\&quot;Codes:{urn:ietf:bcp:47 en}\&quot;&gt;English&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;"
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>" : "https://www.gravitatehealth.eu/sid/doc",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a>" : "himss-semaglutide"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.type">type</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://hl7.org/fhir/medicinal-product-type",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "MedicinalProduct",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Medicinal Product"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.domain">domain</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://hl7.org/fhir/medicinal-product-domain",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "Human",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Human use"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.status">status</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://hl7.org/fhir/publication-status",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "active",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "active"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.legalStatusOfSupply">legalStatusOfSupply</a>" : {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "100000072084",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Medicinal product subject to medical prescription"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name">name</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.productName">productName</a>" : "semaglutide Flexpen 100 units/ml solution for injection in pre-filled pens",
+            "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.type">type</a>" : {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/lists/220000000000",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "220000000001",
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Full name"
+                }
+              ]
+            },
+            "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part">part</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a>" : "semaglutide FlexPen",
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/lists/220000000000",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "220000000002",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Invented name part"
+                    }
+                  ]
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a>" : "Insulin",
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/lists/220000000000",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "220000000003",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Scientific name part"
+                    }
+                  ]
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a>" : "100 units/ml",
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/lists/220000000000",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "220000000004",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Strength part"
+                    }
+                  ]
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.part">part</a>" : "solution for injection in pre-filled pens",
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.part.type">type</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "https://spor.ema.europa.eu/lists/220000000000",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "220000000005",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Pharmaceutical dose form part"
+                    }
+                  ]
+                }
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage">usage</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.country">country</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "urn:iso:std:iso:3166",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "GBR",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "United Kingdom"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.jurisdiction">jurisdiction</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "urn:iso:std:iso:3166",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "GBR",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "United Kingdom"
+                    }
+                  ]
+                },
+                "<a href="http://hl7.org/fhir/R5/medicinalproductdefinition.html#XMedicinalProductDefinition.name.usage.language">language</a>" : {
+                  "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "urn:ietf:bcp:47",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "en",
+                      "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "English"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/">Gravitate Health Project</a>.  Package hl7.eu.fhir.gh#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 17, 2026 14:07+0000">2026-09-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <div style="color: #33333" >
+	Links: <a style="color: #81BEF7"
+ 		href="toc.html">Table of Contents</a> |
+	<a style="color: #81BEF7"
+ 		href="qa.html">QA Report</a>
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.eu/fhir/ig/gravitate-health/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+-->
+	<a style="color: #81BEF7"
+ 		rel="license"
+ 		href="http://hl7.org/fhir/R5/license.html">
+		<img style="border-style: none;"
+   			alt="CC0"
+   			src="cc0.png"/>
+	</a>
+	<!--<a style="color: #81BEF7" href="todo.html">Search</a> | -->
+	<!--
+                 <a style="color: #81BEF7" target="_blank" href="mailto:mail@hl7belgium.org">Propose a change<img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+-->
+	<!--				 
+<br/>				 
+				 <a style="color: #81BEF7" rel="eufunded" href="https://europa.eu"><img style="border-style: none;" alt="EU" src="assets/images/en_horizontal_cef_logo.png" width="250"/></a>
+	-->
+	<div id=container width=100% style="display:block;" >
+		<div style="float: left; padding-top: 17px; padding-bottom: 17px;" >The Gravitate Health project has received funding from the IMI 2 Joint Undertaking under grant agreement No 945334.<br/>
+			This joint undertaking receives support from the EU H2020 research and innovation programme and EFPIA.</div>
+		<div style="float: right; width: 69px; vertical-align:middle; text-align:center; padding-top: 17px; padding-bottom: 17px;">
+			<img height="41"
+   				alt="a EU funded project"
+   				src="assets/images/eu.png"/>
+		</div>
+	</div>
+	<div>
+	</div>
+</div>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+
